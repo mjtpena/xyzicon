@@ -11,11 +11,16 @@ def generate_metadata(provider_name, directory):
     
     if os.path.isdir(directory):
         for root, dirs, files in os.walk(directory):
+            dirs[:] = sorted(
+                directory_name
+                for directory_name in dirs
+                if not directory_name.startswith(".") and directory_name != "__MACOSX"
+            )
             for file in sorted(files):
-                if file.lower().endswith('.svg'):
+                if not file.startswith(".") and file.lower().endswith('.svg'):
                     full_path = os.path.join(root, file)
                     # Make path relative to wwwroot
-                    rel_path = os.path.relpath(full_path, "wwwroot")
+                    rel_path = os.path.relpath(full_path, "wwwroot").replace(os.sep, "/")
                     
                     icons.append({
                         "name": os.path.splitext(file)[0],
@@ -23,6 +28,9 @@ def generate_metadata(provider_name, directory):
                         "fileName": file
                     })
     
+    if not icons:
+        raise ValueError(f"No SVG icons found for {provider_name} in {directory}")
+
     return {
         "Category": provider_name.capitalize(),
         "Count": len(icons),

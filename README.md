@@ -15,15 +15,22 @@ CloudIcons is a Blazor WebAssembly application that lets you download official i
 
 ## Icon Sources
 
-The icons are sourced from official provider repositories:
+The catalog is refreshed from official provider packages. The dates below describe the newest package/update published by each provider; some providers publish rolling downloads without version numbers.
 
-- [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) - **Last Updated: January 2025 (v18)**
-- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) - **Last Updated: July 31, 2025**
-- [Microsoft Fabric Icons](https://learn.microsoft.com/en-us/fabric/get-started/icons) - **Last Updated: August 21, 2025**
-- [Microsoft 365 Architecture Icons and Templates](https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide) - **Last Updated: January 9, 2024**
-- [Power Platform Icons](https://learn.microsoft.com/en-us/power-platform/guidance/icons) - **Last Updated: December 19, 2025**
-- [Dynamics 365 Icons](https://learn.microsoft.com/en-us/dynamics365/get-started/icons) - **Last Updated: December 19, 2025**
-- [GCP Architecture Icons](https://cloud.google.com/icons) - **Last Updated: Unknown**
+| Provider | Official source | Package represented in this catalog |
+| --- | --- | --- |
+| AWS | [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) | July 31, 2026 package |
+| Azure | [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) | Version 24, July 2026 |
+| Google Cloud | [Google Cloud Icon Library](https://cloud.google.com/icons) | Current core and category icons, plus the official legacy set (new iconography announced in 2025) |
+| Microsoft Entra | [Entra architecture icons](https://learn.microsoft.com/en-us/entra/architecture/architecture-icons) | October 2023 package, the latest linked by Microsoft |
+| Microsoft Fabric | [Fabric icons](https://learn.microsoft.com/en-us/fabric/fundamentals/icons) | Official Fabric samples package, version 6.1.0 |
+| Microsoft 365 | [Microsoft 365 architecture icons](https://learn.microsoft.com/en-us/previous-versions/microsoft-365/solutions/architecture-icons-templates) | 2024 package, the latest linked by Microsoft |
+| Power Platform | [Power Platform icons](https://learn.microsoft.com/en-us/power-platform/guidance/icons) | December 2025 update |
+| Dynamics 365 | [Dynamics 365 icons](https://learn.microsoft.com/en-us/dynamics365/get-started/icons) | February 2026 update |
+
+### Updating the icon catalog
+
+Run `bash update-icons.sh` to download the official packages, validate and stage all eight provider sets, replace the local assets, and regenerate their metadata. The script requires `curl`, `unzip`, and Python 3 (`python3`, or `python` on Windows); it leaves the existing catalog untouched if a download, archive check, extraction, or metadata generation fails.
 
 ## Getting Started
 
