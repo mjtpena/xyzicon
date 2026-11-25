@@ -82,9 +82,10 @@ export const awsManagementArtwork = [
   entry("aws-cloudwatch-logs", "aws", "CloudWatch Logs", ["Res_Amazon-CloudWatch_Logs_48"],
     "Timestamped log events are collected for monitoring.",
     [
-      line([15, 24], [27, 24]), line([36, 24], [86, 24]), line([15, 39], [27, 39]), line([36, 39], [80, 39]),
-      line([15, 54], [27, 54]), line([36, 54], [65, 54]), line([15, 69], [27, 69]), line([36, 69], [65, 69]),
-      oval(63, 45, 28, 28), line([84, 66], [103, 85]), line([14, 109], [110, 109]),
+      line([23, 28], [23, 83], [28, 91], [35, 94], [92, 94], [99, 91], [103, 83], [103, 76], [87, 76], [87, 83], [92, 89], [99, 91]),
+      line([23, 28], [27, 20], [34, 17], [89, 17], [96, 20], [99, 27], [99, 32], [23, 32]),
+      line([32, 45], [41, 45]), line([48, 45], [87, 45]), line([32, 57], [41, 57]), line([48, 57], [80, 57]),
+      line([32, 69], [41, 69]), line([48, 69], [83, 69]), line([14, 109], [110, 109]),
     ]),
   entry("aws-cloudwatch-metrics-insights", "aws", "CloudWatch Metrics Insights", ["Res_Amazon-CloudWatch_Metrics-Insights_48"],
     "A magnifier examines trends in a metric chart.",

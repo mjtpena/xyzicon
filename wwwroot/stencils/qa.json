@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 541,
+  "approved": 553,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,18 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-cloudwatch-logs",
-    "aws-cloudwatch-metrics-insights",
-    "aws-cloudwatch-rum",
-    "aws-cloudwatch-rule",
-    "aws-cloudwatch-synthetics",
-    "aws-systems-inventory",
-    "aws-systems-maintenance-windows",
-    "aws-systems-opscenter",
-    "aws-systems-parameter-store",
-    "aws-systems-patch-manager",
-    "aws-systems-run-command",
-    "aws-systems-session-manager",
     "aws-systems-state-manager",
     "aws-systems-application-manager",
     "aws-systems-automation",
@@ -18656,13 +18644,13 @@
       },
       {
         "a": "azure-orbital",
-        "b": "aws-cloudwatch-logs",
-        "similarity": 0.2302
+        "b": "aws-s3-standard",
+        "similarity": 0.2297
       },
       {
         "a": "azure-orbital",
-        "b": "aws-s3-standard",
-        "similarity": 0.2297
+        "b": "aws-ebs-lifecycle-manager",
+        "similarity": 0.2227
       }
     ],
     "azure-windows-notification-services": [
@@ -19318,14 +19306,14 @@
         "similarity": 0.248
       },
       {
-        "a": "azure-resource-graph-explorer",
-        "b": "aws-cloudwatch-logs",
-        "similarity": 0.2429
-      },
-      {
         "a": "azure-data-transfer",
         "b": "azure-resource-graph-explorer",
         "similarity": 0.2313
+      },
+      {
+        "a": "azure-resource-graph-explorer",
+        "b": "aws-backup-s3",
+        "similarity": 0.2289
       }
     ],
     "azure-alerts": [
@@ -24226,19 +24214,19 @@
     ],
     "aws-cloudwatch-logs": [
       {
-        "a": "azure-reserved-capacity",
+        "a": "azure-traffic-manager-profiles",
         "b": "aws-cloudwatch-logs",
-        "similarity": 0.295
+        "similarity": 0.3008
       },
       {
         "a": "aws-cloudwatch-logs",
-        "b": "azure-extensions",
-        "similarity": 0.2937
+        "b": "aws-waf-rule",
+        "similarity": 0.2796
       },
       {
         "a": "aws-cloudwatch-logs",
-        "b": "aws-vpc-network-adapter",
-        "similarity": 0.2915
+        "b": "azure-images",
+        "similarity": 0.2769
       }
     ],
     "aws-cloudwatch-metrics-insights": [
@@ -28113,9 +28101,9 @@
         "similarity": 0.2424
       },
       {
-        "a": "azure-traffic-manager-profiles",
+        "a": "aws-cloudwatch-logs",
         "b": "m365-task-list-ltr",
-        "similarity": 0.2276
+        "similarity": 0.2292
       }
     ],
     "m365-text-bullet-list": [
@@ -29865,14 +29853,14 @@
         "similarity": 0.2424
       },
       {
+        "a": "aws-cloudwatch-logs",
+        "b": "fabric-arrow-right-double-wrap",
+        "similarity": 0.2185
+      },
+      {
         "a": "m365-cart",
         "b": "fabric-arrow-right-double-wrap",
         "similarity": 0.2172
-      },
-      {
-        "a": "aws-general-application",
-        "b": "fabric-arrow-right-double-wrap",
-        "similarity": 0.2086
       }
     ],
     "fabric-arrow-sort": [
@@ -33582,9 +33570,9 @@
         "similarity": 0.3116
       },
       {
-        "a": "aws-cloudwatch-logs",
+        "a": "azure-advisor",
         "b": "azure-extensions",
-        "similarity": 0.2937
+        "similarity": 0.2913
       }
     ],
     "azure-file": [
