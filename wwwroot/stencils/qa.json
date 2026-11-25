@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 950,
-  "aliases": 3671,
+  "count": 954,
+  "aliases": 3679,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -866,6 +866,8 @@
     "azure-service-fabric-clusters",
     "azure-host-groups",
     "azure-hosts",
+    "fabric-area-location",
+    "fabric-bar-edit",
     "fabric-circle-chart",
     "fabric-hexagons",
     "fabric-home-waves",
@@ -911,6 +913,8 @@
     "fabric-overlapping-squares-line",
     "fabric-person-pulse",
     "fabric-person-settings",
+    "fabric-bracket-rectangles",
+    "fabric-column-uneven",
     "fabric-column-double-caret",
     "fabric-column-inline",
     "fabric-column-relationship",
@@ -1029,8 +1033,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1081,
-      "concepts": 184
+      "covered": 1089,
+      "concepts": 188
     },
     "entra": {
       "sources": 14,
@@ -7961,9 +7965,9 @@
         "similarity": 0.1195
       },
       {
-        "a": "gcp-quotas",
-        "b": "m365-heart",
-        "similarity": 0.1167
+        "a": "m365-heart",
+        "b": "fabric-bracket-rectangles",
+        "similarity": 0.1168
       }
     ],
     "m365-key": [
@@ -15731,6 +15735,40 @@
         "similarity": 0.1936
       }
     ],
+    "fabric-area-location": [
+      {
+        "a": "dynamics-family",
+        "b": "fabric-area-location",
+        "similarity": 0.204
+      },
+      {
+        "a": "fabric-area-location",
+        "b": "fabric-bar-prohibited",
+        "similarity": 0.2024
+      },
+      {
+        "a": "fabric-area-location",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2024
+      }
+    ],
+    "fabric-bar-edit": [
+      {
+        "a": "fabric-bar-edit",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2022
+      },
+      {
+        "a": "fabric-area-location",
+        "b": "fabric-bar-edit",
+        "similarity": 0.1743
+      },
+      {
+        "a": "aws-mediatailor",
+        "b": "fabric-bar-edit",
+        "similarity": 0.1721
+      }
+    ],
     "fabric-circle-chart": [
       {
         "a": "fabric-circle-chart",
@@ -15794,9 +15832,9 @@
         "similarity": 0.2041
       },
       {
-        "a": "fabric-bar-prohibited",
-        "b": "fabric-locked-columns",
-        "similarity": 0.2007
+        "a": "fabric-area-location",
+        "b": "fabric-bar-prohibited",
+        "similarity": 0.2024
       }
     ],
     "fabric-database-pulse": [
@@ -16496,6 +16534,40 @@
         "a": "aws-fsx-lustre",
         "b": "fabric-person-settings",
         "similarity": 0.1383
+      }
+    ],
+    "fabric-bracket-rectangles": [
+      {
+        "a": "m365-shopping-bag",
+        "b": "fabric-bracket-rectangles",
+        "similarity": 0.1811
+      },
+      {
+        "a": "m365-office-notebook",
+        "b": "fabric-bracket-rectangles",
+        "similarity": 0.1722
+      },
+      {
+        "a": "azure-hosts",
+        "b": "fabric-bracket-rectangles",
+        "similarity": 0.1691
+      }
+    ],
+    "fabric-column-uneven": [
+      {
+        "a": "m365-calendar",
+        "b": "fabric-column-uneven",
+        "similarity": 0.2131
+      },
+      {
+        "a": "m365-wallet-card",
+        "b": "fabric-column-uneven",
+        "similarity": 0.1691
+      },
+      {
+        "a": "dynamics-family",
+        "b": "fabric-column-uneven",
+        "similarity": 0.1652
       }
     ],
     "fabric-column-double-caret": [

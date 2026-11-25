@@ -5,6 +5,26 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
 const nonItem = (name) => [20, 24, 32, 40, 48, 64].map((size) => `${name}_${size}_non-item`);
 
 export const fabricVisualArtwork = [
+  entry("fabric-area-location", "fabric", "Area chart location",
+    variants("data_area_location", [20]),
+    "A location marker identifies a point on an area chart.",
+    [
+      line([15, 19], [15, 102], [83, 102]), line([15, 84], [36, 64], [52, 73], [70, 52], [87, 60], [101, 42]),
+      line([36, 64], [36, 102]), line([52, 73], [52, 102]), line([70, 52], [70, 102]),
+      line([91, 67], [84, 70], [81, 77], [83, 85], [94, 100], [105, 85], [107, 77], [104, 70], [97, 67], [91, 67]),
+      oval(90, 73, 8, 8),
+    ]),
+  entry("fabric-bar-edit", "fabric", "Edit bar chart",
+    variants("data_bar_vertical_edit", [20]),
+    "A pencil edits a vertical bar chart.",
+    [
+      line([15, 100], [15, 78], [29, 78], [29, 100]),
+      line([37, 100], [37, 48], [51, 48], [51, 100]),
+      line([59, 100], [59, 24], [73, 24], [73, 100]),
+      line([9, 100], [81, 100]),
+      line([77, 89], [103, 63], [112, 72], [86, 98], [75, 100], [77, 89]),
+      line([98, 68], [107, 77]),
+    ]),
   entry("fabric-circle-chart", "fabric", "Circle chart",
     variants("circle_chart", [20]),
     "A parent circle connects to two child circles.",

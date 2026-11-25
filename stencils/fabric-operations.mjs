@@ -4,6 +4,22 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricOperationArtwork = [
+  entry("fabric-bracket-rectangles", "fabric", "Bracket rectangles",
+    variants("bracket_rectangles", [20]),
+    "A bracket groups two rectangular items.",
+    [
+      line([39, 19], [23, 19], [23, 108], [39, 108]),
+      rect(49, 26, 59, 24), rect(49, 73, 59, 24),
+      line([58, 38], [98, 38]), line([58, 85], [98, 85]),
+    ]),
+  entry("fabric-column-uneven", "fabric", "Uneven columns",
+    variants("column_uneven", [20]),
+    "Three columns of differently sized rows form an uneven layout.",
+    [
+      line([15, 23], [28, 23]), line([15, 43], [28, 43]), line([15, 63], [28, 63]), line([15, 83], [28, 83]), line([15, 103], [28, 103]),
+      line([44, 23], [83, 23]), line([44, 43], [83, 43]), line([44, 63], [83, 63]), line([44, 83], [83, 83]), line([44, 103], [83, 103]),
+      line([99, 23], [113, 23]), line([99, 43], [113, 43]), line([99, 63], [113, 63]), line([99, 83], [113, 83]), line([99, 103], [113, 103]),
+    ]),
   entry("fabric-column-double-caret", "fabric", "Columns with opposing carets",
     variants("column_double_caret", [20]),
     "Two columns point outward in opposite directions.",
