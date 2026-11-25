@@ -3,6 +3,54 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-vpc-carrier-gateway", "aws", "VPC Carrier Gateway", ["Res_Amazon-VPC_Carrier-Gateway_48"],
+    "A carrier gateway connects a VPC to a mobile network.",
+    [
+      line([13, 30], [13, 81], [48, 81], [48, 30], [13, 30]), line([19, 40], [42, 40]), line([19, 51], [42, 51]), line([49, 55], [72, 55]), line([65, 48], [72, 55], [65, 62]),
+      line([88, 85], [95, 44], [102, 85]), line([91, 67], [99, 67]), oval(92, 37, 6, 6, true), line([84, 37], [80, 31], [84, 25]), line([104, 37], [108, 31], [104, 25]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-customer-gateway", "aws", "VPC Customer Gateway", ["Res_Amazon-VPC_Customer-Gateway_48"],
+    "A customer gateway connects an on-premises network to a VPN.",
+    [
+      line([11, 33], [29, 21], [47, 33], [47, 79], [11, 79], [11, 33]), line([18, 42], [40, 42]), line([18, 53], [40, 53]), line([47, 53], [72, 53]), line([65, 46], [72, 53], [65, 60]),
+      rect(76, 43, 30, 25), line([82, 43], [82, 36], [85, 31], [91, 29], [97, 31], [100, 36], [100, 43]), oval(88, 50, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-network-adapter", "aws", "VPC Elastic Network Adapter", ["Res_Amazon-VPC_Elastic-Network-Adapter_48"],
+    "A network adapter connects a machine to a network.",
+    [
+      rect(23, 24, 77, 61), line([23, 39], [100, 39]), rect(38, 48, 34, 24), line([44, 54], [66, 54]), line([44, 63], [66, 63]),
+      line([32, 85], [32, 95]), line([44, 85], [44, 95]), line([56, 85], [56, 95]), line([68, 85], [68, 95]), line([80, 85], [80, 95]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-network-interface", "aws", "VPC Elastic Network Interface", ["Res_Amazon-VPC_Elastic-Network-Interface_48"],
+    "A virtual network interface attaches to an instance.",
+    [
+      rect(16, 23, 51, 57), line([16, 36], [67, 36]), line([24, 47], [57, 47]), line([24, 58], [53, 58]), line([67, 52], [80, 52]),
+      line([80, 39], [105, 39], [105, 65], [80, 65], [80, 39]), line([86, 45], [99, 45]), line([86, 52], [99, 52]), line([86, 59], [99, 59]), line([105, 52], [114, 52]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-endpoints", "aws", "VPC Endpoints", ["Res_Amazon-VPC_Endpoints_48"],
+    "A private endpoint connects a VPC to a service.",
+    [
+      line([12, 19], [49, 19], [49, 85], [12, 85], [12, 19]), line([19, 29], [41, 29]), line([19, 40], [41, 40]), line([19, 51], [41, 51]),
+      line([50, 52], [75, 52]), line([68, 45], [75, 52], [68, 59]), oval(77, 35, 35, 35), rect(86, 45, 17, 15), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-flow-logs", "aws", "VPC Flow Logs", ["Res_Amazon-VPC_Flow-Logs_48"],
+    "Network flow records capture incoming and outgoing traffic.",
+    [
+      line([14, 33], [48, 33]), line([41, 26], [48, 33], [41, 40]), line([48, 55], [14, 55]), line([21, 48], [14, 55], [21, 62]),
+      line([56, 20], [95, 20], [106, 31], [106, 89], [56, 89], [56, 20]), line([95, 20], [95, 31], [106, 31]), line([64, 42], [97, 42]), line([64, 53], [97, 53]), line([64, 64], [97, 64]), line([64, 75], [91, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-access-analyzer", "aws", "VPC Network Access Analyzer", ["Res_Amazon-VPC_Network-Access-Analyzer_48"],
+    "A magnifier inspects allowed network access paths.",
+    [
+      rect(12, 23, 29, 23), rect(79, 23, 29, 23), rect(46, 66, 29, 23), line([41, 34], [79, 34]), line([26, 46], [46, 66]), line([94, 46], [75, 66]),
+      oval(49, 29, 30, 30), line([71, 51], [89, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-network-acl", "aws", "VPC Network Access Control List", ["Res_Amazon-VPC_Network-Access-Control-List_48"],
+    "A network access control list permits or denies traffic.",
+    [
+      line([11, 40], [38, 40]), line([31, 33], [38, 40], [31, 47]), line([38, 65], [11, 65]), line([18, 58], [11, 65], [18, 72]),
+      rect(46, 19, 66, 69), line([46, 33], [112, 33]), line([54, 46], [59, 51], [67, 42]), line([74, 47], [102, 47]), line([54, 64], [65, 75]), line([65, 64], [54, 75]), line([74, 70], [102, 70]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-route53-hosted-zone", "aws", "Route 53 Hosted Zone", ["Res_Amazon-Route-53-Hosted-Zone_48"],
     "A hosted DNS zone contains records for an internet domain.",
     [
