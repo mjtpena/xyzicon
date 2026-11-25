@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1938,
-  "aliases": 5105,
+  "count": 1945,
+  "aliases": 5113,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1247,6 +1247,13 @@
     "aws-elemental-live",
     "aws-elemental-link",
     "aws-elemental-server",
+    "aws-iam-sts",
+    "aws-iam-addon",
+    "aws-iam-access-analyzer",
+    "aws-iam-roles-anywhere",
+    "aws-iam-long-term-credential",
+    "aws-iam-temporary-credential",
+    "aws-iam-role",
     "aws-certificate-authority",
     "aws-directory-ad-connector",
     "aws-directory-managed-ad",
@@ -2238,8 +2245,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1722,
-      "concepts": 676
+      "covered": 1730,
+      "concepts": 683
     },
     "gcp": {
       "sources": 261,
@@ -12508,6 +12515,11 @@
     ],
     "aws-opensearch-ingestion": [
       {
+        "a": "aws-opensearch-ingestion",
+        "b": "aws-iam-roles-anywhere",
+        "similarity": 0.3021
+      },
+      {
         "a": "gcp-analytics-hub",
         "b": "aws-opensearch-ingestion",
         "similarity": 0.3006
@@ -12516,11 +12528,6 @@
         "a": "azure-data-share-invitations",
         "b": "aws-opensearch-ingestion",
         "similarity": 0.2957
-      },
-      {
-        "a": "aws-opensearch-ingestion",
-        "b": "aws-vpc",
-        "similarity": 0.2805
       }
     ],
     "aws-opensearch-traces": [
@@ -15358,8 +15365,8 @@
       },
       {
         "a": "azure-user-subscriptions",
-        "b": "aws-iot-lambda-function",
-        "similarity": 0.231
+        "b": "aws-iam-role",
+        "similarity": 0.2571
       }
     ],
     "azure-entra-domain-services": [
@@ -15732,8 +15739,8 @@
       },
       {
         "a": "azure-privileged-identity-management",
-        "b": "azure-recent",
-        "similarity": 0.2286
+        "b": "aws-iam-role",
+        "similarity": 0.2304
       }
     ],
     "azure-api-proxy": [
@@ -17058,8 +17065,8 @@
       },
       {
         "a": "azure-user-privacy",
-        "b": "aws-greengrass-connector",
-        "similarity": 0.2459
+        "b": "aws-iam-temporary-credential",
+        "similarity": 0.2574
       }
     ],
     "azure-managed-desktop": [
@@ -17143,8 +17150,8 @@
       },
       {
         "a": "azure-alerts",
-        "b": "aws-iot-thing-humidity-sensor",
-        "similarity": 0.2325
+        "b": "aws-iam-sts",
+        "similarity": 0.2505
       }
     ],
     "azure-advisor": [
@@ -17370,6 +17377,11 @@
     ],
     "aws-iot-alexa-voice-service": [
       {
+        "a": "aws-iot-alexa-voice-service",
+        "b": "aws-iam-role",
+        "similarity": 0.266
+      },
+      {
         "a": "azure-privileged-identity-management",
         "b": "aws-iot-alexa-voice-service",
         "similarity": 0.2469
@@ -17378,11 +17390,6 @@
         "a": "azure-hybrid-connectivity-hub",
         "b": "aws-iot-alexa-voice-service",
         "similarity": 0.2459
-      },
-      {
-        "a": "aws-iot-alexa-voice-service",
-        "b": "azure-counter",
-        "similarity": 0.2355
       }
     ],
     "aws-iot-echo": [
@@ -18033,6 +18040,11 @@
     ],
     "aws-greengrass-connector": [
       {
+        "a": "aws-greengrass-connector",
+        "b": "aws-iam-addon",
+        "similarity": 0.2607
+      },
+      {
         "a": "azure-user-privacy",
         "b": "aws-greengrass-connector",
         "similarity": 0.2459
@@ -18041,11 +18053,6 @@
         "a": "aws-greengrass-connector",
         "b": "azure-branch",
         "similarity": 0.2404
-      },
-      {
-        "a": "aws-greengrass-connector",
-        "b": "aws-backup-virtual-machine-monitor",
-        "similarity": 0.2322
       }
     ],
     "aws-greengrass-interprocess": [
@@ -18339,6 +18346,11 @@
     ],
     "aws-iot-thing-vibration-sensor": [
       {
+        "a": "aws-iot-thing-vibration-sensor",
+        "b": "aws-iam-long-term-credential",
+        "similarity": 0.3906
+      },
+      {
         "a": "aws-iot-fire-tv",
         "b": "aws-iot-thing-vibration-sensor",
         "similarity": 0.3378
@@ -18347,11 +18359,6 @@
         "a": "azure-intune-ebooks",
         "b": "aws-iot-thing-vibration-sensor",
         "similarity": 0.3232
-      },
-      {
-        "a": "aws-iot-thing-vibration-sensor",
-        "b": "aws-directory-ad-connector",
-        "similarity": 0.3214
       }
     ],
     "aws-iot-thing-thermostat": [
@@ -19020,6 +19027,11 @@
     "aws-s3-bucket": [
       {
         "a": "aws-s3-bucket",
+        "b": "aws-iam-addon",
+        "similarity": 0.2468
+      },
+      {
+        "a": "aws-s3-bucket",
         "b": "azure-branch",
         "similarity": 0.2437
       },
@@ -19027,11 +19039,6 @@
         "a": "aws-s3-bucket",
         "b": "aws-iam-mfa-token",
         "similarity": 0.2308
-      },
-      {
-        "a": "aws-sitewise-asset-properties",
-        "b": "aws-s3-bucket",
-        "similarity": 0.2241
       }
     ],
     "aws-s3-directory-bucket": [
@@ -19930,9 +19937,9 @@
         "similarity": 0.2909
       },
       {
-        "a": "aws-glacier-vault",
-        "b": "aws-braket-chip",
-        "similarity": 0.2546
+        "a": "aws-braket-chip",
+        "b": "aws-iam-long-term-credential",
+        "similarity": 0.2749
       }
     ],
     "aws-braket-embedded-simulator": [
@@ -23099,6 +23106,11 @@
     ],
     "aws-thinkbox-krakatoa": [
       {
+        "a": "aws-thinkbox-krakatoa",
+        "b": "aws-iam-roles-anywhere",
+        "similarity": 0.2945
+      },
+      {
         "a": "aws-thinkbox-frost",
         "b": "aws-thinkbox-krakatoa",
         "similarity": 0.2807
@@ -23107,11 +23119,6 @@
         "a": "azure-sendgrid-accounts",
         "b": "aws-thinkbox-krakatoa",
         "similarity": 0.2684
-      },
-      {
-        "a": "aws-mxnet",
-        "b": "aws-thinkbox-krakatoa",
-        "similarity": 0.2671
       }
     ],
     "aws-thinkbox-stoke": [
@@ -23384,6 +23391,125 @@
         "a": "fabric-copy-job",
         "b": "aws-elemental-server",
         "similarity": 0.2534
+      }
+    ],
+    "aws-iam-sts": [
+      {
+        "a": "aws-iam-sts",
+        "b": "azure-search-grid",
+        "similarity": 0.2557
+      },
+      {
+        "a": "aws-iot-device-location",
+        "b": "aws-iam-sts",
+        "similarity": 0.2552
+      },
+      {
+        "a": "azure-multi-factor-authentication",
+        "b": "aws-iam-sts",
+        "similarity": 0.2515
+      }
+    ],
+    "aws-iam-addon": [
+      {
+        "a": "aws-greengrass-connector",
+        "b": "aws-iam-addon",
+        "similarity": 0.2607
+      },
+      {
+        "a": "aws-iam-addon",
+        "b": "azure-branch",
+        "similarity": 0.2563
+      },
+      {
+        "a": "aws-s3-bucket",
+        "b": "aws-iam-addon",
+        "similarity": 0.2468
+      }
+    ],
+    "aws-iam-access-analyzer": [
+      {
+        "a": "aws-braket-chandelier",
+        "b": "aws-iam-access-analyzer",
+        "similarity": 0.2564
+      },
+      {
+        "a": "azure-maps-accounts",
+        "b": "aws-iam-access-analyzer",
+        "similarity": 0.2315
+      },
+      {
+        "a": "aws-iam-access-analyzer",
+        "b": "aws-elasticache-node",
+        "similarity": 0.2314
+      }
+    ],
+    "aws-iam-roles-anywhere": [
+      {
+        "a": "azure-managed-desktop",
+        "b": "aws-iam-roles-anywhere",
+        "similarity": 0.3035
+      },
+      {
+        "a": "aws-opensearch-ingestion",
+        "b": "aws-iam-roles-anywhere",
+        "similarity": 0.3021
+      },
+      {
+        "a": "aws-thinkbox-krakatoa",
+        "b": "aws-iam-roles-anywhere",
+        "similarity": 0.2945
+      }
+    ],
+    "aws-iam-long-term-credential": [
+      {
+        "a": "aws-iot-thing-vibration-sensor",
+        "b": "aws-iam-long-term-credential",
+        "similarity": 0.3906
+      },
+      {
+        "a": "aws-iam-long-term-credential",
+        "b": "azure-information",
+        "similarity": 0.3395
+      },
+      {
+        "a": "aws-iot-fire-tv",
+        "b": "aws-iam-long-term-credential",
+        "similarity": 0.3102
+      }
+    ],
+    "aws-iam-temporary-credential": [
+      {
+        "a": "azure-user-privacy",
+        "b": "aws-iam-temporary-credential",
+        "similarity": 0.2574
+      },
+      {
+        "a": "azure-ssis-lift-shift",
+        "b": "aws-iam-temporary-credential",
+        "similarity": 0.2237
+      },
+      {
+        "a": "aws-s3-one-zone-ia",
+        "b": "aws-iam-temporary-credential",
+        "similarity": 0.2203
+      }
+    ],
+    "aws-iam-role": [
+      {
+        "a": "aws-iot-alexa-voice-service",
+        "b": "aws-iam-role",
+        "similarity": 0.266
+      },
+      {
+        "a": "azure-user-subscriptions",
+        "b": "aws-iam-role",
+        "similarity": 0.2571
+      },
+      {
+        "a": "azure-user-privacy",
+        "b": "aws-iam-role",
+        "similarity": 0.2455
       }
     ],
     "aws-certificate-authority": [
@@ -28926,6 +29052,11 @@
     ],
     "azure-troubleshoot": [
       {
+        "a": "aws-iam-role",
+        "b": "azure-troubleshoot",
+        "similarity": 0.2228
+      },
+      {
         "a": "azure-windows-core-services",
         "b": "azure-troubleshoot",
         "similarity": 0.216
@@ -28934,11 +29065,6 @@
         "a": "aws-iot-topic",
         "b": "azure-troubleshoot",
         "similarity": 0.2146
-      },
-      {
-        "a": "aws-iot-action",
-        "b": "azure-troubleshoot",
-        "similarity": 0.2095
       }
     ],
     "azure-resource-explorer": [
@@ -28994,6 +29120,11 @@
     ],
     "azure-branch": [
       {
+        "a": "aws-iam-addon",
+        "b": "azure-branch",
+        "similarity": 0.2563
+      },
+      {
         "a": "aws-s3-bucket",
         "b": "azure-branch",
         "similarity": 0.2437
@@ -29002,11 +29133,6 @@
         "a": "aws-greengrass-connector",
         "b": "azure-branch",
         "similarity": 0.2404
-      },
-      {
-        "a": "azure-windows-core-services",
-        "b": "azure-branch",
-        "similarity": 0.2354
       }
     ],
     "azure-browser": [
@@ -29164,6 +29290,11 @@
     ],
     "azure-information": [
       {
+        "a": "aws-iam-long-term-credential",
+        "b": "azure-information",
+        "similarity": 0.3395
+      },
+      {
         "a": "aws-iot-fire-tv",
         "b": "azure-information",
         "similarity": 0.2886
@@ -29172,11 +29303,6 @@
         "a": "m365-retail-building",
         "b": "azure-information",
         "similarity": 0.2723
-      },
-      {
-        "a": "gcp-trace",
-        "b": "azure-information",
-        "similarity": 0.2633
       }
     ],
     "azure-recent": [
@@ -30699,14 +30825,14 @@
         "similarity": 0.1638
       },
       {
+        "a": "aws-iam-temporary-credential",
+        "b": "fabric-hexagons",
+        "similarity": 0.1374
+      },
+      {
         "a": "fabric-graph-model",
         "b": "fabric-hexagons",
         "similarity": 0.1322
-      },
-      {
-        "a": "fabric-hexagons",
-        "b": "fabric-diagram-branch",
-        "similarity": 0.1297
       }
     ],
     "fabric-home-waves": [
@@ -30789,9 +30915,9 @@
         "similarity": 0.1407
       },
       {
-        "a": "aws-global-accelerator",
+        "a": "aws-iam-sts",
         "b": "fabric-iot-person",
-        "similarity": 0.1397
+        "similarity": 0.1406
       }
     ],
     "fabric-three-shapes": [
@@ -31951,6 +32077,11 @@
     ],
     "fabric-rectangle-arrow-up": [
       {
+        "a": "aws-iam-long-term-credential",
+        "b": "fabric-rectangle-arrow-up",
+        "similarity": 0.2962
+      },
+      {
         "a": "fabric-funnel",
         "b": "fabric-rectangle-arrow-up",
         "similarity": 0.2406
@@ -31959,11 +32090,6 @@
         "a": "fabric-rectangle-arrow-up",
         "b": "fabric-table-link-triangle",
         "similarity": 0.2357
-      },
-      {
-        "a": "fabric-rectangle-exit-down",
-        "b": "fabric-rectangle-arrow-up",
-        "similarity": 0.2291
       }
     ],
     "fabric-rectangle-exit-up": [

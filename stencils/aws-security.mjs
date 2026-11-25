@@ -3,6 +3,50 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsSecurityArtwork = [
+  entry("aws-iam-sts", "aws", "AWS Security Token Service", ["Res_AWS-Identity-Access-Management_AWS-STS_48", "Res_AWS-Identity-Access-Management_AWS-STS-Alternate_48"],
+    "A time-limited security token carries a key.",
+    [
+      rect(15, 23, 68, 51), line([15, 33], [83, 33]), oval(26, 42, 17, 17), line([42, 50], [62, 50], [68, 56], [74, 50]), line([58, 50], [58, 56]),
+      oval(75, 58, 33, 33), line([92, 64], [92, 74], [99, 78]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-addon", "aws", "IAM Add-on", ["Res_AWS-Identity-Access-Management_Add-on_48"],
+    "An additional key joins an existing set of credentials.",
+    [
+      oval(18, 30, 30, 30), line([43, 45], [83, 45], [90, 52], [98, 45]), line([68, 45], [68, 53]), oval(28, 40, 9, 9),
+      line([85, 68], [85, 94]), line([72, 81], [98, 81]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-access-analyzer", "aws", "IAM Access Analyzer", ["Res_AWS-Identity-Access-Management_IAM-Access-Analyzer_48"],
+    "A magnifier inspects paths of access between a principal and resources.",
+    [
+      oval(15, 18, 17, 17), line([10, 52], [12, 43], [18, 39], [27, 39], [33, 43], [35, 52]),
+      line([34, 35], [55, 35], [55, 25], [76, 25]), line([55, 35], [55, 53], [75, 53]), rect(77, 16, 23, 18), rect(76, 45, 24, 17),
+      oval(48, 62, 29, 29), line([70, 84], [88, 102]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-roles-anywhere", "aws", "IAM Roles Anywhere", ["Res_AWS-Identity-Access-Management_IAM-Roles-Anywhere_48"],
+    "An external server assumes a cloud role using a certificate.",
+    [
+      line([14, 79], [14, 23], [53, 23], [53, 79], [14, 79]), rect(21, 31, 8, 8), rect(37, 31, 8, 8), rect(21, 47, 8, 8), rect(37, 47, 8, 8), rect(27, 64, 13, 15),
+      line([54, 51], [68, 51]), line([62, 45], [68, 51], [62, 57]),
+      line([74, 25], [100, 25], [108, 33], [108, 77], [74, 77], [74, 25]), line([100, 25], [100, 33], [108, 33]), oval(81, 41, 12, 12),
+      line([92, 47], [103, 47], [103, 53]), line([81, 65], [102, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-long-term-credential", "aws", "IAM Long-Term Security Credential", ["Res_AWS-Identity-Access-Management_Long-Term-Security-Credential_48"],
+    "A persistent credential card holds a key.",
+    [
+      rect(18, 22, 91, 61), line([18, 35], [109, 35]), oval(28, 45, 20, 20), oval(35, 52, 6, 6), line([47, 55], [81, 55], [87, 61], [93, 55]), line([68, 55], [68, 62]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-temporary-credential", "aws", "IAM Temporary Security Credential", ["Res_AWS-Identity-Access-Management_Temporary-Security-Credential_48"],
+    "A credential key expires at a specified time.",
+    [
+      oval(15, 26, 26, 26), oval(24, 35, 8, 8), line([38, 39], [75, 39], [82, 46], [89, 39]), line([64, 39], [64, 46]),
+      oval(66, 56, 38, 38), line([85, 62], [85, 75], [95, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-role", "aws", "IAM Role", ["Res_AWS-Identity-Access-Management_Role_48"],
+    "A principal assumes a role that grants a key.",
+    [
+      oval(18, 23, 25, 25), line([12, 80], [14, 68], [20, 59], [29, 56], [38, 59], [44, 68], [46, 80]),
+      line([47, 48], [62, 48]), line([56, 42], [62, 48], [56, 54]), oval(68, 35, 20, 20), line([86, 45], [107, 45], [112, 50], [116, 45]), line([99, 45], [99, 52]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-certificate-authority", "aws", "Certificate Authority", ["Res_AWS-Certificate-Manager_Certificate-Authority_48"],
     "A certificate authority signs an issued certificate.",
     [
