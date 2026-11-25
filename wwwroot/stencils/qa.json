@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1300,
-  "aliases": 4260,
+  "count": 1306,
+  "aliases": 4272,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1186,6 +1186,12 @@
     "fabric-shapes-toolbox",
     "fabric-scan-categorize",
     "fabric-save-phone",
+    "fabric-shopping-data-bars",
+    "fabric-signal-square",
+    "fabric-signal-tower",
+    "fabric-slide-accept-dismiss",
+    "fabric-slide-ribbon",
+    "fabric-slide-window",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1371,6 +1377,13 @@
       "notes": "The angled check and crossed strokes remain different at 32px."
     },
     {
+      "a": "fabric-slide-ribbon",
+      "b": "fabric-slide-window",
+      "similarity": 0.682,
+      "review": "distinct",
+      "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
+    },
+    {
       "a": "m365-number-circle-two",
       "b": "m365-number-circle-three",
       "similarity": 0.6755,
@@ -1414,8 +1427,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1423,
-      "concepts": 302
+      "covered": 1435,
+      "concepts": 308
     },
     "entra": {
       "sources": 14,
@@ -3934,6 +3947,11 @@
     "fabric-apps": [
       {
         "a": "fabric-apps",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.319
+      },
+      {
+        "a": "fabric-apps",
         "b": "fabric-data-warehouse",
         "similarity": 0.2937
       },
@@ -3941,11 +3959,6 @@
         "a": "fabric-apps",
         "b": "fabric-my-workspace",
         "similarity": 0.2898
-      },
-      {
-        "a": "fabric-apps",
-        "b": "fabric-document-ssis",
-        "similarity": 0.2416
       }
     ],
     "fabric-experiment": [
@@ -5447,18 +5460,18 @@
     "gcp-configuration-management": [
       {
         "a": "gcp-configuration-management",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.2945
+      },
+      {
+        "a": "gcp-configuration-management",
         "b": "gcp-datastore",
         "similarity": 0.2808
       },
       {
         "a": "gcp-configuration-management",
-        "b": "aws-ecr-registry",
-        "similarity": 0.2684
-      },
-      {
-        "a": "gcp-configuration-management",
-        "b": "fabric-sample",
-        "similarity": 0.2547
+        "b": "fabric-slide-window",
+        "similarity": 0.2713
       }
     ],
     "gcp-runtime-config": [
@@ -6722,6 +6735,11 @@
     "gcp-cloud-jobs": [
       {
         "a": "gcp-cloud-jobs",
+        "b": "fabric-slide-window",
+        "similarity": 0.3008
+      },
+      {
+        "a": "gcp-cloud-jobs",
         "b": "aws-sns-http-notification",
         "similarity": 0.2957
       },
@@ -6729,11 +6747,6 @@
         "a": "gcp-cloud-jobs",
         "b": "aws-textract-lending",
         "similarity": 0.2859
-      },
-      {
-        "a": "gcp-bare-metal",
-        "b": "gcp-cloud-jobs",
-        "similarity": 0.2807
       }
     ],
     "gcp-apigee-sense": [
@@ -6874,6 +6887,11 @@
     ],
     "gcp-cloud-run-anthos": [
       {
+        "a": "gcp-cloud-run-anthos",
+        "b": "fabric-signal-square",
+        "similarity": 0.2476
+      },
+      {
         "a": "gcp-data-labeling",
         "b": "gcp-cloud-run-anthos",
         "similarity": 0.2391
@@ -6882,11 +6900,6 @@
         "a": "gcp-cloud-run-anthos",
         "b": "aws-category-hybrid",
         "similarity": 0.229
-      },
-      {
-        "a": "gcp-cloud-run-anthos",
-        "b": "aws-category-games",
-        "similarity": 0.2216
       }
     ],
     "gcp-gke-on-prem": [
@@ -8353,19 +8366,19 @@
     ],
     "gcp-error-reporting": [
       {
+        "a": "gcp-error-reporting",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.2732
+      },
+      {
+        "a": "gcp-error-reporting",
+        "b": "fabric-slide-window",
+        "similarity": 0.2564
+      },
+      {
         "a": "gcp-billing",
         "b": "gcp-error-reporting",
         "similarity": 0.2512
-      },
-      {
-        "a": "m365-receipt",
-        "b": "gcp-error-reporting",
-        "similarity": 0.2327
-      },
-      {
-        "a": "azure-log-analytics",
-        "b": "gcp-error-reporting",
-        "similarity": 0.2248
       }
     ],
     "gcp-connectivity-test": [
@@ -13573,6 +13586,11 @@
     "aws-location-geofence": [
       {
         "a": "aws-location-geofence",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2603
+      },
+      {
+        "a": "aws-location-geofence",
         "b": "fabric-shapes",
         "similarity": 0.2529
       },
@@ -13580,11 +13598,6 @@
         "a": "aws-location-geofence",
         "b": "fabric-location-radar",
         "similarity": 0.2426
-      },
-      {
-        "a": "aws-textract-lending",
-        "b": "aws-location-geofence",
-        "similarity": 0.2411
       }
     ],
     "aws-location-map": [
@@ -13798,14 +13811,14 @@
         "similarity": 0.313
       },
       {
+        "a": "aws-sqs-message",
+        "b": "fabric-slide-window",
+        "similarity": 0.2654
+      },
+      {
         "a": "aws-redshift-dense-storage",
         "b": "aws-sqs-message",
         "similarity": 0.2615
-      },
-      {
-        "a": "aws-opensearch-ultrawarm",
-        "b": "aws-sqs-message",
-        "similarity": 0.2445
       }
     ],
     "aws-sqs-queue": [
@@ -15622,9 +15635,9 @@
         "similarity": 0.2572
       },
       {
-        "a": "gcp-looker",
-        "b": "aws-s3-glacier",
-        "similarity": 0.2384
+        "a": "aws-s3-glacier",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.2559
       }
     ],
     "aws-application-recovery-controller": [
@@ -15651,14 +15664,14 @@
         "similarity": 0.3409
       },
       {
+        "a": "aws-backup",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.3122
+      },
+      {
         "a": "fabric-data-warehouse",
         "b": "aws-backup",
         "similarity": 0.2986
-      },
-      {
-        "a": "gcp-iot-core",
-        "b": "aws-backup",
-        "similarity": 0.2941
       }
     ],
     "aws-elastic-disaster-recovery": [
@@ -15736,14 +15749,14 @@
         "similarity": 0.314
       },
       {
+        "a": "aws-snowball-edge",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.2962
+      },
+      {
         "a": "fabric-data-warehouse",
         "b": "aws-snowball-edge",
         "similarity": 0.2952
-      },
-      {
-        "a": "fabric-sustainability",
-        "b": "aws-snowball-edge",
-        "similarity": 0.2865
       }
     ],
     "aws-storage-gateway": [
@@ -16162,14 +16175,14 @@
         "similarity": 0.2516
       },
       {
+        "a": "m365-edit",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2304
+      },
+      {
         "a": "m365-document-text",
         "b": "m365-edit",
         "similarity": 0.2175
-      },
-      {
-        "a": "aws-location-geofence",
-        "b": "m365-edit",
-        "similarity": 0.2164
       }
     ],
     "m365-filmstrip-play": [
@@ -17840,14 +17853,14 @@
         "similarity": 0.2117
       },
       {
+        "a": "aws-ecs-compute-container",
+        "b": "fabric-slide-window",
+        "similarity": 0.2081
+      },
+      {
         "a": "m365-person-square",
         "b": "aws-ecs-compute-container",
         "similarity": 0.2041
-      },
-      {
-        "a": "m365-clipboard",
-        "b": "aws-ecs-compute-container",
-        "similarity": 0.1997
       }
     ],
     "aws-ecs-app-container": [
@@ -18050,8 +18063,8 @@
       },
       {
         "a": "aws-ec2-instance",
-        "b": "aws-serverless-repository",
-        "similarity": 0.27
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.2816
       }
     ],
     "aws-ec2-instances": [
@@ -18991,6 +19004,11 @@
     ],
     "aws-ground-station": [
       {
+        "a": "aws-ground-station",
+        "b": "fabric-signal-tower",
+        "similarity": 0.1861
+      },
+      {
         "a": "m365-edit",
         "b": "aws-ground-station",
         "similarity": 0.1845
@@ -18999,11 +19017,6 @@
         "a": "aws-cloudfront-download",
         "b": "aws-ground-station",
         "similarity": 0.1796
-      },
-      {
-        "a": "aws-ec2-instance",
-        "b": "aws-ground-station",
-        "similarity": 0.1664
       }
     ],
     "aws-local-zones": [
@@ -20572,6 +20585,11 @@
     ],
     "fabric-document-ssis": [
       {
+        "a": "fabric-document-ssis",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.396
+      },
+      {
         "a": "aws-backup",
         "b": "fabric-document-ssis",
         "similarity": 0.3409
@@ -20580,11 +20598,6 @@
         "a": "aws-snowball-edge",
         "b": "fabric-document-ssis",
         "similarity": 0.314
-      },
-      {
-        "a": "aws-sns-http-notification",
-        "b": "fabric-document-ssis",
-        "similarity": 0.2961
       }
     ],
     "fabric-document-ssis-play": [
@@ -20956,9 +20969,9 @@
         "similarity": 0.187
       },
       {
-        "a": "fabric-sustainability",
-        "b": "fabric-hint-grid",
-        "similarity": 0.1806
+        "a": "fabric-hint-grid",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.1857
       }
     ],
     "fabric-home-lightning": [
@@ -20973,9 +20986,9 @@
         "similarity": 0.2541
       },
       {
-        "a": "gcp-early-access",
-        "b": "fabric-home-lightning",
-        "similarity": 0.221
+        "a": "fabric-home-lightning",
+        "b": "fabric-signal-square",
+        "similarity": 0.2474
       }
     ],
     "fabric-home-tree": [
@@ -21145,19 +21158,19 @@
     ],
     "fabric-match-category": [
       {
+        "a": "fabric-match-category",
+        "b": "fabric-slide-window",
+        "similarity": 0.3503
+      },
+      {
+        "a": "fabric-match-category",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.2875
+      },
+      {
         "a": "aws-ec2-instances",
         "b": "fabric-match-category",
         "similarity": 0.2707
-      },
-      {
-        "a": "aws-eventbridge-schema",
-        "b": "fabric-match-category",
-        "similarity": 0.2707
-      },
-      {
-        "a": "fabric-document-ssis",
-        "b": "fabric-match-category",
-        "similarity": 0.248
       }
     ],
     "fabric-notebook-export": [
@@ -21308,13 +21321,13 @@
       },
       {
         "a": "fabric-phone-data-bars",
-        "b": "fabric-window-asterisk",
-        "similarity": 0.2944
+        "b": "fabric-slide-window",
+        "similarity": 0.3023
       },
       {
         "a": "fabric-phone-data-bars",
-        "b": "fabric-border-inside-vertical",
-        "similarity": 0.2667
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2944
       }
     ],
     "fabric-pipeline-note": [
@@ -21545,14 +21558,14 @@
         "similarity": 0.239
       },
       {
+        "a": "fabric-scan-categorize",
+        "b": "fabric-signal-square",
+        "similarity": 0.2341
+      },
+      {
         "a": "gcp-early-access",
         "b": "fabric-scan-categorize",
         "similarity": 0.2174
-      },
-      {
-        "a": "gcp-cloud-ops",
-        "b": "fabric-scan-categorize",
-        "similarity": 0.2163
       }
     ],
     "fabric-save-phone": [
@@ -21570,6 +21583,112 @@
         "a": "aws-systems-manager",
         "b": "fabric-save-phone",
         "similarity": 0.2635
+      }
+    ],
+    "fabric-shopping-data-bars": [
+      {
+        "a": "fabric-shopping-data-bars",
+        "b": "fabric-database-money",
+        "similarity": 0.2542
+      },
+      {
+        "a": "fabric-save-phone",
+        "b": "fabric-shopping-data-bars",
+        "similarity": 0.2433
+      },
+      {
+        "a": "fabric-document-tmdl-export",
+        "b": "fabric-shopping-data-bars",
+        "similarity": 0.2164
+      }
+    ],
+    "fabric-signal-square": [
+      {
+        "a": "m365-contacts",
+        "b": "fabric-signal-square",
+        "similarity": 0.2879
+      },
+      {
+        "a": "fabric-book-database",
+        "b": "fabric-signal-square",
+        "similarity": 0.2802
+      },
+      {
+        "a": "gcp-cloud-run-anthos",
+        "b": "fabric-signal-square",
+        "similarity": 0.2476
+      }
+    ],
+    "fabric-signal-tower": [
+      {
+        "a": "aws-location-geofence",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2603
+      },
+      {
+        "a": "aws-opensearch-observability",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2389
+      },
+      {
+        "a": "gcp-looker",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2326
+      }
+    ],
+    "fabric-slide-accept-dismiss": [
+      {
+        "a": "fabric-slide-accept-dismiss",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.4456
+      },
+      {
+        "a": "fabric-slide-accept-dismiss",
+        "b": "fabric-slide-window",
+        "similarity": 0.4385
+      },
+      {
+        "a": "fabric-document-ssis",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.396
+      }
+    ],
+    "fabric-slide-ribbon": [
+      {
+        "a": "fabric-slide-ribbon",
+        "b": "fabric-slide-window",
+        "similarity": 0.682,
+        "review": "distinct",
+        "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
+      },
+      {
+        "a": "fabric-slide-accept-dismiss",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.4456
+      },
+      {
+        "a": "fabric-sample",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.3426
+      }
+    ],
+    "fabric-slide-window": [
+      {
+        "a": "fabric-slide-ribbon",
+        "b": "fabric-slide-window",
+        "similarity": 0.682,
+        "review": "distinct",
+        "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
+      },
+      {
+        "a": "fabric-slide-accept-dismiss",
+        "b": "fabric-slide-window",
+        "similarity": 0.4385
+      },
+      {
+        "a": "fabric-match-category",
+        "b": "fabric-slide-window",
+        "similarity": 0.3503
       }
     ],
     "fabric-database-add": [
@@ -22753,19 +22872,19 @@
     ],
     "fabric-global-transfer": [
       {
+        "a": "fabric-slide-ribbon",
+        "b": "fabric-global-transfer",
+        "similarity": 0.2815
+      },
+      {
+        "a": "fabric-slide-window",
+        "b": "fabric-global-transfer",
+        "similarity": 0.2679
+      },
+      {
         "a": "aws-waf",
         "b": "fabric-global-transfer",
         "similarity": 0.2619
-      },
-      {
-        "a": "fabric-sample",
-        "b": "fabric-global-transfer",
-        "similarity": 0.2311
-      },
-      {
-        "a": "azure-kubernetes",
-        "b": "fabric-global-transfer",
-        "similarity": 0.228
       }
     ],
     "fabric-overlapping-squares-line": [
