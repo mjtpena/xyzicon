@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1028,
-  "aliases": 3897,
+  "count": 1032,
+  "aliases": 3901,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -242,6 +242,10 @@
     "gcp-anthos-service-mesh",
     "gcp-configuration-management",
     "gcp-runtime-config",
+    "gcp-automl",
+    "gcp-automl-language",
+    "gcp-automl-translation",
+    "gcp-automl-vision",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1144,8 +1148,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 140,
-      "concepts": 127
+      "covered": 144,
+      "concepts": 131
     }
   },
   "nearest": {
@@ -2767,6 +2771,11 @@
     "aws-eventbridge": [
       {
         "a": "aws-eventbridge",
+        "b": "gcp-automl-vision",
+        "similarity": 0.1863
+      },
+      {
+        "a": "aws-eventbridge",
         "b": "m365-road-cone",
         "similarity": 0.1861
       },
@@ -2774,11 +2783,6 @@
         "a": "aws-eventbridge",
         "b": "aws-pinpoint-apis",
         "similarity": 0.1836
-      },
-      {
-        "a": "aws-eventbridge",
-        "b": "aws-health-imaging",
-        "similarity": 0.1723
       }
     ],
     "aws-eventbridge-pipes": [
@@ -5178,6 +5182,74 @@
         "similarity": 0.2736
       }
     ],
+    "gcp-automl": [
+      {
+        "a": "gcp-automl",
+        "b": "m365-clipboard",
+        "similarity": 0.2431
+      },
+      {
+        "a": "gcp-automl",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2089
+      },
+      {
+        "a": "gcp-automl",
+        "b": "fabric-code-text-flash",
+        "similarity": 0.1997
+      }
+    ],
+    "gcp-automl-language": [
+      {
+        "a": "gcp-automl-language",
+        "b": "aws-private-subnet",
+        "similarity": 0.2608
+      },
+      {
+        "a": "gcp-cloud-tasks",
+        "b": "gcp-automl-language",
+        "similarity": 0.2273
+      },
+      {
+        "a": "gcp-automl-language",
+        "b": "aws-category-compute",
+        "similarity": 0.2209
+      }
+    ],
+    "gcp-automl-translation": [
+      {
+        "a": "gcp-automl-translation",
+        "b": "aws-category-front-end",
+        "similarity": 0.3087
+      },
+      {
+        "a": "gcp-automl-translation",
+        "b": "azure-app-domains",
+        "similarity": 0.2654
+      },
+      {
+        "a": "gcp-automl-translation",
+        "b": "azure-compute-galleries",
+        "similarity": 0.2598
+      }
+    ],
+    "gcp-automl-vision": [
+      {
+        "a": "gcp-automl-vision",
+        "b": "aws-health-imaging",
+        "similarity": 0.2508
+      },
+      {
+        "a": "gcp-automl-vision",
+        "b": "aws-devops-guru",
+        "similarity": 0.2427
+      },
+      {
+        "a": "gcp-automl-vision",
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.2335
+      }
+    ],
     "gcp-access-context": [
       {
         "a": "m365-chart-multiple",
@@ -7196,9 +7268,9 @@
         "similarity": 0.2169
       },
       {
-        "a": "azure-database-migration",
-        "b": "fabric-column-sigma",
-        "similarity": 0.2123
+        "a": "gcp-automl-translation",
+        "b": "azure-database-migration",
+        "similarity": 0.2158
       }
     ],
     "azure-sql-elastic-pool": [
@@ -9372,9 +9444,9 @@
         "similarity": 0.2618
       },
       {
-        "a": "dynamics-project-operations",
+        "a": "gcp-automl-vision",
         "b": "aws-health-imaging",
-        "similarity": 0.2431
+        "similarity": 0.2508
       }
     ],
     "aws-health-lake": [
@@ -10897,14 +10969,14 @@
         "similarity": 0.2386
       },
       {
+        "a": "gcp-automl-vision",
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.2335
+      },
+      {
         "a": "gcp-security-operations",
         "b": "aws-pinpoint-apis",
         "similarity": 0.2244
-      },
-      {
-        "a": "aws-pinpoint-apis",
-        "b": "aws-category-media",
-        "similarity": 0.2151
       }
     ],
     "aws-workdocs-sdk": [
@@ -11395,9 +11467,9 @@
         "similarity": 0.1921
       },
       {
-        "a": "azure-waf-policies",
+        "a": "gcp-automl-translation",
         "b": "aws-application-discovery",
-        "similarity": 0.1878
+        "similarity": 0.1897
       }
     ],
     "aws-service-management-connector": [
@@ -13539,14 +13611,14 @@
         "similarity": 0.2504
       },
       {
+        "a": "gcp-automl-translation",
+        "b": "aws-cloudfront-functions",
+        "similarity": 0.2467
+      },
+      {
         "a": "aws-cloudfront-functions",
         "b": "azure-app-service-plans",
         "similarity": 0.245
-      },
-      {
-        "a": "m365-apps-list",
-        "b": "aws-cloudfront-functions",
-        "similarity": 0.2337
       }
     ],
     "aws-cloudfront-streaming": [
@@ -13646,9 +13718,9 @@
         "similarity": 0.2766
       },
       {
-        "a": "aws-private-subnet",
-        "b": "azure-resource-groups",
-        "similarity": 0.2607
+        "a": "gcp-automl-language",
+        "b": "aws-private-subnet",
+        "similarity": 0.2608
       }
     ],
     "aws-public-subnet": [
@@ -14900,6 +14972,11 @@
     ],
     "aws-category-front-end": [
       {
+        "a": "gcp-automl-translation",
+        "b": "aws-category-front-end",
+        "similarity": 0.3087
+      },
+      {
         "a": "aws-category-front-end",
         "b": "azure-app-domains",
         "similarity": 0.2614
@@ -14908,11 +14985,6 @@
         "a": "aws-training-certification",
         "b": "aws-category-front-end",
         "similarity": 0.2593
-      },
-      {
-        "a": "aws-category-front-end",
-        "b": "azure-compute-galleries",
-        "similarity": 0.2567
       }
     ],
     "aws-category-security": [
