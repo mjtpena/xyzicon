@@ -4,6 +4,54 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-systems-inventory", "aws", "Systems Manager Inventory", ["Res_AWS-Systems-Manager_Inventory_48"],
+    "An inventory lists software and configuration on managed machines.",
+    [
+      rect(15, 20, 45, 59), line([15, 32], [60, 32]), line([22, 42], [53, 42]), line([22, 52], [49, 52]), line([22, 62], [53, 62]),
+      line([60, 49], [74, 49]), line([68, 43], [74, 49], [68, 55]), line([77, 19], [101, 19], [110, 28], [110, 91], [77, 91], [77, 19]), line([101, 19], [101, 28], [110, 28]), line([83, 39], [104, 39]), line([83, 52], [104, 52]), line([83, 65], [104, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-maintenance-windows", "aws", "Systems Manager Maintenance Windows", ["Res_AWS-Systems-Manager_Maintenance-Windows_48"],
+    "A scheduled window controls when maintenance runs.",
+    [
+      rect(16, 20, 69, 65), line([16, 34], [85, 34]), line([32, 13], [32, 27]), line([68, 13], [68, 27]), line([27, 47], [35, 47]), line([45, 47], [53, 47]), line([63, 47], [71, 47]), line([27, 62], [35, 62]), line([45, 62], [53, 62]),
+      oval(67, 57, 34, 34), line([84, 63], [84, 74], [93, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-opscenter", "aws", "Systems Manager OpsCenter", ["Res_AWS-Systems-Manager_OpsCenter_48"],
+    "Operational issues are collected in a central dashboard.",
+    [
+      rect(13, 19, 100, 72), line([13, 33], [113, 33]), oval(20, 23, 5, 5, true), line([25, 45], [50, 45]), line([25, 57], [50, 57]), line([25, 69], [50, 69]),
+      line([69, 72], [85, 43], [101, 72], [69, 72]), line([85, 53], [85, 62]), oval(83, 66, 4, 4, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-parameter-store", "aws", "Systems Manager Parameter Store", ["Res_AWS-Systems-Manager_Parameter-Store_48"],
+    "A parameter store holds named configuration values.",
+    [
+      line([27, 22], [39, 18], [85, 18], [97, 22], [97, 82], [85, 87], [39, 87], [27, 82], [27, 22]), line([27, 22], [39, 27], [85, 27], [97, 22]),
+      line([39, 42], [50, 42]), line([57, 42], [84, 42]), line([39, 55], [50, 55]), line([57, 55], [84, 55]), line([39, 68], [50, 68]), line([57, 68], [84, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-patch-manager", "aws", "Systems Manager Patch Manager", ["Res_AWS-Systems-Manager_Patch-Manager_48"],
+    "A patch is applied to a managed server.",
+    [
+      rect(22, 21, 64, 71), line([22, 37], [86, 37]), line([30, 48], [58, 48]), line([30, 60], [54, 60]), line([30, 72], [58, 72]),
+      line([73, 54], [88, 42], [102, 57], [89, 72], [73, 57], [73, 54]), line([78, 50], [97, 68]), line([90, 47], [79, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-run-command", "aws", "Systems Manager Run Command", ["Res_AWS-Systems-Manager_Run-Command_48"],
+    "A command is sent to managed machines.",
+    [
+      rect(12, 24, 58, 53), line([12, 36], [70, 36]), line([21, 47], [29, 54], [21, 61]), line([36, 61], [55, 61]),
+      line([71, 52], [89, 52]), line([82, 45], [89, 52], [82, 59]), rect(91, 28, 23, 45), line([96, 38], [109, 38]), line([96, 48], [109, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-session-manager", "aws", "Systems Manager Session Manager", ["Res_AWS-Systems-Manager_Session-Manager_48"],
+    "A secure interactive terminal session connects to a server.",
+    [
+      rect(14, 20, 70, 59), line([14, 33], [84, 33]), line([24, 46], [34, 54], [24, 62]), line([42, 62], [62, 62]),
+      rect(73, 63, 30, 24), line([79, 63], [79, 56], [82, 51], [88, 49], [94, 51], [97, 56], [97, 63]), oval(85, 70, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-state-manager", "aws", "Systems Manager State Manager", ["Res_AWS-Systems-Manager_State-Manager_48"],
+    "A managed machine is checked against its desired state.",
+    [
+      rect(15, 22, 47, 62), line([15, 35], [62, 35]), line([23, 46], [54, 46]), line([23, 57], [50, 57]), line([23, 68], [54, 68]),
+      line([63, 54], [78, 54]), line([72, 48], [78, 54], [72, 60]), oval(78, 39, 29, 29), line([85, 53], [91, 59], [101, 47]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-systems-application-manager", "aws", "Systems Manager Application Manager", ["Res_AWS-Systems-Manager_Application-Manager_48"],
     "An application dashboard manages a group of components.",
     [
