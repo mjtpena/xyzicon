@@ -1331,10 +1331,10 @@
     "notes": "An object bucket feeds an SQL query page, distinct from the file collection, notification and DNS diagrams and from the source magnifier."
   },
   "aws-kinesis-streams": {
-    "revision": "eec75c145bd1b948981a2389afd30f106d36090866c5eeb55d8f960af30ce259",
+    "revision": "c8cd13dc77297709512ad509f60b9c51639221176648d8598a52063923cec796",
     "comparisonRevision": "9de6321b48158d70016199bc9ddf3cef09994c01bfa8b8ae23229cb10f49447e",
-    "status": "rework",
-    "notes": "A heavily shaded processor hides its contents at small sizes. Use an open stream-processing cue."
+    "status": "approved",
+    "notes": "Three data strands enter an open processor and leave as a stream, unlike the unbuffered Kinesis flow, keyed table and linked database."
   },
   "aws-opensearch": {
     "revision": "6fb3a1a98ff7cda29b5ee8e98815ab2103f7f1bc7832618bbf7142239ebb29b8",
