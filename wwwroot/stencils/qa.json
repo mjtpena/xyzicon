@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1207,
-  "aliases": 4089,
+  "count": 1212,
+  "aliases": 4094,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -960,6 +960,11 @@
     "aws-ec2-auto-scaling",
     "aws-ec2-db-instance",
     "aws-ec2-elastic-ip",
+    "aws-ec2-cloudwatch-instance",
+    "aws-ec2-instance",
+    "aws-ec2-instances",
+    "aws-ec2-rescue",
+    "aws-ec2-spot-instance",
     "aws-beanstalk-application",
     "aws-beanstalk-deployment",
     "aws-lambda-function",
@@ -1318,8 +1323,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1362,
-      "concepts": 394
+      "covered": 1367,
+      "concepts": 399
     },
     "gcp": {
       "sources": 261,
@@ -2985,13 +2990,13 @@
       },
       {
         "a": "aws-eventbridge-rule",
-        "b": "azure-machine-learning",
-        "similarity": 0.2508
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.2608
       },
       {
         "a": "aws-eventbridge-rule",
-        "b": "gcp-api-monetization",
-        "similarity": 0.2469
+        "b": "azure-machine-learning",
+        "similarity": 0.2508
       }
     ],
     "aws-eventbridge-scheduler": [
@@ -7189,8 +7194,8 @@
       },
       {
         "a": "gcp-quantum-engine",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.2477
+        "b": "aws-ec2-instance",
+        "similarity": 0.254
       }
     ],
     "gcp-cloud-marketing": [
@@ -8629,13 +8634,13 @@
       },
       {
         "a": "m365-select-all",
-        "b": "aws-glue-catalog",
-        "similarity": 0.2197
+        "b": "aws-ec2-instance",
+        "similarity": 0.2211
       },
       {
-        "a": "gcp-cloud-tpu",
-        "b": "m365-select-all",
-        "similarity": 0.2173
+        "a": "m365-select-all",
+        "b": "aws-glue-catalog",
+        "similarity": 0.2197
       }
     ],
     "fabric-cohort": [
@@ -9603,8 +9608,8 @@
       },
       {
         "a": "azure-storage-explorer",
-        "b": "gcp-category-observability",
-        "similarity": 0.1845
+        "b": "aws-ec2-instances",
+        "similarity": 0.1863
       }
     ],
     "aws-glue-ray": [
@@ -9779,6 +9784,11 @@
     ],
     "aws-opensearch-observability": [
       {
+        "a": "aws-opensearch-observability",
+        "b": "aws-ec2-instance",
+        "similarity": 0.2636
+      },
+      {
         "a": "aws-opensearch-index",
         "b": "aws-opensearch-observability",
         "similarity": 0.2421
@@ -9787,11 +9797,6 @@
         "a": "aws-opensearch-observability",
         "b": "aws-ec2-ami",
         "similarity": 0.2372
-      },
-      {
-        "a": "aws-opensearch-observability",
-        "b": "fabric-database-money",
-        "similarity": 0.2332
       }
     ],
     "aws-opensearch-dashboards": [
@@ -12471,13 +12476,13 @@
       },
       {
         "a": "azure-foundry-agent-service",
-        "b": "fabric-platform",
-        "similarity": 0.2399
+        "b": "aws-ec2-instance",
+        "similarity": 0.2456
       },
       {
-        "a": "aws-bedrock-agentcore",
-        "b": "azure-foundry-agent-service",
-        "similarity": 0.2158
+        "a": "azure-foundry-agent-service",
+        "b": "fabric-platform",
+        "similarity": 0.2399
       }
     ],
     "azure-foundry-control-plane": [
@@ -14170,14 +14175,14 @@
         "similarity": 0.2708
       },
       {
+        "a": "aws-migration-evaluator",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2663
+      },
+      {
         "a": "gcp-analytics-hub",
         "b": "aws-migration-evaluator",
         "similarity": 0.2615
-      },
-      {
-        "a": "gcp-deployment-manager",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2593
       }
     ],
     "aws-transform": [
@@ -14267,6 +14272,11 @@
     ],
     "aws-application-discovery": [
       {
+        "a": "aws-application-discovery",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2227
+      },
+      {
         "a": "gcp-deployment-manager",
         "b": "aws-application-discovery",
         "similarity": 0.2072
@@ -14275,11 +14285,6 @@
         "a": "aws-migration-evaluator",
         "b": "aws-application-discovery",
         "similarity": 0.1921
-      },
-      {
-        "a": "gcp-transfer-appliance",
-        "b": "aws-application-discovery",
-        "similarity": 0.1905
       }
     ],
     "aws-service-management-connector": [
@@ -14414,8 +14419,8 @@
       },
       {
         "a": "aws-console-mobile",
-        "b": "fabric-stacked-text",
-        "similarity": 0.1698
+        "b": "aws-ec2-instance",
+        "similarity": 0.1722
       }
     ],
     "aws-organizations": [
@@ -17561,6 +17566,11 @@
     ],
     "aws-ec2-db-instance": [
       {
+        "a": "aws-ec2-db-instance",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.3333
+      },
+      {
         "a": "aws-sns-http-notification",
         "b": "aws-ec2-db-instance",
         "similarity": 0.2506
@@ -17569,11 +17579,6 @@
         "a": "aws-rekognition-image",
         "b": "aws-ec2-db-instance",
         "similarity": 0.25
-      },
-      {
-        "a": "aws-ec2-db-instance",
-        "b": "fabric-database-money",
-        "similarity": 0.2433
       }
     ],
     "aws-ec2-elastic-ip": [
@@ -17591,6 +17596,91 @@
         "a": "fabric-external-datamart",
         "b": "aws-ec2-elastic-ip",
         "similarity": 0.2489
+      }
+    ],
+    "aws-ec2-cloudwatch-instance": [
+      {
+        "a": "aws-sagemaker-train",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2148
+      },
+      {
+        "a": "aws-ec2-cloudwatch-instance",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2038
+      },
+      {
+        "a": "gcp-iot-edge",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2013
+      }
+    ],
+    "aws-ec2-instance": [
+      {
+        "a": "aws-ec2-instance",
+        "b": "fabric-sample",
+        "similarity": 0.3137
+      },
+      {
+        "a": "fabric-live-dashboard",
+        "b": "aws-ec2-instance",
+        "similarity": 0.2866
+      },
+      {
+        "a": "aws-ec2-instance",
+        "b": "aws-serverless-repository",
+        "similarity": 0.27
+      }
+    ],
+    "aws-ec2-instances": [
+      {
+        "a": "aws-migration-evaluator",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2663
+      },
+      {
+        "a": "aws-snowball",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2596
+      },
+      {
+        "a": "aws-ec2-instances",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2547
+      }
+    ],
+    "aws-ec2-rescue": [
+      {
+        "a": "gcp-video-intelligence",
+        "b": "aws-ec2-rescue",
+        "similarity": 0.2636
+      },
+      {
+        "a": "gcp-user-preferences",
+        "b": "aws-ec2-rescue",
+        "similarity": 0.254
+      },
+      {
+        "a": "aws-ec2-rescue",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2182
+      }
+    ],
+    "aws-ec2-spot-instance": [
+      {
+        "a": "aws-ec2-db-instance",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.3333
+      },
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.2608
+      },
+      {
+        "a": "aws-sns-http-notification",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.2396
       }
     ],
     "aws-beanstalk-application": [
@@ -17617,14 +17707,14 @@
         "similarity": 0.2596
       },
       {
+        "a": "aws-ec2-instances",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2547
+      },
+      {
         "a": "azure-genomics-accounts",
         "b": "aws-beanstalk-deployment",
         "similarity": 0.2468
-      },
-      {
-        "a": "aws-sns-http-notification",
-        "b": "aws-beanstalk-deployment",
-        "similarity": 0.2337
       }
     ],
     "aws-lambda-function": [
@@ -18489,9 +18579,9 @@
         "similarity": 0.1796
       },
       {
-        "a": "gcp-financial-marketplace",
+        "a": "aws-ec2-instance",
         "b": "aws-ground-station",
-        "similarity": 0.1658
+        "similarity": 0.1664
       }
     ],
     "aws-local-zones": [
@@ -18948,9 +19038,9 @@
         "similarity": 0.2437
       },
       {
-        "a": "aws-vpc-traffic-mirroring",
+        "a": "aws-ec2-instance",
         "b": "azure-load-testing",
-        "similarity": 0.2356
+        "similarity": 0.2395
       }
     ],
     "azure-devtest-labs": [
@@ -19975,6 +20065,11 @@
     ],
     "fabric-databases-kql": [
       {
+        "a": "aws-ec2-instances",
+        "b": "fabric-databases-kql",
+        "similarity": 0.2094
+      },
+      {
         "a": "azure-application-group",
         "b": "fabric-databases-kql",
         "similarity": 0.2038
@@ -19983,11 +20078,6 @@
         "a": "gcp-cloud-jobs",
         "b": "fabric-databases-kql",
         "similarity": 0.2003
-      },
-      {
-        "a": "aws-emr-cluster",
-        "b": "fabric-databases-kql",
-        "similarity": 0.1985
       }
     ],
     "fabric-database-badge-pulse": [
