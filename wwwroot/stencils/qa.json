@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1338,
-  "aliases": 4354,
+  "count": 1345,
+  "aliases": 4370,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1224,6 +1224,13 @@
     "fabric-trophy-data-bars",
     "fabric-vehicle-ship",
     "fabric-vehicle-subway",
+    "fabric-window-asterisk-new",
+    "fabric-window-list-filter",
+    "fabric-window-code",
+    "fabric-window-database-arrow",
+    "fabric-window-gauge",
+    "fabric-window-interface",
+    "fabric-window-person",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1416,6 +1423,13 @@
       "notes": "The numeral has a closed triangular upper stroke and vertical stem; the curved arrow has a bent shaft and pointed arrowhead, including at 32px."
     },
     {
+      "a": "fabric-window-gauge",
+      "b": "fabric-window-interface",
+      "similarity": 0.695,
+      "review": "distinct",
+      "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
+    },
+    {
       "a": "fabric-script-sparkle-add",
       "b": "fabric-script-kql-add",
       "similarity": 0.6938,
@@ -1515,8 +1529,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1517,
-      "concepts": 340
+      "covered": 1533,
+      "concepts": 347
     },
     "entra": {
       "sources": 14,
@@ -3377,13 +3391,13 @@
       },
       {
         "a": "aws-elasticache",
-        "b": "m365-window",
-        "similarity": 0.2924
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.3233
       },
       {
         "a": "aws-elasticache",
-        "b": "fabric-documents-question",
-        "similarity": 0.2839
+        "b": "fabric-window-list-filter",
+        "similarity": 0.31
       }
     ],
     "aws-cloudformation": [
@@ -4351,8 +4365,8 @@
       },
       {
         "a": "azure-dns-private-resolver",
-        "b": "aws-bedrock-agentcore",
-        "similarity": 0.2305
+        "b": "fabric-window-list-filter",
+        "similarity": 0.2314
       }
     ],
     "azure-ddos-plans": [
@@ -6833,8 +6847,8 @@
       },
       {
         "a": "gcp-cloud-jobs",
-        "b": "aws-textract-lending",
-        "similarity": 0.2859
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.2944
       }
     ],
     "gcp-apigee-sense": [
@@ -18672,14 +18686,14 @@
         "similarity": 0.2442
       },
       {
+        "a": "aws-category-media",
+        "b": "fabric-window-code",
+        "similarity": 0.2357
+      },
+      {
         "a": "fabric-healthcare",
         "b": "aws-category-media",
         "similarity": 0.2254
-      },
-      {
-        "a": "aws-pinpoint-apis",
-        "b": "aws-category-media",
-        "similarity": 0.2151
       }
     ],
     "aws-category-networking": [
@@ -20921,9 +20935,9 @@
         "similarity": 0.2167
       },
       {
-        "a": "aws-comprehend",
-        "b": "fabric-funnel",
-        "similarity": 0.1973
+        "a": "fabric-funnel",
+        "b": "fabric-window-person",
+        "similarity": 0.2033
       }
     ],
     "fabric-funnel-add": [
@@ -21290,9 +21304,9 @@
         "similarity": 0.245
       },
       {
-        "a": "aws-eks-outposts",
-        "b": "fabric-notebook-globe",
-        "similarity": 0.2382
+        "a": "fabric-notebook-globe",
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.2415
       }
     ],
     "fabric-list-asterisk": [
@@ -21302,14 +21316,14 @@
         "similarity": 0.2309
       },
       {
+        "a": "fabric-list-asterisk",
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.2224
+      },
+      {
         "a": "fabric-document-ssis",
         "b": "fabric-list-asterisk",
         "similarity": 0.2108
-      },
-      {
-        "a": "gcp-recommendations-ai",
-        "b": "fabric-list-asterisk",
-        "similarity": 0.2003
       }
     ],
     "fabric-list-kql": [
@@ -21516,8 +21530,8 @@
       },
       {
         "a": "fabric-rectangle-exit-up",
-        "b": "fabric-table-header",
-        "similarity": 0.2139
+        "b": "fabric-window-code",
+        "similarity": 0.2175
       }
     ],
     "fabric-rectangle-list-asterisk": [
@@ -21676,18 +21690,18 @@
     "fabric-shopping-data-bars": [
       {
         "a": "fabric-shopping-data-bars",
+        "b": "fabric-window-person",
+        "similarity": 0.3469
+      },
+      {
+        "a": "fabric-shopping-data-bars",
         "b": "fabric-squares-data-bars",
         "similarity": 0.3433
       },
       {
         "a": "fabric-shopping-data-bars",
-        "b": "fabric-database-money",
-        "similarity": 0.2542
-      },
-      {
-        "a": "fabric-save-phone",
-        "b": "fabric-shopping-data-bars",
-        "similarity": 0.2433
+        "b": "fabric-window-gauge",
+        "similarity": 0.3233
       }
     ],
     "fabric-signal-square": [
@@ -21866,19 +21880,19 @@
     ],
     "fabric-squares-eye": [
       {
+        "a": "fabric-squares-eye",
+        "b": "fabric-window-gauge",
+        "similarity": 0.2737
+      },
+      {
+        "a": "fabric-squares-eye",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.2629
+      },
+      {
         "a": "fabric-phone-data-bars",
         "b": "fabric-squares-eye",
         "similarity": 0.2538
-      },
-      {
-        "a": "fabric-squares-eye",
-        "b": "fabric-database-badge-asterisk",
-        "similarity": 0.234
-      },
-      {
-        "a": "fabric-squares-eye",
-        "b": "fabric-tables-curve-right",
-        "similarity": 0.2212
       }
     ],
     "fabric-table-export": [
@@ -21906,13 +21920,13 @@
       },
       {
         "a": "fabric-table-left-border",
-        "b": "fabric-table-header",
-        "similarity": 0.3167
+        "b": "fabric-window-code",
+        "similarity": 0.3695
       },
       {
-        "a": "fabric-save-phone",
-        "b": "fabric-table-left-border",
-        "similarity": 0.2673
+        "a": "fabric-table-left-border",
+        "b": "fabric-table-header",
+        "similarity": 0.3167
       }
     ],
     "fabric-table-broom": [
@@ -22014,6 +22028,11 @@
     ],
     "fabric-table-header": [
       {
+        "a": "fabric-table-header",
+        "b": "fabric-window-code",
+        "similarity": 0.3793
+      },
+      {
         "a": "fabric-table-left-border",
         "b": "fabric-table-header",
         "similarity": 0.3167
@@ -22022,11 +22041,6 @@
         "a": "fabric-document-tmdl-export",
         "b": "fabric-table-header",
         "similarity": 0.3154
-      },
-      {
-        "a": "aws-ecr-registry",
-        "b": "fabric-table-header",
-        "similarity": 0.3142
       }
     ],
     "fabric-table-link": [
@@ -22122,8 +22136,8 @@
       },
       {
         "a": "fabric-script-sparkle-add",
-        "b": "fabric-code-text-flash",
-        "similarity": 0.2107
+        "b": "fabric-window-database-arrow",
+        "similarity": 0.3053
       }
     ],
     "fabric-script-kql-add": [
@@ -22140,9 +22154,9 @@
         "similarity": 0.3315
       },
       {
-        "a": "fabric-rectangle-list-asterisk",
-        "b": "fabric-script-kql-add",
-        "similarity": 0.2189
+        "a": "fabric-script-kql-add",
+        "b": "fabric-window-database-arrow",
+        "similarity": 0.3242
       }
     ],
     "fabric-receipt-kql-new": [
@@ -22355,6 +22369,129 @@
         "similarity": 0.2497
       }
     ],
+    "fabric-window-asterisk-new": [
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-gauge",
+        "similarity": 0.6238
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-interface",
+        "similarity": 0.5728
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.5394
+      }
+    ],
+    "fabric-window-list-filter": [
+      {
+        "a": "fabric-window-list-filter",
+        "b": "fabric-window-gauge",
+        "similarity": 0.5918
+      },
+      {
+        "a": "fabric-window-list-filter",
+        "b": "fabric-window-interface",
+        "similarity": 0.5605
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.5394
+      }
+    ],
+    "fabric-window-code": [
+      {
+        "a": "fabric-window-code",
+        "b": "fabric-window-person",
+        "similarity": 0.4502
+      },
+      {
+        "a": "fabric-window-code",
+        "b": "fabric-window-gauge",
+        "similarity": 0.4311
+      },
+      {
+        "a": "fabric-window-code",
+        "b": "fabric-window-interface",
+        "similarity": 0.4215
+      }
+    ],
+    "fabric-window-database-arrow": [
+      {
+        "a": "fabric-script-kql-add",
+        "b": "fabric-window-database-arrow",
+        "similarity": 0.3242
+      },
+      {
+        "a": "fabric-script-sparkle-add",
+        "b": "fabric-window-database-arrow",
+        "similarity": 0.3053
+      },
+      {
+        "a": "fabric-window-database-arrow",
+        "b": "fabric-window-person",
+        "similarity": 0.284
+      }
+    ],
+    "fabric-window-gauge": [
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-interface",
+        "similarity": 0.695,
+        "review": "distinct",
+        "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
+      },
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-person",
+        "similarity": 0.6321
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-gauge",
+        "similarity": 0.6238
+      }
+    ],
+    "fabric-window-interface": [
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-interface",
+        "similarity": 0.695,
+        "review": "distinct",
+        "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-interface",
+        "similarity": 0.5728
+      },
+      {
+        "a": "fabric-window-list-filter",
+        "b": "fabric-window-interface",
+        "similarity": 0.5605
+      }
+    ],
+    "fabric-window-person": [
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-person",
+        "similarity": 0.6321
+      },
+      {
+        "a": "fabric-window-interface",
+        "b": "fabric-window-person",
+        "similarity": 0.551
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-person",
+        "similarity": 0.5308
+      }
+    ],
     "fabric-database-add": [
       {
         "a": "fabric-database-add",
@@ -22527,19 +22664,19 @@
     ],
     "fabric-database-swap": [
       {
+        "a": "fabric-window-gauge",
+        "b": "fabric-database-swap",
+        "similarity": 0.2446
+      },
+      {
+        "a": "fabric-window-interface",
+        "b": "fabric-database-swap",
+        "similarity": 0.2418
+      },
+      {
         "a": "azure-app-domains",
         "b": "fabric-database-swap",
         "similarity": 0.2359
-      },
-      {
-        "a": "aws-opensearch-ultrawarm",
-        "b": "fabric-database-swap",
-        "similarity": 0.2331
-      },
-      {
-        "a": "fabric-database-swap",
-        "b": "fabric-window-asterisk",
-        "similarity": 0.2299
       }
     ],
     "fabric-database-table": [
@@ -24106,14 +24243,14 @@
         "similarity": 0.483
       },
       {
-        "a": "fabric-placeholder",
+        "a": "fabric-window-gauge",
         "b": "fabric-window-asterisk",
-        "similarity": 0.4129
+        "similarity": 0.4428
       },
       {
-        "a": "fabric-window-asterisk",
-        "b": "fabric-window-check",
-        "similarity": 0.3904
+        "a": "fabric-window-interface",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.4311
       }
     ],
     "fabric-window-check": [
@@ -24123,14 +24260,14 @@
         "similarity": 0.3904
       },
       {
-        "a": "aws-elasticache",
+        "a": "fabric-window-gauge",
         "b": "fabric-window-check",
-        "similarity": 0.2706
+        "similarity": 0.3014
       },
       {
-        "a": "fabric-window-check",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2632
+        "a": "fabric-window-code",
+        "b": "fabric-window-check",
+        "similarity": 0.2982
       }
     ],
     "fabric-window-pulse": [
