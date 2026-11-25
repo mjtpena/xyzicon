@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1175,
-  "aliases": 4057,
+  "count": 1180,
+  "aliases": 4062,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -510,6 +510,11 @@
     "aws-redshift-auto-copy",
     "aws-redshift-governance",
     "aws-redshift-query-editor",
+    "aws-redshift-dense-compute",
+    "aws-redshift-dense-storage",
+    "aws-redshift-ml",
+    "aws-redshift-ra3",
+    "aws-redshift-streaming",
     "aws-lake-formation-data-lake",
     "aws-datazone-business-catalog",
     "aws-datazone-portal",
@@ -1286,8 +1291,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1330,
-      "concepts": 362
+      "covered": 1335,
+      "concepts": 367
     },
     "gcp": {
       "sources": 261,
@@ -2120,13 +2125,13 @@
       },
       {
         "a": "gcp-cloud-run",
-        "b": "gcp-financial-marketplace",
-        "similarity": 0.1775
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.1954
       },
       {
         "a": "gcp-cloud-run",
-        "b": "azure-restore-point",
-        "similarity": 0.1774
+        "b": "gcp-financial-marketplace",
+        "similarity": 0.1775
       }
     ],
     "gcp-cloud-sql": [
@@ -3441,6 +3446,11 @@
     "m365-calculator": [
       {
         "a": "m365-calculator",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.2469
+      },
+      {
+        "a": "m365-calculator",
         "b": "aws-health-imaging",
         "similarity": 0.2149
       },
@@ -3448,11 +3458,6 @@
         "a": "m365-calculator",
         "b": "aws-clean-rooms",
         "similarity": 0.2141
-      },
-      {
-        "a": "dynamics-project-operations",
-        "b": "m365-calculator",
-        "similarity": 0.2048
       }
     ],
     "m365-calendar": [
@@ -4087,6 +4092,11 @@
     "azure-dns-private-resolver": [
       {
         "a": "azure-dns-private-resolver",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.238
+      },
+      {
+        "a": "azure-dns-private-resolver",
         "b": "gcp-dialogflow-insights",
         "similarity": 0.2354
       },
@@ -4094,11 +4104,6 @@
         "a": "azure-dns-private-resolver",
         "b": "aws-bedrock-agentcore",
         "similarity": 0.2305
-      },
-      {
-        "a": "azure-dns-private-resolver",
-        "b": "azure-ai-studio",
-        "similarity": 0.2243
       }
     ],
     "azure-ddos-plans": [
@@ -5627,8 +5632,8 @@
       },
       {
         "a": "gcp-healthcare-nlp",
-        "b": "gcp-user-preferences",
-        "similarity": 0.2635
+        "b": "aws-redshift-ml",
+        "similarity": 0.2704
       }
     ],
     "gcp-media-translation": [
@@ -5796,9 +5801,9 @@
         "similarity": 0.2101
       },
       {
-        "a": "m365-calendar",
-        "b": "gcp-performance-dashboard",
-        "similarity": 0.2037
+        "a": "gcp-performance-dashboard",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.2079
       }
     ],
     "gcp-network-connectivity-center": [
@@ -5855,6 +5860,11 @@
     "gcp-network-tiers": [
       {
         "a": "gcp-network-tiers",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.2403
+      },
+      {
+        "a": "gcp-network-tiers",
         "b": "gcp-cloud-test-lab",
         "similarity": 0.1921
       },
@@ -5862,11 +5872,6 @@
         "a": "gcp-network-tiers",
         "b": "gcp-project",
         "similarity": 0.1921
-      },
-      {
-        "a": "gcp-dataproc",
-        "b": "gcp-network-tiers",
-        "similarity": 0.1901
       }
     ],
     "gcp-network-topology": [
@@ -6285,13 +6290,13 @@
       },
       {
         "a": "gcp-transfer",
-        "b": "fabric-cloud-endpoint",
-        "similarity": 0.2332
+        "b": "aws-redshift-streaming",
+        "similarity": 0.25
       },
       {
         "a": "gcp-transfer",
-        "b": "gcp-iot-core",
-        "similarity": 0.232
+        "b": "aws-redshift-ml",
+        "similarity": 0.2397
       }
     ],
     "gcp-transfer-appliance": [
@@ -6534,6 +6539,11 @@
     ],
     "gcp-cloud-apis": [
       {
+        "a": "gcp-cloud-apis",
+        "b": "aws-redshift-streaming",
+        "similarity": 0.2284
+      },
+      {
         "a": "gcp-database-migration",
         "b": "gcp-cloud-apis",
         "similarity": 0.2225
@@ -6542,11 +6552,6 @@
         "a": "gcp-network-intelligence",
         "b": "gcp-cloud-apis",
         "similarity": 0.2146
-      },
-      {
-        "a": "gcp-cloud-apis",
-        "b": "gcp-binary-authorization",
-        "similarity": 0.2131
       }
     ],
     "gcp-cloud-inference": [
@@ -6795,13 +6800,13 @@
       },
       {
         "a": "gcp-workload-identity-pool",
-        "b": "azure-host-groups",
-        "similarity": 0.2387
+        "b": "aws-redshift-streaming",
+        "similarity": 0.2459
       },
       {
-        "a": "gcp-bare-metal",
-        "b": "gcp-workload-identity-pool",
-        "similarity": 0.2354
+        "a": "gcp-workload-identity-pool",
+        "b": "azure-host-groups",
+        "similarity": 0.2387
       }
     ],
     "gcp-data-layers": [
@@ -7045,6 +7050,11 @@
     "gcp-marketplace": [
       {
         "a": "gcp-marketplace",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.1882
+      },
+      {
+        "a": "gcp-marketplace",
         "b": "aws-lightsail",
         "similarity": 0.1848
       },
@@ -7052,14 +7062,14 @@
         "a": "gcp-marketplace",
         "b": "aws-workspaces",
         "similarity": 0.182
-      },
-      {
-        "a": "gcp-marketplace",
-        "b": "fabric-mobile-report",
-        "similarity": 0.1766
       }
     ],
     "gcp-financial-marketplace": [
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.3259
+      },
       {
         "a": "gcp-financial-marketplace",
         "b": "gcp-cloud-tpu",
@@ -7069,11 +7079,6 @@
         "a": "gcp-project",
         "b": "gcp-financial-marketplace",
         "similarity": 0.2866
-      },
-      {
-        "a": "gcp-financial-marketplace",
-        "b": "aws-opensearch-index",
-        "similarity": 0.2634
       }
     ],
     "gcp-early-access": [
@@ -7156,9 +7161,9 @@
         "similarity": 0.2889
       },
       {
-        "a": "gcp-cloud-dns",
-        "b": "gcp-quantum-engine",
-        "similarity": 0.2353
+        "a": "gcp-quantum-engine",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.2477
       }
     ],
     "gcp-cloud-marketing": [
@@ -7606,6 +7611,11 @@
     "gcp-looker": [
       {
         "a": "gcp-looker",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.2608
+      },
+      {
+        "a": "gcp-looker",
         "b": "aws-opensearch-ultrawarm",
         "similarity": 0.2557
       },
@@ -7613,11 +7623,6 @@
         "a": "gcp-looker",
         "b": "azure-service-health",
         "similarity": 0.2556
-      },
-      {
-        "a": "gcp-looker",
-        "b": "fabric-live-dashboard",
-        "similarity": 0.2432
       }
     ],
     "gcp-analytics-hub": [
@@ -9826,8 +9831,8 @@
       },
       {
         "a": "aws-opensearch-ultrawarm",
-        "b": "fabric-database-swap",
-        "similarity": 0.2331
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.2419
       }
     ],
     "aws-redshift-auto-copy": [
@@ -9850,6 +9855,11 @@
     "aws-redshift-governance": [
       {
         "a": "aws-redshift-governance",
+        "b": "aws-redshift-ml",
+        "similarity": 0.2794
+      },
+      {
+        "a": "aws-redshift-governance",
         "b": "aws-glue-quality",
         "similarity": 0.2442
       },
@@ -9857,11 +9867,6 @@
         "a": "gcp-memorystore",
         "b": "aws-redshift-governance",
         "similarity": 0.2143
-      },
-      {
-        "a": "aws-redshift-governance",
-        "b": "aws-device-farm",
-        "similarity": 0.1888
       }
     ],
     "aws-redshift-query-editor": [
@@ -9879,6 +9884,91 @@
         "a": "aws-redshift-query-editor",
         "b": "azure-language",
         "similarity": 0.2664
+      }
+    ],
+    "aws-redshift-dense-compute": [
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.2947
+      },
+      {
+        "a": "gcp-looker",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.2608
+      },
+      {
+        "a": "gcp-project",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.2537
+      }
+    ],
+    "aws-redshift-dense-storage": [
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.3259
+      },
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.2947
+      },
+      {
+        "a": "aws-redshift-dense-storage",
+        "b": "fabric-receipt-kql",
+        "similarity": 0.2851
+      }
+    ],
+    "aws-redshift-ml": [
+      {
+        "a": "aws-redshift-governance",
+        "b": "aws-redshift-ml",
+        "similarity": 0.2794
+      },
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "aws-redshift-ml",
+        "similarity": 0.2704
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "aws-redshift-ml",
+        "similarity": 0.2604
+      }
+    ],
+    "aws-redshift-ra3": [
+      {
+        "a": "aws-redshift-ra3",
+        "b": "aws-category-hybrid",
+        "similarity": 0.3292
+      },
+      {
+        "a": "aws-redshift-ra3",
+        "b": "m365-comment",
+        "similarity": 0.2541
+      },
+      {
+        "a": "gcp-cloud-generic",
+        "b": "aws-redshift-ra3",
+        "similarity": 0.2209
+      }
+    ],
+    "aws-redshift-streaming": [
+      {
+        "a": "gcp-transfer",
+        "b": "aws-redshift-streaming",
+        "similarity": 0.25
+      },
+      {
+        "a": "gcp-workload-identity-pool",
+        "b": "aws-redshift-streaming",
+        "similarity": 0.2459
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "aws-redshift-streaming",
+        "similarity": 0.2298
       }
     ],
     "aws-lake-formation-data-lake": [
@@ -9961,9 +10051,9 @@
         "similarity": 0.2542
       },
       {
-        "a": "aws-opensearch-ingestion",
+        "a": "aws-redshift-ml",
         "b": "aws-glue-crawler",
-        "similarity": 0.2436
+        "similarity": 0.2441
       }
     ],
     "aws-glue-catalog": [
@@ -14558,6 +14648,11 @@
     ],
     "aws-cloudhsm": [
       {
+        "a": "aws-redshift-dense-storage",
+        "b": "aws-cloudhsm",
+        "similarity": 0.216
+      },
+      {
         "a": "aws-deep-learning-containers",
         "b": "aws-cloudhsm",
         "similarity": 0.2139
@@ -14566,11 +14661,6 @@
         "a": "gcp-anthos",
         "b": "aws-cloudhsm",
         "similarity": 0.2081
-      },
-      {
-        "a": "aws-datazone-projects",
-        "b": "aws-cloudhsm",
-        "similarity": 0.2075
       }
     ],
     "aws-waf": [
@@ -14704,9 +14794,9 @@
         "similarity": 0.2214
       },
       {
-        "a": "aws-security-incident-response",
-        "b": "aws-backup",
-        "similarity": 0.2194
+        "a": "aws-redshift-streaming",
+        "b": "aws-security-incident-response",
+        "similarity": 0.2198
       }
     ],
     "aws-audit-manager": [
@@ -15623,9 +15713,9 @@
         "similarity": 0.1178
       },
       {
-        "a": "m365-cloud-add",
-        "b": "fabric-database-money",
-        "similarity": 0.113
+        "a": "aws-redshift-dense-compute",
+        "b": "m365-cloud-add",
+        "similarity": 0.1134
       }
     ],
     "m365-cloud-download": [
@@ -17444,6 +17534,11 @@
     ],
     "aws-category-hybrid": [
       {
+        "a": "aws-redshift-ra3",
+        "b": "aws-category-hybrid",
+        "similarity": 0.3292
+      },
+      {
         "a": "aws-category-hybrid",
         "b": "fabric-column-inline",
         "similarity": 0.2338
@@ -17452,11 +17547,6 @@
         "a": "gcp-cloud-run-anthos",
         "b": "aws-category-hybrid",
         "similarity": 0.229
-      },
-      {
-        "a": "aws-rtb-fabric",
-        "b": "aws-category-hybrid",
-        "similarity": 0.219
       }
     ],
     "aws-category-migration": [
@@ -19821,9 +19911,9 @@
         "similarity": 0.2937
       },
       {
-        "a": "fabric-documents-pulse",
+        "a": "aws-redshift-dense-storage",
         "b": "fabric-receipt-kql",
-        "similarity": 0.2651
+        "similarity": 0.2851
       }
     ],
     "fabric-table-kql": [
