@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1278,
-  "aliases": 4214,
+  "count": 1283,
+  "aliases": 4226,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1164,6 +1164,11 @@
     "fabric-match-category",
     "fabric-notebook-export",
     "fabric-notebook-globe",
+    "fabric-list-asterisk",
+    "fabric-list-kql",
+    "fabric-list-sql",
+    "fabric-sql-lock",
+    "fabric-person-warning",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1293,6 +1298,13 @@
       "notes": "The arrowheads point in opposite directions, including at 32px."
     },
     {
+      "a": "fabric-list-kql",
+      "b": "fabric-list-sql",
+      "similarity": 0.8186,
+      "review": "distinct",
+      "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
+    },
+    {
       "a": "fabric-location-download",
       "b": "fabric-location-radar",
       "similarity": 0.7266,
@@ -1385,8 +1397,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1377,
-      "concepts": 280
+      "covered": 1389,
+      "concepts": 285
     },
     "entra": {
       "sources": 14,
@@ -6992,8 +7004,8 @@
       },
       {
         "a": "gcp-connectors",
-        "b": "aws-privatelink",
-        "similarity": 0.2106
+        "b": "fabric-person-warning",
+        "similarity": 0.2143
       }
     ],
     "gcp-workflows": [
@@ -7179,8 +7191,8 @@
       },
       {
         "a": "gcp-marketplace",
-        "b": "aws-workspaces",
-        "similarity": 0.182
+        "b": "fabric-list-sql",
+        "similarity": 0.183
       }
     ],
     "gcp-financial-marketplace": [
@@ -11768,9 +11780,9 @@
         "similarity": 0.1377
       },
       {
-        "a": "azure-endpoint-analytics",
-        "b": "m365-cogs",
-        "similarity": 0.1333
+        "a": "m365-cogs",
+        "b": "fabric-list-sql",
+        "similarity": 0.1371
       }
     ],
     "m365-three-shapes": [
@@ -21163,6 +21175,95 @@
         "a": "aws-ecs-task",
         "b": "fabric-notebook-globe",
         "similarity": 0.231
+      }
+    ],
+    "fabric-list-asterisk": [
+      {
+        "a": "fabric-notebook-globe",
+        "b": "fabric-list-asterisk",
+        "similarity": 0.2309
+      },
+      {
+        "a": "fabric-document-ssis",
+        "b": "fabric-list-asterisk",
+        "similarity": 0.2108
+      },
+      {
+        "a": "gcp-recommendations-ai",
+        "b": "fabric-list-asterisk",
+        "similarity": 0.2003
+      }
+    ],
+    "fabric-list-kql": [
+      {
+        "a": "fabric-list-kql",
+        "b": "fabric-list-sql",
+        "similarity": 0.8186,
+        "review": "distinct",
+        "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
+      },
+      {
+        "a": "aws-opensearch-index",
+        "b": "fabric-list-kql",
+        "similarity": 0.2364
+      },
+      {
+        "a": "fabric-list-kql",
+        "b": "fabric-folder-share",
+        "similarity": 0.2339
+      }
+    ],
+    "fabric-list-sql": [
+      {
+        "a": "fabric-list-kql",
+        "b": "fabric-list-sql",
+        "similarity": 0.8186,
+        "review": "distinct",
+        "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
+      },
+      {
+        "a": "aws-opensearch-index",
+        "b": "fabric-list-sql",
+        "similarity": 0.2561
+      },
+      {
+        "a": "fabric-board-lightning-asterisk",
+        "b": "fabric-list-sql",
+        "similarity": 0.2181
+      }
+    ],
+    "fabric-sql-lock": [
+      {
+        "a": "fabric-match-category",
+        "b": "fabric-sql-lock",
+        "similarity": 0.2322
+      },
+      {
+        "a": "aws-ec2-auto-scaling",
+        "b": "fabric-sql-lock",
+        "similarity": 0.2007
+      },
+      {
+        "a": "aws-emr-cluster",
+        "b": "fabric-sql-lock",
+        "similarity": 0.1991
+      }
+    ],
+    "fabric-person-warning": [
+      {
+        "a": "gcp-connectors",
+        "b": "fabric-person-warning",
+        "similarity": 0.2143
+      },
+      {
+        "a": "azure-container-instances",
+        "b": "fabric-person-warning",
+        "similarity": 0.2019
+      },
+      {
+        "a": "fabric-match-category",
+        "b": "fabric-person-warning",
+        "similarity": 0.2003
       }
     ],
     "fabric-database-add": [
