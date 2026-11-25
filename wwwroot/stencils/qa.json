@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1169,
-  "aliases": 4051,
+  "count": 1175,
+  "aliases": 4057,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -504,6 +504,12 @@
     "aws-opensearch-index",
     "aws-opensearch-observability",
     "aws-opensearch-dashboards",
+    "aws-opensearch-ingestion",
+    "aws-opensearch-traces",
+    "aws-opensearch-ultrawarm",
+    "aws-redshift-auto-copy",
+    "aws-redshift-governance",
+    "aws-redshift-query-editor",
     "aws-lake-formation-data-lake",
     "aws-datazone-business-catalog",
     "aws-datazone-portal",
@@ -1280,8 +1286,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1324,
-      "concepts": 356
+      "covered": 1330,
+      "concepts": 362
     },
     "gcp": {
       "sources": 261,
@@ -5118,6 +5124,11 @@
     "gcp-data-fusion": [
       {
         "a": "gcp-data-fusion",
+        "b": "aws-redshift-query-editor",
+        "similarity": 0.2639
+      },
+      {
+        "a": "gcp-data-fusion",
         "b": "gcp-partner-interconnect",
         "similarity": 0.2636
       },
@@ -5125,11 +5136,6 @@
         "a": "gcp-data-fusion",
         "b": "gcp-dataprep",
         "similarity": 0.2385
-      },
-      {
-        "a": "gcp-data-fusion",
-        "b": "gcp-natural-language",
-        "similarity": 0.2338
       }
     ],
     "gcp-cloud-composer": [
@@ -5781,6 +5787,11 @@
     "gcp-performance-dashboard": [
       {
         "a": "gcp-performance-dashboard",
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.2239
+      },
+      {
+        "a": "gcp-performance-dashboard",
         "b": "gcp-phishing-protection",
         "similarity": 0.2101
       },
@@ -5788,11 +5799,6 @@
         "a": "m365-calendar",
         "b": "gcp-performance-dashboard",
         "similarity": 0.2037
-      },
-      {
-        "a": "gcp-performance-dashboard",
-        "b": "gcp-my-cloud",
-        "similarity": 0.2
       }
     ],
     "gcp-network-connectivity-center": [
@@ -5814,6 +5820,11 @@
     ],
     "gcp-network-intelligence": [
       {
+        "a": "gcp-network-intelligence",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.2435
+      },
+      {
         "a": "azure-ddos-plans",
         "b": "gcp-network-intelligence",
         "similarity": 0.2299
@@ -5822,11 +5833,6 @@
         "a": "gcp-video-intelligence",
         "b": "gcp-network-intelligence",
         "similarity": 0.2254
-      },
-      {
-        "a": "gcp-network-intelligence",
-        "b": "gcp-transfer",
-        "similarity": 0.2172
       }
     ],
     "gcp-network-security": [
@@ -6205,6 +6211,11 @@
     ],
     "gcp-database-migration": [
       {
+        "a": "gcp-database-migration",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.2655
+      },
+      {
         "a": "azure-waf-policies",
         "b": "gcp-database-migration",
         "similarity": 0.2475
@@ -6213,11 +6224,6 @@
         "a": "gcp-database-migration",
         "b": "aws-data-transfer-terminal",
         "similarity": 0.2474
-      },
-      {
-        "a": "gcp-database-migration",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2453
       }
     ],
     "gcp-migrate-anthos": [
@@ -6658,8 +6664,8 @@
       },
       {
         "a": "gcp-advanced-solutions-lab",
-        "b": "aws-vpc-traffic-mirroring",
-        "similarity": 0.2194
+        "b": "aws-opensearch-ultrawarm",
+        "similarity": 0.2219
       }
     ],
     "gcp-tensorflow-enterprise": [
@@ -7270,8 +7276,8 @@
       },
       {
         "a": "gcp-free-trial",
-        "b": "gcp-cloud-gpu",
-        "similarity": 0.2119
+        "b": "aws-opensearch-ultrawarm",
+        "similarity": 0.214
       }
     ],
     "gcp-launcher": [
@@ -7600,6 +7606,11 @@
     "gcp-looker": [
       {
         "a": "gcp-looker",
+        "b": "aws-opensearch-ultrawarm",
+        "similarity": 0.2557
+      },
+      {
+        "a": "gcp-looker",
         "b": "azure-service-health",
         "similarity": 0.2556
       },
@@ -7607,14 +7618,14 @@
         "a": "gcp-looker",
         "b": "fabric-live-dashboard",
         "similarity": 0.2432
-      },
-      {
-        "a": "gcp-looker",
-        "b": "aws-transform",
-        "similarity": 0.241
       }
     ],
     "gcp-analytics-hub": [
+      {
+        "a": "gcp-analytics-hub",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.3006
+      },
       {
         "a": "gcp-binary-authorization",
         "b": "gcp-analytics-hub",
@@ -7624,11 +7635,6 @@
         "a": "gcp-analytics-hub",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2777
-      },
-      {
-        "a": "gcp-local-ssd",
-        "b": "gcp-analytics-hub",
-        "similarity": 0.2752
       }
     ],
     "gcp-ai-hypercomputer": [
@@ -7797,8 +7803,8 @@
       },
       {
         "a": "gcp-hyperdisk",
-        "b": "m365-folder-people",
-        "similarity": 0.2124
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.2131
       }
     ],
     "gcp-app-engine": [
@@ -9656,6 +9662,11 @@
     ],
     "aws-emr-hdfs-cluster": [
       {
+        "a": "aws-emr-hdfs-cluster",
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.3135
+      },
+      {
         "a": "gcp-storage",
         "b": "aws-emr-hdfs-cluster",
         "similarity": 0.212
@@ -9664,11 +9675,6 @@
         "a": "fabric-data-agent",
         "b": "aws-emr-hdfs-cluster",
         "similarity": 0.2013
-      },
-      {
-        "a": "aws-emr-hdfs-cluster",
-        "b": "azure-foundry-project",
-        "similarity": 0.2002
       }
     ],
     "aws-msk-connect": [
@@ -9773,6 +9779,108 @@
         "similarity": 0.2891
       }
     ],
+    "aws-opensearch-ingestion": [
+      {
+        "a": "gcp-analytics-hub",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.3006
+      },
+      {
+        "a": "aws-opensearch-ingestion",
+        "b": "aws-vpc",
+        "similarity": 0.2805
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.2695
+      }
+    ],
+    "aws-opensearch-traces": [
+      {
+        "a": "azure-event-hub-clusters",
+        "b": "aws-opensearch-traces",
+        "similarity": 0.2627
+      },
+      {
+        "a": "aws-opensearch-traces",
+        "b": "azure-foundry-agent-service",
+        "similarity": 0.2514
+      },
+      {
+        "a": "aws-opensearch-traces",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2513
+      }
+    ],
+    "aws-opensearch-ultrawarm": [
+      {
+        "a": "aws-opensearch-ultrawarm",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2613
+      },
+      {
+        "a": "gcp-looker",
+        "b": "aws-opensearch-ultrawarm",
+        "similarity": 0.2557
+      },
+      {
+        "a": "aws-opensearch-ultrawarm",
+        "b": "fabric-database-swap",
+        "similarity": 0.2331
+      }
+    ],
+    "aws-redshift-auto-copy": [
+      {
+        "a": "aws-emr-hdfs-cluster",
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.3135
+      },
+      {
+        "a": "gcp-performance-dashboard",
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.2239
+      },
+      {
+        "a": "gcp-hyperdisk",
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.2131
+      }
+    ],
+    "aws-redshift-governance": [
+      {
+        "a": "aws-redshift-governance",
+        "b": "aws-glue-quality",
+        "similarity": 0.2442
+      },
+      {
+        "a": "gcp-memorystore",
+        "b": "aws-redshift-governance",
+        "similarity": 0.2143
+      },
+      {
+        "a": "aws-redshift-governance",
+        "b": "aws-device-farm",
+        "similarity": 0.1888
+      }
+    ],
+    "aws-redshift-query-editor": [
+      {
+        "a": "aws-eventbridge-custom-bus",
+        "b": "aws-redshift-query-editor",
+        "similarity": 0.2725
+      },
+      {
+        "a": "aws-redshift-query-editor",
+        "b": "aws-device-farm",
+        "similarity": 0.2717
+      },
+      {
+        "a": "aws-redshift-query-editor",
+        "b": "azure-language",
+        "similarity": 0.2664
+      }
+    ],
     "aws-lake-formation-data-lake": [
       {
         "a": "gcp-anthos-service-mesh",
@@ -9853,9 +9961,9 @@
         "similarity": 0.2542
       },
       {
-        "a": "gcp-iot-core",
+        "a": "aws-opensearch-ingestion",
         "b": "aws-glue-crawler",
-        "similarity": 0.2428
+        "similarity": 0.2436
       }
     ],
     "aws-glue-catalog": [
@@ -9882,14 +9990,14 @@
         "similarity": 0.2445
       },
       {
-        "a": "aws-glue-quality",
-        "b": "aws-fsx-ontap",
-        "similarity": 0.2257
+        "a": "aws-redshift-governance",
+        "b": "aws-glue-quality",
+        "similarity": 0.2442
       },
       {
         "a": "aws-glue-quality",
-        "b": "fabric-databases",
-        "similarity": 0.2122
+        "b": "aws-fsx-ontap",
+        "similarity": 0.2257
       }
     ],
     "aws-data-exchange-api": [
@@ -11752,14 +11860,14 @@
         "similarity": 0.2921
       },
       {
-        "a": "aws-health-scribe",
-        "b": "azure-batch-ai",
-        "similarity": 0.2158
+        "a": "aws-redshift-query-editor",
+        "b": "aws-health-scribe",
+        "similarity": 0.2424
       },
       {
         "a": "aws-health-scribe",
-        "b": "aws-interactive-video",
-        "similarity": 0.2119
+        "b": "azure-batch-ai",
+        "similarity": 0.2158
       }
     ],
     "aws-neuron": [
@@ -12087,6 +12195,11 @@
     ],
     "azure-foundry-agent-service": [
       {
+        "a": "aws-opensearch-traces",
+        "b": "azure-foundry-agent-service",
+        "similarity": 0.2514
+      },
+      {
         "a": "azure-foundry-agent-service",
         "b": "fabric-platform",
         "similarity": 0.2399
@@ -12095,11 +12208,6 @@
         "a": "aws-bedrock-agentcore",
         "b": "azure-foundry-agent-service",
         "similarity": 0.2158
-      },
-      {
-        "a": "m365-text-number-list",
-        "b": "azure-foundry-agent-service",
-        "similarity": 0.2155
       }
     ],
     "azure-foundry-control-plane": [
@@ -12182,9 +12290,9 @@
         "similarity": 0.244
       },
       {
-        "a": "azure-foundry-local",
-        "b": "aws-security-incident-response",
-        "similarity": 0.2099
+        "a": "aws-opensearch-traces",
+        "b": "azure-foundry-local",
+        "similarity": 0.2113
       }
     ],
     "azure-foundry-models": [
@@ -15362,9 +15470,9 @@
         "similarity": 0.2138
       },
       {
-        "a": "gcp-quantum-engine",
+        "a": "aws-opensearch-ultrawarm",
         "b": "m365-edit",
-        "similarity": 0.207
+        "similarity": 0.2092
       }
     ],
     "m365-filmstrip-play": [
@@ -15941,14 +16049,14 @@
         "similarity": 0.2804
       },
       {
+        "a": "aws-opensearch-ultrawarm",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2613
+      },
+      {
         "a": "aws-bedrock-agentcore",
         "b": "aws-vpc-traffic-mirroring",
         "similarity": 0.2433
-      },
-      {
-        "a": "gcp-os-inventory",
-        "b": "aws-vpc-traffic-mirroring",
-        "similarity": 0.2385
       }
     ],
     "aws-rtb-fabric": [
@@ -18322,6 +18430,11 @@
     ],
     "azure-quickstart-center": [
       {
+        "a": "aws-opensearch-ingestion",
+        "b": "azure-quickstart-center",
+        "similarity": 0.2633
+      },
+      {
         "a": "aws-eventbridge-scheduler",
         "b": "azure-quickstart-center",
         "similarity": 0.2574
@@ -18330,11 +18443,6 @@
         "a": "gcp-configuration-management",
         "b": "azure-quickstart-center",
         "similarity": 0.254
-      },
-      {
-        "a": "gcp-datastore",
-        "b": "azure-quickstart-center",
-        "similarity": 0.2354
       }
     ],
     "azure-management-groups": [
@@ -18849,6 +18957,11 @@
     ],
     "azure-hosts": [
       {
+        "a": "aws-opensearch-ingestion",
+        "b": "azure-hosts",
+        "similarity": 0.2201
+      },
+      {
         "a": "aws-category-storage",
         "b": "azure-hosts",
         "similarity": 0.2035
@@ -18857,11 +18970,6 @@
         "a": "gcp-database-migration",
         "b": "azure-hosts",
         "similarity": 0.1993
-      },
-      {
-        "a": "aws-redshift",
-        "b": "azure-hosts",
-        "similarity": 0.1967
       }
     ],
     "fabric-cube-cone-sphere": [
@@ -19347,14 +19455,14 @@
         "similarity": 0.2359
       },
       {
+        "a": "aws-opensearch-ultrawarm",
+        "b": "fabric-database-swap",
+        "similarity": 0.2331
+      },
+      {
         "a": "fabric-database-swap",
         "b": "fabric-window-asterisk",
         "similarity": 0.2299
-      },
-      {
-        "a": "azure-compute-galleries",
-        "b": "fabric-database-swap",
-        "similarity": 0.2189
       }
     ],
     "fabric-database-table": [
