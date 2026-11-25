@@ -3,11 +3,13 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 153,
+  "approved": 151,
   "needsReview": [
+    "azure-key-vault",
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
+    "dynamics-field-service",
     "m365-upload",
     "m365-download",
     "aws-api-gateway",
@@ -2457,11 +2459,6 @@
     "azure-key-vault": [
       {
         "a": "azure-key-vault",
-        "b": "aws-guardduty",
-        "similarity": 0.3442
-      },
-      {
-        "a": "azure-key-vault",
         "b": "m365-shield-error",
         "similarity": 0.3269
       },
@@ -2469,6 +2466,11 @@
         "a": "azure-key-vault",
         "b": "gcp-cloud-armor",
         "similarity": 0.264
+      },
+      {
+        "a": "azure-key-vault",
+        "b": "m365-lock-shield",
+        "similarity": 0.2586
       }
     ],
     "azure-storage": [
@@ -2661,17 +2663,17 @@
     "dynamics-field-service": [
       {
         "a": "dynamics-field-service",
-        "b": "aws-guardduty",
-        "similarity": 0.141
-      },
-      {
-        "a": "dynamics-field-service",
         "b": "m365-clipboard",
         "similarity": 0.134
       },
       {
         "a": "dynamics-field-service",
         "b": "aws-s3-vpc-access",
+        "similarity": 0.13
+      },
+      {
+        "a": "dynamics-field-service",
+        "b": "fabric-bucket",
         "similarity": 0.13
       }
     ],
@@ -5074,19 +5076,19 @@
     ],
     "aws-guardduty": [
       {
-        "a": "azure-key-vault",
-        "b": "aws-guardduty",
-        "similarity": 0.3442
+        "a": "aws-guardduty",
+        "b": "gcp-external-ip",
+        "similarity": 0.3401
       },
       {
         "a": "aws-guardduty",
-        "b": "m365-shield-error",
-        "similarity": 0.3189
+        "b": "azure-dns-security-policy",
+        "similarity": 0.2676
       },
       {
         "a": "aws-guardduty",
-        "b": "gcp-cloud-armor",
-        "similarity": 0.2952
+        "b": "azure-service-groups",
+        "similarity": 0.2672
       }
     ],
     "aws-ebs": [
@@ -7369,6 +7371,11 @@
     ],
     "gcp-external-ip": [
       {
+        "a": "aws-guardduty",
+        "b": "gcp-external-ip",
+        "similarity": 0.3401
+      },
+      {
         "a": "gcp-external-ip",
         "b": "azure-resource-group-list",
         "similarity": 0.2769
@@ -7377,11 +7384,6 @@
         "a": "gcp-external-ip",
         "b": "azure-globe-error",
         "similarity": 0.2691
-      },
-      {
-        "a": "gcp-external-ip",
-        "b": "azure-search-grid",
-        "similarity": 0.2662
       }
     ],
     "gcp-cloud-routes": [
@@ -8297,9 +8299,9 @@
         "similarity": 0.1931
       },
       {
-        "a": "aws-guardduty",
+        "a": "aws-s3",
         "b": "gcp-security",
-        "similarity": 0.1357
+        "similarity": 0.12
       }
     ],
     "gcp-identity-platform": [
@@ -9992,14 +9994,14 @@
         "similarity": 0.3133
       },
       {
-        "a": "aws-guardduty",
-        "b": "gcp-cloud-armor",
-        "similarity": 0.2952
-      },
-      {
         "a": "azure-key-vault",
         "b": "gcp-cloud-armor",
         "similarity": 0.264
+      },
+      {
+        "a": "gcp-cloud-armor",
+        "b": "m365-lock-shield",
+        "similarity": 0.2158
       }
     ],
     "gcp-cloud-vpn": [
@@ -10536,14 +10538,14 @@
         "similarity": 0.3269
       },
       {
-        "a": "aws-guardduty",
-        "b": "m365-shield-error",
-        "similarity": 0.3189
-      },
-      {
         "a": "gcp-cloud-armor",
         "b": "m365-shield-error",
         "similarity": 0.3133
+      },
+      {
+        "a": "m365-shield-error",
+        "b": "m365-lock-shield",
+        "similarity": 0.2749
       }
     ],
     "m365-organization": [
@@ -23905,14 +23907,14 @@
         "similarity": 0.1945
       },
       {
+        "a": "aws-guardduty",
+        "b": "aws-support",
+        "similarity": 0.1781
+      },
+      {
         "a": "azure-event-grid-subscriptions",
         "b": "aws-support",
         "similarity": 0.1771
-      },
-      {
-        "a": "aws-support",
-        "b": "fabric-globe-settings",
-        "similarity": 0.1747
       }
     ],
     "aws-professional-services": [
