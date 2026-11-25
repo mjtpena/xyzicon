@@ -3,6 +3,44 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsDataArtwork = [
+  entry("aws-lake-formation-data-lake", "aws", "Lake Formation Data Lake", ["Res_AWS-Lake-Formation_Data-Lake_48"],
+    "Structured and unstructured data flow into a shared lake.",
+    [
+      rect(10, 15, 35, 29), line([10, 24], [45, 24]), line([21, 24], [21, 44]), line([33, 24], [33, 44]),
+      line([77, 15], [104, 15], [115, 26], [115, 44], [77, 44], [77, 15]), line([104, 15], [104, 26], [115, 26]),
+      line([27, 44], [27, 62], [64, 62]), line([96, 44], [96, 62], [64, 62]),
+      line([64, 51], [64, 75]), line([57, 68], [64, 75], [71, 68]),
+      line([10, 83], [23, 78], [36, 83], [50, 78], [64, 83], [78, 78], [92, 83], [106, 78], [118, 83]),
+      line([10, 99], [23, 94], [36, 99], [50, 94], [64, 99], [78, 94], [92, 99], [106, 94], [118, 99]),
+      line([32, 113], [96, 113]),
+    ]),
+  entry("aws-datazone-business-catalog", "aws", "DataZone Business Data Catalog", ["Res_Amazon-DataZone_Business-Data-Catalog_48"],
+    "Business data assets are organized by linked categories in an open catalog.",
+    [
+      line([10, 21], [45, 21], [64, 30], [83, 21], [118, 21], [118, 96], [83, 96], [64, 105], [45, 96], [10, 96], [10, 21]),
+      line([64, 30], [64, 105]), line([17, 33], [42, 33]), line([17, 43], [42, 43]), line([17, 53], [37, 53]),
+      oval(84, 37, 10, 10), oval(72, 70, 10, 10), oval(98, 70, 10, 10),
+      line([89, 47], [89, 57], [77, 57], [77, 70]), line([89, 57], [103, 57], [103, 70]),
+    ]),
+  entry("aws-datazone-portal", "aws", "DataZone Data Portal", ["Res_Amazon-DataZone_Data-Portal_48"],
+    "A person enters a shared portal to discover available datasets.",
+    [
+      line([11, 104], [11, 20], [117, 20], [117, 104]), line([11, 33], [117, 33]),
+      line([20, 26], [25, 26]), line([31, 26], [36, 26]), line([42, 26], [47, 26]),
+      oval(26, 47, 17, 17), line([19, 88], [22, 74], [34, 66], [46, 74], [49, 88]),
+      line([55, 74], [68, 74]), line([62, 68], [68, 74], [62, 80]),
+      rect(74, 45, 32, 37), line([74, 55], [106, 55]), line([84, 55], [84, 82]), line([94, 55], [94, 82]), line([74, 68], [106, 68]),
+      line([20, 104], [108, 104]),
+    ]),
+  entry("aws-datazone-projects", "aws", "DataZone Data Projects", ["Res_Amazon-DataZone_Data-Projects_48"],
+    "A team collaborates on an analytical data project.",
+    [
+      line([11, 27], [42, 27], [51, 36], [113, 36], [113, 97], [11, 97], [11, 27]),
+      oval(23, 50, 14, 14), oval(44, 50, 14, 14), line([17, 84], [19, 72], [30, 66], [39, 72], [41, 84]),
+      line([40, 84], [42, 72], [51, 66], [60, 72], [62, 84]),
+      line([73, 82], [73, 57]), line([73, 82], [103, 82]), line([80, 77], [80, 69]), line([89, 77], [89, 61]), line([98, 77], [98, 52]),
+      line([22, 111], [107, 111]),
+    ]),
   entry("aws-glue-crawler", "aws", "AWS Glue Crawler", ["Res_AWS-Glue_Crawler_48"],
     "A crawler discovers fields in several data sources.",
     [

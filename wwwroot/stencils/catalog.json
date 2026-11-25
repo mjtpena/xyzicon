@@ -189,7 +189,7 @@
       ],
       "revision": "e27e4c0ea621ced645403af2cc15d586af422b41765be46b0a621f4b1f583f61",
       "geometrySignature": "b91c09011bbc8c2736963f6a120e8ae4e50ee6ba2403ec7067a253cf22bf43ac",
-      "comparisonRevision": "4bd8acdcad2965eeaa26a9201ab3da8a9522957438e4ae4e318d7996069735b8",
+      "comparisonRevision": "4d876e27e09e28df529939d17a5b91caa02bbf32baf6ac8f4aabd49b8cfbdc86",
       "review": "pending",
       "notes": ""
     },
@@ -504,7 +504,7 @@
       ],
       "revision": "2eb0d74c2d1840edc7193c0e11ffd70011353b2c4fffe39aef48d5b369257fbf",
       "geometrySignature": "2b509dcc0c16dbd86f873e9b90b14499507722699865478148f10c943dcf103c",
-      "comparisonRevision": "e6aa637cf60b8cc66dbf34d6acb945688dcf44f675dfdf88e784fd82f6790f90",
+      "comparisonRevision": "784be1b27695dcbcf9f50974c11e6c8b94f0d62c78e0baf4469ac0c3e44f0352",
       "review": "pending",
       "notes": ""
     },
@@ -519,7 +519,7 @@
       ],
       "revision": "620bf17c3fa0e6b3802be17fb883dd4185f7a79238d744b282eff8f1503c688e",
       "geometrySignature": "3431dc79b054edd80365497743edf98899410b293fb6dac2aa49a061f6ca492e",
-      "comparisonRevision": "2464b6f383d59c2441e4a6e0c537d2a10a0887893e4af8c4019754e89fdea8d3",
+      "comparisonRevision": "751ccf9d694796a9c137eeb8c8582766f0bdeb660dcc65dad86b3b8d6bfe00ca",
       "review": "pending",
       "notes": ""
     },
@@ -1607,7 +1607,7 @@
       ],
       "revision": "0cb557262b85cbec0255ac6e7a981958de8f3eff2fe85e902a99c88702efc596",
       "geometrySignature": "b2671ba5f87bc04d9508cc978bb9af2ed6c8f44aa1602b1623c30803e13ae000",
-      "comparisonRevision": "451815014a26a18cec37213754f1357371fc17bda80a24ea26b9071c703b966e",
+      "comparisonRevision": "fbcdd49445a98d4206b92aec011cc4b9ec9cf3de30afe2513245e3fb1696264b",
       "review": "pending",
       "notes": ""
     },
@@ -4424,14 +4424,14 @@
       "id": "gcp-data-catalog",
       "provider": "gcp",
       "name": "Google Data Catalog",
-      "rationale": "An indexed catalog lists data assets with a search tab.",
+      "rationale": "An index organizes multiple datasets under labeled category tabs.",
       "path": "stencils/gcp-data-catalog.svg",
       "sources": [
         "/icons/gcp/data_catalog/data_catalog.svg"
       ],
-      "revision": "0859291db7733888af29e189575d9891cf3661ad70fcb53c95e3a34602b180fd",
-      "geometrySignature": "6475850fa15954e9669ff652df1096ab5695617056f3f2d79011869499b77d85",
-      "comparisonRevision": "f6cfd2c5830111c01ae81224f40db7b88582bf3e52803513332cd95dff43e3cb",
+      "revision": "a48d8376a93a3aaf2dcdd1f3e6f173ca7dc3b2197047639bb6f08a213afee6fe",
+      "geometrySignature": "3c0ab71309639f3f8aa627391193ec6706de3435b1e5bf6ef26a75cfb7817b1a",
+      "comparisonRevision": "2f973f16b44e7ce2e9682183abc3fae03e0ee90202af4897828a5f0afc16e05e",
       "review": "pending",
       "notes": ""
     },
@@ -4701,7 +4701,7 @@
       ],
       "revision": "04d38f9e3a1d67c084b6e1d04395a456675ce87b2d60c15323efa5b8f150d023",
       "geometrySignature": "58eea74001a60ebdae5b05c365d92348bc219cd5e13d4c743e1343f481242a19",
-      "comparisonRevision": "17836e729f68f215ee37a5e9c92b13a19712a88f1fdbee7cc7ad1578c484cbc0",
+      "comparisonRevision": "5ea6aa0b53780fe4b04cec2884dca97359eb04d92ad8613b323e4353d5d2c93e",
       "review": "pending",
       "notes": ""
     },
@@ -6087,6 +6087,66 @@
       "notes": ""
     },
     {
+      "id": "aws-lake-formation-data-lake",
+      "provider": "aws",
+      "name": "Lake Formation Data Lake",
+      "rationale": "Structured and unstructured data flow into a shared lake.",
+      "path": "stencils/aws-lake-formation-data-lake.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_AWS-Lake-Formation_Data-Lake_48.svg"
+      ],
+      "revision": "445a3aa68ee308af32f584e48b21d06301b3bba43334f1503d056ef813b1ca3b",
+      "geometrySignature": "b1419101202018ef95f969a160bd97d758fa23940f27b843c8951a81d9cf6a9b",
+      "comparisonRevision": "879a53eb6f6feb54fdf68bd461616a72ba8da5be7d442c257ddac7b7d5d73797",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-datazone-business-catalog",
+      "provider": "aws",
+      "name": "DataZone Business Data Catalog",
+      "rationale": "Business data assets are organized by linked categories in an open catalog.",
+      "path": "stencils/aws-datazone-business-catalog.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-DataZone_Business-Data-Catalog_48.svg"
+      ],
+      "revision": "fd2d2e20f57eae56cb40a956b7cc27010b8474ad2e428ef3b41c5f8940202134",
+      "geometrySignature": "3ba74c4b97dce7407265ac342b4776625673fe82e6497bb8722dc2b3ac20fa4b",
+      "comparisonRevision": "472d6b492ec687c2dac8c7394820e2022a94fcc25990cfe6256eb0fa73378bed",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-datazone-portal",
+      "provider": "aws",
+      "name": "DataZone Data Portal",
+      "rationale": "A person enters a shared portal to discover available datasets.",
+      "path": "stencils/aws-datazone-portal.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-DataZone_Data-Portal_48.svg"
+      ],
+      "revision": "00c8269c9b8bfe3519faa0cdd8c3cda33913b593abc1676428d2d015dbeeb68c",
+      "geometrySignature": "7245ed00210e72138f99f1ff674aceaa386602c893e939ff562f012a9eb3862e",
+      "comparisonRevision": "8ca4db9c73604d42ef2b409d559fb11cfd595c7fa2aaea64eb2fc452fac42243",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-datazone-projects",
+      "provider": "aws",
+      "name": "DataZone Data Projects",
+      "rationale": "A team collaborates on an analytical data project.",
+      "path": "stencils/aws-datazone-projects.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-DataZone_Data-Projects_48.svg"
+      ],
+      "revision": "66e5fd4db7c65d0d275c27b3823d9825680eee59eb33326e38d0ccc8009a03a6",
+      "geometrySignature": "be3254d664a77a1d81e043d640784cbf2752aebb9bb35445840074ef6218f9cc",
+      "comparisonRevision": "271dbdc762c2c0eb6d4a8b8bd7405262c06214d9f28942331e11d59aa2b4a409",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "aws-glue-crawler",
       "provider": "aws",
       "name": "AWS Glue Crawler",
@@ -6474,7 +6534,7 @@
       ],
       "revision": "cc43c7a3b2d6588e2a07e7660b7aa80878552f2f5d8af7cdcfff749907054809",
       "geometrySignature": "237103a834c558889c8bf3f2eecd5cc3be90ca2ff71a9344df400562f2e4bb9e",
-      "comparisonRevision": "be47d4dd8ddd8af1a1d40b14bb1fdcdcd7fcf2d5b7ab0d9845fb59cd214a4a03",
+      "comparisonRevision": "14c5343f16d04dccece323b95c9c528b398de2f9eb6808706da4804c76ce56c6",
       "review": "pending",
       "notes": ""
     },
@@ -6914,7 +6974,7 @@
       ],
       "revision": "161cb35d61fd039877d76c2dfe41d75f1abb39ce740d706f99838fc4320dac06",
       "geometrySignature": "da9dd4a619ce1c279cebfd358252282b6d59ba4ed5e08879a7ca137bbaaeb8ef",
-      "comparisonRevision": "8b900a53f39e730fa6f844073d8ce8aeb7b85f97e647e59fd67438258ec77630",
+      "comparisonRevision": "5903144b1c846b48a3282307907622d2d9bc2dc8453c19f0b279edff8e74a818",
       "review": "pending",
       "notes": ""
     },
@@ -7584,7 +7644,7 @@
       ],
       "revision": "d910692d49eac8d4771138ca3823927743af90541b015242b7e8ff364fcc5fc9",
       "geometrySignature": "8bd041822c100f0dd44804c289986761ab2d9f7b466dc5fa4b01ac223a4dfdc2",
-      "comparisonRevision": "58a339256fbd8a89781f9f265fdf0493baf138f4a3193b616a697365c35c6a66",
+      "comparisonRevision": "8d3246a13ca21032055d648f89120ad570ed94925cf2a3e05ab14b312a9c5557",
       "review": "pending",
       "notes": ""
     },
@@ -8254,7 +8314,7 @@
       ],
       "revision": "02ea91c0dfc68ff303b6c9bfebd49c223aad5baf0bb8ebd72a5f85f461f0039b",
       "geometrySignature": "4b209cf6708adae06f9ff3868e4df3efeae33fa38a0613e0ac1a379dce956b5a",
-      "comparisonRevision": "3db8309df9ff11d3262ff61a9e6a77a19541e62e9c030b72c70e8f24ec45c204",
+      "comparisonRevision": "c89e64d7e5fd53b7491b1f06f037fa50302a461428a4bda0da1301d02f21bcce",
       "review": "pending",
       "notes": ""
     },
@@ -8648,7 +8708,7 @@
       ],
       "revision": "95883901109628df8b85fa17d81ce5e679568f3fd80a7f49b8378da3447aad34",
       "geometrySignature": "7c94bbed082510412c9fd894b1e5a2bff37918eb2aac6eaea3cdeaa160862207",
-      "comparisonRevision": "2cad245bef7746d84786cd8894bdac9c5e4f0ecae3da4990cc34536e0a0c8806",
+      "comparisonRevision": "aa475db6542968def69035e9d647f2d2f01082fbc8cc5985dca4d41438606b00",
       "review": "pending",
       "notes": ""
     },
@@ -9751,7 +9811,7 @@
       ],
       "revision": "a83aa183a5d15f5d33fc7b3fe5b359bb8041815ebdf519c459b8278f658705c7",
       "geometrySignature": "38d41626d64b95205e6d9e2a6e8c7fc7e04cd2107c762ce9a258abeb79521fac",
-      "comparisonRevision": "90020fd8d12a0de8a60fc668f7a007e613d7d35d486d3dfc99d9b7192d7e7fbf",
+      "comparisonRevision": "00487f02c5b4e49c5c501c2cbf4ab410b8ce8de13c6e7a92dd7011df0dbeddb2",
       "review": "pending",
       "notes": ""
     },
@@ -10975,7 +11035,7 @@
       ],
       "revision": "820dde48ce456ebe581ed1695373cc6bf4caffa521458bc0feff94dabf224159",
       "geometrySignature": "a96039792b0fb829e23cb42f46bbb3b66c33030a0b65200c38908dc6ce34bf15",
-      "comparisonRevision": "d685205a142263fe4665693324fe92a151574e5d9f454737ad90fb3ac80aa2c0",
+      "comparisonRevision": "8fb407456beece8bfb852bd6af4007cdb174ae611a750fab47e2b45642a93d91",
       "review": "pending",
       "notes": ""
     },
@@ -11191,7 +11251,7 @@
       ],
       "revision": "0aa81391ece6b36de495390977d3292404433a6c33956fcd67fec9ca70558cb2",
       "geometrySignature": "0021479553a31824c3307e41cb7d9c9ef7c4d1ac7fca986453c2fe65629593dd",
-      "comparisonRevision": "75b67762d4853248ac6304c84e66dc1cf0fd41de9a8e11583f49a136734c58b0",
+      "comparisonRevision": "ee0919d79da7f2b931eb3f309d020366d12d11ea78f2368c524a45024a8d848d",
       "review": "pending",
       "notes": ""
     },
@@ -11479,7 +11539,7 @@
       ],
       "revision": "bc7801d1e56d73ba469f827ba0a11583afc63fc4065d93d1c6cc7b3ace4b42f6",
       "geometrySignature": "20944e5c3b8b902a3d574ce9378330b52b717c9b08acd711f8de28c56cc75310",
-      "comparisonRevision": "d471def35788422bcb93905c3cb0bacd7eb5f89d7cb57f5a7690cdfc156feecb",
+      "comparisonRevision": "a8c96fc876712d60f9e092d9ff4715e5aa7697628eaa6951f1d1b2d380590d14",
       "review": "pending",
       "notes": ""
     },
@@ -12209,7 +12269,7 @@
       ],
       "revision": "878e4338f041b5f6564eb88dab63f52fabbc15cf6fab92cf0b08c3cc3cf1b82a",
       "geometrySignature": "3d7585c7817077645a7494bf2e5c092a945db3c3b731b611e4e542120b0b9827",
-      "comparisonRevision": "025212cd0e13a4e266a226bf29bad34b4c6aa7a1e18d36be711b3d7aca98fe3e",
+      "comparisonRevision": "a79b16a17c2554fcca525f028af123f27646171a062a4222178de91b31332a3f",
       "review": "pending",
       "notes": ""
     },
@@ -13018,7 +13078,7 @@
       ],
       "revision": "e4b165a9167e444e8fafba2cbc75a82311393c80246e40f8a05b5d1e1cf94c5b",
       "geometrySignature": "b28027703157a615ea28e10abbe3bb6b10aa535799f22a6a8dc8abd31b602753",
-      "comparisonRevision": "9a6661cb7bb0141db44edf3eb5c13a924bea5eb21947b1182efc8c4e19a1b56e",
+      "comparisonRevision": "21a1e885bc5a3d8e9e10dbe6bf91e7e03f08d257ee22898dacf1369a5392ffe2",
       "review": "pending",
       "notes": ""
     },
@@ -14134,7 +14194,7 @@
       ],
       "revision": "4cef7c5cbb5337f16dc93b01b3b978f1d80b2c2b11ea94991c21d662c77ef216",
       "geometrySignature": "b35929305f705d613ba0c572ce8f082712e8f697d8d1818573b1cc95d10bf965",
-      "comparisonRevision": "f9bafa975c24ccf56f71adae061a26ebc00e3b2f1e03e127947bb930625e9d33",
+      "comparisonRevision": "c01994624349709c619a4ac877a0098c3c2d7080a6bc243738357f95486fce8a",
       "review": "pending",
       "notes": ""
     },
@@ -14296,7 +14356,7 @@
       ],
       "revision": "001b71019f12a250ca19e1a1f046f1138b8ea8e29a0db53c564609c90eba4430",
       "geometrySignature": "eb38596c162f745aee8f2512e76dbd51258118ee7f8601ce986fd7074b6fa3b9",
-      "comparisonRevision": "af749bd65d88d635659e239f6ad7f604783f2eb08387f762b6fffb8f331749fe",
+      "comparisonRevision": "46c57774e8336c8315f23beca2dd0dd592f8084dea717d22d9b8bcd2b2f79869",
       "review": "pending",
       "notes": ""
     },
@@ -14764,7 +14824,7 @@
       ],
       "revision": "0844fd7ca2cdcd059934dc2fc8bb4f5bf422864de248f6ba7d267aa11dcf7e03",
       "geometrySignature": "7d90eb83e2e728f9255a3302d7750a946c6b8b2708cd52f4917a3a2b04cd26d3",
-      "comparisonRevision": "61163616d2bae8cabd5d14f3dfb4139f2333d45fa7c669ae02bd0067ae113c58",
+      "comparisonRevision": "c7fe4b6c903a24ecc6842008d01d26308e916d98965d3b071f7977a3480eb584",
       "review": "pending",
       "notes": ""
     },
@@ -15088,7 +15148,7 @@
       ],
       "revision": "a9e45949946294e0ead73d10541e5a406b43f37d4db59c18a48c59b78330396a",
       "geometrySignature": "8ec2469623f75289c313a069aaca34df5a64968f7229ce4aa5832add0cdad10b",
-      "comparisonRevision": "3e2a8987c9016e7b8cd0777e1208063bdfb0534a4df6f7652562a4ce421783f8",
+      "comparisonRevision": "2952f2a6fe440fc5bdca6adddda21b54d5290b9b19c48590436bceb9dc733dfc",
       "review": "pending",
       "notes": ""
     },
@@ -15640,7 +15700,7 @@
       ],
       "revision": "804370d08edbc11561fb34395fec652f3cdb0922a09b5492e8df8fdfb8be37de",
       "geometrySignature": "e742312ec5e95c735cafb1c966cee4875dbba31f2afdbb2c86f94593380372d2",
-      "comparisonRevision": "4dad7a47a14684868cc1a3d77d8c1607103cb5f048c07b94e918ff5572866335",
+      "comparisonRevision": "24bd20c8229491dc62807a2a2001ee0286f138852b4d0ad9622ccf1a8ac0b781",
       "review": "pending",
       "notes": ""
     },
@@ -15782,7 +15842,7 @@
       ],
       "revision": "4300e88d287531aa6ef2256a9b7dbd593b956762c93a59ca7a9dd5d0dec57d0d",
       "geometrySignature": "777e6d30ef7f88f5de1f42143ef2694edaaea493b55dcb9ca90310bdf505c676",
-      "comparisonRevision": "ed96927ee7c9143164d0ad0a072d7d00762018e4b76f2d2a1f30f6c4a5a83f7d",
+      "comparisonRevision": "0e5dac44796ad8686be7917e7b742d5770e62ac45594f66279eb1dfd551504d1",
       "review": "pending",
       "notes": ""
     },
@@ -16628,7 +16688,7 @@
       ],
       "revision": "352083e3cb8bdad4050c79778efc90c3144a401bb25df853dd830d459122a81a",
       "geometrySignature": "8cf6e5cbb3c1de12dcbcd332f39a7b65f37c4b6a5b1de0ed95c2743aa86a98f6",
-      "comparisonRevision": "7cc48859643c60857149a1b5b3d1d8943d78abf6e6f51ed1e9ae3d9672d4f0c2",
+      "comparisonRevision": "b24063accdcba77032bd314c1f901852f4187e7550c47397af2b5dd00420e870",
       "review": "pending",
       "notes": ""
     },
@@ -16990,7 +17050,7 @@
       ],
       "revision": "7a6a7d373c341925be5a75df6a0d97dcd0afffe7e4ea3596730f3770eaded827",
       "geometrySignature": "f4e67c5aebb238b9695b7d6af1fc76f1bc2c3b0cc07ca7f1cec9f905721a4a79",
-      "comparisonRevision": "37e5525dd89e565cee36e8618c50bb7cc836a4f3805662804349594695df2e66",
+      "comparisonRevision": "eae86d66be16b8b5edc90c8ff7b785b4129d30baae080e47f901d72230e1b7c5",
       "review": "pending",
       "notes": ""
     },
@@ -17342,7 +17402,7 @@
       ],
       "revision": "4bd2065edd44335acbf0ede28d31aed93d635fbe5b771a24aa9c89fb2028180c",
       "geometrySignature": "e8b535cb6067b697f1769dc29c21813d34c76752e191635012d708fc08fb1045",
-      "comparisonRevision": "78ff96b1ea5be33aeab3f8ab7f6f88a0443d95d1a524a64346a5a8fdec641d41",
+      "comparisonRevision": "ca00205bcd6c49b540c87ea2083f478dfa2e213362151a3ff8b9b6eceec6382b",
       "review": "pending",
       "notes": ""
     },
