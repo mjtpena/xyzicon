@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 800,
-  "aliases": 3329,
+  "count": 804,
+  "aliases": 3334,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -718,6 +718,10 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-app-service-environments",
+    "azure-aks-automatic",
+    "azure-linux",
+    "azure-managed-service-fabric",
     "azure-notification-hubs",
     "azure-app-certificates",
     "azure-app-domains",
@@ -867,8 +871,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 149,
-      "concepts": 111
+      "covered": 154,
+      "concepts": 115
     },
     "fabric": {
       "sources": 1584,
@@ -2287,6 +2291,11 @@
     "azure-container-instances": [
       {
         "a": "azure-container-instances",
+        "b": "azure-linux",
+        "similarity": 0.2246
+      },
+      {
+        "a": "azure-container-instances",
         "b": "gcp-category-business-intelligence",
         "similarity": 0.2155
       },
@@ -2294,11 +2303,6 @@
         "a": "azure-container-instances",
         "b": "gcp-category-devtools",
         "similarity": 0.211
-      },
-      {
-        "a": "azure-container-instances",
-        "b": "aws-transfer-family",
-        "similarity": 0.2057
       }
     ],
     "azure-container-registry": [
@@ -3465,13 +3469,13 @@
       },
       {
         "a": "azure-data-factory",
-        "b": "aws-textract",
-        "similarity": 0.1978
+        "b": "azure-linux",
+        "similarity": 0.2011
       },
       {
         "a": "azure-data-factory",
-        "b": "fabric-power-bi",
-        "similarity": 0.1968
+        "b": "aws-textract",
+        "similarity": 0.1978
       }
     ],
     "azure-data-explorer": [
@@ -3498,14 +3502,14 @@
         "similarity": 0.23
       },
       {
+        "a": "azure-logic-apps",
+        "b": "azure-linux",
+        "similarity": 0.2046
+      },
+      {
         "a": "gcp-spanner",
         "b": "azure-logic-apps",
         "similarity": 0.2032
-      },
-      {
-        "a": "azure-logic-apps",
-        "b": "aws-device-farm",
-        "similarity": 0.1959
       }
     ],
     "azure-virtual-network-gateway": [
@@ -3600,14 +3604,14 @@
         "similarity": 0.2376
       },
       {
+        "a": "aws-lake-formation",
+        "b": "azure-app-service-environments",
+        "similarity": 0.2041
+      },
+      {
         "a": "gcp-compute-engine",
         "b": "aws-lake-formation",
         "similarity": 0.1933
-      },
-      {
-        "a": "azure-monitor",
-        "b": "aws-lake-formation",
-        "similarity": 0.1913
       }
     ],
     "aws-data-firehose": [
@@ -4718,18 +4722,18 @@
     "m365-tablet": [
       {
         "a": "m365-tablet",
+        "b": "azure-linux",
+        "similarity": 0.2646
+      },
+      {
+        "a": "m365-tablet",
         "b": "m365-share-screen-overlay",
         "similarity": 0.2436
       },
       {
         "a": "m365-tablet",
-        "b": "azure-power-bi-embedded",
-        "similarity": 0.2395
-      },
-      {
-        "a": "m365-tablet",
-        "b": "aws-chime",
-        "similarity": 0.2326
+        "b": "azure-app-service-environments",
+        "similarity": 0.2424
       }
     ],
     "m365-megaphone": [
@@ -7086,13 +7090,13 @@
       },
       {
         "a": "m365-settings",
-        "b": "m365-task-list-ltr",
-        "similarity": 0.2236
+        "b": "azure-app-service-environments",
+        "similarity": 0.2508
       },
       {
-        "a": "m365-data-area",
-        "b": "m365-settings",
-        "similarity": 0.222
+        "a": "m365-settings",
+        "b": "m365-task-list-ltr",
+        "similarity": 0.2236
       }
     ],
     "m365-tap": [
@@ -8310,13 +8314,13 @@
       },
       {
         "a": "fabric-data-engineering",
-        "b": "aws-app-runner",
-        "similarity": 0.1985
+        "b": "azure-app-service-environments",
+        "similarity": 0.2039
       },
       {
         "a": "fabric-data-engineering",
-        "b": "aws-management-console",
-        "similarity": 0.1934
+        "b": "aws-app-runner",
+        "similarity": 0.1985
       }
     ],
     "fabric-data-science": [
@@ -9273,6 +9277,11 @@
     ],
     "aws-service-management-connector": [
       {
+        "a": "aws-service-management-connector",
+        "b": "azure-linux",
+        "similarity": 0.2966
+      },
+      {
         "a": "azure-power-bi-embedded",
         "b": "aws-service-management-connector",
         "similarity": 0.2559
@@ -9281,11 +9290,6 @@
         "a": "aws-service-management-connector",
         "b": "aws-devops-agent",
         "similarity": 0.2446
-      },
-      {
-        "a": "aws-service-management-connector",
-        "b": "aws-device-farm",
-        "similarity": 0.2344
       }
     ],
     "aws-devops-agent": [
@@ -9358,6 +9362,11 @@
     ],
     "aws-management-console": [
       {
+        "a": "aws-management-console",
+        "b": "azure-app-service-environments",
+        "similarity": 0.3206
+      },
+      {
         "a": "aws-chime",
         "b": "aws-management-console",
         "similarity": 0.2612
@@ -9366,11 +9375,6 @@
         "a": "azure-power-bi-embedded",
         "b": "aws-management-console",
         "similarity": 0.2433
-      },
-      {
-        "a": "aws-management-console",
-        "b": "aws-iot-twinmaker",
-        "similarity": 0.2256
       }
     ],
     "aws-appconfig": [
@@ -9431,14 +9435,14 @@
         "similarity": 0.1849
       },
       {
-        "a": "fabric-data-warehouse",
-        "b": "aws-health-dashboard",
+        "a": "aws-health-dashboard",
+        "b": "azure-app-service-environments",
         "similarity": 0.1759
       },
       {
-        "a": "aws-elastic-beanstalk",
+        "a": "fabric-data-warehouse",
         "b": "aws-health-dashboard",
-        "similarity": 0.1714
+        "similarity": 0.1759
       }
     ],
     "aws-control-tower": [
@@ -9874,13 +9878,13 @@
       },
       {
         "a": "aws-security-hub",
-        "b": "aws-nitro-enclaves",
-        "similarity": 0.1735
+        "b": "azure-linux",
+        "similarity": 0.1764
       },
       {
-        "a": "m365-lightbulb-check",
-        "b": "aws-security-hub",
-        "similarity": 0.1732
+        "a": "aws-security-hub",
+        "b": "aws-nitro-enclaves",
+        "similarity": 0.1735
       }
     ],
     "aws-certificate-manager": [
@@ -10235,9 +10239,9 @@
         "similarity": 0.2199
       },
       {
-        "a": "aws-management-console",
-        "b": "aws-resource-access-manager",
-        "similarity": 0.213
+        "a": "aws-resource-access-manager",
+        "b": "azure-app-service-environments",
+        "similarity": 0.2132
       }
     ],
     "aws-payment-cryptography": [
@@ -12847,9 +12851,9 @@
         "similarity": 0.2076
       },
       {
-        "a": "aws-fsx",
-        "b": "aws-dcv",
-        "similarity": 0.1976
+        "a": "aws-dcv",
+        "b": "azure-app-service-environments",
+        "similarity": 0.1984
       }
     ],
     "aws-elastic-vmware": [
@@ -13054,6 +13058,74 @@
         "a": "aws-iot-fleetwise",
         "b": "aws-iot-twinmaker",
         "similarity": 0.2232
+      }
+    ],
+    "azure-app-service-environments": [
+      {
+        "a": "aws-management-console",
+        "b": "azure-app-service-environments",
+        "similarity": 0.3206
+      },
+      {
+        "a": "gcp-cloud-scheduler",
+        "b": "azure-app-service-environments",
+        "similarity": 0.2514
+      },
+      {
+        "a": "m365-settings",
+        "b": "azure-app-service-environments",
+        "similarity": 0.2508
+      }
+    ],
+    "azure-aks-automatic": [
+      {
+        "a": "aws-xray",
+        "b": "azure-aks-automatic",
+        "similarity": 0.2127
+      },
+      {
+        "a": "azure-sql-database",
+        "b": "azure-aks-automatic",
+        "similarity": 0.2
+      },
+      {
+        "a": "m365-document-bullets",
+        "b": "azure-aks-automatic",
+        "similarity": 0.1939
+      }
+    ],
+    "azure-linux": [
+      {
+        "a": "aws-service-management-connector",
+        "b": "azure-linux",
+        "similarity": 0.2966
+      },
+      {
+        "a": "fabric-power-bi",
+        "b": "azure-linux",
+        "similarity": 0.2725
+      },
+      {
+        "a": "m365-tablet",
+        "b": "azure-linux",
+        "similarity": 0.2646
+      }
+    ],
+    "azure-managed-service-fabric": [
+      {
+        "a": "azure-foundry-local",
+        "b": "azure-managed-service-fabric",
+        "similarity": 0.1614
+      },
+      {
+        "a": "aws-codecatalyst",
+        "b": "azure-managed-service-fabric",
+        "similarity": 0.1596
+      },
+      {
+        "a": "m365-panel-left-header-key",
+        "b": "azure-managed-service-fabric",
+        "similarity": 0.1514
       }
     ],
     "azure-notification-hubs": [

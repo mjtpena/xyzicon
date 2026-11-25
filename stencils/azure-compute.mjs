@@ -1,6 +1,41 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-app-service-environments", "azure", "App Service Environments", ["10047-icon-service-App-Service-Environments"],
+    "Applications run inside an isolated hosting environment.",
+    [
+      line([9, 20], [119, 20], [119, 105], [9, 105], [9, 20]),
+      line([18, 30], [110, 30]), line([18, 95], [110, 95]), line([18, 30], [18, 95]), line([110, 30], [110, 95]),
+      rect(28, 42, 30, 20), rect(70, 42, 30, 20), rect(49, 70, 30, 16),
+      line([34, 50], [52, 50]), line([76, 50], [94, 50]), line([55, 78], [73, 78]),
+    ]),
+  entry("azure-aks-automatic", "azure", "AKS Automatic", ["03543-icon-service-AKS-Automatic"],
+    "Automatic management maintains a cluster of container workloads.",
+    [
+      rect(72, 18, 30, 23), rect(72, 50, 30, 23), rect(72, 82, 30, 23),
+      line([78, 26], [96, 26]), line([78, 58], [96, 58]), line([78, 90], [96, 90]),
+      line([15, 98], [53, 60], [60, 67], [22, 105], [15, 98]), line([46, 67], [53, 74]),
+      line([35, 18], [39, 11], [43, 18], [50, 22], [43, 26], [39, 33], [35, 26], [28, 22], [35, 18]),
+      line([15, 48], [18, 43], [21, 48], [26, 51], [21, 54], [18, 59], [15, 54], [10, 51], [15, 48]),
+      line([24, 115], [106, 115]),
+    ]),
+  entry("azure-linux", "azure", "Azure Linux", ["03645-icon-service-Azure-Linux"],
+    "A Linux command shell manages a package on a server.",
+    [
+      rect(11, 23, 106, 73), line([11, 37], [117, 37]), line([18, 30], [36, 30]),
+      line([22, 48], [31, 56], [22, 64]), line([37, 64], [52, 64]),
+      line([70, 48], [84, 41], [99, 48], [99, 66], [84, 74], [70, 66], [70, 48]),
+      line([70, 48], [84, 56], [99, 48]), line([84, 56], [84, 74]),
+      line([21, 86], [105, 86]), line([21, 108], [107, 108]),
+    ]),
+  entry("azure-managed-service-fabric", "azure", "Managed Service Fabric", ["02370-icon-service-Managed-Service-Fabric"],
+    "A managed service coordinates application components across a cluster.",
+    [
+      oval(49, 39, 30, 30), line([56, 49], [72, 49]), line([56, 58], [72, 58]),
+      oval(11, 13, 19, 19), oval(98, 13, 19, 19), oval(11, 83, 19, 19), oval(98, 83, 19, 19),
+      line([29, 28], [51, 45]), line([99, 28], [77, 45]), line([29, 88], [51, 63]), line([99, 88], [77, 63]),
+      line([19, 111], [109, 111]),
+    ]),
   entry("azure-notification-hubs", "azure", "Notification Hubs", ["10045-icon-service-Notification-Hubs"],
     "A central bell broadcasts notifications to two mobile devices.",
     [
