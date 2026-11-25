@@ -1,6 +1,60 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureIotArtwork = [
+  entry("azure-defender-industrial-robot", "azure", "Defender Industrial Robot", ["03418-icon-service-Defender-Industrial-Robot"],
+    "An industrial robot arm moves a part.",
+    [
+      line([25, 92], [84, 92], [84, 83], [25, 83], [25, 92]), oval(37, 64, 18, 18), line([46, 64], [34, 45], [42, 37], [61, 54]), oval(57, 48, 16, 16), line([65, 48], [79, 29], [90, 34], [73, 56]),
+      oval(85, 22, 14, 14), line([98, 26], [109, 20]), line([98, 32], [110, 39]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-meter", "azure", "Defender Meter", ["03419-icon-service-Defender-Meter"],
+    "A meter displays an industrial measurement.",
+    [
+      rect(22, 18, 81, 75), line([30, 67], [30, 55], [35, 44], [45, 37], [62, 34], [79, 37], [89, 44], [94, 55], [94, 67]),
+      line([37, 53], [43, 55]), line([47, 43], [50, 49]), line([62, 40], [62, 47]), line([77, 43], [74, 49]), line([87, 53], [81, 55]), line([62, 67], [77, 48]), oval(57, 62, 10, 10, true), line([32, 82], [44, 82]), line([81, 82], [93, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-plc", "azure", "Defender Programmable Logic Controller", ["03420-icon-service-Defender-PLC"],
+    "A programmable controller connects digital inputs and outputs.",
+    [
+      rect(22, 24, 80, 57), rect(38, 34, 48, 27), line([45, 43], [79, 43]), line([45, 51], [72, 51]),
+      line([31, 16], [31, 24]), line([47, 16], [47, 24]), line([63, 16], [63, 24]), line([79, 16], [79, 24]), line([95, 16], [95, 24]),
+      line([31, 81], [31, 90]), line([47, 81], [47, 90]), line([63, 81], [63, 90]), line([79, 81], [79, 90]), line([95, 81], [95, 90]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-pneumatic", "azure", "Defender Pneumatic Device", ["03421-icon-service-Defender-Pneumatic-Device"],
+    "A pressure gauge monitors a pneumatic line.",
+    [
+      rect(16, 72, 94, 18), line([25, 81], [101, 81]), line([55, 72], [55, 63]), line([69, 72], [69, 63]),
+      oval(39, 19, 46, 46), oval(46, 26, 32, 32), line([62, 30], [62, 42], [72, 47]), oval(59, 39, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-programmable-board", "azure", "Defender Programmable Board", ["03422-icon-service-Defender-Programable-Board"],
+    "A programmable circuit board runs control code.",
+    [
+      rect(25, 25, 75, 58), line([17, 35], [25, 35]), line([17, 49], [25, 49]), line([17, 63], [25, 63]), line([17, 77], [25, 77]), line([100, 35], [108, 35]), line([100, 49], [108, 49]), line([100, 63], [108, 63]), line([100, 77], [108, 77]),
+      line([44, 40], [36, 50], [44, 60]), line([80, 40], [88, 50], [80, 60]), line([69, 36], [55, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-relay", "azure", "Defender Relay", ["03423-icon-service-Defender-Relay"],
+    "An electrical relay switches a connected circuit.",
+    [
+      line([12, 31], [39, 31]), oval(39, 27, 8, 8), oval(81, 27, 8, 8), line([47, 31], [75, 18]), line([89, 31], [113, 31]),
+      rect(42, 55, 41, 28), line([12, 69], [42, 69]), line([83, 69], [113, 69]), line([62, 52], [62, 40]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-rtu", "azure", "Defender Remote Terminal Unit", ["03424-icon-service-Defender-RTU"],
+    "A remote terminal collects field signals for a control system.",
+    [
+      rect(37, 37, 52, 43), line([37, 48], [89, 48]), line([45, 57], [80, 57]), line([45, 67], [74, 67]), line([62, 37], [62, 22]), oval(58, 14, 8, 8, true),
+      line([52, 27], [47, 21], [52, 15]), line([72, 27], [77, 21], [72, 15]), line([37, 69], [23, 69], [23, 84]), oval(18, 84, 10, 10), line([89, 69], [103, 69], [103, 84]), oval(98, 84, 10, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-dcs-controller", "azure", "Defender DCS Controller", ["03412-icon-service-Defender-DCS-Controller"],
+    "A distributed control system controller directs field devices.",
+    [
+      rect(36, 20, 52, 28), line([36, 30], [88, 30]), line([45, 39], [78, 39]), line([62, 48], [62, 59], [27, 59], [27, 71]), line([62, 59], [98, 59], [98, 71]),
+      rect(13, 71, 28, 19), rect(84, 71, 28, 19), line([18, 80], [35, 80]), line([89, 80], [106, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-distributed-control", "azure", "Defender Distributed Control System", ["03413-icon-service-Defender-Distributer-Control-System"],
+    "Distributed controllers coordinate connected industrial equipment.",
+    [
+      rect(12, 18, 29, 22), rect(86, 18, 29, 22), rect(49, 72, 29, 22), line([41, 29], [64, 29], [86, 29]), line([64, 29], [64, 72]), oval(53, 38, 22, 22), line([58, 49], [70, 49]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-defender-robot-controller", "azure", "Defender Robot Controller", ["03408-icon-service-Defender-Robot-Controller"],
     "A control console operates a robotic arm.",
     [

@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2054,
-  "aliases": 5223,
+  "count": 2063,
+  "aliases": 5232,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -849,6 +849,15 @@
     "azure-object-understanding",
     "azure-metrics-advisor",
     "azure-content-safety",
+    "azure-defender-industrial-robot",
+    "azure-defender-meter",
+    "azure-defender-plc",
+    "azure-defender-pneumatic",
+    "azure-defender-programmable-board",
+    "azure-defender-relay",
+    "azure-defender-rtu",
+    "azure-defender-dcs-controller",
+    "azure-defender-distributed-control",
     "azure-defender-robot-controller",
     "azure-defender-sensor",
     "azure-defender-slot",
@@ -2324,8 +2333,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 554,
-      "concepts": 475
+      "covered": 563,
+      "concepts": 484
     },
     "fabric": {
       "sources": 1584,
@@ -6396,6 +6405,11 @@
     "aws-appsync": [
       {
         "a": "aws-appsync",
+        "b": "azure-defender-distributed-control",
+        "similarity": 0.2082
+      },
+      {
+        "a": "aws-appsync",
         "b": "gcp-container-optimized-os",
         "similarity": 0.2065
       },
@@ -6403,11 +6417,6 @@
         "a": "aws-appsync",
         "b": "azure-foundry-iq",
         "similarity": 0.2047
-      },
-      {
-        "a": "aws-appsync",
-        "b": "m365-slide-layout",
-        "similarity": 0.1937
       }
     ],
     "aws-b2b-interchange": [
@@ -6452,13 +6461,13 @@
       },
       {
         "a": "aws-mq",
-        "b": "aws-general-chat",
-        "similarity": 0.2098
+        "b": "azure-defender-plc",
+        "similarity": 0.2188
       },
       {
         "a": "aws-mq",
-        "b": "aws-elasticache-memcached",
-        "similarity": 0.2069
+        "b": "aws-general-chat",
+        "similarity": 0.2098
       }
     ],
     "aws-batch": [
@@ -10787,13 +10796,13 @@
       },
       {
         "a": "fabric-data-factory",
-        "b": "m365-mail-read",
-        "similarity": 0.1958
+        "b": "azure-defender-pneumatic",
+        "similarity": 0.2045
       },
       {
         "a": "fabric-data-factory",
-        "b": "azure-defender-packaging",
-        "similarity": 0.1945
+        "b": "m365-mail-read",
+        "similarity": 0.1958
       }
     ],
     "fabric-data-warehouse": [
@@ -15192,6 +15201,11 @@
     "azure-device-security-google": [
       {
         "a": "azure-device-security-google",
+        "b": "azure-defender-meter",
+        "similarity": 0.2642
+      },
+      {
+        "a": "azure-device-security-google",
         "b": "aws-systems-change-calendar",
         "similarity": 0.25
       },
@@ -15199,11 +15213,6 @@
         "a": "azure-event-grid-domains",
         "b": "azure-device-security-google",
         "similarity": 0.2422
-      },
-      {
-        "a": "azure-device-security-google",
-        "b": "aws-mainframe-runtime",
-        "similarity": 0.2411
       }
     ],
     "azure-device-security-windows": [
@@ -16736,6 +16745,159 @@
         "similarity": 0.1898
       }
     ],
+    "azure-defender-industrial-robot": [
+      {
+        "a": "azure-defender-industrial-robot",
+        "b": "azure-time-series-environments",
+        "similarity": 0.286
+      },
+      {
+        "a": "azure-defender-industrial-robot",
+        "b": "azure-cost-management",
+        "similarity": 0.2586
+      },
+      {
+        "a": "azure-defender-industrial-robot",
+        "b": "azure-cost-alerts",
+        "similarity": 0.2516
+      }
+    ],
+    "azure-defender-meter": [
+      {
+        "a": "azure-defender-meter",
+        "b": "aws-waf-rule",
+        "similarity": 0.452
+      },
+      {
+        "a": "azure-defender-meter",
+        "b": "azure-operation-log-classic",
+        "similarity": 0.3352
+      },
+      {
+        "a": "azure-defender-meter",
+        "b": "aws-general-authenticated-user",
+        "similarity": 0.3212
+      }
+    ],
+    "azure-defender-plc": [
+      {
+        "a": "azure-defender-plc",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.3429
+      },
+      {
+        "a": "azure-defender-plc",
+        "b": "aws-general-forums",
+        "similarity": 0.3202
+      },
+      {
+        "a": "azure-defender-plc",
+        "b": "aws-elasticache-memcached",
+        "similarity": 0.2984
+      }
+    ],
+    "azure-defender-pneumatic": [
+      {
+        "a": "azure-defender-pneumatic",
+        "b": "azure-defender-packaging",
+        "similarity": 0.3792
+      },
+      {
+        "a": "azure-defender-pneumatic",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.3209
+      },
+      {
+        "a": "azure-defender-pneumatic",
+        "b": "azure-defender-scale",
+        "similarity": 0.309
+      }
+    ],
+    "azure-defender-programmable-board": [
+      {
+        "a": "azure-defender-programmable-board",
+        "b": "aws-braket-state-vector",
+        "similarity": 0.2945
+      },
+      {
+        "a": "azure-defender-programmable-board",
+        "b": "aws-general-saml-token",
+        "similarity": 0.2917
+      },
+      {
+        "a": "azure-defender-programmable-board",
+        "b": "aws-vpc-network-adapter",
+        "similarity": 0.2712
+      }
+    ],
+    "azure-defender-relay": [
+      {
+        "a": "azure-defender-relay",
+        "b": "azure-cost-alerts",
+        "similarity": 0.2613
+      },
+      {
+        "a": "azure-defender-relay",
+        "b": "azure-load-test",
+        "similarity": 0.2537
+      },
+      {
+        "a": "azure-defender-relay",
+        "b": "aws-ebs-lifecycle-manager",
+        "similarity": 0.2494
+      }
+    ],
+    "azure-defender-rtu": [
+      {
+        "a": "azure-defender-rtu",
+        "b": "aws-network-firewall-endpoint",
+        "similarity": 0.3061
+      },
+      {
+        "a": "azure-defender-rtu",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.2864
+      },
+      {
+        "a": "azure-defender-rtu",
+        "b": "aws-general-ssl-padlock",
+        "similarity": 0.2677
+      }
+    ],
+    "azure-defender-dcs-controller": [
+      {
+        "a": "azure-defender-dcs-controller",
+        "b": "aws-general-email",
+        "similarity": 0.2973
+      },
+      {
+        "a": "azure-defender-pneumatic",
+        "b": "azure-defender-dcs-controller",
+        "similarity": 0.2768
+      },
+      {
+        "a": "aws-dynamodb-items",
+        "b": "azure-defender-dcs-controller",
+        "similarity": 0.2751
+      }
+    ],
+    "azure-defender-distributed-control": [
+      {
+        "a": "azure-defender-distributed-control",
+        "b": "aws-iot-simulator",
+        "similarity": 0.2226
+      },
+      {
+        "a": "azure-defender-distributed-control",
+        "b": "aws-cloud-map-namespace",
+        "similarity": 0.2205
+      },
+      {
+        "a": "aws-emr",
+        "b": "azure-defender-distributed-control",
+        "similarity": 0.2204
+      }
+    ],
     "azure-defender-robot-controller": [
       {
         "a": "azure-defender-robot-controller",
@@ -16823,6 +16985,11 @@
     ],
     "azure-defender-packaging": [
       {
+        "a": "azure-defender-pneumatic",
+        "b": "azure-defender-packaging",
+        "similarity": 0.3792
+      },
+      {
         "a": "azure-event-grid-domains",
         "b": "azure-defender-packaging",
         "similarity": 0.2846
@@ -16831,11 +16998,6 @@
         "a": "azure-defender-packaging",
         "b": "azure-general-image",
         "similarity": 0.2731
-      },
-      {
-        "a": "azure-defender-packaging",
-        "b": "azure-table",
-        "similarity": 0.272
       }
     ],
     "azure-defender-printer": [
@@ -16867,9 +17029,9 @@
         "similarity": 0.3095
       },
       {
-        "a": "azure-defender-scale",
-        "b": "aws-s3-general-access-point",
-        "similarity": 0.2952
+        "a": "azure-defender-pneumatic",
+        "b": "azure-defender-scale",
+        "similarity": 0.309
       }
     ],
     "azure-defender-local-manager": [
@@ -17355,14 +17517,14 @@
         "similarity": 0.3161
       },
       {
+        "a": "azure-defender-pneumatic",
+        "b": "azure-lighthouse",
+        "similarity": 0.2864
+      },
+      {
         "a": "azure-lighthouse",
         "b": "aws-general-cold-storage",
         "similarity": 0.2845
-      },
-      {
-        "a": "azure-hpc-cache",
-        "b": "azure-lighthouse",
-        "similarity": 0.2729
       }
     ],
     "azure-arc": [
@@ -17542,14 +17704,14 @@
         "similarity": 0.2828
       },
       {
+        "a": "azure-defender-rtu",
+        "b": "azure-scheduler-job-collections",
+        "similarity": 0.2299
+      },
+      {
         "a": "azure-scheduler-job-collections",
         "b": "aws-general-application",
         "similarity": 0.2233
-      },
-      {
-        "a": "azure-logic-apps",
-        "b": "azure-scheduler-job-collections",
-        "similarity": 0.215
       }
     ],
     "azure-governance-compliance": [
@@ -17984,14 +18146,14 @@
         "similarity": 0.2809
       },
       {
+        "a": "azure-defender-plc",
+        "b": "aws-iot-servo",
+        "similarity": 0.2787
+      },
+      {
         "a": "aws-iot-servo",
         "b": "azure-cost-budgets",
         "similarity": 0.2624
-      },
-      {
-        "a": "azure-intune-trends",
-        "b": "aws-iot-servo",
-        "similarity": 0.259
       }
     ],
     "aws-iot-certificate": [
@@ -19072,14 +19234,14 @@
         "similarity": 0.3571
       },
       {
+        "a": "azure-defender-pneumatic",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.3209
+      },
+      {
         "a": "azure-integration-accounts",
         "b": "aws-s3-multiregion-access",
         "similarity": 0.292
-      },
-      {
-        "a": "aws-iot-thing-car",
-        "b": "aws-s3-multiregion-access",
-        "similarity": 0.2814
       }
     ],
     "aws-s3-vpc-access": [
@@ -19565,14 +19727,14 @@
         "similarity": 0.2643
       },
       {
-        "a": "azure-arc",
+        "a": "azure-defender-pneumatic",
         "b": "aws-efs-file-system",
-        "similarity": 0.2432
+        "similarity": 0.2618
       },
       {
-        "a": "aws-efs-file-system",
-        "b": "aws-elemental-conductor",
-        "similarity": 0.2382
+        "a": "azure-defender-dcs-controller",
+        "b": "aws-efs-file-system",
+        "similarity": 0.2464
       }
     ],
     "aws-ebs-lifecycle-manager": [
@@ -20437,9 +20599,9 @@
         "similarity": 0.2078
       },
       {
-        "a": "fabric-data-engineering",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2063
+        "a": "azure-defender-dcs-controller",
+        "b": "fabric-data-engineering",
+        "similarity": 0.2077
       }
     ],
     "fabric-data-science": [
@@ -21474,9 +21636,9 @@
         "similarity": 0.2145
       },
       {
-        "a": "aws-workspaces",
-        "b": "gcp-category-security",
-        "similarity": 0.2097
+        "a": "azure-defender-industrial-robot",
+        "b": "aws-workspaces",
+        "similarity": 0.2126
       }
     ],
     "aws-finops-agent": [
@@ -22188,9 +22350,9 @@
         "similarity": 0.3478
       },
       {
-        "a": "aws-trusted-advisor-checklist",
-        "b": "aws-systems-patch-manager",
-        "similarity": 0.3299
+        "a": "azure-defender-plc",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.3429
       }
     ],
     "aws-trusted-advisor-cost": [
@@ -22931,14 +23093,14 @@
         "similarity": 0.2781
       },
       {
+        "a": "azure-defender-rtu",
+        "b": "aws-general-ssl-padlock",
+        "similarity": 0.2677
+      },
+      {
         "a": "aws-transfer-ftp",
         "b": "aws-general-ssl-padlock",
         "similarity": 0.2462
-      },
-      {
-        "a": "aws-general-ssl-padlock",
-        "b": "azure-location",
-        "similarity": 0.2439
       }
     ],
     "aws-general-server": [
@@ -23072,9 +23234,9 @@
         "similarity": 0.2179
       },
       {
-        "a": "aws-iot-hardware-board",
+        "a": "azure-defender-industrial-robot",
         "b": "aws-general-users",
-        "similarity": 0.2151
+        "similarity": 0.2168
       }
     ],
     "aws-general-internet-transfer": [
@@ -23300,6 +23462,11 @@
     ],
     "aws-general-authenticated-user": [
       {
+        "a": "azure-defender-meter",
+        "b": "aws-general-authenticated-user",
+        "similarity": 0.3212
+      },
+      {
         "a": "aws-general-authenticated-user",
         "b": "aws-waf-rule",
         "similarity": 0.3082
@@ -23308,11 +23475,6 @@
         "a": "aws-mainframe-runtime",
         "b": "aws-general-authenticated-user",
         "similarity": 0.3057
-      },
-      {
-        "a": "aws-backup-vault-resource",
-        "b": "aws-general-authenticated-user",
-        "similarity": 0.2945
       }
     ],
     "aws-general-client": [
@@ -23373,14 +23535,14 @@
         "similarity": 0.3647
       },
       {
+        "a": "azure-defender-plc",
+        "b": "aws-general-forums",
+        "similarity": 0.3202
+      },
+      {
         "a": "azure-defender-web-guiding",
         "b": "aws-general-forums",
         "similarity": 0.2867
-      },
-      {
-        "a": "aws-general-forums",
-        "b": "azure-resource-group-list",
-        "similarity": 0.2786
       }
     ],
     "aws-general-gear": [
@@ -23492,14 +23654,14 @@
         "similarity": 0.2616
       },
       {
+        "a": "azure-defender-pneumatic",
+        "b": "aws-general-alert",
+        "similarity": 0.2606
+      },
+      {
         "a": "aws-iot-thing-temperature-sensor",
         "b": "aws-general-alert",
         "similarity": 0.2533
-      },
-      {
-        "a": "aws-systems-change-calendar",
-        "b": "aws-general-alert",
-        "similarity": 0.252
       }
     ],
     "aws-general-camera": [
@@ -23628,14 +23790,14 @@
         "similarity": 0.3185
       },
       {
-        "a": "aws-general-email",
-        "b": "azure-resource-explorer",
-        "similarity": 0.2892
+        "a": "azure-defender-dcs-controller",
+        "b": "aws-general-email",
+        "similarity": 0.2973
       },
       {
         "a": "aws-general-email",
-        "b": "azure-cost-management",
-        "similarity": 0.2839
+        "b": "azure-resource-explorer",
+        "similarity": 0.2892
       }
     ],
     "aws-general-firewall": [
@@ -24473,6 +24635,11 @@
     ],
     "aws-network-firewall-endpoint": [
       {
+        "a": "azure-defender-rtu",
+        "b": "aws-network-firewall-endpoint",
+        "similarity": 0.3061
+      },
+      {
         "a": "aws-license-application-discovery",
         "b": "aws-network-firewall-endpoint",
         "similarity": 0.2934
@@ -24481,11 +24648,6 @@
         "a": "aws-network-firewall-endpoint",
         "b": "azure-input-output",
         "similarity": 0.2759
-      },
-      {
-        "a": "aws-network-firewall-endpoint",
-        "b": "aws-app-mesh-virtual-node",
-        "similarity": 0.2587
       }
     ],
     "aws-security-hub-finding": [
@@ -24609,6 +24771,11 @@
     ],
     "aws-waf-rule": [
       {
+        "a": "azure-defender-meter",
+        "b": "aws-waf-rule",
+        "similarity": 0.452
+      },
+      {
         "a": "aws-gateway-virtual-tape-library",
         "b": "aws-waf-rule",
         "similarity": 0.3121
@@ -24617,11 +24784,6 @@
         "a": "azure-operation-log-classic",
         "b": "aws-waf-rule",
         "similarity": 0.3111
-      },
-      {
-        "a": "aws-waf-rule",
-        "b": "azure-images",
-        "similarity": 0.3095
       }
     ],
     "aws-waf-managed-rule": [
@@ -26933,14 +27095,14 @@
         "similarity": 0.2587
       },
       {
+        "a": "azure-defender-rtu",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2557
+      },
+      {
         "a": "aws-route53-hosted-zone",
         "b": "aws-app-mesh-virtual-node",
         "similarity": 0.2536
-      },
-      {
-        "a": "azure-defender-freezer-monitor",
-        "b": "aws-app-mesh-virtual-node",
-        "similarity": 0.2479
       }
     ],
     "aws-app-mesh-virtual-router": [
@@ -27771,9 +27933,9 @@
         "similarity": 0.2066
       },
       {
-        "a": "aws-trusted-advisor-performance",
+        "a": "azure-defender-rtu",
         "b": "gcp-category-networking",
-        "similarity": 0.1878
+        "similarity": 0.2042
       }
     ],
     "gcp-category-observability": [
@@ -29824,6 +29986,11 @@
     ],
     "aws-ecs-anywhere": [
       {
+        "a": "azure-defender-dcs-controller",
+        "b": "aws-ecs-anywhere",
+        "similarity": 0.2664
+      },
+      {
         "a": "aws-lightsail",
         "b": "aws-ecs-anywhere",
         "similarity": 0.2553
@@ -29832,11 +29999,6 @@
         "a": "gcp-batch",
         "b": "aws-ecs-anywhere",
         "similarity": 0.2253
-      },
-      {
-        "a": "aws-ecs-anywhere",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.2248
       }
     ],
     "aws-eks-anywhere": [
@@ -30458,14 +30620,14 @@
         "similarity": 0.2993
       },
       {
+        "a": "azure-defender-relay",
+        "b": "azure-load-test",
+        "similarity": 0.2537
+      },
+      {
         "a": "azure-versions",
         "b": "azure-load-test",
         "similarity": 0.2535
-      },
-      {
-        "a": "azure-load-test",
-        "b": "azure-controls-horizontal",
-        "similarity": 0.2438
       }
     ],
     "azure-location": [
@@ -30832,14 +30994,14 @@
         "similarity": 0.2877
       },
       {
-        "a": "aws-braket-state-vector",
+        "a": "azure-defender-relay",
         "b": "azure-cost-alerts",
-        "similarity": 0.2511
+        "similarity": 0.2613
       },
       {
-        "a": "aws-app-mesh-virtual-router",
+        "a": "azure-defender-industrial-robot",
         "b": "azure-cost-alerts",
-        "similarity": 0.2405
+        "similarity": 0.2516
       }
     ],
     "azure-cost-analysis": [
@@ -31189,14 +31351,14 @@
         "similarity": 0.2821
       },
       {
+        "a": "azure-defender-industrial-robot",
+        "b": "azure-commit",
+        "similarity": 0.2235
+      },
+      {
         "a": "aws-greengrass-connector",
         "b": "azure-commit",
         "similarity": 0.2209
-      },
-      {
-        "a": "azure-automation-accounts",
-        "b": "azure-commit",
-        "similarity": 0.218
       }
     ],
     "azure-controls": [
@@ -31660,6 +31822,11 @@
     ],
     "azure-devops": [
       {
+        "a": "azure-defender-plc",
+        "b": "azure-devops",
+        "similarity": 0.2677
+      },
+      {
         "a": "aws-elemental-inference",
         "b": "azure-devops",
         "similarity": 0.2583
@@ -31668,11 +31835,6 @@
         "a": "gcp-cloud-code",
         "b": "azure-devops",
         "similarity": 0.258
-      },
-      {
-        "a": "gcp-api-analytics",
-        "b": "azure-devops",
-        "similarity": 0.2552
       }
     ],
     "azure-app-testing": [
