@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 336,
+  "approved": 346,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,16 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-sitewise-asset",
-    "aws-sitewise-asset-hierarchy",
-    "aws-sitewise-asset-model",
-    "aws-sitewise-asset-properties",
-    "aws-sitewise-data-streams",
-    "aws-greengrass-artifact",
-    "aws-greengrass-component",
-    "aws-greengrass-ml-component",
-    "aws-greengrass-nucleus",
-    "aws-greengrass-private-component",
     "aws-greengrass-public-component",
     "aws-greengrass-connector",
     "aws-greengrass-interprocess",
@@ -2784,11 +2774,6 @@
     "dynamics-customer-voice": [
       {
         "a": "dynamics-customer-voice",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.32
-      },
-      {
-        "a": "dynamics-customer-voice",
         "b": "m365-chat",
         "similarity": 0.3077
       },
@@ -2796,6 +2781,11 @@
         "a": "dynamics-customer-voice",
         "b": "azure-hybrid-center",
         "similarity": 0.3043
+      },
+      {
+        "a": "dynamics-customer-voice",
+        "b": "m365-video",
+        "similarity": 0.2674
       }
     ],
     "dynamics-finance-operations": [
@@ -5844,11 +5834,6 @@
     "azure-event-grid-domains": [
       {
         "a": "azure-event-grid-domains",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3615
-      },
-      {
-        "a": "azure-event-grid-domains",
         "b": "azure-general-image",
         "similarity": 0.3324
       },
@@ -5856,6 +5841,11 @@
         "a": "azure-event-grid-domains",
         "b": "azure-data-share-invitations",
         "similarity": 0.3257
+      },
+      {
+        "a": "azure-event-grid-domains",
+        "b": "azure-hosts",
+        "similarity": 0.3244
       }
     ],
     "azure-integration-accounts": [
@@ -8166,8 +8156,8 @@
       },
       {
         "a": "gcp-key-management",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.253
+        "b": "azure-power-bi-embedded",
+        "similarity": 0.2484
       }
     ],
     "gcp-database-migration": [
@@ -9380,11 +9370,6 @@
     "gcp-firewall-rules": [
       {
         "a": "gcp-firewall-rules",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3071
-      },
-      {
-        "a": "gcp-firewall-rules",
         "b": "aws-iot-fleet-hub",
         "similarity": 0.2853
       },
@@ -9392,6 +9377,11 @@
         "a": "gcp-firewall-rules",
         "b": "aws-braket-simulator",
         "similarity": 0.277
+      },
+      {
+        "a": "gcp-cloud-generic",
+        "b": "gcp-firewall-rules",
+        "similarity": 0.2736
       }
     ],
     "gcp-natural-language": [
@@ -14972,9 +14962,9 @@
         "similarity": 0.2618
       },
       {
-        "a": "aws-health-imaging",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.2513
+        "a": "gcp-automl-vision",
+        "b": "aws-health-imaging",
+        "similarity": 0.2508
       }
     ],
     "aws-health-lake": [
@@ -15891,8 +15881,8 @@
       },
       {
         "a": "azure-api-proxy",
-        "b": "aws-iot-http2",
-        "similarity": 0.2984
+        "b": "aws-sitewise-asset-properties",
+        "similarity": 0.3043
       }
     ],
     "azure-tenant-properties": [
@@ -19077,11 +19067,6 @@
     "azure-resiliency": [
       {
         "a": "azure-resiliency",
-        "b": "aws-greengrass-nucleus",
-        "similarity": 0.2213
-      },
-      {
-        "a": "azure-resiliency",
         "b": "fabric-shapes-lightning",
         "similarity": 0.2206
       },
@@ -19089,6 +19074,11 @@
         "a": "azure-resiliency",
         "b": "aws-greengrass-artifact",
         "similarity": 0.2084
+      },
+      {
+        "a": "azure-resiliency",
+        "b": "azure-general-error",
+        "similarity": 0.205
       }
     ],
     "azure-internet-analyzer-profiles": [
@@ -19626,13 +19616,13 @@
       },
       {
         "a": "azure-my-customers",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3397
-      },
-      {
-        "a": "azure-my-customers",
         "b": "aws-iot-fleet-hub",
         "similarity": 0.3359
+      },
+      {
+        "a": "azure-spot-vmss",
+        "b": "azure-my-customers",
+        "similarity": 0.3282
       }
     ],
     "azure-solutions": [
@@ -20300,19 +20290,19 @@
     ],
     "aws-sitewise-asset-properties": [
       {
-        "a": "aws-iot-fleet-hub",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3695
+        "a": "aws-sitewise-asset-properties",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.3138
       },
       {
-        "a": "azure-event-grid-domains",
+        "a": "azure-api-proxy",
         "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3615
+        "similarity": 0.3043
       },
       {
-        "a": "azure-my-customers",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3397
+        "a": "aws-sitewise-asset-properties",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.2992
       }
     ],
     "aws-sitewise-data-streams": [
@@ -20386,18 +20376,18 @@
     "aws-greengrass-nucleus": [
       {
         "a": "aws-greengrass-nucleus",
-        "b": "azure-media-file",
-        "similarity": 0.2704
+        "b": "aws-elemental-delta",
+        "similarity": 0.3544
       },
       {
-        "a": "azure-applens",
+        "a": "azure-dns-multistack",
         "b": "aws-greengrass-nucleus",
-        "similarity": 0.2513
+        "similarity": 0.2769
       },
       {
         "a": "aws-greengrass-nucleus",
-        "b": "azure-file",
-        "similarity": 0.2485
+        "b": "aws-thinkbox-deadline",
+        "similarity": 0.2616
       }
     ],
     "aws-greengrass-private-component": [
@@ -20900,14 +20890,14 @@
         "similarity": 0.3187
       },
       {
-        "a": "aws-iot-thing-car",
-        "b": "aws-datasync-agent",
-        "similarity": 0.2884
+        "a": "aws-sitewise-asset-properties",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.3138
       },
       {
         "a": "aws-iot-thing-car",
-        "b": "aws-s3-multiregion-access",
-        "similarity": 0.2814
+        "b": "aws-datasync-agent",
+        "similarity": 0.2884
       }
     ],
     "aws-iot-thing-cart": [
@@ -25971,9 +25961,9 @@
         "similarity": 0.2867
       },
       {
-        "a": "aws-sitewise-asset-properties",
+        "a": "fabric-operations-agent",
         "b": "aws-systems-manager",
-        "similarity": 0.2774
+        "similarity": 0.2772
       }
     ],
     "aws-config": [
@@ -26165,6 +26155,11 @@
     ],
     "aws-elemental-delta": [
       {
+        "a": "aws-greengrass-nucleus",
+        "b": "aws-elemental-delta",
+        "similarity": 0.3544
+      },
+      {
         "a": "aws-elemental-delta",
         "b": "azure-signalr",
         "similarity": 0.3228
@@ -26173,11 +26168,6 @@
         "a": "azure-public-ip-classic",
         "b": "aws-elemental-delta",
         "similarity": 0.3034
-      },
-      {
-        "a": "aws-elemental-delta",
-        "b": "aws-thinkbox-deadline",
-        "similarity": 0.3004
       }
     ],
     "aws-thinkbox-deadline": [
@@ -39419,9 +39409,9 @@
         "similarity": 0.2444
       },
       {
-        "a": "aws-sitewise-asset-properties",
-        "b": "fabric-overlapping-squares-line",
-        "similarity": 0.2343
+        "a": "fabric-overlapping-squares-line",
+        "b": "fabric-calculator-brackets",
+        "similarity": 0.2333
       }
     ],
     "fabric-person-pulse": [
@@ -39725,9 +39715,9 @@
         "similarity": 0.2647
       },
       {
-        "a": "aws-sitewise-asset-properties",
+        "a": "azure-blob-block",
         "b": "fabric-calculator-triangle",
-        "similarity": 0.261
+        "similarity": 0.2591
       }
     ],
     "fabric-chart-phone": [

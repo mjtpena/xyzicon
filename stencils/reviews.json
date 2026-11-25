@@ -697,9 +697,9 @@
   },
   "dynamics-customer-voice": {
     "revision": "239ade9afb8e8a4a95f7087e59e60cc92282045f7763eada3844818bc3c591fc",
-    "comparisonRevision": "b8137caa4d02ea019b8854f8123a69e10cabe01fedea976a3af1a42e525e868b",
+    "comparisonRevision": "18b70b9172610ef1da72dab7ba12eda33da18e84b467e4d38f9d9693dd37a78b",
     "status": "approved",
-    "notes": "Customer feedback in a face-bearing speech balloon is distinct from property panels, generic chat and hybrid management."
+    "notes": "A smiling customer in a speech bubble differs from generic chat, hybrid infrastructure and video."
   },
   "dynamics-finance-operations": {
     "revision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
@@ -2094,9 +2094,9 @@
   },
   "aws-health-imaging": {
     "revision": "86152d6c2651156f68972b3b7b8024ecb3af7b2d55f2c51eb6408bf66416436c",
-    "comparisonRevision": "d7761c7e40f584ab52dc73eab18251e3c761c0522304e0f22a689fd6b8bd39b9",
+    "comparisonRevision": "cef6949bfdaa93a28168369d6724310152d224915987882de8433fb7ca3bb340",
     "status": "approved",
-    "notes": "A medical image on a screen has a health marker, unlike support, the operations alert and asset properties."
+    "notes": "A medical image on a screen has a health marker, unlike support, operations alert and automated vision."
   },
   "aws-health-lake": {
     "revision": "c0703bf7c6ee3270809f259e24cd96fc1dba69a62688af2b8030a31e17da5290",
@@ -2496,9 +2496,9 @@
   },
   "aws-iot-thing-car": {
     "revision": "736dac64818fcc44a1205226ec83d471647ca8202bd27a05534ebefb15e57ccb",
-    "comparisonRevision": "899f8b0abb2e99897dcf6103c93858b6a490cc8a874fb6389964cbc064a44887",
+    "comparisonRevision": "df4bd44599ed2587e7ad0e08b84d85c608cfb51888c68d05c6ac1052f7f216b4",
     "status": "approved",
-    "notes": "A car silhouette differs from a computer, transfer panel and globe network."
+    "notes": "A car silhouette differs from a computer, asset-property list and transfer panel."
   },
   "aws-iot-thing-cart": {
     "revision": "81fa856abe9c18fa52892557c3c5eadfe7e413d2cee682e21b6c743195e3bff7",
@@ -2559,5 +2559,65 @@
     "comparisonRevision": "17121c78d4bb0fb9e292deec80a8014f96814f12a20766e126b38ab270fc3e65",
     "status": "approved",
     "notes": "A rising event trace triggers a bell, unlike source code, identity and cloud build."
+  },
+  "aws-sitewise-asset": {
+    "revision": "b4d9e837ee3e122d9561b38df60acd45a72649fb37747d516abe91d204c6b0af",
+    "comparisonRevision": "07c4f2d338d1cd1e36cf77ee6d6eb5bdef1c7bd62aac5106a94ce64310881e4f",
+    "status": "approved",
+    "notes": "An industrial plant and asset marker differ from gateway storage, files and a SAML identity."
+  },
+  "aws-sitewise-asset-hierarchy": {
+    "revision": "4eeab85fed22dcd6154179014ab0cc88e8f2cfd446f7ca9601bb1eef29ce8963",
+    "comparisonRevision": "863841fabedd34d88935612cde999da6b6d2d2a5f5b16bbeed82838b463fbf1e",
+    "status": "approved",
+    "notes": "One parent connects to two child assets, unlike a security module, education and Kubernetes."
+  },
+  "aws-sitewise-asset-model": {
+    "revision": "c47ca086620002fe168332fcff25ca548c40227af95e29fcd22a2acbcdbe718f",
+    "comparisonRevision": "c6b2aaeb59ea5edd5f54653fa34d88d97ae13e3b99c3a4dd939eaa4d5b9b82b9",
+    "status": "approved",
+    "notes": "A modeled cube with connection points differs from shadow testing, a trophy and integration environment."
+  },
+  "aws-sitewise-asset-properties": {
+    "revision": "3e44bb4ea2391cd547567118706250b7646f258bdf8997ea8f9efa7958baae07",
+    "comparisonRevision": "c9cea863e0bcf826a07a77378245c2f5d62c954263267f7154726f18e5888be0",
+    "status": "approved",
+    "notes": "A factory points to a list of properties, unlike a car, API proxy and gateway attachment."
+  },
+  "aws-sitewise-data-streams": {
+    "revision": "df6fa0ff7c392c3bda340e2929dd4b302f5c78ee5fbb3fadc1ee9e396b835643",
+    "comparisonRevision": "327ddb9cb13d0d101857c79f494c99563bf8e25345b2e74cc156ff107f3fa1a7",
+    "status": "approved",
+    "notes": "Three sources feed a data store, unlike cache, an edge rack and identity."
+  },
+  "aws-greengrass-artifact": {
+    "revision": "bb0aba576fbebb7db20d646298f50fcf3bcd348ca8ada68776ce28d92a1979e6",
+    "comparisonRevision": "29fca670429de12fce012189ad1f5a35449114d345350f87ad19539cb23c7d7b",
+    "status": "approved",
+    "notes": "A code package cube differs from an error, a running container and resiliency shield."
+  },
+  "aws-greengrass-component": {
+    "revision": "10cd601b942074552adf4d9b6537ab893bd999c032701f9882d905bcd792ea59",
+    "comparisonRevision": "7493a81be1027ab660d2ffc7fb22d8d81466462860e5ef82751c54f467bc5219",
+    "status": "approved",
+    "notes": "A component panel connects to four peers, unlike version windows, a bell and plug; the nucleus uses a chip with two modules."
+  },
+  "aws-greengrass-ml-component": {
+    "revision": "f844aca595153366046f4213f933b5335f2f0875a6f3bff19402cfac84dcb16b",
+    "comparisonRevision": "4eecf985683f70b0a96b65ef121a1572b5f527f1e98364b06857ef3806763c74",
+    "status": "approved",
+    "notes": "A model graph in an edge panel differs from code screens and SQL."
+  },
+  "aws-greengrass-nucleus": {
+    "revision": "be72ee67426586ef380babaa0ec957a33292317b0547fbf69a819a73a5a9de53",
+    "comparisonRevision": "0e7d80263de0512e752b2aae1a2c8ee459a179808d09a13aafd2c6b087f51dbd",
+    "status": "approved",
+    "notes": "A central runtime chip links to two modules, unlike video distribution, DNS servers and render jobs."
+  },
+  "aws-greengrass-private-component": {
+    "revision": "eddfb1949cedb6fe1dd5cb403d76ecc2bb1efbc9627c7194432d1c18a5762bb1",
+    "comparisonRevision": "1922c44afb1f845dce2eb35e1825e89dd256be5d8d3063b4fab58050cf35b971",
+    "status": "approved",
+    "notes": "A component within a padlock differs from the Snowball, web folder and archive."
   }
 }
