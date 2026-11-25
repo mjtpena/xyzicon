@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1009,
-  "aliases": 3827,
+  "count": 1013,
+  "aliases": 3843,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -935,6 +935,10 @@
     "fabric-home-kql",
     "fabric-receipt-kql",
     "fabric-table-kql",
+    "fabric-column-brackets",
+    "fabric-column-function",
+    "fabric-column-question",
+    "fabric-column-sigma",
     "fabric-datatype-uid",
     "fabric-branch-link",
     "fabric-briefcase-pulse",
@@ -1095,8 +1099,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1185,
-      "concepts": 205
+      "covered": 1201,
+      "concepts": 209
     },
     "entra": {
       "sources": 14,
@@ -1274,13 +1278,13 @@
       },
       {
         "a": "fabric-pipeline",
-        "b": "m365-slide-layout",
-        "similarity": 0.1921
+        "b": "fabric-column-brackets",
+        "similarity": 0.202
       },
       {
         "a": "fabric-pipeline",
-        "b": "aws-service-management-connector",
-        "similarity": 0.1865
+        "b": "m365-slide-layout",
+        "similarity": 0.1921
       }
     ],
     "fabric-notebook": [
@@ -5961,6 +5965,11 @@
     "gcp-text-to-speech": [
       {
         "a": "gcp-text-to-speech",
+        "b": "fabric-column-brackets",
+        "similarity": 0.2838
+      },
+      {
+        "a": "gcp-text-to-speech",
         "b": "fabric-operations-agent",
         "similarity": 0.2742
       },
@@ -5968,11 +5977,6 @@
         "a": "entra-private-access",
         "b": "gcp-text-to-speech",
         "similarity": 0.2729
-      },
-      {
-        "a": "gcp-assured-workloads",
-        "b": "gcp-text-to-speech",
-        "similarity": 0.2413
       }
     ],
     "gcp-error-reporting": [
@@ -7110,8 +7114,8 @@
       },
       {
         "a": "azure-database-migration",
-        "b": "m365-text-number-list",
-        "similarity": 0.2096
+        "b": "fabric-column-sigma",
+        "similarity": 0.2123
       }
     ],
     "azure-sql-elastic-pool": [
@@ -7767,14 +7771,14 @@
         "similarity": 0.2963
       },
       {
+        "a": "aws-codeguru",
+        "b": "fabric-column-question",
+        "similarity": 0.2738
+      },
+      {
         "a": "aws-ground-truth",
         "b": "aws-codeguru",
         "similarity": 0.2617
-      },
-      {
-        "a": "aws-codeguru",
-        "b": "aws-launch-wizard",
-        "similarity": 0.256
       }
     ],
     "aws-compute-optimizer": [
@@ -9038,6 +9042,11 @@
     "m365-three-shapes": [
       {
         "a": "m365-three-shapes",
+        "b": "fabric-column-sigma",
+        "similarity": 0.1867
+      },
+      {
+        "a": "m365-three-shapes",
         "b": "fabric-one-lake",
         "similarity": 0.1797
       },
@@ -9045,11 +9054,6 @@
         "a": "m365-three-shapes",
         "b": "fabric-border-inside-all",
         "similarity": 0.1711
-      },
-      {
-        "a": "m365-three-shapes",
-        "b": "aws-reserved-instance-reporting",
-        "similarity": 0.169
       }
     ],
     "m365-share-screen-overlay": [
@@ -9161,14 +9165,14 @@
         "similarity": 0.3015
       },
       {
+        "a": "aws-sagemaker-ai",
+        "b": "fabric-column-brackets",
+        "similarity": 0.2511
+      },
+      {
         "a": "gcp-assured-workloads",
         "b": "aws-sagemaker-ai",
         "similarity": 0.2506
-      },
-      {
-        "a": "m365-panel-left",
-        "b": "aws-sagemaker-ai",
-        "similarity": 0.2475
       }
     ],
     "aws-deep-learning-containers": [
@@ -11428,8 +11432,8 @@
       },
       {
         "a": "aws-appconfig",
-        "b": "m365-text-bullet-list-square",
-        "similarity": 0.2918
+        "b": "fabric-column-sigma",
+        "similarity": 0.2926
       }
     ],
     "aws-console-mobile": [
@@ -12515,9 +12519,9 @@
         "similarity": 0.2865
       },
       {
-        "a": "azure-monitor",
-        "b": "aws-snowball-edge",
-        "similarity": 0.2577
+        "a": "aws-snowball-edge",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2629
       }
     ],
     "aws-storage-gateway": [
@@ -16438,9 +16442,9 @@
         "similarity": 0.1967
       },
       {
-        "a": "azure-power-bi-embedded",
-        "b": "azure-hosts",
-        "similarity": 0.1936
+        "a": "azure-hosts",
+        "b": "fabric-column-brackets",
+        "similarity": 0.1938
       }
     ],
     "fabric-cube-cone-sphere": [
@@ -16974,6 +16978,74 @@
         "similarity": 0.2798
       }
     ],
+    "fabric-column-brackets": [
+      {
+        "a": "gcp-text-to-speech",
+        "b": "fabric-column-brackets",
+        "similarity": 0.2838
+      },
+      {
+        "a": "gcp-storage",
+        "b": "fabric-column-brackets",
+        "similarity": 0.2745
+      },
+      {
+        "a": "azure-storage-queue",
+        "b": "fabric-column-brackets",
+        "similarity": 0.2588
+      }
+    ],
+    "fabric-column-function": [
+      {
+        "a": "gcp-assured-workloads",
+        "b": "fabric-column-function",
+        "similarity": 0.2243
+      },
+      {
+        "a": "gcp-text-to-speech",
+        "b": "fabric-column-function",
+        "similarity": 0.2242
+      },
+      {
+        "a": "entra-private-access",
+        "b": "fabric-column-function",
+        "similarity": 0.2056
+      }
+    ],
+    "fabric-column-question": [
+      {
+        "a": "aws-codeguru",
+        "b": "fabric-column-question",
+        "similarity": 0.2738
+      },
+      {
+        "a": "fabric-column-question",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2476
+      },
+      {
+        "a": "aws-codeartifact",
+        "b": "fabric-column-question",
+        "similarity": 0.242
+      }
+    ],
+    "fabric-column-sigma": [
+      {
+        "a": "aws-appconfig",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2926
+      },
+      {
+        "a": "aws-snowball-edge",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2629
+      },
+      {
+        "a": "aws-cli",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2517
+      }
+    ],
     "fabric-datatype-uid": [
       {
         "a": "fabric-area-location",
@@ -16981,14 +17053,14 @@
         "similarity": 0.2412
       },
       {
+        "a": "fabric-column-brackets",
+        "b": "fabric-datatype-uid",
+        "similarity": 0.1945
+      },
+      {
         "a": "aws-lookout-equipment",
         "b": "fabric-datatype-uid",
         "similarity": 0.1877
-      },
-      {
-        "a": "aws-sagemaker-ai",
-        "b": "fabric-datatype-uid",
-        "similarity": 0.1787
       }
     ],
     "fabric-branch-link": [
@@ -17816,14 +17888,14 @@
         "similarity": 0.2606
       },
       {
+        "a": "fabric-column-question",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2476
+      },
+      {
         "a": "aws-iot-fleetwise",
         "b": "fabric-chart-phone",
         "similarity": 0.2339
-      },
-      {
-        "a": "fabric-briefcase-report",
-        "b": "fabric-chart-phone",
-        "similarity": 0.231
       }
     ],
     "fabric-database-sync": [
