@@ -1,6 +1,83 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-feature-previews", "azure", "Feature Previews", ["10827-icon-service-Feature-Previews"],
+    "An experimental feature is marked with a preview sparkle.",
+    [
+      line([42, 18], [68, 18]), line([48, 18], [48, 43], [25, 82], [25, 90], [34, 96], [76, 96], [85, 90], [85, 82], [62, 43], [62, 18]),
+      line([34, 75], [76, 75]), oval(45, 80, 6, 6), oval(58, 84, 5, 5), line([91, 22], [94, 31], [103, 34], [94, 37], [91, 46], [88, 37], [79, 34], [88, 31], [91, 22]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-process-explorer", "azure", "Process Explorer", ["10828-icon-service-Process-Explorer"],
+    "A magnifier inspects a running process tree.",
+    [
+      rect(16, 20, 42, 20), rect(16, 55, 42, 20), line([37, 40], [37, 55]), line([23, 29], [51, 29]), line([23, 64], [51, 64]),
+      oval(63, 40, 30, 30), line([87, 64], [106, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-production-ready-database", "azure", "Production Ready Database", ["10829-icon-service-Production-Ready-Database"],
+    "A verified database is ready for production.",
+    [
+      oval(17, 20, 58, 18), line([17, 29], [17, 78], [23, 85], [35, 88], [57, 88], [69, 85], [75, 78], [75, 29]),
+      line([17, 53], [24, 58], [36, 61], [57, 61], [69, 58], [75, 53]),
+      oval(68, 58, 35, 35), line([76, 75], [83, 82], [96, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resource-group-list", "azure", "Resource Group List", ["10830-icon-service-Resource-Group-List"],
+    "A list organizes groups of resources.",
+    [
+      rect(14, 22, 94, 66), line([14, 44], [108, 44]), line([14, 66], [108, 66]),
+      rect(22, 28, 10, 10), rect(22, 50, 10, 10), rect(22, 72, 10, 10),
+      line([42, 33], [98, 33]), line([42, 55], [87, 55]), line([42, 77], [98, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resource-linked", "azure", "Linked Resource", ["10831-icon-service-Resource-Linked"],
+    "Two resources are connected by a link.",
+    [
+      rect(14, 25, 34, 34), rect(75, 52, 34, 34), line([48, 42], [64, 42], [64, 69], [75, 69]),
+      line([22, 36], [40, 36]), line([22, 46], [40, 46]), line([83, 63], [101, 63]), line([83, 73], [101, 73]), oval(59, 50, 10, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-scheduler", "azure", "Scheduler", ["10833-icon-service-Scheduler"],
+    "A calendar schedules an operation at a specific time.",
+    [
+      rect(15, 25, 68, 65), line([15, 39], [83, 39]), line([30, 18], [30, 33]), line([68, 18], [68, 33]),
+      line([24, 49], [47, 49]), line([24, 58], [47, 58]), line([24, 67], [40, 67]),
+      oval(62, 60, 36, 36), line([80, 68], [80, 78], [89, 84]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-search", "azure", "Search", ["10834-icon-service-Search"],
+    "A magnifier searches through results.",
+    [
+      line([15, 23], [69, 23]), line([15, 36], [55, 36]), line([15, 49], [51, 49]), line([15, 62], [49, 62]), line([15, 75], [53, 75]),
+      oval(59, 36, 33, 33), line([85, 63], [105, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-server-farm", "azure", "Server Farm", ["10835-icon-service-Server-Farm"],
+    "A cluster of servers shares incoming work.",
+    [
+      rect(12, 21, 28, 54), rect(48, 21, 28, 54), rect(84, 21, 28, 54),
+      line([12, 38], [40, 38]), line([48, 38], [76, 38]), line([84, 38], [112, 38]), line([12, 55], [40, 55]), line([48, 55], [76, 55]), line([84, 55], [112, 55]),
+      line([26, 75], [26, 87], [98, 87], [98, 75]), line([62, 75], [62, 87]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-ssd", "azure", "SSD", ["10837-icon-service-SSD"],
+    "A solid-state drive contains memory chips.",
+    [
+      rect(16, 23, 91, 69), line([16, 77], [107, 77]), rect(26, 35, 19, 24), rect(52, 35, 19, 24), rect(78, 35, 19, 24),
+      line([31, 82], [31, 88]), line([39, 82], [39, 88]), line([47, 82], [47, 88]), line([55, 82], [55, 88]), line([63, 82], [63, 88]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-table", "azure", "Table", ["10841-icon-service-Table"],
+    "A table grid is viewed as a tilted data sheet.",
+    [
+      line([35, 20], [105, 20], [85, 90], [15, 90], [35, 20]), line([30, 38], [100, 38]), line([25, 55], [95, 55]), line([20, 73], [90, 73]),
+      line([58, 20], [38, 90]), line([82, 20], [62, 90]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-tags", "azure", "Tags", ["10842-icon-service-Tags"],
+    "A collection of labels organizes resources.",
+    [
+      line([15, 52], [38, 29], [61, 29], [71, 39], [71, 62], [48, 85], [15, 52]), oval(48, 35, 7, 7),
+      line([40, 23], [65, 16], [84, 21], [92, 34], [86, 56], [76, 66]), oval(72, 22, 7, 7),
+      line([75, 38], [98, 44], [106, 57], [100, 79], [78, 99], [58, 89]), oval(91, 48, 7, 7), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-tfs-vc-repository", "azure", "TFS Version Control Repository", ["10843-icon-service-TFS-VC-Repository"],
+    "A central repository holds a branching history of changes.",
+    [
+      rect(19, 20, 45, 70), line([19, 36], [64, 36]), line([19, 53], [64, 53]), line([19, 70], [64, 70]), oval(26, 25, 6, 6, true), oval(26, 42, 6, 6, true),
+      line([64, 55], [79, 55]), oval(79, 50, 10, 10), oval(98, 30, 10, 10), oval(98, 71, 10, 10), line([89, 55], [94, 55], [103, 40]), line([94, 55], [103, 71]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-launch-portal", "azure", "Launch Portal", ["10815-icon-service-Launch-Portal"],
     "An arrow opens a portal in a new window.",
     [
