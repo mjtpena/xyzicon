@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 931,
-  "aliases": 3645,
+  "count": 935,
+  "aliases": 3649,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -202,6 +202,10 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-data-fusion",
+    "gcp-cloud-composer",
+    "gcp-dataplex",
+    "gcp-dataprep",
     "gcp-asset-inventory",
     "gcp-access-context",
     "gcp-binary-authorization",
@@ -1040,8 +1044,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 116,
-      "concepts": 104
+      "covered": 120,
+      "concepts": 108
     }
   },
   "nearest": {
@@ -4394,6 +4398,74 @@
         "similarity": 0.2625
       }
     ],
+    "gcp-data-fusion": [
+      {
+        "a": "gcp-data-fusion",
+        "b": "gcp-dataprep",
+        "similarity": 0.2385
+      },
+      {
+        "a": "gcp-data-fusion",
+        "b": "gcp-natural-language",
+        "similarity": 0.2338
+      },
+      {
+        "a": "gcp-data-fusion",
+        "b": "aws-backint-agent",
+        "similarity": 0.2263
+      }
+    ],
+    "gcp-cloud-composer": [
+      {
+        "a": "gcp-cloud-composer",
+        "b": "aws-category-front-end",
+        "similarity": 0.1984
+      },
+      {
+        "a": "gcp-cloud-composer",
+        "b": "gcp-genomics",
+        "similarity": 0.1767
+      },
+      {
+        "a": "gcp-cloud-composer",
+        "b": "fabric-restricted-report",
+        "similarity": 0.175
+      }
+    ],
+    "gcp-dataplex": [
+      {
+        "a": "gcp-dataplex",
+        "b": "fabric-datamart",
+        "similarity": 0.2226
+      },
+      {
+        "a": "gcp-dataplex",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.22
+      },
+      {
+        "a": "gcp-dataplex",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2121
+      }
+    ],
+    "gcp-dataprep": [
+      {
+        "a": "gcp-dataprep",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.4015
+      },
+      {
+        "a": "gcp-dataprep",
+        "b": "aws-backint-agent",
+        "similarity": 0.3455
+      },
+      {
+        "a": "gcp-dataprep",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.3347
+      }
+    ],
     "gcp-asset-inventory": [
       {
         "a": "gcp-asset-inventory",
@@ -4486,14 +4558,14 @@
         "similarity": 0.2395
       },
       {
+        "a": "gcp-data-fusion",
+        "b": "gcp-cloud-ids",
+        "similarity": 0.2256
+      },
+      {
         "a": "fabric-building-data",
         "b": "gcp-cloud-ids",
         "similarity": 0.2198
-      },
-      {
-        "a": "gcp-cloud-ids",
-        "b": "aws-elastic-inference",
-        "similarity": 0.2116
       }
     ],
     "gcp-cloud-gpu": [
@@ -4894,14 +4966,14 @@
         "similarity": 0.2749
       },
       {
+        "a": "gcp-dataprep",
+        "b": "gcp-hyperdisk",
+        "similarity": 0.257
+      },
+      {
         "a": "gcp-hyperdisk",
         "b": "m365-folder-people",
         "similarity": 0.2124
-      },
-      {
-        "a": "gcp-security-operations",
-        "b": "gcp-hyperdisk",
-        "similarity": 0.2072
       }
     ],
     "gcp-app-engine": [
@@ -6725,6 +6797,11 @@
     ],
     "aws-data-exchange-api": [
       {
+        "a": "gcp-dataprep",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.4015
+      },
+      {
         "a": "azure-storage-sync",
         "b": "aws-data-exchange-api",
         "similarity": 0.3008
@@ -6733,11 +6810,6 @@
         "a": "aws-data-exchange-api",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2944
-      },
-      {
-        "a": "gcp-hyperdisk",
-        "b": "aws-data-exchange-api",
-        "similarity": 0.2749
       }
     ],
     "aws-clean-rooms": [
@@ -9744,9 +9816,9 @@
         "similarity": 0.2619
       },
       {
-        "a": "m365-share-screen-overlay",
+        "a": "gcp-dataprep",
         "b": "aws-infrastructure-composer",
-        "similarity": 0.2411
+        "similarity": 0.2526
       }
     ],
     "aws-tools-sdks": [
@@ -10448,6 +10520,11 @@
     ],
     "aws-backint-agent": [
       {
+        "a": "gcp-dataprep",
+        "b": "aws-backint-agent",
+        "similarity": 0.3455
+      },
+      {
         "a": "aws-backint-agent",
         "b": "azure-reservations",
         "similarity": 0.2582
@@ -10456,11 +10533,6 @@
         "a": "gcp-alloydb",
         "b": "aws-backint-agent",
         "similarity": 0.2555
-      },
-      {
-        "a": "aws-backint-agent",
-        "b": "aws-elastic-disaster-recovery",
-        "similarity": 0.2503
       }
     ],
     "aws-datasync": [
@@ -11638,6 +11710,11 @@
     ],
     "aws-elastic-disaster-recovery": [
       {
+        "a": "gcp-dataprep",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.3347
+      },
+      {
         "a": "aws-data-exchange-api",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2944
@@ -11646,11 +11723,6 @@
         "a": "aws-elastic-disaster-recovery",
         "b": "aws-parallel-computing",
         "similarity": 0.2647
-      },
-      {
-        "a": "aws-devops-agent",
-        "b": "aws-elastic-disaster-recovery",
-        "similarity": 0.2644
       }
     ],
     "aws-efs": [
@@ -14993,9 +15065,9 @@
         "similarity": 0.3001
       },
       {
-        "a": "aws-audit-manager",
+        "a": "gcp-dataprep",
         "b": "azure-reservations",
-        "similarity": 0.2589
+        "similarity": 0.2661
       }
     ],
     "azure-service-health": [
