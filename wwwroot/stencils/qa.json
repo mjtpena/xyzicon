@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 974,
-  "aliases": 3717,
+  "count": 977,
+  "aliases": 3721,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -711,6 +711,9 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-vpc-nat-gateway",
+    "aws-vpc-internet-gateway",
+    "aws-vpc-traffic-mirroring",
     "aws-rtb-fabric",
     "aws-private-subnet",
     "aws-public-subnet",
@@ -1078,8 +1081,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1292,
-      "concepts": 325
+      "covered": 1296,
+      "concepts": 328
     },
     "gcp": {
       "sources": 261,
@@ -3658,6 +3661,11 @@
     "azure-nat": [
       {
         "a": "azure-nat",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2774
+      },
+      {
+        "a": "azure-nat",
         "b": "azure-endpoint-analytics",
         "similarity": 0.2533
       },
@@ -3665,11 +3673,6 @@
         "a": "azure-waf-policies",
         "b": "azure-nat",
         "similarity": 0.2478
-      },
-      {
-        "a": "azure-nat",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2394
       }
     ],
     "azure-route-tables": [
@@ -3753,8 +3756,8 @@
       },
       {
         "a": "azure-dns-private-resolver",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2169
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2222
       }
     ],
     "azure-ddos-plans": [
@@ -3986,13 +3989,13 @@
       },
       {
         "a": "aws-appflow",
-        "b": "gcp-category-integration",
-        "similarity": 0.2665
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2732
       },
       {
         "a": "aws-appflow",
-        "b": "fabric-dataflow",
-        "similarity": 0.2565
+        "b": "gcp-category-integration",
+        "similarity": 0.2665
       }
     ],
     "aws-mq": [
@@ -6269,8 +6272,8 @@
       },
       {
         "a": "fabric-dataflow",
-        "b": "aws-chime",
-        "similarity": 0.2134
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2169
       }
     ],
     "fabric-dataflow-gen2": [
@@ -6722,14 +6725,14 @@
         "similarity": 0.2892
       },
       {
+        "a": "azure-endpoint-analytics",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2686
+      },
+      {
         "a": "gcp-local-ssd",
         "b": "azure-endpoint-analytics",
         "similarity": 0.2597
-      },
-      {
-        "a": "azure-endpoint-analytics",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2539
       }
     ],
     "azure-workbooks": [
@@ -7126,6 +7129,11 @@
     "aws-glue-crawler": [
       {
         "a": "aws-glue-crawler",
+        "b": "aws-vpc-nat-gateway",
+        "similarity": 0.2427
+      },
+      {
+        "a": "aws-glue-crawler",
         "b": "aws-backup",
         "similarity": 0.2342
       },
@@ -7133,11 +7141,6 @@
         "a": "gcp-api-gateway",
         "b": "aws-glue-crawler",
         "similarity": 0.2292
-      },
-      {
-        "a": "aws-glue-crawler",
-        "b": "aws-data-transfer-terminal",
-        "similarity": 0.2254
       }
     ],
     "aws-glue-catalog": [
@@ -9306,14 +9309,14 @@
         "similarity": 0.2361
       },
       {
+        "a": "azure-ai-studio",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2359
+      },
+      {
         "a": "azure-private-link-services",
         "b": "azure-ai-studio",
         "similarity": 0.235
-      },
-      {
-        "a": "azure-ai-studio",
-        "b": "aws-category-storage",
-        "similarity": 0.2307
       }
     ],
     "azure-foundry-iq": [
@@ -10899,6 +10902,11 @@
     ],
     "aws-migration-evaluator": [
       {
+        "a": "aws-migration-evaluator",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2708
+      },
+      {
         "a": "gcp-analytics-hub",
         "b": "aws-migration-evaluator",
         "similarity": 0.2615
@@ -10907,11 +10915,6 @@
         "a": "power-apps",
         "b": "aws-migration-evaluator",
         "similarity": 0.2564
-      },
-      {
-        "a": "azure-endpoint-analytics",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2539
       }
     ],
     "aws-transform": [
@@ -13114,6 +13117,57 @@
         "similarity": 0.5942
       }
     ],
+    "aws-vpc-nat-gateway": [
+      {
+        "a": "aws-vpc-nat-gateway",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2892
+      },
+      {
+        "a": "aws-vpc-nat-gateway",
+        "b": "fabric-folder-share",
+        "similarity": 0.253
+      },
+      {
+        "a": "gcp-external-key-manager",
+        "b": "aws-vpc-nat-gateway",
+        "similarity": 0.2435
+      }
+    ],
+    "aws-vpc-internet-gateway": [
+      {
+        "a": "aws-vpc-nat-gateway",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2892
+      },
+      {
+        "a": "azure-nat",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2774
+      },
+      {
+        "a": "azure-waf-policies",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2752
+      }
+    ],
+    "aws-vpc-traffic-mirroring": [
+      {
+        "a": "aws-bedrock-agentcore",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2433
+      },
+      {
+        "a": "azure-ai-studio",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2359
+      },
+      {
+        "a": "aws-vpc-traffic-mirroring",
+        "b": "azure-load-testing",
+        "similarity": 0.2356
+      }
+    ],
     "aws-rtb-fabric": [
       {
         "a": "aws-rtb-fabric",
@@ -13228,9 +13282,9 @@
         "similarity": 0.2201
       },
       {
-        "a": "aws-deadline-cloud",
+        "a": "aws-vpc-internet-gateway",
         "b": "aws-cloud-map",
-        "similarity": 0.2094
+        "similarity": 0.2145
       }
     ],
     "aws-cloud-wan": [
@@ -15422,14 +15476,14 @@
         "similarity": 0.2477
       },
       {
+        "a": "aws-vpc-traffic-mirroring",
+        "b": "azure-load-testing",
+        "similarity": 0.2356
+      },
+      {
         "a": "azure-app-service-builder",
         "b": "azure-load-testing",
         "similarity": 0.2261
-      },
-      {
-        "a": "azure-load-testing",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2211
       }
     ],
     "azure-devtest-labs": [

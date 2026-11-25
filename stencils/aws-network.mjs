@@ -3,6 +3,37 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-vpc-nat-gateway", "aws", "VPC NAT Gateway", ["Res_Amazon-VPC_NAT-Gateway_48"],
+    "Private hosts share an outgoing translated address through a gateway.",
+    [
+      rect(9, 15, 25, 19), rect(9, 49, 25, 19), rect(9, 83, 25, 19),
+      line([15, 24], [28, 24]), line([15, 58], [28, 58]), line([15, 92], [28, 92]),
+      line([34, 24], [44, 24], [52, 48]), line([34, 58], [52, 58]), line([34, 92], [44, 92], [52, 68]),
+      line([52, 58], [67, 43], [82, 58], [67, 73], [52, 58]),
+      line([82, 58], [94, 58]), line([89, 53], [94, 58], [89, 63]),
+      oval(96, 46, 22, 24), line([99, 58], [115, 58]), line([107, 46], [103, 51], [103, 65], [107, 70]),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("aws-vpc-internet-gateway", "aws", "VPC Internet Gateway", ["Res_Amazon-VPC_Internet-Gateway_48"],
+    "A gateway joins a private network to the internet in both directions.",
+    [
+      line([10, 33], [40, 33], [40, 83], [10, 83], [10, 33]), rect(18, 45, 15, 15), line([21, 69], [30, 69]),
+      line([40, 58], [50, 58]), line([54, 91], [54, 26], [72, 18], [90, 26], [90, 91]),
+      line([58, 48], [84, 48]), line([78, 42], [84, 48], [78, 54]), line([86, 69], [60, 69]), line([66, 63], [60, 69], [66, 75]),
+      line([90, 58], [97, 58]), oval(97, 44, 23, 28), line([100, 58], [117, 58]), line([108, 44], [104, 49], [104, 67], [108, 72]),
+      line([19, 110], [109, 110]),
+    ]),
+  entry("aws-vpc-traffic-mirroring", "aws", "VPC Traffic Mirroring", ["Res_Amazon-VPC_Traffic-Mirroring_48"],
+    "A copy of network traffic is sent to an inspection destination.",
+    [
+      rect(10, 17, 32, 27), line([16, 27], [36, 27]), line([16, 35], [31, 35]),
+      line([42, 30], [65, 30], [65, 46]),
+      line([48, 47], [65, 47], [82, 47]), line([76, 41], [82, 47], [76, 53]),
+      line([65, 47], [65, 78], [82, 78]), line([76, 72], [82, 78], [76, 84]),
+      rect(83, 33, 33, 27), line([89, 42], [110, 42]), line([89, 51], [106, 51]),
+      oval(83, 69, 23, 23), line([102, 88], [113, 99]),
+      line([18, 112], [110, 112]),
+    ]),
   entry("aws-rtb-fabric", "aws", "AWS RTB Fabric", sizes("AWS-RTB-Fabric"),
     "A low-latency link exchanges bid requests and responses between advertising partners.",
     [
@@ -143,7 +174,7 @@ export const awsNetworkArtwork = [
       line([35, 36], [93, 36]), line([43, 86], [85, 86]), line([35, 41], [85, 82]), line([43, 81], [93, 41]),
       oval(56, 54, 16, 16, true),
     ]),
-  entry("aws-vpc", "aws", "Amazon Virtual Private Cloud", [...sizes("Amazon-Virtual-Private-Cloud"), "Virtual-private-cloud-VPC_32"],
+  entry("aws-vpc", "aws", "Amazon Virtual Private Cloud", [...sizes("Amazon-Virtual-Private-Cloud"), "Virtual-private-cloud-VPC_32", "Res_Amazon-VPC_Virtual-private-cloud-VPC_48"],
     "A private boundary encloses two subnets linked by a router.",
     [
       line([12, 18], [116, 18], [116, 110], [12, 110], [12, 18]),
