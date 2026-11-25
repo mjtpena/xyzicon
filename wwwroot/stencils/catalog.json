@@ -947,15 +947,15 @@
       "id": "azure-app-gateway",
       "provider": "azure",
       "name": "Azure Application Gateway",
-      "rationale": "A gateway arch inspects an incoming web request before routing it onward.",
+      "rationale": "An application gateway routes an incoming web request to two services.",
       "path": "stencils/azure-app-gateway.svg",
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/networking/10076-icon-service-Application-Gateways.svg"
       ],
-      "revision": "c2cc8a2109f62b0ac6696a8811e5084e09fcf03b6987b4c3afd60ee3793068da",
-      "geometrySignature": "89f188c480c29d9337c1cb8492a80bc52d1b53bd4b3ad6382a591b9f9f4f2c1c",
-      "review": "rework",
-      "notes": "The literal arch resembles a doorway and its app marker is too small to read at 32px; show application traffic routing with a clearer, larger app cue."
+      "revision": "3e0b9cefaa8cc24567a1e0b57d83b2af9af4e14c29683c36d70abbcd13d29ade",
+      "geometrySignature": "9af7989e046bfba84e3d436e085bfb8ed21b191793836c3d42e23bbae5ed1ba9",
+      "review": "approved",
+      "notes": "The incoming arrow, browser-like gateway and two downstream services remain identifiable at 32px; the storage hub has a shaded store, while apps and report are flat windows."
     },
     {
       "id": "azure-event-hubs",

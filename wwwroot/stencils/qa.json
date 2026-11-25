@@ -3,10 +3,9 @@
   "threshold": 0.65,
   "count": 668,
   "aliases": 2836,
-  "approved": 166,
+  "approved": 167,
   "needsReview": [
     "dynamics-family",
-    "azure-app-gateway",
     "azure-app-services",
     "aws-eks",
     "aws-sqs",
@@ -731,11 +730,6 @@
     "fabric-lakehouse": [
       {
         "a": "fabric-lakehouse",
-        "b": "azure-app-gateway",
-        "similarity": 0.217
-      },
-      {
-        "a": "fabric-lakehouse",
         "b": "aws-ec2-autoscaling",
         "similarity": 0.2082
       },
@@ -743,6 +737,11 @@
         "a": "fabric-lakehouse",
         "b": "fabric-datamart",
         "similarity": 0.1804
+      },
+      {
+        "a": "fabric-lakehouse",
+        "b": "m365-mail-read",
+        "similarity": 0.1654
       }
     ],
     "fabric-pipeline": [
@@ -1682,19 +1681,19 @@
     ],
     "azure-app-gateway": [
       {
-        "a": "fabric-lakehouse",
-        "b": "azure-app-gateway",
-        "similarity": 0.217
-      },
-      {
-        "a": "entra-family",
-        "b": "azure-app-gateway",
-        "similarity": 0.2138
+        "a": "azure-app-gateway",
+        "b": "azure-storage-files",
+        "similarity": 0.2339
       },
       {
         "a": "azure-app-gateway",
-        "b": "aws-interconnect",
-        "similarity": 0.2047
+        "b": "fabric-apps",
+        "similarity": 0.2146
+      },
+      {
+        "a": "azure-app-gateway",
+        "b": "fabric-report",
+        "similarity": 0.1912
       }
     ],
     "azure-event-hubs": [
@@ -5376,14 +5375,14 @@
         "similarity": 0.2797
       },
       {
-        "a": "azure-storage-files",
-        "b": "aws-interconnect",
-        "similarity": 0.2308
+        "a": "azure-app-gateway",
+        "b": "azure-storage-files",
+        "similarity": 0.2339
       },
       {
         "a": "azure-storage-files",
-        "b": "aws-xray",
-        "similarity": 0.2201
+        "b": "aws-interconnect",
+        "similarity": 0.2308
       }
     ],
     "azure-storage-container": [
@@ -11975,9 +11974,9 @@
         "similarity": 0.1764
       },
       {
-        "a": "azure-app-gateway",
+        "a": "aws-redshift",
         "b": "fabric-histogram-function",
-        "similarity": 0.1641
+        "similarity": 0.1635
       }
     ],
     "fabric-connected-nodes": [
