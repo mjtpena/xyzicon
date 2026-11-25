@@ -1,6 +1,25 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-dev-box", "azure", "Microsoft Dev Box", ["03250-icon-service-Microsoft-Dev-Box"],
+    "A cloud workstation provides a developer's coding environment.",
+    [
+      rect(13, 29, 76, 53), line([13, 41], [89, 41]), line([21, 35], [25, 35]), line([31, 35], [35, 35]), line([33, 53], [26, 61], [33, 69]), line([52, 53], [59, 61], [52, 69]), line([48, 49], [39, 73]), line([40, 82], [40, 94]), line([64, 82], [64, 94]), line([29, 94], [75, 94]),
+      line([96, 42], [92, 38], [92, 32], [96, 28], [102, 28], [106, 22], [112, 22], [116, 28], [116, 35], [112, 41], [106, 42]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-deployment-environments", "azure", "Azure Deployment Environments", ["03251-icon-service-Azure-Deployment-Environments"],
+    "A defined environment deploys application resources.",
+    [
+      line([14, 30], [14, 18], [28, 18]), line([96, 18], [110, 18], [110, 30]), line([14, 85], [14, 97], [28, 97]), line([96, 97], [110, 97], [110, 85]),
+      line([37, 46], [50, 39], [63, 46], [63, 60], [50, 67], [37, 60], [37, 46]), line([37, 46], [50, 53], [63, 46]), line([50, 53], [50, 67]),
+      line([80, 77], [80, 40]), line([72, 48], [80, 40], [88, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-dev-tunnels", "azure", "Azure Dev Tunnels", ["03308-icon-service-Azure-Dev-Tunnels"],
+    "A tunnel exposes a local development service to a remote client.",
+    [
+      rect(13, 36, 30, 30), line([19, 45], [25, 51], [19, 57]), line([28, 57], [36, 57]),
+      line([43, 46], [55, 46], [55, 36], [70, 28], [85, 28], [100, 36], [100, 46], [112, 46]), line([43, 57], [55, 57], [55, 67], [70, 75], [85, 75], [100, 67], [100, 57], [112, 57]), line([105, 40], [112, 46], [105, 52]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-vmware-solution", "azure", "Azure VMware Solution", ["01219-icon-service-Azure-VMware-Solution"],
     "VMware workloads run on dedicated Azure hosts.",
     [

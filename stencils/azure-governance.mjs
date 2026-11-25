@@ -1,6 +1,49 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-keys", "azure", "Keys", ["00787-icon-service-Keys"],
+    "A set of keys provides access to protected resources.",
+    [
+      oval(15, 20, 25, 25), oval(23, 28, 9, 9), line([36, 40], [63, 67], [69, 61]), line([49, 53], [55, 47]), line([55, 59], [61, 53]),
+      oval(61, 24, 25, 25), oval(69, 32, 9, 9), line([82, 44], [108, 70], [102, 76]), line([94, 56], [100, 50]), line([100, 62], [106, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-sustainability", "azure", "Azure Sustainability", ["03314-icon-service-Azure-Sustainability"],
+    "Cloud workloads are measured for environmental impact.",
+    [
+      line([15, 86], [19, 68], [29, 51], [43, 42], [58, 38], [68, 40], [66, 55], [59, 70], [48, 79], [34, 84], [21, 82]), line([17, 91], [32, 74], [52, 52]),
+      line([85, 23], [85, 40]), line([101, 23], [101, 40]), line([78, 40], [108, 40], [108, 53], [102, 61], [93, 64], [84, 61], [78, 53], [78, 40]), line([93, 64], [93, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-osconfig", "azure", "OSConfig", ["03365-icon-service-OSConfig"],
+    "Operating system configuration is checked against policy.",
+    [
+      rect(15, 19, 66, 74), line([15, 32], [81, 32]), line([23, 26], [27, 26]), line([33, 26], [37, 26]),
+      line([24, 45], [29, 50], [36, 42]), line([42, 47], [70, 47]), line([24, 60], [29, 65], [36, 57]), line([42, 62], [70, 62]), line([24, 76], [29, 81], [36, 73]), line([42, 78], [66, 78]),
+      line([90, 45], [103, 50], [102, 68], [97, 76], [90, 82], [83, 76], [78, 68], [77, 50], [90, 45]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-consumption-commitment", "azure", "Azure Consumption Commitment", ["03495-icon-service-Azure-Consumption-Commitment"],
+    "A consumption commitment tracks agreed cloud spend.",
+    [
+      line([19, 17], [74, 17], [87, 30], [87, 94], [19, 94], [19, 17]), line([74, 17], [74, 30], [87, 30]), line([30, 39], [69, 39]), line([30, 51], [69, 51]), line([30, 63], [57, 63]), line([30, 75], [56, 75]),
+      oval(72, 62, 34, 34), line([89, 68], [89, 79], [98, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-monitor-health-models", "azure", "Monitor Health Models", ["03528-icon-service-Monitor-Health-Models"],
+    "Health states roll up from components to a service.",
+    [
+      line([35, 29], [29, 23], [20, 23], [14, 29], [14, 39], [20, 47], [35, 60], [50, 47], [56, 39], [56, 29], [50, 23], [41, 23], [35, 29]), line([19, 40], [27, 40], [31, 33], [36, 47], [40, 40], [50, 40]),
+      line([56, 42], [72, 42], [72, 69], [91, 69]), oval(87, 26, 16, 16), oval(87, 62, 16, 16), line([95, 42], [95, 62]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-attestation", "azure", "Azure Attestation", ["10422-icon-service-AzureAttestation"],
+    "Attestation verifies the identity and integrity of a workload.",
+    [
+      line([18, 18], [72, 18], [85, 31], [85, 91], [18, 91], [18, 18]), line([72, 18], [72, 31], [85, 31]), line([29, 39], [70, 39]), line([29, 50], [62, 50]), line([29, 61], [70, 61]),
+      line([88, 52], [106, 58], [104, 78], [97, 88], [88, 94], [79, 88], [72, 78], [70, 58], [88, 52]), line([79, 74], [85, 80], [97, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-web-jobs", "azure", "Web Jobs", ["10846-icon-service-Web-Jobs"],
+    "A web application runs background jobs.",
+    [
+      rect(13, 24, 61, 55), line([13, 37], [74, 37]), line([20, 30], [24, 30]), line([30, 30], [34, 30]), line([23, 49], [60, 49]), line([23, 60], [53, 60]),
+      oval(78, 53, 27, 27), oval(86, 61, 11, 11), line([91, 46], [91, 53]), line([91, 80], [91, 87]), line([71, 66], [78, 66]), line([105, 66], [112, 66]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-targets-management", "azure", "Targets Management", ["02908-icon-service-Targets-Management"],
     "A management target identifies the resource to be acted on.",
     [
