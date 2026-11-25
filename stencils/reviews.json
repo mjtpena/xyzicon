@@ -452,9 +452,9 @@
   },
   "azure-sql-database": {
     "revision": "e30089b55359eda8560f318a22d3a2ea7abed603e891a7f82a9a40b017b90472",
-    "comparisonRevision": "dbf067f382a083e25ed2ca6ff0784a47fac9b8e595d07f2233bbf9d2b5c6b11e",
+    "comparisonRevision": "984f7618fabafd502adf9be5e5e48271f28ddd19220a227f99438112a6059c2b",
     "status": "approved",
-    "notes": "The cylinder and relational grid communicate SQL storage; the receipt, document and bucket neighbors have different silhouettes."
+    "notes": "A relational grid in a database cylinder differs from a query receipt, document and plain database."
   },
   "azure-cosmos-db": {
     "revision": "ece6cbebb99021f8f78ae486b30f1ae9a4601c7bde82e7bcff274b84e440f407",
@@ -2346,15 +2346,15 @@
   },
   "aws-iot-fleet-hub": {
     "revision": "c2e9e85dc98045cdc30e7529578c354dafb91c01c03d194d5929065358ac4bd7",
-    "comparisonRevision": "36c810d61eddd0e2e7ac54d56bc3f993190da7c08c708969d22fedc36f9e6ec5",
+    "comparisonRevision": "e9f059a5e07b36b2eacdca89a4cc2db6c006f8c599b715097cdb712af73f74d0",
     "status": "approved",
-    "notes": "Three connected devices appear in a fleet dashboard, unlike user monitoring, charts and a route table."
+    "notes": "Three connected devices appear in a fleet dashboard, unlike user monitoring, charts and S3 files."
   },
   "aws-iot-device-tester": {
     "revision": "1ecc9da5b9a24da37e7cb3ed63a22e7f0b0b727090f611ba4f97dc88369697a8",
-    "comparisonRevision": "50ca691408d8320eec27b5556af7be93382fd0cec64e6641a641e61be63f7963",
+    "comparisonRevision": "666e824d7f64e881d7ea20cae8ee87d32b4766e9aa889af10502865cfaa6398e",
     "status": "approved",
-    "notes": "A device connects to a checked diagnostic meter, unlike Athena SQL, server farm and HTTP multiplexing; advisor uses a checklist."
+    "notes": "A device connects to a checked diagnostic meter, unlike an S3 folder, Athena SQL and server farm."
   },
   "aws-iot-thing-industrial-pc": {
     "revision": "8bc4f1f23f2d646f9a12a9a9824b82dff26da92f46931bb61de858c0a62b643a",
@@ -2664,21 +2664,21 @@
   },
   "aws-s3-storage-lens": {
     "revision": "f143c15908e8d3c08998a1e2c17dee24f5d3c6bccaada7cb3c5ee356c5cc5ac3",
-    "comparisonRevision": "344c9d181d209645232181870316dc1c883ad7a9ca2f61395fb14adb5a3aad65",
+    "comparisonRevision": "e9f46571eaaac9f72adfc920e8b2af5668e81df07005db06a580fc9417f9958d",
     "status": "approved",
-    "notes": "A bucket feeds an inspected usage chart, unlike vector axes, table grid and public IP."
+    "notes": "A bucket feeds an inspected usage chart, unlike a directory tree, vector plot and table."
   },
   "aws-s3-tables": {
     "revision": "8be8480944097fa510a78f7c352a90a73f73a8cab4752cac35f623f7a45153aa",
-    "comparisonRevision": "bbebd4a871c0721c3dae78438c51399abec25ef8560c2349a97486e7e31f175b",
+    "comparisonRevision": "ed4349044bbb2c05d7c8a65a46dcb2c1ec4c4b2f9296b1a2e9c8508f975e4891",
     "status": "approved",
-    "notes": "A bucket feeds a table grid, unlike vector arrows, conversion and Proton."
+    "notes": "A bucket feeds a table grid, unlike vector axes, directory tree and conversion."
   },
   "aws-s3-vectors": {
     "revision": "98b87a60c915e90765613b753fe68b4e7c3dc913e32dc8911d7ca908f84a1877",
-    "comparisonRevision": "5147e5bc2a895e8a43825a316cc57986dacbac888e0755360c430af69a2b3c5a",
+    "comparisonRevision": "a068c76851d608ca452281e8f1de906934ae07c39ec622b51051fda9ba665024",
     "status": "approved",
-    "notes": "A bucket sits beside a vector plot, unlike a table grid, usage chart and backup gateway."
+    "notes": "A bucket sits beside a vector plot, unlike a table grid, directory tree and usage chart."
   },
   "aws-s3-general-access-point": {
     "revision": "47901be7948a9fff4fc606d5e2a932bd7a5c10f74a928774753d827d4e6a6641",
@@ -2724,9 +2724,9 @@
   },
   "aws-s3-replication-time": {
     "revision": "7324a89921fc816514b6e761e7ba06bc6c64cce0bc82484affc5aebc36963afa",
-    "comparisonRevision": "dee93b73ab357532b3a7c79c93e76775961b8e9d822971d052d517f43e895116",
+    "comparisonRevision": "a1cc9e8e9946e36b85eff652fb57481cae2ce8007580ca52f94623413cf8e80c",
     "status": "approved",
-    "notes": "Two buckets with an overhead clock show timed replication, unlike relays, a query editor and backup gateway."
+    "notes": "Two buckets with an overhead clock show timed replication, unlike relays, a query editor and directory tree."
   },
   "aws-s3-express-one-zone": {
     "revision": "3e2832cdfa99fee23e8f4cc288272c9efa006d1f302862661fc7e9ea0d48010f",
@@ -2799,5 +2799,65 @@
     "comparisonRevision": "42b3e8406114baf69b32bc526a10f3798ed6bdd717cb8b316164d97a53032a9c",
     "status": "approved",
     "notes": "An empty bucket with handles differs from an IAM key, branch and MFA device."
+  },
+  "aws-s3-directory-bucket": {
+    "revision": "0444f9fbf366e87c6d4b7ea7d1aa0b614a56d48fb74d49f3a11aa2706e623a55",
+    "comparisonRevision": "5ca6eed4aa8f23fba5aa15318235c34677d990ca0b098f7f8bf53afd1a152f7a",
+    "status": "approved",
+    "notes": "A bucket points to a branching directory, unlike the bucket chart, vector plot and S3 table."
+  },
+  "aws-s3-object": {
+    "revision": "a46bc01564962e6dfcf8e904b2711502b9c345f2913d70d2a5692308a69e4c04",
+    "comparisonRevision": "d06b03fd7d1d68b4558fa38c8ad385e1feeff18af33eeeabf2e7e985ed5940d3",
+    "status": "approved",
+    "notes": "A tagged object cube differs from a compliance shield, usage graph and cache chip."
+  },
+  "aws-s3-batch-operations": {
+    "revision": "1553041bba31be3627b531a0f5b6d25c90a2e8cb040e28254c2311100887f822",
+    "comparisonRevision": "5fcf4132f9a902f75f49d0adfd2be42143c94603c5aed9772e12cfeabaa7593d",
+    "status": "approved",
+    "notes": "Several objects converge on a check, unlike the Proton transfer, zonal resource and backup management."
+  },
+  "aws-s3-files": {
+    "revision": "885e854856493c55ecdfad26ea25ead8c4da1c87a37306263311a472f4eecaaa",
+    "comparisonRevision": "60cee5fcf7f5277a5edb63c52ead6c7f4b58a205ae7147dd88188dfa002bf3c1",
+    "status": "approved",
+    "notes": "A folder encloses a bucket and file list, unlike fleet monitoring, network rules and S3 file cache."
+  },
+  "aws-efs-intelligent-tiering": {
+    "revision": "b0709e6d1d41dfd87f1f440c0e525609a39ec5af8db30e95c27d9f2cbbdd8e84",
+    "comparisonRevision": "2a07b959b6a180328d2b4c25933f2520641a683f2acb45c3255b2a51935b9a3f",
+    "status": "approved",
+    "notes": "Two file folders exchange tiers, unlike device configuration, code and throughput."
+  },
+  "aws-efs-one-zone-ia": {
+    "revision": "1e4a9757d00ce6e5e3667e0b12f29390f94efa7e5245242f475b653427e249f8",
+    "comparisonRevision": "61239f19cb60a147734ce2e10058498fcccbc519f4f907bb402208faa1cc9522",
+    "status": "approved",
+    "notes": "A folder with clock and pin differs from a job, locked transfer and high throughput."
+  },
+  "aws-efs-one-zone": {
+    "revision": "44ba7ad2dd29c9ced34b5d92bb3c48e6f51eac9d91e4fd3ecaeea349e2795d4b",
+    "comparisonRevision": "49d0b4b9ed48bfbe9409ce38a6d12d028e827b19760176d9417bebb681289059",
+    "status": "approved",
+    "notes": "A folder and pin identify a single zone, unlike trends, graphs and backup."
+  },
+  "aws-efs-standard-ia": {
+    "revision": "4c0f4ee4056e271e9753d3bacff79b4d50cd7baa5328c4e7f752190e91655c97",
+    "comparisonRevision": "ea2b25311a7bbf6d8d1c752308a73e2909b19f6b8cba5900e20f9919bf86c744",
+    "status": "approved",
+    "notes": "A folder with clock denotes infrequent access, unlike the throughput bolt, locked transfer and discovery."
+  },
+  "aws-efs-standard": {
+    "revision": "12fdb682546a724be4e30792d38ba82dd8ea86a29579dbea9e9eda6837998ae4",
+    "comparisonRevision": "3d9f899e661cc29cc6a290d2343a06edad00ea4a35e95a2d7d1662169d13b8bb",
+    "status": "approved",
+    "notes": "A plain file folder differs from SAML, label tag and sliders."
+  },
+  "aws-efs-elastic-throughput": {
+    "revision": "21bc3fd859a0ec4ccec484be02ba9ea53fc223c26d5117f65896ed2ddd4b98c9",
+    "comparisonRevision": "5c58e439d7cccb2d9be2277f5638005f3c35ccc1880268267a4eafaad88569d3",
+    "status": "approved",
+    "notes": "A folder has a lightning bolt and rising arrow, unlike infrequent access, FTPS and zonal access."
   }
 }
