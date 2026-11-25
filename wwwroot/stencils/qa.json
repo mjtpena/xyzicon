@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 867,
-  "aliases": 3496,
+  "count": 871,
+  "aliases": 3512,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-games",
+    "aws-category-developer-tools",
+    "aws-category-end-user",
+    "aws-category-financial",
     "aws-category-analytics",
     "aws-category-containers",
     "aws-category-compute",
@@ -971,8 +975,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1188,
-      "concepts": 294
+      "covered": 1204,
+      "concepts": 298
     },
     "gcp": {
       "sources": 261,
@@ -3050,9 +3054,9 @@
         "similarity": 0.2274
       },
       {
-        "a": "gcp-bigtable",
-        "b": "m365-camera",
-        "similarity": 0.2028
+        "a": "m365-camera",
+        "b": "aws-category-financial",
+        "similarity": 0.2208
       }
     ],
     "m365-certificate": [
@@ -8413,6 +8417,11 @@
     "azure-foundry-project": [
       {
         "a": "azure-foundry-project",
+        "b": "aws-category-financial",
+        "similarity": 0.2804
+      },
+      {
+        "a": "azure-foundry-project",
         "b": "azure-service-health",
         "similarity": 0.2675
       },
@@ -8420,11 +8429,6 @@
         "a": "fabric-live-dashboard",
         "b": "azure-foundry-project",
         "similarity": 0.2615
-      },
-      {
-        "a": "m365-window",
-        "b": "azure-foundry-project",
-        "similarity": 0.2566
       }
     ],
     "azure-foundry-local": [
@@ -9952,9 +9956,9 @@
         "similarity": 0.2181
       },
       {
-        "a": "aws-finops-agent",
-        "b": "aws-application-migration",
-        "similarity": 0.2134
+        "a": "aws-application-migration",
+        "b": "aws-category-financial",
+        "similarity": 0.217
       }
     ],
     "aws-transfer-family": [
@@ -11018,14 +11022,14 @@
         "similarity": 0.2185
       },
       {
+        "a": "aws-file-cache",
+        "b": "aws-category-financial",
+        "similarity": 0.2072
+      },
+      {
         "a": "aws-workdocs-sdk",
         "b": "aws-file-cache",
         "similarity": 0.207
-      },
-      {
-        "a": "azure-foundry-project",
-        "b": "aws-file-cache",
-        "similarity": 0.2069
       }
     ],
     "aws-s3-on-outposts": [
@@ -13285,6 +13289,74 @@
         "similarity": 0.1678
       }
     ],
+    "aws-category-games": [
+      {
+        "a": "gcp-app-engine",
+        "b": "aws-category-games",
+        "similarity": 0.2009
+      },
+      {
+        "a": "fabric-restricted-report",
+        "b": "aws-category-games",
+        "similarity": 0.1946
+      },
+      {
+        "a": "aws-well-architected-tool",
+        "b": "aws-category-games",
+        "similarity": 0.1856
+      }
+    ],
+    "aws-category-developer-tools": [
+      {
+        "a": "aws-category-developer-tools",
+        "b": "azure-linux",
+        "similarity": 0.2306
+      },
+      {
+        "a": "aws-finspace",
+        "b": "aws-category-developer-tools",
+        "similarity": 0.2118
+      },
+      {
+        "a": "aws-databrew",
+        "b": "aws-category-developer-tools",
+        "similarity": 0.2043
+      }
+    ],
+    "aws-category-end-user": [
+      {
+        "a": "aws-xray",
+        "b": "aws-category-end-user",
+        "similarity": 0.2355
+      },
+      {
+        "a": "gcp-mandiant",
+        "b": "aws-category-end-user",
+        "similarity": 0.2116
+      },
+      {
+        "a": "aws-category-end-user",
+        "b": "azure-service-health",
+        "similarity": 0.208
+      }
+    ],
+    "aws-category-financial": [
+      {
+        "a": "azure-foundry-project",
+        "b": "aws-category-financial",
+        "similarity": 0.2804
+      },
+      {
+        "a": "m365-check",
+        "b": "aws-category-financial",
+        "similarity": 0.2645
+      },
+      {
+        "a": "aws-transform",
+        "b": "aws-category-financial",
+        "similarity": 0.2391
+      }
+    ],
     "aws-category-analytics": [
       {
         "a": "aws-category-analytics",
@@ -15368,14 +15440,14 @@
         "similarity": 0.2217
       },
       {
+        "a": "aws-category-financial",
+        "b": "fabric-database-lock",
+        "similarity": 0.1899
+      },
+      {
         "a": "fabric-database-lock",
         "b": "fabric-calendar-person",
         "similarity": 0.1827
-      },
-      {
-        "a": "azure-foundry-project",
-        "b": "fabric-database-lock",
-        "similarity": 0.1817
       }
     ],
     "fabric-location-ribbon": [

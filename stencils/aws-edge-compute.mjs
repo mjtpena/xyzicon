@@ -4,6 +4,47 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const categorySizes = (name) => [16, 32, 48, 64].map((size) => `Arch-Category_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-category-games", "aws", "Games category", categorySizes("Games"),
+    "An arcade joystick and a score display evoke interactive games.",
+    [
+      oval(49, 13, 20, 20), line([59, 33], [59, 62]),
+      line([25, 68], [34, 60], [84, 60], [93, 68], [101, 95], [97, 105], [22, 105], [18, 95], [25, 68]),
+      line([23, 89], [96, 89]), oval(72, 70, 9, 9, true), oval(85, 75, 9, 9),
+      line([34, 74], [48, 74]), line([41, 67], [41, 81]),
+      line([13, 16], [25, 16]), line([19, 10], [19, 22]), line([100, 19], [112, 19]), line([106, 13], [106, 25]),
+      line([23, 114], [97, 114]),
+    ]),
+  entry("aws-category-developer-tools", "aws", "Developer tools category", categorySizes("Developer-Tools"),
+    "A wrench and screwdriver sit beside a code editor.",
+    [
+      rect(11, 24, 64, 71), line([11, 37], [75, 37]), line([19, 30], [27, 30]),
+      line([32, 49], [24, 57], [32, 65]), line([49, 49], [57, 57], [49, 65]), line([44, 46], [38, 68]),
+      line([22, 77], [64, 77]), line([22, 85], [53, 85]),
+      line([86, 96], [99, 56], [96, 49], [99, 39], [105, 35], [104, 43], [110, 46], [115, 40], [115, 49], [108, 56], [95, 99]),
+      line([79, 26], [88, 17], [94, 23], [84, 34], [77, 52]), line([76, 52], [81, 57]),
+      line([14, 111], [112, 111]),
+    ]),
+  entry("aws-category-end-user", "aws", "End user computing category", categorySizes("End-User-Computing"),
+    "A person works across a desktop and a mobile device.",
+    [
+      oval(13, 30, 20, 20), line([7, 76], [9, 61], [15, 54], [22, 52], [29, 54], [35, 61], [37, 76]),
+      rect(43, 25, 62, 48), line([43, 63], [105, 63]), line([67, 73], [67, 82]), line([81, 73], [81, 82]),
+      line([56, 82], [90, 82]), line([51, 34], [96, 34]), line([51, 42], [78, 42]), line([51, 50], [88, 50]),
+      rect(91, 59, 25, 42), line([91, 67], [116, 67]), line([99, 94], [108, 94]),
+      line([13, 111], [112, 111]),
+    ]),
+  entry("aws-category-financial", "aws", "Cloud financial management category", categorySizes("Cloud-Financial-Management"),
+    "A cloud expense is calculated with a bill and calculator.",
+    [
+      line([18, 38], [13, 33], [14, 26], [20, 23], [25, 15], [34, 14], [41, 19], [43, 25], [51, 27], [54, 33], [51, 38], [18, 38]),
+      line([23, 33], [26, 29], [31, 31], [34, 34], [39, 32], [40, 28]), line([31, 25], [31, 37]),
+      line([12, 53], [44, 53], [54, 63], [54, 102], [12, 102], [12, 53]), line([44, 53], [44, 63], [54, 63]),
+      line([19, 69], [45, 69]), line([19, 78], [45, 78]), line([19, 88], [37, 88]),
+      rect(68, 28, 46, 74), rect(75, 36, 32, 13), line([75, 60], [81, 60]), line([90, 60], [96, 60]), line([104, 60], [108, 60]),
+      line([75, 72], [81, 72]), line([90, 72], [96, 72]), line([104, 72], [108, 72]),
+      line([75, 84], [81, 84]), line([90, 84], [96, 84]), line([104, 84], [108, 84]),
+      line([16, 113], [110, 113]),
+    ]),
   entry("aws-category-analytics", "aws", "Analytics category", categorySizes("Analytics"),
     "A pie chart and bar chart summarize different views of data.",
     [
