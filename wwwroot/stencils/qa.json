@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1448,
-  "aliases": 4524,
+  "count": 1454,
+  "aliases": 4530,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -57,6 +57,12 @@
     "gcp-cloud-sql",
     "gcp-compute-engine",
     "gcp-storage",
+    "azure-arc-kubernetes",
+    "azure-operator-5g-core",
+    "azure-operator-nexus",
+    "azure-operator-insights",
+    "azure-operator-service-manager",
+    "azure-programmable-connectivity",
     "azure-local",
     "azure-edge-storage-accelerator",
     "azure-monitor-pipeline",
@@ -1718,8 +1724,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 296,
-      "concepts": 230
+      "covered": 302,
+      "concepts": 236
     },
     "fabric": {
       "sources": 1584,
@@ -2642,6 +2648,108 @@
         "similarity": 0.281
       }
     ],
+    "azure-arc-kubernetes": [
+      {
+        "a": "azure-arc-kubernetes",
+        "b": "fabric-operations-agent",
+        "similarity": 0.1798
+      },
+      {
+        "a": "azure-arc-kubernetes",
+        "b": "m365-mail-read",
+        "similarity": 0.1698
+      },
+      {
+        "a": "azure-arc-kubernetes",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.1697
+      }
+    ],
+    "azure-operator-5g-core": [
+      {
+        "a": "azure-operator-5g-core",
+        "b": "azure-remote-rendering",
+        "similarity": 0.3549
+      },
+      {
+        "a": "azure-operator-5g-core",
+        "b": "azure-cognitive-search",
+        "similarity": 0.301
+      },
+      {
+        "a": "azure-operator-5g-core",
+        "b": "gcp-os-configuration",
+        "similarity": 0.2369
+      }
+    ],
+    "azure-operator-nexus": [
+      {
+        "a": "azure-operator-nexus",
+        "b": "azure-remote-rendering",
+        "similarity": 0.2895
+      },
+      {
+        "a": "azure-operator-nexus",
+        "b": "fabric-data-bar-highlight",
+        "similarity": 0.2539
+      },
+      {
+        "a": "azure-operator-nexus",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2487
+      }
+    ],
+    "azure-operator-insights": [
+      {
+        "a": "azure-operator-insights",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.2703
+      },
+      {
+        "a": "azure-operator-insights",
+        "b": "azure-operator-service-manager",
+        "similarity": 0.2469
+      },
+      {
+        "a": "azure-operator-insights",
+        "b": "fabric-folder-data-bars",
+        "similarity": 0.2464
+      }
+    ],
+    "azure-operator-service-manager": [
+      {
+        "a": "azure-operator-service-manager",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.2782
+      },
+      {
+        "a": "azure-operator-service-manager",
+        "b": "azure-spatial-anchor-accounts",
+        "similarity": 0.2541
+      },
+      {
+        "a": "azure-operator-service-manager",
+        "b": "fabric-shapes-forward-arrow",
+        "similarity": 0.2514
+      }
+    ],
+    "azure-programmable-connectivity": [
+      {
+        "a": "azure-programmable-connectivity",
+        "b": "azure-private-link-services",
+        "similarity": 0.2733
+      },
+      {
+        "a": "azure-programmable-connectivity",
+        "b": "gcp-binary-authorization",
+        "similarity": 0.271
+      },
+      {
+        "a": "azure-programmable-connectivity",
+        "b": "azure-instance-pools",
+        "similarity": 0.2667
+      }
+    ],
     "azure-local": [
       {
         "a": "azure-local",
@@ -2870,14 +2978,14 @@
         "similarity": 0.3872
       },
       {
-        "a": "azure-remote-rendering",
-        "b": "azure-cognitive-search",
-        "similarity": 0.3485
+        "a": "azure-operator-5g-core",
+        "b": "azure-remote-rendering",
+        "similarity": 0.3549
       },
       {
         "a": "azure-remote-rendering",
-        "b": "fabric-cloud-endpoint",
-        "similarity": 0.2745
+        "b": "azure-cognitive-search",
+        "similarity": 0.3485
       }
     ],
     "azure-spatial-anchor-accounts": [
@@ -2994,9 +3102,9 @@
         "similarity": 0.2431
       },
       {
-        "a": "azure-blockchain-service",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.2377
+        "a": "azure-operator-insights",
+        "b": "azure-blockchain-service",
+        "similarity": 0.2417
       }
     ],
     "azure-blockchain-token": [
@@ -3011,9 +3119,9 @@
         "similarity": 0.2194
       },
       {
-        "a": "azure-blockchain-token",
-        "b": "fabric-library-globe",
-        "similarity": 0.2036
+        "a": "azure-operator-insights",
+        "b": "azure-blockchain-token",
+        "similarity": 0.2051
       }
     ],
     "azure-blockchain-member": [
@@ -3878,9 +3986,9 @@
         "similarity": 0.2384
       },
       {
-        "a": "aws-eventbridge-event",
-        "b": "aws-elasticache",
-        "similarity": 0.2249
+        "a": "azure-operator-5g-core",
+        "b": "aws-eventbridge-event",
+        "similarity": 0.2277
       }
     ],
     "aws-eventbridge-default-bus": [
@@ -7414,9 +7522,9 @@
         "similarity": 0.2403
       },
       {
-        "a": "azure-edge-storage-accelerator",
+        "a": "azure-operator-service-manager",
         "b": "gcp-cloud-apis",
-        "similarity": 0.2301
+        "similarity": 0.2353
       }
     ],
     "gcp-cloud-inference": [
@@ -8208,14 +8316,14 @@
         "similarity": 0.2912
       },
       {
+        "a": "azure-programmable-connectivity",
+        "b": "gcp-binary-authorization",
+        "similarity": 0.271
+      },
+      {
         "a": "gcp-local-ssd",
         "b": "gcp-binary-authorization",
         "similarity": 0.2573
-      },
-      {
-        "a": "gcp-binary-authorization",
-        "b": "azure-code-optimization",
-        "similarity": 0.255
       }
     ],
     "gcp-certificate-authority": [
@@ -12470,9 +12578,9 @@
         "similarity": 0.1617
       },
       {
-        "a": "m365-ribbon",
-        "b": "aws-kms",
-        "similarity": 0.1514
+        "a": "azure-arc-kubernetes",
+        "b": "m365-ribbon",
+        "similarity": 0.1541
       }
     ],
     "m365-settings": [
@@ -13643,9 +13751,9 @@
         "similarity": 0.3485
       },
       {
-        "a": "azure-ssis-lift-shift",
+        "a": "azure-operator-5g-core",
         "b": "azure-cognitive-search",
-        "similarity": 0.2947
+        "similarity": 0.301
       }
     ],
     "azure-bonsai": [
@@ -15785,9 +15893,9 @@
         "similarity": 0.2072
       },
       {
-        "a": "aws-migration-evaluator",
+        "a": "azure-programmable-connectivity",
         "b": "aws-application-discovery",
-        "similarity": 0.1921
+        "similarity": 0.1942
       }
     ],
     "aws-service-management-connector": [
@@ -17289,6 +17397,11 @@
     ],
     "m365-building-cloud": [
       {
+        "a": "azure-operator-nexus",
+        "b": "m365-building-cloud",
+        "similarity": 0.2165
+      },
+      {
         "a": "fabric-building-data",
         "b": "m365-building-cloud",
         "similarity": 0.2161
@@ -17297,11 +17410,6 @@
         "a": "m365-building-cloud",
         "b": "aws-eks-outposts",
         "similarity": 0.2056
-      },
-      {
-        "a": "m365-building-cloud",
-        "b": "fabric-data-bar-trend",
-        "similarity": 0.1968
       }
     ],
     "m365-building-multiple": [
@@ -17907,6 +18015,11 @@
     ],
     "aws-cloudfront-edge-location": [
       {
+        "a": "azure-programmable-connectivity",
+        "b": "aws-cloudfront-edge-location",
+        "similarity": 0.2615
+      },
+      {
         "a": "gcp-alloydb",
         "b": "aws-cloudfront-edge-location",
         "similarity": 0.242
@@ -17915,11 +18028,6 @@
         "a": "aws-deep-learning-containers",
         "b": "aws-cloudfront-edge-location",
         "similarity": 0.2265
-      },
-      {
-        "a": "aws-cloudfront-edge-location",
-        "b": "aws-ecs-app-container",
-        "similarity": 0.2206
       }
     ],
     "aws-cloudfront-functions": [
@@ -18835,9 +18943,9 @@
         "similarity": 0.1895
       },
       {
-        "a": "aws-managed-blockchain",
+        "a": "azure-operator-5g-core",
         "b": "fabric-arrow-export-import",
-        "similarity": 0.1684
+        "similarity": 0.1766
       }
     ],
     "fabric-arrow-forward-circle": [
@@ -19283,9 +19391,9 @@
         "similarity": 0.2475
       },
       {
-        "a": "aws-sagemaker-train",
+        "a": "azure-operator-5g-core",
         "b": "aws-ec2-cloudwatch-instance",
-        "similarity": 0.2148
+        "similarity": 0.2166
       }
     ],
     "aws-ec2-instance": [
@@ -19572,9 +19680,9 @@
         "similarity": 0.1985
       },
       {
-        "a": "azure-private-link-services",
+        "a": "azure-programmable-connectivity",
         "b": "aws-app-runner",
-        "similarity": 0.1858
+        "similarity": 0.1866
       }
     ],
     "aws-nitro-enclaves": [
@@ -19630,6 +19738,11 @@
     ],
     "aws-ec2-image-builder": [
       {
+        "a": "azure-operator-5g-core",
+        "b": "aws-ec2-image-builder",
+        "similarity": 0.1747
+      },
+      {
         "a": "fabric-event-house",
         "b": "aws-ec2-image-builder",
         "similarity": 0.1731
@@ -19638,11 +19751,6 @@
         "a": "aws-sagemaker-shadow-testing",
         "b": "aws-ec2-image-builder",
         "similarity": 0.1716
-      },
-      {
-        "a": "aws-ec2-image-builder",
-        "b": "aws-fargate",
-        "similarity": 0.1699
       }
     ],
     "aws-lightsail": [
@@ -21153,9 +21261,9 @@
         "similarity": 0.2973
       },
       {
-        "a": "azure-cloud-services-classic",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2715
+        "a": "azure-operator-service-manager",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.2782
       }
     ],
     "azure-app-service-plans": [
@@ -22134,14 +22242,14 @@
         "similarity": 0.2586
       },
       {
+        "a": "azure-operator-nexus",
+        "b": "fabric-data-bar-highlight",
+        "similarity": 0.2539
+      },
+      {
         "a": "aws-opensearch-ingestion",
         "b": "fabric-data-bar-highlight",
         "similarity": 0.2506
-      },
-      {
-        "a": "aws-athena-connectors",
-        "b": "fabric-data-bar-highlight",
-        "similarity": 0.2481
       }
     ],
     "fabric-data-bar-lightning": [

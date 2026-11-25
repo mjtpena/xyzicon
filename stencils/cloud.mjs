@@ -2,6 +2,49 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-arc-kubernetes", "azure", "Arc Kubernetes", ["01088-icon-service-Arc-Kubernetes"],
+    "Azure Arc manages a set of Kubernetes containers.",
+    [
+      oval(13, 83, 94, 19), line([21, 33], [31, 28], [41, 33], [41, 44], [31, 49], [21, 44], [21, 33]), line([21, 33], [31, 38], [41, 33]), line([31, 38], [31, 49]),
+      line([49, 18], [59, 13], [69, 18], [69, 29], [59, 34], [49, 29], [49, 18]), line([49, 18], [59, 23], [69, 18]), line([59, 23], [59, 34]),
+      line([77, 33], [87, 28], [97, 33], [97, 44], [87, 49], [77, 44], [77, 33]), line([77, 33], [87, 38], [97, 33]), line([87, 38], [87, 49]),
+      line([35, 59], [45, 54], [55, 59], [55, 70], [45, 75], [35, 70], [35, 59]), line([35, 59], [45, 64], [55, 59]), line([45, 64], [45, 75]),
+      line([63, 59], [73, 54], [83, 59], [83, 70], [73, 75], [63, 70], [63, 59]), line([63, 59], [73, 64], [83, 59]), line([73, 64], [73, 75]),
+    ]),
+  entry("azure-operator-5g-core", "azure", "Azure Operator 5G Core", ["03248-icon-service-Azure-Operator-5G-Core"],
+    "A cloud hosts the core of a 5G network.",
+    [
+      line([20, 86], [14, 80], [14, 66], [20, 56], [31, 52], [35, 39], [46, 31], [60, 31], [71, 37], [76, 48], [88, 49], [99, 56], [105, 66], [104, 80], [98, 86], [20, 86]),
+      oval(40, 43, 42, 42), line([50, 72], [50, 65]), line([58, 72], [58, 58]), line([66, 72], [66, 51]), line([74, 72], [74, 46]), line([13, 109], [110, 109]),
+    ]),
+  entry("azure-operator-nexus", "azure", "Azure Operator Nexus", ["03324-icon-service-Azure-Operator-Nexus"],
+    "A network operator connects cloud and local infrastructure.",
+    [
+      rect(53, 14, 52, 75), line([53, 32], [105, 32]), line([53, 50], [105, 50]), line([70, 14], [70, 65]), line([88, 14], [88, 65]),
+      line([19, 86], [13, 81], [13, 71], [18, 64], [27, 62], [30, 53], [39, 49], [48, 52], [51, 60], [59, 62], [64, 69], [64, 79], [58, 86], [19, 86]),
+      oval(30, 65, 16, 16), line([38, 65], [38, 60]), line([38, 81], [38, 86]), line([25, 73], [30, 73]), line([46, 73], [51, 73]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-operator-insights", "azure", "Azure Operator Insights", ["03333-icon-service-Azure-Operator-Insights"],
+    "A radio tower reports network metrics.",
+    [
+      oval(45, 19, 15, 15, true), line([52, 34], [34, 91]), line([52, 34], [70, 91]), line([40, 72], [64, 72]), line([30, 91], [74, 91]),
+      line([35, 19], [29, 27], [29, 37], [35, 45]), line([25, 12], [18, 24], [18, 40], [25, 51]),
+      line([70, 19], [76, 27], [76, 37], [70, 45]), line([80, 12], [87, 24], [87, 40], [80, 51]),
+      rect(70, 65, 34, 28), line([77, 86], [77, 80]), line([85, 86], [85, 75]), line([93, 86], [93, 70]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-operator-service-manager", "azure", "Azure Operator Service Manager", ["03334-icon-service-Azure-Operator-Service-Manager"],
+    "A radio tower is managed by a service control.",
+    [
+      oval(28, 26, 13, 13, true), line([34, 39], [19, 91]), line([34, 39], [49, 91]), line([24, 74], [44, 74]), line([16, 91], [52, 91]),
+      line([20, 25], [14, 32], [14, 41], [20, 49]), line([49, 25], [55, 32], [55, 41], [49, 49]),
+      line([79, 45], [85, 51], [93, 51], [93, 59], [99, 65], [93, 71], [93, 79], [85, 79], [79, 85], [73, 79], [65, 79], [65, 71], [59, 65], [65, 59], [65, 51], [73, 51], [79, 45]), oval(72, 58, 14, 14), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-programmable-connectivity", "azure", "Azure Programmable Connectivity", ["03347-icon-service-Azure-Programmable-Connectivity"],
+    "Code controls a connected network.",
+    [
+      oval(12, 21, 39, 39), oval(27, 36, 9, 9, true), line([31, 21], [31, 36]), line([12, 40], [27, 40]), line([36, 40], [51, 40]), line([31, 45], [31, 60]),
+      line([51, 40], [70, 40], [70, 51]), rect(58, 51, 49, 39), line([74, 61], [67, 70], [74, 79]), line([91, 61], [98, 70], [91, 79]), line([86, 59], [80, 81]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-local", "azure", "Azure Local", ["033745116-icon-service-Azure-Local"],
     "A local stack of servers runs Azure workloads.",
     [
