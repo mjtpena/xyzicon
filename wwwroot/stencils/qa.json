@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 286,
+  "approved": 296,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,16 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-iot-rule",
-    "aws-iot-action",
-    "aws-iot-actuator",
-    "aws-iot-servo",
-    "aws-iot-certificate",
-    "aws-iot-policy",
-    "aws-iot-desired-state",
-    "aws-iot-reported-state",
-    "aws-iot-shadow",
-    "aws-iot-simulator",
     "aws-iot-over-air-update",
     "aws-iot-device-advisor",
     "aws-iot-device-location",
@@ -2851,11 +2841,6 @@
     "dynamics-finance-operations": [
       {
         "a": "dynamics-finance-operations",
-        "b": "aws-iot-action",
-        "similarity": 0.345
-      },
-      {
-        "a": "dynamics-finance-operations",
         "b": "aws-transfer-sftp",
         "similarity": 0.3383
       },
@@ -2863,6 +2848,11 @@
         "a": "dynamics-finance-operations",
         "b": "aws-elasticache-redis",
         "similarity": 0.3372
+      },
+      {
+        "a": "dynamics-finance-operations",
+        "b": "aws-directory-ad-connector",
+        "similarity": 0.3228
       }
     ],
     "dynamics-finance": [
@@ -3048,8 +3038,8 @@
       },
       {
         "a": "aws-dynamodb",
-        "b": "azure-public-ip-classic",
-        "similarity": 0.1897
+        "b": "aws-iot-actuator",
+        "similarity": 0.1919
       }
     ],
     "gcp-bigquery": [
@@ -3803,6 +3793,11 @@
     "azure-blockchain-outbound": [
       {
         "a": "azure-blockchain-outbound",
+        "b": "aws-iot-action",
+        "similarity": 0.2095
+      },
+      {
+        "a": "azure-blockchain-outbound",
         "b": "azure-traffic-manager-multistack",
         "similarity": 0.2044
       },
@@ -3810,11 +3805,6 @@
         "a": "azure-blockchain-outbound",
         "b": "aws-file-cache-on-premises",
         "similarity": 0.2004
-      },
-      {
-        "a": "azure-blockchain-outbound",
-        "b": "aws-trusted-advisor-fault",
-        "similarity": 0.1983
       }
     ],
     "azure-blockchain-service": [
@@ -5853,8 +5843,8 @@
       },
       {
         "a": "azure-relays",
-        "b": "aws-s3-replication-time",
-        "similarity": 0.2523
+        "b": "aws-iot-actuator",
+        "similarity": 0.285
       }
     ],
     "azure-api-fhir": [
@@ -6914,11 +6904,6 @@
     "gcp-kuberun": [
       {
         "a": "gcp-kuberun",
-        "b": "aws-iot-action",
-        "similarity": 0.2597
-      },
-      {
-        "a": "gcp-kuberun",
         "b": "aws-vpc-vpn-gateway",
         "similarity": 0.2325
       },
@@ -6926,6 +6911,11 @@
         "a": "gcp-kuberun",
         "b": "azure-user-privacy",
         "similarity": 0.2287
+      },
+      {
+        "a": "gcp-kuberun",
+        "b": "azure-windows-core-services",
+        "similarity": 0.2263
       }
     ],
     "gcp-local-ssd": [
@@ -7943,9 +7933,9 @@
         "similarity": 0.1575
       },
       {
-        "a": "m365-payment",
-        "b": "gcp-standard-network-tier",
-        "similarity": 0.1498
+        "a": "gcp-standard-network-tier",
+        "b": "aws-iot-actuator",
+        "similarity": 0.15
       }
     ],
     "gcp-private-connectivity": [
@@ -7978,8 +7968,8 @@
       },
       {
         "a": "gcp-private-service-connect",
-        "b": "aws-opensearch-data-node",
-        "similarity": 0.2611
+        "b": "aws-iot-actuator",
+        "similarity": 0.2618
       }
     ],
     "gcp-traffic-director": [
@@ -11118,13 +11108,13 @@
       },
       {
         "a": "azure-azurite",
-        "b": "aws-iot-actuator",
-        "similarity": 0.3348
+        "b": "aws-rds-instance",
+        "similarity": 0.3254
       },
       {
         "a": "azure-azurite",
-        "b": "aws-rds-instance",
-        "similarity": 0.3254
+        "b": "azure-storage-functions",
+        "similarity": 0.3132
       }
     ],
     "azure-arc-postgresql": [
@@ -13148,13 +13138,13 @@
       },
       {
         "a": "aws-kinesis-video",
-        "b": "aws-payment-cryptography",
-        "similarity": 0.223
+        "b": "aws-iot-actuator",
+        "similarity": 0.2348
       },
       {
         "a": "aws-kinesis-video",
-        "b": "aws-backup-storage-resource",
-        "similarity": 0.202
+        "b": "aws-payment-cryptography",
+        "similarity": 0.223
       }
     ],
     "aws-managed-flink": [
@@ -15375,13 +15365,13 @@
       },
       {
         "a": "azure-device-compliance",
-        "b": "aws-iot-action",
-        "similarity": 0.3255
+        "b": "azure-log-streaming",
+        "similarity": 0.3214
       },
       {
         "a": "azure-device-compliance",
-        "b": "azure-log-streaming",
-        "similarity": 0.3214
+        "b": "aws-general-git-repository",
+        "similarity": 0.3129
       }
     ],
     "azure-software-updates": [
@@ -17194,13 +17184,13 @@
       },
       {
         "a": "azure-defender-external-management",
-        "b": "aws-iot-thing-vibration-sensor",
-        "similarity": 0.2935
+        "b": "aws-iot-actuator",
+        "similarity": 0.2966
       },
       {
         "a": "azure-defender-external-management",
-        "b": "azure-video-indexer",
-        "similarity": 0.28
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.2935
       }
     ],
     "azure-defender-freezer-monitor": [
@@ -17534,13 +17524,13 @@
       },
       {
         "a": "azure-device-provisioning",
-        "b": "aws-iot-http2",
-        "similarity": 0.3047
+        "b": "aws-iot-action",
+        "similarity": 0.3251
       },
       {
         "a": "azure-device-provisioning",
-        "b": "aws-efs-elastic-throughput",
-        "similarity": 0.3034
+        "b": "aws-iot-http2",
+        "similarity": 0.3047
       }
     ],
     "azure-mission-landing-zone": [
@@ -18457,8 +18447,8 @@
       },
       {
         "a": "azure-support-center",
-        "b": "aws-route53-hosted-zone",
-        "similarity": 0.2382
+        "b": "aws-iot-actuator",
+        "similarity": 0.2408
       }
     ],
     "azure-prometheus": [
@@ -19833,9 +19823,9 @@
         "similarity": 0.2545
       },
       {
-        "a": "azure-privileged-identity-management",
-        "b": "aws-iot-alexa-voice-service",
-        "similarity": 0.2469
+        "a": "aws-iot-alexa-voice-service",
+        "b": "aws-iot-actuator",
+        "similarity": 0.2473
       }
     ],
     "aws-iot-echo": [
@@ -20044,36 +20034,36 @@
     ],
     "aws-iot-action": [
       {
-        "a": "dynamics-finance-operations",
+        "a": "aws-iot-action",
+        "b": "azure-worker-container-app",
+        "similarity": 0.3333
+      },
+      {
+        "a": "azure-device-provisioning",
         "b": "aws-iot-action",
-        "similarity": 0.345
+        "similarity": 0.3251
       },
       {
         "a": "aws-iot-action",
-        "b": "aws-vpc-network-interface",
-        "similarity": 0.3263
-      },
-      {
-        "a": "azure-device-compliance",
-        "b": "aws-iot-action",
-        "similarity": 0.3255
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.323
       }
     ],
     "aws-iot-actuator": [
       {
-        "a": "aws-iot-actuator",
-        "b": "aws-braket-simulator-1",
-        "similarity": 0.4043
-      },
-      {
-        "a": "aws-iot-actuator",
-        "b": "aws-ebs-snapshot",
-        "similarity": 0.341
-      },
-      {
-        "a": "azure-azurite",
+        "a": "azure-defender-external-management",
         "b": "aws-iot-actuator",
-        "similarity": 0.3348
+        "similarity": 0.2966
+      },
+      {
+        "a": "aws-iot-actuator",
+        "b": "aws-vpc-access-analyzer",
+        "similarity": 0.2866
+      },
+      {
+        "a": "azure-relays",
+        "b": "aws-iot-actuator",
+        "similarity": 0.285
       }
     ],
     "aws-iot-servo": [
@@ -21710,11 +21700,6 @@
     ],
     "aws-ebs-snapshot": [
       {
-        "a": "aws-iot-actuator",
-        "b": "aws-ebs-snapshot",
-        "similarity": 0.341
-      },
-      {
         "a": "azure-virtual-visits-builder",
         "b": "aws-ebs-snapshot",
         "similarity": 0.338
@@ -21723,6 +21708,11 @@
         "a": "azure-azurite",
         "b": "aws-ebs-snapshot",
         "similarity": 0.3376
+      },
+      {
+        "a": "azure-machines-azure-arc",
+        "b": "aws-ebs-snapshot",
+        "similarity": 0.3368
       }
     ],
     "aws-ebs-gp3-volume": [
@@ -22288,11 +22278,6 @@
     ],
     "aws-braket-simulator-1": [
       {
-        "a": "aws-iot-actuator",
-        "b": "aws-braket-simulator-1",
-        "similarity": 0.4043
-      },
-      {
         "a": "aws-ebs-snapshot",
         "b": "aws-braket-simulator-1",
         "similarity": 0.3363
@@ -22301,6 +22286,11 @@
         "a": "azure-defender-marquee",
         "b": "aws-braket-simulator-1",
         "similarity": 0.2965
+      },
+      {
+        "a": "aws-braket-simulator-1",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.2934
       }
     ],
     "aws-braket-simulator-2": [
@@ -24532,6 +24522,11 @@
     ],
     "aws-cloudwatch-rule": [
       {
+        "a": "aws-iot-actuator",
+        "b": "aws-cloudwatch-rule",
+        "similarity": 0.2467
+      },
+      {
         "a": "azure-open-supply-chain-platform",
         "b": "aws-cloudwatch-rule",
         "similarity": 0.237
@@ -24540,11 +24535,6 @@
         "a": "aws-cloudwatch-rule",
         "b": "aws-vpc-router",
         "similarity": 0.2353
-      },
-      {
-        "a": "azure-pubsub",
-        "b": "aws-cloudwatch-rule",
-        "similarity": 0.2303
       }
     ],
     "aws-cloudwatch-synthetics": [
@@ -24928,14 +24918,14 @@
         "similarity": 0.3116
       },
       {
+        "a": "aws-iot-action",
+        "b": "aws-license-blending",
+        "similarity": 0.2673
+      },
+      {
         "a": "aws-backup-storage-resource",
         "b": "aws-license-blending",
         "similarity": 0.2652
-      },
-      {
-        "a": "aws-license-blending",
-        "b": "aws-vpc-endpoints",
-        "similarity": 0.2648
       }
     ],
     "aws-organizations-account": [
@@ -28653,6 +28643,11 @@
     ],
     "aws-vpc-customer-gateway": [
       {
+        "a": "aws-iot-action",
+        "b": "aws-vpc-customer-gateway",
+        "similarity": 0.3118
+      },
+      {
         "a": "aws-vpc-customer-gateway",
         "b": "aws-transit-gateway-attachment",
         "similarity": 0.2716
@@ -28661,11 +28656,6 @@
         "a": "azure-storage-mover",
         "b": "aws-vpc-customer-gateway",
         "similarity": 0.271
-      },
-      {
-        "a": "azure-ad-b2c",
-        "b": "aws-vpc-customer-gateway",
-        "similarity": 0.2669
       }
     ],
     "aws-vpc-network-adapter": [
@@ -28714,9 +28704,9 @@
         "similarity": 0.3169
       },
       {
-        "a": "aws-vpc-carrier-gateway",
+        "a": "aws-iot-action",
         "b": "aws-vpc-endpoints",
-        "similarity": 0.3078
+        "similarity": 0.3156
       }
     ],
     "aws-vpc-flow-logs": [
@@ -28738,6 +28728,11 @@
     ],
     "aws-vpc-access-analyzer": [
       {
+        "a": "aws-iot-actuator",
+        "b": "aws-vpc-access-analyzer",
+        "similarity": 0.2866
+      },
+      {
         "a": "aws-vpc-access-analyzer",
         "b": "azure-resource-group-list",
         "similarity": 0.2623
@@ -28746,11 +28741,6 @@
         "a": "azure-device-security-windows",
         "b": "aws-vpc-access-analyzer",
         "similarity": 0.2593
-      },
-      {
-        "a": "azure-multi-factor-authentication",
-        "b": "aws-vpc-access-analyzer",
-        "similarity": 0.2586
       }
     ],
     "aws-vpc-network-acl": [
@@ -32795,14 +32785,14 @@
         "similarity": 0.3996
       },
       {
+        "a": "aws-iot-action",
+        "b": "azure-worker-container-app",
+        "similarity": 0.3333
+      },
+      {
         "a": "azure-worker-container-app",
         "b": "azure-resource-linked",
         "similarity": 0.3007
-      },
-      {
-        "a": "gcp-api-analytics",
-        "b": "azure-worker-container-app",
-        "similarity": 0.2916
       }
     ],
     "azure-container-app-environments": [
@@ -33096,11 +33086,6 @@
     ],
     "azure-process-explorer": [
       {
-        "a": "aws-iot-actuator",
-        "b": "azure-process-explorer",
-        "similarity": 0.3062
-      },
-      {
         "a": "azure-virtual-clusters",
         "b": "azure-process-explorer",
         "similarity": 0.292
@@ -33109,6 +33094,11 @@
         "a": "aws-ebs-snapshot",
         "b": "azure-process-explorer",
         "similarity": 0.2909
+      },
+      {
+        "a": "azure-log-analytics-query-pack",
+        "b": "azure-process-explorer",
+        "similarity": 0.2872
       }
     ],
     "azure-production-ready-database": [
