@@ -1844,9 +1844,9 @@
   },
   "aws-data-exchange": {
     "revision": "f8aa606dd7cdb4fe716514dea1de3073cf78cd30cc82482cf6d0185e26fc0cb7",
-    "comparisonRevision": "a24f7c58ab5d739a73c7bee2573620bd2afd3de690491b3b960d5afa2e0c08ef",
+    "comparisonRevision": "19f45fbb3d9f8cb44e9311f5c78452a60fe0e6712a3610ce3342d19fca559cd2",
     "status": "approved",
-    "notes": "Two clear packages exchange data on opposing paths, unlike a user function, build press and AI stages."
+    "notes": "Two packages exchange data on opposing paths; unlike a person authoring a function, a build pipeline or an AI workflow."
   },
   "aws-entity-resolution": {
     "revision": "1fc9b827bd4f0d183a3a9021b3762a74ce47976a7e00cbc9e3b9d8428eff4215",
@@ -3242,9 +3242,9 @@
   },
   "aws-codebuild": {
     "revision": "f0eebb79578249e74784ca9b0e76fd7bbc1b8f902d8d97bfa1805c97ae1ff6d2",
-    "comparisonRevision": "31ba4441c008a888d1db2388e2e312822ac5992907de94f296f473d72fd5749e",
+    "comparisonRevision": "0eb33da49d00420259b9386fb18520218e05e0b0115a78b02bc3e5c3566165e8",
     "status": "approved",
-    "notes": "Source flows through a build to package, unlike collection rules, window edit and user workflow."
+    "notes": "A code sheet enters staged build steps and a package; unlike rules, a form editor or a user-authored function."
   },
   "aws-codecommit": {
     "revision": "8470d08361c5988046a7e33b1e176918cf50811a6322a4617b1ac94a8fbd32be",
@@ -7604,9 +7604,9 @@
   },
   "fabric-external-semantic": {
     "revision": "0d55d400626fb2d54ca1b0c913c8b4c09934661b91691bc6dd6214ea26e17cd0",
-    "comparisonRevision": "159ac25dc4a63114e866fb60b599242307044bc472b51e48200207ff7303e23f",
+    "comparisonRevision": "73278317d3c76fea8da3c96c543133925a903513f37f2c2e7df7af3fcbdf38cb",
     "status": "approved",
-    "notes": "A source crosses a boundary to a semantic layer and chart, unlike connected streaming semantic model, Amplify and people sharing."
+    "notes": "An outside user connects through the model to a data output; unlike mobile deployment, a stream-fed model or two-party sharing."
   },
   "fabric-function-set": {
     "revision": "ca6db62618d9e2dc522ca47ab52e20a5efe9df52b81b7041cf39de5628d4ab1e",
@@ -7703,5 +7703,53 @@
     "comparisonRevision": "724c58017c4215d7c901ae7e725a2115646bfb81cd830f1b1fc50dd8191d74ba",
     "status": "approved",
     "notes": "A semantic cube serves two checked consumers rather than an S3 access point, user roles or packaging."
+  },
+  "fabric-spark-job": {
+    "revision": "2a871ca266bfe92635b679e768bfa589633abdf25f8a018e1fcf0dc2c21c216a",
+    "comparisonRevision": "98072c1ed5d4719725e8f990a11e2c3401969a38d84713e175334646b5825d2b",
+    "status": "approved",
+    "notes": "A spark points to a job stage rather than a compute console, table or certificate across six variants."
+  },
+  "fabric-streaming-dataflow": {
+    "revision": "10c42c572bc47c57c3d7d9e52915501ab1bef5ca33765c7d79e27335a89bd809",
+    "comparisonRevision": "6720f44794fb5e41e5cdd000da91f09e334c5b5b4f9b0d833de92eaf62bb0c10",
+    "status": "approved",
+    "notes": "Events enter a filter and live chart, unlike managed Flink, batch Dataflow or VM scaling."
+  },
+  "fabric-streaming-semantic": {
+    "revision": "958b4c95f50291f30f8c12d3e455e5e2ecf71b4102bce4b5a7f1bd01a03cc1ee",
+    "comparisonRevision": "1b430a3e30fa59d971ac83e75af06bd27ec0262d2b7b48202001eae40503b233",
+    "status": "approved",
+    "notes": "A stream feeds a semantic layer and output, unlike the externally sourced semantic model, EMR or monitoring."
+  },
+  "fabric-user-data-function": {
+    "revision": "bbf2f82d5c6f1983ff740ec3c84149b468ad5124b24a5fb02f92a0baaf3e4212",
+    "comparisonRevision": "dbfe781de17978100ecf2201e1e02c86a0f094ada0a5b52c1081bc8c2db976ab",
+    "status": "approved",
+    "notes": "A person defines a data transformation, unlike code build, data exchange or analytics."
+  },
+  "azure-device-security-apple": {
+    "revision": "a9b4fa04404260cf9a52ba5ba0c2b8fb9b6af14234f3bed107f57383d632f9eb",
+    "comparisonRevision": "34dd40245f640a0b49d7b3145a5517c727210d1a0b32e242ed6618c2476802a1",
+    "status": "approved",
+    "notes": "An A-marked device is locked, distinct from cloud group, controls and printer; the generic shield source is platform-qualified by its catalog entry."
+  },
+  "azure-device-security-google": {
+    "revision": "1c7f7e3d63203e5588567690b453f9f71861865baf6e5ba76ab590efe1f205c6",
+    "comparisonRevision": "87162cb42c3e3d8b0e9b3fc4f179cd4b37654558baa352c859fe1ce6c334aa34",
+    "status": "approved",
+    "notes": "A G-marked device and shield differ from a meter, migration and calendar; the generic source is platform-qualified by its catalog entry."
+  },
+  "azure-device-security-windows": {
+    "revision": "6a9813c3f301fc248a9bf4515833964e07c73101e2cc0cad9683350cce52ecfc",
+    "comparisonRevision": "78b2b65dad9077e5ebd30a920fa21ecb1c34a3c677b46a018a3cd5dc0320e508",
+    "status": "approved",
+    "notes": "A W-marked monitor and lock differ from software update, MFA and application definition; the generic source is platform-qualified by its catalog entry."
+  },
+  "azure-intune": {
+    "revision": "2aef82b9839a35b33c9382807400eba00a4e7275e998744f2cc05efb2b950122",
+    "comparisonRevision": "c3777a0419c36c4e98d63d3cd21a2db577c9a81ac4c059bad48c2031cb587a6b",
+    "status": "approved",
+    "notes": "A desktop and mobile device reflect the source and differ from edge management, chaos and Arc SQL."
   }
 }
