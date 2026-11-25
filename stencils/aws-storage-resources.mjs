@@ -1,6 +1,62 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-backup-vmware", "aws", "Backup for VMware Workloads", ["Res_AWS-Backup_AWS-Backup-Support-for-VMware-Workloads_48"],
+    "A virtualized workload is backed up to the cloud.",
+    [
+      rect(12, 27, 38, 48), line([12, 38], [50, 38]), line([19, 47], [42, 47]), line([19, 57], [38, 57]), line([50, 51], [64, 51]), line([58, 45], [64, 51], [58, 57]),
+      line([75, 38], [71, 34], [73, 27], [80, 24], [87, 26], [92, 19], [101, 20], [106, 27], [105, 33], [112, 37], [111, 45], [106, 49], [75, 49], [70, 45], [75, 38]),
+      line([75, 67], [83, 75], [99, 59]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-cloudformation", "aws", "Backup for CloudFormation", ["Res_AWS-Backup_AWS-Backup-for-AWS-CloudFormation_48"],
+    "An infrastructure template is included in a backup.",
+    [
+      line([18, 19], [72, 19], [84, 31], [84, 87], [18, 87], [18, 19]), line([72, 19], [72, 31], [84, 31]), line([34, 39], [27, 46], [34, 53]), line([55, 39], [62, 46], [55, 53]), line([48, 36], [41, 56]), line([28, 68], [67, 68]),
+      line([90, 45], [103, 45], [103, 67], [95, 74]), line([94, 65], [95, 74], [104, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-fsx-ontap", "aws", "Backup for FSx NetApp ONTAP", ["Res_AWS-Backup_AWS-Backup-support-for-Amazon-FSx-for-NetApp-ONTAP_48"],
+    "A network file share is backed up.",
+    [
+      line([13, 30], [13, 22], [39, 22], [47, 30], [72, 30], [72, 77], [13, 77], [13, 30]), line([21, 42], [64, 42]), line([21, 52], [58, 52]), line([21, 62], [64, 62]),
+      line([80, 41], [91, 41], [99, 49], [99, 66], [92, 73]), line([90, 65], [92, 73], [100, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-s3", "aws", "Backup for Amazon S3", ["Res_AWS-Backup_AWS-Backup-support-for-Amazon-S3_48"],
+    "Objects in a bucket are protected by backup.",
+    [
+      oval(22, 24, 49, 13), line([22, 30], [27, 78], [35, 83], [58, 83], [66, 78], [71, 30]), line([30, 45], [63, 45]), rect(37, 51, 11, 11),
+      line([78, 40], [90, 40], [98, 48], [98, 65], [91, 72]), line([89, 64], [91, 72], [99, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-compute-resource", "aws", "Backup Compute", ["Res_AWS-Backup_Compute_48"],
+    "A compute instance has a recovery point.",
+    [
+      rect(19, 24, 54, 51), line([19, 36], [73, 36]), line([27, 46], [64, 46]), line([27, 56], [59, 56]), line([32, 75], [32, 83], [60, 83]), line([46, 75], [46, 83]),
+      oval(77, 42, 27, 27), line([90, 47], [90, 56], [97, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-database-resource", "aws", "Backup Database", ["Res_AWS-Backup_Database_48"],
+    "A database has a protected recovery point.",
+    [
+      line([64, 15], [105, 44], [90, 92], [38, 92], [23, 44], [64, 15]),
+      oval(45, 39, 38, 12), line([45, 45], [45, 69], [51, 73], [64, 75], [77, 73], [83, 69], [83, 45]), line([45, 56], [51, 60], [64, 62], [77, 60], [83, 56]),
+      line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-storage-resource", "aws", "Backup Storage", ["Res_AWS-Backup_Storage_48"],
+    "A storage volume has a saved recovery point.",
+    [
+      rect(12, 27, 51, 50), oval(19, 34, 36, 36), oval(30, 45, 14, 14), line([37, 52], [48, 41]),
+      line([63, 53], [78, 53]), line([72, 47], [78, 53], [72, 59]), rect(82, 38, 29, 31), line([82, 47], [111, 47]), line([90, 57], [103, 57]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-virtual-machine", "aws", "Backup Virtual Machine", ["Res_AWS-Backup_Virtual-Machine_48"],
+    "A virtual machine is captured for recovery.",
+    [
+      line([16, 29], [43, 15], [70, 29], [70, 57], [43, 71], [16, 57], [16, 29]), line([16, 29], [43, 43], [70, 29]), line([43, 43], [43, 71]),
+      line([72, 60], [89, 60]), line([83, 54], [89, 60], [83, 66]), line([92, 48], [105, 48], [105, 76], [92, 76], [92, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-backup-virtual-machine-monitor", "aws", "Backup Virtual Machine Monitor", ["Res_AWS-Backup_Virtual-Machine-Monitor_48"],
+    "A monitor inspects virtual machine backup health.",
+    [
+      line([15, 32], [37, 20], [59, 32], [59, 55], [37, 67], [15, 55], [15, 32]), line([15, 32], [37, 44], [59, 32]), line([37, 44], [37, 67]),
+      rect(68, 30, 41, 37), line([74, 52], [80, 52], [84, 43], [89, 60], [94, 48], [102, 48]), line([79, 67], [79, 77], [98, 77]), line([88, 67], [88, 77]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-backup-plan", "aws", "Backup Plan", ["Res_AWS-Backup_Backup-Plan_48"],
     "A backup plan schedules recurring recovery points.",
     [
