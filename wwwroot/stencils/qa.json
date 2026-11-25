@@ -3,24 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 935,
+  "approved": 951,
   "needsReview": [
-    "gcp-debugger",
-    "gcp-profiler",
-    "gcp-trace",
-    "gcp-stackdriver",
-    "gcp-cloud-ops",
-    "gcp-performance-dashboard",
-    "gcp-network-connectivity-center",
-    "gcp-network-intelligence",
-    "gcp-network-security",
-    "gcp-network-tiers",
-    "gcp-network-topology",
-    "gcp-partner-interconnect",
-    "gcp-premium-network-tier",
-    "gcp-standard-network-tier",
-    "gcp-private-connectivity",
-    "gcp-private-service-connect",
     "gcp-traffic-director",
     "gcp-virtual-private-cloud",
     "gcp-security-key-enforcement",
@@ -3362,13 +3346,13 @@
       },
       {
         "a": "azure-load-balancer",
-        "b": "gcp-network-connectivity-center",
-        "similarity": 0.1546
+        "b": "azure-api-management",
+        "similarity": 0.153
       },
       {
         "a": "azure-load-balancer",
-        "b": "azure-api-management",
-        "similarity": 0.153
+        "b": "fabric-asterisk",
+        "similarity": 0.1434
       }
     ],
     "azure-firewall": [
@@ -7130,19 +7114,19 @@
     ],
     "gcp-network-connectivity-center": [
       {
-        "a": "gcp-network-connectivity-center",
-        "b": "fabric-platform",
-        "similarity": 0.2112
-      },
-      {
-        "a": "gcp-network-connectivity-center",
-        "b": "fabric-window-asterisk",
-        "similarity": 0.1989
-      },
-      {
-        "a": "gcp-anthos-service-mesh",
+        "a": "azure-firewall",
         "b": "gcp-network-connectivity-center",
-        "similarity": 0.198
+        "similarity": 0.1848
+      },
+      {
+        "a": "gcp-network-connectivity-center",
+        "b": "gcp-cloud-tpu",
+        "similarity": 0.1822
+      },
+      {
+        "a": "gcp-network-connectivity-center",
+        "b": "gcp-financial-marketplace",
+        "similarity": 0.1822
       }
     ],
     "gcp-network-intelligence": [
@@ -7232,11 +7216,6 @@
     ],
     "gcp-premium-network-tier": [
       {
-        "a": "gcp-premium-network-tier",
-        "b": "gcp-standard-network-tier",
-        "similarity": 0.4304
-      },
-      {
         "a": "m365-payment",
         "b": "gcp-premium-network-tier",
         "similarity": 0.1926
@@ -7245,23 +7224,28 @@
         "a": "gcp-premium-network-tier",
         "b": "aws-outposts-servers",
         "similarity": 0.1719
+      },
+      {
+        "a": "gcp-premium-network-tier",
+        "b": "aws-deepracer",
+        "similarity": 0.1709
       }
     ],
     "gcp-standard-network-tier": [
       {
-        "a": "gcp-premium-network-tier",
-        "b": "gcp-standard-network-tier",
-        "similarity": 0.4304
+        "a": "gcp-standard-network-tier",
+        "b": "aws-elemental-inference",
+        "similarity": 0.1854
       },
       {
         "a": "gcp-standard-network-tier",
-        "b": "fabric-tables-curve-right",
-        "similarity": 0.1575
+        "b": "fabric-calculator-brackets-number",
+        "similarity": 0.178
       },
       {
         "a": "gcp-standard-network-tier",
-        "b": "aws-iot-actuator",
-        "similarity": 0.15
+        "b": "azure-defender-local-manager",
+        "similarity": 0.1696
       }
     ],
     "gcp-private-connectivity": [

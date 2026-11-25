@@ -493,9 +493,9 @@
   },
   "azure-load-balancer": {
     "revision": "bab2f8bc320bfd6157026570b79e01132ab5490113df0f8570ac7443c302289c",
-    "comparisonRevision": "a97185c6468f8354b6d9c2ebd5a19693431446e4f2c93743f6cd4f4f41fca3f4",
+    "comparisonRevision": "2f905eb11205a51d4170819770933195e177fea59d73c98d55c043e5aa61bf0f",
     "status": "approved",
-    "notes": "Incoming flows split to two destinations via a router; adjacent hub and API diagrams have different topology."
+    "notes": "Incoming arrows split through a diamond to two servers, unlike GKE wheel, API management and asterisk."
   },
   "aws-elastic-load-balancing": {
     "revision": "93051d20444c445d6a8e991aadea133405664b24085aebdd95ed12a816801cb0",
@@ -6083,5 +6083,101 @@
     "comparisonRevision": "77dd0b96b27a73c8895be297acbd5b5654fd8cd154bd08809e0f4c2670e262b9",
     "status": "approved",
     "notes": "A shopping cart carrying bars reflects the source and differs from sunrise, GPU and map pin."
+  },
+  "gcp-debugger": {
+    "revision": "3629c8daa776df1209a9a1b3614b6f34f6bd5d1c3841f8ecbc2acbcb5bbc8c19",
+    "comparisonRevision": "fb79c70b355ed8580aaa74c7d4dff420e995f9a67c684a4a1b1753656099ebcf",
+    "status": "approved",
+    "notes": "A bug at a code window marks debugging, unlike Cloud9 cursor, route table and cloud window."
+  },
+  "gcp-profiler": {
+    "revision": "743718376244a5ebab17777b1d42aa40c77c6a51db64e40ebaf06476597f11db",
+    "comparisonRevision": "06ecdb11f32220eb0384255112e712e30fbcdf22fa6f2a0db6b314220f73fd7f",
+    "status": "approved",
+    "notes": "A stopwatch and processor convey profiling, unlike database globe, house and database table."
+  },
+  "gcp-trace": {
+    "revision": "280eec55b64657b9bb9092abdc1f872f6b9e13a6bc58c0540e3abfd6679aa219",
+    "comparisonRevision": "384b301f8985785ac96e9286e8ea5f239800e7c1fc42d5949d1be0a798357fdc",
+    "status": "approved",
+    "notes": "Descending time spans form a trace waterfall, unlike information bubble, server rack and function."
+  },
+  "gcp-stackdriver": {
+    "revision": "9e602da1518f697d068f5918c2b01f49b450ced6f3f8b404cac77969e2b6b6ac",
+    "comparisonRevision": "e2af35b915483797fd2ccad973e152ac3ab14e7d482e7b5dda61f7a750b228b1",
+    "status": "approved",
+    "notes": "A monitoring chart in a dashboard contrasts with a plain window, processor and CLI."
+  },
+  "gcp-cloud-ops": {
+    "revision": "2afb2d1f428eb303e0e2f2ca6e1395f455bc3b9fecd64a6aaaa2802dd6b3e00c",
+    "comparisonRevision": "4daf8801e754c4cebf0763bed218e6be62634f19612fe5c58f709792b3870dae",
+    "status": "approved",
+    "notes": "A cloud pulse and wrench express operations, unlike lightning home, rocket and SDK book."
+  },
+  "gcp-performance-dashboard": {
+    "revision": "5a7cfd4455f756b1b79c16f7133d15700e6f2fe6178118cf79b5ae37bea07f51",
+    "comparisonRevision": "da0d900556c266577887f41710fcf8da06d5a585029c4af33366dabc78efeb73",
+    "status": "approved",
+    "notes": "A gauge over a trend follows the source and differs from mailbox, storage folder and reserved capacity."
+  },
+  "gcp-network-connectivity-center": {
+    "revision": "46eaf0c3093ba085e55837e5cdb2b34540f78060ec87050678611b0fa11c9835",
+    "comparisonRevision": "710b5776de582067e3fc12f9d22d60f5ca7cbea981f44359f8c0d0eeef8f01d4",
+    "status": "approved",
+    "notes": "Six sites radiate from a globe hub, as in the source, unlike the firewall, TPU and marketplace; the MQ broker has a central envelope and four square endpoints."
+  },
+  "gcp-network-intelligence": {
+    "revision": "9a7c8bf646ebe177a08ccdaa980c56ec58cee439d8f9460a0c1daae64c1d73f7",
+    "comparisonRevision": "2e8fb511002dcb6c6577d48845933a5ff19f54de5a1612928e6fe707087e4212",
+    "status": "approved",
+    "notes": "A magnifier inspects connected nodes, unlike edge storage, conditional access and application security."
+  },
+  "gcp-network-topology": {
+    "revision": "5d1445b1939215f9c2140f009761cf21c82abb78b4bfe5e06e43415ebdab254c",
+    "comparisonRevision": "e41e3785a2f439e534bebf3df5e0837f415059a3c233cd8c8ec95eaa08d6daf4",
+    "status": "approved",
+    "notes": "Nodes form a diamond mesh, unlike subscription hierarchy, Kubernetes and sailboat; the connectivity hub instead contains a globe."
+  },
+  "gcp-network-security": {
+    "revision": "fd26460e57a3cbac84d809f4ffc81cd557ecc6bd9a30f3507fee621714f9c018",
+    "comparisonRevision": "f1d775350a44424ca06e331a962cea51c371b6df758c6e4fbbf4e9ad5976b29f",
+    "status": "approved",
+    "notes": "A connected network in a shield follows the source and differs from health pulse, error and protected device."
+  },
+  "gcp-network-tiers": {
+    "revision": "6f5d1d5d196b867ee0079c1f1fbe093abcdfcb1b0405cabaa846391ede0982fc",
+    "comparisonRevision": "5364db2a5cf18c9214f294aaa7aabc429ad2367b7e8f2f1f1649838bb16e39d5",
+    "status": "approved",
+    "notes": "Two routes connect endpoints, unlike the filter, capacity stack and spot VM tiles."
+  },
+  "gcp-partner-interconnect": {
+    "revision": "56d0823da0720352512cebbcbf91aa6b42fb879ac5ecc1e9293bbfe79b1e8fd1",
+    "comparisonRevision": "08f9fbe5b9734bbf49f416b1421479e7ad57dfb7dc89c65312838d9ecabffbe6",
+    "status": "approved",
+    "notes": "A physical connector joins partner and cloud, unlike Anthos migration, locked VPN and database backup."
+  },
+  "gcp-premium-network-tier": {
+    "revision": "259ac71f50c96aae0eec02dd4017933fa706706c3c5633ed0c246fe5eba1cf7d",
+    "comparisonRevision": "8f5eff6a6ac244a76af5cb3e897d22618898f0fd7cfa01a05f1980e86c558a7e",
+    "status": "approved",
+    "notes": "A high gauge and direct route echo the premium source, distinct from payment, server stack and vehicle; the standard tier uses intermediate hops."
+  },
+  "gcp-standard-network-tier": {
+    "revision": "b067418f3c666436ec22fc13315cc28f5d7786e5e487693dfb02ca29a6f0a25a",
+    "comparisonRevision": "870a231c5c871f78b82e4bf6cb19b1fe5fbcb41a8a42368674c7fbc91c371f93",
+    "status": "approved",
+    "notes": "A stepped route through intermediate hops differs from the premium gauge and from inference, calculator and defender list. The source uses a lower gauge."
+  },
+  "gcp-private-connectivity": {
+    "revision": "69da7e7b567c14a84a84cb188f9af22dc5005f7f60aea8d74ef4fd758ba38107",
+    "comparisonRevision": "eb365d08331fec62994a95b3a29071e161cbd7865f683190745b8c3786f4c4cf",
+    "status": "approved",
+    "notes": "A lock joins two endpoints, reflecting the source and differing from the chart, AI platform and forecast."
+  },
+  "gcp-private-service-connect": {
+    "revision": "44a7d5ced20866b33b4eb0eb6016b33f8893d42da6306a9d3c931e3478f5cc97",
+    "comparisonRevision": "01445e6f6d0f1be20b0735738663e41ca7a669d330e327efe57c0afe8d0d5cfc",
+    "status": "approved",
+    "notes": "A locked shield links a service to a network, unlike inference processors and actuator."
   }
 }
