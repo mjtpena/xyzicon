@@ -2694,9 +2694,9 @@
   },
   "aws-s3-vpc-access": {
     "revision": "e3a43f7b3eacfde8d6a9b5dcd1f9979c4632555ca020a26a6cbafed83d5a3fd3",
-    "comparisonRevision": "81bdc85f070673b2800bf3d51f1fd13eb670ce2f14f04e39efcfdc914336eeae",
+    "comparisonRevision": "e37ed7d2765fc06588602832a1614162c38ecfa2d19fb2e378102fa102ac03df",
     "status": "approved",
-    "notes": "A bucket inside a shield differs from compliance checks, a storage object and event rule."
+    "notes": "A bucket inside a shield differs from compliance checks, a storage object and a bucket of files."
   },
   "aws-s3-object-lambda": {
     "revision": "76f716c6fa81df38e6f64190bfac20afa08dbb18ad89c411b5e4db848380173d",
@@ -2739,5 +2739,65 @@
     "comparisonRevision": "c902a25975afbe051ba7e4520ee6fdd9bf6cadb8f3753ad37b5ff99e93de93e1",
     "status": "approved",
     "notes": "A stack of archive drawers with a downward arrow differs from the WAF checklist, SSD and email."
+  },
+  "aws-s3-glacier-flexible-retrieval": {
+    "revision": "9b12e72cae3432cdf909983fb739065f79ec389b8d9f4c060eb62fc1392d4f63",
+    "comparisonRevision": "d6eaee367ab9901a694590f054ce853720f815b6d28956da0be3aa9f9cad7375",
+    "status": "approved",
+    "notes": "An archive box and clock show flexible retrieval, unlike the instant lightning box, transfer and shadow."
+  },
+  "aws-s3-glacier-instant-retrieval": {
+    "revision": "4120f27459577e3e90990a68c09137e7460b3465eb61f8bb2855e3b4dd39d426",
+    "comparisonRevision": "c092ec29914162254f7eb15af5c054a2ae698f968de7b472984d095f4957c1f6",
+    "status": "approved",
+    "notes": "An archive box with lightning shows instant retrieval, unlike the flexible clock, cache and logging."
+  },
+  "aws-s3-intelligent-tiering": {
+    "revision": "360fc44436bc4b8dfe3c57073dfe8521c89ac0f6cad8d4876e1d5be2d834bc52",
+    "comparisonRevision": "4b63d02a96ae26177a7cbfaf0ce312c241593d96a387439fb6830c1e53533fed",
+    "status": "approved",
+    "notes": "Buckets exchange data at different levels, unlike a web app, database and workbench; replication uses same-level object buckets and one arrow."
+  },
+  "aws-s3-one-zone-ia": {
+    "revision": "7a6c33eb9db056a38e79026f84395e41ef9502500a4f52ba037bf1857a666bab",
+    "comparisonRevision": "ea2f66373b03f65c37c6064f57ab5e0d8c054f8141121a9137f81e4ecd4625bb",
+    "status": "approved",
+    "notes": "A bucket in a location pin has a clock, unlike identity protection, PostgreSQL and a globe error."
+  },
+  "aws-s3-standard-ia": {
+    "revision": "9ae6e14e51f3bacdf5f5eda325c5625d2aaf33158058738b15bd9977d99bb472",
+    "comparisonRevision": "69312c14b4b74115e9b197f5fd44b8ebed446898293055110404d1965a21bb71",
+    "status": "approved",
+    "notes": "A bucket with a clock denotes infrequent access, unlike the standard check, savings calendar and database."
+  },
+  "aws-s3-standard": {
+    "revision": "5f0f547f4aa32af53e12a94f7ff84ae9cf31552b7c299dc17ef01833beff6445",
+    "comparisonRevision": "fe7c0cb26e63b835be156fe602a3f9782d4a071866d42cf428e52b7c6c8dc5a8",
+    "status": "approved",
+    "notes": "A bucket of objects and check differs from infrequent-access clock, savings and storage functions."
+  },
+  "aws-glacier-archive": {
+    "revision": "c5930e155bd0e5720bd7e2e39e81ab2df84d7fedcf955581fa5c240f5351f75a",
+    "comparisonRevision": "22ca017569ec158b99eb402cc1d07feac687e9eff31f8d9fd0ebe29bb63a778b",
+    "status": "approved",
+    "notes": "A snowflake-marked file is stored in a drawer, unlike the private component, signpost and directory."
+  },
+  "aws-glacier-vault": {
+    "revision": "5b85a76817810c6314aad2842bb9faf74dea05553468c4633cc64d8a2192ab07",
+    "comparisonRevision": "85820664dcec7779d1da1bea9f00dd61e5865d1fe09959c456a735c7bdc1be80",
+    "status": "approved",
+    "notes": "A framed snowflake vault differs from the backup vault dial, network adapter and MFA."
+  },
+  "aws-s3-bucket-with-objects": {
+    "revision": "f051b7098c0c376821dd6cf82802f0c9c78d1e5b3e35a27a774e15370b310435",
+    "comparisonRevision": "27b2fe50d406dad5b601a7eadb371190ef9a817c657ab05684f0b6c64050d75f",
+    "status": "approved",
+    "notes": "Three files protrude from a bucket, unlike a simulator chip, account and network interface."
+  },
+  "aws-s3-bucket": {
+    "revision": "23e66f798f39ed104502d5f93f5492fbf2473f044c91d44b360cc3c40f1d7b06",
+    "comparisonRevision": "42b3e8406114baf69b32bc526a10f3798ed6bdd717cb8b316164d97a53032a9c",
+    "status": "approved",
+    "notes": "An empty bucket with handles differs from an IAM key, branch and MFA device."
   }
 }

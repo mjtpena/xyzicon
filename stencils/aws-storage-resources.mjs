@@ -153,8 +153,8 @@ export const awsStorageResourcesArtwork = [
   entry("aws-s3-bucket-with-objects", "aws", "S3 Bucket with Objects", ["Res_Amazon-Simple-Storage-Service_Bucket-With-Objects_48"],
     "A bucket contains several independent objects.",
     [
-      oval(25, 18, 74, 20), line([25, 28], [31, 82], [38, 88], [86, 88], [93, 82], [99, 28]),
-      rect(38, 45, 14, 14), oval(69, 45, 15, 15), line([54, 72], [62, 59], [70, 72], [54, 72]), line([14, 109], [110, 109]),
+      rect(30, 20, 17, 26), line([34, 27], [43, 27]), rect(54, 13, 17, 33), line([58, 20], [67, 20]), rect(78, 20, 17, 26), line([82, 27], [91, 27]),
+      line([24, 42], [31, 86], [38, 91], [87, 91], [94, 86], [101, 42]), line([24, 42], [35, 48], [51, 51], [73, 51], [90, 48], [101, 42]), line([14, 109], [110, 109]),
     ]),
   entry("aws-s3-bucket", "aws", "S3 Bucket", ["Res_Amazon-Simple-Storage-Service_Bucket_48"],
     "An empty object-storage bucket has a carrying handle.",

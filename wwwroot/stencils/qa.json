@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 366,
+  "approved": 376,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,16 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-s3-glacier-flexible-retrieval",
-    "aws-s3-glacier-instant-retrieval",
-    "aws-s3-intelligent-tiering",
-    "aws-s3-one-zone-ia",
-    "aws-s3-standard-ia",
-    "aws-s3-standard",
-    "aws-glacier-archive",
-    "aws-glacier-vault",
-    "aws-s3-bucket-with-objects",
-    "aws-s3-bucket",
     "aws-s3-directory-bucket",
     "aws-s3-object",
     "aws-s3-batch-operations",
@@ -17590,13 +17580,13 @@
       },
       {
         "a": "azure-mobile-networks",
-        "b": "aws-s3-bucket-with-objects",
-        "similarity": 0.2284
+        "b": "aws-certificate-authority",
+        "similarity": 0.2267
       },
       {
         "a": "azure-mobile-networks",
-        "b": "aws-certificate-authority",
-        "similarity": 0.2267
+        "b": "aws-iot-thing-temperature-sensor",
+        "similarity": 0.2245
       }
     ],
     "azure-edge-hardware-center": [
@@ -21114,8 +21104,8 @@
       },
       {
         "a": "aws-s3-vpc-access",
-        "b": "aws-cloudwatch-rule",
-        "similarity": 0.2298
+        "b": "aws-s3-bucket-with-objects",
+        "similarity": 0.2357
       }
     ],
     "aws-s3-object-lambda": [
@@ -21376,18 +21366,18 @@
     "aws-s3-bucket-with-objects": [
       {
         "a": "aws-s3-bucket-with-objects",
-        "b": "aws-s3-files",
-        "similarity": 0.2751
+        "b": "aws-braket-simulator-4",
+        "similarity": 0.263
       },
       {
-        "a": "aws-s3-bucket-with-objects",
-        "b": "azure-table",
-        "similarity": 0.2736
+        "a": "azure-integration-accounts",
+        "b": "aws-s3-bucket-with-objects",
+        "similarity": 0.2608
       },
       {
-        "a": "aws-s3-bucket-with-objects",
-        "b": "aws-systems-parameter-store",
-        "similarity": 0.2719
+        "a": "azure-network-interfaces",
+        "b": "aws-s3-bucket-with-objects",
+        "similarity": 0.2548
       }
     ],
     "aws-s3-bucket": [
@@ -21980,9 +21970,9 @@
         "similarity": 0.2536
       },
       {
-        "a": "aws-backup-database-resource",
-        "b": "aws-backup-plan",
-        "similarity": 0.2392
+        "a": "aws-s3-bucket-with-objects",
+        "b": "aws-backup-database-resource",
+        "similarity": 0.2464
       }
     ],
     "aws-backup-storage-resource": [
@@ -27659,14 +27649,14 @@
         "similarity": 0.1353
       },
       {
+        "a": "aws-s3-bucket-with-objects",
+        "b": "m365-arrow-clockwise",
+        "similarity": 0.1319
+      },
+      {
         "a": "aws-iot-thing-door-lock",
         "b": "m365-arrow-clockwise",
         "similarity": 0.1202
-      },
-      {
-        "a": "m365-graduation",
-        "b": "m365-arrow-clockwise",
-        "similarity": 0.118
       }
     ],
     "m365-arrow-down": [
