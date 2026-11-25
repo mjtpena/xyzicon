@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1050,
-  "aliases": 3925,
+  "count": 1056,
+  "aliases": 3937,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -948,6 +948,12 @@
     "fabric-database-crown",
     "fabric-database-dismiss",
     "fabric-database-globe",
+    "fabric-database-money",
+    "fabric-databases-kql",
+    "fabric-database-badge-pulse",
+    "fabric-database-ribbon",
+    "fabric-database-swap",
+    "fabric-database-table",
     "fabric-documents-dax",
     "fabric-documents-pulse",
     "fabric-document-rdl",
@@ -1136,8 +1142,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1263,
-      "concepts": 226
+      "covered": 1275,
+      "concepts": 232
     },
     "entra": {
       "sources": 14,
@@ -5213,8 +5219,8 @@
       },
       {
         "a": "gcp-automl",
-        "b": "fabric-code-text-flash",
-        "similarity": 0.1997
+        "b": "fabric-database-table",
+        "similarity": 0.2015
       }
     ],
     "gcp-automl-language": [
@@ -5322,6 +5328,11 @@
     "gcp-data-labeling": [
       {
         "a": "gcp-data-labeling",
+        "b": "fabric-database-table",
+        "similarity": 0.2958
+      },
+      {
+        "a": "gcp-data-labeling",
         "b": "fabric-dashboard",
         "similarity": 0.2665
       },
@@ -5329,11 +5340,6 @@
         "a": "gcp-data-labeling",
         "b": "m365-panel-left-header-key",
         "similarity": 0.2621
-      },
-      {
-        "a": "gcp-data-labeling",
-        "b": "aws-well-architected-tool",
-        "similarity": 0.2438
       }
     ],
     "gcp-dialogflow": [
@@ -5423,19 +5429,19 @@
     ],
     "gcp-datastore": [
       {
+        "a": "gcp-datastore",
+        "b": "fabric-database-money",
+        "similarity": 0.3247
+      },
+      {
+        "a": "gcp-datastore",
+        "b": "fabric-database-table",
+        "similarity": 0.3113
+      },
+      {
         "a": "gcp-configuration-management",
         "b": "gcp-datastore",
         "similarity": 0.2808
-      },
-      {
-        "a": "m365-apps-list",
-        "b": "gcp-datastore",
-        "similarity": 0.2521
-      },
-      {
-        "a": "gcp-dialogflow-insights",
-        "b": "gcp-datastore",
-        "similarity": 0.2518
       }
     ],
     "gcp-dataproc": [
@@ -5973,13 +5979,13 @@
       },
       {
         "a": "gcp-app-engine",
-        "b": "m365-task-square",
-        "similarity": 0.2454
+        "b": "fabric-database-table",
+        "similarity": 0.2659
       },
       {
         "a": "gcp-app-engine",
-        "b": "aws-well-architected-tool",
-        "similarity": 0.2441
+        "b": "m365-task-square",
+        "similarity": 0.2454
       }
     ],
     "gcp-apigee": [
@@ -10482,9 +10488,9 @@
         "similarity": 0.179
       },
       {
-        "a": "entra-workload-id",
-        "b": "fabric-copilot",
-        "similarity": 0.1764
+        "a": "fabric-copilot",
+        "b": "fabric-database-table",
+        "similarity": 0.1786
       }
     ],
     "fabric-data-engineering": [
@@ -11027,8 +11033,8 @@
       },
       {
         "a": "aws-well-architected-tool",
-        "b": "fabric-database-globe",
-        "similarity": 0.2593
+        "b": "fabric-database-table",
+        "similarity": 0.2658
       }
     ],
     "aws-amazon-q": [
@@ -13323,8 +13329,8 @@
       },
       {
         "a": "m365-edit",
-        "b": "azure-quickstart-center",
-        "similarity": 0.2013
+        "b": "fabric-database-swap",
+        "similarity": 0.2029
       }
     ],
     "m365-filmstrip-play": [
@@ -13466,6 +13472,11 @@
     "m365-cloud-add": [
       {
         "a": "m365-cloud-add",
+        "b": "fabric-database-money",
+        "similarity": 0.113
+      },
+      {
+        "a": "m365-cloud-add",
         "b": "aws-cloudfront-download",
         "similarity": 0.1123
       },
@@ -13473,11 +13484,6 @@
         "a": "m365-cloud-add",
         "b": "fabric-database-pulse",
         "similarity": 0.1123
-      },
-      {
-        "a": "m365-cloud-add",
-        "b": "fabric-diagram-sync",
-        "similarity": 0.1119
       }
     ],
     "m365-cloud-download": [
@@ -15466,6 +15472,11 @@
     ],
     "aws-category-games": [
       {
+        "a": "aws-category-games",
+        "b": "fabric-database-table",
+        "similarity": 0.2252
+      },
+      {
         "a": "gcp-anthos-config-management",
         "b": "aws-category-games",
         "similarity": 0.2067
@@ -15474,11 +15485,6 @@
         "a": "gcp-app-engine",
         "b": "aws-category-games",
         "similarity": 0.2009
-      },
-      {
-        "a": "fabric-restricted-report",
-        "b": "aws-category-games",
-        "similarity": 0.1946
       }
     ],
     "aws-category-developer-tools": [
@@ -16554,19 +16560,19 @@
     ],
     "azure-disk-encryption": [
       {
+        "a": "azure-disk-encryption",
+        "b": "fabric-database-badge-pulse",
+        "similarity": 0.2481
+      },
+      {
         "a": "aws-databrew",
         "b": "azure-disk-encryption",
         "similarity": 0.2237
       },
       {
         "a": "azure-disk-encryption",
-        "b": "fabric-database-globe",
-        "similarity": 0.2163
-      },
-      {
-        "a": "azure-managed-identities",
-        "b": "azure-disk-encryption",
-        "similarity": 0.2025
+        "b": "fabric-database-ribbon",
+        "similarity": 0.2213
       }
     ],
     "azure-automanaged-vm": [
@@ -17167,18 +17173,18 @@
     "fabric-database-badge-asterisk": [
       {
         "a": "fabric-database-badge-asterisk",
-        "b": "fabric-database-dismiss",
-        "similarity": 0.37
+        "b": "fabric-database-ribbon",
+        "similarity": 0.4746
       },
       {
         "a": "fabric-database-badge-asterisk",
-        "b": "fabric-database-globe",
-        "similarity": 0.3209
+        "b": "fabric-database-money",
+        "similarity": 0.4186
       },
       {
         "a": "fabric-database-badge-asterisk",
-        "b": "fabric-database-crown",
-        "similarity": 0.3133
+        "b": "fabric-database-badge-pulse",
+        "similarity": 0.4177
       }
     ],
     "fabric-database-crown": [
@@ -17188,48 +17194,150 @@
         "similarity": 0.3983
       },
       {
-        "a": "fabric-database-badge-asterisk",
-        "b": "fabric-database-crown",
-        "similarity": 0.3133
+        "a": "fabric-database-crown",
+        "b": "fabric-database-money",
+        "similarity": 0.3764
       },
       {
         "a": "fabric-database-crown",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2525
+        "b": "fabric-database-ribbon",
+        "similarity": 0.3278
       }
     ],
     "fabric-database-dismiss": [
       {
-        "a": "fabric-database-badge-asterisk",
-        "b": "fabric-database-dismiss",
-        "similarity": 0.37
-      },
-      {
-        "a": "fabric-database-add",
-        "b": "fabric-database-dismiss",
-        "similarity": 0.3187
+        "a": "fabric-database-dismiss",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.378
       },
       {
         "a": "fabric-database-dismiss",
-        "b": "fabric-database-globe",
-        "similarity": 0.2653
+        "b": "fabric-database-badge-pulse",
+        "similarity": 0.3722
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-dismiss",
+        "similarity": 0.37
       }
     ],
     "fabric-database-globe": [
       {
+        "a": "fabric-database-globe",
+        "b": "fabric-database-badge-pulse",
+        "similarity": 0.412
+      },
+      {
+        "a": "fabric-database-globe",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.404
+      },
+      {
+        "a": "fabric-database-globe",
+        "b": "fabric-database-table",
+        "similarity": 0.3582
+      }
+    ],
+    "fabric-database-money": [
+      {
         "a": "fabric-database-badge-asterisk",
-        "b": "fabric-database-globe",
-        "similarity": 0.3209
+        "b": "fabric-database-money",
+        "similarity": 0.4186
       },
       {
-        "a": "fabric-database-dismiss",
-        "b": "fabric-database-globe",
-        "similarity": 0.2653
+        "a": "fabric-database-money",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.381
       },
       {
-        "a": "aws-well-architected-tool",
-        "b": "fabric-database-globe",
-        "similarity": 0.2593
+        "a": "fabric-database-crown",
+        "b": "fabric-database-money",
+        "similarity": 0.3764
+      }
+    ],
+    "fabric-databases-kql": [
+      {
+        "a": "azure-application-group",
+        "b": "fabric-databases-kql",
+        "similarity": 0.2038
+      },
+      {
+        "a": "aws-backup",
+        "b": "fabric-databases-kql",
+        "similarity": 0.1902
+      },
+      {
+        "a": "gcp-configuration-management",
+        "b": "fabric-databases-kql",
+        "similarity": 0.184
+      }
+    ],
+    "fabric-database-badge-pulse": [
+      {
+        "a": "fabric-database-badge-pulse",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.5354
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-badge-pulse",
+        "similarity": 0.4177
+      },
+      {
+        "a": "fabric-database-globe",
+        "b": "fabric-database-badge-pulse",
+        "similarity": 0.412
+      }
+    ],
+    "fabric-database-ribbon": [
+      {
+        "a": "fabric-database-badge-pulse",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.5354
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.4746
+      },
+      {
+        "a": "fabric-database-globe",
+        "b": "fabric-database-ribbon",
+        "similarity": 0.404
+      }
+    ],
+    "fabric-database-swap": [
+      {
+        "a": "azure-app-domains",
+        "b": "fabric-database-swap",
+        "similarity": 0.2359
+      },
+      {
+        "a": "fabric-database-swap",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2299
+      },
+      {
+        "a": "azure-compute-galleries",
+        "b": "fabric-database-swap",
+        "similarity": 0.2189
+      }
+    ],
+    "fabric-database-table": [
+      {
+        "a": "fabric-database-globe",
+        "b": "fabric-database-table",
+        "similarity": 0.3582
+      },
+      {
+        "a": "fabric-database-money",
+        "b": "fabric-database-table",
+        "similarity": 0.3378
+      },
+      {
+        "a": "gcp-datastore",
+        "b": "fabric-database-table",
+        "similarity": 0.3113
       }
     ],
     "fabric-documents-dax": [
@@ -17792,9 +17900,9 @@
         "similarity": 0.3418
       },
       {
-        "a": "fabric-database-add",
+        "a": "fabric-database-ribbon",
         "b": "fabric-database-forward",
-        "similarity": 0.2754
+        "similarity": 0.3091
       }
     ],
     "fabric-databases-transfer": [
@@ -18037,6 +18145,11 @@
     ],
     "fabric-database-checkmark": [
       {
+        "a": "fabric-database-money",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2593
+      },
+      {
         "a": "fabric-database-badge-asterisk",
         "b": "fabric-database-checkmark",
         "similarity": 0.2533
@@ -18045,11 +18158,6 @@
         "a": "fabric-database-crown",
         "b": "fabric-database-checkmark",
         "similarity": 0.2525
-      },
-      {
-        "a": "aws-transform",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2495
       }
     ],
     "fabric-calendar-toolbox": [
@@ -18059,14 +18167,14 @@
         "similarity": 0.3194
       },
       {
+        "a": "fabric-database-money",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.3114
+      },
+      {
         "a": "azure-genomics-accounts",
         "b": "fabric-calendar-toolbox",
         "similarity": 0.2988
-      },
-      {
-        "a": "gcp-security-command-center",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2848
       }
     ],
     "fabric-airplane": [
