@@ -1,6 +1,80 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-biztalk", "azure", "BizTalk", ["10779-icon-service-Biz-Talk"],
+    "An orchestration connects business applications and messages.",
+    [
+      rect(12, 21, 33, 27), rect(78, 21, 33, 27), rect(45, 70, 33, 27),
+      line([45, 35], [55, 35], [61, 43], [67, 35], [78, 35]), line([61, 43], [61, 70]), oval(55, 49, 12, 12),
+      line([18, 30], [39, 30]), line([84, 30], [105, 30]), line([51, 79], [72, 79]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-toolbox", "azure", "Toolbox", ["10844-icon-service-Toolbox"],
+    "An open toolbox holds a wrench and screwdriver.",
+    [
+      line([13, 54], [108, 54], [99, 93], [22, 93], [13, 54]), line([28, 54], [25, 30], [31, 24], [37, 30], [34, 54]),
+      line([50, 54], [50, 22], [54, 15], [58, 22], [58, 54]), line([73, 54], [73, 29], [80, 23], [87, 29], [87, 54]), line([41, 68], [80, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-versions", "azure", "Versions", ["10845-icon-service-Versions"],
+    "A sequence of revisions follows a file over time.",
+    [
+      line([12, 28], [42, 28], [49, 35], [49, 68], [12, 68], [12, 28]), line([42, 28], [42, 35], [49, 35]),
+      line([49, 48], [67, 48]), line([61, 42], [67, 48], [61, 54]),
+      line([72, 44], [99, 44], [106, 51], [106, 84], [72, 84], [72, 44]), line([99, 44], [99, 51], [106, 51]), line([79, 61], [99, 61]), line([79, 71], [94, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-website-staging", "azure", "Website Staging", ["10848-icon-service-Website-Staging"],
+    "A website waits in a staging environment before release.",
+    [
+      rect(13, 24, 58, 54), line([13, 37], [71, 37]), line([24, 49], [60, 49]), line([24, 60], [52, 60]),
+      line([71, 51], [85, 51]), line([79, 45], [85, 51], [79, 57]), line([92, 26], [92, 77]), line([84, 69], [92, 77], [100, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-web-slots", "azure", "Web Slots", ["10849-icon-service-Web-Slots"],
+    "Two deployment slots can exchange a web application.",
+    [
+      rect(12, 26, 40, 50), rect(72, 26, 40, 50), line([12, 38], [52, 38]), line([72, 38], [112, 38]), line([20, 50], [44, 50]), line([80, 50], [104, 50]),
+      line([52, 45], [70, 45]), line([64, 39], [70, 45], [64, 51]), line([72, 65], [54, 65]), line([60, 59], [54, 65], [60, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-web-test", "azure", "Web Test", ["10850-icon-service-Web-Test"],
+    "A web page is checked with a test flask.",
+    [
+      rect(14, 22, 65, 66), line([14, 36], [79, 36]), line([24, 47], [65, 47]), line([24, 58], [58, 58]), line([24, 69], [49, 69]),
+      line([88, 42], [99, 42]), line([91, 42], [91, 56], [78, 78], [78, 83], [83, 87], [104, 87], [109, 83], [109, 78], [96, 56], [96, 42]), line([83, 75], [104, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-general-workbooks", "azure", "Workbooks", ["10851-icon-service-Workbooks"],
+    "Several workbooks stand together on a shelf.",
+    [
+      rect(18, 24, 21, 65), rect(43, 17, 24, 72), line([72, 26], [90, 21], [107, 84], [89, 89], [72, 26]),
+      line([18, 38], [39, 38]), line([18, 76], [39, 76]), line([43, 33], [67, 33]), line([43, 75], [67, 75]), line([76, 40], [94, 35]), line([86, 76], [104, 71]), line([12, 89], [112, 89]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-general-workflow", "azure", "Workflow", ["10852-icon-service-Workflow"],
+    "Steps follow a decision in a branching workflow.",
+    [
+      rect(13, 42, 25, 24), line([38, 54], [48, 54]), line([61, 37], [77, 54], [61, 71], [45, 54], [61, 37]),
+      line([77, 54], [91, 54], [91, 30]), line([91, 54], [91, 78]), rect(81, 13, 20, 17), rect(81, 78, 20, 17), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-backlog", "azure", "Backlog", ["10853-icon-service-Backlog"],
+    "A prioritized backlog contains pending work.",
+    [
+      line([22, 19], [97, 19], [97, 96], [22, 96], [22, 19]), rect(31, 31, 10, 10), rect(31, 50, 10, 10), rect(31, 69, 10, 10),
+      line([51, 36], [87, 36]), line([51, 55], [87, 55]), line([51, 74], [80, 74]), line([35, 29], [40, 34], [46, 26]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-general-media", "azure", "Media", ["10854-icon-service-Media"],
+    "Headphones and a play control represent media playback.",
+    [
+      line([24, 68], [24, 51], [28, 34], [39, 23], [51, 19], [63, 23], [74, 34], [78, 51], [78, 68]), rect(18, 57, 14, 25), rect(70, 57, 14, 25),
+      oval(84, 55, 27, 27), line([94, 61], [94, 76], [105, 68], [94, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-module", "azure", "Module", ["10855-icon-service-Module"],
+    "A module connects to other application components.",
+    [
+      line([61, 25], [83, 37], [83, 62], [61, 74], [39, 62], [39, 37], [61, 25]), line([39, 37], [61, 49], [83, 37]), line([61, 49], [61, 74]),
+      line([39, 48], [23, 48]), oval(12, 42, 12, 12), line([83, 48], [99, 48]), oval(99, 42, 12, 12), line([61, 74], [61, 88]), oval(55, 88, 12, 12), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-search-grid", "azure", "Search Grid", ["10856-icon-service-Search-Grid"],
+    "A magnifier inspects a grid of resources.",
+    [
+      rect(14, 22, 69, 65), line([14, 44], [83, 44]), line([14, 65], [83, 65]), line([37, 22], [37, 87]), line([60, 22], [60, 87]),
+      oval(63, 53, 31, 31), line([88, 78], [106, 96]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-feature-previews", "azure", "Feature Previews", ["10827-icon-service-Feature-Previews"],
     "An experimental feature is marked with a preview sparkle.",
     [
