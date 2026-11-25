@@ -813,7 +813,7 @@ export const azureComputeArtwork = [
       line([64, 69], [70, 76], [70, 92], [64, 99]),
       line([17, 111], [110, 111]),
     ]),
-  entry("azure-load-testing", "azure", "Load Testing", ["02423-icon-service-Load-Testing"],
+  entry("azure-load-testing", "azure", "Load Testing", ["02423-icon-service-Load-Testing", "02944-icon-service-Azure-Load-Testing"],
     "Concurrent requests exercise an application while a gauge measures load.",
     [
       line([11, 25], [37, 25]), line([31, 19], [37, 25], [31, 31]),

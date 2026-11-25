@@ -1,6 +1,12 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-storage-functions", "azure", "Storage Functions", ["02909-icon-service-Storage-Functions"],
+    "Code responds to operations on stored data.",
+    [
+      oval(14, 24, 53, 17), line([14, 32], [14, 78], [21, 83], [40, 85], [59, 83], [67, 78], [67, 32]), line([14, 50], [21, 55], [40, 57], [59, 55], [67, 50]), line([14, 69], [21, 74], [40, 76], [59, 74], [67, 69]),
+      line([84, 42], [77, 50], [84, 58]), line([105, 42], [112, 50], [105, 58]), line([99, 38], [90, 62]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-fhir-service", "azure", "FHIR Service", ["02658-icon-service-FHIR-Service"],
     "FHIR healthcare records are stored and exchanged.",
     [

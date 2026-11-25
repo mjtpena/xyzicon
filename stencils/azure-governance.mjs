@@ -1,6 +1,44 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-resource-guard", "azure", "Resource Guard", ["02819-icon-service-Resource-Guard"],
+    "A resource is protected from unauthorized critical operations.",
+    [
+      line([38, 22], [63, 31], [60, 58], [52, 72], [38, 82], [24, 72], [16, 58], [13, 31], [38, 22]), line([29, 52], [36, 59], [48, 44]),
+      line([69, 48], [88, 38], [107, 48], [107, 68], [88, 78], [69, 68], [69, 48]), line([69, 48], [88, 58], [107, 48]), line([88, 58], [88, 78]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-update-management-center", "azure", "Update Management Center", ["02846-icon-service-Update-Management-Center"],
+    "A management center coordinates updates across machines.",
+    [
+      rect(35, 38, 55, 43), line([35, 50], [90, 50]), line([42, 59], [82, 59]), line([42, 69], [75, 69]),
+      line([22, 54], [18, 44], [20, 32], [27, 24], [37, 20], [48, 20]), line([42, 14], [48, 20], [42, 26]),
+      line([103, 65], [107, 75], [105, 87], [98, 95], [88, 99], [77, 99]), line([83, 93], [77, 99], [83, 105]), line([14, 113], [110, 113]),
+    ]),
+  entry("azure-savings-plans", "azure", "Savings Plans", ["02880-icon-service-Savings-Plans"],
+    "A time-based commitment reduces cloud spending.",
+    [
+      rect(15, 26, 61, 58), line([15, 40], [76, 40]), line([28, 18], [28, 33]), line([63, 18], [63, 33]), line([24, 51], [34, 51]), line([43, 51], [53, 51]), line([24, 64], [34, 64]), line([43, 64], [53, 64]),
+      line([93, 42], [93, 80]), line([106, 50], [102, 45], [91, 45], [86, 50], [88, 56], [103, 60], [107, 65], [104, 72], [94, 74], [86, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-compliance-center", "azure", "Compliance Center", ["02931-icon-service-Compliance-Center"],
+    "A compliance center tracks control checks.",
+    [
+      line([18, 17], [75, 17], [88, 30], [88, 94], [18, 94], [18, 17]), line([75, 17], [75, 30], [88, 30]), line([27, 38], [33, 44], [41, 34]), line([49, 40], [76, 40]), line([27, 55], [33, 61], [41, 51]), line([49, 57], [76, 57]), line([27, 72], [33, 78], [41, 68]), line([49, 74], [68, 74]),
+      oval(79, 74, 28, 28), line([85, 88], [90, 93], [100, 82]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-network-security-perimeters", "azure", "Network Security Perimeters", ["02939-icon-service-Network-Security-Perimeters"],
+    "A security perimeter isolates connected resources.",
+    [
+      line([16, 29], [16, 19], [29, 19]), line([95, 19], [108, 19], [108, 29]), line([16, 82], [16, 92], [29, 92]), line([95, 92], [108, 92], [108, 82]),
+      oval(33, 37, 15, 15), oval(67, 37, 15, 15), oval(50, 67, 15, 15), line([48, 45], [67, 45]), line([45, 50], [54, 68]), line([71, 50], [62, 68]),
+      rect(88, 56, 23, 18), line([93, 56], [93, 51], [97, 47], [102, 47], [106, 51], [106, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-quotas", "azure", "Azure Quotas", ["02951-icon-service-Azure-Quotas"],
+    "A quota limits resource consumption.",
+    [
+      line([18, 81], [18, 69], [23, 54], [33, 43], [48, 37], [63, 43], [73, 54], [78, 69], [78, 81]), line([26, 63], [31, 66]), line([48, 46], [48, 52]), line([69, 63], [64, 66]), line([48, 77], [63, 56]), oval(44, 73, 8, 8, true),
+      line([89, 42], [89, 83]), line([82, 42], [96, 42]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-reserved-capacity", "azure", "Reserved Capacity", ["02638-icon-service-Reserved-Capacity"],
     "Capacity is reserved for a future workload.",
     [
