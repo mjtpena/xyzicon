@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 939,
-  "aliases": 3659,
+  "count": 943,
+  "aliases": 3663,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -155,6 +155,10 @@
     "fabric-categorize",
     "fabric-circle-group",
     "fabric-circle-tree",
+    "azure-virtual-router",
+    "azure-subnet",
+    "azure-dns-private-resolver",
+    "azure-ddos-plans",
     "azure-data-factory",
     "azure-data-explorer",
     "azure-logic-apps",
@@ -1013,8 +1017,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 185,
-      "concepts": 139
+      "covered": 189,
+      "concepts": 143
     },
     "fabric": {
       "sources": 1584,
@@ -3603,6 +3607,74 @@
         "similarity": 0.4421
       }
     ],
+    "azure-virtual-router": [
+      {
+        "a": "azure-virtual-router",
+        "b": "gcp-cloud-router",
+        "similarity": 0.2633
+      },
+      {
+        "a": "aws-lambda",
+        "b": "azure-virtual-router",
+        "similarity": 0.1951
+      },
+      {
+        "a": "azure-virtual-router",
+        "b": "gcp-category-networking",
+        "similarity": 0.1877
+      }
+    ],
+    "azure-subnet": [
+      {
+        "a": "azure-subnet",
+        "b": "m365-check",
+        "similarity": 0.2734
+      },
+      {
+        "a": "azure-subnet",
+        "b": "aws-app-studio",
+        "similarity": 0.2635
+      },
+      {
+        "a": "azure-subnet",
+        "b": "gcp-healthcare-api",
+        "similarity": 0.255
+      }
+    ],
+    "azure-dns-private-resolver": [
+      {
+        "a": "azure-dns-private-resolver",
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.2305
+      },
+      {
+        "a": "azure-dns-private-resolver",
+        "b": "azure-ai-studio",
+        "similarity": 0.2243
+      },
+      {
+        "a": "azure-dns-private-resolver",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2169
+      }
+    ],
+    "azure-ddos-plans": [
+      {
+        "a": "azure-ddos-plans",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2246
+      },
+      {
+        "a": "azure-ddos-plans",
+        "b": "aws-activate",
+        "similarity": 0.2164
+      },
+      {
+        "a": "azure-ddos-plans",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2077
+      }
+    ],
     "azure-data-factory": [
       {
         "a": "azure-data-factory",
@@ -4426,14 +4498,14 @@
         "similarity": 0.1984
       },
       {
-        "a": "gcp-cloud-composer",
-        "b": "gcp-genomics",
-        "similarity": 0.1767
+        "a": "azure-subnet",
+        "b": "gcp-cloud-composer",
+        "similarity": 0.1836
       },
       {
         "a": "gcp-cloud-composer",
-        "b": "fabric-restricted-report",
-        "similarity": 0.175
+        "b": "gcp-genomics",
+        "similarity": 0.1767
       }
     ],
     "gcp-dataplex": [
@@ -4545,14 +4617,14 @@
         "similarity": 0.2723
       },
       {
-        "a": "gcp-healthcare-api",
-        "b": "aws-comprehend",
-        "similarity": 0.2312
+        "a": "azure-subnet",
+        "b": "gcp-healthcare-api",
+        "similarity": 0.255
       },
       {
         "a": "gcp-healthcare-api",
-        "b": "aws-reserved-instance-reporting",
-        "similarity": 0.2076
+        "b": "aws-comprehend",
+        "similarity": 0.2312
       }
     ],
     "gcp-cloud-ids": [
@@ -5050,6 +5122,11 @@
     ],
     "gcp-cloud-router": [
       {
+        "a": "azure-virtual-router",
+        "b": "gcp-cloud-router",
+        "similarity": 0.2633
+      },
+      {
         "a": "gcp-cloud-router",
         "b": "aws-workmail",
         "similarity": 0.2188
@@ -5058,11 +5135,6 @@
         "a": "gcp-cloud-router",
         "b": "gcp-category-networking",
         "similarity": 0.2122
-      },
-      {
-        "a": "gcp-cloud-router",
-        "b": "aws-managed-blockchain",
-        "similarity": 0.1996
       }
     ],
     "gcp-cloud-nat": [
@@ -7260,6 +7332,11 @@
     ],
     "fabric-function-set": [
       {
+        "a": "azure-virtual-router",
+        "b": "fabric-function-set",
+        "similarity": 0.1857
+      },
+      {
         "a": "fabric-function-set",
         "b": "fabric-graph-queryset",
         "similarity": 0.184
@@ -7268,11 +7345,6 @@
         "a": "fabric-function-set",
         "b": "aws-iot-expresslink",
         "similarity": 0.1839
-      },
-      {
-        "a": "dynamics-project-operations",
-        "b": "fabric-function-set",
-        "similarity": 0.1719
       }
     ],
     "fabric-placeholder": [
@@ -7712,9 +7784,9 @@
         "similarity": 0.2265
       },
       {
-        "a": "m365-desktop-download",
-        "b": "fabric-briefcase-pulse",
-        "similarity": 0.2232
+        "a": "azure-subnet",
+        "b": "m365-desktop-download",
+        "similarity": 0.2241
       }
     ],
     "m365-document-multiple": [
@@ -10014,6 +10086,11 @@
     ],
     "aws-activate": [
       {
+        "a": "azure-ddos-plans",
+        "b": "aws-activate",
+        "similarity": 0.2164
+      },
+      {
         "a": "aws-activate",
         "b": "fabric-border-none-eye",
         "similarity": 0.1981
@@ -10022,11 +10099,6 @@
         "a": "aws-glue-crawler",
         "b": "aws-activate",
         "similarity": 0.1933
-      },
-      {
-        "a": "aws-activate",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.1931
       }
     ],
     "aws-iq": [
@@ -12848,14 +12920,14 @@
         "similarity": 0.1987
       },
       {
+        "a": "azure-virtual-router",
+        "b": "aws-transit-gateway",
+        "similarity": 0.1831
+      },
+      {
         "a": "aws-verified-permissions",
         "b": "aws-transit-gateway",
         "similarity": 0.1731
-      },
-      {
-        "a": "aws-lambda",
-        "b": "aws-transit-gateway",
-        "similarity": 0.1521
       }
     ],
     "aws-verified-access": [
@@ -13244,9 +13316,9 @@
         "similarity": 0.2066
       },
       {
-        "a": "gcp-gke",
+        "a": "azure-virtual-router",
         "b": "gcp-category-networking",
-        "similarity": 0.1805
+        "similarity": 0.1877
       }
     ],
     "gcp-category-observability": [

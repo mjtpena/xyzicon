@@ -2544,6 +2544,66 @@
       "notes": ""
     },
     {
+      "id": "azure-virtual-router",
+      "provider": "azure",
+      "name": "Virtual Router",
+      "rationale": "A virtual router directs packets among connected network paths.",
+      "path": "stencils/azure-virtual-router.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/02496-icon-service-Virtual-Router.svg"
+      ],
+      "revision": "4ff2a575783e022ff2ca6e481ead59267836e4c9e0de2a34bc937666b2208146",
+      "geometrySignature": "9e1b64372507af1ee3c7b00bbd5a83404a4396345730572365b50b922550351f",
+      "comparisonRevision": "3521ecb7ebb380a8f2121d5af1958a5f7160659c15a68c59e1b0e375c9a1e33a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-subnet",
+      "provider": "azure",
+      "name": "Subnet",
+      "rationale": "A private network segment contains connected endpoints.",
+      "path": "stencils/azure-subnet.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/02742-icon-service-Subnet.svg"
+      ],
+      "revision": "67fed8b5995dd253e4012623c5827251495962850484b64b9e3f50c16ea7bcfa",
+      "geometrySignature": "56100c953a74670c4712aaeb5208a1a9200dd162b25106d432e1d9bf7411af27",
+      "comparisonRevision": "3af4550fc6b2656c9c16823211c67d8cea237d0dd4e3f6361f86f157922cfd4a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-dns-private-resolver",
+      "provider": "azure",
+      "name": "DNS Private Resolver",
+      "rationale": "A private name lookup resolves to a network endpoint.",
+      "path": "stencils/azure-dns-private-resolver.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/02882-icon-service-DNS-Private-Resolver.svg"
+      ],
+      "revision": "d2686fae603a2d920dc6b1b223be0e70a0cb53baebd348f591497e4f8338ca93",
+      "geometrySignature": "e8ce1f245f6918094598dcdc4166d46883c10113caa29a561330916e340ab737",
+      "comparisonRevision": "05d1112416c7fbf62c5a7da6c756b638013e884dcbc58b922dcf590eabd3c48a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-ddos-plans",
+      "provider": "azure",
+      "name": "DDoS Protection Plans",
+      "rationale": "A protective shield deflects a flood of incoming traffic.",
+      "path": "stencils/azure-ddos-plans.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/10072-icon-service-DDoS-Protection-Plans.svg"
+      ],
+      "revision": "6627f660898e45d90d4050d248b9f77fdc1698f8d2f548efc6a0229f6c77aa3a",
+      "geometrySignature": "1df5dd6dc4604df1bc1ba8004d2d8b18a8a13202224c1ecc4dbebe98dc0f749a",
+      "comparisonRevision": "226b90dafe84f639d3fcdf8634b0dd8cdbc6bc37408ae1768e787ab81bc4cc59",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-data-factory",
       "provider": "azure",
       "name": "Azure Data Factory",
@@ -3452,7 +3512,7 @@
       ],
       "revision": "0f8c5c0c74f38a149f698d8a87a8b8951ece681a86c3f635be4af20f674f0d3a",
       "geometrySignature": "9d6e1bf173e3f2026faf1f1f110e858180e3c4172aaccbaacab1002a7cfa2fdd",
-      "comparisonRevision": "125528662ed14fb442dbb15d16fa3649ae951b6a355645a3afc2aef6aa4abf40",
+      "comparisonRevision": "a067d7e099a69c5663870d035a2b1b414c558d688001cd25a4685c09b0d21bec",
       "review": "pending",
       "notes": ""
     },
@@ -3557,7 +3617,7 @@
       ],
       "revision": "c09e8641c00d83dda1a0c186e706f3498b7a719874fb990a159c0ae15d5ed071",
       "geometrySignature": "9468e722dfc2edae2f0dea4f7450009374ec2b2bc458c8b14dde73855d5e0311",
-      "comparisonRevision": "7bf5e9e7458d65822bddeae343f3ad6d817e16ac29d7a168673c22f30008250e",
+      "comparisonRevision": "cf9ec8dd0439068bb461c27d0ebb0df4cc3dbc56f058ee0843b41a15ba5cded5",
       "review": "pending",
       "notes": ""
     },
@@ -4011,7 +4071,7 @@
       ],
       "revision": "a314a2ad3a7049cabb1da953fdecff241fe96a511869628f6f08e05ffd7cf349",
       "geometrySignature": "6b1dbc6a54ffa4ad1186f6e39c83f92441e428de5b91e8c7817c5ff264332130",
-      "comparisonRevision": "b1d880e3fdf8b2aa3ac8441c7d3b247f3bb0857a3ce8717c0ddc607ed168dd81",
+      "comparisonRevision": "52a37669c349144f1f2f73cadd86267850961f89d1c8b09b509da7f4e7210d83",
       "review": "pending",
       "notes": ""
     },
@@ -6354,7 +6414,7 @@
       ],
       "revision": "ca6db62618d9e2dc522ca47ab52e20a5efe9df52b81b7041cf39de5628d4ab1e",
       "geometrySignature": "3c5b7901f26fe19aadfcc6f79bd2370108faa25be721aa53a618a4baba4e3501",
-      "comparisonRevision": "19fb0bb3d554e60b83570e3f087aaabc68e77c981e9827f4f65d5a02e192f4b0",
+      "comparisonRevision": "247a76aeaba2908c0b8ddf63d18b11a77b5ec1707f0233273095b10ceb5bad25",
       "review": "pending",
       "notes": ""
     },
@@ -6878,7 +6938,7 @@
       ],
       "revision": "bbe194e025329f16b7a0f6778ec89da1821358ac7acac842eb2843e8dac28bc1",
       "geometrySignature": "d27dc0c61e71481a05af8923f70fb7a4e630598e31d5b712bcaddff0da2f9ac1",
-      "comparisonRevision": "42be6f578178b871edeac5bc434a7e9d5256af1d9963bba3208bc38d91818ae1",
+      "comparisonRevision": "d8c6532dddc4ea9fcf1d15f4cccadefe5c5972bf799fc7b906dd60993fcc5de8",
       "review": "pending",
       "notes": ""
     },
@@ -9469,7 +9529,7 @@
       ],
       "revision": "7ada7d1e3e8b070ccd101958a3d90703d50139cf951e19592f19d9638ecc37e5",
       "geometrySignature": "c720e68a77d53cf3e0d93488ebd324c1605a4185296ccc6f72a11c62bedc0a44",
-      "comparisonRevision": "2d7ad58602bb565ee98b088a562107c72ccec81b03ebb7300522bf482150e01d",
+      "comparisonRevision": "b649da0ca2e3443c73e11a77589ec295a93768387a95a628d3f06da31746790e",
       "review": "pending",
       "notes": ""
     },
@@ -12514,7 +12574,7 @@
       ],
       "revision": "5cc1779dbeb6a9e2c643a8215512a4582ac91efa811b649871de09d616f316b4",
       "geometrySignature": "570f996e1c49dae6bca9cdc00616b52305f3ac52827d1114911f3d98bc40759b",
-      "comparisonRevision": "07a15aaef315a3dd81ef4b7e5302c3381f4fe50a5139f863c4851e7ad250448b",
+      "comparisonRevision": "2b0b9e093bc66153cabe1f632004e2ae243dff4df0ab6ad6c376d5bb004bde49",
       "review": "pending",
       "notes": ""
     },
@@ -12871,7 +12931,7 @@
       ],
       "revision": "d5d284f0b149b62d63892bed541d5bb0b0e7c1ad0b93bb02a7fffdf60137ad61",
       "geometrySignature": "afe7eccaa319c620330975143828fbb2872759f52a81cbaa765a39706fde04d7",
-      "comparisonRevision": "0b1b159d63d9440b2856a8afea398fd7bfe56855a8694a96efdfadf0bb5ab11d",
+      "comparisonRevision": "3a5a752d230f2d6df9c976d9d8d447175ac898d5fe29b4a342a3c7305d92ac68",
       "review": "pending",
       "notes": ""
     },
