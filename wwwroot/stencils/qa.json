@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1264,
-  "aliases": 4184,
+  "count": 1271,
+  "aliases": 4200,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1150,6 +1150,13 @@
     "fabric-folder-data-bars",
     "fabric-globe-settings",
     "fabric-hexagons-add",
+    "fabric-hint-grid",
+    "fabric-home-lightning",
+    "fabric-home-tree",
+    "fabric-layer-add",
+    "fabric-library-globe",
+    "fabric-library-people",
+    "fabric-library-person",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1350,8 +1357,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1347,
-      "concepts": 266
+      "covered": 1363,
+      "concepts": 273
     },
     "entra": {
       "sources": 14,
@@ -1512,13 +1519,13 @@
       },
       {
         "a": "fabric-lakehouse",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.2082
+        "b": "fabric-home-tree",
+        "similarity": 0.2144
       },
       {
         "a": "fabric-lakehouse",
-        "b": "gcp-data-transfer",
-        "similarity": 0.1924
+        "b": "aws-ec2-autoscaling",
+        "similarity": 0.2082
       }
     ],
     "fabric-pipeline": [
@@ -5529,8 +5536,8 @@
       },
       {
         "a": "gcp-contact-center-ai",
-        "b": "aws-sns-http-notification",
-        "similarity": 0.2161
+        "b": "fabric-library-people",
+        "similarity": 0.2375
       }
     ],
     "gcp-data-labeling": [
@@ -5859,6 +5866,11 @@
     "gcp-cloud-ops": [
       {
         "a": "gcp-cloud-ops",
+        "b": "fabric-home-lightning",
+        "similarity": 0.292
+      },
+      {
+        "a": "gcp-cloud-ops",
         "b": "gcp-virtual-private-cloud",
         "similarity": 0.2262
       },
@@ -5866,11 +5878,6 @@
         "a": "gcp-cloud-ops",
         "b": "gcp-early-access",
         "similarity": 0.2228
-      },
-      {
-        "a": "gcp-cloud-ops",
-        "b": "gcp-security-scanner",
-        "similarity": 0.2226
       }
     ],
     "gcp-performance-dashboard": [
@@ -6352,6 +6359,11 @@
     "gcp-data-transfer": [
       {
         "a": "gcp-data-transfer",
+        "b": "fabric-home-tree",
+        "similarity": 0.2741
+      },
+      {
+        "a": "gcp-data-transfer",
         "b": "gcp-data-catalog",
         "similarity": 0.2218
       },
@@ -6359,11 +6371,6 @@
         "a": "gcp-data-transfer",
         "b": "fabric-arrow-right-double",
         "similarity": 0.2153
-      },
-      {
-        "a": "aws-eventbridge-schema-registry",
-        "b": "gcp-data-transfer",
-        "similarity": 0.2144
       }
     ],
     "gcp-transfer": [
@@ -6752,9 +6759,9 @@
         "similarity": 0.2384
       },
       {
-        "a": "gcp-dataproc-metastore",
-        "b": "gcp-advanced-solutions-lab",
-        "similarity": 0.2258
+        "a": "gcp-advanced-solutions-lab",
+        "b": "fabric-library-globe",
+        "similarity": 0.2308
       }
     ],
     "gcp-tensorflow-enterprise": [
@@ -9700,6 +9707,11 @@
     ],
     "aws-cloudsearch-documents": [
       {
+        "a": "aws-cloudsearch-documents",
+        "b": "fabric-home-lightning",
+        "similarity": 0.2541
+      },
+      {
         "a": "gcp-anthos-config-management",
         "b": "aws-cloudsearch-documents",
         "similarity": 0.2439
@@ -9708,11 +9720,6 @@
         "a": "m365-contacts",
         "b": "aws-cloudsearch-documents",
         "similarity": 0.2404
-      },
-      {
-        "a": "aws-cloudsearch-documents",
-        "b": "aws-region-group",
-        "similarity": 0.24
       }
     ],
     "aws-emr-cluster": [
@@ -11427,9 +11434,9 @@
         "similarity": 0.2138
       },
       {
-        "a": "gcp-data-transfer",
-        "b": "m365-people",
-        "similarity": 0.2051
+        "a": "m365-people",
+        "b": "fabric-home-tree",
+        "similarity": 0.2134
       }
     ],
     "m365-person-accounts": [
@@ -13168,6 +13175,11 @@
     ],
     "aws-devops-guru-insights": [
       {
+        "a": "aws-devops-guru-insights",
+        "b": "fabric-library-globe",
+        "similarity": 0.2862
+      },
+      {
         "a": "aws-opensearch-ultrawarm",
         "b": "aws-devops-guru-insights",
         "similarity": 0.2837
@@ -13176,11 +13188,6 @@
         "a": "aws-devops-guru-insights",
         "b": "fabric-document-sparkles",
         "similarity": 0.2774
-      },
-      {
-        "a": "aws-devops-guru-insights",
-        "b": "aws-ecr-registry",
-        "similarity": 0.2622
       }
     ],
     "aws-proton": [
@@ -17515,14 +17522,14 @@
         "similarity": 0.2053
       },
       {
+        "a": "fabric-arrow-export-import",
+        "b": "fabric-home-tree",
+        "similarity": 0.1895
+      },
+      {
         "a": "aws-managed-blockchain",
         "b": "fabric-arrow-export-import",
         "similarity": 0.1684
-      },
-      {
-        "a": "aws-eventbridge-event",
-        "b": "fabric-arrow-export-import",
-        "similarity": 0.1669
       }
     ],
     "fabric-arrow-forward-circle": [
@@ -18553,6 +18560,11 @@
     ],
     "aws-category-serverless": [
       {
+        "a": "aws-category-serverless",
+        "b": "fabric-home-lightning",
+        "similarity": 0.1736
+      },
+      {
         "a": "gcp-cloud-ops",
         "b": "aws-category-serverless",
         "similarity": 0.1667
@@ -18561,11 +18573,6 @@
         "a": "aws-category-serverless",
         "b": "fabric-not-equal-circle",
         "similarity": 0.1646
-      },
-      {
-        "a": "gcp-visual-inspection",
-        "b": "aws-category-serverless",
-        "similarity": 0.1632
       }
     ],
     "aws-category-app-integration": [
@@ -20083,6 +20090,11 @@
     ],
     "fabric-home-waves": [
       {
+        "a": "fabric-home-waves",
+        "b": "fabric-home-tree",
+        "similarity": 0.2581
+      },
+      {
         "a": "fabric-data-warehouse-product",
         "b": "fabric-home-waves",
         "similarity": 0.2043
@@ -20091,11 +20103,6 @@
         "a": "gcp-data-transfer",
         "b": "fabric-home-waves",
         "similarity": 0.1896
-      },
-      {
-        "a": "aws-clean-rooms",
-        "b": "fabric-home-waves",
-        "similarity": 0.182
       }
     ],
     "fabric-bar-prohibited": [
@@ -20105,14 +20112,14 @@
         "similarity": 0.2088
       },
       {
+        "a": "fabric-bar-prohibited",
+        "b": "fabric-library-globe",
+        "similarity": 0.2053
+      },
+      {
         "a": "m365-bar-chart",
         "b": "fabric-bar-prohibited",
         "similarity": 0.2041
-      },
-      {
-        "a": "fabric-area-location",
-        "b": "fabric-bar-prohibited",
-        "similarity": 0.2024
       }
     ],
     "fabric-database-pulse": [
@@ -20637,9 +20644,9 @@
         "similarity": 0.243
       },
       {
-        "a": "aws-devops-guru-insights",
-        "b": "fabric-board-lightning-kql",
-        "similarity": 0.2416
+        "a": "fabric-board-lightning-kql",
+        "b": "fabric-library-globe",
+        "similarity": 0.2418
       }
     ],
     "fabric-board-lightning-sparkle": [
@@ -20848,6 +20855,11 @@
     ],
     "fabric-globe-settings": [
       {
+        "a": "fabric-globe-settings",
+        "b": "fabric-library-globe",
+        "similarity": 0.2384
+      },
+      {
         "a": "gcp-cloud-domains",
         "b": "fabric-globe-settings",
         "similarity": 0.2277
@@ -20856,11 +20868,6 @@
         "a": "aws-migration-evaluator",
         "b": "fabric-globe-settings",
         "similarity": 0.2122
-      },
-      {
-        "a": "fabric-document-people",
-        "b": "fabric-globe-settings",
-        "similarity": 0.212
       }
     ],
     "fabric-hexagons-add": [
@@ -20875,9 +20882,128 @@
         "similarity": 0.2015
       },
       {
-        "a": "gcp-real-world-insights",
-        "b": "fabric-hexagons-add",
-        "similarity": 0.1841
+        "a": "fabric-hexagons-add",
+        "b": "fabric-layer-add",
+        "similarity": 0.1918
+      }
+    ],
+    "fabric-hint-grid": [
+      {
+        "a": "aws-waf",
+        "b": "fabric-hint-grid",
+        "similarity": 0.1894
+      },
+      {
+        "a": "fabric-hint-grid",
+        "b": "fabric-global-transfer",
+        "similarity": 0.187
+      },
+      {
+        "a": "fabric-sustainability",
+        "b": "fabric-hint-grid",
+        "similarity": 0.1806
+      }
+    ],
+    "fabric-home-lightning": [
+      {
+        "a": "gcp-cloud-ops",
+        "b": "fabric-home-lightning",
+        "similarity": 0.292
+      },
+      {
+        "a": "aws-cloudsearch-documents",
+        "b": "fabric-home-lightning",
+        "similarity": 0.2541
+      },
+      {
+        "a": "gcp-early-access",
+        "b": "fabric-home-lightning",
+        "similarity": 0.221
+      }
+    ],
+    "fabric-home-tree": [
+      {
+        "a": "gcp-data-transfer",
+        "b": "fabric-home-tree",
+        "similarity": 0.2741
+      },
+      {
+        "a": "fabric-home-tree",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2585
+      },
+      {
+        "a": "fabric-home-waves",
+        "b": "fabric-home-tree",
+        "similarity": 0.2581
+      }
+    ],
+    "fabric-layer-add": [
+      {
+        "a": "fabric-globe-settings",
+        "b": "fabric-layer-add",
+        "similarity": 0.2021
+      },
+      {
+        "a": "fabric-hexagons-add",
+        "b": "fabric-layer-add",
+        "similarity": 0.1918
+      },
+      {
+        "a": "fabric-layer-add",
+        "b": "fabric-database-badge-asterisk",
+        "similarity": 0.1891
+      }
+    ],
+    "fabric-library-globe": [
+      {
+        "a": "aws-devops-guru-insights",
+        "b": "fabric-library-globe",
+        "similarity": 0.2862
+      },
+      {
+        "a": "aws-ecr-registry",
+        "b": "fabric-library-globe",
+        "similarity": 0.2671
+      },
+      {
+        "a": "fabric-library-globe",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2492
+      }
+    ],
+    "fabric-library-people": [
+      {
+        "a": "fabric-library-people",
+        "b": "fabric-library-person",
+        "similarity": 0.568
+      },
+      {
+        "a": "gcp-contact-center-ai",
+        "b": "fabric-library-people",
+        "similarity": 0.2375
+      },
+      {
+        "a": "aws-ec2-instance",
+        "b": "fabric-library-people",
+        "similarity": 0.23
+      }
+    ],
+    "fabric-library-person": [
+      {
+        "a": "fabric-library-people",
+        "b": "fabric-library-person",
+        "similarity": 0.568
+      },
+      {
+        "a": "aws-codecatalyst",
+        "b": "fabric-library-person",
+        "similarity": 0.234
+      },
+      {
+        "a": "gcp-catalog",
+        "b": "fabric-library-person",
+        "similarity": 0.2325
       }
     ],
     "fabric-database-add": [
@@ -22406,14 +22532,14 @@
         "similarity": 0.2606
       },
       {
+        "a": "fabric-home-tree",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2585
+      },
+      {
         "a": "fabric-column-question",
         "b": "fabric-chart-phone",
         "similarity": 0.2476
-      },
-      {
-        "a": "aws-iot-fleetwise",
-        "b": "fabric-chart-phone",
-        "similarity": 0.2339
       }
     ],
     "fabric-database-sync": [
