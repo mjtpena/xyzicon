@@ -3087,34 +3087,34 @@
       {
         "a": "dynamics-customer-voice",
         "b": "aws-lex",
-        "similarity": 0.4102
+        "similarity": 0.3869
       },
       {
         "a": "dynamics-customer-voice",
         "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3193
+        "similarity": 0.32
       },
       {
         "a": "dynamics-customer-voice",
-        "b": "azure-monitor-dashboard",
-        "similarity": 0.3089
+        "b": "m365-chat",
+        "similarity": 0.3077
       }
     ],
     "dynamics-finance-operations": [
       {
         "a": "dynamics-finance-operations",
-        "b": "gcp-producer-portal",
-        "similarity": 0.2385
+        "b": "aws-iot-action",
+        "similarity": 0.345
       },
       {
         "a": "dynamics-finance-operations",
-        "b": "azure-marketplace",
-        "similarity": 0.2359
+        "b": "aws-transfer-sftp",
+        "similarity": 0.3383
       },
       {
         "a": "dynamics-finance-operations",
-        "b": "aws-iot-device-management",
-        "similarity": 0.2352
+        "b": "aws-elasticache-redis",
+        "similarity": 0.3372
       }
     ],
     "dynamics-finance": [
@@ -6742,7 +6742,7 @@
       {
         "a": "dynamics-customer-voice",
         "b": "aws-lex",
-        "similarity": 0.4102
+        "similarity": 0.3869
       },
       {
         "a": "aws-lex",
@@ -6878,7 +6878,7 @@
       {
         "a": "dynamics-customer-voice",
         "b": "m365-chat",
-        "similarity": 0.2822
+        "similarity": 0.3077
       },
       {
         "a": "m365-chat",
@@ -7160,7 +7160,7 @@
       {
         "a": "dynamics-customer-voice",
         "b": "m365-video",
-        "similarity": 0.2625
+        "similarity": 0.2674
       }
     ],
     "gcp-kuberun": [
@@ -13829,9 +13829,9 @@
         "similarity": 0.2742
       },
       {
-        "a": "fabric-operations-agent",
-        "b": "aws-amplify-studio",
-        "similarity": 0.2639
+        "a": "dynamics-customer-voice",
+        "b": "fabric-operations-agent",
+        "similarity": 0.2641
       }
     ],
     "fabric-paginated-report": [
@@ -20296,6 +20296,11 @@
     ],
     "aws-iot-action": [
       {
+        "a": "dynamics-finance-operations",
+        "b": "aws-iot-action",
+        "similarity": 0.345
+      },
+      {
         "a": "aws-iot-action",
         "b": "aws-vpc-network-interface",
         "similarity": 0.3263
@@ -20304,11 +20309,6 @@
         "a": "azure-device-compliance",
         "b": "aws-iot-action",
         "similarity": 0.3255
-      },
-      {
-        "a": "aws-iot-action",
-        "b": "aws-systems-state-manager",
-        "similarity": 0.3216
       }
     ],
     "aws-iot-actuator": [
@@ -23735,14 +23735,14 @@
         "similarity": 0.2737
       },
       {
-        "a": "aws-managed-services",
-        "b": "aws-license-blending",
-        "similarity": 0.2626
+        "a": "dynamics-finance-operations",
+        "b": "aws-managed-services",
+        "similarity": 0.2632
       },
       {
         "a": "aws-managed-services",
-        "b": "aws-trusted-advisor-fault",
-        "similarity": 0.2616
+        "b": "aws-license-blending",
+        "similarity": 0.2626
       }
     ],
     "aws-repost-private": [
@@ -24211,14 +24211,14 @@
         "similarity": 0.3414
       },
       {
+        "a": "dynamics-finance-operations",
+        "b": "aws-transfer-sftp",
+        "similarity": 0.3383
+      },
+      {
         "a": "aws-s3-glacier-flexible-retrieval",
         "b": "aws-transfer-sftp",
         "similarity": 0.3369
-      },
-      {
-        "a": "aws-transfer-sftp",
-        "b": "aws-migration-evaluator-collector",
-        "similarity": 0.3248
       }
     ],
     "aws-discovery-agentless-collector": [
@@ -25882,9 +25882,9 @@
         "similarity": 0.3265
       },
       {
-        "a": "aws-general-chat",
-        "b": "azure-wac",
-        "similarity": 0.2796
+        "a": "dynamics-finance-operations",
+        "b": "aws-general-chat",
+        "similarity": 0.2961
       }
     ],
     "aws-general-data-stream": [
@@ -26817,9 +26817,9 @@
         "similarity": 0.3216
       },
       {
-        "a": "aws-braket-simulator-1",
+        "a": "dynamics-finance-operations",
         "b": "aws-kms-external-key-store",
-        "similarity": 0.2808
+        "similarity": 0.3099
       }
     ],
     "aws-network-firewall-endpoint": [
@@ -27130,6 +27130,11 @@
     ],
     "aws-directory-ad-connector": [
       {
+        "a": "dynamics-finance-operations",
+        "b": "aws-directory-ad-connector",
+        "similarity": 0.3228
+      },
+      {
         "a": "aws-directory-ad-connector",
         "b": "azure-wac-installer",
         "similarity": 0.322
@@ -27138,11 +27143,6 @@
         "a": "aws-iot-thing-vibration-sensor",
         "b": "aws-directory-ad-connector",
         "similarity": 0.3214
-      },
-      {
-        "a": "aws-gateway-file",
-        "b": "aws-directory-ad-connector",
-        "similarity": 0.2857
       }
     ],
     "aws-directory-managed-ad": [
@@ -28978,14 +28978,14 @@
         "similarity": 0.356
       },
       {
+        "a": "dynamics-finance-operations",
+        "b": "aws-vpc-flow-logs",
+        "similarity": 0.2857
+      },
+      {
         "a": "aws-glacier-archive",
         "b": "aws-vpc-flow-logs",
         "similarity": 0.2776
-      },
-      {
-        "a": "aws-greengrass-ml-component",
-        "b": "aws-vpc-flow-logs",
-        "similarity": 0.2704
       }
     ],
     "aws-vpc-access-analyzer": [

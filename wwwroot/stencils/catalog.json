@@ -557,31 +557,31 @@
       "id": "dynamics-customer-voice",
       "provider": "dynamics365",
       "name": "Dynamics 365 Customer Voice",
-      "rationale": "A survey speech bubble contains a five-point rating and a free-form response.",
+      "rationale": "A feedback bubble contains a customer rating and response.",
       "path": "stencils/dynamics-customer-voice.svg",
       "sources": [
         "/icons/dynamics365/Dynamics 365 App Icons/CustomerVoice_scalable.svg"
       ],
-      "revision": "9f82338477d7236f736e6ace65d4f3fd154986dd7c77582793824d9269eb58ca",
-      "geometrySignature": "223c2edac48e0c9c100245fe6c06c436325af549a9e6db8b8306b49e49e77cd3",
-      "comparisonRevision": "ba05bae7c7c8c3ec086e3cc0b623d808941d984b4b52d08962fb7e40b496f7d4",
-      "review": "rework",
-      "notes": "The intended rating symbols resemble triangles even at 128px, so the survey response does not read clearly. Simplify the rating into a legible feedback cue."
+      "revision": "239ade9afb8e8a4a95f7087e59e60cc92282045f7763eada3844818bc3c591fc",
+      "geometrySignature": "f5872b4c98b3855cc1062b6ade55a42c07d9de707a6d2927467ad4a883962876",
+      "comparisonRevision": "5c666b0a3a8e43ee4e70bf0a2642d01d781a7ca3a49cf897f38c616053c2dd4b",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "dynamics-finance-operations",
       "provider": "dynamics365",
       "name": "Dynamics 365 Finance and Operations",
-      "rationale": "A ledger and production gear are joined by a two-way process arrow.",
+      "rationale": "A financial ledger connects to an operating facility.",
       "path": "stencils/dynamics-finance-operations.svg",
       "sources": [
         "/icons/dynamics365/Dynamics 365 App Icons/FinanceOperations_scalable.svg"
       ],
-      "revision": "eb1e8d716851589fa1beaa093506bb3e220a9add208adeb5c546b8b6043969ec",
-      "geometrySignature": "45197f83c55c92230107f853e345de81ccd2cb6c5ad1ddc6f1a2b488753b4a68",
-      "comparisonRevision": "03fecd3a5c0fc27876126b27db550c1aa644d6a0fe43205792c0b170d1e2f307",
-      "review": "rework",
-      "notes": "The intended gear reads as a target at small sizes and the ledger does not indicate finance. Make the operations and finance cues recognizable without tiny details."
+      "revision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
+      "geometrySignature": "c4f5c90588553facc6925ee14e68a68f152c4e4a91dc8410263e22b1123faeb1",
+      "comparisonRevision": "186b46add539ae0d822ca167c901402eac5f1938005256d8c5bf16e1feedf10e",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "dynamics-finance",
@@ -4104,7 +4104,7 @@
       ],
       "revision": "1a45ae81c6fbacbf043160d62fc7e7aca6102e5061d03cadf1aa94286325128b",
       "geometrySignature": "cbe2727333e98d1869a7a78db89933ce3868012cc7d7e7087eed15810bc925df",
-      "comparisonRevision": "11f6a44adadd3ed6484ad6a78769df2c04f5673e5ac81ee0ca2637f072bfd287",
+      "comparisonRevision": "fd4393c4d8b2855a1ac4aad7cc709c6329ee853af391eadac3b89560712a5770",
       "review": "pending",
       "notes": ""
     },
@@ -4264,7 +4264,7 @@
       ],
       "revision": "dafa7342b762af2f143fd5e358597b7e914de87c4241e7d050119c8bc91275b7",
       "geometrySignature": "c9b62471308c090ce69137a7464707cbd98230c768619ea0022812889b271924",
-      "comparisonRevision": "119e85853274781e11c9d738d0373a475b68db249a7451bf77a0240011c284c1",
+      "comparisonRevision": "7cfc5fd5a981873cb91cebb70bf4bc5ae63ae24b043a72277b5f7bfe698909cd",
       "review": "pending",
       "notes": ""
     },
@@ -4587,7 +4587,7 @@
       ],
       "revision": "4bce57760e84e821ab58e5ccaaf02ead084d442ab8dc4d04a72e0ae4a9456af4",
       "geometrySignature": "770c55576c0eb87de2f67573171012d3bf108dfb4b27b5a935cd5555ce9a2aa4",
-      "comparisonRevision": "ef2f5954122fa65ccded1a6fb0ccfb2805714c3db68ac33236a2d9ece6b47fbb",
+      "comparisonRevision": "3359ece390d369202316edd87a8a454f28a457f2c54ff7613742a68db2907f46",
       "review": "pending",
       "notes": ""
     },
@@ -10902,7 +10902,7 @@
       ],
       "revision": "480ee3b2b834461ea7071097dc094a0c6dc5badf697f11f0cd56704b4d3441d3",
       "geometrySignature": "30424662016e37580e68393f053dd21fdd590a97d4f07ad371047261db6bea37",
-      "comparisonRevision": "976fa38660057871a98d69805939f400eb9fb38c96f9536d1795d17c44e23326",
+      "comparisonRevision": "1f866bff99de7d36a68533b78ab0ffe9743985b6edb60ce0d5287a2f4e1c1104",
       "review": "pending",
       "notes": ""
     },
@@ -17028,7 +17028,7 @@
       ],
       "revision": "a27e8ba0d63dca7d56c4b76010f1be4793ab34efbfdf21ef214ebfb57102c966",
       "geometrySignature": "77c62bf372cd8a932ffe2b2c970830c89b6e8c828adf6fa2a9caeb9a8a4fc594",
-      "comparisonRevision": "d84e3f0b6199886ae109a6ff0b3db77455d0ada35f94feea2c21d24402369207",
+      "comparisonRevision": "449df487e8c5dcd04ccfdf4fbc30c750e04fc55bb941f068f6ad487877889b93",
       "review": "pending",
       "notes": ""
     },
@@ -20335,7 +20335,7 @@
       ],
       "revision": "6f41f8367ffe87325a8ddca9a63417c279e19c8a25a51c315f02af97e2034446",
       "geometrySignature": "896b446bb10bede9ca65ca04ea6792a85d84bd16ac3df78bb8de51e32733ef51",
-      "comparisonRevision": "56f0fd00f34ad1987db3c378520182097cdd63707b3bbe09ee2b32a6f2373c98",
+      "comparisonRevision": "989edcee7e56ae43ae6a1271db31e743be4c780a7080652c7f389df90ed2b995",
       "review": "pending",
       "notes": ""
     },
@@ -20827,7 +20827,7 @@
       ],
       "revision": "da429f4dddffea80b855618154919b00686262e6582993d22b53859542c98627",
       "geometrySignature": "d1ad0a6926d2982463bc8d0a675bc059d54f8c981c2ca471fc0051d160354cd1",
-      "comparisonRevision": "631fcc32db2ff87950f6601eda4445263dd4d62f7c02d7212c2f6a0a2750ba9d",
+      "comparisonRevision": "69845fd49867c6dac4a746a67a3c0aac0364f40f4d3a80e664ba7a11b96349f7",
       "review": "pending",
       "notes": ""
     },
@@ -22359,7 +22359,7 @@
       ],
       "revision": "2e6c64843d740674c5184c7939ac6f6c7bcadbad3015df9126850882e3daa52b",
       "geometrySignature": "e3d2665feed93ba2ab07c0fbcb9bc5da9a54d63801b383e1df04de1842d9456b",
-      "comparisonRevision": "356fdcdd2ff6b44bccf18f287ba46f30a08471312a30fee4942705d3c9b97b76",
+      "comparisonRevision": "fd56353e7c59e447b9886fc728c9c463eed04e8636df92c20cc00815074ccdbf",
       "review": "pending",
       "notes": ""
     },
@@ -23322,7 +23322,7 @@
       ],
       "revision": "533827f3db5f7e12da5dd45ac3eb866856c2a0292ec1a5bd99e5bb1ac6d5a67a",
       "geometrySignature": "7424bea8a8888a00cf778c85b693e3d2b28917ce361c0b0b7a0c2ee6a2ec78a0",
-      "comparisonRevision": "e018a042e1485b3f4a9bcb5e12a9ae7375466bf484450e31bed03d3794f3731f",
+      "comparisonRevision": "c4fb37e7826762b13b60dccad4d41d435488cad8d8ff0a4ba5d4a710b63bfc65",
       "review": "pending",
       "notes": ""
     },
@@ -23608,7 +23608,7 @@
       ],
       "revision": "d9617abb0cd85dfbe2ce3588ddedd6d1dec67539a1df02b7e4b093a6864d933b",
       "geometrySignature": "ab30224f89680cc2e5200325bf55d0b3def4af4e59ac1563fbdb27fdf7b119c6",
-      "comparisonRevision": "85ea01df6d57462b386f06076008eb1cb17f46d06b87b00353e61c23bc95651d",
+      "comparisonRevision": "de45edd1b4449eee336f2abd532cc5e4e85436927318cda92dd6284bfd2df9ff",
       "review": "pending",
       "notes": ""
     },
@@ -25546,7 +25546,7 @@
       ],
       "revision": "b114ba0e2753ec1223de4a41774d3cfcc1499005bfa8a33293211cb2e14423f6",
       "geometrySignature": "f79def85ada8db419582d0f535ac6f93d76f9008c8ca2a376cfca861ab25a422",
-      "comparisonRevision": "370446716b3fe1a0687b58c8dc1f4b75a59a570f69a13860009aa259efe8a561",
+      "comparisonRevision": "cb14694998f229f408491d4ab7f5f486b177724dd92096ba2ad551e91ae39261",
       "review": "pending",
       "notes": ""
     },
