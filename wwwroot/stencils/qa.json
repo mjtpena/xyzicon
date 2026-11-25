@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 497,
+  "approved": 517,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,26 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-savings-plans",
-    "aws-reserved-instance-reporting",
-    "aws-support",
-    "aws-professional-services",
-    "aws-training-certification",
-    "aws-repost",
-    "aws-chime",
-    "aws-chime-sdk",
-    "aws-wickr",
-    "aws-end-user-messaging",
-    "aws-transfer-as2",
-    "aws-transfer-ftp",
-    "aws-transfer-ftps",
-    "aws-transfer-sftp",
-    "aws-discovery-agentless-collector",
-    "aws-discovery-agent-resource",
-    "aws-migration-evaluator-collector",
-    "aws-datasync-discovery",
-    "aws-datasync-agent",
-    "aws-mainframe-analyzer",
     "aws-mainframe-compiler",
     "aws-mainframe-converter",
     "aws-mainframe-developer",
@@ -2220,13 +2200,13 @@
       },
       {
         "a": "entra-id",
-        "b": "aws-mainframe-analyzer",
-        "similarity": 0.2589
+        "b": "m365-building-people",
+        "similarity": 0.2522
       },
       {
         "a": "entra-id",
-        "b": "m365-building-people",
-        "similarity": 0.2522
+        "b": "azure-logic-apps-template",
+        "similarity": 0.2514
       }
     ],
     "entra-verified-id": [
@@ -3920,13 +3900,13 @@
       },
       {
         "a": "azure-app-services",
-        "b": "aws-datasync-agent",
-        "similarity": 0.2819
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.272
       },
       {
         "a": "azure-app-services",
-        "b": "azure-storage-accounts-classic",
-        "similarity": 0.272
+        "b": "gcp-asset-inventory",
+        "similarity": 0.2677
       }
     ],
     "aws-rds": [
@@ -5700,11 +5680,6 @@
     "azure-integration-accounts": [
       {
         "a": "azure-integration-accounts",
-        "b": "aws-datasync-agent",
-        "similarity": 0.3684
-      },
-      {
-        "a": "azure-integration-accounts",
         "b": "azure-tenant-properties",
         "similarity": 0.3356
       },
@@ -5712,6 +5687,11 @@
         "a": "azure-integration-accounts",
         "b": "azure-table",
         "similarity": 0.3333
+      },
+      {
+        "a": "azure-integration-accounts",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3275
       }
     ],
     "azure-app-configuration": [
@@ -10963,8 +10943,8 @@
       },
       {
         "a": "azure-arc-sql-server",
-        "b": "aws-mainframe-analyzer",
-        "similarity": 0.3456
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.3423
       }
     ],
     "azure-arc-data-services": [
@@ -12432,8 +12412,8 @@
       },
       {
         "a": "aws-opensearch-data-node",
-        "b": "aws-vpc-network-adapter",
-        "similarity": 0.2738
+        "b": "aws-datasync-agent",
+        "similarity": 0.2764
       }
     ],
     "aws-opensearch-index": [
@@ -13102,11 +13082,6 @@
     "aws-compute-optimizer": [
       {
         "a": "aws-compute-optimizer",
-        "b": "aws-mainframe-analyzer",
-        "similarity": 0.2431
-      },
-      {
-        "a": "aws-compute-optimizer",
         "b": "azure-app-compliance-automation",
         "similarity": 0.2381
       },
@@ -13114,6 +13089,11 @@
         "a": "aws-compute-optimizer",
         "b": "m365-desktop-download",
         "similarity": 0.205
+      },
+      {
+        "a": "aws-compute-optimizer",
+        "b": "azure-exchange-on-premises-access",
+        "similarity": 0.2024
       }
     ],
     "aws-elastic-beanstalk": [
@@ -16971,8 +16951,8 @@
       },
       {
         "a": "azure-defender-local-manager",
-        "b": "aws-datasync-agent",
-        "similarity": 0.3185
+        "b": "aws-ebs-gp3-volume",
+        "similarity": 0.3167
       }
     ],
     "azure-defender-external-management": [
@@ -20745,8 +20725,8 @@
       },
       {
         "a": "aws-iot-thing-car",
-        "b": "aws-datasync-agent",
-        "similarity": 0.2884
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.2814
       }
     ],
     "aws-iot-thing-cart": [
@@ -20802,11 +20782,6 @@
     ],
     "aws-iot-thing-factory": [
       {
-        "a": "aws-iot-thing-factory",
-        "b": "aws-mainframe-analyzer",
-        "similarity": 0.2821
-      },
-      {
         "a": "azure-defender-historian",
         "b": "aws-iot-thing-factory",
         "similarity": 0.2554
@@ -20815,6 +20790,11 @@
         "a": "aws-iot-thing-factory",
         "b": "azure-cost-analysis",
         "similarity": 0.2529
+      },
+      {
+        "a": "azure-arc-sql-server",
+        "b": "aws-iot-thing-factory",
+        "similarity": 0.2467
       }
     ],
     "aws-iot-thing-house": [
@@ -22020,8 +22000,8 @@
       },
       {
         "a": "aws-backup-compliance-report",
-        "b": "aws-datasync-agent",
-        "similarity": 0.3111
+        "b": "aws-elasticache-node",
+        "similarity": 0.3097
       }
     ],
     "aws-backup-recovery-point-objective": [
@@ -23828,36 +23808,36 @@
     ],
     "aws-datasync-agent": [
       {
-        "a": "azure-integration-accounts",
+        "a": "aws-greengrass-connector",
         "b": "aws-datasync-agent",
-        "similarity": 0.3684
+        "similarity": 0.2987
       },
       {
-        "a": "aws-datasync-agent",
-        "b": "aws-systems-opscenter",
-        "similarity": 0.3652
+        "a": "aws-iot-actuator",
+        "b": "aws-datasync-agent",
+        "similarity": 0.2843
       },
       {
-        "a": "azure-attestation",
+        "a": "aws-opensearch-data-node",
         "b": "aws-datasync-agent",
-        "similarity": 0.3537
+        "similarity": 0.2764
       }
     ],
     "aws-mainframe-analyzer": [
       {
-        "a": "aws-mainframe-analyzer",
-        "b": "azure-tfs-vc-repository",
-        "similarity": 0.3726
-      },
-      {
-        "a": "aws-mainframe-analyzer",
-        "b": "aws-systems-maintenance-windows",
-        "similarity": 0.3681
-      },
-      {
-        "a": "azure-arc-sql-server",
+        "a": "azure-tenant-properties",
         "b": "aws-mainframe-analyzer",
-        "similarity": 0.3456
+        "similarity": 0.2838
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "aws-mainframe-analyzer",
+        "similarity": 0.2796
+      },
+      {
+        "a": "aws-mainframe-analyzer",
+        "b": "azure-mobile-engagement",
+        "similarity": 0.2755
       }
     ],
     "aws-mainframe-compiler": [
@@ -23923,9 +23903,9 @@
         "similarity": 0.3454
       },
       {
-        "a": "aws-datasync-agent",
-        "b": "aws-mainframe-runtime",
-        "similarity": 0.3443
+        "a": "aws-mainframe-runtime",
+        "b": "aws-sql-server-instance",
+        "similarity": 0.3265
       }
     ],
     "aws-mainframe-modernization": [
@@ -24399,9 +24379,9 @@
         "similarity": 0.3715
       },
       {
-        "a": "aws-datasync-agent",
+        "a": "aws-cloudwatch-rum",
         "b": "aws-systems-opscenter",
-        "similarity": 0.3652
+        "similarity": 0.3164
       }
     ],
     "aws-systems-parameter-store": [
@@ -27698,7 +27678,7 @@
         "similarity": 0.2888
       },
       {
-        "a": "aws-datasync-agent",
+        "a": "aws-s3-on-outposts-resource",
         "b": "m365-building-multiple",
         "similarity": 0.2811
       }
@@ -32232,9 +32212,9 @@
         "similarity": 0.2617
       },
       {
-        "a": "aws-iot-reported-state",
+        "a": "aws-mainframe-analyzer",
         "b": "azure-hdi-aks-cluster",
-        "similarity": 0.2539
+        "similarity": 0.2575
       }
     ],
     "azure-rtos": [
@@ -32912,9 +32892,9 @@
         "similarity": 0.3
       },
       {
-        "a": "aws-mainframe-analyzer",
+        "a": "aws-systems-maintenance-windows",
         "b": "azure-production-ready-database",
-        "similarity": 0.2727
+        "similarity": 0.2657
       }
     ],
     "azure-resource-group-list": [
@@ -33055,11 +33035,6 @@
     ],
     "azure-tfs-vc-repository": [
       {
-        "a": "aws-mainframe-analyzer",
-        "b": "azure-tfs-vc-repository",
-        "similarity": 0.3726
-      },
-      {
         "a": "aws-s3-on-outposts-resource",
         "b": "azure-tfs-vc-repository",
         "similarity": 0.3123
@@ -33068,6 +33043,11 @@
         "a": "azure-tfs-vc-repository",
         "b": "azure-mobile-engagement",
         "similarity": 0.2932
+      },
+      {
+        "a": "azure-bare-metal-infrastructure",
+        "b": "azure-tfs-vc-repository",
+        "similarity": 0.2744
       }
     ],
     "azure-launch-portal": [
@@ -35282,11 +35262,6 @@
     ],
     "azure-disks": [
       {
-        "a": "aws-datasync-agent",
-        "b": "azure-disks",
-        "similarity": 0.2421
-      },
-      {
         "a": "aws-ec2-elastic-ip",
         "b": "azure-disks",
         "similarity": 0.2068
@@ -35295,6 +35270,11 @@
         "a": "azure-disks",
         "b": "fabric-document-sparkles",
         "similarity": 0.2065
+      },
+      {
+        "a": "azure-disks",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2017
       }
     ],
     "azure-vm-scale-sets": [
@@ -35683,9 +35663,9 @@
         "similarity": 0.277
       },
       {
-        "a": "aws-general-mobile-client",
+        "a": "aws-mainframe-analyzer",
         "b": "fabric-data-bar-trend",
-        "similarity": 0.2405
+        "similarity": 0.2448
       }
     ],
     "fabric-data-bar-highlight": [
@@ -35734,9 +35714,9 @@
         "similarity": 0.1581
       },
       {
-        "a": "aws-mainframe-analyzer",
+        "a": "aws-dynamodb-global-secondary-index",
         "b": "fabric-datatype-any",
-        "similarity": 0.1521
+        "similarity": 0.1446
       }
     ],
     "fabric-datatype-byte": [
@@ -36108,9 +36088,9 @@
         "similarity": 0.2072
       },
       {
-        "a": "aws-datasync-agent",
-        "b": "fabric-not-equal-circle",
-        "similarity": 0.1898
+        "a": "fabric-not-equal-circle",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.188
       }
     ],
     "fabric-funnel": [
@@ -36467,11 +36447,6 @@
     ],
     "fabric-notebook-export": [
       {
-        "a": "aws-datasync-agent",
-        "b": "fabric-notebook-export",
-        "similarity": 0.3101
-      },
-      {
         "a": "aws-general-cold-storage",
         "b": "fabric-notebook-export",
         "similarity": 0.3071
@@ -36480,6 +36455,11 @@
         "a": "aws-s3-on-outposts-resource",
         "b": "fabric-notebook-export",
         "similarity": 0.2945
+      },
+      {
+        "a": "azure-attestation",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2928
       }
     ],
     "fabric-notebook-globe": [
@@ -38489,9 +38469,9 @@
         "similarity": 0.2164
       },
       {
-        "a": "aws-datasync-agent",
+        "a": "azure-app-services",
         "b": "fabric-datatype-double",
-        "similarity": 0.2134
+        "similarity": 0.181
       }
     ],
     "fabric-datatype-float": [
@@ -39615,7 +39595,7 @@
         "similarity": 0.2171
       },
       {
-        "a": "aws-mainframe-analyzer",
+        "a": "aws-rds",
         "b": "fabric-database-asterisk",
         "similarity": 0.207
       }
