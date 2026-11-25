@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 704,
-  "aliases": 2980,
+  "count": 708,
+  "aliases": 2996,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -482,6 +482,10 @@
     "aws-license-manager",
     "aws-service-catalog",
     "aws-sustainability",
+    "aws-managed-grafana",
+    "aws-managed-prometheus",
+    "aws-user-notifications",
+    "aws-resilience-hub",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -801,8 +805,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 740,
-      "concepts": 183
+      "covered": 756,
+      "concepts": 187
     },
     "gcp": {
       "sources": 261,
@@ -6423,6 +6427,11 @@
     ],
     "fabric-runtime-lineage": [
       {
+        "a": "fabric-runtime-lineage",
+        "b": "aws-managed-prometheus",
+        "similarity": 0.1797
+      },
+      {
         "a": "gcp-cloud-deploy",
         "b": "fabric-runtime-lineage",
         "similarity": 0.165
@@ -6431,11 +6440,6 @@
         "a": "fabric-runtime-lineage",
         "b": "aws-amplify",
         "similarity": 0.161
-      },
-      {
-        "a": "aws-ebs",
-        "b": "fabric-runtime-lineage",
-        "similarity": 0.1607
       }
     ],
     "fabric-schema-model": [
@@ -7057,14 +7061,14 @@
         "similarity": 0.2306
       },
       {
+        "a": "m365-person",
+        "b": "aws-resilience-hub",
+        "similarity": 0.1984
+      },
+      {
         "a": "fabric-event-house",
         "b": "m365-person",
         "similarity": 0.1826
-      },
-      {
-        "a": "m365-download",
-        "b": "m365-person",
-        "similarity": 0.1747
       }
     ],
     "m365-phone-desktop": [
@@ -7861,9 +7865,9 @@
         "similarity": 0.1973
       },
       {
-        "a": "gcp-bigquery",
-        "b": "azure-language-understanding",
-        "similarity": 0.1936
+        "a": "azure-language-understanding",
+        "b": "aws-managed-grafana",
+        "similarity": 0.1968
       }
     ],
     "azure-immersive-reader": [
@@ -8286,9 +8290,9 @@
         "similarity": 0.2308
       },
       {
-        "a": "fabric-report",
-        "b": "aws-codecommit",
-        "similarity": 0.2173
+        "a": "aws-codecommit",
+        "b": "aws-managed-grafana",
+        "similarity": 0.2201
       }
     ],
     "aws-codedeploy": [
@@ -8920,6 +8924,74 @@
         "similarity": 0.2208
       }
     ],
+    "aws-managed-grafana": [
+      {
+        "a": "aws-managed-grafana",
+        "b": "azure-host-groups",
+        "similarity": 0.294
+      },
+      {
+        "a": "aws-cloud9",
+        "b": "aws-managed-grafana",
+        "similarity": 0.2885
+      },
+      {
+        "a": "aws-codecatalyst",
+        "b": "aws-managed-grafana",
+        "similarity": 0.2713
+      }
+    ],
+    "aws-managed-prometheus": [
+      {
+        "a": "aws-managed-prometheus",
+        "b": "aws-parallel-computing",
+        "similarity": 0.2215
+      },
+      {
+        "a": "azure-batch-ai",
+        "b": "aws-managed-prometheus",
+        "similarity": 0.2113
+      },
+      {
+        "a": "m365-lightbulb-check",
+        "b": "aws-managed-prometheus",
+        "similarity": 0.1925
+      }
+    ],
+    "aws-user-notifications": [
+      {
+        "a": "gcp-cloud-tpu",
+        "b": "aws-user-notifications",
+        "similarity": 0.1793
+      },
+      {
+        "a": "aws-dynamodb",
+        "b": "aws-user-notifications",
+        "similarity": 0.178
+      },
+      {
+        "a": "m365-document-multiple",
+        "b": "aws-user-notifications",
+        "similarity": 0.174
+      }
+    ],
+    "aws-resilience-hub": [
+      {
+        "a": "m365-person",
+        "b": "aws-resilience-hub",
+        "similarity": 0.1984
+      },
+      {
+        "a": "m365-retail-building",
+        "b": "aws-resilience-hub",
+        "similarity": 0.178
+      },
+      {
+        "a": "m365-globe",
+        "b": "aws-resilience-hub",
+        "similarity": 0.1745
+      }
+    ],
     "m365-arrow-circle-left": [
       {
         "a": "m365-arrow-circle-left",
@@ -9494,9 +9566,9 @@
         "similarity": 0.1691
       },
       {
-        "a": "m365-cloud-desktop",
-        "b": "fabric-database-pulse",
-        "similarity": 0.1581
+        "a": "aws-user-notifications",
+        "b": "m365-cloud-desktop",
+        "similarity": 0.1583
       }
     ],
     "m365-document": [
@@ -9850,14 +9922,14 @@
         "similarity": 0.2304
       },
       {
+        "a": "aws-managed-grafana",
+        "b": "aws-site-vpn",
+        "similarity": 0.2281
+      },
+      {
         "a": "aws-client-vpn",
         "b": "aws-site-vpn",
         "similarity": 0.2193
-      },
-      {
-        "a": "gcp-cloud-tpu",
-        "b": "aws-site-vpn",
-        "similarity": 0.2178
       }
     ],
     "aws-transit-gateway": [
@@ -10008,9 +10080,9 @@
         "similarity": 0.1873
       },
       {
-        "a": "m365-map",
+        "a": "aws-managed-prometheus",
         "b": "gcp-category-collaboration",
-        "similarity": 0.1721
+        "similarity": 0.1725
       }
     ],
     "gcp-category-compute": [
@@ -11658,14 +11730,14 @@
         "similarity": 0.1967
       },
       {
+        "a": "aws-managed-prometheus",
+        "b": "azure-service-fabric-clusters",
+        "similarity": 0.1922
+      },
+      {
         "a": "aws-iot-device-management",
         "b": "azure-service-fabric-clusters",
         "similarity": 0.1754
-      },
-      {
-        "a": "gcp-category-media",
-        "b": "azure-service-fabric-clusters",
-        "similarity": 0.1744
       }
     ],
     "azure-host-groups": [

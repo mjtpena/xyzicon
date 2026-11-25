@@ -5887,7 +5887,7 @@
       ],
       "revision": "161cb35d61fd039877d76c2dfe41d75f1abb39ce740d706f99838fc4320dac06",
       "geometrySignature": "da9dd4a619ce1c279cebfd358252282b6d59ba4ed5e08879a7ca137bbaaeb8ef",
-      "comparisonRevision": "125937835e4e373e4dcf5926ed92da439a9caad016d4b4e0dd1dbb359e13930d",
+      "comparisonRevision": "9bae359d1103583c7876d6a9907c18ff869742df9590331a96f1346a79badb8b",
       "review": "pending",
       "notes": ""
     },
@@ -6637,7 +6637,7 @@
       ],
       "revision": "565c92e575d1e6fde4f4b9c6e959aadc1f7878a51bdd3cbe061dbcf101d7a6fc",
       "geometrySignature": "1247681fb5e44f4437201fca53d1c13580a9fd71a7babaf87a1dfb82374f89a7",
-      "comparisonRevision": "eef9626f99b6a74265d5bc20fe6cb99c8f3a2d47a9c2e37fada5d7cf151f6764",
+      "comparisonRevision": "20caded2e2b2de678b6ce6cb7f44488d5e61f71fcf85de06bc8888265aeaebd9",
       "review": "pending",
       "notes": ""
     },
@@ -7482,7 +7482,7 @@
       ],
       "revision": "b8b8da7fa72c260229b376a65bdd359b89a31ca2d9747ffaa95d157113a3b2a6",
       "geometrySignature": "76189804f36dca32986248a6435e693217d488283502e12a61df3369981fd330",
-      "comparisonRevision": "78b4c4a2611dbeca4cc756b846fa72a5f64c8f1a703f647550d85048e286bd6d",
+      "comparisonRevision": "2f4a5a90e77f889755325b1862475627c7a5d70a74578d4eebf072dee646ec07",
       "review": "pending",
       "notes": ""
     },
@@ -8065,7 +8065,7 @@
       ],
       "revision": "8470d08361c5988046a7e33b1e176918cf50811a6322a4617b1ac94a8fbd32be",
       "geometrySignature": "601e619e058935cd0549beb5eec4c5c2e50eead59d679fe7f6ba1c353173faa3",
-      "comparisonRevision": "bbcc0ce4e13998f5e6d86ed445332c62b7ea97745104219a0c5cc4bf8949898b",
+      "comparisonRevision": "d27b4368715337efcf873b05a8258892130701010ca37b6868eecff9bff93b6c",
       "review": "pending",
       "notes": ""
     },
@@ -8736,6 +8736,78 @@
       "notes": ""
     },
     {
+      "id": "aws-managed-grafana",
+      "provider": "aws",
+      "name": "Amazon Managed Grafana",
+      "rationale": "A monitoring dashboard combines a time-series plot and gauge.",
+      "path": "stencils/aws-managed-grafana.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_Amazon-Managed-Grafana_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_Amazon-Managed-Grafana_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_Amazon-Managed-Grafana_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_Amazon-Managed-Grafana_64.svg"
+      ],
+      "revision": "b1046ff0ae1ee780bce731e67fe37c655917d6f39dcbbe28b06ad4585622e900",
+      "geometrySignature": "45fd7ddcd82b7b4e487155de515b8562f5b94d4118fe8499e73b11adf9d99a55",
+      "comparisonRevision": "b531a73c65cf746cd4cdb2fa58f6c404bcf520502861b39b4c96c433433cb57e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-managed-prometheus",
+      "provider": "aws",
+      "name": "Amazon Managed Service for Prometheus",
+      "rationale": "Metrics from three hosts collect into a time-series graph.",
+      "path": "stencils/aws-managed-prometheus.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_Amazon-Managed-Service-for-Prometheus_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_Amazon-Managed-Service-for-Prometheus_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_Amazon-Managed-Service-for-Prometheus_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_Amazon-Managed-Service-for-Prometheus_64.svg"
+      ],
+      "revision": "710af4d4cf64189e902f4843749d6b212432f5f88b7f6f1fea172e1a363eef86",
+      "geometrySignature": "abd928f938ac89fbe9e47193d307f1cda87c770e57962d5fda945ad6f32968e8",
+      "comparisonRevision": "0adaa718fc7d5884b958593b029a9ded0800cfaee9a3d3473c2f74346d2cb2fa",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-user-notifications",
+      "provider": "aws",
+      "name": "AWS User Notifications",
+      "rationale": "A notification bell delivers selected alerts to an inbox.",
+      "path": "stencils/aws-user-notifications.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-User-Notifications_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-User-Notifications_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-User-Notifications_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-User-Notifications_64.svg"
+      ],
+      "revision": "aa9debb70ca556bcd9f3c453956b6588b35e7fd48bb356d49b67e03ce3edbe3d",
+      "geometrySignature": "67c59bbe7de4d455e7b897388c7fa34d8dda9743d0d4d41bf6f17e61e6e62447",
+      "comparisonRevision": "a17fa225d7e05403e70edd92ba171588fa439208f70b7543ff4bbb372e227b12",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-resilience-hub",
+      "provider": "aws",
+      "name": "AWS Resilience Hub",
+      "rationale": "A protective shield sits within a recovery cycle.",
+      "path": "stencils/aws-resilience-hub.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Resilience-Hub_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Resilience-Hub_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Resilience-Hub_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Resilience-Hub_64.svg"
+      ],
+      "revision": "031053a66c577b8b4a441e48887e01e705205bec87633d47b3a929cf33804e18",
+      "geometrySignature": "5b7d4000d5b61c2f61575ad4bc64e675664d4c42d243294373a2ac331e64fa6b",
+      "comparisonRevision": "522c30775849da841f92827fb84aaa38670a05cb4afc6adac414675ab94f8a8f",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "m365-arrow-circle-left",
       "provider": "microsoft365",
       "name": "Arrow Circle Left",
@@ -9385,7 +9457,7 @@
       ],
       "revision": "05f438c91659e94bcd0ee4c8a0a1498d9e92d1bdec17dc290a569385c91539fc",
       "geometrySignature": "3504fa565fe8bbaa263106ecac619c0ab5aa8e324bb1946cf251aecaea3a9226",
-      "comparisonRevision": "4075658d1ae6acb546b62dae665fa74e1c463c56358b3e2bde201998d55af157",
+      "comparisonRevision": "3c14ce8ed84dff5337e8547f27c616c55b560e2251e8f84652014638ae612dc9",
       "review": "pending",
       "notes": ""
     },
@@ -9778,7 +9850,7 @@
       ],
       "revision": "e4b165a9167e444e8fafba2cbc75a82311393c80246e40f8a05b5d1e1cf94c5b",
       "geometrySignature": "b28027703157a615ea28e10abbe3bb6b10aa535799f22a6a8dc8abd31b602753",
-      "comparisonRevision": "cac44882de2c3877af6fbc181813af59c7062e66864e80aa9bfb5acb8d40678a",
+      "comparisonRevision": "7646f13eda04bb91edd11bbdb03a017f2f705dcdace378f50d7c5c4fe54bcca0",
       "review": "pending",
       "notes": ""
     },
@@ -9928,7 +10000,7 @@
       ],
       "revision": "86c9f776585c63d2f61cb498c573900bd7a2b79dbc8a31f82d96165df1bc2475",
       "geometrySignature": "5695c40df917efbc20cc4148a23a8095b5fcbf01147a03cac9383410453bb5f2",
-      "comparisonRevision": "41fcc46dc1d04e8be182bdb7d8d75233ad437921e2fe4715ca20b7d2ae9d9f46",
+      "comparisonRevision": "f844c52764d5dce21072fb55fa788a0079a67655084ef4adc63b18467e601849",
       "review": "pending",
       "notes": ""
     },
@@ -11541,7 +11613,7 @@
       ],
       "revision": "804370d08edbc11561fb34395fec652f3cdb0922a09b5492e8df8fdfb8be37de",
       "geometrySignature": "e742312ec5e95c735cafb1c966cee4875dbba31f2afdbb2c86f94593380372d2",
-      "comparisonRevision": "1c5d3ac78f9fa62027290b959ab5e205095848f2e039a3a9aeb13378df54b15a",
+      "comparisonRevision": "b86e7c849a01982c3825fa9f818e0fde1595a263190050ba67dbc6eff1d7e73f",
       "review": "pending",
       "notes": ""
     },
