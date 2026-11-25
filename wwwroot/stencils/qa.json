@@ -3,44 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 987,
+  "approved": 1023,
   "needsReview": [
-    "gcp-apigee-sense",
-    "gcp-service-discovery",
-    "gcp-ai-platform",
-    "gcp-unified-ai-platform",
-    "gcp-advanced-solutions-lab",
-    "gcp-tensorflow-enterprise",
-    "gcp-real-world-insights",
-    "gcp-data-studio",
-    "gcp-cloud-run-anthos",
-    "gcp-gke-on-prem",
-    "gcp-vmware-engine",
-    "gcp-memorystore",
-    "gcp-workload-identity-pool",
-    "gcp-data-layers",
-    "gcp-datashare",
-    "gcp-catalog",
-    "gcp-connectors",
-    "gcp-workflows",
-    "gcp-administration",
-    "gcp-home",
-    "gcp-project",
-    "gcp-release-notes",
-    "gcp-support",
-    "gcp-user-preferences",
-    "gcp-developer-portal",
-    "gcp-partner-portal",
-    "gcp-producer-portal",
-    "gcp-marketplace",
-    "gcp-financial-marketplace",
-    "gcp-early-access",
-    "gcp-beyondcorp",
-    "gcp-web-risk",
-    "gcp-maps-platform",
-    "gcp-quantum-engine",
-    "gcp-cloud-marketing",
-    "gcp-cloud-generic",
     "gcp-my-cloud",
     "gcp-powershell-tools",
     "gcp-cloud-media-edge",
@@ -8133,18 +8097,18 @@
     "gcp-connectors": [
       {
         "a": "gcp-connectors",
-        "b": "azure-private-link-services",
-        "similarity": 0.3626
+        "b": "fabric-arrow-export-import",
+        "similarity": 0.1728
       },
       {
         "a": "gcp-connectors",
-        "b": "aws-braket-simulator-3",
-        "similarity": 0.293
+        "b": "fabric-sql-lock",
+        "similarity": 0.166
       },
       {
         "a": "gcp-connectors",
-        "b": "aws-vpc-customer-gateway",
-        "similarity": 0.2411
+        "b": "aws-s3-standard",
+        "similarity": 0.1658
       }
     ],
     "gcp-workflows": [
@@ -11165,11 +11129,6 @@
     ],
     "azure-private-link-services": [
       {
-        "a": "gcp-connectors",
-        "b": "azure-private-link-services",
-        "similarity": 0.3626
-      },
-      {
         "a": "azure-private-link-services",
         "b": "aws-braket-simulator-3",
         "similarity": 0.3441
@@ -11178,6 +11137,11 @@
         "a": "azure-private-link-services",
         "b": "azure-firewall-policy",
         "similarity": 0.3345
+      },
+      {
+        "a": "azure-private-link-services",
+        "b": "aws-general-database",
+        "similarity": 0.3092
       }
     ],
     "azure-endpoint-analytics": [
@@ -30521,11 +30485,6 @@
     ],
     "aws-app-runner": [
       {
-        "a": "gcp-connectors",
-        "b": "aws-app-runner",
-        "similarity": 0.2074
-      },
-      {
         "a": "fabric-data-engineering",
         "b": "aws-app-runner",
         "similarity": 0.1985
@@ -30534,6 +30493,11 @@
         "a": "azure-service-group-relationships",
         "b": "aws-app-runner",
         "similarity": 0.1895
+      },
+      {
+        "a": "aws-fraud-detector",
+        "b": "aws-app-runner",
+        "similarity": 0.1873
       }
     ],
     "aws-nitro-enclaves": [
