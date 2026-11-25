@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1916,
-  "aliases": 5082,
+  "count": 1920,
+  "aliases": 5086,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1133,6 +1133,10 @@
     "aws-chime-sdk",
     "aws-wickr",
     "aws-end-user-messaging",
+    "aws-transfer-as2",
+    "aws-transfer-ftp",
+    "aws-transfer-ftps",
+    "aws-transfer-sftp",
     "aws-discovery-agentless-collector",
     "aws-discovery-agent-resource",
     "aws-migration-evaluator-collector",
@@ -2216,8 +2220,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1699,
-      "concepts": 654
+      "covered": 1703,
+      "concepts": 658
     },
     "gcp": {
       "sources": 261,
@@ -4286,6 +4290,11 @@
     "gcp-spanner": [
       {
         "a": "gcp-spanner",
+        "b": "aws-transfer-as2",
+        "similarity": 0.2603
+      },
+      {
+        "a": "gcp-spanner",
         "b": "fabric-experiment",
         "similarity": 0.2522
       },
@@ -4293,11 +4302,6 @@
         "a": "gcp-spanner",
         "b": "gcp-private-service-connect",
         "similarity": 0.2457
-      },
-      {
-        "a": "gcp-spanner",
-        "b": "aws-outposts-family",
-        "similarity": 0.2444
       }
     ],
     "gcp-functions": [
@@ -5696,6 +5700,11 @@
     ],
     "azure-system-topic": [
       {
+        "a": "azure-system-topic",
+        "b": "aws-transfer-as2",
+        "similarity": 0.3235
+      },
+      {
         "a": "aws-eventbridge-event",
         "b": "azure-system-topic",
         "similarity": 0.283
@@ -5704,11 +5713,6 @@
         "a": "azure-system-topic",
         "b": "aws-iot-thing-car",
         "similarity": 0.2751
-      },
-      {
-        "a": "azure-system-topic",
-        "b": "aws-general-mobile-client",
-        "similarity": 0.2686
       }
     ],
     "azure-partner-registration": [
@@ -12100,14 +12104,14 @@
         "similarity": 0.2069
       },
       {
+        "a": "azure-storage-explorer",
+        "b": "aws-transfer-as2",
+        "similarity": 0.202
+      },
+      {
         "a": "azure-log-analytics",
         "b": "azure-storage-explorer",
         "similarity": 0.1909
-      },
-      {
-        "a": "azure-netapp-files",
-        "b": "azure-storage-explorer",
-        "similarity": 0.1905
       }
     ],
     "aws-dynamodb-attribute": [
@@ -16832,8 +16836,8 @@
       },
       {
         "a": "azure-time-series-data-sets",
-        "b": "azure-blob-block",
-        "similarity": 0.2838
+        "b": "aws-transfer-sftp",
+        "similarity": 0.2989
       }
     ],
     "azure-windows-core-services": [
@@ -16844,13 +16848,13 @@
       },
       {
         "a": "azure-windows-core-services",
-        "b": "aws-braket-qpu",
-        "similarity": 0.2539
+        "b": "aws-transfer-as2",
+        "similarity": 0.2726
       },
       {
         "a": "azure-windows-core-services",
-        "b": "aws-iot-servo",
-        "similarity": 0.2495
+        "b": "aws-braket-qpu",
+        "similarity": 0.2539
       }
     ],
     "azure-device-provisioning": [
@@ -17218,13 +17222,13 @@
       },
       {
         "a": "azure-solutions",
-        "b": "aws-backup-s3",
-        "similarity": 0.218
+        "b": "aws-transfer-ftp",
+        "similarity": 0.2183
       },
       {
         "a": "azure-solutions",
-        "b": "azure-frontdoor-cdn-profiles",
-        "similarity": 0.2134
+        "b": "aws-backup-s3",
+        "similarity": 0.218
       }
     ],
     "azure-automation-accounts": [
@@ -18124,8 +18128,8 @@
       },
       {
         "a": "aws-iot-thing-relay",
-        "b": "aws-backup-cloudformation",
-        "similarity": 0.3277
+        "b": "aws-transfer-ftp",
+        "similarity": 0.373
       }
     ],
     "aws-iot-thing-freertos": [
@@ -18221,13 +18225,13 @@
       },
       {
         "a": "aws-iot-sailboat",
-        "b": "aws-s3-glacier-deep-archive",
-        "similarity": 0.2618
+        "b": "aws-transfer-ftp",
+        "similarity": 0.2985
       },
       {
         "a": "aws-iot-sailboat",
-        "b": "aws-glacier-vault",
-        "similarity": 0.2583
+        "b": "aws-s3-glacier-deep-archive",
+        "similarity": 0.2618
       }
     ],
     "aws-iot-sensor": [
@@ -18488,6 +18492,11 @@
     "aws-iot-thing-cart": [
       {
         "a": "aws-iot-thing-cart",
+        "b": "aws-transfer-ftp",
+        "similarity": 0.323
+      },
+      {
+        "a": "aws-iot-thing-cart",
         "b": "aws-general-recover",
         "similarity": 0.2412
       },
@@ -18495,11 +18504,6 @@
         "a": "aws-iot-thing-cart",
         "b": "aws-s3-storage-lens",
         "similarity": 0.2402
-      },
-      {
-        "a": "azure-managed-file-shares",
-        "b": "aws-iot-thing-cart",
-        "similarity": 0.2343
       }
     ],
     "aws-iot-thing-coffee-pot": [
@@ -18684,9 +18688,9 @@
         "similarity": 0.3077
       },
       {
-        "a": "azure-custom-identity-roles",
-        "b": "aws-s3-general-access-point",
-        "similarity": 0.242
+        "a": "aws-s3-general-access-point",
+        "b": "aws-transfer-ftp",
+        "similarity": 0.2685
       }
     ],
     "aws-s3-multiregion-access": [
@@ -18736,8 +18740,8 @@
       },
       {
         "a": "aws-s3-object-lambda",
-        "b": "aws-s3-express-one-zone",
-        "similarity": 0.2373
+        "b": "aws-transfer-sftp",
+        "similarity": 0.2413
       }
     ],
     "aws-s3-object-lambda-access": [
@@ -18849,14 +18853,14 @@
         "similarity": 0.4486
       },
       {
+        "a": "aws-s3-glacier-flexible-retrieval",
+        "b": "aws-transfer-sftp",
+        "similarity": 0.3369
+      },
+      {
         "a": "aws-iot-shadow",
         "b": "aws-s3-glacier-flexible-retrieval",
         "similarity": 0.3133
-      },
-      {
-        "a": "gcp-memorystore",
-        "b": "aws-s3-glacier-flexible-retrieval",
-        "similarity": 0.2798
       }
     ],
     "aws-s3-glacier-instant-retrieval": [
@@ -18866,14 +18870,14 @@
         "similarity": 0.4486
       },
       {
+        "a": "aws-s3-glacier-instant-retrieval",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.2987
+      },
+      {
         "a": "azure-arc-machines",
         "b": "aws-s3-glacier-instant-retrieval",
         "similarity": 0.289
-      },
-      {
-        "a": "aws-s3-glacier-instant-retrieval",
-        "b": "aws-efs-standard-ia",
-        "similarity": 0.2868
       }
     ],
     "aws-s3-intelligent-tiering": [
@@ -18939,9 +18943,9 @@
         "similarity": 0.3102
       },
       {
-        "a": "azure-time-series-data-sets",
-        "b": "aws-s3-standard",
-        "similarity": 0.2752
+        "a": "aws-s3-standard",
+        "b": "aws-transfer-sftp",
+        "similarity": 0.2848
       }
     ],
     "aws-glacier-archive": [
@@ -19100,6 +19104,11 @@
     "aws-efs-one-zone-ia": [
       {
         "a": "aws-efs-one-zone-ia",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3356
+      },
+      {
+        "a": "aws-efs-one-zone-ia",
         "b": "aws-efs-elastic-throughput",
         "similarity": 0.3353
       },
@@ -19107,11 +19116,6 @@
         "a": "aws-efs-one-zone-ia",
         "b": "aws-efs-standard-ia",
         "similarity": 0.3053
-      },
-      {
-        "a": "aws-dynamodb-accelerator",
-        "b": "aws-efs-one-zone-ia",
-        "similarity": 0.2957
       }
     ],
     "aws-efs-one-zone": [
@@ -19139,13 +19143,13 @@
       },
       {
         "a": "aws-efs-standard-ia",
-        "b": "aws-datasync-discovery",
-        "similarity": 0.3395
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3777
       },
       {
-        "a": "aws-efs-one-zone-ia",
-        "b": "aws-efs-standard-ia",
-        "similarity": 0.3053
+        "a": "aws-efs-standard-ia",
+        "b": "aws-datasync-discovery",
+        "similarity": 0.3395
       }
     ],
     "aws-efs-standard": [
@@ -19172,14 +19176,14 @@
         "similarity": 0.3819
       },
       {
+        "a": "aws-efs-elastic-throughput",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3405
+      },
+      {
         "a": "aws-efs-one-zone-ia",
         "b": "aws-efs-elastic-throughput",
         "similarity": 0.3353
-      },
-      {
-        "a": "azure-device-provisioning",
-        "b": "aws-efs-elastic-throughput",
-        "similarity": 0.3034
       }
     ],
     "aws-efs-file-system": [
@@ -19313,9 +19317,9 @@
         "similarity": 0.3447
       },
       {
-        "a": "azure-intune-devices",
-        "b": "aws-file-cache-on-premises",
-        "similarity": 0.3013
+        "a": "aws-file-cache-on-premises",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3103
       }
     ],
     "aws-file-cache-s3": [
@@ -19411,13 +19415,13 @@
       },
       {
         "a": "aws-gateway-file",
-        "b": "aws-discovery-agentless-collector",
-        "similarity": 0.2631
+        "b": "aws-transfer-sftp",
+        "similarity": 0.269
       },
       {
-        "a": "aws-iot-action",
-        "b": "aws-gateway-file",
-        "similarity": 0.26
+        "a": "aws-gateway-file",
+        "b": "aws-discovery-agentless-collector",
+        "similarity": 0.2631
       }
     ],
     "aws-gateway-stored-volume": [
@@ -21426,6 +21430,74 @@
         "similarity": 0.2312
       }
     ],
+    "aws-transfer-as2": [
+      {
+        "a": "azure-system-topic",
+        "b": "aws-transfer-as2",
+        "similarity": 0.3235
+      },
+      {
+        "a": "aws-transfer-as2",
+        "b": "aws-general-mobile-client",
+        "similarity": 0.284
+      },
+      {
+        "a": "azure-windows-core-services",
+        "b": "aws-transfer-as2",
+        "similarity": 0.2726
+      }
+    ],
+    "aws-transfer-ftp": [
+      {
+        "a": "aws-iot-thing-relay",
+        "b": "aws-transfer-ftp",
+        "similarity": 0.373
+      },
+      {
+        "a": "aws-transfer-ftp",
+        "b": "azure-counter",
+        "similarity": 0.3595
+      },
+      {
+        "a": "aws-transfer-ftp",
+        "b": "aws-general-saml-token",
+        "similarity": 0.3457
+      }
+    ],
+    "aws-transfer-ftps": [
+      {
+        "a": "aws-efs-standard-ia",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3777
+      },
+      {
+        "a": "aws-efs-elastic-throughput",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3405
+      },
+      {
+        "a": "aws-efs-one-zone-ia",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.3356
+      }
+    ],
+    "aws-transfer-sftp": [
+      {
+        "a": "aws-s3-glacier-flexible-retrieval",
+        "b": "aws-transfer-sftp",
+        "similarity": 0.3369
+      },
+      {
+        "a": "aws-transfer-sftp",
+        "b": "aws-migration-evaluator-collector",
+        "similarity": 0.3248
+      },
+      {
+        "a": "aws-transfer-sftp",
+        "b": "azure-search-grid",
+        "similarity": 0.3243
+      }
+    ],
     "aws-discovery-agentless-collector": [
       {
         "a": "aws-gateway-cached-volume",
@@ -21489,9 +21561,9 @@
         "similarity": 0.3285
       },
       {
-        "a": "azure-iot-central-applications",
+        "a": "aws-transfer-ftps",
         "b": "aws-datasync-discovery",
-        "similarity": 0.2993
+        "similarity": 0.3058
       }
     ],
     "aws-datasync-agent": [
@@ -21773,14 +21845,14 @@
         "similarity": 0.2781
       },
       {
+        "a": "aws-transfer-ftp",
+        "b": "aws-general-ssl-padlock",
+        "similarity": 0.2462
+      },
+      {
         "a": "aws-general-ssl-padlock",
         "b": "azure-location",
         "similarity": 0.2439
-      },
-      {
-        "a": "aws-gateway-fsx-file",
-        "b": "aws-general-ssl-padlock",
-        "similarity": 0.2432
       }
     ],
     "aws-general-server": [
@@ -21841,14 +21913,14 @@
         "similarity": 0.2882
       },
       {
+        "a": "aws-transfer-ftps",
+        "b": "aws-general-source-code",
+        "similarity": 0.2862
+      },
+      {
         "a": "azure-software-updates",
         "b": "aws-general-source-code",
         "similarity": 0.277
-      },
-      {
-        "a": "aws-iot-fire-tv",
-        "b": "aws-general-source-code",
-        "similarity": 0.2722
       }
     ],
     "aws-general-tape-storage": [
@@ -22118,9 +22190,9 @@
         "similarity": 0.3778
       },
       {
-        "a": "azure-windows-core-services",
+        "a": "aws-transfer-ftp",
         "b": "aws-general-saml-token",
-        "similarity": 0.2782
+        "similarity": 0.3457
       }
     ],
     "aws-general-credentials": [
@@ -25464,6 +25536,11 @@
     ],
     "gcp-category-mixed-reality": [
       {
+        "a": "aws-transfer-ftps",
+        "b": "gcp-category-mixed-reality",
+        "similarity": 0.2273
+      },
+      {
         "a": "azure-device-security-windows",
         "b": "gcp-category-mixed-reality",
         "similarity": 0.2186
@@ -25472,11 +25549,6 @@
         "a": "azure-stack-hci-sizer",
         "b": "gcp-category-mixed-reality",
         "similarity": 0.208
-      },
-      {
-        "a": "gcp-category-mixed-reality",
-        "b": "fabric-group-workspace",
-        "similarity": 0.2042
       }
     ],
     "gcp-category-networking": [
@@ -27719,14 +27791,14 @@
         "similarity": 0.3914
       },
       {
+        "a": "aws-transfer-sftp",
+        "b": "azure-search-grid",
+        "similarity": 0.3243
+      },
+      {
         "a": "azure-web-test",
         "b": "azure-search-grid",
         "similarity": 0.3149
-      },
-      {
-        "a": "azure-search-grid",
-        "b": "azure-log-streaming",
-        "similarity": 0.3094
       }
     ],
     "azure-feature-previews": [
@@ -28207,6 +28279,11 @@
     ],
     "azure-globe-error": [
       {
+        "a": "aws-transfer-sftp",
+        "b": "azure-globe-error",
+        "similarity": 0.2915
+      },
+      {
         "a": "azure-stack-hci-premium",
         "b": "azure-globe-error",
         "similarity": 0.2766
@@ -28215,11 +28292,6 @@
         "a": "gcp-cloud-domains",
         "b": "azure-globe-error",
         "similarity": 0.2735
-      },
-      {
-        "a": "azure-search-grid",
-        "b": "azure-globe-error",
-        "similarity": 0.2711
       }
     ],
     "azure-globe-success": [
@@ -28399,14 +28471,14 @@
         "similarity": 0.4353
       },
       {
+        "a": "aws-transfer-ftp",
+        "b": "azure-counter",
+        "similarity": 0.3595
+      },
+      {
         "a": "aws-iot-thing-relay",
         "b": "azure-counter",
         "similarity": 0.2915
-      },
-      {
-        "a": "aws-gateway-volume",
-        "b": "azure-counter",
-        "similarity": 0.291
       }
     ],
     "azure-cubes": [
@@ -34461,9 +34533,9 @@
         "similarity": 0.2354
       },
       {
-        "a": "aws-eventbridge-event",
+        "a": "aws-transfer-as2",
         "b": "fabric-database-sync",
-        "similarity": 0.1917
+        "similarity": 0.1947
       }
     ],
     "fabric-database-asterisk": [

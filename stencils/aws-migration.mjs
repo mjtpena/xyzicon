@@ -3,6 +3,31 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsMigrationArtwork = [
+  entry("aws-transfer-as2", "aws", "AWS Transfer AS2", ["Res_AWS-Transfer-Family_AWS-AS2_48"],
+    "A signed business document is exchanged between partners.",
+    [
+      line([36, 16], [78, 16], [88, 26], [88, 84], [36, 84], [36, 16]), line([78, 16], [78, 26], [88, 26]), line([45, 37], [76, 37]), line([45, 47], [70, 47]),
+      oval(49, 56, 20, 20), line([54, 76], [51, 86], [59, 82], [66, 86], [63, 76]),
+      line([12, 45], [31, 45]), line([25, 39], [31, 45], [25, 51]), line([96, 59], [116, 59]), line([110, 53], [116, 59], [110, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-transfer-ftp", "aws", "AWS Transfer FTP", ["Res_AWS-Transfer-Family_AWS-FTP_48"],
+    "Files move in both directions using FTP.",
+    [
+      line([19, 39], [19, 28], [40, 28], [49, 37], [102, 37], [102, 85], [19, 85], [19, 39]),
+      line([30, 50], [88, 50]), line([81, 43], [88, 50], [81, 57]), line([90, 70], [32, 70]), line([39, 63], [32, 70], [39, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-transfer-ftps", "aws", "AWS Transfer FTPS", ["Res_AWS-Transfer-Family_AWS-FTPS_48"],
+    "TLS protects FTP file transfers.",
+    [
+      line([12, 36], [12, 26], [28, 26], [36, 34], [70, 34], [70, 79], [12, 79], [12, 36]), line([20, 45], [60, 45]), line([20, 55], [51, 55]),
+      rect(76, 49, 35, 29), line([83, 49], [83, 41], [87, 35], [94, 33], [101, 35], [105, 41], [105, 49]), oval(91, 58, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-transfer-sftp", "aws", "AWS Transfer SFTP", ["Res_AWS-Transfer-Family_AWS-SFTP_48"],
+    "An SSH key secures file transfer.",
+    [
+      line([14, 22], [56, 22], [66, 32], [66, 84], [14, 84], [14, 22]), line([56, 22], [56, 32], [66, 32]), line([23, 42], [56, 42]), line([23, 53], [50, 53]), line([23, 64], [56, 64]),
+      oval(75, 43, 22, 22), line([97, 54], [114, 54]), line([108, 54], [108, 61]), line([114, 54], [114, 61]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-discovery-agentless-collector", "aws", "Application Discovery Agentless Collector", ["Res_AWS-Application-Discovery-Service_AWS-Agentless-Collector_48"],
     "A remote scan discovers servers without an installed agent.",
     [
