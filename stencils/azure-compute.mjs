@@ -1,6 +1,77 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-launch-portal", "azure", "Launch Portal", ["10815-icon-service-Launch-Portal"],
+    "An arrow opens a portal in a new window.",
+    [
+      line([75, 43], [75, 88], [16, 88], [16, 28], [59, 28]), line([49, 61], [100, 18]), line([78, 18], [100, 18], [100, 40]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-learn", "azure", "Learn", ["10816-icon-service-Learn"],
+    "An open book and light bulb represent learning.",
+    [
+      line([13, 30], [37, 26], [60, 33], [60, 93], [37, 86], [13, 90], [13, 30]), line([60, 33], [83, 26], [106, 30], [106, 90], [83, 86], [60, 93]),
+      line([23, 45], [48, 47]), line([23, 55], [48, 57]), line([23, 65], [48, 67]),
+      oval(75, 38, 17, 18), line([79, 56], [79, 62], [88, 62], [88, 56]), line([80, 68], [87, 68]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-load-test", "azure", "Load Test", ["10817-icon-service-Load-Test"],
+    "Multiple requests stress-test a service meter.",
+    [
+      line([15, 30], [42, 30]), line([15, 49], [42, 49]), line([15, 68], [42, 68]), line([36, 24], [42, 30], [36, 36]), line([36, 43], [42, 49], [36, 55]), line([36, 62], [42, 68], [36, 74]),
+      line([52, 83], [53, 67], [59, 54], [70, 47], [82, 47], [93, 54], [99, 67], [100, 83]), line([53, 83], [99, 83]), line([76, 80], [91, 61]), oval(72, 76, 8, 8, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-location", "azure", "Location", ["10818-icon-service-Location"],
+    "A map pin marks a location on a map.",
+    [
+      line([15, 39], [36, 32], [58, 38], [79, 32], [104, 39], [104, 87], [79, 80], [58, 86], [36, 80], [15, 87], [15, 39]), line([36, 32], [36, 80]), line([79, 32], [79, 80]),
+      line([58, 74], [46, 56], [43, 48], [45, 39], [51, 34], [58, 32], [65, 34], [71, 39], [73, 48], [70, 56], [58, 74]), oval(53, 42, 10, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-log-streaming", "azure", "Log Streaming", ["10819-icon-service-Log-Streaming"],
+    "Log entries flow continuously from a source.",
+    [
+      line([15, 24], [49, 24], [58, 33], [58, 88], [15, 88], [15, 24]), line([49, 24], [49, 33], [58, 33]), line([23, 44], [49, 44]), line([23, 55], [49, 55]), line([23, 66], [45, 66]),
+      line([60, 54], [79, 54]), line([73, 48], [79, 54], [73, 60]), line([84, 36], [99, 36]), line([84, 54], [107, 54]), line([84, 72], [99, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-management-portal", "azure", "Management Portal", ["10820-icon-service-Management-Portal"],
+    "A portal combines navigation and resource management.",
+    [
+      rect(14, 19, 94, 76), line([14, 33], [108, 33]), line([38, 33], [38, 95]), line([21, 43], [31, 43]), line([21, 53], [31, 53]), line([21, 63], [31, 63]),
+      rect(47, 42, 51, 18), line([54, 51], [90, 51]), rect(47, 68, 23, 18), rect(75, 68, 23, 18), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-media-file", "azure", "Media File", ["10821-icon-service-Media-File"],
+    "A file page holds a playable media clip.",
+    [
+      line([26, 15], [78, 15], [96, 33], [96, 97], [26, 97], [26, 15]), line([78, 15], [78, 33], [96, 33]),
+      rect(38, 42, 46, 28), line([54, 47], [54, 65], [70, 56], [54, 47]), line([39, 80], [83, 80]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-mobile", "azure", "Mobile", ["10822-icon-service-Mobile"],
+    "A phone and tablet represent mobile devices.",
+    [
+      rect(12, 21, 59, 73), line([12, 33], [71, 33]), line([12, 83], [71, 83]), oval(38, 86, 5, 5, true),
+      rect(74, 40, 29, 54), line([74, 50], [103, 50]), line([74, 84], [103, 84]), oval(86, 87, 5, 5, true), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-mobile-engagement", "azure", "Mobile Engagement", ["10823-icon-service-Mobile-Engagement"],
+    "A mobile device receives an engagement message.",
+    [
+      rect(20, 20, 43, 75), line([20, 32], [63, 32]), line([20, 82], [63, 82]), oval(38, 86, 6, 6, true),
+      line([50, 39], [104, 39], [104, 70], [84, 70], [73, 80], [73, 70], [50, 70], [50, 39]), line([58, 49], [95, 49]), line([58, 58], [88, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-power", "azure", "Power", ["10824-icon-service-Power"],
+    "An electrical plug supplies power.",
+    [
+      line([39, 24], [39, 43]), line([82, 24], [82, 43]), line([28, 43], [93, 43], [93, 56], [88, 68], [77, 75], [45, 75], [34, 68], [28, 56], [28, 43]), line([61, 75], [61, 97]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-powershell", "azure", "PowerShell", ["10825-icon-service-Powershell"],
+    "A PowerShell prompt controls a command pipeline.",
+    [
+      line([16, 23], [54, 23], [63, 32], [63, 87], [16, 87], [16, 23]), line([54, 23], [54, 32], [63, 32]), line([24, 42], [34, 50], [24, 58]), line([39, 59], [53, 59]),
+      line([63, 55], [81, 55]), line([75, 49], [81, 55], [75, 61]), rect(84, 41, 22, 28), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-power-up", "azure", "Power Up", ["10826-icon-service-Power-Up"],
+    "A rocket launches upward to indicate increased capability.",
+    [
+      line([61, 17], [73, 26], [79, 40], [79, 74], [70, 83], [52, 83], [43, 74], [43, 40], [49, 26], [61, 17]), oval(53, 40, 16, 16),
+      line([43, 58], [31, 70], [31, 86], [43, 78]), line([79, 58], [91, 70], [91, 86], [79, 78]), line([53, 88], [53, 100]), line([61, 88], [61, 105]), line([69, 88], [69, 100]), line([14, 114], [110, 114]),
+    ]),
   entry("azure-folder-blank", "azure", "Blank Folder", ["10802-icon-service-Folder-Blank"],
     "An empty folder has a tab and no contents.",
     [
