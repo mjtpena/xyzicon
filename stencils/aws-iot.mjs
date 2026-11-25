@@ -1,6 +1,69 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsIotArtwork = [
+  entry("aws-greengrass-artifact", "aws", "IoT Greengrass Artifact", ["Res_AWS-IoT-Greengrass_Artifact_48"],
+    "An edge software artifact is packaged for deployment.",
+    [
+      line([19, 34], [61, 13], [103, 34], [103, 78], [61, 99], [19, 78], [19, 34]), line([19, 34], [61, 55], [103, 34]), line([61, 55], [61, 99]),
+      line([33, 65], [27, 71], [33, 77]), line([48, 65], [54, 71], [48, 77]), line([43, 62], [38, 80]), line([14, 111], [110, 111]),
+    ]),
+  entry("aws-greengrass-component", "aws", "IoT Greengrass Component", ["Res_AWS-IoT-Greengrass_Component_48"],
+    "A deployable component connects to other edge components.",
+    [
+      rect(39, 31, 45, 43), line([39, 43], [84, 43]), line([47, 53], [75, 53]), line([47, 63], [70, 63]),
+      line([61, 31], [61, 19]), line([39, 52], [27, 52]), line([84, 52], [96, 52]), line([61, 74], [61, 86]), oval(55, 7, 12, 12), oval(15, 46, 12, 12), oval(96, 46, 12, 12), oval(55, 86, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-ml-component", "aws", "IoT Greengrass Machine Learning Component", ["Res_AWS-IoT-Greengrass_Component-Machine-Learning_48"],
+    "An edge component contains a machine-learning model.",
+    [
+      rect(16, 20, 92, 68), line([16, 32], [108, 32]), oval(31, 46, 9, 9), oval(51, 39, 9, 9), oval(51, 64, 9, 9), oval(72, 52, 9, 9),
+      line([40, 50], [51, 43]), line([40, 51], [51, 68]), line([60, 44], [72, 56]), line([60, 68], [72, 57]), line([85, 46], [99, 46]), line([85, 59], [99, 59]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-nucleus", "aws", "IoT Greengrass Nucleus Component", ["Res_AWS-IoT-Greengrass_Component-Nucleus_48"],
+    "The nucleus coordinates edge components.",
+    [
+      rect(39, 34, 45, 37), line([39, 44], [84, 44]), line([47, 54], [76, 54]), line([47, 63], [70, 63]),
+      line([22, 53], [25, 38], [33, 25], [46, 17], [61, 14], [76, 17], [89, 25], [97, 38], [100, 53], [97, 68], [89, 81], [76, 89], [61, 92], [46, 89], [33, 81], [25, 68], [22, 53]),
+      oval(57, 8, 8, 8), oval(96, 49, 8, 8), oval(57, 88, 8, 8), oval(18, 49, 8, 8), line([14, 111], [110, 111]),
+    ]),
+  entry("aws-greengrass-private-component", "aws", "IoT Greengrass Private Component", ["Res_AWS-IoT-Greengrass_Component-Private_48"],
+    "A private component is protected by a lock.",
+    [
+      rect(24, 45, 75, 43), line([36, 45], [36, 34], [41, 22], [50, 16], [61, 14], [72, 16], [81, 22], [86, 34], [86, 45]),
+      rect(39, 53, 45, 27), line([39, 62], [84, 62]), line([47, 70], [76, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-public-component", "aws", "IoT Greengrass Public Component", ["Res_AWS-IoT-Greengrass_Component-Public_48"],
+    "A published component is available through a public registry.",
+    [
+      rect(16, 19, 59, 66), line([16, 31], [75, 31]), line([25, 41], [64, 41]), line([25, 51], [59, 51]), line([25, 61], [64, 61]), line([25, 71], [55, 71]),
+      oval(75, 48, 35, 35), line([92, 48], [86, 55], [85, 65], [86, 76], [92, 83]), line([76, 65], [109, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-connector", "aws", "IoT Greengrass Connector", ["Res_AWS-IoT-Greengrass_Connector_48"],
+    "A connector links two edge services.",
+    [
+      line([12, 51], [31, 51]), line([31, 39], [46, 39], [53, 46], [53, 58], [46, 65], [31, 65], [31, 39]),
+      line([53, 45], [68, 45]), line([53, 59], [68, 59]), line([68, 39], [83, 39], [90, 46], [90, 58], [83, 65], [68, 65], [68, 39]), line([90, 51], [110, 51]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-interprocess", "aws", "IoT Greengrass Interprocess Communication", ["Res_AWS-IoT-Greengrass_Interprocess-Communication_48"],
+    "Two edge processes exchange messages.",
+    [
+      rect(10, 25, 39, 54), line([10, 37], [49, 37]), line([18, 47], [41, 47]), line([18, 58], [37, 58]),
+      rect(75, 25, 39, 54), line([75, 37], [114, 37]), line([83, 47], [106, 47]), line([83, 58], [102, 58]),
+      line([49, 46], [75, 46]), line([69, 40], [75, 46], [69, 52]), line([75, 65], [49, 65]), line([55, 59], [49, 65], [55, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-recipe", "aws", "IoT Greengrass Recipe", ["Res_AWS-IoT-Greengrass_Recipe_48"],
+    "A recipe describes how an edge component is built and run.",
+    [
+      line([17, 15], [78, 15], [90, 27], [90, 93], [17, 93], [17, 15]), line([78, 15], [78, 27], [90, 27]),
+      line([27, 38], [65, 38]), line([27, 49], [56, 49]), line([27, 60], [48, 60]), line([27, 71], [49, 71]),
+      line([64, 65], [74, 59], [84, 65], [84, 76], [74, 82], [64, 76], [64, 65]), line([84, 70], [104, 70]), line([98, 64], [104, 70], [98, 76]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-stream-manager", "aws", "IoT Greengrass Stream Manager", ["Res_AWS-IoT-Greengrass_Stream-Manager_48"],
+    "A stream manager batches and forwards edge data.",
+    [
+      line([13, 34], [46, 34]), line([13, 50], [46, 50]), line([13, 66], [46, 66]), rect(24, 28, 9, 12), rect(35, 44, 9, 12), rect(18, 60, 9, 12),
+      line([46, 50], [59, 50]), line([53, 44], [59, 50], [53, 56]), rect(65, 22, 43, 59), line([65, 34], [108, 34]), line([73, 44], [100, 44]), line([73, 54], [95, 54]), line([73, 64], [100, 64]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-iot-thing-industrial-pc", "aws", "IoT Thing Industrial PC", ["Res_AWS-IoT_Thing_Industrial-PC_48"],
     "An industrial computer controls connected equipment.",
     [

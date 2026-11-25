@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1776,
-  "aliases": 4942,
+  "count": 1786,
+  "aliases": 4952,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -891,6 +891,16 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
+    "aws-greengrass-artifact",
+    "aws-greengrass-component",
+    "aws-greengrass-ml-component",
+    "aws-greengrass-nucleus",
+    "aws-greengrass-private-component",
+    "aws-greengrass-public-component",
+    "aws-greengrass-connector",
+    "aws-greengrass-interprocess",
+    "aws-greengrass-recipe",
+    "aws-greengrass-stream-manager",
     "aws-iot-thing-industrial-pc",
     "aws-iot-thing-plc",
     "aws-iot-thing-relay",
@@ -2076,8 +2086,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1559,
-      "concepts": 514
+      "covered": 1569,
+      "concepts": 524
     },
     "gcp": {
       "sources": 261,
@@ -2089,6 +2099,11 @@
     "azure-virtual-machine": [
       {
         "a": "azure-virtual-machine",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.2482
+      },
+      {
+        "a": "azure-virtual-machine",
         "b": "azure-foundry-local",
         "similarity": 0.244
       },
@@ -2096,11 +2111,6 @@
         "a": "azure-virtual-machine",
         "b": "fabric-arrow-exit-multiple",
         "similarity": 0.232
-      },
-      {
-        "a": "azure-virtual-machine",
-        "b": "azure-resource-group-list",
-        "similarity": 0.2312
       }
     ],
     "azure-kubernetes": [
@@ -2473,8 +2483,8 @@
       },
       {
         "a": "entra-internet-access",
-        "b": "azure-resources-provider",
-        "similarity": 0.1702
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.1739
       }
     ],
     "entra-private-access": [
@@ -2910,13 +2920,13 @@
       },
       {
         "a": "gcp-cloud-run",
-        "b": "azure-service-groups",
-        "similarity": 0.2
+        "b": "aws-greengrass-artifact",
+        "similarity": 0.2122
       },
       {
         "a": "gcp-cloud-run",
-        "b": "aws-dynamodb-accelerator",
-        "similarity": 0.1989
+        "b": "azure-service-groups",
+        "similarity": 0.2
       }
     ],
     "gcp-cloud-sql": [
@@ -4870,8 +4880,8 @@
       },
       {
         "a": "gcp-cloud-dns",
-        "b": "azure-netapp-files",
-        "similarity": 0.2382
+        "b": "aws-greengrass-component",
+        "similarity": 0.2389
       }
     ],
     "gcp-cloud-logging": [
@@ -5018,13 +5028,13 @@
       },
       {
         "a": "m365-call",
-        "b": "aws-iot-hardware-board",
-        "similarity": 0.1116
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.1168
       },
       {
         "a": "m365-call",
-        "b": "azure-storage-explorer",
-        "similarity": 0.1111
+        "b": "aws-iot-hardware-board",
+        "similarity": 0.1116
       }
     ],
     "m365-camera": [
@@ -5052,13 +5062,13 @@
       },
       {
         "a": "m365-certificate",
-        "b": "azure-ssd",
-        "similarity": 0.2401
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.2462
       },
       {
         "a": "m365-certificate",
-        "b": "azure-images-classic",
-        "similarity": 0.2226
+        "b": "azure-ssd",
+        "similarity": 0.2401
       }
     ],
     "m365-chart-multiple": [
@@ -5579,13 +5589,13 @@
       },
       {
         "a": "azure-partner-registration",
-        "b": "aws-general-cold-storage",
-        "similarity": 0.3178
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.3228
       },
       {
         "a": "azure-partner-registration",
-        "b": "fabric-notebook-export",
-        "similarity": 0.2862
+        "b": "aws-general-cold-storage",
+        "similarity": 0.3178
       }
     ],
     "azure-partner-namespace": [
@@ -6332,8 +6342,8 @@
       },
       {
         "a": "aws-lex",
-        "b": "m365-chat",
-        "similarity": 0.2489
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.2503
       }
     ],
     "m365-apps": [
@@ -7461,6 +7471,11 @@
     "gcp-media-translation": [
       {
         "a": "gcp-media-translation",
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.2373
+      },
+      {
+        "a": "gcp-media-translation",
         "b": "m365-building-multiple",
         "similarity": 0.2307
       },
@@ -7468,11 +7483,6 @@
         "a": "gcp-media-translation",
         "b": "aws-dynamodb-global-secondary-index",
         "similarity": 0.2302
-      },
-      {
-        "a": "gcp-media-translation",
-        "b": "azure-time-series-event-sources",
-        "similarity": 0.2184
       }
     ],
     "gcp-video-intelligence": [
@@ -11014,6 +11024,11 @@
     "azure-data-share-invitations": [
       {
         "a": "azure-data-share-invitations",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.3706
+      },
+      {
+        "a": "azure-data-share-invitations",
         "b": "azure-static-apps",
         "similarity": 0.3385
       },
@@ -11021,11 +11036,6 @@
         "a": "azure-data-lake-gen1",
         "b": "azure-data-share-invitations",
         "similarity": 0.3379
-      },
-      {
-        "a": "azure-data-share-invitations",
-        "b": "azure-managed-desktop",
-        "similarity": 0.3288
       }
     ],
     "azure-import-export-jobs": [
@@ -12063,13 +12073,13 @@
       },
       {
         "a": "aws-dynamodb-global-secondary-index",
-        "b": "aws-iot-thing-bank",
-        "similarity": 0.2829
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.3494
       },
       {
         "a": "aws-dynamodb-global-secondary-index",
-        "b": "aws-general-tape-storage",
-        "similarity": 0.2749
+        "b": "aws-iot-thing-bank",
+        "similarity": 0.2829
       }
     ],
     "aws-dynamodb-stream": [
@@ -14472,6 +14482,11 @@
     "aws-deep-learning-amis": [
       {
         "a": "aws-deep-learning-amis",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3011
+      },
+      {
+        "a": "aws-deep-learning-amis",
         "b": "aws-reserved-instance-reporting",
         "similarity": 0.2965
       },
@@ -14479,11 +14494,6 @@
         "a": "aws-deep-learning-amis",
         "b": "azure-external-identities",
         "similarity": 0.269
-      },
-      {
-        "a": "azure-device-registry",
-        "b": "aws-deep-learning-amis",
-        "similarity": 0.2668
       }
     ],
     "aws-sagemaker-studio-lab": [
@@ -15304,6 +15314,11 @@
     ],
     "azure-entra-id-protection": [
       {
+        "a": "azure-entra-id-protection",
+        "b": "aws-greengrass-component",
+        "similarity": 0.2264
+      },
+      {
         "a": "azure-partner-topic",
         "b": "azure-entra-id-protection",
         "similarity": 0.2155
@@ -15311,11 +15326,6 @@
       {
         "a": "azure-entra-id-protection",
         "b": "azure-alerts",
-        "similarity": 0.2149
-      },
-      {
-        "a": "azure-entra-id-protection",
-        "b": "azure-mobile-engagement",
         "similarity": 0.2149
       }
     ],
@@ -15349,8 +15359,8 @@
       },
       {
         "a": "azure-identity-governance",
-        "b": "azure-api-center",
-        "similarity": 0.1971
+        "b": "aws-greengrass-connector",
+        "similarity": 0.1983
       }
     ],
     "azure-identity-roles-administrators": [
@@ -15394,14 +15404,14 @@
         "similarity": 0.25
       },
       {
+        "a": "azure-global-secure-access",
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.2395
+      },
+      {
         "a": "gcp-analytics-hub",
         "b": "azure-global-secure-access",
         "similarity": 0.2272
-      },
-      {
-        "a": "azure-sendgrid-accounts",
-        "b": "azure-global-secure-access",
-        "similarity": 0.2222
       }
     ],
     "azure-external-identities": [
@@ -15411,17 +15421,22 @@
         "similarity": 0.4383
       },
       {
+        "a": "azure-external-identities",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3279
+      },
+      {
         "a": "azure-relays",
         "b": "azure-external-identities",
         "similarity": 0.3094
-      },
-      {
-        "a": "azure-external-identities",
-        "b": "aws-backint-agent",
-        "similarity": 0.2797
       }
     ],
     "azure-entra-private-access": [
+      {
+        "a": "azure-entra-private-access",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3229
+      },
       {
         "a": "azure-external-identities",
         "b": "azure-entra-private-access",
@@ -15431,14 +15446,14 @@
         "a": "aws-deep-learning-amis",
         "b": "azure-entra-private-access",
         "similarity": 0.2347
-      },
-      {
-        "a": "azure-entra-private-access",
-        "b": "fabric-dual-screen-diff",
-        "similarity": 0.2266
       }
     ],
     "azure-entra-internet-access": [
+      {
+        "a": "azure-entra-internet-access",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3338
+      },
       {
         "a": "azure-logic-apps-custom-connector",
         "b": "azure-entra-internet-access",
@@ -15448,11 +15463,6 @@
         "a": "azure-business-process-tracking",
         "b": "azure-entra-internet-access",
         "similarity": 0.2725
-      },
-      {
-        "a": "gcp-api-analytics",
-        "b": "azure-entra-internet-access",
-        "similarity": 0.2613
       }
     ],
     "azure-external-id": [
@@ -15581,14 +15591,14 @@
         "similarity": 0.4383
       },
       {
+        "a": "azure-api-proxy",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.285
+      },
+      {
         "a": "azure-entra-internet-access",
         "b": "azure-api-proxy",
         "similarity": 0.2573
-      },
-      {
-        "a": "azure-api-proxy",
-        "b": "aws-iot-thing-car",
-        "similarity": 0.2428
       }
     ],
     "azure-tenant-properties": [
@@ -15672,8 +15682,8 @@
       },
       {
         "a": "azure-entra-verified-id",
-        "b": "azure-folder-website",
-        "similarity": 0.2556
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.2562
       }
     ],
     "azure-verification-service": [
@@ -15723,8 +15733,8 @@
       },
       {
         "a": "azure-applied-ai",
-        "b": "azure-personalizer",
-        "similarity": 0.2491
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.2573
       }
     ],
     "azure-frd-qa": [
@@ -16029,8 +16039,8 @@
       },
       {
         "a": "azure-foundry-application",
-        "b": "aws-category-front-end",
-        "similarity": 0.2182
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.2339
       }
     ],
     "azure-foundry-agent-service": [
@@ -16652,17 +16662,22 @@
         "similarity": 0.2722
       },
       {
+        "a": "azure-time-series-event-sources",
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.2681
+      },
+      {
         "a": "azure-integration-service-environments",
         "b": "azure-time-series-event-sources",
         "similarity": 0.2626
-      },
-      {
-        "a": "azure-intune-devices",
-        "b": "azure-time-series-event-sources",
-        "similarity": 0.2553
       }
     ],
     "azure-time-series-access-policies": [
+      {
+        "a": "azure-time-series-access-policies",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.2695
+      },
       {
         "a": "azure-identity-roles-administrators",
         "b": "azure-time-series-access-policies",
@@ -16672,11 +16687,6 @@
         "a": "azure-exchange-access",
         "b": "azure-time-series-access-policies",
         "similarity": 0.2454
-      },
-      {
-        "a": "azure-time-series-access-policies",
-        "b": "azure-my-customers",
-        "similarity": 0.2389
       }
     ],
     "azure-time-series-data-sets": [
@@ -16895,9 +16905,9 @@
         "similarity": 0.3013
       },
       {
-        "a": "azure-service-group-relationships",
-        "b": "azure-user-privacy",
-        "similarity": 0.2338
+        "a": "azure-user-privacy",
+        "b": "aws-greengrass-connector",
+        "similarity": 0.2459
       }
     ],
     "azure-managed-desktop": [
@@ -16907,14 +16917,14 @@
         "similarity": 0.4318
       },
       {
+        "a": "azure-managed-desktop",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.3352
+      },
+      {
         "a": "azure-data-share-invitations",
         "b": "azure-managed-desktop",
         "similarity": 0.3288
-      },
-      {
-        "a": "azure-managed-desktop",
-        "b": "azure-resource-group-list",
-        "similarity": 0.3141
       }
     ],
     "azure-customer-lockbox": [
@@ -16941,14 +16951,14 @@
         "similarity": 0.3459
       },
       {
+        "a": "azure-policy",
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.3397
+      },
+      {
         "a": "azure-service-catalog-mad",
         "b": "azure-policy",
         "similarity": 0.3197
-      },
-      {
-        "a": "azure-policy",
-        "b": "aws-general-authenticated-user",
-        "similarity": 0.2805
       }
     ],
     "azure-resource-graph-explorer": [
@@ -16970,6 +16980,11 @@
     ],
     "azure-alerts": [
       {
+        "a": "azure-alerts",
+        "b": "aws-greengrass-component",
+        "similarity": 0.2915
+      },
+      {
         "a": "aws-dynamodb-item",
         "b": "azure-alerts",
         "similarity": 0.252
@@ -16978,14 +16993,14 @@
         "a": "azure-alerts",
         "b": "aws-iot-thing-humidity-sensor",
         "similarity": 0.2325
-      },
-      {
-        "a": "azure-alerts",
-        "b": "azure-recent",
-        "similarity": 0.2315
       }
     ],
     "azure-advisor": [
+      {
+        "a": "azure-advisor",
+        "b": "aws-greengrass-public-component",
+        "similarity": 0.3381
+      },
       {
         "a": "azure-advisor",
         "b": "aws-iot-thing-relay",
@@ -16995,11 +17010,6 @@
         "a": "azure-advisor",
         "b": "azure-blueprints",
         "similarity": 0.3128
-      },
-      {
-        "a": "azure-tenant-properties",
-        "b": "azure-advisor",
-        "similarity": 0.2956
       }
     ],
     "azure-blueprints": [
@@ -17010,13 +17020,13 @@
       },
       {
         "a": "azure-blueprints",
-        "b": "azure-dev-console",
-        "similarity": 0.3293
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.4363
       },
       {
         "a": "azure-blueprints",
-        "b": "azure-resource-group-list",
-        "similarity": 0.3231
+        "b": "azure-dev-console",
+        "similarity": 0.3293
       }
     ],
     "azure-scheduler-job-collections": [
@@ -17170,6 +17180,176 @@
         "a": "azure-universal-print",
         "b": "azure-templates",
         "similarity": 0.3262
+      }
+    ],
+    "aws-greengrass-artifact": [
+      {
+        "a": "aws-greengrass-artifact",
+        "b": "azure-general-error",
+        "similarity": 0.2257
+      },
+      {
+        "a": "gcp-cloud-run",
+        "b": "aws-greengrass-artifact",
+        "similarity": 0.2122
+      },
+      {
+        "a": "aws-greengrass-artifact",
+        "b": "aws-general-disk",
+        "similarity": 0.2028
+      }
+    ],
+    "aws-greengrass-component": [
+      {
+        "a": "azure-alerts",
+        "b": "aws-greengrass-component",
+        "similarity": 0.2915
+      },
+      {
+        "a": "aws-greengrass-component",
+        "b": "azure-power",
+        "similarity": 0.2785
+      },
+      {
+        "a": "aws-mxnet",
+        "b": "aws-greengrass-component",
+        "similarity": 0.2561
+      }
+    ],
+    "aws-greengrass-ml-component": [
+      {
+        "a": "aws-greengrass-ml-component",
+        "b": "azure-static-apps",
+        "similarity": 0.4662
+      },
+      {
+        "a": "azure-blueprints",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.4363
+      },
+      {
+        "a": "aws-greengrass-ml-component",
+        "b": "azure-resource-group-list",
+        "similarity": 0.3877
+      }
+    ],
+    "aws-greengrass-nucleus": [
+      {
+        "a": "aws-greengrass-nucleus",
+        "b": "azure-media-file",
+        "similarity": 0.2704
+      },
+      {
+        "a": "azure-applens",
+        "b": "aws-greengrass-nucleus",
+        "similarity": 0.2513
+      },
+      {
+        "a": "aws-greengrass-nucleus",
+        "b": "azure-file",
+        "similarity": 0.2485
+      }
+    ],
+    "aws-greengrass-private-component": [
+      {
+        "a": "aws-greengrass-private-component",
+        "b": "aws-snowball",
+        "similarity": 0.3463
+      },
+      {
+        "a": "aws-greengrass-private-component",
+        "b": "azure-folder-website",
+        "similarity": 0.3297
+      },
+      {
+        "a": "aws-greengrass-private-component",
+        "b": "azure-media-file",
+        "similarity": 0.267
+      }
+    ],
+    "aws-greengrass-public-component": [
+      {
+        "a": "azure-advisor",
+        "b": "aws-greengrass-public-component",
+        "similarity": 0.3381
+      },
+      {
+        "a": "aws-greengrass-public-component",
+        "b": "azure-code-optimization",
+        "similarity": 0.3224
+      },
+      {
+        "a": "azure-tenant-properties",
+        "b": "aws-greengrass-public-component",
+        "similarity": 0.3159
+      }
+    ],
+    "aws-greengrass-connector": [
+      {
+        "a": "azure-user-privacy",
+        "b": "aws-greengrass-connector",
+        "similarity": 0.2459
+      },
+      {
+        "a": "aws-greengrass-connector",
+        "b": "azure-branch",
+        "similarity": 0.2404
+      },
+      {
+        "a": "aws-greengrass-connector",
+        "b": "azure-commit",
+        "similarity": 0.2209
+      }
+    ],
+    "aws-greengrass-interprocess": [
+      {
+        "a": "azure-entra-internet-access",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3338
+      },
+      {
+        "a": "azure-external-identities",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3279
+      },
+      {
+        "a": "azure-entra-private-access",
+        "b": "aws-greengrass-interprocess",
+        "similarity": 0.3229
+      }
+    ],
+    "aws-greengrass-recipe": [
+      {
+        "a": "azure-policy",
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.3397
+      },
+      {
+        "a": "azure-partner-registration",
+        "b": "aws-greengrass-recipe",
+        "similarity": 0.3228
+      },
+      {
+        "a": "aws-greengrass-recipe",
+        "b": "fabric-document-ssis",
+        "similarity": 0.2837
+      }
+    ],
+    "aws-greengrass-stream-manager": [
+      {
+        "a": "aws-greengrass-stream-manager",
+        "b": "azure-resource-group-list",
+        "similarity": 0.3685
+      },
+      {
+        "a": "aws-dynamodb-global-secondary-index",
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.3494
+      },
+      {
+        "a": "azure-intune-ebooks",
+        "b": "aws-greengrass-stream-manager",
+        "similarity": 0.2835
       }
     ],
     "aws-iot-thing-industrial-pc": [
@@ -17439,9 +17619,9 @@
         "similarity": 0.2426
       },
       {
-        "a": "azure-windows-core-services",
+        "a": "aws-greengrass-private-component",
         "b": "aws-iot-thing-thermostat",
-        "similarity": 0.2303
+        "similarity": 0.2333
       }
     ],
     "aws-iot-thing-stacklight": [
@@ -19333,19 +19513,19 @@
     ],
     "aws-general-tape-storage": [
       {
+        "a": "aws-greengrass-public-component",
+        "b": "aws-general-tape-storage",
+        "similarity": 0.2866
+      },
+      {
         "a": "aws-general-tape-storage",
         "b": "aws-general-credentials",
         "similarity": 0.2865
       },
       {
-        "a": "azure-advisor",
+        "a": "aws-greengrass-ml-component",
         "b": "aws-general-tape-storage",
-        "similarity": 0.2802
-      },
-      {
-        "a": "aws-iot-thing-freertos",
-        "b": "aws-general-tape-storage",
-        "similarity": 0.2798
+        "similarity": 0.2839
       }
     ],
     "aws-general-toolkit": [
@@ -20749,14 +20929,14 @@
         "similarity": 0.2102
       },
       {
+        "a": "aws-greengrass-private-component",
+        "b": "aws-security-agent",
+        "similarity": 0.206
+      },
+      {
         "a": "gcp-trace",
         "b": "aws-security-agent",
         "similarity": 0.1947
-      },
-      {
-        "a": "azure-intune-client-apps",
-        "b": "aws-security-agent",
-        "similarity": 0.1895
       }
     ],
     "aws-security-hub": [
@@ -21169,6 +21349,11 @@
     ],
     "aws-file-cache": [
       {
+        "a": "aws-greengrass-interprocess",
+        "b": "aws-file-cache",
+        "similarity": 0.2475
+      },
+      {
         "a": "aws-transcribe",
         "b": "aws-file-cache",
         "similarity": 0.2185
@@ -21177,11 +21362,6 @@
         "a": "aws-file-cache",
         "b": "aws-category-financial",
         "similarity": 0.2072
-      },
-      {
-        "a": "aws-workdocs-sdk",
-        "b": "aws-file-cache",
-        "similarity": 0.207
       }
     ],
     "aws-s3-on-outposts": [
@@ -21305,19 +21485,19 @@
     ],
     "aws-snowball": [
       {
+        "a": "aws-greengrass-private-component",
+        "b": "aws-snowball",
+        "similarity": 0.3463
+      },
+      {
+        "a": "aws-greengrass-ml-component",
+        "b": "aws-snowball",
+        "similarity": 0.3153
+      },
+      {
         "a": "gcp-risk-manager",
         "b": "aws-snowball",
         "similarity": 0.2859
-      },
-      {
-        "a": "gcp-gke-on-prem",
-        "b": "aws-snowball",
-        "similarity": 0.2671
-      },
-      {
-        "a": "aws-snowball",
-        "b": "azure-folder-website",
-        "similarity": 0.2654
       }
     ],
     "aws-snowball-edge": [
@@ -25267,14 +25447,14 @@
         "similarity": 0.3914
       },
       {
-        "a": "aws-dynamodb-global-secondary-index",
+        "a": "aws-greengrass-ml-component",
         "b": "azure-resource-group-list",
-        "similarity": 0.3661
+        "similarity": 0.3877
       },
       {
-        "a": "azure-resource-group-list",
-        "b": "azure-folder-website",
-        "similarity": 0.3441
+        "a": "aws-greengrass-stream-manager",
+        "b": "azure-resource-group-list",
+        "similarity": 0.3685
       }
     ],
     "azure-resource-linked": [
@@ -25641,14 +25821,14 @@
         "similarity": 0.3441
       },
       {
+        "a": "aws-greengrass-private-component",
+        "b": "azure-folder-website",
+        "similarity": 0.3297
+      },
+      {
         "a": "azure-blueprints",
         "b": "azure-folder-website",
         "similarity": 0.3009
-      },
-      {
-        "a": "azure-folder-website",
-        "b": "fabric-folder-data-bars",
-        "similarity": 0.2994
       }
     ],
     "azure-ftp": [
@@ -26078,6 +26258,11 @@
     ],
     "azure-branch": [
       {
+        "a": "aws-greengrass-connector",
+        "b": "azure-branch",
+        "similarity": 0.2404
+      },
+      {
         "a": "azure-windows-core-services",
         "b": "azure-branch",
         "similarity": 0.2354
@@ -26086,11 +26271,6 @@
         "a": "aws-iot-thing-cart",
         "b": "azure-branch",
         "similarity": 0.199
-      },
-      {
-        "a": "aws-location-routes",
-        "b": "azure-branch",
-        "similarity": 0.1937
       }
     ],
     "azure-browser": [
@@ -26185,14 +26365,14 @@
         "similarity": 0.2821
       },
       {
+        "a": "aws-greengrass-connector",
+        "b": "azure-commit",
+        "similarity": 0.2209
+      },
+      {
         "a": "azure-automation-accounts",
         "b": "azure-commit",
         "similarity": 0.218
-      },
-      {
-        "a": "aws-iot-thing-temperature-sensor",
-        "b": "azure-commit",
-        "similarity": 0.2098
       }
     ],
     "azure-controls": [
@@ -26423,14 +26603,14 @@
         "similarity": 0.5536
       },
       {
+        "a": "aws-greengrass-ml-component",
+        "b": "azure-static-apps",
+        "similarity": 0.4662
+      },
+      {
         "a": "azure-blueprints",
         "b": "azure-static-apps",
         "similarity": 0.4533
-      },
-      {
-        "a": "azure-applens",
-        "b": "azure-static-apps",
-        "similarity": 0.3872
       }
     ],
     "azure-api-center": [
@@ -26746,14 +26926,14 @@
         "similarity": 0.3424
       },
       {
+        "a": "aws-greengrass-public-component",
+        "b": "azure-code-optimization",
+        "similarity": 0.3224
+      },
+      {
         "a": "azure-dev-console",
         "b": "azure-code-optimization",
         "similarity": 0.3179
-      },
-      {
-        "a": "azure-managed-applications-center",
-        "b": "azure-code-optimization",
-        "similarity": 0.3166
       }
     ],
     "azure-service-groups": [
@@ -27863,6 +28043,11 @@
     ],
     "fabric-iot-person": [
       {
+        "a": "aws-greengrass-stream-manager",
+        "b": "fabric-iot-person",
+        "similarity": 0.1468
+      },
+      {
         "a": "azure-resources-provider",
         "b": "fabric-iot-person",
         "similarity": 0.1407
@@ -27871,11 +28056,6 @@
         "a": "aws-global-accelerator",
         "b": "fabric-iot-person",
         "similarity": 0.1397
-      },
-      {
-        "a": "fabric-data-warehouse",
-        "b": "fabric-iot-person",
-        "similarity": 0.1389
       }
     ],
     "fabric-three-shapes": [
