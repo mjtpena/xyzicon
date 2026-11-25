@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 700,
-  "aliases": 2964,
+  "count": 704,
+  "aliases": 2980,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -478,6 +478,10 @@
     "aws-trusted-advisor",
     "aws-resource-explorer",
     "aws-systems-manager",
+    "aws-config",
+    "aws-license-manager",
+    "aws-service-catalog",
+    "aws-sustainability",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -797,8 +801,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 724,
-      "concepts": 179
+      "covered": 740,
+      "concepts": 183
     },
     "gcp": {
       "sources": 261,
@@ -5137,9 +5141,9 @@
         "similarity": 0.1704
       },
       {
-        "a": "azure-encrypted-transport",
-        "b": "fabric-experiments",
-        "similarity": 0.166
+        "a": "fabric-experiments",
+        "b": "aws-license-manager",
+        "similarity": 0.1669
       }
     ],
     "fabric-exploration": [
@@ -5189,8 +5193,8 @@
       },
       {
         "a": "fabric-healthcare",
-        "b": "m365-text-number-list",
-        "similarity": 0.2239
+        "b": "aws-service-catalog",
+        "similarity": 0.2262
       }
     ],
     "fabric-kql-database": [
@@ -6123,9 +6127,9 @@
         "similarity": 0.2082
       },
       {
-        "a": "azure-sql-elastic-pool",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.2037
+        "a": "aws-ec2-autoscaling",
+        "b": "aws-sustainability",
+        "similarity": 0.2053
       }
     ],
     "fabric-stream-connector": [
@@ -6986,13 +6990,13 @@
       },
       {
         "a": "m365-people",
-        "b": "m365-person-settings",
-        "similarity": 0.1903
+        "b": "aws-config",
+        "similarity": 0.1982
       },
       {
         "a": "m365-people",
-        "b": "fabric-chart-phone",
-        "similarity": 0.189
+        "b": "m365-person-settings",
+        "similarity": 0.1903
       }
     ],
     "m365-person-accounts": [
@@ -7422,6 +7426,11 @@
     ],
     "aws-deepracer": [
       {
+        "a": "aws-deepracer",
+        "b": "aws-service-catalog",
+        "similarity": 0.1672
+      },
+      {
         "a": "fabric-healthcare",
         "b": "aws-deepracer",
         "similarity": 0.1616
@@ -7430,11 +7439,6 @@
         "a": "aws-deepracer",
         "b": "gcp-category-web-mobile",
         "similarity": 0.1613
-      },
-      {
-        "a": "aws-outposts-servers",
-        "b": "aws-deepracer",
-        "similarity": 0.1596
       }
     ],
     "aws-health-imaging": [
@@ -7517,9 +7521,9 @@
         "similarity": 0.2217
       },
       {
-        "a": "entra-verified-id",
-        "b": "aws-neuron",
-        "similarity": 0.2041
+        "a": "aws-neuron",
+        "b": "aws-service-catalog",
+        "similarity": 0.221
       }
     ],
     "aws-panorama": [
@@ -8401,9 +8405,9 @@
         "similarity": 0.2595
       },
       {
-        "a": "fabric-mobile-report",
-        "b": "aws-xray",
-        "similarity": 0.2303
+        "a": "aws-xray",
+        "b": "aws-config",
+        "similarity": 0.2304
       }
     ],
     "aws-codecatalyst": [
@@ -8668,14 +8672,14 @@
         "similarity": 0.2181
       },
       {
+        "a": "aws-application-migration",
+        "b": "aws-sustainability",
+        "similarity": 0.1936
+      },
+      {
         "a": "m365-column-arrow",
         "b": "aws-application-migration",
         "similarity": 0.1899
-      },
-      {
-        "a": "fabric-live-dashboard",
-        "b": "aws-application-migration",
-        "similarity": 0.1879
       }
     ],
     "aws-transfer-family": [
@@ -8822,13 +8826,13 @@
       },
       {
         "a": "aws-resource-explorer",
-        "b": "fabric-locked-rows",
-        "similarity": 0.1556
+        "b": "aws-service-catalog",
+        "similarity": 0.1853
       },
       {
-        "a": "azure-encrypted-transport",
-        "b": "aws-resource-explorer",
-        "similarity": 0.1556
+        "a": "aws-resource-explorer",
+        "b": "aws-config",
+        "similarity": 0.1755
       }
     ],
     "aws-systems-manager": [
@@ -8846,6 +8850,74 @@
         "a": "aws-systems-manager",
         "b": "fabric-locked-columns",
         "similarity": 0.2628
+      }
+    ],
+    "aws-config": [
+      {
+        "a": "aws-xray",
+        "b": "aws-config",
+        "similarity": 0.2304
+      },
+      {
+        "a": "aws-config",
+        "b": "aws-service-catalog",
+        "similarity": 0.2182
+      },
+      {
+        "a": "aws-config",
+        "b": "fabric-locked-columns",
+        "similarity": 0.2034
+      }
+    ],
+    "aws-license-manager": [
+      {
+        "a": "fabric-kql-database",
+        "b": "aws-license-manager",
+        "similarity": 0.1949
+      },
+      {
+        "a": "aws-license-manager",
+        "b": "fabric-stacked-text",
+        "similarity": 0.1912
+      },
+      {
+        "a": "azure-encrypted-transport",
+        "b": "aws-license-manager",
+        "similarity": 0.1824
+      }
+    ],
+    "aws-service-catalog": [
+      {
+        "a": "aws-service-catalog",
+        "b": "fabric-locked-rows",
+        "similarity": 0.2838
+      },
+      {
+        "a": "aws-service-catalog",
+        "b": "fabric-locked-columns",
+        "similarity": 0.277
+      },
+      {
+        "a": "aws-systems-manager",
+        "b": "aws-service-catalog",
+        "similarity": 0.2338
+      }
+    ],
+    "aws-sustainability": [
+      {
+        "a": "aws-sustainability",
+        "b": "aws-timestream",
+        "similarity": 0.2673
+      },
+      {
+        "a": "aws-sustainability",
+        "b": "m365-check",
+        "similarity": 0.2566
+      },
+      {
+        "a": "aws-sustainability",
+        "b": "fabric-table-wand",
+        "similarity": 0.2208
       }
     ],
     "m365-arrow-circle-left": [
@@ -9082,9 +9154,9 @@
         "similarity": 0.217
       },
       {
-        "a": "azure-function-apps",
+        "a": "aws-service-catalog",
         "b": "m365-building-people",
-        "similarity": 0.2049
+        "similarity": 0.2118
       }
     ],
     "m365-comment": [
@@ -9201,9 +9273,9 @@
         "similarity": 0.2146
       },
       {
-        "a": "aws-outposts-rack",
+        "a": "aws-service-catalog",
         "b": "m365-folder-open-vertical",
-        "similarity": 0.1918
+        "similarity": 0.2126
       }
     ],
     "m365-grid-circles": [
@@ -10697,6 +10769,11 @@
     ],
     "aws-timestream": [
       {
+        "a": "aws-sustainability",
+        "b": "aws-timestream",
+        "similarity": 0.2673
+      },
+      {
         "a": "m365-check",
         "b": "aws-timestream",
         "similarity": 0.2349
@@ -10705,11 +10782,6 @@
         "a": "aws-databrew",
         "b": "aws-timestream",
         "similarity": 0.2216
-      },
-      {
-        "a": "m365-desktop-tower",
-        "b": "aws-timestream",
-        "similarity": 0.2067
       }
     ],
     "aws-oracle-database": [
@@ -11938,6 +12010,11 @@
     ],
     "fabric-databases-transfer": [
       {
+        "a": "aws-config",
+        "b": "fabric-databases-transfer",
+        "similarity": 0.1881
+      },
+      {
         "a": "aws-tools-sdks",
         "b": "fabric-databases-transfer",
         "similarity": 0.175
@@ -11946,11 +12023,6 @@
         "a": "aws-lookout-equipment",
         "b": "fabric-databases-transfer",
         "similarity": 0.1742
-      },
-      {
-        "a": "m365-data-area",
-        "b": "fabric-databases-transfer",
-        "similarity": 0.1695
       }
     ],
     "fabric-diagram-branch": [
@@ -12404,14 +12476,14 @@
         "notes": "The layout dividers are vertical for columns and horizontal for rows, including at 32px."
       },
       {
+        "a": "aws-service-catalog",
+        "b": "fabric-locked-columns",
+        "similarity": 0.277
+      },
+      {
         "a": "gcp-category-containers",
         "b": "fabric-locked-columns",
         "similarity": 0.2767
-      },
-      {
-        "a": "fabric-calculator-triangle",
-        "b": "fabric-locked-columns",
-        "similarity": 0.2647
       }
     ],
     "fabric-locked-rows": [
@@ -12428,9 +12500,9 @@
         "similarity": 0.2954
       },
       {
-        "a": "m365-apps-list",
+        "a": "aws-service-catalog",
         "b": "fabric-locked-rows",
-        "similarity": 0.2485
+        "similarity": 0.2838
       }
     ],
     "fabric-stack-key": [
@@ -12712,14 +12784,14 @@
         "similarity": 0.1782
       },
       {
+        "a": "aws-sustainability",
+        "b": "fabric-histogram-function",
+        "similarity": 0.1772
+      },
+      {
         "a": "aws-ec2-autoscaling",
         "b": "fabric-histogram-function",
         "similarity": 0.1764
-      },
-      {
-        "a": "aws-application-migration",
-        "b": "fabric-histogram-function",
-        "similarity": 0.1638
       }
     ],
     "fabric-connected-nodes": [
