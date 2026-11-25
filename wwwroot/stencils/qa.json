@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1460,
-  "aliases": 4536,
+  "count": 1467,
+  "aliases": 4544,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -494,6 +494,13 @@
     "fabric-sql-database",
     "fabric-sustainability",
     "fabric-variable-library",
+    "azure-storage-accounts-classic",
+    "azure-storsimple-device-managers",
+    "azure-data-lake-gen1",
+    "azure-storsimple-data-managers",
+    "azure-netapp-files",
+    "azure-data-share-invitations",
+    "azure-import-export-jobs",
     "azure-hpc-cache",
     "azure-data-virtualization",
     "azure-storage-hubs",
@@ -1730,8 +1737,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 308,
-      "concepts": 242
+      "covered": 316,
+      "concepts": 249
     },
     "fabric": {
       "sources": 1584,
@@ -1994,6 +2001,11 @@
     "power-apps": [
       {
         "a": "power-apps",
+        "b": "azure-netapp-files",
+        "similarity": 0.2687
+      },
+      {
+        "a": "power-apps",
         "b": "azure-storage-hubs",
         "similarity": 0.2608
       },
@@ -2001,11 +2013,6 @@
         "a": "power-apps",
         "b": "aws-migration-evaluator",
         "similarity": 0.2564
-      },
-      {
-        "a": "power-apps",
-        "b": "fabric-stacked-text",
-        "similarity": 0.2491
       }
     ],
     "power-dataverse": [
@@ -2033,13 +2040,13 @@
       },
       {
         "a": "dynamics-sales",
-        "b": "gcp-catalog",
-        "similarity": 0.1628
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.172
       },
       {
         "a": "dynamics-sales",
-        "b": "aws-budgets",
-        "similarity": 0.1609
+        "b": "gcp-catalog",
+        "similarity": 0.1628
       }
     ],
     "dynamics-field-service": [
@@ -2152,13 +2159,13 @@
       },
       {
         "a": "entra-internet-access",
-        "b": "gcp-cloud-armor",
-        "similarity": 0.1624
+        "b": "azure-netapp-files",
+        "similarity": 0.1643
       },
       {
         "a": "entra-internet-access",
-        "b": "gcp-category-marketplace",
-        "similarity": 0.1619
+        "b": "gcp-cloud-armor",
+        "similarity": 0.1624
       }
     ],
     "entra-private-access": [
@@ -2696,13 +2703,13 @@
       },
       {
         "a": "azure-operator-nexus",
-        "b": "fabric-data-bar-highlight",
-        "similarity": 0.2539
+        "b": "azure-netapp-files",
+        "similarity": 0.2856
       },
       {
         "a": "azure-operator-nexus",
-        "b": "fabric-board-lightning-sparkle",
-        "similarity": 0.2487
+        "b": "azure-data-share-invitations",
+        "similarity": 0.254
       }
     ],
     "azure-operator-insights": [
@@ -2713,13 +2720,13 @@
       },
       {
         "a": "azure-operator-insights",
-        "b": "azure-operator-service-manager",
-        "similarity": 0.2469
+        "b": "azure-data-lake-gen1",
+        "similarity": 0.2601
       },
       {
         "a": "azure-operator-insights",
-        "b": "fabric-folder-data-bars",
-        "similarity": 0.2464
+        "b": "azure-operator-service-manager",
+        "similarity": 0.2469
       }
     ],
     "azure-operator-service-manager": [
@@ -2781,13 +2788,13 @@
       },
       {
         "a": "azure-edge-storage-accelerator",
-        "b": "azure-monitor-pipeline",
-        "similarity": 0.2671
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2699
       },
       {
         "a": "azure-edge-storage-accelerator",
-        "b": "azure-managed-file-shares",
-        "similarity": 0.2638
+        "b": "azure-monitor-pipeline",
+        "similarity": 0.2671
       }
     ],
     "azure-monitor-pipeline": [
@@ -2905,8 +2912,8 @@
       },
       {
         "a": "azure-sap-monitor",
-        "b": "fabric-cloud-endpoint",
-        "similarity": 0.2888
+        "b": "azure-import-export-jobs",
+        "similarity": 0.341
       }
     ],
     "azure-auto-scale": [
@@ -2929,18 +2936,18 @@
     "azure-recovery-vaults": [
       {
         "a": "azure-recovery-vaults",
+        "b": "azure-storsimple-data-managers",
+        "similarity": 0.2797
+      },
+      {
+        "a": "azure-recovery-vaults",
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2726
+      },
+      {
+        "a": "azure-recovery-vaults",
         "b": "aws-backup",
         "similarity": 0.2649
-      },
-      {
-        "a": "azure-recovery-vaults",
-        "b": "azure-lab-accounts",
-        "similarity": 0.2624
-      },
-      {
-        "a": "azure-recovery-vaults",
-        "b": "aws-ec2-instances",
-        "similarity": 0.2568
       }
     ],
     "azure-databox-gateway": [
@@ -3364,8 +3371,8 @@
       },
       {
         "a": "azure-app-gateway",
-        "b": "fabric-apps",
-        "similarity": 0.2146
+        "b": "azure-netapp-files",
+        "similarity": 0.219
       }
     ],
     "azure-event-hubs": [
@@ -3410,13 +3417,13 @@
       },
       {
         "a": "azure-app-services",
-        "b": "gcp-asset-inventory",
-        "similarity": 0.2677
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.272
       },
       {
         "a": "azure-app-services",
-        "b": "gcp-web-risk",
-        "similarity": 0.2477
+        "b": "gcp-asset-inventory",
+        "similarity": 0.2677
       }
     ],
     "aws-rds": [
@@ -4311,13 +4318,13 @@
       },
       {
         "a": "gcp-cloud-dns",
-        "b": "gcp-quantum-engine",
-        "similarity": 0.2353
+        "b": "azure-netapp-files",
+        "similarity": 0.2382
       },
       {
         "a": "gcp-cloud-dns",
-        "b": "gcp-managed-active-directory",
-        "similarity": 0.23
+        "b": "gcp-quantum-engine",
+        "similarity": 0.2353
       }
     ],
     "gcp-cloud-logging": [
@@ -4634,13 +4641,13 @@
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-document-tree",
-        "similarity": 0.2366
+        "b": "azure-storsimple-data-managers",
+        "similarity": 0.2402
       },
       {
         "a": "m365-document-key",
-        "b": "azure-mysql",
-        "similarity": 0.2268
+        "b": "fabric-document-tree",
+        "similarity": 0.2366
       }
     ],
     "m365-fingerprint": [
@@ -4765,6 +4772,11 @@
     "fabric-apps": [
       {
         "a": "fabric-apps",
+        "b": "azure-netapp-files",
+        "similarity": 0.3361
+      },
+      {
+        "a": "fabric-apps",
         "b": "fabric-slide-accept-dismiss",
         "similarity": 0.319
       },
@@ -4772,11 +4784,6 @@
         "a": "fabric-apps",
         "b": "azure-images-classic",
         "similarity": 0.3124
-      },
-      {
-        "a": "fabric-apps",
-        "b": "fabric-data-warehouse",
-        "similarity": 0.2937
       }
     ],
     "fabric-experiment": [
@@ -6611,8 +6618,8 @@
       },
       {
         "a": "gcp-healthcare-nlp",
-        "b": "azure-private-link-services",
-        "similarity": 0.2978
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.2996
       }
     ],
     "gcp-media-translation": [
@@ -7405,13 +7412,13 @@
       },
       {
         "a": "gcp-iot-core",
-        "b": "fabric-planning",
-        "similarity": 0.2664
+        "b": "azure-netapp-files",
+        "similarity": 0.288
       },
       {
         "a": "gcp-iot-core",
-        "b": "azure-endpoint-analytics",
-        "similarity": 0.2642
+        "b": "fabric-planning",
+        "similarity": 0.2664
       }
     ],
     "gcp-iot-edge": [
@@ -7519,6 +7526,11 @@
     "gcp-cloud-apis": [
       {
         "a": "gcp-cloud-apis",
+        "b": "azure-import-export-jobs",
+        "similarity": 0.2491
+      },
+      {
+        "a": "gcp-cloud-apis",
         "b": "azure-hpc-cache",
         "similarity": 0.2489
       },
@@ -7526,11 +7538,6 @@
         "a": "gcp-cloud-apis",
         "b": "aws-ecs-copilot-cli",
         "similarity": 0.2453
-      },
-      {
-        "a": "gcp-cloud-apis",
-        "b": "azure-managed-file-shares",
-        "similarity": 0.2452
       }
     ],
     "gcp-cloud-inference": [
@@ -7740,6 +7747,11 @@
     "gcp-vmware-engine": [
       {
         "a": "gcp-vmware-engine",
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.2656
+      },
+      {
+        "a": "gcp-vmware-engine",
         "b": "azure-hpc-cache",
         "similarity": 0.2532
       },
@@ -7747,11 +7759,6 @@
         "a": "gcp-vmware-engine",
         "b": "azure-devtest-labs",
         "similarity": 0.2511
-      },
-      {
-        "a": "gcp-vmware-engine",
-        "b": "aws-category-compute",
-        "similarity": 0.249
       }
     ],
     "gcp-memorystore": [
@@ -7779,13 +7786,13 @@
       },
       {
         "a": "gcp-workload-identity-pool",
-        "b": "fabric-squares-diagram",
-        "similarity": 0.2537
+        "b": "azure-netapp-files",
+        "similarity": 0.2547
       },
       {
         "a": "gcp-workload-identity-pool",
-        "b": "m365-lightbulb-check",
-        "similarity": 0.2524
+        "b": "fabric-squares-diagram",
+        "similarity": 0.2537
       }
     ],
     "gcp-data-layers": [
@@ -9678,6 +9685,11 @@
     "fabric-data-warehouse": [
       {
         "a": "fabric-data-warehouse",
+        "b": "azure-netapp-files",
+        "similarity": 0.3977
+      },
+      {
+        "a": "fabric-data-warehouse",
         "b": "aws-backup",
         "similarity": 0.2986
       },
@@ -9685,11 +9697,6 @@
         "a": "fabric-data-warehouse",
         "b": "aws-snowball-edge",
         "similarity": 0.2952
-      },
-      {
-        "a": "fabric-apps",
-        "b": "fabric-data-warehouse",
-        "similarity": 0.2937
       }
     ],
     "fabric-dataflow": [
@@ -10083,6 +10090,125 @@
         "similarity": 0.3343
       }
     ],
+    "azure-storage-accounts-classic": [
+      {
+        "a": "azure-storage-accounts-classic",
+        "b": "aws-ec2-instances",
+        "similarity": 0.3731
+      },
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.2996
+      },
+      {
+        "a": "azure-storage-accounts-classic",
+        "b": "azure-hpc-cache",
+        "similarity": 0.2855
+      }
+    ],
+    "azure-storsimple-device-managers": [
+      {
+        "a": "azure-recovery-vaults",
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2726
+      },
+      {
+        "a": "azure-monitor-pipeline",
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2721
+      },
+      {
+        "a": "azure-edge-storage-accelerator",
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2699
+      }
+    ],
+    "azure-data-lake-gen1": [
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "azure-data-share-invitations",
+        "similarity": 0.3379
+      },
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "fabric-folder-data-bars",
+        "similarity": 0.331
+      },
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.3175
+      }
+    ],
+    "azure-storsimple-data-managers": [
+      {
+        "a": "azure-storsimple-data-managers",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2891
+      },
+      {
+        "a": "azure-storsimple-data-managers",
+        "b": "fabric-squares-diagram",
+        "similarity": 0.2823
+      },
+      {
+        "a": "azure-storsimple-data-managers",
+        "b": "azure-managed-database",
+        "similarity": 0.2819
+      }
+    ],
+    "azure-netapp-files": [
+      {
+        "a": "azure-netapp-files",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.4551
+      },
+      {
+        "a": "fabric-data-warehouse",
+        "b": "azure-netapp-files",
+        "similarity": 0.3977
+      },
+      {
+        "a": "azure-netapp-files",
+        "b": "aws-backup",
+        "similarity": 0.3619
+      }
+    ],
+    "azure-data-share-invitations": [
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "azure-data-share-invitations",
+        "similarity": 0.3379
+      },
+      {
+        "a": "azure-data-share-invitations",
+        "b": "aws-category-compute",
+        "similarity": 0.3021
+      },
+      {
+        "a": "azure-data-share-invitations",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.2957
+      }
+    ],
+    "azure-import-export-jobs": [
+      {
+        "a": "azure-sap-monitor",
+        "b": "azure-import-export-jobs",
+        "similarity": 0.341
+      },
+      {
+        "a": "azure-import-export-jobs",
+        "b": "fabric-endpoint",
+        "similarity": 0.3333
+      },
+      {
+        "a": "azure-import-export-jobs",
+        "b": "azure-managed-file-shares",
+        "similarity": 0.2874
+      }
+    ],
     "azure-hpc-cache": [
       {
         "a": "azure-sap-monitor",
@@ -10095,12 +10221,17 @@
         "similarity": 0.3989
       },
       {
-        "a": "azure-hpc-cache",
-        "b": "fabric-endpoint",
-        "similarity": 0.2823
+        "a": "azure-storage-accounts-classic",
+        "b": "azure-hpc-cache",
+        "similarity": 0.2855
       }
     ],
     "azure-data-virtualization": [
+      {
+        "a": "azure-import-export-jobs",
+        "b": "azure-data-virtualization",
+        "similarity": 0.2834
+      },
       {
         "a": "azure-data-virtualization",
         "b": "aws-emr-cluster",
@@ -10110,11 +10241,6 @@
         "a": "azure-programmable-connectivity",
         "b": "azure-data-virtualization",
         "similarity": 0.2801
-      },
-      {
-        "a": "azure-data-virtualization",
-        "b": "azure-devops-starter",
-        "similarity": 0.2751
       }
     ],
     "azure-storage-hubs": [
@@ -10129,9 +10255,9 @@
         "similarity": 0.321
       },
       {
-        "a": "azure-activity-log",
+        "a": "azure-netapp-files",
         "b": "azure-storage-hubs",
-        "similarity": 0.3101
+        "similarity": 0.3115
       }
     ],
     "azure-storage-actions": [
@@ -10146,9 +10272,9 @@
         "similarity": 0.2554
       },
       {
-        "a": "azure-storage-actions",
-        "b": "fabric-document-people",
-        "similarity": 0.2529
+        "a": "azure-data-lake-gen1",
+        "b": "azure-storage-actions",
+        "similarity": 0.2538
       }
     ],
     "azure-managed-file-shares": [
@@ -10163,9 +10289,9 @@
         "similarity": 0.304
       },
       {
-        "a": "azure-operator-service-manager",
+        "a": "azure-import-export-jobs",
         "b": "azure-managed-file-shares",
-        "similarity": 0.2791
+        "similarity": 0.2874
       }
     ],
     "azure-file-shares": [
@@ -10471,14 +10597,14 @@
         "similarity": 0.2845
       },
       {
-        "a": "azure-managed-database",
-        "b": "fabric-document-sparkles",
-        "similarity": 0.2681
+        "a": "azure-storsimple-data-managers",
+        "b": "azure-managed-database",
+        "similarity": 0.2819
       },
       {
         "a": "azure-managed-database",
-        "b": "azure-image-definitions",
-        "similarity": 0.264
+        "b": "fabric-document-sparkles",
+        "similarity": 0.2681
       }
     ],
     "azure-redis-cache": [
@@ -10500,6 +10626,11 @@
     ],
     "azure-instance-pools": [
       {
+        "a": "azure-netapp-files",
+        "b": "azure-instance-pools",
+        "similarity": 0.2923
+      },
+      {
         "a": "azure-edge-storage-accelerator",
         "b": "azure-instance-pools",
         "similarity": 0.2818
@@ -10508,11 +10639,6 @@
         "a": "azure-instance-pools",
         "b": "azure-workspaces-select",
         "similarity": 0.281
-      },
-      {
-        "a": "azure-instance-pools",
-        "b": "fabric-squares-diagram",
-        "similarity": 0.2805
       }
     ],
     "azure-sql-registries": [
@@ -10607,14 +10733,14 @@
         "similarity": 0.2892
       },
       {
+        "a": "azure-storsimple-data-managers",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2891
+      },
+      {
         "a": "gcp-user-preferences",
         "b": "azure-endpoint-analytics",
         "similarity": 0.2746
-      },
-      {
-        "a": "azure-endpoint-analytics",
-        "b": "aws-vpc-internet-gateway",
-        "similarity": 0.2686
       }
     ],
     "azure-workbooks": [
@@ -11003,9 +11129,9 @@
         "similarity": 0.1909
       },
       {
-        "a": "azure-storage-explorer",
-        "b": "aws-ec2-instances",
-        "similarity": 0.1863
+        "a": "azure-netapp-files",
+        "b": "azure-storage-explorer",
+        "similarity": 0.1905
       }
     ],
     "aws-glue-ray": [
@@ -11078,6 +11204,11 @@
     ],
     "aws-emr-engine": [
       {
+        "a": "azure-import-export-jobs",
+        "b": "aws-emr-engine",
+        "similarity": 0.2164
+      },
+      {
         "a": "aws-emr-engine",
         "b": "fabric-phone-data-bars",
         "similarity": 0.2144
@@ -11086,11 +11217,6 @@
         "a": "aws-emr-engine",
         "b": "azure-managed-devops-pools",
         "similarity": 0.2122
-      },
-      {
-        "a": "aws-emr-engine",
-        "b": "fabric-shapes-curved-arrow",
-        "similarity": 0.209
       }
     ],
     "aws-emr-hdfs-cluster": [
@@ -11129,6 +11255,11 @@
     ],
     "aws-opensearch-admin-node": [
       {
+        "a": "azure-storsimple-device-managers",
+        "b": "aws-opensearch-admin-node",
+        "similarity": 0.2533
+      },
+      {
         "a": "azure-edge-storage-accelerator",
         "b": "aws-opensearch-admin-node",
         "similarity": 0.2493
@@ -11137,11 +11268,6 @@
         "a": "gcp-bare-metal",
         "b": "aws-opensearch-admin-node",
         "similarity": 0.2455
-      },
-      {
-        "a": "aws-opensearch-admin-node",
-        "b": "azure-openshift",
-        "similarity": 0.2415
       }
     ],
     "aws-opensearch-data-node": [
@@ -11156,9 +11282,9 @@
         "similarity": 0.2527
       },
       {
-        "a": "azure-ai-at-edge",
+        "a": "azure-storage-accounts-classic",
         "b": "aws-opensearch-data-node",
-        "similarity": 0.2356
+        "similarity": 0.251
       }
     ],
     "aws-opensearch-index": [
@@ -11219,14 +11345,14 @@
         "similarity": 0.3006
       },
       {
+        "a": "azure-data-share-invitations",
+        "b": "aws-opensearch-ingestion",
+        "similarity": 0.2957
+      },
+      {
         "a": "aws-opensearch-ingestion",
         "b": "aws-vpc",
         "similarity": 0.2805
-      },
-      {
-        "a": "gcp-local-ssd",
-        "b": "aws-opensearch-ingestion",
-        "similarity": 0.2695
       }
     ],
     "aws-opensearch-traces": [
@@ -12319,6 +12445,11 @@
     ],
     "m365-building": [
       {
+        "a": "azure-netapp-files",
+        "b": "m365-building",
+        "similarity": 0.2618
+      },
+      {
         "a": "m365-retail-building",
         "b": "m365-building",
         "similarity": 0.2476
@@ -12327,11 +12458,6 @@
         "a": "m365-lock",
         "b": "m365-building",
         "similarity": 0.2437
-      },
-      {
-        "a": "gcp-memorystore",
-        "b": "m365-building",
-        "similarity": 0.2435
       }
     ],
     "m365-clock": [
@@ -13502,9 +13628,9 @@
         "similarity": 0.1808
       },
       {
-        "a": "fabric-paginated-report",
+        "a": "azure-netapp-files",
         "b": "aws-health-lake",
-        "similarity": 0.1767
+        "similarity": 0.1791
       }
     ],
     "aws-health-omics": [
@@ -13893,9 +14019,9 @@
         "similarity": 0.2803
       },
       {
-        "a": "azure-planetary-computer",
-        "b": "aws-ec2-instances",
-        "similarity": 0.2785
+        "a": "azure-import-export-jobs",
+        "b": "azure-planetary-computer",
+        "similarity": 0.2787
       }
     ],
     "azure-language": [
@@ -13944,9 +14070,9 @@
         "similarity": 0.203
       },
       {
-        "a": "azure-bot-services",
-        "b": "aws-category-compute",
-        "similarity": 0.1939
+        "a": "azure-netapp-files",
+        "b": "azure-bot-services",
+        "similarity": 0.1941
       }
     ],
     "azure-cognitive-services": [
@@ -15299,14 +15425,14 @@
         "similarity": 0.2768
       },
       {
+        "a": "azure-storage-accounts-classic",
+        "b": "aws-marketplace",
+        "similarity": 0.2714
+      },
+      {
         "a": "aws-marketplace",
         "b": "aws-elemental-appliances",
         "similarity": 0.2629
-      },
-      {
-        "a": "azure-storage-hubs",
-        "b": "aws-marketplace",
-        "similarity": 0.2498
       }
     ],
     "aws-partner-central": [
@@ -15889,6 +16015,11 @@
     ],
     "aws-migration-evaluator": [
       {
+        "a": "azure-netapp-files",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2847
+      },
+      {
         "a": "aws-migration-evaluator",
         "b": "aws-vpc-internet-gateway",
         "similarity": 0.2708
@@ -15897,11 +16028,6 @@
         "a": "aws-migration-evaluator",
         "b": "aws-ec2-instances",
         "similarity": 0.2663
-      },
-      {
-        "a": "gcp-analytics-hub",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2615
       }
     ],
     "aws-transform": [
@@ -16001,9 +16127,9 @@
         "similarity": 0.2072
       },
       {
-        "a": "azure-programmable-connectivity",
+        "a": "azure-storage-accounts-classic",
         "b": "aws-application-discovery",
-        "similarity": 0.1942
+        "similarity": 0.2043
       }
     ],
     "aws-service-management-connector": [
@@ -16375,9 +16501,9 @@
         "similarity": 0.1872
       },
       {
-        "a": "m365-retail-building",
+        "a": "azure-storsimple-device-managers",
         "b": "aws-resilience-hub",
-        "similarity": 0.178
+        "similarity": 0.1848
       }
     ],
     "aws-elemental-appliances": [
@@ -17113,6 +17239,11 @@
     ],
     "aws-backup": [
       {
+        "a": "azure-netapp-files",
+        "b": "aws-backup",
+        "similarity": 0.3619
+      },
+      {
         "a": "aws-backup",
         "b": "fabric-document-ssis",
         "similarity": 0.3409
@@ -17121,11 +17252,6 @@
         "a": "aws-backup",
         "b": "fabric-slide-accept-dismiss",
         "similarity": 0.3122
-      },
-      {
-        "a": "fabric-data-warehouse",
-        "b": "aws-backup",
-        "similarity": 0.2986
       }
     ],
     "aws-elastic-disaster-recovery": [
@@ -17532,9 +17658,9 @@
         "similarity": 0.2762
       },
       {
-        "a": "m365-building-multiple",
-        "b": "aws-outposts-family",
-        "similarity": 0.2708
+        "a": "azure-storage-accounts-classic",
+        "b": "m365-building-multiple",
+        "similarity": 0.2717
       }
     ],
     "m365-building-people": [
@@ -17828,6 +17954,11 @@
     ],
     "m365-cloud-beaker": [
       {
+        "a": "azure-storsimple-device-managers",
+        "b": "m365-cloud-beaker",
+        "similarity": 0.215
+      },
+      {
         "a": "m365-cloud-beaker",
         "b": "m365-cloud-cube",
         "similarity": 0.1863
@@ -17836,11 +17967,6 @@
         "a": "azure-edge-storage-accelerator",
         "b": "m365-cloud-beaker",
         "similarity": 0.1835
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "m365-cloud-beaker",
-        "similarity": 0.1658
       }
     ],
     "m365-cloud-cube": [
@@ -18388,9 +18514,9 @@
         "similarity": 0.2065
       },
       {
-        "a": "aws-workmail",
+        "a": "azure-netapp-files",
         "b": "aws-global-accelerator",
-        "similarity": 0.1995
+        "similarity": 0.2065
       }
     ],
     "aws-interconnect": [
@@ -19523,19 +19649,19 @@
     ],
     "aws-ec2-instances": [
       {
+        "a": "azure-storage-accounts-classic",
+        "b": "aws-ec2-instances",
+        "similarity": 0.3731
+      },
+      {
         "a": "azure-activity-log",
         "b": "aws-ec2-instances",
         "similarity": 0.2885
       },
       {
-        "a": "azure-planetary-computer",
+        "a": "azure-netapp-files",
         "b": "aws-ec2-instances",
-        "similarity": 0.2785
-      },
-      {
-        "a": "aws-ec2-instances",
-        "b": "fabric-document-ssis",
-        "similarity": 0.278
+        "similarity": 0.2841
       }
     ],
     "aws-ec2-rescue": [
@@ -20203,6 +20329,11 @@
     ],
     "aws-category-end-user": [
       {
+        "a": "azure-netapp-files",
+        "b": "aws-category-end-user",
+        "similarity": 0.2436
+      },
+      {
         "a": "aws-xray",
         "b": "aws-category-end-user",
         "similarity": 0.2355
@@ -20211,11 +20342,6 @@
         "a": "azure-private-link-services",
         "b": "aws-category-end-user",
         "similarity": 0.2237
-      },
-      {
-        "a": "aws-category-end-user",
-        "b": "azure-managed-devops-pools",
-        "similarity": 0.2222
       }
     ],
     "aws-category-financial": [
@@ -20271,6 +20397,11 @@
     ],
     "aws-category-compute": [
       {
+        "a": "azure-data-share-invitations",
+        "b": "aws-category-compute",
+        "similarity": 0.3021
+      },
+      {
         "a": "fabric-data-agent",
         "b": "aws-category-compute",
         "similarity": 0.2752
@@ -20279,11 +20410,6 @@
         "a": "azure-applens",
         "b": "aws-category-compute",
         "similarity": 0.2622
-      },
-      {
-        "a": "gcp-vmware-engine",
-        "b": "aws-category-compute",
-        "similarity": 0.249
       }
     ],
     "aws-category-databases": [
@@ -20883,6 +21009,11 @@
     ],
     "azure-change-analysis": [
       {
+        "a": "azure-data-lake-gen1",
+        "b": "azure-change-analysis",
+        "similarity": 0.3041
+      },
+      {
         "a": "azure-change-analysis",
         "b": "azure-stage-maps",
         "similarity": 0.2455
@@ -20891,11 +21022,6 @@
         "a": "azure-change-analysis",
         "b": "fabric-document-people",
         "similarity": 0.238
-      },
-      {
-        "a": "azure-metrics",
-        "b": "azure-change-analysis",
-        "similarity": 0.2296
       }
     ],
     "azure-devops-starter": [
@@ -20910,9 +21036,9 @@
         "similarity": 0.3765
       },
       {
-        "a": "azure-devops-starter",
-        "b": "azure-api-connections",
-        "similarity": 0.2761
+        "a": "azure-import-export-jobs",
+        "b": "azure-devops-starter",
+        "similarity": 0.2771
       }
     ],
     "azure-managed-devops-pools": [
@@ -21024,14 +21150,14 @@
         "similarity": 0.5098
       },
       {
+        "a": "azure-storsimple-device-managers",
+        "b": "azure-lab-services",
+        "similarity": 0.2513
+      },
+      {
         "a": "azure-lab-services",
         "b": "fabric-industry-solutions",
         "similarity": 0.2254
-      },
-      {
-        "a": "azure-machine-learning-classic",
-        "b": "azure-lab-services",
-        "similarity": 0.2218
       }
     ],
     "azure-lab-accounts": [
@@ -21041,14 +21167,14 @@
         "similarity": 0.2786
       },
       {
+        "a": "azure-storage-accounts-classic",
+        "b": "azure-lab-accounts",
+        "similarity": 0.2745
+      },
+      {
         "a": "azure-workspace-gateway",
         "b": "azure-lab-accounts",
         "similarity": 0.2708
-      },
-      {
-        "a": "azure-sap-monitor",
-        "b": "azure-lab-accounts",
-        "similarity": 0.2647
       }
     ],
     "azure-code-optimization": [
@@ -21364,14 +21490,14 @@
         "similarity": 0.3872
       },
       {
+        "a": "azure-data-lake-gen1",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.3175
+      },
+      {
         "a": "azure-cloud-services-classic",
         "b": "fabric-folder-data-bars",
         "similarity": 0.2973
-      },
-      {
-        "a": "azure-operator-service-manager",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.2782
       }
     ],
     "azure-app-service-plans": [
@@ -22005,6 +22131,11 @@
     ],
     "azure-hosts": [
       {
+        "a": "azure-data-share-invitations",
+        "b": "azure-hosts",
+        "similarity": 0.279
+      },
+      {
         "a": "aws-sns-email-notification",
         "b": "azure-hosts",
         "similarity": 0.2519
@@ -22013,11 +22144,6 @@
         "a": "azure-hosts",
         "b": "fabric-data-bar-highlight",
         "similarity": 0.2318
-      },
-      {
-        "a": "aws-ec2-ami",
-        "b": "azure-hosts",
-        "similarity": 0.2248
       }
     ],
     "fabric-cube-cone-sphere": [
@@ -22542,9 +22668,9 @@
         "similarity": 0.3409
       },
       {
-        "a": "aws-snowball-edge",
+        "a": "azure-netapp-files",
         "b": "fabric-document-ssis",
-        "similarity": 0.314
+        "similarity": 0.3369
       }
     ],
     "fabric-document-ssis-play": [
@@ -22644,9 +22770,9 @@
         "similarity": 0.2446
       },
       {
-        "a": "azure-metrics",
+        "a": "azure-data-lake-gen1",
         "b": "fabric-board-lightning-asterisk",
-        "similarity": 0.2364
+        "similarity": 0.2366
       }
     ],
     "fabric-board-lightning-kql": [
@@ -22838,6 +22964,11 @@
     ],
     "fabric-endpoint": [
       {
+        "a": "azure-import-export-jobs",
+        "b": "fabric-endpoint",
+        "similarity": 0.3333
+      },
+      {
         "a": "azure-api-connections",
         "b": "fabric-endpoint",
         "similarity": 0.306
@@ -22846,11 +22977,6 @@
         "a": "azure-monitor-pipeline",
         "b": "fabric-endpoint",
         "similarity": 0.2995
-      },
-      {
-        "a": "azure-hpc-cache",
-        "b": "fabric-endpoint",
-        "similarity": 0.2823
       }
     ],
     "fabric-folder-data-bars": [
@@ -22860,14 +22986,14 @@
         "similarity": 0.3638
       },
       {
+        "a": "azure-data-lake-gen1",
+        "b": "fabric-folder-data-bars",
+        "similarity": 0.331
+      },
+      {
         "a": "azure-cloud-services-classic",
         "b": "fabric-folder-data-bars",
         "similarity": 0.2973
-      },
-      {
-        "a": "azure-service-groups",
-        "b": "fabric-folder-data-bars",
-        "similarity": 0.2757
       }
     ],
     "fabric-globe-settings": [
@@ -23585,6 +23711,11 @@
     ],
     "fabric-slide-accept-dismiss": [
       {
+        "a": "azure-netapp-files",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.4551
+      },
+      {
         "a": "fabric-slide-accept-dismiss",
         "b": "fabric-slide-ribbon",
         "similarity": 0.4456
@@ -23593,11 +23724,6 @@
         "a": "fabric-slide-accept-dismiss",
         "b": "fabric-slide-window",
         "similarity": 0.4385
-      },
-      {
-        "a": "fabric-document-ssis",
-        "b": "fabric-slide-accept-dismiss",
-        "similarity": 0.396
       }
     ],
     "fabric-slide-ribbon": [
@@ -24678,14 +24804,14 @@
         "similarity": 0.2715
       },
       {
+        "a": "azure-data-lake-gen1",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2712
+      },
+      {
         "a": "fabric-endpoint",
         "b": "fabric-sample-workload",
         "similarity": 0.2602
-      },
-      {
-        "a": "fabric-folder-data-bars",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2561
       }
     ],
     "fabric-industry-solutions": [
@@ -24831,14 +24957,14 @@
         "similarity": 0.3031
       },
       {
+        "a": "azure-netapp-files",
+        "b": "fabric-databases-kql",
+        "similarity": 0.2411
+      },
+      {
         "a": "aws-ec2-instances",
         "b": "fabric-databases-kql",
         "similarity": 0.2094
-      },
-      {
-        "a": "azure-application-group",
-        "b": "fabric-databases-kql",
-        "similarity": 0.2038
       }
     ],
     "fabric-database-badge-pulse": [
@@ -25282,9 +25408,9 @@
         "similarity": 0.2745
       },
       {
-        "a": "azure-storage-queue",
+        "a": "azure-data-share-invitations",
         "b": "fabric-column-brackets",
-        "similarity": 0.2588
+        "similarity": 0.2672
       }
     ],
     "fabric-column-function": [
@@ -25639,9 +25765,9 @@
         "similarity": 0.2888
       },
       {
-        "a": "fabric-endpoint",
+        "a": "azure-import-export-jobs",
         "b": "fabric-cloud-endpoint",
-        "similarity": 0.2808
+        "similarity": 0.2813
       }
     ],
     "fabric-connector": [

@@ -1,6 +1,49 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-storage-accounts-classic", "azure", "Storage Accounts Classic", ["10087-icon-service-Storage-Accounts-(Classic)"],
+    "A classic account organizes stored files.",
+    [
+      rect(18, 19, 79, 70), line([18, 34], [97, 34]), line([27, 46], [87, 46]), line([27, 58], [87, 58]), line([27, 70], [76, 70]),
+      oval(77, 75, 24, 24), line([89, 80], [89, 87], [95, 91]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-storsimple-device-managers", "azure", "StorSimple Device Managers", ["10089-icon-service-StorSimple-Device-Managers"],
+    "A cloud service manages a local storage device.",
+    [
+      line([22, 68], [15, 62], [15, 51], [21, 43], [30, 40], [34, 30], [43, 25], [54, 25], [63, 30], [66, 39], [76, 40], [84, 47], [86, 57]),
+      rect(34, 55, 55, 40), line([34, 66], [89, 66]), line([43, 75], [79, 75]), line([43, 84], [70, 84]), oval(75, 25, 16, 16), line([83, 21], [83, 25]), line([83, 41], [83, 46]), line([70, 33], [75, 33]), line([91, 33], [96, 33]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-data-lake-gen1", "azure", "Data Lake Storage Gen1", ["10090-icon-service-Data-Lake-Storage-Gen1"],
+    "A first-generation data lake stores files.",
+    [
+      line([16, 36], [16, 25], [38, 25], [45, 33], [99, 33], [99, 91], [16, 91], [16, 36]),
+      line([50, 45], [41, 64], [53, 64], [48, 80], [69, 58], [57, 58], [63, 45], [50, 45]),
+      line([14, 110], [110, 110]),
+    ]),
+  entry("azure-storsimple-data-managers", "azure", "StorSimple Data Managers", ["10092-icon-service-StorSimple-Data-Managers"],
+    "A gear manages StorSimple data.",
+    [
+      oval(20, 17, 72, 21), line([20, 27], [20, 88], [29, 96], [83, 96], [92, 88], [92, 27]),
+      line([56, 44], [62, 50], [70, 50], [70, 58], [76, 64], [70, 70], [70, 78], [62, 78], [56, 84], [50, 78], [42, 78], [42, 70], [36, 64], [42, 58], [42, 50], [50, 50], [56, 44]), oval(50, 58, 12, 12), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-netapp-files", "azure", "Azure NetApp Files", ["10096-icon-service-Azure-NetApp-Files"],
+    "A storage account contains an enterprise file share.",
+    [
+      rect(16, 17, 89, 77), line([16, 32], [105, 32]), line([24, 42], [97, 42]), line([24, 52], [97, 52]), line([24, 62], [97, 62]), line([24, 72], [97, 72]),
+      line([44, 80], [44, 52], [77, 52], [77, 80]), line([52, 80], [52, 62], [69, 62], [69, 80]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-data-share-invitations", "azure", "Data Share Invitations", ["10097-icon-service-Data-Share-Invitations"],
+    "An envelope invites a recipient to share data.",
+    [
+      rect(14, 32, 94, 58), line([14, 32], [61, 64], [108, 32]), line([14, 90], [48, 62]), line([108, 90], [74, 62]),
+      line([14, 110], [110, 110]),
+    ]),
+  entry("azure-import-export-jobs", "azure", "Import Export Jobs", ["10100-icon-service-Import-Export-Jobs"],
+    "A cloud exchanges imported and exported data.",
+    [
+      line([25, 74], [19, 68], [19, 55], [25, 46], [35, 43], [39, 32], [49, 26], [62, 26], [72, 32], [76, 42], [87, 43], [97, 50], [102, 60], [100, 70]),
+      line([48, 85], [48, 51]), line([41, 58], [48, 51], [55, 58]), line([73, 51], [73, 85]), line([66, 78], [73, 85], [80, 78]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-hpc-cache", "azure", "Azure HPC Cache", ["00776-icon-service-Azure-HCP-Cache"],
     "A cloud cache holds frequently accessed files.",
     [
