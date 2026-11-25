@@ -3,6 +3,70 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsMigrationArtwork = [
+  entry("aws-discovery-agentless-collector", "aws", "Application Discovery Agentless Collector", ["Res_AWS-Application-Discovery-Service_AWS-Agentless-Collector_48"],
+    "A remote scan discovers servers without an installed agent.",
+    [
+      rect(14, 25, 47, 57), line([14, 38], [61, 38]), line([21, 48], [53, 48]), line([21, 58], [47, 58]), line([21, 68], [53, 68]),
+      line([68, 34], [77, 42], [80, 53], [77, 64], [68, 72]), line([79, 24], [91, 35], [96, 53], [91, 71], [79, 82]), line([91, 18], [105, 33], [111, 53], [105, 73], [91, 88]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-discovery-agent-resource", "aws", "Application Discovery Agent", ["Res_AWS-Application-Discovery-Service_AWS-Discovery-Agent_48"],
+    "A local agent sends server inventory to the cloud.",
+    [
+      rect(12, 39, 39, 47), line([12, 50], [51, 50]), line([20, 59], [43, 59]), line([20, 68], [38, 68]),
+      line([52, 62], [72, 62]), line([66, 56], [72, 62], [66, 68]),
+      line([78, 35], [75, 29], [78, 23], [85, 21], [91, 24], [97, 17], [105, 19], [109, 26], [109, 31], [115, 35], [114, 42], [109, 46], [80, 46], [75, 42], [78, 35]),
+      oval(83, 64, 19, 19), line([92, 83], [92, 90]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-migration-evaluator-collector", "aws", "Migration Evaluator Collector", ["Res_AWS-Application-Discovery-Service_Migration-Evaluator-Collector_48"],
+    "Inventory is collected and assessed for migration.",
+    [
+      rect(14, 20, 49, 65), line([14, 33], [63, 33]), line([21, 43], [54, 43]), line([21, 53], [49, 53]), line([21, 63], [54, 63]),
+      line([69, 84], [69, 64], [78, 64], [78, 84]), line([84, 84], [84, 50], [93, 50], [93, 84]), line([99, 84], [99, 40], [108, 40], [108, 84]), line([65, 84], [113, 84]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-datasync-discovery", "aws", "DataSync Discovery", ["Res_AWS-DataSync_Discovery_48"],
+    "A magnifier discovers a storage dataset.",
+    [
+      line([13, 34], [13, 24], [33, 24], [41, 32], [72, 32], [72, 81], [13, 81], [13, 34]), line([22, 46], [62, 46]), line([22, 56], [50, 56]),
+      oval(64, 48, 29, 29), line([86, 70], [108, 92]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-datasync-agent", "aws", "DataSync Agent", ["Res_AWS-Datasync_Agent_48"],
+    "An agent transfers data between two locations.",
+    [
+      rect(18, 19, 91, 72), line([18, 33], [109, 33]), oval(26, 24, 4, 4, true), oval(35, 24, 4, 4, true),
+      line([31, 50], [93, 50]), line([85, 42], [93, 50], [85, 58]), line([94, 72], [32, 72]), line([40, 64], [32, 72], [40, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mainframe-analyzer", "aws", "Mainframe Modernization Analyzer", ["Res_AWS-Mainframe-Modernization_Analyzer_48"],
+    "A magnifier examines a mainframe application.",
+    [
+      rect(16, 20, 50, 66), line([16, 36], [66, 36]), line([16, 53], [66, 53]), line([16, 70], [66, 70]), line([24, 28], [55, 28]), line([24, 45], [50, 45]), line([24, 62], [55, 62]),
+      oval(62, 49, 29, 29), line([84, 71], [105, 92]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mainframe-compiler", "aws", "Mainframe Modernization Compiler", ["Res_AWS-Mainframe-Modernization_Compiler_48"],
+    "Source code is compiled into an executable workload.",
+    [
+      line([14, 19], [53, 19], [62, 28], [62, 81], [14, 81], [14, 19]), line([53, 19], [53, 28], [62, 28]), line([29, 40], [23, 47], [29, 54]), line([47, 40], [53, 47], [47, 54]), line([41, 37], [35, 57]),
+      line([63, 58], [76, 58]), line([70, 52], [76, 58], [70, 64]), rect(81, 37, 31, 40), line([81, 47], [112, 47]), line([87, 57], [106, 57]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mainframe-converter", "aws", "Mainframe Modernization Converter", ["Res_AWS-Mainframe-Modernization_Converter_48"],
+    "A mainframe program is converted into a modern application.",
+    [
+      rect(13, 30, 36, 48), line([13, 42], [49, 42]), line([20, 52], [42, 52]), line([20, 62], [37, 62]),
+      line([50, 54], [77, 54]), line([71, 48], [77, 54], [71, 60]), line([56, 32], [64, 25], [73, 25], [79, 31]), line([74, 26], [79, 31], [80, 24]),
+      line([82, 22], [105, 22], [114, 31], [114, 80], [82, 80], [82, 22]), line([105, 22], [105, 31], [114, 31]), line([89, 46], [107, 46]), line([89, 56], [103, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mainframe-developer", "aws", "Mainframe Modernization Developer", ["Res_AWS-Mainframe-Modernization_Developer_48"],
+    "A developer edits a modernized mainframe application.",
+    [
+      rect(14, 19, 84, 62), line([14, 32], [98, 32]), line([22, 26], [29, 26]), line([34, 26], [41, 26]),
+      line([40, 43], [32, 51], [40, 59]), line([64, 43], [72, 51], [64, 59]), line([56, 40], [48, 62]),
+      line([68, 84], [99, 53], [107, 61], [76, 92], [68, 84]), line([93, 59], [101, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mainframe-runtime", "aws", "Mainframe Modernization Runtime", ["Res_AWS-Mainframe-Modernization_Runtime_48"],
+    "A runtime executes a modernized application.",
+    [
+      rect(20, 18, 85, 72), line([20, 33], [105, 33]), line([28, 25], [35, 25]), line([40, 25], [47, 25]),
+      line([49, 44], [49, 75], [76, 60], [49, 44]), line([15, 44], [8, 44]), line([15, 55], [8, 55]), line([15, 66], [8, 66]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-mainframe-modernization", "aws", "AWS Mainframe Modernization", sizes("AWS-Mainframe-Modernization"),
     "A mainframe workload is modernized for cloud application hosting.",
     [
