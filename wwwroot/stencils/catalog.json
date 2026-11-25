@@ -1988,11 +1988,11 @@
         "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10104-icon-service-Container-Instances.svg",
         "/icons/azure/Azure_Public_Service_Icons/Icons/containers/10104-icon-service-Container-Instances.svg"
       ],
-      "revision": "fc5460ff266043a465aed4d8267b2184afc40735520af7f9c0a76b97ccfaf200",
+      "revision": "b386f86f2d4f2e6d878c17effc0f3272055d43373fb6b6bf922f882f3c548544",
       "geometrySignature": "f5fc6b09314429ad0e5315930401378b19331f4efced592c66e315d735db7e58",
       "comparisonRevision": "09496f2cd024a63a9e52a4c08e89c08db91c08d840ef2f9841667acf77cc05cf",
-      "review": "rework",
-      "notes": "Heavy hatching makes the small container instance unreadable. Simplify the running container depiction."
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-container-registry",
@@ -2013,18 +2013,18 @@
       "id": "azure-application-insights",
       "provider": "azure",
       "name": "Azure Application Insights",
-      "rationale": "A magnifier inspects an application request's pulse and a timing marker.",
+      "rationale": "An application dashboard charts request health and latency.",
       "path": "stencils/azure-application-insights.svg",
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/devops/00012-icon-service-Application-Insights.svg",
         "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00012-icon-service-Application-Insights.svg",
         "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00012-icon-service-Application-Insights.svg"
       ],
-      "revision": "58f230c950711ff0bddc3e284049363e593a38ab7c9704a25ab0fcd4e1506160",
-      "geometrySignature": "2698263f9bef1651f98c3072755421b7523a82a9cec0609f46dab6d2cc282566",
-      "comparisonRevision": "01b9324813adbd847ad868359bd60197dfa4acb6c0152b9873b923db5607a899",
-      "review": "rework",
-      "notes": "The health trace and magnifier nearly duplicate the AppLens drawing. Give application telemetry a different visual structure."
+      "revision": "bacae051a0a7c17814ff4c9c88806a85f4212fbc337f5823bba3dd73e054d1a2",
+      "geometrySignature": "0162383a93d6f61ce836258c90c5075023507c910e661a7e5f30aca6c8d81e35",
+      "comparisonRevision": "a23cb70bc2879b90555e23949af0def602d3c4badafccd3f5649f95f75363fde",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-log-analytics",
@@ -2053,11 +2053,11 @@
         "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10227-icon-service-Entra-Managed-Identities.svg",
         "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10227-icon-service-Managed-Identities.svg"
       ],
-      "revision": "71060210d98501054533a2d525e0ddd8aed12c8faa756d8a1e1fbb17b4997da5",
+      "revision": "cf00aacb3c0859bdc85f703707610051bd13898c22dade52b464393d04ae84a9",
       "geometrySignature": "e81fd847d4ef8eeeb16b34cc83e91a51c9f8e33093ea8d2af25dfd0bf02eedf2",
       "comparisonRevision": "d4bc2a2b1098d9ec7f79311a43926c9372960661c229da0f611668c0e918ed70",
-      "review": "rework",
-      "notes": "The shaded identity panel obscures the identity and key at small sizes. Redraw it with readable authentication cues."
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-dns-zones",
@@ -2098,11 +2098,11 @@
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/integration/10206-icon-service-Event-Grid-Topics.svg"
       ],
-      "revision": "fe8fed03588fac9c0e817a55a02d77400690764a37a17a507b9f6e4031eef051",
+      "revision": "a6b588d62e3db920f9427f34f6f5fc29f11ab37802824d9ba65fe22f6b185609",
       "geometrySignature": "dd8d9107f6cefd12287b6f88120d27093fb271a5948921a6556b14f2f7ef6ef6",
       "comparisonRevision": "47eb0cc3e1a69d1bd8519a6a4bae9a3f58c2e65a33327d2b3906f3d7460f4457",
-      "review": "rework",
-      "notes": "The dense hatched topic panel makes the event fan-out hard to read at small sizes. Simplify the flow."
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-backup-center",
@@ -2113,17 +2113,17 @@
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/other/02360-icon-service-Azure-Backup-Center.svg"
       ],
-      "revision": "cb335b04a7268954892acc92bf12926a00405b3e3645729ce6dd2d438fddd3ba",
+      "revision": "7cab2a0ccfe37544d448e520d71d2914b7f09e9225f5cc0ec21287183a47da3f",
       "geometrySignature": "e7ff243e13214908c1e37a3a0c581cc6ffe98e501dbdd2e189817f0ea0c4ad16",
       "comparisonRevision": "c1a85a5b2f4f02553cfabaf36693e1f9a6103b42dc96410bc8a4ae7201a34db1",
-      "review": "rework",
-      "notes": "Dense hatching obscures the backed-up contents. Use a clearer backup and recovery concept."
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-athena",
       "provider": "aws",
       "name": "Amazon Athena",
-      "rationale": "A query lens examines data directly in an object bucket.",
+      "rationale": "A query reads data from an object bucket.",
       "path": "stencils/aws-athena.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/16/Arch_Amazon-Athena_16.svg",
@@ -2131,11 +2131,11 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/48/Arch_Amazon-Athena_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/64/Arch_Amazon-Athena_64.svg"
       ],
-      "revision": "7013f2235651087e388d8f481bb8dcb83d567a1382151ee0491f7c2f54b966c9",
-      "geometrySignature": "c2fce1ec4e3eb15a585e42a1198e3d73a32e6c86d8c7af0241a1f92f48f8702b",
-      "comparisonRevision": "2b1d3e97dc548041c8567b82f3d50bd4bdd7cd834496bb2d72837ad7e4ae9767",
-      "review": "rework",
-      "notes": "The magnifying glass on a data bucket closely copies the source icon. Illustrate querying stored data independently."
+      "revision": "4c6565d5b7e720e130adbf29f91afd686dbb3c46f19c0c18093ecf5845fd4589",
+      "geometrySignature": "8d5a37f90c22e3d34e1bebb730ca40a9343cac0afaba073a4cbcda8b42b5b2dc",
+      "comparisonRevision": "eab9d8e3f342855a333033dd16d9c1f694dec6a1e4e8ec2e525bbb370c1ee5f4",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-kinesis-streams",
@@ -3768,7 +3768,7 @@
       ],
       "revision": "ed55c7e3c08b79d37dd99b036ab520c5f2fbf5ddaac84364ef32fab02b1c8f3c",
       "geometrySignature": "69ec13eb0215220c0ad8e648846ff4cec16412c6c2f090ad13a2c99fb4841741",
-      "comparisonRevision": "a30eb33f2f6da6cb77bc60ae0d432529e6422f6e22270b29c216fa6a402c39de",
+      "comparisonRevision": "df0e8c2a197b45ea47f142f7aee5f322c30b3d1c93563865e2d8f8cbc4550595",
       "review": "pending",
       "notes": ""
     },
@@ -5879,7 +5879,7 @@
       ],
       "revision": "7bcb1b231b147945f0ff1dc0c725ae23bfa454c83bdd8d3498c04cb3593eab6f",
       "geometrySignature": "fdea4baca84aabbf040b4cae40b42aae72acb898f50c02d0a2cf6f0f0bbadb41",
-      "comparisonRevision": "f6d8142de99565efcd6e3f110f3bf76b457de4432ef782af80e7ed592e9bd288",
+      "comparisonRevision": "7ef11c646bb2f27bbdafbb71bcb01e3fa3de28659b43f68e3c8844b100cd5012",
       "review": "pending",
       "notes": ""
     },
@@ -5984,7 +5984,7 @@
       ],
       "revision": "05d22f7debe6142653c924363dc76ca435f79b551d4bee5320b8be8e831ffc2f",
       "geometrySignature": "ed449f7dc4bfa1980f2b769091d48b71d942c4bea0ba079b5bdf20e741b3cccf",
-      "comparisonRevision": "6b429346a6a867b36ee985db704b6277cd49456805f36dc0a4aa194ec283c3b1",
+      "comparisonRevision": "e2e963357c1b10714f0ba6ba0fc5a839c627f1f1405aeb7b7632572b0ca61085",
       "review": "pending",
       "notes": ""
     },
@@ -9350,7 +9350,7 @@
       ],
       "revision": "e59a79a74ebaafcc8cf7fbb5120e488801e4c43ba6248cb41741ba5d9b2f3673",
       "geometrySignature": "567c16ce2c5c045d89458051e61cc7628afe6a58e0da4903c99aca3b88229fb3",
-      "comparisonRevision": "5c2cf8de1a14956e56d8e5102d5e2e2a9fb00112aa4978d4ab2c5ed0cfffe644",
+      "comparisonRevision": "3cd669634ef18ce6977be7a196005249ca00f0a4f13d24c073b81d1681bf52b2",
       "review": "pending",
       "notes": ""
     },
@@ -11002,7 +11002,7 @@
       ],
       "revision": "fe0833e5566f6a21b764fc572f3c64926ed92205dff247488a441bac3288d682",
       "geometrySignature": "934520c7dfd5436c84d015a5d251a1c839703af8d9c9e2e40d5661ca35d24fb2",
-      "comparisonRevision": "2e74d0c37d2ce6c86d4190ac7f20960b6c5e33bf98cc4931858fd8de37d3e87b",
+      "comparisonRevision": "2965f6babf76a2388f4a1440543e558ca2d20543095a2d1a7170fb058f9ce9b4",
       "review": "pending",
       "notes": ""
     },
@@ -11426,7 +11426,7 @@
       ],
       "revision": "fa70ec5beda16925563c762af687f0c04d60a9141a3640af75e236b53286dc1b",
       "geometrySignature": "3df68f0675cc2ee6db7d06481a737d9d082fba06da218752ad1291af3dd40f2a",
-      "comparisonRevision": "d2b41564a4057892007beff03e586b403181aca0b713ad6ab61554aabead7592",
+      "comparisonRevision": "bfc827af751933a17c83eb16197b851678360cc5d18d03ed6cc8ff4536267941",
       "review": "pending",
       "notes": ""
     },
@@ -11546,7 +11546,7 @@
       ],
       "revision": "ccad8f1677ce55ff0d6050e78e8a2bdfda2e0b2346aa817838eac1d9f2f6ab57",
       "geometrySignature": "7cd67b88f43de67d4c7da4954198362a7fa0d4e6b1c304d1a2eb4778d0944c40",
-      "comparisonRevision": "c6086b508fba8c647fe2587587013d946f5211808c23857c245cef8d53cd669b",
+      "comparisonRevision": "8f548074e842ce39259350e17e4fe17ac5ca3d0021cfda6bf5eb8c97988601b8",
       "review": "pending",
       "notes": ""
     },
@@ -13949,7 +13949,7 @@
       ],
       "revision": "67a00bbe9330540032f4ab49bba77be092893e2236d608e4f301ef097a75cd03",
       "geometrySignature": "5af477b0326a1bd4ebe990165d28079d1700cdc5a90aaabfc306e232c85d85a5",
-      "comparisonRevision": "c72146639c6fa221d4e43c433f7dd9b021031a8ef4506d03becf0e97f3e467b0",
+      "comparisonRevision": "fb015638407d4bbc8b4bb9359076637e34e18287a7db921d6280eea38e78b82a",
       "review": "pending",
       "notes": ""
     },
@@ -13964,7 +13964,7 @@
       ],
       "revision": "d2e35868ad101b03a689f47dbf8a014d5fa23ffe27a4a61ab0ba626da6155492",
       "geometrySignature": "07b4156fafb16cdcb6e35d2d384cb4940ce439c9d2a6fba0b50687e5ba324077",
-      "comparisonRevision": "01dae4d0a83cd54fee0431097162acfdf56deeee4d8a759846b6275cae08c0d9",
+      "comparisonRevision": "e0e947e3a855b4e4f003ffd74dc4125098824989a422234b7534386ccb85087d",
       "review": "pending",
       "notes": ""
     },
@@ -13979,7 +13979,7 @@
       ],
       "revision": "82d571b3e4560c38616a0f5061503c6c18bd89a0fbf2e8a4aaa8e389f24eea63",
       "geometrySignature": "86ec2e6339efa20ad8fad4192d2e8d513c08ceb79251ce68496eab519c016373",
-      "comparisonRevision": "c638a37f7a4584d2f73e1e41249ce7ca36ba5afde0e7f927af564ad607ce6bd7",
+      "comparisonRevision": "4e7603a0c81dc45a1619c19208eb70f2e0f691abc5e8dde8318c91aff1ae4da7",
       "review": "pending",
       "notes": ""
     },
@@ -19158,7 +19158,7 @@
       ],
       "revision": "450d23e923dc462e3868d68c7771b6e431b565cfa59c5a411a327f64dd9abce0",
       "geometrySignature": "4734ac27fd0f1a03d8520489fd504343bf271dc5716008d5827556257274ab9c",
-      "comparisonRevision": "46d5f141ba7cc0413c0a684c23bd8b62f3d4f070429b2f7e3f1ec98d827074bf",
+      "comparisonRevision": "e1a1d1f96282ede0b77aa2dc4594c81c0555e731948af55b3a011e42a43549a6",
       "review": "pending",
       "notes": ""
     },
@@ -21421,7 +21421,7 @@
       ],
       "revision": "ca328d5429890dbf246ade08a58b56fc4aceb9cab6892b929fef6a56d6a58db5",
       "geometrySignature": "1a5a75f9f207473d02d452e14a2f5bbbb305e0c7d25ac0548d23a25ea5570ae3",
-      "comparisonRevision": "3841dfb98da9689c34410893a3ab31f4d50da17115f18b6c08ad9d6264f807ca",
+      "comparisonRevision": "22645fa11247e278e91d5c0265049af2bc743454ee57567315809f0315b70345",
       "review": "pending",
       "notes": ""
     },
@@ -26463,7 +26463,7 @@
       ],
       "revision": "1302643fb1edf5b259285f1c5cab97ae5ef5bc314e19dbc8300666934ddd3252",
       "geometrySignature": "af8b4b8ad6845e97b146ca71d5f86f0ce55e2896ccc38174cee7ccc68ad6bf4c",
-      "comparisonRevision": "422968347a9f38b6455972149b2fa48fa3405e51cb4bc108e36f4ebf0ecea5ba",
+      "comparisonRevision": "39ecd581459385f4d9c60918dd49c7f74e196a1b2589ea2ef519c37fd695297f",
       "review": "pending",
       "notes": ""
     },
@@ -27454,7 +27454,7 @@
       ],
       "revision": "a56727b319adb7f558c36664d709b798e13fea0c7c9cd0e0f3ef1f77fd1255d9",
       "geometrySignature": "8920cc6268047dc721b7ba83a7293072c2221530f52733e7ac47c78491cf974b",
-      "comparisonRevision": "583b2e9b31482f9a03a26a8c295803400fcdb0f23b0796f62f1c58c17c4bd42d",
+      "comparisonRevision": "943aa4fff942cad3cfd3e2ddc148408246cc86c93bd72aaa96df53242fdabd3b",
       "review": "pending",
       "notes": ""
     },
@@ -31607,7 +31607,7 @@
       ],
       "revision": "8aa150ca5d32adabdb92c3e991c460395bd7b03a4131fdad44b74ec329cd1dc1",
       "geometrySignature": "0a17680e08fc362118f2cc5991601e83eaa75b3ab101565f30ec434a07def5db",
-      "comparisonRevision": "2a686e6643060935b7085668d76e5d970b04dfe0d84bc236dcb2e71790613c53",
+      "comparisonRevision": "4bace5c164de31baafe2f2142d3a09458763c280e29c3d4a3baf8e81713e475e",
       "review": "pending",
       "notes": ""
     },
@@ -36615,7 +36615,7 @@
       ],
       "revision": "fd1d90d36ab512cca72a6108aa2637a4bea2729db84960bea65b4e1c029d9556",
       "geometrySignature": "fea749905864c15f4bd52fcf93ea7addf7361e6a211824bb6fdcc6c748fe7a18",
-      "comparisonRevision": "72ac08276529be0c566aa7e1daa28035c91a4556307ad5939b4a3a0bdcd7e7cf",
+      "comparisonRevision": "ac0acd7442e8bbbb2a8aba2348224802e1b595afeb6c2a1e69961aedda1b7f19",
       "review": "pending",
       "notes": ""
     }

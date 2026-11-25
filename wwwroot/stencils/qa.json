@@ -4576,18 +4576,18 @@
     "azure-application-insights": [
       {
         "a": "azure-application-insights",
-        "b": "gcp-category-devtools",
-        "similarity": 0.3754
+        "b": "aws-braket-simulator",
+        "similarity": 0.4155
       },
       {
         "a": "azure-application-insights",
-        "b": "azure-custom-vision",
-        "similarity": 0.3343
+        "b": "aws-systems-opscenter",
+        "similarity": 0.4005
       },
       {
         "a": "azure-application-insights",
-        "b": "azure-app-certificates",
-        "similarity": 0.2939
+        "b": "aws-cloudwatch-rum",
+        "similarity": 0.3609
       }
     ],
     "azure-log-analytics": [
@@ -4695,18 +4695,18 @@
     "aws-athena": [
       {
         "a": "aws-athena",
-        "b": "fabric-report",
-        "similarity": 0.2042
+        "b": "azure-files",
+        "similarity": 0.2851
       },
       {
         "a": "aws-athena",
-        "b": "aws-s3-standard",
-        "similarity": 0.1978
+        "b": "aws-sns-http-notification",
+        "similarity": 0.2821
       },
       {
         "a": "aws-athena",
-        "b": "azure-arc-data-services",
-        "similarity": 0.1921
+        "b": "azure-dns-multistack",
+        "similarity": 0.2742
       }
     ],
     "aws-kinesis-streams": [
@@ -8524,14 +8524,14 @@
         "similarity": 0.2949
       },
       {
-        "a": "azure-application-insights",
-        "b": "gcp-os-patch",
-        "similarity": 0.2932
-      },
-      {
         "a": "gcp-os-patch",
         "b": "gcp-producer-portal",
         "similarity": 0.2781
+      },
+      {
+        "a": "gcp-os-patch",
+        "b": "gcp-apigee-sense",
+        "similarity": 0.2654
       }
     ],
     "gcp-compute-systems-management": [
@@ -8648,9 +8648,9 @@
         "similarity": 0.1986
       },
       {
-        "a": "azure-monitor-pipeline",
+        "a": "aws-athena",
         "b": "gcp-cloud-optimization-ai",
-        "similarity": 0.1847
+        "similarity": 0.1898
       }
     ],
     "gcp-fleet-routing": [
@@ -12130,6 +12130,11 @@
     ],
     "azure-hdinsight-clusters": [
       {
+        "a": "aws-athena",
+        "b": "azure-hdinsight-clusters",
+        "similarity": 0.2567
+      },
+      {
         "a": "gcp-runtime-config",
         "b": "azure-hdinsight-clusters",
         "similarity": 0.2326
@@ -12138,11 +12143,6 @@
         "a": "azure-hdinsight-clusters",
         "b": "azure-immersive-reader",
         "similarity": 0.2306
-      },
-      {
-        "a": "azure-hdinsight-clusters",
-        "b": "aws-rds-multi-az-cluster",
-        "similarity": 0.2299
       }
     ],
     "azure-stream-analytics": [
@@ -13823,9 +13823,9 @@
         "similarity": 0.2998
       },
       {
-        "a": "fabric-restricted-scorecard",
-        "b": "aws-codewhisperer",
-        "similarity": 0.2853
+        "a": "azure-application-insights",
+        "b": "fabric-restricted-scorecard",
+        "similarity": 0.2933
       }
     ],
     "fabric-retail": [
@@ -14272,11 +14272,6 @@
     ],
     "m365-mail-attach": [
       {
-        "a": "azure-application-insights",
-        "b": "m365-mail-attach",
-        "similarity": 0.268
-      },
-      {
         "a": "m365-chat-multiple",
         "b": "m365-mail-attach",
         "similarity": 0.2614
@@ -14285,6 +14280,11 @@
         "a": "m365-mail-attach",
         "b": "azure-custom-vision",
         "similarity": 0.2507
+      },
+      {
+        "a": "m365-mail-attach",
+        "b": "m365-comment-multiple",
+        "similarity": 0.2401
       }
     ],
     "m365-mail-read": [
@@ -16720,11 +16720,6 @@
     ],
     "azure-custom-vision": [
       {
-        "a": "azure-application-insights",
-        "b": "azure-custom-vision",
-        "similarity": 0.3343
-      },
-      {
         "a": "azure-custom-vision",
         "b": "gcp-category-devtools",
         "similarity": 0.2793
@@ -16733,6 +16728,11 @@
         "a": "m365-slide-layout",
         "b": "azure-custom-vision",
         "similarity": 0.2652
+      },
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "azure-custom-vision",
+        "similarity": 0.257
       }
     ],
     "azure-face-api": [
@@ -16747,9 +16747,9 @@
         "similarity": 0.1885
       },
       {
-        "a": "aws-redshift",
+        "a": "azure-application-insights",
         "b": "azure-face-api",
-        "similarity": 0.1801
+        "similarity": 0.1803
       }
     ],
     "azure-content-moderation": [
@@ -16764,9 +16764,9 @@
         "similarity": 0.3087
       },
       {
-        "a": "azure-application-insights",
+        "a": "fabric-restricted-scorecard",
         "b": "azure-content-moderation",
-        "similarity": 0.286
+        "similarity": 0.2775
       }
     ],
     "azure-personalizer": [
@@ -22624,14 +22624,14 @@
         "similarity": 0.4243
       },
       {
+        "a": "azure-application-insights",
+        "b": "aws-braket-simulator",
+        "similarity": 0.4155
+      },
+      {
         "a": "aws-braket-simulator",
         "b": "aws-mainframe-runtime",
         "similarity": 0.4053
-      },
-      {
-        "a": "aws-iot-fleet-hub",
-        "b": "aws-braket-simulator",
-        "similarity": 0.3929
       }
     ],
     "aws-braket-state-vector": [
@@ -24761,6 +24761,11 @@
     ],
     "aws-systems-opscenter": [
       {
+        "a": "azure-application-insights",
+        "b": "aws-systems-opscenter",
+        "similarity": 0.4005
+      },
+      {
         "a": "azure-hybrid-center",
         "b": "aws-systems-opscenter",
         "similarity": 0.3715
@@ -24769,11 +24774,6 @@
         "a": "aws-datasync-agent",
         "b": "aws-systems-opscenter",
         "similarity": 0.3652
-      },
-      {
-        "a": "aws-cloudwatch-rum",
-        "b": "aws-systems-opscenter",
-        "similarity": 0.3164
       }
     ],
     "aws-systems-parameter-store": [
@@ -29868,11 +29868,6 @@
     ],
     "gcp-category-devtools": [
       {
-        "a": "azure-application-insights",
-        "b": "gcp-category-devtools",
-        "similarity": 0.3754
-      },
-      {
         "a": "azure-custom-vision",
         "b": "gcp-category-devtools",
         "similarity": 0.2793
@@ -29881,6 +29876,11 @@
         "a": "gcp-partner-portal",
         "b": "gcp-category-devtools",
         "similarity": 0.2624
+      },
+      {
+        "a": "gcp-category-devtools",
+        "b": "azure-app-certificates",
+        "similarity": 0.2591
       }
     ],
     "gcp-category-hybrid": [
@@ -30950,14 +30950,14 @@
         "similarity": 0.274
       },
       {
+        "a": "aws-athena",
+        "b": "aws-ecs-container",
+        "similarity": 0.2732
+      },
+      {
         "a": "aws-ecs-container",
         "b": "azure-general-error",
         "similarity": 0.273
-      },
-      {
-        "a": "aws-general-metrics",
-        "b": "aws-ecs-container",
-        "similarity": 0.2639
       }
     ],
     "aws-ecs-compute-container": [
@@ -35382,11 +35382,6 @@
     ],
     "azure-app-certificates": [
       {
-        "a": "azure-application-insights",
-        "b": "azure-app-certificates",
-        "similarity": 0.2939
-      },
-      {
         "a": "aws-braket-simulator",
         "b": "azure-app-certificates",
         "similarity": 0.2628
@@ -35395,6 +35390,11 @@
         "a": "gcp-category-devtools",
         "b": "azure-app-certificates",
         "similarity": 0.2591
+      },
+      {
+        "a": "azure-application-insights",
+        "b": "azure-app-certificates",
+        "similarity": 0.2583
       }
     ],
     "azure-app-domains": [
