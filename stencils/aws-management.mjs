@@ -4,6 +4,42 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-trusted-advisor-checklist", "aws", "Trusted Advisor Checklist", ["Res_AWS-Trusted-Advisor_Checklist_48"],
+    "A trusted advisor checklist records recommended actions.",
+    [
+      rect(22, 23, 79, 68), line([22, 36], [101, 36]), line([30, 48], [35, 53], [44, 43]), line([52, 48], [91, 48]),
+      line([30, 64], [35, 69], [44, 59]), line([52, 64], [91, 64]), line([30, 80], [35, 85], [44, 75]), line([52, 80], [91, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-trusted-advisor-cost", "aws", "Trusted Advisor Cost Checklist", ["Res_AWS-Trusted-Advisor_Checklist-Cost_48"],
+    "A cost checklist highlights recommendations for savings.",
+    [
+      line([15, 24], [56, 24], [73, 41], [46, 68], [15, 37], [15, 24]), oval(22, 27, 8, 8),
+      line([66, 61], [72, 67], [82, 56]), line([88, 62], [109, 62]), line([66, 81], [72, 87], [82, 76]), line([88, 82], [109, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-trusted-advisor-fault", "aws", "Trusted Advisor Fault Tolerance Checklist", ["Res_AWS-Trusted-Advisor_Checklist-Fault-Tolerant_48"],
+    "A fault-tolerance checklist checks redundant resources.",
+    [
+      rect(12, 24, 43, 26), rect(12, 62, 43, 26), line([18, 32], [45, 32]), line([18, 70], [45, 70]), line([33, 50], [33, 62]),
+      line([69, 39], [75, 45], [85, 34]), line([91, 40], [111, 40]), line([69, 72], [75, 78], [85, 67]), line([91, 73], [111, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-trusted-advisor-performance", "aws", "Trusted Advisor Performance Checklist", ["Res_AWS-Trusted-Advisor_Checklist-Performance_48"],
+    "A performance checklist highlights workload efficiency.",
+    [
+      line([16, 85], [16, 27]), line([16, 85], [70, 85]), rect(25, 62, 10, 23), rect(42, 48, 10, 37), rect(59, 31, 10, 54),
+      line([79, 45], [85, 51], [95, 40]), line([101, 46], [113, 46]), line([79, 72], [85, 78], [95, 67]), line([101, 73], [113, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-trusted-advisor-security", "aws", "Trusted Advisor Security Checklist", ["Res_AWS-Trusted-Advisor_Checklist-Security_48"],
+    "A security checklist highlights recommended protections.",
+    [
+      rect(12, 40, 43, 43), line([20, 40], [20, 30], [24, 23], [33, 20], [42, 23], [46, 30], [46, 40]), oval(30, 52, 8, 8, true), line([34, 60], [34, 69]),
+      line([69, 39], [75, 45], [85, 34]), line([91, 40], [111, 40]), line([69, 72], [75, 78], [85, 67]), line([91, 73], [111, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-inspector-agent", "aws", "Amazon Inspector Agent", ["Res_Amazon-Inspector_Agent_48"],
+    "An inspection agent scans a machine for vulnerabilities.",
+    [
+      rect(18, 19, 61, 70), line([18, 34], [79, 34]), line([26, 44], [61, 44]), line([26, 55], [54, 55]), line([26, 66], [54, 66]),
+      oval(59, 49, 30, 30), line([82, 72], [103, 93]), line([66, 61], [72, 61]), line([69, 57], [69, 67]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-cloudwatch-alarm", "aws", "CloudWatch Alarm", ["Res_Amazon-CloudWatch_Alarm_48"],
     "An alarm rings when a metric crosses its threshold.",
     [

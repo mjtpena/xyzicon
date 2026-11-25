@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1992,
-  "aliases": 5160,
+  "count": 1998,
+  "aliases": 5166,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1155,6 +1155,12 @@
     "aws-application-migration",
     "aws-transfer-family",
     "aws-application-discovery",
+    "aws-trusted-advisor-checklist",
+    "aws-trusted-advisor-cost",
+    "aws-trusted-advisor-fault",
+    "aws-trusted-advisor-performance",
+    "aws-trusted-advisor-security",
+    "aws-inspector-agent",
     "aws-cloudwatch-alarm",
     "aws-cloudwatch-cross-account",
     "aws-cloudwatch-data-protection",
@@ -2292,8 +2298,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1777,
-      "concepts": 730
+      "covered": 1783,
+      "concepts": 736
     },
     "gcp": {
       "sources": 261,
@@ -2956,13 +2962,13 @@
       },
       {
         "a": "dynamics-order-management",
-        "b": "aws-thinkbox-deadline",
-        "similarity": 0.209
+        "b": "aws-trusted-advisor-security",
+        "similarity": 0.2092
       },
       {
         "a": "dynamics-order-management",
-        "b": "m365-chat",
-        "similarity": 0.2081
+        "b": "aws-thinkbox-deadline",
+        "similarity": 0.209
       }
     ],
     "dynamics-project-operations": [
@@ -5149,13 +5155,13 @@
       },
       {
         "a": "gcp-cloud-tasks",
-        "b": "aws-amplify-studio",
-        "similarity": 0.2412
+        "b": "aws-trusted-advisor-fault",
+        "similarity": 0.2527
       },
       {
         "a": "gcp-cloud-tasks",
-        "b": "aws-iot-device-management",
-        "similarity": 0.2311
+        "b": "aws-amplify-studio",
+        "similarity": 0.2412
       }
     ],
     "gcp-dataflow": [
@@ -10363,6 +10369,11 @@
     "m365-megaphone": [
       {
         "a": "m365-megaphone",
+        "b": "aws-inspector-agent",
+        "similarity": 0.157
+      },
+      {
+        "a": "m365-megaphone",
         "b": "aws-verified-permissions",
         "similarity": 0.1481
       },
@@ -10370,11 +10381,6 @@
         "a": "m365-megaphone",
         "b": "aws-iot-shadow",
         "similarity": 0.1398
-      },
-      {
-        "a": "m365-megaphone",
-        "b": "fabric-board-lightning-kql",
-        "similarity": 0.1377
       }
     ],
     "m365-toolbox": [
@@ -11145,6 +11151,11 @@
     "azure-storage-accounts-classic": [
       {
         "a": "azure-storage-accounts-classic",
+        "b": "aws-inspector-agent",
+        "similarity": 0.3857
+      },
+      {
+        "a": "azure-storage-accounts-classic",
         "b": "aws-ec2-instances",
         "similarity": 0.3731
       },
@@ -11152,11 +11163,6 @@
         "a": "azure-storage-accounts-classic",
         "b": "azure-static-apps",
         "similarity": 0.3487
-      },
-      {
-        "a": "azure-storage-accounts-classic",
-        "b": "aws-general-management-console",
-        "similarity": 0.3191
       }
     ],
     "azure-storsimple-device-managers": [
@@ -11927,8 +11933,8 @@
       },
       {
         "a": "azure-sql-warehouse",
-        "b": "aws-outposts-family",
-        "similarity": 0.2324
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.2358
       }
     ],
     "azure-database-migration": [
@@ -12171,6 +12177,11 @@
     ],
     "azure-storage-explorer": [
       {
+        "a": "azure-storage-explorer",
+        "b": "aws-trusted-advisor-performance",
+        "similarity": 0.212
+      },
+      {
         "a": "fabric-kql-database",
         "b": "azure-storage-explorer",
         "similarity": 0.2069
@@ -12179,11 +12190,6 @@
         "a": "azure-storage-explorer",
         "b": "aws-transfer-as2",
         "similarity": 0.202
-      },
-      {
-        "a": "azure-log-analytics",
-        "b": "azure-storage-explorer",
-        "similarity": 0.1909
       }
     ],
     "aws-dynamodb-attribute": [
@@ -15900,13 +15906,13 @@
       },
       {
         "a": "azure-verification-service",
-        "b": "aws-dynamodb-infrequent-table-class",
-        "similarity": 0.2823
+        "b": "aws-trusted-advisor-fault",
+        "similarity": 0.304
       },
       {
         "a": "azure-verification-service",
-        "b": "azure-maps-accounts",
-        "similarity": 0.2788
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.2823
       }
     ],
     "azure-machine-learning-classic": [
@@ -16687,8 +16693,8 @@
       },
       {
         "a": "azure-digital-twins",
-        "b": "azure-server-farm",
-        "similarity": 0.2617
+        "b": "aws-trusted-advisor-security",
+        "similarity": 0.2642
       }
     ],
     "azure-industrial-iot": [
@@ -17170,6 +17176,11 @@
     "azure-resource-graph-explorer": [
       {
         "a": "azure-resource-graph-explorer",
+        "b": "aws-trusted-advisor-cost",
+        "similarity": 0.248
+      },
+      {
+        "a": "azure-resource-graph-explorer",
         "b": "aws-cloudwatch-logs",
         "similarity": 0.2429
       },
@@ -17177,11 +17188,6 @@
         "a": "azure-resource-graph-explorer",
         "b": "aws-backup-s3",
         "similarity": 0.2289
-      },
-      {
-        "a": "azure-resource-graph-explorer",
-        "b": "aws-waf-labels",
-        "similarity": 0.2193
       }
     ],
     "azure-alerts": [
@@ -18632,6 +18638,11 @@
     "aws-iot-thing-house": [
       {
         "a": "aws-iot-thing-house",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.3478
+      },
+      {
+        "a": "aws-iot-thing-house",
         "b": "aws-systems-change-calendar",
         "similarity": 0.2806
       },
@@ -18639,11 +18650,6 @@
         "a": "aws-iot-thing-house",
         "b": "aws-general-client",
         "similarity": 0.2711
-      },
-      {
-        "a": "aws-iot-thing-house",
-        "b": "aws-elasticache-node",
-        "similarity": 0.2673
       }
     ],
     "aws-iot-thing-lightbulb": [
@@ -18666,6 +18672,11 @@
     "aws-s3-on-outposts-resource": [
       {
         "a": "aws-s3-on-outposts-resource",
+        "b": "aws-inspector-agent",
+        "similarity": 0.406
+      },
+      {
+        "a": "aws-s3-on-outposts-resource",
         "b": "aws-general-cold-storage",
         "similarity": 0.3524
       },
@@ -18673,11 +18684,6 @@
         "a": "aws-s3-on-outposts-resource",
         "b": "aws-s3-batch-operations",
         "similarity": 0.3429
-      },
-      {
-        "a": "aws-s3-on-outposts-resource",
-        "b": "azure-tfs-vc-repository",
-        "similarity": 0.3123
       }
     ],
     "aws-s3-select": [
@@ -19124,6 +19130,11 @@
     ],
     "aws-s3-batch-operations": [
       {
+        "a": "aws-s3-batch-operations",
+        "b": "aws-inspector-agent",
+        "similarity": 0.3562
+      },
+      {
         "a": "aws-s3-on-outposts-resource",
         "b": "aws-s3-batch-operations",
         "similarity": 0.3429
@@ -19132,11 +19143,6 @@
         "a": "aws-s3-batch-operations",
         "b": "aws-certificate-authority",
         "similarity": 0.3175
-      },
-      {
-        "a": "aws-iot-policy",
-        "b": "aws-s3-batch-operations",
-        "similarity": 0.3075
       }
     ],
     "aws-s3-files": [
@@ -21089,9 +21095,9 @@
         "similarity": 0.2626
       },
       {
-        "a": "aws-backup-storage-resource",
-        "b": "aws-managed-services",
-        "similarity": 0.2614
+        "a": "aws-managed-services",
+        "b": "aws-trusted-advisor-fault",
+        "similarity": 0.2616
       }
     ],
     "aws-repost-private": [
@@ -21876,6 +21882,108 @@
         "similarity": 0.2072
       }
     ],
+    "aws-trusted-advisor-checklist": [
+      {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "aws-general-forums",
+        "similarity": 0.3647
+      },
+      {
+        "a": "aws-iot-thing-house",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.3478
+      },
+      {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.3299
+      }
+    ],
+    "aws-trusted-advisor-cost": [
+      {
+        "a": "aws-iot-alexa-skill",
+        "b": "aws-trusted-advisor-cost",
+        "similarity": 0.2518
+      },
+      {
+        "a": "azure-resource-graph-explorer",
+        "b": "aws-trusted-advisor-cost",
+        "similarity": 0.248
+      },
+      {
+        "a": "aws-iot-action",
+        "b": "aws-trusted-advisor-cost",
+        "similarity": 0.2443
+      }
+    ],
+    "aws-trusted-advisor-fault": [
+      {
+        "a": "aws-trusted-advisor-fault",
+        "b": "aws-trusted-advisor-security",
+        "similarity": 0.3534
+      },
+      {
+        "a": "azure-verification-service",
+        "b": "aws-trusted-advisor-fault",
+        "similarity": 0.304
+      },
+      {
+        "a": "aws-trusted-advisor-fault",
+        "b": "aws-elemental-delta",
+        "similarity": 0.2869
+      }
+    ],
+    "aws-trusted-advisor-performance": [
+      {
+        "a": "aws-greengrass-public-component",
+        "b": "aws-trusted-advisor-performance",
+        "similarity": 0.2848
+      },
+      {
+        "a": "aws-trusted-advisor-performance",
+        "b": "fabric-data-bar-trend",
+        "similarity": 0.277
+      },
+      {
+        "a": "aws-trusted-advisor-performance",
+        "b": "aws-systems-maintenance-windows",
+        "similarity": 0.2674
+      }
+    ],
+    "aws-trusted-advisor-security": [
+      {
+        "a": "aws-trusted-advisor-fault",
+        "b": "aws-trusted-advisor-security",
+        "similarity": 0.3534
+      },
+      {
+        "a": "azure-maps-accounts",
+        "b": "aws-trusted-advisor-security",
+        "similarity": 0.2687
+      },
+      {
+        "a": "azure-digital-twins",
+        "b": "aws-trusted-advisor-security",
+        "similarity": 0.2642
+      }
+    ],
+    "aws-inspector-agent": [
+      {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "aws-inspector-agent",
+        "similarity": 0.406
+      },
+      {
+        "a": "azure-storage-accounts-classic",
+        "b": "aws-inspector-agent",
+        "similarity": 0.3857
+      },
+      {
+        "a": "aws-s3-batch-operations",
+        "b": "aws-inspector-agent",
+        "similarity": 0.3562
+      }
+    ],
     "aws-cloudwatch-alarm": [
       {
         "a": "aws-cloudwatch-alarm",
@@ -22133,6 +22241,11 @@
     ],
     "aws-systems-patch-manager": [
       {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.3299
+      },
+      {
         "a": "aws-cloudwatch-data-protection",
         "b": "aws-systems-patch-manager",
         "similarity": 0.3094
@@ -22141,11 +22254,6 @@
         "a": "azure-operation-log-classic",
         "b": "aws-systems-patch-manager",
         "similarity": 0.2936
-      },
-      {
-        "a": "aws-backup-vault-lock",
-        "b": "aws-systems-patch-manager",
-        "similarity": 0.2901
       }
     ],
     "aws-systems-run-command": [
@@ -22398,9 +22506,9 @@
         "similarity": 0.2551
       },
       {
-        "a": "azure-iot-edge",
+        "a": "aws-inspector-agent",
         "b": "aws-cloudtrail-lake",
-        "similarity": 0.246
+        "similarity": 0.2504
       }
     ],
     "aws-license-application-discovery": [
@@ -22966,6 +23074,11 @@
     ],
     "aws-general-forums": [
       {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "aws-general-forums",
+        "similarity": 0.3647
+      },
+      {
         "a": "aws-general-forums",
         "b": "azure-resource-group-list",
         "similarity": 0.2786
@@ -22974,11 +23087,6 @@
         "a": "aws-efs-standard",
         "b": "aws-general-forums",
         "similarity": 0.2766
-      },
-      {
-        "a": "azure-intune-client-apps",
-        "b": "aws-general-forums",
-        "similarity": 0.2733
       }
     ],
     "aws-general-gear": [
@@ -23146,9 +23254,9 @@
         "similarity": 0.2047
       },
       {
-        "a": "aws-general-forums",
+        "a": "aws-trusted-advisor-performance",
         "b": "aws-general-data-stream",
-        "similarity": 0.2023
+        "similarity": 0.2024
       }
     ],
     "aws-general-database": [
@@ -26723,9 +26831,9 @@
         "similarity": 0.2066
       },
       {
-        "a": "azure-virtual-router",
+        "a": "aws-trusted-advisor-performance",
         "b": "gcp-category-networking",
-        "similarity": 0.1877
+        "similarity": 0.1878
       }
     ],
     "gcp-category-observability": [
@@ -29643,6 +29751,11 @@
     ],
     "azure-heart": [
       {
+        "a": "aws-trusted-advisor-cost",
+        "b": "azure-heart",
+        "similarity": 0.2163
+      },
+      {
         "a": "azure-privileged-identity-management",
         "b": "azure-heart",
         "similarity": 0.2071
@@ -29651,11 +29764,6 @@
         "a": "azure-heart",
         "b": "azure-information",
         "similarity": 0.2064
-      },
-      {
-        "a": "aws-rds-optimized-writes",
-        "b": "azure-heart",
-        "similarity": 0.2
       }
     ],
     "azure-general-image": [
@@ -29954,14 +30062,14 @@
         "similarity": 0.2838
       },
       {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "azure-blob-page",
+        "similarity": 0.2649
+      },
+      {
         "a": "aws-general-forums",
         "b": "azure-blob-page",
         "similarity": 0.2527
-      },
-      {
-        "a": "aws-iot-thing-house",
-        "b": "azure-blob-page",
-        "similarity": 0.2416
       }
     ],
     "azure-branch": [
@@ -31909,14 +32017,14 @@
         "similarity": 0.3339
       },
       {
+        "a": "aws-trusted-advisor-performance",
+        "b": "fabric-data-bar-trend",
+        "similarity": 0.277
+      },
+      {
         "a": "aws-general-mobile-client",
         "b": "fabric-data-bar-trend",
         "similarity": 0.2405
-      },
-      {
-        "a": "fabric-data-bar-trend",
-        "b": "fabric-document-ssis",
-        "similarity": 0.2221
       }
     ],
     "fabric-data-bar-highlight": [
@@ -32232,14 +32340,14 @@
         "similarity": 0.2698
       },
       {
+        "a": "aws-inspector-agent",
+        "b": "fabric-board-lightning-kql",
+        "similarity": 0.261
+      },
+      {
         "a": "aws-elemental-appliances",
         "b": "fabric-board-lightning-kql",
         "similarity": 0.243
-      },
-      {
-        "a": "fabric-board-lightning-kql",
-        "b": "fabric-library-globe",
-        "similarity": 0.2418
       }
     ],
     "fabric-board-lightning-sparkle": [
