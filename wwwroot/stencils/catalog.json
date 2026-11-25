@@ -549,7 +549,7 @@
       ],
       "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
       "geometrySignature": "e099ae1447977f4a779b59e77cc4fa96248552ee9875c939d69fd8161d6adf70",
-      "comparisonRevision": "7e9a20f07e755467912e56d69df8684d2f17b5b53a7c5e3453d7f8c4408aaf0a",
+      "comparisonRevision": "6177069b0326443ce1e6d266faf44b8d85c0597b9dcb7d153ba9c986c8f5d744",
       "review": "pending",
       "notes": ""
     },
@@ -3139,7 +3139,7 @@
       ],
       "revision": "13b5f6c289366368ebb375e5395cb728a004fdd87c2d0c9e5460b75b41227b7f",
       "geometrySignature": "d2e4d39fe5c40f27e6d738467ac7ff49879616f2651a610e18774d42f1d575ab",
-      "comparisonRevision": "2e2ef6e398b004cfa086c53891de5a44c43fbdb124524cb0154a64efb42b672f",
+      "comparisonRevision": "1f81e28a368d9fb6e00e646d4292d5d258e2071438984fce51fe810b2aaebab6",
       "review": "pending",
       "notes": ""
     },
@@ -5727,7 +5727,7 @@
       ],
       "revision": "bda883b7e1a29509b007718fce2bf6914c789dc4adc469e0774792b7e5571f9a",
       "geometrySignature": "b9ee9b83d096935eb920d2f82820a7f6142efadf025bac64b9a2edd391193299",
-      "comparisonRevision": "4dffb0d8c8ee2215696c11c9adc1bb6a1e852169104335b1db9b7a0ab12e5757",
+      "comparisonRevision": "b82b112fe8158ce8b1d690b92fb907675279e5303b4b6e706eb88613e765050d",
       "review": "pending",
       "notes": ""
     },
@@ -8520,6 +8520,78 @@
       "notes": ""
     },
     {
+      "id": "aws-appconfig",
+      "provider": "aws",
+      "name": "AWS AppConfig",
+      "rationale": "A feature switch is safely rolled out to application instances.",
+      "path": "stencils/aws-appconfig.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-AppConfig_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-AppConfig_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-AppConfig_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-AppConfig_64.svg"
+      ],
+      "revision": "bc02e1851714d1ca4327619819c9f1bf18fa76a64487be42b1f0a6827f9fe2ea",
+      "geometrySignature": "7636f342887bc64771408859c5162a97dbc295c7b8c6ab9e0be44e5fcf5ddbf9",
+      "comparisonRevision": "d8054ca97a69f8177f7d71ecfc943ef1fcbf70509ba597abd1a62698b5a87123",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-console-mobile",
+      "provider": "aws",
+      "name": "AWS Console Mobile Application",
+      "rationale": "A phone presents a cloud console with service status and alerts.",
+      "path": "stencils/aws-console-mobile.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Console-Mobile-Application_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Console-Mobile-Application_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Console-Mobile-Application_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Console-Mobile-Application_64.svg"
+      ],
+      "revision": "45cb00612cecb2de393b58a9e5a3d30eb29d0a359ee5d3ef597dddc200b6b0cf",
+      "geometrySignature": "52ca3410c9aa7b685288328c1c61e42ee460a8f9dd691c8488e340216d6c14bc",
+      "comparisonRevision": "e139301408271a08b48646b3db0d52ed9afbe4eac1ab1e7fb38435dbadeed0f8",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-organizations",
+      "provider": "aws",
+      "name": "AWS Organizations",
+      "rationale": "A management account groups three member accounts under shared governance.",
+      "path": "stencils/aws-organizations.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Organizations_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Organizations_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Organizations_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Organizations_64.svg"
+      ],
+      "revision": "dc3340c4a8a9159b75937267bd27de9fb0cda974c32aa906cab1dd888e964ff1",
+      "geometrySignature": "30cc44f6e0c6c36161d09f14835153d915d9e8e12933ce14b8122d6cffee14ab",
+      "comparisonRevision": "31a0eb676cd32ae72e41a47e2a869ab308f4cbe7b73db7321b59038574815e79",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-health-dashboard",
+      "provider": "aws",
+      "name": "AWS Health Dashboard",
+      "rationale": "A service-health pulse accompanies a checked status list.",
+      "path": "stencils/aws-health-dashboard.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Health-Dashboard_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Health-Dashboard_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Health-Dashboard_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Health-Dashboard_64.svg"
+      ],
+      "revision": "b91a8cff41cf6f3628d9192c8af1c3f27b6de7fe68adf315ba9f2a2053ea3bc8",
+      "geometrySignature": "16df728a0e4cbd4d423841b83fa53b0be3502d76e142a7e4176ab1deca3a7717",
+      "comparisonRevision": "364fd8b7b99acf330dae342dccd17ed862f3b8bd6b905da92a25dafe29265911",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "m365-arrow-circle-left",
       "provider": "microsoft365",
       "name": "Arrow Circle Left",
@@ -9682,7 +9754,7 @@
       ],
       "revision": "d3ba22d5c44a6398766d167c3d293ae2785e36ce5396981a1c45af55c0a73883",
       "geometrySignature": "f3a6ed48abca600d5838ddd2ab4eba91afb0b2f3516c2d2eaf6248a71c0072d4",
-      "comparisonRevision": "f7f408a7d76728de43588646ad5baae666a34a277ddfe75ca8529756c9180892",
+      "comparisonRevision": "27910803f24eaf46ca896193cad2321da09f1f301afe1879b222088e26711fcc",
       "review": "pending",
       "notes": ""
     },
@@ -10514,7 +10586,7 @@
       ],
       "revision": "9b9987357d5275033072abb76672514ae25c00264eb7757a8683449041f6d5fb",
       "geometrySignature": "4933e675c1e1fdabc7cff2cd10bc3d8a0b297986e981e604bad59d3e279ba892",
-      "comparisonRevision": "610f775cdf4e89c4cb19e1819aa7dd040b891748e483f3514f8c04fae8ea1adc",
+      "comparisonRevision": "796e144c5345959bbe38e571ea11e737b2a3e453c82de676998641f712b15f50",
       "review": "pending",
       "notes": ""
     },
@@ -11142,7 +11214,7 @@
       ],
       "revision": "75699e5ee3f5dc5077f1bf64143684f1f0d3ed41873e2fd16a9cd06f4dd5007d",
       "geometrySignature": "b5766e284d0f03720a0b0c744690e236afe0479f0b934d0329946f51fe0c57fc",
-      "comparisonRevision": "93d769a9dd3a26ebd72b9bbd7c131fe338536cdf4a9a8ece1555da14368d369a",
+      "comparisonRevision": "9d55bf6ce49084885e4c8ce7751708439fb0bdd491b92f96a7b9f82d72b2a8f2",
       "review": "pending",
       "notes": ""
     },
@@ -11575,7 +11647,7 @@
       ],
       "revision": "c40e434830bb299a49cc9e01d88f2fba4fecd4171680b6c00f61aae50f12575c",
       "geometrySignature": "fcb1ca288abe7b6697e7c1548c4e14a6610b4336266cf4a3b2601eb8ffce115b",
-      "comparisonRevision": "cbe9aae3927e8d705d18ff66f8ec68b68e154785202e0e3ba18a99c01072015e",
+      "comparisonRevision": "4cabd5a0890eb21904f070e59ff115dd691b756094338beba0e22a98c75bde19",
       "review": "pending",
       "notes": ""
     },
@@ -11635,7 +11707,7 @@
       ],
       "revision": "a730da1b7c0b3b7e3bf0fc3d57d8818d083f93500f5a35a1e31bf77ec070ccab",
       "geometrySignature": "5cbc412cb546ac9b062854cdda2cd2ef28fbf7acb4a3e7c506170e7cae9b340c",
-      "comparisonRevision": "cf80b21466a1488ac15bc516f9c07023d5eb99ac8184524ebe62d507e80d251f",
+      "comparisonRevision": "e002ba6d86e21daaee4ce16ce060b6e85a2b01b068865e382995f778e5e6202b",
       "review": "pending",
       "notes": ""
     },
@@ -12035,7 +12107,7 @@
       ],
       "revision": "0f8afbe91a0c002a303447b74072ec984e53b3e13ce1cf68045e4a3744982466",
       "geometrySignature": "723fa91b399adbd1d06113f2e86423390bdec96834267d323c27b33e29a10a2f",
-      "comparisonRevision": "3b9ced979eee6c4f226b033bf2ea1c3ea388187fbdece8d34afb9d115d300c46",
+      "comparisonRevision": "6b383b6a282216fad182d334b45c7442b638ae801b159475d32911f988b005cb",
       "review": "pending",
       "notes": ""
     },
@@ -12183,7 +12255,7 @@
       ],
       "revision": "7a6a7d373c341925be5a75df6a0d97dcd0afffe7e4ea3596730f3770eaded827",
       "geometrySignature": "f4e67c5aebb238b9695b7d6af1fc76f1bc2c3b0cc07ca7f1cec9f905721a4a79",
-      "comparisonRevision": "c319b6fb43990d0e605cad5b41e739520dedbaeb5d354ab4f53668da1e998972",
+      "comparisonRevision": "30d9f279886ba50428c54aadb34ca76f0ed2acab314e5c1b5fc0144b34e0520d",
       "review": "pending",
       "notes": ""
     },

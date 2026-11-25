@@ -22,6 +22,7 @@ import { fabricProductsArtwork } from "./fabric-products.mjs";
 import { awsDeveloperArtwork } from "./aws-developer.mjs";
 import { awsBusinessArtwork } from "./aws-business.mjs";
 import { awsMigrationArtwork } from "./aws-migration.mjs";
+import { awsManagementArtwork } from "./aws-management.mjs";
 import { officeNavigationArtwork } from "./office-navigation.mjs";
 import { officeSymbolsArtwork } from "./office-symbols.mjs";
 import { awsNetworkArtwork } from "./aws-network.mjs";
@@ -268,6 +269,7 @@ export const artwork = [
   ...awsDeveloperArtwork,
   ...awsBusinessArtwork,
   ...awsMigrationArtwork,
+  ...awsManagementArtwork,
   ...officeNavigationArtwork,
   ...officeSymbolsArtwork,
   ...awsNetworkArtwork,
