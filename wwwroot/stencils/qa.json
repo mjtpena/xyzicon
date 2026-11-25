@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 958,
-  "aliases": 3683,
+  "count": 962,
+  "aliases": 3699,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -450,6 +450,8 @@
     "m365-three-shapes",
     "m365-share-screen-overlay",
     "m365-ribbon-star",
+    "aws-deep-learning-amis",
+    "aws-sagemaker-studio-lab",
     "aws-nova",
     "aws-bedrock-agentcore",
     "aws-sagemaker-ai",
@@ -601,6 +603,7 @@
     "aws-managed-prometheus",
     "aws-user-notifications",
     "aws-resilience-hub",
+    "aws-elemental-appliances",
     "aws-elemental-inference",
     "aws-medialive",
     "aws-mediaconvert",
@@ -700,6 +703,7 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-rtb-fabric",
     "aws-private-subnet",
     "aws-public-subnet",
     "aws-region-group",
@@ -1062,8 +1066,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1276,
-      "concepts": 321
+      "covered": 1292,
+      "concepts": 325
     },
     "gcp": {
       "sources": 261,
@@ -1312,6 +1316,11 @@
     ],
     "power-dataverse": [
       {
+        "a": "power-dataverse",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2201
+      },
+      {
         "a": "entra-id",
         "b": "power-dataverse",
         "similarity": 0.2002
@@ -1320,11 +1329,6 @@
         "a": "power-dataverse",
         "b": "gcp-storage",
         "similarity": 0.1958
-      },
-      {
-        "a": "power-dataverse",
-        "b": "m365-folders",
-        "similarity": 0.1942
       }
     ],
     "dynamics-sales": [
@@ -2061,6 +2065,11 @@
     "azure-device-registry": [
       {
         "a": "azure-device-registry",
+        "b": "aws-deep-learning-amis",
+        "similarity": 0.2668
+      },
+      {
+        "a": "azure-device-registry",
         "b": "aws-reserved-instance-reporting",
         "similarity": 0.2055
       },
@@ -2068,11 +2077,6 @@
         "a": "azure-device-registry",
         "b": "azure-databricks",
         "similarity": 0.203
-      },
-      {
-        "a": "azure-device-registry",
-        "b": "aws-site-vpn",
-        "similarity": 0.1907
       }
     ],
     "azure-monitor": [
@@ -2520,6 +2524,11 @@
     "azure-managed-identities": [
       {
         "a": "azure-managed-identities",
+        "b": "aws-deep-learning-amis",
+        "similarity": 0.2331
+      },
+      {
+        "a": "azure-managed-identities",
         "b": "fabric-copy-job",
         "similarity": 0.2081
       },
@@ -2527,11 +2536,6 @@
         "a": "azure-managed-identities",
         "b": "aws-reserved-instance-reporting",
         "similarity": 0.2061
-      },
-      {
-        "a": "azure-managed-identities",
-        "b": "azure-genomics-accounts",
-        "similarity": 0.2047
       }
     ],
     "azure-dns-zones": [
@@ -4570,8 +4574,8 @@
       },
       {
         "a": "gcp-api-analytics",
-        "b": "aws-proton",
-        "similarity": 0.2105
+        "b": "aws-deep-learning-amis",
+        "similarity": 0.2214
       }
     ],
     "gcp-api-monetization": [
@@ -5109,13 +5113,13 @@
       },
       {
         "a": "gcp-threat-intelligence",
-        "b": "azure-foundry-project",
-        "similarity": 0.2303
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2431
       },
       {
         "a": "gcp-threat-intelligence",
-        "b": "aws-transform",
-        "similarity": 0.2245
+        "b": "azure-foundry-project",
+        "similarity": 0.2303
       }
     ],
     "gcp-security-command-center": [
@@ -5682,6 +5686,11 @@
     "m365-laptop": [
       {
         "a": "m365-laptop",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2536
+      },
+      {
+        "a": "m365-laptop",
         "b": "aws-ground-truth",
         "similarity": 0.2454
       },
@@ -5689,11 +5698,6 @@
         "a": "m365-laptop",
         "b": "aws-elastic-beanstalk",
         "similarity": 0.233
-      },
-      {
-        "a": "m365-laptop",
-        "b": "fabric-stacked-text",
-        "similarity": 0.2168
       }
     ],
     "m365-tablet": [
@@ -6507,9 +6511,9 @@
         "similarity": 0.2738
       },
       {
-        "a": "gcp-certificate-manager",
-        "b": "azure-databricks",
-        "similarity": 0.2582
+        "a": "azure-databricks",
+        "b": "aws-deep-learning-amis",
+        "similarity": 0.2619
       }
     ],
     "azure-analysis-services": [
@@ -6650,6 +6654,11 @@
     ],
     "azure-synapse": [
       {
+        "a": "azure-synapse",
+        "b": "aws-rtb-fabric",
+        "similarity": 0.1689
+      },
+      {
         "a": "aws-b2b-interchange",
         "b": "azure-synapse",
         "similarity": 0.1559
@@ -6658,11 +6667,6 @@
         "a": "azure-synapse",
         "b": "aws-app-mesh",
         "similarity": 0.1518
-      },
-      {
-        "a": "m365-organization-horizontal",
-        "b": "azure-synapse",
-        "similarity": 0.1484
       }
     ],
     "azure-lake-analytics": [
@@ -8637,6 +8641,40 @@
         "similarity": 0.1585
       }
     ],
+    "aws-deep-learning-amis": [
+      {
+        "a": "aws-deep-learning-amis",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2965
+      },
+      {
+        "a": "azure-device-registry",
+        "b": "aws-deep-learning-amis",
+        "similarity": 0.2668
+      },
+      {
+        "a": "azure-databricks",
+        "b": "aws-deep-learning-amis",
+        "similarity": 0.2619
+      }
+    ],
+    "aws-sagemaker-studio-lab": [
+      {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "aws-finspace",
+        "similarity": 0.2474
+      },
+      {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "aws-codewhisperer",
+        "similarity": 0.2386
+      },
+      {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "aws-workspaces",
+        "similarity": 0.2268
+      }
+    ],
     "aws-nova": [
       {
         "a": "aws-nova",
@@ -9482,9 +9520,9 @@
         "similarity": 0.2367
       },
       {
-        "a": "azure-openai",
-        "b": "azure-language-understanding",
-        "similarity": 0.2048
+        "a": "azure-language-understanding",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2247
       }
     ],
     "azure-immersive-reader": [
@@ -10123,14 +10161,14 @@
         "similarity": 0.2768
       },
       {
+        "a": "aws-marketplace",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2629
+      },
+      {
         "a": "gcp-firewall-rules",
         "b": "aws-marketplace",
         "similarity": 0.2439
-      },
-      {
-        "a": "aws-marketplace",
-        "b": "aws-s3-glacier",
-        "similarity": 0.2231
       }
     ],
     "aws-partner-central": [
@@ -10356,6 +10394,11 @@
     ],
     "aws-workspaces": [
       {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "aws-workspaces",
+        "similarity": 0.2268
+      },
+      {
         "a": "aws-workspaces",
         "b": "aws-sustainability",
         "similarity": 0.2145
@@ -10364,11 +10407,6 @@
         "a": "aws-workspaces",
         "b": "gcp-category-security",
         "similarity": 0.2097
-      },
-      {
-        "a": "gcp-cloud-vpn",
-        "b": "aws-workspaces",
-        "similarity": 0.204
       }
     ],
     "aws-finops-agent": [
@@ -10543,6 +10581,11 @@
     ],
     "aws-reserved-instance-reporting": [
       {
+        "a": "aws-deep-learning-amis",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2965
+      },
+      {
         "a": "aws-reserved-instance-reporting",
         "b": "aws-audit-manager",
         "similarity": 0.2457
@@ -10551,11 +10594,6 @@
         "a": "aws-reserved-instance-reporting",
         "b": "fabric-calculator-multiple-brackets-number",
         "similarity": 0.2306
-      },
-      {
-        "a": "aws-billing-conductor",
-        "b": "aws-reserved-instance-reporting",
-        "similarity": 0.222
       }
     ],
     "aws-support": [
@@ -11202,6 +11240,23 @@
         "a": "m365-globe",
         "b": "aws-resilience-hub",
         "similarity": 0.1745
+      }
+    ],
+    "aws-elemental-appliances": [
+      {
+        "a": "aws-marketplace",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2629
+      },
+      {
+        "a": "m365-laptop",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2536
+      },
+      {
+        "a": "gcp-threat-intelligence",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2431
       }
     ],
     "aws-elemental-inference": [
@@ -12911,6 +12966,23 @@
         "similarity": 0.5942
       }
     ],
+    "aws-rtb-fabric": [
+      {
+        "a": "aws-rtb-fabric",
+        "b": "azure-compute-fleet",
+        "similarity": 0.2954
+      },
+      {
+        "a": "gcp-cloud-gpu",
+        "b": "aws-rtb-fabric",
+        "similarity": 0.2245
+      },
+      {
+        "a": "aws-rtb-fabric",
+        "b": "aws-category-hybrid",
+        "similarity": 0.219
+      }
+    ],
     "aws-private-subnet": [
       {
         "a": "aws-private-subnet",
@@ -13569,9 +13641,9 @@
         "similarity": 0.2144
       },
       {
-        "a": "aws-workspaces",
+        "a": "aws-deep-learning-amis",
         "b": "gcp-category-security",
-        "similarity": 0.2097
+        "similarity": 0.2121
       }
     ],
     "gcp-category-serverless": [
@@ -13995,14 +14067,14 @@
         "similarity": 0.2731
       },
       {
+        "a": "aws-deep-learning-amis",
+        "b": "aws-memorydb",
+        "similarity": 0.234
+      },
+      {
         "a": "aws-chime",
         "b": "aws-memorydb",
         "similarity": 0.2291
-      },
-      {
-        "a": "aws-memorydb",
-        "b": "azure-reservations",
-        "similarity": 0.2282
       }
     ],
     "aws-neptune": [
@@ -14284,14 +14356,14 @@
         "similarity": 0.2338
       },
       {
+        "a": "aws-rtb-fabric",
+        "b": "aws-category-hybrid",
+        "similarity": 0.219
+      },
+      {
         "a": "m365-calendar",
         "b": "aws-category-hybrid",
         "similarity": 0.2167
-      },
-      {
-        "a": "gcp-cloud-audit-logs",
-        "b": "aws-category-hybrid",
-        "similarity": 0.2134
       }
     ],
     "aws-category-migration": [
@@ -15661,14 +15733,14 @@
         "similarity": 0.3594
       },
       {
+        "a": "aws-rtb-fabric",
+        "b": "azure-compute-fleet",
+        "similarity": 0.2954
+      },
+      {
         "a": "aws-datasync",
         "b": "azure-compute-fleet",
         "similarity": 0.2736
-      },
-      {
-        "a": "aws-data-exchange-api",
-        "b": "azure-compute-fleet",
-        "similarity": 0.2495
       }
     ],
     "azure-availability-sets": [

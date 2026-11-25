@@ -3,6 +3,16 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-rtb-fabric", "aws", "AWS RTB Fabric", sizes("AWS-RTB-Fabric"),
+    "A low-latency link exchanges bid requests and responses between advertising partners.",
+    [
+      rect(8, 30, 31, 46), line([8, 40], [39, 40]), line([14, 50], [33, 50]), line([14, 60], [29, 60]),
+      rect(89, 30, 31, 46), line([89, 40], [120, 40]), line([95, 50], [114, 50]), line([95, 60], [110, 60]),
+      line([39, 48], [88, 48]), line([82, 42], [88, 48], [82, 54]),
+      line([89, 67], [40, 67]), line([46, 61], [40, 67], [46, 73]),
+      oval(51, 79, 26, 26), line([64, 84], [64, 93], [71, 97]),
+      line([18, 114], [109, 114]),
+    ]),
   entry("aws-private-subnet", "aws", "Private subnet", ["Private-subnet_32"],
     "An isolated network segment protects its internal hosts with a lock.",
     [

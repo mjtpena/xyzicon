@@ -3,6 +3,28 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsIntelligenceArtwork = [
+  entry("aws-deep-learning-amis", "aws", "AWS Deep Learning AMIs", sizes("AWS-Deep-Learning-AMIs"),
+    "A machine image boots an environment with a ready neural network.",
+    [
+      rect(10, 25, 45, 70), line([10, 37], [55, 37]), line([17, 31], [42, 31]),
+      line([19, 51], [29, 61], [19, 71]), line([34, 72], [46, 72]),
+      line([55, 60], [68, 60]), line([62, 54], [68, 60], [62, 66]),
+      rect(70, 31, 44, 58), line([79, 24], [79, 31]), line([91, 24], [91, 31]), line([103, 24], [103, 31]),
+      line([79, 89], [79, 96]), line([91, 89], [91, 96]), line([103, 89], [103, 96]),
+      oval(77, 42, 8, 8), oval(77, 67, 8, 8), oval(99, 55, 8, 8, true),
+      line([85, 46], [99, 59]), line([85, 71], [99, 59]),
+      line([20, 109], [109, 109]),
+    ]),
+  entry("aws-sagemaker-studio-lab", "aws", "Amazon SageMaker Studio Lab", sizes("Amazon-SageMaker-Studio-Lab"),
+    "An experimental notebook explores a machine-learning model.",
+    [
+      rect(12, 21, 67, 72), line([12, 33], [79, 33]), line([19, 27], [42, 27]),
+      line([25, 43], [19, 49], [25, 55]), line([40, 43], [46, 49], [40, 55]), line([36, 41], [30, 57]),
+      line([20, 70], [28, 62], [36, 75], [45, 59], [55, 65]), line([20, 82], [67, 82]),
+      line([91, 28], [106, 28]), line([95, 28], [95, 43], [85, 63], [86, 69], [111, 69], [112, 63], [102, 43], [102, 28]),
+      line([90, 58], [96, 55], [103, 58], [107, 56]), oval(95, 47, 5, 5),
+      line([20, 109], [109, 109]),
+    ]),
   entry("aws-nova", "aws", "Amazon Nova", sizes("Amazon-Nova"),
     "A multimodal model combines text and audio inputs.",
     [
