@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 804,
-  "aliases": 3334,
+  "count": 808,
+  "aliases": 3338,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -413,6 +413,10 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-openai",
+    "azure-ai-studio",
+    "azure-foundry-iq",
+    "azure-machine-learning",
     "azure-foundry-application",
     "azure-foundry-agent-service",
     "azure-foundry-control-plane",
@@ -871,8 +875,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 154,
-      "concepts": 115
+      "covered": 158,
+      "concepts": 119
     },
     "fabric": {
       "sources": 1584,
@@ -3634,6 +3638,11 @@
     "aws-appsync": [
       {
         "a": "aws-appsync",
+        "b": "azure-foundry-iq",
+        "similarity": 0.2047
+      },
+      {
+        "a": "aws-appsync",
         "b": "m365-slide-layout",
         "similarity": 0.1937
       },
@@ -3641,11 +3650,6 @@
         "a": "aws-appsync",
         "b": "aws-codewhisperer",
         "similarity": 0.1928
-      },
-      {
-        "a": "aws-appsync",
-        "b": "m365-chat",
-        "similarity": 0.1925
       }
     ],
     "aws-b2b-interchange": [
@@ -4365,6 +4369,11 @@
     "gcp-cloud-deploy": [
       {
         "a": "gcp-cloud-deploy",
+        "b": "azure-ai-studio",
+        "similarity": 0.2283
+      },
+      {
+        "a": "gcp-cloud-deploy",
         "b": "aws-app-runner",
         "similarity": 0.1845
       },
@@ -4372,11 +4381,6 @@
         "a": "aws-ebs",
         "b": "gcp-cloud-deploy",
         "similarity": 0.1746
-      },
-      {
-        "a": "gcp-cloud-deploy",
-        "b": "fabric-runtime-lineage",
-        "similarity": 0.165
       }
     ],
     "gcp-cloud-shell": [
@@ -5956,8 +5960,8 @@
       },
       {
         "a": "aws-data-exchange",
-        "b": "m365-settings",
-        "similarity": 0.1682
+        "b": "azure-ai-studio",
+        "similarity": 0.1756
       }
     ],
     "aws-entity-resolution": [
@@ -7847,6 +7851,74 @@
         "similarity": 0.2267
       }
     ],
+    "azure-openai": [
+      {
+        "a": "azure-openai",
+        "b": "azure-batch-accounts",
+        "similarity": 0.2466
+      },
+      {
+        "a": "azure-openai",
+        "b": "azure-app-service-environments",
+        "similarity": 0.2254
+      },
+      {
+        "a": "azure-openai",
+        "b": "azure-language-understanding",
+        "similarity": 0.2048
+      }
+    ],
+    "azure-ai-studio": [
+      {
+        "a": "azure-ai-studio",
+        "b": "aws-fsx-windows",
+        "similarity": 0.2361
+      },
+      {
+        "a": "gcp-cloud-deploy",
+        "b": "azure-ai-studio",
+        "similarity": 0.2283
+      },
+      {
+        "a": "fabric-environment",
+        "b": "azure-ai-studio",
+        "similarity": 0.2076
+      }
+    ],
+    "azure-foundry-iq": [
+      {
+        "a": "azure-foundry-iq",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2355
+      },
+      {
+        "a": "azure-foundry-iq",
+        "b": "aws-workdocs-sdk",
+        "similarity": 0.2267
+      },
+      {
+        "a": "azure-foundry-iq",
+        "b": "aws-management-console",
+        "similarity": 0.21
+      }
+    ],
+    "azure-machine-learning": [
+      {
+        "a": "azure-machine-learning",
+        "b": "aws-storage-gateway",
+        "similarity": 0.2963
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "azure-linux",
+        "similarity": 0.256
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2506
+      }
+    ],
     "azure-foundry-application": [
       {
         "a": "azure-foundry-application",
@@ -8165,9 +8237,9 @@
         "similarity": 0.2367
       },
       {
-        "a": "entra-workload-id",
+        "a": "azure-openai",
         "b": "azure-language-understanding",
-        "similarity": 0.1973
+        "similarity": 0.2048
       }
     ],
     "azure-immersive-reader": [
@@ -8857,14 +8929,14 @@
         "similarity": 0.2286
       },
       {
+        "a": "azure-foundry-iq",
+        "b": "aws-workdocs-sdk",
+        "similarity": 0.2267
+      },
+      {
         "a": "m365-folder-people",
         "b": "aws-workdocs-sdk",
         "similarity": 0.2221
-      },
-      {
-        "a": "aws-pinpoint-apis",
-        "b": "aws-workdocs-sdk",
-        "similarity": 0.2074
       }
     ],
     "aws-workspaces": [
@@ -9287,9 +9359,9 @@
         "similarity": 0.2559
       },
       {
-        "a": "aws-service-management-connector",
-        "b": "aws-devops-agent",
-        "similarity": 0.2446
+        "a": "azure-machine-learning",
+        "b": "aws-service-management-connector",
+        "similarity": 0.2483
       }
     ],
     "aws-devops-agent": [
@@ -9787,6 +9859,11 @@
     ],
     "aws-deadline-cloud": [
       {
+        "a": "azure-machine-learning",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2506
+      },
+      {
         "a": "aws-deadline-cloud",
         "b": "aws-data-transfer-terminal",
         "similarity": 0.2296
@@ -9795,11 +9872,6 @@
         "a": "azure-endpoint-analytics",
         "b": "aws-deadline-cloud",
         "similarity": 0.2247
-      },
-      {
-        "a": "fabric-data-warehouse",
-        "b": "aws-deadline-cloud",
-        "similarity": 0.2243
       }
     ],
     "aws-elemental-live": [
@@ -10234,14 +10306,14 @@
         "similarity": 0.2653
       },
       {
+        "a": "azure-foundry-iq",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2355
+      },
+      {
         "a": "m365-tablet",
         "b": "aws-resource-access-manager",
         "similarity": 0.2199
-      },
-      {
-        "a": "aws-resource-access-manager",
-        "b": "azure-app-service-environments",
-        "similarity": 0.2132
       }
     ],
     "aws-payment-cryptography": [
@@ -10450,6 +10522,11 @@
     ],
     "aws-storage-gateway": [
       {
+        "a": "azure-machine-learning",
+        "b": "aws-storage-gateway",
+        "similarity": 0.2963
+      },
+      {
         "a": "aws-deadline-cloud",
         "b": "aws-storage-gateway",
         "similarity": 0.2033
@@ -10458,11 +10535,6 @@
         "a": "aws-storage-gateway",
         "b": "aws-ecs-anywhere",
         "similarity": 0.1944
-      },
-      {
-        "a": "aws-storage-gateway",
-        "b": "gcp-category-security",
-        "similarity": 0.1915
       }
     ],
     "aws-data-transfer-terminal": [
@@ -10540,14 +10612,14 @@
         "similarity": 0.2365
       },
       {
+        "a": "azure-ai-studio",
+        "b": "aws-fsx-windows",
+        "similarity": 0.2361
+      },
+      {
         "a": "gcp-bigquery",
         "b": "aws-fsx-windows",
         "similarity": 0.2241
-      },
-      {
-        "a": "aws-cloud9",
-        "b": "aws-fsx-windows",
-        "similarity": 0.2058
       }
     ],
     "m365-arrow-circle-left": [
@@ -13113,6 +13185,11 @@
     ],
     "azure-managed-service-fabric": [
       {
+        "a": "azure-ai-studio",
+        "b": "azure-managed-service-fabric",
+        "similarity": 0.1643
+      },
+      {
         "a": "azure-foundry-local",
         "b": "azure-managed-service-fabric",
         "similarity": 0.1614
@@ -13121,11 +13198,6 @@
         "a": "aws-codecatalyst",
         "b": "azure-managed-service-fabric",
         "similarity": 0.1596
-      },
-      {
-        "a": "m365-panel-left-header-key",
-        "b": "azure-managed-service-fabric",
-        "similarity": 0.1514
       }
     ],
     "azure-notification-hubs": [
@@ -14082,6 +14154,11 @@
     ],
     "fabric-person-settings": [
       {
+        "a": "azure-openai",
+        "b": "fabric-person-settings",
+        "similarity": 0.1414
+      },
+      {
         "a": "m365-building-multiple",
         "b": "fabric-person-settings",
         "similarity": 0.1412
@@ -14090,11 +14167,6 @@
         "a": "aws-fsx-lustre",
         "b": "fabric-person-settings",
         "similarity": 0.1383
-      },
-      {
-        "a": "azure-batch-accounts",
-        "b": "fabric-person-settings",
-        "similarity": 0.1377
       }
     ],
     "fabric-branch-edit": [
@@ -14606,9 +14678,9 @@
         "similarity": 0.1105
       },
       {
-        "a": "m365-person-accounts",
+        "a": "azure-machine-learning",
         "b": "fabric-connected-nodes",
-        "similarity": 0.1088
+        "similarity": 0.1096
       }
     ]
   }

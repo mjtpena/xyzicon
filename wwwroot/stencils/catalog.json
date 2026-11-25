@@ -2723,7 +2723,7 @@
       ],
       "revision": "e3f9b3341a70c5f74b47ae798a782a51f4a1d9a66c97463a15ff6f1dd273ff4a",
       "geometrySignature": "41cc567d4989859c96eff299a6e269ee4578a620623a812bef20c506266ea6a9",
-      "comparisonRevision": "c2d1b45457a1dc1fd251d20c723feec85a41cd94b1bce1ac92c74083e0648f86",
+      "comparisonRevision": "418c0e714102d2b50302bdcf7a9d77c1f6750f8c758d2a13411b44cf56656415",
       "review": "pending",
       "notes": ""
     },
@@ -3527,7 +3527,7 @@
       ],
       "revision": "2808fcaba3b41d1f3c51a274d20abcae5891a5cad4ba3af4fafb645709209f71",
       "geometrySignature": "7d880241e6e21ac15564291b85fcd9f24fa48357bea90ec7aeeacf83e5aaa72d",
-      "comparisonRevision": "46236773dfd920a600b065a29cb2388e82744d458a1e7c352c48f6d40766133e",
+      "comparisonRevision": "40534db68709b2f94c22d07f6b017d0dcfaf8dbb1f37d792b5ca935547224be2",
       "review": "pending",
       "notes": ""
     },
@@ -5212,7 +5212,7 @@
       ],
       "revision": "2ad5fb48eca54653f55ef61255beecb3a85999763d95b6d428522dc88ba60c42",
       "geometrySignature": "ab8566e16e769f129202324f5c5a9056f29cb9eddc7e33074ba37cd25cb0e163",
-      "comparisonRevision": "d26e691ecb2e0f9faae09b507d37b16123a64c492203c6d310c93f0c66a3ce06",
+      "comparisonRevision": "3cb41d4a3392b93fa3e67625abe3473354762b2b66b3d67fea9b58f3c6ba31e9",
       "review": "pending",
       "notes": ""
     },
@@ -7383,6 +7383,66 @@
       "notes": ""
     },
     {
+      "id": "azure-openai",
+      "provider": "azure",
+      "name": "Azure OpenAI",
+      "rationale": "A prompt is transformed into a generated response.",
+      "path": "stencils/azure-openai.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/ai + machine learning/03438-icon-service-Azure-OpenAI.svg"
+      ],
+      "revision": "0a72ffa1613e7f42ae54ee8412570465e4cfc89c1280b0b42df506e476b4b88e",
+      "geometrySignature": "dbd3d490364649a62674213e2fa59934370bbb79c9855ce54520025a6bf910ae",
+      "comparisonRevision": "f034fdc4329a78e2188c1d08b900bdad70456c2332ed4ae905e5202469430ee5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-ai-studio",
+      "provider": "azure",
+      "name": "AI Studio",
+      "rationale": "A visual studio connects model development steps.",
+      "path": "stencils/azure-ai-studio.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/ai + machine learning/03513-icon-service-AI-Studio.svg"
+      ],
+      "revision": "7095fc9fc1e84371094227594735c14b80f3f13a2fd5c50896c372f15f7df705",
+      "geometrySignature": "0818a3f987f99bd0aa5c9627816956097bb2d9865daa95a8392b8dd1d1ad92fe",
+      "comparisonRevision": "5898d4c074896152d8fc02e5dda8c5bd808e73118341de57a8fb32f4d6453942",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-foundry-iq",
+      "provider": "azure",
+      "name": "Azure AI Foundry IQ",
+      "rationale": "Knowledge retrieval grounds an AI answer in source documents.",
+      "path": "stencils/azure-foundry-iq.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/ai + machine learning/038470497-icon-service-Azure-AI-Foundry-IQ.svg"
+      ],
+      "revision": "b2a545a56b2eea5264075e8b9be47b285c98abccc16d6f165ccdc40731990ee6",
+      "geometrySignature": "531a8cf5d34c7544f63506b2f097a5fa2bfe541ea6413fdaf92f88073ec99e04",
+      "comparisonRevision": "ade242b8a243d5cd40fad006b27fd35ed63e36f73deaf746598705700a2c2198",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-machine-learning",
+      "provider": "azure",
+      "name": "Azure Machine Learning",
+      "rationale": "Training data produces a learned model.",
+      "path": "stencils/azure-machine-learning.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/ai + machine learning/038470510-icon-service-Azure-Machine-Learning.svg"
+      ],
+      "revision": "27646a47ee5faeb5ce185c787ef156f1993974f7e6eab405a6e4fc3e213f5c5d",
+      "geometrySignature": "9dd105fd2ffc91adfe0daa457c9ad20d5d3d8ecd3d8a0bb014c0baffe53f1970",
+      "comparisonRevision": "c15df24c69da68127bb1bc25fbf1724ee01b7825680ac4affcf3c7ecbe0c0b66",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-foundry-application",
       "provider": "azure",
       "name": "Foundry Application",
@@ -7663,7 +7723,7 @@
       ],
       "revision": "b8b8da7fa72c260229b376a65bdd359b89a31ca2d9747ffaa95d157113a3b2a6",
       "geometrySignature": "76189804f36dca32986248a6435e693217d488283502e12a61df3369981fd330",
-      "comparisonRevision": "2adac6cf141d4221710ea5ce83583019c3c605d8d0363faf687fa4367d724ee5",
+      "comparisonRevision": "a7542515498dc629bff84a120023edcb4728f0992e13127e5b02c1b1f5738c62",
       "review": "pending",
       "notes": ""
     },
@@ -8534,7 +8594,7 @@
       ],
       "revision": "b5567bd1e4c4dafcb42a2d80653dce40222b7b9cb62617de7a413f1aa7cebba9",
       "geometrySignature": "ae4424dfed1c2948e02f6292c3dcf8ba3fd7f7ff1a5bcb1474e98260e61cd47c",
-      "comparisonRevision": "5c5f56cc5d54ccdb5df7a9216bd8b15482b43c357d5e27b9e00473c14b68dbd4",
+      "comparisonRevision": "74a3d30741cb34f59652405d4039eee1e45fc2867cb984e77da6f5ec22364c44",
       "review": "pending",
       "notes": ""
     },
@@ -8984,7 +9044,7 @@
       ],
       "revision": "a7575df5de2048eeeefcce7c5d9d746205816af698947718ca3be6297615bcbf",
       "geometrySignature": "23c3820b800cb7ed1af96c5e88c7c2cff9a40665358494222b66d52252328a31",
-      "comparisonRevision": "d81c4428062ab7e76b9fcc3004e452b5b5e11a93920b39f7636a51c3e9e5c060",
+      "comparisonRevision": "b2d281a93a3091046495f486990637cdf10f0dafbb090a9df141d4e68da2ca56",
       "review": "pending",
       "notes": ""
     },
@@ -9524,7 +9584,7 @@
       ],
       "revision": "f2f6bfc1e315bd264c3a4ea276d37b39b8f272a2059a1ba68875652b0d92521e",
       "geometrySignature": "f06ffab9533bd4078addd1a97a1cc19ffb896d1aaf7084e553b8233a6583fd00",
-      "comparisonRevision": "eb1fcd492ae0913ac9ebb998f068b671885f064429279c495ceb85dcede90254",
+      "comparisonRevision": "e5389b9c6f2627a071ee035d168ecf82bc7ad40ce7d2250a2fc561f1716fb1ca",
       "review": "pending",
       "notes": ""
     },
@@ -9992,7 +10052,7 @@
       ],
       "revision": "bc7801d1e56d73ba469f827ba0a11583afc63fc4065d93d1c6cc7b3ace4b42f6",
       "geometrySignature": "20944e5c3b8b902a3d574ce9378330b52b717c9b08acd711f8de28c56cc75310",
-      "comparisonRevision": "107ad7bb379e79fc24218dfc945bc3eb536c7e58d86ee9a5b00470f783695f63",
+      "comparisonRevision": "a3017d5455c43946a1c7bc1b299f0d20579b739edc71001ed648b8c8ee361353",
       "review": "pending",
       "notes": ""
     },
@@ -10226,7 +10286,7 @@
       ],
       "revision": "7743f28842b15db7ee0365c6fbb452900e6a8b97329b94d0946763fc4e835022",
       "geometrySignature": "7b6d1b42cc5b692b9e7a85a69fbe6563fd946de9b495583fc7756a099c0fcf91",
-      "comparisonRevision": "382ab4830a1d109ea88902d5c22d0927a9265e5247df765aea2eb05768a9fe8f",
+      "comparisonRevision": "447f3554239da78e7a41fc7550b2466f364f9e62dc515d882c2a204d320d0d8d",
       "review": "pending",
       "notes": ""
     },
@@ -10316,7 +10376,7 @@
       ],
       "revision": "782af73dd3f0a133f4cf6797225d1bf15c15848664864ec6c7c8253b384e965f",
       "geometrySignature": "64888ab41797090d8dfa8ba75d5b376cb0c975eca567c93440470e0e89105b64",
-      "comparisonRevision": "61749d66ec8ebdb628db3fa99968c3932821062828afe421a22befba3995c88c",
+      "comparisonRevision": "9f4ca547e08716469b57ff1259effc2c63f46afe8419468087165cb54d86b96b",
       "review": "pending",
       "notes": ""
     },
@@ -12988,7 +13048,7 @@
       ],
       "revision": "9e0884474214f8e4d0509ee997527ebc6b7d9ab4d3027abf93e5d8dbe257e5c9",
       "geometrySignature": "cd0d885cab241836c87310bc96a84dc71e419abb5fe6d35ad55508b01b027124",
-      "comparisonRevision": "72d684ef5d077acfc6c5ba4baad2445a277339b248bbeea4f5fdf8ef3b4f62ec",
+      "comparisonRevision": "300acead0923fc485c78b53cebf987cb3399208197b21ac5fcffc2449aea763c",
       "review": "pending",
       "notes": ""
     },
@@ -14045,7 +14105,7 @@
       ],
       "revision": "2ad263d6a6574a43413637ead980438df291f54dc5647ed5dbe03c31bc59550a",
       "geometrySignature": "6aa81d90d756b33d0c5cd9552371ee97b1beeb84206e2684161c81f0b01ffbf7",
-      "comparisonRevision": "d38df536fd53965368a45493604e84acf0b9e081e018896f84a4bda9d05d93de",
+      "comparisonRevision": "8e3a9edfdc87501644b9303645a2fd0606a4b47ce202a2cd364a6ac39ec4905d",
       "review": "pending",
       "notes": ""
     },
@@ -14587,7 +14647,7 @@
       ],
       "revision": "fd1d90d36ab512cca72a6108aa2637a4bea2729db84960bea65b4e1c029d9556",
       "geometrySignature": "fea749905864c15f4bd52fcf93ea7addf7361e6a211824bb6fdcc6c748fe7a18",
-      "comparisonRevision": "f7ca3adcea3fe473ff1ebd281717f24caadf0cd949ffca51be76f639f4c2192a",
+      "comparisonRevision": "cc7605211bfc6db946c52d5fdcae26dc22deabbf2453093d1c8590cb3a703e74",
       "review": "pending",
       "notes": ""
     }

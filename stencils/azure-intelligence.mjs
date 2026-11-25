@@ -1,6 +1,48 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-openai", "azure", "Azure OpenAI", ["03438-icon-service-Azure-OpenAI"],
+    "A prompt is transformed into a generated response.",
+    [
+      line([9, 20], [68, 20], [68, 58], [40, 58], [29, 68], [29, 58], [9, 58], [9, 20]),
+      line([18, 30], [59, 30]), line([18, 40], [51, 40]), line([18, 50], [59, 50]),
+      line([68, 45], [80, 45], [80, 69]), line([74, 63], [80, 69], [86, 63]),
+      line([46, 77], [114, 77], [114, 107], [46, 107], [46, 77]),
+      line([56, 87], [104, 87]), line([56, 97], [92, 97]),
+      line([96, 27], [100, 19], [104, 27], [112, 31], [104, 35], [100, 43], [96, 35], [88, 31], [96, 27]),
+    ]),
+  entry("azure-ai-studio", "azure", "AI Studio", ["03513-icon-service-AI-Studio"],
+    "A visual studio connects model development steps.",
+    [
+      rect(11, 18, 34, 26), line([18, 26], [38, 26]), line([18, 34], [33, 34]),
+      line([45, 31], [63, 31], [63, 48]), line([57, 42], [63, 48], [69, 42]),
+      rect(46, 48, 34, 26), oval(51, 53, 6, 6), oval(68, 53, 6, 6), oval(59, 64, 6, 6, true),
+      line([57, 59], [61, 64]), line([70, 59], [65, 64]),
+      line([80, 61], [97, 61], [97, 78]), line([91, 72], [97, 78], [103, 72]),
+      rect(80, 78, 34, 26), line([87, 86], [107, 86]), line([87, 94], [102, 94]),
+      line([14, 111], [112, 111]),
+    ]),
+  entry("azure-foundry-iq", "azure", "Azure AI Foundry IQ", ["038470497-icon-service-Azure-AI-Foundry-IQ"],
+    "Knowledge retrieval grounds an AI answer in source documents.",
+    [
+      line([10, 18], [39, 18], [47, 26], [47, 67], [10, 67], [10, 18]),
+      line([39, 18], [39, 26], [47, 26]), line([17, 36], [40, 36]), line([17, 45], [35, 45]), line([17, 54], [40, 54]),
+      oval(31, 57, 25, 25), line([50, 76], [63, 89]),
+      line([57, 43], [72, 43]), line([66, 37], [72, 43], [66, 49]),
+      line([76, 18], [117, 18], [117, 61], [98, 61], [88, 70], [88, 61], [76, 61], [76, 18]),
+      line([84, 31], [109, 31]), line([84, 41], [105, 41]), line([84, 51], [109, 51]),
+      line([19, 105], [109, 105]),
+    ]),
+  entry("azure-machine-learning", "azure", "Azure Machine Learning", ["038470510-icon-service-Azure-Machine-Learning"],
+    "Training data produces a learned model.",
+    [
+      rect(10, 24, 39, 70), line([10, 38], [49, 38]), line([10, 52], [49, 52]), line([10, 66], [49, 66]), line([10, 80], [49, 80]),
+      line([23, 24], [23, 94]), line([36, 24], [36, 94]), rect(24, 53, 11, 12, true),
+      line([49, 58], [66, 58]), line([60, 52], [66, 58], [60, 64]),
+      oval(75, 22, 12, 12), oval(101, 22, 12, 12), oval(88, 53, 12, 12, true), oval(75, 84, 12, 12), oval(101, 84, 12, 12),
+      line([87, 30], [91, 53]), line([104, 34], [98, 53]), line([91, 65], [87, 84]), line([98, 65], [104, 84]),
+      line([17, 108], [110, 108]),
+    ]),
   entry("azure-foundry-application", "azure", "Foundry Application", ["036509374-icon-service-Foundry-Application"],
     "An application incorporates an AI-powered conversation.",
     [
