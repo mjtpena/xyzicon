@@ -1,6 +1,48 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-assured-workloads", "gcp", "Assured Workloads", ["assured_workloads"],
+    "A compliant workload is protected within a geographic boundary.",
+    [
+      line([13, 30], [13, 102], [100, 102]), line([13, 30], [43, 30]),
+      rect(23, 45, 37, 42), line([23, 57], [60, 57]), line([30, 67], [53, 67]), line([30, 77], [49, 77]),
+      line([80, 14], [105, 23], [104, 49], [96, 61], [80, 72], [64, 61], [56, 49], [55, 23], [80, 14]),
+      line([67, 42], [76, 51], [92, 33]),
+      line([70, 87], [77, 80], [84, 87], [77, 94], [70, 87]), line([84, 87], [108, 87]),
+      line([21, 113], [109, 113]),
+    ]),
+  entry("gcp-external-key-manager", "gcp", "Cloud External Key Manager", ["cloud_ekm"],
+    "An external key provider supplies a key to a protected cloud workload.",
+    [
+      rect(10, 28, 38, 64), line([10, 40], [48, 40]), line([17, 35], [40, 35]),
+      oval(19, 51, 15, 15), line([31, 62], [42, 73], [38, 77]), line([36, 67], [41, 62]),
+      line([48, 61], [65, 61]), line([59, 55], [65, 61], [59, 67]),
+      line([72, 43], [69, 38], [71, 33], [76, 31], [80, 24], [89, 22], [96, 27], [97, 33], [104, 34], [110, 39], [110, 45], [106, 49], [102, 49]),
+      rect(78, 51, 35, 38), line([78, 62], [113, 62]), line([84, 72], [107, 72]), line([84, 80], [103, 80]),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("gcp-key-access-justifications", "gcp", "Key Access Justifications", ["key_access_justifications"],
+    "A key request is accompanied by a written access reason.",
+    [
+      oval(12, 24, 27, 27), line([34, 45], [52, 63], [46, 69]), line([41, 52], [49, 44]),
+      line([47, 76], [62, 76]), line([56, 70], [62, 76], [56, 82]),
+      line([68, 17], [105, 17], [116, 28], [116, 103], [68, 103], [68, 17]),
+      line([105, 17], [105, 28], [116, 28]), line([76, 38], [108, 38]), line([76, 49], [103, 49]),
+      line([76, 61], [108, 61]), line([76, 72], [100, 72]),
+      line([78, 87], [84, 93], [96, 81]),
+      line([20, 112], [109, 112]),
+    ]),
+  entry("gcp-identity-aware-proxy", "gcp", "Identity-Aware Proxy", ["identity-aware_proxy"],
+    "A user passes an identity check before reaching an application.",
+    [
+      oval(12, 31, 20, 20), line([9, 79], [10, 64], [16, 55], [27, 55], [33, 64], [34, 79]),
+      line([35, 59], [47, 59]), line([42, 54], [47, 59], [42, 64]),
+      line([65, 20], [83, 27], [82, 50], [76, 61], [65, 69], [54, 61], [48, 50], [47, 27], [65, 20]),
+      line([56, 44], [62, 50], [74, 37]),
+      line([83, 55], [94, 55]), line([89, 50], [94, 55], [89, 60]),
+      rect(95, 37, 23, 37), line([95, 46], [118, 46]), line([100, 55], [113, 55]), line([100, 64], [110, 64]),
+      line([18, 105], [109, 105]),
+    ]),
   entry("gcp-api-analytics", "gcp", "API Analytics", ["api_analytics"],
     "An API request stream is measured on a traffic chart.",
     [
