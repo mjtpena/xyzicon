@@ -3,6 +3,28 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsIntelligenceArtwork = [
+  entry("aws-mxnet", "aws", "Apache MXNet on AWS", sizes("Apache-MXNet-on-AWS"),
+    "An MX-labeled model connects inputs and outputs.",
+    [
+      oval(12, 27, 12, 12), oval(12, 64, 12, 12), rect(39, 27, 43, 49), oval(97, 45, 12, 12),
+      line([24, 33], [39, 44]), line([24, 70], [39, 59]), line([82, 51], [97, 51]),
+      line([46, 63], [46, 40], [53, 51], [60, 40], [60, 63]), line([65, 40], [76, 63]), line([76, 40], [65, 63]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-pytorch", "aws", "PyTorch on AWS", sizes("PyTorch-on-AWS"),
+    "A torch illuminates a machine-learning model.",
+    [
+      line([39, 68], [79, 68], [73, 91], [45, 91], [39, 68]), line([49, 91], [49, 101], [69, 101], [69, 91]),
+      line([60, 64], [47, 56], [43, 46], [46, 36], [54, 28], [54, 40], [62, 33], [67, 21], [75, 35], [78, 46], [74, 56], [60, 64]),
+      oval(57, 48, 7, 7, true), line([15, 112], [110, 112]),
+    ]),
+  entry("aws-tensorflow", "aws", "TensorFlow on AWS", sizes("TensorFlow-on-AWS"),
+    "A tensor flows through a graph of model operations.",
+    [
+      rect(12, 38, 27, 31), line([18, 45], [33, 45]), line([25, 45], [25, 62]),
+      line([39, 53], [52, 53]), line([46, 47], [52, 53], [46, 59]),
+      oval(55, 24, 15, 15), oval(55, 68, 15, 15), oval(88, 46, 15, 15, true),
+      line([70, 31], [88, 50]), line([70, 75], [88, 57]), line([14, 110], [110, 110]),
+    ]),
   entry("aws-rekognition-image", "aws", "Rekognition Image", ["Res_Amazon-Rekognition_Image_48"],
     "An image is examined for recognizable content.",
     [

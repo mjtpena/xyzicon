@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1490,
-  "aliases": 4574,
+  "count": 1493,
+  "aliases": 4586,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -693,6 +693,9 @@
     "m365-three-shapes",
     "m365-share-screen-overlay",
     "m365-ribbon-star",
+    "aws-mxnet",
+    "aws-pytorch",
+    "aws-tensorflow",
     "aws-rekognition-image",
     "aws-rekognition-video",
     "aws-sagemaker-canvas",
@@ -1790,8 +1793,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1385,
-      "concepts": 417
+      "covered": 1397,
+      "concepts": 420
     },
     "gcp": {
       "sources": 261,
@@ -2731,8 +2734,8 @@
       },
       {
         "a": "azure-defender-easm",
-        "b": "azure-defender-cloud",
-        "similarity": 0.2704
+        "b": "aws-mxnet",
+        "similarity": 0.2911
       }
     ],
     "azure-information-protection": [
@@ -11618,6 +11621,11 @@
     ],
     "aws-opensearch-traces": [
       {
+        "a": "aws-opensearch-traces",
+        "b": "aws-pytorch",
+        "similarity": 0.2706
+      },
+      {
         "a": "azure-event-hub-clusters",
         "b": "aws-opensearch-traces",
         "similarity": 0.2627
@@ -11626,11 +11634,6 @@
         "a": "aws-opensearch-traces",
         "b": "azure-foundry-agent-service",
         "similarity": 0.2514
-      },
-      {
-        "a": "aws-opensearch-traces",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2513
       }
     ],
     "aws-opensearch-ultrawarm": [
@@ -11747,9 +11750,9 @@
         "similarity": 0.294
       },
       {
-        "a": "aws-redshift-governance",
-        "b": "aws-redshift-ml",
-        "similarity": 0.2794
+        "a": "aws-redshift-ml",
+        "b": "aws-tensorflow",
+        "similarity": 0.2908
       }
     ],
     "aws-redshift-ra3": [
@@ -13518,6 +13521,57 @@
         "a": "m365-ribbon-star",
         "b": "aws-network-firewall",
         "similarity": 0.1585
+      }
+    ],
+    "aws-mxnet": [
+      {
+        "a": "azure-defender-easm",
+        "b": "aws-mxnet",
+        "similarity": 0.2911
+      },
+      {
+        "a": "aws-mxnet",
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.2803
+      },
+      {
+        "a": "aws-mxnet",
+        "b": "azure-aks-network-policy",
+        "similarity": 0.2734
+      }
+    ],
+    "aws-pytorch": [
+      {
+        "a": "aws-pytorch",
+        "b": "azure-container-storage",
+        "similarity": 0.2736
+      },
+      {
+        "a": "aws-pytorch",
+        "b": "aws-location-geofence",
+        "similarity": 0.2725
+      },
+      {
+        "a": "aws-opensearch-traces",
+        "b": "aws-pytorch",
+        "similarity": 0.2706
+      }
+    ],
+    "aws-tensorflow": [
+      {
+        "a": "gcp-transfer",
+        "b": "aws-tensorflow",
+        "similarity": 0.2964
+      },
+      {
+        "a": "azure-import-export-jobs",
+        "b": "aws-tensorflow",
+        "similarity": 0.2959
+      },
+      {
+        "a": "aws-redshift-ml",
+        "b": "aws-tensorflow",
+        "similarity": 0.2908
       }
     ],
     "aws-rekognition-image": [
@@ -15426,6 +15480,11 @@
     ],
     "aws-location-geofence": [
       {
+        "a": "aws-pytorch",
+        "b": "aws-location-geofence",
+        "similarity": 0.2725
+      },
+      {
         "a": "aws-location-geofence",
         "b": "fabric-trophy-data-bars",
         "similarity": 0.2608
@@ -15434,11 +15493,6 @@
         "a": "aws-location-geofence",
         "b": "fabric-signal-tower",
         "similarity": 0.2603
-      },
-      {
-        "a": "azure-machine-learning-classic",
-        "b": "aws-location-geofence",
-        "similarity": 0.2566
       }
     ],
     "aws-location-map": [
@@ -15482,14 +15536,14 @@
         "similarity": 0.1966
       },
       {
+        "a": "aws-mxnet",
+        "b": "aws-location-routes",
+        "similarity": 0.1836
+      },
+      {
         "a": "gcp-migrate-anthos",
         "b": "aws-location-routes",
         "similarity": 0.1797
-      },
-      {
-        "a": "aws-redshift-ml",
-        "b": "aws-location-routes",
-        "similarity": 0.1703
       }
     ],
     "aws-location-track": [
@@ -15827,9 +15881,9 @@
         "similarity": 0.1706
       },
       {
-        "a": "fabric-planning",
+        "a": "aws-tensorflow",
         "b": "aws-iq",
-        "similarity": 0.161
+        "similarity": 0.1623
       }
     ],
     "aws-managed-services": [
@@ -19745,14 +19799,14 @@
         "similarity": 0.2584
       },
       {
+        "a": "aws-tensorflow",
+        "b": "aws-ecs-service-connect",
+        "similarity": 0.2276
+      },
+      {
         "a": "fabric-environment",
         "b": "aws-ecs-service-connect",
         "similarity": 0.2262
-      },
-      {
-        "a": "aws-ecs-service-connect",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2254
       }
     ],
     "aws-ecs-service": [
@@ -21678,6 +21732,11 @@
     ],
     "azure-container-storage": [
       {
+        "a": "aws-pytorch",
+        "b": "azure-container-storage",
+        "similarity": 0.2736
+      },
+      {
         "a": "aws-eks-outposts",
         "b": "azure-container-storage",
         "similarity": 0.2509
@@ -21686,11 +21745,6 @@
         "a": "aws-location-geofence",
         "b": "azure-container-storage",
         "similarity": 0.2435
-      },
-      {
-        "a": "azure-container-storage",
-        "b": "azure-quickstart-center",
-        "similarity": 0.2386
       }
     ],
     "azure-container-services-classic": [
@@ -23269,9 +23323,9 @@
         "similarity": 0.2669
       },
       {
-        "a": "gcp-database-migration",
+        "a": "aws-tensorflow",
         "b": "fabric-shapes-forward-arrow",
-        "similarity": 0.2612
+        "similarity": 0.2642
       }
     ],
     "fabric-equal": [
@@ -24113,14 +24167,14 @@
         "similarity": 0.2603
       },
       {
+        "a": "aws-pytorch",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2521
+      },
+      {
         "a": "azure-redis-cache",
         "b": "fabric-signal-tower",
         "similarity": 0.2418
-      },
-      {
-        "a": "azure-spring-apps",
-        "b": "fabric-signal-tower",
-        "similarity": 0.2417
       }
     ],
     "fabric-slide-accept-dismiss": [
