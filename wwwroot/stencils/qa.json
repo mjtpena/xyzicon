@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 887,
-  "aliases": 3576,
+  "count": 891,
+  "aliases": 3581,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -433,6 +433,10 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-language",
+    "azure-genomics-accounts",
+    "azure-bot-services",
+    "azure-cognitive-services",
     "azure-openai",
     "azure-ai-studio",
     "azure-foundry-iq",
@@ -961,8 +965,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 168,
-      "concepts": 127
+      "covered": 173,
+      "concepts": 131
     },
     "fabric": {
       "sources": 1584,
@@ -1196,13 +1200,13 @@
       },
       {
         "a": "entra-verified-id",
-        "b": "aws-category-containers",
-        "similarity": 0.2364
+        "b": "azure-genomics-accounts",
+        "similarity": 0.2381
       },
       {
         "a": "entra-verified-id",
-        "b": "aws-iot-events",
-        "similarity": 0.2355
+        "b": "aws-category-containers",
+        "similarity": 0.2364
       }
     ],
     "power-automate": [
@@ -1854,6 +1858,11 @@
     "gcp-compute-engine": [
       {
         "a": "gcp-compute-engine",
+        "b": "azure-language",
+        "similarity": 0.2734
+      },
+      {
+        "a": "gcp-compute-engine",
         "b": "aws-eks-anywhere",
         "similarity": 0.2625
       },
@@ -1861,11 +1870,6 @@
         "a": "gcp-compute-engine",
         "b": "fabric-building-data",
         "similarity": 0.2239
-      },
-      {
-        "a": "gcp-compute-engine",
-        "b": "aws-mediatailor",
-        "similarity": 0.2202
       }
     ],
     "gcp-storage": [
@@ -2459,8 +2463,8 @@
       },
       {
         "a": "azure-managed-identities",
-        "b": "azure-disk-encryption",
-        "similarity": 0.2025
+        "b": "azure-genomics-accounts",
+        "similarity": 0.2047
       }
     ],
     "azure-dns-zones": [
@@ -4919,13 +4923,13 @@
       },
       {
         "a": "gcp-dlp",
-        "b": "aws-kendra",
-        "similarity": 0.2738
+        "b": "azure-language",
+        "similarity": 0.2913
       },
       {
-        "a": "gcp-document-ai",
-        "b": "gcp-dlp",
-        "similarity": 0.2648
+        "a": "gcp-dlp",
+        "b": "aws-kendra",
+        "similarity": 0.2738
       }
     ],
     "gcp-billing": [
@@ -5814,6 +5818,11 @@
     ],
     "fabric-semantic-model": [
       {
+        "a": "fabric-semantic-model",
+        "b": "azure-genomics-accounts",
+        "similarity": 0.1885
+      },
+      {
         "a": "aws-glue",
         "b": "fabric-semantic-model",
         "similarity": 0.1881
@@ -5822,11 +5831,6 @@
         "a": "fabric-semantic-model",
         "b": "aws-category-containers",
         "similarity": 0.1855
-      },
-      {
-        "a": "fabric-semantic-model",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.1784
       }
     ],
     "fabric-sql-database": [
@@ -8277,6 +8281,74 @@
         "similarity": 0.234
       }
     ],
+    "azure-language": [
+      {
+        "a": "azure-language",
+        "b": "aws-devops-agent",
+        "similarity": 0.298
+      },
+      {
+        "a": "gcp-dlp",
+        "b": "azure-language",
+        "similarity": 0.2913
+      },
+      {
+        "a": "azure-language",
+        "b": "aws-cloud9",
+        "similarity": 0.2829
+      }
+    ],
+    "azure-genomics-accounts": [
+      {
+        "a": "azure-genomics-accounts",
+        "b": "m365-check",
+        "similarity": 0.306
+      },
+      {
+        "a": "azure-genomics-accounts",
+        "b": "azure-host-groups",
+        "similarity": 0.3028
+      },
+      {
+        "a": "azure-genomics-accounts",
+        "b": "azure-linux",
+        "similarity": 0.3006
+      }
+    ],
+    "azure-bot-services": [
+      {
+        "a": "azure-bot-services",
+        "b": "aws-category-end-user",
+        "similarity": 0.203
+      },
+      {
+        "a": "azure-bot-services",
+        "b": "aws-category-compute",
+        "similarity": 0.1939
+      },
+      {
+        "a": "azure-bot-services",
+        "b": "azure-availability-sets",
+        "similarity": 0.1915
+      }
+    ],
+    "azure-cognitive-services": [
+      {
+        "a": "azure-power-bi-embedded",
+        "b": "azure-cognitive-services",
+        "similarity": 0.1734
+      },
+      {
+        "a": "gcp-hyperdisk",
+        "b": "azure-cognitive-services",
+        "similarity": 0.1698
+      },
+      {
+        "a": "azure-cognitive-services",
+        "b": "gcp-category-storage",
+        "similarity": 0.16
+      }
+    ],
     "azure-openai": [
       {
         "a": "azure-openai",
@@ -8459,7 +8531,7 @@
         "similarity": 0.2099
       },
       {
-        "a": "gcp-security-command-center",
+        "a": "azure-genomics-accounts",
         "b": "azure-foundry-local",
         "similarity": 0.2048
       }
@@ -9593,14 +9665,14 @@
         "similarity": 0.2608
       },
       {
+        "a": "azure-genomics-accounts",
+        "b": "aws-location-service",
+        "similarity": 0.2542
+      },
+      {
         "a": "aws-location-service",
         "b": "m365-filmstrip-play",
         "similarity": 0.2416
-      },
-      {
-        "a": "m365-slide-layout",
-        "b": "aws-location-service",
-        "similarity": 0.2367
       }
     ],
     "aws-workmail": [
@@ -10846,6 +10918,11 @@
     ],
     "aws-security-incident-response": [
       {
+        "a": "azure-genomics-accounts",
+        "b": "aws-security-incident-response",
+        "similarity": 0.2214
+      },
+      {
         "a": "aws-security-incident-response",
         "b": "aws-backup",
         "similarity": 0.2194
@@ -10854,11 +10931,6 @@
         "a": "azure-foundry-local",
         "b": "aws-security-incident-response",
         "similarity": 0.2099
-      },
-      {
-        "a": "aws-security-incident-response",
-        "b": "fabric-folder-share",
-        "similarity": 0.2095
       }
     ],
     "aws-audit-manager": [
@@ -10970,14 +11042,14 @@
         "similarity": 0.2617
       },
       {
+        "a": "azure-genomics-accounts",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2498
+      },
+      {
         "a": "aws-firewall-manager",
         "b": "fabric-calendar-toolbox",
         "similarity": 0.2354
-      },
-      {
-        "a": "m365-chart-multiple",
-        "b": "aws-firewall-manager",
-        "similarity": 0.2339
       }
     ],
     "aws-resource-access-manager": [
@@ -11220,6 +11292,11 @@
     ],
     "aws-data-transfer-terminal": [
       {
+        "a": "azure-genomics-accounts",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2623
+      },
+      {
         "a": "aws-data-transfer-terminal",
         "b": "azure-host-groups",
         "similarity": 0.2593
@@ -11228,11 +11305,6 @@
         "a": "aws-finspace",
         "b": "aws-data-transfer-terminal",
         "similarity": 0.2535
-      },
-      {
-        "a": "gcp-anthos",
-        "b": "aws-data-transfer-terminal",
-        "similarity": 0.2532
       }
     ],
     "aws-fsx-lustre": [
@@ -11401,14 +11473,14 @@
         "similarity": 0.4192
       },
       {
+        "a": "azure-genomics-accounts",
+        "b": "m365-check",
+        "similarity": 0.306
+      },
+      {
         "a": "aws-cloudshell",
         "b": "m365-check",
         "similarity": 0.2859
-      },
-      {
-        "a": "gcp-cloud-shell",
-        "b": "m365-check",
-        "similarity": 0.2718
       }
     ],
     "m365-checkmark": [
@@ -13601,14 +13673,14 @@
         "similarity": 0.2306
       },
       {
+        "a": "azure-genomics-accounts",
+        "b": "aws-category-developer-tools",
+        "similarity": 0.218
+      },
+      {
         "a": "aws-finspace",
         "b": "aws-category-developer-tools",
         "similarity": 0.2118
-      },
-      {
-        "a": "aws-databrew",
-        "b": "aws-category-developer-tools",
-        "similarity": 0.2043
       }
     ],
     "aws-category-end-user": [
@@ -14298,14 +14370,14 @@
         "similarity": 0.332
       },
       {
+        "a": "azure-genomics-accounts",
+        "b": "azure-resource-groups",
+        "similarity": 0.2999
+      },
+      {
         "a": "aws-finspace",
         "b": "azure-resource-groups",
         "similarity": 0.279
-      },
-      {
-        "a": "fabric-live-dashboard",
-        "b": "azure-resource-groups",
-        "similarity": 0.2631
       }
     ],
     "azure-marketplace": [
@@ -14463,6 +14535,11 @@
     ],
     "azure-linux": [
       {
+        "a": "azure-genomics-accounts",
+        "b": "azure-linux",
+        "similarity": 0.3006
+      },
+      {
         "a": "aws-service-management-connector",
         "b": "azure-linux",
         "similarity": 0.2966
@@ -14471,11 +14548,6 @@
         "a": "fabric-power-bi",
         "b": "azure-linux",
         "similarity": 0.2725
-      },
-      {
-        "a": "m365-tablet",
-        "b": "azure-linux",
-        "similarity": 0.2646
       }
     ],
     "azure-managed-service-fabric": [
@@ -14757,14 +14829,14 @@
         "similarity": 0.2023
       },
       {
+        "a": "azure-language",
+        "b": "azure-disk-snapshot",
+        "similarity": 0.1948
+      },
+      {
         "a": "aws-codeartifact",
         "b": "azure-disk-snapshot",
         "similarity": 0.1903
-      },
-      {
-        "a": "aws-elastic-inference",
-        "b": "azure-disk-snapshot",
-        "similarity": 0.19
       }
     ],
     "azure-batch-accounts": [
@@ -15386,14 +15458,14 @@
         "similarity": 0.3194
       },
       {
+        "a": "azure-genomics-accounts",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2988
+      },
+      {
         "a": "gcp-security-command-center",
         "b": "fabric-calendar-toolbox",
         "similarity": 0.2848
-      },
-      {
-        "a": "fabric-calendar-toolbox",
-        "b": "fabric-window-pulse",
-        "similarity": 0.266
       }
     ],
     "fabric-airplane": [
@@ -15812,6 +15884,11 @@
     ],
     "fabric-stack-key": [
       {
+        "a": "azure-language",
+        "b": "fabric-stack-key",
+        "similarity": 0.2149
+      },
+      {
         "a": "azure-endpoint-analytics",
         "b": "fabric-stack-key",
         "similarity": 0.2137
@@ -15820,11 +15897,6 @@
         "a": "m365-folders",
         "b": "fabric-stack-key",
         "similarity": 0.2115
-      },
-      {
-        "a": "fabric-code-text-flash",
-        "b": "fabric-stack-key",
-        "similarity": 0.2088
       }
     ],
     "fabric-table-wand": [

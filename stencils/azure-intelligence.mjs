@@ -1,6 +1,46 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-language", "azure", "Language", ["02876-icon-service-Language"],
+    "A magnifier examines highlighted words in a conversation.",
+    [
+      line([13, 19], [97, 19], [97, 75], [59, 75], [43, 87], [43, 75], [13, 75], [13, 19]),
+      line([23, 31], [84, 31]), line([23, 42], [67, 42]), line([23, 53], [84, 53]), line([23, 64], [60, 64]),
+      oval(63, 45, 37, 37), line([91, 73], [110, 93]), line([71, 58], [91, 58]), line([71, 66], [87, 66]),
+      line([19, 108], [109, 108]),
+    ]),
+  entry("azure-genomics-accounts", "azure", "Genomics Accounts", ["10164-icon-service-Genomics-Accounts"],
+    "An account identifies genomic data with a small double helix.",
+    [
+      rect(12, 24, 104, 74), oval(23, 34, 24, 24), line([18, 83], [20, 70], [26, 63], [35, 61], [44, 63], [50, 70], [52, 83]),
+      line([59, 37], [103, 37]),
+      line([67, 45], [72, 53], [87, 62], [91, 69], [87, 77], [72, 85], [67, 92]),
+      line([91, 45], [86, 53], [71, 62], [67, 69], [71, 77], [86, 85], [91, 92]),
+      line([69, 49], [89, 49]), line([74, 57], [84, 57]), line([69, 69], [89, 69]), line([74, 81], [84, 81]), line([69, 89], [89, 89]),
+      line([19, 110], [110, 110]),
+    ]),
+  entry("azure-bot-services", "azure", "Bot Services", ["10165-icon-service-Bot-Services"],
+    "A bot exchanges messages with a user.",
+    [
+      rect(13, 31, 49, 39), line([37, 31], [37, 21]), oval(33, 13, 8, 8, true),
+      oval(23, 43, 8, 8), oval(42, 43, 8, 8), line([25, 59], [33, 62], [44, 59]),
+      line([13, 42], [9, 42]), line([62, 42], [68, 42]),
+      line([69, 25], [115, 25], [115, 50], [95, 50], [87, 58], [87, 50], [69, 50], [69, 25]),
+      line([77, 34], [106, 34]), line([77, 42], [100, 42]),
+      oval(80, 72, 15, 15), line([75, 109], [77, 97], [82, 91], [88, 89], [94, 91], [99, 97], [101, 109]),
+      line([15, 111], [64, 111]),
+    ]),
+  entry("azure-cognitive-services", "azure", "Cognitive Services", ["10162-icon-service-Cognitive-Services"],
+    "Vision, speech and language inputs feed a shared cognitive model.",
+    [
+      line([10, 28], [20, 20], [30, 28], [20, 36], [10, 28]), oval(17, 25, 6, 6, true),
+      line([13, 57], [13, 48], [27, 48], [27, 57], [20, 63], [13, 57]), line([20, 63], [20, 70]),
+      line([9, 87], [31, 87], [31, 100], [20, 100], [15, 105], [15, 100], [9, 100], [9, 87]),
+      line([31, 28], [50, 28], [50, 59]), line([27, 57], [50, 57]), line([31, 93], [50, 93], [50, 59], [64, 59]),
+      oval(70, 28, 12, 12), oval(99, 28, 12, 12), oval(84, 53, 12, 12, true), oval(70, 79, 12, 12), oval(99, 79, 12, 12),
+      line([82, 34], [87, 53]), line([103, 40], [94, 54]), line([87, 65], [82, 79]), line([95, 65], [102, 79]),
+      line([18, 117], [110, 117]),
+    ]),
   entry("azure-openai", "azure", "Azure OpenAI", ["03438-icon-service-Azure-OpenAI"],
     "A prompt is transformed into a generated response.",
     [
