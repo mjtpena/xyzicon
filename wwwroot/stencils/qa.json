@@ -3,16 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 1091,
+  "approved": 1099,
   "needsReview": [
-    "fabric-data-warehouse",
-    "fabric-dataflow",
-    "fabric-dataflow-gen2",
-    "fabric-datamart",
-    "fabric-environment",
-    "fabric-event-house",
-    "fabric-eventstream",
-    "fabric-experiments",
     "fabric-exploration",
     "fabric-graph-model",
     "fabric-healthcare",
@@ -1506,13 +1498,13 @@
       },
       {
         "a": "azure-storage",
-        "b": "aws-nitro-enclaves",
-        "similarity": 0.1881
+        "b": "fabric-event-house",
+        "similarity": 0.191
       },
       {
         "a": "azure-storage",
-        "b": "fabric-event-house",
-        "similarity": 0.1854
+        "b": "aws-nitro-enclaves",
+        "similarity": 0.1881
       }
     ],
     "azure-service-bus": [
@@ -3755,8 +3747,8 @@
       },
       {
         "a": "aws-redshift",
-        "b": "fabric-event-house",
-        "similarity": 0.2699
+        "b": "azure-mobile-engagement",
+        "similarity": 0.2637
       }
     ],
     "aws-sagemaker": [
@@ -9951,17 +9943,17 @@
       {
         "a": "aws-redshift",
         "b": "fabric-event-house",
-        "similarity": 0.2699
+        "similarity": 0.2547
       },
       {
         "a": "fabric-event-house",
         "b": "azure-sql-warehouse",
-        "similarity": 0.2518
+        "similarity": 0.2442
       },
       {
         "a": "fabric-event-house",
-        "b": "azure-mobile-engagement",
-        "similarity": 0.2345
+        "b": "aws-backup-database-resource",
+        "similarity": 0.2334
       }
     ],
     "fabric-eventstream": [
@@ -11221,7 +11213,7 @@
       {
         "a": "fabric-event-house",
         "b": "azure-sql-warehouse",
-        "similarity": 0.2518
+        "similarity": 0.2442
       },
       {
         "a": "azure-sql-warehouse",
