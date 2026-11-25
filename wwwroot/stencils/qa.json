@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 988,
-  "aliases": 3733,
+  "count": 992,
+  "aliases": 3737,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -101,6 +101,10 @@
     "aws-redshift",
     "aws-sagemaker",
     "aws-eventbridge",
+    "aws-eventbridge-pipes",
+    "aws-eventbridge-rule",
+    "aws-eventbridge-scheduler",
+    "aws-eventbridge-schema-registry",
     "aws-bedrock",
     "aws-ecr",
     "aws-ecs",
@@ -1092,8 +1096,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1304,
-      "concepts": 336
+      "covered": 1308,
+      "concepts": 340
     },
     "gcp": {
       "sources": 261,
@@ -1241,6 +1245,11 @@
     "fabric-pipeline": [
       {
         "a": "fabric-pipeline",
+        "b": "aws-eventbridge-rule",
+        "similarity": 0.2021
+      },
+      {
+        "a": "fabric-pipeline",
         "b": "m365-slide-layout",
         "similarity": 0.1921
       },
@@ -1248,11 +1257,6 @@
         "a": "fabric-pipeline",
         "b": "aws-service-management-connector",
         "similarity": 0.1865
-      },
-      {
-        "a": "fabric-pipeline",
-        "b": "m365-building-multiple",
-        "similarity": 0.1861
       }
     ],
     "fabric-notebook": [
@@ -1472,7 +1476,7 @@
       },
       {
         "a": "entra-governance",
-        "b": "azure-batch-accounts",
+        "b": "aws-eventbridge-rule",
         "similarity": 0.1346
       }
     ],
@@ -2732,6 +2736,74 @@
         "a": "aws-eventbridge",
         "b": "aws-health-imaging",
         "similarity": 0.1723
+      }
+    ],
+    "aws-eventbridge-pipes": [
+      {
+        "a": "aws-eventbridge-pipes",
+        "b": "m365-window",
+        "similarity": 0.219
+      },
+      {
+        "a": "aws-eventbridge-pipes",
+        "b": "aws-serverless-repository",
+        "similarity": 0.2038
+      },
+      {
+        "a": "aws-eventbridge-pipes",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2014
+      }
+    ],
+    "aws-eventbridge-rule": [
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "fabric-folder-share",
+        "similarity": 0.2668
+      },
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "azure-machine-learning",
+        "similarity": 0.2508
+      },
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "gcp-api-monetization",
+        "similarity": 0.2469
+      }
+    ],
+    "aws-eventbridge-scheduler": [
+      {
+        "a": "aws-eventbridge-scheduler",
+        "b": "azure-quickstart-center",
+        "similarity": 0.2574
+      },
+      {
+        "a": "aws-eventbridge-scheduler",
+        "b": "azure-foundry-project",
+        "similarity": 0.2511
+      },
+      {
+        "a": "aws-eventbridge-scheduler",
+        "b": "azure-event-hub-clusters",
+        "similarity": 0.237
+      }
+    ],
+    "aws-eventbridge-schema-registry": [
+      {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "m365-text-number-list",
+        "similarity": 0.2661
+      },
+      {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "azure-content-moderation",
+        "similarity": 0.2613
+      },
+      {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.261
       }
     ],
     "aws-bedrock": [
@@ -4730,14 +4802,14 @@
         "similarity": 0.2631
       },
       {
-        "a": "gcp-api-analytics",
-        "b": "azure-machine-learning",
-        "similarity": 0.23
+        "a": "aws-eventbridge-rule",
+        "b": "gcp-api-analytics",
+        "similarity": 0.2314
       },
       {
         "a": "gcp-api-analytics",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2283
+        "b": "azure-machine-learning",
+        "similarity": 0.23
       }
     ],
     "gcp-api-monetization": [
@@ -8985,9 +9057,9 @@
         "similarity": 0.2924
       },
       {
-        "a": "aws-bedrock-agentcore",
-        "b": "aws-private-subnet",
-        "similarity": 0.2521
+        "a": "aws-eventbridge-schema-registry",
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.261
       }
     ],
     "aws-sagemaker-ai": [
@@ -9643,14 +9715,14 @@
         "similarity": 0.1787
       },
       {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "azure-genomics",
+        "similarity": 0.1717
+      },
+      {
         "a": "azure-genomics",
         "b": "aws-gamelift-servers",
         "similarity": 0.1699
-      },
-      {
-        "a": "aws-datazone",
-        "b": "azure-genomics",
-        "similarity": 0.1677
       }
     ],
     "azure-computer-vision": [
@@ -11348,9 +11420,9 @@
         "similarity": 0.2437
       },
       {
-        "a": "aws-trusted-advisor",
-        "b": "azure-service-health",
-        "similarity": 0.2114
+        "a": "aws-eventbridge-scheduler",
+        "b": "aws-trusted-advisor",
+        "similarity": 0.2126
       }
     ],
     "aws-resource-explorer": [
@@ -15737,6 +15809,11 @@
     ],
     "azure-quickstart-center": [
       {
+        "a": "aws-eventbridge-scheduler",
+        "b": "azure-quickstart-center",
+        "similarity": 0.2574
+      },
+      {
         "a": "gcp-looker",
         "b": "azure-quickstart-center",
         "similarity": 0.2168
@@ -15745,11 +15822,6 @@
         "a": "m365-window",
         "b": "azure-quickstart-center",
         "similarity": 0.2123
-      },
-      {
-        "a": "azure-foundry-project",
-        "b": "azure-quickstart-center",
-        "similarity": 0.211
       }
     ],
     "azure-management-groups": [

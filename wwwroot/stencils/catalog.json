@@ -144,7 +144,7 @@
       ],
       "revision": "336babf1a3239d207861b8fddfe363ccc13e089782bb9b987e77e5cdb1396733",
       "geometrySignature": "b94c729e52df141af504b647182793c9a2c19598a3258d1273efe36594230910",
-      "comparisonRevision": "9e5d9998c7e9c2c42af4da1d8c805d8aee99d8fe7c776e06e93aacbae0c899d3",
+      "comparisonRevision": "103dba171e53196de31e0826c5d4348a20559110e56e6087bb220a19107192f9",
       "review": "pending",
       "notes": ""
     },
@@ -367,7 +367,7 @@
       ],
       "revision": "a3060fe80ce0007c380d4700db9a37fc95fc41006a5bd99e3c905ed3f3a4ae69",
       "geometrySignature": "1e6fa52dc1177614f9644600ed589672f09b1cd5ad17c81a70dc20ae9e39b2aa",
-      "comparisonRevision": "56c7a786d661c049e5e49cd90b1e31ba2a35afb3d02380e7a47be53d82f93886",
+      "comparisonRevision": "a268654bf44aa3840127ce4a2c4eff8953b5dfa6e7fa9a334dab8310e9d5be62",
       "review": "pending",
       "notes": ""
     },
@@ -1554,6 +1554,66 @@
       "revision": "04c7f375d3578ee677d4f82c8dfa532c1c2000ce6d9fc165e3087618d63f693b",
       "geometrySignature": "84894d0475371f5b0339b274d245f9b055c64602318e482d3abbe8eb46df3cf7",
       "comparisonRevision": "7efc7f6a6c74c98e8b4e3c6cd0edbd75d8a4f7268b89ca2e3729da589ef0453d",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-pipes",
+      "provider": "aws",
+      "name": "EventBridge Pipes",
+      "rationale": "Events pass through a filtered pipe between a source and a target.",
+      "path": "stencils/aws-eventbridge-pipes.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Pipes_48.svg"
+      ],
+      "revision": "8734ef42a1a9b7ccbb3d529bd8bce96b047d9e4f57e4839f2da05d7cc0954d93",
+      "geometrySignature": "84f6d280db782caab3c8e24b5ad4fc777bf5db2eae968ca8f19f1480f68678f1",
+      "comparisonRevision": "d070ee4975a5e85076eececaf5a4c75df3fb7ef5f9650a74907f911d51d4147b",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-rule",
+      "provider": "aws",
+      "name": "EventBridge Rule",
+      "rationale": "An event pattern is checked before a matching event reaches a target.",
+      "path": "stencils/aws-eventbridge-rule.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Rule_48.svg"
+      ],
+      "revision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
+      "geometrySignature": "cfaa0a8ce850e45951ed33128560d81e1a68611417fc1bdbe28de90f2dc0c5d8",
+      "comparisonRevision": "0c9d998b2f95e002e0530d39a135afcb68ed8a3b5eab30da8bc018912c251035",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-scheduler",
+      "provider": "aws",
+      "name": "EventBridge Scheduler",
+      "rationale": "A clock triggers a scheduled event for delivery to a target.",
+      "path": "stencils/aws-eventbridge-scheduler.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Scheduler_48.svg"
+      ],
+      "revision": "309be381330fce59a840e1e73787f8b57ed802185706a9eb76c0104b4b5c588a",
+      "geometrySignature": "f2a78b839d8b19b809ac73538b9eac52dd877d77b0c02c469dde90bd0b980561",
+      "comparisonRevision": "5382f915d24e3b030207e4e53e015e81a18f3e972d33764d95e5e6bc08b5c932",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-schema-registry",
+      "provider": "aws",
+      "name": "EventBridge Schema Registry",
+      "rationale": "A registry collects several event schemas as structured field definitions.",
+      "path": "stencils/aws-eventbridge-schema-registry.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Schema-Registry_48.svg"
+      ],
+      "revision": "36e9f9588e4d63065d8c6bd5506985b27ebbe8f834414ddb254d93b74a000370",
+      "geometrySignature": "ac4d7400ddae888cbadb1fa6227a46df6e8e87ace3748d62ea7dbceb446fc533",
+      "comparisonRevision": "be00ff60e6e4f6538c7677e1b9b2d5b9659da426f641a5617e02556b9039443a",
       "review": "pending",
       "notes": ""
     },
@@ -3677,7 +3737,7 @@
       ],
       "revision": "1f01f6efbdcf263aa25c14046d0e2c0c8bdac99f986f08457b92f0ae3c4c05e8",
       "geometrySignature": "6710dbb4cac03c1bf607fdb541002d480a88a1b98c41e057ae7f377d5aaeb746",
-      "comparisonRevision": "b7ce87e377c70cd13c5ea4625ff1508667c3f77becb6d901bf82fde363dd447b",
+      "comparisonRevision": "29f2cff7be479d9a04eaf21960b931c0955236deae45cd75b5247de7eb8952c0",
       "review": "pending",
       "notes": ""
     },
@@ -8180,7 +8240,7 @@
       ],
       "revision": "c1cb6cbaaee9287f3471c509bbca15afa9dc3271d43720966ab14bcb406e7199",
       "geometrySignature": "1a8600ab1bc72947e40c1821be4959ea09e78e52714f953b364ffcca3c2c6276",
-      "comparisonRevision": "8b2c238c4c43133532579a531c74d7f4551f5c742a5eacaafb944dee293c2e29",
+      "comparisonRevision": "a999ffd17861e8718ac748e374bdf9aaf6287dbbabace2d61506892796c1dc80",
       "review": "pending",
       "notes": ""
     },
@@ -8829,7 +8889,7 @@
       ],
       "revision": "da2ee74753ea7f5ae9952f0d69276ed21d159488bdabb9048fadece64a766f2a",
       "geometrySignature": "63e8d531a687d78d4481ee562eed9c69589d8bac0e3a6b39b61df29df16e6ca3",
-      "comparisonRevision": "36822db9ba586221af223d9d36063d7a65047cf6ef7fbac57d084d285aefe3fa",
+      "comparisonRevision": "9ddb02b64c465881e6ed051494949cc955948015bce52e2641da9b1c85a92262",
       "review": "pending",
       "notes": ""
     },
@@ -10739,7 +10799,7 @@
       ],
       "revision": "99475b2562c5a41f285fe69afae40dfbd49d2c389f28ffacf649e47eb6b54374",
       "geometrySignature": "8961765110eab5d7fa48c5de898d5e727f5864e8281466db5941448a98fa7f21",
-      "comparisonRevision": "1aea6fe3c93c4d6f6cca94551dc0e1d547c0b00e1aac00c6d186a9d1d14ed0c0",
+      "comparisonRevision": "02297d8e067762f2c16d0da4d28aa6e441c7c891ea3cedfe72d768fd520ba9cc",
       "review": "pending",
       "notes": ""
     },
@@ -15301,7 +15361,7 @@
       ],
       "revision": "32407f3145147702639de1c98886688af16adc3f29733f23399a160b95cf8de6",
       "geometrySignature": "5d4d81e9a28c35a0fb227ffe871650ddb6eefc7f0ecb0fa582869255479489a4",
-      "comparisonRevision": "9e428be85e6c5db198ddcbd2cc01b489af13422a3477d209e3fb35113930e51e",
+      "comparisonRevision": "9808a666848df013e8ca4c13949967bbf5a6ba6e10d3ca9618209953861ddcc5",
       "review": "pending",
       "notes": ""
     },
