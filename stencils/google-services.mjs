@@ -1,6 +1,45 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-api-analytics", "gcp", "API Analytics", ["api_analytics"],
+    "An API request stream is measured on a traffic chart.",
+    [
+      rect(10, 25, 38, 40), line([10, 36], [48, 36]), line([21, 44], [16, 49], [21, 54]), line([36, 44], [41, 49], [36, 54]), line([32, 42], [25, 56]),
+      line([48, 49], [61, 49]), line([55, 43], [61, 49], [55, 55]),
+      line([65, 17], [65, 91], [116, 91]), line([72, 81], [82, 72], [91, 77], [101, 57], [112, 62]),
+      line([72, 42], [79, 42]), line([72, 31], [91, 31]),
+      line([20, 109], [108, 109]),
+    ]),
+  entry("gcp-api-monetization", "gcp", "API Monetization", ["api_monetization"],
+    "API usage is metered and billed.",
+    [
+      rect(10, 19, 49, 73), line([10, 31], [59, 31]),
+      line([23, 40], [17, 47], [23, 54]), line([45, 40], [51, 47], [45, 54]), line([38, 38], [30, 56]),
+      line([19, 67], [49, 67]), line([19, 76], [42, 76]),
+      line([59, 56], [70, 56]), line([65, 50], [70, 56], [65, 62]),
+      oval(73, 35, 40, 40), line([93, 42], [93, 68]), line([101, 47], [96, 43], [88, 44], [85, 49], [88, 54], [98, 56], [101, 61], [98, 66], [90, 67], [85, 63]),
+      line([20, 109], [109, 109]),
+    ]),
+  entry("gcp-api-gateway", "gcp", "API Gateway", ["cloud_api_gateway"],
+    "A guarded gateway receives API calls and forwards authorized requests.",
+    [
+      line([10, 58], [37, 58]), line([30, 51], [37, 58], [30, 65]),
+      line([42, 95], [42, 27], [86, 27], [86, 95]), line([37, 95], [91, 95]),
+      line([52, 45], [59, 38], [66, 45]), line([52, 45], [52, 63], [66, 63], [66, 45]),
+      line([73, 52], [79, 58], [73, 64]), line([86, 58], [116, 58]), line([109, 51], [116, 58], [109, 65]),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("gcp-cloud-endpoints", "gcp", "Cloud Endpoints", ["cloud_endpoints"],
+    "A published API connects several clients to one service endpoint.",
+    [
+      rect(10, 17, 26, 22), line([16, 28], [30, 28]),
+      rect(10, 51, 26, 22), line([16, 62], [30, 62]),
+      rect(10, 85, 26, 22), line([16, 96], [30, 96]),
+      line([36, 28], [49, 28], [59, 52]), line([36, 62], [59, 62]), line([36, 96], [49, 96], [59, 72]),
+      oval(59, 46, 32, 32), line([68, 56], [63, 62], [68, 68]), line([82, 56], [87, 62], [82, 68]), line([78, 54], [72, 70]),
+      line([91, 62], [100, 62]), rect(100, 45, 19, 34), line([104, 55], [115, 55]), line([104, 65], [115, 65]),
+      line([19, 115], [109, 115]),
+    ]),
   entry("gcp-data-fusion", "gcp", "Cloud Data Fusion", ["cloud_data_fusion"],
     "Two data sources join a visual integration pipeline.",
     [
