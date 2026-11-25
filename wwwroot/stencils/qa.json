@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1225,
-  "aliases": 4107,
+  "count": 1230,
+  "aliases": 4112,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -969,6 +969,11 @@
     "aws-ecs-container",
     "aws-ecs-compute-container",
     "aws-ecs-app-container",
+    "aws-ecs-copilot-cli",
+    "aws-ecs-service-connect",
+    "aws-ecs-service",
+    "aws-ecs-task",
+    "aws-eks-outposts",
     "aws-ec2-microservice-extractor",
     "aws-ec2-auto-scaling",
     "aws-ec2-db-instance",
@@ -1336,8 +1341,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1380,
-      "concepts": 412
+      "covered": 1385,
+      "concepts": 417
     },
     "gcp": {
       "sources": 261,
@@ -2889,8 +2894,8 @@
       },
       {
         "a": "aws-athena",
-        "b": "azure-storage-queue",
-        "similarity": 0.1789
+        "b": "aws-eks-outposts",
+        "similarity": 0.184
       }
     ],
     "aws-kinesis-streams": [
@@ -5655,16 +5660,21 @@
       },
       {
         "a": "gcp-healthcare-marketplace",
-        "b": "aws-marketplace",
-        "similarity": 0.2225
+        "b": "aws-eks-outposts",
+        "similarity": 0.233
       },
       {
         "a": "gcp-healthcare-marketplace",
-        "b": "aws-ec2-auto-scaling",
-        "similarity": 0.2145
+        "b": "aws-ecs-service",
+        "similarity": 0.2291
       }
     ],
     "gcp-healthcare-nlp": [
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.3825
+      },
       {
         "a": "gcp-healthcare-nlp",
         "b": "gcp-video-intelligence",
@@ -5674,11 +5684,6 @@
         "a": "gcp-healthcare-nlp",
         "b": "azure-private-link-services",
         "similarity": 0.2978
-      },
-      {
-        "a": "gcp-healthcare-nlp",
-        "b": "aws-redshift-ml",
-        "similarity": 0.2704
       }
     ],
     "gcp-media-translation": [
@@ -6585,6 +6590,11 @@
     "gcp-cloud-apis": [
       {
         "a": "gcp-cloud-apis",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.2453
+      },
+      {
+        "a": "gcp-cloud-apis",
         "b": "aws-redshift-streaming",
         "similarity": 0.2284
       },
@@ -6592,11 +6602,6 @@
         "a": "gcp-database-migration",
         "b": "gcp-cloud-apis",
         "similarity": 0.2225
-      },
-      {
-        "a": "gcp-cloud-apis",
-        "b": "aws-pinpoint-journey",
-        "similarity": 0.2164
       }
     ],
     "gcp-cloud-inference": [
@@ -7371,14 +7376,14 @@
         "similarity": 0.2186
       },
       {
+        "a": "gcp-access-context",
+        "b": "aws-ecs-task",
+        "similarity": 0.2115
+      },
+      {
         "a": "gcp-datashare",
         "b": "gcp-access-context",
         "similarity": 0.2055
-      },
-      {
-        "a": "m365-chart-multiple",
-        "b": "gcp-access-context",
-        "similarity": 0.2033
       }
     ],
     "gcp-binary-authorization": [
@@ -9305,6 +9310,11 @@
     "azure-synapse": [
       {
         "a": "azure-synapse",
+        "b": "aws-ecs-service",
+        "similarity": 0.1734
+      },
+      {
+        "a": "azure-synapse",
         "b": "aws-rtb-fabric",
         "similarity": 0.1689
       },
@@ -9312,11 +9322,6 @@
         "a": "aws-b2b-interchange",
         "b": "azure-synapse",
         "similarity": 0.1559
-      },
-      {
-        "a": "azure-synapse",
-        "b": "aws-app-mesh",
-        "similarity": 0.1518
       }
     ],
     "azure-lake-analytics": [
@@ -9729,6 +9734,11 @@
     ],
     "aws-msk-connect": [
       {
+        "a": "aws-msk-connect",
+        "b": "aws-ecs-service-connect",
+        "similarity": 0.2584
+      },
+      {
         "a": "gcp-apigee",
         "b": "aws-msk-connect",
         "similarity": 0.2548
@@ -9737,11 +9747,6 @@
         "a": "gcp-game-servers",
         "b": "aws-msk-connect",
         "similarity": 0.2193
-      },
-      {
-        "a": "gcp-healthcare-marketplace",
-        "b": "aws-msk-connect",
-        "similarity": 0.2016
       }
     ],
     "aws-opensearch-admin-node": [
@@ -9917,6 +9922,11 @@
     "aws-redshift-query-editor": [
       {
         "a": "aws-redshift-query-editor",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.2883
+      },
+      {
+        "a": "aws-redshift-query-editor",
         "b": "aws-sagemaker-train",
         "similarity": 0.2786
       },
@@ -9924,11 +9934,6 @@
         "a": "aws-eventbridge-custom-bus",
         "b": "aws-redshift-query-editor",
         "similarity": 0.2725
-      },
-      {
-        "a": "aws-redshift-query-editor",
-        "b": "aws-device-farm",
-        "similarity": 0.2717
       }
     ],
     "aws-redshift-dense-compute": [
@@ -9967,6 +9972,11 @@
     ],
     "aws-redshift-ml": [
       {
+        "a": "aws-redshift-ml",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.294
+      },
+      {
         "a": "aws-redshift-governance",
         "b": "aws-redshift-ml",
         "similarity": 0.2794
@@ -9975,11 +9985,6 @@
         "a": "gcp-healthcare-nlp",
         "b": "aws-redshift-ml",
         "similarity": 0.2704
-      },
-      {
-        "a": "gcp-local-ssd",
-        "b": "aws-redshift-ml",
-        "similarity": 0.2604
       }
     ],
     "aws-redshift-ra3": [
@@ -15940,14 +15945,14 @@
         "similarity": 0.2161
       },
       {
+        "a": "m365-building-cloud",
+        "b": "aws-eks-outposts",
+        "similarity": 0.2056
+      },
+      {
         "a": "m365-chart-multiple",
         "b": "m365-building-cloud",
         "similarity": 0.1967
-      },
-      {
-        "a": "gcp-api-gateway",
-        "b": "m365-building-cloud",
-        "similarity": 0.1867
       }
     ],
     "m365-building-multiple": [
@@ -16780,13 +16785,13 @@
       },
       {
         "a": "aws-cloud-wan",
-        "b": "aws-category-management",
-        "similarity": 0.2069
+        "b": "aws-eks-outposts",
+        "similarity": 0.2076
       },
       {
-        "a": "m365-road-cone",
-        "b": "aws-cloud-wan",
-        "similarity": 0.2044
+        "a": "aws-cloud-wan",
+        "b": "aws-category-management",
+        "similarity": 0.2069
       }
     ],
     "aws-direct-connect": [
@@ -17687,13 +17692,13 @@
       },
       {
         "a": "aws-ecr-image",
-        "b": "fabric-documents-pulse",
-        "similarity": 0.2496
+        "b": "aws-ecs-task",
+        "similarity": 0.2572
       },
       {
-        "a": "aws-kendra",
-        "b": "aws-ecr-image",
-        "similarity": 0.2135
+        "a": "aws-ecr-image",
+        "b": "fabric-documents-pulse",
+        "similarity": 0.2496
       }
     ],
     "aws-ecr-registry": [
@@ -17762,6 +17767,91 @@
         "a": "aws-data-transfer-terminal",
         "b": "aws-ecs-app-container",
         "similarity": 0.2652
+      }
+    ],
+    "aws-ecs-copilot-cli": [
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.3825
+      },
+      {
+        "a": "aws-redshift-ml",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.294
+      },
+      {
+        "a": "aws-redshift-query-editor",
+        "b": "aws-ecs-copilot-cli",
+        "similarity": 0.2883
+      }
+    ],
+    "aws-ecs-service-connect": [
+      {
+        "a": "aws-msk-connect",
+        "b": "aws-ecs-service-connect",
+        "similarity": 0.2584
+      },
+      {
+        "a": "fabric-environment",
+        "b": "aws-ecs-service-connect",
+        "similarity": 0.2262
+      },
+      {
+        "a": "aws-ecs-service-connect",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2254
+      }
+    ],
+    "aws-ecs-service": [
+      {
+        "a": "gcp-analytics-hub",
+        "b": "aws-ecs-service",
+        "similarity": 0.2765
+      },
+      {
+        "a": "aws-ecs-service",
+        "b": "azure-resource-groups",
+        "similarity": 0.2693
+      },
+      {
+        "a": "aws-vpc-internet-gateway",
+        "b": "aws-ecs-service",
+        "similarity": 0.2424
+      }
+    ],
+    "aws-ecs-task": [
+      {
+        "a": "aws-ecr-image",
+        "b": "aws-ecs-task",
+        "similarity": 0.2572
+      },
+      {
+        "a": "aws-ecs-task",
+        "b": "fabric-database-badge-asterisk",
+        "similarity": 0.2397
+      },
+      {
+        "a": "m365-document-text",
+        "b": "aws-ecs-task",
+        "similarity": 0.2243
+      }
+    ],
+    "aws-eks-outposts": [
+      {
+        "a": "aws-eks-outposts",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2845
+      },
+      {
+        "a": "aws-eks-outposts",
+        "b": "azure-quickstart-center",
+        "similarity": 0.2775
+      },
+      {
+        "a": "aws-glue-catalog",
+        "b": "aws-eks-outposts",
+        "similarity": 0.2734
       }
     ],
     "aws-ec2-microservice-extractor": [
@@ -18774,14 +18864,14 @@
         "similarity": 0.2176
       },
       {
-        "a": "aws-braket",
-        "b": "fabric-odata",
-        "similarity": 0.206
+        "a": "aws-eks-outposts",
+        "b": "aws-braket",
+        "similarity": 0.2146
       },
       {
         "a": "aws-braket",
-        "b": "fabric-folder",
-        "similarity": 0.2041
+        "b": "fabric-odata",
+        "similarity": 0.206
       }
     ],
     "aws-open-3d-engine": [
@@ -19279,6 +19369,11 @@
     ],
     "azure-devtest-labs": [
       {
+        "a": "aws-ecs-copilot-cli",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2803
+      },
+      {
         "a": "aws-data-transfer-terminal",
         "b": "azure-devtest-labs",
         "similarity": 0.2687
@@ -19287,11 +19382,6 @@
         "a": "gcp-vmware-engine",
         "b": "azure-devtest-labs",
         "similarity": 0.2511
-      },
-      {
-        "a": "aws-storage-gateway",
-        "b": "azure-devtest-labs",
-        "similarity": 0.2458
       }
     ],
     "azure-resource-groups": [
@@ -19330,6 +19420,11 @@
     ],
     "azure-quickstart-center": [
       {
+        "a": "aws-eks-outposts",
+        "b": "azure-quickstart-center",
+        "similarity": 0.2775
+      },
+      {
         "a": "aws-opensearch-ingestion",
         "b": "azure-quickstart-center",
         "similarity": 0.2633
@@ -19338,11 +19433,6 @@
         "a": "aws-eventbridge-scheduler",
         "b": "azure-quickstart-center",
         "similarity": 0.2574
-      },
-      {
-        "a": "gcp-configuration-management",
-        "b": "azure-quickstart-center",
-        "similarity": 0.254
       }
     ],
     "azure-management-groups": [
@@ -21187,6 +21277,11 @@
     ],
     "fabric-database-checkmark": [
       {
+        "a": "aws-eks-outposts",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2845
+      },
+      {
         "a": "fabric-database-money",
         "b": "fabric-database-checkmark",
         "similarity": 0.2593
@@ -21195,11 +21290,6 @@
         "a": "fabric-database-badge-asterisk",
         "b": "fabric-database-checkmark",
         "similarity": 0.2533
-      },
-      {
-        "a": "fabric-database-crown",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2525
       }
     ],
     "fabric-calendar-toolbox": [
@@ -21585,14 +21675,14 @@
         "similarity": 0.2587
       },
       {
+        "a": "aws-ecs-copilot-cli",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2121
+      },
+      {
         "a": "aws-opensearch-admin-node",
         "b": "fabric-border-none-eye",
         "similarity": 0.2062
-      },
-      {
-        "a": "aws-finspace",
-        "b": "fabric-border-none-eye",
-        "similarity": 0.2028
       }
     ],
     "fabric-calculator-brackets": [
