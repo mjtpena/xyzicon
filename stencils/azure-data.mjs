@@ -1,6 +1,43 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-endpoint-analytics", "azure", "Endpoint Analytics", ["00562-icon-service-Endpoint-Analytics"],
+    "A device performance trend is examined through a magnifier.",
+    [
+      rect(10, 20, 81, 64), line([10, 74], [91, 74]),
+      line([20, 64], [20, 35]), line([20, 64], [74, 64]), line([24, 57], [34, 50], [43, 53], [52, 42], [64, 46]),
+      line([38, 84], [38, 96]), line([65, 84], [65, 96]), line([28, 96], [75, 96]),
+      oval(75, 46, 28, 28), line([96, 67], [113, 84]),
+      line([19, 110], [105, 110]),
+    ]),
+  entry("azure-workbooks", "azure", "Azure Workbooks", ["02189-icon-service-Azure-Workbooks"],
+    "A workbook combines monitoring metrics and narrative notes.",
+    [
+      line([17, 15], [105, 15], [105, 108], [17, 108], [17, 15]), line([29, 15], [29, 108]),
+      oval(13, 27, 8, 8), oval(13, 45, 8, 8), oval(13, 63, 8, 8), oval(13, 81, 8, 8), oval(13, 99, 8, 8),
+      line([39, 27], [92, 27]), line([39, 36], [79, 36]),
+      line([40, 78], [40, 46]), line([40, 78], [94, 78]), line([44, 71], [55, 60], [65, 66], [77, 50], [91, 54]),
+      line([39, 89], [94, 89]), line([39, 98], [83, 98]),
+    ]),
+  entry("azure-power-bi-embedded", "azure", "Power BI Embedded", ["03332-icon-service-Power-BI-Embedded"],
+    "An application embeds an interactive analytics report.",
+    [
+      rect(10, 17, 108, 91), line([10, 30], [118, 30]), line([18, 24], [37, 24]),
+      line([18, 39], [40, 39]), line([18, 49], [40, 49]), line([18, 59], [36, 59]), line([18, 69], [40, 69]),
+      rect(49, 39, 59, 57), line([56, 88], [56, 48]), line([56, 88], [100, 88]),
+      rect(62, 70, 8, 18), rect(74, 58, 8, 30, true), rect(86, 51, 8, 37),
+      line([20, 116], [108, 116]),
+    ]),
+  entry("azure-hdinsight-clusters", "azure", "HDInsight Clusters", ["10142-icon-service-HD-Insight-Clusters"],
+    "Distributed workers process data in a managed analytics cluster.",
+    [
+      oval(12, 42, 33, 14), line([12, 49], [12, 78], [18, 83], [39, 83], [45, 78], [45, 49]),
+      line([12, 61], [18, 66], [39, 66], [45, 61]),
+      line([45, 62], [59, 62]), line([53, 56], [59, 62], [53, 68]),
+      line([64, 26], [64, 99]), line([64, 26], [79, 26]), line([64, 62], [79, 62]), line([64, 99], [79, 99]),
+      rect(79, 16, 36, 20), rect(79, 52, 36, 20), rect(79, 89, 36, 20),
+      line([86, 26], [108, 26]), line([86, 62], [108, 62]), line([86, 99], [108, 99]),
+    ]),
   entry("azure-stream-analytics", "azure", "Azure Stream Analytics Jobs",
     ["00042-icon-service-Stream-Analytics-Jobs"],
     "A continuous stream crosses an analysis window and produces a trend.",
