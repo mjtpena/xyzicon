@@ -1,6 +1,47 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-databricks", "azure", "Azure Databricks", ["10787-icon-service-Azure-Databricks"],
+    "A collaborative notebook directs data processing across a cluster.",
+    [
+      rect(10, 20, 46, 75), line([10, 32], [56, 32]), line([17, 26], [24, 26]),
+      line([25, 45], [19, 51], [25, 57]), line([38, 45], [44, 51], [38, 57]), line([34, 43], [29, 59]),
+      line([18, 68], [48, 68]), line([18, 78], [43, 78]), line([56, 57], [69, 57]),
+      line([63, 51], [69, 57], [63, 63]),
+      rect(75, 23, 35, 18), rect(75, 49, 35, 18), rect(75, 75, 35, 18),
+      line([80, 32], [105, 32]), line([80, 58], [105, 58]), line([80, 84], [105, 84]),
+      line([18, 109], [109, 109]),
+    ]),
+  entry("azure-analysis-services", "azure", "Analysis Services", ["10148-icon-service-Analysis-Services"],
+    "A data model supports analytical views and measures.",
+    [
+      line([16, 29], [35, 19], [54, 29], [54, 49], [35, 59], [16, 49], [16, 29]),
+      line([16, 29], [35, 39], [54, 29]), line([35, 39], [35, 59]),
+      line([54, 39], [70, 39], [70, 52]),
+      line([65, 92], [65, 58], [112, 58], [112, 92], [65, 92]),
+      line([72, 85], [72, 75], [79, 75], [79, 85]), line([85, 85], [85, 67], [92, 67], [92, 85]),
+      line([98, 85], [98, 71], [105, 71], [105, 85]), line([70, 85], [108, 85]),
+      line([17, 105], [111, 105]),
+    ]),
+  entry("azure-event-hub-clusters", "azure", "Event Hub Clusters", ["10149-icon-service-Event-Hub-Clusters"],
+    "Three event hubs form a dedicated cluster for streaming traffic.",
+    [
+      line([15, 21], [113, 21], [113, 102], [15, 102], [15, 21]),
+      oval(25, 49, 20, 20), oval(54, 49, 20, 20), oval(83, 49, 20, 20),
+      oval(32, 56, 6, 6, true), oval(61, 56, 6, 6, true), oval(90, 56, 6, 6, true),
+      line([18, 59], [25, 59]), line([45, 59], [54, 59]), line([74, 59], [83, 59]), line([103, 59], [110, 59]),
+      line([25, 85], [103, 85]), line([97, 79], [103, 85], [97, 91]),
+      line([25, 112], [103, 112]),
+    ]),
+  entry("azure-private-link-services", "azure", "Private Link Services", ["02209-icon-service-Private-Link-Services"],
+    "A provider exposes a service through a private, locked connection.",
+    [
+      line([12, 21], [50, 21], [50, 61], [12, 61], [12, 21]), line([12, 31], [50, 31]), line([19, 42], [43, 42]), line([19, 52], [38, 52]),
+      line([78, 57], [116, 57], [116, 97], [78, 97], [78, 57]), line([78, 67], [116, 67]), line([85, 78], [109, 78]), line([85, 88], [104, 88]),
+      line([50, 42], [66, 42], [66, 76], [78, 76]),
+      rect(56, 50, 20, 19, true), line([60, 50], [60, 45], [66, 41], [72, 45], [72, 50]),
+      line([19, 110], [109, 110]),
+    ]),
   entry("azure-endpoint-analytics", "azure", "Endpoint Analytics", ["00562-icon-service-Endpoint-Analytics"],
     "A device performance trend is examined through a magnifier.",
     [
