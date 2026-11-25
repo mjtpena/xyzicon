@@ -3,18 +3,11 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 723,
+  "approved": 749,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
-    "m365-upload",
-    "m365-download",
-    "m365-task-list",
-    "m365-image",
-    "m365-map",
-    "m365-search",
-    "m365-wrench",
     "fabric-apps",
     "fabric-experiment",
     "fabric-book-database",
@@ -59,25 +52,6 @@
     "azure-network-watcher",
     "azure-data-box",
     "azure-event-grid-subscriptions",
-    "m365-apps",
-    "m365-apps-list",
-    "m365-attach",
-    "m365-contacts",
-    "m365-bot",
-    "m365-retail-building",
-    "m365-cart",
-    "m365-chat",
-    "m365-document-text",
-    "m365-flag",
-    "m365-folder-open",
-    "m365-heart-pulse",
-    "m365-lightbulb",
-    "m365-lock",
-    "m365-mail",
-    "m365-office-notebook",
-    "m365-payment",
-    "m365-phone",
-    "m365-radar",
     "m365-receipt",
     "m365-presenter",
     "m365-road-cone",
@@ -2135,8 +2109,8 @@
       },
       {
         "a": "m365-upload",
-        "b": "m365-lock",
-        "similarity": 0.1667
+        "b": "fabric-home-kql",
+        "similarity": 0.1625
       }
     ],
     "m365-download": [
@@ -3813,13 +3787,13 @@
       },
       {
         "a": "aws-step-functions",
-        "b": "m365-lock",
-        "similarity": 0.2426
+        "b": "gcp-gke",
+        "similarity": 0.2233
       },
       {
         "a": "aws-step-functions",
-        "b": "gcp-gke",
-        "similarity": 0.2233
+        "b": "gcp-category-web3",
+        "similarity": 0.2062
       }
     ],
     "gcp-gke": [
@@ -4828,18 +4802,18 @@
     "m365-task-list": [
       {
         "a": "m365-task-list",
-        "b": "m365-clipboard",
-        "similarity": 0.3148
+        "b": "gcp-security-operations",
+        "similarity": 0.2689
       },
       {
         "a": "m365-task-list",
-        "b": "m365-document-page",
-        "similarity": 0.2741
+        "b": "aws-category-containers",
+        "similarity": 0.2474
       },
       {
-        "a": "fabric-notebook",
-        "b": "m365-task-list",
-        "similarity": 0.254
+        "a": "m365-task-list",
+        "b": "fabric-calculator-brackets-number",
+        "similarity": 0.238
       }
     ],
     "m365-code": [
@@ -6137,18 +6111,18 @@
     "m365-bot": [
       {
         "a": "m365-bot",
-        "b": "aws-braket-embedded-simulator",
-        "similarity": 0.2681
+        "b": "aws-xray",
+        "similarity": 0.2452
       },
       {
         "a": "m365-bot",
-        "b": "aws-elasticache-node",
-        "similarity": 0.2525
+        "b": "fabric-data-warehouse-product",
+        "similarity": 0.2257
       },
       {
         "a": "m365-bot",
-        "b": "aws-app-studio",
-        "similarity": 0.234
+        "b": "azure-defender-local-manager",
+        "similarity": 0.2168
       }
     ],
     "m365-retail-building": [
@@ -6205,18 +6179,18 @@
     "m365-document-text": [
       {
         "a": "m365-document-text",
-        "b": "aws-sqs-message",
-        "similarity": 0.313
+        "b": "azure-iot-operations",
+        "similarity": 0.2754
       },
       {
         "a": "m365-document-text",
-        "b": "aws-general-user",
-        "similarity": 0.3103
+        "b": "azure-postgresql-group",
+        "similarity": 0.2565
       },
       {
         "a": "m365-document-text",
-        "b": "fabric-document-hint",
-        "similarity": 0.29
+        "b": "azure-managed-devops-pools",
+        "similarity": 0.2436
       }
     ],
     "m365-flag": [
@@ -6256,18 +6230,18 @@
     "m365-heart-pulse": [
       {
         "a": "m365-heart-pulse",
-        "b": "fabric-rectangle-exit-down",
-        "similarity": 0.1727
+        "b": "m365-check",
+        "similarity": 0.3586
       },
       {
         "a": "m365-heart-pulse",
-        "b": "azure-network-function-manager",
-        "similarity": 0.1627
+        "b": "fabric-dual-screen-diff",
+        "similarity": 0.3182
       },
       {
         "a": "m365-heart-pulse",
-        "b": "fabric-databases-transfer",
-        "similarity": 0.1587
+        "b": "azure-genomics-accounts",
+        "similarity": 0.309
       }
     ],
     "m365-lightbulb": [
@@ -6290,18 +6264,18 @@
     "m365-lock": [
       {
         "a": "m365-lock",
-        "b": "m365-building",
-        "similarity": 0.2437
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.1993
       },
       {
-        "a": "aws-step-functions",
+        "a": "azure-container-registry",
         "b": "m365-lock",
-        "similarity": 0.2426
+        "similarity": 0.1801
       },
       {
         "a": "m365-lock",
-        "b": "m365-database",
-        "similarity": 0.214
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.1761
       }
     ],
     "m365-mail": [
@@ -9342,9 +9316,9 @@
         "similarity": 0.276
       },
       {
-        "a": "gcp-security-operations",
-        "b": "fabric-copy-job",
-        "similarity": 0.2647
+        "a": "m365-task-list",
+        "b": "gcp-security-operations",
+        "similarity": 0.2689
       }
     ],
     "gcp-alloydb": [
@@ -10046,6 +10020,11 @@
     ],
     "m365-person-desktop": [
       {
+        "a": "m365-heart-pulse",
+        "b": "m365-person-desktop",
+        "similarity": 0.2136
+      },
+      {
         "a": "m365-person-desktop",
         "b": "fabric-calendar-person",
         "similarity": 0.1978
@@ -10054,11 +10033,6 @@
         "a": "m365-person-desktop",
         "b": "azure-monitor-dashboard",
         "similarity": 0.1974
-      },
-      {
-        "a": "aws-eventbridge-schema-registry",
-        "b": "m365-person-desktop",
-        "similarity": 0.1828
       }
     ],
     "m365-person-wrench": [
@@ -11588,14 +11562,14 @@
         "similarity": 0.1601
       },
       {
-        "a": "azure-lake-analytics",
-        "b": "aws-braket-qpu",
-        "similarity": 0.1459
+        "a": "m365-bot",
+        "b": "azure-lake-analytics",
+        "similarity": 0.146
       },
       {
         "a": "azure-lake-analytics",
-        "b": "aws-backup-plan",
-        "similarity": 0.1417
+        "b": "aws-braket-qpu",
+        "similarity": 0.1459
       }
     ],
     "azure-lake-store": [
@@ -13735,9 +13709,9 @@
         "similarity": 0.2093
       },
       {
-        "a": "m365-ribbon",
-        "b": "aws-kms",
-        "similarity": 0.1514
+        "a": "m365-bot",
+        "b": "m365-ribbon",
+        "similarity": 0.1681
       }
     ],
     "m365-settings": [
@@ -16909,14 +16883,14 @@
         "similarity": 0.2866
       },
       {
+        "a": "m365-document-text",
+        "b": "azure-iot-operations",
+        "similarity": 0.2754
+      },
+      {
         "a": "azure-iot-operations",
         "b": "aws-general-client",
         "similarity": 0.2661
-      },
-      {
-        "a": "m365-office-notebook",
-        "b": "azure-iot-operations",
-        "similarity": 0.2601
       }
     ],
     "azure-hybrid-connectivity-hub": [
@@ -22854,11 +22828,6 @@
     ],
     "aws-sqs-message": [
       {
-        "a": "m365-document-text",
-        "b": "aws-sqs-message",
-        "similarity": 0.313
-      },
-      {
         "a": "azure-integration-environments",
         "b": "aws-sqs-message",
         "similarity": 0.2897
@@ -22867,6 +22836,11 @@
         "a": "aws-sqs-message",
         "b": "aws-general-user",
         "similarity": 0.2866
+      },
+      {
+        "a": "aws-sqs-message",
+        "b": "fabric-slide-window",
+        "similarity": 0.2654
       }
     ],
     "aws-sqs-queue": [
@@ -23250,14 +23224,14 @@
         "similarity": 0.1927
       },
       {
+        "a": "m365-heart-pulse",
+        "b": "aws-connect",
+        "similarity": 0.1889
+      },
+      {
         "a": "m365-mail-read",
         "b": "aws-connect",
         "similarity": 0.1818
-      },
-      {
-        "a": "fabric-data-warehouse",
-        "b": "aws-connect",
-        "similarity": 0.1778
       }
     ],
     "aws-billing-conductor": [
@@ -27353,14 +27327,14 @@
         "similarity": 0.4192
       },
       {
+        "a": "m365-heart-pulse",
+        "b": "m365-check",
+        "similarity": 0.3586
+      },
+      {
         "a": "m365-check",
         "b": "fabric-dual-screen-diff",
         "similarity": 0.3235
-      },
-      {
-        "a": "azure-genomics-accounts",
-        "b": "m365-check",
-        "similarity": 0.306
       }
     ],
     "m365-checkmark": [
@@ -27853,11 +27827,6 @@
     ],
     "m365-document-page": [
       {
-        "a": "m365-task-list",
-        "b": "m365-document-page",
-        "similarity": 0.2741
-      },
-      {
         "a": "m365-office-notebook",
         "b": "m365-document-page",
         "similarity": 0.2726
@@ -27866,6 +27835,11 @@
         "a": "fabric-restricted-report",
         "b": "m365-document-page",
         "similarity": 0.2554
+      },
+      {
+        "a": "m365-document-page",
+        "b": "fabric-document-rdl",
+        "similarity": 0.2391
       }
     ],
     "m365-document-bullets": [
@@ -27880,9 +27854,9 @@
         "similarity": 0.3431
       },
       {
-        "a": "m365-document-text",
-        "b": "m365-document-bullets",
-        "similarity": 0.2808
+        "a": "m365-document-bullets",
+        "b": "fabric-document-tree",
+        "similarity": 0.2737
       }
     ],
     "m365-document-bullets-multiple": [
@@ -27909,14 +27883,14 @@
         "similarity": 0.3431
       },
       {
-        "a": "m365-task-list",
-        "b": "m365-clipboard",
-        "similarity": 0.3148
-      },
-      {
         "a": "fabric-notebook",
         "b": "m365-clipboard",
         "similarity": 0.2669
+      },
+      {
+        "a": "gcp-automl",
+        "b": "m365-clipboard",
+        "similarity": 0.2431
       }
     ],
     "m365-task-list-ltr": [
@@ -29722,9 +29696,9 @@
         "similarity": 0.1551
       },
       {
-        "a": "gcp-cloud-tpu",
+        "a": "m365-bot",
         "b": "fabric-arrow-sync-settings",
-        "similarity": 0.1474
+        "similarity": 0.1485
       }
     ],
     "fabric-arrow-trend": [
@@ -31010,6 +30984,11 @@
     ],
     "aws-quick": [
       {
+        "a": "m365-heart-pulse",
+        "b": "aws-quick",
+        "similarity": 0.1925
+      },
+      {
         "a": "aws-opentelemetry",
         "b": "aws-quick",
         "similarity": 0.1889
@@ -31018,11 +30997,6 @@
         "a": "aws-elemental-inference",
         "b": "aws-quick",
         "similarity": 0.185
-      },
-      {
-        "a": "aws-quick",
-        "b": "azure-devops",
-        "similarity": 0.1849
       }
     ],
     "aws-category-customer-enablement": [
@@ -31054,9 +31028,9 @@
         "similarity": 0.1804
       },
       {
-        "a": "gcp-trace",
+        "a": "m365-task-list",
         "b": "aws-category-customer-experience",
-        "similarity": 0.1694
+        "similarity": 0.1798
       }
     ],
     "aws-category-hybrid": [
@@ -35219,9 +35193,9 @@
         "similarity": 0.1374
       },
       {
-        "a": "fabric-graph-model",
+        "a": "m365-bot",
         "b": "fabric-hexagons",
-        "similarity": 0.1322
+        "similarity": 0.1336
       }
     ],
     "fabric-home-waves": [
@@ -35610,9 +35584,9 @@
         "similarity": 0.2931
       },
       {
-        "a": "m365-document-text",
+        "a": "aws-ecs-task",
         "b": "fabric-document-hint",
-        "similarity": 0.29
+        "similarity": 0.2799
       }
     ],
     "fabric-documents-question": [
@@ -38316,9 +38290,9 @@
         "similarity": 0.2468
       },
       {
-        "a": "m365-document-text",
+        "a": "m365-office-notebook",
         "b": "fabric-document-power-query",
-        "similarity": 0.2359
+        "similarity": 0.219
       }
     ],
     "fabric-gauge-kql": [
@@ -39260,6 +39234,11 @@
     ],
     "fabric-calculator-brackets-number": [
       {
+        "a": "m365-task-list",
+        "b": "fabric-calculator-brackets-number",
+        "similarity": 0.238
+      },
+      {
         "a": "fabric-paginated-report",
         "b": "fabric-calculator-brackets-number",
         "similarity": 0.2321
@@ -39268,11 +39247,6 @@
         "a": "azure-storage-queue",
         "b": "fabric-calculator-brackets-number",
         "similarity": 0.2217
-      },
-      {
-        "a": "azure-image-templates",
-        "b": "fabric-calculator-brackets-number",
-        "similarity": 0.2158
       }
     ],
     "fabric-calculator-multiple-brackets": [
