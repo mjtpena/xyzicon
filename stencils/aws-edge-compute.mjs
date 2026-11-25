@@ -4,6 +4,43 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const categorySizes = (name) => [16, 32, 48, 64].map((size) => `Arch-Category_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-category-media", "aws", "Media services category", categorySizes("Media-Services"),
+    "A clapperboard and audio track represent media production.",
+    [
+      line([16, 37], [106, 37], [106, 91], [16, 91], [16, 37]), line([16, 37], [16, 24], [106, 16], [106, 29], [16, 37]),
+      line([29, 23], [39, 34]), line([53, 21], [63, 32]), line([77, 19], [87, 30]),
+      line([30, 48], [30, 77], [56, 63], [30, 48]),
+      line([68, 64], [73, 64], [77, 53], [82, 75], [87, 50], [92, 75], [96, 59], [101, 64]),
+      line([20, 105], [108, 105]),
+    ]),
+  entry("aws-category-networking", "aws", "Networking and content delivery category", categorySizes("Networking-Content-Delivery"),
+    "A network delivers content across paths around the globe.",
+    [
+      oval(35, 18, 58, 58), line([64, 18], [52, 29], [48, 47], [52, 65], [64, 76]),
+      line([64, 18], [76, 29], [80, 47], [76, 65], [64, 76]),
+      line([38, 36], [90, 36]), line([36, 54], [92, 54]), line([35, 47], [93, 47]),
+      line([11, 42], [20, 34], [29, 34]), line([14, 53], [21, 47], [29, 47]), line([99, 34], [108, 34], [117, 42]),
+      line([99, 47], [107, 47], [114, 53]), line([64, 76], [64, 88]),
+      rect(38, 88, 52, 20), line([45, 98], [52, 98]), line([58, 98], [65, 98]), line([71, 98], [83, 98]),
+      line([16, 117], [112, 117]),
+    ]),
+  entry("aws-category-storage", "aws", "Storage category", categorySizes("Storage"),
+    "Files are kept in a pair of storage drawers.",
+    [
+      line([28, 17], [67, 17], [77, 27], [77, 50], [28, 50], [28, 17]),
+      line([67, 17], [67, 27], [77, 27]), line([36, 29], [58, 29]), line([36, 38], [65, 38]),
+      rect(14, 50, 100, 54), line([14, 77], [114, 77]), rect(48, 58, 32, 10), rect(48, 85, 32, 10),
+      line([21, 111], [107, 111]),
+    ]),
+  entry("aws-category-serverless", "aws", "Serverless category", categorySizes("Serverless"),
+    "Application code runs directly in the cloud on demand.",
+    [
+      line([27, 74], [19, 70], [16, 62], [18, 53], [26, 48], [34, 48], [38, 35], [49, 27], [62, 25], [76, 30], [84, 40], [87, 49], [99, 49], [107, 54], [110, 63], [106, 71], [99, 75], [87, 75]),
+      line([46, 48], [38, 56], [46, 64]), line([70, 48], [78, 56], [70, 64]), line([63, 45], [55, 67]),
+      line([26, 83], [26, 92], [41, 92]), line([35, 86], [41, 92], [35, 98]),
+      line([88, 83], [88, 92], [73, 92]), line([79, 86], [73, 92], [79, 98]),
+      line([46, 104], [68, 104]), line([19, 115], [105, 115]),
+    ]),
   entry("aws-category-app-integration", "aws", "Application integration category", categorySizes("Application-Integration"),
     "Interlocking modules fit together into an application workflow.",
     [

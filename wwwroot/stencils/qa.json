@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 875,
-  "aliases": 3528,
+  "count": 879,
+  "aliases": 3544,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-media",
+    "aws-category-networking",
+    "aws-category-storage",
+    "aws-category-serverless",
     "aws-category-app-integration",
     "aws-category-business-applications",
     "aws-category-ai",
@@ -979,8 +983,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1220,
-      "concepts": 302
+      "covered": 1236,
+      "concepts": 306
     },
     "gcp": {
       "sources": 261,
@@ -2102,13 +2106,13 @@
       },
       {
         "a": "azure-api-management",
-        "b": "gcp-cloud-scheduler",
-        "similarity": 0.178
+        "b": "aws-category-networking",
+        "similarity": 0.1895
       },
       {
         "a": "azure-api-management",
-        "b": "fabric-overlapping-squares",
-        "similarity": 0.1744
+        "b": "gcp-cloud-scheduler",
+        "similarity": 0.178
       }
     ],
     "azure-app-services": [
@@ -4011,8 +4015,8 @@
       },
       {
         "a": "m365-bot",
-        "b": "aws-category-management",
-        "similarity": 0.2034
+        "b": "aws-category-media",
+        "similarity": 0.2098
       }
     ],
     "m365-retail-building": [
@@ -6194,6 +6198,11 @@
     "azure-private-link": [
       {
         "a": "azure-private-link",
+        "b": "aws-category-storage",
+        "similarity": 0.1445
+      },
+      {
+        "a": "azure-private-link",
         "b": "fabric-chart-phone",
         "similarity": 0.1407
       },
@@ -6201,11 +6210,6 @@
         "a": "azure-private-link",
         "b": "aws-kinesis",
         "similarity": 0.1378
-      },
-      {
-        "a": "azure-private-link",
-        "b": "aws-cdk",
-        "similarity": 0.1336
       }
     ],
     "azure-data-share": [
@@ -8278,8 +8282,8 @@
       },
       {
         "a": "azure-openai",
-        "b": "azure-language-understanding",
-        "similarity": 0.2048
+        "b": "aws-category-storage",
+        "similarity": 0.2055
       }
     ],
     "azure-ai-studio": [
@@ -8289,14 +8293,14 @@
         "similarity": 0.2361
       },
       {
+        "a": "azure-ai-studio",
+        "b": "aws-category-storage",
+        "similarity": 0.2307
+      },
+      {
         "a": "gcp-cloud-deploy",
         "b": "azure-ai-studio",
         "similarity": 0.2283
-      },
-      {
-        "a": "azure-ai-studio",
-        "b": "aws-firewall-manager",
-        "similarity": 0.2136
       }
     ],
     "azure-foundry-iq": [
@@ -9502,8 +9506,8 @@
       },
       {
         "a": "aws-pinpoint-apis",
-        "b": "aws-resource-access-manager",
-        "similarity": 0.2109
+        "b": "aws-category-media",
+        "similarity": 0.2151
       }
     ],
     "aws-workdocs-sdk": [
@@ -10249,9 +10253,9 @@
         "similarity": 0.2182
       },
       {
-        "a": "aws-management-console",
-        "b": "aws-config",
-        "similarity": 0.2158
+        "a": "aws-config",
+        "b": "aws-category-storage",
+        "similarity": 0.2169
       }
     ],
     "aws-license-manager": [
@@ -10545,6 +10549,11 @@
     ],
     "aws-elemental-live": [
       {
+        "a": "aws-elemental-live",
+        "b": "aws-category-storage",
+        "similarity": 0.2722
+      },
+      {
         "a": "aws-lookout-equipment",
         "b": "aws-elemental-live",
         "similarity": 0.2141
@@ -10553,11 +10562,6 @@
         "a": "aws-savings-plans",
         "b": "aws-elemental-live",
         "similarity": 0.2085
-      },
-      {
-        "a": "aws-elastic-beanstalk",
-        "b": "aws-elemental-live",
-        "similarity": 0.2065
       }
     ],
     "aws-elemental-link": [
@@ -13293,6 +13297,74 @@
         "similarity": 0.1678
       }
     ],
+    "aws-category-media": [
+      {
+        "a": "azure-function-apps",
+        "b": "aws-category-media",
+        "similarity": 0.2442
+      },
+      {
+        "a": "fabric-healthcare",
+        "b": "aws-category-media",
+        "similarity": 0.2254
+      },
+      {
+        "a": "aws-pinpoint-apis",
+        "b": "aws-category-media",
+        "similarity": 0.2151
+      }
+    ],
+    "aws-category-networking": [
+      {
+        "a": "aws-deep-learning-containers",
+        "b": "aws-category-networking",
+        "similarity": 0.2466
+      },
+      {
+        "a": "m365-script",
+        "b": "aws-category-networking",
+        "similarity": 0.221
+      },
+      {
+        "a": "aws-category-networking",
+        "b": "aws-device-farm",
+        "similarity": 0.2119
+      }
+    ],
+    "aws-category-storage": [
+      {
+        "a": "aws-category-storage",
+        "b": "fabric-locked-columns",
+        "similarity": 0.2772
+      },
+      {
+        "a": "aws-elemental-live",
+        "b": "aws-category-storage",
+        "similarity": 0.2722
+      },
+      {
+        "a": "aws-category-storage",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2606
+      }
+    ],
+    "aws-category-serverless": [
+      {
+        "a": "aws-category-serverless",
+        "b": "azure-cost-management-billing",
+        "similarity": 0.1541
+      },
+      {
+        "a": "gcp-category-storage",
+        "b": "aws-category-serverless",
+        "similarity": 0.1508
+      },
+      {
+        "a": "m365-cloud-download",
+        "b": "aws-category-serverless",
+        "similarity": 0.1493
+      }
+    ],
     "aws-category-app-integration": [
       {
         "a": "gcp-security-operations",
@@ -14269,14 +14341,14 @@
         "similarity": 0.1643
       },
       {
+        "a": "aws-category-storage",
+        "b": "azure-managed-service-fabric",
+        "similarity": 0.1638
+      },
+      {
         "a": "azure-foundry-local",
         "b": "azure-managed-service-fabric",
         "similarity": 0.1614
-      },
-      {
-        "a": "aws-codecatalyst",
-        "b": "azure-managed-service-fabric",
-        "similarity": 0.1596
       }
     ],
     "azure-notification-hubs": [
@@ -14638,6 +14710,11 @@
     ],
     "azure-hosts": [
       {
+        "a": "aws-category-storage",
+        "b": "azure-hosts",
+        "similarity": 0.2035
+      },
+      {
         "a": "aws-redshift",
         "b": "azure-hosts",
         "similarity": 0.1967
@@ -14646,11 +14723,6 @@
         "a": "azure-power-bi-embedded",
         "b": "azure-hosts",
         "similarity": 0.1936
-      },
-      {
-        "a": "aws-firewall-manager",
-        "b": "azure-hosts",
-        "similarity": 0.1894
       }
     ],
     "fabric-hexagons": [
@@ -15422,6 +15494,11 @@
     ],
     "fabric-chart-phone": [
       {
+        "a": "aws-category-storage",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2606
+      },
+      {
         "a": "aws-iot-fleetwise",
         "b": "fabric-chart-phone",
         "similarity": 0.2339
@@ -15430,11 +15507,6 @@
         "a": "fabric-briefcase-report",
         "b": "fabric-chart-phone",
         "similarity": 0.231
-      },
-      {
-        "a": "azure-cost-management-billing",
-        "b": "fabric-chart-phone",
-        "similarity": 0.208
       }
     ],
     "fabric-database-sync": [
@@ -15565,14 +15637,14 @@
         "notes": "The layout dividers are vertical for columns and horizontal for rows, including at 32px."
       },
       {
+        "a": "aws-category-storage",
+        "b": "fabric-locked-columns",
+        "similarity": 0.2772
+      },
+      {
         "a": "aws-service-catalog",
         "b": "fabric-locked-columns",
         "similarity": 0.277
-      },
-      {
-        "a": "gcp-category-containers",
-        "b": "fabric-locked-columns",
-        "similarity": 0.2767
       }
     ],
     "fabric-locked-rows": [
