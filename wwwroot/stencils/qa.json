@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1116,
-  "aliases": 3997,
+  "count": 1122,
+  "aliases": 4003,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -318,6 +318,12 @@
     "gcp-cloud-jobs",
     "gcp-apigee-sense",
     "gcp-service-discovery",
+    "gcp-ai-platform",
+    "gcp-unified-ai-platform",
+    "gcp-advanced-solutions-lab",
+    "gcp-tensorflow-enterprise",
+    "gcp-real-world-insights",
+    "gcp-data-studio",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1232,8 +1238,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 216,
-      "concepts": 203
+      "covered": 222,
+      "concepts": 209
     }
   },
   "nearest": {
@@ -1482,13 +1488,13 @@
         "similarity": 0.2201
       },
       {
-        "a": "entra-id",
-        "b": "power-dataverse",
-        "similarity": 0.2002
+        "a": "power-dataverse",
+        "b": "gcp-data-studio",
+        "similarity": 0.2079
       },
       {
-        "a": "power-dataverse",
-        "b": "gcp-container-optimized-os",
+        "a": "entra-id",
+        "b": "power-dataverse",
         "similarity": 0.2002
       }
     ],
@@ -1913,8 +1919,8 @@
       },
       {
         "a": "dynamics-project-operations",
-        "b": "gcp-bigtable",
-        "similarity": 0.2885
+        "b": "gcp-ai-platform",
+        "similarity": 0.2913
       }
     ],
     "dynamics-sales-insights": [
@@ -2848,8 +2854,8 @@
       },
       {
         "a": "aws-sagemaker",
-        "b": "aws-pinpoint-apis",
-        "similarity": 0.1997
+        "b": "gcp-tensorflow-enterprise",
+        "similarity": 0.2003
       }
     ],
     "aws-eventbridge": [
@@ -4304,14 +4310,14 @@
         "similarity": 0.2511
       },
       {
+        "a": "aws-batch",
+        "b": "gcp-data-studio",
+        "similarity": 0.2352
+      },
+      {
         "a": "gcp-bigtable",
         "b": "aws-batch",
         "similarity": 0.234
-      },
-      {
-        "a": "aws-batch",
-        "b": "aws-finspace",
-        "similarity": 0.2329
       }
     ],
     "aws-budgets": [
@@ -4645,13 +4651,13 @@
       },
       {
         "a": "m365-heart-pulse",
-        "b": "azure-stream-analytics",
-        "similarity": 0.1515
+        "b": "gcp-unified-ai-platform",
+        "similarity": 0.1558
       },
       {
-        "a": "aws-secrets-manager",
-        "b": "m365-heart-pulse",
-        "similarity": 0.144
+        "a": "m365-heart-pulse",
+        "b": "azure-stream-analytics",
+        "similarity": 0.1515
       }
     ],
     "m365-lightbulb": [
@@ -4973,8 +4979,8 @@
       },
       {
         "a": "gcp-key-access-justifications",
-        "b": "aws-category-financial",
-        "similarity": 0.2712
+        "b": "gcp-data-studio",
+        "similarity": 0.2813
       }
     ],
     "gcp-identity-aware-proxy": [
@@ -5886,13 +5892,13 @@
       },
       {
         "a": "gcp-private-connectivity",
-        "b": "aws-forecast",
-        "similarity": 0.2205
+        "b": "gcp-ai-platform",
+        "similarity": 0.2362
       },
       {
         "a": "gcp-private-connectivity",
-        "b": "aws-nova",
-        "similarity": 0.2142
+        "b": "aws-forecast",
+        "similarity": 0.2205
       }
     ],
     "gcp-private-service-connect": [
@@ -6418,8 +6424,8 @@
       },
       {
         "a": "gcp-cloud-optimization-ai",
-        "b": "fabric-database-up-down",
-        "similarity": 0.1612
+        "b": "gcp-real-world-insights",
+        "similarity": 0.1655
       }
     ],
     "gcp-fleet-routing": [
@@ -6556,6 +6562,108 @@
         "a": "gcp-service-discovery",
         "b": "azure-app-service-plans",
         "similarity": 0.2094
+      }
+    ],
+    "gcp-ai-platform": [
+      {
+        "a": "gcp-ai-platform",
+        "b": "aws-codewhisperer",
+        "similarity": 0.3126
+      },
+      {
+        "a": "gcp-ai-platform",
+        "b": "aws-datazone-portal",
+        "similarity": 0.3116
+      },
+      {
+        "a": "dynamics-project-operations",
+        "b": "gcp-ai-platform",
+        "similarity": 0.2913
+      }
+    ],
+    "gcp-unified-ai-platform": [
+      {
+        "a": "gcp-unified-ai-platform",
+        "b": "m365-building-multiple",
+        "similarity": 0.2177
+      },
+      {
+        "a": "azure-app-services",
+        "b": "gcp-unified-ai-platform",
+        "similarity": 0.203
+      },
+      {
+        "a": "gcp-unified-ai-platform",
+        "b": "aws-category-databases",
+        "similarity": 0.2007
+      }
+    ],
+    "gcp-advanced-solutions-lab": [
+      {
+        "a": "gcp-cloud-jobs",
+        "b": "gcp-advanced-solutions-lab",
+        "similarity": 0.2452
+      },
+      {
+        "a": "gcp-dataproc-metastore",
+        "b": "gcp-advanced-solutions-lab",
+        "similarity": 0.2258
+      },
+      {
+        "a": "gcp-advanced-solutions-lab",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2194
+      }
+    ],
+    "gcp-tensorflow-enterprise": [
+      {
+        "a": "gcp-tensorflow-enterprise",
+        "b": "aws-database-migration",
+        "similarity": 0.3142
+      },
+      {
+        "a": "gcp-tensorflow-enterprise",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.2342
+      },
+      {
+        "a": "gcp-tensorflow-enterprise",
+        "b": "aws-nova",
+        "similarity": 0.2226
+      }
+    ],
+    "gcp-real-world-insights": [
+      {
+        "a": "gcp-real-world-insights",
+        "b": "azure-ai-studio",
+        "similarity": 0.2118
+      },
+      {
+        "a": "gcp-real-world-insights",
+        "b": "aws-category-end-user",
+        "similarity": 0.1957
+      },
+      {
+        "a": "gcp-real-world-insights",
+        "b": "azure-load-testing",
+        "similarity": 0.1788
+      }
+    ],
+    "gcp-data-studio": [
+      {
+        "a": "gcp-data-studio",
+        "b": "azure-host-groups",
+        "similarity": 0.4019
+      },
+      {
+        "a": "gcp-data-studio",
+        "b": "azure-compute-galleries",
+        "similarity": 0.4005
+      },
+      {
+        "a": "gcp-data-studio",
+        "b": "aws-finspace",
+        "similarity": 0.3909
       }
     ],
     "gcp-access-context": [
@@ -7522,9 +7630,9 @@
         "similarity": 0.2801
       },
       {
-        "a": "m365-desktop-tower",
-        "b": "aws-training-certification",
-        "similarity": 0.2547
+        "a": "gcp-data-studio",
+        "b": "m365-desktop-tower",
+        "similarity": 0.2781
       }
     ],
     "m365-laptop": [
@@ -8860,14 +8968,14 @@
         "similarity": 0.3994
       },
       {
+        "a": "gcp-ai-platform",
+        "b": "aws-datazone-portal",
+        "similarity": 0.3116
+      },
+      {
         "a": "gcp-security-command-center",
         "b": "aws-datazone-portal",
         "similarity": 0.2832
-      },
-      {
-        "a": "aws-datazone-portal",
-        "b": "aws-finspace",
-        "similarity": 0.2599
       }
     ],
     "aws-datazone-projects": [
@@ -8916,9 +9024,9 @@
         "similarity": 0.3278
       },
       {
-        "a": "aws-glue-catalog",
-        "b": "azure-app-service-plans",
-        "similarity": 0.3208
+        "a": "gcp-data-studio",
+        "b": "aws-glue-catalog",
+        "similarity": 0.3243
       }
     ],
     "aws-glue-quality": [
@@ -9914,14 +10022,14 @@
         "similarity": 0.2789
       },
       {
+        "a": "gcp-ai-platform",
+        "b": "m365-folder-people",
+        "similarity": 0.2787
+      },
+      {
         "a": "fabric-briefcase-report",
         "b": "m365-folder-people",
         "similarity": 0.2527
-      },
-      {
-        "a": "m365-folders",
-        "b": "m365-folder-people",
-        "similarity": 0.2458
       }
     ],
     "m365-graduation": [
@@ -10599,9 +10707,9 @@
         "similarity": 0.2305
       },
       {
-        "a": "aws-nova",
-        "b": "aws-category-app-integration",
-        "similarity": 0.2186
+        "a": "gcp-tensorflow-enterprise",
+        "b": "aws-nova",
+        "similarity": 0.2226
       }
     ],
     "aws-bedrock-agentcore": [
@@ -10917,14 +11025,14 @@
         "similarity": 0.324
       },
       {
-        "a": "aws-devops-guru",
-        "b": "m365-filmstrip-play",
-        "similarity": 0.2733
+        "a": "gcp-data-studio",
+        "b": "aws-devops-guru",
+        "similarity": 0.306
       },
       {
         "a": "aws-devops-guru",
-        "b": "aws-cli",
-        "similarity": 0.2699
+        "b": "m365-filmstrip-play",
+        "similarity": 0.2733
       }
     ],
     "aws-lookout-equipment": [
@@ -12034,6 +12142,11 @@
     ],
     "aws-codecatalyst": [
       {
+        "a": "gcp-data-studio",
+        "b": "aws-codecatalyst",
+        "similarity": 0.3444
+      },
+      {
         "a": "fabric-dashboard",
         "b": "aws-codecatalyst",
         "similarity": 0.3424
@@ -12042,11 +12155,6 @@
         "a": "fabric-live-dashboard",
         "b": "aws-codecatalyst",
         "similarity": 0.3086
-      },
-      {
-        "a": "aws-cli",
-        "b": "aws-codecatalyst",
-        "similarity": 0.3022
       }
     ],
     "aws-corretto": [
@@ -16025,6 +16133,11 @@
     ],
     "aws-database-migration": [
       {
+        "a": "gcp-tensorflow-enterprise",
+        "b": "aws-database-migration",
+        "similarity": 0.3142
+      },
+      {
         "a": "aws-database-migration",
         "b": "aws-memorydb",
         "similarity": 0.2731
@@ -16033,11 +16146,6 @@
         "a": "aws-database-migration",
         "b": "aws-elastic-fabric-adapter",
         "similarity": 0.2669
-      },
-      {
-        "a": "gcp-category-integration",
-        "b": "aws-database-migration",
-        "similarity": 0.2631
       }
     ],
     "aws-aurora": [
@@ -16222,9 +16330,9 @@
         "similarity": 0.3012
       },
       {
-        "a": "aws-private-subnet",
+        "a": "gcp-data-studio",
         "b": "aws-serverless-repository",
-        "similarity": 0.2933
+        "similarity": 0.3001
       }
     ],
     "aws-ec2-image-builder": [
@@ -16494,9 +16602,9 @@
         "similarity": 0.2278
       },
       {
-        "a": "m365-folder-people",
+        "a": "gcp-ai-platform",
         "b": "aws-category-app-integration",
-        "similarity": 0.2215
+        "similarity": 0.2266
       }
     ],
     "aws-category-business-applications": [
@@ -17725,6 +17833,11 @@
     ],
     "azure-compute-galleries": [
       {
+        "a": "gcp-data-studio",
+        "b": "azure-compute-galleries",
+        "similarity": 0.4005
+      },
+      {
         "a": "azure-app-service-plans",
         "b": "azure-compute-galleries",
         "similarity": 0.3777
@@ -17733,11 +17846,6 @@
         "a": "m365-window",
         "b": "azure-compute-galleries",
         "similarity": 0.3769
-      },
-      {
-        "a": "m365-text-number-list",
-        "b": "azure-compute-galleries",
-        "similarity": 0.3709
       }
     ],
     "azure-scheduled-actions": [
@@ -17883,14 +17991,14 @@
         "similarity": 0.4111
       },
       {
+        "a": "gcp-data-studio",
+        "b": "azure-host-groups",
+        "similarity": 0.4019
+      },
+      {
         "a": "aws-finspace",
         "b": "azure-host-groups",
         "similarity": 0.3786
-      },
-      {
-        "a": "aws-cloud9",
-        "b": "azure-host-groups",
-        "similarity": 0.3498
       }
     ],
     "azure-hosts": [
@@ -18822,14 +18930,14 @@
         "similarity": 0.2738
       },
       {
+        "a": "gcp-ai-platform",
+        "b": "fabric-column-question",
+        "similarity": 0.2487
+      },
+      {
         "a": "fabric-column-question",
         "b": "fabric-chart-phone",
         "similarity": 0.2476
-      },
-      {
-        "a": "aws-codeartifact",
-        "b": "fabric-column-question",
-        "similarity": 0.242
       }
     ],
     "fabric-column-sigma": [
@@ -20047,6 +20155,11 @@
     ],
     "fabric-calendar-up": [
       {
+        "a": "gcp-tensorflow-enterprise",
+        "b": "fabric-calendar-up",
+        "similarity": 0.2186
+      },
+      {
         "a": "fabric-calculator-triangle",
         "b": "fabric-calendar-up",
         "similarity": 0.2073
@@ -20055,11 +20168,6 @@
         "a": "aws-cost-explorer",
         "b": "fabric-calendar-up",
         "similarity": 0.2036
-      },
-      {
-        "a": "aws-wickr",
-        "b": "fabric-calendar-up",
-        "similarity": 0.1933
       }
     ],
     "fabric-calendar-link": [
