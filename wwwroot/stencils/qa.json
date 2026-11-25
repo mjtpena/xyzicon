@@ -3,13 +3,14 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 228,
+  "approved": 226,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "aws-cloudwatch",
     "gcp-bigtable",
     "gcp-artifact-registry",
     "gcp-cloud-build",
@@ -425,6 +426,7 @@
     "azure-data-sharing",
     "azure-storage-sync",
     "azure-storage-explorer",
+    "aws-datazone-projects",
     "aws-kendra",
     "aws-polly",
     "aws-personalize",
@@ -2443,8 +2445,8 @@
       },
       {
         "a": "fabric-lakehouse",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.2082
+        "b": "azure-bare-metal-infrastructure",
+        "similarity": 0.1936
       }
     ],
     "fabric-pipeline": [
@@ -4274,13 +4276,13 @@
       },
       {
         "a": "aws-cloudwatch",
-        "b": "aws-outposts-rack",
-        "similarity": 0.1938
+        "b": "m365-data-usage",
+        "similarity": 0.1872
       },
       {
         "a": "aws-cloudwatch",
-        "b": "m365-data-usage",
-        "similarity": 0.1872
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.1742
       }
     ],
     "aws-route53": [
@@ -5612,11 +5614,6 @@
     "fabric-bucket": [
       {
         "a": "fabric-bucket",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.1948
-      },
-      {
-        "a": "fabric-bucket",
         "b": "m365-folder-open-vertical",
         "similarity": 0.1845
       },
@@ -5624,6 +5621,11 @@
         "a": "fabric-bucket",
         "b": "aws-payment-cryptography",
         "similarity": 0.1765
+      },
+      {
+        "a": "fabric-bucket",
+        "b": "aws-elemental-server",
+        "similarity": 0.1743
       }
     ],
     "fabric-building-data": [
@@ -7737,6 +7739,11 @@
     "gcp-recommendations-ai": [
       {
         "a": "gcp-recommendations-ai",
+        "b": "aws-personalize",
+        "similarity": 0.2902
+      },
+      {
+        "a": "gcp-recommendations-ai",
         "b": "aws-opensearch-dashboards",
         "similarity": 0.2792
       },
@@ -7744,11 +7751,6 @@
         "a": "gcp-recommendations-ai",
         "b": "gcp-vision",
         "similarity": 0.2597
-      },
-      {
-        "a": "gcp-recommendations-ai",
-        "b": "aws-vpc",
-        "similarity": 0.2535
       }
     ],
     "gcp-retail-api": [
@@ -9742,11 +9744,6 @@
     ],
     "gcp-agent-assist": [
       {
-        "a": "gcp-agent-assist",
-        "b": "aws-outposts-rack",
-        "similarity": 0.2524
-      },
-      {
         "a": "m365-apps",
         "b": "gcp-agent-assist",
         "similarity": 0.2433
@@ -9755,6 +9752,11 @@
         "a": "gcp-agent-assist",
         "b": "gcp-app-engine",
         "similarity": 0.2371
+      },
+      {
+        "a": "gcp-agent-assist",
+        "b": "m365-task-square",
+        "similarity": 0.2311
       }
     ],
     "gcp-ai-hub": [
@@ -11023,13 +11025,13 @@
       },
       {
         "a": "fabric-mobile-report",
-        "b": "aws-outposts-rack",
-        "similarity": 0.26
+        "b": "aws-xray",
+        "similarity": 0.2303
       },
       {
         "a": "fabric-mobile-report",
-        "b": "aws-xray",
-        "similarity": 0.2303
+        "b": "aws-elasticache-memcached",
+        "similarity": 0.2297
       }
     ],
     "fabric-model": [
@@ -12997,6 +12999,11 @@
     "aws-datazone-projects": [
       {
         "a": "aws-datazone-projects",
+        "b": "aws-outposts-rack",
+        "similarity": 0.2824
+      },
+      {
+        "a": "aws-datazone-projects",
         "b": "azure-kubernetes-hub",
         "similarity": 0.245
       },
@@ -13004,11 +13011,6 @@
         "a": "gcp-functions",
         "b": "aws-datazone-projects",
         "similarity": 0.2442
-      },
-      {
-        "a": "aws-datazone-projects",
-        "b": "fabric-pipeline-note",
-        "similarity": 0.2425
       }
     ],
     "aws-glue-crawler": [
@@ -13336,19 +13338,19 @@
     ],
     "aws-personalize": [
       {
-        "a": "aws-personalize",
-        "b": "m365-window",
-        "similarity": 0.2703
-      },
-      {
-        "a": "aws-personalize",
-        "b": "fabric-live-dashboard",
-        "similarity": 0.2695
-      },
-      {
-        "a": "gcp-stackdriver",
+        "a": "gcp-recommendations-ai",
         "b": "aws-personalize",
-        "similarity": 0.2507
+        "similarity": 0.2902
+      },
+      {
+        "a": "gcp-developer-portal",
+        "b": "aws-personalize",
+        "similarity": 0.2872
+      },
+      {
+        "a": "aws-personalize",
+        "b": "azure-genomics-accounts",
+        "similarity": 0.2554
       }
     ],
     "aws-codeguru": [
@@ -13405,18 +13407,18 @@
     "aws-outposts-rack": [
       {
         "a": "aws-outposts-rack",
-        "b": "gcp-category-storage",
-        "similarity": 0.2715
+        "b": "azure-host-groups",
+        "similarity": 0.2911
       },
       {
-        "a": "fabric-mobile-report",
-        "b": "aws-outposts-rack",
-        "similarity": 0.26
+        "a": "aws-outposts-rack",
+        "b": "azure-kubernetes-hub",
+        "similarity": 0.2878
       },
       {
-        "a": "gcp-agent-assist",
+        "a": "gcp-external-key-manager",
         "b": "aws-outposts-rack",
-        "similarity": 0.2524
+        "similarity": 0.2832
       }
     ],
     "aws-outposts-servers": [
@@ -13439,18 +13441,18 @@
     "aws-ec2-autoscaling": [
       {
         "a": "aws-ec2-autoscaling",
-        "b": "aws-iot-expresslink",
-        "similarity": 0.2356
-      },
-      {
-        "a": "gcp-transfer-appliance",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.234
+        "b": "azure-dedicated-hsm",
+        "similarity": 0.2431
       },
       {
         "a": "aws-ec2-autoscaling",
-        "b": "azure-blob-block",
-        "similarity": 0.2322
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.2298
+      },
+      {
+        "a": "aws-ec2-autoscaling",
+        "b": "aws-blockchain-resource",
+        "similarity": 0.2234
       }
     ],
     "fabric-stream-connector": [
@@ -26550,14 +26552,14 @@
         "similarity": 0.2764
       },
       {
+        "a": "aws-outposts-rack",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.273
+      },
+      {
         "a": "azure-databricks",
         "b": "aws-deadline-cloud",
         "similarity": 0.2563
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "aws-deadline-cloud",
-        "similarity": 0.2506
       }
     ],
     "aws-elemental-live": [
@@ -27293,6 +27295,11 @@
     ],
     "aws-security-incident-response": [
       {
+        "a": "aws-outposts-rack",
+        "b": "aws-security-incident-response",
+        "similarity": 0.2787
+      },
+      {
         "a": "azure-connected-cache",
         "b": "aws-security-incident-response",
         "similarity": 0.2712
@@ -27301,11 +27308,6 @@
         "a": "azure-dns-multistack",
         "b": "aws-security-incident-response",
         "similarity": 0.2681
-      },
-      {
-        "a": "aws-sns-http-notification",
-        "b": "aws-security-incident-response",
-        "similarity": 0.261
       }
     ],
     "aws-audit-manager": [
@@ -29469,7 +29471,7 @@
         "similarity": 0.2077
       },
       {
-        "a": "aws-outposts-rack",
+        "a": "azure-netapp-files",
         "b": "aws-global-accelerator",
         "similarity": 0.2065
       }
@@ -29515,14 +29517,14 @@
         "similarity": 0.2425
       },
       {
+        "a": "aws-outposts-rack",
+        "b": "aws-site-vpn",
+        "similarity": 0.2422
+      },
+      {
         "a": "gcp-security-command-center",
         "b": "aws-site-vpn",
         "similarity": 0.2365
-      },
-      {
-        "a": "azure-power-bi-embedded",
-        "b": "aws-site-vpn",
-        "similarity": 0.2306
       }
     ],
     "aws-transit-gateway": [
@@ -30008,14 +30010,14 @@
         "similarity": 0.2776
       },
       {
-        "a": "aws-outposts-rack",
-        "b": "gcp-category-storage",
-        "similarity": 0.2715
-      },
-      {
         "a": "gcp-cloud-generic",
         "b": "gcp-category-storage",
         "similarity": 0.2638
+      },
+      {
+        "a": "azure-foundry-application",
+        "b": "gcp-category-storage",
+        "similarity": 0.255
       }
     ],
     "gcp-category-web-mobile": [
@@ -30920,9 +30922,9 @@
         "similarity": 0.2433
       },
       {
-        "a": "azure-network-connections",
+        "a": "aws-personalize",
         "b": "aws-ecs-service-connect",
-        "similarity": 0.2281
+        "similarity": 0.2417
       }
     ],
     "aws-ecs-service": [
@@ -31153,14 +31155,14 @@
         "similarity": 0.2723
       },
       {
+        "a": "aws-outposts-rack",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2674
+      },
+      {
         "a": "aws-security-incident-response",
         "b": "aws-beanstalk-deployment",
         "similarity": 0.2596
-      },
-      {
-        "a": "aws-beanstalk-deployment",
-        "b": "azure-templates",
-        "similarity": 0.2593
       }
     ],
     "aws-lambda-function": [
@@ -31930,11 +31932,6 @@
     ],
     "aws-iot-expresslink": [
       {
-        "a": "aws-ec2-autoscaling",
-        "b": "aws-iot-expresslink",
-        "similarity": 0.2356
-      },
-      {
         "a": "dynamics-family",
         "b": "aws-iot-expresslink",
         "similarity": 0.2304
@@ -31943,6 +31940,11 @@
         "a": "aws-sustainability",
         "b": "aws-iot-expresslink",
         "similarity": 0.2277
+      },
+      {
+        "a": "azure-sql-elastic-pool",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2179
       }
     ],
     "aws-freertos": [
