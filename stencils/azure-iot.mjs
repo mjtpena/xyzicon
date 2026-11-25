@@ -1,6 +1,42 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureIotArtwork = [
+  entry("azure-defender-local-manager", "azure", "Defender CM Local Manager", ["03402-icon-service-Defender-CM-Local-Manager"],
+    "A local server manages industrial device configuration.",
+    [
+      rect(18, 19, 57, 66), line([18, 34], [75, 34]), line([18, 50], [75, 50]), line([18, 66], [75, 66]), oval(24, 24, 5, 5, true), oval(24, 40, 5, 5, true), oval(24, 56, 5, 5, true), line([37, 26], [66, 26]), line([37, 42], [66, 42]), line([37, 58], [66, 58]),
+      oval(69, 58, 30, 30), oval(78, 67, 12, 12), line([84, 52], [84, 58]), line([84, 88], [84, 94]), line([63, 73], [69, 73]), line([99, 73], [105, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-external-management", "azure", "Defender External Management", ["03403-icon-service-Defender-External-Management"],
+    "An external management console controls industrial equipment.",
+    [
+      rect(15, 23, 55, 42), line([15, 34], [70, 34]), oval(31, 40, 22, 22), oval(37, 46, 10, 10), line([42, 65], [42, 75]), line([30, 75], [54, 75]),
+      line([70, 44], [85, 44], [85, 25]), rect(85, 15, 28, 19), rect(85, 39, 28, 19), line([91, 24], [107, 24]), line([91, 48], [107, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-freezer-monitor", "azure", "Defender Freezer Monitor", ["03404-icon-service-Defender-Freezer-Monitor"],
+    "A thermometer monitors a freezer's temperature.",
+    [
+      line([37, 69], [37, 28], [41, 22], [48, 20], [55, 22], [59, 28], [59, 69]), oval(31, 64, 34, 34), line([48, 36], [48, 75]), oval(42, 74, 12, 12, true),
+      line([83, 27], [83, 69]), line([64, 38], [102, 58]), line([64, 58], [102, 38]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-historian", "azure", "Defender Historian", ["03405-icon-service-Defender-Historian"],
+    "A historian stores time-series measurements over time.",
+    [
+      line([16, 20], [16, 86], [104, 86]), line([23, 71], [34, 60], [45, 67], [57, 48], [68, 56], [80, 39], [99, 45]),
+      oval(70, 18, 30, 30), line([85, 24], [85, 34], [92, 38]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-hmi", "azure", "Defender Human-Machine Interface", ["03406-icon-service-Defender-HMI"],
+    "An operator panel shows a machine status and controls.",
+    [
+      rect(16, 20, 95, 70), rect(25, 28, 77, 36), line([32, 54], [44, 44], [54, 49], [65, 38], [88, 47]),
+      oval(27, 73, 7, 7, true), oval(43, 73, 7, 7, true), oval(59, 73, 7, 7, true), oval(81, 69, 15, 15), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-marquee", "azure", "Defender Marquee", ["03407-icon-service-Defender-Marquee"],
+    "An industrial marquee displays an operational alert.",
+    [
+      rect(13, 30, 100, 46), line([13, 39], [113, 39]), line([25, 65], [32, 48], [39, 65]), line([28, 59], [36, 59]),
+      line([50, 48], [50, 65], [61, 65]), line([76, 48], [76, 58]), oval(74, 62, 4, 4, true), oval(96, 52, 7, 7, true), line([14, 109], [110, 109]),
+    ]),
   entry("azure-digital-twins", "azure", "Digital Twins", ["01030-icon-service-Digital-Twins"],
     "A physical building is mirrored as a digital model.",
     [
