@@ -28,7 +28,7 @@
       ],
       "revision": "1fe22ea1a781d8413664ca173e893ee71de7d801b488fd6ec3e140256af1de9c",
       "geometrySignature": "50916b1136ad9eaa0d86967fba7db2301c68924968b764068f3c9ac6a82a7993",
-      "comparisonRevision": "764d3289b3cf7858fbb8fac1f1548ed4e63eab6e1c0fc3b8ccf607e35574630a",
+      "comparisonRevision": "92050daad0b6ab0237857d3524fbbf982c5ab23fc8447405d3e3c534327a7bb2",
       "review": "pending",
       "notes": ""
     },
@@ -639,7 +639,7 @@
       ],
       "revision": "9fa6251746367d960bd88e0a8d7272e95bdd1ae45b5335340cc137204300dc31",
       "geometrySignature": "19d42cb6cad3909dd99032e3942c55b4387640e79541fd3f46fddf56243d7dc4",
-      "comparisonRevision": "1694fd10e805af69f99a8a7de010874acc59752adead81113e9bcad1a617b61d",
+      "comparisonRevision": "700d5ed5e68dda61445d5153144b7a4f059518be693f5f87ebd108233c170e2f",
       "review": "pending",
       "notes": ""
     },
@@ -1859,7 +1859,7 @@
       ],
       "revision": "a19c5679dc5dacb753be3c5826200e6a85b944837cc1bf4c476da0a1a61ec749",
       "geometrySignature": "5732b190300e1e74e1e6f8a2f050287f33f3ca06c75af222988034b4de8d8f52",
-      "comparisonRevision": "ce03480671f90c93984a8132e1049535015916f9bd7fe5154c97ce21fefe53f4",
+      "comparisonRevision": "25ec6a2e16fe4fccf3a1d83fc574be173a20351b9b1effe1d6893b96420af299",
       "review": "pending",
       "notes": ""
     },
@@ -2544,6 +2544,66 @@
       "notes": ""
     },
     {
+      "id": "azure-waf-policies",
+      "provider": "azure",
+      "name": "Web Application Firewall Policies",
+      "rationale": "Rules protect a web application from unsafe requests.",
+      "path": "stencils/azure-waf-policies.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/10362-icon-service-Web-Application-Firewall-Policies(WAF).svg"
+      ],
+      "revision": "07eba8a18ee0a6e5b2c7f135defc014e7c5c75529dc3d40e876b25dc2f66e729",
+      "geometrySignature": "8e9163d8f6e5717565329a4711f0e43cc907e7ce3b72ccc7ece1eeeb409f1788",
+      "comparisonRevision": "7d6311dd369041eb2c5ed328b45df550aed377fda249ca7a4aa272e45fa9786b",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-nat",
+      "provider": "azure",
+      "name": "NAT",
+      "rationale": "A network address translator maps internal endpoints to a public address.",
+      "path": "stencils/azure-nat.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/10310-icon-service-NAT.svg"
+      ],
+      "revision": "591a229fb741b892b027decd21316ae18da8a73461660346642cf1026812ecb3",
+      "geometrySignature": "96c042afbcddbdfe4cc193e981ab4d6c588f659a058c70740fa1b8c2ec3a8eca",
+      "comparisonRevision": "b6af6fc298f7c69dc22fa37f4776c66fd5fc8b4cd67efbd3799a4647ea70c8d7",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-route-tables",
+      "provider": "azure",
+      "name": "Route Tables",
+      "rationale": "A table maps network destinations to next-hop routes.",
+      "path": "stencils/azure-route-tables.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/10082-icon-service-Route-Tables.svg"
+      ],
+      "revision": "4cee95379be1a786948124e1ee80e80f2047264fcae59ead3eff606620d763c4",
+      "geometrySignature": "808cbeca22ee5277c58f6f8f490b32f39bda5387f059b6949f50170a9dd21b44",
+      "comparisonRevision": "bfc266bd240c11b48387b1b4435cd9e7f3698a5c0f251638029bcbefc1b1c1f1",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-public-ip",
+      "provider": "azure",
+      "name": "Public IP Addresses",
+      "rationale": "A public network address identifies an endpoint on the internet.",
+      "path": "stencils/azure-public-ip.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/networking/10069-icon-service-Public-IP-Addresses.svg"
+      ],
+      "revision": "1358a1d6bb86fd01a2e9427c7ac9e9870d7872d7d49d9a4f3646a7ad16c9b87f",
+      "geometrySignature": "da1b6ad2c792bc93c5511077b32ed2aa5d19ab1e0cf45249e9349a432fcfd9a1",
+      "comparisonRevision": "0d27b88b9d22d556c0675cbfe06223715d99af7e5888b0191b8f4a309e48c1db",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-virtual-router",
       "provider": "azure",
       "name": "Virtual Router",
@@ -2599,7 +2659,7 @@
       ],
       "revision": "6627f660898e45d90d4050d248b9f77fdc1698f8d2f548efc6a0229f6c77aa3a",
       "geometrySignature": "1df5dd6dc4604df1bc1ba8004d2d8b18a8a13202224c1ecc4dbebe98dc0f749a",
-      "comparisonRevision": "226b90dafe84f639d3fcdf8634b0dd8cdbc6bc37408ae1768e787ab81bc4cc59",
+      "comparisonRevision": "713e8245f4b0af140c5dac7e6ad55fe2541ab2cc148895e2f045b6f420e42a84",
       "review": "pending",
       "notes": ""
     },
@@ -2963,7 +3023,7 @@
       ],
       "revision": "a62636414a930f95a5bc23652250a11479e07c2d3fc8e27372d015cddd1626a2",
       "geometrySignature": "b2bca716c5b830c2e855a9db243feeac199e9dbeff76fbf6c27484d212f554e7",
-      "comparisonRevision": "ce6d833507a94397c2d2f2f7b0679b9d177ce7ec6f19bfec1301c2e42590b2f3",
+      "comparisonRevision": "00a8450f3a0e33029c0b1f3dcf5958b4e919c9da301f7ec0b59e356592db9720",
       "review": "pending",
       "notes": ""
     },
@@ -4624,7 +4684,7 @@
       ],
       "revision": "860fb6a8f04e6bb64d2002ef05f41a373c8ad2562dceca88b3e73d63e72f59ed",
       "geometrySignature": "e06f95d9c2871f8aba02cfdbe14345d5c0ef4015d50955c66c8e2f86f3d08054",
-      "comparisonRevision": "198c83eac94052973ad8522a9e1870889441e675106829574d845188a7795835",
+      "comparisonRevision": "8c3294a6c1c228cfb8d21f13dbfa6c6d2edc5787de4073eb2774be1f2fb9ce64",
       "review": "pending",
       "notes": ""
     },
@@ -4830,7 +4890,7 @@
       ],
       "revision": "582a701ee1b3d7a4c4ebd2757c37c15ce7192eb5b429dc15311ce20cb98d3317",
       "geometrySignature": "6c8257ce1a279b5d0f86e4bb083e64849852b3f6ea4dbac6a3422a6144ae53f8",
-      "comparisonRevision": "f998d351d522c44819524a80c97765b69c72a94cf4a8701e614ea44b310f42d1",
+      "comparisonRevision": "d531e04217660a756088254cecc4e79de338f0a6f479dd2c2bc5506154a96a6b",
       "review": "pending",
       "notes": ""
     },
@@ -5549,7 +5609,7 @@
       ],
       "revision": "ebc440238d5e88424be5a19439fe4893f6d430a9c90d4b14368ccac50c05d791",
       "geometrySignature": "e95a89252a70dfe4ca7d3bd4d9b3751116138572d253d8a5aec3f0df69c14b49",
-      "comparisonRevision": "7043c0a3a26fe2a018b7330eceeffc096458c0ca9a792ed34ac4df02a6bfc2c9",
+      "comparisonRevision": "3347e401e7b9f009ed417f128f598a18c3840c25f83281d8d29e6351bd084abe",
       "review": "pending",
       "notes": ""
     },
@@ -5611,7 +5671,7 @@
       ],
       "revision": "cb04e95ae92d706e7e055939b5eafc17cbe724931c7ec9ccef7f2aee47c8d2ff",
       "geometrySignature": "fb8a540ff2f4a34448df03fee5e3a898286345abbca053c0051873d9b93643ee",
-      "comparisonRevision": "0355bdcaa422a55ab8122b8a97c735b017ba42939e92be7af058fefb8d4143f6",
+      "comparisonRevision": "724e155056c68b76ca067bda2c809b17dc4b87e4d8d201150886cca5a25e3ab0",
       "review": "pending",
       "notes": ""
     },
@@ -7918,7 +7978,7 @@
       ],
       "revision": "c92ab4e4f2dcfb237696bb6a2146defb13ead9e1faefbf3744fc5e1cef0522c7",
       "geometrySignature": "3c75d150da9225b14b6e83e8b54aa93ae314af766495b8d85aa8b73838208aad",
-      "comparisonRevision": "8264d8846009e762d51662df9c6b45686a7a6a1eeea78751e2e363dc7266e48b",
+      "comparisonRevision": "632a48d2ecbe5e6237366120e3409b0203bae8b59ee16e8d8bfa6ef19b871ae1",
       "review": "pending",
       "notes": ""
     },
@@ -8468,7 +8528,7 @@
       ],
       "revision": "50dccb78dbb91d54722d853946ee068e9bde49002176577056148dea29ee0929",
       "geometrySignature": "4b96ea562f9aaac31e0271d4998fdf516bcb34389b2e5eb8c55afe206663e5aa",
-      "comparisonRevision": "0b2d4321e903e71692d44b5f49d7bedde92ebc87a9e05341d99286ae567bf4f4",
+      "comparisonRevision": "1c10349aee705eefa3d92d85d331682a0bf8b12604494a3459df04ecaf28eb2e",
       "review": "pending",
       "notes": ""
     },
@@ -10297,7 +10357,7 @@
       ],
       "revision": "5a226d77dcce452a58fcdc587deb9163cf482e9f0c31f85de294d1920f551d64",
       "geometrySignature": "5d468305ae1ea1d0c2e1531aa1465add4b8316a4dd45df9ceeb844ab7f0a5973",
-      "comparisonRevision": "4a1db1b7afc1c072922e6d2947f03de44ea5d571dd4fd56a96b9aebce7a9fb06",
+      "comparisonRevision": "39719d6d184bca41cfa685ca52c7ea43e0fd75b92c74ece2cf1cb32fd939692c",
       "review": "pending",
       "notes": ""
     },
@@ -12667,7 +12727,7 @@
       ],
       "revision": "4e60fcab40d704eae3e775005a8bc5d049f71e1efd510cb3d8aaf5308b8750fe",
       "geometrySignature": "14a2858c99d1abd124f4dcadf3d7137fabaa63e687b1145bf40588d97d730aa2",
-      "comparisonRevision": "4922120af8413212b19c20ea0eaa1e76346fc0a6311a2ca05d5a8f4615bd7248",
+      "comparisonRevision": "d24e2dba969b9dc2aa98b1d09fd0494eb884b9637ae2fccc3800397d5c062333",
       "review": "pending",
       "notes": ""
     },
@@ -13214,7 +13274,7 @@
       ],
       "revision": "5e9fad1aa68663aa93792e0e474ab2dc7e7cac154a7688f1cb03d382575ff541",
       "geometrySignature": "aff444baed84a18197e5c7731253e4d01ef7de39df5b6aba0dd0d939700d1cb2",
-      "comparisonRevision": "fb59dc84a1783341609d85d8aee6cee7d42d377ab1ac02dbd97da19db7f3de76",
+      "comparisonRevision": "2786536b9189efd179f3e6d71998d1c94c1b7f1c0745820af17b56b67080d3fa",
       "review": "pending",
       "notes": ""
     },
@@ -14016,7 +14076,7 @@
       ],
       "revision": "f5ff75b7b8cd8cd38af7318dbf96f294418bbcce2bfb893305e80e7670b91b77",
       "geometrySignature": "74b5d4efd4eac94bce76a84f59945703fa999fff29084878fc1f9325d37eefdf",
-      "comparisonRevision": "b4726c5714f9cc9900a11c914f590dc7293e9c256cdc50fe0fb5c596841bb4f2",
+      "comparisonRevision": "e4f40048d0d0f04cb7322034459a4b604e1a13b9facada83dd6b45d423cde368",
       "review": "pending",
       "notes": ""
     },
@@ -16100,7 +16160,7 @@
       ],
       "revision": "d80b9523b80534f44adcf477924b3d804d7a3be1b6c0da4a8211842afe74d2b0",
       "geometrySignature": "beeb588d17f742689c5154e43086c2752c07c052a38241fe51b20f433f3e2df1",
-      "comparisonRevision": "a70791928f7d26e0db510026162e76b7bab7b40be55bc005abb9a399c1a3ab81",
+      "comparisonRevision": "b5c915a050f7d3c23fbe4003b6bd36d35b89f66ca30f174a06dd314ad9455b21",
       "review": "pending",
       "notes": ""
     },
@@ -16438,7 +16498,7 @@
       ],
       "revision": "10701be4c34cf210afade2f196fc15ea262e2d45bc92b8ce7f4a467f3b013a49",
       "geometrySignature": "48b47dfb174399264bae5ef93bb7e12750424ec0aab5a41bcb72a04d88bc9c4e",
-      "comparisonRevision": "e03a2688c207517e913a7e0f21b83bb318e083e29476a2408450104fd5ef5921",
+      "comparisonRevision": "7ef173433de75c1611427f495f5b4ad42c23b2251ceadc182807883fa862dab1",
       "review": "pending",
       "notes": ""
     },

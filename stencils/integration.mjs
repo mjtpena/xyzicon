@@ -3,6 +3,48 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const aws = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const integrationArtwork = [
+  entry("azure-waf-policies", "azure", "Web Application Firewall Policies", ["10362-icon-service-Web-Application-Firewall-Policies(WAF)"],
+    "Rules protect a web application from unsafe requests.",
+    [
+      rect(10, 21, 66, 72), line([10, 33], [76, 33]), line([17, 27], [42, 27]),
+      line([18, 46], [42, 46]), line([18, 57], [37, 57]), line([18, 68], [42, 68]),
+      line([66, 42], [91, 51], [90, 75], [84, 86], [66, 98], [48, 86], [42, 75], [41, 51], [66, 42]),
+      line([54, 68], [61, 75], [77, 59]),
+      line([86, 27], [114, 27]), line([108, 21], [114, 27], [108, 33]),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("azure-nat", "azure", "NAT", ["10310-icon-service-NAT"],
+    "A network address translator maps internal endpoints to a public address.",
+    [
+      rect(9, 20, 32, 24), line([15, 32], [35, 32]), rect(9, 73, 32, 24), line([15, 85], [35, 85]),
+      line([41, 32], [54, 32], [64, 51]), line([41, 85], [54, 85], [64, 66]),
+      oval(63, 45, 28, 28), line([70, 55], [84, 55]), line([70, 63], [84, 63]),
+      line([91, 59], [103, 59]), oval(102, 47, 19, 24), line([105, 59], [118, 59]),
+      line([112, 47], [108, 52], [108, 66], [112, 71]),
+      line([20, 110], [109, 110]),
+    ]),
+  entry("azure-route-tables", "azure", "Route Tables", ["10082-icon-service-Route-Tables"],
+    "A table maps network destinations to next-hop routes.",
+    [
+      rect(14, 17, 100, 89), line([14, 31], [114, 31]), line([14, 49], [114, 49]),
+      line([14, 67], [114, 67]), line([14, 85], [114, 85]), line([59, 31], [59, 106]),
+      line([21, 23], [52, 23]), line([23, 40], [45, 40]), line([23, 58], [45, 58]), line([23, 76], [45, 76]), line([23, 95], [45, 95]),
+      line([69, 40], [102, 40]), line([97, 35], [102, 40], [97, 45]),
+      line([69, 58], [102, 58]), line([97, 53], [102, 58], [97, 63]),
+      line([69, 76], [102, 76]), line([97, 71], [102, 76], [97, 81]),
+      line([69, 95], [102, 95]), line([97, 90], [102, 95], [97, 100]),
+      line([20, 116], [108, 116]),
+    ]),
+  entry("azure-public-ip", "azure", "Public IP Addresses", ["10069-icon-service-Public-IP-Addresses"],
+    "A public network address identifies an endpoint on the internet.",
+    [
+      oval(10, 31, 51, 51), line([13, 48], [58, 48]), line([13, 65], [58, 65]),
+      line([35, 31], [25, 42], [22, 56], [25, 70], [35, 82]),
+      line([35, 31], [45, 42], [48, 56], [45, 70], [35, 82]),
+      line([61, 56], [72, 56]), line([66, 51], [72, 56], [66, 61]),
+      rect(74, 35, 43, 42), line([74, 47], [117, 47]), line([81, 57], [110, 57]), line([81, 66], [103, 66]),
+      line([20, 103], [109, 103]),
+    ]),
   entry("azure-virtual-router", "azure", "Virtual Router", ["02496-icon-service-Virtual-Router"],
     "A virtual router directs packets among connected network paths.",
     [
