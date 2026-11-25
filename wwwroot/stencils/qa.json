@@ -1,9 +1,9 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 668,
-  "aliases": 2836,
-  "approved": 175,
+  "count": 672,
+  "aliases": 2852,
+  "approved": 179,
   "needsReview": [
     "dynamics-family",
     "azure-app-services",
@@ -590,8 +590,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 596,
-      "concepts": 147
+      "covered": 612,
+      "concepts": 151
     },
     "gcp": {
       "sources": 261,
@@ -2864,6 +2864,11 @@
     "m365-headset": [
       {
         "a": "m365-headset",
+        "b": "aws-workdocs",
+        "similarity": 0.1662
+      },
+      {
+        "a": "m365-headset",
         "b": "m365-database",
         "similarity": 0.16
       },
@@ -2871,11 +2876,6 @@
         "a": "m365-headset",
         "b": "m365-data-usage",
         "similarity": 0.1457
-      },
-      {
-        "a": "m365-headset",
-        "b": "aws-eks-distro",
-        "similarity": 0.144
       }
     ],
     "m365-image": [
@@ -3384,8 +3384,8 @@
       },
       {
         "a": "aws-mq",
-        "b": "aws-kinesis-video",
-        "similarity": 0.1679
+        "b": "aws-workmail",
+        "similarity": 0.1725
       }
     ],
     "aws-batch": [
@@ -3986,6 +3986,11 @@
     "gcp-cloud-router": [
       {
         "a": "gcp-cloud-router",
+        "b": "aws-workmail",
+        "similarity": 0.2188
+      },
+      {
+        "a": "gcp-cloud-router",
         "b": "gcp-category-networking",
         "similarity": 0.2122
       },
@@ -3993,11 +3998,6 @@
         "a": "aws-s3",
         "b": "gcp-cloud-router",
         "similarity": 0.1987
-      },
-      {
-        "a": "gcp-cloud-router",
-        "b": "fabric-overlapping-squares",
-        "similarity": 0.1965
       }
     ],
     "gcp-cloud-nat": [
@@ -6025,6 +6025,11 @@
     ],
     "fabric-graph-queryset": [
       {
+        "a": "fabric-graph-queryset",
+        "b": "aws-workmail",
+        "similarity": 0.2022
+      },
+      {
         "a": "power-apps",
         "b": "fabric-graph-queryset",
         "similarity": 0.1877
@@ -6033,11 +6038,6 @@
         "a": "fabric-function-set",
         "b": "fabric-graph-queryset",
         "similarity": 0.184
-      },
-      {
-        "a": "fabric-graph-queryset",
-        "b": "aws-app-studio",
-        "similarity": 0.1759
       }
     ],
     "fabric-links": [
@@ -8233,6 +8233,74 @@
         "similarity": 0.1698
       }
     ],
+    "aws-workmail": [
+      {
+        "a": "gcp-cloud-router",
+        "b": "aws-workmail",
+        "similarity": 0.2188
+      },
+      {
+        "a": "fabric-graph-queryset",
+        "b": "aws-workmail",
+        "similarity": 0.2022
+      },
+      {
+        "a": "aws-workmail",
+        "b": "aws-global-accelerator",
+        "similarity": 0.1995
+      }
+    ],
+    "aws-workdocs": [
+      {
+        "a": "aws-workdocs",
+        "b": "fabric-arrow-down-double-wrap",
+        "similarity": 0.205
+      },
+      {
+        "a": "m365-bar-chart",
+        "b": "aws-workdocs",
+        "similarity": 0.1903
+      },
+      {
+        "a": "azure-encrypted-transport",
+        "b": "aws-workdocs",
+        "similarity": 0.1884
+      }
+    ],
+    "aws-supply-chain": [
+      {
+        "a": "azure-private-endpoints",
+        "b": "aws-supply-chain",
+        "similarity": 0.1846
+      },
+      {
+        "a": "aws-supply-chain",
+        "b": "fabric-progress-bars",
+        "similarity": 0.1728
+      },
+      {
+        "a": "gcp-cloud-tpu",
+        "b": "aws-supply-chain",
+        "similarity": 0.1725
+      }
+    ],
+    "aws-connect": [
+      {
+        "a": "m365-mail-read",
+        "b": "aws-connect",
+        "similarity": 0.1818
+      },
+      {
+        "a": "fabric-data-warehouse",
+        "b": "aws-connect",
+        "similarity": 0.1778
+      },
+      {
+        "a": "aws-outposts-servers",
+        "b": "aws-connect",
+        "similarity": 0.1699
+      }
+    ],
     "m365-arrow-circle-left": [
       {
         "a": "m365-arrow-circle-left",
@@ -9117,9 +9185,9 @@
         "similarity": 0.2065
       },
       {
-        "a": "m365-globe",
+        "a": "aws-workmail",
         "b": "aws-global-accelerator",
-        "similarity": 0.1928
+        "similarity": 0.1995
       }
     ],
     "aws-interconnect": [
@@ -9719,6 +9787,11 @@
     ],
     "fabric-arrow-down-double-wrap": [
       {
+        "a": "aws-workdocs",
+        "b": "fabric-arrow-down-double-wrap",
+        "similarity": 0.205
+      },
+      {
         "a": "m365-bar-chart",
         "b": "fabric-arrow-down-double-wrap",
         "similarity": 0.1942
@@ -9727,11 +9800,6 @@
         "a": "azure-backup-center",
         "b": "fabric-arrow-down-double-wrap",
         "similarity": 0.1757
-      },
-      {
-        "a": "m365-mail-read",
-        "b": "fabric-arrow-down-double-wrap",
-        "similarity": 0.1628
       }
     ],
     "fabric-arrow-drill": [
@@ -11153,6 +11221,11 @@
     ],
     "fabric-retail-link": [
       {
+        "a": "aws-workmail",
+        "b": "fabric-retail-link",
+        "similarity": 0.1804
+      },
+      {
         "a": "fabric-graph-queryset",
         "b": "fabric-retail-link",
         "similarity": 0.1751
@@ -11161,11 +11234,6 @@
         "a": "azure-image-templates",
         "b": "fabric-retail-link",
         "similarity": 0.1733
-      },
-      {
-        "a": "fabric-data-warehouse",
-        "b": "fabric-retail-link",
-        "similarity": 0.164
       }
     ],
     "fabric-database-forward": [
