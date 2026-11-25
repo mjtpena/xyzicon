@@ -1,6 +1,54 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-glacier-archive", "aws", "S3 Glacier Archive", ["Res_Amazon-Simple-Storage-Service-Glacier_Archive_48"],
+    "An archive box holds a frozen data record.",
+    [
+      line([18, 54], [18, 88], [105, 88], [105, 54], [18, 54]), line([18, 54], [29, 42], [94, 42], [105, 54]), line([28, 62], [94, 62]), line([48, 73], [75, 73]),
+      line([36, 42], [36, 16], [78, 16], [78, 42]), line([57, 21], [57, 38]), line([49, 25], [65, 34]), line([49, 34], [65, 25]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-glacier-vault", "aws", "S3 Glacier Vault", ["Res_Amazon-Simple-Storage-Service-Glacier_Vault_48"],
+    "A secure vault holds cold archives.",
+    [
+      rect(25, 17, 74, 75), line([32, 24], [92, 24], [92, 85], [32, 85], [32, 24]),
+      line([62, 33], [62, 75]), line([43, 42], [81, 66]), line([43, 66], [81, 42]), oval(56, 48, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-bucket-with-objects", "aws", "S3 Bucket with Objects", ["Res_Amazon-Simple-Storage-Service_Bucket-With-Objects_48"],
+    "A bucket contains several independent objects.",
+    [
+      oval(25, 18, 74, 20), line([25, 28], [31, 82], [38, 88], [86, 88], [93, 82], [99, 28]),
+      rect(38, 45, 14, 14), oval(69, 45, 15, 15), line([54, 72], [62, 59], [70, 72], [54, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-bucket", "aws", "S3 Bucket", ["Res_Amazon-Simple-Storage-Service_Bucket_48"],
+    "An empty object-storage bucket has a carrying handle.",
+    [
+      oval(29, 27, 68, 19), line([29, 36], [35, 83], [42, 89], [84, 89], [91, 83], [97, 36]),
+      line([31, 38], [21, 33], [18, 25], [22, 18], [32, 15]), line([95, 38], [105, 33], [108, 25], [104, 18], [94, 15]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-directory-bucket", "aws", "S3 Directory Bucket", ["Res_Amazon-Simple-Storage-Service_Directory-bucket_48"],
+    "A bucket organizes objects in a directory tree.",
+    [
+      oval(22, 20, 83, 20), line([22, 30], [29, 83], [36, 90], [91, 90], [98, 83], [105, 30]),
+      rect(58, 42, 11, 10), line([63, 52], [63, 61], [47, 61], [47, 68]), line([63, 61], [79, 61], [79, 68]), rect(41, 68, 12, 10), rect(73, 68, 12, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-object", "aws", "S3 Object", ["Res_Amazon-Simple-Storage-Service_Object_48"],
+    "A single object combines data with an identifying tag.",
+    [
+      line([28, 25], [65, 14], [99, 30], [99, 69], [62, 85], [28, 69], [28, 25]), line([28, 25], [62, 41], [99, 30]), line([62, 41], [62, 85]),
+      line([69, 48], [85, 43], [85, 59], [69, 64], [69, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-batch-operations", "aws", "S3 Batch Operations", ["Res_Amazon-Simple-Storage-Service_S3-Batch-Operations_48"],
+    "A batch applies the same operation to multiple objects.",
+    [
+      rect(17, 19, 62, 71), line([27, 37], [33, 43], [42, 32]), line([49, 37], [69, 37]), line([27, 56], [33, 62], [42, 51]), line([49, 56], [69, 56]),
+      line([27, 75], [33, 81], [42, 70]), line([49, 75], [69, 75]), line([84, 54], [108, 54]), line([101, 47], [108, 54], [101, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-files", "aws", "S3 Files", ["Res_Amazon-Simple-Storage-Service_S3-Files_48"],
+    "A bucket stores files in a folder.",
+    [
+      oval(22, 18, 83, 20), line([22, 28], [29, 83], [36, 90], [91, 90], [98, 83], [105, 28]),
+      line([39, 49], [39, 42], [53, 42], [59, 48], [88, 48], [88, 76], [39, 76], [39, 49]), line([47, 57], [80, 57]), line([47, 66], [73, 66]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-efs-intelligent-tiering", "aws", "EFS Intelligent Tiering", ["Res_Amazon-Elastic-File-System_EFS-Intelligent-Tiering_48"],
     "File access moves between storage tiers automatically.",
     [
