@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 919,
-  "aliases": 3631,
+  "count": 923,
+  "aliases": 3635,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -202,6 +202,10 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-asset-inventory",
+    "gcp-access-context",
+    "gcp-binary-authorization",
+    "gcp-certificate-authority",
     "gcp-healthcare-api",
     "gcp-cloud-ids",
     "gcp-cloud-gpu",
@@ -1028,8 +1032,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 112,
-      "concepts": 100
+      "covered": 116,
+      "concepts": 104
     }
   },
   "nearest": {
@@ -2158,6 +2162,11 @@
     "azure-app-services": [
       {
         "a": "azure-app-services",
+        "b": "gcp-asset-inventory",
+        "similarity": 0.2677
+      },
+      {
+        "a": "azure-app-services",
         "b": "fabric-square-waves",
         "similarity": 0.244
       },
@@ -2165,11 +2174,6 @@
         "a": "azure-app-services",
         "b": "aws-budgets",
         "similarity": 0.2399
-      },
-      {
-        "a": "azure-app-services",
-        "b": "aws-app-studio",
-        "similarity": 0.2184
       }
     ],
     "aws-rds": [
@@ -4382,6 +4386,74 @@
         "similarity": 0.2625
       }
     ],
+    "gcp-asset-inventory": [
+      {
+        "a": "gcp-asset-inventory",
+        "b": "fabric-partition-hint",
+        "similarity": 0.403
+      },
+      {
+        "a": "gcp-asset-inventory",
+        "b": "fabric-my-workspace",
+        "similarity": 0.3368
+      },
+      {
+        "a": "gcp-asset-inventory",
+        "b": "azure-foundry-local",
+        "similarity": 0.325
+      }
+    ],
+    "gcp-access-context": [
+      {
+        "a": "m365-chart-multiple",
+        "b": "gcp-access-context",
+        "similarity": 0.2033
+      },
+      {
+        "a": "gcp-access-context",
+        "b": "azure-quickstart-center",
+        "similarity": 0.1876
+      },
+      {
+        "a": "power-apps",
+        "b": "gcp-access-context",
+        "similarity": 0.1868
+      }
+    ],
+    "gcp-binary-authorization": [
+      {
+        "a": "gcp-binary-authorization",
+        "b": "gcp-analytics-hub",
+        "similarity": 0.2912
+      },
+      {
+        "a": "gcp-binary-authorization",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2477
+      },
+      {
+        "a": "gcp-binary-authorization",
+        "b": "azure-private-link-services",
+        "similarity": 0.2396
+      }
+    ],
+    "gcp-certificate-authority": [
+      {
+        "a": "gcp-certificate-authority",
+        "b": "aws-proton",
+        "similarity": 0.2439
+      },
+      {
+        "a": "gcp-certificate-authority",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2365
+      },
+      {
+        "a": "dynamics-project-operations",
+        "b": "gcp-certificate-authority",
+        "similarity": 0.2351
+      }
+    ],
     "gcp-healthcare-api": [
       {
         "a": "gcp-healthcare-api",
@@ -4639,6 +4711,11 @@
     ],
     "gcp-analytics-hub": [
       {
+        "a": "gcp-binary-authorization",
+        "b": "gcp-analytics-hub",
+        "similarity": 0.2912
+      },
+      {
         "a": "gcp-analytics-hub",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2777
@@ -4647,11 +4724,6 @@
         "a": "gcp-analytics-hub",
         "b": "gcp-ai-hypercomputer",
         "similarity": 0.263
-      },
-      {
-        "a": "gcp-analytics-hub",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2615
       }
     ],
     "gcp-ai-hypercomputer": [
@@ -5183,6 +5255,11 @@
     ],
     "gcp-speech-to-text": [
       {
+        "a": "gcp-asset-inventory",
+        "b": "gcp-speech-to-text",
+        "similarity": 0.2926
+      },
+      {
         "a": "gcp-speech-to-text",
         "b": "fabric-partition-hint",
         "similarity": 0.2844
@@ -5191,11 +5268,6 @@
         "a": "azure-virtual-machine",
         "b": "gcp-speech-to-text",
         "similarity": 0.2143
-      },
-      {
-        "a": "gcp-speech-to-text",
-        "b": "fabric-bar-prohibited",
-        "similarity": 0.2003
       }
     ],
     "gcp-text-to-speech": [
@@ -6152,6 +6224,11 @@
     ],
     "azure-event-hub-clusters": [
       {
+        "a": "gcp-asset-inventory",
+        "b": "azure-event-hub-clusters",
+        "similarity": 0.2979
+      },
+      {
         "a": "azure-event-hub-clusters",
         "b": "azure-foundry-project",
         "similarity": 0.2657
@@ -6160,11 +6237,6 @@
         "a": "azure-event-hub-clusters",
         "b": "aws-trusted-advisor",
         "similarity": 0.2455
-      },
-      {
-        "a": "azure-event-hub-clusters",
-        "b": "m365-comment",
-        "similarity": 0.2436
       }
     ],
     "azure-private-link-services": [
@@ -8821,6 +8893,11 @@
     ],
     "azure-foundry-local": [
       {
+        "a": "gcp-asset-inventory",
+        "b": "azure-foundry-local",
+        "similarity": 0.325
+      },
+      {
         "a": "azure-virtual-machine",
         "b": "azure-foundry-local",
         "similarity": 0.244
@@ -8829,11 +8906,6 @@
         "a": "azure-foundry-local",
         "b": "aws-security-incident-response",
         "similarity": 0.2099
-      },
-      {
-        "a": "azure-genomics-accounts",
-        "b": "azure-foundry-local",
-        "similarity": 0.2048
       }
     ],
     "azure-foundry-models": [
@@ -9348,6 +9420,11 @@
     ],
     "aws-proton": [
       {
+        "a": "gcp-certificate-authority",
+        "b": "aws-proton",
+        "similarity": 0.2439
+      },
+      {
         "a": "azure-function-apps",
         "b": "aws-proton",
         "similarity": 0.2417
@@ -9356,11 +9433,6 @@
         "a": "aws-proton",
         "b": "aws-backint-agent",
         "similarity": 0.2388
-      },
-      {
-        "a": "aws-proton",
-        "b": "aws-devops-agent",
-        "similarity": 0.2384
       }
     ],
     "aws-opentelemetry": [
@@ -11228,9 +11300,9 @@
         "similarity": 0.2194
       },
       {
-        "a": "azure-foundry-local",
+        "a": "gcp-asset-inventory",
         "b": "aws-security-incident-response",
-        "similarity": 0.2099
+        "similarity": 0.2106
       }
     ],
     "aws-audit-manager": [
@@ -11926,9 +11998,9 @@
         "similarity": 0.3013
       },
       {
-        "a": "azure-function-apps",
+        "a": "gcp-asset-inventory",
         "b": "m365-comment",
-        "similarity": 0.2568
+        "similarity": 0.2674
       }
     ],
     "m365-comment-multiple": [
@@ -15617,6 +15689,11 @@
     ],
     "fabric-partition-hint": [
       {
+        "a": "gcp-asset-inventory",
+        "b": "fabric-partition-hint",
+        "similarity": 0.403
+      },
+      {
         "a": "m365-comment",
         "b": "fabric-partition-hint",
         "similarity": 0.3013
@@ -15625,11 +15702,6 @@
         "a": "gcp-speech-to-text",
         "b": "fabric-partition-hint",
         "similarity": 0.2844
-      },
-      {
-        "a": "fabric-partition-hint",
-        "b": "fabric-column-double-caret",
-        "similarity": 0.2303
       }
     ],
     "fabric-progress-circle": [
@@ -16253,14 +16325,14 @@
         "similarity": 0.207
       },
       {
+        "a": "gcp-asset-inventory",
+        "b": "fabric-database-asterisk",
+        "similarity": 0.2051
+      },
+      {
         "a": "aws-documentdb",
         "b": "fabric-database-asterisk",
         "similarity": 0.2019
-      },
-      {
-        "a": "fabric-sql-database",
-        "b": "fabric-database-asterisk",
-        "similarity": 0.1979
       }
     ],
     "fabric-list-shield": [

@@ -1,6 +1,48 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-asset-inventory", "gcp", "Asset Inventory", ["asset_inventory"],
+    "An inventory records cloud resources alongside their individual states.",
+    [
+      rect(16, 20, 96, 80), line([16, 33], [112, 33]),
+      rect(24, 42, 16, 13), line([48, 47], [90, 47]), oval(99, 44, 6, 6, true),
+      oval(25, 61, 13, 13), line([48, 67], [85, 67]), oval(99, 64, 6, 6),
+      line([25, 86], [32, 78], [39, 86], [32, 92], [25, 86]),
+      line([48, 85], [90, 85]), oval(99, 82, 6, 6, true),
+      line([22, 111], [107, 111]),
+    ]),
+  entry("gcp-access-context", "gcp", "Access Context Manager", ["access_context_manager"],
+    "A person's device and location are checked before access is granted.",
+    [
+      oval(14, 24, 22, 22), line([11, 72], [12, 57], [18, 49], [30, 49], [37, 57], [38, 72]),
+      rect(47, 42, 25, 41), line([53, 76], [66, 76]),
+      line([22, 82], [22, 98], [63, 98]),
+      line([88, 14], [105, 25], [105, 39], [98, 49], [88, 58], [78, 49], [71, 39], [71, 25], [88, 14]),
+      oval(82, 25, 12, 12), line([88, 37], [88, 46]),
+      line([73, 82], [86, 95], [110, 69]),
+      line([20, 111], [108, 111]),
+    ]),
+  entry("gcp-binary-authorization", "gcp", "Binary Authorization", ["binary_authorization"],
+    "A signed container passes a policy checkpoint before deployment.",
+    [
+      line([12, 35], [30, 25], [48, 35], [48, 54], [30, 64], [12, 54], [12, 35]),
+      line([12, 35], [30, 45], [48, 35]), line([30, 45], [30, 64]),
+      line([51, 47], [67, 47]), line([61, 41], [67, 47], [61, 53]),
+      line([73, 23], [73, 77]), line([85, 23], [85, 77]), line([70, 23], [88, 23]),
+      oval(66, 68, 25, 25), line([72, 81], [77, 86], [85, 76]),
+      rect(97, 33, 18, 36), line([100, 42], [112, 42]), line([100, 51], [112, 51]), line([100, 60], [112, 60]),
+      line([19, 110], [110, 110]),
+    ]),
+  entry("gcp-certificate-authority", "gcp", "Certificate Authority Service", ["certificate_authority_service"],
+    "A protected signing key issues a certificate bearing an authority seal.",
+    [
+      line([26, 13], [50, 23], [48, 48], [39, 60], [26, 68], [13, 60], [8, 48], [8, 23], [26, 13]),
+      oval(17, 26, 13, 13), line([27, 37], [37, 47], [33, 51]), line([31, 41], [36, 36]),
+      line([51, 43], [69, 43]), line([63, 37], [69, 43], [63, 49]),
+      rect(70, 20, 45, 70), line([77, 30], [107, 30]), line([77, 38], [104, 38]),
+      oval(82, 49, 21, 21), line([86, 70], [83, 82], [92, 77], [101, 82], [98, 70]),
+      line([25, 106], [110, 106]),
+    ]),
   entry("gcp-healthcare-api", "gcp", "Cloud Healthcare API", ["cloud_healthcare_api"],
     "A medical record exchanges structured health data with an application.",
     [
