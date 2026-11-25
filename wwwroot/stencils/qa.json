@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1122,
-  "aliases": 4003,
+  "count": 1127,
+  "aliases": 4008,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -324,6 +324,11 @@
     "gcp-tensorflow-enterprise",
     "gcp-real-world-insights",
     "gcp-data-studio",
+    "gcp-cloud-run-anthos",
+    "gcp-gke-on-prem",
+    "gcp-vmware-engine",
+    "gcp-memorystore",
+    "gcp-workload-identity-pool",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1238,8 +1243,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 222,
-      "concepts": 209
+      "covered": 227,
+      "concepts": 214
     }
   },
   "nearest": {
@@ -5047,8 +5052,8 @@
       },
       {
         "a": "gcp-api-gateway",
-        "b": "aws-activate",
-        "similarity": 0.2431
+        "b": "gcp-vmware-engine",
+        "similarity": 0.2478
       }
     ],
     "gcp-cloud-endpoints": [
@@ -5178,13 +5183,13 @@
       },
       {
         "a": "gcp-external-ip",
-        "b": "fabric-app-folder-pulse",
-        "similarity": 0.2454
+        "b": "gcp-memorystore",
+        "similarity": 0.2456
       },
       {
         "a": "gcp-external-ip",
-        "b": "gcp-iot-edge",
-        "similarity": 0.2348
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2454
       }
     ],
     "gcp-cloud-routes": [
@@ -6385,13 +6390,13 @@
       },
       {
         "a": "gcp-iot-edge",
-        "b": "azure-language",
-        "similarity": 0.2517
+        "b": "gcp-memorystore",
+        "similarity": 0.2692
       },
       {
-        "a": "gcp-partner-interconnect",
-        "b": "gcp-iot-edge",
-        "similarity": 0.2457
+        "a": "gcp-iot-edge",
+        "b": "azure-language",
+        "similarity": 0.2517
       }
     ],
     "gcp-fleet-engine": [
@@ -6664,6 +6669,91 @@
         "a": "gcp-data-studio",
         "b": "aws-finspace",
         "similarity": 0.3909
+      }
+    ],
+    "gcp-cloud-run-anthos": [
+      {
+        "a": "gcp-data-labeling",
+        "b": "gcp-cloud-run-anthos",
+        "similarity": 0.2391
+      },
+      {
+        "a": "gcp-cloud-run-anthos",
+        "b": "aws-category-hybrid",
+        "similarity": 0.229
+      },
+      {
+        "a": "gcp-cloud-run-anthos",
+        "b": "aws-category-games",
+        "similarity": 0.2216
+      }
+    ],
+    "gcp-gke-on-prem": [
+      {
+        "a": "gcp-gke-on-prem",
+        "b": "aws-outposts-family",
+        "similarity": 0.2861
+      },
+      {
+        "a": "gcp-gke-on-prem",
+        "b": "aws-snowball",
+        "similarity": 0.2671
+      },
+      {
+        "a": "fabric-building-data",
+        "b": "gcp-gke-on-prem",
+        "similarity": 0.2614
+      }
+    ],
+    "gcp-vmware-engine": [
+      {
+        "a": "gcp-vmware-engine",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2511
+      },
+      {
+        "a": "gcp-vmware-engine",
+        "b": "aws-category-compute",
+        "similarity": 0.249
+      },
+      {
+        "a": "gcp-api-gateway",
+        "b": "gcp-vmware-engine",
+        "similarity": 0.2478
+      }
+    ],
+    "gcp-memorystore": [
+      {
+        "a": "gcp-memorystore",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2783
+      },
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "gcp-memorystore",
+        "similarity": 0.2744
+      },
+      {
+        "a": "gcp-iot-edge",
+        "b": "gcp-memorystore",
+        "similarity": 0.2692
+      }
+    ],
+    "gcp-workload-identity-pool": [
+      {
+        "a": "gcp-workload-identity-pool",
+        "b": "m365-lightbulb-check",
+        "similarity": 0.2524
+      },
+      {
+        "a": "gcp-workload-identity-pool",
+        "b": "azure-host-groups",
+        "similarity": 0.2387
+      },
+      {
+        "a": "gcp-bare-metal",
+        "b": "gcp-workload-identity-pool",
+        "similarity": 0.2354
       }
     ],
     "gcp-access-context": [
@@ -9857,9 +9947,9 @@
         "similarity": 0.2437
       },
       {
-        "a": "gcp-debugger",
+        "a": "gcp-memorystore",
         "b": "m365-building",
-        "similarity": 0.2353
+        "similarity": 0.2435
       }
     ],
     "m365-clock": [
@@ -10753,14 +10843,14 @@
         "similarity": 0.2798
       },
       {
-        "a": "aws-deep-learning-containers",
-        "b": "aws-device-farm",
-        "similarity": 0.2631
+        "a": "gcp-memorystore",
+        "b": "aws-deep-learning-containers",
+        "similarity": 0.2689
       },
       {
         "a": "aws-deep-learning-containers",
-        "b": "azure-linux",
-        "similarity": 0.26
+        "b": "aws-device-farm",
+        "similarity": 0.2631
       }
     ],
     "aws-finspace": [
@@ -13750,9 +13840,9 @@
         "similarity": 0.2194
       },
       {
-        "a": "gcp-deployment-manager",
+        "a": "gcp-workload-identity-pool",
         "b": "aws-security-incident-response",
-        "similarity": 0.2117
+        "similarity": 0.2162
       }
     ],
     "aws-audit-manager": [
@@ -14068,14 +14158,14 @@
         "similarity": 0.2859
       },
       {
+        "a": "gcp-gke-on-prem",
+        "b": "aws-snowball",
+        "similarity": 0.2671
+      },
+      {
         "a": "aws-snowball",
         "b": "m365-building-multiple",
         "similarity": 0.265
-      },
-      {
-        "a": "azure-workbooks",
-        "b": "aws-snowball",
-        "similarity": 0.2593
       }
     ],
     "aws-snowball-edge": [
@@ -15015,9 +15105,9 @@
         "similarity": 0.2265
       },
       {
-        "a": "aws-health-imaging",
+        "a": "gcp-vmware-engine",
         "b": "aws-cloudfront-edge-location",
-        "similarity": 0.2043
+        "similarity": 0.2077
       }
     ],
     "aws-cloudfront-functions": [
@@ -15219,9 +15309,9 @@
         "similarity": 0.2201
       },
       {
-        "a": "aws-vpc-internet-gateway",
+        "a": "gcp-workload-identity-pool",
         "b": "aws-cloud-map",
-        "similarity": 0.2145
+        "similarity": 0.2185
       }
     ],
     "aws-cloud-wan": [
@@ -16495,14 +16585,14 @@
         "similarity": 0.2338
       },
       {
+        "a": "gcp-cloud-run-anthos",
+        "b": "aws-category-hybrid",
+        "similarity": 0.229
+      },
+      {
         "a": "aws-rtb-fabric",
         "b": "aws-category-hybrid",
         "similarity": 0.219
-      },
-      {
-        "a": "m365-calendar",
-        "b": "aws-category-hybrid",
-        "similarity": 0.2167
       }
     ],
     "aws-category-migration": [
@@ -16670,9 +16760,9 @@
         "similarity": 0.2252
       },
       {
-        "a": "gcp-anthos-config-management",
+        "a": "gcp-cloud-run-anthos",
         "b": "aws-category-games",
-        "similarity": 0.2067
+        "similarity": 0.2216
       }
     ],
     "aws-category-developer-tools": [
@@ -16767,14 +16857,14 @@
         "similarity": 0.2752
       },
       {
+        "a": "gcp-vmware-engine",
+        "b": "aws-category-compute",
+        "similarity": 0.249
+      },
+      {
         "a": "m365-apps-list",
         "b": "aws-category-compute",
         "similarity": 0.2468
-      },
-      {
-        "a": "aws-xray",
-        "b": "aws-category-compute",
-        "similarity": 0.2421
       }
     ],
     "aws-category-databases": [
@@ -17000,6 +17090,11 @@
     ],
     "aws-outposts-family": [
       {
+        "a": "gcp-gke-on-prem",
+        "b": "aws-outposts-family",
+        "similarity": 0.2861
+      },
+      {
         "a": "m365-building-multiple",
         "b": "aws-outposts-family",
         "similarity": 0.2708
@@ -17008,11 +17103,6 @@
         "a": "fabric-datamart",
         "b": "aws-outposts-family",
         "similarity": 0.2667
-      },
-      {
-        "a": "fabric-building-data",
-        "b": "aws-outposts-family",
-        "similarity": 0.2621
       }
     ],
     "aws-simspace-weaver": [
@@ -17430,14 +17520,14 @@
         "similarity": 0.2687
       },
       {
+        "a": "gcp-vmware-engine",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2511
+      },
+      {
         "a": "aws-storage-gateway",
         "b": "azure-devtest-labs",
         "similarity": 0.2458
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "azure-devtest-labs",
-        "similarity": 0.2404
       }
     ],
     "azure-resource-groups": [
@@ -19389,14 +19479,14 @@
         "similarity": 0.283
       },
       {
+        "a": "gcp-memorystore",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2783
+      },
+      {
         "a": "m365-slide-layout",
         "b": "fabric-app-folder-pulse",
         "similarity": 0.267
-      },
-      {
-        "a": "gcp-partner-interconnect",
-        "b": "fabric-app-folder-pulse",
-        "similarity": 0.2659
       }
     ],
     "fabric-curved-right-circle": [

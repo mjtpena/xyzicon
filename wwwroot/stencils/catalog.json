@@ -3827,7 +3827,7 @@
       ],
       "revision": "430841da7116e0ac70c1c782a2681799f42dc7b4edb620d2d6066491cc37ec57",
       "geometrySignature": "5642942dc57f842e27aaa94e7fdb8a0c4f5b3eb24b393db3d3f5bd800da59c1c",
-      "comparisonRevision": "ad38e2b025d221e97fbe33419fae3a9fc5998434d6f6884643ff5f4f1068d506",
+      "comparisonRevision": "2dc25f9ce67fd1c298b14dfc56dea7e21c5f48991f3d61103268da938d1cdc04",
       "review": "pending",
       "notes": ""
     },
@@ -3948,7 +3948,7 @@
       ],
       "revision": "a0e64d87cbc4a66ac8464af690356a592464aef5669744f9fc6a1fa1ec273952",
       "geometrySignature": "ea26a081c5be089df79763fe0a94629571d7d89a249dfebc196e62f30d27cbc7",
-      "comparisonRevision": "185f8c3a44a3bb0cf44fbb6279c9ac17cf4839ec089510566417aa13e1f7b431",
+      "comparisonRevision": "b75256e8e62b6b631a8628c06f5d2f05969ec8d81d93a3f9d2a76d0a1f780169",
       "review": "pending",
       "notes": ""
     },
@@ -5013,7 +5013,7 @@
       ],
       "revision": "76511c153c063bef9432f38289b14917865e536d4b4585979994216122f00014",
       "geometrySignature": "f2519fa5fb62fd559ff8b291ca0486b700ef871d4a5f195d18ba8836b7be7ef7",
-      "comparisonRevision": "f0a80561586b71109adbb4a10130546f39a22c5476f839c9814449ab04528d50",
+      "comparisonRevision": "31604683a38fad8cef22048551f0e39f7c3722f01895617b726cd958903ab991",
       "review": "pending",
       "notes": ""
     },
@@ -5254,6 +5254,81 @@
       "revision": "d1df056021d98a2cca1a45f5cc1e6d52fe1bd442f812b0be24232607dced1dc3",
       "geometrySignature": "5f11796ed1e693a5660a3acd6c8b4d58d8bea86942c1c681177ee1d6d9a4f5da",
       "comparisonRevision": "10e6e98b5b559d4593f1403b90bc3b88b4fad72772c011a0a0334832c3af09d9",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-cloud-run-anthos",
+      "provider": "gcp",
+      "name": "Cloud Run for Anthos",
+      "rationale": "A running container bridges cloud and on-premises environments.",
+      "path": "stencils/gcp-cloud-run-anthos.svg",
+      "sources": [
+        "/icons/gcp/cloud_run_for_anthos/cloud_run_for_anthos.svg"
+      ],
+      "revision": "3cfdc92da51d281292cf41d199c5b17fb642563905177454902c8b8c05acfa1a",
+      "geometrySignature": "99dae3791a460fdd18e4d106efb5de65ea760a4168583fde16c47dd6c7142048",
+      "comparisonRevision": "044c25a262ebcd264d944717784e3a4a5af3ebda2980aa6c1adbe4c2fdf79f33",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-gke-on-prem",
+      "provider": "gcp",
+      "name": "GKE On-Prem",
+      "rationale": "An on-premises building hosts a Kubernetes cluster.",
+      "path": "stencils/gcp-gke-on-prem.svg",
+      "sources": [
+        "/icons/gcp/gke_on-prem/gke_on-prem.svg"
+      ],
+      "revision": "27851a61419c94575f15daba5616406df99c445946c7c04261e1335511792766",
+      "geometrySignature": "676b65665f7c856eaad176fa70173f7c143b9edfa3fd83ba4cf91696a54f3a90",
+      "comparisonRevision": "3ac14f14a6fd965b314f6f315a6e9acdf2f1f395d5f291f2513382fc107ecaa7",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-vmware-engine",
+      "provider": "gcp",
+      "name": "VMware Engine",
+      "rationale": "A cloud hosts a group of migrated virtual machines.",
+      "path": "stencils/gcp-vmware-engine.svg",
+      "sources": [
+        "/icons/gcp/vmware_engine/vmware_engine.svg"
+      ],
+      "revision": "fefefb3feeb2c8c70e1a4ba0916b8befb76535152b11714f61ac15eb6c0a567e",
+      "geometrySignature": "128239af87393980809f96254a100a7482dd4eb13a4af47693aaa4378de79bb7",
+      "comparisonRevision": "fe21690a2f313894281336c350e5e242521765539b0c7c2072346a721c0e2c11",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-memorystore",
+      "provider": "gcp",
+      "name": "Memorystore",
+      "rationale": "A lightning-fast memory chip provides a cache.",
+      "path": "stencils/gcp-memorystore.svg",
+      "sources": [
+        "/icons/gcp/memorystore/memorystore.svg"
+      ],
+      "revision": "4a996a39ee6feebf0392c02d97f3425ec7e5814a38964f61fc2c3cd9e9680d3e",
+      "geometrySignature": "0e6556e474bdf329e9ce2f31fcb5c2365d1bdfcc8f36f4c7c007364f49042eee",
+      "comparisonRevision": "c1e216c085a73fc168ad9872b537d7bdc4d2034b7abe10cfb8a007edb40e75e7",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-workload-identity-pool",
+      "provider": "gcp",
+      "name": "Workload Identity Pool",
+      "rationale": "A pool grants identities to several workloads.",
+      "path": "stencils/gcp-workload-identity-pool.svg",
+      "sources": [
+        "/icons/gcp/workload_identity_pool/workload_identity_pool.svg"
+      ],
+      "revision": "235ed5498036c7c2e80df42437ae6f36a18e199a36dbef50cbd4ebe4eaded939",
+      "geometrySignature": "5a7875e38073691938bfa2c774b1c5d9d79bb6e1802d498ae9912739dfde80e8",
+      "comparisonRevision": "23817d7e5bb88426ffe6bb1ef93924507d623b47f44031e840f32b3f7ed7550b",
       "review": "pending",
       "notes": ""
     },
@@ -8589,7 +8664,7 @@
       ],
       "revision": "ae344537232161a335c3ec1f49ece6edd5416ede80b012552d39eead95c80e7b",
       "geometrySignature": "5bdcda592f54ff671626388169225bd309342aea4f659e072fab0f2ca249687a",
-      "comparisonRevision": "ad81c2ffa6cf5378aed5348bb9cff988e8d644936f25f6fc586a82e045e082ff",
+      "comparisonRevision": "fe5843d497773e0f7e5789b2b5dde43d665e7035a4f4b21d13f7f47123cbfc42",
       "review": "pending",
       "notes": ""
     },
@@ -9644,7 +9719,7 @@
       ],
       "revision": "d6a763fd642c9dfc09c14c06dc59d8efdc7f2768ed53d0347cba614b58f1cf27",
       "geometrySignature": "ce71e491f38995e3ab4128d8e8b5d1c80ae8390974531b4f265d202dbb958124",
-      "comparisonRevision": "a30d872beacf9cf3016375f476c06dfbbf8a49101b636a3ad572f4eb31a7abb5",
+      "comparisonRevision": "712a8ca0e34f272235140e09528c04ab6a2b19537fdc8ffb62d8839403b71fab",
       "review": "pending",
       "notes": ""
     },
@@ -12869,7 +12944,7 @@
       ],
       "revision": "7efd9972bb59954f8538d5124c1b5ab5540bcf25b6ca02a730d467ce41319da7",
       "geometrySignature": "adc52890969e81864ae948b10dfa0515efee832c8b7363cb750b5d3798140c47",
-      "comparisonRevision": "4a20d765b8b52e8da81c74249a6ae9e6d10d61a0c4ef2251acfc09f94c822fe1",
+      "comparisonRevision": "790d04057cbbd6acc506de5344ff3c09ef0e4d49cb568e97f98fcb6854384c6e",
       "review": "pending",
       "notes": ""
     },
@@ -13211,7 +13286,7 @@
       ],
       "revision": "fb455c4122a50bd2efaa588ce1b3e7dcc744512cbe0c7f53f80aa2009473befa",
       "geometrySignature": "afa6fe73668944abf5dd24e43d97db617f97aec1c1a878280619e2173fbf3387",
-      "comparisonRevision": "9fd38f40a1a80f9a8d7fee349bccec7f009c1cf77a5c81381f3ed03d6eaaae61",
+      "comparisonRevision": "ae4f8d4582f9f083ebbc4c6d9ad9a8d99bb1fceeedf6c8e07c5c401cce6de38c",
       "review": "pending",
       "notes": ""
     },
@@ -14252,7 +14327,7 @@
       ],
       "revision": "a70e1bf40a003a762409fb55dddf33274437a2a8e16a07356e00604152533c73",
       "geometrySignature": "359c73c85fac94aba5fccc1918c06a014a97d32ea234b699936f139ea2811935",
-      "comparisonRevision": "3289f084553bb6a11bffe294a5d05dbe43ae12837dd6d7c8155a4265372791e9",
+      "comparisonRevision": "470d440a81423c86b1cc8df41430a43365f1878fd1032b374fe452faeb9968c2",
       "review": "pending",
       "notes": ""
     },
@@ -14444,7 +14519,7 @@
       ],
       "revision": "1198e2b09f08bef95addcdf5f959f84481aa1b1b838797a9266d0762c128ab13",
       "geometrySignature": "7cfab1f8a7f727c0024fc5bd05816b54df3362628ca290346943e311778ed7a3",
-      "comparisonRevision": "7161d0dc530cc8db7014eccfe0f19cca3e6e73769952ed3f16a62890f4687aa8",
+      "comparisonRevision": "1107a6416ccb4fbe1f677af37da34beee978c225ec7cccf6af7fcb481eff623e",
       "review": "pending",
       "notes": ""
     },
@@ -15704,7 +15779,7 @@
       ],
       "revision": "5b1f03f75db76dceeff72b4e2193e42a8fa9c23d09352d446f7f1212c9028559",
       "geometrySignature": "a5666cd7cf5b2e6051cbb0fcfb76305fd8bd9aed88f1e74d2225ae7fafd1df49",
-      "comparisonRevision": "70f5e2533602589d619577e807df77a929dd7f198a5873726f1c692f110c29a6",
+      "comparisonRevision": "277d5ce431a3c0dcba1d89ee5e789aa9e59b037ab1229864814104438bc8455c",
       "review": "pending",
       "notes": ""
     },
@@ -15884,7 +15959,7 @@
       ],
       "revision": "33e8c06e21b9064deaadb2bb0703f5f90a406482a5ce7d1e86bf48baf7093bd6",
       "geometrySignature": "946b23812cf39913707ddf189a88a7536de20b8a648611d79d257d7ad602559d",
-      "comparisonRevision": "a1c3d9f60982387264a4d2e11a4942277b3106660bb11a97ccc7e14003bf61fd",
+      "comparisonRevision": "9f6c24718c057706396aecccfeb848b3a54affdf9a6c67859fef40b05a72863d",
       "review": "pending",
       "notes": ""
     },
@@ -15992,7 +16067,7 @@
       ],
       "revision": "58b7e48c6ffa3b3e5dbfa007c7a3311ac23ef004e9f5ead6bc798a4b5c67eba5",
       "geometrySignature": "636db90538918e267f78ea691b768a21dd6988150498b95e4fc23600b11c3e6e",
-      "comparisonRevision": "a57847a0c1c622a9100deae92b51d13d7f27c522770a2b019cf1f78e9b7d454b",
+      "comparisonRevision": "3d518050bffdb3beb26a0e4e3b23bcc7f6a1e53fd6b6db07bf413e28d91e9037",
       "review": "pending",
       "notes": ""
     },
@@ -16244,7 +16319,7 @@
       ],
       "revision": "6d55420652a23c3fe137bb45f43b3296de7c0009631c41965cd0c1c043d56b88",
       "geometrySignature": "fe4bfdc9f8931dbae0099207b6ab8005011548a4836522ab56578c7c2a5a5e89",
-      "comparisonRevision": "e80868737ce20afa500a1078db7aaa473a6f4ff4bdee4ee30f9218a2e93867c5",
+      "comparisonRevision": "2e24e70384d8127719071f841bbd51c679e8f444a6f33a36e71a64eb8a7a3167",
       "review": "pending",
       "notes": ""
     },
@@ -16684,7 +16759,7 @@
       ],
       "revision": "d74e46d080d434c5c1c8ca2380e4fab8d7462378b3bdc5eea31110f1147c212d",
       "geometrySignature": "578ad9f7fbaeb3ac4d89259585a4116deff55668ef39ada42252b1a336de72be",
-      "comparisonRevision": "d10915091ac9767c6745578a411fc94bfea6953206db4a5beea9088e8c539771",
+      "comparisonRevision": "16adfc043905d232035af0eb4497b52433afed5d932b0aa5cee795ee2fb1ecfb",
       "review": "pending",
       "notes": ""
     },
@@ -18708,7 +18783,7 @@
       ],
       "revision": "887e7a5c329e7716a222fcde0f35687868b339afba9eafd1fb56250cf3720ae2",
       "geometrySignature": "fe64b05094aeee13c8bd264ae2fe9ed3e8b52138519905f923d808a267266c70",
-      "comparisonRevision": "c7dfba355aba9dbf214b4096fb12fdea33b426b97ccd707982215920047fb4ae",
+      "comparisonRevision": "452050243a61f55f26bbd86d94da2742757fa4aeb55f34503ea00c4675dbf9ee",
       "review": "pending",
       "notes": ""
     },
