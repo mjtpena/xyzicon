@@ -4,6 +4,54 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-systems-application-manager", "aws", "Systems Manager Application Manager", ["Res_AWS-Systems-Manager_Application-Manager_48"],
+    "An application dashboard manages a group of components.",
+    [
+      rect(15, 21, 95, 70), line([15, 34], [110, 34]), oval(22, 24, 5, 5, true), rect(25, 45, 22, 17), rect(57, 45, 22, 17), rect(25, 70, 22, 13),
+      oval(78, 64, 21, 21), oval(84, 70, 9, 9), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-automation", "aws", "Systems Manager Automation", ["Res_AWS-Systems-Manager_Automation_48"],
+    "An automated runbook connects sequential operations.",
+    [
+      rect(19, 16, 54, 72), line([19, 29], [73, 29]), line([27, 38], [49, 38]), line([27, 51], [49, 51]), line([27, 64], [49, 64]),
+      oval(61, 58, 31, 31), line([72, 65], [84, 73], [72, 81], [72, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-change-calendar", "aws", "Systems Manager Change Calendar", ["Res_AWS-Systems-Manager_Change-Calendar_48"],
+    "A calendar marks when operational changes are permitted.",
+    [
+      rect(20, 25, 83, 66), line([20, 39], [103, 39]), line([38, 17], [38, 32]), line([85, 17], [85, 32]),
+      line([33, 50], [42, 50]), line([55, 50], [64, 50]), line([77, 50], [86, 50]), line([33, 64], [42, 64]), line([55, 64], [64, 64]), line([77, 64], [86, 64]), line([51, 79], [58, 85], [74, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-change-manager", "aws", "Systems Manager Change Manager", ["Res_AWS-Systems-Manager_Change-Manager_48"],
+    "An approved operational change progresses from request to execution.",
+    [
+      line([13, 19], [49, 19], [57, 27], [57, 79], [13, 79], [13, 19]), line([49, 19], [49, 27], [57, 27]), line([21, 38], [48, 38]), line([21, 49], [44, 49]), line([22, 63], [28, 69], [40, 56]),
+      line([59, 49], [77, 49]), line([70, 42], [77, 49], [70, 56]), rect(78, 29, 34, 41), line([84, 38], [105, 38]), line([84, 48], [105, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-compliance", "aws", "Systems Manager Compliance", ["Res_AWS-Systems-Manager_Compliance_48"],
+    "A compliance checklist verifies managed resources.",
+    [
+      line([62, 15], [99, 29], [96, 63], [84, 83], [62, 98], [40, 83], [28, 63], [25, 29], [62, 15]),
+      line([41, 43], [46, 48], [54, 39]), line([60, 44], [82, 44]), line([41, 59], [46, 64], [54, 55]), line([60, 60], [82, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-distributor", "aws", "Systems Manager Distributor", ["Res_AWS-Systems-Manager_Distributor_48"],
+    "A software package is distributed to managed machines.",
+    [
+      line([13, 23], [36, 15], [59, 23], [59, 48], [36, 57], [13, 48], [13, 23]), line([13, 23], [36, 32], [59, 23]), line([36, 32], [36, 57]),
+      line([60, 39], [75, 39], [75, 25], [84, 25]), line([75, 39], [75, 70], [84, 70]), rect(84, 16, 30, 19), rect(84, 61, 30, 19), line([90, 25], [108, 25]), line([90, 70], [108, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-documents", "aws", "Systems Manager Documents", ["Res_AWS-Systems-Manager_Documents_48"],
+    "A runbook document contains ordered operational steps.",
+    [
+      line([23, 15], [79, 15], [96, 32], [96, 95], [23, 95], [23, 15]), line([79, 15], [79, 32], [96, 32]),
+      oval(32, 40, 7, 7), line([46, 43], [84, 43]), oval(32, 56, 7, 7), line([46, 59], [84, 59]), oval(32, 72, 7, 7), line([46, 75], [79, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-systems-incident-manager", "aws", "Systems Manager Incident Manager", ["Res_AWS-Systems-Manager_Incident-Manager_48"],
+    "An incident alert is tracked and resolved.",
+    [
+      line([20, 16], [68, 16], [80, 28], [80, 88], [20, 88], [20, 16]), line([68, 16], [68, 28], [80, 28]), line([29, 38], [66, 38]), line([29, 49], [59, 49]),
+      line([61, 84], [84, 45], [107, 84], [61, 84]), line([84, 58], [84, 70]), oval(82, 75, 4, 4, true), line([14, 109], [110, 109]),
+    ]),
   entry("aws-cloudformation-template", "aws", "CloudFormation Template", ["Res_AWS-CloudFormation_Template_48"],
     "An infrastructure template describes resources in code.",
     [

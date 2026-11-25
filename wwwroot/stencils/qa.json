@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1965,
-  "aliases": 5133,
+  "count": 1973,
+  "aliases": 5141,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1155,6 +1155,14 @@
     "aws-application-migration",
     "aws-transfer-family",
     "aws-application-discovery",
+    "aws-systems-application-manager",
+    "aws-systems-automation",
+    "aws-systems-change-calendar",
+    "aws-systems-change-manager",
+    "aws-systems-compliance",
+    "aws-systems-distributor",
+    "aws-systems-documents",
+    "aws-systems-incident-manager",
     "aws-cloudformation-template",
     "aws-cloudformation-stack",
     "aws-cloudformation-change-set",
@@ -2265,8 +2273,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1750,
-      "concepts": 703
+      "covered": 1758,
+      "concepts": 711
     },
     "gcp": {
       "sources": 261,
@@ -4216,6 +4224,11 @@
     "aws-sns": [
       {
         "a": "aws-sns",
+        "b": "aws-systems-distributor",
+        "similarity": 0.1486
+      },
+      {
+        "a": "aws-sns",
         "b": "aws-identity-center",
         "similarity": 0.1449
       },
@@ -4223,11 +4236,6 @@
         "a": "aws-sns",
         "b": "aws-fsx",
         "similarity": 0.1386
-      },
-      {
-        "a": "aws-sns",
-        "b": "aws-managed-airflow",
-        "similarity": 0.1354
       }
     ],
     "aws-cloudwatch": [
@@ -4777,6 +4785,11 @@
     "aws-eventbridge-schema": [
       {
         "a": "aws-eventbridge-schema",
+        "b": "aws-systems-documents",
+        "similarity": 0.2802
+      },
+      {
+        "a": "aws-eventbridge-schema",
         "b": "fabric-match-category",
         "similarity": 0.2707
       },
@@ -4784,11 +4797,6 @@
         "a": "aws-eventbridge-schema",
         "b": "aws-backup",
         "similarity": 0.2647
-      },
-      {
-        "a": "azure-multifactor-authentication",
-        "b": "aws-eventbridge-schema",
-        "similarity": 0.2605
       }
     ],
     "aws-bedrock": [
@@ -6227,13 +6235,13 @@
       },
       {
         "a": "azure-data-box",
-        "b": "fabric-data-warehouse",
-        "similarity": 0.2586
+        "b": "aws-systems-application-manager",
+        "similarity": 0.2673
       },
       {
         "a": "azure-data-box",
-        "b": "aws-comprehend",
-        "similarity": 0.2531
+        "b": "fabric-data-warehouse",
+        "similarity": 0.2586
       }
     ],
     "azure-event-grid-subscriptions": [
@@ -6742,8 +6750,8 @@
       },
       {
         "a": "m365-lightbulb",
-        "b": "gcp-anthos-service-mesh",
-        "similarity": 0.1398
+        "b": "aws-systems-compliance",
+        "similarity": 0.1441
       }
     ],
     "m365-lock": [
@@ -13204,13 +13212,13 @@
       },
       {
         "a": "aws-outposts-servers",
-        "b": "fabric-database-add",
-        "similarity": 0.2376
+        "b": "aws-systems-application-manager",
+        "similarity": 0.2474
       },
       {
-        "a": "azure-storage-hubs",
-        "b": "aws-outposts-servers",
-        "similarity": 0.2293
+        "a": "aws-outposts-servers",
+        "b": "fabric-database-add",
+        "similarity": 0.2376
       }
     ],
     "aws-ec2-autoscaling": [
@@ -14840,8 +14848,8 @@
         "similarity": 0.1743
       },
       {
-        "a": "gcp-premium-network-tier",
-        "b": "aws-deepracer",
+        "a": "aws-deepracer",
+        "b": "aws-systems-application-manager",
         "similarity": 0.1709
       }
     ],
@@ -15102,6 +15110,11 @@
     ],
     "azure-device-security-google": [
       {
+        "a": "azure-device-security-google",
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.25
+      },
+      {
         "a": "azure-event-grid-domains",
         "b": "azure-device-security-google",
         "similarity": 0.2422
@@ -15110,11 +15123,6 @@
         "a": "azure-device-security-google",
         "b": "aws-mainframe-runtime",
         "similarity": 0.2411
-      },
-      {
-        "a": "azure-device-security-google",
-        "b": "aws-braket-simulator",
-        "similarity": 0.2363
       }
     ],
     "azure-device-security-windows": [
@@ -15198,8 +15206,8 @@
       },
       {
         "a": "azure-intune-devices",
-        "b": "azure-maps-accounts",
-        "similarity": 0.2731
+        "b": "aws-systems-change-manager",
+        "similarity": 0.2863
       }
     ],
     "azure-device-compliance": [
@@ -15550,13 +15558,13 @@
       },
       {
         "a": "azure-identity-roles-administrators",
-        "b": "aws-iot-fleet-hub",
-        "similarity": 0.2521
+        "b": "aws-systems-application-manager",
+        "similarity": 0.2582
       },
       {
         "a": "azure-identity-roles-administrators",
-        "b": "azure-time-series-access-policies",
-        "similarity": 0.2516
+        "b": "aws-iot-fleet-hub",
+        "similarity": 0.2521
       }
     ],
     "azure-multi-factor-authentication": [
@@ -17101,9 +17109,9 @@
         "similarity": 0.3352
       },
       {
-        "a": "azure-data-share-invitations",
-        "b": "azure-managed-desktop",
-        "similarity": 0.3288
+        "a": "azure-managed-desktop",
+        "b": "aws-systems-application-manager",
+        "similarity": 0.3343
       }
     ],
     "azure-customer-lockbox": [
@@ -17680,8 +17688,8 @@
       },
       {
         "a": "aws-iot-certificate",
-        "b": "aws-iam-encrypted-data",
-        "similarity": 0.3339
+        "b": "aws-systems-documents",
+        "similarity": 0.3699
       }
     ],
     "aws-iot-policy": [
@@ -18554,6 +18562,11 @@
     "aws-iot-thing-coffee-pot": [
       {
         "a": "aws-iot-thing-coffee-pot",
+        "b": "aws-systems-automation",
+        "similarity": 0.2542
+      },
+      {
+        "a": "aws-iot-thing-coffee-pot",
         "b": "aws-waf-filtering-rule",
         "similarity": 0.2441
       },
@@ -18561,11 +18574,6 @@
         "a": "aws-iot-thing-coffee-pot",
         "b": "aws-ec2-rescue",
         "similarity": 0.2409
-      },
-      {
-        "a": "aws-iot-thing-coffee-pot",
-        "b": "aws-backup-recovery-time-objective",
-        "similarity": 0.2394
       }
     ],
     "aws-iot-thing-door-lock": [
@@ -18605,6 +18613,11 @@
     "aws-iot-thing-house": [
       {
         "a": "aws-iot-thing-house",
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.2806
+      },
+      {
+        "a": "aws-iot-thing-house",
         "b": "aws-general-client",
         "similarity": 0.2711
       },
@@ -18612,11 +18625,6 @@
         "a": "aws-iot-thing-house",
         "b": "aws-elasticache-node",
         "similarity": 0.2673
-      },
-      {
-        "a": "gcp-compute-engine",
-        "b": "aws-iot-thing-house",
-        "similarity": 0.2565
       }
     ],
     "aws-iot-thing-lightbulb": [
@@ -18758,6 +18766,11 @@
     "aws-s3-vpc-access": [
       {
         "a": "aws-s3-vpc-access",
+        "b": "aws-systems-compliance",
+        "similarity": 0.2624
+      },
+      {
+        "a": "aws-s3-vpc-access",
         "b": "aws-s3-object",
         "similarity": 0.2376
       },
@@ -18765,11 +18778,6 @@
         "a": "aws-s3-vpc-access",
         "b": "aws-backup-restore-resource",
         "similarity": 0.2246
-      },
-      {
-        "a": "aws-s3-vpc-access",
-        "b": "aws-braket-simulator-4",
-        "similarity": 0.2233
       }
     ],
     "aws-s3-object-lambda": [
@@ -19039,9 +19047,9 @@
         "similarity": 0.2736
       },
       {
-        "a": "azure-integration-accounts",
-        "b": "aws-s3-bucket-with-objects",
-        "similarity": 0.2604
+        "a": "aws-s3-bucket-with-objects",
+        "b": "aws-systems-compliance",
+        "similarity": 0.2676
       }
     ],
     "aws-s3-bucket": [
@@ -19080,6 +19088,11 @@
     ],
     "aws-s3-object": [
       {
+        "a": "aws-s3-object",
+        "b": "aws-systems-compliance",
+        "similarity": 0.2744
+      },
+      {
         "a": "azure-intune-trends",
         "b": "aws-s3-object",
         "similarity": 0.2449
@@ -19088,11 +19101,6 @@
         "a": "azure-container-instances",
         "b": "aws-s3-object",
         "similarity": 0.2442
-      },
-      {
-        "a": "aws-s3-bucket-with-objects",
-        "b": "aws-s3-object",
-        "similarity": 0.244
       }
     ],
     "aws-s3-batch-operations": [
@@ -19726,6 +19734,11 @@
     ],
     "aws-backup-vault-resource": [
       {
+        "a": "aws-backup-vault-resource",
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.3527
+      },
+      {
         "a": "aws-glacier-vault",
         "b": "aws-backup-vault-resource",
         "similarity": 0.3422
@@ -19734,11 +19747,6 @@
         "a": "aws-backup-vault-resource",
         "b": "aws-waf-managed-rule",
         "similarity": 0.3321
-      },
-      {
-        "a": "azure-service-catalog-mad",
-        "b": "aws-backup-vault-resource",
-        "similarity": 0.3242
       }
     ],
     "aws-backup-vault-lock": [
@@ -19838,9 +19846,9 @@
         "similarity": 0.2251
       },
       {
-        "a": "azure-sap-monitor",
-        "b": "aws-backup-recovery-time-objective",
-        "similarity": 0.2213
+        "a": "aws-backup-recovery-time-objective",
+        "b": "aws-systems-compliance",
+        "similarity": 0.2235
       }
     ],
     "aws-backup-gateway-resource": [
@@ -21849,6 +21857,142 @@
         "similarity": 0.2072
       }
     ],
+    "aws-systems-application-manager": [
+      {
+        "a": "aws-systems-application-manager",
+        "b": "aws-organizations-account",
+        "similarity": 0.3674
+      },
+      {
+        "a": "aws-systems-application-manager",
+        "b": "azure-resource-explorer",
+        "similarity": 0.3534
+      },
+      {
+        "a": "aws-systems-application-manager",
+        "b": "aws-general-application",
+        "similarity": 0.3362
+      }
+    ],
+    "aws-systems-automation": [
+      {
+        "a": "aws-systems-automation",
+        "b": "aws-systems-incident-manager",
+        "similarity": 0.4052
+      },
+      {
+        "a": "aws-systems-automation",
+        "b": "aws-certificate-authority",
+        "similarity": 0.3145
+      },
+      {
+        "a": "aws-backup-plan",
+        "b": "aws-systems-automation",
+        "similarity": 0.3118
+      }
+    ],
+    "aws-systems-change-calendar": [
+      {
+        "a": "aws-backup-vault-resource",
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.3527
+      },
+      {
+        "a": "aws-systems-change-calendar",
+        "b": "aws-general-saml-token",
+        "similarity": 0.3158
+      },
+      {
+        "a": "aws-systems-change-calendar",
+        "b": "azure-counter",
+        "similarity": 0.312
+      }
+    ],
+    "aws-systems-change-manager": [
+      {
+        "a": "azure-intune-devices",
+        "b": "aws-systems-change-manager",
+        "similarity": 0.2863
+      },
+      {
+        "a": "aws-systems-change-manager",
+        "b": "azure-web-slots",
+        "similarity": 0.2842
+      },
+      {
+        "a": "aws-ebs-snapshot",
+        "b": "aws-systems-change-manager",
+        "similarity": 0.2764
+      }
+    ],
+    "aws-systems-compliance": [
+      {
+        "a": "aws-systems-compliance",
+        "b": "aws-waf-bot-control",
+        "similarity": 0.4541
+      },
+      {
+        "a": "aws-systems-compliance",
+        "b": "aws-shield-advanced",
+        "similarity": 0.4055
+      },
+      {
+        "a": "aws-s3-object",
+        "b": "aws-systems-compliance",
+        "similarity": 0.2744
+      }
+    ],
+    "aws-systems-distributor": [
+      {
+        "a": "aws-mainframe-converter",
+        "b": "aws-systems-distributor",
+        "similarity": 0.2383
+      },
+      {
+        "a": "aws-systems-distributor",
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.2319
+      },
+      {
+        "a": "aws-systems-distributor",
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2297
+      }
+    ],
+    "aws-systems-documents": [
+      {
+        "a": "aws-iot-certificate",
+        "b": "aws-systems-documents",
+        "similarity": 0.3699
+      },
+      {
+        "a": "aws-systems-documents",
+        "b": "aws-cloudformation-template",
+        "similarity": 0.3443
+      },
+      {
+        "a": "aws-systems-documents",
+        "b": "azure-file",
+        "similarity": 0.3309
+      }
+    ],
+    "aws-systems-incident-manager": [
+      {
+        "a": "aws-systems-automation",
+        "b": "aws-systems-incident-manager",
+        "similarity": 0.4052
+      },
+      {
+        "a": "aws-systems-incident-manager",
+        "b": "aws-certificate-authority",
+        "similarity": 0.3557
+      },
+      {
+        "a": "aws-backup-vault-lock",
+        "b": "aws-systems-incident-manager",
+        "similarity": 0.3063
+      }
+    ],
     "aws-cloudformation-template": [
       {
         "a": "aws-cloudformation-template",
@@ -21861,9 +22005,9 @@
         "similarity": 0.3821
       },
       {
-        "a": "aws-iot-thing-utility",
+        "a": "aws-systems-documents",
         "b": "aws-cloudformation-template",
-        "similarity": 0.3437
+        "similarity": 0.3443
       }
     ],
     "aws-cloudformation-stack": [
@@ -21953,6 +22097,11 @@
     ],
     "aws-organizations-account": [
       {
+        "a": "aws-systems-application-manager",
+        "b": "aws-organizations-account",
+        "similarity": 0.3674
+      },
+      {
         "a": "aws-organizations-account",
         "b": "aws-elasticache-node",
         "similarity": 0.3327
@@ -21961,11 +22110,6 @@
         "a": "aws-organizations-account",
         "b": "azure-resource-explorer",
         "similarity": 0.3135
-      },
-      {
-        "a": "aws-braket-chandelier",
-        "b": "aws-organizations-account",
-        "similarity": 0.2808
       }
     ],
     "aws-organizations-management-account": [
@@ -22604,14 +22748,14 @@
         "similarity": 0.2533
       },
       {
+        "a": "aws-systems-change-calendar",
+        "b": "aws-general-alert",
+        "similarity": 0.252
+      },
+      {
         "a": "aws-general-alert",
         "b": "azure-extensions",
         "similarity": 0.2308
-      },
-      {
-        "a": "azure-event-grid-domains",
-        "b": "aws-general-alert",
-        "similarity": 0.2286
       }
     ],
     "aws-general-camera": [
@@ -22864,9 +23008,9 @@
         "similarity": 0.2243
       },
       {
-        "a": "azure-storage-queue",
+        "a": "aws-systems-distributor",
         "b": "aws-auto-scaling",
-        "similarity": 0.2163
+        "similarity": 0.2178
       }
     ],
     "aws-launch-wizard": [
@@ -23602,6 +23746,11 @@
     ],
     "aws-security-hub-finding": [
       {
+        "a": "aws-systems-incident-manager",
+        "b": "aws-security-hub-finding",
+        "similarity": 0.2385
+      },
+      {
         "a": "aws-security-hub-finding",
         "b": "azure-production-ready-database",
         "similarity": 0.2319
@@ -23610,14 +23759,14 @@
         "a": "aws-security-hub-finding",
         "b": "azure-help-support",
         "similarity": 0.2214
-      },
-      {
-        "a": "aws-general-authenticated-user",
-        "b": "aws-security-hub-finding",
-        "similarity": 0.2115
       }
     ],
     "aws-shield-advanced": [
+      {
+        "a": "aws-systems-compliance",
+        "b": "aws-shield-advanced",
+        "similarity": 0.4055
+      },
       {
         "a": "aws-shield-advanced",
         "b": "aws-waf-bot-control",
@@ -23627,11 +23776,6 @@
         "a": "aws-iot-sensor",
         "b": "aws-shield-advanced",
         "similarity": 0.2689
-      },
-      {
-        "a": "aws-s3-bucket-with-objects",
-        "b": "aws-shield-advanced",
-        "similarity": 0.241
       }
     ],
     "aws-waf-bot": [
@@ -23670,6 +23814,11 @@
     ],
     "aws-waf-bot-control": [
       {
+        "a": "aws-systems-compliance",
+        "b": "aws-waf-bot-control",
+        "similarity": 0.4541
+      },
+      {
         "a": "aws-shield-advanced",
         "b": "aws-waf-bot-control",
         "similarity": 0.3828
@@ -23678,11 +23827,6 @@
         "a": "aws-waf-bot-control",
         "b": "azure-media-file",
         "similarity": 0.2982
-      },
-      {
-        "a": "aws-ebs-lifecycle-manager",
-        "b": "aws-waf-bot-control",
-        "similarity": 0.2663
       }
     ],
     "aws-waf-filtering-rule": [
@@ -23884,9 +24028,9 @@
         "similarity": 0.3577
       },
       {
-        "a": "aws-braket-noise-simulator",
+        "a": "aws-systems-incident-manager",
         "b": "aws-certificate-authority",
-        "similarity": 0.3201
+        "similarity": 0.3557
       }
     ],
     "aws-directory-ad-connector": [
@@ -26765,14 +26909,14 @@
         "similarity": 0.2823
       },
       {
-        "a": "aws-postgresql-trusted-extensions",
-        "b": "azure-web-test",
-        "similarity": 0.2786
+        "a": "aws-systems-incident-manager",
+        "b": "aws-postgresql-trusted-extensions",
+        "similarity": 0.2818
       },
       {
         "a": "aws-postgresql-trusted-extensions",
-        "b": "azure-log-streaming",
-        "similarity": 0.2777
+        "b": "azure-web-test",
+        "similarity": 0.2786
       }
     ],
     "aws-ecr-image": [
@@ -27015,6 +27159,11 @@
     ],
     "aws-ec2-cloudwatch-instance": [
       {
+        "a": "aws-systems-change-manager",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2684
+      },
+      {
         "a": "aws-efs-intelligent-tiering",
         "b": "aws-ec2-cloudwatch-instance",
         "similarity": 0.2652
@@ -27023,11 +27172,6 @@
         "a": "aws-dynamodb-infrequent-table-class",
         "b": "aws-ec2-cloudwatch-instance",
         "similarity": 0.2594
-      },
-      {
-        "a": "aws-ec2-cloudwatch-instance",
-        "b": "fabric-document-ssis-play",
-        "similarity": 0.2583
       }
     ],
     "aws-ec2-instance": [
@@ -28550,14 +28694,14 @@
         "similarity": 0.3233
       },
       {
+        "a": "aws-systems-documents",
+        "b": "azure-backlog",
+        "similarity": 0.3121
+      },
+      {
         "a": "aws-backup-compliance-report",
         "b": "azure-backlog",
         "similarity": 0.3027
-      },
-      {
-        "a": "azure-operation-log-classic",
-        "b": "azure-backlog",
-        "similarity": 0.302
       }
     ],
     "azure-general-media": [
@@ -29286,9 +29430,9 @@
         "similarity": 0.3595
       },
       {
-        "a": "aws-iot-thing-relay",
+        "a": "aws-systems-change-calendar",
         "b": "azure-counter",
-        "similarity": 0.2915
+        "similarity": 0.312
       }
     ],
     "azure-cubes": [
@@ -29434,14 +29578,14 @@
         "similarity": 0.3797
       },
       {
+        "a": "aws-systems-application-manager",
+        "b": "azure-resource-explorer",
+        "similarity": 0.3534
+      },
+      {
         "a": "azure-resource-explorer",
         "b": "azure-static-apps",
         "similarity": 0.3379
-      },
-      {
-        "a": "aws-general-management-console",
-        "b": "azure-resource-explorer",
-        "similarity": 0.3315
       }
     ],
     "azure-blob-block": [
