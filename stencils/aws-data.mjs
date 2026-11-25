@@ -3,6 +3,47 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsDataArtwork = [
+  entry("aws-glue-crawler", "aws", "AWS Glue Crawler", ["Res_AWS-Glue_Crawler_48"],
+    "A crawler discovers fields in several data sources.",
+    [
+      oval(14, 18, 30, 12), line([14, 24], [14, 48], [18, 53], [40, 53], [44, 48], [44, 24]),
+      rect(14, 71, 30, 24), line([14, 79], [44, 79]), line([24, 79], [24, 95]), line([34, 79], [34, 95]),
+      line([44, 39], [56, 49]), line([44, 83], [56, 72]),
+      oval(59, 43, 26, 30), oval(66, 35, 12, 12),
+      line([58, 49], [51, 42], [48, 34]), line([58, 56], [48, 55], [43, 61]), line([59, 65], [51, 70], [49, 78]),
+      line([86, 49], [93, 42], [96, 34]), line([86, 56], [96, 55], [101, 61]), line([85, 65], [93, 70], [95, 78]),
+      line([86, 59], [105, 59]), line([99, 53], [105, 59], [99, 65]),
+      line([19, 110], [110, 110]),
+    ]),
+  entry("aws-glue-catalog", "aws", "AWS Glue Data Catalog", ["Res_AWS-Glue_Data-Catalog_48"],
+    "A catalog indexes datasets with their table schemas.",
+    [
+      rect(13, 16, 102, 83), line([13, 30], [115, 30]), line([20, 23], [46, 23]),
+      line([20, 39], [20, 87], [46, 87], [46, 39], [20, 39]), line([25, 48], [41, 48]), line([25, 57], [41, 57]), line([25, 66], [41, 66]),
+      rect(55, 39, 51, 47), line([55, 50], [106, 50]), line([55, 62], [106, 62]), line([55, 74], [106, 74]), line([73, 50], [73, 86]), line([89, 50], [89, 86]),
+      line([20, 111], [108, 111]),
+    ]),
+  entry("aws-glue-quality", "aws", "AWS Glue Data Quality", ["Res_AWS-Glue_Data-Quality_48"],
+    "Data quality rules report checks and an issue against a dataset.",
+    [
+      oval(11, 23, 38, 15), line([11, 30], [11, 76], [16, 82], [43, 82], [49, 76], [49, 30]),
+      line([11, 48], [17, 53], [43, 53], [49, 48]), line([11, 65], [17, 70], [43, 70], [49, 65]),
+      line([49, 53], [59, 53]), line([54, 48], [59, 53], [54, 58]),
+      line([66, 25], [71, 30], [79, 21]), line([85, 26], [113, 26]),
+      line([66, 49], [71, 54], [79, 45]), line([85, 50], [113, 50]),
+      line([66, 70], [78, 82]), line([78, 70], [66, 82]), line([85, 76], [113, 76]),
+      line([18, 107], [110, 107]),
+    ]),
+  entry("aws-data-exchange-api", "aws", "AWS Data Exchange for APIs", ["Res_AWS-Data-Exchange-for-APIs_48"],
+    "An API request and response exchange data across an endpoint.",
+    [
+      rect(10, 28, 37, 58), line([10, 40], [47, 40]),
+      line([23, 51], [17, 57], [23, 63]), line([34, 51], [40, 57], [34, 63]), line([30, 49], [26, 66]),
+      rect(82, 28, 36, 58), line([82, 40], [118, 40]), line([88, 52], [112, 52]), line([88, 62], [106, 62]), line([88, 72], [112, 72]),
+      line([48, 51], [78, 51]), line([72, 45], [78, 51], [72, 57]),
+      line([81, 72], [51, 72]), line([57, 66], [51, 72], [57, 78]),
+      line([20, 105], [108, 105]),
+    ]),
   entry("aws-clean-rooms", "aws", "AWS Clean Rooms", sizes("AWS-Clean-Rooms"),
     "Two parties analyze protected data inside a restricted shared room.",
     [

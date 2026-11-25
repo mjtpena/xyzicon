@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 927,
-  "aliases": 3641,
+  "count": 931,
+  "aliases": 3645,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -336,6 +336,10 @@
     "azure-data-sharing",
     "azure-storage-sync",
     "azure-storage-explorer",
+    "aws-glue-crawler",
+    "aws-glue-catalog",
+    "aws-glue-quality",
+    "aws-data-exchange-api",
     "aws-clean-rooms",
     "aws-data-exchange",
     "aws-entity-resolution",
@@ -1031,8 +1035,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1268,
-      "concepts": 314
+      "covered": 1272,
+      "concepts": 318
     },
     "gcp": {
       "sources": 261,
@@ -3139,14 +3143,14 @@
         "similarity": 0.3041
       },
       {
+        "a": "m365-chart-multiple",
+        "b": "aws-glue-catalog",
+        "similarity": 0.3007
+      },
+      {
         "a": "gcp-storage",
         "b": "m365-chart-multiple",
         "similarity": 0.2796
-      },
-      {
-        "a": "azure-app-service-builder",
-        "b": "m365-chart-multiple",
-        "similarity": 0.2754
       }
     ],
     "m365-chat-multiple": [
@@ -3212,9 +3216,9 @@
         "similarity": 0.1396
       },
       {
-        "a": "aws-redshift",
-        "b": "m365-data-pie",
-        "similarity": 0.1309
+        "a": "m365-data-pie",
+        "b": "aws-glue-catalog",
+        "similarity": 0.1322
       }
     ],
     "m365-data-area": [
@@ -4886,6 +4890,11 @@
     "gcp-hyperdisk": [
       {
         "a": "gcp-hyperdisk",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.2749
+      },
+      {
+        "a": "gcp-hyperdisk",
         "b": "m365-folder-people",
         "similarity": 0.2124
       },
@@ -4893,11 +4902,6 @@
         "a": "gcp-security-operations",
         "b": "gcp-hyperdisk",
         "similarity": 0.2072
-      },
-      {
-        "a": "aws-batch",
-        "b": "gcp-hyperdisk",
-        "similarity": 0.1956
       }
     ],
     "gcp-app-engine": [
@@ -5689,14 +5693,14 @@
         "similarity": 0.2549
       },
       {
+        "a": "m365-select-all",
+        "b": "aws-glue-catalog",
+        "similarity": 0.2197
+      },
+      {
         "a": "gcp-cloud-tpu",
         "b": "m365-select-all",
         "similarity": 0.2173
-      },
-      {
-        "a": "m365-apps-list",
-        "b": "m365-select-all",
-        "similarity": 0.214
       }
     ],
     "fabric-cohort": [
@@ -6421,13 +6425,13 @@
       },
       {
         "a": "azure-database-migration",
-        "b": "m365-text-number-list",
-        "similarity": 0.2096
+        "b": "aws-glue-catalog",
+        "similarity": 0.2169
       },
       {
         "a": "azure-database-migration",
-        "b": "azure-sql-elastic-pool",
-        "similarity": 0.2067
+        "b": "m365-text-number-list",
+        "similarity": 0.2096
       }
     ],
     "azure-sql-elastic-pool": [
@@ -6637,6 +6641,11 @@
     "azure-storage-sync": [
       {
         "a": "azure-storage-sync",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.3008
+      },
+      {
+        "a": "azure-storage-sync",
         "b": "m365-share-screen-overlay",
         "similarity": 0.2824
       },
@@ -6644,11 +6653,6 @@
         "a": "azure-storage-sync",
         "b": "aws-verified-permissions",
         "similarity": 0.2518
-      },
-      {
-        "a": "azure-storage-sync",
-        "b": "azure-compute-fleet",
-        "similarity": 0.2414
       }
     ],
     "azure-storage-explorer": [
@@ -6666,6 +6670,74 @@
         "a": "azure-storage-explorer",
         "b": "gcp-category-observability",
         "similarity": 0.1845
+      }
+    ],
+    "aws-glue-crawler": [
+      {
+        "a": "aws-glue-crawler",
+        "b": "aws-backup",
+        "similarity": 0.2342
+      },
+      {
+        "a": "aws-glue-crawler",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2254
+      },
+      {
+        "a": "aws-glue-crawler",
+        "b": "gcp-category-containers",
+        "similarity": 0.2254
+      }
+    ],
+    "aws-glue-catalog": [
+      {
+        "a": "aws-glue-catalog",
+        "b": "m365-window",
+        "similarity": 0.3278
+      },
+      {
+        "a": "aws-glue-catalog",
+        "b": "azure-app-service-plans",
+        "similarity": 0.3208
+      },
+      {
+        "a": "aws-glue-catalog",
+        "b": "fabric-power-bi",
+        "similarity": 0.3188
+      }
+    ],
+    "aws-glue-quality": [
+      {
+        "a": "aws-glue-quality",
+        "b": "azure-machine-learning",
+        "similarity": 0.2445
+      },
+      {
+        "a": "aws-glue-quality",
+        "b": "aws-fsx-ontap",
+        "similarity": 0.2257
+      },
+      {
+        "a": "aws-glue-quality",
+        "b": "fabric-databases",
+        "similarity": 0.2122
+      }
+    ],
+    "aws-data-exchange-api": [
+      {
+        "a": "azure-storage-sync",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.3008
+      },
+      {
+        "a": "aws-data-exchange-api",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.2944
+      },
+      {
+        "a": "gcp-hyperdisk",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.2749
       }
     ],
     "aws-clean-rooms": [
@@ -7316,6 +7388,11 @@
     ],
     "fabric-retail": [
       {
+        "a": "aws-glue-catalog",
+        "b": "fabric-retail",
+        "similarity": 0.2121
+      },
+      {
         "a": "fabric-retail",
         "b": "aws-repost-private",
         "similarity": 0.1928
@@ -7324,11 +7401,6 @@
         "a": "fabric-retail",
         "b": "aws-datasync",
         "similarity": 0.1914
-      },
-      {
-        "a": "fabric-retail",
-        "b": "azure-compute-fleet",
-        "similarity": 0.1869
       }
     ],
     "fabric-runtime-lineage": [
@@ -7989,9 +8061,9 @@
         "similarity": 0.2996
       },
       {
-        "a": "dynamics-project-operations",
+        "a": "aws-glue-catalog",
         "b": "m365-phone-desktop",
-        "similarity": 0.2689
+        "similarity": 0.2731
       }
     ],
     "m365-phone-laptop": [
@@ -9310,14 +9382,14 @@
         "similarity": 0.2147
       },
       {
+        "a": "aws-glue-quality",
+        "b": "fabric-databases",
+        "similarity": 0.2122
+      },
+      {
         "a": "fabric-databases",
         "b": "aws-category-containers",
         "similarity": 0.2009
-      },
-      {
-        "a": "gcp-datastream",
-        "b": "fabric-databases",
-        "similarity": 0.2003
       }
     ],
     "fabric-platform": [
@@ -9361,14 +9433,14 @@
         "similarity": 0.3343
       },
       {
-        "a": "fabric-power-bi",
-        "b": "fabric-progress-bars",
-        "similarity": 0.2996
+        "a": "aws-glue-catalog",
+        "b": "fabric-power-bi",
+        "similarity": 0.3188
       },
       {
         "a": "fabric-power-bi",
-        "b": "aws-cli",
-        "similarity": 0.2881
+        "b": "fabric-progress-bars",
+        "similarity": 0.2996
       }
     ],
     "fabric-purview": [
@@ -9871,14 +9943,14 @@
         "similarity": 0.1981
       },
       {
+        "a": "aws-glue-crawler",
+        "b": "aws-activate",
+        "similarity": 0.1933
+      },
+      {
         "a": "aws-activate",
         "b": "aws-migration-evaluator",
         "similarity": 0.1931
-      },
-      {
-        "a": "gcp-anthos",
-        "b": "aws-activate",
-        "similarity": 0.1929
       }
     ],
     "aws-iq": [
@@ -10954,6 +11026,11 @@
     ],
     "aws-interactive-video": [
       {
+        "a": "aws-data-exchange-api",
+        "b": "aws-interactive-video",
+        "similarity": 0.2391
+      },
+      {
         "a": "aws-interactive-video",
         "b": "azure-compute-fleet",
         "similarity": 0.2311
@@ -10962,11 +11039,6 @@
         "a": "aws-interactive-video",
         "b": "aws-app-studio",
         "similarity": 0.2188
-      },
-      {
-        "a": "aws-health-scribe",
-        "b": "aws-interactive-video",
-        "similarity": 0.2119
       }
     ],
     "aws-gamelift-streams": [
@@ -11185,8 +11257,8 @@
         "similarity": 0.2679
       },
       {
-        "a": "aws-waf",
-        "b": "gcp-category-business-intelligence",
+        "a": "aws-glue-catalog",
+        "b": "aws-waf",
         "similarity": 0.2667
       }
     ],
@@ -11554,17 +11626,22 @@
         "similarity": 0.2986
       },
       {
+        "a": "aws-glue-crawler",
+        "b": "aws-backup",
+        "similarity": 0.2342
+      },
+      {
         "a": "aws-security-incident-response",
         "b": "aws-backup",
         "similarity": 0.2194
-      },
-      {
-        "a": "aws-backup",
-        "b": "aws-snowball-edge",
-        "similarity": 0.216
       }
     ],
     "aws-elastic-disaster-recovery": [
+      {
+        "a": "aws-data-exchange-api",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.2944
+      },
       {
         "a": "aws-elastic-disaster-recovery",
         "b": "aws-parallel-computing",
@@ -11574,11 +11651,6 @@
         "a": "aws-devops-agent",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2644
-      },
-      {
-        "a": "aws-backint-agent",
-        "b": "aws-elastic-disaster-recovery",
-        "similarity": 0.2503
       }
     ],
     "aws-efs": [
@@ -14282,6 +14354,11 @@
     ],
     "aws-braket": [
       {
+        "a": "aws-glue-catalog",
+        "b": "aws-braket",
+        "similarity": 0.2176
+      },
+      {
         "a": "aws-braket",
         "b": "fabric-folder",
         "similarity": 0.2041
@@ -14290,11 +14367,6 @@
         "a": "aws-braket",
         "b": "azure-resource-groups",
         "similarity": 0.1786
-      },
-      {
-        "a": "fabric-report",
-        "b": "aws-braket",
-        "similarity": 0.1779
       }
     ],
     "aws-open-3d-engine": [
@@ -15244,9 +15316,9 @@
         "similarity": 0.2736
       },
       {
-        "a": "aws-appflow",
+        "a": "aws-data-exchange-api",
         "b": "azure-compute-fleet",
-        "similarity": 0.2481
+        "similarity": 0.2495
       }
     ],
     "azure-availability-sets": [
