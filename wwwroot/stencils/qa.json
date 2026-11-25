@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 772,
-  "aliases": 3252,
+  "count": 776,
+  "aliases": 3268,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -454,6 +454,7 @@
     "aws-xray",
     "aws-codecatalyst",
     "aws-corretto",
+    "aws-finops-agent",
     "aws-managed-blockchain",
     "aws-location-service",
     "aws-workmail",
@@ -476,6 +477,7 @@
     "aws-application-migration",
     "aws-transfer-family",
     "aws-application-discovery",
+    "aws-devops-agent",
     "aws-application-auto-scaling",
     "aws-auto-scaling",
     "aws-launch-wizard",
@@ -508,6 +510,7 @@
     "aws-elemental-live",
     "aws-elemental-link",
     "aws-elemental-server",
+    "aws-security-agent",
     "aws-security-hub",
     "aws-certificate-manager",
     "aws-identity-center",
@@ -664,6 +667,7 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-braket",
     "aws-open-3d-engine",
     "aws-ground-station",
     "aws-local-zones",
@@ -869,8 +873,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1012,
-      "concepts": 251
+      "covered": 1028,
+      "concepts": 255
     },
     "gcp": {
       "sources": 261,
@@ -3731,8 +3735,8 @@
       },
       {
         "a": "aws-ses",
-        "b": "aws-waf",
-        "similarity": 0.166
+        "b": "aws-braket",
+        "similarity": 0.1748
       }
     ],
     "aws-textract": [
@@ -8512,6 +8516,23 @@
         "similarity": 0.1795
       }
     ],
+    "aws-finops-agent": [
+      {
+        "a": "aws-finops-agent",
+        "b": "aws-certificate-manager",
+        "similarity": 0.2946
+      },
+      {
+        "a": "aws-finops-agent",
+        "b": "gcp-category-media",
+        "similarity": 0.2244
+      },
+      {
+        "a": "aws-finops-agent",
+        "b": "aws-application-migration",
+        "similarity": 0.2134
+      }
+    ],
     "aws-managed-blockchain": [
       {
         "a": "aws-managed-blockchain",
@@ -8758,13 +8779,13 @@
       },
       {
         "a": "aws-chime",
-        "b": "aws-vpc-lattice",
-        "similarity": 0.2812
+        "b": "aws-devops-agent",
+        "similarity": 0.2895
       },
       {
         "a": "aws-chime",
-        "b": "aws-management-console",
-        "similarity": 0.2612
+        "b": "aws-vpc-lattice",
+        "similarity": 0.2812
       }
     ],
     "aws-chime-sdk": [
@@ -8842,14 +8863,14 @@
         "similarity": 0.2181
       },
       {
+        "a": "aws-finops-agent",
+        "b": "aws-application-migration",
+        "similarity": 0.2134
+      },
+      {
         "a": "aws-application-migration",
         "b": "aws-sustainability",
         "similarity": 0.1936
-      },
-      {
-        "a": "m365-column-arrow",
-        "b": "aws-application-migration",
-        "similarity": 0.1899
       }
     ],
     "aws-transfer-family": [
@@ -8884,6 +8905,23 @@
         "a": "aws-application-discovery",
         "b": "fabric-calculator-triangle",
         "similarity": 0.1825
+      }
+    ],
+    "aws-devops-agent": [
+      {
+        "a": "aws-devops-agent",
+        "b": "aws-managed-grafana",
+        "similarity": 0.365
+      },
+      {
+        "a": "aws-cloud9",
+        "b": "aws-devops-agent",
+        "similarity": 0.3081
+      },
+      {
+        "a": "aws-chime",
+        "b": "aws-devops-agent",
+        "similarity": 0.2895
       }
     ],
     "aws-application-auto-scaling": [
@@ -9160,6 +9198,11 @@
     ],
     "aws-managed-grafana": [
       {
+        "a": "aws-devops-agent",
+        "b": "aws-managed-grafana",
+        "similarity": 0.365
+      },
+      {
         "a": "aws-chime",
         "b": "aws-managed-grafana",
         "similarity": 0.3344
@@ -9168,14 +9211,14 @@
         "a": "aws-managed-grafana",
         "b": "azure-host-groups",
         "similarity": 0.294
-      },
-      {
-        "a": "aws-cloud9",
-        "b": "aws-managed-grafana",
-        "similarity": 0.2885
       }
     ],
     "aws-managed-prometheus": [
+      {
+        "a": "aws-devops-agent",
+        "b": "aws-managed-prometheus",
+        "similarity": 0.2417
+      },
       {
         "a": "aws-managed-prometheus",
         "b": "aws-parallel-computing",
@@ -9185,11 +9228,6 @@
         "a": "azure-batch-ai",
         "b": "aws-managed-prometheus",
         "similarity": 0.2113
-      },
-      {
-        "a": "m365-lightbulb-check",
-        "b": "aws-managed-prometheus",
-        "similarity": 0.1925
       }
     ],
     "aws-user-notifications": [
@@ -9430,6 +9468,23 @@
         "similarity": 0.2459
       }
     ],
+    "aws-security-agent": [
+      {
+        "a": "aws-security-agent",
+        "b": "aws-firewall-manager",
+        "similarity": 0.1923
+      },
+      {
+        "a": "azure-function-apps",
+        "b": "aws-security-agent",
+        "similarity": 0.186
+      },
+      {
+        "a": "aws-xray",
+        "b": "aws-security-agent",
+        "similarity": 0.1835
+      }
+    ],
     "aws-security-hub": [
       {
         "a": "m365-data-area",
@@ -9449,6 +9504,11 @@
     ],
     "aws-certificate-manager": [
       {
+        "a": "aws-finops-agent",
+        "b": "aws-certificate-manager",
+        "similarity": 0.2946
+      },
+      {
         "a": "fabric-paginated-report",
         "b": "aws-certificate-manager",
         "similarity": 0.25
@@ -9457,11 +9517,6 @@
         "a": "aws-certificate-manager",
         "b": "azure-scheduled-actions",
         "similarity": 0.2415
-      },
-      {
-        "a": "aws-certificate-manager",
-        "b": "aws-iot-greengrass",
-        "similarity": 0.2343
       }
     ],
     "aws-identity-center": [
@@ -9930,14 +9985,14 @@
         "similarity": 0.2647
       },
       {
+        "a": "aws-devops-agent",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.2644
+      },
+      {
         "a": "aws-appflow",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2408
-      },
-      {
-        "a": "aws-elastic-disaster-recovery",
-        "b": "aws-vpc",
-        "similarity": 0.2281
       }
     ],
     "aws-efs": [
@@ -11023,17 +11078,22 @@
         "similarity": 0.3551
       },
       {
+        "a": "aws-devops-agent",
+        "b": "aws-privatelink",
+        "similarity": 0.2753
+      },
+      {
         "a": "aws-privatelink",
         "b": "aws-app-studio",
         "similarity": 0.259
-      },
-      {
-        "a": "aws-verified-permissions",
-        "b": "aws-privatelink",
-        "similarity": 0.2482
       }
     ],
     "aws-site-vpn": [
+      {
+        "a": "aws-devops-agent",
+        "b": "aws-site-vpn",
+        "similarity": 0.2425
+      },
       {
         "a": "fabric-copy-job",
         "b": "aws-site-vpn",
@@ -11043,11 +11103,6 @@
         "a": "aws-managed-grafana",
         "b": "aws-site-vpn",
         "similarity": 0.2281
-      },
-      {
-        "a": "aws-client-vpn",
-        "b": "aws-site-vpn",
-        "similarity": 0.2193
       }
     ],
     "aws-transit-gateway": [
@@ -11402,9 +11457,9 @@
         "similarity": 0.2302
       },
       {
-        "a": "aws-application-migration",
+        "a": "aws-finops-agent",
         "b": "gcp-category-media",
-        "similarity": 0.2181
+        "similarity": 0.2244
       }
     ],
     "gcp-category-migration": [
@@ -12108,6 +12163,23 @@
         "a": "aws-trusted-advisor",
         "b": "aws-fargate",
         "similarity": 0.1678
+      }
+    ],
+    "aws-braket": [
+      {
+        "a": "aws-braket",
+        "b": "fabric-folder",
+        "similarity": 0.2041
+      },
+      {
+        "a": "fabric-report",
+        "b": "aws-braket",
+        "similarity": 0.1779
+      },
+      {
+        "a": "aws-ses",
+        "b": "aws-braket",
+        "similarity": 0.1748
       }
     ],
     "aws-open-3d-engine": [

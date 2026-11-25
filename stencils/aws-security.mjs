@@ -3,6 +3,16 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsSecurityArtwork = [
+  entry("aws-security-agent", "aws", "AWS Security Agent", sizes("AWS-Security-Agent"),
+    "An automated security assessment investigates a protected application.",
+    [
+      line([54, 15], [86, 27], [83, 60], [74, 76], [54, 91], [34, 76], [25, 60], [22, 27], [54, 15]),
+      rect(36, 36, 36, 27), line([36, 45], [72, 45]), line([42, 52], [65, 52]), line([42, 58], [59, 58]),
+      oval(73, 62, 27, 27), line([93, 82], [110, 99]),
+      line([82, 71], [87, 76], [94, 67]),
+      line([17, 105], [89, 105]),
+      line([96, 20], [99, 14], [102, 20], [108, 23], [102, 26], [99, 32], [96, 26], [90, 23], [96, 20]),
+    ]),
   entry("aws-security-hub", "aws", "AWS Security Hub", sizes("AWS-Security-Hub"),
     "A security shield gathers findings from three sources.",
     [

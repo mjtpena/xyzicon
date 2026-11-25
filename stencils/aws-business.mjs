@@ -3,6 +3,17 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-finops-agent", "aws", "AWS FinOps Agent", sizes("AWS-FinOps-Agent"),
+    "An automated assistant identifies opportunities in a cost report.",
+    [
+      line([10, 14], [69, 14], [81, 26], [81, 104], [10, 104], [10, 14]),
+      line([69, 14], [69, 26], [81, 26]), line([19, 34], [70, 34]),
+      line([22, 87], [22, 62], [31, 62], [31, 87]), line([37, 87], [37, 51], [46, 51], [46, 87]),
+      line([52, 87], [52, 72], [61, 72], [61, 87]), line([19, 87], [69, 87]),
+      oval(63, 48, 34, 34), line([88, 73], [106, 91]),
+      line([80, 56], [80, 72]), line([75, 60], [80, 56], [85, 60]),
+      line([91, 20], [95, 12], [99, 20], [107, 24], [99, 28], [95, 36], [91, 28], [83, 24], [91, 20]),
+    ]),
   entry("aws-managed-blockchain", "aws", "Amazon Managed Blockchain", sizes("Amazon-Managed-Blockchain"),
     "Multiple participants maintain a linked, shared ledger.",
     [

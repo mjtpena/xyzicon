@@ -3,6 +3,18 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-braket", "aws", "Amazon Braket", sizes("Amazon-Braket"),
+    "A quantum circuit feeds a quantum processing unit.",
+    [
+      line([10, 28], [56, 28]), line([10, 48], [56, 48]), line([10, 68], [56, 68]),
+      rect(20, 21, 14, 14), line([23, 24], [31, 32]), line([31, 24], [23, 32]),
+      oval(42, 43, 10, 10, true), line([47, 53], [47, 68]), oval(42, 63, 10, 10),
+      line([56, 48], [67, 48]), line([61, 43], [67, 48], [61, 53]),
+      rect(73, 25, 34, 49), line([80, 19], [80, 25]), line([90, 19], [90, 25]), line([100, 19], [100, 25]),
+      line([80, 74], [80, 80]), line([90, 74], [90, 80]), line([100, 74], [100, 80]),
+      oval(85, 44, 10, 10), line([79, 58], [101, 39]), line([79, 39], [101, 58]),
+      line([16, 99], [109, 99]),
+    ]),
   entry("aws-open-3d-engine", "aws", "Open 3D Engine", sizes("Open-3D-Engine"),
     "A wireframe scene is manipulated with game controls.",
     [

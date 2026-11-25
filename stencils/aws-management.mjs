@@ -3,6 +3,17 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsManagementArtwork = [
+  entry("aws-devops-agent", "aws", "AWS DevOps Agent", sizes("AWS-DevOps-Agent"),
+    "An assistant investigates an incident across a service trace.",
+    [
+      rect(10, 19, 108, 78), line([10, 31], [118, 31]), line([17, 25], [35, 25]),
+      line([20, 45], [27, 45], [31, 39], [35, 54], [40, 45], [48, 45]),
+      rect(20, 64, 18, 12), rect(49, 64, 18, 12), rect(78, 64, 18, 12),
+      line([38, 70], [49, 70]), line([67, 70], [78, 70]),
+      oval(74, 34, 24, 24), line([92, 52], [106, 64]),
+      line([94, 12], [97, 7], [100, 12], [105, 15], [100, 18], [97, 23], [94, 18], [89, 15], [94, 12]),
+      line([17, 108], [110, 108]),
+    ]),
   entry("aws-application-auto-scaling", "aws", "AWS Application Auto Scaling", sizes("AWS-Application-Auto-Scaling"),
     "A target metric adjusts the capacity of an application resource.",
     [
