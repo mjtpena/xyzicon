@@ -1,6 +1,39 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-expressroute-direct", "azure", "ExpressRoute Direct", ["00903-icon-service-ExpressRoute-Direct"],
+    "A dedicated direct connection joins a site to Azure.",
+    [
+      rect(13, 30, 30, 28), line([20, 39], [36, 39]), line([20, 49], [32, 49]),
+      line([43, 45], [83, 45]), line([43, 53], [83, 53]), line([73, 37], [83, 45], [73, 53]),
+      line([88, 59], [82, 55], [82, 48], [87, 43], [94, 43], [98, 36], [106, 34], [113, 39], [115, 46], [112, 55], [106, 59], [88, 59]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-communication-services", "azure", "Azure Communication Services", ["00968-icon-service-Azure-Communication-Services"],
+    "Communications combine messages and calls in an application.",
+    [
+      line([14, 22], [83, 22], [83, 59], [56, 59], [43, 71], [43, 59], [14, 59], [14, 22]), oval(26, 36, 6, 6, true), oval(45, 36, 6, 6, true), oval(64, 36, 6, 6, true),
+      line([81, 64], [87, 60], [93, 67], [90, 72], [95, 78], [101, 81], [106, 77], [112, 83], [109, 90], [103, 93], [93, 88], [85, 81], [80, 72], [81, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-peering-service", "azure", "Peering Service", ["00970-icon-service-Peering-Service"],
+    "A peering service directly connects networks.",
+    [
+      oval(12, 35, 38, 38), line([31, 35], [24, 44], [22, 54], [24, 64], [31, 73]), line([15, 48], [47, 48]), line([15, 60], [47, 60]),
+      oval(75, 35, 38, 38), line([94, 35], [101, 44], [103, 54], [101, 64], [94, 73]), line([78, 48], [110, 48]), line([78, 60], [110, 60]),
+      line([50, 49], [75, 49]), line([68, 42], [75, 49], [68, 56]), line([75, 60], [50, 60]), line([57, 53], [50, 60], [57, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-peerings", "azure", "Peerings", ["01285-icon-service-Peerings"],
+    "Peering links two virtual networks.",
+    [
+      line([13, 30], [13, 22], [29, 22]), line([43, 22], [56, 22], [56, 30]), line([13, 67], [13, 75], [29, 75]), line([43, 75], [56, 75], [56, 67]), oval(22, 39, 12, 12), oval(38, 47, 12, 12), line([34, 45], [38, 50]),
+      line([69, 30], [69, 22], [85, 22]), line([99, 22], [112, 22], [112, 30]), line([69, 67], [69, 75], [85, 75]), line([99, 75], [112, 75], [112, 67]), oval(78, 39, 12, 12), oval(94, 47, 12, 12), line([90, 45], [94, 50]),
+      line([56, 49], [69, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-network-function-manager-functions", "azure", "Network Function Manager Functions", ["01001-icon-service-Azure-Network-Function-Manager-Functions"],
+    "A managed network function runs on an appliance.",
+    [
+      rect(17, 24, 87, 62), line([17, 38], [104, 38]), line([24, 31], [29, 31]), line([35, 31], [40, 31]),
+      line([29, 53], [22, 61], [29, 69]), line([49, 53], [56, 61], [49, 69]), line([44, 49], [35, 73]), oval(67, 57, 8, 8), oval(90, 45, 8, 8), oval(90, 69, 8, 8), line([75, 59], [90, 51]), line([75, 63], [90, 73]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-edge-actions", "azure", "Edge Actions", ["029273094-icon-service-Edge-Actions"],
     "An action runs at the edge as traffic passes.",
     [

@@ -4050,7 +4050,7 @@
       ],
       "revision": "83aec350c52e10a278a0373e121307a2c6e51d77fd4f8b5692bef1f179e7c147",
       "geometrySignature": "0157d649354182e186ab152641d67dda3797963cdaaa89d8bbc366fed13134ec",
-      "comparisonRevision": "281fd51a8f6a6464c42061973f4c204eefe6b929682d2c7c15820e943a6f1600",
+      "comparisonRevision": "9be9792bab3bb5ecf5de9b519dd347bedfb0eaec28fe18b48fed4dfab1d38ccf",
       "review": "pending",
       "notes": ""
     },
@@ -9505,7 +9505,7 @@
       ],
       "revision": "bfceabe4c161db9d48a1c8192769e9c3db52995543501ea0c80028b0772770ad",
       "geometrySignature": "feab7966a8dc3bf8f8801c0d87d2096dcea92e7ef125206e93fea1a5d26b1334",
-      "comparisonRevision": "7cfa8f0e66b64f36e3d04d4673f021c2ce730ed6a001ba6c78327ffd3362d9cc",
+      "comparisonRevision": "8f9eb86ee0a0c7f561cedee7a143f3278c3bed6867f4e672f597b4b120a57499",
       "review": "pending",
       "notes": ""
     },
@@ -14585,6 +14585,81 @@
       "notes": ""
     },
     {
+      "id": "azure-expressroute-direct",
+      "provider": "azure",
+      "name": "ExpressRoute Direct",
+      "rationale": "A dedicated direct connection joins a site to Azure.",
+      "path": "stencils/azure-expressroute-direct.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/00903-icon-service-ExpressRoute-Direct.svg"
+      ],
+      "revision": "809003fbc2f0e5e7764c7721688cbfaa43e0b7405f2101bf266a471883fe47b0",
+      "geometrySignature": "120ef88c05cea4942a1117547d51a238a80b279722dbee8dc1d33dcd27449ffb",
+      "comparisonRevision": "e91f1c8194d37d4f9f39a2fb283960715a19caf7bc32a00b66d322cd329fa2df",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-communication-services",
+      "provider": "azure",
+      "name": "Azure Communication Services",
+      "rationale": "Communications combine messages and calls in an application.",
+      "path": "stencils/azure-communication-services.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/00968-icon-service-Azure-Communication-Services.svg"
+      ],
+      "revision": "2ad1f5471856aafcd8c26dcb907283067a8812768854939fa195823383747179",
+      "geometrySignature": "fc1082b0b833b0a689ace279dfa4fdc0510ab11147d53467fa6fb6770d310c01",
+      "comparisonRevision": "a59187e1dbc56914c265846e7f2f82cf6aa24b1bbd1ff12e7dbf6a5c659a60be",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-peering-service",
+      "provider": "azure",
+      "name": "Peering Service",
+      "rationale": "A peering service directly connects networks.",
+      "path": "stencils/azure-peering-service.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/00970-icon-service-Peering-Service.svg"
+      ],
+      "revision": "e1d710e6a9db343d8dcc827f8da6338fff06db1a2cee94e5f71eebd824fb87e6",
+      "geometrySignature": "fc7e800b9a81525f174ce93d4ee9365c8c2f48d745be2a5f2e0080c6ea463046",
+      "comparisonRevision": "cc380198220d4b90611908b45604f31b49b1c3475c79e103423b6a571173f720",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-peerings",
+      "provider": "azure",
+      "name": "Peerings",
+      "rationale": "Peering links two virtual networks.",
+      "path": "stencils/azure-peerings.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/01285-icon-service-Peerings.svg"
+      ],
+      "revision": "72f97c00ee78996d9cf7b055c60258e6f98e759a6aedfefab774cf171e0677be",
+      "geometrySignature": "3223a7d1b1ebfe3c060aa6dc3738307b4d14986fdf9bbeaeb615d7717812f0f2",
+      "comparisonRevision": "c57d970dca432effa7fe2fbbbc05913622b1656940cd34a60b8f67ec4aacfe8e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-network-function-manager-functions",
+      "provider": "azure",
+      "name": "Network Function Manager Functions",
+      "rationale": "A managed network function runs on an appliance.",
+      "path": "stencils/azure-network-function-manager-functions.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/01001-icon-service-Azure-Network-Function-Manager-Functions.svg"
+      ],
+      "revision": "2d7980f5b35826aa7cfb6222023c953aa15fa502f9c72dd12524dd07cdc19b1c",
+      "geometrySignature": "99bbf2892bd1c8fde99340c887097ba91117c0d5dd0e90a31031f09e72ca7e5c",
+      "comparisonRevision": "4873154129400b4c6056844bba1b8c252887bdf77eabf2d1b405b4ecd1aa0f59",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-edge-actions",
       "provider": "azure",
       "name": "Edge Actions",
@@ -14700,7 +14775,7 @@
       ],
       "revision": "34faef7c35ec7707324a8c4420d90968f3789d181662b3966e164fe1352e80c9",
       "geometrySignature": "e92386fd471f5651d7c6a584e897d9cbfd35b93f5036e886a6eb8db453c23d7e",
-      "comparisonRevision": "6b26bfe188c15675da90f1a490fe2627a180552eb59be465090d915c93d7e02a",
+      "comparisonRevision": "462f92115efbf75b136b23d13ae84eca90f4c8882014e4ee073dd5a8c3faaa29",
       "review": "pending",
       "notes": ""
     },
@@ -15663,7 +15738,7 @@
       ],
       "revision": "1532fa3b34f044821ea5c07b64809ad2ca563b339c4d3fd29e8e00534499e88b",
       "geometrySignature": "057ed4a604b698a8fc135b6ec013a760a6aba3ad9b29353cd9ae5259c71bd71a",
-      "comparisonRevision": "87ba612c30c8d579bc41d0d9ae6e4b2353fea8c67e80a05e26adbf531504deaa",
+      "comparisonRevision": "183f3b9b8fa686d48aebbfe8b9318a6112da8c33454284d91118dd7d1647f40f",
       "review": "pending",
       "notes": ""
     },
@@ -15948,7 +16023,7 @@
       ],
       "revision": "aac15f377c66b33c0811d604b13975be8b41b0cbc69aaec0600b782f48cd5b41",
       "geometrySignature": "6e8adf6864d2c52444da7bbd8b86a51198d5e4a10d8150389aedd26c8b639cf1",
-      "comparisonRevision": "ac3ddeeb796c12a66e78b2171e5c490e8d24d7c3e46bab77f7ee74674c4b69c5",
+      "comparisonRevision": "59d2fb9614d3c93f26b8c4767587bc8df2f43e30abb0bea8acdb62be0c1688eb",
       "review": "pending",
       "notes": ""
     },
@@ -17778,7 +17853,7 @@
       ],
       "revision": "83ba8229fae547c54414edc1de812209ee04673479accd1fc9b94142abcf379c",
       "geometrySignature": "c187fa68daeb16d893d5e85060ee4ff967e43b607715c76b2f89465a41eebadb",
-      "comparisonRevision": "8dbe6a538b79985d3c7aea824635409bedd7c9b97b6ba0c416c84cfd1e24f948",
+      "comparisonRevision": "8d38f60218b64dc9422fc2a901c3481fcf1bdfac88bca2309e0b3de07049c5a0",
       "review": "pending",
       "notes": ""
     },
@@ -19056,7 +19131,7 @@
       ],
       "revision": "f66ae038d5fdffa93a5ff13f525d5f0ffc19d7ae76ad9eb86f36330b292ee28f",
       "geometrySignature": "53eb6e69cf27cf3cf2eaba62f96c01f09df0d49cf903a5c64a96b0c1138eb3b7",
-      "comparisonRevision": "269365b2ad1787cecb822eaf9876903f2d074398975766cfd0516588042bf724",
+      "comparisonRevision": "a3797eea242749eabfb76ef2de0d1164c74a2256b545a69ce7e99a812b2d6d84",
       "review": "pending",
       "notes": ""
     },
@@ -20829,7 +20904,7 @@
       ],
       "revision": "6793b54ef4997d9a1046a099c06ca2781fb13e5b72f672150813912b7f9a0432",
       "geometrySignature": "c515c5f7ca2efade54fb900b8c3a323b00d86d5f280974b339409bb96be95339",
-      "comparisonRevision": "03d26d6d0b4193c16dac92e7c6fca8ae5efefb5ba9929522aed9965d09a8a775",
+      "comparisonRevision": "8ae3f10df6087cf6232469228539fb8f3fab46266eec0bba993ae5381a1ea8ec",
       "review": "pending",
       "notes": ""
     },
@@ -20989,7 +21064,7 @@
       ],
       "revision": "9a1074b8576d0535ffb775aa21e2a5f5b0e60e0a51d03bf19e973743c94db356",
       "geometrySignature": "9490b850367241a2b19391ded40fe113770253626b4ae02e121116916b668092",
-      "comparisonRevision": "7a82aa452c9aa245e80759ec7c4180f282603e8da2e0bc3c798f55c180c9a1f2",
+      "comparisonRevision": "f2da3074ba979e0c2e503d927ae58236e4b37440b03f18ff3cbe8ae40c728ad2",
       "review": "pending",
       "notes": ""
     },
@@ -21085,7 +21160,7 @@
       ],
       "revision": "b96a8028b8d2e4320ff9e3c4251b0ac4023bda2b82d4fa259f7e6507936a9ff8",
       "geometrySignature": "dc6b12834a795d2f49e3516c4457b1ce3d721c9f530ad7ce9992edcfd8924caf",
-      "comparisonRevision": "dbabc273116bee50dcb9a0d758bfed7aeda09a86ef9b60c56844a8fb5111e47c",
+      "comparisonRevision": "1b629b0230c71ddf0b98de9704700c195cf00ee8cc07279bdf40842e392ae5cd",
       "review": "pending",
       "notes": ""
     },
@@ -22438,7 +22513,7 @@
       ],
       "revision": "f3ed0fd211bd89790d77a747f10a832fd03e6d6b3fa76b9f0df42ac8399fee38",
       "geometrySignature": "1816a45fc17be626c71245976f605fb2e0eaad58864ca5ebde54c5247cf6dd2c",
-      "comparisonRevision": "7d81646767a2177c0d32b83162ee7fe24b860dbb30dc91ae3d6889386618ad0c",
+      "comparisonRevision": "9b469de7d746453fed57ddc9e6c709e50ed1c7106caed95ae43c7a20b257b979",
       "review": "pending",
       "notes": ""
     },
@@ -22453,7 +22528,7 @@
       ],
       "revision": "20c1d923516390ce5e59fe66091c242bac8d68cb69a37dd5988ff95917b2a103",
       "geometrySignature": "4bda75924dfb49ff880f342e12d53eb66ce6ab1bd6f595738a3f3d7926e840da",
-      "comparisonRevision": "f83d2277e0ca0876fd7756d259d1470e8a95bfc0442faa82fb3e147c855f11c4",
+      "comparisonRevision": "cfe31ba1999fcdd92ee05990891daed01cf38031f6104d9ed745ddc7bde790d1",
       "review": "pending",
       "notes": ""
     },
@@ -24451,7 +24526,7 @@
       ],
       "revision": "991be1f136581842492aa1e7771fb0a95602b8d65e26718e4299612cb07fb0c5",
       "geometrySignature": "e5b37e0b5bf1cc14363187760e5d11a631e170bd1e2b3064e4b2a65449f26e7c",
-      "comparisonRevision": "5fe9e0ee2c2638fc37a6416b4a1bd09f71f2cbf5706ddfc9a149b6c2d3575562",
+      "comparisonRevision": "5a944b8dfe9818532d7da6d4dc159d9921527e61f65257be8552539ab9efc0d9",
       "review": "pending",
       "notes": ""
     },
@@ -24571,7 +24646,7 @@
       ],
       "revision": "88a97b56292a46ca30e7ab817dc88ec3b3ec72517861ca25512b386fa9273edc",
       "geometrySignature": "3159412a445372958159df5e27585b0f3e9094441d577ed5c2c8cd6de6f5a080",
-      "comparisonRevision": "b7e01046acd1d6c6dc774ddecb5ec5a064ee4d7cfd528900dbf1b5518429fbd5",
+      "comparisonRevision": "35b5f96ee2d33fddb3e0e51c9465fe7ee49d678066ceb4c4de63df183aa50604",
       "review": "pending",
       "notes": ""
     },
@@ -25383,7 +25458,7 @@
       ],
       "revision": "4ca7aba7cf66aa9025cb4960aeb1fcba46a44fe917d79ec8adff9e81e4be5f2d",
       "geometrySignature": "8321a5fd5580563b593d7ba8d04f0592522f982dc8ce1abf0553bab830ea3bee",
-      "comparisonRevision": "cf42738f495bbda2c65daf6ca8e10caf358b4f1b9f9208cca6464701a2113213",
+      "comparisonRevision": "47debf4b93eccaf64ccbc81dcbee0559121e0f95084a21d2a4b53f9259747c31",
       "review": "pending",
       "notes": ""
     },
@@ -26146,7 +26221,7 @@
       ],
       "revision": "33978f7e72e3681336a89defa59e3352ba172844b0d31a4870355a1de76316b9",
       "geometrySignature": "8cb88deecb0239dcaf13b9dbdd6be177f223e8624d804cf2195b1404107b05b5",
-      "comparisonRevision": "79c17c4eff2864f6999a3db1137462da1b5d1c69677a31662209daf47396bf75",
+      "comparisonRevision": "700f5738e192208681cde7af338d1af92ea2bc5c7b82cb798e8b547bd9a78f4e",
       "review": "pending",
       "notes": ""
     },
@@ -26343,7 +26418,7 @@
       ],
       "revision": "6218e32994102bafebf74faaa19f8fb9de8201bd07c0b32ad0db0d03f33ef776",
       "geometrySignature": "b428da7743964fa5d6561dd8fba526a0be31323ab58687201c94d7e189d3ca72",
-      "comparisonRevision": "470dd2dd74d28727c5b986efc818dfec907a120fd59221d7524bdea5dcd365d2",
+      "comparisonRevision": "bc94b9d70e58c8a2a18bef9798dd3f5c5e9abd7e3bb12fff2707170c1bf791df",
       "review": "pending",
       "notes": ""
     },
@@ -28573,7 +28648,7 @@
       ],
       "revision": "6a78f8a80a2cd186210a3e8692d5eea7c31c785241168c13097f40249044c888",
       "geometrySignature": "a39368cc26026cf20e174346bedd828c625a00301314bf072cf36a0c1af9c2e6",
-      "comparisonRevision": "37ff4b40c38bc53891e7af147da011363e80be1ac4197749627b510971eebc23",
+      "comparisonRevision": "b68303dbfcbbbe5eb1d00cfbd3abcbf0faf5116867a2861846815bb41db7536a",
       "review": "pending",
       "notes": ""
     },
@@ -35063,7 +35138,7 @@
       ],
       "revision": "26b4e1f10fdf85a004a2a8d7f908b974ee368b5dde1e8d4746bcc9385ab8afae",
       "geometrySignature": "9b1f099ece6ffdbc6dcaed40a25f5ef525696aaef74741f0de74fb1f3f4da4fd",
-      "comparisonRevision": "70ca14911f8e2fbd892702c1e4bd486135f0de949fc5cb4e2fc6ecc5ad489fa7",
+      "comparisonRevision": "dc14e332d83309b13b652d3d2a5495bad65584faa2fe2fef5393e0fb3fd45659",
       "review": "pending",
       "notes": ""
     },
