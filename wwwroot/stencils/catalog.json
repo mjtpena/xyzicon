@@ -4286,7 +4286,7 @@
       ],
       "revision": "88122bff49d7e7c6f27d2d779031fb1638e351cedbf96c027c9c4ab1e47f8881",
       "geometrySignature": "852a2e4a06266b37b0dbcc882e0f344ad0c68b054dd1e95735fee1ff28fd3558",
-      "comparisonRevision": "8e64b47d0f220ed48c01d0b7076848aa35b941491e675aa3bea4edd4c98a6a57",
+      "comparisonRevision": "22df7c1ecaeb5fc33dbb8aea60c187c8835d3b7d14d167b757f27ad26322db83",
       "review": "pending",
       "notes": ""
     },
@@ -5425,7 +5425,7 @@
       ],
       "revision": "57ec7a84ca17ebd4832a9f6fee31af7473b23ec9667bd0240642bb94eb7a57b7",
       "geometrySignature": "3051f6364a99615cbd036ab45f247652ccb68f19d4805bbfed98557d1fabec6d",
-      "comparisonRevision": "639f325460a28695fb810e62ac66ffdd79b8550a3fbb9784237af34993b24109",
+      "comparisonRevision": "e75c30d31951e28e2307c8fd84c670bd62c64c6d89f600f0a3fdf73ba132718f",
       "review": "pending",
       "notes": ""
     },
@@ -5559,7 +5559,7 @@
       ],
       "revision": "357ac3bdcae9a0ec742cae2592b5e48199e0c96d51ed496c6673974488f28967",
       "geometrySignature": "b11ac2dd1316b50676bb7af7fed3b675fe625f55b7f5585adc74de77c71db4b9",
-      "comparisonRevision": "b034079aa9bc871497938573605b61e95e7c496015cd4b29e0d9b6a8d6320b38",
+      "comparisonRevision": "529825f2e826ca74fdd9bd1e57fb28b1ac04f15e3652f42f3acf02d99d081065",
       "review": "pending",
       "notes": ""
     },
@@ -7191,7 +7191,7 @@
       ],
       "revision": "c4adf23c00ced2322e27df4a4809e2682ace257bedc6a2812c2f3a9bfcd56436",
       "geometrySignature": "efed0ce43ce07583e04d88c07f49b209c6b398b7bffc137056bbe010ef7b07a9",
-      "comparisonRevision": "055a44b8bdc3502378ff25dfbb2b0e66c6db50e5c7b09d57c6d8a183d6f8049c",
+      "comparisonRevision": "b8185749133b2df458a79d5e3651024c33d6527102b269a60fb7d194363e3a92",
       "review": "pending",
       "notes": ""
     },
@@ -7652,7 +7652,7 @@
       ],
       "revision": "c7b71eb0289462f8201a7e5f423d766e0b5e6c7a72587cb1b10f3f8594383146",
       "geometrySignature": "6bff8f389f909b1cbc81ad9b7f791b6b5e69f10dd3a17963dedb24ce6265ec97",
-      "comparisonRevision": "e56f5339cca659cbb91333df81231cfe6de1f806d4ac1e3eba7cc425e419162b",
+      "comparisonRevision": "2b1dd2759c9172b6f2020989e0ce1cd533d01ab85bc1535b932cbab2914b047e",
       "review": "pending",
       "notes": ""
     },
@@ -8497,7 +8497,7 @@
       ],
       "revision": "dac0e369569db887b14b470c94f1ebb1afc05702c0919c5219a79cf21bbbe4b5",
       "geometrySignature": "7e156e514ec817079d00819b4bcf240c1779b97c2630ee0520bb11ed0e3f7905",
-      "comparisonRevision": "13ca7a44f75f104411dc15d312cc8eddb8e7615fa158e0ad52d23545c72402a3",
+      "comparisonRevision": "ba57fba1669f4061f92ee5f792c7efa4d1cb7116c6ea2d6befe60c8a1ac620cb",
       "review": "pending",
       "notes": ""
     },
@@ -8624,6 +8624,78 @@
       "revision": "5a226d77dcce452a58fcdc587deb9163cf482e9f0c31f85de294d1920f551d64",
       "geometrySignature": "5d468305ae1ea1d0c2e1531aa1465add4b8316a4dd45df9ceeb844ab7f0a5973",
       "comparisonRevision": "1f301881486878a28447630ec872455bcfec1e7bf6244474725a323150784430",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-application-auto-scaling",
+      "provider": "aws",
+      "name": "AWS Application Auto Scaling",
+      "rationale": "A target metric adjusts the capacity of an application resource.",
+      "path": "stencils/aws-application-auto-scaling.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Application-Auto-Scaling_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Application-Auto-Scaling_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Application-Auto-Scaling_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Application-Auto-Scaling_64.svg"
+      ],
+      "revision": "4b2023981c2027e9e74b1c81a3a64fcd09945ff1522eb1061f735a7328f200d1",
+      "geometrySignature": "082881e5f1dbae1253df44e361ea9209af6938c6f080342ae5b57628cbb304e0",
+      "comparisonRevision": "d019630c3f3b8c64eace0b946f7008aef604e0c9b79951b63c8a0c34150c642c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-auto-scaling",
+      "provider": "aws",
+      "name": "AWS Auto Scaling",
+      "rationale": "A scaling plan adjusts capacity across several resource groups.",
+      "path": "stencils/aws-auto-scaling.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Auto-Scaling_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Auto-Scaling_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Auto-Scaling_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Auto-Scaling_64.svg"
+      ],
+      "revision": "9573a4404259973cb2b3409c4b6d70cfa479b755a82b7912d84a89099af7c1ba",
+      "geometrySignature": "5d638b7265440b96db7e7fa5f1949992611c21ae00718c0b207a0298478b69e8",
+      "comparisonRevision": "83f3c2ae1651ac3ebd2959c686fbca3e27df9e31efe892733ab0f6748bf810ca",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-launch-wizard",
+      "provider": "aws",
+      "name": "AWS Launch Wizard",
+      "rationale": "A guided checklist launches a provisioned application stack.",
+      "path": "stencils/aws-launch-wizard.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Launch-Wizard_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Launch-Wizard_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Launch-Wizard_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Launch-Wizard_64.svg"
+      ],
+      "revision": "bd8925fa9541fab063a12b9c3e5ce7bd597ec30ca362df18ad9276959b73a8b8",
+      "geometrySignature": "6efa619278f044878c58fe55646580d49b9b3d0b681fe2960dae2ee8a3addfbc",
+      "comparisonRevision": "d1db39ce65d3227a511e779cd4647b2f4b5d0589181904fd8452fbb182520d34",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-management-console",
+      "provider": "aws",
+      "name": "AWS Management Console",
+      "rationale": "A browser dashboard navigates cloud services and their status.",
+      "path": "stencils/aws-management-console.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-Management-Console_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-Management-Console_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-Management-Console_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-Management-Console_64.svg"
+      ],
+      "revision": "2dd4060940d567c23d14b5523146f0d2b6d412fa15625c2b38aabbd392c898fd",
+      "geometrySignature": "d431d468009d784b7d4b9ee84e8ec70602ee48c8fd24b0f3564ad20e1e134cf6",
+      "comparisonRevision": "f7327e0c2e9fada398ffe18b66277bd93e5fcd4b66046f759d6cf169b2aeef05",
       "review": "pending",
       "notes": ""
     },
@@ -8785,7 +8857,7 @@
       ],
       "revision": "b01403936a74cd6f6635d8ceab4b9692e3afddcda7fa96119a65e4caa8f49c54",
       "geometrySignature": "65da71f965e53f1f442d8bf25dc76c42329437ccccb9519e211e8b6fbb599c5c",
-      "comparisonRevision": "40ee974eb25f087d6c7e2c52921663acf23a15ed68701526df7a85f5b067e8dd",
+      "comparisonRevision": "3e276006b7112aeccfa3e3cf36d91e946d53d38410bba7b557dc056f5127fb87",
       "review": "pending",
       "notes": ""
     },
@@ -9325,7 +9397,7 @@
       ],
       "revision": "c68815a8b98848bb1886c7dcf1dfdb480a4f329b5082eff8b1bccbacd11c7be6",
       "geometrySignature": "decfee59dc4a0f3a9b8c752ce02e5146d11f5a1ee8197ec3509f8834d13cb3e1",
-      "comparisonRevision": "cfaa9ee1814f7592949de1b0e651435bc58ee479eacc83af12768a2805cc6655",
+      "comparisonRevision": "d1e6df0a2f9460b2761232d2a8a691ac3c2fa3bef4a2b20e1c8e51ca00950a5c",
       "review": "pending",
       "notes": ""
     },
@@ -9523,7 +9595,7 @@
       ],
       "revision": "bc7801d1e56d73ba469f827ba0a11583afc63fc4065d93d1c6cc7b3ace4b42f6",
       "geometrySignature": "20944e5c3b8b902a3d574ce9378330b52b717c9b08acd711f8de28c56cc75310",
-      "comparisonRevision": "651fc6538255abafb15d3c360f8c8109246857ca178a9d2de2cd774a969f18fc",
+      "comparisonRevision": "ac44fab180f8e3da1b7b127ae4855e71f284c2fce6c8e9f16936d6e7caed62e6",
       "review": "pending",
       "notes": ""
     },
@@ -11032,7 +11104,7 @@
       ],
       "revision": "4ca7aba7cf66aa9025cb4960aeb1fcba46a44fe917d79ec8adff9e81e4be5f2d",
       "geometrySignature": "8321a5fd5580563b593d7ba8d04f0592522f982dc8ce1abf0553bab830ea3bee",
-      "comparisonRevision": "ef0827427cdc3f151c071f3b0c460109b45db9d9479901973e72c00775b6616a",
+      "comparisonRevision": "cf42738f495bbda2c65daf6ca8e10caf358b4f1b9f9208cca6464701a2113213",
       "review": "pending",
       "notes": ""
     },
@@ -12098,7 +12170,7 @@
       ],
       "revision": "4a1229baf134eb161cc526654e2458aff367c33dd9c5a216f7b3d2505e4a72ad",
       "geometrySignature": "91213b7ac905754ce6b319bd782b9c21f9406905a9f3a45c7dd568e3cce73c57",
-      "comparisonRevision": "7196caa97c4103dd77f5199b26a2f2136604faca374b44b9b6478181d31bc55a",
+      "comparisonRevision": "4963a76ad42e81b0f5e54ca266bc8cfecee16322a2e1c0453f58fbc455415007",
       "review": "pending",
       "notes": ""
     },
@@ -12314,7 +12386,7 @@
       ],
       "revision": "a9e45949946294e0ead73d10541e5a406b43f37d4db59c18a48c59b78330396a",
       "geometrySignature": "8ec2469623f75289c313a069aaca34df5a64968f7229ce4aa5832add0cdad10b",
-      "comparisonRevision": "384d5edd7964e571a2b6dc62d7d02b3605d16ffe39ddafdcf7acc986599a7048",
+      "comparisonRevision": "3e2a8987c9016e7b8cd0777e1208063bdfb0534a4df6f7652562a4ce421783f8",
       "review": "pending",
       "notes": ""
     },

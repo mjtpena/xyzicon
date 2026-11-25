@@ -3,6 +3,46 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsManagementArtwork = [
+  entry("aws-application-auto-scaling", "aws", "AWS Application Auto Scaling", sizes("AWS-Application-Auto-Scaling"),
+    "A target metric adjusts the capacity of an application resource.",
+    [
+      oval(11, 42, 40, 40), line([18, 65], [23, 54], [31, 49], [39, 54], [44, 65]),
+      line([31, 64], [40, 56]), line([23, 71], [39, 71]),
+      line([51, 62], [65, 62]), line([59, 56], [65, 62], [59, 68]),
+      rect(74, 42, 37, 40), line([74, 52], [111, 52]), line([81, 61], [104, 61]), line([81, 70], [104, 70]),
+      line([92, 35], [92, 18]), line([86, 24], [92, 18], [98, 24]),
+      line([92, 89], [92, 106]), line([86, 100], [92, 106], [98, 100]),
+      line([17, 100], [55, 100]),
+    ]),
+  entry("aws-auto-scaling", "aws", "AWS Auto Scaling", sizes("AWS-Auto-Scaling"),
+    "A scaling plan adjusts capacity across several resource groups.",
+    [
+      line([12, 14], [49, 14], [59, 24], [59, 65], [12, 65], [12, 14]),
+      line([49, 14], [49, 24], [59, 24]), line([19, 32], [51, 32]), line([19, 41], [47, 41]), line([19, 50], [51, 50]),
+      line([59, 43], [71, 43], [71, 25], [84, 25]), line([71, 43], [71, 67], [84, 67]),
+      rect(84, 15, 29, 20), rect(84, 57, 29, 20), line([91, 25], [106, 25]), line([91, 67], [106, 67]),
+      line([19, 91], [108, 91]), line([19, 91], [26, 84]), line([19, 91], [26, 98]),
+      line([108, 91], [101, 84]), line([108, 91], [101, 98]),
+    ]),
+  entry("aws-launch-wizard", "aws", "AWS Launch Wizard", sizes("AWS-Launch-Wizard"),
+    "A guided checklist launches a provisioned application stack.",
+    [
+      rect(10, 15, 61, 93), line([10, 29], [71, 29]), line([17, 22], [39, 22]),
+      line([19, 42], [23, 46], [29, 38]), line([35, 42], [62, 42]),
+      line([19, 58], [23, 62], [29, 54]), line([35, 58], [62, 58]),
+      oval(19, 71, 9, 9), line([35, 75], [62, 75]), line([19, 91], [60, 91]),
+      line([82, 75], [82, 44], [90, 30], [99, 22], [108, 30], [116, 44], [116, 75], [99, 68], [82, 75]),
+      oval(95, 40, 8, 8), line([91, 78], [91, 93]), line([99, 76], [99, 100]), line([107, 78], [107, 93]),
+    ]),
+  entry("aws-management-console", "aws", "AWS Management Console", sizes("AWS-Management-Console"),
+    "A browser dashboard navigates cloud services and their status.",
+    [
+      rect(9, 19, 110, 85), line([9, 32], [119, 32]), oval(16, 23, 4, 4, true), oval(24, 23, 4, 4),
+      line([15, 40], [43, 40], [43, 96]), line([15, 50], [35, 50]), line([15, 59], [35, 59]), line([15, 68], [35, 68]),
+      rect(51, 40, 25, 20), rect(84, 40, 25, 20), line([57, 50], [70, 50]), line([90, 50], [103, 50]),
+      line([52, 89], [52, 70], [60, 70], [60, 89]), line([68, 89], [68, 76], [76, 76], [76, 89]),
+      line([84, 89], [84, 64], [92, 64], [92, 89]), line([50, 89], [106, 89]),
+    ]),
   entry("aws-appconfig", "aws", "AWS AppConfig", sizes("AWS-AppConfig"),
     "A feature switch is safely rolled out to application instances.",
     [
