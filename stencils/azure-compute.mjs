@@ -1,6 +1,23 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-container-services-classic", "azure", "Container Services Deprecated", ["10049-icon-service-Container-Services-(Deprecated)"],
+    "A cluster contains several classic container workloads.",
+    [
+      line([25, 30], [37, 24], [49, 30], [49, 43], [37, 49], [25, 43], [25, 30]), line([25, 30], [37, 36], [49, 30]), line([37, 36], [37, 49]),
+      line([67, 30], [79, 24], [91, 30], [91, 43], [79, 49], [67, 43], [67, 30]), line([67, 30], [79, 36], [91, 30]), line([79, 36], [79, 49]),
+      line([11, 58], [23, 52], [35, 58], [35, 71], [23, 77], [11, 71], [11, 58]), line([11, 58], [23, 64], [35, 58]), line([23, 64], [23, 77]),
+      line([46, 58], [58, 52], [70, 58], [70, 71], [58, 77], [46, 71], [46, 58]), line([46, 58], [58, 64], [70, 58]), line([58, 64], [58, 77]),
+      line([81, 58], [93, 52], [105, 58], [105, 71], [93, 77], [81, 71], [81, 58]), line([81, 58], [93, 64], [105, 58]), line([93, 64], [93, 77]),
+      line([16, 110], [110, 110]),
+    ]),
+  entry("azure-spring-apps", "azure", "Azure Spring Apps", ["10370-icon-service-Azure-Spring-Apps"],
+    "An application framework surrounds a growing spring leaf.",
+    [
+      line([17, 47], [17, 19], [46, 19]), line([70, 19], [99, 19], [99, 47]), line([17, 70], [17, 99], [46, 99]), line([70, 99], [99, 99], [99, 70]),
+      line([36, 76], [34, 62], [39, 49], [49, 42], [64, 42], [78, 35], [78, 51], [74, 66], [63, 76], [49, 79], [36, 76]),
+      line([38, 77], [50, 67], [63, 60], [76, 52]), line([16, 112], [110, 112]),
+    ]),
   entry("azure-virtual-machines-classic", "azure", "Virtual Machines Classic", ["10028-icon-service-Virtual-Machines-(Classic)"],
     "A classic virtual machine is a cube on a workstation with a clock.",
     [

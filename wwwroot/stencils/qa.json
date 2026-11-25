@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1415,
-  "aliases": 4479,
+  "count": 1417,
+  "aliases": 4482,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1099,6 +1099,8 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-container-services-classic",
+    "azure-spring-apps",
     "azure-virtual-machines-classic",
     "azure-images-classic",
     "azure-images",
@@ -1685,8 +1687,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 251,
-      "concepts": 197
+      "covered": 254,
+      "concepts": 199
     },
     "fabric": {
       "sources": 1584,
@@ -8164,8 +8166,8 @@
       },
       {
         "a": "gcp-anthos",
-        "b": "aws-data-transfer-terminal",
-        "similarity": 0.2532
+        "b": "azure-container-services-classic",
+        "similarity": 0.2577
       }
     ],
     "gcp-distributed-cloud": [
@@ -9917,13 +9919,13 @@
       },
       {
         "a": "azure-oracle-database",
-        "b": "fabric-shapes-forward-arrow",
-        "similarity": 0.2534
+        "b": "azure-container-services-classic",
+        "similarity": 0.254
       },
       {
-        "a": "gcp-analytics-hub",
-        "b": "azure-oracle-database",
-        "similarity": 0.2473
+        "a": "azure-oracle-database",
+        "b": "fabric-shapes-forward-arrow",
+        "similarity": 0.2534
       }
     ],
     "azure-sql-server": [
@@ -14206,8 +14208,8 @@
       },
       {
         "a": "aws-devops-guru-insights",
-        "b": "fabric-document-sparkles",
-        "similarity": 0.2774
+        "b": "azure-spring-apps",
+        "similarity": 0.2782
       }
     ],
     "aws-proton": [
@@ -17126,13 +17128,13 @@
       },
       {
         "a": "m365-edit",
-        "b": "fabric-signal-tower",
-        "similarity": 0.2304
+        "b": "azure-spring-apps",
+        "similarity": 0.2426
       },
       {
         "a": "m365-edit",
-        "b": "fabric-window-relationship",
-        "similarity": 0.2232
+        "b": "fabric-signal-tower",
+        "similarity": 0.2304
       }
     ],
     "m365-filmstrip-play": [
@@ -20377,6 +20379,40 @@
         "similarity": 0.2273
       }
     ],
+    "azure-container-services-classic": [
+      {
+        "a": "azure-container-services-classic",
+        "b": "fabric-shapes-curved-arrow",
+        "similarity": 0.2654
+      },
+      {
+        "a": "gcp-anthos",
+        "b": "azure-container-services-classic",
+        "similarity": 0.2577
+      },
+      {
+        "a": "azure-oracle-database",
+        "b": "azure-container-services-classic",
+        "similarity": 0.254
+      }
+    ],
+    "azure-spring-apps": [
+      {
+        "a": "azure-spring-apps",
+        "b": "fabric-document-hint",
+        "similarity": 0.3027
+      },
+      {
+        "a": "aws-devops-guru-insights",
+        "b": "azure-spring-apps",
+        "similarity": 0.2782
+      },
+      {
+        "a": "azure-spring-apps",
+        "b": "fabric-shapes",
+        "similarity": 0.2754
+      }
+    ],
     "azure-virtual-machines-classic": [
       {
         "a": "azure-virtual-machines-classic",
@@ -21671,6 +21707,11 @@
     ],
     "fabric-document-hint": [
       {
+        "a": "azure-spring-apps",
+        "b": "fabric-document-hint",
+        "similarity": 0.3027
+      },
+      {
         "a": "fabric-document-hint",
         "b": "fabric-trophy-data-bars",
         "similarity": 0.2931
@@ -21679,11 +21720,6 @@
         "a": "m365-document-text",
         "b": "fabric-document-hint",
         "similarity": 0.29
-      },
-      {
-        "a": "aws-ecs-task",
-        "b": "fabric-document-hint",
-        "similarity": 0.2799
       }
     ],
     "fabric-documents-question": [
@@ -21875,17 +21911,17 @@
     ],
     "fabric-shapes-curved-arrow": [
       {
+        "a": "azure-container-services-classic",
+        "b": "fabric-shapes-curved-arrow",
+        "similarity": 0.2654
+      },
+      {
         "a": "azure-oracle-database",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.2589
       },
       {
         "a": "aws-ecs-copilot-cli",
-        "b": "fabric-shapes-curved-arrow",
-        "similarity": 0.2582
-      },
-      {
-        "a": "fabric-data-bar-lightning",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.2582
       }
@@ -22632,9 +22668,9 @@
         "similarity": 0.2984
       },
       {
-        "a": "gcp-cloud-jobs",
+        "a": "azure-spring-apps",
         "b": "fabric-shapes",
-        "similarity": 0.257
+        "similarity": 0.2754
       }
     ],
     "fabric-shapes-lightning": [
@@ -22768,9 +22804,9 @@
         "similarity": 0.2418
       },
       {
-        "a": "azure-blockchain-member",
+        "a": "azure-spring-apps",
         "b": "fabric-signal-tower",
-        "similarity": 0.2395
+        "similarity": 0.2417
       }
     ],
     "fabric-slide-accept-dismiss": [
@@ -23360,14 +23396,14 @@
         "similarity": 0.2931
       },
       {
+        "a": "azure-spring-apps",
+        "b": "fabric-trophy-data-bars",
+        "similarity": 0.2739
+      },
+      {
         "a": "fabric-location-radar",
         "b": "fabric-trophy-data-bars",
         "similarity": 0.2662
-      },
-      {
-        "a": "aws-location-geofence",
-        "b": "fabric-trophy-data-bars",
-        "similarity": 0.2608
       }
     ],
     "fabric-vehicle-ship": [
