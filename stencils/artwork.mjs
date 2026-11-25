@@ -22,6 +22,7 @@ import { azureIotArtwork } from "./azure-iot.mjs";
 import { azureGovernanceArtwork } from "./azure-governance.mjs";
 import { awsIotArtwork } from "./aws-iot.mjs";
 import { awsStorageResourcesArtwork } from "./aws-storage-resources.mjs";
+import { awsQuantumArtwork } from "./aws-quantum.mjs";
 import { fabricProductsArtwork } from "./fabric-products.mjs";
 import { awsDeveloperArtwork } from "./aws-developer.mjs";
 import { awsBusinessArtwork } from "./aws-business.mjs";
@@ -276,6 +277,7 @@ export const artwork = [
   ...azureGovernanceArtwork,
   ...awsIotArtwork,
   ...awsStorageResourcesArtwork,
+  ...awsQuantumArtwork,
   ...fabricProductsArtwork,
   ...awsDeveloperArtwork,
   ...awsBusinessArtwork,
