@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 935,
-  "aliases": 3649,
+  "count": 939,
+  "aliases": 3659,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -855,6 +855,7 @@
     "azure-service-fabric-clusters",
     "azure-host-groups",
     "azure-hosts",
+    "fabric-circle-chart",
     "fabric-hexagons",
     "fabric-home-waves",
     "fabric-bar-prohibited",
@@ -882,6 +883,7 @@
     "fabric-square-waves",
     "fabric-stream-bracket",
     "fabric-stream-settings",
+    "fabric-cloud-up-down",
     "fabric-code-text-flash",
     "fabric-folder-share",
     "fabric-database-checkmark",
@@ -928,6 +930,8 @@
     "fabric-window-asterisk",
     "fabric-window-check",
     "fabric-window-pulse",
+    "fabric-calendar-clock",
+    "fabric-calendar-lightning",
     "fabric-calendar-up",
     "fabric-calendar-link",
     "fabric-calendar-person",
@@ -1014,8 +1018,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1071,
-      "concepts": 180
+      "covered": 1081,
+      "concepts": 184
     },
     "entra": {
       "sources": 14,
@@ -8286,9 +8290,9 @@
         "similarity": 0.262
       },
       {
-        "a": "azure-log-analytics",
-        "b": "m365-wallet-card",
-        "similarity": 0.235
+        "a": "m365-wallet-card",
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2455
       }
     ],
     "m365-window": [
@@ -15529,6 +15533,23 @@
         "similarity": 0.1936
       }
     ],
+    "fabric-circle-chart": [
+      {
+        "a": "fabric-circle-chart",
+        "b": "fabric-diagram-branch",
+        "similarity": 0.1703
+      },
+      {
+        "a": "azure-storage-files",
+        "b": "fabric-circle-chart",
+        "similarity": 0.1497
+      },
+      {
+        "a": "aws-console-mobile",
+        "b": "fabric-circle-chart",
+        "similarity": 0.1405
+      }
+    ],
     "fabric-hexagons": [
       {
         "a": "gcp-batch",
@@ -15986,6 +16007,23 @@
         "a": "aws-firewall-manager",
         "b": "fabric-stream-settings",
         "similarity": 0.1733
+      }
+    ],
+    "fabric-cloud-up-down": [
+      {
+        "a": "fabric-gift-warning",
+        "b": "fabric-cloud-up-down",
+        "similarity": 0.1085
+      },
+      {
+        "a": "aws-parallel-cluster",
+        "b": "fabric-cloud-up-down",
+        "similarity": 0.1008
+      },
+      {
+        "a": "aws-fault-injection",
+        "b": "fabric-cloud-up-down",
+        "similarity": 0.0971
       }
     ],
     "fabric-code-text-flash": [
@@ -16776,6 +16814,40 @@
         "similarity": 0.3384
       }
     ],
+    "fabric-calendar-clock": [
+      {
+        "a": "fabric-calendar-clock",
+        "b": "fabric-calendar-person",
+        "similarity": 0.2406
+      },
+      {
+        "a": "aws-vpc",
+        "b": "fabric-calendar-clock",
+        "similarity": 0.2339
+      },
+      {
+        "a": "gcp-category-migration",
+        "b": "fabric-calendar-clock",
+        "similarity": 0.229
+      }
+    ],
+    "fabric-calendar-lightning": [
+      {
+        "a": "fabric-calendar-lightning",
+        "b": "fabric-calendar-prohibited",
+        "similarity": 0.2559
+      },
+      {
+        "a": "m365-wallet-card",
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2455
+      },
+      {
+        "a": "m365-shifts",
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2392
+      }
+    ],
     "fabric-calendar-up": [
       {
         "a": "fabric-calculator-triangle",
@@ -16822,12 +16894,17 @@
         "similarity": 0.2434
       },
       {
-        "a": "aws-keyspaces",
+        "a": "fabric-calendar-clock",
         "b": "fabric-calendar-person",
-        "similarity": 0.2347
+        "similarity": 0.2406
       }
     ],
     "fabric-calendar-prohibited": [
+      {
+        "a": "fabric-calendar-lightning",
+        "b": "fabric-calendar-prohibited",
+        "similarity": 0.2559
+      },
       {
         "a": "m365-shifts",
         "b": "fabric-calendar-prohibited",
@@ -16837,11 +16914,6 @@
         "a": "m365-retail-building",
         "b": "fabric-calendar-prohibited",
         "similarity": 0.2165
-      },
-      {
-        "a": "m365-calendar",
-        "b": "fabric-calendar-prohibited",
-        "similarity": 0.2025
       }
     ],
     "fabric-calendar-signal": [

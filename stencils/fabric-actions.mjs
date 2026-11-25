@@ -4,6 +4,14 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricActionArtwork = [
+  entry("fabric-cloud-up-down", "fabric", "Cloud arrow up down",
+    variants("cloud_arrow_up_down", [20]),
+    "Opposing arrows exchange data with a cloud.",
+    [
+      line([27, 73], [20, 69], [18, 61], [21, 53], [29, 50], [33, 40], [43, 35], [54, 37], [61, 43], [64, 51], [74, 51], [81, 57], [82, 64], [78, 71]),
+      line([43, 68], [43, 105]), line([31, 93], [43, 105], [55, 93]),
+      line([89, 105], [89, 68]), line([77, 80], [89, 68], [101, 80]),
+    ]),
   entry("fabric-code-text-flash", "fabric", "Code text flash", variants("code_text_flash", [20]),
     "A lightning bolt highlights an executable code block.",
     [

@@ -4,6 +4,25 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricCalendarArtwork = [
+  entry("fabric-calendar-clock", "fabric", "Calendar clock",
+    variants("calendar_ltr_clock", [20]),
+    "A clock marks the time of a scheduled calendar date.",
+    [
+      rect(49, 18, 67, 87), line([49, 37], [116, 37]),
+      line([63, 10], [63, 26]), line([102, 10], [102, 26]),
+      line([58, 51], [68, 51]), line([79, 51], [89, 51]), line([100, 51], [108, 51]),
+      line([79, 68], [89, 68]), line([100, 68], [108, 68]), line([79, 85], [89, 85]), line([100, 85], [108, 85]),
+      oval(12, 57, 55, 55), line([39, 67], [39, 85], [53, 91]),
+    ]),
+  entry("fabric-calendar-lightning", "fabric", "Calendar lightning",
+    variants("calendar_month_lightning", [20]),
+    "A lightning bolt marks an urgent calendar event.",
+    [
+      line([14, 105], [14, 23], [91, 23], [91, 51]), line([14, 41], [91, 41]),
+      line([31, 14], [31, 31]), line([74, 14], [74, 31]),
+      line([26, 57], [35, 57]), line([45, 57], [54, 57]), line([26, 76], [35, 76]), line([45, 76], [54, 76]),
+      line([91, 51], [68, 80], [84, 80], [76, 110], [110, 72], [93, 72], [101, 51], [91, 51]),
+    ]),
   entry("fabric-calendar-up", "fabric", "Calendar arrow up",
     variants("calendar_month_arrow_up", [16, 20]),
     "An upward arrow lifts a calendar date.",

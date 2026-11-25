@@ -21,7 +21,7 @@ export const fabricOperationArtwork = [
       line([41, 22], [87, 22]), line([42, 42], [86, 42]), line([42, 89], [80, 89]),
     ]),
   entry("fabric-column-relationship", "fabric", "Column relationship",
-    variants("column_relationship", [20]),
+    variants("column_relationship", [16, 20]),
     "A connector links fields in two separate columns.",
     [
       rect(15, 55, 37, 51), line([15, 67], [52, 67]), line([22, 61], [45, 61]),

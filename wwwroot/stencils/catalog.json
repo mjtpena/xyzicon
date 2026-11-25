@@ -7567,7 +7567,7 @@
       ],
       "revision": "fb40fdb223d3ecd4a1b49ce14daa575c1ab6980516fecf01c3b5dafeab13bcbb",
       "geometrySignature": "ea94c49a6dd7eeb2ebced4908a1db441b7edd04082b625f03462f251c292b4c7",
-      "comparisonRevision": "a288e4f97bc700c931f81ee2a9beea59429978813813a135246e7aa1090f729e",
+      "comparisonRevision": "59ac19f4af53f9d024a69fa26dcbbfee82d99d5edc37f20b71ee965cd8c6fa4c",
       "review": "pending",
       "notes": ""
     },
@@ -12029,7 +12029,7 @@
       ],
       "revision": "5a569fdc89f1c1deb8305d89c885e7ca2ceb584e7f60e825c09b972d6851604a",
       "geometrySignature": "3a0efb6fbedef05f0d22ccb75f9d193238501158b94c52aef53af5885ba186d6",
-      "comparisonRevision": "d30eac281340e65b2a585dc842bd9be385e32b6146a550dba1cf13647a237f6d",
+      "comparisonRevision": "c08abe5eea351721844321cc92cfc80b9282588a76b5eb0dc35a4e75937684ae",
       "review": "pending",
       "notes": ""
     },
@@ -15151,6 +15151,22 @@
       "notes": ""
     },
     {
+      "id": "fabric-circle-chart",
+      "provider": "fabric",
+      "name": "Circle chart",
+      "rationale": "A parent circle connects to two child circles.",
+      "path": "stencils/fabric-circle-chart.svg",
+      "sources": [
+        "/icons/fabric/svg/circle_chart_20_filled.svg",
+        "/icons/fabric/svg/circle_chart_20_regular.svg"
+      ],
+      "revision": "2cf4ae85e182adcb3140a24cc22567b532395bc297e304779174f1095d4b7b37",
+      "geometrySignature": "c1934a9df949927199074ea9c1d27c25e4ef5d9238e81c137f7bd47a234eda01",
+      "comparisonRevision": "705e862e0f2160a22677977d79fdd361c65367b6ae4c806039aa9053a5915c69",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "fabric-hexagons",
       "provider": "fabric",
       "name": "Three rotated hexagons",
@@ -15711,6 +15727,22 @@
       "notes": ""
     },
     {
+      "id": "fabric-cloud-up-down",
+      "provider": "fabric",
+      "name": "Cloud arrow up down",
+      "rationale": "Opposing arrows exchange data with a cloud.",
+      "path": "stencils/fabric-cloud-up-down.svg",
+      "sources": [
+        "/icons/fabric/svg/cloud_arrow_up_down_20_filled.svg",
+        "/icons/fabric/svg/cloud_arrow_up_down_20_regular.svg"
+      ],
+      "revision": "25d935ee88a3f0c807ea67a896f6e1ffee2a3e71916ffb9f095ace9dcdc6c70d",
+      "geometrySignature": "b79da2bedd71723122d9917ecea5f64140d5c34a68bea7e13fd3ae72f035fef7",
+      "comparisonRevision": "32730bd092927166dc43b8e16f9cf87c607e618c9fdfe943b3049932c97a2028",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "fabric-code-text-flash",
       "provider": "fabric",
       "name": "Code text flash",
@@ -16037,12 +16069,14 @@
       "rationale": "A connector links fields in two separate columns.",
       "path": "stencils/fabric-column-relationship.svg",
       "sources": [
+        "/icons/fabric/svg/column_relationship_16_filled.svg",
+        "/icons/fabric/svg/column_relationship_16_regular.svg",
         "/icons/fabric/svg/column_relationship_20_filled.svg",
         "/icons/fabric/svg/column_relationship_20_regular.svg"
       ],
-      "revision": "d112fd7cc9e975cbb025790a6b03b510f44bb65aaeddb6a48d9af6d405f59fd2",
+      "revision": "10701be4c34cf210afade2f196fc15ea262e2d45bc92b8ce7f4a467f3b013a49",
       "geometrySignature": "48b47dfb174399264bae5ef93bb7e12750424ec0aab5a41bcb72a04d88bc9c4e",
-      "comparisonRevision": "ff8b67290a40e924ccfe67d24e02924177aaa9ccbb8930155e50ef918b457d88",
+      "comparisonRevision": "e03a2688c207517e913a7e0f21b83bb318e083e29476a2408450104fd5ef5921",
       "review": "pending",
       "notes": ""
     },
@@ -16529,6 +16563,38 @@
       "notes": ""
     },
     {
+      "id": "fabric-calendar-clock",
+      "provider": "fabric",
+      "name": "Calendar clock",
+      "rationale": "A clock marks the time of a scheduled calendar date.",
+      "path": "stencils/fabric-calendar-clock.svg",
+      "sources": [
+        "/icons/fabric/svg/calendar_ltr_clock_20_filled.svg",
+        "/icons/fabric/svg/calendar_ltr_clock_20_regular.svg"
+      ],
+      "revision": "bdcb2ef31603d54bd02576703dff70a3042eefa275bf9f74522d10ccf1e54fe5",
+      "geometrySignature": "2fa124ea6b8b0476ebf4206b4f9770c679ac3cfdf38427ace2c2a5daee41a924",
+      "comparisonRevision": "1bbf5cd3ebded3d16cabe4b6d3cddb243b6f40b448567edefcaa9db9768c0db1",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "fabric-calendar-lightning",
+      "provider": "fabric",
+      "name": "Calendar lightning",
+      "rationale": "A lightning bolt marks an urgent calendar event.",
+      "path": "stencils/fabric-calendar-lightning.svg",
+      "sources": [
+        "/icons/fabric/svg/calendar_month_lightning_20_filled.svg",
+        "/icons/fabric/svg/calendar_month_lightning_20_regular.svg"
+      ],
+      "revision": "c1e32f53c4a3c0f624ee22cfd18763378919ce2b289d9e5a087c578c2e333e3f",
+      "geometrySignature": "db54bd7489e7bf7dae65a1a9bfe8a99beb6edb00c3d3d799905036816b665ae4",
+      "comparisonRevision": "daa33a97bda843d812dd831a3f631ac1c513403a695849bd0595a17db41f9f4c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "fabric-calendar-up",
       "provider": "fabric",
       "name": "Calendar arrow up",
@@ -16582,7 +16648,7 @@
       ],
       "revision": "bcc78574b3558bd424540eaab4c4b1d60636b43f2d08dbb7d502d5f177cb2eac",
       "geometrySignature": "50e8f37e9b10c5d7e732b58296050b6f60ddf029dc284194298dee60cd56ed4d",
-      "comparisonRevision": "e64ce23a15d57e63165e1473e9bdcccb0a3ed6f7caa4d83e7ccad1f7aaf6b3a4",
+      "comparisonRevision": "7f0ed8a38b71a6fce2f43edddeb67b149410b37c159cb65c186148ad020ca43c",
       "review": "pending",
       "notes": ""
     },
@@ -16602,7 +16668,7 @@
       ],
       "revision": "727b5899381d2028160084a90154a01d50ec3e56822cb541b0e3879bf2e5ffcc",
       "geometrySignature": "8f1c7ea65f3a25f17f85fb10a086a7edd070230331ff6be17c00f94fc4ab0012",
-      "comparisonRevision": "7ab618016218f5b42acd14dcb098f3cafee47a4fecc9072190f4b5e67b18484c",
+      "comparisonRevision": "12278bf1b4a4617caf232f45b88224c9be2c8341ff94d054891bc6b6e178a8f2",
       "review": "pending",
       "notes": ""
     },

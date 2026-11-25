@@ -5,6 +5,14 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
 const nonItem = (name) => [20, 24, 32, 40, 48, 64].map((size) => `${name}_${size}_non-item`);
 
 export const fabricVisualArtwork = [
+  entry("fabric-circle-chart", "fabric", "Circle chart",
+    variants("circle_chart", [20]),
+    "A parent circle connects to two child circles.",
+    [
+      oval(47, 13, 34, 34), oval(11, 80, 31, 31), oval(86, 80, 31, 31),
+      line([53, 44], [33, 82]), line([75, 44], [95, 82]),
+      line([20, 118], [108, 118]),
+    ]),
   entry("fabric-hexagons", "fabric", "Three rotated hexagons",
     variants("hexagon_three_rotated", [12, 16, 20, 24, 32]),
     "Three hexagonal tiles fit together in a triangular arrangement.",
