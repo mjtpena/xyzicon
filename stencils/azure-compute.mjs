@@ -1,6 +1,40 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-workspaces-grid", "azure", "Workspaces", ["00330-icon-service-Workspaces"],
+    "A workspace contains a group of four tiles.",
+    [
+      oval(18, 14, 86, 86), rect(35, 30, 21, 21), rect(63, 30, 21, 21), rect(35, 58, 21, 21), rect(63, 58, 21, 21),
+      line([16, 113], [110, 113]),
+    ]),
+  entry("azure-workspaces-select", "azure", "Workspaces selection", ["00400-icon-service-Workspaces"],
+    "A pointer selects a tile within a workspace.",
+    [
+      rect(17, 18, 80, 68), line([17, 40], [97, 40]), line([17, 62], [97, 62]), line([43, 18], [43, 86]), line([70, 18], [70, 66]),
+      line([66, 52], [66, 91], [75, 82], [82, 98], [90, 94], [83, 79], [95, 78], [66, 52]), line([15, 111], [110, 111]),
+    ]),
+  entry("azure-stage-maps", "azure", "Stage Maps", ["030868929-icon-service-Stage-Maps"],
+    "A path connects two stages above a map.",
+    [
+      line([23, 91], [98, 91]), line([28, 83], [103, 83]), line([35, 75], [110, 75]),
+      oval(23, 45, 21, 21), oval(78, 20, 21, 21), line([43, 53], [58, 53], [65, 44], [65, 31], [78, 31]),
+      line([17, 111], [110, 111]),
+    ]),
+  entry("azure-mesh-applications", "azure", "Mesh Applications", ["10024-icon-service-Mesh-Applications"],
+    "Application nodes form a connected mesh.",
+    [
+      oval(49, 13, 19, 19), oval(12, 49, 19, 19), oval(86, 49, 19, 19), oval(49, 85, 19, 19), oval(49, 49, 19, 19),
+      line([49, 27], [28, 50]), line([68, 27], [89, 50]), line([30, 65], [49, 87]), line([87, 65], [68, 87]),
+      line([58, 32], [58, 49]), line([31, 58], [49, 58]), line([68, 58], [86, 58]), line([58, 68], [58, 85]), line([16, 115], [110, 115]),
+    ]),
+  entry("azure-cloud-services-classic", "azure", "Cloud Services Classic", ["10030-icon-service-Cloud-Services-(Classic)"],
+    "A cloud hosts a pair of classic service gears.",
+    [
+      line([19, 91], [13, 84], [13, 69], [19, 58], [31, 54], [35, 40], [46, 32], [60, 32], [71, 38], [76, 50], [88, 51], [99, 58], [105, 69], [104, 83], [97, 91], [19, 91]),
+      line([42, 52], [46, 56], [51, 56], [51, 61], [55, 65], [51, 69], [51, 74], [46, 74], [42, 78], [38, 74], [33, 74], [33, 69], [29, 65], [33, 61], [33, 56], [38, 56], [42, 52]), oval(38, 61, 8, 8),
+      oval(70, 63, 16, 16), line([78, 57], [78, 63]), line([78, 79], [78, 85]), line([64, 71], [70, 71]), line([86, 71], [92, 71]),
+      line([14, 110], [110, 110]),
+    ]),
   entry("azure-app-service-plans", "azure", "App Service Plans", ["00046-icon-service-App-Service-Plans"],
     "A hosting plan allocates a shared compute tier to multiple applications.",
     [
