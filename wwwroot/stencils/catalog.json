@@ -1697,7 +1697,7 @@
       ],
       "revision": "a099f7f4449504334d861dd4c47b311033d88048b50ec5eff493b775938e54a6",
       "geometrySignature": "8383310a7371647e931f55dc0eac17ccad7afeedf5edc83d51d0ec56120c69f9",
-      "comparisonRevision": "163c6a12ff38eef53015587eab0e8127735379d38050c574825429c986de1899",
+      "comparisonRevision": "9e9c5823a520b70f0f8c473c2752a63ca7abeede4c8bc672afef81c79dc329e5",
       "review": "pending",
       "notes": ""
     },
@@ -5205,7 +5205,7 @@
       ],
       "revision": "b993269f6f7f63f284a4d31656697df3b21cbfd278c09464ad58495da6616533",
       "geometrySignature": "ff418ea04ccce399458de9a40b2c7744aec6c1380bf1056a8d6c408bfd87756b",
-      "comparisonRevision": "9cfa36f432d28701ad9b6b1ddb34cc087a82c5be487339354489df97f1e7e3b3",
+      "comparisonRevision": "85993041508472acc9311960d88650dbaad4a80319fe4780f04c540562482603",
       "review": "pending",
       "notes": ""
     },
@@ -9236,6 +9236,78 @@
       "revision": "ff6a8acf6328fc067c9164049796b281f4db7afa09421c20234c1d4e40fe4c98",
       "geometrySignature": "2e85fa5424f97fddc41e39f30dc00fc8d0ed7d570b41698118c5a81535e1495d",
       "comparisonRevision": "52917d9b4395855d9ac775794779fd2f7fc686890c4c478f81a365dbaeb4f888",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-inspector",
+      "provider": "aws",
+      "name": "Amazon Inspector",
+      "rationale": "A magnifier scans a server for software vulnerabilities.",
+      "path": "stencils/aws-inspector.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_Amazon-Inspector_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_Amazon-Inspector_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_Amazon-Inspector_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_Amazon-Inspector_64.svg"
+      ],
+      "revision": "d3b6b8471d658345fd02c5be536bb7784be541da93274a667cfe9ccfcfeb591a",
+      "geometrySignature": "2e8bfaadf7423f2045454adc49a9daa719593de753959537376a715fc1a55b51",
+      "comparisonRevision": "aba8f76f6877cbb76fa4f0588021cf3a863f081d0d1dae4a20a8c55c95b3e640",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-detective",
+      "provider": "aws",
+      "name": "Amazon Detective",
+      "rationale": "An investigator follows linked security events.",
+      "path": "stencils/aws-detective.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_Amazon-Detective_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_Amazon-Detective_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_Amazon-Detective_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_Amazon-Detective_64.svg"
+      ],
+      "revision": "03de8910209b0806652e765ecacfcceac6669a6e3f231347605484c290aa539f",
+      "geometrySignature": "c376d3a606833520a91fb43a357205baa8e6a7f67e22680a6b89a4ca54bbbcbf",
+      "comparisonRevision": "2def47819b2e63b6290fb6572a511c4d0f66eeb2e64b441e9203c7219d8264ad",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-macie",
+      "provider": "aws",
+      "name": "Amazon Macie",
+      "rationale": "Sensitive records in object storage are discovered and protected.",
+      "path": "stencils/aws-macie.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_Amazon-Macie_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_Amazon-Macie_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_Amazon-Macie_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_Amazon-Macie_64.svg"
+      ],
+      "revision": "c68815a8b98848bb1886c7dcf1dfdb480a4f329b5082eff8b1bccbacd11c7be6",
+      "geometrySignature": "decfee59dc4a0f3a9b8c752ce02e5146d11f5a1ee8197ec3509f8834d13cb3e1",
+      "comparisonRevision": "d35c315a64112e2fa117e5cd99d04945c788c07befbf02215e1cb640c7bc1362",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-security-lake",
+      "provider": "aws",
+      "name": "Amazon Security Lake",
+      "rationale": "Security logs collect in a protected data lake.",
+      "path": "stencils/aws-security-lake.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_Amazon-Security-Lake_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_Amazon-Security-Lake_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_Amazon-Security-Lake_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_Amazon-Security-Lake_64.svg"
+      ],
+      "revision": "4d59b2a4ee5c22de06201b781481f8975018396171bd7a6a2c3eb56559e2c022",
+      "geometrySignature": "19b10742c77301a83b3d312fa73155bc8cfe8b133ba170656601c4691fc25f6e",
+      "comparisonRevision": "aa43e746b8bae05b2c519d0d2cd98b5352199ffe5437f183bc9b649bc7ebdf23",
       "review": "pending",
       "notes": ""
     },

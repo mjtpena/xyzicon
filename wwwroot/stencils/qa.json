@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 732,
-  "aliases": 3092,
+  "count": 736,
+  "aliases": 3108,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -510,6 +510,10 @@
     "aws-cloudhsm",
     "aws-waf",
     "aws-network-firewall",
+    "aws-inspector",
+    "aws-detective",
+    "aws-macie",
+    "aws-security-lake",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -829,8 +833,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 852,
-      "concepts": 211
+      "covered": 868,
+      "concepts": 215
     },
     "gcp": {
       "sources": 261,
@@ -2598,13 +2602,13 @@
       },
       {
         "a": "aws-cloudfront",
-        "b": "azure-storage-queue",
-        "similarity": 0.1583
+        "b": "aws-inspector",
+        "similarity": 0.1593
       },
       {
         "a": "aws-cloudfront",
-        "b": "fabric-progress-bars",
-        "similarity": 0.1534
+        "b": "azure-storage-queue",
+        "similarity": 0.1583
       }
     ],
     "aws-secrets-manager": [
@@ -5866,9 +5870,9 @@
         "similarity": 0.2434
       },
       {
-        "a": "aws-batch",
-        "b": "aws-cloudsearch",
-        "similarity": 0.1983
+        "a": "aws-cloudsearch",
+        "b": "aws-inspector",
+        "similarity": 0.2197
       }
     ],
     "aws-datazone": [
@@ -9422,6 +9426,74 @@
         "a": "fabric-kql-database",
         "b": "aws-network-firewall",
         "similarity": 0.1944
+      }
+    ],
+    "aws-inspector": [
+      {
+        "a": "azure-container-registry",
+        "b": "aws-inspector",
+        "similarity": 0.2618
+      },
+      {
+        "a": "aws-kendra",
+        "b": "aws-inspector",
+        "similarity": 0.2556
+      },
+      {
+        "a": "aws-inspector",
+        "b": "azure-batch-accounts",
+        "similarity": 0.2404
+      }
+    ],
+    "aws-detective": [
+      {
+        "a": "aws-detective",
+        "b": "aws-memorydb",
+        "similarity": 0.1537
+      },
+      {
+        "a": "m365-person-settings",
+        "b": "aws-detective",
+        "similarity": 0.153
+      },
+      {
+        "a": "aws-elemental-server",
+        "b": "aws-detective",
+        "similarity": 0.1492
+      }
+    ],
+    "aws-macie": [
+      {
+        "a": "azure-managed-identities",
+        "b": "aws-macie",
+        "similarity": 0.1909
+      },
+      {
+        "a": "aws-sqs",
+        "b": "aws-macie",
+        "similarity": 0.1845
+      },
+      {
+        "a": "azure-storage-queue",
+        "b": "aws-macie",
+        "similarity": 0.1776
+      }
+    ],
+    "aws-security-lake": [
+      {
+        "a": "fabric-no-access-semantic",
+        "b": "aws-security-lake",
+        "similarity": 0.1752
+      },
+      {
+        "a": "aws-mediatailor",
+        "b": "aws-security-lake",
+        "similarity": 0.1726
+      },
+      {
+        "a": "aws-security-lake",
+        "b": "gcp-category-marketplace",
+        "similarity": 0.1681
       }
     ],
     "m365-arrow-circle-left": [
