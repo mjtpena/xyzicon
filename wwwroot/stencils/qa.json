@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1044,
-  "aliases": 3913,
+  "count": 1050,
+  "aliases": 3925,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -942,6 +942,12 @@
     "fabric-import-notebook",
     "fabric-my-workspace",
     "fabric-sample",
+    "fabric-database-add",
+    "fabric-database-enter",
+    "fabric-database-badge-asterisk",
+    "fabric-database-crown",
+    "fabric-database-dismiss",
+    "fabric-database-globe",
     "fabric-documents-dax",
     "fabric-documents-pulse",
     "fabric-document-rdl",
@@ -1130,8 +1136,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1251,
-      "concepts": 220
+      "covered": 1263,
+      "concepts": 226
     },
     "entra": {
       "sources": 14,
@@ -2958,13 +2964,13 @@
       },
       {
         "a": "aws-ecr",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2359
+        "b": "fabric-database-badge-asterisk",
+        "similarity": 0.2366
       },
       {
         "a": "aws-ecr",
-        "b": "fabric-data-warehouse",
-        "similarity": 0.2345
+        "b": "fabric-window-pulse",
+        "similarity": 0.2359
       }
     ],
     "aws-ecs": [
@@ -3480,6 +3486,11 @@
     "m365-data-area": [
       {
         "a": "m365-data-area",
+        "b": "fabric-database-enter",
+        "similarity": 0.2684
+      },
+      {
+        "a": "m365-data-area",
         "b": "aws-transfer-family",
         "similarity": 0.2301
       },
@@ -3487,11 +3498,6 @@
         "a": "m365-data-area",
         "b": "m365-mail",
         "similarity": 0.2296
-      },
-      {
-        "a": "m365-data-area",
-        "b": "m365-settings",
-        "similarity": 0.222
       }
     ],
     "m365-deploy": [
@@ -5474,13 +5480,13 @@
       },
       {
         "a": "gcp-access-context",
-        "b": "azure-quickstart-center",
-        "similarity": 0.1876
+        "b": "fabric-database-crown",
+        "similarity": 0.1938
       },
       {
-        "a": "power-apps",
-        "b": "gcp-access-context",
-        "similarity": 0.1868
+        "a": "gcp-access-context",
+        "b": "azure-quickstart-center",
+        "similarity": 0.1876
       }
     ],
     "gcp-binary-authorization": [
@@ -8210,14 +8216,14 @@
         "similarity": 0.2825
       },
       {
+        "a": "aws-outposts-servers",
+        "b": "fabric-database-add",
+        "similarity": 0.2376
+      },
+      {
         "a": "aws-elasticache",
         "b": "aws-outposts-servers",
         "similarity": 0.2278
-      },
-      {
-        "a": "aws-outposts-servers",
-        "b": "aws-comprehend",
-        "similarity": 0.2189
       }
     ],
     "aws-ec2-autoscaling": [
@@ -11020,9 +11026,9 @@
         "similarity": 0.2846
       },
       {
-        "a": "gcp-app-engine",
-        "b": "aws-well-architected-tool",
-        "similarity": 0.2441
+        "a": "aws-well-architected-tool",
+        "b": "fabric-database-globe",
+        "similarity": 0.2593
       }
     ],
     "aws-amazon-q": [
@@ -12098,6 +12104,11 @@
     ],
     "aws-medialive": [
       {
+        "a": "aws-medialive",
+        "b": "fabric-database-add",
+        "similarity": 0.1815
+      },
+      {
         "a": "aws-kendra",
         "b": "aws-medialive",
         "similarity": 0.1631
@@ -12106,11 +12117,6 @@
         "a": "gcp-filestore",
         "b": "aws-medialive",
         "similarity": 0.1603
-      },
-      {
-        "a": "aws-medialive",
-        "b": "fabric-database-forward",
-        "similarity": 0.1563
       }
     ],
     "aws-mediaconvert": [
@@ -16553,14 +16559,14 @@
         "similarity": 0.2237
       },
       {
+        "a": "azure-disk-encryption",
+        "b": "fabric-database-globe",
+        "similarity": 0.2163
+      },
+      {
         "a": "azure-managed-identities",
         "b": "azure-disk-encryption",
         "similarity": 0.2025
-      },
-      {
-        "a": "azure-managed-sql",
-        "b": "azure-disk-encryption",
-        "similarity": 0.2024
       }
     ],
     "azure-automanaged-vm": [
@@ -17124,6 +17130,108 @@
         "similarity": 0.423
       }
     ],
+    "fabric-database-add": [
+      {
+        "a": "fabric-database-add",
+        "b": "fabric-database-dismiss",
+        "similarity": 0.3187
+      },
+      {
+        "a": "fabric-database-add",
+        "b": "fabric-database-forward",
+        "similarity": 0.2754
+      },
+      {
+        "a": "fabric-database-add",
+        "b": "fabric-database-asterisk",
+        "similarity": 0.2683
+      }
+    ],
+    "fabric-database-enter": [
+      {
+        "a": "m365-data-area",
+        "b": "fabric-database-enter",
+        "similarity": 0.2684
+      },
+      {
+        "a": "azure-app-service-environments",
+        "b": "fabric-database-enter",
+        "similarity": 0.2062
+      },
+      {
+        "a": "aws-category-analytics",
+        "b": "fabric-database-enter",
+        "similarity": 0.1992
+      }
+    ],
+    "fabric-database-badge-asterisk": [
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-dismiss",
+        "similarity": 0.37
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-globe",
+        "similarity": 0.3209
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-crown",
+        "similarity": 0.3133
+      }
+    ],
+    "fabric-database-crown": [
+      {
+        "a": "fabric-database-crown",
+        "b": "fabric-database-forward",
+        "similarity": 0.3983
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-crown",
+        "similarity": 0.3133
+      },
+      {
+        "a": "fabric-database-crown",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2525
+      }
+    ],
+    "fabric-database-dismiss": [
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-dismiss",
+        "similarity": 0.37
+      },
+      {
+        "a": "fabric-database-add",
+        "b": "fabric-database-dismiss",
+        "similarity": 0.3187
+      },
+      {
+        "a": "fabric-database-dismiss",
+        "b": "fabric-database-globe",
+        "similarity": 0.2653
+      }
+    ],
+    "fabric-database-globe": [
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-globe",
+        "similarity": 0.3209
+      },
+      {
+        "a": "fabric-database-dismiss",
+        "b": "fabric-database-globe",
+        "similarity": 0.2653
+      },
+      {
+        "a": "aws-well-architected-tool",
+        "b": "fabric-database-globe",
+        "similarity": 0.2593
+      }
+    ],
     "fabric-documents-dax": [
       {
         "a": "azure-subnet",
@@ -17674,22 +17782,27 @@
     ],
     "fabric-database-forward": [
       {
+        "a": "fabric-database-crown",
+        "b": "fabric-database-forward",
+        "similarity": 0.3983
+      },
+      {
         "a": "fabric-database-pulse",
         "b": "fabric-database-forward",
         "similarity": 0.3418
       },
       {
-        "a": "azure-managed-sql",
+        "a": "fabric-database-add",
         "b": "fabric-database-forward",
-        "similarity": 0.2436
-      },
-      {
-        "a": "aws-documentdb",
-        "b": "fabric-database-forward",
-        "similarity": 0.2382
+        "similarity": 0.2754
       }
     ],
     "fabric-databases-transfer": [
+      {
+        "a": "fabric-database-enter",
+        "b": "fabric-databases-transfer",
+        "similarity": 0.1898
+      },
       {
         "a": "aws-config",
         "b": "fabric-databases-transfer",
@@ -17699,11 +17812,6 @@
         "a": "aws-tools-sdks",
         "b": "fabric-databases-transfer",
         "similarity": 0.175
-      },
-      {
-        "a": "aws-lookout-equipment",
-        "b": "fabric-databases-transfer",
-        "similarity": 0.1742
       }
     ],
     "fabric-diagram-branch": [
@@ -17929,19 +18037,19 @@
     ],
     "fabric-database-checkmark": [
       {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2533
+      },
+      {
+        "a": "fabric-database-crown",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2525
+      },
+      {
         "a": "aws-transform",
         "b": "fabric-database-checkmark",
         "similarity": 0.2495
-      },
-      {
-        "a": "aws-private-subnet",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2461
-      },
-      {
-        "a": "gcp-datastore",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2306
       }
     ],
     "fabric-calendar-toolbox": [
@@ -18475,6 +18583,11 @@
     ],
     "fabric-database-asterisk": [
       {
+        "a": "fabric-database-add",
+        "b": "fabric-database-asterisk",
+        "similarity": 0.2683
+      },
+      {
         "a": "aws-rds",
         "b": "fabric-database-asterisk",
         "similarity": 0.207
@@ -18483,11 +18596,6 @@
         "a": "gcp-asset-inventory",
         "b": "fabric-database-asterisk",
         "similarity": 0.2051
-      },
-      {
-        "a": "aws-documentdb",
-        "b": "fabric-database-asterisk",
-        "similarity": 0.2019
       }
     ],
     "fabric-list-shield": [
@@ -18870,19 +18978,19 @@
     ],
     "fabric-double-pie": [
       {
+        "a": "fabric-database-dismiss",
+        "b": "fabric-double-pie",
+        "similarity": 0.1434
+      },
+      {
+        "a": "fabric-database-badge-asterisk",
+        "b": "fabric-double-pie",
+        "similarity": 0.1421
+      },
+      {
         "a": "m365-mail-alert",
         "b": "fabric-double-pie",
         "similarity": 0.1404
-      },
-      {
-        "a": "aws-eventbridge-default-bus",
-        "b": "fabric-double-pie",
-        "similarity": 0.1362
-      },
-      {
-        "a": "aws-kinesis",
-        "b": "fabric-double-pie",
-        "similarity": 0.1317
       }
     ],
     "fabric-progress-bars": [
