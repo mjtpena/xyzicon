@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1068,
-  "aliases": 3949,
+  "count": 1074,
+  "aliases": 3955,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -270,6 +270,12 @@
     "gcp-stackdriver",
     "gcp-cloud-ops",
     "gcp-performance-dashboard",
+    "gcp-network-connectivity-center",
+    "gcp-network-intelligence",
+    "gcp-network-security",
+    "gcp-network-tiers",
+    "gcp-network-topology",
+    "gcp-partner-interconnect",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1184,8 +1190,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 168,
-      "concepts": 155
+      "covered": 174,
+      "concepts": 161
     }
   },
   "nearest": {
@@ -2234,13 +2240,13 @@
       },
       {
         "a": "azure-load-balancer",
-        "b": "azure-api-management",
-        "similarity": 0.153
+        "b": "gcp-network-connectivity-center",
+        "similarity": 0.1546
       },
       {
         "a": "azure-load-balancer",
-        "b": "fabric-asterisk",
-        "similarity": 0.1434
+        "b": "azure-api-management",
+        "similarity": 0.153
       }
     ],
     "azure-firewall": [
@@ -3996,6 +4002,11 @@
     ],
     "azure-ddos-plans": [
       {
+        "a": "azure-ddos-plans",
+        "b": "gcp-network-intelligence",
+        "similarity": 0.2299
+      },
+      {
         "a": "aws-eventbridge-schema",
         "b": "azure-ddos-plans",
         "similarity": 0.2278
@@ -4004,11 +4015,6 @@
         "a": "azure-ddos-plans",
         "b": "aws-migration-evaluator",
         "similarity": 0.2246
-      },
-      {
-        "a": "azure-ddos-plans",
-        "b": "fabric-cloud-endpoint",
-        "similarity": 0.2207
       }
     ],
     "azure-data-factory": [
@@ -5017,6 +5023,11 @@
     "gcp-data-fusion": [
       {
         "a": "gcp-data-fusion",
+        "b": "gcp-partner-interconnect",
+        "similarity": 0.2636
+      },
+      {
+        "a": "gcp-data-fusion",
         "b": "gcp-dataprep",
         "similarity": 0.2385
       },
@@ -5024,11 +5035,6 @@
         "a": "gcp-data-fusion",
         "b": "gcp-natural-language",
         "similarity": 0.2338
-      },
-      {
-        "a": "gcp-data-fusion",
-        "b": "gcp-data-qna",
-        "similarity": 0.233
       }
     ],
     "gcp-cloud-composer": [
@@ -5692,6 +5698,108 @@
         "a": "m365-cart",
         "b": "gcp-performance-dashboard",
         "similarity": 0.1927
+      }
+    ],
+    "gcp-network-connectivity-center": [
+      {
+        "a": "gcp-network-connectivity-center",
+        "b": "fabric-platform",
+        "similarity": 0.2112
+      },
+      {
+        "a": "gcp-network-connectivity-center",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.1989
+      },
+      {
+        "a": "gcp-anthos-service-mesh",
+        "b": "gcp-network-connectivity-center",
+        "similarity": 0.198
+      }
+    ],
+    "gcp-network-intelligence": [
+      {
+        "a": "azure-ddos-plans",
+        "b": "gcp-network-intelligence",
+        "similarity": 0.2299
+      },
+      {
+        "a": "gcp-video-intelligence",
+        "b": "gcp-network-intelligence",
+        "similarity": 0.2254
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "gcp-network-intelligence",
+        "similarity": 0.2106
+      }
+    ],
+    "gcp-network-security": [
+      {
+        "a": "gcp-network-security",
+        "b": "m365-shield-error",
+        "similarity": 0.2741
+      },
+      {
+        "a": "gcp-network-security",
+        "b": "aws-iot-device-defender",
+        "similarity": 0.2337
+      },
+      {
+        "a": "gcp-network-security",
+        "b": "m365-lock-shield",
+        "similarity": 0.2232
+      }
+    ],
+    "gcp-network-tiers": [
+      {
+        "a": "gcp-dataproc",
+        "b": "gcp-network-tiers",
+        "similarity": 0.1901
+      },
+      {
+        "a": "gcp-network-tiers",
+        "b": "fabric-live-dashboard",
+        "similarity": 0.1713
+      },
+      {
+        "a": "gcp-network-tiers",
+        "b": "gcp-looker",
+        "similarity": 0.1646
+      }
+    ],
+    "gcp-network-topology": [
+      {
+        "a": "gcp-network-topology",
+        "b": "azure-subscriptions",
+        "similarity": 0.2175
+      },
+      {
+        "a": "gcp-network-topology",
+        "b": "aws-lightsail",
+        "similarity": 0.1683
+      },
+      {
+        "a": "gcp-network-topology",
+        "b": "aws-aurora",
+        "similarity": 0.1588
+      }
+    ],
+    "gcp-partner-interconnect": [
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "aws-backint-agent",
+        "similarity": 0.2995
+      },
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "aws-vpc-internet-gateway",
+        "similarity": 0.2688
+      },
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.2661
       }
     ],
     "gcp-access-context": [
@@ -7095,14 +7203,14 @@
         "similarity": 0.2565
       },
       {
-        "a": "fabric-dataflow",
-        "b": "aws-memorydb",
-        "similarity": 0.2237
+        "a": "gcp-partner-interconnect",
+        "b": "fabric-dataflow",
+        "similarity": 0.2344
       },
       {
         "a": "fabric-dataflow",
-        "b": "aws-vpc-internet-gateway",
-        "similarity": 0.2169
+        "b": "aws-memorydb",
+        "similarity": 0.2237
       }
     ],
     "fabric-dataflow-gen2": [
@@ -10881,6 +10989,11 @@
     ],
     "aws-proton": [
       {
+        "a": "gcp-partner-interconnect",
+        "b": "aws-proton",
+        "similarity": 0.256
+      },
+      {
         "a": "gcp-certificate-authority",
         "b": "aws-proton",
         "similarity": 0.2439
@@ -10889,11 +11002,6 @@
         "a": "azure-function-apps",
         "b": "aws-proton",
         "similarity": 0.2417
-      },
-      {
-        "a": "aws-proton",
-        "b": "aws-backint-agent",
-        "similarity": 0.2388
       }
     ],
     "aws-opentelemetry": [
@@ -11838,14 +11946,14 @@
         "similarity": 0.3455
       },
       {
+        "a": "gcp-partner-interconnect",
+        "b": "aws-backint-agent",
+        "similarity": 0.2995
+      },
+      {
         "a": "aws-backint-agent",
         "b": "azure-reservations",
         "similarity": 0.2582
-      },
-      {
-        "a": "gcp-alloydb",
-        "b": "aws-backint-agent",
-        "similarity": 0.2555
       }
     ],
     "aws-datasync": [
@@ -13050,9 +13158,9 @@
         "similarity": 0.2944
       },
       {
-        "a": "aws-elastic-disaster-recovery",
-        "b": "aws-parallel-computing",
-        "similarity": 0.2647
+        "a": "gcp-partner-interconnect",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.2661
       }
     ],
     "aws-efs": [
@@ -17109,9 +17217,9 @@
         "similarity": 0.1497
       },
       {
-        "a": "aws-console-mobile",
+        "a": "gcp-network-security",
         "b": "fabric-circle-chart",
-        "similarity": 0.1405
+        "similarity": 0.1448
       }
     ],
     "fabric-hexagons": [
@@ -18422,9 +18530,9 @@
         "similarity": 0.267
       },
       {
-        "a": "gcp-natural-language",
+        "a": "gcp-partner-interconnect",
         "b": "fabric-app-folder-pulse",
-        "similarity": 0.2558
+        "similarity": 0.2659
       }
     ],
     "fabric-curved-right-circle": [
