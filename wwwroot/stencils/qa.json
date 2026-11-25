@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 406,
+  "approved": 416,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,16 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-backup-fsx-ontap",
-    "aws-backup-s3",
-    "aws-backup-compute-resource",
-    "aws-backup-database-resource",
-    "aws-backup-storage-resource",
-    "aws-backup-virtual-machine",
-    "aws-backup-virtual-machine-monitor",
-    "aws-backup-plan",
-    "aws-backup-restore-resource",
-    "aws-backup-vault-resource",
     "aws-backup-vault-lock",
     "aws-backup-legal-hold",
     "aws-backup-audit-manager",
@@ -2367,8 +2357,8 @@
       },
       {
         "a": "power-apps",
-        "b": "aws-backup-vault-resource",
-        "similarity": 0.269
+        "b": "azure-netapp-files",
+        "similarity": 0.2687
       }
     ],
     "power-dataverse": [
@@ -2493,6 +2483,11 @@
     "entra-governance": [
       {
         "a": "entra-governance",
+        "b": "aws-backup-vault-resource",
+        "similarity": 0.1382
+      },
+      {
+        "a": "entra-governance",
         "b": "azure-disk-encryption",
         "similarity": 0.138
       },
@@ -2500,11 +2495,6 @@
         "a": "entra-governance",
         "b": "azure-tfs-vc-repository",
         "similarity": 0.1375
-      },
-      {
-        "a": "entra-governance",
-        "b": "gcp-automl-tables",
-        "similarity": 0.1356
       }
     ],
     "entra-internet-access": [
@@ -15787,8 +15777,8 @@
       },
       {
         "a": "azure-verifiable-credentials",
-        "b": "aws-backup-vault-resource",
-        "similarity": 0.3046
+        "b": "aws-general-authenticated-user",
+        "similarity": 0.2769
       }
     ],
     "azure-privileged-identity-management": [
@@ -15905,9 +15895,9 @@
         "similarity": 0.3037
       },
       {
-        "a": "aws-dynamodb-global-secondary-index",
-        "b": "azure-entra-verified-id",
-        "similarity": 0.2748
+        "a": "azure-entra-verified-id",
+        "b": "aws-backup-vault-resource",
+        "similarity": 0.2869
       }
     ],
     "azure-verification-service": [
@@ -19306,8 +19296,8 @@
       },
       {
         "a": "azure-service-catalog-mad",
-        "b": "aws-backup-vault-resource",
-        "similarity": 0.3242
+        "b": "aws-cloudformation-template",
+        "similarity": 0.3198
       }
     ],
     "azure-intune-trends": [
@@ -20257,9 +20247,9 @@
         "similarity": 0.2516
       },
       {
-        "a": "azure-ad-b2c",
-        "b": "aws-sitewise-data-streams",
-        "similarity": 0.2349
+        "a": "aws-sitewise-data-streams",
+        "b": "aws-backup-vault-resource",
+        "similarity": 0.2497
       }
     ],
     "aws-greengrass-artifact": [
@@ -21319,11 +21309,6 @@
     "aws-glacier-vault": [
       {
         "a": "aws-glacier-vault",
-        "b": "aws-backup-vault-resource",
-        "similarity": 0.3422
-      },
-      {
-        "a": "aws-glacier-vault",
         "b": "aws-ebs-multiple-volumes",
         "similarity": 0.3226
       },
@@ -21331,6 +21316,11 @@
         "a": "aws-glacier-vault",
         "b": "aws-vpc-network-adapter",
         "similarity": 0.3026
+      },
+      {
+        "a": "aws-glacier-vault",
+        "b": "aws-iam-mfa-token",
+        "similarity": 0.2948
       }
     ],
     "aws-s3-bucket-with-objects": [
@@ -22032,19 +22022,19 @@
     ],
     "aws-backup-vault-resource": [
       {
-        "a": "aws-backup-vault-resource",
-        "b": "aws-systems-change-calendar",
-        "similarity": 0.3527
-      },
-      {
-        "a": "aws-glacier-vault",
+        "a": "azure-entra-verified-id",
         "b": "aws-backup-vault-resource",
-        "similarity": 0.3422
+        "similarity": 0.2869
       },
       {
-        "a": "aws-backup-vault-resource",
-        "b": "aws-waf-managed-rule",
-        "similarity": 0.3321
+        "a": "azure-verification-service",
+        "b": "aws-backup-vault-resource",
+        "similarity": 0.2795
+      },
+      {
+        "a": "aws-iot-thing-freertos",
+        "b": "aws-backup-vault-resource",
+        "similarity": 0.2791
       }
     ],
     "aws-backup-vault-lock": [
@@ -23516,14 +23506,14 @@
         "similarity": 0.2954
       },
       {
+        "a": "aws-backup-vault-resource",
+        "b": "aws-workmail",
+        "similarity": 0.2715
+      },
+      {
         "a": "azure-stack-hci-sizer",
         "b": "aws-workmail",
         "similarity": 0.2419
-      },
-      {
-        "a": "aws-iot-thing-freertos",
-        "b": "aws-workmail",
-        "similarity": 0.2314
       }
     ],
     "aws-workdocs": [
@@ -24616,11 +24606,6 @@
     ],
     "aws-systems-change-calendar": [
       {
-        "a": "aws-backup-vault-resource",
-        "b": "aws-systems-change-calendar",
-        "similarity": 0.3527
-      },
-      {
         "a": "aws-systems-change-calendar",
         "b": "aws-general-saml-token",
         "similarity": 0.3158
@@ -24629,6 +24614,11 @@
         "a": "aws-systems-change-calendar",
         "b": "azure-counter",
         "similarity": 0.312
+      },
+      {
+        "a": "azure-policy",
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.3094
       }
     ],
     "aws-systems-change-manager": [
@@ -26615,9 +26605,9 @@
         "similarity": 0.3441
       },
       {
-        "a": "aws-backup-vault-resource",
+        "a": "aws-general-document",
         "b": "aws-waf-managed-rule",
-        "similarity": 0.3321
+        "similarity": 0.3014
       }
     ],
     "aws-iam-sts": [
@@ -33899,14 +33889,14 @@
         "similarity": 0.2827
       },
       {
+        "a": "aws-backup-vault-resource",
+        "b": "azure-cache",
+        "similarity": 0.2763
+      },
+      {
         "a": "azure-sonic-dash",
         "b": "azure-cache",
         "similarity": 0.2761
-      },
-      {
-        "a": "aws-postgresql-instance",
-        "b": "azure-cache",
-        "similarity": 0.2694
       }
     ],
     "azure-code": [

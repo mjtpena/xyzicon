@@ -423,8 +423,8 @@ export const awsStorageResourcesArtwork = [
   entry("aws-backup-vault-resource", "aws", "Backup Vault", ["Res_AWS-Backup_Backup-Vault_48"],
     "A vault stores protected recovery points.",
     [
-      rect(20, 17, 83, 75), line([27, 24], [96, 24], [96, 85], [27, 85], [27, 24]),
-      oval(42, 34, 39, 39), oval(54, 46, 15, 15), line([61, 34], [61, 46]), line([61, 61], [61, 73]), line([42, 53], [54, 53]), line([69, 53], [81, 53]), line([14, 109], [110, 109]),
+      rect(11, 24, 53, 62), line([19, 32], [57, 32], [57, 78], [19, 78], [19, 32]), line([26, 43], [50, 43]), line([26, 54], [50, 54]), line([26, 65], [50, 65]),
+      line([64, 24], [106, 34], [106, 76], [64, 86]), oval(75, 43, 21, 21), line([85, 43], [85, 64]), line([75, 53], [96, 53]), line([14, 109], [110, 109]),
     ]),
   entry("aws-backup-vault-lock", "aws", "Backup Vault Lock", ["Res_AWS-Backup_Vault-Lock_48"],
     "A locked vault protects immutable backups.",

@@ -573,9 +573,9 @@
   },
   "power-apps": {
     "revision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
-    "comparisonRevision": "0e15a24b8adf86aac4f5b4d0fa126ac149bbf3d44d8f40069e313814238a6664",
+    "comparisonRevision": "f75f8478f3f0d0109d1e0992b94d87a4c1c6a1d7333616b852df80d81e974ce1",
     "status": "approved",
-    "notes": "The assembled interface and positioned tile convey app building; the nearest media file, code editor and vault use different interior symbols."
+    "notes": "A draggable tile enters an application canvas, unlike media, code and file storage."
   },
   "power-dataverse": {
     "revision": "a6f9a699d13594153e58b74e2b2bc6e688cc73251317ae32ca1f66ea613f5e83",
@@ -619,9 +619,9 @@
   },
   "entra-governance": {
     "revision": "a3060fe80ce0007c380d4700db9a37fc95fc41006a5bd99e3c905ed3f3a4ae69",
-    "comparisonRevision": "dda846e7b2fad8595b510daa1dc89ab4dcb7ed1ed729b203b6aa7030be6f7d94",
+    "comparisonRevision": "e86f6df407893d3acb336ac11e411de3bf5182098a29033cb75f308c6a9b8249",
     "status": "approved",
-    "notes": "A protected person and policy checks express identity governance; the three closest database, repository and analytics images differ in structure."
+    "notes": "A person inside a shield has checks beside it, unlike an open vault, encrypted disks and repository."
   },
   "entra-internet-access": {
     "revision": "f2dc58fe5b28afb84eea025caf4fadba0e38eaace411f0db7286ca226db56361",
@@ -2586,9 +2586,9 @@
   },
   "aws-sitewise-data-streams": {
     "revision": "df6fa0ff7c392c3bda340e2929dd4b302f5c78ee5fbb3fadc1ee9e396b835643",
-    "comparisonRevision": "327ddb9cb13d0d101857c79f494c99563bf8e25345b2e74cc156ff107f3fa1a7",
+    "comparisonRevision": "b8ec72447d8efb6066012a062e4f2eac84ceca3edad5ea09cc7d9519810d7890",
     "status": "approved",
-    "notes": "Three sources feed a data store, unlike cache, an edge rack and identity."
+    "notes": "Three sources feed a data store, unlike cache, an edge rack and open backup vault."
   },
   "aws-greengrass-artifact": {
     "revision": "bb0aba576fbebb7db20d646298f50fcf3bcd348ca8ada68776ce28d92a1979e6",
@@ -2784,9 +2784,9 @@
   },
   "aws-glacier-vault": {
     "revision": "5b85a76817810c6314aad2842bb9faf74dea05553468c4633cc64d8a2192ab07",
-    "comparisonRevision": "395fa198368e730405e6160959d4d34e9ba9e1238f8be5b63a4a712f3c20b811",
+    "comparisonRevision": "05c441f2a27c4b50a863ef388f79dd3cebac8aff55a025699282893dc432b19f",
     "status": "approved",
-    "notes": "A framed snowflake vault differs from the backup vault dial, multiple drive stack and network adapter."
+    "notes": "A framed snowflake vault differs from a drive stack, network adapter and MFA; the backup vault is open with a wheel."
   },
   "aws-s3-bucket-with-objects": {
     "revision": "f051b7098c0c376821dd6cf82802f0c9c78d1e5b3e35a27a774e15370b310435",
@@ -2979,5 +2979,65 @@
     "comparisonRevision": "942f227b1086a2c13f765c813c017f157c23930b69f804d0c042229447a1426d",
     "status": "approved",
     "notes": "A code template and recovery arrow differ from certificate, attestation and a noise graph."
+  },
+  "aws-backup-fsx-ontap": {
+    "revision": "79a6a5a7304c7596ad9bee6f285b30500a114ce4d69ce3ebe38d318b40b29283",
+    "comparisonRevision": "53c17720f52f2e8ee536584ed8af1b6f58083bac7943e702b999d4d165a00299",
+    "status": "approved",
+    "notes": "A file folder and recovery arrow differ from virtual visits, data protection and device advice."
+  },
+  "aws-backup-s3": {
+    "revision": "8d159ef4dd6a220d8937af29f66c88f28a7c3ff197dffb6b25dd8aabf7ca9caa",
+    "comparisonRevision": "0581a2a5b5539f4be7824e4b08a55b77f7ffcad8fea33e8edecd5c0499e0d5ef",
+    "status": "approved",
+    "notes": "An object bucket with a recovery arrow differs from troubleshooting, compute backup and cache."
+  },
+  "aws-backup-compute-resource": {
+    "revision": "80ebf13ce459d2522c3f0ea6dfc831b1f2afa13d4a4f235a2d558c3e40139189",
+    "comparisonRevision": "b7d265db0c92157626d3942681d3bc5aacafa7350764e2be9ed582a42972357d",
+    "status": "approved",
+    "notes": "A compute monitor and recovery clock differ from web apps, troubleshooting and installation."
+  },
+  "aws-backup-database-resource": {
+    "revision": "ea963409649a57b18d5b4119d16f9aa966dc893a908d7d382f8aca6cff19ef2f",
+    "comparisonRevision": "bc02661f5cfe349f08da9188cffb9a1ad1c74a78fd2cf60207cb839663d25880",
+    "status": "approved",
+    "notes": "A shield surrounds a database, unlike policy, bucket of files and backup plan."
+  },
+  "aws-backup-storage-resource": {
+    "revision": "d282cafd6f861b3a2b93d2dec6c70fe45621b1504764b812c371009e66969179",
+    "comparisonRevision": "817f3c63676cde912614639dfc45f2831a1c206779322f915b92f45929c71f29",
+    "status": "approved",
+    "notes": "A drive sends data to backup storage, unlike multiplexed packets, attachment and compiler."
+  },
+  "aws-backup-virtual-machine": {
+    "revision": "83ba8229fae547c54414edc1de812209ee04673479accd1fc9b94142abcf379c",
+    "comparisonRevision": "604fd1b41bfe499078f8ac9c659f39f451f8e15f921c48f8f9b9cbcbcee41626",
+    "status": "approved",
+    "notes": "A VM cube points to saved storage, unlike external management, a telephone and time-series database."
+  },
+  "aws-backup-virtual-machine-monitor": {
+    "revision": "99ef3c2e1b51b38d9c214fd06d29f79052556878587eabd333b5a95c81b26e4f",
+    "comparisonRevision": "eb16c4f7abdddc09b3ea8c20fed3cf1ae93751a120bf1d84a0db48a9faa07474",
+    "status": "approved",
+    "notes": "A VM cube sits beside an activity monitor, unlike enterprise applications, email and DNS logging."
+  },
+  "aws-backup-plan": {
+    "revision": "dddb51c03a211e4a3ab4072261ca180bf16f256fbb5446ef286f09da9547ecbd",
+    "comparisonRevision": "1c77c54671bdadffe8c3204616957abd8813e0bd8eee3078dc47af12fa42bb0e",
+    "status": "approved",
+    "notes": "A plan document has a clock, unlike a policy checklist, component recipe and IoT authorization."
+  },
+  "aws-backup-restore-resource": {
+    "revision": "41e6515db087f96d755bab7a053ee65a303bd1f696bd11c0887511e9c8f41b51",
+    "comparisonRevision": "d7067fe6557772ba29cf9010541d21fdbd9226bcae1752fa23ba8847de7fa9ad",
+    "status": "approved",
+    "notes": "Recovery arrows encircle a database, unlike wireless updates, input/output and EBS lifecycle."
+  },
+  "aws-backup-vault-resource": {
+    "revision": "56b4c475c42553bcfab47797fa74b567fa01a0d153e6064b894605cc6ed7fa71",
+    "comparisonRevision": "f9883b92b1142b130a0512a06c9afdb1b67a3503b813992a22021ee249330b27",
+    "status": "approved",
+    "notes": "An open vault exposes stored records and a locking wheel, unlike verified identity, verification service and a device chip; the Glacier vault is closed and snowflake-marked."
   }
 }
