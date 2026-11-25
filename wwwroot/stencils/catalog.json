@@ -1258,7 +1258,7 @@
       ],
       "revision": "e080bb670becf129a99a26eba1f6ad291319fcf84fef44ca23f54415da0717c2",
       "geometrySignature": "f302e80e72ea222bfea97c6adae75a39a5b9999b9b747fe7c2f768572c85ac40",
-      "comparisonRevision": "401d517c64e047364e0bef75ed1d78bab33a74bdbba70250158b3b4cc62a4b22",
+      "comparisonRevision": "d372eb0bfae976b4e22840987b47508c391b337a2d65e67abb6491bf11628a5f",
       "review": "pending",
       "notes": ""
     },
@@ -2909,7 +2909,7 @@
       ],
       "revision": "b23b68d9f40645bae3f47ca214b44c63fb6eee292320176ec3cad491be6b7072",
       "geometrySignature": "6c20e171873ca29ca024fe3b1d6aa463b6500103217dedf4676eff507b0fc69d",
-      "comparisonRevision": "a336d0e1abb09cc9ee17145b416328e8a5f8cfedae8fc4e0a5cc07362c388607",
+      "comparisonRevision": "c2945858bea90d860152a9e265e900d7d9ad8d6c9a14e582d81cf8273167ef91",
       "review": "pending",
       "notes": ""
     },
@@ -4428,7 +4428,7 @@
       ],
       "revision": "2afb2d1f428eb303e0e2f2ca6e1395f455bc3b9fecd64a6aaaa2802dd6b3e00c",
       "geometrySignature": "fb01a533251863c47e7969a2fd5a8e7e5d43752849e74b173e8ea98aafaf0fa9",
-      "comparisonRevision": "47ef375040aa1bf2c8e6a66317759ec85217642f38797246537e31c9b313dd18",
+      "comparisonRevision": "308245802261d82633ba7844ccae11c25a66d3ccad6b91e4b09665f53bbe41a3",
       "review": "pending",
       "notes": ""
     },
@@ -4534,6 +4534,96 @@
       "revision": "56d0823da0720352512cebbcbf91aa6b42fb879ac5ecc1e9293bbfe79b1e8fd1",
       "geometrySignature": "23bc0c26eade91f479ee376404d56980e7380d7c0428039d2992aed075e41d1b",
       "comparisonRevision": "6640290f2dfeeeffef0a8709de34e48935f8af4da3e08d2a32c2f4417000004e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-premium-network-tier",
+      "provider": "gcp",
+      "name": "Premium Network Tier",
+      "rationale": "A high-reading gauge and direct route represent the premium network tier.",
+      "path": "stencils/gcp-premium-network-tier.svg",
+      "sources": [
+        "/icons/gcp/premium_network_tier/premium_network_tier.svg"
+      ],
+      "revision": "259ac71f50c96aae0eec02dd4017933fa706706c3c5633ed0c246fe5eba1cf7d",
+      "geometrySignature": "21c3cd8f3aa5066a82c7f0cd7828336497004cb10123d2e1a547cb32589f0164",
+      "comparisonRevision": "fd806906204cfc4b40d5186f1fd3938dedd2c595ec86c93f35dc7f37c9b47a95",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-standard-network-tier",
+      "provider": "gcp",
+      "name": "Standard Network Tier",
+      "rationale": "A moderate-reading gauge and stepped route represent the standard network tier.",
+      "path": "stencils/gcp-standard-network-tier.svg",
+      "sources": [
+        "/icons/gcp/standard_network_tier/standard_network_tier.svg"
+      ],
+      "revision": "8f55648a906cd7d61b97e3f4746085a17a2638cc47f0bcc2b02c237dfbe73b81",
+      "geometrySignature": "18c4e389bcf231020cdc6e416579feb70abd7fdda50a06ee551d4c22c5954b0e",
+      "comparisonRevision": "0f8c78aafb594080bb92e9b7cce1f030a9032eb2e82673b4d526e2cd6ef7f610",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-private-connectivity",
+      "provider": "gcp",
+      "name": "Private Connectivity",
+      "rationale": "A locked connection carries traffic privately between two endpoints.",
+      "path": "stencils/gcp-private-connectivity.svg",
+      "sources": [
+        "/icons/gcp/private_connectivity/private_connectivity.svg"
+      ],
+      "revision": "69da7e7b567c14a84a84cb188f9af22dc5005f7f60aea8d74ef4fd758ba38107",
+      "geometrySignature": "70afa1956b44959762a37fc175ac4d2e5f042c5080880a56d01a32437d2a53ad",
+      "comparisonRevision": "19a8287fe61da35491ebcd2b60aae45447265f58306721a7e358f9df50ade84e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-private-service-connect",
+      "provider": "gcp",
+      "name": "Private Service Connect",
+      "rationale": "A shielded private endpoint links a consumer to a managed service.",
+      "path": "stencils/gcp-private-service-connect.svg",
+      "sources": [
+        "/icons/gcp/private_service_connect/private_service_connect.svg"
+      ],
+      "revision": "44a7d5ced20866b33b4eb0eb6016b33f8893d42da6306a9d3c931e3478f5cc97",
+      "geometrySignature": "1598dcbb4c743f491c63d8eb9149a57bbd2b6201af5168ea079b4ddf3ee6817b",
+      "comparisonRevision": "ca5da2facc9cf06171f27c4cc9f51ae0971d6624eeaabc3e8bdc9222b23ed1a0",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-traffic-director",
+      "provider": "gcp",
+      "name": "Traffic Director",
+      "rationale": "A central router directs incoming traffic toward two service destinations.",
+      "path": "stencils/gcp-traffic-director.svg",
+      "sources": [
+        "/icons/gcp/traffic_director/traffic_director.svg"
+      ],
+      "revision": "1c342b7253d99a733bc5bcf2470ce6a0e21bff5250524218b72ef390bf7ab82c",
+      "geometrySignature": "4326ae3e6afe45864a4d6e4e059ea4209c672f448bedb147b0c9b0287967ae37",
+      "comparisonRevision": "e4f98e87686ec2a29d0590d5d141eb61ac746042d5a6f78861522a750129d78d",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-virtual-private-cloud",
+      "provider": "gcp",
+      "name": "Virtual Private Cloud",
+      "rationale": "An isolated cloud contains a private network of connected resources.",
+      "path": "stencils/gcp-virtual-private-cloud.svg",
+      "sources": [
+        "/icons/gcp/virtual_private_cloud/virtual_private_cloud.svg"
+      ],
+      "revision": "4c3066239cfa07b89488f0ea4cf63804d635b27bec87fcfefd5c8e2ec9709ed2",
+      "geometrySignature": "d891c8533a70d840ffd03e1f24b65a09f8dd013cf59e7d328b438236e4030cc8",
+      "comparisonRevision": "9c8630c8e3e7a3f73089f447a95f209fb8bd729762f92b632f8c9844d01ec573",
       "review": "pending",
       "notes": ""
     },
@@ -9014,7 +9104,7 @@
       ],
       "revision": "30c65cfb87aa093ac4948f8e6215920943d66b504edd92660dffe8758376dd06",
       "geometrySignature": "3b272f763f31c93f6c4663abe3cd0412605e1020c7a4d42f35a9987506167a0b",
-      "comparisonRevision": "1b4c2034ea95c45acb59eaba399530961b0b9212bb67ece5012dbfe0c989ec30",
+      "comparisonRevision": "05fc777d2c35d43fcaf7b50b6d3d2567d1fdb926378b2d0965a3498629fb30b5",
       "review": "pending",
       "notes": ""
     },
@@ -12131,7 +12221,7 @@
       ],
       "revision": "a94ca715897fefaf8228f49ce35eca6727519bd7f2a5c0320939d87f2aeb6f04",
       "geometrySignature": "e68a0408009c5c92679f46fdc8f6eb1f10b54248adbef355248a48794ecd2fc3",
-      "comparisonRevision": "d587c9abe7791a5fb09f7ae8fedcdd4428f56996e3d3ec2283a094d963375684",
+      "comparisonRevision": "6e8425dd9631a2d5b1f3d747bc6e13ff1e8cac27a7a1c4d9361f1a470ad5530d",
       "review": "pending",
       "notes": ""
     },
@@ -14912,7 +15002,7 @@
       ],
       "revision": "4743efd240809fd501c234f8da6d23c95fb5571a3abf2c12bced89314ce0af16",
       "geometrySignature": "efc1b10f7996cd938b8afea4324cdf505c1ef3dff2ae12e798eef01ca24e91b0",
-      "comparisonRevision": "ebc107314981c7ae1fec953a93d8216f7b7be908381ca11188f3d36e95871d49",
+      "comparisonRevision": "11ecbe944a80a10952b7c4903a133e026208346328935f4064e49b9244ce7f8b",
       "review": "pending",
       "notes": ""
     },
@@ -15164,7 +15254,7 @@
       ],
       "revision": "33e8c06e21b9064deaadb2bb0703f5f90a406482a5ce7d1e86bf48baf7093bd6",
       "geometrySignature": "946b23812cf39913707ddf189a88a7536de20b8a648611d79d257d7ad602559d",
-      "comparisonRevision": "11514e339e479fa9afd28c763317de36125ba040568249cd48b2d7597bfafc5c",
+      "comparisonRevision": "a1c3d9f60982387264a4d2e11a4942277b3106660bb11a97ccc7e14003bf61fd",
       "review": "pending",
       "notes": ""
     },
@@ -15326,7 +15416,7 @@
       ],
       "revision": "f888481b73b8de26b24b20bd66397cda455f0aa49fb6ad1e36ad1e98efe33b7d",
       "geometrySignature": "3858b14c64ac55fa0c3abb4aadddb1d00f49803b7d51dcc9e85919fb34903ec0",
-      "comparisonRevision": "94e8115a9031131dd7b2b920c14b671cd7f4a2660982f611da65c215dfd19639",
+      "comparisonRevision": "9057234fb285985de7ff3f12086f9a36ac8734a75f3e39363d093ddc51f95c86",
       "review": "pending",
       "notes": ""
     },
@@ -16500,7 +16590,7 @@
       ],
       "revision": "2d1c60866ae975ea06d0f9b195025927cac23e4660b8251d0c5aa41236aa6834",
       "geometrySignature": "66277b0bbbf11791ca36f15aae5c9fe1d36b75ba5a315c27e8c5d50f11a18b4a",
-      "comparisonRevision": "c80b7b5a5f095c8f075f068b8459ce73ff69ffd6bdfed28ad14bb7ad0a7339b5",
+      "comparisonRevision": "56221c41f47e0e1bc314ac1867a36ccb1d4ab1b5ceb0ce0b8e6886d8d0ddbe4e",
       "review": "pending",
       "notes": ""
     },
@@ -18890,7 +18980,7 @@
       ],
       "revision": "286a68e39d92f71fbfb9e13dba2dae3be6724011df3860bc9fb53c0bee322e5c",
       "geometrySignature": "57a96399cd7627bc1b8371c51d425eee785be5e2b778024a2d26c8ceab510fcb",
-      "comparisonRevision": "b24b6ad1d5d3d4554238fb836d7941588394cd089e8e0164211ca3c28f0a4f47",
+      "comparisonRevision": "a6c6c792ac6d940c34a38381f1f7274de14356733b74986c12ddbc2eaef5e9af",
       "review": "pending",
       "notes": ""
     },
@@ -18988,7 +19078,7 @@
       ],
       "revision": "fd1d90d36ab512cca72a6108aa2637a4bea2729db84960bea65b4e1c029d9556",
       "geometrySignature": "fea749905864c15f4bd52fcf93ea7addf7361e6a211824bb6fdcc6c748fe7a18",
-      "comparisonRevision": "cc7605211bfc6db946c52d5fdcae26dc22deabbf2453093d1c8590cb3a703e74",
+      "comparisonRevision": "7a6974f0d1dcb5bdfadae9e73f74fba0c9b250d9768158f29bbbabc18951832c",
       "review": "pending",
       "notes": ""
     }

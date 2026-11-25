@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1074,
-  "aliases": 3955,
+  "count": 1080,
+  "aliases": 3961,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -276,6 +276,12 @@
     "gcp-network-tiers",
     "gcp-network-topology",
     "gcp-partner-interconnect",
+    "gcp-premium-network-tier",
+    "gcp-standard-network-tier",
+    "gcp-private-connectivity",
+    "gcp-private-service-connect",
+    "gcp-traffic-director",
+    "gcp-virtual-private-cloud",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1190,8 +1196,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 174,
-      "concepts": 161
+      "covered": 180,
+      "concepts": 167
     }
   },
   "nearest": {
@@ -2512,13 +2518,13 @@
       },
       {
         "a": "gcp-spanner",
-        "b": "aws-outposts-family",
-        "similarity": 0.2444
+        "b": "gcp-private-service-connect",
+        "similarity": 0.2457
       },
       {
         "a": "gcp-spanner",
-        "b": "gcp-alloydb",
-        "similarity": 0.2205
+        "b": "aws-outposts-family",
+        "similarity": 0.2444
       }
     ],
     "gcp-functions": [
@@ -4149,8 +4155,8 @@
       },
       {
         "a": "aws-glue",
-        "b": "aws-kendra",
-        "similarity": 0.195
+        "b": "gcp-private-service-connect",
+        "similarity": 0.198
       }
     ],
     "aws-lake-formation": [
@@ -5669,6 +5675,11 @@
     "gcp-cloud-ops": [
       {
         "a": "gcp-cloud-ops",
+        "b": "gcp-virtual-private-cloud",
+        "similarity": 0.2262
+      },
+      {
+        "a": "gcp-cloud-ops",
         "b": "gcp-cloud-gpu",
         "similarity": 0.2103
       },
@@ -5676,11 +5687,6 @@
         "a": "fabric-book-database",
         "b": "gcp-cloud-ops",
         "similarity": 0.2049
-      },
-      {
-        "a": "gcp-cloud-ops",
-        "b": "aws-comprehend",
-        "similarity": 0.2027
       }
     ],
     "gcp-performance-dashboard": [
@@ -5800,6 +5806,108 @@
         "a": "gcp-partner-interconnect",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2661
+      }
+    ],
+    "gcp-premium-network-tier": [
+      {
+        "a": "gcp-premium-network-tier",
+        "b": "gcp-standard-network-tier",
+        "similarity": 0.4304
+      },
+      {
+        "a": "m365-payment",
+        "b": "gcp-premium-network-tier",
+        "similarity": 0.1926
+      },
+      {
+        "a": "gcp-premium-network-tier",
+        "b": "aws-outposts-servers",
+        "similarity": 0.1719
+      }
+    ],
+    "gcp-standard-network-tier": [
+      {
+        "a": "gcp-premium-network-tier",
+        "b": "gcp-standard-network-tier",
+        "similarity": 0.4304
+      },
+      {
+        "a": "m365-payment",
+        "b": "gcp-standard-network-tier",
+        "similarity": 0.1498
+      },
+      {
+        "a": "gcp-standard-network-tier",
+        "b": "m365-cloud-beaker",
+        "similarity": 0.1439
+      }
+    ],
+    "gcp-private-connectivity": [
+      {
+        "a": "gcp-private-connectivity",
+        "b": "fabric-data-graph",
+        "similarity": 0.2463
+      },
+      {
+        "a": "gcp-private-connectivity",
+        "b": "aws-forecast",
+        "similarity": 0.2205
+      },
+      {
+        "a": "gcp-private-connectivity",
+        "b": "aws-nova",
+        "similarity": 0.2142
+      }
+    ],
+    "gcp-private-service-connect": [
+      {
+        "a": "gcp-private-service-connect",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2781
+      },
+      {
+        "a": "gcp-private-service-connect",
+        "b": "aws-backint-agent",
+        "similarity": 0.2571
+      },
+      {
+        "a": "gcp-dataprep",
+        "b": "gcp-private-service-connect",
+        "similarity": 0.2461
+      }
+    ],
+    "gcp-traffic-director": [
+      {
+        "a": "gcp-traffic-director",
+        "b": "gcp-genomics",
+        "similarity": 0.2186
+      },
+      {
+        "a": "m365-radar",
+        "b": "gcp-traffic-director",
+        "similarity": 0.1939
+      },
+      {
+        "a": "gcp-traffic-director",
+        "b": "fabric-documents-dax",
+        "similarity": 0.1868
+      }
+    ],
+    "gcp-virtual-private-cloud": [
+      {
+        "a": "gcp-virtual-private-cloud",
+        "b": "fabric-database-table",
+        "similarity": 0.2458
+      },
+      {
+        "a": "gcp-virtual-private-cloud",
+        "b": "aws-category-games",
+        "similarity": 0.2301
+      },
+      {
+        "a": "gcp-virtual-private-cloud",
+        "b": "gcp-app-engine",
+        "similarity": 0.2291
       }
     ],
     "gcp-access-context": [
@@ -9974,14 +10082,14 @@
         "similarity": 0.1743
       },
       {
+        "a": "gcp-premium-network-tier",
+        "b": "aws-deepracer",
+        "similarity": 0.1709
+      },
+      {
         "a": "aws-deepracer",
         "b": "aws-service-catalog",
         "similarity": 0.1672
-      },
-      {
-        "a": "fabric-healthcare",
-        "b": "aws-deepracer",
-        "similarity": 0.1616
       }
     ],
     "aws-health-imaging": [
@@ -12869,9 +12977,9 @@
         "similarity": 0.2067
       },
       {
-        "a": "aws-shield",
-        "b": "fabric-briefcase-pulse",
-        "similarity": 0.1838
+        "a": "gcp-private-connectivity",
+        "b": "aws-shield",
+        "similarity": 0.2007
       }
     ],
     "aws-security-incident-response": [
@@ -15568,9 +15676,9 @@
         "similarity": 0.2798
       },
       {
-        "a": "gcp-cloud-code",
+        "a": "gcp-private-service-connect",
         "b": "aws-elastic-inference",
-        "similarity": 0.2512
+        "similarity": 0.2781
       }
     ],
     "aws-quick": [
@@ -15796,6 +15904,11 @@
     ],
     "aws-category-games": [
       {
+        "a": "gcp-virtual-private-cloud",
+        "b": "aws-category-games",
+        "similarity": 0.2301
+      },
+      {
         "a": "aws-category-games",
         "b": "fabric-database-table",
         "similarity": 0.2252
@@ -15804,11 +15917,6 @@
         "a": "gcp-anthos-config-management",
         "b": "aws-category-games",
         "similarity": 0.2067
-      },
-      {
-        "a": "gcp-app-engine",
-        "b": "aws-category-games",
-        "similarity": 0.2009
       }
     ],
     "aws-category-developer-tools": [
@@ -15954,12 +16062,12 @@
         "similarity": 0.1918
       },
       {
-        "a": "aws-lightsail",
+        "a": "gcp-private-connectivity",
         "b": "aws-category-quantum",
-        "similarity": 0.1837
+        "similarity": 0.1872
       },
       {
-        "a": "gcp-security-operations",
+        "a": "aws-lightsail",
         "b": "aws-category-quantum",
         "similarity": 0.1837
       }
@@ -17166,9 +17274,9 @@
         "similarity": 0.1642
       },
       {
-        "a": "gcp-anthos-config-management",
+        "a": "gcp-traffic-director",
         "b": "fabric-cube-cone-sphere",
-        "similarity": 0.1568
+        "similarity": 0.1599
       }
     ],
     "fabric-area-location": [
@@ -19386,9 +19494,9 @@
         "similarity": 0.2675
       },
       {
-        "a": "dynamics-sales-insights",
+        "a": "gcp-private-connectivity",
         "b": "fabric-data-graph",
-        "similarity": 0.2432
+        "similarity": 0.2463
       }
     ],
     "fabric-data-tree": [
@@ -19483,14 +19591,14 @@
         "similarity": 0.1196
       },
       {
+        "a": "gcp-premium-network-tier",
+        "b": "fabric-connected-nodes",
+        "similarity": 0.1121
+      },
+      {
         "a": "azure-cosmos-db",
         "b": "fabric-connected-nodes",
         "similarity": 0.1105
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "fabric-connected-nodes",
-        "similarity": 0.1096
       }
     ]
   }
