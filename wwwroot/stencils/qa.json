@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 749,
+  "approved": 777,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -52,11 +52,6 @@
     "azure-network-watcher",
     "azure-data-box",
     "azure-event-grid-subscriptions",
-    "m365-receipt",
-    "m365-presenter",
-    "m365-road-cone",
-    "m365-shopping-bag",
-    "m365-video",
     "gcp-kuberun",
     "gcp-local-ssd",
     "gcp-bare-metal",
@@ -255,26 +250,6 @@
     "gcp-connectivity-test",
     "gcp-quotas",
     "gcp-cloud-tpu",
-    "m365-desktop-tower",
-    "m365-laptop",
-    "m365-tablet",
-    "m365-megaphone",
-    "m365-toolbox",
-    "m365-script",
-    "m365-question",
-    "m365-shield-error",
-    "m365-organization",
-    "m365-organization-horizontal",
-    "m365-audience",
-    "m365-team",
-    "m365-person-desktop",
-    "m365-person-wrench",
-    "m365-shifts",
-    "m365-signature",
-    "m365-merge",
-    "m365-share",
-    "m365-share-screen",
-    "m365-select-all",
     "fabric-cohort",
     "fabric-copy-job",
     "fabric-dashboard",
@@ -398,9 +373,6 @@
     "fabric-streaming-dataflow",
     "fabric-streaming-semantic",
     "fabric-user-data-function",
-    "m365-building",
-    "m365-clock",
-    "m365-alarm-clock",
     "m365-column-arrow",
     "m365-bar-chart",
     "m365-data-usage",
@@ -2065,17 +2037,17 @@
     "dynamics-field-service": [
       {
         "a": "dynamics-field-service",
+        "b": "m365-clock",
+        "similarity": 0.1922
+      },
+      {
+        "a": "dynamics-field-service",
         "b": "m365-clipboard",
         "similarity": 0.134
       },
       {
         "a": "dynamics-field-service",
         "b": "aws-s3-vpc-access",
-        "similarity": 0.13
-      },
-      {
-        "a": "dynamics-field-service",
-        "b": "fabric-bucket",
         "similarity": 0.13
       }
     ],
@@ -4161,13 +4133,13 @@
       },
       {
         "a": "aws-eventbridge",
-        "b": "m365-road-cone",
-        "similarity": 0.1861
+        "b": "aws-budgets",
+        "similarity": 0.184
       },
       {
         "a": "aws-eventbridge",
-        "b": "aws-budgets",
-        "similarity": 0.184
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.1836
       }
     ],
     "aws-eventbridge-pipes": [
@@ -5220,8 +5192,8 @@
       },
       {
         "a": "fabric-circle-tree",
-        "b": "m365-question",
-        "similarity": 0.4421
+        "b": "m365-data-usage",
+        "similarity": 0.363
       }
     ],
     "azure-integration-service-environments": [
@@ -6349,11 +6321,6 @@
     "m365-radar": [
       {
         "a": "m365-radar",
-        "b": "m365-clock",
-        "similarity": 0.4555
-      },
-      {
-        "a": "m365-radar",
         "b": "m365-arrow-circle-right",
         "similarity": 0.425
       },
@@ -6361,6 +6328,11 @@
         "a": "m365-radar",
         "b": "m365-arrow-circle-left",
         "similarity": 0.4228
+      },
+      {
+        "a": "m365-radar",
+        "b": "m365-number-circle-one",
+        "similarity": 0.4097
       }
     ],
     "m365-receipt": [
@@ -6400,18 +6372,18 @@
     "m365-road-cone": [
       {
         "a": "m365-road-cone",
-        "b": "aws-category-management",
-        "similarity": 0.2506
+        "b": "azure-defender-scale",
+        "similarity": 0.2504
       },
       {
         "a": "m365-road-cone",
-        "b": "fabric-data-warehouse-product",
-        "similarity": 0.2425
+        "b": "gcp-data-transfer",
+        "similarity": 0.2483
       },
       {
         "a": "m365-road-cone",
-        "b": "aws-iot-policy",
-        "similarity": 0.2293
+        "b": "aws-network-firewall-endpoint",
+        "similarity": 0.238
       }
     ],
     "m365-shopping-bag": [
@@ -7815,14 +7787,14 @@
         "similarity": 0.2741
       },
       {
-        "a": "gcp-data-transfer",
-        "b": "gcp-data-catalog",
-        "similarity": 0.2218
+        "a": "m365-road-cone",
+        "b": "gcp-data-transfer",
+        "similarity": 0.2483
       },
       {
         "a": "gcp-data-transfer",
-        "b": "fabric-arrow-right-double",
-        "similarity": 0.2153
+        "b": "gcp-data-catalog",
+        "similarity": 0.2218
       }
     ],
     "gcp-transfer": [
@@ -9834,18 +9806,18 @@
     "m365-laptop": [
       {
         "a": "m365-laptop",
+        "b": "azure-restore-collection",
+        "similarity": 0.2541
+      },
+      {
+        "a": "m365-laptop",
         "b": "aws-iot-thing-utility",
-        "similarity": 0.2547
+        "similarity": 0.2537
       },
       {
         "a": "m365-laptop",
-        "b": "aws-elemental-appliances",
-        "similarity": 0.2536
-      },
-      {
-        "a": "m365-laptop",
-        "b": "aws-ground-truth",
-        "similarity": 0.2454
+        "b": "aws-ebs-volume",
+        "similarity": 0.2492
       }
     ],
     "m365-tablet": [
@@ -9868,18 +9840,18 @@
     "m365-megaphone": [
       {
         "a": "m365-megaphone",
-        "b": "aws-inspector-agent",
-        "similarity": 0.157
+        "b": "azure-metrics-advisor",
+        "similarity": 0.1795
       },
       {
         "a": "m365-megaphone",
-        "b": "aws-verified-permissions",
-        "similarity": 0.1481
+        "b": "azure-vm-scale-sets",
+        "similarity": 0.1537
       },
       {
         "a": "m365-megaphone",
-        "b": "azure-wac",
-        "similarity": 0.14
+        "b": "aws-sustainability",
+        "similarity": 0.1495
       }
     ],
     "m365-toolbox": [
@@ -9919,18 +9891,18 @@
     "m365-question": [
       {
         "a": "m365-question",
-        "b": "fabric-commit-circle",
-        "similarity": 0.5659
+        "b": "fabric-location-ribbon",
+        "similarity": 0.2178
       },
       {
         "a": "m365-question",
-        "b": "fabric-asterisk-circle",
-        "similarity": 0.5522
+        "b": "azure-restore-collection",
+        "similarity": 0.1538
       },
       {
-        "a": "fabric-circle-tree",
-        "b": "m365-question",
-        "similarity": 0.4421
+        "a": "m365-question",
+        "b": "azure-storage-explorer",
+        "similarity": 0.1521
       }
     ],
     "m365-shield-error": [
@@ -10378,11 +10350,6 @@
     "fabric-exploration": [
       {
         "a": "fabric-exploration",
-        "b": "m365-clock",
-        "similarity": 0.4353
-      },
-      {
-        "a": "fabric-exploration",
         "b": "fabric-arrow-trend",
         "similarity": 0.4115
       },
@@ -10390,6 +10357,11 @@
         "a": "fabric-exploration",
         "b": "m365-number-circle-two",
         "similarity": 0.4041
+      },
+      {
+        "a": "fabric-exploration",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.401
       }
     ],
     "fabric-graph-model": [
@@ -12111,9 +12083,9 @@
         "similarity": 0.2207
       },
       {
-        "a": "m365-road-cone",
+        "a": "azure-sql-service",
         "b": "aws-emr-engine",
-        "similarity": 0.2058
+        "similarity": 0.1985
       }
     ],
     "aws-emr-hdfs-cluster": [
@@ -13359,19 +13331,19 @@
     ],
     "m365-clock": [
       {
-        "a": "m365-clock",
-        "b": "m365-number-circle-one",
-        "similarity": 0.6154
+        "a": "gcp-load-balancing",
+        "b": "m365-clock",
+        "similarity": 0.2055
+      },
+      {
+        "a": "dynamics-field-service",
+        "b": "m365-clock",
+        "similarity": 0.1922
       },
       {
         "a": "m365-clock",
-        "b": "m365-arrow-circle-right",
-        "similarity": 0.5974
-      },
-      {
-        "a": "m365-clock",
-        "b": "m365-arrow-circle-left",
-        "similarity": 0.5934
+        "b": "aws-resilience-hub",
+        "similarity": 0.1828
       }
     ],
     "m365-alarm-clock": [
@@ -13432,14 +13404,14 @@
         "similarity": 0.4076
       },
       {
-        "a": "m365-question",
-        "b": "m365-data-usage",
-        "similarity": 0.3768
-      },
-      {
         "a": "m365-data-usage",
         "b": "fabric-asterisk-circle",
         "similarity": 0.3739
+      },
+      {
+        "a": "fabric-circle-tree",
+        "b": "m365-data-usage",
+        "similarity": 0.363
       }
     ],
     "m365-desktop-download": [
@@ -14015,9 +13987,9 @@
         "similarity": 0.1889
       },
       {
-        "a": "azure-blockchain-outbound",
+        "a": "m365-road-cone",
         "b": "m365-top-speed",
-        "similarity": 0.1799
+        "similarity": 0.1829
       }
     ],
     "m365-wallet-card": [
@@ -22107,9 +22079,9 @@
         "similarity": 0.251
       },
       {
-        "a": "m365-road-cone",
-        "b": "fabric-data-warehouse-product",
-        "similarity": 0.2425
+        "a": "fabric-data-warehouse-product",
+        "b": "aws-nitro-enclaves",
+        "similarity": 0.2306
       }
     ],
     "fabric-databases": [
@@ -25864,9 +25836,9 @@
         "similarity": 0.2614
       },
       {
-        "a": "m365-laptop",
+        "a": "gcp-threat-intelligence",
         "b": "aws-elemental-appliances",
-        "similarity": 0.2536
+        "similarity": 0.2431
       }
     ],
     "aws-elemental-inference": [
@@ -27946,11 +27918,6 @@
     ],
     "m365-number-circle-one": [
       {
-        "a": "m365-clock",
-        "b": "m365-number-circle-one",
-        "similarity": 0.6154
-      },
-      {
         "a": "m365-arrow-circle-left",
         "b": "m365-number-circle-one",
         "similarity": 0.6082
@@ -27959,6 +27926,11 @@
         "a": "m365-arrow-circle-right",
         "b": "m365-number-circle-one",
         "similarity": 0.6082
+      },
+      {
+        "a": "m365-number-circle-one",
+        "b": "fabric-arrow-trend",
+        "similarity": 0.6049
       }
     ],
     "m365-number-circle-two": [
@@ -29763,14 +29735,14 @@
         "notes": "Six intersecting spokes differ from the single circular revision node on a vertical line, including at 32px."
       },
       {
-        "a": "m365-question",
-        "b": "fabric-asterisk-circle",
-        "similarity": 0.5522
-      },
-      {
         "a": "fabric-circle-tree",
         "b": "fabric-asterisk-circle",
         "similarity": 0.4504
+      },
+      {
+        "a": "m365-data-usage",
+        "b": "fabric-asterisk-circle",
+        "similarity": 0.3739
       }
     ],
     "fabric-commit": [
@@ -29799,14 +29771,14 @@
         "notes": "Six intersecting spokes differ from the single circular revision node on a vertical line, including at 32px."
       },
       {
-        "a": "m365-question",
-        "b": "fabric-commit-circle",
-        "similarity": 0.5659
-      },
-      {
         "a": "fabric-circle-tree",
         "b": "fabric-commit-circle",
         "similarity": 0.4646
+      },
+      {
+        "a": "m365-data-usage",
+        "b": "fabric-commit-circle",
+        "similarity": 0.4076
       }
     ],
     "aws-account-group": [
@@ -31193,14 +31165,14 @@
         "similarity": 0.2934
       },
       {
-        "a": "m365-road-cone",
-        "b": "aws-category-management",
-        "similarity": 0.2506
-      },
-      {
         "a": "gcp-cloud-vpn",
         "b": "aws-category-management",
         "similarity": 0.2432
+      },
+      {
+        "a": "gcp-bigtable",
+        "b": "aws-category-management",
+        "similarity": 0.2394
       }
     ],
     "aws-category-games": [
@@ -34911,6 +34883,11 @@
     ],
     "azure-restore-collection": [
       {
+        "a": "m365-laptop",
+        "b": "azure-restore-collection",
+        "similarity": 0.2541
+      },
+      {
         "a": "azure-cost-management-billing",
         "b": "azure-restore-collection",
         "similarity": 0.2523
@@ -34919,11 +34896,6 @@
         "a": "gcp-firestore",
         "b": "azure-restore-collection",
         "similarity": 0.251
-      },
-      {
-        "a": "fabric-paginated-report",
-        "b": "azure-restore-collection",
-        "similarity": 0.2509
       }
     ],
     "azure-compute-galleries": [
@@ -35193,9 +35165,9 @@
         "similarity": 0.1374
       },
       {
-        "a": "m365-bot",
+        "a": "m365-laptop",
         "b": "fabric-hexagons",
-        "similarity": 0.1336
+        "similarity": 0.1354
       }
     ],
     "fabric-home-waves": [
@@ -39421,6 +39393,11 @@
     ],
     "fabric-location-ribbon": [
       {
+        "a": "m365-question",
+        "b": "fabric-location-ribbon",
+        "similarity": 0.2178
+      },
+      {
         "a": "azure-storage-explorer",
         "b": "fabric-location-ribbon",
         "similarity": 0.1788
@@ -39429,11 +39406,6 @@
         "a": "gcp-category-observability",
         "b": "fabric-location-ribbon",
         "similarity": 0.1642
-      },
-      {
-        "a": "azure-globe-warning",
-        "b": "fabric-location-ribbon",
-        "similarity": 0.1508
       }
     ],
     "fabric-trophy-prohibited": [
