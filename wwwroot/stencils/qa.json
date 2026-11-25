@@ -3,16 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 1115,
+  "approved": 1123,
   "needsReview": [
-    "azure-azurite",
-    "azure-arc-postgresql",
-    "azure-arc-sql-managed-instance",
-    "azure-arc-sql-server",
-    "azure-arc-data-services",
-    "azure-managed-cassandra-instance",
-    "azure-elastic-san",
-    "azure-storage-functions",
     "azure-fhir-service",
     "azure-medtech-service",
     "azure-storage-accounts-classic",
@@ -1742,8 +1734,8 @@
       },
       {
         "a": "entra-family",
-        "b": "gcp-runtime-config",
-        "similarity": 0.2288
+        "b": "azure-azurite",
+        "similarity": 0.2411
       }
     ],
     "entra-governance": [
@@ -6463,13 +6455,13 @@
       },
       {
         "a": "gcp-runtime-config",
-        "b": "aws-vpc-vpn-connection",
-        "similarity": 0.2819
+        "b": "azure-azurite",
+        "similarity": 0.326
       },
       {
         "a": "gcp-runtime-config",
-        "b": "aws-opensearch-observability",
-        "similarity": 0.2793
+        "b": "aws-vpc-vpn-connection",
+        "similarity": 0.2819
       }
     ],
     "gcp-automl": [
@@ -10249,35 +10241,35 @@
     "azure-azurite": [
       {
         "a": "azure-azurite",
-        "b": "aws-ebs-snapshot",
-        "similarity": 0.3376
+        "b": "aws-devops-agent",
+        "similarity": 0.3985
       },
       {
         "a": "azure-azurite",
-        "b": "aws-rds-instance",
-        "similarity": 0.3254
+        "b": "aws-codewhisperer",
+        "similarity": 0.3394
       },
       {
         "a": "azure-azurite",
-        "b": "azure-storage-functions",
-        "similarity": 0.3132
+        "b": "m365-slide-layout",
+        "similarity": 0.3382
       }
     ],
     "azure-arc-postgresql": [
       {
         "a": "azure-arc-postgresql",
-        "b": "azure-time-series-data-sets",
-        "similarity": 0.5051
+        "b": "aws-iot-alexa-device",
+        "similarity": 0.247
       },
       {
         "a": "azure-arc-postgresql",
-        "b": "azure-storage-functions",
-        "similarity": 0.383
+        "b": "azure-arc-sql-managed-instance",
+        "similarity": 0.2436
       },
       {
         "a": "azure-arc-postgresql",
-        "b": "azure-blob-block",
-        "similarity": 0.3113
+        "b": "azure-recent",
+        "similarity": 0.237
       }
     ],
     "azure-arc-sql-managed-instance": [
@@ -10316,19 +10308,19 @@
     ],
     "azure-arc-data-services": [
       {
-        "a": "azure-arc-data-services",
-        "b": "aws-general-saml-token",
-        "similarity": 0.3034
+        "a": "gcp-ai-hypercomputer",
+        "b": "azure-arc-data-services",
+        "similarity": 0.1911
       },
       {
         "a": "azure-arc-data-services",
-        "b": "aws-cloudwatch-metrics-insights",
-        "similarity": 0.2932
+        "b": "azure-sql-stretch",
+        "similarity": 0.1903
       },
       {
-        "a": "azure-arc-data-services",
-        "b": "aws-systems-incident-manager",
-        "similarity": 0.2751
+        "a": "gcp-container-optimized-os",
+        "b": "azure-arc-data-services",
+        "similarity": 0.1671
       }
     ],
     "azure-managed-cassandra-instance": [
@@ -10351,18 +10343,18 @@
     "azure-elastic-san": [
       {
         "a": "azure-elastic-san",
-        "b": "azure-storage-functions",
-        "similarity": 0.3745
+        "b": "aws-elemental-server",
+        "similarity": 0.2441
       },
       {
         "a": "azure-elastic-san",
-        "b": "azure-time-series-data-sets",
-        "similarity": 0.3195
+        "b": "fabric-data-engineering",
+        "similarity": 0.2245
       },
       {
-        "a": "azure-arc-postgresql",
-        "b": "azure-elastic-san",
-        "similarity": 0.3038
+        "a": "azure-elastic-san",
+        "b": "aws-opentelemetry",
+        "similarity": 0.2173
       }
     ],
     "azure-storage-functions": [
@@ -10372,14 +10364,14 @@
         "similarity": 0.4731
       },
       {
-        "a": "azure-arc-postgresql",
-        "b": "azure-storage-functions",
-        "similarity": 0.383
+        "a": "azure-storage-functions",
+        "b": "aws-rds-instance",
+        "similarity": 0.3735
       },
       {
-        "a": "azure-elastic-san",
-        "b": "azure-storage-functions",
-        "similarity": 0.3745
+        "a": "azure-storage-functions",
+        "b": "azure-time-series-data-sets",
+        "similarity": 0.3726
       }
     ],
     "azure-fhir-service": [
@@ -16630,19 +16622,19 @@
     ],
     "azure-time-series-data-sets": [
       {
-        "a": "azure-arc-postgresql",
-        "b": "azure-time-series-data-sets",
-        "similarity": 0.5051
-      },
-      {
         "a": "azure-storage-functions",
         "b": "azure-time-series-data-sets",
         "similarity": 0.3726
       },
       {
-        "a": "azure-elastic-san",
-        "b": "azure-time-series-data-sets",
-        "similarity": 0.3195
+        "a": "azure-time-series-data-sets",
+        "b": "microsoft-engage-center-connect",
+        "similarity": 0.301
+      },
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-transfer-sftp",
+        "similarity": 0.2989
       }
     ],
     "azure-windows-core-services": [
@@ -20533,9 +20525,9 @@
         "similarity": 0.2786
       },
       {
-        "a": "azure-arc-postgresql",
+        "a": "azure-time-series-data-sets",
         "b": "aws-s3-standard-ia",
-        "similarity": 0.2783
+        "similarity": 0.2771
       }
     ],
     "aws-s3-standard": [
@@ -20851,14 +20843,14 @@
         "similarity": 0.338
       },
       {
-        "a": "azure-azurite",
-        "b": "aws-ebs-snapshot",
-        "similarity": 0.3376
-      },
-      {
         "a": "azure-machines-azure-arc",
         "b": "aws-ebs-snapshot",
         "similarity": 0.3368
+      },
+      {
+        "a": "microsoft-engage-center-connect",
+        "b": "aws-ebs-snapshot",
+        "similarity": 0.3328
       }
     ],
     "aws-ebs-gp3-volume": [
@@ -21662,6 +21654,11 @@
     ],
     "fabric-data-engineering": [
       {
+        "a": "azure-elastic-san",
+        "b": "fabric-data-engineering",
+        "similarity": 0.2245
+      },
+      {
         "a": "aws-opensearch-dashboards",
         "b": "fabric-data-engineering",
         "similarity": 0.2218
@@ -21670,11 +21667,6 @@
         "a": "fabric-data-engineering",
         "b": "aws-elastic-inference",
         "similarity": 0.2095
-      },
-      {
-        "a": "fabric-paginated-report",
-        "b": "fabric-data-engineering",
-        "similarity": 0.2078
       }
     ],
     "fabric-data-science": [
@@ -22529,6 +22521,11 @@
     ],
     "aws-chatbot": [
       {
+        "a": "azure-azurite",
+        "b": "aws-chatbot",
+        "similarity": 0.2596
+      },
+      {
         "a": "aws-chatbot",
         "b": "aws-devops-agent",
         "similarity": 0.2571
@@ -22537,11 +22534,6 @@
         "a": "gcp-web-risk",
         "b": "aws-chatbot",
         "similarity": 0.2196
-      },
-      {
-        "a": "aws-chatbot",
-        "b": "aws-service-management-connector",
-        "similarity": 0.2164
       }
     ],
     "aws-appfabric": [
@@ -24943,6 +24935,11 @@
     ],
     "aws-devops-agent": [
       {
+        "a": "azure-azurite",
+        "b": "aws-devops-agent",
+        "similarity": 0.3985
+      },
+      {
         "a": "aws-devops-agent",
         "b": "aws-managed-grafana",
         "similarity": 0.365
@@ -24951,11 +24948,6 @@
         "a": "azure-power-bi-embedded",
         "b": "aws-devops-agent",
         "similarity": 0.3282
-      },
-      {
-        "a": "aws-cloud9",
-        "b": "aws-devops-agent",
-        "similarity": 0.3081
       }
     ],
     "aws-application-auto-scaling": [
@@ -25259,9 +25251,9 @@
         "similarity": 0.2215
       },
       {
-        "a": "azure-power-bi-embedded",
+        "a": "azure-azurite",
         "b": "aws-managed-prometheus",
-        "similarity": 0.217
+        "similarity": 0.2171
       }
     ],
     "aws-user-notifications": [
@@ -25861,11 +25853,6 @@
     ],
     "aws-waf-managed-rule": [
       {
-        "a": "azure-azurite",
-        "b": "aws-waf-managed-rule",
-        "similarity": 0.2712
-      },
-      {
         "a": "aws-waf-managed-rule",
         "b": "azure-process-explorer",
         "similarity": 0.2623
@@ -25874,6 +25861,11 @@
         "a": "aws-ebs-snapshot",
         "b": "aws-waf-managed-rule",
         "similarity": 0.2428
+      },
+      {
+        "a": "aws-waf-managed-rule",
+        "b": "aws-route53-readiness",
+        "similarity": 0.2425
       }
     ],
     "aws-iam-sts": [
@@ -28580,9 +28572,9 @@
         "similarity": 0.2422
       },
       {
-        "a": "gcp-security-command-center",
+        "a": "azure-azurite",
         "b": "aws-site-vpn",
-        "similarity": 0.2365
+        "similarity": 0.2395
       }
     ],
     "aws-transit-gateway": [
@@ -28971,9 +28963,9 @@
         "similarity": 0.2186
       },
       {
-        "a": "aws-waf-bot",
+        "a": "azure-azurite",
         "b": "gcp-category-mixed-reality",
-        "similarity": 0.208
+        "similarity": 0.2117
       }
     ],
     "gcp-category-networking": [
@@ -29553,9 +29545,9 @@
         "similarity": 0.3296
       },
       {
-        "a": "azure-azurite",
+        "a": "azure-savings-plans",
         "b": "aws-rds-instance",
-        "similarity": 0.3254
+        "similarity": 0.3239
       }
     ],
     "aws-mariadb-instance": [
@@ -32800,9 +32792,9 @@
         "similarity": 0.2821
       },
       {
-        "a": "azure-elastic-san",
+        "a": "azure-wac-installer",
         "b": "azure-controls-horizontal",
-        "similarity": 0.2556
+        "similarity": 0.255
       }
     ],
     "azure-cost-alerts": [
@@ -33050,14 +33042,14 @@
         "similarity": 0.3722
       },
       {
-        "a": "azure-arc-data-services",
-        "b": "azure-blob-page",
-        "similarity": 0.2556
-      },
-      {
         "a": "aws-general-forums",
         "b": "azure-blob-page",
         "similarity": 0.2527
+      },
+      {
+        "a": "azure-defender-plc",
+        "b": "azure-blob-page",
+        "similarity": 0.2524
       }
     ],
     "azure-branch": [
