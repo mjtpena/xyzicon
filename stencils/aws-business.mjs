@@ -3,6 +3,30 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-blockchain-resource", "aws", "Managed Blockchain Blockchain", ["Res_Amazon-Managed-Blockchain_Blockchain_48"],
+    "A chain of linked blocks shares an ordered ledger.",
+    [
+      rect(10, 39, 27, 35), rect(51, 39, 27, 35), rect(92, 39, 27, 35),
+      line([16, 48], [31, 48]), line([16, 56], [28, 56]), line([16, 64], [31, 64]),
+      line([57, 48], [72, 48]), line([57, 56], [69, 56]), line([57, 64], [72, 64]),
+      line([98, 48], [113, 48]), line([98, 56], [110, 56]), line([98, 64], [113, 64]),
+      line([37, 56], [51, 56]), line([78, 56], [92, 56]), line([16, 103], [112, 103]),
+    ]),
+  entry("aws-pinpoint-journey", "aws", "Pinpoint Journey", ["Res_Amazon-Pinpoint_Journey_48"],
+    "A customer follows a branching campaign journey.",
+    [
+      oval(12, 49, 18, 18), line([30, 58], [47, 58]), line([47, 58], [63, 31]), line([47, 58], [63, 85]),
+      rect(63, 21, 21, 20), rect(63, 75, 21, 20), line([84, 31], [101, 31], [101, 51]), line([84, 85], [101, 85], [101, 65]),
+      oval(92, 51, 18, 18), line([101, 55], [101, 65]), line([96, 60], [106, 60]), line([16, 110], [112, 110]),
+    ]),
+  entry("aws-ses-email", "aws", "Simple Email Service Email", ["Res_Amazon-Simple-Email-Service_Email_48"],
+    "An email arrives in a recipient's mailbox.",
+    [
+      line([22, 52], [22, 84], [102, 84], [102, 52], [95, 40], [84, 36], [40, 36], [29, 40], [22, 52]),
+      line([40, 36], [52, 40], [59, 52], [59, 84]), line([59, 61], [97, 61]),
+      line([75, 38], [75, 19], [97, 19], [97, 30], [75, 30]),
+      line([22, 84], [14, 93], [107, 93]), line([62, 93], [62, 108]), line([16, 113], [112, 113]),
+    ]),
   entry("aws-eventbridge-partner-event", "aws", "EventBridge SaaS Partner Event", ["Res_Amazon-EventBridge_Saas-Partner-Event_48"],
     "A partner application emits an event to a shared event bus.",
     [
