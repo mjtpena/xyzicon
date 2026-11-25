@@ -1,6 +1,27 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-machine-learning-classic", "azure", "Machine Learning", ["10166-icon-service-Machine-Learning"],
+    "A model of connected nodes is developed in a laboratory flask.",
+    [
+      line([44, 18], [72, 18]), line([49, 18], [49, 43], [27, 88], [31, 98], [86, 98], [91, 88], [67, 43], [67, 18]),
+      oval(49, 54, 7, 7), oval(67, 54, 7, 7), oval(58, 72, 7, 7, true), oval(43, 82, 7, 7), oval(73, 82, 7, 7),
+      line([56, 59], [60, 72]), line([67, 60], [63, 72]), line([58, 78], [50, 84]), line([65, 78], [73, 84]), line([15, 112], [112, 112]),
+    ]),
+  entry("azure-applied-ai", "azure", "Azure Applied AI Services", ["02749-icon-service-Azure-Applied-AI-Services"],
+    "A connected model is applied to an application.",
+    [
+      oval(13, 26, 10, 10), oval(35, 18, 10, 10), oval(35, 46, 10, 10), oval(13, 64, 10, 10),
+      line([23, 31], [35, 24]), line([23, 32], [35, 50]), line([23, 69], [35, 52]),
+      line([48, 47], [60, 47]), line([54, 41], [60, 47], [54, 53]),
+      rect(65, 20, 49, 64), line([65, 33], [114, 33]), line([73, 43], [105, 43]), line([73, 52], [99, 52]), line([73, 61], [104, 61]), line([15, 108], [110, 108]),
+    ]),
+  entry("azure-frd-qa", "azure", "FRD QA", ["029455661-icon-service-FRD-QA"],
+    "A magnifier examines a chart and its details.",
+    [
+      rect(20, 15, 66, 78), line([31, 60], [31, 49]), line([42, 60], [42, 42]), line([53, 60], [53, 34]), line([64, 60], [64, 27]), line([75, 60], [75, 21]),
+      line([31, 69], [70, 69]), line([31, 78], [59, 78]), oval(61, 58, 30, 30), line([84, 81], [106, 103]), line([14, 113], [111, 113]),
+    ]),
   entry("azure-ml-classic-web-services", "azure", "Machine Learning Studio Classic Web Services", ["00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services"],
     "A laboratory flask is exposed through a web service.",
     [

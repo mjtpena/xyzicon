@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1392,
-  "aliases": 4454,
+  "count": 1395,
+  "aliases": 4457,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -670,6 +670,9 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-machine-learning-classic",
+    "azure-applied-ai",
+    "azure-frd-qa",
     "azure-ml-classic-web-services",
     "azure-ml-studio-workspaces",
     "azure-ml-web-service-plans",
@@ -1662,8 +1665,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 226,
-      "concepts": 174
+      "covered": 229,
+      "concepts": 177
     },
     "fabric": {
       "sources": 1584,
@@ -10365,6 +10368,11 @@
     "aws-cloudsearch-documents": [
       {
         "a": "aws-cloudsearch-documents",
+        "b": "azure-frd-qa",
+        "similarity": 0.3159
+      },
+      {
+        "a": "aws-cloudsearch-documents",
         "b": "fabric-home-lightning",
         "similarity": 0.2541
       },
@@ -10372,11 +10380,6 @@
         "a": "gcp-anthos-config-management",
         "b": "aws-cloudsearch-documents",
         "similarity": 0.2439
-      },
-      {
-        "a": "m365-contacts",
-        "b": "aws-cloudsearch-documents",
-        "similarity": 0.2404
       }
     ],
     "aws-emr-cluster": [
@@ -13031,6 +13034,57 @@
         "similarity": 0.234
       }
     ],
+    "azure-machine-learning-classic": [
+      {
+        "a": "azure-machine-learning-classic",
+        "b": "fabric-shapes",
+        "similarity": 0.3242
+      },
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "azure-machine-learning-classic",
+        "similarity": 0.2721
+      },
+      {
+        "a": "azure-machine-learning-classic",
+        "b": "aws-ec2-instance",
+        "similarity": 0.2647
+      }
+    ],
+    "azure-applied-ai": [
+      {
+        "a": "azure-applied-ai",
+        "b": "aws-backint-agent",
+        "similarity": 0.2797
+      },
+      {
+        "a": "azure-applied-ai",
+        "b": "aws-proton",
+        "similarity": 0.2653
+      },
+      {
+        "a": "azure-applied-ai",
+        "b": "azure-personalizer",
+        "similarity": 0.2491
+      }
+    ],
+    "azure-frd-qa": [
+      {
+        "a": "aws-cloudsearch-documents",
+        "b": "azure-frd-qa",
+        "similarity": 0.3159
+      },
+      {
+        "a": "azure-frd-qa",
+        "b": "aws-eks-outposts",
+        "similarity": 0.2677
+      },
+      {
+        "a": "azure-frd-qa",
+        "b": "fabric-rectangle-list-asterisk",
+        "similarity": 0.252
+      }
+    ],
     "azure-ml-classic-web-services": [
       {
         "a": "azure-ml-classic-web-services",
@@ -13543,6 +13597,11 @@
     ],
     "azure-personalizer": [
       {
+        "a": "azure-applied-ai",
+        "b": "azure-personalizer",
+        "similarity": 0.2491
+      },
+      {
         "a": "gcp-permissions",
         "b": "azure-personalizer",
         "similarity": 0.2168
@@ -13551,11 +13610,6 @@
         "a": "azure-personalizer",
         "b": "aws-professional-services",
         "similarity": 0.214
-      },
-      {
-        "a": "aws-polly",
-        "b": "azure-personalizer",
-        "similarity": 0.2112
       }
     ],
     "azure-speech": [
@@ -13990,14 +14044,14 @@
         "similarity": 0.3024
       },
       {
+        "a": "azure-applied-ai",
+        "b": "aws-proton",
+        "similarity": 0.2653
+      },
+      {
         "a": "gcp-partner-interconnect",
         "b": "aws-proton",
         "similarity": 0.256
-      },
-      {
-        "a": "gcp-certificate-authority",
-        "b": "aws-proton",
-        "similarity": 0.2439
       }
     ],
     "aws-opentelemetry": [
@@ -14318,9 +14372,9 @@
         "similarity": 0.2603
       },
       {
-        "a": "aws-location-geofence",
-        "b": "fabric-shapes",
-        "similarity": 0.2529
+        "a": "azure-machine-learning-classic",
+        "b": "aws-location-geofence",
+        "similarity": 0.2566
       }
     ],
     "aws-location-map": [
@@ -15202,9 +15256,9 @@
         "similarity": 0.2995
       },
       {
-        "a": "aws-backint-agent",
-        "b": "azure-reservations",
-        "similarity": 0.2582
+        "a": "azure-applied-ai",
+        "b": "aws-backint-agent",
+        "similarity": 0.2797
       }
     ],
     "aws-datasync": [
@@ -22208,6 +22262,11 @@
     ],
     "fabric-shapes": [
       {
+        "a": "azure-machine-learning-classic",
+        "b": "fabric-shapes",
+        "similarity": 0.3242
+      },
+      {
         "a": "fabric-shapes",
         "b": "fabric-industry-solutions",
         "similarity": 0.2984
@@ -22216,11 +22275,6 @@
         "a": "gcp-cloud-jobs",
         "b": "fabric-shapes",
         "similarity": 0.257
-      },
-      {
-        "a": "fabric-document-hint",
-        "b": "fabric-shapes",
-        "similarity": 0.2539
       }
     ],
     "fabric-shapes-lightning": [
@@ -22460,9 +22514,9 @@
         "similarity": 0.3086
       },
       {
-        "a": "fabric-rectangles-curve-left",
+        "a": "azure-machine-learning-classic",
         "b": "fabric-squares-data-bars",
-        "similarity": 0.2232
+        "similarity": 0.2238
       }
     ],
     "fabric-squares-diagram": [
