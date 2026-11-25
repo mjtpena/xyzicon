@@ -3,26 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 1170,
+  "approved": 1189,
   "needsReview": [
-    "azure-app-gateway",
-    "gcp-cloud-cdn",
-    "azure-sql-stretch",
-    "azure-storage-files",
-    "azure-storage-container",
-    "azure-storage-queue",
-    "azure-data-catalog",
-    "azure-network-security-groups",
-    "azure-virtual-desktop",
-    "azure-private-link",
-    "azure-data-share",
-    "azure-data-sharing",
-    "azure-storage-sync",
-    "azure-storage-explorer",
-    "fabric-stream-connector",
-    "fabric-external-dataflow",
-    "fabric-external-datamart",
-    "fabric-external-semantic",
     "fabric-function-set",
     "fabric-placeholder",
     "fabric-graph-queryset",
@@ -43,7 +25,6 @@
     "fabric-streaming-dataflow",
     "fabric-streaming-semantic",
     "fabric-user-data-function",
-    "aws-managed-airflow",
     "azure-device-security-apple",
     "azure-device-security-google",
     "azure-device-security-windows",
@@ -1941,11 +1922,6 @@
     "dynamics-order-management": [
       {
         "a": "dynamics-order-management",
-        "b": "azure-storage-sync",
-        "similarity": 0.2106
-      },
-      {
-        "a": "dynamics-order-management",
         "b": "aws-trusted-advisor-security",
         "similarity": 0.2092
       },
@@ -1953,6 +1929,11 @@
         "a": "dynamics-order-management",
         "b": "aws-thinkbox-deadline",
         "similarity": 0.209
+      },
+      {
+        "a": "dynamics-order-management",
+        "b": "m365-chat",
+        "similarity": 0.2081
       }
     ],
     "dynamics-project-operations": [
@@ -5215,8 +5196,8 @@
       },
       {
         "a": "azure-virtual-network-gateway",
-        "b": "azure-storage-sync",
-        "similarity": 0.2185
+        "b": "azure-data-sharing",
+        "similarity": 0.1982
       }
     ],
     "azure-network-watcher": [
@@ -7572,14 +7553,14 @@
         "similarity": 0.2757
       },
       {
-        "a": "gcp-api",
-        "b": "azure-storage-sync",
-        "similarity": 0.1773
-      },
-      {
         "a": "dynamics-business-central",
         "b": "gcp-api",
         "similarity": 0.1676
+      },
+      {
+        "a": "azure-blockchain-outbound",
+        "b": "gcp-api",
+        "similarity": 0.1673
       }
     ],
     "gcp-cloud-apis": [
@@ -9788,8 +9769,8 @@
       },
       {
         "a": "fabric-dataflow-gen2",
-        "b": "azure-storage-sync",
-        "similarity": 0.195
+        "b": "aws-training-certification",
+        "similarity": 0.1866
       }
     ],
     "fabric-datamart": [
@@ -11143,13 +11124,13 @@
       },
       {
         "a": "azure-sql-stretch",
-        "b": "azure-storage-sync",
-        "similarity": 0.2225
+        "b": "aws-file-cache-on-premises",
+        "similarity": 0.2175
       },
       {
         "a": "azure-sql-stretch",
-        "b": "aws-file-cache-on-premises",
-        "similarity": 0.2175
+        "b": "aws-verified-permissions",
+        "similarity": 0.2059
       }
     ],
     "azure-storage-files": [
@@ -11308,18 +11289,18 @@
     "azure-storage-sync": [
       {
         "a": "azure-storage-sync",
-        "b": "aws-vpc-peering",
-        "similarity": 0.412
+        "b": "aws-mediatailor",
+        "similarity": 0.2311
+      },
+      {
+        "a": "dynamics-family",
+        "b": "azure-storage-sync",
+        "similarity": 0.2248
       },
       {
         "a": "azure-storage-sync",
-        "b": "aws-data-exchange-api",
-        "similarity": 0.3008
-      },
-      {
-        "a": "azure-storage-sync",
-        "b": "aws-s3-replication",
-        "similarity": 0.2847
+        "b": "fabric-data-warehouse-product",
+        "similarity": 0.2177
       }
     ],
     "azure-storage-explorer": [
@@ -12026,14 +12007,14 @@
         "similarity": 0.4015
       },
       {
-        "a": "azure-storage-sync",
-        "b": "aws-data-exchange-api",
-        "similarity": 0.3008
-      },
-      {
         "a": "aws-data-exchange-api",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2944
+      },
+      {
+        "a": "gcp-hyperdisk",
+        "b": "aws-data-exchange-api",
+        "similarity": 0.2749
       }
     ],
     "aws-clean-rooms": [
@@ -22867,11 +22848,6 @@
     ],
     "aws-chime-sdk": [
       {
-        "a": "azure-storage-sync",
-        "b": "aws-chime-sdk",
-        "similarity": 0.1834
-      },
-      {
         "a": "azure-virtual-network-gateway",
         "b": "aws-chime-sdk",
         "similarity": 0.1736
@@ -22880,6 +22856,11 @@
         "a": "azure-event-grid-subscriptions",
         "b": "aws-chime-sdk",
         "similarity": 0.1698
+      },
+      {
+        "a": "aws-chime-sdk",
+        "b": "fabric-column-sigma",
+        "similarity": 0.1609
       }
     ],
     "aws-wickr": [
@@ -23234,9 +23215,9 @@
         "similarity": 0.2417
       },
       {
-        "a": "azure-storage-sync",
+        "a": "aws-appflow",
         "b": "aws-datasync",
-        "similarity": 0.2369
+        "similarity": 0.2352
       }
     ],
     "aws-application-migration": [
@@ -26345,9 +26326,9 @@
         "similarity": 0.2566
       },
       {
-        "a": "azure-storage-sync",
-        "b": "aws-verified-permissions",
-        "similarity": 0.2518
+        "a": "aws-verified-permissions",
+        "b": "aws-privatelink",
+        "similarity": 0.2482
       }
     ],
     "aws-directory-service": [
@@ -26454,11 +26435,6 @@
     ],
     "aws-s3-on-outposts": [
       {
-        "a": "azure-storage-sync",
-        "b": "aws-s3-on-outposts",
-        "similarity": 0.2409
-      },
-      {
         "a": "m365-share-screen-overlay",
         "b": "aws-s3-on-outposts",
         "similarity": 0.2221
@@ -26467,6 +26443,11 @@
         "a": "fabric-copy-job",
         "b": "aws-s3-on-outposts",
         "similarity": 0.2156
+      },
+      {
+        "a": "azure-private-link-services",
+        "b": "aws-s3-on-outposts",
+        "similarity": 0.2132
       }
     ],
     "aws-s3-glacier": [
@@ -27480,11 +27461,6 @@
     ],
     "aws-vpc-peering": [
       {
-        "a": "azure-storage-sync",
-        "b": "aws-vpc-peering",
-        "similarity": 0.412
-      },
-      {
         "a": "azure-entra-connect",
         "b": "aws-vpc-peering",
         "similarity": 0.4046
@@ -27493,6 +27469,11 @@
         "a": "gcp-dataprep",
         "b": "aws-vpc-peering",
         "similarity": 0.3657
+      },
+      {
+        "a": "azure-storage-mover",
+        "b": "aws-vpc-peering",
+        "similarity": 0.3521
       }
     ],
     "aws-vpc-reachability": [
@@ -30986,6 +30967,11 @@
     ],
     "aws-wavelength": [
       {
+        "a": "azure-storage-sync",
+        "b": "aws-wavelength",
+        "similarity": 0.205
+      },
+      {
         "a": "gcp-cloud-shell",
         "b": "aws-wavelength",
         "similarity": 0.2044
@@ -30994,11 +30980,6 @@
         "a": "aws-wavelength",
         "b": "fabric-gift-warning",
         "similarity": 0.1974
-      },
-      {
-        "a": "aws-mediatailor",
-        "b": "aws-wavelength",
-        "similarity": 0.1754
       }
     ],
     "aws-outposts-family": [
@@ -34617,9 +34598,9 @@
         "similarity": 0.1743
       },
       {
-        "a": "aws-mediatailor",
+        "a": "azure-storage-sync",
         "b": "fabric-bar-edit",
-        "similarity": 0.1721
+        "similarity": 0.1737
       }
     ],
     "fabric-circle-chart": [
