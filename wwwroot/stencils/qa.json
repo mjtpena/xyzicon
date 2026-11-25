@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 688,
-  "aliases": 2916,
+  "count": 692,
+  "aliases": 2932,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -466,6 +466,10 @@
     "aws-professional-services",
     "aws-training-certification",
     "aws-repost",
+    "aws-datasync",
+    "aws-application-migration",
+    "aws-transfer-family",
+    "aws-application-discovery",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -785,8 +789,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 676,
-      "concepts": 167
+      "covered": 692,
+      "concepts": 171
     },
     "gcp": {
       "sources": 261,
@@ -2185,8 +2189,8 @@
       },
       {
         "a": "azure-container-instances",
-        "b": "aws-codebuild",
-        "similarity": 0.205
+        "b": "aws-transfer-family",
+        "similarity": 0.2057
       }
     ],
     "azure-container-registry": [
@@ -2974,6 +2978,11 @@
     "m365-data-area": [
       {
         "a": "m365-data-area",
+        "b": "aws-transfer-family",
+        "similarity": 0.2301
+      },
+      {
+        "a": "m365-data-area",
         "b": "m365-mail",
         "similarity": 0.2296
       },
@@ -2981,11 +2990,6 @@
         "a": "m365-data-area",
         "b": "m365-settings",
         "similarity": 0.222
-      },
-      {
-        "a": "aws-ecr",
-        "b": "m365-data-area",
-        "similarity": 0.2128
       }
     ],
     "m365-deploy": [
@@ -3986,9 +3990,9 @@
         "similarity": 0.2296
       },
       {
-        "a": "azure-function-apps",
-        "b": "m365-mail",
-        "similarity": 0.2086
+        "a": "m365-mail",
+        "b": "aws-transfer-family",
+        "similarity": 0.2124
       }
     ],
     "m365-office-notebook": [
@@ -4402,6 +4406,11 @@
     "gcp-cloud-domains": [
       {
         "a": "gcp-cloud-domains",
+        "b": "aws-transfer-family",
+        "similarity": 0.2201
+      },
+      {
+        "a": "gcp-cloud-domains",
         "b": "m365-mail-read",
         "similarity": 0.191
       },
@@ -4409,11 +4418,6 @@
         "a": "gcp-cloud-domains",
         "b": "aws-cloudsearch",
         "similarity": 0.1803
-      },
-      {
-        "a": "gcp-cloud-domains",
-        "b": "fabric-datamart",
-        "similarity": 0.18
       }
     ],
     "gcp-cloud-hsm": [
@@ -5720,9 +5724,9 @@
         "similarity": 0.2414
       },
       {
-        "a": "m365-desktop-tower",
-        "b": "azure-storage-sync",
-        "similarity": 0.2321
+        "a": "azure-storage-sync",
+        "b": "aws-datasync",
+        "similarity": 0.2369
       }
     ],
     "azure-storage-explorer": [
@@ -6391,6 +6395,11 @@
     "fabric-retail": [
       {
         "a": "fabric-retail",
+        "b": "aws-datasync",
+        "similarity": 0.1914
+      },
+      {
+        "a": "fabric-retail",
         "b": "azure-compute-fleet",
         "similarity": 0.1869
       },
@@ -6398,11 +6407,6 @@
         "a": "fabric-operations-agent",
         "b": "fabric-retail",
         "similarity": 0.185
-      },
-      {
-        "a": "m365-desktop-tower",
-        "b": "fabric-retail",
-        "similarity": 0.1817
       }
     ],
     "fabric-runtime-lineage": [
@@ -6503,8 +6507,8 @@
       },
       {
         "a": "fabric-streaming-semantic",
-        "b": "aws-monitron",
-        "similarity": 0.1544
+        "b": "aws-transfer-family",
+        "similarity": 0.1563
       }
     ],
     "fabric-user-data-function": [
@@ -6629,6 +6633,11 @@
     "m365-desktop-download": [
       {
         "a": "m365-desktop-download",
+        "b": "aws-transfer-family",
+        "similarity": 0.2265
+      },
+      {
+        "a": "m365-desktop-download",
         "b": "fabric-briefcase-pulse",
         "similarity": 0.2232
       },
@@ -6636,11 +6645,6 @@
         "a": "m365-certificate",
         "b": "m365-desktop-download",
         "similarity": 0.2222
-      },
-      {
-        "a": "entra-id",
-        "b": "m365-desktop-download",
-        "similarity": 0.2127
       }
     ],
     "m365-document-multiple": [
@@ -7449,14 +7453,14 @@
         "similarity": 0.1878
       },
       {
+        "a": "aws-health-lake",
+        "b": "aws-transfer-family",
+        "similarity": 0.1808
+      },
+      {
         "a": "fabric-paginated-report",
         "b": "aws-health-lake",
         "similarity": 0.1767
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "aws-health-lake",
-        "similarity": 0.174
       }
     ],
     "aws-health-omics": [
@@ -8630,6 +8634,74 @@
         "a": "fabric-restricted-scorecard",
         "b": "aws-repost",
         "similarity": 0.255
+      }
+    ],
+    "aws-datasync": [
+      {
+        "a": "aws-datasync",
+        "b": "azure-compute-fleet",
+        "similarity": 0.2736
+      },
+      {
+        "a": "aws-datasync",
+        "b": "aws-elastic-fabric-adapter",
+        "similarity": 0.2417
+      },
+      {
+        "a": "azure-storage-sync",
+        "b": "aws-datasync",
+        "similarity": 0.2369
+      }
+    ],
+    "aws-application-migration": [
+      {
+        "a": "aws-application-migration",
+        "b": "gcp-category-media",
+        "similarity": 0.2181
+      },
+      {
+        "a": "m365-column-arrow",
+        "b": "aws-application-migration",
+        "similarity": 0.1899
+      },
+      {
+        "a": "fabric-live-dashboard",
+        "b": "aws-application-migration",
+        "similarity": 0.1879
+      }
+    ],
+    "aws-transfer-family": [
+      {
+        "a": "aws-transfer-family",
+        "b": "azure-application-group",
+        "similarity": 0.2802
+      },
+      {
+        "a": "m365-data-area",
+        "b": "aws-transfer-family",
+        "similarity": 0.2301
+      },
+      {
+        "a": "m365-desktop-download",
+        "b": "aws-transfer-family",
+        "similarity": 0.2265
+      }
+    ],
+    "aws-application-discovery": [
+      {
+        "a": "aws-application-discovery",
+        "b": "fabric-calculator-triangle",
+        "similarity": 0.1825
+      },
+      {
+        "a": "power-apps",
+        "b": "aws-application-discovery",
+        "similarity": 0.1796
+      },
+      {
+        "a": "fabric-external-datamart",
+        "b": "aws-application-discovery",
+        "similarity": 0.1751
       }
     ],
     "m365-arrow-circle-left": [
@@ -11127,6 +11199,11 @@
     ],
     "azure-application-group": [
       {
+        "a": "aws-transfer-family",
+        "b": "azure-application-group",
+        "similarity": 0.2802
+      },
+      {
         "a": "m365-text-bullet-list-square",
         "b": "azure-application-group",
         "similarity": 0.2741
@@ -11135,11 +11212,6 @@
         "a": "fabric-data-warehouse",
         "b": "azure-application-group",
         "similarity": 0.2725
-      },
-      {
-        "a": "aws-api-gateway",
-        "b": "azure-application-group",
-        "similarity": 0.2664
       }
     ],
     "azure-disk-encryption": [
@@ -11268,14 +11340,14 @@
         "similarity": 0.3594
       },
       {
+        "a": "aws-datasync",
+        "b": "azure-compute-fleet",
+        "similarity": 0.2736
+      },
+      {
         "a": "aws-appflow",
         "b": "azure-compute-fleet",
         "similarity": 0.2481
-      },
-      {
-        "a": "azure-storage-sync",
-        "b": "azure-compute-fleet",
-        "similarity": 0.2414
       }
     ],
     "azure-availability-sets": [
@@ -12501,9 +12573,9 @@
         "similarity": 0.1764
       },
       {
-        "a": "aws-redshift",
+        "a": "aws-application-migration",
         "b": "fabric-histogram-function",
-        "similarity": 0.1635
+        "similarity": 0.1638
       }
     ],
     "fabric-connected-nodes": [
