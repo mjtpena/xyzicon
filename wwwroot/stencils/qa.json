@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 756,
-  "aliases": 3188,
+  "count": 760,
+  "aliases": 3204,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -522,6 +522,10 @@
     "aws-private-ca",
     "aws-verified-permissions",
     "aws-directory-service",
+    "aws-firewall-manager",
+    "aws-resource-access-manager",
+    "aws-payment-cryptography",
+    "aws-cloud-directory",
     "aws-backup",
     "aws-elastic-disaster-recovery",
     "aws-efs",
@@ -853,8 +857,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 948,
-      "concepts": 235
+      "covered": 964,
+      "concepts": 239
     },
     "gcp": {
       "sources": 261,
@@ -1750,6 +1754,11 @@
     "azure-confidential-clean-rooms": [
       {
         "a": "azure-confidential-clean-rooms",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.1962
+      },
+      {
+        "a": "azure-confidential-clean-rooms",
         "b": "gcp-cloud-tpu",
         "similarity": 0.1622
       },
@@ -1757,11 +1766,6 @@
         "a": "azure-confidential-clean-rooms",
         "b": "aws-appflow",
         "similarity": 0.157
-      },
-      {
-        "a": "azure-confidential-clean-rooms",
-        "b": "aws-elastic-fabric-adapter",
-        "similarity": 0.1538
       }
     ],
     "azure-container-app-sandboxes": [
@@ -3290,8 +3294,8 @@
       },
       {
         "a": "fabric-bucket",
-        "b": "aws-elemental-server",
-        "similarity": 0.1743
+        "b": "aws-payment-cryptography",
+        "similarity": 0.1765
       }
     ],
     "fabric-building-data": [
@@ -5235,6 +5239,11 @@
     "fabric-healthcare": [
       {
         "a": "fabric-healthcare",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2952
+      },
+      {
+        "a": "fabric-healthcare",
         "b": "aws-snowball-edge",
         "similarity": 0.2331
       },
@@ -5242,11 +5251,6 @@
         "a": "fabric-healthcare",
         "b": "aws-iot-twinmaker",
         "similarity": 0.2317
-      },
-      {
-        "a": "fabric-healthcare",
-        "b": "fabric-progress-bars",
-        "similarity": 0.228
       }
     ],
     "fabric-kql-database": [
@@ -5937,13 +5941,13 @@
       },
       {
         "a": "aws-kinesis-video",
-        "b": "aws-fraud-detector",
-        "similarity": 0.1939
+        "b": "aws-payment-cryptography",
+        "similarity": 0.223
       },
       {
-        "a": "fabric-book-data-cloud",
-        "b": "aws-kinesis-video",
-        "similarity": 0.1905
+        "a": "aws-kinesis-video",
+        "b": "aws-fraud-detector",
+        "similarity": 0.1939
       }
     ],
     "aws-managed-flink": [
@@ -8032,9 +8036,9 @@
         "similarity": 0.1715
       },
       {
-        "a": "fabric-copy-job",
-        "b": "azure-content-safety",
-        "similarity": 0.1554
+        "a": "azure-content-safety",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.1573
       }
     ],
     "fabric-copilot": [
@@ -8923,6 +8927,11 @@
     ],
     "aws-trusted-advisor": [
       {
+        "a": "aws-trusted-advisor",
+        "b": "aws-payment-cryptography",
+        "similarity": 0.1959
+      },
+      {
         "a": "dynamics-commerce",
         "b": "aws-trusted-advisor",
         "similarity": 0.1842
@@ -8931,11 +8940,6 @@
         "a": "aws-trusted-advisor",
         "b": "fabric-stacked-text",
         "similarity": 0.1833
-      },
-      {
-        "a": "aws-trusted-advisor",
-        "b": "m365-edit",
-        "similarity": 0.1755
       }
     ],
     "aws-resource-explorer": [
@@ -9650,6 +9654,74 @@
         "a": "gcp-artifact-registry",
         "b": "aws-directory-service",
         "similarity": 0.281
+      }
+    ],
+    "aws-firewall-manager": [
+      {
+        "a": "fabric-healthcare",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2952
+      },
+      {
+        "a": "aws-firewall-manager",
+        "b": "aws-iot-twinmaker",
+        "similarity": 0.2218
+      },
+      {
+        "a": "gcp-cloud-monitoring",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2161
+      }
+    ],
+    "aws-resource-access-manager": [
+      {
+        "a": "aws-resource-access-manager",
+        "b": "fabric-calendar-link",
+        "similarity": 0.2653
+      },
+      {
+        "a": "m365-tablet",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2199
+      },
+      {
+        "a": "aws-resource-access-manager",
+        "b": "aws-elastic-fabric-adapter",
+        "similarity": 0.2116
+      }
+    ],
+    "aws-payment-cryptography": [
+      {
+        "a": "aws-kinesis-video",
+        "b": "aws-payment-cryptography",
+        "similarity": 0.223
+      },
+      {
+        "a": "aws-payment-cryptography",
+        "b": "m365-check",
+        "similarity": 0.2041
+      },
+      {
+        "a": "dynamics-family",
+        "b": "aws-payment-cryptography",
+        "similarity": 0.2034
+      }
+    ],
+    "aws-cloud-directory": [
+      {
+        "a": "aws-cost-usage-report",
+        "b": "aws-cloud-directory",
+        "similarity": 0.213
+      },
+      {
+        "a": "aws-cloud-directory",
+        "b": "m365-document",
+        "similarity": 0.2095
+      },
+      {
+        "a": "fabric-notebook",
+        "b": "aws-cloud-directory",
+        "similarity": 0.1912
       }
     ],
     "aws-backup": [
@@ -12259,9 +12331,9 @@
         "similarity": 0.2232
       },
       {
-        "a": "aws-iot-twinmaker",
-        "b": "fabric-locked-columns",
-        "similarity": 0.2144
+        "a": "aws-firewall-manager",
+        "b": "aws-iot-twinmaker",
+        "similarity": 0.2218
       }
     ],
     "azure-notification-hubs": [
@@ -13477,6 +13549,11 @@
     ],
     "fabric-toggle-sparkles": [
       {
+        "a": "aws-firewall-manager",
+        "b": "fabric-toggle-sparkles",
+        "similarity": 0.162
+      },
+      {
         "a": "aws-signer",
         "b": "fabric-toggle-sparkles",
         "similarity": 0.1596
@@ -13485,11 +13562,6 @@
         "a": "fabric-toggle-sparkles",
         "b": "fabric-progress-bars",
         "similarity": 0.1503
-      },
-      {
-        "a": "m365-building-people",
-        "b": "fabric-toggle-sparkles",
-        "similarity": 0.1493
       }
     ],
     "fabric-window-asterisk": [
@@ -13562,6 +13634,11 @@
     ],
     "fabric-calendar-link": [
       {
+        "a": "aws-resource-access-manager",
+        "b": "fabric-calendar-link",
+        "similarity": 0.2653
+      },
+      {
         "a": "entra-family",
         "b": "fabric-calendar-link",
         "similarity": 0.2482
@@ -13570,11 +13647,6 @@
         "a": "aws-b2b-interchange",
         "b": "fabric-calendar-link",
         "similarity": 0.2369
-      },
-      {
-        "a": "m365-tablet",
-        "b": "fabric-calendar-link",
-        "similarity": 0.2277
       }
     ],
     "fabric-calendar-person": [

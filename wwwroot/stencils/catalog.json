@@ -851,7 +851,7 @@
       ],
       "revision": "005ec5b466c35f6b662366aa4a1eeabda98328fb3d7290f7272d768cfdb0890c",
       "geometrySignature": "c06cef918dd9add497afa877dde77146f428ad863932bb80e9609f994be3bdc2",
-      "comparisonRevision": "322af40fab1f3f0fc9fb1b2822f3d85c07d63635667b6bea806518cc9caa038d",
+      "comparisonRevision": "5a840777425eba50188ce10cc55697d011e0eb2d98d3f43bbde9392b748b564c",
       "review": "pending",
       "notes": ""
     },
@@ -2413,7 +2413,7 @@
       ],
       "revision": "084c967975f962be071447a228f12a4e279b76fe8670d0777faf1425699e64ce",
       "geometrySignature": "86ffa986e2ca40f09e7fd58659347ce08d07c57f8e36385e3a7c812e5f9e0bad",
-      "comparisonRevision": "029686ebfd9a5035d86927ab4f88b22565533b8900080217ff33556858a69dca",
+      "comparisonRevision": "fd8de5818ff15f1a7ab63454e865b52b689632b070a1ed193ca77d621c4e598d",
       "review": "pending",
       "notes": ""
     },
@@ -4550,7 +4550,7 @@
       ],
       "revision": "a5f60f6d7affe661dec10b136ed78788402c0e6eddd8cef780833f613f6888f9",
       "geometrySignature": "a7d0d32372169edc8fa222f0e170e731aeeaedb0a93784e3e24865557f435074",
-      "comparisonRevision": "8b5f639f6e7b00cbed7590bb1336b3cd969d009cd53eaf88bccc905f69151aeb",
+      "comparisonRevision": "ecd54c7c7e54f5c46d94cd5a90cf03eb5188cb6c4c3c08af54bb99cc81313f6e",
       "review": "pending",
       "notes": ""
     },
@@ -5263,7 +5263,7 @@
       ],
       "revision": "130ca60cb622d00f21b38eb177aa9ed5cd570f5b883a0a59246c63047bf0a9de",
       "geometrySignature": "ab8b329a183637b89965e2f2a05a283331767a9deef3575b59bc04fb31f470d0",
-      "comparisonRevision": "75a1193b6a736617f238c17553cd1fa4627ef589d6119b8183ff4ab0ec4366cd",
+      "comparisonRevision": "cabb189f7d053e2ea6764c6d51d985ec180a87718ba2d45a01e01b03d1d032e8",
       "review": "pending",
       "notes": ""
     },
@@ -7588,7 +7588,7 @@
       ],
       "revision": "429dde7fe8c058fcbecf072030e62b80d730c52c7941cc430850c48a8d92bd48",
       "geometrySignature": "00a65fedbb40651383c0fa2490be5e86e91508f73d59d89ed619772b2b08806c",
-      "comparisonRevision": "03271f1e133e60e78bc8505ae8481e8b73d1335eab2930920551a976f7c4cbea",
+      "comparisonRevision": "c66c9af73a44999414f16bd4da8835709fcf916935848c5ec529def58256944b",
       "review": "pending",
       "notes": ""
     },
@@ -8695,7 +8695,7 @@
       ],
       "revision": "99475b2562c5a41f285fe69afae40dfbd49d2c389f28ffacf649e47eb6b54374",
       "geometrySignature": "8961765110eab5d7fa48c5de898d5e727f5864e8281466db5941448a98fa7f21",
-      "comparisonRevision": "c32dde0d6ce5be8aa8744fcd879f7678fd6d5c755eb635840d28ca24338d7ee9",
+      "comparisonRevision": "cbcd60dcb56df3eb50855c032db9515cfddc878703766dca31c3b07576dfa623",
       "review": "pending",
       "notes": ""
     },
@@ -9452,6 +9452,78 @@
       "revision": "6eced0f7db19a8ab704a3be065e8757529a135130937df9088bff04a0df45e95",
       "geometrySignature": "341f8f8bca5785f5bc213f7cc7710f45e42f71335ef936021b1136abcd5cb244",
       "comparisonRevision": "08f932b7a72f6d353f3e8e9af14ef8ea89565ab5ba34fbe77c82abe5ee83014c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-firewall-manager",
+      "provider": "aws",
+      "name": "AWS Firewall Manager",
+      "rationale": "A policy manages firewall rules across two boundaries.",
+      "path": "stencils/aws-firewall-manager.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Firewall-Manager_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Firewall-Manager_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Firewall-Manager_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Firewall-Manager_64.svg"
+      ],
+      "revision": "77ddc3b4e537ff5bc778eb7b5a9979b629be0f714f61e08391f77f933e28c40d",
+      "geometrySignature": "c05557b1fb456a5a38b6ca05ad176a207c01cc632a9e2f8f10ccab00fc8ca132",
+      "comparisonRevision": "99e379d8ce99bb8ed4d2c11d562d179effcb6b0e83223df01328fc4f48d8e811",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-resource-access-manager",
+      "provider": "aws",
+      "name": "AWS Resource Access Manager",
+      "rationale": "A resource is shared securely between two accounts.",
+      "path": "stencils/aws-resource-access-manager.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Resource-Access-Manager_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Resource-Access-Manager_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Resource-Access-Manager_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Resource-Access-Manager_64.svg"
+      ],
+      "revision": "bc7801d1e56d73ba469f827ba0a11583afc63fc4065d93d1c6cc7b3ace4b42f6",
+      "geometrySignature": "20944e5c3b8b902a3d574ce9378330b52b717c9b08acd711f8de28c56cc75310",
+      "comparisonRevision": "651fc6538255abafb15d3c360f8c8109246857ca178a9d2de2cd774a969f18fc",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-payment-cryptography",
+      "provider": "aws",
+      "name": "AWS Payment Cryptography",
+      "rationale": "A card payment enters a secure cryptographic module.",
+      "path": "stencils/aws-payment-cryptography.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Payment-Cryptography_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Payment-Cryptography_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Payment-Cryptography_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Payment-Cryptography_64.svg"
+      ],
+      "revision": "4ccecb3995dc27c916017b6adc41e7b509a8832c4c287c2d84f1c10f60e25e65",
+      "geometrySignature": "328c93965ad41fc0768dae8b1910d5bb2c9185d24e0cfd5d926f0cba198989f8",
+      "comparisonRevision": "97363235a332d4bf8ce5ebe5dab608016dbece0ca2e164bfec047f885b40d329",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-cloud-directory",
+      "provider": "aws",
+      "name": "Amazon Cloud Directory",
+      "rationale": "Cloud-hosted directory records form a flexible hierarchy.",
+      "path": "stencils/aws-cloud-directory.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_Amazon-Cloud-Directory_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_Amazon-Cloud-Directory_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_Amazon-Cloud-Directory_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_Amazon-Cloud-Directory_64.svg"
+      ],
+      "revision": "63589eb354499419c87a1aded8431173485d7ed75413710e35f5ad34b7bf0211",
+      "geometrySignature": "1de95c22bef64a546e7b854a45a8a90c152878f4b162b828e99feab93d888267",
+      "comparisonRevision": "46c2f4e306909021ce10b5f9407d3e4be1ee31b3cae5d542e9756fbe447fd2ff",
       "review": "pending",
       "notes": ""
     },
@@ -12170,7 +12242,7 @@
       ],
       "revision": "a9e45949946294e0ead73d10541e5a406b43f37d4db59c18a48c59b78330396a",
       "geometrySignature": "8ec2469623f75289c313a069aaca34df5a64968f7229ce4aa5832add0cdad10b",
-      "comparisonRevision": "5a1f7588ba173d004c59ad98090244517fc05564666685053e257d4ff3d9d272",
+      "comparisonRevision": "384d5edd7964e571a2b6dc62d7d02b3605d16ffe39ddafdcf7acc986599a7048",
       "review": "pending",
       "notes": ""
     },
@@ -13499,7 +13571,7 @@
       ],
       "revision": "06b9157dc4ebc4f69c986aa7bcf43f84a09939771ac62eca02f18d4b48449c8e",
       "geometrySignature": "3725dbc7290206add9a64102ce02374e09efe47e8e09ac522278007d8b2360a5",
-      "comparisonRevision": "7490f443db3e749679c7d6b8becc8aec796fb7a6069b548712b89358353cbcc3",
+      "comparisonRevision": "ddcb444784f1895987a00150452e49a60c20b78cd4d66a1d93cf48c740623408",
       "review": "pending",
       "notes": ""
     },
@@ -13595,7 +13667,7 @@
       ],
       "revision": "ba07eb8d928a1735f7f45d0bdd2f6fcfeb822f95a684f0fd87003e7efd6c958c",
       "geometrySignature": "26ebc3d8b1d4bb7caa474cddf52cda74fda22c424c802c7e02f28be13250fd35",
-      "comparisonRevision": "d6d928853828e692470e2dc17d1d7745664e2cdd156fc6429c5455b87afc2022",
+      "comparisonRevision": "877619334f239e26f124a33c86ec4fdbbb28261bd8568875be1eead7b352343c",
       "review": "pending",
       "notes": ""
     },
