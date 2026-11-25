@@ -1991,8 +1991,8 @@
       "revision": "fc5460ff266043a465aed4d8267b2184afc40735520af7f9c0a76b97ccfaf200",
       "geometrySignature": "f5fc6b09314429ad0e5315930401378b19331f4efced592c66e315d735db7e58",
       "comparisonRevision": "09496f2cd024a63a9e52a4c08e89c08db91c08d840ef2f9841667acf77cc05cf",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "Heavy hatching makes the small container instance unreadable. Simplify the running container depiction."
     },
     {
       "id": "azure-container-registry",
@@ -2006,8 +2006,8 @@
       "revision": "28d96e7a92e8a19cef47608a8aec546f23a0eed630b8be51c7713b670b932566",
       "geometrySignature": "8c04088f0aed90d0ea147b300eda7272c13220b4326e0682d6f5075f499b88d5",
       "comparisonRevision": "6600a3b757036250c6fb1c99b040f50cff2ae1856f8eb0c6e62b871a504c6e0b",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A container catalog with outgoing artifact differs from package repository, protection and backup pages."
     },
     {
       "id": "azure-application-insights",
@@ -2023,8 +2023,8 @@
       "revision": "58f230c950711ff0bddc3e284049363e593a38ab7c9704a25ab0fcd4e1506160",
       "geometrySignature": "2698263f9bef1651f98c3072755421b7523a82a9cec0609f46dab6d2cc282566",
       "comparisonRevision": "01b9324813adbd847ad868359bd60197dfa4acb6c0152b9873b923db5607a899",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "The health trace and magnifier nearly duplicate the AppLens drawing. Give application telemetry a different visual structure."
     },
     {
       "id": "azure-log-analytics",
@@ -2040,8 +2040,8 @@
       "revision": "0b62755c8945ca7a95829ee3694484b6474c4670593360e3675581b2df692b06",
       "geometrySignature": "d74344b7320b1b930421eac642edd412967fc8c37b6815ce59dbb2337ebc40e2",
       "comparisonRevision": "35c1e5a2449d6bd26bfc641d852e15134518ed87e833cf17850638ed4fca6da9",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A magnifier inspects log entries, unlike billing, a calculator and a code script."
     },
     {
       "id": "azure-managed-identities",
@@ -2056,8 +2056,8 @@
       "revision": "71060210d98501054533a2d525e0ddd8aed12c8faa756d8a1e1fbb17b4997da5",
       "geometrySignature": "e81fd847d4ef8eeeb16b34cc83e91a51c9f8e33093ea8d2af25dfd0bf02eedf2",
       "comparisonRevision": "d4bc2a2b1098d9ec7f79311a43926c9372960661c229da0f611668c0e918ed70",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "The shaded identity panel obscures the identity and key at small sizes. Redraw it with readable authentication cues."
     },
     {
       "id": "azure-dns-zones",
@@ -2071,8 +2071,8 @@
       "revision": "e3bae2b294feaf970d0e8d20d626af21383455b99d59018bb94622adbd95abaa",
       "geometrySignature": "f6d6f8437521c5aacdf3de8d06ce6ab60164520d29f849ea989d10b62785d0c2",
       "comparisonRevision": "fbd9b6da638250eeb88796b977648b26c41cf14535993a52b258ab047e31e652",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A globe routes to several DNS records, unlike the job grid, person accounts and work schedule."
     },
     {
       "id": "azure-private-endpoints",
@@ -2086,8 +2086,8 @@
       "revision": "5878e54f3bd145338fd0bfeff217fcd96fa26ec237c1974b661f247ed7fe585b",
       "geometrySignature": "4224a993e31d71661814a3879413cfc4474fa7d9d721239f5feeeac4c8addbb3",
       "comparisonRevision": "c3e5a3156218c7f77154333030beb0585c6e9739a70d5f0ad3c1e25cead066ec",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A locked private link connects two endpoints, distinct from a VPN, warehouse and conferencing window."
     },
     {
       "id": "azure-event-grid-topics",
@@ -2101,8 +2101,8 @@
       "revision": "fe8fed03588fac9c0e817a55a02d77400690764a37a17a507b9f6e4031eef051",
       "geometrySignature": "dd8d9107f6cefd12287b6f88120d27093fb271a5948921a6556b14f2f7ef6ef6",
       "comparisonRevision": "47eb0cc3e1a69d1bd8519a6a4bae9a3f58c2e65a33327d2b3906f3d7460f4457",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "The dense hatched topic panel makes the event fan-out hard to read at small sizes. Simplify the flow."
     },
     {
       "id": "azure-backup-center",
@@ -2116,8 +2116,8 @@
       "revision": "cb335b04a7268954892acc92bf12926a00405b3e3645729ce6dd2d438fddd3ba",
       "geometrySignature": "e7ff243e13214908c1e37a3a0c581cc6ffe98e501dbdd2e189817f0ea0c4ad16",
       "comparisonRevision": "c1a85a5b2f4f02553cfabaf36693e1f9a6103b42dc96410bc8a4ae7201a34db1",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "Dense hatching obscures the backed-up contents. Use a clearer backup and recovery concept."
     },
     {
       "id": "aws-athena",
@@ -2134,8 +2134,8 @@
       "revision": "7013f2235651087e388d8f481bb8dcb83d567a1382151ee0491f7c2f54b966c9",
       "geometrySignature": "c2fce1ec4e3eb15a585e42a1198e3d73a32e6c86d8c7af0241a1f92f48f8702b",
       "comparisonRevision": "2b1d3e97dc548041c8567b82f3d50bd4bdd7cd834496bb2d72837ad7e4ae9767",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "The magnifying glass on a data bucket closely copies the source icon. Illustrate querying stored data independently."
     },
     {
       "id": "aws-kinesis-streams",
