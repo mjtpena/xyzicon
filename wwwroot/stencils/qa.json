@@ -3,13 +3,15 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 243,
+  "approved": 240,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "azure-blockchain-applications",
+    "azure-blockchain-consortium",
     "gcp-bigtable",
     "gcp-artifact-registry",
     "gcp-cloud-build",
@@ -425,6 +427,7 @@
     "azure-data-sharing",
     "azure-storage-sync",
     "azure-storage-explorer",
+    "aws-redshift-dense-storage",
     "fabric-stream-connector",
     "fabric-external-dataflow",
     "fabric-external-datamart",
@@ -3834,13 +3837,13 @@
       },
       {
         "a": "azure-blockchain-applications",
-        "b": "aws-rtb-fabric",
-        "similarity": 0.2415
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.2746
       },
       {
         "a": "azure-blockchain-applications",
-        "b": "fabric-column-inline",
-        "similarity": 0.2328
+        "b": "aws-rtb-fabric",
+        "similarity": 0.2415
       }
     ],
     "azure-blockchain-outbound": [
@@ -3919,13 +3922,13 @@
       },
       {
         "a": "azure-blockchain-consortium",
-        "b": "aws-sagemaker-geospatial",
-        "similarity": 0.252
+        "b": "aws-location-map",
+        "similarity": 0.2486
       },
       {
         "a": "azure-blockchain-consortium",
-        "b": "aws-location-map",
-        "similarity": 0.2486
+        "b": "azure-power-up",
+        "similarity": 0.2477
       }
     ],
     "azure-confidential-clean-rooms": [
@@ -7204,9 +7207,9 @@
         "similarity": 0.1836
       },
       {
-        "a": "azure-blockchain-consortium",
-        "b": "gcp-cloud-composer",
-        "similarity": 0.1806
+        "a": "gcp-cloud-composer",
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.1816
       }
     ],
     "gcp-dataplex": [
@@ -12862,6 +12865,11 @@
     ],
     "aws-redshift-dense-storage": [
       {
+        "a": "aws-redshift-dense-storage",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.336
+      },
+      {
         "a": "gcp-catalog",
         "b": "aws-redshift-dense-storage",
         "similarity": 0.3329
@@ -12870,11 +12878,6 @@
         "a": "gcp-quantum-engine",
         "b": "aws-redshift-dense-storage",
         "similarity": 0.3017
-      },
-      {
-        "a": "aws-redshift-dense-storage",
-        "b": "azure-network-foundation-hub",
-        "similarity": 0.2788
       }
     ],
     "aws-redshift-ml": [
@@ -13683,14 +13686,14 @@
         "similarity": 0.3405
       },
       {
+        "a": "fabric-restricted-report",
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.2843
+      },
+      {
         "a": "m365-contacts",
         "b": "fabric-restricted-report",
         "similarity": 0.257
-      },
-      {
-        "a": "fabric-restricted-report",
-        "b": "m365-document-page",
-        "similarity": 0.2554
       }
     ],
     "fabric-restricted-scorecard": [
@@ -14244,14 +14247,14 @@
         "similarity": 0.2377
       },
       {
-        "a": "m365-tap",
-        "b": "aws-sagemaker-shadow-testing",
-        "similarity": 0.1484
-      },
-      {
         "a": "gcp-batch",
         "b": "m365-tap",
         "similarity": 0.1449
+      },
+      {
+        "a": "m365-tap",
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.1405
       }
     ],
     "m365-community": [
@@ -14596,11 +14599,6 @@
     ],
     "m365-cogs": [
       {
-        "a": "m365-cogs",
-        "b": "aws-sagemaker-model",
-        "similarity": 0.1389
-      },
-      {
         "a": "fabric-kql-script",
         "b": "m365-cogs",
         "similarity": 0.1377
@@ -14609,6 +14607,11 @@
         "a": "m365-cogs",
         "b": "fabric-list-sql",
         "similarity": 0.1371
+      },
+      {
+        "a": "azure-applens",
+        "b": "m365-cogs",
+        "similarity": 0.1358
       }
     ],
     "m365-three-shapes": [
@@ -14767,35 +14770,35 @@
     "aws-sagemaker-geospatial": [
       {
         "a": "aws-sagemaker-geospatial",
-        "b": "aws-location-map",
-        "similarity": 0.4582
+        "b": "fabric-database-table",
+        "similarity": 0.3036
       },
       {
-        "a": "m365-text-first-line",
+        "a": "fabric-restricted-report",
         "b": "aws-sagemaker-geospatial",
-        "similarity": 0.2578
+        "similarity": 0.2843
       },
       {
-        "a": "azure-blockchain-consortium",
+        "a": "azure-blockchain-applications",
         "b": "aws-sagemaker-geospatial",
-        "similarity": 0.252
+        "similarity": 0.2746
       }
     ],
     "aws-sagemaker-model": [
       {
-        "a": "aws-sagemaker-model",
-        "b": "fabric-phone-data-bars",
-        "similarity": 0.238
-      },
-      {
-        "a": "m365-radar",
+        "a": "aws-redshift-dense-storage",
         "b": "aws-sagemaker-model",
-        "similarity": 0.2311
+        "similarity": 0.336
+      },
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.2601
       },
       {
         "a": "aws-sagemaker-model",
-        "b": "fabric-tables-curve-right",
-        "similarity": 0.2208
+        "b": "azure-network-interfaces",
+        "similarity": 0.2497
       }
     ],
     "aws-sagemaker-notebook": [
@@ -14818,18 +14821,18 @@
     "aws-sagemaker-shadow-testing": [
       {
         "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-braket-chip",
-        "similarity": 0.2909
+        "b": "aws-ecr-registry",
+        "similarity": 0.2795
+      },
+      {
+        "a": "aws-redshift-dense-storage",
+        "b": "aws-sagemaker-shadow-testing",
+        "similarity": 0.2737
       },
       {
         "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-general-document",
-        "similarity": 0.2777
-      },
-      {
-        "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-general-mobile-client",
-        "similarity": 0.2712
+        "b": "aws-sitewise-asset-model",
+        "similarity": 0.2662
       }
     ],
     "aws-sagemaker-train": [
@@ -16459,9 +16462,9 @@
         "similarity": 0.2456
       },
       {
-        "a": "aws-sagemaker-shadow-testing",
+        "a": "gcp-firewall-rules",
         "b": "azure-foundry-control-plane",
-        "similarity": 0.2177
+        "similarity": 0.2159
       }
     ],
     "azure-foundry-labs": [
@@ -20376,6 +20379,11 @@
     ],
     "aws-sitewise-asset-model": [
       {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-sitewise-asset-model",
+        "similarity": 0.2662
+      },
+      {
         "a": "aws-sitewise-asset-model",
         "b": "fabric-trophy-data-bars",
         "similarity": 0.2624
@@ -20384,11 +20392,6 @@
         "a": "azure-integration-environments",
         "b": "aws-sitewise-asset-model",
         "similarity": 0.2496
-      },
-      {
-        "a": "aws-sitewise-asset-model",
-        "b": "aws-devops-guru-insights",
-        "similarity": 0.2446
       }
     ],
     "aws-sitewise-asset-properties": [
@@ -20920,11 +20923,6 @@
     ],
     "aws-iot-thing-windfarm": [
       {
-        "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-iot-thing-windfarm",
-        "similarity": 0.234
-      },
-      {
         "a": "azure-enclaves",
         "b": "aws-iot-thing-windfarm",
         "similarity": 0.2327
@@ -20933,6 +20931,11 @@
         "a": "azure-orbital",
         "b": "aws-iot-thing-windfarm",
         "similarity": 0.2185
+      },
+      {
+        "a": "aws-iot-sailboat",
+        "b": "aws-iot-thing-windfarm",
+        "similarity": 0.2177
       }
     ],
     "aws-iot-thing-bank": [
@@ -22421,14 +22424,14 @@
         "similarity": 0.3007
       },
       {
-        "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-braket-chip",
-        "similarity": 0.2909
-      },
-      {
         "a": "aws-braket-chip",
         "b": "aws-iam-long-term-credential",
         "similarity": 0.2749
+      },
+      {
+        "a": "aws-glacier-vault",
+        "b": "aws-braket-chip",
+        "similarity": 0.2546
       }
     ],
     "aws-braket-embedded-simulator": [
@@ -22557,14 +22560,14 @@
         "similarity": 0.2471
       },
       {
+        "a": "aws-sagemaker-geospatial",
+        "b": "fabric-copilot",
+        "similarity": 0.1982
+      },
+      {
         "a": "gcp-datalab",
         "b": "fabric-copilot",
         "similarity": 0.179
-      },
-      {
-        "a": "fabric-copilot",
-        "b": "fabric-database-table",
-        "similarity": 0.1786
       }
     ],
     "fabric-data-engineering": [
@@ -23130,11 +23133,6 @@
     ],
     "aws-location-map": [
       {
-        "a": "aws-sagemaker-geospatial",
-        "b": "aws-location-map",
-        "similarity": 0.4582
-      },
-      {
         "a": "m365-apps",
         "b": "aws-location-map",
         "similarity": 0.2796
@@ -23143,6 +23141,11 @@
         "a": "fabric-scorecard",
         "b": "aws-location-map",
         "similarity": 0.2627
+      },
+      {
+        "a": "m365-text-first-line",
+        "b": "aws-location-map",
+        "similarity": 0.2505
       }
     ],
     "aws-location-place": [
@@ -29658,9 +29661,9 @@
         "similarity": 0.1974
       },
       {
-        "a": "aws-sagemaker-shadow-testing",
+        "a": "gcp-ai-hypercomputer",
         "b": "gcp-category-collaboration",
-        "similarity": 0.1964
+        "similarity": 0.194
       }
     ],
     "gcp-category-compute": [
@@ -31551,9 +31554,9 @@
         "similarity": 0.2338
       },
       {
-        "a": "azure-blockchain-applications",
+        "a": "aws-sagemaker-geospatial",
         "b": "aws-category-hybrid",
-        "similarity": 0.232
+        "similarity": 0.2334
       }
     ],
     "aws-category-migration": [
@@ -31983,11 +31986,6 @@
     ],
     "aws-open-3d-engine": [
       {
-        "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-open-3d-engine",
-        "similarity": 0.1905
-      },
-      {
         "a": "azure-data-collection-rules",
         "b": "aws-open-3d-engine",
         "similarity": 0.1787
@@ -31996,6 +31994,11 @@
         "a": "aws-codebuild",
         "b": "aws-open-3d-engine",
         "similarity": 0.1587
+      },
+      {
+        "a": "aws-open-3d-engine",
+        "b": "azure-media-file",
+        "similarity": 0.155
       }
     ],
     "aws-ground-station": [
