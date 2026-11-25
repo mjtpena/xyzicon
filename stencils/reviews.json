@@ -446,33 +446,39 @@
   },
   "azure-virtual-machine": {
     "revision": "eec3ef455213dd6443507e34c829065d374063854304a037d2ae6331782b06c3",
+    "comparisonRevision": "50682a923dc0615b8b553ea2aa941c86bb2432955bbd57e022425ae608c9b33e",
     "status": "approved",
-    "notes": "The cube inside a monitor differs from the EC2 processor and other nearby window sketches at 32px."
+    "notes": "The cube inside the monitor conveys a VM and remains distinct from the spot VM tag and neighboring diagrams at small sizes."
   },
   "azure-sql-database": {
     "revision": "e30089b55359eda8560f318a22d3a2ea7abed603e891a7f82a9a40b017b90472",
+    "comparisonRevision": "dbf067f382a083e25ed2ca6ff0784a47fac9b8e595d07f2233bbf9d2b5c6b11e",
     "status": "approved",
-    "notes": "The relational grid remains visible inside the database cylinder and distinguishes it from the plain Office database."
+    "notes": "The cylinder and relational grid communicate SQL storage; the receipt, document and bucket neighbors have different silhouettes."
   },
   "azure-cosmos-db": {
     "revision": "8337364224248bc63c6010b319c04f2381f98d5032560305393167eceadb9b75",
-    "status": "approved",
-    "notes": "The planet, orbit and two satellites remain distinguishable from the nearby handshake, chip and warehouse sketches."
+    "comparisonRevision": "f0b26b560f542e767e3f87051cfe55a2256c6b60b071d185a2a775fe2757d40c",
+    "status": "rework",
+    "notes": "The ringed planet closely reproduces the source logo's central motif. Replace it with an original depiction of a globally distributed database."
   },
   "azure-key-vault": {
     "revision": "7541c93283dfae85c9ce472a29e6b341a977b70d8593eafb7b37a3d9350f7591",
+    "comparisonRevision": "5a00a5ac1bb51dd67d55574e21cb358e937f4d05c0c811465561451716cbdcb4",
     "status": "approved",
-    "notes": "The key remains visible within the unfilled shield and differs from the eye, alert and striped shields at 32px."
+    "notes": "The central key remains visible within the shield; nearby shields contain an eye, warning or stripes rather than a key."
   },
   "azure-storage": {
     "revision": "389e9f9def5ba76a640921aa9f31dcbe206bf30c1e012d349b52c382d6f5a5d8",
+    "comparisonRevision": "db04d801b7b657c22e93ee2cde934f23b486c916f161decb978fa427cac7fd93",
     "status": "approved",
-    "notes": "The open crate, document and block remain distinguishable from the data-store, lock and scales compositions."
+    "notes": "The open storage crate holds a document and a block, distinct from the archive box, secured chip and event house neighbors."
   },
   "azure-kubernetes": {
     "revision": "1fe22ea1a781d8413664ca173e893ee71de7d801b488fd6ec3e140256af1de9c",
-    "status": "approved",
-    "notes": "The workload grid with wheel badge differs from GKE's central wheel and radial workloads at 32px."
+    "comparisonRevision": "a44f06a51504994d4145afa1fd59a83c2d8f0d21e20c99dc1a4e1e5e87213fdc",
+    "status": "rework",
+    "notes": "The three rectangles look like generic windows and the wheel badge is indistinct at 32px. Make a recognizable container cluster without relying on a tiny badge."
   },
   "gcp-gke": {
     "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
@@ -491,8 +497,9 @@
   },
   "azure-service-bus": {
     "revision": "3d69576cba987d23d6dff745b71cfff968858daf2ddc684376fc726ea6f04568",
+    "comparisonRevision": "245b22497ff08f5579e76ae52efc67e9fd75077b39f0da672d560584b78ddbed",
     "status": "approved",
-    "notes": "The envelope, queue and subscribers remain visible without dense hatching and differ from the nearby network sketches."
+    "notes": "A message enters a queue and branches to consumers; unlike the nearest gateway, workflow and queue sketches, the complete sequence is shown."
   },
   "fabric-lakehouse": {
     "revision": "9a10e81bf22c39aed6c1bc175d143136051ab8cfee1131ccac2fd721c33ee47b",
