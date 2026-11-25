@@ -4,6 +4,80 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-general-credentials", "aws", "Credentials", themes("Credentials"),
+    "An identification card contains a key for access.",
+    [
+      rect(17, 24, 91, 67), line([17, 38], [108, 38]), oval(26, 47, 21, 21), line([23, 80], [25, 72], [32, 68], [41, 68], [48, 72], [50, 80]),
+      oval(63, 49, 16, 16), line([76, 61], [91, 76], [97, 70]), line([84, 68], [90, 62]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-authenticated-user", "aws", "Authenticated User", themes("Authenticated-User"),
+    "A verified access check accompanies a user badge.",
+    [
+      rect(20, 18, 63, 76), oval(38, 29, 26, 26), line([30, 79], [32, 70], [38, 64], [46, 61], [56, 61], [64, 64], [70, 70], [72, 79]),
+      oval(72, 61, 33, 33), line([79, 77], [86, 84], [99, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-client", "aws", "Client", themes("Client"),
+    "A laptop represents a client device.",
+    [
+      rect(23, 19, 76, 57), line([30, 26], [92, 26], [92, 68], [30, 68], [30, 26]),
+      line([23, 76], [14, 91], [107, 91], [99, 76]), line([47, 84], [75, 84]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-cold-storage", "aws", "Cold Storage", themes("Cold-Storage"),
+    "A storage box and snowflake indicate cold archival storage.",
+    [
+      rect(18, 30, 58, 60), line([18, 45], [76, 45]), line([39, 38], [55, 38]),
+      line([91, 30], [91, 77]), line([78, 42], [104, 65]), line([104, 42], [78, 65]), line([84, 26], [91, 33], [98, 26]), line([84, 80], [91, 73], [98, 80]),
+      line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-data-table", "aws", "Data Table", themes("Data-Table"),
+    "A data grid displays rows and columns under a header.",
+    [
+      rect(16, 20, 91, 74), line([16, 37], [107, 37]), line([16, 56], [107, 56]), line([16, 75], [107, 75]), line([47, 20], [47, 94]), line([77, 20], [77, 94]),
+      line([24, 28], [39, 28]), line([55, 28], [69, 28]), line([85, 28], [99, 28]), oval(25, 43, 7, 7, true), oval(56, 62, 7, 7, true), oval(85, 81, 7, 7, true), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-forums", "aws", "Forums", themes("Forums"),
+    "A forum thread contains messages from multiple participants.",
+    [
+      line([22, 23], [101, 23], [101, 77], [67, 77], [53, 90], [53, 77], [22, 77], [22, 23]),
+      oval(30, 32, 10, 10), oval(30, 54, 10, 10), line([48, 37], [91, 37]), line([48, 44], [79, 44]), line([48, 59], [91, 59]), line([48, 66], [79, 66]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-gear", "aws", "Gear", themes("Gear"),
+    "A toothed wheel represents a setting or mechanism.",
+    [
+      line([53, 17], [69, 17], [72, 26], [80, 29], [88, 25], [99, 36], [95, 44], [98, 52], [107, 55], [107, 71], [98, 74], [95, 82], [99, 90], [88, 101], [80, 97], [72, 100], [69, 109], [53, 109], [50, 100], [42, 97], [34, 101], [23, 90], [27, 82], [24, 74], [15, 71], [15, 55], [24, 52], [27, 44], [23, 36], [34, 25], [42, 29], [50, 26], [53, 17]),
+      oval(47, 49, 28, 28),
+    ]),
+  entry("aws-general-application", "aws", "Application", themes("Generic-Application"),
+    "An application window contains interface components.",
+    [
+      rect(14, 20, 94, 74), line([14, 34], [108, 34]), oval(21, 24, 5, 5, true), oval(31, 24, 5, 5, true),
+      rect(24, 43, 30, 18), rect(61, 43, 36, 18), rect(24, 68, 73, 16), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-git-repository", "aws", "Git Repository", themes("Git-Repository"),
+    "A branching commit graph sits inside a repository folder.",
+    [
+      line([15, 89], [15, 25], [47, 25], [55, 33], [106, 33], [106, 89], [15, 89]),
+      oval(28, 43, 10, 10), oval(28, 70, 10, 10), oval(77, 51, 10, 10), line([33, 53], [33, 70]), line([38, 48], [55, 48], [62, 56], [77, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-globe", "aws", "Globe", themes("Globe"),
+    "A globe shows continents rather than region controls.",
+    [
+      oval(19, 16, 83, 83), line([25, 37], [36, 31], [46, 34], [50, 43], [44, 49], [40, 59], [32, 58], [27, 48]),
+      line([51, 24], [61, 20], [73, 24], [75, 32], [68, 37], [59, 34], [56, 40], [66, 47], [73, 45], [82, 50], [85, 58], [78, 64], [73, 78], [65, 84], [59, 77], [60, 65], [54, 58], [49, 48]),
+      line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-internet", "aws", "Internet", themes("Internet"),
+    "Worldwide connections join multiple devices.",
+    [
+      oval(38, 30, 43, 43), line([59, 30], [52, 39], [49, 51], [52, 64], [59, 73]), line([59, 30], [66, 39], [69, 51], [66, 64], [59, 73]), line([40, 45], [79, 45]), line([40, 59], [79, 59]),
+      oval(12, 12, 12, 12), rect(93, 17, 14, 12), rect(96, 78, 10, 17), line([24, 24], [42, 36]), line([81, 42], [93, 29]), line([79, 67], [96, 81]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-internet-wifi", "aws", "Internet Wi-Fi", themes("Internet-alt1"),
+    "A wireless signal connects a device to the internet.",
+    [
+      rect(45, 59, 30, 35), line([53, 85], [67, 85]), line([27, 46], [35, 38], [46, 33], [60, 31], [74, 33], [85, 38], [93, 46]),
+      line([36, 52], [44, 45], [52, 42], [60, 41], [68, 42], [76, 45], [84, 52]), line([46, 57], [52, 53], [60, 51], [68, 53], [74, 57]), line([14, 110], [110, 110]),
+    ]),
   entry("aws-general-alert", "aws", "Alert", themes("Alert"),
     "An exclamation mark warns of an alert.",
     [
