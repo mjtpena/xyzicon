@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1144,
-  "aliases": 4025,
+  "count": 1148,
+  "aliases": 4030,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -346,6 +346,10 @@
     "gcp-marketplace",
     "gcp-financial-marketplace",
     "gcp-early-access",
+    "gcp-beyondcorp",
+    "gcp-web-risk",
+    "gcp-maps-platform",
+    "gcp-quantum-engine",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1260,8 +1264,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 244,
-      "concepts": 231
+      "covered": 249,
+      "concepts": 235
     }
   },
   "nearest": {
@@ -2395,13 +2399,13 @@
       },
       {
         "a": "azure-app-services",
-        "b": "fabric-square-waves",
-        "similarity": 0.244
+        "b": "gcp-web-risk",
+        "similarity": 0.2477
       },
       {
         "a": "azure-app-services",
-        "b": "aws-budgets",
-        "similarity": 0.2399
+        "b": "fabric-square-waves",
+        "similarity": 0.244
       }
     ],
     "aws-rds": [
@@ -3296,13 +3300,13 @@
       },
       {
         "a": "gcp-cloud-dns",
-        "b": "gcp-managed-active-directory",
-        "similarity": 0.23
+        "b": "gcp-quantum-engine",
+        "similarity": 0.2353
       },
       {
         "a": "gcp-cloud-dns",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2263
+        "b": "gcp-managed-active-directory",
+        "similarity": 0.23
       }
     ],
     "gcp-cloud-logging": [
@@ -5302,13 +5306,13 @@
       },
       {
         "a": "gcp-automl",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2089
+        "b": "gcp-maps-platform",
+        "similarity": 0.2185
       },
       {
         "a": "gcp-automl",
-        "b": "gcp-producer-portal",
-        "similarity": 0.2028
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2089
       }
     ],
     "gcp-automl-language": [
@@ -6594,13 +6598,13 @@
       },
       {
         "a": "gcp-ai-platform",
-        "b": "aws-codewhisperer",
-        "similarity": 0.3126
+        "b": "gcp-web-risk",
+        "similarity": 0.3441
       },
       {
         "a": "gcp-ai-platform",
-        "b": "aws-datazone-portal",
-        "similarity": 0.3116
+        "b": "aws-codewhisperer",
+        "similarity": 0.3126
       }
     ],
     "gcp-unified-ai-platform": [
@@ -6809,6 +6813,11 @@
     ],
     "gcp-catalog": [
       {
+        "a": "gcp-catalog",
+        "b": "gcp-quantum-engine",
+        "similarity": 0.2895
+      },
+      {
         "a": "gcp-dialogflow-insights",
         "b": "gcp-catalog",
         "similarity": 0.2625
@@ -6817,11 +6826,6 @@
         "a": "gcp-catalog",
         "b": "aws-red-hat-openshift",
         "similarity": 0.2609
-      },
-      {
-        "a": "gcp-datastore",
-        "b": "gcp-catalog",
-        "similarity": 0.2575
       }
     ],
     "gcp-connectors": [
@@ -7057,9 +7061,77 @@
         "similarity": 0.2487
       },
       {
-        "a": "gcp-security-scanner",
-        "b": "gcp-early-access",
-        "similarity": 0.2375
+        "a": "gcp-early-access",
+        "b": "gcp-maps-platform",
+        "similarity": 0.2389
+      }
+    ],
+    "gcp-beyondcorp": [
+      {
+        "a": "gcp-beyondcorp",
+        "b": "gcp-mandiant",
+        "similarity": 0.21
+      },
+      {
+        "a": "gcp-beyondcorp",
+        "b": "aws-codecatalyst",
+        "similarity": 0.2035
+      },
+      {
+        "a": "gcp-beyondcorp",
+        "b": "aws-vpc",
+        "similarity": 0.203
+      }
+    ],
+    "gcp-web-risk": [
+      {
+        "a": "gcp-web-risk",
+        "b": "m365-slide-layout",
+        "similarity": 0.3723
+      },
+      {
+        "a": "gcp-web-risk",
+        "b": "aws-codewhisperer",
+        "similarity": 0.3447
+      },
+      {
+        "a": "gcp-ai-platform",
+        "b": "gcp-web-risk",
+        "similarity": 0.3441
+      }
+    ],
+    "gcp-maps-platform": [
+      {
+        "a": "gcp-early-access",
+        "b": "gcp-maps-platform",
+        "similarity": 0.2389
+      },
+      {
+        "a": "gcp-maps-platform",
+        "b": "aws-region-group",
+        "similarity": 0.2206
+      },
+      {
+        "a": "gcp-automl",
+        "b": "gcp-maps-platform",
+        "similarity": 0.2185
+      }
+    ],
+    "gcp-quantum-engine": [
+      {
+        "a": "gcp-catalog",
+        "b": "gcp-quantum-engine",
+        "similarity": 0.2895
+      },
+      {
+        "a": "gcp-quantum-engine",
+        "b": "fabric-column-inline",
+        "similarity": 0.2889
+      },
+      {
+        "a": "gcp-cloud-dns",
+        "b": "gcp-quantum-engine",
+        "similarity": 0.2353
       }
     ],
     "gcp-access-context": [
@@ -12645,14 +12717,14 @@
         "similarity": 0.2571
       },
       {
+        "a": "gcp-web-risk",
+        "b": "aws-chatbot",
+        "similarity": 0.2196
+      },
+      {
         "a": "aws-chatbot",
         "b": "aws-service-management-connector",
         "similarity": 0.2164
-      },
-      {
-        "a": "aws-datazone-portal",
-        "b": "aws-chatbot",
-        "similarity": 0.2091
       }
     ],
     "aws-appfabric": [
@@ -14912,9 +14984,9 @@
         "similarity": 0.2138
       },
       {
-        "a": "m365-edit",
-        "b": "fabric-database-swap",
-        "similarity": 0.2029
+        "a": "gcp-quantum-engine",
+        "b": "m365-edit",
+        "similarity": 0.207
       }
     ],
     "m365-filmstrip-play": [
@@ -17457,9 +17529,9 @@
         "similarity": 0.3172
       },
       {
-        "a": "aws-codewhisperer",
+        "a": "gcp-web-risk",
         "b": "aws-app-studio",
-        "similarity": 0.2867
+        "similarity": 0.3103
       }
     ],
     "aws-amplify": [
@@ -20030,9 +20102,9 @@
         "similarity": 0.297
       },
       {
-        "a": "aws-datazone",
+        "a": "gcp-quantum-engine",
         "b": "fabric-column-inline",
-        "similarity": 0.2691
+        "similarity": 0.2889
       }
     ],
     "fabric-column-relationship": [
