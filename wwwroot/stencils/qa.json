@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1024,
-  "aliases": 3893,
+  "count": 1028,
+  "aliases": 3897,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -238,6 +238,10 @@
     "gcp-deployment-manager",
     "gcp-external-ip",
     "gcp-cloud-routes",
+    "gcp-anthos-config-management",
+    "gcp-anthos-service-mesh",
+    "gcp-configuration-management",
+    "gcp-runtime-config",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1140,8 +1144,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 136,
-      "concepts": 123
+      "covered": 140,
+      "concepts": 127
     }
   },
   "nearest": {
@@ -1498,8 +1502,8 @@
       },
       {
         "a": "entra-family",
-        "b": "azure-compute-fleet",
-        "similarity": 0.2271
+        "b": "gcp-runtime-config",
+        "similarity": 0.2288
       }
     ],
     "entra-governance": [
@@ -2032,6 +2036,11 @@
     "azure-confidential-clean-rooms": [
       {
         "a": "azure-confidential-clean-rooms",
+        "b": "gcp-anthos-service-mesh",
+        "similarity": 0.2214
+      },
+      {
+        "a": "azure-confidential-clean-rooms",
         "b": "aws-resource-access-manager",
         "similarity": 0.1962
       },
@@ -2039,11 +2048,6 @@
         "a": "azure-confidential-clean-rooms",
         "b": "gcp-cloud-tpu",
         "similarity": 0.1622
-      },
-      {
-        "a": "azure-confidential-clean-rooms",
-        "b": "aws-appflow",
-        "similarity": 0.157
       }
     ],
     "azure-container-app-sandboxes": [
@@ -4310,6 +4314,11 @@
     "aws-translate": [
       {
         "a": "aws-translate",
+        "b": "gcp-runtime-config",
+        "similarity": 0.333
+      },
+      {
+        "a": "aws-translate",
         "b": "aws-managed-grafana",
         "similarity": 0.2882
       },
@@ -4317,11 +4326,6 @@
         "a": "aws-translate",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2811
-      },
-      {
-        "a": "azure-waf-policies",
-        "b": "aws-translate",
-        "similarity": 0.2772
       }
     ],
     "aws-rekognition": [
@@ -4574,9 +4578,9 @@
         "similarity": 0.1517
       },
       {
-        "a": "azure-container-instances",
-        "b": "m365-lightbulb",
-        "similarity": 0.1383
+        "a": "m365-lightbulb",
+        "b": "gcp-anthos-service-mesh",
+        "similarity": 0.1398
       }
     ],
     "m365-lock": [
@@ -5106,6 +5110,74 @@
         "similarity": 0.1733
       }
     ],
+    "gcp-anthos-config-management": [
+      {
+        "a": "gcp-anthos-config-management",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2516
+      },
+      {
+        "a": "gcp-anthos-config-management",
+        "b": "m365-document",
+        "similarity": 0.2334
+      },
+      {
+        "a": "gcp-anthos-config-management",
+        "b": "gcp-app-engine",
+        "similarity": 0.2315
+      }
+    ],
+    "gcp-anthos-service-mesh": [
+      {
+        "a": "gcp-anthos-service-mesh",
+        "b": "aws-lake-formation-data-lake",
+        "similarity": 0.2593
+      },
+      {
+        "a": "gcp-anthos-service-mesh",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2438
+      },
+      {
+        "a": "azure-confidential-clean-rooms",
+        "b": "gcp-anthos-service-mesh",
+        "similarity": 0.2214
+      }
+    ],
+    "gcp-configuration-management": [
+      {
+        "a": "gcp-configuration-management",
+        "b": "fabric-sample",
+        "similarity": 0.2547
+      },
+      {
+        "a": "gcp-configuration-management",
+        "b": "azure-quickstart-center",
+        "similarity": 0.254
+      },
+      {
+        "a": "gcp-configuration-management",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.241
+      }
+    ],
+    "gcp-runtime-config": [
+      {
+        "a": "aws-translate",
+        "b": "gcp-runtime-config",
+        "similarity": 0.333
+      },
+      {
+        "a": "gcp-runtime-config",
+        "b": "aws-datazone-business-catalog",
+        "similarity": 0.3224
+      },
+      {
+        "a": "azure-waf-policies",
+        "b": "gcp-runtime-config",
+        "similarity": 0.2736
+      }
+    ],
     "gcp-access-context": [
       {
         "a": "m365-chart-multiple",
@@ -5203,9 +5275,9 @@
         "similarity": 0.2437
       },
       {
-        "a": "gcp-cloud-gpu",
-        "b": "gcp-genomics",
-        "similarity": 0.2254
+        "a": "gcp-anthos-config-management",
+        "b": "gcp-cloud-gpu",
+        "similarity": 0.226
       }
     ],
     "gcp-firewall-rules": [
@@ -7012,6 +7084,11 @@
     ],
     "azure-hdinsight-clusters": [
       {
+        "a": "gcp-runtime-config",
+        "b": "azure-hdinsight-clusters",
+        "similarity": 0.2326
+      },
+      {
         "a": "azure-hdinsight-clusters",
         "b": "azure-immersive-reader",
         "similarity": 0.2306
@@ -7020,11 +7097,6 @@
         "a": "fabric-apps",
         "b": "azure-hdinsight-clusters",
         "similarity": 0.2273
-      },
-      {
-        "a": "azure-hdinsight-clusters",
-        "b": "aws-professional-services",
-        "similarity": 0.2222
       }
     ],
     "azure-stream-analytics": [
@@ -7369,6 +7441,11 @@
     ],
     "aws-lake-formation-data-lake": [
       {
+        "a": "gcp-anthos-service-mesh",
+        "b": "aws-lake-formation-data-lake",
+        "similarity": 0.2593
+      },
+      {
         "a": "aws-lake-formation-data-lake",
         "b": "azure-ai-foundry",
         "similarity": 0.2509
@@ -7377,14 +7454,14 @@
         "a": "aws-lake-formation-data-lake",
         "b": "fabric-paginated-report",
         "similarity": 0.2158
-      },
-      {
-        "a": "aws-lake-formation-data-lake",
-        "b": "azure-image-templates",
-        "similarity": 0.2026
       }
     ],
     "aws-datazone-business-catalog": [
+      {
+        "a": "gcp-runtime-config",
+        "b": "aws-datazone-business-catalog",
+        "similarity": 0.3224
+      },
       {
         "a": "m365-tablet",
         "b": "aws-datazone-business-catalog",
@@ -7394,11 +7471,6 @@
         "a": "aws-translate",
         "b": "aws-datazone-business-catalog",
         "similarity": 0.2742
-      },
-      {
-        "a": "aws-datazone-business-catalog",
-        "b": "aws-managed-grafana",
-        "similarity": 0.2654
       }
     ],
     "aws-datazone-portal": [
@@ -9125,14 +9197,14 @@
         "similarity": 0.2929
       },
       {
-        "a": "aws-sagemaker-studio-lab",
-        "b": "aws-finspace",
-        "similarity": 0.2474
+        "a": "gcp-runtime-config",
+        "b": "aws-sagemaker-studio-lab",
+        "similarity": 0.2716
       },
       {
         "a": "aws-sagemaker-studio-lab",
-        "b": "aws-codewhisperer",
-        "similarity": 0.2386
+        "b": "aws-finspace",
+        "similarity": 0.2474
       }
     ],
     "aws-nova": [
@@ -11051,9 +11123,9 @@
         "similarity": 0.2457
       },
       {
-        "a": "aws-reserved-instance-reporting",
-        "b": "fabric-calculator-multiple-brackets-number",
-        "similarity": 0.2306
+        "a": "gcp-runtime-config",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2401
       }
     ],
     "aws-support": [
@@ -12321,14 +12393,14 @@
         "similarity": 0.2653
       },
       {
+        "a": "gcp-anthos-service-mesh",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2438
+      },
+      {
         "a": "azure-foundry-iq",
         "b": "aws-resource-access-manager",
         "similarity": 0.2355
-      },
-      {
-        "a": "aws-datazone-business-catalog",
-        "b": "aws-resource-access-manager",
-        "similarity": 0.2289
       }
     ],
     "aws-payment-cryptography": [
@@ -13438,9 +13510,9 @@
         "similarity": 0.2578
       },
       {
-        "a": "m365-document-text",
+        "a": "gcp-anthos-config-management",
         "b": "aws-cloudfront-download",
-        "similarity": 0.2387
+        "similarity": 0.2516
       }
     ],
     "aws-cloudfront-edge-location": [
@@ -13608,9 +13680,9 @@
         "similarity": 0.2694
       },
       {
-        "a": "gcp-container-registry",
+        "a": "gcp-anthos-config-management",
         "b": "aws-region-group",
-        "similarity": 0.2289
+        "similarity": 0.2303
       }
     ],
     "aws-app-mesh": [
@@ -14220,9 +14292,9 @@
         "similarity": 0.247
       },
       {
-        "a": "gcp-category-security",
-        "b": "aws-database-migration",
-        "similarity": 0.2144
+        "a": "gcp-runtime-config",
+        "b": "gcp-category-security",
+        "similarity": 0.2405
       }
     ],
     "gcp-category-serverless": [
@@ -15100,6 +15172,11 @@
     ],
     "aws-category-games": [
       {
+        "a": "gcp-anthos-config-management",
+        "b": "aws-category-games",
+        "similarity": 0.2067
+      },
+      {
         "a": "gcp-app-engine",
         "b": "aws-category-games",
         "similarity": 0.2009
@@ -15108,11 +15185,6 @@
         "a": "fabric-restricted-report",
         "b": "aws-category-games",
         "similarity": 0.1946
-      },
-      {
-        "a": "aws-category-security",
-        "b": "aws-category-games",
-        "similarity": 0.1921
       }
     ],
     "aws-category-developer-tools": [
@@ -15586,9 +15658,9 @@
         "similarity": 0.2669
       },
       {
-        "a": "gcp-category-integration",
+        "a": "gcp-runtime-config",
         "b": "aws-elastic-fabric-adapter",
-        "similarity": 0.2452
+        "similarity": 0.2613
       }
     ],
     "aws-dcv": [
@@ -15921,14 +15993,14 @@
         "similarity": 0.2574
       },
       {
+        "a": "gcp-configuration-management",
+        "b": "azure-quickstart-center",
+        "similarity": 0.254
+      },
+      {
         "a": "gcp-looker",
         "b": "azure-quickstart-center",
         "similarity": 0.2168
-      },
-      {
-        "a": "m365-window",
-        "b": "azure-quickstart-center",
-        "similarity": 0.2123
       }
     ],
     "azure-management-groups": [
@@ -16470,9 +16542,9 @@
         "similarity": 0.1642
       },
       {
-        "a": "azure-cost-management-billing",
+        "a": "gcp-anthos-config-management",
         "b": "fabric-cube-cone-sphere",
-        "similarity": 0.1557
+        "similarity": 0.1568
       }
     ],
     "fabric-area-location": [
