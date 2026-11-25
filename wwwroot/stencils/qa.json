@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1888,
-  "aliases": 5054,
+  "count": 1893,
+  "aliases": 5059,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -966,6 +966,11 @@
     "aws-iot-thing-factory",
     "aws-iot-thing-house",
     "aws-iot-thing-lightbulb",
+    "aws-s3-on-outposts-resource",
+    "aws-s3-select",
+    "aws-s3-storage-lens",
+    "aws-s3-tables",
+    "aws-s3-vectors",
     "aws-s3-general-access-point",
     "aws-s3-multiregion-access",
     "aws-s3-vpc-access",
@@ -2188,8 +2193,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1671,
-      "concepts": 626
+      "covered": 1676,
+      "concepts": 631
     },
     "gcp": {
       "sources": 261,
@@ -11289,8 +11294,8 @@
       },
       {
         "a": "azure-ssis-lift-shift",
-        "b": "azure-time-series-data-sets",
-        "similarity": 0.2605
+        "b": "aws-s3-tables",
+        "similarity": 0.2692
       }
     ],
     "azure-sql-edge": [
@@ -11370,6 +11375,11 @@
     "azure-virtual-clusters": [
       {
         "a": "azure-virtual-clusters",
+        "b": "aws-s3-on-outposts-resource",
+        "similarity": 0.2925
+      },
+      {
+        "a": "azure-virtual-clusters",
         "b": "azure-process-explorer",
         "similarity": 0.292
       },
@@ -11377,11 +11387,6 @@
         "a": "azure-integration-accounts",
         "b": "azure-virtual-clusters",
         "similarity": 0.2742
-      },
-      {
-        "a": "azure-virtual-clusters",
-        "b": "aws-general-cold-storage",
-        "similarity": 0.2686
       }
     ],
     "azure-managed-redis": [
@@ -16794,18 +16799,18 @@
     "azure-time-series-data-sets": [
       {
         "a": "azure-time-series-data-sets",
+        "b": "aws-s3-tables",
+        "similarity": 0.3275
+      },
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-s3-select",
+        "similarity": 0.3235
+      },
+      {
+        "a": "azure-time-series-data-sets",
         "b": "azure-blob-block",
         "similarity": 0.2838
-      },
-      {
-        "a": "azure-time-series-data-sets",
-        "b": "aws-s3-standard-ia",
-        "similarity": 0.2771
-      },
-      {
-        "a": "azure-time-series-data-sets",
-        "b": "aws-s3-standard",
-        "similarity": 0.2752
       }
     ],
     "azure-windows-core-services": [
@@ -16957,8 +16962,8 @@
       },
       {
         "a": "azure-lighthouse",
-        "b": "aws-iot-thing-stacklight",
-        "similarity": 0.2588
+        "b": "aws-s3-on-outposts-resource",
+        "similarity": 0.2617
       }
     ],
     "azure-arc": [
@@ -16991,8 +16996,8 @@
       },
       {
         "a": "azure-service-group-relationships",
-        "b": "aws-ebs-snapshot",
-        "similarity": 0.2405
+        "b": "aws-s3-tables",
+        "similarity": 0.2516
       }
     ],
     "azure-user-privacy": [
@@ -17525,6 +17530,11 @@
     "aws-iot-rule": [
       {
         "a": "aws-iot-rule",
+        "b": "aws-s3-tables",
+        "similarity": 0.2914
+      },
+      {
+        "a": "aws-iot-rule",
         "b": "azure-versions",
         "similarity": 0.2879
       },
@@ -17532,11 +17542,6 @@
         "a": "azure-applied-ai",
         "b": "aws-iot-rule",
         "similarity": 0.2806
-      },
-      {
-        "a": "aws-dynamodb-global-secondary-index",
-        "b": "aws-iot-rule",
-        "similarity": 0.2785
       }
     ],
     "aws-iot-action": [
@@ -18464,14 +18469,14 @@
         "similarity": 0.2412
       },
       {
+        "a": "aws-iot-thing-cart",
+        "b": "aws-s3-storage-lens",
+        "similarity": 0.2402
+      },
+      {
         "a": "azure-managed-file-shares",
         "b": "aws-iot-thing-cart",
         "similarity": 0.2343
-      },
-      {
-        "a": "aws-iot-thing-cart",
-        "b": "azure-gear",
-        "similarity": 0.2329
       }
     ],
     "aws-iot-thing-coffee-pot": [
@@ -18557,6 +18562,91 @@
         "a": "aws-iot-thing-lightbulb",
         "b": "aws-backup-cloudformation",
         "similarity": 0.2191
+      }
+    ],
+    "aws-s3-on-outposts-resource": [
+      {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "aws-general-cold-storage",
+        "similarity": 0.3524
+      },
+      {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "aws-s3-batch-operations",
+        "similarity": 0.3429
+      },
+      {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "azure-tfs-vc-repository",
+        "similarity": 0.3123
+      }
+    ],
+    "aws-s3-select": [
+      {
+        "a": "aws-s3-select",
+        "b": "aws-s3-standard-ia",
+        "similarity": 0.3339
+      },
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-s3-select",
+        "similarity": 0.3235
+      },
+      {
+        "a": "aws-s3-select",
+        "b": "aws-s3-standard",
+        "similarity": 0.3102
+      }
+    ],
+    "aws-s3-storage-lens": [
+      {
+        "a": "aws-s3-storage-lens",
+        "b": "azure-production-ready-database",
+        "similarity": 0.3339
+      },
+      {
+        "a": "aws-s3-storage-lens",
+        "b": "aws-s3-vectors",
+        "similarity": 0.2936
+      },
+      {
+        "a": "aws-s3-select",
+        "b": "aws-s3-storage-lens",
+        "similarity": 0.285
+      }
+    ],
+    "aws-s3-tables": [
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-s3-tables",
+        "similarity": 0.3275
+      },
+      {
+        "a": "aws-s3-tables",
+        "b": "aws-gateway-fsx-file",
+        "similarity": 0.3227
+      },
+      {
+        "a": "aws-iot-rule",
+        "b": "aws-s3-tables",
+        "similarity": 0.2914
+      }
+    ],
+    "aws-s3-vectors": [
+      {
+        "a": "aws-s3-storage-lens",
+        "b": "aws-s3-vectors",
+        "similarity": 0.2936
+      },
+      {
+        "a": "aws-s3-vectors",
+        "b": "aws-gateway-cached-volume",
+        "similarity": 0.2668
+      },
+      {
+        "a": "aws-s3-vectors",
+        "b": "azure-mobile-engagement",
+        "similarity": 0.2663
       }
     ],
     "aws-s3-general-access-point": [
@@ -18697,6 +18787,11 @@
     ],
     "aws-s3-express-one-zone": [
       {
+        "a": "aws-s3-select",
+        "b": "aws-s3-express-one-zone",
+        "similarity": 0.2785
+      },
+      {
         "a": "aws-s3-express-one-zone",
         "b": "aws-s3-standard",
         "similarity": 0.2655
@@ -18705,11 +18800,6 @@
         "a": "aws-s3-express-one-zone",
         "b": "aws-s3-glacier-instant-retrieval",
         "similarity": 0.2604
-      },
-      {
-        "a": "aws-s3-express-one-zone",
-        "b": "fabric-board-lightning-sparkle",
-        "similarity": 0.2603
       }
     ],
     "aws-s3-glacier-deep-archive": [
@@ -18782,6 +18872,11 @@
     ],
     "aws-s3-one-zone-ia": [
       {
+        "a": "aws-s3-storage-lens",
+        "b": "aws-s3-one-zone-ia",
+        "similarity": 0.2342
+      },
+      {
         "a": "azure-entra-id-protection",
         "b": "aws-s3-one-zone-ia",
         "similarity": 0.228
@@ -18790,11 +18885,6 @@
         "a": "aws-s3-one-zone-ia",
         "b": "azure-globe-error",
         "similarity": 0.225
-      },
-      {
-        "a": "aws-s3-one-zone-ia",
-        "b": "azure-production-ready-database",
-        "similarity": 0.2142
       }
     ],
     "aws-s3-standard-ia": [
@@ -18804,14 +18894,14 @@
         "similarity": 0.3686
       },
       {
+        "a": "aws-s3-select",
+        "b": "aws-s3-standard-ia",
+        "similarity": 0.3339
+      },
+      {
         "a": "azure-time-series-data-sets",
         "b": "aws-s3-standard-ia",
         "similarity": 0.2771
-      },
-      {
-        "a": "aws-s3-standard-ia",
-        "b": "aws-general-saml-token",
-        "similarity": 0.247
       }
     ],
     "aws-s3-standard": [
@@ -18821,14 +18911,14 @@
         "similarity": 0.3686
       },
       {
+        "a": "aws-s3-select",
+        "b": "aws-s3-standard",
+        "similarity": 0.3102
+      },
+      {
         "a": "azure-time-series-data-sets",
         "b": "aws-s3-standard",
         "similarity": 0.2752
-      },
-      {
-        "a": "aws-s3-standard",
-        "b": "azure-globe-error",
-        "similarity": 0.2701
       }
     ],
     "aws-glacier-archive": [
@@ -18935,6 +19025,11 @@
     ],
     "aws-s3-batch-operations": [
       {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "aws-s3-batch-operations",
+        "similarity": 0.3429
+      },
+      {
         "a": "aws-iot-policy",
         "b": "aws-s3-batch-operations",
         "similarity": 0.3075
@@ -18943,11 +19038,6 @@
         "a": "aws-s3-batch-operations",
         "b": "azure-table",
         "similarity": 0.2981
-      },
-      {
-        "a": "azure-integration-accounts",
-        "b": "aws-s3-batch-operations",
-        "similarity": 0.2888
       }
     ],
     "aws-s3-files": [
@@ -19241,6 +19331,11 @@
     ],
     "aws-gateway-fsx-file": [
       {
+        "a": "aws-s3-tables",
+        "b": "aws-gateway-fsx-file",
+        "similarity": 0.3227
+      },
+      {
         "a": "aws-file-cache-s3",
         "b": "aws-gateway-fsx-file",
         "similarity": 0.3097
@@ -19249,11 +19344,6 @@
         "a": "aws-iot-thing-industrial-pc",
         "b": "aws-gateway-fsx-file",
         "similarity": 0.2871
-      },
-      {
-        "a": "azure-customer-lockbox",
-        "b": "aws-gateway-fsx-file",
-        "similarity": 0.2608
       }
     ],
     "aws-gateway-s3-file": [
@@ -19433,14 +19523,14 @@
         "similarity": 0.2965
       },
       {
+        "a": "aws-s3-select",
+        "b": "aws-backup-s3",
+        "similarity": 0.2964
+      },
+      {
         "a": "azure-automation-accounts",
         "b": "aws-backup-s3",
         "similarity": 0.2505
-      },
-      {
-        "a": "aws-s3-glacier-instant-retrieval",
-        "b": "aws-backup-s3",
-        "similarity": 0.2463
       }
     ],
     "aws-backup-compute-resource": [
@@ -19496,6 +19586,11 @@
     ],
     "aws-backup-virtual-machine": [
       {
+        "a": "aws-s3-vectors",
+        "b": "aws-backup-virtual-machine",
+        "similarity": 0.2644
+      },
+      {
         "a": "azure-time-series-data-sets",
         "b": "aws-backup-virtual-machine",
         "similarity": 0.232
@@ -19504,11 +19599,6 @@
         "a": "aws-backup-virtual-machine",
         "b": "azure-process-explorer",
         "similarity": 0.23
-      },
-      {
-        "a": "aws-backup-virtual-machine",
-        "b": "aws-backup-virtual-machine-monitor",
-        "similarity": 0.225
       }
     ],
     "aws-backup-virtual-machine-monitor": [
@@ -21672,6 +21762,11 @@
     ],
     "aws-general-cold-storage": [
       {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "aws-general-cold-storage",
+        "similarity": 0.3524
+      },
+      {
         "a": "azure-partner-registration",
         "b": "aws-general-cold-storage",
         "similarity": 0.3178
@@ -21680,11 +21775,6 @@
         "a": "aws-general-cold-storage",
         "b": "fabric-notebook-export",
         "similarity": 0.3071
-      },
-      {
-        "a": "azure-lighthouse",
-        "b": "aws-general-cold-storage",
-        "similarity": 0.2845
       }
     ],
     "aws-general-data-table": [
@@ -21852,9 +21942,9 @@
         "similarity": 0.2882
       },
       {
-        "a": "aws-glacier-archive",
+        "a": "aws-s3-on-outposts-resource",
         "b": "aws-general-camera",
-        "similarity": 0.2763
+        "similarity": 0.287
       }
     ],
     "aws-general-chat": [
@@ -23667,14 +23757,14 @@
         "similarity": 0.3003
       },
       {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "m365-building-multiple",
+        "similarity": 0.2811
+      },
+      {
         "a": "m365-building-multiple",
         "b": "fabric-notebook-export",
         "similarity": 0.2762
-      },
-      {
-        "a": "azure-storage-accounts-classic",
-        "b": "m365-building-multiple",
-        "similarity": 0.2717
       }
     ],
     "m365-building-people": [
@@ -24297,6 +24387,11 @@
     ],
     "aws-cloudfront-streaming": [
       {
+        "a": "aws-s3-select",
+        "b": "aws-cloudfront-streaming",
+        "similarity": 0.2541
+      },
+      {
         "a": "aws-general-saml-token",
         "b": "aws-cloudfront-streaming",
         "similarity": 0.2465
@@ -24305,11 +24400,6 @@
         "a": "aws-backup-compute-resource",
         "b": "aws-cloudfront-streaming",
         "similarity": 0.2446
-      },
-      {
-        "a": "azure-machines-azure-arc",
-        "b": "aws-cloudfront-streaming",
-        "similarity": 0.2352
       }
     ],
     "aws-vpc-nat-gateway": [
@@ -27261,6 +27351,11 @@
     ],
     "azure-production-ready-database": [
       {
+        "a": "aws-s3-storage-lens",
+        "b": "azure-production-ready-database",
+        "similarity": 0.3339
+      },
+      {
         "a": "aws-opensearch-data-node",
         "b": "azure-production-ready-database",
         "similarity": 0.26
@@ -27269,11 +27364,6 @@
         "a": "aws-s3-object-lock",
         "b": "azure-production-ready-database",
         "similarity": 0.259
-      },
-      {
-        "a": "azure-managed-file-shares",
-        "b": "azure-production-ready-database",
-        "similarity": 0.2548
       }
     ],
     "azure-resource-group-list": [
@@ -27414,6 +27504,11 @@
     ],
     "azure-tfs-vc-repository": [
       {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "azure-tfs-vc-repository",
+        "similarity": 0.3123
+      },
+      {
         "a": "aws-opensearch-data-node",
         "b": "azure-tfs-vc-repository",
         "similarity": 0.2992
@@ -27422,11 +27517,6 @@
         "a": "azure-tfs-vc-repository",
         "b": "azure-mobile-engagement",
         "similarity": 0.2932
-      },
-      {
-        "a": "azure-ai-at-edge",
-        "b": "azure-tfs-vc-repository",
-        "similarity": 0.273
       }
     ],
     "azure-launch-portal": [
@@ -28325,9 +28415,9 @@
         "similarity": 0.25
       },
       {
-        "a": "azure-load-test",
+        "a": "aws-s3-storage-lens",
         "b": "azure-help-support",
-        "similarity": 0.2251
+        "similarity": 0.2297
       }
     ],
     "azure-tag": [
@@ -30831,14 +30921,14 @@
         "similarity": 0.3071
       },
       {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2945
+      },
+      {
         "a": "azure-partner-registration",
         "b": "fabric-notebook-export",
         "similarity": 0.2862
-      },
-      {
-        "a": "aws-ebs-gp3-volume",
-        "b": "fabric-notebook-export",
-        "similarity": 0.2774
       }
     ],
     "fabric-notebook-globe": [

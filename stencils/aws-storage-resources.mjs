@@ -1,6 +1,36 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-s3-on-outposts-resource", "aws", "S3 on Outposts Resource", ["Res_Amazon-Simple-Storage-Service_S3-On-Outposts_48"],
+    "An on-premises rack hosts an object-storage bucket.",
+    [
+      rect(18, 19, 53, 71), line([18, 35], [71, 35]), line([25, 28], [31, 28]), line([38, 28], [62, 28]), line([25, 45], [61, 45]), line([25, 55], [55, 55]),
+      oval(63, 54, 43, 13), line([63, 60], [67, 87], [72, 91], [97, 91], [102, 87], [106, 60]), rect(78, 69, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-select", "aws", "S3 Select", ["Res_Amazon-Simple-Storage-Service_S3-Select_48"],
+    "A filter selects matching records from an object.",
+    [
+      oval(14, 24, 57, 16), line([14, 32], [20, 79], [26, 84], [59, 84], [65, 79], [71, 32]), rect(32, 46, 13, 13), oval(48, 47, 10, 10),
+      line([75, 43], [111, 43], [98, 58], [98, 76], [88, 82], [88, 58], [75, 43]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-storage-lens", "aws", "S3 Storage Lens", ["Res_Amazon-Simple-Storage-Service_S3-Storage-Lens_48"],
+    "A magnifier inspects object-storage usage.",
+    [
+      oval(15, 20, 62, 18), line([15, 29], [21, 78], [27, 84], [65, 84], [71, 78], [77, 29]), rect(31, 45, 14, 14), rect(51, 45, 14, 14),
+      oval(70, 50, 29, 29), line([92, 72], [111, 91]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-tables", "aws", "S3 Tables", ["Res_Amazon-Simple-Storage-Service_S3-Tables_48"],
+    "A table grid represents tabular data stored in a bucket.",
+    [
+      oval(12, 24, 55, 16), line([12, 32], [17, 79], [23, 85], [56, 85], [62, 79], [67, 32]),
+      rect(61, 48, 48, 36), line([61, 60], [109, 60]), line([61, 72], [109, 72]), line([77, 48], [77, 84]), line([93, 48], [93, 84]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-vectors", "aws", "S3 Vectors", ["Res_Amazon-Simple-Storage-Service_S3-Vectors_48"],
+    "Connected points represent vector data stored in a bucket.",
+    [
+      oval(15, 20, 57, 16), line([15, 28], [20, 76], [26, 82], [61, 82], [67, 76], [72, 28]),
+      oval(73, 42, 10, 10, true), oval(102, 34, 10, 10, true), oval(93, 75, 10, 10, true), line([83, 47], [102, 39]), line([78, 52], [93, 75]), line([107, 44], [103, 75]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-s3-general-access-point", "aws", "S3 General Access Point", ["Res_Amazon-Simple-Storage-Service_General-Access-Points_48"],
     "An access point provides a route into object storage.",
     [
