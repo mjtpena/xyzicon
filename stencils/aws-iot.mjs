@@ -1,6 +1,70 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsIotArtwork = [
+  entry("aws-iot-device-advisor", "aws", "IoT Core Device Advisor", ["Res_AWS-IoT-Core_Device-Advisor_48"],
+    "A device is evaluated against an IoT readiness checklist.",
+    [
+      rect(13, 23, 38, 53), line([13, 34], [51, 34]), line([21, 44], [43, 44]), line([21, 54], [38, 54]), line([21, 64], [43, 64]),
+      line([59, 35], [65, 41], [74, 30]), line([78, 35], [109, 35]), line([59, 54], [65, 60], [74, 49]), line([78, 54], [109, 54]), line([59, 73], [65, 79], [74, 68]), line([78, 73], [109, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-device-location", "aws", "IoT Core Device Location", ["Res_AWS-IoT-Core_Device-Location_48"],
+    "A connected device reports its map location.",
+    [
+      rect(14, 24, 35, 57), line([21, 31], [42, 31]), line([23, 73], [40, 73]), oval(27, 44, 9, 9, true),
+      line([49, 52], [68, 52]), line([62, 46], [68, 52], [62, 58]),
+      line([80, 57], [74, 49], [74, 40], [78, 33], [86, 30], [94, 33], [98, 40], [98, 49], [86, 67], [80, 57]), oval(82, 39, 8, 8),
+      line([75, 77], [86, 73], [98, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-device-jobs", "aws", "IoT Device Defender Device Jobs", ["Res_AWS-IoT-Device-Defender_IoT-Device-Jobs_48"],
+    "A protected device receives a scheduled job.",
+    [
+      rect(11, 24, 39, 57), line([11, 36], [50, 36]), line([20, 45], [42, 45]), line([20, 55], [37, 55]), line([20, 65], [42, 65]),
+      line([60, 19], [96, 19], [108, 31], [108, 86], [60, 86], [60, 19]), line([96, 19], [96, 31], [108, 31]), line([69, 41], [98, 41]), line([69, 51], [95, 51]), line([69, 69], [75, 75], [88, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-fleet-hub", "aws", "IoT Device Management Fleet Hub", ["Res_AWS-IoT-Device-Management_Fleet-Hub_48"],
+    "A fleet dashboard summarizes connected devices.",
+    [
+      rect(13, 19, 97, 69), line([13, 32], [110, 32]), line([21, 26], [26, 26]),
+      rect(23, 43, 18, 15), rect(52, 43, 18, 15), rect(81, 43, 18, 15), line([32, 58], [32, 70], [90, 70]), line([61, 58], [61, 70]), line([90, 58], [90, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-device-tester", "aws", "IoT Device Tester", ["Res_AWS-IoT-Device-Tester_48"],
+    "A device is tested with a diagnostic tool.",
+    [
+      rect(13, 18, 49, 72), line([21, 26], [54, 26]), line([25, 82], [50, 82]), line([23, 41], [52, 41]), line([23, 51], [47, 51]),
+      line([84, 24], [77, 29], [75, 36], [78, 43], [83, 46], [83, 72], [87, 77], [93, 77], [97, 72], [97, 46], [102, 43], [105, 36], [103, 29], [96, 24], [96, 35], [90, 39], [84, 35], [84, 24]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-sitewise-asset", "aws", "IoT SiteWise Asset", ["Res_AWS-IoT-SiteWise_Asset_48"],
+    "An industrial asset produces operational data.",
+    [
+      line([20, 84], [20, 51], [33, 43], [33, 51], [46, 43], [46, 51], [59, 43], [59, 84], [20, 84]), line([25, 39], [25, 20], [34, 20], [34, 43]),
+      line([27, 67], [32, 67]), line([39, 67], [44, 67]), line([51, 67], [56, 67]),
+      oval(80, 31, 24, 24), line([92, 55], [92, 72]), line([81, 72], [103, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-sitewise-asset-hierarchy", "aws", "IoT SiteWise Asset Hierarchy", ["Res_AWS-IoT-SiteWise_Asset-Hierarchy_48"],
+    "Industrial assets are organized in a hierarchy.",
+    [
+      rect(48, 14, 26, 20), line([61, 34], [61, 49], [27, 49], [27, 61]), line([61, 49], [96, 49], [96, 61]),
+      rect(13, 61, 28, 22), rect(82, 61, 28, 22), line([20, 69], [34, 69]), line([89, 69], [103, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-sitewise-asset-model", "aws", "IoT SiteWise Asset Model", ["Res_AWS-IoT-SiteWise_Asset-Model_48"],
+    "An asset model defines properties and relationships.",
+    [
+      line([31, 34], [61, 17], [92, 34], [92, 69], [61, 86], [31, 69], [31, 34]), line([31, 34], [61, 51], [92, 34]), line([61, 51], [61, 86]),
+      oval(17, 26, 10, 10), oval(97, 26, 10, 10), oval(56, 93, 10, 10), line([27, 31], [31, 34]), line([92, 34], [97, 31]), line([61, 86], [61, 93]), line([14, 112], [110, 112]),
+    ]),
+  entry("aws-sitewise-asset-properties", "aws", "IoT SiteWise Asset Properties", ["Res_AWS-IoT-SiteWise_Asset-Properties_48"],
+    "An asset's properties are configured with controls.",
+    [
+      rect(14, 18, 95, 71), line([14, 30], [109, 30]), line([22, 24], [27, 24]),
+      line([24, 44], [65, 44]), line([24, 60], [65, 60]), line([24, 76], [65, 76]),
+      line([74, 44], [100, 44]), oval(79, 40, 8, 8), line([74, 60], [100, 60]), oval(89, 56, 8, 8), line([74, 76], [100, 76]), oval(81, 72, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-sitewise-data-streams", "aws", "IoT SiteWise Data Streams", ["Res_AWS-IoT-SiteWise_Data-Streams_48"],
+    "Multiple sensor streams converge on an industrial data store.",
+    [
+      oval(11, 22, 14, 14), oval(11, 46, 14, 14), oval(11, 70, 14, 14), line([25, 29], [46, 29], [59, 51]), line([25, 53], [59, 53]), line([25, 77], [46, 77], [59, 55]),
+      oval(67, 25, 39, 13), line([67, 31], [67, 75], [72, 79], [81, 81], [92, 81], [101, 79], [106, 75], [106, 31]), line([67, 47], [72, 51], [81, 53], [92, 53], [101, 51], [106, 47]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-greengrass-artifact", "aws", "IoT Greengrass Artifact", ["Res_AWS-IoT-Greengrass_Artifact_48"],
     "An edge software artifact is packaged for deployment.",
     [
