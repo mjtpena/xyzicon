@@ -1,6 +1,48 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-virtual-machines-classic", "azure", "Virtual Machines Classic", ["10028-icon-service-Virtual-Machines-(Classic)"],
+    "A classic virtual machine is a cube on a workstation with a clock.",
+    [
+      rect(14, 17, 83, 61), line([52, 78], [52, 93]), line([35, 93], [71, 93]),
+      line([37, 38], [52, 30], [67, 38], [67, 54], [52, 62], [37, 54], [37, 38]), line([37, 38], [52, 46], [67, 38]), line([52, 46], [52, 62]),
+      oval(78, 70, 27, 27), line([91, 75], [91, 83], [97, 87]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-images-classic", "azure", "Classic VM and OS Images", ["10027-icon-service-OS-Images-(Classic)", "10040-icon-service-VM-Images-(Classic)"],
+    "A framed virtual machine is captured as a classic system image.",
+    [
+      rect(16, 16, 92, 68), line([53, 84], [53, 96]), line([72, 84], [72, 96]), line([38, 96], [88, 96]),
+      line([25, 34], [25, 25], [35, 25]), line([89, 25], [99, 25], [99, 34]), line([25, 66], [25, 75], [35, 75]), line([89, 75], [99, 75], [99, 66]),
+      line([48, 41], [62, 34], [76, 41], [76, 57], [62, 64], [48, 57], [48, 41]), line([48, 41], [62, 48], [76, 41]), line([62, 48], [62, 64]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-images", "azure", "Images", ["10033-icon-service-Images"],
+    "A machine image is stored as a captured template.",
+    [
+      line([22, 17], [86, 17], [98, 29], [98, 93], [22, 93], [22, 17]), line([86, 17], [86, 29], [98, 29]),
+      line([31, 40], [31, 31], [40, 31]), line([80, 31], [89, 31], [89, 40]), line([31, 70], [31, 79], [40, 79]), line([80, 79], [89, 79], [89, 70]),
+      line([46, 48], [60, 41], [74, 48], [74, 63], [60, 70], [46, 63], [46, 48]), line([46, 48], [60, 55], [74, 48]), line([60, 55], [60, 70]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-image-definitions", "azure", "Image Definitions", ["10037-icon-service-Image-Definitions"],
+    "A machine image definition records its configuration.",
+    [
+      line([17, 17], [74, 17], [85, 28], [85, 96], [17, 96], [17, 17]), line([74, 17], [74, 28], [85, 28]),
+      line([28, 38], [40, 32], [52, 38], [52, 51], [40, 57], [28, 51], [28, 38]), line([28, 38], [40, 44], [52, 38]), line([40, 44], [40, 57]),
+      line([28, 68], [72, 68]), line([28, 77], [63, 77]), line([85, 76], [106, 76]), line([99, 69], [106, 76], [99, 83]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-image-versions", "azure", "Image Versions", ["10038-icon-service-Image-Versions"],
+    "A stack records multiple versions of an image.",
+    [
+      line([28, 27], [28, 17], [85, 17], [85, 27]), line([20, 37], [20, 27], [77, 27], [77, 37]), rect(12, 37, 57, 57),
+      line([25, 55], [40, 48], [55, 55], [55, 72], [40, 79], [25, 72], [25, 55]), line([25, 55], [40, 62], [55, 55]), line([40, 62], [40, 79]),
+      line([70, 77], [101, 77]), line([94, 70], [101, 77], [94, 84]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-image-gallery", "azure", "Shared Image Galleries", ["10039-icon-service-Shared-Image-Galleries"],
+    "A gallery stores a stack of reusable machine images.",
+    [
+      line([39, 28], [39, 16], [94, 16], [94, 72]), line([29, 38], [29, 26], [84, 26], [84, 75]), rect(19, 37, 55, 46),
+      line([32, 52], [46, 45], [60, 52], [60, 67], [46, 74], [32, 67], [32, 52]), line([32, 52], [46, 59], [60, 52]), line([46, 59], [46, 74]),
+      line([11, 83], [102, 83], [102, 98], [11, 98], [11, 83]), line([46, 91], [67, 91]), line([14, 112], [110, 112]),
+    ]),
   entry("azure-workspaces-grid", "azure", "Workspaces", ["00330-icon-service-Workspaces"],
     "A workspace contains a group of four tiles.",
     [
@@ -331,7 +373,7 @@ export const azureComputeArtwork = [
       line([60, 53], [75, 53], [75, 76]), line([68, 69], [75, 76], [82, 69]),
       rect(66, 77, 47, 30), line([66, 87], [113, 87]), line([73, 97], [105, 97]),
     ]),
-  entry("azure-disks", "azure", "Disks", ["10032-icon-service-Disks"],
+  entry("azure-disks", "azure", "Disks", ["10032-icon-service-Disks", "10041-icon-service-Disks-(Classic)"],
     "A pair of physical disk platters shows separate storage media.",
     [
       oval(18, 18, 92, 35), oval(52, 28, 24, 13),
