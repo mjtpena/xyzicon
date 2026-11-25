@@ -3,6 +3,25 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-managed-blockchain", "aws", "Amazon Managed Blockchain", sizes("Amazon-Managed-Blockchain"),
+    "Multiple participants maintain a linked, shared ledger.",
+    [
+      rect(43, 42, 42, 44), line([43, 53], [85, 53]), line([49, 62], [79, 62]), line([49, 71], [79, 71]),
+      oval(12, 14, 17, 17), oval(99, 14, 17, 17), oval(55, 98, 17, 17),
+      line([20, 31], [20, 53], [43, 53]), line([107, 31], [107, 53], [85, 53]),
+      line([64, 86], [64, 98]),
+      line([18, 22], [23, 22]), line([105, 22], [110, 22]), line([61, 106], [66, 106]),
+    ]),
+  entry("aws-location-service", "aws", "Amazon Location Service", sizes("Amazon-Location-Service"),
+    "A route crosses a folded map to a marked location.",
+    [
+      line([12, 29], [40, 19], [68, 30], [96, 19], [116, 27], [116, 100], [96, 92], [68, 103], [40, 92], [12, 102], [12, 29]),
+      line([40, 19], [40, 92]), line([68, 30], [68, 103]), line([96, 62], [96, 92]),
+      line([20, 78], [31, 70], [46, 74], [57, 64], [70, 67], [79, 57]),
+      oval(19, 76, 5, 5, true),
+      line([89, 11], [97, 8], [105, 11], [110, 18], [110, 26], [97, 46], [84, 26], [84, 18], [89, 11]),
+      oval(93, 17, 8, 8),
+    ]),
   entry("aws-workmail", "aws", "Amazon WorkMail", sizes("Amazon-WorkMail"),
     "A letter arrives in a freestanding mailbox.",
     [

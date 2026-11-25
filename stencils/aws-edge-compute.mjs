@@ -3,6 +3,26 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-open-3d-engine", "aws", "Open 3D Engine", sizes("Open-3D-Engine"),
+    "A wireframe scene is manipulated with game controls.",
+    [
+      line([33, 14], [59, 27], [59, 54], [33, 68], [7, 54], [7, 27], [33, 14]),
+      line([7, 27], [33, 41], [59, 27]), line([33, 41], [33, 68]),
+      line([31, 80], [38, 73], [49, 70], [78, 70], [90, 73], [98, 82], [104, 101], [100, 109], [94, 109], [81, 97], [47, 97], [34, 109], [27, 109], [23, 101], [31, 80]),
+      line([39, 82], [53, 82]), line([46, 75], [46, 89]), oval(75, 78, 6, 6), oval(85, 84, 6, 6),
+      line([72, 30], [99, 30]), line([93, 24], [99, 30], [93, 36]),
+    ]),
+  entry("aws-ground-station", "aws", "AWS Ground Station", sizes("AWS-Ground-Station"),
+    "A ground dish exchanges signals with an orbiting satellite.",
+    [
+      line([22, 61], [29, 75], [41, 83], [56, 83], [69, 75], [76, 61], [22, 61]),
+      line([49, 83], [49, 103]), line([33, 103], [65, 103]), line([49, 70], [62, 52]),
+      oval(61, 48, 7, 7, true),
+      line([68, 43], [75, 37], [84, 35]), line([71, 49], [80, 43], [89, 42]),
+      rect(84, 17, 17, 15), line([88, 17], [82, 10], [72, 17], [79, 24], [84, 21]),
+      line([97, 32], [103, 39], [113, 32], [106, 25], [101, 28]),
+      line([12, 112], [78, 112]),
+    ]),
   entry("aws-local-zones", "aws", "AWS Local Zones", sizes("AWS-Local-Zones"),
     "A nearby compute zone places a small rack beside city buildings.",
     [
