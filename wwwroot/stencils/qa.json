@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 863,
-  "aliases": 3480,
+  "count": 867,
+  "aliases": 3496,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-analytics",
+    "aws-category-containers",
+    "aws-category-compute",
+    "aws-category-databases",
     "aws-category-blockchain",
     "aws-category-quantum",
     "aws-category-satellite",
@@ -967,8 +971,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1172,
-      "concepts": 290
+      "covered": 1188,
+      "concepts": 294
     },
     "gcp": {
       "sources": 261,
@@ -1172,13 +1176,13 @@
       },
       {
         "a": "entra-verified-id",
-        "b": "aws-iot-events",
-        "similarity": 0.2355
+        "b": "aws-category-containers",
+        "similarity": 0.2364
       },
       {
         "a": "entra-verified-id",
-        "b": "azure-storage-queue",
-        "similarity": 0.2192
+        "b": "aws-iot-events",
+        "similarity": 0.2355
       }
     ],
     "power-automate": [
@@ -2158,13 +2162,13 @@
       },
       {
         "a": "aws-sqs",
-        "b": "aws-snowball",
-        "similarity": 0.2159
+        "b": "aws-category-compute",
+        "similarity": 0.227
       },
       {
         "a": "aws-sqs",
-        "b": "fabric-arrow-right-double",
-        "similarity": 0.2131
+        "b": "aws-snowball",
+        "similarity": 0.2159
       }
     ],
     "aws-sns": [
@@ -3994,13 +3998,13 @@
       },
       {
         "a": "m365-bot",
-        "b": "fabric-data-warehouse-product",
-        "similarity": 0.2009
+        "b": "aws-category-compute",
+        "similarity": 0.2196
       },
       {
         "a": "m365-bot",
-        "b": "gcp-category-mixed-reality",
-        "similarity": 0.19
+        "b": "fabric-data-warehouse-product",
+        "similarity": 0.2009
       }
     ],
     "m365-retail-building": [
@@ -5416,6 +5420,11 @@
     ],
     "fabric-data-agent": [
       {
+        "a": "fabric-data-agent",
+        "b": "aws-category-compute",
+        "similarity": 0.2752
+      },
+      {
         "a": "gcp-cloud-sql",
         "b": "fabric-data-agent",
         "similarity": 0.2663
@@ -5424,11 +5433,6 @@
         "a": "fabric-data-agent",
         "b": "azure-storage-queue",
         "similarity": 0.253
-      },
-      {
-        "a": "fabric-data-agent",
-        "b": "aws-freertos",
-        "similarity": 0.2379
       }
     ],
     "fabric-data-factory": [
@@ -5796,13 +5800,13 @@
       },
       {
         "a": "fabric-semantic-model",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.1784
+        "b": "aws-category-containers",
+        "similarity": 0.1855
       },
       {
         "a": "fabric-semantic-model",
-        "b": "m365-slide-layout",
-        "similarity": 0.1781
+        "b": "aws-eks-anywhere",
+        "similarity": 0.1784
       }
     ],
     "fabric-sql-database": [
@@ -6617,8 +6621,8 @@
       },
       {
         "a": "aws-outposts-servers",
-        "b": "fabric-folder",
-        "similarity": 0.2088
+        "b": "aws-category-compute",
+        "similarity": 0.2106
       }
     ],
     "aws-ec2-autoscaling": [
@@ -7041,9 +7045,9 @@
         "similarity": 0.2031
       },
       {
-        "a": "azure-virtual-network-gateway",
-        "b": "fabric-user-data-function",
-        "similarity": 0.1932
+        "a": "fabric-user-data-function",
+        "b": "aws-category-analytics",
+        "similarity": 0.2008
       }
     ],
     "m365-building": [
@@ -8838,14 +8842,14 @@
         "similarity": 0.2147
       },
       {
+        "a": "fabric-databases",
+        "b": "aws-category-containers",
+        "similarity": 0.2009
+      },
+      {
         "a": "gcp-datastream",
         "b": "fabric-databases",
         "similarity": 0.2003
-      },
-      {
-        "a": "azure-sql-stretch",
-        "b": "fabric-databases",
-        "similarity": 0.1961
       }
     ],
     "fabric-platform": [
@@ -9235,8 +9239,8 @@
       },
       {
         "a": "aws-xray",
-        "b": "aws-elemental-inference",
-        "similarity": 0.2396
+        "b": "aws-category-compute",
+        "similarity": 0.2421
       }
     ],
     "aws-codecatalyst": [
@@ -9285,9 +9289,9 @@
         "similarity": 0.2231
       },
       {
-        "a": "aws-opentelemetry",
-        "b": "aws-marketplace",
-        "similarity": 0.2116
+        "a": "aws-marketplace",
+        "b": "aws-category-compute",
+        "similarity": 0.2163
       }
     ],
     "aws-partner-central": [
@@ -13279,6 +13283,74 @@
         "a": "aws-trusted-advisor",
         "b": "aws-fargate",
         "similarity": 0.1678
+      }
+    ],
+    "aws-category-analytics": [
+      {
+        "a": "aws-category-analytics",
+        "b": "azure-app-service-environments",
+        "similarity": 0.2059
+      },
+      {
+        "a": "fabric-user-data-function",
+        "b": "aws-category-analytics",
+        "similarity": 0.2008
+      },
+      {
+        "a": "aws-elemental-live",
+        "b": "aws-category-analytics",
+        "similarity": 0.186
+      }
+    ],
+    "aws-category-containers": [
+      {
+        "a": "azure-machine-learning",
+        "b": "aws-category-containers",
+        "similarity": 0.266
+      },
+      {
+        "a": "aws-codeartifact",
+        "b": "aws-category-containers",
+        "similarity": 0.2633
+      },
+      {
+        "a": "aws-category-containers",
+        "b": "azure-linux",
+        "similarity": 0.2528
+      }
+    ],
+    "aws-category-compute": [
+      {
+        "a": "fabric-data-agent",
+        "b": "aws-category-compute",
+        "similarity": 0.2752
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "aws-category-compute",
+        "similarity": 0.2468
+      },
+      {
+        "a": "aws-xray",
+        "b": "aws-category-compute",
+        "similarity": 0.2421
+      }
+    ],
+    "aws-category-databases": [
+      {
+        "a": "azure-immersive-reader",
+        "b": "aws-category-databases",
+        "similarity": 0.223
+      },
+      {
+        "a": "aws-deadline-cloud",
+        "b": "aws-category-databases",
+        "similarity": 0.2013
+      },
+      {
+        "a": "aws-cloud9",
+        "b": "aws-category-databases",
+        "similarity": 0.201
       }
     ],
     "aws-category-blockchain": [
