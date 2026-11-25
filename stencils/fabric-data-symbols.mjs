@@ -28,7 +28,7 @@ export const fabricDataSymbolArtwork = [
       line([16, 110], [112, 110]),
     ]),
   entry("fabric-datatype-any", "fabric", "Any data type",
-    variants("datatype_any", [20]),
+    [...variants("datatype_any", [20]), ...variants("text_any", [20])],
     "The label ANY denotes an unconstrained data type.",
     [
       line([8, 96], [20, 30], [32, 96]), line([13, 71], [27, 71]),
@@ -36,7 +36,7 @@ export const fabricDataSymbolArtwork = [
       line([76, 30], [90, 60], [104, 30]), line([90, 60], [90, 96]),
     ]),
   entry("fabric-datatype-byte", "fabric", "Byte data type",
-    variants("datatype_byte", [20]),
+    [...variants("datatype_byte", [20]), ...variants("text_byte", [20])],
     "The label BYTE denotes byte values.",
     [
       line([9, 33], [9, 94], [19, 94], [25, 88], [25, 75], [19, 65], [9, 65]),
@@ -907,7 +907,7 @@ export const fabricDataSymbolArtwork = [
       line([86, 56], [86, 88], [101, 88]), line([23, 100], [101, 100]),
     ]),
   entry("fabric-datatype-binary", "fabric", "Binary data type",
-    variants("datatype_binary", [16, 20]),
+    [...variants("datatype_binary", [16, 20]), ...variants("text_number_01", [20])],
     "Binary values are represented by zero and one.",
     [
       oval(24, 24, 36, 76), line([79, 39], [93, 24], [93, 100]), line([78, 100], [106, 100]),
@@ -920,7 +920,7 @@ export const fabricDataSymbolArtwork = [
       line([85, 46], [99, 34], [99, 94]), line([84, 94], [112, 94]),
     ]),
   entry("fabric-datatype-string", "fabric", "String data type",
-    variants("datatype_string", [16, 20]),
+    [...variants("datatype_string", [16, 20]), ...variants("text_abc", [20])],
     "The letters ABC identify textual data.",
     [
       line([9, 97], [24, 30], [39, 97]), line([15, 73], [33, 73]),
@@ -929,7 +929,7 @@ export const fabricDataSymbolArtwork = [
       line([113, 41], [105, 31], [93, 30], [85, 40], [82, 62], [85, 85], [93, 97], [105, 96], [113, 86]),
     ]),
   entry("fabric-datatype-long", "fabric", "Long integer data type",
-    variants("datatype_long", [16, 20]),
+    [...variants("datatype_long", [16, 20]), ...variants("text_number_12l", [20])],
     "The suffix L distinguishes a long integer value.",
     [
       line([11, 45], [23, 31], [23, 97]), line([12, 97], [34, 97]),
@@ -937,7 +937,7 @@ export const fabricDataSymbolArtwork = [
       line([88, 30], [88, 97], [114, 97]),
     ]),
   entry("fabric-datatype-short", "fabric", "Short integer data type",
-    variants("datatype_short", [16, 20]),
+    [...variants("datatype_short", [16, 20]), ...variants("text_number_12s", [20])],
     "The suffix S distinguishes a short integer value.",
     [
       line([11, 45], [23, 31], [23, 97]), line([12, 97], [34, 97]),
@@ -996,7 +996,7 @@ export const fabricDataSymbolArtwork = [
       line([81, 91], [81, 33], [110, 33]), line([81, 61], [104, 61]),
     ]),
   entry("fabric-datatype-integer", "fabric", "Integer data type",
-    variants("datatype_integer", [16, 20]),
+    [...variants("datatype_integer", [16, 20]), ...variants("text_number_123", [20])],
     "A sequence of whole numbers identifies an integer value.",
     [
       line([9, 42], [19, 30], [19, 97]), line([9, 97], [29, 97]),
