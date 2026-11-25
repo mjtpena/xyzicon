@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 663,
+  "approved": 686,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,30 +774,7 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-kms-external-key-store",
-    "aws-network-firewall-endpoint",
-    "aws-security-hub-finding",
-    "aws-shield-advanced",
-    "aws-waf-bot",
-    "aws-waf-bad-bot",
-    "aws-waf-bot-control",
-    "aws-waf-filtering-rule",
-    "aws-waf-labels",
-    "aws-waf-rule",
-    "aws-waf-managed-rule",
-    "aws-iam-sts",
-    "aws-iam-addon",
-    "aws-iam-access-analyzer",
-    "aws-iam-roles-anywhere",
-    "aws-iam-long-term-credential",
-    "aws-iam-temporary-credential",
     "aws-iam-role",
-    "aws-certificate-authority",
-    "aws-directory-ad-connector",
-    "aws-directory-managed-ad",
-    "aws-directory-simple-ad",
-    "aws-iam-encryption-key",
-    "aws-iam-encrypted-data",
     "aws-iam-mfa-token",
     "aws-iam-permissions",
     "aws-security-agent",
@@ -2671,8 +2648,8 @@
       },
       {
         "a": "aws-dynamodb",
-        "b": "aws-proton",
-        "similarity": 0.1962
+        "b": "aws-waf-bot",
+        "similarity": 0.1992
       }
     ],
     "gcp-bigquery": [
@@ -4366,13 +4343,13 @@
       },
       {
         "a": "aws-eventbridge-custom-bus",
-        "b": "aws-waf-rule",
-        "similarity": 0.2992
+        "b": "azure-machine-learning",
+        "similarity": 0.2893
       },
       {
         "a": "aws-eventbridge-custom-bus",
-        "b": "azure-machine-learning",
-        "similarity": 0.2893
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.283
       }
     ],
     "aws-eventbridge-schema": [
@@ -5964,13 +5941,13 @@
       },
       {
         "a": "aws-mq",
-        "b": "aws-waf-managed-rule",
-        "similarity": 0.2265
+        "b": "azure-defender-plc",
+        "similarity": 0.2188
       },
       {
         "a": "aws-mq",
-        "b": "azure-defender-plc",
-        "similarity": 0.2188
+        "b": "aws-general-chat",
+        "similarity": 0.2098
       }
     ],
     "aws-batch": [
@@ -6202,13 +6179,13 @@
       },
       {
         "a": "m365-bot",
-        "b": "aws-waf-bot",
-        "similarity": 0.255
+        "b": "aws-elasticache-node",
+        "similarity": 0.2525
       },
       {
         "a": "m365-bot",
-        "b": "aws-elasticache-node",
-        "similarity": 0.2525
+        "b": "aws-app-studio",
+        "similarity": 0.234
       }
     ],
     "m365-retail-building": [
@@ -6236,13 +6213,13 @@
       },
       {
         "a": "m365-cart",
-        "b": "aws-waf-bot",
-        "similarity": 0.2266
+        "b": "m365-payment",
+        "similarity": 0.2243
       },
       {
         "a": "m365-cart",
-        "b": "m365-payment",
-        "similarity": 0.2243
+        "b": "fabric-arrow-right-double-wrap",
+        "similarity": 0.2172
       }
     ],
     "m365-chat": [
@@ -11960,8 +11937,8 @@
       },
       {
         "a": "aws-dynamodb-attribute",
-        "b": "azure-cognitive-search",
-        "similarity": 0.2723
+        "b": "aws-iam-encrypted-data",
+        "similarity": 0.2746
       }
     ],
     "aws-dynamodb-attributes": [
@@ -13428,11 +13405,6 @@
     ],
     "m365-building": [
       {
-        "a": "m365-building",
-        "b": "aws-waf-rule",
-        "similarity": 0.3089
-      },
-      {
         "a": "azure-netapp-files",
         "b": "m365-building",
         "similarity": 0.2618
@@ -13441,6 +13413,11 @@
         "a": "m365-building",
         "b": "azure-stack-hci-premium",
         "similarity": 0.2559
+      },
+      {
+        "a": "m365-building",
+        "b": "aws-ebs-multiple-volumes",
+        "similarity": 0.2511
       }
     ],
     "m365-clock": [
@@ -15411,8 +15388,8 @@
       },
       {
         "a": "azure-entra-private-access",
-        "b": "aws-cloud-map-service",
-        "similarity": 0.25
+        "b": "aws-waf-bot",
+        "similarity": 0.3058
       }
     ],
     "azure-entra-internet-access": [
@@ -16523,11 +16500,6 @@
     "azure-defender-meter": [
       {
         "a": "azure-defender-meter",
-        "b": "aws-waf-rule",
-        "similarity": 0.452
-      },
-      {
-        "a": "azure-defender-meter",
         "b": "azure-operation-log-classic",
         "similarity": 0.3352
       },
@@ -16535,6 +16507,11 @@
         "a": "azure-defender-meter",
         "b": "aws-general-authenticated-user",
         "similarity": 0.3212
+      },
+      {
+        "a": "azure-defender-meter",
+        "b": "aws-iot-thing-medical-emergency",
+        "similarity": 0.3133
       }
     ],
     "azure-defender-plc": [
@@ -19809,13 +19786,13 @@
       },
       {
         "a": "aws-iot-simulator",
-        "b": "aws-waf-managed-rule",
-        "similarity": 0.2514
+        "b": "azure-blob-block",
+        "similarity": 0.2481
       },
       {
         "a": "aws-iot-simulator",
-        "b": "azure-blob-block",
-        "similarity": 0.2481
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.247
       }
     ],
     "aws-iot-over-air-update": [
@@ -20131,14 +20108,14 @@
         "similarity": 0.3683
       },
       {
+        "a": "aws-greengrass-interprocess",
+        "b": "aws-waf-bot",
+        "similarity": 0.3492
+      },
+      {
         "a": "azure-entra-internet-access",
         "b": "aws-greengrass-interprocess",
         "similarity": 0.3338
-      },
-      {
-        "a": "azure-external-identities",
-        "b": "aws-greengrass-interprocess",
-        "similarity": 0.3279
       }
     ],
     "aws-greengrass-recipe": [
@@ -20340,9 +20317,9 @@
         "similarity": 0.271
       },
       {
-        "a": "aws-iot-sensor",
-        "b": "aws-shield-advanced",
-        "similarity": 0.2689
+        "a": "azure-lighthouse",
+        "b": "aws-iot-sensor",
+        "similarity": 0.2355
       }
     ],
     "aws-iot-thing-humidity-sensor": [
@@ -20926,11 +20903,6 @@
     "aws-s3-glacier-deep-archive": [
       {
         "a": "aws-s3-glacier-deep-archive",
-        "b": "aws-waf-managed-rule",
-        "similarity": 0.3441
-      },
-      {
-        "a": "aws-s3-glacier-deep-archive",
         "b": "azure-ssd",
         "similarity": 0.3438
       },
@@ -20938,6 +20910,11 @@
         "a": "aws-s3-glacier-deep-archive",
         "b": "aws-general-email",
         "similarity": 0.3185
+      },
+      {
+        "a": "azure-time-series-environments",
+        "b": "aws-s3-glacier-deep-archive",
+        "similarity": 0.3081
       }
     ],
     "aws-s3-glacier-flexible-retrieval": [
@@ -21547,9 +21524,9 @@
         "similarity": 0.3128
       },
       {
-        "a": "azure-network-connections",
-        "b": "aws-gateway-tape",
-        "similarity": 0.303
+        "a": "aws-gateway-tape",
+        "b": "aws-waf-rule",
+        "similarity": 0.3096
       }
     ],
     "aws-gateway-virtual-tape-library": [
@@ -22444,13 +22421,13 @@
       },
       {
         "a": "aws-cdk",
-        "b": "aws-iam-encrypted-data",
-        "similarity": 0.2706
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.2628
       },
       {
         "a": "aws-cdk",
-        "b": "aws-systems-change-calendar",
-        "similarity": 0.2628
+        "b": "aws-general-user",
+        "similarity": 0.2546
       }
     ],
     "aws-cloud9": [
@@ -23136,6 +23113,11 @@
     "aws-pinpoint": [
       {
         "a": "aws-pinpoint",
+        "b": "aws-waf-rule",
+        "similarity": 0.2346
+      },
+      {
+        "a": "aws-pinpoint",
         "b": "aws-fsx",
         "similarity": 0.2235
       },
@@ -23143,11 +23125,6 @@
         "a": "aws-pinpoint",
         "b": "aws-application-auto-scaling",
         "similarity": 0.2036
-      },
-      {
-        "a": "aws-pinpoint",
-        "b": "aws-billing-conductor",
-        "similarity": 0.1778
       }
     ],
     "aws-pinpoint-apis": [
@@ -24110,13 +24087,13 @@
       },
       {
         "a": "aws-cloudwatch-logs",
-        "b": "aws-waf-rule",
-        "similarity": 0.2796
-      },
-      {
-        "a": "aws-cloudwatch-logs",
         "b": "azure-images",
         "similarity": 0.2769
+      },
+      {
+        "a": "aws-iot-thing-utility",
+        "b": "aws-cloudwatch-logs",
+        "similarity": 0.2662
       }
     ],
     "aws-cloudwatch-metrics-insights": [
@@ -24398,14 +24375,14 @@
         "similarity": 0.4541
       },
       {
-        "a": "aws-systems-compliance",
-        "b": "aws-shield-advanced",
-        "similarity": 0.4055
-      },
-      {
         "a": "aws-s3-object",
         "b": "aws-systems-compliance",
         "similarity": 0.2744
+      },
+      {
+        "a": "aws-s3-vpc-access",
+        "b": "aws-systems-compliance",
+        "similarity": 0.2624
       }
     ],
     "aws-systems-distributor": [
@@ -25032,9 +25009,9 @@
         "similarity": 0.3212
       },
       {
-        "a": "aws-general-authenticated-user",
-        "b": "aws-waf-rule",
-        "similarity": 0.3082
+        "a": "aws-mainframe-runtime",
+        "b": "aws-general-authenticated-user",
+        "similarity": 0.3057
       }
     ],
     "aws-general-client": [
@@ -25815,8 +25792,8 @@
       },
       {
         "a": "aws-mediaconnect-gateway",
-        "b": "aws-transit-gateway-attachment",
-        "similarity": 0.2668
+        "b": "aws-waf-rule",
+        "similarity": 0.2733
       }
     ],
     "aws-elemental-conductor": [
@@ -26229,36 +26206,36 @@
     ],
     "aws-shield-advanced": [
       {
-        "a": "aws-systems-compliance",
+        "a": "aws-iot-topic",
         "b": "aws-shield-advanced",
-        "similarity": 0.4055
+        "similarity": 0.2402
+      },
+      {
+        "a": "aws-file-cache-s3",
+        "b": "aws-shield-advanced",
+        "similarity": 0.2352
       },
       {
         "a": "aws-shield-advanced",
-        "b": "aws-waf-bot-control",
-        "similarity": 0.3828
-      },
-      {
-        "a": "aws-iot-sensor",
-        "b": "aws-shield-advanced",
-        "similarity": 0.2689
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.2286
       }
     ],
     "aws-waf-bot": [
       {
         "a": "aws-waf-bot",
-        "b": "aws-elasticache-memcached",
-        "similarity": 0.3019
+        "b": "azure-web-slots",
+        "similarity": 0.3855
       },
       {
-        "a": "aws-waf-bot",
-        "b": "aws-elasticache-node",
-        "similarity": 0.2797
-      },
-      {
-        "a": "azure-test-base",
+        "a": "aws-greengrass-interprocess",
         "b": "aws-waf-bot",
-        "similarity": 0.2775
+        "similarity": 0.3492
+      },
+      {
+        "a": "aws-systems-run-command",
+        "b": "aws-waf-bot",
+        "similarity": 0.3211
       }
     ],
     "aws-waf-bad-bot": [
@@ -26285,14 +26262,14 @@
         "similarity": 0.4541
       },
       {
-        "a": "aws-shield-advanced",
-        "b": "aws-waf-bot-control",
-        "similarity": 0.3828
-      },
-      {
         "a": "aws-systems-parameter-store",
         "b": "aws-waf-bot-control",
         "similarity": 0.3133
+      },
+      {
+        "a": "aws-waf-bot-control",
+        "b": "azure-media-file",
+        "similarity": 0.2982
       }
     ],
     "aws-waf-filtering-rule": [
@@ -26331,36 +26308,36 @@
     ],
     "aws-waf-rule": [
       {
-        "a": "azure-defender-meter",
+        "a": "aws-gateway-tape",
         "b": "aws-waf-rule",
-        "similarity": 0.452
+        "similarity": 0.3096
       },
       {
-        "a": "aws-general-user",
-        "b": "aws-waf-rule",
-        "similarity": 0.3135
+        "a": "aws-waf-rule",
+        "b": "aws-app-mesh-virtual-service",
+        "similarity": 0.2999
       },
       {
-        "a": "aws-gateway-virtual-tape-library",
+        "a": "azure-device-enrollment",
         "b": "aws-waf-rule",
-        "similarity": 0.3121
+        "similarity": 0.2966
       }
     ],
     "aws-waf-managed-rule": [
       {
+        "a": "azure-azurite",
+        "b": "aws-waf-managed-rule",
+        "similarity": 0.2712
+      },
+      {
         "a": "aws-waf-managed-rule",
-        "b": "aws-elasticache-memcached",
-        "similarity": 0.3504
+        "b": "azure-process-explorer",
+        "similarity": 0.2623
       },
       {
-        "a": "aws-s3-glacier-deep-archive",
+        "a": "aws-ebs-snapshot",
         "b": "aws-waf-managed-rule",
-        "similarity": 0.3441
-      },
-      {
-        "a": "azure-confidential-ledgers",
-        "b": "aws-waf-managed-rule",
-        "similarity": 0.2775
+        "similarity": 0.2428
       }
     ],
     "aws-iam-sts": [
@@ -26569,19 +26546,19 @@
     ],
     "aws-iam-encrypted-data": [
       {
-        "a": "aws-backup-plan",
-        "b": "aws-iam-encrypted-data",
-        "similarity": 0.3621
+        "a": "aws-iam-encrypted-data",
+        "b": "azure-versions",
+        "similarity": 0.3143
       },
       {
-        "a": "aws-iot-certificate",
+        "a": "aws-iot-device-location",
         "b": "aws-iam-encrypted-data",
-        "similarity": 0.3339
+        "similarity": 0.308
       },
       {
-        "a": "azure-information-protection",
+        "a": "aws-file-cache-on-premises",
         "b": "aws-iam-encrypted-data",
-        "similarity": 0.3165
+        "similarity": 0.2982
       }
     ],
     "aws-iam-mfa-token": [
@@ -28558,9 +28535,9 @@
         "similarity": 0.3178
       },
       {
-        "a": "azure-ssh-keys",
+        "a": "aws-waf-bot",
         "b": "aws-cloud-wan-transit-attachment",
-        "similarity": 0.2893
+        "similarity": 0.3105
       }
     ],
     "aws-direct-connect-gateway": [
@@ -28684,6 +28661,11 @@
     ],
     "aws-app-mesh-virtual-service": [
       {
+        "a": "aws-waf-rule",
+        "b": "aws-app-mesh-virtual-service",
+        "similarity": 0.2999
+      },
+      {
         "a": "aws-vpc-network-acl",
         "b": "aws-app-mesh-virtual-service",
         "similarity": 0.2673
@@ -28692,11 +28674,6 @@
         "a": "azure-logic-apps-custom-connector",
         "b": "aws-app-mesh-virtual-service",
         "similarity": 0.2615
-      },
-      {
-        "a": "aws-iot-lambda-function",
-        "b": "aws-app-mesh-virtual-service",
-        "similarity": 0.2612
       }
     ],
     "aws-cloud-map-namespace": [
@@ -29313,6 +29290,11 @@
     ],
     "gcp-category-databases": [
       {
+        "a": "aws-waf-bot",
+        "b": "gcp-category-databases",
+        "similarity": 0.2302
+      },
+      {
         "a": "gcp-datashare",
         "b": "gcp-category-databases",
         "similarity": 0.2282
@@ -29321,11 +29303,6 @@
         "a": "azure-metrics-advisor",
         "b": "gcp-category-databases",
         "similarity": 0.2271
-      },
-      {
-        "a": "gcp-category-databases",
-        "b": "azure-vm-scale-sets",
-        "similarity": 0.2267
       }
     ],
     "gcp-category-devtools": [
@@ -29478,7 +29455,7 @@
       {
         "a": "aws-waf-bot",
         "b": "gcp-category-mixed-reality",
-        "similarity": 0.2162
+        "similarity": 0.208
       }
     ],
     "gcp-category-networking": [
@@ -30169,11 +30146,6 @@
     ],
     "aws-elasticache-memcached": [
       {
-        "a": "aws-waf-managed-rule",
-        "b": "aws-elasticache-memcached",
-        "similarity": 0.3504
-      },
-      {
         "a": "aws-iot-simulator",
         "b": "aws-elasticache-memcached",
         "similarity": 0.3209
@@ -30182,6 +30154,11 @@
         "a": "azure-service-catalog-mad",
         "b": "aws-elasticache-memcached",
         "similarity": 0.3148
+      },
+      {
+        "a": "aws-elasticache-memcached",
+        "b": "azure-media-file",
+        "similarity": 0.314
       }
     ],
     "aws-elasticache-redis": [
@@ -32537,14 +32514,14 @@
         "similarity": 0.3277
       },
       {
+        "a": "aws-iam-encrypted-data",
+        "b": "azure-versions",
+        "similarity": 0.3143
+      },
+      {
         "a": "aws-iot-rule",
         "b": "azure-versions",
         "similarity": 0.2879
-      },
-      {
-        "a": "azure-versions",
-        "b": "azure-ftp",
-        "similarity": 0.286
       }
     ],
     "azure-website-staging": [
@@ -32576,9 +32553,9 @@
         "similarity": 0.3958
       },
       {
-        "a": "azure-web-app-database",
+        "a": "aws-waf-bot",
         "b": "azure-web-slots",
-        "similarity": 0.384
+        "similarity": 0.3855
       }
     ],
     "azure-web-test": [
