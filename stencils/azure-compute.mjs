@@ -1,6 +1,47 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-service-groups", "azure", "Service Groups", ["029637767-icon-service-Service-Groups"],
+    "A group encloses three connected services.",
+    [
+      line([27, 16], [14, 23], [14, 87], [27, 94]), line([89, 16], [102, 23], [102, 87], [89, 94]),
+      line([47, 28], [58, 22], [69, 28], [69, 40], [58, 46], [47, 40], [47, 28]), line([47, 28], [58, 34], [69, 28]), line([58, 34], [58, 46]),
+      line([30, 65], [41, 59], [52, 65], [52, 77], [41, 83], [30, 77], [30, 65]), line([30, 65], [41, 71], [52, 65]), line([41, 71], [41, 83]),
+      line([64, 65], [75, 59], [86, 65], [86, 77], [75, 83], [64, 77], [64, 65]), line([64, 65], [75, 71], [86, 65]), line([75, 71], [75, 83]),
+      line([51, 45], [45, 59]), line([65, 45], [71, 59]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-aks-network-policy", "azure", "AKS Network Policy", ["032487601-icon-service-AKS-Network-Policy"],
+    "A shield governs connections between container nodes.",
+    [
+      line([40, 18], [22, 24], [22, 57], [28, 73], [40, 84], [52, 90], [64, 84], [76, 73], [82, 57], [82, 24], [64, 18], [52, 11], [40, 18]),
+      oval(42, 42, 20, 20), oval(90, 26, 10, 10), oval(90, 49, 10, 10), oval(90, 72, 10, 10),
+      line([62, 52], [90, 31]), line([62, 52], [90, 54]), line([62, 52], [90, 77]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-openshift", "azure", "Azure Red Hat OpenShift", ["03331-icon-service-Azure-Red-Hat-OpenShift"],
+    "Container workloads cycle through an application platform.",
+    [
+      line([39, 43], [58, 33], [77, 43], [77, 63], [58, 73], [39, 63], [39, 43]), line([39, 43], [58, 53], [77, 43]), line([58, 53], [58, 73]),
+      line([22, 54], [25, 38], [35, 25], [48, 19], [63, 18], [78, 23], [89, 33]), line([77, 32], [89, 33], [88, 21]),
+      line([95, 54], [91, 70], [82, 83], [68, 89], [53, 90], [38, 85], [27, 75]), line([39, 76], [27, 75], [28, 87]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-kubernetes-hub", "azure", "Kubernetes Hub", ["033545113-icon-service-Kubernetes-Hub"],
+    "A hub collects multiple container clusters.",
+    [
+      rect(12, 14, 100, 84), line([51, 36], [61, 31], [71, 36], [71, 47], [61, 52], [51, 47], [51, 36]), line([51, 36], [61, 41], [71, 36]), line([61, 41], [61, 52]),
+      line([29, 65], [39, 60], [49, 65], [49, 76], [39, 81], [29, 76], [29, 65]), line([29, 65], [39, 70], [49, 65]), line([39, 70], [39, 81]),
+      line([73, 65], [83, 60], [93, 65], [93, 76], [83, 81], [73, 76], [73, 65]), line([73, 65], [83, 70], [93, 65]), line([83, 70], [83, 81]),
+      line([54, 51], [44, 60]), line([68, 51], [78, 60]), line([49, 71], [73, 71]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-container-storage", "azure", "Azure Container Storage", ["03401-icon-service-Azure-Container-Storage"],
+    "A container connects to distributed storage volumes.",
+    [
+      line([43, 45], [59, 37], [75, 45], [75, 62], [59, 70], [43, 62], [43, 45]), line([43, 45], [59, 53], [75, 45]), line([59, 53], [59, 70]),
+      oval(52, 13, 14, 6), line([52, 16], [52, 25], [55, 28], [63, 28], [66, 25], [66, 16]),
+      oval(15, 50, 14, 6), line([15, 53], [15, 62], [18, 65], [26, 65], [29, 62], [29, 53]),
+      oval(89, 50, 14, 6), line([89, 53], [89, 62], [92, 65], [100, 65], [103, 62], [103, 53]),
+      oval(52, 86, 14, 6), line([52, 89], [52, 98], [55, 101], [63, 101], [66, 98], [66, 89]),
+      line([59, 28], [59, 37]), line([29, 57], [43, 57]), line([75, 57], [89, 57]), line([59, 70], [59, 86]), line([14, 112], [110, 112]),
+    ]),
   entry("azure-container-services-classic", "azure", "Container Services Deprecated", ["10049-icon-service-Container-Services-(Deprecated)"],
     "A cluster contains several classic container workloads.",
     [
