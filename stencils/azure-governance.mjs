@@ -1,6 +1,56 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-toolchain-orchestrator", "azure", "Toolchain Orchestrator", ["029109619-icon-service-Toolchain-Orchestrator"],
+    "An orchestrator coordinates tools in a delivery workflow.",
+    [
+      oval(49, 39, 29, 29), line([20, 25], [30, 25], [37, 32], [34, 39], [27, 42], [20, 35], [20, 25]), line([36, 38], [53, 50]),
+      line([76, 51], [95, 32]), line([89, 26], [101, 38]), line([62, 68], [62, 87]), rect(48, 87, 28, 14), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-landing-zone", "azure", "Landing Zone", ["029636048-icon-service-Landing-Zone"],
+    "A prepared landing zone hosts resources in the cloud.",
+    [
+      line([24, 36], [17, 32], [16, 25], [21, 20], [29, 20], [33, 13], [43, 10], [53, 13], [58, 20], [67, 20], [74, 25], [75, 32]),
+      line([28, 65], [28, 53], [41, 53]), line([84, 53], [97, 53], [97, 65]), line([28, 84], [28, 96], [41, 96]), line([84, 96], [97, 96], [97, 84]),
+      line([62, 34], [62, 49]), line([56, 43], [62, 49], [68, 43]), line([50, 67], [62, 61], [74, 67], [74, 80], [62, 86], [50, 80], [50, 67]), line([50, 67], [62, 73], [74, 67]), line([62, 73], [62, 86]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-data-transfer", "azure", "Azure Data Transfer", ["033740592-icon-service-Azure-Data-Transfer"],
+    "Data moves securely between two cloud environments.",
+    [
+      line([17, 44], [12, 40], [12, 34], [17, 29], [24, 29], [28, 22], [36, 19], [44, 22], [48, 29], [54, 29], [60, 34], [60, 40]),
+      line([69, 75], [64, 71], [64, 65], [69, 60], [76, 60], [80, 53], [88, 50], [96, 53], [100, 60], [106, 60], [112, 65], [112, 71], [107, 75], [69, 75]),
+      line([28, 55], [72, 55]), line([65, 48], [72, 55], [65, 62]), line([94, 44], [54, 44]), line([61, 37], [54, 44], [61, 51]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resiliency", "azure", "Resiliency", ["034923704-icon-service-Resiliency"],
+    "A protected service recovers from disruption.",
+    [
+      line([61, 15], [100, 28], [96, 68], [82, 88], [61, 102], [40, 88], [26, 68], [22, 28], [61, 15]),
+      line([39, 60], [35, 54], [38, 45], [45, 39], [56, 37]), line([50, 31], [57, 37], [50, 43]), line([83, 54], [87, 60], [84, 69], [77, 75], [66, 77]), line([72, 83], [65, 77], [72, 71]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-internet-analyzer-profiles", "azure", "Internet Analyzer Profiles", ["00469-icon-service-Internet-Analyzer-Profiles"],
+    "An internet analyzer compares network measurements.",
+    [
+      oval(15, 25, 55, 55), line([42, 25], [32, 35], [29, 52], [32, 69], [42, 80]), line([42, 25], [52, 35], [55, 52], [52, 69], [42, 80]), line([18, 43], [67, 43]), line([18, 61], [67, 61]),
+      rect(76, 38, 34, 44), line([82, 73], [82, 60]), line([91, 73], [91, 49]), line([100, 73], [100, 55]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cloud-shell", "azure", "Azure Cloud Shell", ["00559-icon-service-Azure-Cloud-Shell"],
+    "A shell runs commands in a cloud-hosted terminal.",
+    [
+      rect(13, 30, 83, 57), line([13, 43], [96, 43]), line([20, 36], [24, 36]), line([30, 36], [34, 36]), line([25, 53], [36, 63], [25, 73]), line([43, 73], [61, 73]),
+      line([79, 91], [73, 87], [73, 81], [77, 76], [84, 76], [88, 68], [96, 66], [103, 70], [105, 76], [111, 79], [112, 85], [108, 91], [79, 91]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-video-analyzers", "azure", "Video Analyzers", ["00712-icon-service-Video-Analyzers"],
+    "A video stream is analyzed for meaningful activity.",
+    [
+      rect(12, 24, 69, 51), line([38, 35], [38, 64], [61, 50], [38, 35]), line([19, 84], [75, 84]),
+      oval(72, 52, 30, 30), line([97, 77], [111, 91]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-video-indexer", "azure", "Azure Video Indexer", ["01800-icon-service-Azure-Video-Indexer"],
+    "Video content is indexed into searchable moments.",
+    [
+      rect(13, 23, 55, 44), line([33, 33], [33, 57], [52, 45], [33, 33]), line([20, 76], [61, 76]), line([27, 72], [27, 80]), line([43, 72], [43, 80]), line([56, 72], [56, 80]),
+      line([75, 32], [109, 32]), line([75, 45], [104, 45]), line([75, 58], [109, 58]), line([75, 71], [98, 71]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-ssh-keys", "azure", "SSH Keys", ["00412-icon-service-SSH-Keys"],
     "A key grants secure shell access to a host.",
     [
