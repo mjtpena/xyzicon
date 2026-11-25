@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1138,
-  "aliases": 4019,
+  "count": 1144,
+  "aliases": 4025,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -340,6 +340,12 @@
     "gcp-release-notes",
     "gcp-support",
     "gcp-user-preferences",
+    "gcp-developer-portal",
+    "gcp-partner-portal",
+    "gcp-producer-portal",
+    "gcp-marketplace",
+    "gcp-financial-marketplace",
+    "gcp-early-access",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1254,8 +1260,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 238,
-      "concepts": 225
+      "covered": 244,
+      "concepts": 231
     }
   },
   "nearest": {
@@ -1857,6 +1863,11 @@
     "dynamics-finance-operations": [
       {
         "a": "dynamics-finance-operations",
+        "b": "gcp-producer-portal",
+        "similarity": 0.2385
+      },
+      {
+        "a": "dynamics-finance-operations",
         "b": "azure-marketplace",
         "similarity": 0.2359
       },
@@ -1864,11 +1875,6 @@
         "a": "dynamics-finance-operations",
         "b": "aws-iot-device-management",
         "similarity": 0.2352
-      },
-      {
-        "a": "dynamics-finance-operations",
-        "b": "gcp-identity-platform",
-        "similarity": 0.232
       }
     ],
     "dynamics-finance": [
@@ -2083,13 +2089,13 @@
       },
       {
         "a": "gcp-cloud-run",
-        "b": "azure-restore-point",
-        "similarity": 0.1774
+        "b": "gcp-financial-marketplace",
+        "similarity": 0.1775
       },
       {
         "a": "gcp-cloud-run",
-        "b": "aws-marketplace",
-        "similarity": 0.1714
+        "b": "azure-restore-point",
+        "similarity": 0.1774
       }
     ],
     "gcp-cloud-sql": [
@@ -3329,8 +3335,8 @@
       },
       {
         "a": "gcp-cloud-monitoring",
-        "b": "azure-route-tables",
-        "similarity": 0.3244
+        "b": "gcp-producer-portal",
+        "similarity": 0.3264
       }
     ],
     "gcp-cloud-scheduler": [
@@ -3397,8 +3403,8 @@
       },
       {
         "a": "gcp-firestore",
-        "b": "m365-document-bullets-multiple",
-        "similarity": 0.2119
+        "b": "gcp-developer-portal",
+        "similarity": 0.212
       }
     ],
     "m365-calculator": [
@@ -3992,8 +3998,8 @@
       },
       {
         "a": "azure-route-tables",
-        "b": "gcp-key-management",
-        "similarity": 0.3081
+        "b": "gcp-producer-portal",
+        "similarity": 0.3083
       }
     ],
     "azure-public-ip": [
@@ -4917,18 +4923,18 @@
     "gcp-container-optimized-os": [
       {
         "a": "gcp-container-optimized-os",
+        "b": "gcp-partner-portal",
+        "similarity": 0.3669
+      },
+      {
+        "a": "gcp-container-optimized-os",
         "b": "gcp-os-configuration",
         "similarity": 0.3545
       },
       {
         "a": "gcp-container-optimized-os",
-        "b": "aws-cloud9",
-        "similarity": 0.3475
-      },
-      {
-        "a": "gcp-container-optimized-os",
-        "b": "aws-training-certification",
-        "similarity": 0.3467
+        "b": "gcp-developer-portal",
+        "similarity": 0.3491
       }
     ],
     "gcp-container-registry": [
@@ -5301,8 +5307,8 @@
       },
       {
         "a": "gcp-automl",
-        "b": "fabric-database-table",
-        "similarity": 0.2015
+        "b": "gcp-producer-portal",
+        "similarity": 0.2028
       }
     ],
     "gcp-automl-language": [
@@ -5415,13 +5421,13 @@
       },
       {
         "a": "gcp-data-labeling",
-        "b": "fabric-dashboard",
-        "similarity": 0.2665
+        "b": "gcp-producer-portal",
+        "similarity": 0.2873
       },
       {
         "a": "gcp-data-labeling",
-        "b": "m365-panel-left-header-key",
-        "similarity": 0.2621
+        "b": "fabric-dashboard",
+        "similarity": 0.2665
       }
     ],
     "gcp-dialogflow": [
@@ -5648,6 +5654,11 @@
     "gcp-retail-api": [
       {
         "a": "gcp-retail-api",
+        "b": "gcp-early-access",
+        "similarity": 0.2161
+      },
+      {
+        "a": "gcp-retail-api",
         "b": "gcp-cloud-gpu",
         "similarity": 0.2156
       },
@@ -5655,11 +5666,6 @@
         "a": "gcp-retail-api",
         "b": "gcp-security-scanner",
         "similarity": 0.1803
-      },
-      {
-        "a": "gcp-retail-api",
-        "b": "aws-category-iot",
-        "similarity": 0.1727
       }
     ],
     "gcp-debugger": [
@@ -5738,13 +5744,13 @@
       },
       {
         "a": "gcp-cloud-ops",
-        "b": "gcp-security-scanner",
-        "similarity": 0.2226
+        "b": "gcp-early-access",
+        "similarity": 0.2228
       },
       {
         "a": "gcp-cloud-ops",
-        "b": "gcp-cloud-gpu",
-        "similarity": 0.2103
+        "b": "gcp-security-scanner",
+        "similarity": 0.2226
       }
     ],
     "gcp-performance-dashboard": [
@@ -6005,18 +6011,18 @@
     "gcp-risk-manager": [
       {
         "a": "gcp-risk-manager",
+        "b": "gcp-partner-portal",
+        "similarity": 0.3718
+      },
+      {
+        "a": "gcp-risk-manager",
+        "b": "gcp-developer-portal",
+        "similarity": 0.3355
+      },
+      {
+        "a": "gcp-risk-manager",
         "b": "aws-managed-grafana",
         "similarity": 0.3215
-      },
-      {
-        "a": "gcp-risk-manager",
-        "b": "azure-content-moderation",
-        "similarity": 0.3087
-      },
-      {
-        "a": "gcp-risk-manager",
-        "b": "aws-cloud9",
-        "similarity": 0.3075
       }
     ],
     "gcp-policy-analyzer": [
@@ -6099,9 +6105,9 @@
         "similarity": 0.2446
       },
       {
-        "a": "gcp-cloud-ops",
-        "b": "gcp-security-scanner",
-        "similarity": 0.2226
+        "a": "gcp-security-scanner",
+        "b": "gcp-early-access",
+        "similarity": 0.2375
       }
     ],
     "gcp-security": [
@@ -6124,6 +6130,11 @@
     "gcp-identity-platform": [
       {
         "a": "gcp-identity-platform",
+        "b": "gcp-producer-portal",
+        "similarity": 0.333
+      },
+      {
+        "a": "gcp-identity-platform",
         "b": "aws-bedrock-agentcore",
         "similarity": 0.2847
       },
@@ -6131,11 +6142,6 @@
         "a": "gcp-identity-platform",
         "b": "fabric-database-table",
         "similarity": 0.2804
-      },
-      {
-        "a": "gcp-container-optimized-os",
-        "b": "gcp-identity-platform",
-        "similarity": 0.2648
       }
     ],
     "gcp-managed-active-directory": [
@@ -6277,6 +6283,11 @@
     "gcp-os-configuration": [
       {
         "a": "gcp-os-configuration",
+        "b": "gcp-developer-portal",
+        "similarity": 0.3731
+      },
+      {
+        "a": "gcp-os-configuration",
         "b": "aws-glue-catalog",
         "similarity": 0.3643
       },
@@ -6284,11 +6295,6 @@
         "a": "gcp-os-configuration",
         "b": "fabric-power-bi",
         "similarity": 0.3549
-      },
-      {
-        "a": "gcp-container-optimized-os",
-        "b": "gcp-os-configuration",
-        "similarity": 0.3545
       }
     ],
     "gcp-os-inventory": [
@@ -6321,8 +6327,8 @@
       },
       {
         "a": "gcp-os-patch",
-        "b": "gcp-apigee-sense",
-        "similarity": 0.2654
+        "b": "gcp-producer-portal",
+        "similarity": 0.2781
       }
     ],
     "gcp-compute-systems-management": [
@@ -6583,6 +6589,11 @@
     "gcp-ai-platform": [
       {
         "a": "gcp-ai-platform",
+        "b": "gcp-producer-portal",
+        "similarity": 0.4653
+      },
+      {
+        "a": "gcp-ai-platform",
         "b": "aws-codewhisperer",
         "similarity": 0.3126
       },
@@ -6590,11 +6601,6 @@
         "a": "gcp-ai-platform",
         "b": "aws-datazone-portal",
         "similarity": 0.3116
-      },
-      {
-        "a": "dynamics-project-operations",
-        "b": "gcp-ai-platform",
-        "similarity": 0.2913
       }
     ],
     "gcp-unified-ai-platform": [
@@ -6954,6 +6960,108 @@
         "similarity": 0.2984
       }
     ],
+    "gcp-developer-portal": [
+      {
+        "a": "gcp-developer-portal",
+        "b": "azure-host-groups",
+        "similarity": 0.3878
+      },
+      {
+        "a": "gcp-developer-portal",
+        "b": "fabric-live-dashboard",
+        "similarity": 0.3824
+      },
+      {
+        "a": "gcp-data-studio",
+        "b": "gcp-developer-portal",
+        "similarity": 0.3793
+      }
+    ],
+    "gcp-partner-portal": [
+      {
+        "a": "gcp-risk-manager",
+        "b": "gcp-partner-portal",
+        "similarity": 0.3718
+      },
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "gcp-partner-portal",
+        "similarity": 0.3669
+      },
+      {
+        "a": "gcp-partner-portal",
+        "b": "aws-cloud9",
+        "similarity": 0.3253
+      }
+    ],
+    "gcp-producer-portal": [
+      {
+        "a": "gcp-ai-platform",
+        "b": "gcp-producer-portal",
+        "similarity": 0.4653
+      },
+      {
+        "a": "gcp-identity-platform",
+        "b": "gcp-producer-portal",
+        "similarity": 0.333
+      },
+      {
+        "a": "gcp-cloud-monitoring",
+        "b": "gcp-producer-portal",
+        "similarity": 0.3264
+      }
+    ],
+    "gcp-marketplace": [
+      {
+        "a": "gcp-marketplace",
+        "b": "aws-lightsail",
+        "similarity": 0.1848
+      },
+      {
+        "a": "gcp-marketplace",
+        "b": "aws-workspaces",
+        "similarity": 0.182
+      },
+      {
+        "a": "gcp-marketplace",
+        "b": "fabric-mobile-report",
+        "similarity": 0.1766
+      }
+    ],
+    "gcp-financial-marketplace": [
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "gcp-cloud-tpu",
+        "similarity": 0.2977
+      },
+      {
+        "a": "gcp-project",
+        "b": "gcp-financial-marketplace",
+        "similarity": 0.2866
+      },
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-private-subnet",
+        "similarity": 0.2579
+      }
+    ],
+    "gcp-early-access": [
+      {
+        "a": "gcp-early-access",
+        "b": "gcp-cloud-gpu",
+        "similarity": 0.2554
+      },
+      {
+        "a": "gcp-early-access",
+        "b": "aws-cloud-directory",
+        "similarity": 0.2487
+      },
+      {
+        "a": "gcp-security-scanner",
+        "b": "gcp-early-access",
+        "similarity": 0.2375
+      }
+    ],
     "gcp-access-context": [
       {
         "a": "gcp-datashare",
@@ -7046,14 +7154,14 @@
         "similarity": 0.2617
       },
       {
+        "a": "gcp-early-access",
+        "b": "gcp-cloud-gpu",
+        "similarity": 0.2554
+      },
+      {
         "a": "gcp-security-scanner",
         "b": "gcp-cloud-gpu",
         "similarity": 0.2446
-      },
-      {
-        "a": "gcp-cloud-gpu",
-        "b": "gcp-app-engine",
-        "similarity": 0.2437
       }
     ],
     "gcp-firewall-rules": [
@@ -7109,6 +7217,11 @@
     ],
     "gcp-vision": [
       {
+        "a": "gcp-developer-portal",
+        "b": "gcp-vision",
+        "similarity": 0.2983
+      },
+      {
         "a": "gcp-vision",
         "b": "fabric-power-bi",
         "similarity": 0.2769
@@ -7117,11 +7230,6 @@
         "a": "gcp-vision",
         "b": "aws-vpc",
         "similarity": 0.2602
-      },
-      {
-        "a": "gcp-recommendations-ai",
-        "b": "gcp-vision",
-        "similarity": 0.2597
       }
     ],
     "gcp-genomics": [
@@ -7204,9 +7312,9 @@
         "similarity": 0.2696
       },
       {
-        "a": "gcp-batch",
-        "b": "azure-genomics-accounts",
-        "similarity": 0.232
+        "a": "gcp-financial-marketplace",
+        "b": "gcp-batch",
+        "similarity": 0.2561
       }
     ],
     "gcp-anthos": [
@@ -7896,14 +8004,14 @@
         "similarity": 0.3406
       },
       {
-        "a": "gcp-cloud-tpu",
-        "b": "azure-storage-queue",
-        "similarity": 0.2879
+        "a": "gcp-financial-marketplace",
+        "b": "gcp-cloud-tpu",
+        "similarity": 0.2977
       },
       {
         "a": "gcp-cloud-tpu",
-        "b": "m365-document-multiple",
-        "similarity": 0.2793
+        "b": "azure-storage-queue",
+        "similarity": 0.2879
       }
     ],
     "m365-desktop-tower": [
@@ -8938,9 +9046,9 @@
         "similarity": 0.1984
       },
       {
-        "a": "aws-lake-formation",
+        "a": "gcp-partner-portal",
         "b": "azure-lake-store",
-        "similarity": 0.1881
+        "similarity": 0.1883
       }
     ],
     "azure-sql-warehouse": [
@@ -10259,14 +10367,14 @@
         "similarity": 0.2793
       },
       {
-        "a": "m365-document-multiple",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2559
+        "a": "gcp-financial-marketplace",
+        "b": "m365-document-multiple",
+        "similarity": 0.2572
       },
       {
         "a": "m365-document-multiple",
-        "b": "aws-transform",
-        "similarity": 0.236
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2559
       }
     ],
     "m365-document-lock": [
@@ -10876,9 +10984,9 @@
         "similarity": 0.3344
       },
       {
-        "a": "m365-window-dev-edit",
-        "b": "aws-cli",
-        "similarity": 0.3113
+        "a": "gcp-developer-portal",
+        "b": "m365-window-dev-edit",
+        "similarity": 0.329
       }
     ],
     "m365-cogs": [
@@ -11313,14 +11421,14 @@
         "similarity": 0.324
       },
       {
+        "a": "gcp-developer-portal",
+        "b": "aws-devops-guru",
+        "similarity": 0.3154
+      },
+      {
         "a": "gcp-data-studio",
         "b": "aws-devops-guru",
         "similarity": 0.306
-      },
-      {
-        "a": "aws-devops-guru",
-        "b": "m365-filmstrip-play",
-        "similarity": 0.2733
       }
     ],
     "aws-lookout-equipment": [
@@ -11398,14 +11506,14 @@
         "similarity": 0.3979
       },
       {
-        "a": "azure-genomics-accounts",
-        "b": "m365-check",
-        "similarity": 0.306
+        "a": "gcp-developer-portal",
+        "b": "azure-genomics-accounts",
+        "similarity": 0.3294
       },
       {
         "a": "azure-genomics-accounts",
-        "b": "azure-host-groups",
-        "similarity": 0.3028
+        "b": "m365-check",
+        "similarity": 0.306
       }
     ],
     "azure-bot-services": [
@@ -12185,9 +12293,9 @@
         "similarity": 0.2578
       },
       {
-        "a": "m365-organization",
+        "a": "gcp-financial-marketplace",
         "b": "aws-red-hat-openshift",
-        "similarity": 0.2449
+        "similarity": 0.2564
       }
     ],
     "aws-cloud-control": [
@@ -13518,6 +13626,11 @@
     ],
     "aws-user-notifications": [
       {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-user-notifications",
+        "similarity": 0.1823
+      },
+      {
         "a": "gcp-project",
         "b": "aws-user-notifications",
         "similarity": 0.1795
@@ -13526,11 +13639,6 @@
         "a": "gcp-cloud-tpu",
         "b": "aws-user-notifications",
         "similarity": 0.1793
-      },
-      {
-        "a": "aws-dynamodb",
-        "b": "aws-user-notifications",
-        "similarity": 0.178
       }
     ],
     "aws-resilience-hub": [
@@ -14198,6 +14306,11 @@
     ],
     "aws-cloud-directory": [
       {
+        "a": "gcp-early-access",
+        "b": "aws-cloud-directory",
+        "similarity": 0.2487
+      },
+      {
         "a": "aws-cloud-directory",
         "b": "fabric-column-single",
         "similarity": 0.2476
@@ -14206,11 +14319,6 @@
         "a": "aws-cost-usage-report",
         "b": "aws-cloud-directory",
         "similarity": 0.213
-      },
-      {
-        "a": "aws-cloud-directory",
-        "b": "m365-document",
-        "similarity": 0.2095
       }
     ],
     "aws-file-cache": [
@@ -14906,9 +15014,9 @@
         "similarity": 0.4012
       },
       {
-        "a": "aws-codewhisperer",
+        "a": "gcp-developer-portal",
         "b": "m365-panel-left-header-key",
-        "similarity": 0.3216
+        "similarity": 0.3245
       }
     ],
     "m365-tablet-laptop": [
@@ -15864,9 +15972,9 @@
         "similarity": 0.2793
       },
       {
-        "a": "gcp-category-devtools",
-        "b": "azure-app-certificates",
-        "similarity": 0.2591
+        "a": "gcp-partner-portal",
+        "b": "gcp-category-devtools",
+        "similarity": 0.2624
       }
     ],
     "gcp-category-hybrid": [
@@ -16119,9 +16227,9 @@
         "similarity": 0.255
       },
       {
-        "a": "aws-lake-formation",
+        "a": "gcp-producer-portal",
         "b": "gcp-category-web-mobile",
-        "similarity": 0.2376
+        "similarity": 0.2385
       }
     ],
     "gcp-category-web3": [
@@ -17135,6 +17243,11 @@
     ],
     "aws-category-iot": [
       {
+        "a": "gcp-early-access",
+        "b": "aws-category-iot",
+        "similarity": 0.207
+      },
+      {
         "a": "aws-category-iot",
         "b": "azure-management-groups",
         "similarity": 0.199
@@ -17143,11 +17256,6 @@
         "a": "gcp-visual-inspection",
         "b": "aws-category-iot",
         "similarity": 0.1825
-      },
-      {
-        "a": "gcp-profiler",
-        "b": "aws-category-iot",
-        "similarity": 0.18
       }
     ],
     "aws-iot-expresslink": [
@@ -17247,9 +17355,9 @@
         "similarity": 0.1796
       },
       {
-        "a": "aws-ground-station",
-        "b": "fabric-window-asterisk",
-        "similarity": 0.165
+        "a": "gcp-financial-marketplace",
+        "b": "aws-ground-station",
+        "similarity": 0.1658
       }
     ],
     "aws-local-zones": [
@@ -17407,6 +17515,11 @@
     ],
     "aws-bottlerocket": [
       {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-bottlerocket",
+        "similarity": 0.1653
+      },
+      {
         "a": "gcp-api-gateway",
         "b": "aws-bottlerocket",
         "similarity": 0.1581
@@ -17415,11 +17528,6 @@
         "a": "fabric-event-house",
         "b": "aws-bottlerocket",
         "similarity": 0.1494
-      },
-      {
-        "a": "fabric-mobile-report",
-        "b": "aws-bottlerocket",
-        "similarity": 0.1468
       }
     ],
     "aws-elastic-fabric-adapter": [
@@ -17706,9 +17814,9 @@
         "similarity": 0.2356
       },
       {
-        "a": "azure-app-service-builder",
+        "a": "gcp-financial-marketplace",
         "b": "azure-load-testing",
-        "similarity": 0.2261
+        "similarity": 0.2272
       }
     ],
     "azure-devtest-labs": [
@@ -18284,9 +18392,9 @@
         "similarity": 0.4019
       },
       {
-        "a": "aws-finspace",
+        "a": "gcp-developer-portal",
         "b": "azure-host-groups",
-        "similarity": 0.3786
+        "similarity": 0.3878
       }
     ],
     "azure-hosts": [
