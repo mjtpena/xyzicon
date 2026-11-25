@@ -1,6 +1,82 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-preview-features", "azure", "Preview Features", ["00456-icon-service-Preview-Features"],
+    "An emerging feature shines above a small set of tiles.",
+    [
+      rect(18, 49, 25, 25), rect(49, 49, 25, 25), rect(18, 80, 25, 25), rect(49, 80, 25, 25),
+      line([90, 15], [94, 29], [108, 33], [94, 37], [90, 51], [86, 37], [72, 33], [86, 29], [90, 15]),
+      line([15, 113], [111, 113]),
+    ]),
+  entry("azure-all-resources", "azure", "All Resources", ["10001-icon-service-All-Resources"],
+    "A resource inventory combines different kinds of assets.",
+    [
+      rect(14, 17, 93, 82), line([14, 33], [107, 33]), line([22, 25], [76, 25]),
+      rect(24, 43, 19, 19), oval(52, 43, 19, 19), line([81, 52], [90, 43], [99, 52], [90, 61], [81, 52]),
+      oval(25, 72, 16, 8), line([25, 76], [25, 86], [29, 89], [37, 89], [41, 86], [41, 76]), line([54, 75], [95, 75]), line([54, 85], [84, 85]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-information", "azure", "Information", ["10005-icon-service-Information"],
+    "An information mark appears in an explanatory speech bubble.",
+    [
+      line([18, 22], [103, 22], [103, 80], [64, 80], [44, 96], [44, 80], [18, 80], [18, 22]),
+      oval(57, 34, 7, 7, true), line([61, 48], [61, 67]), line([54, 67], [68, 67]), line([15, 108], [110, 108]),
+    ]),
+  entry("azure-recent", "azure", "Recent", ["10006-icon-service-Recent"],
+    "A clock and a short history list indicate recent activity.",
+    [
+      oval(14, 27, 49, 49), line([38, 37], [38, 51], [50, 59]), oval(35, 48, 6, 6, true),
+      line([73, 31], [106, 31]), line([73, 45], [101, 45]), line([73, 59], [106, 59]), line([73, 73], [91, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-templates", "azure", "Templates", ["10009-icon-service-Templates"],
+    "A reusable document blueprint contains an adjustable layout.",
+    [
+      line([24, 15], [77, 15], [95, 33], [95, 98], [24, 98], [24, 15]), line([77, 15], [77, 33], [95, 33]),
+      rect(36, 44, 46, 37), line([36, 55], [82, 55]), line([54, 55], [54, 81]), line([61, 64], [75, 64]), line([61, 72], [75, 72]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-help-support", "azure", "Help and Support", ["10013-icon-service-Help-and-Support"],
+    "A support headset surrounds a question.",
+    [
+      line([26, 58], [26, 43], [30, 30], [40, 21], [53, 17], [66, 21], [76, 30], [80, 43], [80, 58]),
+      rect(20, 47, 12, 21), rect(74, 47, 12, 21), line([80, 68], [76, 78], [66, 82], [57, 82]), oval(51, 79, 7, 7, true),
+      line([45, 37], [48, 32], [54, 30], [60, 32], [63, 37], [62, 42], [54, 48], [54, 53]), oval(51, 58, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-tag", "azure", "Tag", ["10014-icon-service-Tag"],
+    "A single label marks an item.",
+    [
+      line([21, 54], [55, 20], [90, 20], [104, 34], [104, 69], [70, 103], [21, 54]), oval(77, 30, 9, 9),
+      line([52, 55], [76, 79]), line([46, 62], [65, 81]), line([14, 113], [111, 113]),
+    ]),
+  entry("azure-dashboard", "azure", "Dashboard", ["10015-icon-service-Dashboard"],
+    "A dashboard combines a trend chart with summary tiles.",
+    [
+      rect(13, 19, 95, 77), line([13, 33], [108, 33]), rect(22, 42, 48, 42), line([28, 76], [38, 65], [47, 70], [59, 52], [65, 57]),
+      rect(79, 42, 19, 17), rect(79, 67, 19, 17), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-free-services", "azure", "Free Services", ["10016-icon-service-Free-Services"],
+    "An open gift box represents available free services.",
+    [
+      line([22, 47], [100, 47], [100, 58], [22, 58], [22, 47]), line([28, 58], [28, 93], [94, 93], [94, 58]),
+      line([61, 47], [61, 93]), line([61, 47], [48, 45], [39, 39], [40, 31], [47, 28], [54, 33], [61, 47]),
+      line([61, 47], [74, 45], [83, 39], [82, 31], [75, 28], [68, 33], [61, 47]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-cost-management", "azure", "Cost Management", ["10019-icon-service-Cost-Management"],
+    "A cost trend and coin track spending.",
+    [
+      line([16, 27], [16, 92], [106, 92]), line([24, 78], [42, 66], [58, 71], [74, 48], [91, 41]),
+      oval(72, 18, 31, 31), line([88, 23], [88, 44]), line([94, 27], [84, 27], [81, 31], [84, 34], [92, 35], [95, 39], [92, 42], [82, 42]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-marketplace-management", "azure", "Marketplace Management", ["10112-icon-service-Marketplace-Management"],
+    "A storefront and settings sliders manage marketplace offerings.",
+    [
+      line([20, 46], [26, 25], [73, 25], [79, 46], [20, 46]), line([25, 46], [25, 87], [75, 87], [75, 46]), line([39, 87], [39, 59], [60, 59], [60, 87]),
+      line([88, 36], [109, 36]), oval(94, 32, 8, 8), line([88, 57], [109, 57]), oval(101, 53, 8, 8), line([88, 78], [109, 78]), oval(92, 74, 8, 8), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-region-management", "azure", "Region Management", ["10116-icon-service-Region-Management"],
+    "A globe shows selected deployment regions.",
+    [
+      oval(17, 20, 76, 76), line([55, 20], [44, 31], [39, 48], [39, 68], [44, 85], [55, 96]), line([55, 20], [66, 31], [71, 48], [71, 68], [66, 85], [55, 96]),
+      line([20, 45], [90, 45]), line([20, 70], [90, 70]), oval(51, 42, 7, 7, true), oval(68, 66, 7, 7, true), line([95, 34], [105, 34]), line([95, 50], [109, 50]), line([95, 66], [105, 66]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-static-apps", "azure", "Static Apps", ["01007-icon-service-Static-Apps"],
     "A browser serves a static application.",
     [
