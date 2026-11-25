@@ -1,6 +1,34 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsQuantumArtwork = [
+  entry("aws-braket-simulator-1", "aws", "Braket Simulator 1", ["Res_Amazon-Braket_Simulator-1_48"],
+    "The first simulator variant presents an atomic motif on a chip.",
+    [
+      rect(13, 30, 45, 46), line([22, 30], [22, 21]), line([36, 30], [36, 21]), line([50, 30], [50, 21]), line([13, 41], [7, 41]), line([13, 55], [7, 55]), line([13, 68], [7, 68]),
+      line([58, 53], [68, 53]), line([63, 48], [68, 53], [63, 58]),
+      oval(73, 43, 38, 20), line([76, 70], [75, 58], [80, 43], [88, 34], [96, 34], [104, 43], [109, 58], [108, 70]), oval(88, 49, 8, 8, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator-2", "aws", "Braket Simulator 2", ["Res_Amazon-Braket_Simulator-2_48"],
+    "The second simulator variant shows connected quantum states.",
+    [
+      oval(44, 36, 12, 12), oval(73, 33, 12, 12), oval(62, 66, 12, 12), line([56, 42], [73, 39]), line([51, 48], [63, 66]), line([78, 45], [72, 66]),
+      line([17, 26], [27, 16], [101, 16], [111, 26], [111, 81], [101, 91], [27, 91], [17, 81], [17, 26]),
+      line([26, 34], [18, 34]), line([26, 53], [18, 53]), line([26, 72], [18, 72]), line([102, 34], [110, 34]), line([102, 53], [110, 53]), line([102, 72], [110, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator-3", "aws", "Braket Simulator 3", ["Res_Amazon-Braket_Simulator-3_48"],
+    "The third simulator variant displays a wave on a chip.",
+    [
+      rect(24, 21, 81, 65), line([24, 36], [105, 36]), line([32, 29], [39, 29]), line([44, 29], [51, 29]),
+      line([33, 48], [40, 48], [47, 62], [54, 72], [61, 72], [69, 60], [76, 46], [84, 43], [94, 43]),
+      line([38, 21], [38, 12]), line([57, 21], [57, 12]), line([76, 21], [76, 12]), line([95, 21], [95, 12]), line([24, 55], [15, 55]), line([105, 55], [114, 55]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator-4", "aws", "Braket Simulator 4", ["Res_Amazon-Braket_Simulator-4_48"],
+    "The fourth simulator variant uses crossed axes inside a chip.",
+    [
+      rect(30, 18, 68, 68), line([41, 18], [41, 9]), line([56, 18], [56, 9]), line([71, 18], [71, 9]), line([86, 18], [86, 9]),
+      line([30, 32], [21, 32]), line([30, 47], [21, 47]), line([30, 62], [21, 62]), line([30, 77], [21, 77]), line([98, 32], [107, 32]), line([98, 47], [107, 47]), line([98, 62], [107, 62]), line([98, 77], [107, 77]),
+      line([46, 52], [82, 52]), line([53, 41], [74, 63]), line([74, 41], [53, 63]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-braket-chandelier", "aws", "Braket Chandelier", ["Res_Amazon-Braket_Chandelier_48"],
     "A tiered cryogenic chandelier suspends quantum hardware.",
     [

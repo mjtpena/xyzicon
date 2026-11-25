@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1902,
-  "aliases": 5068,
+  "count": 1906,
+  "aliases": 5072,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1038,6 +1038,10 @@
     "aws-backup-recovery-point-objective",
     "aws-backup-recovery-time-objective",
     "aws-backup-gateway-resource",
+    "aws-braket-simulator-1",
+    "aws-braket-simulator-2",
+    "aws-braket-simulator-3",
+    "aws-braket-simulator-4",
     "aws-braket-chandelier",
     "aws-braket-chip",
     "aws-braket-embedded-simulator",
@@ -2202,8 +2206,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1685,
-      "concepts": 640
+      "covered": 1689,
+      "concepts": 644
     },
     "gcp": {
       "sources": 261,
@@ -4673,8 +4677,8 @@
       },
       {
         "a": "aws-eventbridge-event",
-        "b": "azure-system-topic",
-        "similarity": 0.283
+        "b": "aws-braket-simulator-3",
+        "similarity": 0.2849
       }
     ],
     "aws-eventbridge-default-bus": [
@@ -17573,6 +17577,11 @@
     "aws-iot-actuator": [
       {
         "a": "aws-iot-actuator",
+        "b": "aws-braket-simulator-1",
+        "similarity": 0.4043
+      },
+      {
+        "a": "aws-iot-actuator",
         "b": "aws-ebs-snapshot",
         "similarity": 0.341
       },
@@ -17580,11 +17589,6 @@
         "a": "aws-iot-actuator",
         "b": "azure-process-explorer",
         "similarity": 0.3062
-      },
-      {
-        "a": "aws-iot-actuator",
-        "b": "aws-greengrass-public-component",
-        "similarity": 0.2508
       }
     ],
     "aws-iot-servo": [
@@ -18088,13 +18092,13 @@
       },
       {
         "a": "aws-iot-thing-plc",
-        "b": "aws-iot-thing-medical-emergency",
-        "similarity": 0.3003
+        "b": "aws-braket-simulator-3",
+        "similarity": 0.3095
       },
       {
         "a": "aws-iot-thing-plc",
-        "b": "aws-backup-vault-lock",
-        "similarity": 0.2936
+        "b": "aws-iot-thing-medical-emergency",
+        "similarity": 0.3003
       }
     ],
     "aws-iot-thing-relay": [
@@ -18116,6 +18120,11 @@
     ],
     "aws-iot-thing-freertos": [
       {
+        "a": "aws-iot-thing-freertos",
+        "b": "aws-braket-simulator-4",
+        "similarity": 0.3261
+      },
+      {
         "a": "azure-stack-hci-sizer",
         "b": "aws-iot-thing-freertos",
         "similarity": 0.2888
@@ -18124,11 +18133,6 @@
         "a": "aws-iot-thing-freertos",
         "b": "azure-controls",
         "similarity": 0.2814
-      },
-      {
-        "a": "aws-iot-thing-freertos",
-        "b": "aws-general-tape-storage",
-        "similarity": 0.2798
       }
     ],
     "aws-iot-thing-generic": [
@@ -18406,6 +18410,11 @@
     "aws-iot-thing-bank": [
       {
         "a": "aws-iot-thing-bank",
+        "b": "aws-braket-simulator-3",
+        "similarity": 0.3208
+      },
+      {
+        "a": "aws-iot-thing-bank",
         "b": "azure-web-test",
         "similarity": 0.2932
       },
@@ -18413,11 +18422,6 @@
         "a": "aws-dynamodb-global-secondary-index",
         "b": "aws-iot-thing-bank",
         "similarity": 0.2829
-      },
-      {
-        "a": "aws-iot-over-air-update",
-        "b": "aws-iot-thing-bank",
-        "similarity": 0.2812
       }
     ],
     "aws-iot-thing-bicycle": [
@@ -18705,8 +18709,8 @@
       },
       {
         "a": "aws-s3-vpc-access",
-        "b": "aws-snowball-import-export",
-        "similarity": 0.2203
+        "b": "aws-braket-simulator-4",
+        "similarity": 0.2233
       }
     ],
     "aws-s3-object-lambda": [
@@ -19232,8 +19236,8 @@
       },
       {
         "a": "aws-ebs-snapshot",
-        "b": "azure-process-explorer",
-        "similarity": 0.2909
+        "b": "aws-braket-simulator-1",
+        "similarity": 0.3363
       }
     ],
     "aws-ebs-gp3-volume": [
@@ -19797,6 +19801,74 @@
         "similarity": 0.2703
       }
     ],
+    "aws-braket-simulator-1": [
+      {
+        "a": "aws-iot-actuator",
+        "b": "aws-braket-simulator-1",
+        "similarity": 0.4043
+      },
+      {
+        "a": "aws-ebs-snapshot",
+        "b": "aws-braket-simulator-1",
+        "similarity": 0.3363
+      },
+      {
+        "a": "aws-sitewise-asset-properties",
+        "b": "aws-braket-simulator-1",
+        "similarity": 0.2662
+      }
+    ],
+    "aws-braket-simulator-2": [
+      {
+        "a": "aws-braket-simulator-2",
+        "b": "aws-braket-simulator",
+        "similarity": 0.3076
+      },
+      {
+        "a": "aws-braket-simulator-2",
+        "b": "aws-braket-embedded-simulator",
+        "similarity": 0.2688
+      },
+      {
+        "a": "aws-backup-plan",
+        "b": "aws-braket-simulator-2",
+        "similarity": 0.2574
+      }
+    ],
+    "aws-braket-simulator-3": [
+      {
+        "a": "aws-iot-thing-bank",
+        "b": "aws-braket-simulator-3",
+        "similarity": 0.3208
+      },
+      {
+        "a": "aws-iot-thing-plc",
+        "b": "aws-braket-simulator-3",
+        "similarity": 0.3095
+      },
+      {
+        "a": "aws-iot-thing-relay",
+        "b": "aws-braket-simulator-3",
+        "similarity": 0.298
+      }
+    ],
+    "aws-braket-simulator-4": [
+      {
+        "a": "aws-iot-thing-freertos",
+        "b": "aws-braket-simulator-4",
+        "similarity": 0.3261
+      },
+      {
+        "a": "azure-stack-hci-premium",
+        "b": "aws-braket-simulator-4",
+        "similarity": 0.2763
+      },
+      {
+        "a": "aws-snowball-import-export",
+        "b": "aws-braket-simulator-4",
+        "similarity": 0.2701
+      }
+    ],
     "aws-braket-chandelier": [
       {
         "a": "azure-stack-hci-sizer",
@@ -19843,9 +19915,9 @@
         "similarity": 0.2711
       },
       {
-        "a": "m365-bot",
+        "a": "aws-braket-simulator-2",
         "b": "aws-braket-embedded-simulator",
-        "similarity": 0.2681
+        "similarity": 0.2688
       }
     ],
     "aws-braket-managed-simulator": [
