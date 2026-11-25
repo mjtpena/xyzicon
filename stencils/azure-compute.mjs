@@ -1,6 +1,31 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-virtual-instance-sap", "azure", "Virtual Instance for SAP", ["03089-icon-service-Virtual-Instance-for-SAP"],
+    "A virtual instance groups the components of an SAP system.",
+    [
+      line([16, 30], [16, 22], [28, 22]), line([96, 22], [108, 22], [108, 30]), line([16, 80], [16, 88], [28, 88]), line([96, 88], [108, 88], [108, 80]),
+      line([27, 38], [37, 38], [37, 43], [27, 43], [27, 48], [37, 48]), line([44, 49], [49, 37], [54, 49]), line([46, 45], [52, 45]), line([61, 49], [61, 37], [69, 37], [72, 40], [69, 44], [61, 44]),
+      line([42, 63], [53, 57], [64, 63], [64, 76], [53, 82], [42, 76], [42, 63]), line([42, 63], [53, 69], [64, 63]), line([53, 69], [53, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-center-sap", "azure", "Azure Center for SAP", ["03090-icon-service-Azure-Center-for-SAP"],
+    "A central workspace manages SAP systems and their components.",
+    [
+      rect(40, 35, 42, 34), line([40, 46], [82, 46]), line([47, 41], [51, 41]), line([57, 41], [61, 41]), line([47, 56], [75, 56]), line([47, 63], [68, 63]),
+      line([61, 35], [61, 22], [28, 22]), line([40, 54], [23, 54]), line([82, 54], [101, 54]), line([61, 69], [61, 88], [91, 88]), oval(15, 17, 10, 10), oval(13, 49, 10, 10), oval(101, 49, 10, 10), oval(91, 83, 10, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-sap-central-services", "azure", "Central Service Instance for SAP", ["03092-icon-service-Central-Service-Instance-For-SAP"],
+    "Central services coordinate an SAP system's application instances.",
+    [
+      rect(43, 36, 36, 34), line([50, 45], [72, 45]), line([50, 52], [72, 52]), line([50, 59], [65, 59]),
+      rect(13, 23, 20, 17), rect(90, 23, 20, 17), rect(13, 77, 20, 17), rect(90, 77, 20, 17), line([33, 32], [43, 43]), line([90, 32], [79, 43]), line([33, 85], [43, 66]), line([90, 85], [79, 66]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-sap-database-instance", "azure", "Database Instance for SAP", ["03175-icon-service-Database-Instance-For-SAP"],
+    "An SAP system uses a dedicated database instance.",
+    [
+      oval(19, 20, 58, 18), line([19, 29], [19, 75], [26, 81], [48, 84], [70, 81], [77, 75], [77, 29]), line([19, 48], [26, 54], [48, 57], [70, 54], [77, 48]), line([19, 66], [26, 72], [48, 75], [70, 72], [77, 66]),
+      line([85, 39], [97, 39], [97, 45], [85, 45], [85, 51], [97, 51]), line([84, 64], [88, 55], [92, 64]), line([99, 64], [99, 55], [106, 55], [108, 58], [106, 61], [99, 61]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-dev-box", "azure", "Microsoft Dev Box", ["03250-icon-service-Microsoft-Dev-Box"],
     "A cloud workstation provides a developer's coding environment.",
     [

@@ -1,6 +1,23 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-network-function-manager", "azure", "Azure Network Function Manager", ["02740-icon-service-Azure-Network-Function-Manager"],
+    "Network functions are managed across connected sites.",
+    [
+      line([14, 62], [37, 62]), line([37, 62], [55, 45], [73, 62], [55, 79], [37, 62]), line([73, 62], [110, 62]),
+      line([55, 45], [55, 32]), line([44, 32], [66, 32]), line([48, 25], [48, 39]), line([80, 29], [107, 29]), line([98, 22], [98, 36]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-mobile-networks", "azure", "Azure Mobile Networks", ["02794-icon-service-Mobile-Networks"],
+    "A cellular tower connects mobile devices to a network.",
+    [
+      line([51, 88], [63, 43], [75, 88]), line([55, 74], [71, 74]), line([58, 61], [68, 61]), line([45, 88], [81, 88]),
+      line([50, 43], [45, 35], [45, 26], [50, 18]), line([76, 43], [81, 35], [81, 26], [76, 18]), line([38, 44], [32, 34], [32, 25], [38, 15]), line([88, 44], [94, 34], [94, 25], [88, 15]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-edge-hardware-center", "azure", "Azure Edge Hardware Center", ["02810-icon-service-Azure-Edge-Hardware-Center"],
+    "Edge hardware is provisioned and managed as physical devices.",
+    [
+      rect(20, 33, 54, 43), rect(33, 42, 28, 24), line([40, 48], [54, 48]), line([40, 54], [54, 54]), line([40, 60], [49, 60]), line([74, 46], [99, 46], [99, 61]), line([91, 54], [99, 61], [107, 54]), line([30, 82], [64, 82]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-expressroute-direct", "azure", "ExpressRoute Direct", ["00903-icon-service-ExpressRoute-Direct"],
     "A dedicated direct connection joins a site to Azure.",
     [

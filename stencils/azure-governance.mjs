@@ -1,6 +1,25 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-monitor-dashboard", "azure", "Azure Monitor Dashboard", ["02488-icon-service-Azure-Monitor-Dashboard"],
+    "A monitoring dashboard displays service health and metrics.",
+    [
+      rect(14, 21, 95, 67), line([14, 34], [109, 34]), line([22, 27], [26, 27]), line([32, 27], [36, 27]),
+      rect(23, 42, 35, 18), line([27, 55], [34, 50], [40, 53], [48, 45], [54, 48]), rect(65, 42, 35, 18), line([71, 54], [71, 49]), line([80, 54], [80, 45]), line([89, 54], [89, 47]),
+      line([24, 70], [96, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-managed-grafana", "azure", "Azure Managed Grafana", ["02905-icon-service-Azure-Managed-Grafana"],
+    "Managed Grafana visualizes telemetry in a dashboard.",
+    [
+      rect(15, 25, 68, 51), line([15, 37], [83, 37]), line([22, 31], [26, 31]), line([32, 31], [36, 31]), line([25, 65], [25, 46]), line([25, 65], [72, 65]), line([29, 59], [37, 53], [44, 56], [51, 46], [60, 50], [68, 42]),
+      line([91, 48], [103, 48], [103, 54], [94, 54], [94, 62], [104, 62], [104, 57]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-icm-troubleshooting", "azure", "IcM Troubleshooting", ["03361-icon-service-IcM-Troubleshooting"],
+    "Troubleshooting investigates and repairs an incident.",
+    [
+      rect(15, 24, 55, 58), line([24, 36], [59, 36]), line([24, 45], [53, 45]), line([24, 54], [57, 54]), line([24, 63], [48, 63]),
+      oval(63, 54, 25, 25), line([84, 76], [105, 94]), line([73, 60], [76, 65], [73, 70]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-keys", "azure", "Keys", ["00787-icon-service-Keys"],
     "A set of keys provides access to protected resources.",
     [

@@ -1,6 +1,43 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-arc-postgresql", "azure", "Azure Arc PostgreSQL", ["01848-icon-service-Arc-PostgreSQL "],
+    "Azure Arc manages a PostgreSQL database outside Azure.",
+    [
+      oval(14, 23, 55, 17), line([14, 31], [14, 79], [22, 84], [42, 87], [61, 84], [69, 79], [69, 31]), line([14, 50], [22, 55], [42, 58], [61, 55], [69, 50]),
+      line([30, 72], [30, 58], [37, 58], [42, 62], [38, 67], [30, 67]), line([47, 62], [53, 58], [59, 62], [59, 72], [54, 77], [48, 74]),
+      line([79, 27], [93, 34], [101, 48], [101, 65], [94, 78]), line([91, 70], [94, 78], [102, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-arc-sql-managed-instance", "azure", "Azure Arc SQL Managed Instance", ["01849-icon-service-Arc-SQL-Managed-Instance"],
+    "An Arc-managed SQL instance runs across environments.",
+    [
+      rect(16, 23, 64, 62), line([16, 36], [80, 36]), line([24, 30], [28, 30]), line([34, 30], [38, 30]),
+      line([25, 45], [38, 45], [38, 51], [25, 51], [25, 57], [38, 57]), oval(45, 45, 12, 12), line([53, 54], [59, 60]), line([64, 45], [64, 57], [73, 57]),
+      line([81, 32], [97, 40], [105, 55], [103, 70], [95, 82]), line([92, 75], [95, 82], [102, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-arc-sql-server", "azure", "Azure Arc SQL Server", ["01850-icon-service-Arc-SQL-Server"],
+    "Azure Arc manages a SQL Server installation on a host.",
+    [
+      rect(15, 23, 51, 65), line([15, 36], [66, 36]), line([22, 29], [26, 29]), line([32, 29], [36, 29]), line([24, 48], [57, 48]), line([24, 60], [57, 60]), line([24, 72], [57, 72]),
+      oval(75, 43, 35, 12), line([75, 49], [75, 73], [80, 77], [92, 79], [104, 77], [110, 73], [110, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-arc-data-services", "azure", "Azure Arc Data Services", ["02356-icon-service-Arc-Data-services"],
+    "Azure Arc manages data services across environments.",
+    [
+      oval(20, 23, 62, 18), line([20, 32], [20, 78], [28, 84], [51, 87], [74, 84], [82, 78], [82, 32]), line([20, 50], [28, 56], [51, 59], [74, 56], [82, 50]), line([20, 68], [28, 74], [51, 77], [74, 74], [82, 68]),
+      line([91, 27], [103, 39], [108, 55], [104, 72], [93, 84]), line([92, 76], [93, 84], [101, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-managed-cassandra-instance", "azure", "Managed Instance for Apache Cassandra", ["02663-icon-service-Managed-Instance-Apache-Cassandra"],
+    "A managed Cassandra instance connects distributed database nodes.",
+    [
+      oval(15, 42, 24, 24), oval(50, 20, 24, 24), oval(85, 42, 24, 24), oval(50, 68, 24, 24), line([37, 45], [51, 37]), line([73, 37], [87, 45]), line([37, 62], [51, 73]), line([73, 73], [87, 62]), line([39, 54], [85, 54]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-elastic-san", "azure", "Elastic SAN", ["03190-icon-service-Elastic-SAN"],
+    "A storage area network scales a shared pool of volumes.",
+    [
+      oval(15, 23, 49, 16), line([15, 31], [15, 77], [22, 82], [39, 84], [57, 82], [64, 77], [64, 31]), line([15, 50], [22, 55], [39, 57], [57, 55], [64, 50]), line([15, 68], [22, 73], [39, 75], [57, 73], [64, 68]),
+      line([73, 57], [108, 57]), line([80, 50], [73, 57], [80, 64]), line([101, 50], [108, 57], [101, 64]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-storage-functions", "azure", "Storage Functions", ["02909-icon-service-Storage-Functions"],
     "Code responds to operations on stored data.",
     [
