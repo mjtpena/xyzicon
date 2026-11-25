@@ -1,6 +1,42 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-edge-actions", "azure", "Edge Actions", ["029273094-icon-service-Edge-Actions"],
+    "An action runs at the edge as traffic passes.",
+    [
+      line([15, 60], [22, 60]), line([23, 45], [29, 34], [41, 28], [52, 31], [58, 39], [69, 38], [78, 44], [81, 52]),
+      line([26, 66], [39, 66], [39, 51], [51, 51], [51, 80], [64, 80]), line([64, 80], [58, 74]), line([64, 80], [58, 86]), line([75, 65], [108, 65]), line([99, 56], [108, 65], [99, 74]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-communications-gateway", "azure", "Communications Gateway", ["03311-icon-service-Azure-Communications-Gateway"],
+    "A communications gateway routes calls between networks.",
+    [
+      oval(14, 34, 48, 48), line([38, 34], [30, 44], [27, 58], [30, 72], [38, 82]), line([38, 34], [46, 44], [49, 58], [46, 72], [38, 82]), line([17, 50], [59, 50]), line([17, 66], [59, 66]),
+      line([62, 58], [76, 58]), line([78, 35], [84, 31], [91, 40], [87, 47], [92, 54], [99, 58], [106, 53], [113, 60], [110, 68], [103, 71], [92, 66], [83, 58], [77, 47], [78, 35]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-application-gateway-containers", "azure", "Application Gateway for Containers", ["03328-icon-service-Application-Gateway-Containers"],
+    "An application gateway distributes requests to container workloads.",
+    [
+      line([13, 30], [35, 30], [35, 49], [13, 49], [13, 30]), line([35, 39], [54, 39], [54, 62]), oval(47, 55, 15, 15), line([62, 62], [80, 62]),
+      rect(82, 18, 30, 18), rect(82, 51, 30, 18), rect(82, 84, 30, 18), line([80, 27], [80, 93]), line([80, 27], [82, 27]), line([80, 93], [82, 93]), line([14, 112], [110, 112]),
+    ]),
+  entry("azure-dns-multistack", "azure", "DNS Multistack", ["03459-icon-service-DNS-Multistack"],
+    "DNS coordinates name resolution across multiple network stacks.",
+    [
+      oval(11, 34, 45, 45), line([33, 34], [26, 43], [23, 56], [26, 69], [33, 79]), line([33, 34], [40, 43], [43, 56], [40, 69], [33, 79]), line([14, 48], [53, 48]), line([14, 64], [53, 64]),
+      line([56, 56], [65, 56]), rect(67, 24, 44, 16), rect(67, 48, 44, 16), rect(67, 72, 44, 16), line([74, 32], [101, 32]), line([74, 56], [101, 56]), line([74, 80], [101, 80]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-traffic-manager-multistack", "azure", "Traffic Manager Multistack", ["03460-icon-service-ATM-Multistack"],
+    "Traffic Manager routes across multiple network stacks.",
+    [
+      rect(14, 24, 44, 16), rect(14, 48, 44, 16), rect(14, 72, 44, 16), line([20, 32], [51, 32]), line([20, 56], [51, 56]), line([20, 80], [51, 80]),
+      line([58, 56], [73, 56]), line([73, 56], [96, 33]), line([87, 33], [96, 33], [96, 42]), line([73, 56], [96, 79]), line([87, 79], [96, 79], [96, 70]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-virtual-wans", "azure", "Virtual WANs", ["10353-icon-service-Virtual-WANs"],
+    "A virtual wide-area network links distant sites through a cloud.",
+    [
+      line([22, 60], [17, 55], [17, 47], [22, 41], [30, 41], [34, 30], [44, 25], [55, 27], [61, 37], [70, 37], [77, 43], [78, 49]),
+      line([29, 59], [29, 76]), line([69, 59], [69, 76]), rect(16, 76, 26, 18), rect(56, 76, 26, 18), line([81, 55], [100, 55]), oval(98, 44, 18, 22), line([14, 110], [110, 110]),
+    ]),
   entry("azure-public-ip-classic", "azure", "Public IP Address (Classic)", ["10068-icon-service-Public-IP-Addresses-(Classic)"],
     "A public address uses the classic deployment model.",
     [
