@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1212,
-  "aliases": 4094,
+  "count": 1217,
+  "aliases": 4099,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -715,6 +715,11 @@
     "aws-xray",
     "aws-codecatalyst",
     "aws-corretto",
+    "aws-location-geofence",
+    "aws-location-map",
+    "aws-location-place",
+    "aws-location-routes",
+    "aws-location-track",
     "aws-blockchain-resource",
     "aws-pinpoint-journey",
     "aws-ses-email",
@@ -1323,8 +1328,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1367,
-      "concepts": 399
+      "covered": 1372,
+      "concepts": 404
     },
     "gcp": {
       "sources": 261,
@@ -3776,9 +3781,9 @@
         "similarity": 0.2439
       },
       {
-        "a": "dynamics-project-operations",
-        "b": "m365-map",
-        "similarity": 0.2227
+        "a": "m365-map",
+        "b": "aws-location-map",
+        "similarity": 0.2376
       }
     ],
     "m365-search": [
@@ -8039,13 +8044,13 @@
       },
       {
         "a": "gcp-datastream",
-        "b": "aws-location-service",
-        "similarity": 0.2111
+        "b": "aws-location-map",
+        "similarity": 0.213
       },
       {
-        "a": "aws-textract",
-        "b": "gcp-datastream",
-        "similarity": 0.2054
+        "a": "gcp-datastream",
+        "b": "aws-location-service",
+        "similarity": 0.2111
       }
     ],
     "gcp-data-catalog": [
@@ -9795,8 +9800,8 @@
       },
       {
         "a": "aws-opensearch-observability",
-        "b": "aws-ec2-ami",
-        "similarity": 0.2372
+        "b": "aws-location-geofence",
+        "similarity": 0.2403
       }
     ],
     "aws-opensearch-dashboards": [
@@ -11790,6 +11795,11 @@
     ],
     "aws-sagemaker-geospatial": [
       {
+        "a": "aws-sagemaker-geospatial",
+        "b": "aws-location-map",
+        "similarity": 0.4582
+      },
+      {
         "a": "m365-text-first-line",
         "b": "aws-sagemaker-geospatial",
         "similarity": 0.2578
@@ -11798,11 +11808,6 @@
         "a": "aws-opensearch-dashboards",
         "b": "aws-sagemaker-geospatial",
         "similarity": 0.256
-      },
-      {
-        "a": "gcp-producer-portal",
-        "b": "aws-sagemaker-geospatial",
-        "similarity": 0.245
       }
     ],
     "aws-sagemaker-model": [
@@ -13401,6 +13406,91 @@
         "a": "aws-corretto",
         "b": "m365-folder-open-vertical",
         "similarity": 0.1806
+      }
+    ],
+    "aws-location-geofence": [
+      {
+        "a": "aws-textract-lending",
+        "b": "aws-location-geofence",
+        "similarity": 0.2411
+      },
+      {
+        "a": "gcp-quantum-engine",
+        "b": "aws-location-geofence",
+        "similarity": 0.2407
+      },
+      {
+        "a": "aws-opensearch-observability",
+        "b": "aws-location-geofence",
+        "similarity": 0.2403
+      }
+    ],
+    "aws-location-map": [
+      {
+        "a": "aws-sagemaker-geospatial",
+        "b": "aws-location-map",
+        "similarity": 0.4582
+      },
+      {
+        "a": "m365-apps",
+        "b": "aws-location-map",
+        "similarity": 0.2796
+      },
+      {
+        "a": "fabric-scorecard",
+        "b": "aws-location-map",
+        "similarity": 0.2627
+      }
+    ],
+    "aws-location-place": [
+      {
+        "a": "gcp-cloud-run-anthos",
+        "b": "aws-location-place",
+        "similarity": 0.1713
+      },
+      {
+        "a": "gcp-agent-assist",
+        "b": "aws-location-place",
+        "similarity": 0.163
+      },
+      {
+        "a": "aws-redshift-ra3",
+        "b": "aws-location-place",
+        "similarity": 0.1611
+      }
+    ],
+    "aws-location-routes": [
+      {
+        "a": "gcp-migrate-anthos",
+        "b": "aws-location-routes",
+        "similarity": 0.1797
+      },
+      {
+        "a": "aws-redshift-ml",
+        "b": "aws-location-routes",
+        "similarity": 0.1703
+      },
+      {
+        "a": "gcp-managed-active-directory",
+        "b": "aws-location-routes",
+        "similarity": 0.1679
+      }
+    ],
+    "aws-location-track": [
+      {
+        "a": "azure-event-hub-clusters",
+        "b": "aws-location-track",
+        "similarity": 0.2174
+      },
+      {
+        "a": "aws-location-track",
+        "b": "aws-application-migration",
+        "similarity": 0.2127
+      },
+      {
+        "a": "azure-foundry-models",
+        "b": "aws-location-track",
+        "similarity": 0.2111
       }
     ],
     "aws-blockchain-resource": [
@@ -15910,14 +16000,14 @@
         "similarity": 0.2175
       },
       {
+        "a": "aws-location-geofence",
+        "b": "m365-edit",
+        "similarity": 0.2164
+      },
+      {
         "a": "gcp-looker",
         "b": "m365-edit",
         "similarity": 0.2138
-      },
-      {
-        "a": "aws-opensearch-ultrawarm",
-        "b": "m365-edit",
-        "similarity": 0.2092
       }
     ],
     "m365-filmstrip-play": [

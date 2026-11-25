@@ -3,6 +3,44 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-location-geofence", "aws", "Location Service Geofence", ["Res_Amazon-Location-Service_Geofence_48"],
+    "A boundary encloses a monitored geographic area.",
+    [
+      line([20, 33], [37, 22]), line([45, 19], [55, 19]), line([64, 20], [74, 23]), line([82, 26], [93, 30]), line([102, 34], [110, 40]),
+      line([110, 48], [107, 58]), line([104, 67], [100, 77]), line([96, 85], [85, 91]), line([77, 96], [66, 98]), line([57, 98], [47, 94]), line([39, 90], [28, 84]), line([20, 78], [16, 68]), line([14, 59], [15, 48]), line([17, 40], [20, 33]),
+      line([64, 36], [55, 38], [50, 45], [51, 53], [64, 69], [77, 53], [78, 45], [73, 38], [64, 36]), oval(60, 44, 8, 8),
+      line([16, 112], [112, 112]),
+    ]),
+  entry("aws-location-map", "aws", "Location Service Map", ["Res_Amazon-Location-Service_Map _48"],
+    "A folded map displays roads and terrain.",
+    [
+      line([14, 31], [42, 21], [83, 33], [114, 22], [114, 91], [83, 102], [42, 90], [14, 100], [14, 31]), line([42, 21], [42, 90]), line([83, 33], [83, 102]),
+      line([19, 75], [29, 69], [42, 70], [53, 56], [66, 59], [83, 50], [97, 54], [108, 48]),
+      line([17, 44], [26, 48], [34, 41]), line([50, 80], [59, 71], [70, 76]), line([90, 83], [101, 69], [109, 72]),
+      line([16, 114], [112, 114]),
+    ]),
+  entry("aws-location-place", "aws", "Location Service Place", ["Res_Amazon-Location-Service_Place_48"],
+    "A location pin marks a point of interest.",
+    [
+      line([64, 12], [49, 15], [37, 24], [32, 38], [33, 50], [39, 63], [64, 94], [89, 63], [95, 50], [96, 38], [91, 24], [79, 15], [64, 12]),
+      oval(53, 30, 22, 22), line([34, 101], [47, 105], [81, 105], [94, 101]), line([18, 115], [110, 115]),
+    ]),
+  entry("aws-location-routes", "aws", "Location Service Routes", ["Res_Amazon-Location-Service_Routes_48"],
+    "A planned route connects an origin to a destination.",
+    [
+      oval(13, 75, 18, 18), line([31, 84], [42, 84], [42, 63], [60, 63], [60, 42], [85, 42]),
+      line([78, 35], [85, 42], [78, 49]),
+      line([97, 15], [87, 17], [81, 24], [81, 33], [97, 52], [113, 33], [113, 24], [107, 17], [97, 15]), oval(93, 23, 8, 8),
+      line([16, 109], [112, 109]),
+    ]),
+  entry("aws-location-track", "aws", "Location Service Track", ["Res_Amazon-Location-Service_Track _48"],
+    "A moving device reports a trail of positions.",
+    [
+      line([13, 85], [27, 85]), line([35, 85], [47, 78]), line([54, 74], [64, 67]), line([71, 63], [81, 58]),
+      oval(13, 78, 13, 13), oval(43, 70, 13, 13), oval(73, 52, 13, 13),
+      rect(82, 14, 28, 42), line([82, 22], [110, 22]), line([91, 48], [101, 48]), line([88, 34], [96, 28], [104, 34]),
+      line([29, 102], [100, 102]), line([16, 113], [112, 113]),
+    ]),
   entry("aws-blockchain-resource", "aws", "Managed Blockchain Blockchain", ["Res_Amazon-Managed-Blockchain_Blockchain_48"],
     "A chain of linked blocks shares an ordered ledger.",
     [
