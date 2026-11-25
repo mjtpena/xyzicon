@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 565,
+  "approved": 577,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,18 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-cloudtrail-lake",
-    "aws-license-application-discovery",
-    "aws-license-blending",
-    "aws-organizations-account",
-    "aws-organizations-management-account",
-    "aws-organizational-unit",
-    "aws-general-management-console",
-    "aws-general-sdk",
-    "aws-general-ssl-padlock",
-    "aws-general-server",
-    "aws-general-servers",
-    "aws-general-shield",
     "aws-general-source-code",
     "aws-general-tape-storage",
     "aws-general-toolkit",
@@ -5989,11 +5977,6 @@
     "aws-data-firehose": [
       {
         "a": "aws-data-firehose",
-        "b": "aws-general-servers",
-        "similarity": 0.2045
-      },
-      {
-        "a": "aws-data-firehose",
         "b": "azure-backup-vault",
         "similarity": 0.1969
       },
@@ -6001,6 +5984,11 @@
         "a": "aws-data-firehose",
         "b": "fabric-metric-sets",
         "similarity": 0.1944
+      },
+      {
+        "a": "aws-data-firehose",
+        "b": "aws-general-email",
+        "similarity": 0.1931
       }
     ],
     "aws-appsync": [
@@ -9729,6 +9717,11 @@
     "gcp-datastream": [
       {
         "a": "gcp-datastream",
+        "b": "aws-general-servers",
+        "similarity": 0.2401
+      },
+      {
+        "a": "gcp-datastream",
         "b": "aws-systems-run-command",
         "similarity": 0.2376
       },
@@ -9736,11 +9729,6 @@
         "a": "gcp-datastream",
         "b": "azure-web-slots",
         "similarity": 0.2304
-      },
-      {
-        "a": "gcp-datastream",
-        "b": "azure-server-farm",
-        "similarity": 0.2301
       }
     ],
     "gcp-data-catalog": [
@@ -21380,6 +21368,11 @@
     ],
     "aws-efs-file-system": [
       {
+        "a": "aws-efs-file-system",
+        "b": "aws-general-servers",
+        "similarity": 0.2671
+      },
+      {
         "a": "gcp-managed-active-directory",
         "b": "aws-efs-file-system",
         "similarity": 0.2643
@@ -21388,11 +21381,6 @@
         "a": "azure-defender-pneumatic",
         "b": "aws-efs-file-system",
         "similarity": 0.2618
-      },
-      {
-        "a": "azure-defender-dcs-controller",
-        "b": "aws-efs-file-system",
-        "similarity": 0.2464
       }
     ],
     "aws-ebs-lifecycle-manager": [
@@ -22649,8 +22637,8 @@
       },
       {
         "a": "aws-codedeploy",
-        "b": "aws-category-business-applications",
-        "similarity": 0.2104
+        "b": "aws-general-servers",
+        "similarity": 0.2179
       }
     ],
     "aws-codepipeline": [
@@ -24781,18 +24769,18 @@
     "aws-general-servers": [
       {
         "a": "aws-general-servers",
-        "b": "aws-waf-rule",
-        "similarity": 0.3053
+        "b": "aws-device-farm",
+        "similarity": 0.3183
       },
       {
         "a": "aws-general-servers",
-        "b": "azure-mobile-engagement",
-        "similarity": 0.2893
+        "b": "azure-files",
+        "similarity": 0.307
       },
       {
-        "a": "aws-iot-thing-medical-emergency",
-        "b": "aws-general-servers",
-        "similarity": 0.2846
+        "a": "aws-general-servers",
+        "b": "gcp-category-migration",
+        "similarity": 0.306
       }
     ],
     "aws-general-shield": [
@@ -28464,14 +28452,14 @@
         "similarity": 0.2866
       },
       {
+        "a": "aws-general-servers",
+        "b": "aws-vpc-access-analyzer",
+        "similarity": 0.2699
+      },
+      {
         "a": "aws-vpc-access-analyzer",
         "b": "azure-resource-group-list",
         "similarity": 0.2623
-      },
-      {
-        "a": "azure-device-security-windows",
-        "b": "aws-vpc-access-analyzer",
-        "similarity": 0.2593
       }
     ],
     "aws-vpc-network-acl": [
@@ -29343,6 +29331,11 @@
     ],
     "gcp-category-compute": [
       {
+        "a": "aws-general-servers",
+        "b": "gcp-category-compute",
+        "similarity": 0.237
+      },
+      {
         "a": "fabric-mobile-report",
         "b": "gcp-category-compute",
         "similarity": 0.2195
@@ -29351,11 +29344,6 @@
         "a": "azure-storage-queue",
         "b": "gcp-category-compute",
         "similarity": 0.2137
-      },
-      {
-        "a": "gcp-category-compute",
-        "b": "azure-compute-fleet",
-        "similarity": 0.1995
       }
     ],
     "gcp-category-containers": [
@@ -31814,6 +31802,11 @@
     ],
     "aws-device-farm": [
       {
+        "a": "aws-general-servers",
+        "b": "aws-device-farm",
+        "similarity": 0.3183
+      },
+      {
         "a": "gcp-category-migration",
         "b": "aws-device-farm",
         "similarity": 0.3077
@@ -31822,11 +31815,6 @@
         "a": "aws-codewhisperer",
         "b": "aws-device-farm",
         "similarity": 0.2995
-      },
-      {
-        "a": "aws-cloud9",
-        "b": "aws-device-farm",
-        "similarity": 0.2982
       }
     ],
     "aws-lightsail-research": [
@@ -35168,14 +35156,14 @@
         "similarity": 0.2802
       },
       {
+        "a": "aws-general-servers",
+        "b": "azure-availability-sets",
+        "similarity": 0.271
+      },
+      {
         "a": "aws-devops-guru",
         "b": "azure-availability-sets",
         "similarity": 0.2474
-      },
-      {
-        "a": "aws-ses",
-        "b": "azure-availability-sets",
-        "similarity": 0.2466
       }
     ],
     "azure-disk-snapshot": [

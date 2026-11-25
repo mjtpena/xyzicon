@@ -1498,9 +1498,9 @@
   },
   "aws-data-firehose": {
     "revision": "788ae891083c8e75b7c30f076cde0f3d3197c6ed3d17386a8692d09558a183bd",
-    "comparisonRevision": "05f877b77843d8127bb45acce2274209b8aaf326b2fac0ba7a704468280a6b93",
+    "comparisonRevision": "8b43f284f1a741bd94335cdfe18b34a8140d825ce38c38123d0a85cd20af006d",
     "status": "approved",
-    "notes": "A horizontal stream of events delivers to storage, distinct from racks, a vault and metric sets as well as Fabric streaming dataflow."
+    "notes": "A stream enters storage, unlike the vault, metrics set and email."
   },
   "aws-appsync": {
     "revision": "66d26d11c4b0b9e315cadfa0fbf5ff40909ed9c582da9c85cf2e5c010d611395",
@@ -2866,9 +2866,9 @@
   },
   "aws-efs-file-system": {
     "revision": "46036c7aa47e19e99822919f449c7d73c9800a9d94d76b51b1b99181164f804b",
-    "comparisonRevision": "3fc00e6b9f8474243f9d0dc7b6afcc43bfbf0011e12b9d4e655019577afa4f4a",
+    "comparisonRevision": "2c3f524b0c46045ffb0e5b3e8398cbd8b3321bd81cedb6397d73e1d54c102c87",
     "status": "approved",
-    "notes": "A hierarchy of folders differs from active directory, a pneumatic meter and a controller."
+    "notes": "A folder tree differs from separate server towers, directory identities and a pneumatic sensor."
   },
   "aws-ebs-lifecycle-manager": {
     "revision": "70708ae6c2a88bf13b61ca5e0a19c0cde1313125b24f0b54ea08501df47a8a99",
@@ -3244,9 +3244,9 @@
   },
   "aws-codedeploy": {
     "revision": "0e7646a61c5ffb8fd95d6c2f0e3b70364aa02049d4707e1e2b8acdf1bd6846f9",
-    "comparisonRevision": "ba84449a43937735049288d413ba0d3d0fc4a1b7de82717f1352fa416150790b",
+    "comparisonRevision": "e4ec975fb15cea843648f7f5d943a308b581f73b45655760990d6ab4c4f4d167",
     "status": "approved",
-    "notes": "An application distributes to two servers, unlike scale sets, a research flask and business people."
+    "notes": "An application fans out to two servers, unlike scale sets, research and three independent server towers."
   },
   "aws-codepipeline": {
     "revision": "67c24d0fc4831f21b04a1bd6cb21645126be3416d6cccf816429e434902759c9",
@@ -3913,5 +3913,77 @@
     "comparisonRevision": "7e72db901bf015b86f992d671fcc38e5b8ca1023adf1158c0654fea8ed9f2a61",
     "status": "approved",
     "notes": "Two records show proposed changes, unlike process messages, disaster recovery and a three-party interchange."
+  },
+  "aws-cloudtrail-lake": {
+    "revision": "60ae7ba2e5f65ac4eeb6bf7cde0e9525b19ef4967ea7fbbd21abff3ea83a485c",
+    "comparisonRevision": "55aab2aa040de592f0114dad2e7af2ab61006d3601f411a634ffab30227f669b",
+    "status": "approved",
+    "notes": "A record floats on lake waves, unlike the Azure cloud, search node and EBS lifecycle."
+  },
+  "aws-license-application-discovery": {
+    "revision": "db03cc9eec16646233dfb5bc77aba1a10b5b24be2fd0672ac7541a9b8b6f2506",
+    "comparisonRevision": "352bd6108e00c9f619c5d523b165fd1808b56df647649261b4dfd78cb929f4be",
+    "status": "approved",
+    "notes": "A magnifier inspects an application grid, unlike a locked session, quantum simulation and cost chart."
+  },
+  "aws-license-blending": {
+    "revision": "2ba57e5f67cbda5159c3e55b9f3c1dd6075bb443e4ba8a912750bec7a0dca2e7",
+    "comparisonRevision": "0aabf4d522616ffcb3c612ce032f7208443f9f0fe89feb085e4412e7d3f13c60",
+    "status": "approved",
+    "notes": "Two license documents converge on a check, unlike column transfer, IoT action and backup storage."
+  },
+  "aws-organizations-account": {
+    "revision": "97d31ff7e76442fe53a5d5c630d6bc798509c890287deb570520e18abc2ec0f6",
+    "comparisonRevision": "e81f91e4af1f39bdb0894d791c05748606ef1d9a25213363b3be05148ae5769b",
+    "status": "approved",
+    "notes": "A person appears on an account card, unlike app dashboard, backup vault and cache lightning."
+  },
+  "aws-organizations-management-account": {
+    "revision": "9a0335be9ca222a6fc42b913571ce6a5e4473c00f82fcbf6ebc697142f064c75",
+    "comparisonRevision": "ef9aa7dca56d4295b68ba3e2f65307ac6e98ec78190fedfaea2c888f50b8dcef",
+    "status": "approved",
+    "notes": "An account bears a management gear, unlike application security, a toolbox and a developer at a monitor."
+  },
+  "aws-organizational-unit": {
+    "revision": "2ccbb5f2b15f7125f703275bdd35d566af02b8a0246253140edd03b500136ea6",
+    "comparisonRevision": "7185b899ee49e3358d136bd2171e732f376c9087a3ae6331d0bc968ead4d3bcc",
+    "status": "approved",
+    "notes": "A folder groups two account cards, unlike operator charts, HMI and a scheduled calendar."
+  },
+  "aws-general-management-console": {
+    "revision": "90fe09f48a2e2f3ee786d2f3af8cb1156c20df9322eb2dd39674f20b412efda8",
+    "comparisonRevision": "02ad2c9fe0b85249b38432f090322616ed6704d32dc4a00bcac6d98483f98ec3",
+    "status": "approved",
+    "notes": "A cloud and resource rows occupy a console, unlike the code window, application panel and browser."
+  },
+  "aws-general-sdk": {
+    "revision": "72084186ddbec7c1f84f7a8a4e16c1040a126a9230a5f1933acb1011cccba8d6",
+    "comparisonRevision": "f2a1665ad94a79cc495bdef99631452a73a80758dc1c86108f7b4a6782608520",
+    "status": "approved",
+    "notes": "An open kit with code brackets differs from an early-access sunrise, shield and cloud tools."
+  },
+  "aws-general-ssl-padlock": {
+    "revision": "303a572864e27c77c6bde1c89737a96d0580d19ad0b9d5501b44708c47224324",
+    "comparisonRevision": "73dd534ed40f9b4f3c8c83588aca77ae27dfe64aa248ed8cfc1f6ad477d756c7",
+    "status": "approved",
+    "notes": "A lock joins two clouds, unlike cached storage, control network and a dashboard."
+  },
+  "aws-general-server": {
+    "revision": "20b0f625e0276f89c05574a66cc7dad21bddc26aa2012e2d6a1a54820738c844",
+    "comparisonRevision": "344c416218f92745677fbc38879c320a51dc84c5b5ce082e505d6cbcbdc684b3",
+    "status": "approved",
+    "notes": "A single tower has several status bays, unlike the cloud manager, mobile client and luggage and the three separate server towers."
+  },
+  "aws-general-servers": {
+    "revision": "567ebf65c5b3b1ea28bf9a415eb79b97f305ff795903e98fa8a05d8ac22ef981",
+    "comparisonRevision": "9df9b8f7358b13e84298645e4e02c3ca49cf0e1f9ca4a6d7d54abfa4ed22bbc8",
+    "status": "approved",
+    "notes": "Three separate server towers differ from device farm, files and migration as well as a single server tower."
+  },
+  "aws-general-shield": {
+    "revision": "ce467a98bfdfdbe674a4b772a9f4e2995d0259c4a44a0665f4c50b624df950a7",
+    "comparisonRevision": "58df4f5139a07280ae309ef2036f08637feac19a89943cb2f15c9b5e6e43e1e6",
+    "status": "approved",
+    "notes": "A crossed shield differs from an identity shield, database and subway car."
   }
 }
