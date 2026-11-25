@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 985,
-  "aliases": 3729,
+  "count": 988,
+  "aliases": 3733,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -227,6 +227,9 @@
     "gcp-dataplex",
     "gcp-dataprep",
     "gcp-asset-inventory",
+    "gcp-deployment-manager",
+    "gcp-external-ip",
+    "gcp-cloud-routes",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1094,8 +1097,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 132,
-      "concepts": 120
+      "covered": 136,
+      "concepts": 123
     }
   },
   "nearest": {
@@ -3900,8 +3903,8 @@
       },
       {
         "a": "azure-event-grid-subscriptions",
-        "b": "gcp-security-operations",
-        "similarity": 0.2178
+        "b": "gcp-external-ip",
+        "similarity": 0.2317
       }
     ],
     "aws-glue": [
@@ -4873,6 +4876,57 @@
         "similarity": 0.325
       }
     ],
+    "gcp-deployment-manager": [
+      {
+        "a": "gcp-deployment-manager",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2593
+      },
+      {
+        "a": "gcp-deployment-manager",
+        "b": "azure-private-link-services",
+        "similarity": 0.2489
+      },
+      {
+        "a": "gcp-deployment-manager",
+        "b": "m365-slide-layout",
+        "similarity": 0.2489
+      }
+    ],
+    "gcp-external-ip": [
+      {
+        "a": "gcp-external-ip",
+        "b": "fabric-sustainability",
+        "similarity": 0.2457
+      },
+      {
+        "a": "gcp-external-ip",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2454
+      },
+      {
+        "a": "gcp-external-ip",
+        "b": "azure-language",
+        "similarity": 0.2341
+      }
+    ],
+    "gcp-cloud-routes": [
+      {
+        "a": "gcp-cloud-routes",
+        "b": "aws-identity-center",
+        "similarity": 0.1852
+      },
+      {
+        "a": "gcp-cloud-routes",
+        "b": "m365-text-bullet-list-square",
+        "similarity": 0.1808
+      },
+      {
+        "a": "gcp-cloud-routes",
+        "b": "m365-organization-horizontal",
+        "similarity": 0.1733
+      }
+    ],
     "gcp-access-context": [
       {
         "a": "m365-chart-multiple",
@@ -5645,14 +5699,14 @@
         "similarity": 0.2213
       },
       {
-        "a": "gcp-persistent-disk",
-        "b": "fabric-data-agent",
-        "similarity": 0.1993
+        "a": "gcp-deployment-manager",
+        "b": "gcp-persistent-disk",
+        "similarity": 0.2111
       },
       {
         "a": "gcp-persistent-disk",
-        "b": "azure-storage-queue",
-        "similarity": 0.1902
+        "b": "fabric-data-agent",
+        "similarity": 0.1993
       }
     ],
     "gcp-cloud-domains": [
@@ -10825,6 +10879,11 @@
     ],
     "aws-support": [
       {
+        "a": "gcp-external-ip",
+        "b": "aws-support",
+        "similarity": 0.1945
+      },
+      {
         "a": "azure-event-grid-subscriptions",
         "b": "aws-support",
         "similarity": 0.1771
@@ -10833,11 +10892,6 @@
         "a": "aws-support",
         "b": "aws-chime-sdk",
         "similarity": 0.1458
-      },
-      {
-        "a": "fabric-data-agent",
-        "b": "aws-support",
-        "similarity": 0.145
       }
     ],
     "aws-professional-services": [
@@ -10988,9 +11042,9 @@
         "similarity": 0.2615
       },
       {
-        "a": "power-apps",
+        "a": "gcp-deployment-manager",
         "b": "aws-migration-evaluator",
-        "similarity": 0.2564
+        "similarity": 0.2593
       }
     ],
     "aws-transform": [
@@ -11080,6 +11134,11 @@
     ],
     "aws-application-discovery": [
       {
+        "a": "gcp-deployment-manager",
+        "b": "aws-application-discovery",
+        "similarity": 0.2072
+      },
+      {
         "a": "aws-migration-evaluator",
         "b": "aws-application-discovery",
         "similarity": 0.1921
@@ -11088,11 +11147,6 @@
         "a": "azure-waf-policies",
         "b": "aws-application-discovery",
         "similarity": 0.1878
-      },
-      {
-        "a": "azure-private-link-services",
-        "b": "aws-application-discovery",
-        "similarity": 0.1871
       }
     ],
     "aws-service-management-connector": [
@@ -11957,9 +12011,9 @@
         "similarity": 0.2194
       },
       {
-        "a": "gcp-asset-inventory",
+        "a": "gcp-deployment-manager",
         "b": "aws-security-incident-response",
-        "similarity": 0.2106
+        "similarity": 0.2117
       }
     ],
     "aws-audit-manager": [
@@ -12939,14 +12993,14 @@
         "similarity": 0.1863
       },
       {
+        "a": "gcp-external-ip",
+        "b": "m365-cloud-cube",
+        "similarity": 0.1588
+      },
+      {
         "a": "m365-cloud-download",
         "b": "m365-cloud-cube",
         "similarity": 0.1504
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "m365-cloud-cube",
-        "similarity": 0.1499
       }
     ],
     "m365-cloud-database": [
@@ -16900,9 +16954,9 @@
         "similarity": 0.1383
       },
       {
-        "a": "aws-category-quantum",
+        "a": "gcp-external-ip",
         "b": "fabric-airplane",
-        "similarity": 0.1342
+        "similarity": 0.1378
       }
     ],
     "fabric-app-folder-pulse": [
@@ -17429,9 +17483,9 @@
         "similarity": 0.1578
       },
       {
-        "a": "aws-lake-formation-data-lake",
+        "a": "gcp-external-ip",
         "b": "fabric-list-shield",
-        "similarity": 0.1492
+        "similarity": 0.1532
       }
     ],
     "fabric-lock-circle": [

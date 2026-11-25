@@ -1069,7 +1069,7 @@
       ],
       "revision": "fe02117b002ecc3451b36928f5df9b67c16799179ec98cb5238948c7fab6cf21",
       "geometrySignature": "5816fc1ce399152b60fe69228bacc3fd1fe9031803da88b8a0ed1ee468ff5e6b",
-      "comparisonRevision": "984bcc561be7533301ea07866c672767b2d48f43af5ea9c5e98889cf422d130f",
+      "comparisonRevision": "e18a74fb90f30b4089538ab510f7ae3aafbc5cb298fac9bd91ee2eff126676a9",
       "review": "pending",
       "notes": ""
     },
@@ -2771,7 +2771,7 @@
       ],
       "revision": "81ce0250d39563a2f087901c84cd14185f6b7e3d43d73ed97b0356b52f495a76",
       "geometrySignature": "9703fd402bb6daffcbf224209ecbb70b82fc64645b1642f1471e81aae5e5295b",
-      "comparisonRevision": "d177c47d67615f95f718b5c1ddc596135182d6a5cf9fe33ca98db6b203ccddf8",
+      "comparisonRevision": "19be35fda47f121e3afd45d56ffef6ace40fb823452367a8e140e03caab953f0",
       "review": "pending",
       "notes": ""
     },
@@ -3793,11 +3793,57 @@
       "rationale": "An inventory records cloud resources alongside their individual states.",
       "path": "stencils/gcp-asset-inventory.svg",
       "sources": [
-        "/icons/gcp/asset_inventory/asset_inventory.svg"
+        "/icons/gcp/asset_inventory/asset_inventory.svg",
+        "/icons/gcp/cloud_asset_inventory/cloud_asset_inventory.svg"
       ],
-      "revision": "fab4b8f74622c6af6eba3e25d2c2b4202133bc56fcc0f4ef4ff667cc7e09d919",
+      "revision": "1eec000ca3dbcff6620470aa51a938a6a8977cf4ba0d2df23750bb49def8cc1f",
       "geometrySignature": "65c170007d69ae24952da06f94e06c527aea3350c0b8978eb0314814dd57bf23",
-      "comparisonRevision": "586b10a85516c9ae553a8d0ca038df217fcef565102d5f6536a2ee435e929687",
+      "comparisonRevision": "d4dc1073e627db1bf543943c8082cdac6f42f002cf100de14825fcbeab387659",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-deployment-manager",
+      "provider": "gcp",
+      "name": "Cloud Deployment Manager",
+      "rationale": "An infrastructure template creates a coordinated set of cloud resources.",
+      "path": "stencils/gcp-deployment-manager.svg",
+      "sources": [
+        "/icons/gcp/cloud_deployment_manager/cloud_deployment_manager.svg"
+      ],
+      "revision": "72f887029d04bccbb8848e1438d9b547cc1bbde00478fb4370b8399c3ffe7867",
+      "geometrySignature": "e0ea7df658b6ce2a05d88606777df72e035835c0ae7c53ebc00b8b5557c46746",
+      "comparisonRevision": "88b6f2f160b8e5f8b74197939c1f8d47d25b72cb57abd9da6dfc483261433d4e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-external-ip",
+      "provider": "gcp",
+      "name": "Cloud External IP Addresses",
+      "rationale": "A public address tag identifies a network endpoint on the internet.",
+      "path": "stencils/gcp-external-ip.svg",
+      "sources": [
+        "/icons/gcp/cloud_external_ip_addresses/cloud_external_ip_addresses.svg"
+      ],
+      "revision": "a0e64d87cbc4a66ac8464af690356a592464aef5669744f9fc6a1fa1ec273952",
+      "geometrySignature": "ea26a081c5be089df79763fe0a94629571d7d89a249dfebc196e62f30d27cbc7",
+      "comparisonRevision": "d8fd2b355f773527397291a90da74333059e49d1bfcba3d805d842a937ac0565",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-cloud-routes",
+      "provider": "gcp",
+      "name": "Cloud Routes",
+      "rationale": "A network route chooses one of two destinations at a junction.",
+      "path": "stencils/gcp-cloud-routes.svg",
+      "sources": [
+        "/icons/gcp/cloud_routes/cloud_routes.svg"
+      ],
+      "revision": "f56ab54338c20c56575424f100d926700b21adb71a02b10572c176beba3e1840",
+      "geometrySignature": "49c271083c0043cc86542a556bc7abe76a1197a08df822ba37065acd59d3db6f",
+      "comparisonRevision": "1e4a953dde7b2fb45a29958cf3f6626475ea9d656a63e6e06f93011fa2ca4dde",
       "review": "pending",
       "notes": ""
     },
@@ -4491,7 +4537,7 @@
       ],
       "revision": "c58748b0b07f7188765bb0f8f86614764d81dcb947e9f290cd87088f11193a57",
       "geometrySignature": "04ff06747464844c77c69b9011394162a85923c99b59263501d10c8d26aff5d0",
-      "comparisonRevision": "9f2c00e23efe91719ea49906230e20728d0202f9a5f85dc285e59480e6e6f53c",
+      "comparisonRevision": "fac1613c2cdf8f020992037f504349b9db09534f9648487907ca2bda60dbbf12",
       "review": "pending",
       "notes": ""
     },
@@ -4566,7 +4612,7 @@
       ],
       "revision": "c36abd3855bc1797e093d87ac4ef23ab9558628b349fb8922f678cc912caea18",
       "geometrySignature": "c38d5a65112973b42ce052d9cfbb6686786c3e84039ccafc3cb9bc150d391721",
-      "comparisonRevision": "73fed3d404ee4b6632cc2d79bd885909dbbfe228b85832b06fdfd2f796ab0603",
+      "comparisonRevision": "cb7b997af1a867cdb634648cc40bc0da72bf6b72ab877bccbecd4e8b7dbc9795",
       "review": "pending",
       "notes": ""
     },
@@ -5700,7 +5746,7 @@
       ],
       "revision": "6b46eee479c76869c415efe569c3073727ef90efb06b0bcc24127388a810e9b3",
       "geometrySignature": "71f47affe9e5211f553e94b5e74c5e2f6c20026e8efc60373546a71ef8e0f87a",
-      "comparisonRevision": "acea9be08f1049241eca6650ab18830a6966f34dcc67308ee66133af1b37ba7b",
+      "comparisonRevision": "5277fe40ea8a5ed61c124706eb22ec09d929a0449169346735c33dbefb43484c",
       "review": "pending",
       "notes": ""
     },
@@ -8738,7 +8784,7 @@
       ],
       "revision": "5c32bbf629cd8ad777e8e4d7d2fd9d27c6559e0e4357aa0e74172f5cfe3d651c",
       "geometrySignature": "79606394811f100c489cd7ad440f846f0714f3576705d934c91d725b53fe1e78",
-      "comparisonRevision": "b8f99a9e5eef730d0027dbb9b17d75ebfb7b98dc46ac4ef22850c1cc65526c9c",
+      "comparisonRevision": "e39f8b0943f497d773e5d9554b30328119cbb42ad623d8ac537c3e47cbd24081",
       "review": "pending",
       "notes": ""
     },
@@ -10207,7 +10253,7 @@
       ],
       "revision": "b4e0e86cd94baaeeeb93fc10d87c18bddbcb5f7235e47de6d0083cd65b3868b1",
       "geometrySignature": "dc03660243e1244ee32b2ad77d4b7b9f105156c9669af55ebc538a9105269698",
-      "comparisonRevision": "281c4b330e84fda6e552a26edb884c36ae68dc9486a2da15cd88b75abd41bbc2",
+      "comparisonRevision": "5f872d1b2aa3014ce21119468db2a21bb4ff4ef997d00cdf70f9a16b0b4c4989",
       "review": "pending",
       "notes": ""
     },
@@ -10369,7 +10415,7 @@
       ],
       "revision": "85787c63bd117153c94b97c0f94a1c540ff166072ef3baae64c2078883af69f0",
       "geometrySignature": "4335ed1e0bb9169bea211957c00a2b6845edf243b28c64c010c0e6aca4d9ef6b",
-      "comparisonRevision": "d2a0492d44400e63b3e2831df7f3a7ff780cc97f0d4315d33b5e2ffc5920a8e4",
+      "comparisonRevision": "cf5ad3cef011b19bcfebfdf8a20d503f5a9b2c65182508103f58e4910f8564f4",
       "review": "pending",
       "notes": ""
     },
@@ -10477,7 +10523,7 @@
       ],
       "revision": "5a226d77dcce452a58fcdc587deb9163cf482e9f0c31f85de294d1920f551d64",
       "geometrySignature": "5d468305ae1ea1d0c2e1531aa1465add4b8316a4dd45df9ceeb844ab7f0a5973",
-      "comparisonRevision": "39719d6d184bca41cfa685ca52c7ea43e0fd75b92c74ece2cf1cb32fd939692c",
+      "comparisonRevision": "a33dce1008e5b5fb8a33fd000b3ac9e6015e497924edd7fed4cd1228dcd2f818",
       "review": "pending",
       "notes": ""
     },
@@ -11395,7 +11441,7 @@
       ],
       "revision": "7efd9972bb59954f8538d5124c1b5ab5540bcf25b6ca02a730d467ce41319da7",
       "geometrySignature": "adc52890969e81864ae948b10dfa0515efee832c8b7363cb750b5d3798140c47",
-      "comparisonRevision": "22bb895ae78dca96c7af298efc1893487a243dfa8d376d9e76a69e6b41b05b90",
+      "comparisonRevision": "4a20d765b8b52e8da81c74249a6ae9e6d10d61a0c4ef2251acfc09f94c822fe1",
       "review": "pending",
       "notes": ""
     },
@@ -12143,7 +12189,7 @@
       ],
       "revision": "c0ec14d680533d7ff5986b468521bbeaa5203d8eedcaca85f3e82df3c50adfe5",
       "geometrySignature": "4d5a3154a15291c4d0bfa31052048f86f4b9b962726b8ca202629be5f18267c5",
-      "comparisonRevision": "88ccfb00d4844a1684713d2f90857376df639f19e924f4bd4accac8acbf020f8",
+      "comparisonRevision": "eb90e02369a5b3dc54d95cd8b36f12f04d8192320c7cfd6b09942c837396427b",
       "review": "pending",
       "notes": ""
     },
@@ -12477,7 +12523,7 @@
       ],
       "revision": "f2f87351c93f847f5698c936dc6ffcab26d8ae348e362a3838b4c240e22d6ed3",
       "geometrySignature": "fb2a3b306da35e26707784173990cdd92b991adf3efe9311757eb8140c5bc268",
-      "comparisonRevision": "5f1b77b650f63a2dc7f31f82f7e55820be97f708833575f439d259b18e8c2e33",
+      "comparisonRevision": "a98a6ae9e1012854ab425577142044d0f1cf0a55a908ef1c8f3823c177f79967",
       "review": "pending",
       "notes": ""
     },
@@ -16292,7 +16338,7 @@
       ],
       "revision": "e2ab02621e67a07ea8729528325f0d26812feb8da5ee1ed747d7e3807f5a9e33",
       "geometrySignature": "e97b77f6b676271de4a7759c9c4051add70ac4c6f155c7616f7b484affc3d13e",
-      "comparisonRevision": "a74632eefedb44c5fb079faa17aea53592fc93c2502af8381c6ee47a88e1666c",
+      "comparisonRevision": "fc87f00a8e9e2447cad40bfea0f54bf0edc17b730b5391163115e437bf095531",
       "review": "pending",
       "notes": ""
     },
@@ -16500,7 +16546,7 @@
       ],
       "revision": "fa04b779658d0285dbff829701e8f4b631b48d63421036a1f61c20cc29f65ce9",
       "geometrySignature": "b50a5f51bd07ab17a5974563f47e5ca863fb4422eaf08a62c07d6d8e216fd5ff",
-      "comparisonRevision": "bb392c2b84f741f38bb8548660fe5f24e51d7cffa31c296a3919fa26dfadbe67",
+      "comparisonRevision": "8435df8ab5bdf7895aa366a97e957635ee948b169719a578d77a85894027c568",
       "review": "pending",
       "notes": ""
     },
@@ -17032,7 +17078,7 @@
       ],
       "revision": "5f451b9bdc9cabc9fd98863ec79b3ae16233e471ddb73bf99ba4a19c98ce08d1",
       "geometrySignature": "71db7775537646f1a53318aab27070e0a940575d6eab85f69b2f39f4f4324317",
-      "comparisonRevision": "02ad787c15934634ee162ed9893b24227d735344f66e86fa3d562bcd7149df1e",
+      "comparisonRevision": "4518fc9bc90b6c136d2fa40b2d28314bdcaddf53be08bb6bbee469213e4bfb7d",
       "review": "pending",
       "notes": ""
     },
@@ -17050,7 +17096,7 @@
       ],
       "revision": "7a6a7d373c341925be5a75df6a0d97dcd0afffe7e4ea3596730f3770eaded827",
       "geometrySignature": "f4e67c5aebb238b9695b7d6af1fc76f1bc2c3b0cc07ca7f1cec9f905721a4a79",
-      "comparisonRevision": "eae86d66be16b8b5edc90c8ff7b785b4129d30baae080e47f901d72230e1b7c5",
+      "comparisonRevision": "0133e598a4d538b89abde0d76b3da6c343ca0cd069e56b0c5148193b59426ec0",
       "review": "pending",
       "notes": ""
     },
