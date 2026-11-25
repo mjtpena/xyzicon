@@ -3,16 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 1107,
+  "approved": 1115,
   "needsReview": [
-    "fabric-model",
-    "fabric-planning",
-    "fabric-report",
-    "fabric-scorecard",
-    "fabric-semantic-model",
-    "fabric-sql-database",
-    "fabric-sustainability",
-    "fabric-variable-library",
     "azure-azurite",
     "azure-arc-postgresql",
     "azure-arc-sql-managed-instance",
@@ -4211,7 +4203,7 @@
       {
         "a": "gcp-cloud-monitoring",
         "b": "fabric-variable-library",
-        "similarity": 0.3343
+        "similarity": 0.3266
       },
       {
         "a": "gcp-cloud-monitoring",
@@ -4776,8 +4768,8 @@
       },
       {
         "a": "fabric-briefcase-report",
-        "b": "fabric-variable-library",
-        "similarity": 0.2936
+        "b": "fabric-window-pulse",
+        "similarity": 0.2876
       }
     ],
     "fabric-categorize": [
@@ -9663,7 +9655,7 @@
       {
         "a": "m365-shifts",
         "b": "fabric-variable-library",
-        "similarity": 0.3909
+        "similarity": 0.3943
       },
       {
         "a": "azure-route-tables",
@@ -10241,17 +10233,17 @@
       {
         "a": "m365-shifts",
         "b": "fabric-variable-library",
-        "similarity": 0.3909
-      },
-      {
-        "a": "fabric-variable-library",
-        "b": "fabric-briefcase-pulse",
-        "similarity": 0.34
+        "similarity": 0.3943
       },
       {
         "a": "gcp-cloud-monitoring",
         "b": "fabric-variable-library",
-        "similarity": 0.3343
+        "similarity": 0.3266
+      },
+      {
+        "a": "fabric-variable-library",
+        "b": "fabric-briefcase-pulse",
+        "similarity": 0.323
       }
     ],
     "azure-azurite": [
@@ -38110,14 +38102,14 @@
         "similarity": 0.3577
       },
       {
-        "a": "fabric-variable-library",
-        "b": "fabric-briefcase-pulse",
-        "similarity": 0.34
-      },
-      {
         "a": "m365-shifts",
         "b": "fabric-briefcase-pulse",
         "similarity": 0.3395
+      },
+      {
+        "a": "fabric-briefcase-report",
+        "b": "fabric-briefcase-pulse",
+        "similarity": 0.3373
       }
     ],
     "fabric-retail-link": [

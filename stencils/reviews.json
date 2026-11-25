@@ -4754,9 +4754,9 @@
   },
   "gcp-cloud-monitoring": {
     "revision": "403c2c38753643c8d67d948fb451ce10a2221057fa0ccf49c4cbadc7f0b71e9e",
-    "comparisonRevision": "03201a419c73b94e6cca65937668d74d213ac6cf0d21f6ea06f92c3c607c99f8",
+    "comparisonRevision": "0d858806d4565e1d571bb7ae6741b3e736fe171219d6a97bbebc9ce416734e7b",
     "status": "approved",
-    "notes": "A dashboard combines gauge and chart, unlike scorecard, variable library and producer portal."
+    "notes": "A gauge and trend chart differ from scorecard bars, variable cards and producer portal."
   },
   "gcp-cloud-scheduler": {
     "revision": "6db9692adadfa48d715273af6736091b7fa725b4fbafa77899264b82452098f6",
@@ -5132,9 +5132,9 @@
   },
   "m365-shifts": {
     "revision": "f4b2c57334961e4517c476d75db1d38970283bd414386a3b4423044f73f3eae4",
-    "comparisonRevision": "d531e04217660a756088254cecc4e79de338f0a6f479dd2c2bc5506154a96a6b",
+    "comparisonRevision": "0cc2fe1bb3fca6ecd7425ba861549ead7cfb874a7b86b9c2e489b2fa9f929df7",
     "status": "approved",
-    "notes": "A calendar combines clock and activity trace, unlike variable library, routes and pulse briefcase."
+    "notes": "A clock on a calendar differs from variable controls, routing table and briefcase pulse across six variants."
   },
   "m365-signature": {
     "revision": "757ef3b51b0cc3aa23f4b51776e31ce38aa9c537853032e0b5d2f59fd61b48b1",
@@ -5588,9 +5588,9 @@
   },
   "fabric-briefcase-report": {
     "revision": "f4e58ea747e5cfd9d477e3c3c34fe737d76cb83d926bfb2a36997912138bc347",
-    "comparisonRevision": "dc998fab8da076f09f692eee8aaf25686405d85099d0a58426f6f9ea7cf932c0",
+    "comparisonRevision": "4916daf074048af60428fa97c3c8ac2a36a4e0c1f2379d2e24f06872b274b743",
     "status": "approved",
-    "notes": "An outlined chart on a briefcase reflects the source and separates it from the pulse case, data dashboard and variable case."
+    "notes": "A bar chart in a briefcase differs from the pulse briefcase, data usage and window pulse across four variants."
   },
   "fabric-categorize": {
     "revision": "9254afb835fec677f313944b39a1f1ce41934e6b3eeb0636001f7f61fbb89b8e",
@@ -7115,5 +7115,53 @@
     "comparisonRevision": "2351f755869b88d1cf649a522676445759d9283cb4b667e88feb344470ccf24b",
     "status": "approved",
     "notes": "A phone contains a bar chart rather than an update arrow, trace or cache grid."
+  },
+  "fabric-model": {
+    "revision": "1f73c693cadf4e751247f4ee6434a0d4caf3db3db35c4ef317984b9fd557d294",
+    "comparisonRevision": "9fd26851b45d27b318e3a4f55f24d4a7d075142a50f30dfbb008c21cce189342",
+    "status": "approved",
+    "notes": "Layered nodes produce a prediction unlike a data tree, function set or systems tooling."
+  },
+  "fabric-planning": {
+    "revision": "6265cc5cbcef3f09222e34a6241b8f83acae2ec7fea728c33814a0c358d9ef0a",
+    "comparisonRevision": "19ed0ded6976211220945eb7c0ca266043b3f47e98e70dd64490fbe10b194abd",
+    "status": "approved",
+    "notes": "A calendar timeline and target differ from VPC cards, app window and shell."
+  },
+  "fabric-report": {
+    "revision": "b19ae8e843edc8ad29252c881e64f9cfc927b54eb8a0c92788e6dbd988d63c19",
+    "comparisonRevision": "094c91bf2aaa4f37dbeb958a68f236af288e18108ac7d2146e9b35360b0114e7",
+    "status": "approved",
+    "notes": "A page with a bar chart differs from cost usage, paginated RDL and restricted report."
+  },
+  "fabric-scorecard": {
+    "revision": "6970b858e27bc35150da7181f0f8f941aa48239f5291d0a07ae9d04e586d2bb4",
+    "comparisonRevision": "1d9a36345458c77dde0b3b52c4f0d169f389f3577ddf6bb568fb6943c967d87f",
+    "status": "approved",
+    "notes": "Progress bars against target markers differ from category sliders, numbered list and app list."
+  },
+  "fabric-semantic-model": {
+    "revision": "1609c2a6ea9144fee8afc87f9aa53f8e0b9fe2cc1d70d375f45e7e7d32887a03",
+    "comparisonRevision": "5c944876e4163525950365d793060366865fe5922960cd9e67055ff6cfec7520",
+    "status": "approved",
+    "notes": "A semantic layer links a table to two analysis views rather than a security module, hardware or genomics."
+  },
+  "fabric-sql-database": {
+    "revision": "721510962aaa12e5fe4ed5b36480a16697eeff074e23d0fb562c0ceda99ab715",
+    "comparisonRevision": "26308fe42fec13a295810965a7fa0d6bf09d185b8136b016c18e57e1456423f2",
+    "status": "approved",
+    "notes": "A relational grid sits on layered storage with a query cursor, unlike archival stack, database asterisk or trace; twelve variants show SQL databases."
+  },
+  "fabric-sustainability": {
+    "revision": "809158dfafa458519e303aab99eaa2969ed4a17056a624ff1cd4034515d07b1e",
+    "comparisonRevision": "0eb771dd38c4858e64622505a25af22b191d50546e42d7a38dd96759d8b39701",
+    "status": "approved",
+    "notes": "A leaf on a trend plot differs from edge hardware, sales bars or information."
+  },
+  "fabric-variable-library": {
+    "revision": "b157d64205fdd6218a4db0afb00637153b577ae48197be3a45fe47efa36e9c9a",
+    "comparisonRevision": "2ae627d62b3b5752375bdf4ee805a947a11b4ea268848a7c923cc0c0df604053",
+    "status": "approved",
+    "notes": "Stacked variable cards display braces and value controls rather than shifts, monitoring or a pulse briefcase across six variants."
   }
 }
