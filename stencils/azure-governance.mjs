@@ -1,6 +1,55 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-ssh-keys", "azure", "SSH Keys", ["00412-icon-service-SSH-Keys"],
+    "A key grants secure shell access to a host.",
+    [
+      oval(14, 25, 30, 30), oval(23, 34, 12, 12), line([41, 47], [65, 71], [72, 64]), line([53, 59], [60, 52]), line([59, 65], [66, 58]),
+      rect(73, 24, 40, 35), line([80, 34], [86, 40], [80, 46]), line([90, 46], [105, 46]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cost-export", "azure", "Cost Export", ["00913-icon-service-Cost-Export"],
+    "A cost report is exported for analysis.",
+    [
+      rect(13, 20, 58, 69), line([13, 33], [71, 33]), line([22, 43], [27, 43]), line([34, 43], [62, 43]), line([22, 54], [27, 54]), line([34, 54], [62, 54]), line([22, 65], [27, 65]), line([34, 65], [62, 65]),
+      line([75, 58], [109, 58]), line([100, 49], [109, 58], [100, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-log-analytics-query-pack", "azure", "Log Analytics Query Pack", ["01085-icon-service-Log-Analytics-Query-Pack"],
+    "A pack collects reusable log queries.",
+    [
+      line([17, 69], [17, 19], [70, 19], [70, 27]), line([27, 78], [27, 29], [80, 29], [80, 37]), rect(38, 40, 67, 47),
+      line([46, 50], [53, 57], [46, 64]), line([58, 65], [76, 65]), line([46, 75], [95, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-dashboard-hub", "azure", "Dashboard Hub", ["01757-icon-service-Dashboard-Hub"],
+    "A dashboard hub collects monitoring views.",
+    [
+      line([13, 68], [13, 21], [74, 21], [74, 29]), line([24, 78], [24, 31], [85, 31], [85, 39]), rect(35, 42, 74, 49),
+      line([44, 80], [44, 51]), line([44, 80], [99, 80]), line([50, 70], [60, 59], [69, 65], [80, 52], [94, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-data-collection-rules", "azure", "Data Collection Rules", ["01857-icon-service-Data-Collection-Rules"],
+    "A set of rules selects data for collection.",
+    [
+      line([19, 16], [78, 16], [91, 29], [91, 96], [19, 96], [19, 16]), line([78, 16], [78, 29], [91, 29]),
+      rect(29, 34, 8, 8), line([45, 38], [79, 38]), rect(29, 50, 8, 8), line([45, 54], [72, 54]), rect(29, 66, 8, 8), line([45, 70], [79, 70]), line([63, 84], [108, 84]), line([101, 77], [108, 84], [101, 91]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resource-mover", "azure", "Resource Mover", ["02200-icon-service-Resource-Mover"],
+    "A cloud resource moves between locations.",
+    [
+      line([23, 33], [43, 23], [63, 33], [63, 54], [43, 65], [23, 54], [23, 33]), line([23, 33], [43, 43], [63, 33]), line([43, 43], [43, 65]),
+      line([63, 45], [96, 45], [96, 69]), line([89, 62], [96, 69], [103, 62]), line([58, 83], [83, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-ddos-custom-policy", "azure", "DDoS Custom Policy", ["035556610-icon-service-DDoS-Custom-Policy"],
+    "A custom policy controls protection against DDoS traffic.",
+    [
+      line([48, 15], [79, 26], [76, 64], [66, 79], [48, 91], [30, 79], [20, 64], [17, 26], [48, 15]), line([30, 42], [64, 42]), line([30, 53], [58, 53]), line([30, 64], [51, 64]),
+      line([72, 79], [96, 39], [108, 46], [84, 86], [70, 91], [72, 79]), line([92, 46], [104, 53]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-disconnected-operations", "azure", "Disconnected Operations", ["035712231-icon-service-Disconnected-Operations"],
+    "An application continues operating without a cloud connection.",
+    [
+      rect(13, 55, 40, 33), line([13, 65], [53, 65]), line([20, 76], [43, 76]),
+      line([74, 48], [67, 44], [67, 37], [72, 32], [79, 32], [83, 23], [92, 20], [100, 25], [103, 32], [110, 35], [112, 42], [108, 48], [101, 50]),
+      line([54, 59], [62, 53]), line([67, 59], [74, 54]), line([59, 48], [73, 65]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-arc-machines", "azure", "Arc Machines", ["01710-icon-service-Arc-Machines"],
     "Hybrid machines are attached to a cloud management plane.",
     [

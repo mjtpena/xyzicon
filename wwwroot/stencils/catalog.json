@@ -1990,7 +1990,7 @@
       ],
       "revision": "fc5460ff266043a465aed4d8267b2184afc40735520af7f9c0a76b97ccfaf200",
       "geometrySignature": "f5fc6b09314429ad0e5315930401378b19331f4efced592c66e315d735db7e58",
-      "comparisonRevision": "05a7d6d8b879ad5b646dddaa276f767792f07fb7991b5000771b6eb6fed257ed",
+      "comparisonRevision": "09496f2cd024a63a9e52a4c08e89c08db91c08d840ef2f9841667acf77cc05cf",
       "review": "pending",
       "notes": ""
     },
@@ -3237,7 +3237,7 @@
       ],
       "revision": "1bfe2ab9b6ba9758d632526635471f73b78ac139a8920c4befce548f96ae0952",
       "geometrySignature": "f6882b96ad20faeb1447b093cf404524959007d833b564254f8635dd9d905e4c",
-      "comparisonRevision": "bfdd531af1ace4733c760af6ccd9132dd1705563849c0da89630e6cd84c07722",
+      "comparisonRevision": "74c2fbcdf7681ec348596f9a98169fbda454b457dc007188e561b404e1bb78ba",
       "review": "pending",
       "notes": ""
     },
@@ -8640,7 +8640,7 @@
       ],
       "revision": "3027228725871bfd0406144dbedc07196cb98a37e55ea23b8061a35021d16ae2",
       "geometrySignature": "1aeb55f3125b7b86ebddd25bc1137fa7bd2a57ce569381d2dac9fa51e861aaed",
-      "comparisonRevision": "136d8ed2e5aff2b62908948d4be96bbead3bc643e1ad810a9d3f782100b7a5f6",
+      "comparisonRevision": "90145af95748fe14871253e34d53083c3ebb9ccb0ece033dab8910c01dc4c305",
       "review": "pending",
       "notes": ""
     },
@@ -10677,7 +10677,7 @@
       ],
       "revision": "0b28eb2b84f0615a3da1581cb2e5e31c376dd6cdeb1d22339c843137b81e334b",
       "geometrySignature": "60b9db9147107685f27a5051817635b2a66d666431d05d514530e986e83b0cfe",
-      "comparisonRevision": "49e28d29f303f0794451bbed0a83aa8483fd0e46eb023f6097a4a33dbcb174b0",
+      "comparisonRevision": "c967383a67b3c04d4f050120299f868787e227d0eab5672d94d7296550a4d0e6",
       "review": "pending",
       "notes": ""
     },
@@ -15107,7 +15107,127 @@
       ],
       "revision": "e7e0ed2f065d4907af76f17c6cc92a2d82bd49c37dc65c468c2153a46252ed2c",
       "geometrySignature": "4c66b518dc4d9e9f59ee6f492d1bf98617b93f342930b8e99f8b6e785b7e2810",
-      "comparisonRevision": "f23fda081f8dbcdf8db5822a0aaf7f5e7c949f3452aa8965600cf371f366f30a",
+      "comparisonRevision": "9a31185380e369397bf3f2332b902d8f0aefcbaac6da8adb4cf51b842fcfb460",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-ssh-keys",
+      "provider": "azure",
+      "name": "SSH Keys",
+      "rationale": "A key grants secure shell access to a host.",
+      "path": "stencils/azure-ssh-keys.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/00412-icon-service-SSH-Keys.svg"
+      ],
+      "revision": "dcdd15d96d33db14e2c93ed8db718a23c24390fa33993262b2ddaf411b3deb26",
+      "geometrySignature": "56b62a37d0148a62581720329217053b35489b5ec5f749d96cd9558de1a8b642",
+      "comparisonRevision": "91aa88d802ee944c249faa9ffef173aaefb8e6018f44a49a7003c8361a36ae03",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-cost-export",
+      "provider": "azure",
+      "name": "Cost Export",
+      "rationale": "A cost report is exported for analysis.",
+      "path": "stencils/azure-cost-export.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/00913-icon-service-Cost-Export.svg"
+      ],
+      "revision": "359fc6ba3f3a661125b90ded8ec0cca0783770e5696058e0442ef83e7feef8f2",
+      "geometrySignature": "5d4158fe3f0077302185291544793af914bfb8ad96cfa646cb1731676148be1d",
+      "comparisonRevision": "1f19135da3e0c7571ff6f29d7035b959dd4f5df0382f7f3649805996270017ae",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-log-analytics-query-pack",
+      "provider": "azure",
+      "name": "Log Analytics Query Pack",
+      "rationale": "A pack collects reusable log queries.",
+      "path": "stencils/azure-log-analytics-query-pack.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/01085-icon-service-Log-Analytics-Query-Pack.svg"
+      ],
+      "revision": "851eea6765f7145558d7d047a6e7b850f34c14f9e45a1ae309387aa324f10f8d",
+      "geometrySignature": "c5268bf1c39a14970975db2ec809ce5d81085aa44632623a5b3be961a11e06c5",
+      "comparisonRevision": "c79c0a7c65c7fd7d162daa01857de957aac79db0b4c7fab405c0ded3a248c55e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-dashboard-hub",
+      "provider": "azure",
+      "name": "Dashboard Hub",
+      "rationale": "A dashboard hub collects monitoring views.",
+      "path": "stencils/azure-dashboard-hub.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/01757-icon-service-Dashboard-Hub.svg"
+      ],
+      "revision": "99005acf6bfbc6ca96d4e5cea525be4d746ff31899990be5fd2ea4b277e181bb",
+      "geometrySignature": "44175b121eaa83ac33aaadf89d0f616c4340fd647908dd95291f207c8b32a927",
+      "comparisonRevision": "f53fcb06970958dd6a876d1e63327d7f78d443652d3858a75236eab899a195a1",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-data-collection-rules",
+      "provider": "azure",
+      "name": "Data Collection Rules",
+      "rationale": "A set of rules selects data for collection.",
+      "path": "stencils/azure-data-collection-rules.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/01857-icon-service-Data-Collection-Rules.svg"
+      ],
+      "revision": "50cd2bf65132fd92f59ba1f829683b4ec960f1660f5e0ae0eafe014cc675839b",
+      "geometrySignature": "97fe7e42eadb4d9ba41152536ea34f08080e38f01b1f004ec2520ac2a3c25b4a",
+      "comparisonRevision": "6b5d664f8596b986b352fb49d5f0b81980fcaed09fec9d8868fac1dd1fb18a32",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-resource-mover",
+      "provider": "azure",
+      "name": "Resource Mover",
+      "rationale": "A cloud resource moves between locations.",
+      "path": "stencils/azure-resource-mover.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/02200-icon-service-Resource-Mover.svg"
+      ],
+      "revision": "5cda47fbea69a1275fdf0891bc165b8069211f339cd33f2d4933fd16065804e8",
+      "geometrySignature": "fcf9b3e04e1ef279a2658eed878b3c793437f9614a649f109198e10a224313fd",
+      "comparisonRevision": "4ad4836fecdd586badd99c762d9171309c7bdc278582f17acc362281a5e5ee49",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-ddos-custom-policy",
+      "provider": "azure",
+      "name": "DDoS Custom Policy",
+      "rationale": "A custom policy controls protection against DDoS traffic.",
+      "path": "stencils/azure-ddos-custom-policy.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/new icons/035556610-icon-service-DDoS-Custom-Policy.svg"
+      ],
+      "revision": "8d4444449086762867e27ebbc5262b0ec6c5e1a65477a39ca7be7b8445d37d0f",
+      "geometrySignature": "75645b71bcaa530f0ac8a15926448e4e53eea8559a28f7c7d64340c04de2a140",
+      "comparisonRevision": "404dd7361ab884988f4810d54c1075b8994efd34d1c0dc04fff96992374dee1d",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-disconnected-operations",
+      "provider": "azure",
+      "name": "Disconnected Operations",
+      "rationale": "An application continues operating without a cloud connection.",
+      "path": "stencils/azure-disconnected-operations.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/new icons/035712231-icon-service-Disconnected-Operations.svg"
+      ],
+      "revision": "d10cbb060fe71abd0afdb4bd3de4bc068b2c3ff9459e09b9cf9e7a885b24023c",
+      "geometrySignature": "4ad66921e6a8b99eab3ab4e89248506a9f0d6322853c88db8d2fd3eb94ac17cf",
+      "comparisonRevision": "6d289a2cb588bcd7a624a05036b470ded88ef7402063e322b3fef5514c07167d",
       "review": "pending",
       "notes": ""
     },
@@ -17703,7 +17823,7 @@
       ],
       "revision": "0d7f9692f1c79d7ada5e46649bc665584ab082c47845abc1ee818458c34982cc",
       "geometrySignature": "bb77004db5de23d0aa4487774e77fd7eeb01ad34f999c00adeb2c0042951ac47",
-      "comparisonRevision": "564c9186abe11d5bd76c5aba1d0109a534bb58b6e55fcce237402521f4de342a",
+      "comparisonRevision": "0327af2899797d0ca556828ca5d500891a41032e1ebb0d94fc0a9ee0921b38cc",
       "review": "pending",
       "notes": ""
     },
@@ -18456,7 +18576,7 @@
       ],
       "revision": "cce6274b5f1e759c5eb4a8f2cd9118014cfb90d88bdad50fe7a0141325aad13c",
       "geometrySignature": "5920b223cd656b858bec4d68537e12325dfdf2e7e5fe0701fda69c4b3062b74b",
-      "comparisonRevision": "692c9e6b53ae5ca935270373a97b16461d4b1e576903f479471ec970d437bad9",
+      "comparisonRevision": "f4c617829ea6c664549ee37d78d7708b757e5585df932c4c4775e3f5d10ee92b",
       "review": "pending",
       "notes": ""
     },
@@ -20011,7 +20131,7 @@
       ],
       "revision": "484917e7f7ad3783f1d9b49f014b6a433b5eecff0323536e165d6afa4fbe140d",
       "geometrySignature": "68411bddf8c1e68f41a07c16e946c9a6db39647fe5850c748f257a88d7db4575",
-      "comparisonRevision": "923cf7c90e3097e76da83e49e2deb2171eb841db1f89a50ccc63d1076822f03d",
+      "comparisonRevision": "f8c1f42bf24965c1714e007310a1a952de91e1a7d12c78cf1165a80d133bfd85",
       "review": "pending",
       "notes": ""
     },
@@ -20573,7 +20693,7 @@
       ],
       "revision": "9cc1111026662b567e187904996b926e6bbeec86a6a2dbf5ffe249c935d03e83",
       "geometrySignature": "3dc68ef0d071482f944a415f3b2096d45e5ff18ea59fdd1bbbb243069cf0a811",
-      "comparisonRevision": "929d9becb1b785594e0c2c8c8a89550a3bd102a83ddc806b7b598a83f762e963",
+      "comparisonRevision": "fca3d28a4fbaaf96f678dad13901e3b44c36a9dadcc6d3978dc9eaeaa111a8f2",
       "review": "pending",
       "notes": ""
     },
@@ -21085,7 +21205,7 @@
       ],
       "revision": "64e2dd18aaa748ea813c723825d2869f76a39b2101fc71aaa6afa4348976cf9a",
       "geometrySignature": "625e3f24322c3de1d8c42e70854efe2602ded6983c2764ccab50b7f5a8b53870",
-      "comparisonRevision": "d45ca12fd5b7d8d2e2e72f8f27e53c8b0825524393772423087b12277962a266",
+      "comparisonRevision": "ac0354b4ae340dc362668885fa42238e8e1a39904ef5a81cccda96ea8d64a0d6",
       "review": "pending",
       "notes": ""
     },
@@ -22062,7 +22182,7 @@
       ],
       "revision": "bc648f42a9de56038343dc4a3d62159545389a9c0f4127cd0a362db337af0c43",
       "geometrySignature": "d3c425bd033967d24dca5fdc07b69dc7952e8092b21bf7a710f6a4fc0d4959e8",
-      "comparisonRevision": "fc63a7d4717f2d87dae29b6decec75b5aa3e9c9dd23bc8c52420a471f0ae705d",
+      "comparisonRevision": "3fcab148cf9d27bb7c0e1916e6a77497a0ae1fbd658af1a61d9e6e0943e08ff4",
       "review": "pending",
       "notes": ""
     },
@@ -22333,7 +22453,7 @@
       ],
       "revision": "9358ce4867b5f01bee08f2666c6e074ca555b4680b5b7e7a3179ce227bff88a7",
       "geometrySignature": "9e9b8d982430bc9a616b9dcf8eb29d4586109f23e861c94b263b1df3d830ac49",
-      "comparisonRevision": "dff9385015a4eea3c0c46f9a457e2b2a42d3b3afd2c4a047d57d25b38cb0a29c",
+      "comparisonRevision": "6515aadbf69ea05c3b00732279127ac7ff51875761ebc77457777265022dae39",
       "review": "pending",
       "notes": ""
     },
@@ -22363,7 +22483,7 @@
       ],
       "revision": "83b85c52fa318889394e42fb3a6e3657fe4c34e5c974e00b19346a25c04b26d7",
       "geometrySignature": "d00758bd3d39ed9ac14c3babac4a95c8b858c431ea91b411bc21a6449647458a",
-      "comparisonRevision": "29ff2d24835ce76e7c640434d1ef7d8fca5eaf1784e8423252917143c6f2d071",
+      "comparisonRevision": "d63bfbf1fe058d23e80085ba13664d564bd8c11e5bae3304570ef3de04cea636",
       "review": "pending",
       "notes": ""
     },
@@ -24436,7 +24556,7 @@
       ],
       "revision": "908db2a6154a7665141a89b63b15cf8a8ff5aaa7503628b4c8e3a69929158f37",
       "geometrySignature": "ab2135a438f8d21f48d6c24cb2304feddbcc945104bc69110811866bc5552e8c",
-      "comparisonRevision": "8932ad77e13854e816a31022fb32f6a367cb71d92f7c01f414c8590d8efa2e88",
+      "comparisonRevision": "7078c82892de05fe2dabc4171beca0238808451a68007f87b30958b321b59cbb",
       "review": "pending",
       "notes": ""
     },
@@ -24601,7 +24721,7 @@
       ],
       "revision": "bcad2e5c6bf6f0d76f4b1661097e4a298e3ec0f02c2baefa8ccb2290b3434291",
       "geometrySignature": "eb81a959247443c6b87bac7377b3cefdc17ee4e469c5fd9c50ccc3c534190622",
-      "comparisonRevision": "454a53c99ea3603038fc749f1af471af652c91aed79ece758acd4e35b4b79f1b",
+      "comparisonRevision": "ac5d5e616051c94042523cb8365c467c5abe71feaba66a12ec71682eb80fe7cd",
       "review": "pending",
       "notes": ""
     },
@@ -26134,7 +26254,7 @@
       ],
       "revision": "fe416727c3fcce13464dbf313b13a15cf519b38ea281081972b417016128034a",
       "geometrySignature": "2036bea900373e094d0a5c8a476ac6c2e55641d18574f7c3c727def45d1f34ed",
-      "comparisonRevision": "a3cfeadfc0c8ad7e0b8d657929d74e787d9afdc34937e68e9ced1be29bc4dd40",
+      "comparisonRevision": "32ff7bae22d10e8ea2f47bb75161dff280baad4b83e4d8690e49c53c55d6bfa2",
       "review": "pending",
       "notes": ""
     },
@@ -26389,7 +26509,7 @@
       ],
       "revision": "198049986a3c79f3cd64813787df8b5f7245f42a02e350ab917c28f9873e980f",
       "geometrySignature": "7b8003838d5d2518d466f65a269bc75e7422b5a9793eb0fb9d56cd9f68c63b37",
-      "comparisonRevision": "28c18877f2e591023e4a14ddfc1bd5d58283dee2c65c432de5c5ee97f7b44584",
+      "comparisonRevision": "77b85cbee6c7d30cc0704ea035174fcd03ae04abddcc4e10287431115b2024f8",
       "review": "pending",
       "notes": ""
     },
@@ -27328,7 +27448,7 @@
       ],
       "revision": "4abfb8ce9f3c72a2cd918d877c8b86a4e1fb3e561ac60b1e6190ed658f9d04f0",
       "geometrySignature": "81fe733a3e701b13741a9ceb12d91dd7ff81adaa6e5c2978b5cf8ce3f3042a77",
-      "comparisonRevision": "5057bbf514f5d0a007109ddc2acf2f5adebe96fb3f10cba891441110961c4a37",
+      "comparisonRevision": "615ae227d4e1217f52f034423b6434a80153bb003b447895568f3fa35d091bf7",
       "review": "pending",
       "notes": ""
     },
@@ -28828,7 +28948,7 @@
       ],
       "revision": "e91241f860be90047244583cc98df4e79c0ebb90ce15ca340bdf0076cbbfb9ac",
       "geometrySignature": "533fdb2b0cccb57f8f9990c868884c33bd2068b0c5de431b6baab5c99bc6d883",
-      "comparisonRevision": "37211c7929e46d4a2203649e9c08fcc31096a7032998163e25df474ab1150b2a",
+      "comparisonRevision": "97bb0e0a235546ee5e1432ee3f27ad6a8ef85051a400a3852f953e18cb2a7025",
       "review": "pending",
       "notes": ""
     },
@@ -34387,7 +34507,7 @@
       ],
       "revision": "dd181ebda105304f825f63d21c234a19e1f0626e257bf79de21966f31e97ec8a",
       "geometrySignature": "54418ca6abf8e0f05aa958bfe3b07054dfa7a0fc731bb80dfee08b143ca10c14",
-      "comparisonRevision": "a2af76faa17810f335a53882619a0e0eb505f76403e992c31c1f21252ec4ccd0",
+      "comparisonRevision": "39153894e1844998df7ead035ee61fe9fcfa3a9feb6323a41d15671e54229572",
       "review": "pending",
       "notes": ""
     },
