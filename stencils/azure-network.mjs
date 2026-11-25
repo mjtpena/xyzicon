@@ -1,6 +1,65 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-public-ip-classic", "azure", "Public IP Address (Classic)", ["10068-icon-service-Public-IP-Addresses-(Classic)"],
+    "A public address uses the classic deployment model.",
+    [
+      oval(12, 24, 55, 55), line([15, 42], [64, 42]), line([15, 61], [64, 61]), line([39, 24], [30, 34], [27, 51], [30, 68], [39, 79]), line([39, 24], [48, 34], [51, 51], [48, 68], [39, 79]),
+      rect(72, 54, 41, 32), line([78, 64], [106, 64]), line([78, 74], [100, 74]), line([78, 33], [78, 42], [92, 42]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-reserved-ip-classic", "azure", "Reserved IP Address (Classic)", ["10371-icon-service-Reserved-IP-Addresses-(Classic)"],
+    "A classic IP address is held in reserve.",
+    [
+      rect(17, 24, 90, 62), line([17, 38], [107, 38]), oval(26, 50, 7, 7, true), oval(40, 50, 7, 7, true), oval(54, 50, 7, 7, true), oval(68, 50, 7, 7, true),
+      line([80, 57], [80, 50], [85, 45], [91, 45], [96, 50], [96, 57]), rect(77, 57, 22, 18), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-public-ip-prefixes", "azure", "Public IP Prefixes", ["10372-icon-service-Public-IP-Prefixes"],
+    "A prefix represents a contiguous block of public addresses.",
+    [
+      oval(12, 33, 39, 39), line([15, 46], [48, 46]), line([15, 59], [48, 59]), line([31, 33], [25, 42], [23, 52], [25, 62], [31, 72]), line([31, 33], [38, 42], [40, 52], [38, 62], [31, 72]),
+      line([52, 52], [61, 52]), rect(63, 24, 45, 59), line([69, 35], [102, 35]), line([69, 46], [102, 46]), line([69, 57], [102, 57]), line([69, 68], [94, 68]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-classic-virtual-network", "azure", "Virtual Network (Classic)", ["10075-icon-service-Virtual-Networks-(Classic)"],
+    "A classic virtual network links three endpoints inside a boundary.",
+    [
+      line([15, 25], [15, 17], [28, 17]), line([98, 17], [111, 17], [111, 25]), line([15, 88], [15, 96], [28, 96]), line([98, 96], [111, 96], [111, 88]),
+      oval(25, 39, 18, 18), oval(83, 39, 18, 18), oval(54, 70, 18, 18), line([43, 48], [83, 48]), line([40, 56], [57, 73]), line([86, 56], [69, 73]), line([52, 26], [72, 26]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-on-premises-data-gateway", "azure", "On-premises Data Gateway", ["10070-icon-service-On-Premises-Data-Gateways"],
+    "An on-premises gateway transfers data between a server and the cloud.",
+    [
+      rect(14, 57, 39, 35), line([14, 68], [53, 68]), line([21, 64], [25, 64]), line([21, 79], [44, 79]),
+      line([70, 66], [61, 62], [61, 53], [67, 47], [75, 47], [79, 37], [89, 33], [99, 38], [103, 47], [110, 50], [113, 56], [110, 64], [104, 67]),
+      line([52, 78], [87, 78], [87, 69]), line([80, 75], [87, 68], [94, 75]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-local-network-gateway", "azure", "Local Network Gateway", ["10077-icon-service-Local-Network-Gateways"],
+    "A gateway connects the local network to a remote network.",
+    [
+      rect(12, 28, 31, 24), rect(12, 65, 31, 24), line([43, 40], [57, 40], [57, 76], [43, 76]), oval(52, 51, 18, 18),
+      line([70, 60], [103, 60]), line([96, 53], [103, 60], [96, 67]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-expressroute-circuits", "azure", "ExpressRoute Circuits", ["10079-icon-service-ExpressRoute-Circuits"],
+    "A dedicated circuit joins sites along a direct path.",
+    [
+      oval(17, 47, 19, 19), oval(88, 47, 19, 19), line([36, 52], [88, 52]), line([36, 61], [88, 61]), line([60, 39], [72, 52]), line([72, 61], [60, 74]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-network-interfaces", "azure", "Network Interfaces", ["10080-icon-service-Network-Interfaces"],
+    "A network interface exposes a port for a virtual machine.",
+    [
+      rect(27, 20, 72, 69), line([27, 32], [99, 32]), line([34, 26], [39, 26]), line([44, 26], [49, 26]),
+      line([44, 46], [82, 46], [82, 64], [74, 64], [74, 72], [52, 72], [52, 64], [44, 64], [44, 46]), line([51, 52], [51, 59]), line([59, 52], [59, 59]), line([67, 52], [67, 59]), line([75, 52], [75, 59]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-network-connections", "azure", "Network Connections", ["10081-icon-service-Connections"],
+    "Two network endpoints join through a bidirectional connection.",
+    [
+      rect(12, 37, 29, 33), rect(84, 37, 29, 33), line([19, 48], [34, 48]), line([91, 48], [106, 48]), line([41, 47], [84, 47]), line([77, 40], [84, 47], [77, 54]), line([84, 61], [41, 61]), line([48, 54], [41, 61], [48, 68]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-service-endpoint-policies", "azure", "Service Endpoint Policies", ["10085-icon-service-Service-Endpoint-Policies"],
+    "A policy governs access to a service endpoint.",
+    [
+      line([15, 24], [70, 24], [81, 35], [81, 91], [15, 91], [15, 24]), line([70, 24], [70, 35], [81, 35]), line([23, 42], [58, 42]), line([23, 53], [52, 53]), line([23, 64], [43, 64]),
+      oval(71, 61, 35, 35), oval(83, 73, 11, 11), line([95, 78], [114, 78]), line([107, 71], [114, 78], [107, 85]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-dns-security-policy", "azure", "DNS Security Policy", ["03368-icon-service-DNS-Security-Policy"],
     "DNS queries pass through a security policy.",
     [
