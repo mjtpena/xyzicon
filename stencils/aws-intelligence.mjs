@@ -165,6 +165,7 @@ export const awsIntelligenceArtwork = [
       rect(12, 17, 104, 93), line([12, 33], [116, 33]), line([21, 25], [61, 25]),
       line([22, 94], [22, 46]), line([22, 94], [65, 94]), line([27, 85], [35, 75], [43, 79], [51, 60], [60, 53]),
       line([75, 47], [75, 95]), line([70, 56], [108, 56]), line([70, 69], [108, 69]), line([70, 82], [108, 82]), line([94, 44], [94, 95]),
+      oval(88, 8, 24, 24), line([100, 13], [100, 27]), line([95, 17], [105, 17]), line([95, 23], [105, 23]),
     ]),
   entry("aws-kinesis", "aws", "Amazon Kinesis", sizes("Amazon-Kinesis"),
     "Three flowing streams converge on an ordered stream of records.",
@@ -178,8 +179,8 @@ export const awsIntelligenceArtwork = [
     "A compact workflow runs rapidly through a branching path.",
     [
       oval(13, 20, 19, 19, true), line([32, 29], [48, 29], [48, 51]),
-      polygon([48, 51], [64, 65], [48, 79], [32, 65]), line([64, 65], [85, 65], [85, 42]),
-      rect(85, 24, 28, 20), line([48, 79], [48, 99], [86, 99]), rect(86, 89, 27, 20, true),
+      line([48, 51], [64, 65], [48, 79], [32, 65], [48, 51]), line([64, 65], [85, 65], [85, 42]),
+      rect(85, 24, 28, 20), line([48, 79], [48, 99], [86, 99]), rect(86, 89, 27, 20),
       line([73, 16], [94, 16]), line([69, 23], [79, 23]),
     ]),
   entry("aws-managed-airflow", "aws", "Managed Workflows for Apache Airflow", sizes("Amazon-Managed-Workflows-for-Apache-Airflow"),
