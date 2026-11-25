@@ -1,6 +1,50 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-vm-app-definitions", "azure", "VM Application Definitions", ["02805-icon-service-VM-App-Definitions"],
+    "An application definition describes software for a virtual machine.",
+    [
+      rect(12, 21, 64, 48), line([12, 33], [76, 33]), line([19, 27], [23, 27]), line([29, 27], [33, 27]), line([35, 44], [53, 44], [53, 60], [35, 60], [35, 44]), line([35, 69], [35, 78]), line([54, 69], [54, 78]), line([26, 78], [63, 78]),
+      line([82, 45], [108, 45]), line([82, 55], [108, 55]), line([82, 65], [102, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-vm-app-versions", "azure", "VM Application Versions", ["02806-icon-service-VM-App-Versions"],
+    "Application versions are published for virtual machines.",
+    [
+      line([15, 70], [15, 20], [65, 20], [65, 28]), line([27, 81], [27, 31], [77, 31], [77, 39]), rect(39, 43, 64, 43), line([39, 54], [103, 54]),
+      rect(48, 62, 16, 16), line([74, 62], [83, 62], [83, 70], [74, 78], [87, 78]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-community-images", "azure", "Community Images", ["02865-icon-service-Community-Images"],
+    "A community shares virtual machine images.",
+    [
+      line([24, 21], [38, 14], [52, 21], [52, 37], [38, 44], [24, 37], [24, 21]), line([24, 21], [38, 28], [52, 21]), line([38, 28], [38, 44]),
+      oval(23, 58, 15, 15), oval(55, 53, 18, 18), oval(90, 58, 15, 15), line([17, 91], [17, 83], [22, 76], [29, 74], [36, 76], [41, 83]), line([46, 91], [46, 80], [52, 73], [64, 71], [76, 73], [82, 80], [82, 91]), line([87, 83], [92, 76], [99, 74], [106, 76], [111, 83], [111, 91]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-vm-image-version", "azure", "VM Image Version", ["02866-icon-service-VM-Image-Version"],
+    "A version identifies a virtual machine image release.",
+    [
+      line([18, 19], [73, 19], [85, 31], [85, 90], [18, 90], [18, 19]), line([73, 19], [73, 31], [85, 31]),
+      line([35, 42], [49, 35], [63, 42], [63, 57], [49, 64], [35, 57], [35, 42]), line([35, 42], [49, 49], [63, 42]), line([49, 49], [49, 64]), line([29, 75], [70, 75]),
+      oval(78, 70, 28, 28), line([92, 75], [92, 84], [99, 88]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-worker-container-app", "azure", "Worker Container App", ["02884-icon-service-Worker-Container-App"],
+    "A worker container processes queued jobs.",
+    [
+      line([13, 25], [48, 25], [48, 71], [13, 71], [13, 25]), line([20, 35], [41, 35]), line([20, 45], [41, 45]), line([20, 55], [41, 55]), line([48, 48], [62, 48]), line([56, 42], [62, 48], [56, 54]),
+      line([66, 38], [87, 28], [108, 38], [108, 61], [87, 72], [66, 61], [66, 38]), line([66, 38], [87, 49], [108, 38]), line([87, 49], [87, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-container-app-environments", "azure", "Container Apps Environments", ["02989-icon-service-Container-Apps-Environments"],
+    "A shared environment hosts container applications.",
+    [
+      line([14, 27], [14, 17], [28, 17]), line([96, 17], [110, 17], [110, 27]), line([14, 87], [14, 97], [28, 97]), line([96, 97], [110, 97], [110, 87]),
+      line([26, 40], [40, 33], [54, 40], [54, 56], [40, 63], [26, 56], [26, 40]), line([26, 40], [40, 47], [54, 40]), line([40, 47], [40, 63]),
+      line([70, 55], [84, 48], [98, 55], [98, 71], [84, 78], [70, 71], [70, 55]), line([70, 55], [84, 62], [98, 55]), line([84, 62], [84, 78]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-kubernetes-fleet-manager", "azure", "Kubernetes Fleet Manager", ["03134-icon-service-Kubernetes-Fleet-Manager"],
+    "A fleet manager coordinates Kubernetes clusters.",
+    [
+      oval(51, 15, 24, 24), oval(58, 22, 10, 10), line([63, 39], [63, 51], [29, 51], [29, 67]), line([63, 51], [96, 51], [96, 67]),
+      rect(15, 67, 28, 22), rect(82, 67, 28, 22), line([21, 74], [37, 74]), line([21, 81], [34, 81]), line([88, 74], [104, 74]), line([88, 81], [101, 81]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-disk-pool", "azure", "Disk Pool", ["02560-icon-service-Disk-Pool"],
     "A pool groups disks for shared storage.",
     [

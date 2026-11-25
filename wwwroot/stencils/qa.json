@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2160,
-  "aliases": 5343,
+  "count": 2167,
+  "aliases": 5350,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1732,6 +1732,13 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-vm-app-definitions",
+    "azure-vm-app-versions",
+    "azure-community-images",
+    "azure-vm-image-version",
+    "azure-worker-container-app",
+    "azure-container-app-environments",
+    "azure-kubernetes-fleet-manager",
     "azure-disk-pool",
     "azure-bare-metal-infrastructure",
     "azure-biztalk",
@@ -2430,8 +2437,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 648,
-      "concepts": 565
+      "covered": 655,
+      "concepts": 572
     },
     "fabric": {
       "sources": 1584,
@@ -6205,9 +6212,9 @@
         "similarity": 0.3358
       },
       {
-        "a": "azure-auto-scale",
-        "b": "azure-waf-policies",
-        "similarity": 0.3055
+        "a": "azure-waf-policies",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.3114
       }
     ],
     "azure-nat": [
@@ -7266,6 +7273,11 @@
     ],
     "gcp-api-analytics": [
       {
+        "a": "gcp-api-analytics",
+        "b": "azure-worker-container-app",
+        "similarity": 0.2916
+      },
+      {
         "a": "gcp-local-ssd",
         "b": "gcp-api-analytics",
         "similarity": 0.2631
@@ -7274,11 +7286,6 @@
         "a": "gcp-api-analytics",
         "b": "azure-entra-internet-access",
         "similarity": 0.2613
-      },
-      {
-        "a": "gcp-api-analytics",
-        "b": "azure-resource-linked",
-        "similarity": 0.2602
       }
     ],
     "gcp-api-monetization": [
@@ -15376,8 +15383,8 @@
       },
       {
         "a": "azure-device-security-windows",
-        "b": "aws-general-chat",
-        "similarity": 0.3333
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.3533
       }
     ],
     "azure-intune": [
@@ -15472,14 +15479,14 @@
         "similarity": 0.4379
       },
       {
+        "a": "azure-software-updates",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.4199
+      },
+      {
         "a": "azure-device-security-windows",
         "b": "azure-software-updates",
         "similarity": 0.3837
-      },
-      {
-        "a": "aws-sagemaker-studio-lab",
-        "b": "azure-software-updates",
-        "similarity": 0.3333
       }
     ],
     "azure-security-baselines": [
@@ -15807,6 +15814,11 @@
     ],
     "azure-multi-factor-authentication": [
       {
+        "a": "azure-multi-factor-authentication",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.3971
+      },
+      {
         "a": "azure-device-security-windows",
         "b": "azure-multi-factor-authentication",
         "similarity": 0.3623
@@ -15815,11 +15827,6 @@
         "a": "azure-multi-factor-authentication",
         "b": "azure-server-farm",
         "similarity": 0.3578
-      },
-      {
-        "a": "gcp-video-intelligence",
-        "b": "azure-multi-factor-authentication",
-        "similarity": 0.3329
       }
     ],
     "azure-global-secure-access": [
@@ -19387,9 +19394,9 @@
         "similarity": 0.3135
       },
       {
-        "a": "azure-ad-b2c",
-        "b": "aws-iot-fire-tv-stick",
-        "similarity": 0.2946
+        "a": "aws-iot-fire-tv-stick",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.3124
       }
     ],
     "aws-iot-lambda-function": [
@@ -19904,6 +19911,11 @@
     ],
     "aws-greengrass-component": [
       {
+        "a": "aws-greengrass-component",
+        "b": "azure-vm-app-versions",
+        "similarity": 0.2956
+      },
+      {
         "a": "azure-alerts",
         "b": "aws-greengrass-component",
         "similarity": 0.2915
@@ -19912,11 +19924,6 @@
         "a": "aws-greengrass-component",
         "b": "azure-power",
         "similarity": 0.2785
-      },
-      {
-        "a": "aws-mxnet",
-        "b": "aws-greengrass-component",
-        "similarity": 0.2561
       }
     ],
     "aws-greengrass-ml-component": [
@@ -20573,13 +20580,13 @@
       },
       {
         "a": "aws-s3-on-outposts-resource",
-        "b": "aws-general-cold-storage",
-        "similarity": 0.3524
+        "b": "azure-vm-image-version",
+        "similarity": 0.3536
       },
       {
         "a": "aws-s3-on-outposts-resource",
-        "b": "aws-s3-batch-operations",
-        "similarity": 0.3429
+        "b": "aws-general-cold-storage",
+        "similarity": 0.3524
       }
     ],
     "aws-s3-select": [
@@ -21027,6 +21034,11 @@
     "aws-s3-batch-operations": [
       {
         "a": "aws-s3-batch-operations",
+        "b": "azure-vm-image-version",
+        "similarity": 0.3741
+      },
+      {
+        "a": "aws-s3-batch-operations",
         "b": "aws-inspector-agent",
         "similarity": 0.3562
       },
@@ -21034,11 +21046,6 @@
         "a": "aws-s3-on-outposts-resource",
         "b": "aws-s3-batch-operations",
         "similarity": 0.3429
-      },
-      {
-        "a": "aws-s3-batch-operations",
-        "b": "aws-certificate-authority",
-        "similarity": 0.3175
       }
     ],
     "aws-s3-files": [
@@ -21281,6 +21288,11 @@
     ],
     "aws-file-cache-on-premises": [
       {
+        "a": "aws-file-cache-on-premises",
+        "b": "azure-worker-container-app",
+        "similarity": 0.3996
+      },
+      {
         "a": "aws-iot-reported-state",
         "b": "aws-file-cache-on-premises",
         "similarity": 0.3471
@@ -21289,11 +21301,6 @@
         "a": "aws-file-cache-on-premises",
         "b": "aws-file-cache-s3",
         "similarity": 0.3447
-      },
-      {
-        "a": "aws-file-cache-on-premises",
-        "b": "aws-route53-resolver",
-        "similarity": 0.3229
       }
     ],
     "aws-file-cache-s3": [
@@ -21495,9 +21502,9 @@
         "similarity": 0.3537
       },
       {
-        "a": "aws-ebs-gp3-volume",
-        "b": "aws-backup-cloudformation",
-        "similarity": 0.3285
+        "a": "aws-backup-cloudformation",
+        "b": "azure-vm-image-version",
+        "similarity": 0.3377
       }
     ],
     "aws-backup-fsx-ontap": [
@@ -23377,14 +23384,14 @@
         "similarity": 0.2765
       },
       {
+        "a": "aws-wickr",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.2603
+      },
+      {
         "a": "azure-multi-factor-authentication",
         "b": "aws-wickr",
         "similarity": 0.2416
-      },
-      {
-        "a": "gcp-security-operations",
-        "b": "aws-wickr",
-        "similarity": 0.2315
       }
     ],
     "aws-end-user-messaging": [
@@ -24130,9 +24137,9 @@
         "similarity": 0.3024
       },
       {
-        "a": "aws-iot-thing-generic",
-        "b": "aws-systems-parameter-store",
-        "similarity": 0.277
+        "a": "aws-systems-parameter-store",
+        "b": "azure-vm-app-versions",
+        "similarity": 0.2799
       }
     ],
     "aws-systems-patch-manager": [
@@ -24947,8 +24954,8 @@
       },
       {
         "a": "aws-general-cold-storage",
-        "b": "fabric-notebook-export",
-        "similarity": 0.3071
+        "b": "azure-vm-image-version",
+        "similarity": 0.3146
       }
     ],
     "aws-general-data-table": [
@@ -25711,9 +25718,9 @@
         "similarity": 0.2832
       },
       {
-        "a": "azure-blockchain-service",
-        "b": "aws-elemental-conductor",
-        "similarity": 0.2806
+        "a": "aws-elemental-conductor",
+        "b": "azure-kubernetes-fleet-manager",
+        "similarity": 0.283
       }
     ],
     "aws-elemental-delta": [
@@ -26364,6 +26371,11 @@
     ],
     "aws-certificate-authority": [
       {
+        "a": "aws-certificate-authority",
+        "b": "azure-vm-image-version",
+        "similarity": 0.4454
+      },
+      {
         "a": "aws-backup-cloudformation",
         "b": "aws-certificate-authority",
         "similarity": 0.4453
@@ -26372,11 +26384,6 @@
         "a": "aws-general-multimedia",
         "b": "aws-certificate-authority",
         "similarity": 0.3577
-      },
-      {
-        "a": "aws-systems-incident-manager",
-        "b": "aws-certificate-authority",
-        "similarity": 0.3557
       }
     ],
     "aws-directory-ad-connector": [
@@ -28501,14 +28508,14 @@
         "similarity": 0.2472
       },
       {
+        "a": "aws-app-mesh-mesh",
+        "b": "azure-kubernetes-fleet-manager",
+        "similarity": 0.2439
+      },
+      {
         "a": "azure-custom-identity-roles",
         "b": "aws-app-mesh-mesh",
         "similarity": 0.24
-      },
-      {
-        "a": "aws-waf-bad-bot",
-        "b": "aws-app-mesh-mesh",
-        "similarity": 0.2377
       }
     ],
     "aws-app-mesh-virtual-gateway": [
@@ -28598,6 +28605,11 @@
     ],
     "aws-cloud-map-resource": [
       {
+        "a": "aws-cloud-map-resource",
+        "b": "azure-worker-container-app",
+        "similarity": 0.243
+      },
+      {
         "a": "aws-greengrass-connector",
         "b": "aws-cloud-map-resource",
         "similarity": 0.2413
@@ -28606,11 +28618,6 @@
         "a": "aws-iot-desired-state",
         "b": "aws-cloud-map-resource",
         "similarity": 0.2324
-      },
-      {
-        "a": "aws-backup-virtual-machine-monitor",
-        "b": "aws-cloud-map-resource",
-        "similarity": 0.2318
       }
     ],
     "aws-cloud-map-service": [
@@ -30536,8 +30543,8 @@
       },
       {
         "a": "aws-ec2-instances",
-        "b": "azure-media-file",
-        "similarity": 0.3118
+        "b": "azure-vm-app-versions",
+        "similarity": 0.3143
       }
     ],
     "aws-ec2-rescue": [
@@ -31883,6 +31890,125 @@
         "similarity": 0.2297
       }
     ],
+    "azure-vm-app-definitions": [
+      {
+        "a": "azure-software-updates",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.4199
+      },
+      {
+        "a": "azure-multi-factor-authentication",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.3971
+      },
+      {
+        "a": "azure-device-security-windows",
+        "b": "azure-vm-app-definitions",
+        "similarity": 0.3533
+      }
+    ],
+    "azure-vm-app-versions": [
+      {
+        "a": "aws-mysql-instance",
+        "b": "azure-vm-app-versions",
+        "similarity": 0.3277
+      },
+      {
+        "a": "aws-iot-thing-relay",
+        "b": "azure-vm-app-versions",
+        "similarity": 0.3176
+      },
+      {
+        "a": "azure-advisor",
+        "b": "azure-vm-app-versions",
+        "similarity": 0.3167
+      }
+    ],
+    "azure-community-images": [
+      {
+        "a": "aws-cloudtrail-lake",
+        "b": "azure-community-images",
+        "similarity": 0.2065
+      },
+      {
+        "a": "aws-vpc-network-adapter",
+        "b": "azure-community-images",
+        "similarity": 0.2065
+      },
+      {
+        "a": "azure-user-settings",
+        "b": "azure-community-images",
+        "similarity": 0.2058
+      }
+    ],
+    "azure-vm-image-version": [
+      {
+        "a": "aws-certificate-authority",
+        "b": "azure-vm-image-version",
+        "similarity": 0.4454
+      },
+      {
+        "a": "aws-s3-batch-operations",
+        "b": "azure-vm-image-version",
+        "similarity": 0.3741
+      },
+      {
+        "a": "aws-s3-on-outposts-resource",
+        "b": "azure-vm-image-version",
+        "similarity": 0.3536
+      }
+    ],
+    "azure-worker-container-app": [
+      {
+        "a": "aws-file-cache-on-premises",
+        "b": "azure-worker-container-app",
+        "similarity": 0.3996
+      },
+      {
+        "a": "azure-worker-container-app",
+        "b": "azure-resource-linked",
+        "similarity": 0.3007
+      },
+      {
+        "a": "gcp-api-analytics",
+        "b": "azure-worker-container-app",
+        "similarity": 0.2916
+      }
+    ],
+    "azure-container-app-environments": [
+      {
+        "a": "azure-classic-virtual-network",
+        "b": "azure-container-app-environments",
+        "similarity": 0.2475
+      },
+      {
+        "a": "aws-ec2-instance-contents",
+        "b": "azure-container-app-environments",
+        "similarity": 0.2259
+      },
+      {
+        "a": "azure-container-app-environments",
+        "b": "azure-general-media",
+        "similarity": 0.2222
+      }
+    ],
+    "azure-kubernetes-fleet-manager": [
+      {
+        "a": "aws-directory-simple-ad",
+        "b": "azure-kubernetes-fleet-manager",
+        "similarity": 0.2833
+      },
+      {
+        "a": "aws-elemental-conductor",
+        "b": "azure-kubernetes-fleet-manager",
+        "similarity": 0.283
+      },
+      {
+        "a": "azure-defender-pneumatic",
+        "b": "azure-kubernetes-fleet-manager",
+        "similarity": 0.2504
+      }
+    ],
     "azure-disk-pool": [
       {
         "a": "aws-mainframe-compiler",
@@ -32031,9 +32157,9 @@
         "similarity": 0.3004
       },
       {
-        "a": "aws-cloudwatch-data-protection",
+        "a": "azure-vm-image-version",
         "b": "azure-general-workbooks",
-        "similarity": 0.2828
+        "similarity": 0.2885
       }
     ],
     "azure-general-workflow": [
@@ -32196,14 +32322,14 @@
         "similarity": 0.3099
       },
       {
+        "a": "azure-worker-container-app",
+        "b": "azure-resource-linked",
+        "similarity": 0.3007
+      },
+      {
         "a": "azure-device-enrollment",
         "b": "azure-resource-linked",
         "similarity": 0.2997
-      },
-      {
-        "a": "aws-iot-reported-state",
-        "b": "azure-resource-linked",
-        "similarity": 0.2953
       }
     ],
     "azure-scheduler": [
