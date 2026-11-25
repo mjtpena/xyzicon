@@ -3,6 +3,49 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-route53-hosted-zone", "aws", "Route 53 Hosted Zone", ["Res_Amazon-Route-53-Hosted-Zone_48"],
+    "A hosted DNS zone contains records for an internet domain.",
+    [
+      line([16, 29], [16, 17], [28, 17]), line([98, 17], [110, 17], [110, 29]), line([16, 78], [16, 90], [28, 90]), line([98, 90], [110, 90], [110, 78]),
+      oval(33, 24, 59, 59), line([33, 53], [92, 53]), line([63, 24], [63, 83]), line([48, 28], [42, 40], [42, 65], [48, 79]), line([78, 28], [84, 40], [84, 65], [78, 79]),
+      oval(97, 45, 10, 10, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-route53-readiness", "aws", "Route 53 Readiness Checks", ["Res_Amazon-Route-53_Readiness-Checks_48"],
+    "Readiness checks verify a recovery endpoint.",
+    [
+      rect(15, 20, 55, 66), line([15, 33], [70, 33]), line([23, 45], [28, 50], [36, 41]), line([42, 46], [62, 46]), line([23, 62], [28, 67], [36, 58]), line([42, 63], [62, 63]),
+      oval(69, 54, 35, 35), line([77, 71], [84, 78], [96, 63]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-route53-dns-firewall", "aws", "Route 53 Resolver DNS Firewall", ["Res_Amazon-Route-53_Resolver-DNS-Firewall_48"],
+    "A firewall filters DNS requests before resolution.",
+    [
+      oval(9, 29, 38, 38), line([9, 48], [47, 48]), line([28, 29], [28, 67]), line([14, 37], [42, 37]), line([14, 59], [42, 59]),
+      line([48, 48], [62, 48]), line([56, 42], [62, 48], [56, 54]), line([82, 23], [104, 31], [102, 54], [95, 68], [82, 77], [69, 68], [62, 54], [60, 31], [82, 23]), line([74, 51], [80, 57], [90, 45]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-route53-query-logging", "aws", "Route 53 Resolver Query Logging", ["Res_Amazon-Route-53_Resolver-Query-Logging_48"],
+    "DNS queries are recorded in a log.",
+    [
+      oval(11, 25, 38, 38), line([11, 44], [49, 44]), line([30, 25], [30, 63]), line([16, 34], [44, 34]), line([16, 54], [44, 54]),
+      line([50, 45], [64, 45]), line([58, 39], [64, 45], [58, 51]), line([68, 20], [99, 20], [110, 31], [110, 87], [68, 87], [68, 20]), line([99, 20], [99, 31], [110, 31]), line([75, 43], [102, 43]), line([75, 55], [102, 55]), line([75, 67], [102, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-route53-resolver", "aws", "Route 53 Resolver", ["Res_Amazon-Route-53_Resolver_48"],
+    "A DNS resolver translates a domain name to an address.",
+    [
+      rect(12, 24, 41, 52), line([12, 35], [53, 35]), line([20, 45], [45, 45]), line([20, 56], [40, 56]),
+      line([54, 49], [68, 49]), line([62, 43], [68, 49], [62, 55]), oval(72, 29, 40, 40), line([72, 49], [112, 49]), line([92, 29], [92, 69]), line([79, 34], [79, 64]), line([105, 34], [105, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-route53-route-table", "aws", "Route 53 Route Table", ["Res_Amazon-Route-53_Route-Table_48"],
+    "A routing table maps destinations to network paths.",
+    [
+      rect(15, 19, 96, 70), line([15, 33], [111, 33]), line([15, 52], [111, 52]), line([15, 70], [111, 70]), line([60, 33], [60, 89]),
+      line([23, 43], [49, 43]), line([23, 61], [49, 61]), line([23, 79], [49, 79]), line([69, 43], [99, 43]), line([93, 37], [99, 43], [93, 49]), line([69, 61], [99, 61]), line([93, 55], [99, 61], [93, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-route53-routing-controls", "aws", "Route 53 Routing Controls", ["Res_Amazon-Route-53_Routing-Controls_48"],
+    "Routing controls switch traffic between recovery endpoints.",
+    [
+      line([13, 54], [44, 54]), oval(44, 46, 16, 16), line([59, 49], [80, 30]), line([80, 30], [107, 30]), oval(100, 23, 14, 14),
+      line([60, 58], [80, 78], [107, 78]), oval(100, 71, 14, 14), line([14, 109], [110, 109]),
+    ]),
   entry("aws-cloud-wan-edge", "aws", "Cloud WAN Core Network Edge", ["Res_AWS-Cloud-WAN_Core-Network-Edge_48"],
     "A core network edge connects regional networks.",
     [

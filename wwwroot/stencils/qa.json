@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2012,
-  "aliases": 5180,
+  "count": 2019,
+  "aliases": 5187,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1401,6 +1401,13 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-route53-hosted-zone",
+    "aws-route53-readiness",
+    "aws-route53-dns-firewall",
+    "aws-route53-query-logging",
+    "aws-route53-resolver",
+    "aws-route53-route-table",
+    "aws-route53-routing-controls",
     "aws-cloud-wan-edge",
     "aws-cloud-wan-segment",
     "aws-cloud-wan-transit-attachment",
@@ -2312,8 +2319,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1797,
-      "concepts": 750
+      "covered": 1804,
+      "concepts": 757
     },
     "gcp": {
       "sources": 261,
@@ -5827,6 +5834,11 @@
     "azure-partner-namespace": [
       {
         "a": "azure-partner-namespace",
+        "b": "aws-route53-hosted-zone",
+        "similarity": 0.2774
+      },
+      {
+        "a": "azure-partner-namespace",
         "b": "aws-iot-topic",
         "similarity": 0.2291
       },
@@ -5834,11 +5846,6 @@
         "a": "azure-partner-namespace",
         "b": "aws-systems-state-manager",
         "similarity": 0.2237
-      },
-      {
-        "a": "azure-partner-namespace",
-        "b": "azure-event-grid-domains",
-        "similarity": 0.2229
       }
     ],
     "azure-pubsub": [
@@ -7697,6 +7704,11 @@
     "gcp-media-translation": [
       {
         "a": "gcp-media-translation",
+        "b": "aws-route53-query-logging",
+        "similarity": 0.2463
+      },
+      {
+        "a": "gcp-media-translation",
         "b": "aws-greengrass-stream-manager",
         "similarity": 0.2373
       },
@@ -7704,11 +7716,6 @@
         "a": "gcp-media-translation",
         "b": "aws-gateway-stored-volume",
         "similarity": 0.2356
-      },
-      {
-        "a": "gcp-media-translation",
-        "b": "aws-iot-rule",
-        "similarity": 0.2318
       }
     ],
     "gcp-video-intelligence": [
@@ -15478,13 +15485,13 @@
       },
       {
         "a": "azure-entra-connect-health",
-        "b": "azure-verification-service",
+        "b": "aws-route53-resolver",
         "similarity": 0.3125
       },
       {
         "a": "azure-entra-connect-health",
-        "b": "aws-systems-run-command",
-        "similarity": 0.3089
+        "b": "azure-verification-service",
+        "similarity": 0.3125
       }
     ],
     "azure-enterprise-applications": [
@@ -15558,6 +15565,11 @@
     "azure-app-registrations": [
       {
         "a": "azure-app-registrations",
+        "b": "aws-route53-resolver",
+        "similarity": 0.3752
+      },
+      {
+        "a": "azure-app-registrations",
         "b": "azure-web-slots",
         "similarity": 0.3502
       },
@@ -15565,11 +15577,6 @@
         "a": "azure-app-registrations",
         "b": "aws-iot-device-jobs",
         "similarity": 0.2931
-      },
-      {
-        "a": "azure-app-registrations",
-        "b": "aws-cloudformation-change-set",
-        "similarity": 0.2925
       }
     ],
     "azure-identity-governance": [
@@ -15694,6 +15701,11 @@
     "azure-external-id": [
       {
         "a": "azure-external-id",
+        "b": "aws-route53-query-logging",
+        "similarity": 0.2967
+      },
+      {
+        "a": "azure-external-id",
         "b": "aws-iot-fleet-hub",
         "similarity": 0.2901
       },
@@ -15701,11 +15713,6 @@
         "a": "azure-external-id",
         "b": "aws-cloudwatch-rum",
         "similarity": 0.2778
-      },
-      {
-        "a": "azure-integration-service-environments",
-        "b": "azure-external-id",
-        "similarity": 0.2508
       }
     ],
     "azure-external-id-modified": [
@@ -15914,6 +15921,11 @@
     ],
     "azure-verification-service": [
       {
+        "a": "azure-verification-service",
+        "b": "aws-route53-resolver",
+        "similarity": 0.357
+      },
+      {
         "a": "azure-entra-connect-health",
         "b": "azure-verification-service",
         "similarity": 0.3125
@@ -15922,11 +15934,6 @@
         "a": "azure-verification-service",
         "b": "aws-trusted-advisor-fault",
         "similarity": 0.304
-      },
-      {
-        "a": "azure-verification-service",
-        "b": "aws-dynamodb-infrequent-table-class",
-        "similarity": 0.2823
       }
     ],
     "azure-machine-learning-classic": [
@@ -17234,8 +17241,8 @@
       },
       {
         "a": "azure-advisor",
-        "b": "aws-greengrass-public-component",
-        "similarity": 0.3381
+        "b": "aws-route53-readiness",
+        "similarity": 0.3561
       }
     ],
     "azure-blueprints": [
@@ -17636,17 +17643,22 @@
         "similarity": 0.2746
       },
       {
+        "a": "aws-iot-topic",
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.2738
+      },
+      {
         "a": "azure-partner-topic",
         "b": "aws-iot-topic",
         "similarity": 0.2606
-      },
-      {
-        "a": "aws-iot-topic",
-        "b": "aws-gateway-s3-file",
-        "similarity": 0.2572
       }
     ],
     "aws-iot-rule": [
+      {
+        "a": "aws-iot-rule",
+        "b": "aws-route53-query-logging",
+        "similarity": 0.3152
+      },
       {
         "a": "aws-iot-rule",
         "b": "aws-s3-tables",
@@ -17656,11 +17668,6 @@
         "a": "aws-iot-rule",
         "b": "azure-versions",
         "similarity": 0.2879
-      },
-      {
-        "a": "azure-applied-ai",
-        "b": "aws-iot-rule",
-        "similarity": 0.2806
       }
     ],
     "aws-iot-action": [
@@ -17812,8 +17819,8 @@
       },
       {
         "a": "aws-iot-simulator",
-        "b": "aws-greengrass-recipe",
-        "similarity": 0.241
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.247
       }
     ],
     "aws-iot-over-air-update": [
@@ -17841,13 +17848,13 @@
       },
       {
         "a": "aws-iot-device-advisor",
-        "b": "aws-backup-fsx-ontap",
-        "similarity": 0.3055
+        "b": "aws-route53-resolver",
+        "similarity": 0.3089
       },
       {
-        "a": "aws-iot-shadow",
-        "b": "aws-iot-device-advisor",
-        "similarity": 0.2843
+        "a": "aws-iot-device-advisor",
+        "b": "aws-backup-fsx-ontap",
+        "similarity": 0.3055
       }
     ],
     "aws-iot-device-location": [
@@ -17892,13 +17899,13 @@
       },
       {
         "a": "aws-iot-fleet-hub",
-        "b": "aws-greengrass-ml-component",
-        "similarity": 0.4097
+        "b": "aws-route53-route-table",
+        "similarity": 0.412
       },
       {
         "a": "aws-iot-fleet-hub",
-        "b": "aws-braket-simulator",
-        "similarity": 0.3929
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.4097
       }
     ],
     "aws-iot-device-tester": [
@@ -18435,14 +18442,14 @@
         "similarity": 0.2766
       },
       {
+        "a": "aws-iot-thing-thermostat",
+        "b": "aws-route53-hosted-zone",
+        "similarity": 0.2432
+      },
+      {
         "a": "azure-information-protection",
         "b": "aws-iot-thing-thermostat",
         "similarity": 0.2426
-      },
-      {
-        "a": "aws-iot-thing-thermostat",
-        "b": "aws-gateway-virtual-tape-library",
-        "similarity": 0.2417
       }
     ],
     "aws-iot-thing-stacklight": [
@@ -18645,8 +18652,8 @@
       },
       {
         "a": "aws-iot-thing-factory",
-        "b": "azure-folder-blank",
-        "similarity": 0.243
+        "b": "aws-route53-readiness",
+        "similarity": 0.2444
       }
     ],
     "aws-iot-thing-house": [
@@ -18963,13 +18970,13 @@
       },
       {
         "a": "aws-s3-glacier-instant-retrieval",
-        "b": "aws-transfer-ftps",
-        "similarity": 0.2987
+        "b": "aws-route53-query-logging",
+        "similarity": 0.2991
       },
       {
-        "a": "azure-arc-machines",
-        "b": "aws-s3-glacier-instant-retrieval",
-        "similarity": 0.289
+        "a": "aws-s3-glacier-instant-retrieval",
+        "b": "aws-transfer-ftps",
+        "similarity": 0.2987
       }
     ],
     "aws-s3-intelligent-tiering": [
@@ -19410,8 +19417,8 @@
       },
       {
         "a": "aws-file-cache-on-premises",
-        "b": "aws-transfer-ftps",
-        "similarity": 0.3103
+        "b": "aws-route53-resolver",
+        "similarity": 0.3229
       }
     ],
     "aws-file-cache-s3": [
@@ -19660,13 +19667,13 @@
       },
       {
         "a": "aws-backup-compute-resource",
-        "b": "azure-search",
-        "similarity": 0.2973
+        "b": "aws-route53-resolver",
+        "similarity": 0.307
       },
       {
-        "a": "azure-intune-client-apps",
-        "b": "aws-backup-compute-resource",
-        "similarity": 0.297
+        "a": "aws-backup-compute-resource",
+        "b": "azure-search",
+        "similarity": 0.2973
       }
     ],
     "aws-backup-database-resource": [
@@ -19733,8 +19740,8 @@
       },
       {
         "a": "aws-backup-virtual-machine-monitor",
-        "b": "aws-general-tape-storage",
-        "similarity": 0.2596
+        "b": "aws-route53-query-logging",
+        "similarity": 0.2623
       }
     ],
     "aws-backup-plan": [
@@ -22187,6 +22194,11 @@
     ],
     "aws-systems-inventory": [
       {
+        "a": "aws-systems-inventory",
+        "b": "aws-route53-route-table",
+        "similarity": 0.4113
+      },
+      {
         "a": "aws-cloudwatch-evidently",
         "b": "aws-systems-inventory",
         "similarity": 0.355
@@ -22195,14 +22207,14 @@
         "a": "aws-migration-evaluator-collector",
         "b": "aws-systems-inventory",
         "similarity": 0.3136
-      },
-      {
-        "a": "aws-systems-inventory",
-        "b": "aws-systems-application-manager",
-        "similarity": 0.3135
       }
     ],
     "aws-systems-maintenance-windows": [
+      {
+        "a": "aws-systems-maintenance-windows",
+        "b": "aws-route53-readiness",
+        "similarity": 0.3922
+      },
       {
         "a": "aws-systems-maintenance-windows",
         "b": "aws-systems-session-manager",
@@ -22212,11 +22224,6 @@
         "a": "aws-systems-maintenance-windows",
         "b": "azure-resource-explorer",
         "similarity": 0.3821
-      },
-      {
-        "a": "aws-mainframe-analyzer",
-        "b": "aws-systems-maintenance-windows",
-        "similarity": 0.3681
       }
     ],
     "aws-systems-opscenter": [
@@ -22278,13 +22285,13 @@
       },
       {
         "a": "aws-systems-run-command",
-        "b": "azure-web-slots",
-        "similarity": 0.3429
+        "b": "aws-route53-resolver",
+        "similarity": 0.3516
       },
       {
-        "a": "azure-intune-client-apps",
-        "b": "aws-systems-run-command",
-        "similarity": 0.3257
+        "a": "aws-systems-run-command",
+        "b": "azure-web-slots",
+        "similarity": 0.3429
       }
     ],
     "aws-systems-session-manager": [
@@ -23450,14 +23457,14 @@
         "similarity": 0.2193
       },
       {
+        "a": "aws-application-auto-scaling",
+        "b": "aws-route53-route-table",
+        "similarity": 0.2069
+      },
+      {
         "a": "dynamics-family",
         "b": "aws-application-auto-scaling",
         "similarity": 0.206
-      },
-      {
-        "a": "aws-pinpoint",
-        "b": "aws-application-auto-scaling",
-        "similarity": 0.2036
       }
     ],
     "aws-auto-scaling": [
@@ -26102,6 +26109,125 @@
         "similarity": 0.5942
       }
     ],
+    "aws-route53-hosted-zone": [
+      {
+        "a": "azure-partner-namespace",
+        "b": "aws-route53-hosted-zone",
+        "similarity": 0.2774
+      },
+      {
+        "a": "aws-route53-hosted-zone",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2536
+      },
+      {
+        "a": "aws-greengrass-component",
+        "b": "aws-route53-hosted-zone",
+        "similarity": 0.2533
+      }
+    ],
+    "aws-route53-readiness": [
+      {
+        "a": "aws-systems-maintenance-windows",
+        "b": "aws-route53-readiness",
+        "similarity": 0.3922
+      },
+      {
+        "a": "azure-advisor",
+        "b": "aws-route53-readiness",
+        "similarity": 0.3561
+      },
+      {
+        "a": "aws-systems-session-manager",
+        "b": "aws-route53-readiness",
+        "similarity": 0.342
+      }
+    ],
+    "aws-route53-dns-firewall": [
+      {
+        "a": "aws-iot-lambda-function",
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.2915
+      },
+      {
+        "a": "aws-iot-topic",
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.2738
+      },
+      {
+        "a": "aws-iot-simulator",
+        "b": "aws-route53-dns-firewall",
+        "similarity": 0.247
+      }
+    ],
+    "aws-route53-query-logging": [
+      {
+        "a": "aws-iot-rule",
+        "b": "aws-route53-query-logging",
+        "similarity": 0.3152
+      },
+      {
+        "a": "aws-s3-glacier-instant-retrieval",
+        "b": "aws-route53-query-logging",
+        "similarity": 0.2991
+      },
+      {
+        "a": "azure-external-id",
+        "b": "aws-route53-query-logging",
+        "similarity": 0.2967
+      }
+    ],
+    "aws-route53-resolver": [
+      {
+        "a": "azure-app-registrations",
+        "b": "aws-route53-resolver",
+        "similarity": 0.3752
+      },
+      {
+        "a": "azure-verification-service",
+        "b": "aws-route53-resolver",
+        "similarity": 0.357
+      },
+      {
+        "a": "aws-systems-run-command",
+        "b": "aws-route53-resolver",
+        "similarity": 0.3516
+      }
+    ],
+    "aws-route53-route-table": [
+      {
+        "a": "aws-iot-fleet-hub",
+        "b": "aws-route53-route-table",
+        "similarity": 0.412
+      },
+      {
+        "a": "aws-systems-inventory",
+        "b": "aws-route53-route-table",
+        "similarity": 0.4113
+      },
+      {
+        "a": "aws-cloudwatch-rum",
+        "b": "aws-route53-route-table",
+        "similarity": 0.3416
+      }
+    ],
+    "aws-route53-routing-controls": [
+      {
+        "a": "aws-route53-routing-controls",
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.282
+      },
+      {
+        "a": "aws-route53-routing-controls",
+        "b": "azure-general-workflow",
+        "similarity": 0.256
+      },
+      {
+        "a": "azure-sendgrid-accounts",
+        "b": "aws-route53-routing-controls",
+        "similarity": 0.2354
+      }
+    ],
     "aws-cloud-wan-edge": [
       {
         "a": "aws-ebs-lifecycle-manager",
@@ -26233,9 +26359,9 @@
         "similarity": 0.3042
       },
       {
-        "a": "aws-app-mesh-virtual-gateway",
-        "b": "azure-log-streaming",
-        "similarity": 0.2465
+        "a": "aws-route53-routing-controls",
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.282
       }
     ],
     "aws-app-mesh-virtual-node": [
@@ -26245,14 +26371,14 @@
         "similarity": 0.2587
       },
       {
+        "a": "aws-route53-hosted-zone",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2536
+      },
+      {
         "a": "aws-waf-labels",
         "b": "aws-app-mesh-virtual-node",
         "similarity": 0.2305
-      },
-      {
-        "a": "aws-general-server",
-        "b": "aws-app-mesh-virtual-node",
-        "similarity": 0.2301
       }
     ],
     "aws-app-mesh-virtual-router": [
@@ -27487,6 +27613,11 @@
     ],
     "aws-database-migration-workflow": [
       {
+        "a": "aws-route53-resolver",
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.3129
+      },
+      {
         "a": "azure-api-fhir",
         "b": "aws-database-migration-workflow",
         "similarity": 0.3083
@@ -27495,11 +27626,6 @@
         "a": "aws-transfer-ftps",
         "b": "aws-database-migration-workflow",
         "similarity": 0.3065
-      },
-      {
-        "a": "aws-iot-thing-vibration-sensor",
-        "b": "aws-database-migration-workflow",
-        "similarity": 0.2907
       }
     ],
     "aws-dynamodb-standard-table-class": [
@@ -27912,6 +28038,11 @@
     ],
     "aws-ec2-rescue": [
       {
+        "a": "aws-route53-readiness",
+        "b": "aws-ec2-rescue",
+        "similarity": 0.3402
+      },
+      {
         "a": "aws-ec2-rescue",
         "b": "azure-static-apps",
         "similarity": 0.3333
@@ -27920,11 +28051,6 @@
         "a": "aws-systems-maintenance-windows",
         "b": "aws-ec2-rescue",
         "similarity": 0.321
-      },
-      {
-        "a": "aws-systems-session-manager",
-        "b": "aws-ec2-rescue",
-        "similarity": 0.3111
       }
     ],
     "aws-ec2-spot-instance": [
@@ -29316,9 +29442,9 @@
         "similarity": 0.3717
       },
       {
-        "a": "aws-iot-alexa-skill",
+        "a": "aws-route53-resolver",
         "b": "azure-website-staging",
-        "similarity": 0.3083
+        "similarity": 0.3128
       }
     ],
     "azure-web-slots": [
@@ -29379,14 +29505,14 @@
         "similarity": 0.2741
       },
       {
+        "a": "aws-route53-routing-controls",
+        "b": "azure-general-workflow",
+        "similarity": 0.256
+      },
+      {
         "a": "aws-backup-virtual-machine-monitor",
         "b": "azure-general-workflow",
         "similarity": 0.2299
-      },
-      {
-        "a": "aws-iot-shadow",
-        "b": "azure-general-workflow",
-        "similarity": 0.2256
       }
     ],
     "azure-backlog": [
