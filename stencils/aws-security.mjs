@@ -3,6 +3,57 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsSecurityArtwork = [
+  entry("aws-certificate-authority", "aws", "Certificate Authority", ["Res_AWS-Certificate-Manager_Certificate-Authority_48"],
+    "A certificate authority signs an issued certificate.",
+    [
+      line([18, 19], [73, 19], [85, 31], [85, 88], [18, 88], [18, 19]), line([73, 19], [73, 31], [85, 31]), line([27, 38], [65, 38]), line([27, 48], [55, 48]),
+      oval(49, 56, 22, 22), line([54, 77], [51, 89], [60, 84], [68, 89], [65, 77]), line([87, 45], [108, 24]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-directory-ad-connector", "aws", "AD Connector", ["Res_AWS-Directory-Service_AD-Connector_48"],
+    "A connector links an existing directory to AWS.",
+    [
+      rect(13, 23, 45, 59), line([13, 35], [58, 35]), oval(30, 40, 10, 10), line([35, 50], [35, 58], [24, 58], [24, 65]), line([35, 58], [46, 58], [46, 65]), oval(19, 65, 10, 10), oval(41, 65, 10, 10),
+      line([58, 53], [73, 53]), line([67, 47], [73, 53], [67, 59]),
+      line([81, 46], [78, 40], [81, 34], [87, 32], [93, 35], [98, 29], [105, 31], [109, 37], [109, 42], [115, 46], [114, 52], [109, 56], [82, 56], [78, 52], [81, 46]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-directory-managed-ad", "aws", "Managed Microsoft AD", ["Res_AWS-Directory-Service_AWS-Managed-Microsoft-AD_48"],
+    "A managed directory connects users and groups in the cloud.",
+    [
+      line([32, 29], [29, 23], [32, 17], [40, 15], [46, 18], [52, 12], [61, 14], [65, 21], [65, 27], [72, 30], [71, 37], [66, 41], [34, 41], [29, 36], [32, 29]),
+      line([50, 42], [50, 53], [25, 53], [25, 65]), line([50, 53], [76, 53], [76, 65]),
+      oval(17, 65, 16, 16), oval(68, 65, 16, 16), line([11, 92], [14, 85], [20, 81], [30, 81], [36, 85], [39, 92]), line([62, 92], [65, 85], [71, 81], [81, 81], [87, 85], [90, 92]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-directory-simple-ad", "aws", "Simple AD", ["Res_AWS-Directory-Service_Simple-AD_48"],
+    "A simple directory organizes users into groups.",
+    [
+      rect(43, 16, 42, 24), oval(58, 21, 11, 11), line([64, 40], [64, 54], [28, 54], [28, 66]), line([64, 54], [100, 54], [100, 66]),
+      rect(11, 66, 34, 22), oval(22, 70, 10, 10), rect(83, 66, 34, 22), oval(94, 70, 10, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-encryption-key", "aws", "IAM Data Encryption Key", ["Res_AWS-Identity-Access-Management_Data-Encryption-Key_48"],
+    "An encryption key protects data.",
+    [
+      oval(18, 25, 33, 33), line([45, 52], [76, 83], [70, 89]), line([58, 65], [68, 55]), line([66, 73], [76, 63]),
+      rect(77, 26, 32, 33), line([83, 36], [103, 36]), line([83, 45], [98, 45]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-encrypted-data", "aws", "IAM Encrypted Data", ["Res_AWS-Identity-Access-Management_Encrypted-Data_48"],
+    "A lock protects an encrypted data file.",
+    [
+      line([23, 16], [77, 16], [89, 28], [89, 91], [23, 91], [23, 16]), line([77, 16], [77, 28], [89, 28]),
+      rect(40, 50, 34, 28), line([47, 50], [47, 42], [51, 36], [57, 34], [63, 36], [67, 42], [67, 50]), oval(54, 58, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-mfa-token", "aws", "IAM MFA Token", ["Res_AWS-Identity-Access-Management_MFA-Token_48"],
+    "A second-factor token displays a one-time code.",
+    [
+      rect(34, 17, 59, 74), line([42, 28], [85, 28]), rect(44, 37, 39, 21), oval(48, 44, 5, 5, true), oval(59, 44, 5, 5, true), oval(70, 44, 5, 5, true),
+      oval(55, 68, 17, 17), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iam-permissions", "aws", "IAM Permissions", ["Res_AWS-Identity-Access-Management_Permissions_48"],
+    "A permissions list explicitly allows or denies actions.",
+    [
+      line([25, 16], [91, 16], [101, 26], [101, 93], [25, 93], [25, 16]), line([91, 16], [91, 26], [101, 26]),
+      line([34, 39], [40, 45], [49, 34]), line([58, 40], [90, 40]), line([34, 58], [40, 64], [49, 53]), line([58, 59], [90, 59]),
+      line([35, 75], [47, 87]), line([47, 75], [35, 87]), line([58, 81], [90, 81]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-security-agent", "aws", "AWS Security Agent", sizes("AWS-Security-Agent"),
     "An automated security assessment investigates a protected application.",
     [
