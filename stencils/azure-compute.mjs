@@ -1,6 +1,39 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-app-testing", "azure", "Azure App Testing", ["033805167-icon-service-Azure-App-Testing"],
+    "A cloud application is tested in a laboratory flask.",
+    [
+      line([38, 71], [22, 71], [15, 65], [15, 53], [20, 45], [29, 42], [33, 31], [42, 26], [53, 26], [62, 31], [65, 40], [75, 41], [84, 48], [86, 57]),
+      line([43, 46], [67, 46]), line([49, 46], [49, 64], [34, 91], [37, 98], [73, 98], [76, 91], [61, 64], [61, 46]), line([42, 80], [69, 80]),
+      oval(78, 20, 28, 28), line([84, 34], [90, 39], [100, 27]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-cloudtest", "azure", "CloudTest", ["02373-icon-service-CloudTest"],
+    "A bug is tested inside a cloud-connected laboratory flask.",
+    [
+      line([31, 61], [19, 61], [13, 55], [13, 46], [18, 39], [26, 36], [29, 27], [38, 22], [48, 22], [56, 27], [60, 35], [68, 37]),
+      line([29, 43], [50, 43]), line([34, 43], [34, 61], [20, 87], [23, 94], [56, 94], [59, 87], [45, 61], [45, 43]), line([27, 79], [52, 79]),
+      oval(73, 49, 22, 28), line([84, 49], [84, 77]), line([66, 56], [73, 59]), line([95, 59], [102, 56]), line([66, 69], [73, 67]), line([95, 67], [102, 70]), line([77, 49], [73, 43]), line([91, 49], [95, 43]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-lab-services", "azure", "Lab Services", ["10265-icon-service-Lab-Services"],
+    "A laboratory flask represents a cloud-hosted lab.",
+    [
+      line([39, 69], [23, 69], [16, 63], [16, 51], [21, 43], [30, 40], [34, 30], [43, 25], [54, 25], [63, 30], [66, 39], [76, 40], [84, 47], [86, 58]),
+      line([44, 45], [68, 45]), line([50, 45], [50, 64], [35, 91], [38, 98], [74, 98], [77, 91], [62, 64], [62, 45]), line([43, 80], [69, 80]),
+      oval(50, 69, 5, 5), oval(60, 73, 5, 5), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-lab-accounts", "azure", "Lab Accounts", ["02761-icon-service-Lab-Accounts"],
+    "A key grants access to a laboratory account.",
+    [
+      line([26, 19], [51, 19]), line([32, 19], [32, 46], [15, 81], [18, 89], [59, 89], [62, 81], [45, 46], [45, 19]), line([23, 72], [54, 72]),
+      oval(63, 41, 22, 22), oval(70, 48, 7, 7), line([74, 63], [74, 98], [83, 98], [83, 89], [90, 89], [90, 81], [83, 81], [83, 63]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-code-optimization", "azure", "Code Optimization", ["03455-icon-service-Code-Optimization"],
+    "A light bulb suggests an improvement to application code.",
+    [
+      rect(14, 19, 71, 65), line([14, 31], [85, 31]), line([37, 44], [27, 53], [37, 62]), line([62, 44], [72, 53], [62, 62]), line([54, 40], [46, 67]),
+      line([80, 90], [80, 84], [73, 77], [72, 68], [76, 60], [83, 57], [91, 60], [95, 68], [94, 77], [87, 84], [87, 90]), line([80, 95], [87, 95]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-service-groups", "azure", "Service Groups", ["029637767-icon-service-Service-Groups"],
     "A group encloses three connected services.",
     [

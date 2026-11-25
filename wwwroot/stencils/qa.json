@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1422,
-  "aliases": 4487,
+  "count": 1427,
+  "aliases": 4492,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1099,6 +1099,11 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-app-testing",
+    "azure-cloudtest",
+    "azure-lab-services",
+    "azure-lab-accounts",
+    "azure-code-optimization",
     "azure-service-groups",
     "azure-aks-network-policy",
     "azure-openshift",
@@ -1692,8 +1697,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 259,
-      "concepts": 204
+      "covered": 264,
+      "concepts": 209
     },
     "fabric": {
       "sources": 1584,
@@ -7932,9 +7937,9 @@
         "similarity": 0.2573
       },
       {
-        "a": "gcp-api-gateway",
-        "b": "gcp-binary-authorization",
-        "similarity": 0.2478
+        "a": "gcp-binary-authorization",
+        "b": "azure-code-optimization",
+        "similarity": 0.255
       }
     ],
     "gcp-certificate-authority": [
@@ -10863,8 +10868,8 @@
         "similarity": 0.2794
       },
       {
-        "a": "gcp-healthcare-nlp",
-        "b": "aws-redshift-ml",
+        "a": "aws-redshift-ml",
+        "b": "azure-code-optimization",
         "similarity": 0.2704
       }
     ],
@@ -17291,8 +17296,8 @@
       },
       {
         "a": "m365-cloud-add",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.1255
+        "b": "azure-code-optimization",
+        "similarity": 0.129
       }
     ],
     "m365-cloud-download": [
@@ -18844,14 +18849,14 @@
         "similarity": 0.3825
       },
       {
+        "a": "aws-ecs-copilot-cli",
+        "b": "azure-code-optimization",
+        "similarity": 0.3424
+      },
+      {
         "a": "aws-redshift-ml",
         "b": "aws-ecs-copilot-cli",
         "similarity": 0.294
-      },
-      {
-        "a": "aws-redshift-query-editor",
-        "b": "aws-ecs-copilot-cli",
-        "similarity": 0.2883
       }
     ],
     "aws-ecs-service-connect": [
@@ -19037,8 +19042,8 @@
       },
       {
         "a": "aws-ec2-instances",
-        "b": "fabric-match-category",
-        "similarity": 0.2707
+        "b": "azure-code-optimization",
+        "similarity": 0.2748
       }
     ],
     "aws-ec2-rescue": [
@@ -20384,7 +20389,97 @@
         "similarity": 0.2273
       }
     ],
+    "azure-app-testing": [
+      {
+        "a": "azure-app-testing",
+        "b": "azure-lab-services",
+        "similarity": 0.5098
+      },
+      {
+        "a": "azure-app-testing",
+        "b": "fabric-list-sql",
+        "similarity": 0.2381
+      },
+      {
+        "a": "azure-app-testing",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2293
+      }
+    ],
+    "azure-cloudtest": [
+      {
+        "a": "gcp-cloud-network",
+        "b": "azure-cloudtest",
+        "similarity": 0.2214
+      },
+      {
+        "a": "azure-cloudtest",
+        "b": "fabric-document-ssis",
+        "similarity": 0.1932
+      },
+      {
+        "a": "azure-applens",
+        "b": "azure-cloudtest",
+        "similarity": 0.1909
+      }
+    ],
+    "azure-lab-services": [
+      {
+        "a": "azure-app-testing",
+        "b": "azure-lab-services",
+        "similarity": 0.5098
+      },
+      {
+        "a": "azure-lab-services",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2254
+      },
+      {
+        "a": "azure-machine-learning-classic",
+        "b": "azure-lab-services",
+        "similarity": 0.2218
+      }
+    ],
+    "azure-lab-accounts": [
+      {
+        "a": "azure-lab-accounts",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2537
+      },
+      {
+        "a": "azure-lab-accounts",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2504
+      },
+      {
+        "a": "azure-lab-accounts",
+        "b": "azure-code-optimization",
+        "similarity": 0.241
+      }
+    ],
+    "azure-code-optimization": [
+      {
+        "a": "aws-ecs-copilot-cli",
+        "b": "azure-code-optimization",
+        "similarity": 0.3424
+      },
+      {
+        "a": "azure-code-optimization",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.3112
+      },
+      {
+        "a": "azure-sql-vm",
+        "b": "azure-code-optimization",
+        "similarity": 0.2792
+      }
+    ],
     "azure-service-groups": [
+      {
+        "a": "azure-code-optimization",
+        "b": "azure-service-groups",
+        "similarity": 0.2779
+      },
       {
         "a": "azure-service-groups",
         "b": "fabric-folder-data-bars",
@@ -20394,11 +20489,6 @@
         "a": "aws-glue-crawler",
         "b": "azure-service-groups",
         "similarity": 0.2664
-      },
-      {
-        "a": "azure-service-groups",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.2646
       }
     ],
     "azure-aks-network-policy": [
@@ -21984,6 +22074,11 @@
     ],
     "fabric-board-lightning-sparkle": [
       {
+        "a": "azure-code-optimization",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.3112
+      },
+      {
         "a": "aws-glue-crawler",
         "b": "fabric-board-lightning-sparkle",
         "similarity": 0.2775
@@ -21992,11 +22087,6 @@
         "a": "fabric-data-bar-lightning",
         "b": "fabric-board-lightning-sparkle",
         "similarity": 0.2652
-      },
-      {
-        "a": "aws-ecs-app-container",
-        "b": "fabric-board-lightning-sparkle",
-        "similarity": 0.2622
       }
     ],
     "fabric-shapes-curved-arrow": [
@@ -22520,9 +22610,9 @@
         "similarity": 0.2561
       },
       {
-        "a": "fabric-board-lightning-asterisk",
+        "a": "azure-app-testing",
         "b": "fabric-list-sql",
-        "similarity": 0.2181
+        "similarity": 0.2381
       }
     ],
     "fabric-sql-lock": [
