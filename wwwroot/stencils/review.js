@@ -62,8 +62,12 @@ async function load() {
   }
   catch (e) { error(`Could not restore browser decisions: ${e.message}. Repository decisions are shown instead.`); }
   for (const item of items) {
-    decisions[item.id] = saved[item.id]?.revision === item.revision ? saved[item.id]
-      : { revision: item.revision, status: item.review, notes: item.notes };
+    const previous = saved[item.id];
+    const valid = previous?.revision === item.revision &&
+      (previous.status !== "approved" || previous.comparisonRevision === item.comparisonRevision);
+    decisions[item.id] = valid
+      ? { ...previous, comparisonRevision: item.comparisonRevision }
+      : { revision: item.revision, comparisonRevision: item.comparisonRevision, status: item.review, notes: item.notes };
   }
   for (const pair of qa.flaggedPairs) {
     const key = pairKey(pair.a, pair.b);
@@ -161,8 +165,11 @@ function render() {
     aliases.append(el("summary", `${item.sources.length} original source variant(s)`));
     const list = el("ul");
     for (const source of item.sources) {
-      const li = el("li"), link = el("a", source.replace(/^\/icons\//, ""));
+      const li = el("li"), link = el("a");
       link.href = assetUrl(source);
+      const thumbnail = image(source, 48, `Official variant of ${item.name}`);
+      thumbnail.loading = "lazy";
+      link.append(thumbnail, el("span", source.replace(/^\/icons\//, "")));
       li.append(link); list.append(li);
     }
     aliases.append(list);
@@ -179,7 +186,9 @@ function render() {
         history.replaceState(null, "", `#${other.id}`);
         showDrawing(other.id);
       });
-      link.append(image(other.path, 56, "Nearest composition"), el("span", `${other.name} (${Math.round(pair.similarity * 100)}%)`));
+      link.append(image(other.path, 56, "Nearest composition"),
+        image(other.path, 32, "Nearest composition at 32px"),
+        el("span", `${other.name} (${Math.round(pair.similarity * 100)}%)`));
       neighbors.append(link);
     }
     const label = el("label", "Review decision");
@@ -197,7 +206,8 @@ function render() {
     notes.value = decisions[item.id].notes;
     notes.required = select.value === "rework";
     const change = () => {
-      decisions[item.id] = { revision: item.revision, status: select.value, notes: notes.value };
+      decisions[item.id] = { revision: item.revision, comparisonRevision: item.comparisonRevision,
+        status: select.value, notes: notes.value };
       notes.required = select.value === "rework";
       save();
     };

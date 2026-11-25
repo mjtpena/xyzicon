@@ -119,18 +119,42 @@ export function renderSvg(item, monochrome = false) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img"><title>${escape(item.name)} - independent sketch</title>${paths.join("")}</svg>\n`;
 }
 
-export function mergeReviews(current, incoming, revisions) {
+export function mergeReviews(current, incoming, revisions, comparisons) {
   const merged = { ...current };
   for (const [id, review] of Object.entries(incoming)) {
-    if (!revisions[id] || review.revision !== revisions[id])
+    if (!review || typeof review !== "object" || !revisions[id] || review.revision !== revisions[id] ||
+        !comparisons[id] || review.comparisonRevision !== comparisons[id])
       throw new Error(`Stale or unknown review: ${id}. Reload the review sheet.`);
     if (!["approved", "rework", "pending"].includes(review.status) ||
         typeof review.notes !== "string" ||
         (review.status === "rework" && !review.notes.trim()))
       throw new Error(`Invalid review: ${id}; rework needs actionable notes.`);
-    merged[id] = { revision: review.revision, status: review.status, notes: review.notes };
+    if (review.status === "pending" && current[id]?.status !== "pending" && current[id] &&
+        currentReview(current[id], revisions[id], comparisons[id]).review === "pending")
+      continue;
+    merged[id] = { revision: review.revision, comparisonRevision: review.comparisonRevision,
+      status: review.status, notes: review.notes };
   }
   return merged;
+}
+
+export function currentReview(review, revision, comparisonRevision) {
+  if (!review || review.revision !== revision ||
+      (review.status === "approved" && review.comparisonRevision !== comparisonRevision))
+    return { review: "pending", notes: "" };
+  if (!["approved", "rework", "pending"].includes(review.status) ||
+      typeof review.notes !== "string" ||
+      (review.status === "rework" && !review.notes.trim()))
+    throw new Error("Invalid saved drawing review.");
+  return { review: review.status, notes: review.notes };
+}
+
+export function comparisonRevisionFor(id, pairs, revisions, sources) {
+  const neighbors = pairs.map((pair) => {
+    const other = pair.a === id ? pair.b : pair.a;
+    return [other, revisions[other]];
+  });
+  return hash({ neighbors, sources });
 }
 
 export const pairKey = (a, b) => [a, b].sort().join("|");
@@ -217,6 +241,7 @@ export async function build(args = []) {
     [a.id, hash({ artwork: a, svg: renderSvg(a), elements: toElements(a) })]));
   let reviews = await optionalJson(reviewFile);
   let pairReviews = await optionalJson(pairReviewFile);
+  let incomingReviews = null;
   let incomingPairs = null;
   if (args.includes("--reviews")) {
     const file = args[args.indexOf("--reviews") + 1];
@@ -227,25 +252,28 @@ export async function build(args = []) {
           typeof incoming.drawings !== "object" || !incoming.pairs || Array.isArray(incoming.pairs) ||
           typeof incoming.pairs !== "object")
         throw new Error("Invalid review export: expected version 2 drawings and pairs.");
-      reviews = mergeReviews(reviews, incoming.drawings, revisions);
+      incomingReviews = incoming.drawings;
       incomingPairs = incoming.pairs;
     } else {
-      reviews = mergeReviews(reviews, incoming, revisions);
+      incomingReviews = incoming;
     }
   }
   const outputs = new Map();
   const masks = [];
   const signatures = new Map();
+  const sourceRevisions = {};
   const items = [];
   for (const [index, item] of artwork.entries()) {
     const signature = geometrySignature(item);
     if (signatures.has(signature)) throw new Error(`Duplicate composition: ${item.id} and ${signatures.get(signature)}`);
     signatures.set(signature, item.id);
+    sourceRevisions[item.id] = [];
     for (const source of aliases[index]) {
       const sourceFile = path.resolve(root, "wwwroot", source.replace(/^\/+/, ""));
       if (!sourceFile.startsWith(path.join(root, "wwwroot", "icons") + path.sep))
         throw new Error(`Unsafe source path: ${source}`);
-      await readFile(sourceFile);
+      const sourceContent = await readFile(sourceFile, "utf8");
+      sourceRevisions[item.id].push([source, hash(sourceContent.replace(/\r\n/g, "\n"))]);
     }
     const svg = renderSvg(item);
     outputs.set(`${item.id}.svg`, svg);
@@ -256,13 +284,10 @@ export async function build(args = []) {
       .greyscale().raw().toBuffer();
     if (!mask.some((v) => v < 180)) throw new Error(`Blank render: ${item.id}`);
     masks.push(packMask(mask));
-    const review = reviews[item.id];
     items.push({
       id: item.id, provider: item.provider, name: item.name, rationale: item.rationale,
       path: `stencils/${item.id}.svg`, sources: aliases[index],
       revision: revisions[item.id], geometrySignature: signature,
-      review: review?.revision === revisions[item.id] ? review.status : "pending",
-      notes: review?.notes ?? "",
     });
   }
   const flaggedPairs = [];
@@ -285,6 +310,13 @@ export async function build(args = []) {
     }
   }
   flaggedPairs.sort(comparePairs);
+  const comparisons = Object.fromEntries(items.map((item) =>
+    [item.id, comparisonRevisionFor(item.id, nearest[item.id], revisions, sourceRevisions[item.id])]));
+  if (incomingReviews) reviews = mergeReviews(reviews, incomingReviews, revisions, comparisons);
+  for (const item of items) {
+    item.comparisonRevision = comparisons[item.id];
+    Object.assign(item, currentReview(reviews[item.id], item.revision, item.comparisonRevision));
+  }
   if (incomingPairs) pairReviews = mergePairReviews(pairReviews, incomingPairs, revisions, flaggedPairs);
   for (const pair of flaggedPairs) {
     Object.assign(pair, currentPairReview(pair, pairReviews, revisions));

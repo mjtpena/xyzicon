@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
-import { validateArtwork, geometrySignature, mergeReviews, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity } from "./build-stencils.mjs";
+import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity } from "./build-stencils.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
   validateArtwork(artwork);
@@ -43,12 +43,31 @@ test("source aliases retain every variant and fail on missing or ambiguous mappi
   assert.throws(() => resolveSources([{ ...item, sourceNames: ["missing"] }], catalogs), /missing source/);
 });
 
-test("reviews are revision-bound and rework requires notes", () => {
+test("reviews require current drawing and neighbor comparisons", () => {
   const revisions = { icon: "new-revision" };
-  assert.throws(() => mergeReviews({}, { icon: { revision: "old", status: "approved", notes: "" } }, revisions), /Stale/);
-  assert.throws(() => mergeReviews({}, { icon: { revision: "new-revision", status: "rework", notes: "" } }, revisions), /notes/);
-  const decision = { revision: "new-revision", status: "approved", notes: "Distinct without caption" };
-  assert.deepEqual(mergeReviews({}, { icon: decision }, revisions), { icon: decision });
+  const comparisons = { icon: "neighbors-v1" };
+  const decision = { revision: "new-revision", comparisonRevision: "neighbors-v1",
+    status: "approved", notes: "Distinct without caption" };
+  assert.throws(() => mergeReviews({}, { icon: { ...decision, revision: "old" } }, revisions, comparisons), /Stale/);
+  assert.throws(() => mergeReviews({}, { icon: { ...decision, comparisonRevision: "old" } }, revisions, comparisons), /Stale/);
+  assert.throws(() => mergeReviews({}, { icon: { ...decision, status: "rework", notes: "" } }, revisions, comparisons), /notes/);
+  assert.deepEqual(mergeReviews({}, { icon: decision }, revisions, comparisons), { icon: decision });
+  assert.deepEqual(currentReview(decision, revisions.icon, comparisons.icon), { review: "approved", notes: decision.notes });
+  assert.deepEqual(currentReview(decision, revisions.icon, "neighbors-v2"), { review: "pending", notes: "" });
+  assert.deepEqual(currentReview({ ...decision, comparisonRevision: undefined }, revisions.icon, comparisons.icon),
+    { review: "pending", notes: "" });
+  assert.deepEqual(currentReview({ ...decision, status: "rework" }, revisions.icon, "neighbors-v2"),
+    { review: "rework", notes: decision.notes });
+  const legacy = { revision: "new-revision", status: "approved", notes: "Prior review" };
+  assert.deepEqual(mergeReviews({ icon: legacy }, { icon: { ...decision, status: "pending" } }, revisions, comparisons),
+    { icon: legacy });
+  const pairs = [{ a: "icon", b: "neighbor" }];
+  const sources = [["reference.svg", "source-v1"]];
+  const comparison = comparisonRevisionFor("icon", pairs, { neighbor: "v1", other: "v1" }, sources);
+  assert.notEqual(comparison, comparisonRevisionFor("icon", pairs, { neighbor: "v2" }, sources));
+  assert.notEqual(comparison, comparisonRevisionFor("icon", [{ a: "icon", b: "other" }], { other: "v1" }, sources));
+  assert.notEqual(comparison, comparisonRevisionFor("icon", pairs, { neighbor: "v1" }, [["reference.svg", "source-v2"]]));
+  assert.equal(comparison, comparisonRevisionFor("icon", [{ a: "neighbor", b: "icon" }], { neighbor: "v1" }, sources));
 });
 
 test("similarity decisions require both current revisions and a reason", () => {

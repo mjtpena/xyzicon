@@ -26,13 +26,15 @@ article h2 { margin: 0 0 8px; font-size: 1.3rem; }
 .samples { display: flex; flex-wrap: wrap; align-items: end; gap: 24px; min-height: 174px; }
 figure { margin: 0; text-align: center; }
 figcaption { font-size: 0.8rem; color: #5f6368; margin-top: 10px; }
-img { object-fit: contain; display: block; }
+img { object-fit: contain; display: block; filter: grayscale(1); }
 .original { border-right: 1px solid #dfe1e5; padding-right: 24px; }
+.alias-list a { display: flex; align-items: center; gap: 12px; overflow-wrap: anywhere; }
+.alias-list img { flex: 0 0 48px; }
 .controls { display: grid; gap: 10px; align-content: start; }
 textarea { width: 100%; min-height: 76px; resize: vertical; }
 .neighbors { display: flex; gap: 18px; flex-wrap: wrap; margin: 8px 0 16px; }
 .neighbors a { max-width: 100px; font-size: 0.8rem; }
-.neighbors img { width: 56px; height: 56px; margin-bottom: 6px; }
+.neighbors img { margin-bottom: 6px; }
 .meta { font-size: 0.85rem; color: #5f6368; }
 .blind .identity, .blind .rationale, .blind .original, .blind .alias-list { visibility: hidden; }
 .blind .neighbors span { visibility: hidden; }

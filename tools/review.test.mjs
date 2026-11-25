@@ -35,12 +35,15 @@ test("review filters and pages retain decisions and open nearest matches", async
   };
   const items = Array.from({ length: 25 }, (_, i) => ({
     id: `item-${i}`, name: `Concept ${i}`, provider: i < 10 ? "azure" : "aws",
-    revision: `revision-${i}`, review: "pending", notes: "", rationale: "Description",
+    revision: `revision-${i}`, comparisonRevision: `comparison-${i}`, review: "pending", notes: "", rationale: "Description",
     path: `stencils/item-${i}.svg`, sources: [`/icons/item-${i}.svg`],
   }));
   const nearest = Object.fromEntries(items.map((item) => [item.id, []]));
   nearest["item-24"] = [{ a: "item-24", b: "item-1", similarity: 0.2 }];
   const saved = new Map();
+  saved.set("xyzicon-stencil-reviews-v1", JSON.stringify({
+    "item-24": { revision: "revision-24", comparisonRevision: "old-comparison", status: "approved", notes: "Old neighbors" },
+  }));
   const location = { href: "http://localhost/stencils/review.html", hash: "" };
   const document = {
     getElementById: (id) => roots[id] || find(Object.values(roots), id),
@@ -80,8 +83,12 @@ test("review filters and pages retain decisions and open nearest matches", async
   const controls = article.children[1];
   const select = controls.children.find((child) => child.id === "decision-item-24");
   const notes = controls.children.find((child) => child.id === "notes-item-24");
+  assert.equal(select.value, "pending");
+  const neighborImages = controls.children[1].children[0].children.filter((child) => child.tag === "img");
+  assert.deepEqual(neighborImages.map((img) => img.width), [56, 32]);
   select.value = "rework"; select.dispatch("change");
   notes.value = "Improve legibility"; notes.dispatch("input");
+  assert.equal(JSON.parse(saved.get("xyzicon-stencil-reviews-v1"))["item-24"].comparisonRevision, "comparison-24");
   roots["review-search"].value = "";
   roots["review-search"].dispatch("input");
   roots["review-search"].value = "Concept 24";
