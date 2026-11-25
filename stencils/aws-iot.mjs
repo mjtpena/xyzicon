@@ -195,8 +195,9 @@ export const awsIotArtwork = [
   entry("aws-iot-device-tester", "aws", "IoT Device Tester", ["Res_AWS-IoT-Device-Tester_48"],
     "A device is tested with a diagnostic tool.",
     [
-      rect(13, 18, 49, 72), line([21, 26], [54, 26]), line([25, 82], [50, 82]), line([23, 41], [52, 41]), line([23, 51], [47, 51]),
-      line([84, 24], [77, 29], [75, 36], [78, 43], [83, 46], [83, 72], [87, 77], [93, 77], [97, 72], [97, 46], [102, 43], [105, 36], [103, 29], [96, 24], [96, 35], [90, 39], [84, 35], [84, 24]), line([14, 109], [110, 109]),
+      rect(12, 27, 38, 54), line([19, 35], [43, 35]), line([19, 44], [43, 44]), line([23, 72], [39, 72]),
+      line([50, 54], [62, 54]), rect(64, 21, 48, 65), line([72, 32], [104, 32]), line([76, 43], [81, 49], [91, 38]), line([95, 44], [104, 44]),
+      oval(78, 57, 20, 20), line([88, 67], [94, 61]), line([14, 109], [110, 109]),
     ]),
   entry("aws-sitewise-asset", "aws", "IoT SiteWise Asset", ["Res_AWS-IoT-SiteWise_Asset_48"],
     "An industrial asset produces operational data.",

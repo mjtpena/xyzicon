@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 296,
+  "approved": 306,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,12 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-iot-over-air-update",
-    "aws-iot-device-advisor",
-    "aws-iot-device-location",
-    "aws-iot-device-jobs",
-    "aws-iot-fleet-hub",
-    "aws-iot-device-tester",
     "aws-sitewise-asset",
     "aws-sitewise-asset-hierarchy",
     "aws-sitewise-asset-model",
@@ -784,10 +778,6 @@
     "aws-greengrass-interprocess",
     "aws-greengrass-recipe",
     "aws-greengrass-stream-manager",
-    "aws-iot-thing-industrial-pc",
-    "aws-iot-thing-plc",
-    "aws-iot-thing-relay",
-    "aws-iot-thing-freertos",
     "aws-iot-thing-generic",
     "aws-iot-hardware-board",
     "aws-iot-thing-travel",
@@ -4524,6 +4514,11 @@
     "aws-athena": [
       {
         "a": "aws-athena",
+        "b": "aws-iot-device-tester",
+        "similarity": 0.3358
+      },
+      {
+        "a": "aws-athena",
         "b": "azure-files",
         "similarity": 0.2851
       },
@@ -4531,11 +4526,6 @@
         "a": "aws-athena",
         "b": "aws-sns-http-notification",
         "similarity": 0.2821
-      },
-      {
-        "a": "aws-athena",
-        "b": "azure-dns-multistack",
-        "similarity": 0.2742
       }
     ],
     "aws-kinesis-streams": [
@@ -5010,8 +5000,8 @@
       },
       {
         "a": "gcp-cloud-build",
-        "b": "azure-app-registrations",
-        "similarity": 0.2015
+        "b": "aws-iot-device-tester",
+        "similarity": 0.2038
       }
     ],
     "gcp-cloud-dns": [
@@ -14561,6 +14551,11 @@
     "m365-three-shapes": [
       {
         "a": "m365-three-shapes",
+        "b": "aws-iot-device-tester",
+        "similarity": 0.2181
+      },
+      {
+        "a": "m365-three-shapes",
         "b": "azure-kubernetes-hub",
         "similarity": 0.1967
       },
@@ -14568,11 +14563,6 @@
         "a": "m365-three-shapes",
         "b": "aws-mainframe-compiler",
         "similarity": 0.1875
-      },
-      {
-        "a": "m365-three-shapes",
-        "b": "fabric-column-sigma",
-        "similarity": 0.1867
       }
     ],
     "m365-share-screen-overlay": [
@@ -15088,17 +15078,17 @@
     "aws-panorama": [
       {
         "a": "aws-panorama",
+        "b": "aws-iot-device-tester",
+        "similarity": 0.2619
+      },
+      {
+        "a": "aws-panorama",
         "b": "azure-firewall-policy",
         "similarity": 0.2059
       },
       {
         "a": "aws-panorama",
         "b": "azure-scvmm-management-servers",
-        "similarity": 0.2053
-      },
-      {
-        "a": "aws-panorama",
-        "b": "fabric-stream-settings-bracket",
         "similarity": 0.2053
       }
     ],
@@ -15433,13 +15423,13 @@
       },
       {
         "a": "azure-device-configuration",
-        "b": "aws-iot-device-tester",
-        "similarity": 0.3214
-      },
-      {
-        "a": "azure-device-configuration",
         "b": "aws-efs-intelligent-tiering",
         "similarity": 0.3086
+      },
+      {
+        "a": "azure-device-compliance",
+        "b": "azure-device-configuration",
+        "similarity": 0.3034
       }
     ],
     "azure-exchange-access": [
@@ -15812,8 +15802,8 @@
       },
       {
         "a": "azure-external-id",
-        "b": "aws-vpc-network-acl",
-        "similarity": 0.2783
+        "b": "aws-iot-device-tester",
+        "similarity": 0.2893
       }
     ],
     "azure-external-id-modified": [
@@ -20272,19 +20262,19 @@
     ],
     "aws-iot-device-tester": [
       {
-        "a": "aws-iot-device-tester",
-        "b": "aws-ec2-spot-instance",
-        "similarity": 0.3317
-      },
-      {
-        "a": "azure-device-configuration",
+        "a": "aws-athena",
         "b": "aws-iot-device-tester",
-        "similarity": 0.3214
+        "similarity": 0.3358
       },
       {
         "a": "aws-iot-device-tester",
-        "b": "aws-mainframe-compiler",
-        "similarity": 0.3008
+        "b": "azure-server-farm",
+        "similarity": 0.3058
+      },
+      {
+        "a": "aws-iot-http2",
+        "b": "aws-iot-device-tester",
+        "similarity": 0.2967
       }
     ],
     "aws-sitewise-asset": [
@@ -22742,14 +22732,14 @@
         "similarity": 0.3024
       },
       {
+        "a": "aws-iot-device-tester",
+        "b": "aws-proton",
+        "similarity": 0.2727
+      },
+      {
         "a": "azure-applied-ai",
         "b": "aws-proton",
         "similarity": 0.2653
-      },
-      {
-        "a": "gcp-partner-interconnect",
-        "b": "aws-proton",
-        "similarity": 0.256
       }
     ],
     "aws-opentelemetry": [
@@ -29554,9 +29544,9 @@
         "similarity": 0.2156
       },
       {
-        "a": "aws-iot-device-tester",
+        "a": "aws-codeartifact",
         "b": "gcp-category-ai",
-        "similarity": 0.1979
+        "similarity": 0.1931
       }
     ],
     "gcp-category-agents": [
@@ -31056,9 +31046,9 @@
         "similarity": 0.3333
       },
       {
-        "a": "aws-iot-device-tester",
+        "a": "azure-device-configuration",
         "b": "aws-ec2-spot-instance",
-        "similarity": 0.3317
+        "similarity": 0.328
       }
     ],
     "aws-beanstalk-application": [

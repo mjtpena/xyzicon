@@ -1326,9 +1326,9 @@
   },
   "aws-athena": {
     "revision": "4c6565d5b7e720e130adbf29f91afd686dbb3c46f19c0c18093ecf5845fd4589",
-    "comparisonRevision": "eab9d8e3f342855a333033dd16d9c1f694dec6a1e4e8ec2e525bbb370c1ee5f4",
+    "comparisonRevision": "c47d6fa2f7a7ae9032c0abd12b63afcc517bc2935b2af462a560f7234d4b21b6",
     "status": "approved",
-    "notes": "An object bucket feeds an SQL query page, distinct from the file collection, notification and DNS diagrams and from the source magnifier."
+    "notes": "An object store points to SQL results, unlike a diagnostic meter, file servers and HTTP notification."
   },
   "aws-kinesis-streams": {
     "revision": "c8cd13dc77297709512ad509f60b9c51639221176648d8598a52063923cec796",
@@ -2124,9 +2124,9 @@
   },
   "aws-panorama": {
     "revision": "de1cde08eda901d3c72445712f5ecf285eb223110bd035037fb3b0860692abfa",
-    "comparisonRevision": "6b984c84a6db5dd8052417b38058434d41c81de28c9cd5cb271a986d6c8d8bb6",
+    "comparisonRevision": "a22e037179f446f9f259c400c62ffe644537dfcd4677211ffa7e10fa7a223690",
     "status": "approved",
-    "notes": "A camera inspects a scene within a view cone, unlike a firewall, management servers and stream settings."
+    "notes": "A camera and its vision field differ from the device tester, firewall policy and management servers."
   },
   "aws-augmented-ai": {
     "revision": "c4adf23c00ced2322e27df4a4809e2682ace257bedc6a2812c2f3a9bfcd56436",
@@ -2319,5 +2319,65 @@
     "comparisonRevision": "21650821e813bbbcb4600be02b95d657e46079d49cf933f1c9c30293d0243da9",
     "status": "approved",
     "notes": "A framed virtual device has a play control, unlike cache grids, a WAF rule and blob blocks."
+  },
+  "aws-iot-over-air-update": {
+    "revision": "104b5e9cd2b15d9cf490f5156cc08da6dbc27febc4c16b944dcce99ddf45487a",
+    "comparisonRevision": "26ca3c55a4f9d1c1fdb69a651f6fca8b19975522bf6eb7a8b2fb24410cc329d2",
+    "status": "approved",
+    "notes": "A download enters a wireless device, unlike input/output, lifecycle management and a bank building."
+  },
+  "aws-iot-device-advisor": {
+    "revision": "f33bb7764e9c78e2ed58f658c1ecf8030c5d77cbf96d6f9877b1caa3853aa5c4",
+    "comparisonRevision": "aeeb5fcf4ee5453f0d218632c5963874723b75a19fbee2737846a1e53d4918ea",
+    "status": "approved",
+    "notes": "A device is assessed against a checklist, unlike Arc, DNS resolution and backup."
+  },
+  "aws-iot-device-location": {
+    "revision": "ad2c7e9079217acd5a2e59a2a164df53b9bb40d9c6d6c94e16f33a7ae7b002f0",
+    "comparisonRevision": "75031ac1d75c0c6d9455b40c46d0367aebf8f63f4cbde0ad98f27405997e0348",
+    "status": "approved",
+    "notes": "A device points to a location pin, unlike the assessment, workbench and development symbols."
+  },
+  "aws-iot-device-jobs": {
+    "revision": "7b991f5ee2a72653c3c44d51cd68da50d492b7b00999ea1606726fe4e20b86a9",
+    "comparisonRevision": "701232ad9f8942afbc2b18b725367a7ad84cc6b39158bb308a61af36da2d8d0c",
+    "status": "approved",
+    "notes": "A device sits beside a completed task sheet, unlike the installer, database instance and observability panel."
+  },
+  "aws-iot-fleet-hub": {
+    "revision": "c2e9e85dc98045cdc30e7529578c354dafb91c01c03d194d5929065358ac4bd7",
+    "comparisonRevision": "36c810d61eddd0e2e7ac54d56bc3f993190da7c08c708969d22fedc36f9e6ec5",
+    "status": "approved",
+    "notes": "Three connected devices appear in a fleet dashboard, unlike user monitoring, charts and a route table."
+  },
+  "aws-iot-device-tester": {
+    "revision": "1ecc9da5b9a24da37e7cb3ed63a22e7f0b0b727090f611ba4f97dc88369697a8",
+    "comparisonRevision": "50ca691408d8320eec27b5556af7be93382fd0cec64e6641a641e61be63f7963",
+    "status": "approved",
+    "notes": "A device connects to a checked diagnostic meter, unlike Athena SQL, server farm and HTTP multiplexing; advisor uses a checklist."
+  },
+  "aws-iot-thing-industrial-pc": {
+    "revision": "8bc4f1f23f2d646f9a12a9a9824b82dff26da92f46931bb61de858c0a62b643a",
+    "comparisonRevision": "8235b86310236c75c15d47a4ca16241e7432632653de4113ddf1ced115c13e79",
+    "status": "approved",
+    "notes": "A monitor and rugged tower differ from a car, software download and code monitor."
+  },
+  "aws-iot-thing-plc": {
+    "revision": "d1fdda40f70d2b168e8fe8fc6f3c1234b4a468a0ddc6ac8d0bae6f1a2ca048b8",
+    "comparisonRevision": "e18d4a71871c568be6530b65b50264915316e9f249d9057ba9614d7aff80ccfd",
+    "status": "approved",
+    "notes": "A controller panel with multiple terminals differs from infrastructure racks, vault and network adapter."
+  },
+  "aws-iot-thing-relay": {
+    "revision": "7787c14cca9da23b7de02e9d8b8e0e8ad02a324d090a52531c0a547d76180030",
+    "comparisonRevision": "e65cd41d64684375aed9ca4417fbcd832218c6f078f69185aca49dfbd7f5f77a",
+    "status": "approved",
+    "notes": "A switch and circuit trace differ from the storage dial, noise chart and transfer arrows."
+  },
+  "aws-iot-thing-freertos": {
+    "revision": "b749fe3bddf3ce1f7e15476e0e1ac4f9192faa6bbcb00948795b8c0e65c1539c",
+    "comparisonRevision": "a4302d3f197d9c10dc1a45f8957dc76eb474c03955abca2d09c656db1c505bf9",
+    "status": "approved",
+    "notes": "A chip carries a clock and task lines, unlike a quantum chip, rack and sliders."
   }
 }
