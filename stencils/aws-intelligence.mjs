@@ -289,7 +289,7 @@ export const awsIntelligenceArtwork = [
     "A health monitor reveals an operational anomaly and recommended repair.",
     [
       rect(12, 17, 104, 74), line([12, 31], [116, 31]), line([22, 59], [32, 59], [39, 44], [46, 74], [54, 54], [62, 59], [71, 59]),
-      polygon([93, 40], [111, 71], [75, 71]), line([93, 50], [93, 59]), oval(90, 63, 6, 6, true),
+      line([93, 40], [111, 71], [75, 71], [93, 40]), line([93, 50], [93, 59]), oval(90, 63, 6, 6, true),
       line([39, 91], [39, 104], [89, 104]), line([89, 91], [89, 104]),
     ]),
   entry("aws-lookout-equipment", "aws", "Amazon Lookout for Equipment", sizes("Amazon-Lookout-for-Equipment"),
@@ -303,11 +303,11 @@ export const awsIntelligenceArtwork = [
   entry("aws-lookout-vision", "aws", "Amazon Lookout for Vision", sizes("Amazon-Lookout-for-Vision"),
     "A visual inspection camera flags a defect on a manufactured part.",
     [
-      rect(11, 16, 43, 32, true), oval(20, 22, 19, 19), line([54, 25], [68, 19], [68, 45], [54, 39]),
+      rect(11, 16, 43, 32), oval(20, 22, 19, 19), line([54, 25], [68, 19], [68, 45], [54, 39]),
       line([40, 51], [54, 64]), line([48, 58], [54, 64], [45, 65]),
       line([19, 79], [46, 66], [74, 79], [74, 101], [46, 114], [19, 101], [19, 79]),
       line([19, 79], [46, 91], [74, 79]), line([46, 91], [46, 114]),
-      polygon([94, 51], [111, 80], [77, 80]), line([94, 61], [94, 69]), oval(91, 72, 6, 6),
+      line([94, 51], [111, 80], [77, 80], [94, 51]), line([94, 61], [94, 69]), oval(91, 72, 6, 6),
     ]),
   entry("aws-monitron", "aws", "Amazon Monitron", sizes("Amazon-Monitron"),
     "A wireless sensor reports machine health to a mobile display.",

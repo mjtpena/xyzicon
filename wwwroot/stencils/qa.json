@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 273,
+  "approved": 272,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -497,6 +497,7 @@
     "m365-three-shapes",
     "m365-share-screen-overlay",
     "m365-ribbon-star",
+    "aws-health-imaging",
     "aws-devops-guru",
     "aws-lookout-vision",
     "azure-device-security-apple",
@@ -17683,13 +17684,13 @@
       },
       {
         "a": "azure-mobile-networks",
-        "b": "aws-iot-echo",
-        "similarity": 0.2402
+        "b": "aws-s3-bucket-with-objects",
+        "similarity": 0.2284
       },
       {
         "a": "azure-mobile-networks",
-        "b": "aws-s3-bucket-with-objects",
-        "similarity": 0.2284
+        "b": "aws-certificate-authority",
+        "similarity": 0.2267
       }
     ],
     "azure-edge-hardware-center": [
@@ -19854,18 +19855,18 @@
     "aws-iot-echo": [
       {
         "a": "aws-iot-echo",
-        "b": "aws-iot-thing-travel",
-        "similarity": 0.3122
+        "b": "azure-mobile-engagement",
+        "similarity": 0.301
+      },
+      {
+        "a": "azure-ad-b2c",
+        "b": "aws-iot-echo",
+        "similarity": 0.2781
       },
       {
         "a": "aws-iot-echo",
-        "b": "aws-auto-scaling-group",
-        "similarity": 0.2857
-      },
-      {
-        "a": "aws-iot-echo",
-        "b": "aws-general-server",
-        "similarity": 0.2814
+        "b": "aws-general-saml-token",
+        "similarity": 0.2729
       }
     ],
     "aws-iot-fire-tv": [
@@ -20674,14 +20675,14 @@
         "similarity": 0.332
       },
       {
-        "a": "aws-iot-echo",
-        "b": "aws-iot-thing-travel",
-        "similarity": 0.3122
-      },
-      {
         "a": "azure-stack-hci-sizer",
         "b": "aws-iot-thing-travel",
         "similarity": 0.3001
+      },
+      {
+        "a": "azure-cosmos-db",
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.2891
       }
     ],
     "aws-iot-thing-utility": [
@@ -30338,11 +30339,6 @@
     ],
     "aws-auto-scaling-group": [
       {
-        "a": "aws-iot-echo",
-        "b": "aws-auto-scaling-group",
-        "similarity": 0.2857
-      },
-      {
         "a": "aws-iot-thing-generic",
         "b": "aws-auto-scaling-group",
         "similarity": 0.2775
@@ -30351,6 +30347,11 @@
         "a": "aws-waf-filtering-rule",
         "b": "aws-auto-scaling-group",
         "similarity": 0.2747
+      },
+      {
+        "a": "azure-defender-scale",
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2704
       }
     ],
     "aws-corporate-data-center": [
@@ -33437,14 +33438,14 @@
         "similarity": 0.4107
       },
       {
+        "a": "aws-iot-echo",
+        "b": "azure-mobile-engagement",
+        "similarity": 0.301
+      },
+      {
         "a": "azure-tfs-vc-repository",
         "b": "azure-mobile-engagement",
         "similarity": 0.2932
-      },
-      {
-        "a": "aws-mainframe-runtime",
-        "b": "azure-mobile-engagement",
-        "similarity": 0.2912
       }
     ],
     "azure-power": [

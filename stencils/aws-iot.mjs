@@ -22,8 +22,9 @@ export const awsIotArtwork = [
   entry("aws-iot-echo", "aws", "IoT Echo", ["Res_AWS-IoT_Echo_48"],
     "A voice assistant speaker listens for commands.",
     [
-      oval(34, 19, 53, 14), line([34, 26], [34, 79], [39, 85], [49, 88], [72, 88], [82, 85], [87, 79], [87, 26]), line([34, 36], [40, 40], [50, 42], [71, 42], [81, 40], [87, 36]),
-      line([46, 60], [75, 60]), line([46, 68], [75, 68]), oval(57, 22, 6, 6, true), line([14, 109], [110, 109]),
+      oval(20, 20, 47, 13), line([20, 26], [20, 80], [26, 86], [41, 90], [61, 86], [67, 80], [67, 26]), line([20, 36], [26, 40], [41, 43], [61, 40], [67, 36]),
+      line([29, 55], [58, 55]), line([29, 64], [58, 64]), line([29, 73], [58, 73]), oval(40, 23, 6, 6, true),
+      line([77, 38], [84, 47], [86, 56], [84, 65], [77, 74]), line([91, 29], [101, 42], [104, 56], [101, 70], [91, 83]), line([14, 109], [110, 109]),
     ]),
   entry("aws-iot-fire-tv", "aws", "IoT Fire TV", ["Res_AWS-IoT_Fire_TV_48"],
     "A television plays a connected video stream.",
