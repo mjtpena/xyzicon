@@ -23,7 +23,7 @@ window.xyzicon.searchEngine = {
     };
 
     this.index = icons.map((icon) => ({
-      id: pick(icon, "name", "Name"),
+      id: pick(icon, "path", "Path"),
       name: pick(icon, "displayName", "DisplayName"),
       provider: pick(icon, "provider", "Provider"),
       searchText: pick(icon, "searchText", "SearchText"),
@@ -327,6 +327,7 @@ window.downloadAsSvg = async function (imgId, fileName) {
 
   try {
     const response = await fetch(img.src);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const blob = await response.blob();
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);

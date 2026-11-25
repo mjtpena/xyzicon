@@ -52,8 +52,28 @@ def main():
 
     os.makedirs('wwwroot/data', exist_ok=True)
 
+    all_paths = set()
+    catalogs = {}
     for provider, directory in providers.items():
         metadata = generate_metadata(provider, directory)
+        all_paths.update(icon["path"] for icon in metadata["Icons"])
+        catalogs[provider] = metadata
+
+    # Catalog refresh must not silently detach a curated drawing from its sources.
+    stencil_catalog = Path("wwwroot/stencils/catalog.json")
+    if stencil_catalog.exists():
+        with stencil_catalog.open(encoding="utf-8") as f:
+            stencils = json.load(f)
+        missing = sorted({
+            source for item in stencils["items"] for source in item["sources"]
+            if source not in all_paths
+        })
+        if missing:
+            raise ValueError(
+                "Stencil aliases need review after catalog refresh: " + ", ".join(missing)
+            )
+
+    for provider, metadata in catalogs.items():
         output_file = f'wwwroot/data/{provider}.json'
         with open(output_file, 'w') as f:
             json.dump(metadata, f, indent=2)

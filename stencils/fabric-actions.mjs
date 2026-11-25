@@ -1,0 +1,81 @@
+import { rect, oval, line, entry } from "./primitives.mjs";
+
+const variants = (name, sizes) => sizes.flatMap((size) =>
+  ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
+
+export const fabricActionArtwork = [
+  entry("fabric-checked-documents", "fabric", "Documents with checkmark",
+    variants("document_multiple_checkmark", [16, 20, 24]),
+    "A checkmark confirms a stack of documents.",
+    [
+      line([25, 30], [25, 14], [76, 14], [95, 33], [95, 89]),
+      line([76, 14], [76, 33], [95, 33]), line([19, 38], [19, 102], [81, 102]),
+      line([32, 41], [67, 41]), line([32, 53], [59, 53]),
+      oval(49, 62, 54, 54), line([61, 89], [73, 100], [92, 78]),
+    ]),
+  entry("fabric-stacked-text", "fabric", "Stacked text documents",
+    variants("document_one_page_multiple_text", [20, 24, 32]),
+    "A text page sits in front of two offset pages.",
+    [
+      line([35, 18], [93, 18], [103, 28], [103, 104], [96, 111], [34, 111]),
+      line([27, 24], [86, 24], [96, 34], [96, 104]),
+      rect(18, 30, 70, 72), line([30, 43], [44, 43]), line([30, 54], [75, 54]),
+      line([30, 66], [75, 66]), line([30, 78], [67, 78]), line([30, 90], [75, 90]),
+    ]),
+  entry("fabric-square-transfer", "fabric", "Square transfer",
+    variants("square_arrow_up_down", [20, 24, 28]),
+    "Opposite arrows cross the lower edge of a framed item.",
+    [
+      line([18, 86], [18, 18], [100, 18], [100, 69]),
+      line([48, 69], [48, 109], [37, 98]), line([48, 109], [59, 98]),
+      line([82, 109], [82, 69], [71, 80]), line([82, 69], [93, 80]),
+    ]),
+  entry("fabric-square-database", "fabric", "Square database",
+    variants("square_database", [20, 24, 28]),
+    "A framed tile contains a layered data store.",
+    [
+      rect(15, 15, 98, 98), oval(37, 34, 54, 19),
+      line([37, 43], [37, 84], [45, 91], [83, 91], [91, 84], [91, 43]),
+      line([37, 64], [45, 70], [83, 70], [91, 64]),
+    ]),
+  entry("fabric-global-transfer", "fabric", "Global data transfer",
+    variants("square_globe_arrow_up_down", [20, 24, 28]),
+    "A framed globe exchanges data in both directions.",
+    [
+      line([15, 92], [15, 16], [101, 16], [101, 68]),
+      oval(28, 29, 57, 57), line([28, 57], [85, 57]),
+      line([56, 29], [46, 40], [43, 57], [46, 74], [56, 86]),
+      line([56, 29], [66, 40], [69, 57], [66, 74], [56, 86]),
+      line([72, 83], [72, 112], [64, 104]), line([72, 112], [80, 104]),
+      line([98, 112], [98, 83], [90, 91]), line([98, 83], [106, 91]),
+    ]),
+  entry("fabric-overlapping-squares-line", "fabric", "Overlapping squares with line",
+    variants("square_multiple_overlap_line", [20, 24, 28]),
+    "A marked front card overlaps a staggered stack of square cards.",
+    [
+      line([45, 70], [45, 16], [110, 16], [110, 74], [96, 74]),
+      line([31, 83], [31, 30], [96, 30], [96, 87], [81, 87]),
+      rect(16, 45, 65, 58), line([28, 79], [69, 79]),
+    ]),
+  entry("fabric-person-pulse", "fabric", "Person pulse",
+    variants("pulse_square_person", [20, 24, 32]),
+    "A person's profile appears beside a pulse chart.",
+    [
+      line([15, 95], [15, 19], [92, 19], [92, 52]),
+      line([24, 57], [34, 57], [41, 44], [50, 70], [58, 51], [65, 57], [77, 57]),
+      oval(77, 55, 22, 22), line([65, 106], [67, 90], [75, 83], [87, 80], [99, 83], [107, 90], [109, 106]),
+      line([65, 106], [109, 106]),
+    ]),
+  entry("fabric-person-settings", "fabric", "Person settings",
+    variants("settings_person", [16, 20, 24]),
+    "A profile is paired with a configuration gear.",
+    [
+      oval(75, 30, 25, 25), line([66, 107], [68, 80], [75, 68], [88, 63], [101, 68], [108, 80], [110, 107]),
+      line([66, 107], [110, 107]),
+      line([31, 19], [43, 19], [46, 27], [52, 30], [60, 27], [68, 36], [64, 44],
+        [67, 50], [74, 53], [74, 65], [67, 68], [64, 74], [67, 82], [59, 90],
+        [51, 86], [45, 89], [42, 97], [30, 97], [27, 89], [21, 86], [13, 90],
+        [6, 82], [9, 74], [6, 68], [6, 48], [10, 43], [7, 36], [15, 27],
+        [23, 30], [28, 27], [31, 19]), oval(27, 48, 20, 20),
+    ]),
+];

@@ -20,7 +20,7 @@ The catalog is refreshed from official provider packages. The dates below descri
 | Provider | Official source | Package represented in this catalog |
 | --- | --- | --- |
 | AWS | [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) | July 31, 2026 package |
-| Azure | [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) | Version 24, July 2026 |
+| Azure | [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) | Version 25, November 2026 |
 | Google Cloud | [Google Cloud Icon Library](https://cloud.google.com/icons) | Current core and category icons, plus the official legacy set (new iconography announced in 2025) |
 | Microsoft Entra | [Entra architecture icons](https://learn.microsoft.com/en-us/entra/architecture/architecture-icons) | October 2023 package, the latest linked by Microsoft |
 | Microsoft Fabric | [Fabric icons](https://learn.microsoft.com/en-us/fabric/fundamentals/icons) | Official Fabric samples package, version 6.1.0 |
@@ -31,6 +31,37 @@ The catalog is refreshed from official provider packages. The dates below descri
 ### Updating the icon catalog
 
 Run `bash update-icons.sh` to download the official packages, validate and stage all eight provider sets, replace the local assets, and regenerate their metadata. The script requires `curl`, `unzip`, and Python 3 (`python3`, or `python` on Windows); it leaves the existing catalog untouched if a download, archive check, extraction, or metadata generation fails.
+
+### Hand-drawn icon library
+
+Choose **Hand-drawn** to browse independently composed service/concept illustrations across the provider collections. These are **unofficial conceptual illustrations**, not altered provider logos or approved brand assets. The original catalog remains unchanged. The library is incomplete: the app and review sheet report current coverage. SVG download, PNG download and copy use the selected style; hand-drawn exports have a `-hand-drawn` filename suffix.
+
+Each concept has its own authored geometry in the `stencils/` artwork modules. Repeated source files and size/colour variants are explicit aliases, not additional drawings. There is no generic cloud fallback: concepts not yet drawn appear only in Original mode. Search, usage tracking and card identity use the full source path so same-named variants remain distinct.
+
+The [review sheet](wwwroot/stencils/review.html) is available at `stencils/review.html` in the running app. It includes official references, 128/64/32px previews, blind review, source aliases, closest silhouette matches and per-drawing decisions. Filter by provider, decision or name, and use the page controls to work through the catalog; selecting a closest match opens its page. Download the full library or a provider's `.excalidrawlib` there and import it via Excalidraw's library menu. All components are editable native elements, grouped by concept, with no embedded raster images. SVG and library exports use the same geometry; their respective renderers can produce slightly different rough strokes.
+
+```powershell
+npm ci
+npm run stencils
+npm test
+python -m unittest discover -s tools -p "test_*.py"
+npm run stencils:check
+```
+
+**Review / repeat gate:** new drawings start pending review, not automatically approved. Review every drawing for recognizability without its caption, distinctness from its three closest matches, direction, clipping and small-size legibility. Mark **Needs rework** with specific notes or approve it. Browser decisions are local until exported and imported:
+
+```powershell
+npm run stencils:review -- C:\path\to\stencil-reviews.json
+# Edit only the affected composition, regenerate, and review again.
+npm run stencils
+npm run stencils:check -- --approved
+# When every official source entry is covered, check both coverage and approvals:
+npm run stencils:check -- --approved --complete
+```
+
+Reviews persist in `stencils/reviews.json` and pair decisions in `stencils/pair-reviews.json`; both are revision-bound, so editing either drawing invalidates its pair decision. Generation rejects duplicate normalized geometry (ignoring names, colours, seeds, translation and scale), missing/ambiguous aliases and invalid bounds. `qa.json` reports source-entry coverage per provider, ranks normalized monochrome outline similarity and flags pairs at 0.65 intersection-over-union. This is a triage heuristic, **not proof of uniqueness**. Compare each flagged pair and record why it is distinct or needs rework. The `--approved` gate fails while any drawing is unapproved or any flagged pair is unresolved; `--complete` separately fails while any source entry is unmapped. Both gates also run on `main` before deployment.
+
+Generated SVGs, libraries, catalog and QA data are committed for static hosting; Node and Rough.js/Sharp are authoring dependencies only. The official refresh script does not regenerate or overwrite curated drawings, and rolls back if an existing alias disappears. After refresh, run `npm run stencils` and review any mapping changes; newly added variants are resolved from the explicit source-name allowlists, never fuzzy name matching.
 
 ## Getting Started
 
@@ -101,7 +132,7 @@ This will start the development server at `https://localhost:5001` (or similar).
 
 - **Frontend**: Blazor WebAssembly (.NET 8)
 - **Hosting**: GitHub Pages (Static)
-- **Icons**: 7,818 official cloud service icons
+- **Icons**: 5,419 official cloud service icon files
 - **Build**: GitHub Actions for CI/CD
 
 ## Deployment

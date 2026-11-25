@@ -1,0 +1,114 @@
+import { rect, oval, line, entry } from "./primitives.mjs";
+
+const variants = (name, sizes) => sizes.flatMap((size) =>
+  ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
+const nonItem = (name) => [20, 24, 32, 40, 48, 64].map((size) => `${name}_${size}_non-item`);
+
+export const fabricVisualArtwork = [
+  entry("fabric-hexagons", "fabric", "Three rotated hexagons",
+    variants("hexagon_three_rotated", [12, 16, 20, 24, 32]),
+    "Three hexagonal tiles fit together in a triangular arrangement.",
+    [
+      line([64, 13], [82, 23], [82, 43], [64, 53], [46, 43], [46, 23], [64, 13]),
+      line([43, 55], [61, 65], [61, 85], [43, 95], [25, 85], [25, 65], [43, 55]),
+      line([85, 55], [103, 65], [103, 85], [85, 95], [67, 85], [67, 65], [85, 55]),
+    ]),
+  entry("fabric-home-waves", "fabric", "Home with waves",
+    variants("home_waves", [16, 20, 24, 32, 48]),
+    "Two waves cross in front of a simple house outline.",
+    [
+      line([17, 61], [17, 45], [64, 14], [111, 45], [111, 61]),
+      line([17, 67], [28, 62], [39, 67], [50, 62], [61, 67], [72, 62], [83, 67], [94, 62], [111, 67]),
+      line([17, 87], [28, 82], [39, 87], [50, 82], [61, 87], [72, 82], [83, 87], [94, 82], [111, 87]),
+      line([25, 104], [103, 104]),
+    ]),
+  entry("fabric-bar-prohibited", "fabric", "Bar chart prohibited",
+    variants("data_bar_vertical_prohibited", [16, 20, 24, 32]),
+    "A prohibition mark overlays the shorter of two data bars.",
+    [
+      rect(16, 18, 20, 86), line([44, 104], [44, 47], [58, 47]),
+      oval(51, 42, 62, 62), line([59, 96], [104, 50]),
+    ]),
+  entry("fabric-database-pulse", "fabric", "Database stack pulse",
+    variants("database_stack_pulse", [16, 20, 24, 32]),
+    "A pulse monitor reports activity on a database stack.",
+    [
+      oval(12, 18, 64, 23), line([12, 29], [12, 93], [22, 101], [66, 101], [76, 93], [76, 29]),
+      line([12, 53], [22, 60], [66, 60], [76, 53]), line([12, 76], [22, 83], [66, 83], [76, 76]),
+      oval(69, 64, 45, 45), line([75, 87], [81, 87], [85, 79], [90, 96], [96, 81], [100, 87], [108, 87]),
+    ]),
+  entry("fabric-gift-warning", "fabric", "Open gift warning",
+    variants("gift_open_warning", [16, 20, 24, 32]),
+    "An open gift box is accompanied by a warning triangle.",
+    [
+      line([15, 66], [20, 99], [67, 99], [72, 66]),
+      line([15, 66], [6, 55], [25, 50], [43, 61], [61, 50], [80, 55], [72, 66]),
+      line([43, 61], [43, 99]),
+      line([34, 46], [29, 42], [27, 34], [30, 27], [36, 23], [43, 24], [48, 29], [48, 35], [44, 39], [39, 38], [38, 34]),
+      line([59, 19], [59, 29]), line([54, 24], [64, 24]),
+      line([92, 54], [118, 100], [66, 100], [92, 54]), line([92, 67], [92, 83]), oval(89, 88, 6, 6),
+    ]),
+  entry("fabric-iot-person", "fabric", "IoT person",
+    variants("iot_person", [16, 20, 24, 32]),
+    "A person is linked to a small network of connected devices.",
+    [
+      oval(78, 20, 25, 25), line([70, 100], [73, 71], [82, 60], [91, 56], [100, 60], [109, 71], [112, 100]),
+      oval(14, 17, 14, 14), oval(14, 61, 14, 14), oval(44, 38, 14, 14, true), oval(16, 98, 14, 14),
+      line([28, 24], [44, 43]), line([28, 68], [44, 51]), line([30, 105], [45, 52]), line([58, 45], [78, 33]),
+      line([54, 72], [70, 72]),
+    ]),
+  entry("fabric-three-shapes", "fabric", "Three shapes",
+    variants("shapes_three", [16, 20, 24, 32]),
+    "A triangle, circle and square overlap as three different shape types.",
+    [
+      line([63, 16], [102, 79], [24, 79], [63, 16]),
+      rect(15, 61, 45, 45), oval(67, 62, 45, 45),
+    ]),
+  entry("fabric-overlapping-squares", "fabric", "Overlapping squares",
+    variants("square_multiple_overlap", [20, 24, 28, 32]),
+    "Two offset squares overlap to indicate a selection of multiple objects.",
+    [
+      rect(20, 41, 66, 66), rect(42, 19, 66, 66),
+    ]),
+  entry("fabric-add-pipeline", "fabric", "Add pipeline", nonItem("add_pipeline"),
+    "A new data connection is added between two pipeline endpoints.",
+    [
+      rect(13, 30, 24, 47), rect(75, 30, 24, 47), line([37, 45], [75, 45]), line([37, 61], [75, 61]),
+      oval(70, 70, 44, 44), line([92, 80], [92, 104]), line([80, 92], [104, 92]),
+    ]),
+  entry("fabric-folder", "fabric", "Folder", nonItem("folder"),
+    "A closed folder has a tab and a simple visible front.",
+    [
+      line([15, 29], [47, 29], [56, 39], [112, 39], [112, 98], [15, 98], [15, 29]),
+      line([15, 48], [112, 48]), line([28, 83], [79, 83]),
+    ]),
+  entry("fabric-group-workspace", "fabric", "Group workspace", nonItem("group_workspace"),
+    "Three people share one workspace table.",
+    [
+      oval(51, 13, 24, 24), oval(16, 31, 19, 19), oval(93, 31, 19, 19),
+      line([43, 63], [46, 49], [55, 42], [72, 42], [81, 49], [84, 63]),
+      line([10, 75], [13, 60], [20, 54], [31, 54], [38, 60], [40, 70]),
+      line([88, 70], [90, 60], [97, 54], [108, 54], [115, 60], [118, 75]),
+      line([32, 78], [96, 78], [109, 98], [19, 98], [32, 78]), line([42, 108], [86, 108]),
+    ]),
+  entry("fabric-import-notebook", "fabric", "Import notebook", nonItem("import_notebook"),
+    "A code notebook is added to a workspace.",
+    [
+      rect(19, 13, 71, 95), line([32, 14], [32, 107]), line([13, 29], [24, 29]), line([13, 48], [24, 48]),
+      line([13, 67], [24, 67]), line([13, 86], [24, 86]),
+      line([53, 33], [44, 42], [53, 51]), line([69, 33], [78, 42], [69, 51]), line([65, 29], [57, 55]),
+      oval(71, 69, 43, 43), line([92, 79], [92, 102]), line([81, 90], [103, 90]),
+    ]),
+  entry("fabric-my-workspace", "fabric", "My workspace", nonItem("my_workspace"),
+    "A personal workspace surrounds one user and their work surface.",
+    [
+      line([16, 16], [112, 16], [112, 111], [16, 111], [16, 16]),
+      oval(49, 27, 30, 30), line([36, 89], [38, 72], [48, 63], [64, 60], [80, 63], [90, 72], [92, 89]),
+      line([28, 100], [100, 100]),
+    ]),
+  entry("fabric-sample", "fabric", "Sample", nonItem("sample"),
+    "A notched flag marks an example card.",
+    [
+      rect(15, 16, 98, 96), line([35, 29], [35, 94]), line([35, 32], [87, 32], [75, 48], [87, 64], [35, 64]),
+    ]),
+];

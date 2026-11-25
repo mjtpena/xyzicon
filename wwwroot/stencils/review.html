@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hand-drawn stencils - review</title>
+  <link rel="stylesheet" href="review.css">
+  <script src="review.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="../">Back to icon search</a>
+    <h1>Cloud icons, drawn by hand.</h1>
+    <p>Independent concept illustrations, not official provider artwork. This library is a work in progress; missing sources are available in Original mode.</p>
+    <p>Review silhouettes without labels, then compare meaning against the original. Check 32px legibility, clipping, direction and nearest matches. A different colour or caption does not count as a different design.</p>
+    <nav aria-label="Review tools">
+      <button id="blind" aria-pressed="false">Hide names and explanations</button>
+      <a href="all.excalidrawlib" download>Download editable library</a>
+      <button id="export" disabled>Export review decisions</button>
+    </nav>
+    <p id="status" role="status">Loading review sheet...</p>
+    <p id="error" role="alert" hidden></p>
+    <details>
+      <summary>How the review and repeat cycle works</summary>
+      <p>Decisions here are saved on this browser only. Export them, then run <code>npm run stencils:review -- path-to-reviews.json</code> to persist them in the repository. Mark rework with specific notes; edit the individual composition, run <code>npm run stencils</code> and reopen this sheet. Changed drawings automatically lose approval. Review each flagged pair side by side and explain why it is distinct, or mark it for rework. A change to either drawing invalidates the pair decision. <code>npm run stencils:check -- --approved --complete</code> blocks release until every drawing is approved, every flagged pair is resolved, and every source entry is mapped.</p>
+      <p>SVGs and editable Excalidraw libraries share the same authored geometry. Excalidraw's own renderer can produce slightly different rough strokes. Originals are preserved as references; aliases are not additional drawings. Coverage counts source entries, not distinct service concepts.</p>
+    </details>
+  </header>
+  <details class="pair-review">
+    <summary id="pair-summary">Similar pairs: loading...</summary>
+    <p>Compare both drawings without relying on colour or names. Record why a pair is distinguishable, or request rework.</p>
+    <div id="pair-reviews"></div>
+  </details>
+  <section class="review-filters" aria-label="Filter drawings">
+    <label for="provider-filter">Provider</label>
+    <select id="provider-filter"><option value="">All providers</option></select>
+    <label for="decision-filter">Decision</label>
+    <select id="decision-filter">
+      <option value="">All decisions</option>
+      <option value="pending">Pending</option>
+      <option value="rework">Needs rework</option>
+      <option value="approved">Approved</option>
+    </select>
+    <label for="review-search">Find a concept</label>
+    <input id="review-search" type="search" placeholder="Search drawings">
+  </section>
+  <p id="page-status" role="status"></p>
+  <main id="drawings"></main>
+  <nav class="review-pagination" aria-label="Review pages">
+    <button id="previous" disabled>Previous</button>
+    <button id="next" disabled>Next</button>
+  </nav>
+</body>
+</html>

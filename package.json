@@ -1,0 +1,14 @@
+{
+  "name": "xyzicon-stencils",
+  "private": true,
+  "scripts": {
+    "stencils": "node tools/build-stencils.mjs",
+    "stencils:check": "node tools/build-stencils.mjs --check",
+    "stencils:review": "node tools/build-stencils.mjs --reviews",
+    "test": "node --test tools/*.test.mjs"
+  },
+  "dependencies": {
+    "roughjs": "4.6.6",
+    "sharp": "0.34.5"
+  }
+}
