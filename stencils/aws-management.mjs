@@ -4,6 +4,80 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-general-internet-transfer", "aws", "Internet Transfer", themes("Internet-alt2"),
+    "A device exchanges traffic with a network globe.",
+    [
+      oval(12, 27, 44, 44), line([34, 27], [27, 36], [25, 49], [27, 62], [34, 71]), line([34, 27], [41, 36], [43, 49], [41, 62], [34, 71]), line([14, 43], [54, 43]), line([14, 56], [54, 56]),
+      rect(82, 27, 25, 44), line([88, 63], [101, 63]), line([56, 42], [80, 42]), line([74, 36], [80, 42], [74, 48]), line([82, 59], [58, 59]), line([64, 53], [58, 59], [64, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-json-script", "aws", "JSON Script", themes("JSON-Script"),
+    "Braces enclose structured key-value pairs.",
+    [
+      line([34, 20], [26, 20], [23, 24], [23, 45], [16, 54], [23, 63], [23, 84], [26, 88], [34, 88]),
+      line([89, 20], [97, 20], [100, 24], [100, 45], [107, 54], [100, 63], [100, 84], [97, 88], [89, 88]),
+      rect(40, 29, 13, 13), line([61, 35], [84, 35]), rect(40, 50, 13, 13), line([61, 56], [84, 56]), rect(40, 71, 13, 13), line([61, 77], [84, 77]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-logs", "aws", "Logs", themes("Logs"),
+    "Time-stamped event lines accumulate on a scroll.",
+    [
+      line([25, 22], [83, 22], [91, 28], [91, 87], [98, 91], [98, 97], [36, 97], [25, 91], [25, 22]),
+      line([25, 22], [20, 25], [20, 31], [25, 34]), line([34, 39], [44, 39]), line([50, 39], [81, 39]), line([34, 52], [44, 52]), line([50, 52], [81, 52]), line([34, 65], [44, 65]), line([50, 65], [81, 65]), line([34, 78], [44, 78]), line([50, 78], [72, 78]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-magnifying-glass", "aws", "Magnifying Glass", themes("Magnifying-Glass"),
+    "A magnifier inspects details.",
+    [
+      oval(20, 17, 58, 58), oval(29, 26, 40, 40), line([68, 67], [98, 97]), line([76, 61], [106, 91], [98, 97]), line([39, 39], [48, 33]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-metrics", "aws", "Metrics", themes("Metrics"),
+    "Bars and a trend line measure activity.",
+    [
+      line([16, 20], [16, 93], [105, 93]), rect(25, 65, 12, 28), rect(45, 54, 12, 39), rect(65, 42, 12, 51), rect(85, 30, 12, 63),
+      line([25, 48], [45, 40], [65, 29], [91, 19]), oval(22, 45, 6, 6, true), oval(42, 37, 6, 6, true), oval(62, 26, 6, 6, true), oval(88, 16, 6, 6, true), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-mobile-client", "aws", "Mobile Client", themes("Mobile-client"),
+    "A handheld client device shows a simple app.",
+    [
+      rect(36, 14, 50, 82), line([36, 27], [86, 27]), line([36, 83], [86, 83]), line([53, 21], [69, 21]), oval(58, 87, 6, 6, true),
+      rect(45, 35, 32, 35), line([45, 45], [77, 45]), line([51, 53], [70, 53]), line([51, 61], [65, 61]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-multimedia", "aws", "Multimedia", themes("Multimedia"),
+    "A film frame and music note represent mixed media.",
+    [
+      rect(17, 24, 68, 64), line([17, 36], [85, 36]), line([17, 76], [85, 76]), line([28, 24], [28, 36]), line([41, 24], [41, 36]), line([54, 24], [54, 36]), line([67, 24], [67, 36]), line([28, 76], [28, 88]), line([41, 76], [41, 88]), line([54, 76], [54, 88]), line([67, 76], [67, 88]),
+      line([43, 45], [43, 68], [62, 56], [43, 45]), line([96, 36], [105, 32], [105, 65]), oval(89, 61, 16, 9), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-office-building", "aws", "Office Building", themes("Office-building"),
+    "An office building has windows and an entrance.",
+    [
+      line([21, 95], [21, 28], [49, 28], [49, 17], [74, 17], [74, 28], [102, 28], [102, 95]), line([14, 95], [109, 95]),
+      rect(31, 39, 10, 10), rect(53, 39, 10, 10), rect(75, 39, 10, 10), rect(31, 57, 10, 10), rect(53, 57, 10, 10), rect(75, 57, 10, 10), line([52, 95], [52, 77], [70, 77], [70, 95]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-programming-language", "aws", "Programming Language", themes("Programming-Language"),
+    "Code brackets and syntax tokens represent a programming language.",
+    [
+      line([42, 27], [20, 49], [42, 71]), line([81, 27], [103, 49], [81, 71]), line([70, 19], [52, 79]),
+      oval(31, 87, 7, 7, true), line([45, 90], [60, 90]), oval(70, 87, 7, 7, true), line([84, 90], [98, 90]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-question", "aws", "Question", themes("Question"),
+    "A question mark appears in a thought bubble.",
+    [
+      oval(20, 15, 82, 72), oval(16, 85, 10, 10), oval(8, 98, 6, 6),
+      line([50, 39], [53, 33], [61, 30], [69, 33], [73, 39], [72, 46], [62, 54], [62, 60]), oval(59, 66, 7, 7, true), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-recover", "aws", "Recover", themes("Recover"),
+    "A recovery arrow restores a saved document.",
+    [
+      line([44, 30], [49, 24], [59, 21], [70, 23], [79, 29], [84, 39]), line([78, 34], [84, 39], [88, 32]),
+      line([77, 77], [72, 83], [62, 86], [51, 84], [42, 78], [37, 68]), line([43, 73], [37, 68], [33, 75]),
+      rect(48, 38, 29, 32), line([54, 46], [71, 46]), line([54, 53], [71, 53]), line([54, 60], [66, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-saml-token", "aws", "SAML Token", themes("SAML-token"),
+    "A signed identity token carries an authentication check.",
+    [
+      line([20, 26], [90, 26], [102, 38], [102, 84], [20, 84], [20, 26]), line([90, 26], [90, 38], [102, 38]),
+      oval(31, 39, 20, 20), line([29, 73], [31, 65], [37, 61], [45, 61], [51, 65], [53, 73]),
+      line([68, 43], [76, 47], [84, 43], [84, 60], [76, 69], [68, 60], [68, 43]), line([72, 54], [75, 58], [81, 50]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-general-credentials", "aws", "Credentials", themes("Credentials"),
     "An identification card contains a key for access.",
     [
