@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1248,
-  "aliases": 4148,
+  "count": 1251,
+  "aliases": 4154,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1134,6 +1134,9 @@
     "fabric-document-tmdl-export",
     "fabric-diagram-branch-link",
     "fabric-diagram-arrows",
+    "fabric-board-lightning-asterisk",
+    "fabric-board-lightning-kql",
+    "fabric-board-lightning-sparkle",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1334,8 +1337,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1311,
-      "concepts": 250
+      "covered": 1317,
+      "concepts": 253
     },
     "entra": {
       "sources": 14,
@@ -1603,8 +1606,8 @@
       },
       {
         "a": "power-apps",
-        "b": "fabric-restricted-report",
-        "similarity": 0.2387
+        "b": "fabric-board-lightning-asterisk",
+        "similarity": 0.2473
       }
     ],
     "power-dataverse": [
@@ -4186,9 +4189,9 @@
         "similarity": 0.2299
       },
       {
-        "a": "aws-eventbridge-schema",
-        "b": "azure-ddos-plans",
-        "similarity": 0.2278
+        "a": "azure-ddos-plans",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2294
       }
     ],
     "azure-data-factory": [
@@ -6766,13 +6769,13 @@
       },
       {
         "a": "gcp-real-world-insights",
-        "b": "azure-ai-studio",
-        "similarity": 0.2118
+        "b": "fabric-board-lightning-asterisk",
+        "similarity": 0.2284
       },
       {
         "a": "gcp-real-world-insights",
-        "b": "aws-category-end-user",
-        "similarity": 0.1957
+        "b": "azure-ai-studio",
+        "similarity": 0.2118
       }
     ],
     "gcp-data-studio": [
@@ -8397,14 +8400,14 @@
         "similarity": 0.1481
       },
       {
+        "a": "m365-megaphone",
+        "b": "fabric-board-lightning-kql",
+        "similarity": 0.1377
+      },
+      {
         "a": "aws-ses",
         "b": "m365-megaphone",
         "similarity": 0.1323
-      },
-      {
-        "a": "azure-virtual-network-gateway",
-        "b": "m365-megaphone",
-        "similarity": 0.131
       }
     ],
     "m365-toolbox": [
@@ -10114,14 +10117,14 @@
         "similarity": 0.2933
       },
       {
+        "a": "aws-glue-crawler",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2775
+      },
+      {
         "a": "aws-emr-cluster",
         "b": "aws-glue-crawler",
         "similarity": 0.2542
-      },
-      {
-        "a": "aws-glue-crawler",
-        "b": "fabric-data-bar-lightning",
-        "similarity": 0.2514
       }
     ],
     "aws-glue-catalog": [
@@ -17875,6 +17878,11 @@
     "aws-ec2-microservice-extractor": [
       {
         "a": "aws-ec2-microservice-extractor",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2535
+      },
+      {
+        "a": "aws-ec2-microservice-extractor",
         "b": "aws-ec2-elastic-ip",
         "similarity": 0.2519
       },
@@ -17882,11 +17890,6 @@
         "a": "gcp-analytics-hub",
         "b": "aws-ec2-microservice-extractor",
         "similarity": 0.2398
-      },
-      {
-        "a": "aws-amplify-studio",
-        "b": "aws-ec2-microservice-extractor",
-        "similarity": 0.229
       }
     ],
     "aws-ec2-auto-scaling": [
@@ -17947,14 +17950,14 @@
         "similarity": 0.2583
       },
       {
+        "a": "aws-ec2-cloudwatch-instance",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2475
+      },
+      {
         "a": "aws-sagemaker-train",
         "b": "aws-ec2-cloudwatch-instance",
         "similarity": 0.2148
-      },
-      {
-        "a": "aws-ec2-cloudwatch-instance",
-        "b": "aws-elastic-inference",
-        "similarity": 0.2038
       }
     ],
     "aws-ec2-instance": [
@@ -20327,14 +20330,14 @@
         "similarity": 0.274
       },
       {
+        "a": "fabric-data-bar-lightning",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2652
+      },
+      {
         "a": "aws-data-transfer-terminal",
         "b": "fabric-data-bar-lightning",
         "similarity": 0.2545
-      },
-      {
-        "a": "aws-glue-crawler",
-        "b": "fabric-data-bar-lightning",
-        "similarity": 0.2514
       }
     ],
     "fabric-datatype-any": [
@@ -20590,6 +20593,57 @@
         "a": "m365-clipboard",
         "b": "fabric-diagram-arrows",
         "similarity": 0.2285
+      }
+    ],
+    "fabric-board-lightning-asterisk": [
+      {
+        "a": "power-apps",
+        "b": "fabric-board-lightning-asterisk",
+        "similarity": 0.2473
+      },
+      {
+        "a": "gcp-real-world-insights",
+        "b": "fabric-board-lightning-asterisk",
+        "similarity": 0.2284
+      },
+      {
+        "a": "fabric-restricted-report",
+        "b": "fabric-board-lightning-asterisk",
+        "similarity": 0.2229
+      }
+    ],
+    "fabric-board-lightning-kql": [
+      {
+        "a": "fabric-board-lightning-kql",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2698
+      },
+      {
+        "a": "aws-elemental-appliances",
+        "b": "fabric-board-lightning-kql",
+        "similarity": 0.243
+      },
+      {
+        "a": "aws-devops-guru-insights",
+        "b": "fabric-board-lightning-kql",
+        "similarity": 0.2416
+      }
+    ],
+    "fabric-board-lightning-sparkle": [
+      {
+        "a": "aws-glue-crawler",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2775
+      },
+      {
+        "a": "fabric-data-bar-lightning",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2652
+      },
+      {
+        "a": "aws-ecs-app-container",
+        "b": "fabric-board-lightning-sparkle",
+        "similarity": 0.2622
       }
     ],
     "fabric-database-add": [
@@ -21050,9 +21104,9 @@
         "similarity": 0.2463
       },
       {
-        "a": "fabric-datatype-float",
-        "b": "fabric-square-transfer",
-        "similarity": 0.1678
+        "a": "fabric-board-lightning-asterisk",
+        "b": "fabric-datatype-float",
+        "similarity": 0.1743
       }
     ],
     "fabric-datatype-integer": [
@@ -21186,9 +21240,9 @@
         "similarity": 0.2242
       },
       {
-        "a": "entra-private-access",
+        "a": "fabric-board-lightning-sparkle",
         "b": "fabric-column-function",
-        "similarity": 0.2056
+        "similarity": 0.2207
       }
     ],
     "fabric-column-question": [
@@ -21611,9 +21665,9 @@
         "similarity": 0.2845
       },
       {
-        "a": "fabric-database-money",
+        "a": "fabric-board-lightning-kql",
         "b": "fabric-database-checkmark",
-        "similarity": 0.2593
+        "similarity": 0.2698
       }
     ],
     "fabric-calendar-toolbox": [
