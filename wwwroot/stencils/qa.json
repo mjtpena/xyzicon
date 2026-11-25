@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1016,
-  "aliases": 3861,
+  "count": 1020,
+  "aliases": 3877,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -922,6 +922,10 @@
     "fabric-import-notebook",
     "fabric-my-workspace",
     "fabric-sample",
+    "fabric-documents-dax",
+    "fabric-documents-pulse",
+    "fabric-document-rdl",
+    "fabric-document-tmdl",
     "fabric-datatype-binary",
     "fabric-datatype-boolean",
     "fabric-datatype-string",
@@ -1102,8 +1106,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1219,
-      "concepts": 212
+      "covered": 1235,
+      "concepts": 216
     },
     "entra": {
       "sources": 14,
@@ -1667,6 +1671,11 @@
     "dynamics-contact-center": [
       {
         "a": "dynamics-contact-center",
+        "b": "fabric-documents-dax",
+        "similarity": 0.1713
+      },
+      {
+        "a": "dynamics-contact-center",
         "b": "aws-fsx",
         "similarity": 0.1686
       },
@@ -1674,11 +1683,6 @@
         "a": "dynamics-contact-center",
         "b": "aws-managed-blockchain",
         "similarity": 0.1682
-      },
-      {
-        "a": "dynamics-contact-center",
-        "b": "aws-datazone-portal",
-        "similarity": 0.1634
       }
     ],
     "dynamics-customer-insights": [
@@ -3491,13 +3495,13 @@
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-report",
-        "similarity": 0.2154
+        "b": "fabric-document-rdl",
+        "similarity": 0.217
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-restricted-report",
-        "similarity": 0.2057
+        "b": "fabric-report",
+        "similarity": 0.2154
       }
     ],
     "m365-fingerprint": [
@@ -3916,13 +3920,13 @@
       },
       {
         "a": "azure-subnet",
-        "b": "aws-region-group",
-        "similarity": 0.2694
+        "b": "fabric-documents-dax",
+        "similarity": 0.2725
       },
       {
         "a": "azure-subnet",
-        "b": "aws-app-studio",
-        "similarity": 0.2635
+        "b": "aws-region-group",
+        "similarity": 0.2694
       }
     ],
     "azure-dns-private-resolver": [
@@ -4392,13 +4396,13 @@
       },
       {
         "a": "m365-attach",
-        "b": "m365-document-text",
-        "similarity": 0.2379
+        "b": "fabric-documents-pulse",
+        "similarity": 0.249
       },
       {
         "a": "m365-attach",
-        "b": "azure-image-templates",
-        "similarity": 0.2329
+        "b": "m365-document-text",
+        "similarity": 0.2379
       }
     ],
     "m365-contacts": [
@@ -4680,14 +4684,14 @@
         "similarity": 0.2937
       },
       {
+        "a": "m365-receipt",
+        "b": "fabric-documents-pulse",
+        "similarity": 0.2658
+      },
+      {
         "a": "gcp-cloud-logging",
         "b": "m365-receipt",
         "similarity": 0.2602
-      },
-      {
-        "a": "m365-contacts",
-        "b": "m365-receipt",
-        "similarity": 0.2361
       }
     ],
     "m365-presenter": [
@@ -11447,13 +11451,13 @@
       },
       {
         "a": "aws-console-mobile",
-        "b": "fabric-stacked-text",
-        "similarity": 0.1698
+        "b": "fabric-documents-dax",
+        "similarity": 0.1878
       },
       {
-        "a": "aws-outposts-rack",
-        "b": "aws-console-mobile",
-        "similarity": 0.1576
+        "a": "aws-console-mobile",
+        "b": "fabric-stacked-text",
+        "similarity": 0.1698
       }
     ],
     "aws-organizations": [
@@ -16756,6 +16760,74 @@
         "similarity": 0.423
       }
     ],
+    "fabric-documents-dax": [
+      {
+        "a": "azure-subnet",
+        "b": "fabric-documents-dax",
+        "similarity": 0.2725
+      },
+      {
+        "a": "fabric-documents-dax",
+        "b": "fabric-column-inline",
+        "similarity": 0.2466
+      },
+      {
+        "a": "fabric-rdl-report",
+        "b": "fabric-documents-dax",
+        "similarity": 0.2369
+      }
+    ],
+    "fabric-documents-pulse": [
+      {
+        "a": "m365-receipt",
+        "b": "fabric-documents-pulse",
+        "similarity": 0.2658
+      },
+      {
+        "a": "fabric-documents-pulse",
+        "b": "fabric-receipt-kql",
+        "similarity": 0.2651
+      },
+      {
+        "a": "m365-attach",
+        "b": "fabric-documents-pulse",
+        "similarity": 0.249
+      }
+    ],
+    "fabric-document-rdl": [
+      {
+        "a": "fabric-document-rdl",
+        "b": "fabric-document-power-query",
+        "similarity": 0.512
+      },
+      {
+        "a": "m365-document-page",
+        "b": "fabric-document-rdl",
+        "similarity": 0.2391
+      },
+      {
+        "a": "aws-cost-usage-report",
+        "b": "fabric-document-rdl",
+        "similarity": 0.2255
+      }
+    ],
+    "fabric-document-tmdl": [
+      {
+        "a": "fabric-my-workspace",
+        "b": "fabric-document-tmdl",
+        "similarity": 0.2649
+      },
+      {
+        "a": "aws-snowball",
+        "b": "fabric-document-tmdl",
+        "similarity": 0.2508
+      },
+      {
+        "a": "gcp-billing",
+        "b": "fabric-document-tmdl",
+        "similarity": 0.2465
+      }
+    ],
     "fabric-datatype-binary": [
       {
         "a": "m365-phone-update",
@@ -16898,6 +16970,11 @@
     ],
     "fabric-document-power-query": [
       {
+        "a": "fabric-document-rdl",
+        "b": "fabric-document-power-query",
+        "similarity": 0.512
+      },
+      {
         "a": "m365-document-key",
         "b": "fabric-document-power-query",
         "similarity": 0.2468
@@ -16906,11 +16983,6 @@
         "a": "m365-document-text",
         "b": "fabric-document-power-query",
         "similarity": 0.2359
-      },
-      {
-        "a": "m365-office-notebook",
-        "b": "fabric-document-power-query",
-        "similarity": 0.219
       }
     ],
     "fabric-gauge-kql": [
@@ -16959,9 +17031,9 @@
         "similarity": 0.2937
       },
       {
-        "a": "m365-document-bullets",
+        "a": "fabric-documents-pulse",
         "b": "fabric-receipt-kql",
-        "similarity": 0.2639
+        "similarity": 0.2651
       }
     ],
     "fabric-table-kql": [
