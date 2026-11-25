@@ -1,6 +1,48 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-anthos", "gcp", "Anthos", ["Anthos-512-color", "anthos"],
+    "A management layer coordinates clusters across cloud and on-premises environments.",
+    [
+      line([17, 43], [12, 37], [14, 30], [20, 27], [24, 19], [33, 18], [39, 23], [41, 29], [48, 31], [52, 37], [50, 43], [45, 46], [20, 46]),
+      line([25, 46], [25, 56]), line([39, 46], [39, 56]),
+      rect(14, 56, 23, 18), rect(39, 56, 23, 18), line([19, 65], [32, 65]), line([44, 65], [57, 65]),
+      line([74, 46], [74, 32], [97, 19], [120, 32], [120, 46]),
+      line([84, 40], [110, 40]), line([97, 40], [97, 56]),
+      rect(70, 56, 23, 18), rect(95, 56, 23, 18), line([75, 65], [88, 65]), line([100, 65], [113, 65]),
+      line([36, 90], [96, 90]), line([43, 83], [36, 90], [43, 97]), line([89, 83], [96, 90], [89, 97]),
+      line([16, 110], [112, 110]),
+    ]),
+  entry("gcp-distributed-cloud", "gcp", "Google Distributed Cloud", ["DistributedCloud-512-color"],
+    "Cloud infrastructure runs at remote physical sites.",
+    [
+      line([20, 35], [17, 28], [20, 22], [28, 20], [32, 13], [41, 12], [48, 17], [50, 23], [58, 25], [62, 31], [60, 38], [55, 42], [24, 42]),
+      line([42, 42], [42, 54], [25, 54], [25, 68]), line([42, 54], [94, 54], [94, 68]),
+      line([11, 102], [11, 76], [25, 67], [39, 76], [39, 102]), rect(18, 83, 14, 19), line([7, 102], [45, 102]),
+      line([79, 102], [79, 76], [94, 67], [109, 76], [109, 102]), rect(87, 83, 14, 19), line([73, 102], [115, 102]),
+      line([19, 113], [109, 113]),
+    ]),
+  entry("gcp-looker", "gcp", "Looker", ["Looker-512-color", "looker"],
+    "An analyst explores data through an interactive report.",
+    [
+      line([17, 88], [17, 25]), line([17, 88], [88, 88]),
+      line([24, 77], [37, 63], [49, 69], [62, 47], [75, 52]),
+      oval(33, 59, 8, 8), oval(45, 65, 8, 8, true), oval(58, 43, 8, 8),
+      oval(67, 23, 37, 37), line([94, 50], [112, 68]),
+      line([21, 101], [47, 101]), line([55, 101], [82, 101]), line([90, 101], [111, 101]),
+      line([21, 112], [107, 112]),
+    ]),
+  entry("gcp-analytics-hub", "gcp", "Analytics Hub", ["analytics_hub"],
+    "A data exchange shares curated datasets with multiple consumers.",
+    [
+      oval(12, 39, 34, 13), line([12, 45], [12, 75], [18, 80], [40, 80], [46, 75], [46, 45]),
+      line([12, 59], [18, 64], [40, 64], [46, 59]),
+      line([46, 60], [62, 60]), line([56, 54], [62, 60], [56, 66]),
+      line([62, 60], [74, 60], [74, 31], [84, 31]), line([74, 60], [84, 60]), line([74, 60], [74, 89], [84, 89]),
+      rect(84, 21, 31, 20), rect(84, 50, 31, 20), rect(84, 79, 31, 20),
+      line([90, 31], [109, 31]), line([90, 60], [109, 60]), line([90, 89], [109, 89]),
+      line([17, 110], [110, 110]),
+    ]),
   entry("gcp-ai-hypercomputer", "gcp", "AI Hypercomputer", ["AIHypercomputer-512-color"],
     "Connected accelerator racks power large AI workloads.",
     [
