@@ -4,6 +4,36 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricDataSymbolArtwork = [
+  entry("fabric-datatype-binary", "fabric", "Binary data type",
+    variants("datatype_binary", [16, 20]),
+    "Binary values are represented by zero and one.",
+    [
+      oval(24, 24, 36, 76), line([79, 39], [93, 24], [93, 100]), line([78, 100], [106, 100]),
+    ]),
+  entry("fabric-datatype-boolean", "fabric", "Boolean data type",
+    variants("datatype_boolean", [16, 20]),
+    "A slash separates the two boolean values, zero and one.",
+    [
+      oval(10, 34, 30, 60), line([50, 106], [77, 20]),
+      line([85, 46], [99, 34], [99, 94]), line([84, 94], [112, 94]),
+    ]),
+  entry("fabric-datatype-string", "fabric", "String data type",
+    variants("datatype_string", [16, 20]),
+    "The letters ABC identify textual data.",
+    [
+      line([9, 97], [24, 30], [39, 97]), line([15, 73], [33, 73]),
+      line([48, 30], [48, 97], [66, 97], [74, 91], [74, 72], [66, 63], [48, 63]),
+      line([48, 30], [65, 30], [72, 36], [72, 54], [65, 63], [48, 63]),
+      line([113, 41], [105, 31], [93, 30], [85, 40], [82, 62], [85, 85], [93, 97], [105, 96], [113, 86]),
+    ]),
+  entry("fabric-datatype-long", "fabric", "Long integer data type",
+    variants("datatype_long", [16, 20]),
+    "The suffix L distinguishes a long integer value.",
+    [
+      line([11, 45], [23, 31], [23, 97]), line([12, 97], [34, 97]),
+      line([45, 45], [50, 34], [60, 30], [69, 34], [73, 43], [71, 52], [44, 97], [75, 97]),
+      line([88, 30], [88, 97], [114, 97]),
+    ]),
   entry("fabric-document-power-query", "fabric", "Power Query document",
     variants("document_pq", [16, 20, 24, 32]),
     "A document is marked with the Power Query initials.",

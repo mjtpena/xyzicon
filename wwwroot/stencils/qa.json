@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1001,
-  "aliases": 3795,
+  "count": 1005,
+  "aliases": 3811,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -922,6 +922,10 @@
     "fabric-import-notebook",
     "fabric-my-workspace",
     "fabric-sample",
+    "fabric-datatype-binary",
+    "fabric-datatype-boolean",
+    "fabric-datatype-string",
+    "fabric-datatype-long",
     "fabric-document-power-query",
     "fabric-gauge-kql",
     "fabric-home-kql",
@@ -1080,8 +1084,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1153,
-      "concepts": 197
+      "covered": 1169,
+      "concepts": 201
     },
     "entra": {
       "sources": 14,
@@ -14270,14 +14274,14 @@
         "similarity": 0.5519
       },
       {
+        "a": "fabric-arrow-down-double",
+        "b": "fabric-datatype-long",
+        "similarity": 0.2381
+      },
+      {
         "a": "dynamics-business-central",
         "b": "fabric-arrow-down-double",
         "similarity": 0.2073
-      },
-      {
-        "a": "gcp-cloud-hsm",
-        "b": "fabric-arrow-down-double",
-        "similarity": 0.2011
       }
     ],
     "fabric-arrow-down-double-wrap": [
@@ -14406,14 +14410,14 @@
         "similarity": 0.5519
       },
       {
+        "a": "fabric-arrow-sort",
+        "b": "fabric-datatype-long",
+        "similarity": 0.2276
+      },
+      {
         "a": "dynamics-business-central",
         "b": "fabric-arrow-sort",
         "similarity": 0.2183
-      },
-      {
-        "a": "gcp-cloud-hsm",
-        "b": "fabric-arrow-sort",
-        "similarity": 0.2016
       }
     ],
     "fabric-arrow-sync-settings": [
@@ -16732,6 +16736,74 @@
         "a": "m365-text-bullet-list-square",
         "b": "fabric-sample",
         "similarity": 0.423
+      }
+    ],
+    "fabric-datatype-binary": [
+      {
+        "a": "m365-phone-update",
+        "b": "fabric-datatype-binary",
+        "similarity": 0.138
+      },
+      {
+        "a": "fabric-arrow-down-double-wrap",
+        "b": "fabric-datatype-binary",
+        "similarity": 0.1221
+      },
+      {
+        "a": "fabric-gift-warning",
+        "b": "fabric-datatype-binary",
+        "similarity": 0.1213
+      }
+    ],
+    "fabric-datatype-boolean": [
+      {
+        "a": "m365-column-arrow",
+        "b": "fabric-datatype-boolean",
+        "similarity": 0.1389
+      },
+      {
+        "a": "azure-devtest-labs",
+        "b": "fabric-datatype-boolean",
+        "similarity": 0.1353
+      },
+      {
+        "a": "fabric-arrow-right-double-wrap",
+        "b": "fabric-datatype-boolean",
+        "similarity": 0.1329
+      }
+    ],
+    "fabric-datatype-string": [
+      {
+        "a": "fabric-datatype-string",
+        "b": "fabric-progress-bars",
+        "similarity": 0.1838
+      },
+      {
+        "a": "gcp-genomics",
+        "b": "fabric-datatype-string",
+        "similarity": 0.1829
+      },
+      {
+        "a": "aws-parallel-computing",
+        "b": "fabric-datatype-string",
+        "similarity": 0.1648
+      }
+    ],
+    "fabric-datatype-long": [
+      {
+        "a": "fabric-arrow-down-double",
+        "b": "fabric-datatype-long",
+        "similarity": 0.2381
+      },
+      {
+        "a": "fabric-arrow-sort",
+        "b": "fabric-datatype-long",
+        "similarity": 0.2276
+      },
+      {
+        "a": "aws-data-transfer-terminal",
+        "b": "fabric-datatype-long",
+        "similarity": 0.1703
       }
     ],
     "fabric-document-power-query": [
