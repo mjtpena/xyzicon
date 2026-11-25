@@ -1,6 +1,27 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-vmware-solution", "azure", "Azure VMware Solution", ["01219-icon-service-Azure-VMware-Solution"],
+    "VMware workloads run on dedicated Azure hosts.",
+    [
+      line([22, 38], [15, 34], [15, 27], [20, 22], [28, 22], [32, 15], [41, 12], [50, 15], [55, 22], [63, 22], [69, 27], [69, 34]),
+      rect(18, 52, 88, 30), line([18, 62], [106, 62]), line([26, 72], [43, 72]), line([50, 72], [67, 72]), line([74, 72], [95, 72]),
+      line([44, 38], [44, 52]), line([54, 38], [54, 52]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-avs-vm", "azure", "Azure VMware Solution VM", ["01846-icon-service-AVS-VM"],
+    "A virtual machine runs in an Azure VMware environment.",
+    [
+      rect(13, 36, 61, 47), line([13, 47], [74, 47]), line([21, 42], [25, 42]), line([31, 42], [35, 42]),
+      line([32, 57], [43, 52], [54, 57], [54, 69], [43, 74], [32, 69], [32, 57]), line([32, 57], [43, 62], [54, 57]), line([43, 62], [43, 74]),
+      line([33, 83], [33, 93], [24, 93]), line([54, 83], [54, 93], [63, 93]),
+      line([85, 58], [79, 54], [79, 48], [83, 44], [89, 44], [93, 37], [101, 35], [108, 40], [110, 46], [115, 49], [114, 55], [109, 58], [85, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-web-app-database", "azure", "Web App and Database", ["02515-icon-service-Web-App-+-Database"],
+    "A web application reads from a database.",
+    [
+      rect(12, 25, 58, 49), line([12, 37], [70, 37]), line([19, 31], [23, 31]), line([29, 31], [33, 31]), line([22, 49], [60, 49]), line([22, 59], [52, 59]),
+      line([70, 57], [80, 57]), oval(80, 39, 33, 11), line([80, 44], [80, 72], [85, 76], [96, 78], [108, 76], [113, 72], [113, 44]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-vm-app-definitions", "azure", "VM Application Definitions", ["02805-icon-service-VM-App-Definitions"],
     "An application definition describes software for a virtual machine.",
     [

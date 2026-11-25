@@ -1,6 +1,31 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-targets-management", "azure", "Targets Management", ["02908-icon-service-Targets-Management"],
+    "A management target identifies the resource to be acted on.",
+    [
+      rect(13, 25, 53, 56), line([13, 37], [66, 37]), line([21, 47], [55, 47]), line([21, 58], [49, 58]), line([21, 69], [55, 69]),
+      oval(70, 38, 40, 40), oval(80, 48, 20, 20), oval(87, 55, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-app-compliance-automation", "azure", "App Compliance Automation", ["03071-icon-service-App-Compliance-Automation"],
+    "Automated checks assess an application's compliance.",
+    [
+      rect(13, 27, 55, 53), line([13, 39], [68, 39]), line([20, 33], [24, 33]), line([30, 33], [34, 33]), line([22, 50], [29, 57], [39, 45]), line([45, 53], [59, 53]), line([22, 66], [29, 72], [39, 60]), line([45, 68], [59, 68]),
+      oval(74, 49, 29, 29), oval(83, 58, 11, 11), line([88, 42], [88, 49]), line([88, 78], [88, 85]), line([67, 63], [74, 63]), line([103, 63], [110, 63]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-storage-mover", "azure", "Storage Mover", ["03091-icon-service-Azure-Storage-Mover"],
+    "Stored data moves from one location to another.",
+    [
+      oval(12, 28, 35, 12), line([12, 34], [12, 72], [17, 76], [29, 78], [42, 76], [47, 72], [47, 34]), line([12, 53], [17, 57], [29, 59], [42, 57], [47, 53]),
+      oval(78, 28, 35, 12), line([78, 34], [78, 72], [83, 76], [95, 78], [108, 76], [113, 72], [113, 34]), line([78, 53], [83, 57], [95, 59], [108, 57], [113, 53]),
+      line([49, 53], [76, 53]), line([68, 45], [76, 53], [68, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-expressroute-traffic-collector", "azure", "ExpressRoute Traffic Collector", ["03137-icon-service-Express-Route-Traffic-Collector"],
+    "Traffic from an ExpressRoute circuit is collected for analysis.",
+    [
+      oval(13, 38, 16, 16), oval(52, 16, 16, 16), oval(52, 60, 16, 16), line([29, 44], [52, 27]), line([29, 49], [52, 68]), line([69, 46], [80, 46]), line([74, 40], [80, 46], [74, 52]),
+      line([86, 24], [109, 24], [109, 83], [86, 83], [86, 24]), line([91, 73], [91, 60]), line([97, 73], [97, 48]), line([103, 73], [103, 54]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-resource-guard", "azure", "Resource Guard", ["02819-icon-service-Resource-Guard"],
     "A resource is protected from unauthorized critical operations.",
     [
