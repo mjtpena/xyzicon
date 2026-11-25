@@ -1,6 +1,47 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-hpc-cache", "azure", "Azure HPC Cache", ["00776-icon-service-Azure-HCP-Cache"],
+    "A cloud cache holds frequently accessed files.",
+    [
+      line([22, 79], [15, 73], [15, 59], [21, 49], [32, 46], [36, 34], [46, 28], [59, 28], [69, 34], [73, 44], [84, 45], [94, 51], [99, 61], [97, 73]),
+      rect(49, 48, 47, 42), line([49, 61], [96, 61]), line([57, 70], [88, 70]), line([57, 79], [82, 79]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-data-virtualization", "azure", "Data Virtualization", ["029203566-icon-service-Data-Virtualization"],
+    "A virtual connection unifies two data sources.",
+    [
+      oval(14, 23, 24, 24), oval(82, 72, 24, 24),
+      line([38, 35], [52, 45]), line([68, 61], [82, 84]),
+      line([47, 63], [42, 58], [42, 51], [56, 37], [62, 37], [68, 43]),
+      line([65, 50], [71, 56], [71, 63], [57, 77], [50, 77], [44, 71]), line([49, 67], [64, 52]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-storage-hubs", "azure", "Storage Hubs", ["030486388-icon-service-Storage-Hubs"],
+    "A hub groups three storage servers.",
+    [
+      rect(16, 16, 90, 81), rect(25, 25, 71, 17), rect(25, 47, 71, 17), rect(25, 69, 71, 17),
+      oval(32, 30, 6, 6, true), oval(32, 52, 6, 6, true), oval(32, 74, 6, 6, true), line([48, 34], [87, 34]), line([48, 56], [87, 56]), line([48, 78], [87, 78]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-storage-actions", "azure", "Storage Actions", ["03502-icon-service-Storage-Actions"],
+    "A storage account carries out data actions.",
+    [
+      oval(16, 16, 64, 20), line([16, 26], [16, 84], [24, 91], [72, 91], [80, 84], [80, 26]), line([16, 50], [24, 56], [72, 56], [80, 50]),
+      line([16, 70], [24, 76], [60, 76]), line([64, 97], [64, 73], [98, 73], [98, 57]), line([91, 64], [98, 57], [105, 64]), line([57, 90], [64, 97], [71, 90]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-managed-file-shares", "azure", "Managed File Shares", ["03549-icon-service-Managed-File-Shares"],
+    "A gear manages a shared folder.",
+    [
+      line([17, 40], [17, 29], [35, 29], [42, 37], [73, 37], [73, 81], [17, 81], [17, 40]),
+      line([28, 51], [55, 51]), line([28, 60], [55, 60]),
+      line([83, 55], [87, 59], [93, 59], [93, 65], [97, 69], [93, 73], [93, 79], [87, 79], [83, 83], [79, 79], [73, 79], [73, 73], [69, 69], [73, 65], [73, 59], [79, 59], [83, 55]), oval(79, 65, 8, 8),
+      line([14, 110], [110, 110]),
+    ]),
+  entry("azure-file-shares", "azure", "Azure File Shares", ["10400-icon-service-Azure-Fileshares"],
+    "A file share connects clients to a folder.",
+    [
+      line([22, 42], [22, 31], [40, 31], [47, 39], [83, 39], [83, 82], [22, 82], [22, 42]),
+      oval(7, 56, 12, 12), oval(91, 19, 12, 12), oval(91, 83, 12, 12), line([19, 62], [22, 62]), line([83, 48], [97, 31]), line([83, 75], [97, 83]),
+      line([36, 60], [69, 60]), line([62, 53], [69, 60], [62, 67]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-sql-service", "azure", "Azure SQL", ["02390-icon-service-Azure-SQL"],
     "SQL runs as a cloud service.",
     [
