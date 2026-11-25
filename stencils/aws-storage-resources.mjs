@@ -1,6 +1,68 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-snowball-import-export", "aws", "Snowball Import Export", ["Res_AWS-Snowball_Snowball-Import-Export_48"],
+    "A rugged transfer appliance carries data in both directions.",
+    [
+      rect(28, 20, 72, 68), line([36, 20], [36, 14], [92, 14], [92, 20]), line([35, 29], [93, 29], [93, 79], [35, 79], [35, 29]),
+      line([19, 43], [78, 43]), line([72, 37], [78, 43], [72, 49]), line([109, 66], [50, 66]), line([56, 60], [50, 66], [56, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-fsx-file", "aws", "FSx File Gateway", ["Res_AWS-Storage-Gateway_Amazon-FSx-File-Gateway_48"],
+    "A file gateway connects a network share to a cloud filesystem.",
+    [
+      line([15, 77], [15, 36], [20, 27], [28, 22], [36, 27], [41, 36], [41, 77]), line([10, 77], [46, 77]),
+      line([45, 50], [58, 50]), line([53, 45], [58, 50], [53, 55]),
+      line([64, 40], [64, 31], [78, 31], [84, 37], [108, 37], [108, 72], [64, 72], [64, 40]), line([72, 48], [100, 48]), line([72, 57], [94, 57]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-s3-file", "aws", "S3 File Gateway", ["Res_AWS-Storage-Gateway_Amazon-S3-File-Gateway_48"],
+    "Files pass through a gateway to an object bucket.",
+    [
+      line([13, 69], [13, 35], [18, 26], [27, 21], [36, 26], [41, 35], [41, 69]), line([8, 69], [46, 69]), line([44, 49], [60, 49]), line([54, 43], [60, 49], [54, 55]),
+      oval(67, 29, 39, 12), line([67, 35], [71, 72], [77, 76], [96, 76], [102, 72], [106, 35]), rect(79, 45, 13, 13), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-cached-volume", "aws", "Cached Volume", ["Res_AWS-Storage-Gateway_Cached-Volume_48"],
+    "A gateway retains a local cache for a cloud volume.",
+    [
+      rect(16, 25, 45, 56), line([16, 37], [61, 37]), line([24, 47], [53, 47]), line([24, 57], [47, 57]),
+      line([62, 46], [75, 46]), line([70, 41], [75, 46], [70, 51]), oval(80, 31, 26, 10), line([80, 36], [80, 65], [84, 69], [93, 71], [102, 69], [106, 65], [106, 36]),
+      oval(39, 64, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-file", "aws", "File Gateway", ["Res_AWS-Storage-Gateway_File-Gateway_48"],
+    "A folder passes through an archway into cloud storage.",
+    [
+      line([15, 82], [15, 33], [21, 22], [32, 16], [43, 22], [49, 33], [49, 82]), line([10, 82], [54, 82]),
+      line([23, 49], [23, 42], [31, 42], [35, 47], [44, 47], [44, 66], [23, 66], [23, 49]),
+      line([55, 55], [70, 55]), line([64, 49], [70, 55], [64, 61]),
+      line([81, 48], [78, 43], [81, 37], [88, 35], [94, 38], [99, 32], [107, 35], [109, 41], [114, 44], [114, 51], [109, 55], [82, 55], [78, 52], [81, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-stored-volume", "aws", "Stored Volume", ["Res_AWS-Storage-Gateway_Noncached-Volume_48"],
+    "A local volume is backed by an on-premises gateway.",
+    [
+      rect(64, 24, 43, 58), line([64, 35], [107, 35]), line([72, 45], [99, 45]), line([72, 55], [93, 55]), oval(20, 29, 30, 11),
+      line([20, 34], [20, 68], [25, 72], [35, 74], [45, 72], [50, 68], [50, 34]), line([20, 52], [25, 56], [35, 58], [45, 56], [50, 52]),
+      line([51, 50], [63, 50]), line([57, 44], [63, 50], [57, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-tape", "aws", "Tape Gateway", ["Res_AWS-Storage-Gateway_Tape-Gateway_48"],
+    "A tape cartridge travels through a gateway for virtual backup.",
+    [
+      rect(12, 36, 48, 35), oval(19, 43, 13, 13), oval(40, 43, 13, 13), line([25, 61], [47, 61]),
+      line([62, 53], [76, 53]), line([70, 47], [76, 53], [70, 59]),
+      line([82, 79], [82, 34], [87, 24], [97, 19], [107, 24], [112, 34], [112, 79]), line([77, 79], [117, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-virtual-tape-library", "aws", "Virtual Tape Library", ["Res_AWS-Storage-Gateway_Virtual-Tape-Library_48"],
+    "A cabinet organizes several virtual tape cartridges.",
+    [
+      rect(24, 16, 78, 77), line([24, 29], [102, 29]), line([32, 24], [37, 24]), line([43, 24], [48, 24]),
+      rect(34, 36, 58, 20), oval(40, 40, 11, 11), oval(74, 40, 11, 11), line([51, 51], [74, 51]),
+      rect(34, 63, 58, 20), oval(40, 67, 11, 11), oval(74, 67, 11, 11), line([51, 78], [74, 78]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-gateway-volume", "aws", "Volume Gateway", ["Res_AWS-Storage-Gateway_Volume-Gateway_48"],
+    "A block volume passes through a storage gateway.",
+    [
+      line([20, 85], [20, 35], [27, 23], [39, 17], [51, 23], [58, 35], [58, 85]), line([14, 85], [64, 85]),
+      oval(25, 44, 28, 10), line([25, 49], [25, 70], [29, 73], [39, 75], [49, 73], [53, 70], [53, 49]),
+      line([64, 56], [80, 56]), line([74, 50], [80, 56], [74, 62]), rect(85, 38, 28, 36), line([91, 47], [107, 47]), line([91, 57], [103, 57]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-backup-vmware", "aws", "Backup for VMware Workloads", ["Res_AWS-Backup_AWS-Backup-Support-for-VMware-Workloads_48"],
     "A virtualized workload is backed up to the cloud.",
     [
