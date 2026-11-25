@@ -1362,9 +1362,9 @@
   },
   "aws-eventbridge-pipes": {
     "revision": "8734ef42a1a9b7ccbb3d529bd8bce96b047d9e4f57e4839f2da05d7cc0954d93",
-    "comparisonRevision": "d070ee4975a5e85076eececaf5a4c75df3fb7ef5f9650a74907f911d51d4147b",
+    "comparisonRevision": "cb732b036523e5a1e4565aef4217f792a0289a0abec706ad16df405f9be2a1aa",
     "status": "approved",
-    "notes": "Two sources connect through a bent event pipe, unlike a window, repository and download hierarchy."
+    "notes": "Two events travel through a bent pipe, distinct from a window, dense storage and a serverless application."
   },
   "aws-eventbridge-rule": {
     "revision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
@@ -1745,16 +1745,16 @@
     "notes": "A query document targets a database, unlike a CLI, training and event bus."
   },
   "aws-redshift-dense-compute": {
-    "revision": "439823eecc30c34de1458528f492ef5164390b842ef2991e397737588369850a",
-    "comparisonRevision": "4e1a72b5853cf98bc2cdf13621688f13e41f6103f8fb2005fbc32fefd20bc42b",
-    "status": "rework",
-    "notes": "A single chip does not convey dense compute and resembles the EMR processing chip."
+    "revision": "ed20b2474602f71e50db6c29bca13ade95284495abe2f23f2f7d1a262318c617",
+    "comparisonRevision": "641d48558e63cbbc6f449a8f5a10e89d28dbbd657d00031bf048ae6625f73a7c",
+    "status": "approved",
+    "notes": "Four computing units are packed into a node, unlike task checklists, storage racks and the data catalog."
   },
   "aws-redshift-dense-storage": {
-    "revision": "f88626d2297db7b673a919bc577bda4e9f8f829710cc833743af7ab3b38962de",
-    "comparisonRevision": "04ce30ee52373bea128385f400332aa85bb3ff3bb8f3ce68db1931a9771db415",
-    "status": "rework",
-    "notes": "The stacked storage rack closely resembles the bare-metal infrastructure rack and does not emphasize storage density."
+    "revision": "787048f433433e35d83f92ce6bd394dbd2ac28ced4ca30e923412d24e0efc7e6",
+    "comparisonRevision": "1fd64da5b1bb04183f248fc3f62c6410fa0ca5951026ab33a950569e7d6b3123",
+    "status": "approved",
+    "notes": "A layered store is compressed between arrows, unlike the search catalog, quantum processor and network globe."
   },
   "aws-redshift-ml": {
     "revision": "bb466f49848bba184f0324f4f126f74d4fd71eb4fd57f383180f80ec77cb9289",
