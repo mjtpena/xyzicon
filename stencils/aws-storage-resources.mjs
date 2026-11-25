@@ -1,6 +1,57 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-s3-express-one-zone", "aws", "S3 Express One Zone", ["Res_Amazon-Simple-Storage-Service_S3-Express-One-Zone_48"],
+    "A fast object bucket sits in one availability zone.",
+    [
+      oval(14, 30, 55, 16), line([14, 38], [20, 81], [26, 86], [57, 86], [63, 81], [69, 38]),
+      line([39, 43], [30, 59], [39, 59], [35, 72], [52, 53], [44, 53], [48, 43], [39, 43]),
+      line([93, 72], [81, 53], [81, 43], [86, 36], [93, 33], [100, 36], [105, 43], [105, 53], [93, 72]), oval(89, 43, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-glacier-deep-archive", "aws", "S3 Glacier Deep Archive", ["Res_Amazon-Simple-Storage-Service_S3-Glacier-Deep-Archive_48"],
+    "A cold archive is stored deep in a stack of records.",
+    [
+      rect(16, 23, 69, 21), rect(16, 47, 69, 21), rect(16, 71, 69, 21), line([26, 34], [46, 34]), line([26, 58], [46, 58]), line([26, 82], [46, 82]),
+      line([102, 39], [102, 81]), line([94, 73], [102, 81], [110, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-glacier-flexible-retrieval", "aws", "S3 Glacier Flexible Retrieval", ["Res_Amazon-Simple-Storage-Service_S3-Glacier-Flexible-Retrieval_48"],
+    "Cold data can be retrieved on a flexible schedule.",
+    [
+      line([14, 44], [14, 84], [66, 84], [66, 44], [14, 44]), line([11, 35], [69, 35], [69, 46], [11, 46], [11, 35]), line([27, 55], [53, 55]),
+      oval(76, 48, 32, 32), line([92, 54], [92, 64], [100, 68]), line([52, 20], [71, 20], [82, 27], [86, 38]), line([78, 34], [86, 38], [88, 29]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-glacier-instant-retrieval", "aws", "S3 Glacier Instant Retrieval", ["Res_Amazon-Simple-Storage-Service_S3-Glacier-Instant-Retrieval_48"],
+    "Cold data is retrieved immediately from an archive.",
+    [
+      line([14, 43], [14, 83], [67, 83], [67, 43], [14, 43]), line([11, 34], [70, 34], [70, 45], [11, 45], [11, 34]), line([27, 55], [54, 55]),
+      line([92, 24], [76, 55], [90, 55], [83, 80], [110, 47], [96, 47], [102, 24], [92, 24]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-intelligent-tiering", "aws", "S3 Intelligent Tiering", ["Res_Amazon-Simple-Storage-Service_S3-Intelligent-Tiering_48"],
+    "Object storage moves data between access tiers.",
+    [
+      oval(12, 24, 45, 14), line([12, 31], [17, 69], [22, 73], [47, 73], [52, 69], [57, 31]),
+      oval(70, 45, 45, 14), line([70, 52], [75, 90], [80, 94], [105, 94], [110, 90], [115, 52]),
+      line([59, 40], [76, 40]), line([71, 35], [76, 40], [71, 45]), line([69, 77], [52, 77]), line([57, 72], [52, 77], [57, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-one-zone-ia", "aws", "S3 One Zone Infrequent Access", ["Res_Amazon-Simple-Storage-Service_S3-One-Zone-IA_48"],
+    "Less frequently accessed objects are kept in one zone.",
+    [
+      line([47, 94], [20, 58], [18, 45], [23, 31], [34, 22], [47, 19], [60, 22], [71, 31], [76, 45], [74, 58], [47, 94]),
+      oval(32, 38, 30, 9), line([32, 42], [35, 60], [40, 63], [54, 63], [59, 60], [62, 42]),
+      oval(84, 50, 29, 29), line([98, 56], [98, 65], [105, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-standard-ia", "aws", "S3 Standard Infrequent Access", ["Res_Amazon-Simple-Storage-Service_S3-Standard-IA_48"],
+    "A clock marks objects intended for infrequent access.",
+    [
+      oval(15, 24, 59, 17), line([15, 32], [21, 81], [27, 86], [62, 86], [68, 81], [74, 32]),
+      rect(31, 47, 15, 15), oval(77, 45, 33, 33), line([93, 52], [93, 62], [101, 66]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-standard", "aws", "S3 Standard", ["Res_Amazon-Simple-Storage-Service_S3-Standard_48"],
+    "Multiple objects are available from standard storage.",
+    [
+      oval(13, 24, 66, 18), line([13, 33], [19, 80], [25, 86], [67, 86], [73, 80], [79, 33]),
+      rect(30, 48, 15, 15), rect(51, 48, 15, 15), line([83, 64], [93, 74], [112, 50]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-glacier-archive", "aws", "S3 Glacier Archive", ["Res_Amazon-Simple-Storage-Service-Glacier_Archive_48"],
     "An archive box holds a frozen data record.",
     [
