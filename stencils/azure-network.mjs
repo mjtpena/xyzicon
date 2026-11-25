@@ -1,6 +1,61 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-dns-security-policy", "azure", "DNS Security Policy", ["03368-icon-service-DNS-Security-Policy"],
+    "DNS queries pass through a security policy.",
+    [
+      oval(13, 23, 58, 58), line([42, 23], [32, 34], [28, 52], [32, 70], [42, 81]), line([42, 23], [52, 34], [56, 52], [52, 70], [42, 81]), line([17, 40], [67, 40]), line([14, 58], [70, 58]),
+      line([85, 44], [108, 52], [105, 78], [97, 90], [85, 98], [73, 90], [65, 78], [62, 52], [85, 44]), line([76, 70], [82, 77], [95, 62]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-vnet-appliance", "azure", "Virtual Network Appliance", ["034412066-icon-service-VNet-Appliance"],
+    "A network appliance sits within a virtual network boundary.",
+    [
+      line([15, 20], [28, 20]), line([36, 20], [49, 20]), line([77, 20], [90, 20]), line([98, 20], [111, 20]), line([15, 20], [15, 31]), line([15, 40], [15, 51]), line([15, 71], [15, 82]), line([15, 91], [15, 102]),
+      line([111, 20], [111, 31]), line([111, 40], [111, 51]), line([111, 71], [111, 82]), line([111, 91], [111, 102]), line([15, 102], [28, 102]), line([36, 102], [49, 102]), line([77, 102], [90, 102]), line([98, 102], [111, 102]),
+      rect(33, 38, 60, 42), line([40, 50], [86, 50]), line([43, 62], [49, 62]), line([56, 62], [62, 62]), line([69, 62], [83, 62]), line([14, 113], [110, 113]),
+    ]),
+  entry("azure-ip-address-manager", "azure", "IP Address Manager", ["03461-icon-service-IP-Address-manager"],
+    "An address register is managed with a control dial.",
+    [
+      rect(15, 24, 75, 58), line([15, 38], [90, 38]), line([23, 50], [76, 50]), oval(24, 61, 6, 6, true), oval(38, 61, 6, 6, true), oval(52, 61, 6, 6, true), oval(66, 61, 6, 6, true),
+      oval(78, 70, 27, 27), oval(87, 79, 9, 9), line([91, 64], [91, 70]), line([91, 97], [91, 103]), line([72, 83], [78, 83]), line([105, 83], [111, 83]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-network-foundation-hub", "azure", "Network Foundation Hub", ["03643-icon-service-Network-Foundation-Hub"],
+    "A network foundation anchors a globe of connected sites.",
+    [
+      oval(28, 15, 68, 68), line([62, 15], [49, 27], [44, 49], [49, 71], [62, 83]), line([62, 15], [75, 27], [80, 49], [75, 71], [62, 83]), line([32, 36], [92, 36]), line([29, 61], [95, 61]),
+      line([21, 91], [103, 91], [103, 101], [21, 101], [21, 91]), line([14, 112], [110, 112]),
+    ]),
+  entry("azure-network-security-hub", "azure", "Network Security Hub", ["03650-icon-service-Network-Security-Hub"],
+    "A shield protects a central network and its connected nodes.",
+    [
+      line([63, 13], [101, 27], [97, 69], [84, 89], [63, 104], [42, 89], [29, 69], [25, 27], [63, 13]), oval(53, 47, 20, 20), oval(39, 31, 8, 8), oval(79, 31, 8, 8), oval(59, 78, 8, 8),
+      line([47, 39], [56, 49]), line([79, 39], [70, 49]), line([63, 67], [63, 78]), line([14, 113], [110, 113]),
+    ]),
+  entry("azure-vpn-client-windows", "azure", "VPN Client for Windows", ["03694-icon-service-VPNClientWindows"],
+    "A Windows client connects through a secure VPN tunnel.",
+    [
+      rect(12, 27, 46, 45), line([35, 27], [35, 72]), line([12, 49], [58, 49]), line([58, 49], [73, 49]),
+      line([87, 29], [109, 37], [106, 63], [99, 76], [87, 85], [75, 76], [68, 63], [65, 37], [87, 29]), line([80, 56], [85, 61], [96, 48]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-traffic-manager-profiles", "azure", "Traffic Manager Profiles", ["10065-icon-service-Traffic-Manager-Profiles"],
+    "A traffic profile directs requests to different endpoints.",
+    [
+      rect(18, 19, 88, 75), line([18, 32], [106, 32]), line([25, 26], [29, 26]), line([35, 26], [39, 26]),
+      line([32, 63], [53, 63], [69, 45], [92, 45]), line([85, 38], [92, 45], [85, 52]), line([53, 63], [69, 79], [92, 79]), line([85, 72], [92, 79], [85, 86]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-route-filters", "azure", "Route Filters", ["10071-icon-service-Route-Filters"],
+    "A filter selects which network routes continue.",
+    [
+      line([12, 33], [39, 33]), line([12, 51], [39, 51]), line([12, 69], [39, 69]), line([39, 22], [83, 22], [70, 44], [70, 72], [52, 84], [52, 44], [39, 22]),
+      line([70, 54], [108, 54]), line([100, 46], [108, 54], [100, 62]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-proximity-placement-groups", "azure", "Proximity Placement Groups", ["10365-icon-service-Proximity-Placement-Groups"],
+    "Hosts are placed close together within a shared boundary.",
+    [
+      line([24, 22], [15, 22], [15, 94], [24, 94]), line([101, 22], [110, 22], [110, 94], [101, 94]), rect(30, 32, 26, 48), rect(69, 32, 26, 48),
+      line([35, 42], [51, 42]), line([35, 51], [51, 51]), line([74, 42], [90, 42]), line([74, 51], [90, 51]), line([57, 57], [68, 57]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-firewall-manager", "azure", "Firewall Manager", ["00271-icon-service-Azure-Firewall-Manager"],
     "A firewall is managed through a control dial.",
     [
