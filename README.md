@@ -63,6 +63,8 @@ Reviews persist in `stencils/reviews.json` and pair decisions in `stencils/pair-
 
 Generated SVGs, libraries, catalog and QA data are committed for static hosting; Node and Rough.js/Sharp are authoring dependencies only. The official refresh script does not regenerate or overwrite curated drawings, and rolls back if an existing alias disappears. After refresh, run `npm run stencils` and review any mapping changes; newly added variants are resolved from the explicit source-name allowlists, never fuzzy name matching.
 
+Generated stencil files use LF line endings so the exact-output check also works on Windows. If an existing checkout converted them to CRLF before this rule was added, run `npm run stencils` once to restore the expected bytes.
+
 ## Getting Started
 
 ### Prerequisites

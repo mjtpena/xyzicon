@@ -3,6 +3,11 @@
 ###############################################################################
 * text=auto
 
+# The stencil generator compares exact bytes, including line endings.
+/wwwroot/stencils/*.svg text eol=lf
+/wwwroot/stencils/*.json text eol=lf
+/wwwroot/stencils/*.excalidrawlib text eol=lf
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #

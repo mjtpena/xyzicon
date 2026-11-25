@@ -642,14 +642,14 @@
       ],
       "revision": "025eff539a45f7da5239a3d96454ce5796a425f3a95f1144891fad88c2bca5c4",
       "geometrySignature": "e1af187904c04eea4ef0655daeb4063e7b8fb09d496d12b61d08e33f863e9f35",
-      "review": "pending",
-      "notes": ""
+      "review": "rework",
+      "notes": "The person connected to a circle and two tiny objects reads as a generic organization diagram, not a recognizable Dynamics product family; distinguish the business-app concept and simplify its 32px details."
     },
     {
       "id": "aws-ec2",
       "provider": "aws",
       "name": "Amazon EC2",
-      "rationale": "A configurable compute instance is represented by a processor in a sliding rack.",
+      "rationale": "A large processor sits in a single compute-instance rack.",
       "path": "stencils/aws-ec2.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/16/Arch_Amazon-EC2_16.svg",
@@ -657,16 +657,16 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/48/Arch_Amazon-EC2_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/64/Arch_Amazon-EC2_64.svg"
       ],
-      "revision": "d6960c998283d6be42af38c4fa579b31c32b6dd7c664d66eecc32954ddc66f4f",
-      "geometrySignature": "bd370b25697d07a2a4b82682ace5910d87df3c534fff21096abd802b124d0d24",
-      "review": "pending",
-      "notes": ""
+      "revision": "32073c694404114c9c2616c648819872e8438c698117b9dc81d4eb1a47ea3a56",
+      "geometrySignature": "e0d82edde386e5da729b3f112af5fc93129d28ed9008cf7257f230402a78e9c9",
+      "review": "approved",
+      "notes": "The large pinned processor reads as compute at 32px; the CLI, schema and dashboard neighbors show command, diagram and chart interiors instead."
     },
     {
       "id": "aws-lambda",
       "provider": "aws",
       "name": "AWS Lambda",
-      "rationale": "A lightning-triggered function runs in a short-lived bracketed execution window.",
+      "rationale": "An incoming event runs through a function and produces a result.",
       "path": "stencils/aws-lambda.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/16/Arch_AWS-Lambda_16.svg",
@@ -674,16 +674,16 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/48/Arch_AWS-Lambda_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/64/Arch_AWS-Lambda_64.svg"
       ],
-      "revision": "3619dbb8cacf190787a5603b9e80a55caf376d428192b0e0fc40ac1e1beeb687",
-      "geometrySignature": "956554baaa4b8fa71e5af4e8002c64a8a7fc12833b96c2f13df0272c9db5b09b",
-      "review": "pending",
-      "notes": ""
+      "revision": "ef8436a1a3ab7886896551e6bfa5873bfd24541cfe2b0af4452d4981ab1786f0",
+      "geometrySignature": "2ea747cc90137d252ea2fb1a462f994ee52ce516004960ce7eb54034979a980c",
+      "review": "approved",
+      "notes": "The function with incoming event and outgoing result remains distinguishable at 32px from the folded map, business ledger and data-flow neighbors."
     },
     {
       "id": "aws-s3",
       "provider": "aws",
       "name": "Amazon S3",
-      "rationale": "An open bucket holds three distinct objects with an indexed retrieval tag.",
+      "rationale": "A storage bucket holds one large object.",
       "path": "stencils/aws-s3.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-Simple-Storage-Service_16.svg",
@@ -691,10 +691,10 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-Simple-Storage-Service_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-Simple-Storage-Service_64.svg"
       ],
-      "revision": "2d266cd16b6bd4d8c6ac30716eca8e5114e16ed0a4d0f1644ee40e74fda05952",
-      "geometrySignature": "83d12433087d56741072606817997734325f0dec8a2c424b3f064e9a37404e07",
-      "review": "pending",
-      "notes": ""
+      "revision": "5b76a9ea1d0030ce934d4c90ea5856a1bb7de4fc8ba8393c0df5bdc170d7ec58",
+      "geometrySignature": "98b54571601f317923c91d9f96ac3454eef5db0131c30495f0660caa4268758c",
+      "review": "approved",
+      "notes": "The open bucket and single object remain legible at 32px; the database has horizontal layers, the shop has an awning, and the overlapping squares lack the bucket rim."
     },
     {
       "id": "aws-dynamodb",
