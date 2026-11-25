@@ -1,6 +1,65 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-static-apps", "azure", "Static Apps", ["01007-icon-service-Static-Apps"],
+    "A browser serves a static application.",
+    [
+      rect(15, 20, 92, 68), line([15, 34], [107, 34]), oval(22, 24, 5, 5, true), oval(32, 24, 5, 5, true), oval(42, 24, 5, 5, true),
+      line([47, 49], [36, 58], [47, 67]), line([75, 49], [86, 58], [75, 67]), line([67, 45], [55, 71]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-api-center", "azure", "API Center", ["03291-icon-service-API-Center"],
+    "A central API connects several client endpoints.",
+    [
+      line([46, 45], [59, 38], [72, 45], [72, 59], [59, 66], [46, 59], [46, 45]), line([46, 45], [59, 52], [72, 45]), line([59, 52], [59, 66]),
+      oval(15, 16, 12, 12), oval(89, 42, 12, 12), oval(14, 81, 12, 12), oval(82, 81, 12, 12),
+      line([27, 27], [48, 45]), line([72, 52], [89, 48]), line([26, 85], [50, 63]), line([72, 63], [85, 82]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-power-platform", "azure", "Power Platform", ["03335-icon-service-Power-Platform"],
+    "A low-code platform connects applications, data and automation.",
+    [
+      rect(14, 19, 38, 29), line([20, 28], [46, 28]), line([20, 38], [40, 38]),
+      oval(72, 19, 32, 12), line([72, 25], [72, 43], [78, 48], [98, 48], [104, 43], [104, 25]),
+      line([53, 34], [72, 34]), line([65, 27], [72, 34], [65, 41]),
+      line([52, 48], [52, 64], [34, 64], [34, 72]), line([88, 48], [88, 64], [68, 64], [68, 72]),
+      rect(26, 72, 51, 24), line([36, 80], [67, 80]), line([36, 88], [60, 88]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-app-space", "azure", "App Space", ["03397-icon-service-App-Space"],
+    "A shared application space connects component workloads.",
+    [
+      oval(38, 34, 42, 42), rect(49, 45, 20, 20), oval(11, 14, 12, 12), oval(91, 14, 12, 12), oval(11, 85, 12, 12), oval(91, 85, 12, 12),
+      line([23, 24], [43, 40]), line([91, 24], [76, 40]), line([23, 87], [43, 71]), line([91, 87], [76, 71]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-app-space-component", "azure", "App Space Component", ["03595-icon-service-App-Space-Component"],
+    "A code document represents an application component.",
+    [
+      line([25, 16], [78, 16], [95, 33], [95, 96], [25, 96], [25, 16]), line([78, 16], [78, 33], [95, 33]),
+      line([48, 48], [39, 58], [48, 68]), line([71, 48], [80, 58], [71, 68]), line([65, 45], [55, 71]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-signalr", "azure", "SignalR", ["10052-icon-service-SignalR"],
+    "Two clients exchange real-time messages.",
+    [
+      line([11, 24], [50, 24], [50, 50], [34, 50], [25, 58], [25, 50], [11, 50], [11, 24]),
+      line([72, 59], [111, 59], [111, 85], [95, 85], [86, 93], [86, 85], [72, 85], [72, 59]),
+      line([50, 38], [72, 38]), line([66, 32], [72, 38], [66, 44]), line([72, 69], [50, 69]), line([56, 63], [50, 69], [56, 75]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-notification-namespaces", "azure", "Notification Hub Namespaces", ["10053-icon-service-Notification-Hub-Namespaces"],
+    "A namespace groups outgoing notification channels.",
+    [
+      line([16, 22], [16, 90], [24, 90]), line([104, 22], [104, 90], [96, 90]),
+      line([26, 35], [86, 35]), line([78, 27], [86, 35], [78, 43]), line([86, 56], [26, 56]), line([34, 48], [26, 56], [34, 64]), line([26, 77], [86, 77]), line([78, 69], [86, 77], [78, 85]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-frontdoor-cdn-profiles", "azure", "Front Door and CDN Profiles", ["10073-icon-service-Front-Door-and-CDN-Profiles"],
+    "A cloud front door directs requests to cached content.",
+    [
+      line([20, 84], [14, 78], [14, 65], [20, 55], [31, 51], [35, 38], [46, 30], [60, 30], [71, 36], [76, 47], [88, 48], [99, 55], [105, 65], [104, 78], [98, 84]),
+      line([46, 85], [46, 43], [73, 36], [73, 85]), line([46, 43], [73, 50]), oval(64, 62, 4, 4, true), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-media-service", "azure", "Azure Media Service", ["10309-icon-service-Azure-Media-Service"],
+    "Media playback runs in a cloud service.",
+    [
+      line([23, 81], [16, 75], [16, 62], [22, 52], [32, 48], [36, 37], [46, 30], [59, 30], [69, 36], [73, 46], [84, 47], [94, 53], [99, 63], [97, 75]),
+      rect(34, 49, 48, 32), line([52, 56], [52, 74], [68, 65], [52, 56]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-change-analysis", "azure", "Change Analysis", ["00563-icon-service-Change-Analysis"],
     "A change marker highlights a point in a trend.",
     [

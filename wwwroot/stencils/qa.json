@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1481,
-  "aliases": 4560,
+  "count": 1490,
+  "aliases": 4574,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1147,6 +1147,15 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-static-apps",
+    "azure-api-center",
+    "azure-power-platform",
+    "azure-app-space",
+    "azure-app-space-component",
+    "azure-signalr",
+    "azure-notification-namespaces",
+    "azure-frontdoor-cdn-profiles",
+    "azure-media-service",
     "azure-change-analysis",
     "azure-devops-starter",
     "azure-managed-devops-pools",
@@ -1751,8 +1760,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 332,
-      "concepts": 263
+      "covered": 346,
+      "concepts": 272
     },
     "fabric": {
       "sources": 1584,
@@ -2683,13 +2692,13 @@
       },
       {
         "a": "azure-detonation",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2708
+        "b": "azure-app-space-component",
+        "similarity": 0.2724
       },
       {
         "a": "azure-detonation",
-        "b": "gcp-transfer",
-        "similarity": 0.2696
+        "b": "fabric-sample-workload",
+        "similarity": 0.2708
       }
     ],
     "azure-defender-iot": [
@@ -2870,13 +2879,13 @@
       },
       {
         "a": "azure-multifactor-authentication",
-        "b": "fabric-match-category",
-        "similarity": 0.3194
+        "b": "azure-app-space-component",
+        "similarity": 0.3339
       },
       {
         "a": "azure-multifactor-authentication",
-        "b": "azure-recovery-vaults",
-        "similarity": 0.2907
+        "b": "fabric-match-category",
+        "similarity": 0.3194
       }
     ],
     "azure-conditional-access": [
@@ -2908,9 +2917,9 @@
         "similarity": 0.2963
       },
       {
-        "a": "azure-risky-users",
-        "b": "azure-defender-cloud",
-        "similarity": 0.2725
+        "a": "azure-defender-cloud",
+        "b": "azure-app-space-component",
+        "similarity": 0.2823
       }
     ],
     "azure-arc-kubernetes": [
@@ -2938,13 +2947,13 @@
       },
       {
         "a": "azure-operator-5g-core",
-        "b": "azure-cognitive-search",
-        "similarity": 0.301
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.3164
       },
       {
         "a": "azure-operator-5g-core",
-        "b": "gcp-os-configuration",
-        "similarity": 0.2369
+        "b": "azure-cognitive-search",
+        "similarity": 0.301
       }
     ],
     "azure-operator-nexus": [
@@ -2960,8 +2969,8 @@
       },
       {
         "a": "azure-operator-nexus",
-        "b": "azure-data-share-invitations",
-        "similarity": 0.254
+        "b": "azure-power-platform",
+        "similarity": 0.2671
       }
     ],
     "azure-operator-insights": [
@@ -3057,13 +3066,13 @@
       },
       {
         "a": "azure-monitor-pipeline",
-        "b": "fabric-endpoint",
-        "similarity": 0.2995
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.3002
       },
       {
-        "a": "azure-extended-security-updates",
-        "b": "azure-monitor-pipeline",
-        "similarity": 0.2829
+        "a": "azure-monitor-pipeline",
+        "b": "fabric-endpoint",
+        "similarity": 0.2995
       }
     ],
     "azure-ai-at-edge": [
@@ -3074,16 +3083,21 @@
       },
       {
         "a": "azure-ai-at-edge",
-        "b": "aws-ecs-container",
-        "similarity": 0.3132
+        "b": "azure-static-apps",
+        "similarity": 0.3289
       },
       {
         "a": "azure-ai-at-edge",
-        "b": "fabric-phone-data-bars",
-        "similarity": 0.2979
+        "b": "aws-ecs-container",
+        "similarity": 0.3132
       }
     ],
     "azure-workload-orchestration": [
+      {
+        "a": "azure-workload-orchestration",
+        "b": "azure-api-center",
+        "similarity": 0.2348
+      },
       {
         "a": "azure-workload-orchestration",
         "b": "fabric-window-sparkle-new",
@@ -3093,11 +3107,6 @@
         "a": "azure-workload-orchestration",
         "b": "azure-storage-hubs",
         "similarity": 0.2257
-      },
-      {
-        "a": "azure-workload-orchestration",
-        "b": "fabric-window-asterisk-new",
-        "similarity": 0.2256
       }
     ],
     "azure-activity-log": [
@@ -3108,13 +3117,13 @@
       },
       {
         "a": "azure-activity-log",
-        "b": "azure-storage-hubs",
-        "similarity": 0.3101
+        "b": "azure-app-space-component",
+        "similarity": 0.3442
       },
       {
         "a": "azure-activity-log",
-        "b": "aws-ec2-instances",
-        "similarity": 0.2885
+        "b": "azure-storage-hubs",
+        "similarity": 0.3101
       }
     ],
     "azure-diagnostic-settings": [
@@ -3125,13 +3134,13 @@
       },
       {
         "a": "azure-diagnostic-settings",
-        "b": "azure-image-gallery",
-        "similarity": 0.3288
+        "b": "azure-app-space-component",
+        "similarity": 0.4177
       },
       {
         "a": "azure-diagnostic-settings",
-        "b": "fabric-documents-question",
-        "similarity": 0.2737
+        "b": "azure-image-gallery",
+        "similarity": 0.3288
       }
     ],
     "azure-metrics": [
@@ -3193,13 +3202,13 @@
       },
       {
         "a": "azure-recovery-vaults",
-        "b": "azure-storsimple-data-managers",
-        "similarity": 0.2797
+        "b": "azure-app-space-component",
+        "similarity": 0.2827
       },
       {
         "a": "azure-recovery-vaults",
-        "b": "azure-storsimple-device-managers",
-        "similarity": 0.2726
+        "b": "azure-storsimple-data-managers",
+        "similarity": 0.2797
       }
     ],
     "azure-databox-gateway": [
@@ -3266,8 +3275,8 @@
       },
       {
         "a": "azure-spatial-anchor-accounts",
-        "b": "azure-api-connections",
-        "similarity": 0.2611
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.2616
       }
     ],
     "azure-collaborative-service": [
@@ -3290,6 +3299,11 @@
     "azure-applens": [
       {
         "a": "azure-applens",
+        "b": "azure-static-apps",
+        "similarity": 0.3872
+      },
+      {
+        "a": "azure-applens",
         "b": "aws-rekognition-image",
         "similarity": 0.3412
       },
@@ -3297,11 +3311,6 @@
         "a": "azure-applens",
         "b": "gcp-video-intelligence",
         "similarity": 0.3215
-      },
-      {
-        "a": "azure-applens",
-        "b": "aws-ec2-rescue",
-        "similarity": 0.2834
       }
     ],
     "azure-hybrid-center": [
@@ -3923,14 +3932,14 @@
         "similarity": 0.2519
       },
       {
+        "a": "azure-container-instances",
+        "b": "azure-app-space-component",
+        "similarity": 0.2401
+      },
+      {
         "a": "azure-multifactor-authentication",
         "b": "azure-container-instances",
         "similarity": 0.2375
-      },
-      {
-        "a": "azure-container-instances",
-        "b": "azure-linux",
-        "similarity": 0.2246
       }
     ],
     "azure-container-registry": [
@@ -5352,13 +5361,13 @@
       },
       {
         "a": "azure-ddos-plans",
-        "b": "fabric-match-category",
-        "similarity": 0.2395
+        "b": "azure-notification-namespaces",
+        "similarity": 0.2405
       },
       {
-        "a": "azure-monitor-pipeline",
-        "b": "azure-ddos-plans",
-        "similarity": 0.2389
+        "a": "azure-ddos-plans",
+        "b": "fabric-match-category",
+        "similarity": 0.2395
       }
     ],
     "azure-data-factory": [
@@ -5794,13 +5803,13 @@
       },
       {
         "a": "m365-attach",
-        "b": "azure-form-recognizer",
-        "similarity": 0.2664
+        "b": "azure-app-space-component",
+        "similarity": 0.2788
       },
       {
         "a": "m365-attach",
-        "b": "fabric-documents-pulse",
-        "similarity": 0.249
+        "b": "azure-form-recognizer",
+        "similarity": 0.2664
       }
     ],
     "m365-contacts": [
@@ -7778,18 +7787,18 @@
     "gcp-cloud-apis": [
       {
         "a": "gcp-cloud-apis",
+        "b": "azure-media-service",
+        "similarity": 0.2661
+      },
+      {
+        "a": "gcp-cloud-apis",
+        "b": "azure-power-platform",
+        "similarity": 0.2521
+      },
+      {
+        "a": "gcp-cloud-apis",
         "b": "azure-import-export-jobs",
         "similarity": 0.2491
-      },
-      {
-        "a": "gcp-cloud-apis",
-        "b": "azure-hpc-cache",
-        "similarity": 0.2489
-      },
-      {
-        "a": "gcp-cloud-apis",
-        "b": "aws-ecs-copilot-cli",
-        "similarity": 0.2453
       }
     ],
     "gcp-cloud-inference": [
@@ -8105,14 +8114,14 @@
         "similarity": 0.3626
       },
       {
+        "a": "gcp-connectors",
+        "b": "azure-signalr",
+        "similarity": 0.2259
+      },
+      {
         "a": "aws-eventbridge-custom-bus",
         "b": "gcp-connectors",
         "similarity": 0.2182
-      },
-      {
-        "a": "gcp-connectors",
-        "b": "fabric-person-warning",
-        "similarity": 0.2143
       }
     ],
     "gcp-workflows": [
@@ -10349,14 +10358,14 @@
         "similarity": 0.3731
       },
       {
+        "a": "azure-storage-accounts-classic",
+        "b": "azure-static-apps",
+        "similarity": 0.3487
+      },
+      {
         "a": "gcp-healthcare-nlp",
         "b": "azure-storage-accounts-classic",
         "similarity": 0.2996
-      },
-      {
-        "a": "azure-storage-accounts-classic",
-        "b": "azure-hpc-cache",
-        "similarity": 0.2855
       }
     ],
     "azure-storsimple-device-managers": [
@@ -10389,11 +10398,16 @@
       },
       {
         "a": "azure-data-lake-gen1",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.3175
+        "b": "azure-notification-namespaces",
+        "similarity": 0.3212
       }
     ],
     "azure-storsimple-data-managers": [
+      {
+        "a": "azure-storsimple-data-managers",
+        "b": "azure-app-space-component",
+        "similarity": 0.3068
+      },
       {
         "a": "azure-storsimple-data-managers",
         "b": "azure-endpoint-analytics",
@@ -10403,11 +10417,6 @@
         "a": "azure-storsimple-data-managers",
         "b": "fabric-squares-diagram",
         "similarity": 0.2823
-      },
-      {
-        "a": "azure-storsimple-data-managers",
-        "b": "azure-managed-database",
-        "similarity": 0.2819
       }
     ],
     "azure-netapp-files": [
@@ -10429,6 +10438,11 @@
     ],
     "azure-data-share-invitations": [
       {
+        "a": "azure-data-share-invitations",
+        "b": "azure-static-apps",
+        "similarity": 0.3385
+      },
+      {
         "a": "azure-data-lake-gen1",
         "b": "azure-data-share-invitations",
         "similarity": 0.3379
@@ -10437,14 +10451,14 @@
         "a": "azure-data-share-invitations",
         "b": "aws-category-compute",
         "similarity": 0.3021
-      },
-      {
-        "a": "azure-data-share-invitations",
-        "b": "aws-opensearch-ingestion",
-        "similarity": 0.2957
       }
     ],
     "azure-import-export-jobs": [
+      {
+        "a": "azure-import-export-jobs",
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.3418
+      },
       {
         "a": "azure-sap-monitor",
         "b": "azure-import-export-jobs",
@@ -10454,11 +10468,6 @@
         "a": "azure-import-export-jobs",
         "b": "fabric-endpoint",
         "similarity": 0.3333
-      },
-      {
-        "a": "azure-import-export-jobs",
-        "b": "azure-managed-file-shares",
-        "similarity": 0.2874
       }
     ],
     "azure-hpc-cache": [
@@ -10473,12 +10482,17 @@
         "similarity": 0.3989
       },
       {
-        "a": "azure-storage-accounts-classic",
-        "b": "azure-hpc-cache",
-        "similarity": 0.2855
+        "a": "azure-hpc-cache",
+        "b": "azure-media-service",
+        "similarity": 0.3357
       }
     ],
     "azure-data-virtualization": [
+      {
+        "a": "azure-data-virtualization",
+        "b": "azure-signalr",
+        "similarity": 0.2878
+      },
       {
         "a": "azure-extended-security-updates",
         "b": "azure-data-virtualization",
@@ -10488,11 +10502,6 @@
         "a": "azure-import-export-jobs",
         "b": "azure-data-virtualization",
         "similarity": 0.2834
-      },
-      {
-        "a": "azure-risky-users",
-        "b": "azure-data-virtualization",
-        "similarity": 0.2824
       }
     ],
     "azure-storage-hubs": [
@@ -10515,6 +10524,11 @@
     "azure-storage-actions": [
       {
         "a": "azure-storage-actions",
+        "b": "azure-notification-namespaces",
+        "similarity": 0.3563
+      },
+      {
+        "a": "azure-storage-actions",
         "b": "fabric-databases-kql",
         "similarity": 0.3031
       },
@@ -10522,11 +10536,6 @@
         "a": "azure-storage-actions",
         "b": "fabric-slide-window",
         "similarity": 0.2554
-      },
-      {
-        "a": "azure-data-lake-gen1",
-        "b": "azure-storage-actions",
-        "similarity": 0.2538
       }
     ],
     "azure-managed-file-shares": [
@@ -10537,13 +10546,13 @@
       },
       {
         "a": "azure-managed-file-shares",
-        "b": "azure-file-shares",
-        "similarity": 0.304
+        "b": "azure-media-service",
+        "similarity": 0.3191
       },
       {
-        "a": "azure-import-export-jobs",
-        "b": "azure-managed-file-shares",
-        "similarity": 0.2874
+        "a": "azure-managed-file-shares",
+        "b": "azure-file-shares",
+        "similarity": 0.304
       }
     ],
     "azure-file-shares": [
@@ -10794,6 +10803,11 @@
     "azure-oracle-database": [
       {
         "a": "azure-oracle-database",
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.2955
+      },
+      {
+        "a": "azure-oracle-database",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.2589
       },
@@ -10801,11 +10815,6 @@
         "a": "azure-monitor-pipeline",
         "b": "azure-oracle-database",
         "similarity": 0.2559
-      },
-      {
-        "a": "azure-oracle-database",
-        "b": "azure-container-services-classic",
-        "similarity": 0.254
       }
     ],
     "azure-sql-server": [
@@ -10833,13 +10842,13 @@
       },
       {
         "a": "azure-elastic-job-agents",
-        "b": "fabric-table-export",
-        "similarity": 0.2219
+        "b": "azure-app-space-component",
+        "similarity": 0.2228
       },
       {
-        "a": "aws-ecr",
-        "b": "azure-elastic-job-agents",
-        "similarity": 0.2181
+        "a": "azure-elastic-job-agents",
+        "b": "fabric-table-export",
+        "similarity": 0.2219
       }
     ],
     "azure-managed-database": [
@@ -11450,8 +11459,8 @@
       },
       {
         "a": "aws-emr-cluster",
-        "b": "aws-glue-crawler",
-        "similarity": 0.2542
+        "b": "azure-notification-namespaces",
+        "similarity": 0.2597
       }
     ],
     "aws-emr-engine": [
@@ -11767,14 +11776,14 @@
         "similarity": 0.2564
       },
       {
+        "a": "aws-redshift-streaming",
+        "b": "azure-signalr",
+        "similarity": 0.2562
+      },
+      {
         "a": "gcp-transfer",
         "b": "aws-redshift-streaming",
         "similarity": 0.25
-      },
-      {
-        "a": "gcp-workload-identity-pool",
-        "b": "aws-redshift-streaming",
-        "similarity": 0.2459
       }
     ],
     "aws-lake-formation-data-lake": [
@@ -13620,14 +13629,14 @@
         "similarity": 0.2534
       },
       {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "azure-media-service",
+        "similarity": 0.2452
+      },
+      {
         "a": "azure-hpc-cache",
         "b": "aws-sagemaker-shadow-testing",
         "similarity": 0.2391
-      },
-      {
-        "a": "aws-sagemaker-shadow-testing",
-        "b": "aws-cloudhsm",
-        "similarity": 0.2342
       }
     ],
     "aws-sagemaker-train": [
@@ -15791,6 +15800,11 @@
     ],
     "aws-activate": [
       {
+        "a": "aws-activate",
+        "b": "azure-media-service",
+        "similarity": 0.2712
+      },
+      {
         "a": "azure-planetary-computer",
         "b": "aws-activate",
         "similarity": 0.2644
@@ -15799,11 +15813,6 @@
         "a": "azure-application-security-groups",
         "b": "aws-activate",
         "similarity": 0.2568
-      },
-      {
-        "a": "aws-activate",
-        "b": "fabric-endpoint",
-        "similarity": 0.2516
       }
     ],
     "aws-iq": [
@@ -17100,6 +17109,11 @@
     ],
     "aws-cloudhsm": [
       {
+        "a": "aws-cloudhsm",
+        "b": "azure-app-space-component",
+        "similarity": 0.2464
+      },
+      {
         "a": "azure-diagnostic-settings",
         "b": "aws-cloudhsm",
         "similarity": 0.2375
@@ -17108,11 +17122,6 @@
         "a": "aws-sagemaker-shadow-testing",
         "b": "aws-cloudhsm",
         "similarity": 0.2342
-      },
-      {
-        "a": "aws-cloudhsm",
-        "b": "fabric-documents-question",
-        "similarity": 0.2296
       }
     ],
     "aws-waf": [
@@ -17894,8 +17903,8 @@
       },
       {
         "a": "m365-building-cloud",
-        "b": "aws-eks-outposts",
-        "similarity": 0.2056
+        "b": "azure-power-platform",
+        "similarity": 0.2093
       }
     ],
     "m365-building-multiple": [
@@ -19635,13 +19644,13 @@
       },
       {
         "a": "aws-ecr-image",
-        "b": "aws-ecs-task",
-        "similarity": 0.2572
+        "b": "azure-app-space-component",
+        "similarity": 0.2714
       },
       {
         "a": "aws-ecr-image",
-        "b": "fabric-documents-pulse",
-        "similarity": 0.2496
+        "b": "aws-ecs-task",
+        "similarity": 0.2572
       }
     ],
     "aws-ecr-registry": [
@@ -19776,8 +19785,8 @@
       },
       {
         "a": "aws-ecs-task",
-        "b": "azure-images",
-        "similarity": 0.2456
+        "b": "azure-app-space-component",
+        "similarity": 0.2459
       }
     ],
     "aws-eks-outposts": [
@@ -19918,6 +19927,11 @@
     ],
     "aws-ec2-rescue": [
       {
+        "a": "aws-ec2-rescue",
+        "b": "azure-static-apps",
+        "similarity": 0.3333
+      },
+      {
         "a": "azure-applens",
         "b": "aws-ec2-rescue",
         "similarity": 0.2834
@@ -19926,11 +19940,6 @@
         "a": "azure-ai-at-edge",
         "b": "aws-ec2-rescue",
         "similarity": 0.2782
-      },
-      {
-        "a": "gcp-video-intelligence",
-        "b": "aws-ec2-rescue",
-        "similarity": 0.2636
       }
     ],
     "aws-ec2-spot-instance": [
@@ -20829,9 +20838,9 @@
         "similarity": 0.1587
       },
       {
-        "a": "aws-route53",
-        "b": "aws-open-3d-engine",
-        "similarity": 0.1478
+        "a": "aws-open-3d-engine",
+        "b": "azure-power-platform",
+        "similarity": 0.153
       }
     ],
     "aws-ground-station": [
@@ -21259,6 +21268,159 @@
         "similarity": 0.2273
       }
     ],
+    "azure-static-apps": [
+      {
+        "a": "azure-applens",
+        "b": "azure-static-apps",
+        "similarity": 0.3872
+      },
+      {
+        "a": "azure-storage-accounts-classic",
+        "b": "azure-static-apps",
+        "similarity": 0.3487
+      },
+      {
+        "a": "azure-data-share-invitations",
+        "b": "azure-static-apps",
+        "similarity": 0.3385
+      }
+    ],
+    "azure-api-center": [
+      {
+        "a": "azure-api-center",
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.2994
+      },
+      {
+        "a": "azure-api-center",
+        "b": "azure-app-space",
+        "similarity": 0.2976
+      },
+      {
+        "a": "azure-data-virtualization",
+        "b": "azure-api-center",
+        "similarity": 0.2747
+      }
+    ],
+    "azure-power-platform": [
+      {
+        "a": "aws-glue-crawler",
+        "b": "azure-power-platform",
+        "similarity": 0.2692
+      },
+      {
+        "a": "azure-operator-nexus",
+        "b": "azure-power-platform",
+        "similarity": 0.2671
+      },
+      {
+        "a": "azure-power-platform",
+        "b": "azure-host-groups",
+        "similarity": 0.2669
+      }
+    ],
+    "azure-app-space": [
+      {
+        "a": "azure-api-center",
+        "b": "azure-app-space",
+        "similarity": 0.2976
+      },
+      {
+        "a": "azure-app-space",
+        "b": "azure-openshift",
+        "similarity": 0.2585
+      },
+      {
+        "a": "azure-defender-easm",
+        "b": "azure-app-space",
+        "similarity": 0.2532
+      }
+    ],
+    "azure-app-space-component": [
+      {
+        "a": "azure-diagnostic-settings",
+        "b": "azure-app-space-component",
+        "similarity": 0.4177
+      },
+      {
+        "a": "azure-app-space-component",
+        "b": "fabric-match-category",
+        "similarity": 0.3451
+      },
+      {
+        "a": "azure-activity-log",
+        "b": "azure-app-space-component",
+        "similarity": 0.3442
+      }
+    ],
+    "azure-signalr": [
+      {
+        "a": "azure-managed-file-shares",
+        "b": "azure-signalr",
+        "similarity": 0.2886
+      },
+      {
+        "a": "azure-data-virtualization",
+        "b": "azure-signalr",
+        "similarity": 0.2878
+      },
+      {
+        "a": "azure-signalr",
+        "b": "fabric-endpoint",
+        "similarity": 0.2873
+      }
+    ],
+    "azure-notification-namespaces": [
+      {
+        "a": "azure-storage-actions",
+        "b": "azure-notification-namespaces",
+        "similarity": 0.3563
+      },
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "azure-notification-namespaces",
+        "similarity": 0.3212
+      },
+      {
+        "a": "azure-notification-namespaces",
+        "b": "azure-service-groups",
+        "similarity": 0.275
+      }
+    ],
+    "azure-frontdoor-cdn-profiles": [
+      {
+        "a": "azure-frontdoor-cdn-profiles",
+        "b": "azure-media-service",
+        "similarity": 0.359
+      },
+      {
+        "a": "azure-import-export-jobs",
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.3418
+      },
+      {
+        "a": "azure-operator-5g-core",
+        "b": "azure-frontdoor-cdn-profiles",
+        "similarity": 0.3164
+      }
+    ],
+    "azure-media-service": [
+      {
+        "a": "azure-frontdoor-cdn-profiles",
+        "b": "azure-media-service",
+        "similarity": 0.359
+      },
+      {
+        "a": "azure-hpc-cache",
+        "b": "azure-media-service",
+        "similarity": 0.3357
+      },
+      {
+        "a": "azure-media-service",
+        "b": "azure-devops-starter",
+        "similarity": 0.3295
+      }
+    ],
     "azure-change-analysis": [
       {
         "a": "azure-data-lake-gen1",
@@ -21288,9 +21450,9 @@
         "similarity": 0.3765
       },
       {
-        "a": "azure-import-export-jobs",
+        "a": "azure-media-service",
         "b": "azure-devops-starter",
-        "similarity": 0.2771
+        "similarity": 0.3295
       }
     ],
     "azure-managed-devops-pools": [
@@ -21458,9 +21620,9 @@
         "similarity": 0.2757
       },
       {
-        "a": "azure-auto-scale",
+        "a": "azure-notification-namespaces",
         "b": "azure-service-groups",
-        "similarity": 0.2704
+        "similarity": 0.275
       }
     ],
     "azure-aks-network-policy": [
@@ -21533,19 +21695,19 @@
     ],
     "azure-container-services-classic": [
       {
+        "a": "azure-frontdoor-cdn-profiles",
+        "b": "azure-container-services-classic",
+        "similarity": 0.2691
+      },
+      {
         "a": "azure-container-services-classic",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.2654
       },
       {
-        "a": "gcp-anthos",
+        "a": "azure-media-service",
         "b": "azure-container-services-classic",
-        "similarity": 0.2577
-      },
-      {
-        "a": "azure-oracle-database",
-        "b": "azure-container-services-classic",
-        "similarity": 0.254
+        "similarity": 0.2647
       }
     ],
     "azure-spring-apps": [
@@ -21747,9 +21909,9 @@
         "similarity": 0.3175
       },
       {
-        "a": "azure-cloud-services-classic",
-        "b": "fabric-folder-data-bars",
-        "similarity": 0.2973
+        "a": "azure-media-service",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.3071
       }
     ],
     "azure-app-service-plans": [
@@ -22009,6 +22171,11 @@
     ],
     "azure-managed-service-fabric": [
       {
+        "a": "azure-app-space",
+        "b": "azure-managed-service-fabric",
+        "similarity": 0.1783
+      },
+      {
         "a": "azure-workload-orchestration",
         "b": "azure-managed-service-fabric",
         "similarity": 0.1682
@@ -22017,11 +22184,6 @@
         "a": "azure-ai-studio",
         "b": "azure-managed-service-fabric",
         "similarity": 0.1643
-      },
-      {
-        "a": "gcp-translation",
-        "b": "azure-managed-service-fabric",
-        "similarity": 0.1639
       }
     ],
     "azure-notification-hubs": [
@@ -22393,9 +22555,9 @@
         "similarity": 0.2519
       },
       {
-        "a": "azure-hosts",
-        "b": "fabric-data-bar-highlight",
-        "similarity": 0.2318
+        "a": "azure-static-apps",
+        "b": "azure-hosts",
+        "similarity": 0.2446
       }
     ],
     "fabric-cube-cone-sphere": [
@@ -23063,6 +23225,11 @@
     ],
     "fabric-shapes-curved-arrow": [
       {
+        "a": "azure-frontdoor-cdn-profiles",
+        "b": "fabric-shapes-curved-arrow",
+        "similarity": 0.2819
+      },
+      {
         "a": "azure-container-services-classic",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.2654
@@ -23071,11 +23238,6 @@
         "a": "azure-oracle-database",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.2589
-      },
-      {
-        "a": "aws-ecs-copilot-cli",
-        "b": "fabric-shapes-curved-arrow",
-        "similarity": 0.2582
       }
     ],
     "fabric-shapes-curved-arrow-new": [
@@ -23102,14 +23264,14 @@
         "similarity": 0.2673
       },
       {
+        "a": "azure-api-center",
+        "b": "fabric-shapes-forward-arrow",
+        "similarity": 0.2669
+      },
+      {
         "a": "gcp-database-migration",
         "b": "fabric-shapes-forward-arrow",
         "similarity": 0.2612
-      },
-      {
-        "a": "fabric-shapes-forward-arrow",
-        "b": "fabric-person-wrench",
-        "similarity": 0.2557
       }
     ],
     "fabric-equal": [
@@ -23488,14 +23650,14 @@
         "similarity": 0.3503
       },
       {
+        "a": "azure-app-space-component",
+        "b": "fabric-match-category",
+        "similarity": 0.3451
+      },
+      {
         "a": "azure-multifactor-authentication",
         "b": "fabric-match-category",
         "similarity": 0.3194
-      },
-      {
-        "a": "azure-images-classic",
-        "b": "fabric-match-category",
-        "similarity": 0.3116
       }
     ],
     "fabric-notebook-export": [
@@ -23616,9 +23778,9 @@
         "similarity": 0.2296
       },
       {
-        "a": "gcp-connectors",
+        "a": "azure-app-space-component",
         "b": "fabric-person-warning",
-        "similarity": 0.2143
+        "similarity": 0.2145
       }
     ],
     "fabric-person-wrench": [
@@ -23667,9 +23829,9 @@
         "similarity": 0.257
       },
       {
-        "a": "aws-datazone-projects",
+        "a": "azure-notification-namespaces",
         "b": "fabric-pipeline-note",
-        "similarity": 0.2425
+        "similarity": 0.2544
       }
     ],
     "fabric-receipt-sparkle": [
@@ -24074,14 +24236,14 @@
         "similarity": 0.3458
       },
       {
+        "a": "azure-app-space-component",
+        "b": "fabric-squares-diagram",
+        "similarity": 0.3135
+      },
+      {
         "a": "fabric-match-category",
         "b": "fabric-squares-diagram",
         "similarity": 0.2979
-      },
-      {
-        "a": "fabric-slide-accept-dismiss",
-        "b": "fabric-squares-diagram",
-        "similarity": 0.2871
       }
     ],
     "fabric-squares-diagram-new": [
