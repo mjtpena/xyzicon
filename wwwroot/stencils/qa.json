@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1036,
-  "aliases": 3905,
+  "count": 1040,
+  "aliases": 3909,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -250,6 +250,10 @@
     "gcp-automl-video",
     "gcp-contact-center-ai",
     "gcp-data-labeling",
+    "gcp-dialogflow",
+    "gcp-dialogflow-cx",
+    "gcp-dialogflow-insights",
+    "gcp-data-qna",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1152,8 +1156,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 148,
-      "concepts": 135
+      "covered": 152,
+      "concepts": 139
     }
   },
   "nearest": {
@@ -3948,6 +3952,11 @@
     "azure-dns-private-resolver": [
       {
         "a": "azure-dns-private-resolver",
+        "b": "gcp-dialogflow-insights",
+        "similarity": 0.2354
+      },
+      {
+        "a": "azure-dns-private-resolver",
         "b": "aws-bedrock-agentcore",
         "similarity": 0.2305
       },
@@ -3955,11 +3964,6 @@
         "a": "azure-dns-private-resolver",
         "b": "azure-ai-studio",
         "similarity": 0.2243
-      },
-      {
-        "a": "azure-dns-private-resolver",
-        "b": "aws-vpc-traffic-mirroring",
-        "similarity": 0.2222
       }
     ],
     "azure-ddos-plans": [
@@ -4994,9 +4998,9 @@
         "similarity": 0.2338
       },
       {
-        "a": "aws-eventbridge-custom-bus",
-        "b": "gcp-data-fusion",
-        "similarity": 0.2282
+        "a": "gcp-data-fusion",
+        "b": "gcp-data-qna",
+        "similarity": 0.233
       }
     ],
     "gcp-cloud-composer": [
@@ -5320,6 +5324,74 @@
         "a": "gcp-data-labeling",
         "b": "aws-well-architected-tool",
         "similarity": 0.2438
+      }
+    ],
+    "gcp-dialogflow": [
+      {
+        "a": "gcp-dialogflow",
+        "b": "aws-amplify",
+        "similarity": 0.2487
+      },
+      {
+        "a": "gcp-dialogflow",
+        "b": "gcp-advanced-agent-modeling",
+        "similarity": 0.2394
+      },
+      {
+        "a": "gcp-dialogflow",
+        "b": "azure-linux",
+        "similarity": 0.2347
+      }
+    ],
+    "gcp-dialogflow-cx": [
+      {
+        "a": "gcp-dialogflow-cx",
+        "b": "azure-app-service-plans",
+        "similarity": 0.2024
+      },
+      {
+        "a": "gcp-dialogflow-cx",
+        "b": "aws-firewall-manager",
+        "similarity": 0.186
+      },
+      {
+        "a": "gcp-dialogflow-cx",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.1853
+      }
+    ],
+    "gcp-dialogflow-insights": [
+      {
+        "a": "gcp-dialogflow-insights",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2804
+      },
+      {
+        "a": "gcp-dialogflow-insights",
+        "b": "azure-ai-studio",
+        "similarity": 0.2694
+      },
+      {
+        "a": "gcp-dialogflow-insights",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2534
+      }
+    ],
+    "gcp-data-qna": [
+      {
+        "a": "gcp-dataprep",
+        "b": "gcp-data-qna",
+        "similarity": 0.2765
+      },
+      {
+        "a": "gcp-data-qna",
+        "b": "azure-reservations",
+        "similarity": 0.2725
+      },
+      {
+        "a": "gcp-data-qna",
+        "b": "azure-power-bi-embedded",
+        "similarity": 0.2618
       }
     ],
     "gcp-access-context": [
@@ -5664,6 +5736,11 @@
     ],
     "gcp-advanced-agent-modeling": [
       {
+        "a": "gcp-dialogflow",
+        "b": "gcp-advanced-agent-modeling",
+        "similarity": 0.2394
+      },
+      {
         "a": "gcp-advanced-agent-modeling",
         "b": "aws-lookout-vision",
         "similarity": 0.2082
@@ -5672,11 +5749,6 @@
         "a": "gcp-advanced-agent-modeling",
         "b": "azure-app-domains",
         "similarity": 0.1911
-      },
-      {
-        "a": "gcp-advanced-agent-modeling",
-        "b": "azure-automanaged-vm",
-        "similarity": 0.1871
       }
     ],
     "gcp-agent-assist": [
@@ -9829,6 +9901,11 @@
     ],
     "azure-ai-studio": [
       {
+        "a": "gcp-dialogflow-insights",
+        "b": "azure-ai-studio",
+        "similarity": 0.2694
+      },
+      {
         "a": "azure-ai-studio",
         "b": "aws-fsx-windows",
         "similarity": 0.2361
@@ -9837,11 +9914,6 @@
         "a": "azure-ai-studio",
         "b": "aws-vpc-traffic-mirroring",
         "similarity": 0.2359
-      },
-      {
-        "a": "azure-private-link-services",
-        "b": "azure-ai-studio",
-        "similarity": 0.235
       }
     ],
     "azure-foundry-iq": [
@@ -12627,9 +12699,9 @@
         "similarity": 0.2364
       },
       {
-        "a": "aws-s3-glacier",
-        "b": "fabric-window-asterisk",
-        "similarity": 0.2313
+        "a": "gcp-dialogflow-insights",
+        "b": "aws-s3-glacier",
+        "similarity": 0.2324
       }
     ],
     "aws-application-recovery-controller": [
@@ -13417,6 +13489,11 @@
     ],
     "m365-cloud-desktop": [
       {
+        "a": "gcp-dialogflow",
+        "b": "m365-cloud-desktop",
+        "similarity": 0.1817
+      },
+      {
         "a": "fabric-copilot",
         "b": "m365-cloud-desktop",
         "similarity": 0.1734
@@ -13425,11 +13502,6 @@
         "a": "azure-managed-sql",
         "b": "m365-cloud-desktop",
         "similarity": 0.1691
-      },
-      {
-        "a": "azure-analysis-services",
-        "b": "m365-cloud-desktop",
-        "similarity": 0.1619
       }
     ],
     "m365-document": [
@@ -13746,6 +13818,11 @@
     ],
     "aws-vpc-traffic-mirroring": [
       {
+        "a": "gcp-dialogflow-insights",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2804
+      },
+      {
         "a": "aws-bedrock-agentcore",
         "b": "aws-vpc-traffic-mirroring",
         "similarity": 0.2433
@@ -13754,11 +13831,6 @@
         "a": "azure-ai-studio",
         "b": "aws-vpc-traffic-mirroring",
         "similarity": 0.2359
-      },
-      {
-        "a": "aws-vpc-traffic-mirroring",
-        "b": "azure-load-testing",
-        "similarity": 0.2356
       }
     ],
     "aws-rtb-fabric": [
@@ -15724,19 +15796,19 @@
     ],
     "aws-amplify": [
       {
+        "a": "gcp-dialogflow",
+        "b": "aws-amplify",
+        "similarity": 0.2487
+      },
+      {
         "a": "aws-parallel-computing",
         "b": "aws-amplify",
         "similarity": 0.2343
       },
       {
-        "a": "aws-amplify",
-        "b": "aws-dcv",
-        "similarity": 0.2204
-      },
-      {
-        "a": "gcp-local-ssd",
+        "a": "gcp-dialogflow-insights",
         "b": "aws-amplify",
-        "similarity": 0.1978
+        "similarity": 0.2236
       }
     ],
     "aws-device-farm": [
