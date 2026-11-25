@@ -3948,7 +3948,7 @@
       ],
       "revision": "a0e64d87cbc4a66ac8464af690356a592464aef5669744f9fc6a1fa1ec273952",
       "geometrySignature": "ea26a081c5be089df79763fe0a94629571d7d89a249dfebc196e62f30d27cbc7",
-      "comparisonRevision": "d8fd2b355f773527397291a90da74333059e49d1bfcba3d805d842a937ac0565",
+      "comparisonRevision": "185f8c3a44a3bb0cf44fbb6279c9ac17cf4839ec089510566417aa13e1f7b431",
       "review": "pending",
       "notes": ""
     },
@@ -4878,7 +4878,7 @@
       ],
       "revision": "95024c3ff6931e4226aee893d6229fcc54b3a98ad98cacf9773b66de033d5ac3",
       "geometrySignature": "ba95bd136d03fa12d63a33fe58bf8b9559d0710f99364b12cb067cf06f9bc406",
-      "comparisonRevision": "56157ecf1fc9511d631e911510337a3b125f1a5d842b2d8320444de7f99bd131",
+      "comparisonRevision": "0140c6582b9d89d8943429b56f72207c05207455d4b9b3573efff63abb6affb6",
       "review": "pending",
       "notes": ""
     },
@@ -4984,6 +4984,96 @@
       "revision": "1075beff9c97ef66bccf1f1a22a1872ea5898329bfc327d7de244e63750597d7",
       "geometrySignature": "ee7b2b0238f2288b1e5f88101543920715fa67dd170aad67cf2b6a3bcd2f7c89",
       "comparisonRevision": "fd6bf4ba6f53dc87fddc34ba7938ef7df736c52ce5c0a6397be94460a184ce58",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-iot-core",
+      "provider": "gcp",
+      "name": "Cloud IoT Core",
+      "rationale": "Connected devices send readings to a cloud hub.",
+      "path": "stencils/gcp-iot-core.svg",
+      "sources": [
+        "/icons/gcp/iot_core/iot_core.svg"
+      ],
+      "revision": "f53bcef48c0fdce1a53b44da410e3bbd43157ed44a16a6a12a79c7c993d98abe",
+      "geometrySignature": "ffcea21da6ad040e8e380b13e3d521dc60aa359d340ddb4e3bf90a36957cc81a",
+      "comparisonRevision": "0366910175847d9d554123fa212f3ebbf34fe8ded9774913bac8cf339e6b491b",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-iot-edge",
+      "provider": "gcp",
+      "name": "Cloud IoT Edge",
+      "rationale": "An edge processor handles device data close to a sensor.",
+      "path": "stencils/gcp-iot-edge.svg",
+      "sources": [
+        "/icons/gcp/iot_edge/iot_edge.svg"
+      ],
+      "revision": "76511c153c063bef9432f38289b14917865e536d4b4585979994216122f00014",
+      "geometrySignature": "f2519fa5fb62fd559ff8b291ca0486b700ef871d4a5f195d18ba8836b7be7ef7",
+      "comparisonRevision": "f0a80561586b71109adbb4a10130546f39a22c5476f839c9814449ab04528d50",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-fleet-engine",
+      "provider": "gcp",
+      "name": "Fleet Engine",
+      "rationale": "A location pin tracks a managed delivery vehicle.",
+      "path": "stencils/gcp-fleet-engine.svg",
+      "sources": [
+        "/icons/gcp/fleet_engine/fleet_engine.svg"
+      ],
+      "revision": "5b5414936f62085c0c8f4ad305b2622215afa3800f0e99fe9a1bad15b0c457c8",
+      "geometrySignature": "248b5d2b7a3636b6ae7b32843090361938098370db746a5237a487e64691e64b",
+      "comparisonRevision": "c4177a0cb343689083b1838d8dc05950066f3d38f187c851311902e3a38ba5d0",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-cloud-optimization-ai",
+      "provider": "gcp",
+      "name": "Cloud Optimization AI",
+      "rationale": "An optimization target is reached by an improving trend.",
+      "path": "stencils/gcp-cloud-optimization-ai.svg",
+      "sources": [
+        "/icons/gcp/cloud_optimization_ai/cloud_optimization_ai.svg"
+      ],
+      "revision": "05d22f7debe6142653c924363dc76ca435f79b551d4bee5320b8be8e831ffc2f",
+      "geometrySignature": "ed449f7dc4bfa1980f2b769091d48b71d942c4bea0ba079b5bdf20e741b3cccf",
+      "comparisonRevision": "c504072f8aeeb2af390c09f3b0f69e7a80214d807067924d0b1d4c0b3ba74e56",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-fleet-routing",
+      "provider": "gcp",
+      "name": "Fleet Routing API",
+      "rationale": "An optimized route connects vehicle stops on a map.",
+      "path": "stencils/gcp-fleet-routing.svg",
+      "sources": [
+        "/icons/gcp/cloud_optimization_ai_-_fleet_routing_api/cloud_optimization_ai_-_fleet_routing_api.svg"
+      ],
+      "revision": "b93cb599d26ad5d38ab508b5f72066331c4950ab2ba8d53e2037435e8f00033e",
+      "geometrySignature": "ae78c8bbb99d639869f1855b3810571078c0d61b4f0bd6a6b839694b545a7d16",
+      "comparisonRevision": "b0ed4457ddcb8c5735507f38f89e0c50779a354365b5cffc0aac66cbe1471c6a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-visual-inspection",
+      "provider": "gcp",
+      "name": "Visual Inspection",
+      "rationale": "A magnifier inspects an item on a production line.",
+      "path": "stencils/gcp-visual-inspection.svg",
+      "sources": [
+        "/icons/gcp/visual_inspection/visual_inspection.svg"
+      ],
+      "revision": "090871f5e125a2215434b80037d8ab491d044874bac98fe5a7ab97d2346773f6",
+      "geometrySignature": "784a0194a2bed8646e2e754c2dc7376f8520196e94804fb7ad366e8f3b941d0d",
+      "comparisonRevision": "8d09c21846ec0735b8bee3d0c0ff3e0d619a77f5d0adff377d8d8dafb748d75f",
       "review": "pending",
       "notes": ""
     },
@@ -7361,7 +7451,7 @@
       ],
       "revision": "22990bc504d7eafdad89afdbaa38638ff63b9193ad68a2a689efc08204c14718",
       "geometrySignature": "eb7e36c2f04e29d9fe4d1b82634735f4e2bee02ec43b21f8a48e57053b0d065c",
-      "comparisonRevision": "34a6c3d099ad443cfec5f29bc5b16eabf09f05bb134fc27a6bbb3c880ad3d633",
+      "comparisonRevision": "0760ecdb98f588b166a1f21853101d4dc9ce3e9a05915ebb11c72dbba0ed40ce",
       "review": "pending",
       "notes": ""
     },
@@ -10597,7 +10687,7 @@
       ],
       "revision": "4a86bbc2322c5418e6a522077866b226257f5caeeb78358828928c273967fb75",
       "geometrySignature": "cf88cb55db4155eb5fcb0570c74ff10776926c4f42adffe786ceaab8c97df7a6",
-      "comparisonRevision": "ef7a69f9f639d493675381bf6f764e3ec1096553a402ac2fad4d17c5227ec2ff",
+      "comparisonRevision": "c5518431bd5a905073a8652a40575a000225bb6b420492567709ec3b0e791375",
       "review": "pending",
       "notes": ""
     },
@@ -12869,7 +12959,7 @@
       ],
       "revision": "f0342de2909eab6b1cec4221fa5aadd984fe503beaef65ac7ebb169ea7789e83",
       "geometrySignature": "a9c73d8375c7f87982e0afbafbad770daa3c4c6a07383d80ae1caa74a1a42171",
-      "comparisonRevision": "0d1506974268c76c859f20f0708482c2813d2dc1a1394e493934b06b65ca49dd",
+      "comparisonRevision": "4ce05241a97115e216024298c17f5cff6600f7c4beb1ba091fadc9bfc0b10002",
       "review": "pending",
       "notes": ""
     },
@@ -15272,7 +15362,7 @@
       ],
       "revision": "d5fb87a35fc357101bd0f6e4aff97fb878fa22e4a5a139a12ad0f40405800a68",
       "geometrySignature": "9dc4db7e05e8846ff5abb22d7f7e0a3134f03ff50bfc2910d3a165a1bff651f6",
-      "comparisonRevision": "134267db36ab15c5e23a2d8d7fcea80ba4ec608736b1a4719962a0bbcdd15f3a",
+      "comparisonRevision": "ae5b96fcf8904889e9ff888ffd44145ad0684a392684fcba81771c481e972691",
       "review": "pending",
       "notes": ""
     },
@@ -15524,7 +15614,7 @@
       ],
       "revision": "bce2905bb1948387448d52f224644ae3cb39aa9a8e500ea747f685efe7747a9c",
       "geometrySignature": "78d622fb1fed58964902e2f443b314589ff38b180da246bf25071fe3e54ef85f",
-      "comparisonRevision": "fb585684b8e8c7d86cfd413b8defbea325f6b7689274694c68f2ca83564d923c",
+      "comparisonRevision": "182d5a6e3beb639cc2d43d2d5e8538358a1a76d93b2b6db2af2194d1962d2030",
       "review": "pending",
       "notes": ""
     },
@@ -15812,7 +15902,7 @@
       ],
       "revision": "01d74aa3948d7ebe58437eff5102e2acef048d8f75d418bb90412a76c26c6412",
       "geometrySignature": "800d5ad41cc6b103ec31c5d7c0fb9a76533e7eaf5a327593fbdc4db5f49a815b",
-      "comparisonRevision": "72960746b8a005f1a395c46b44e8013b3891d8befdab9b26986e4fbf67e2ca17",
+      "comparisonRevision": "68e45c250e83c90b786473d939f9d788a3db2c982b29752323f5bba15a8ba327",
       "review": "pending",
       "notes": ""
     },

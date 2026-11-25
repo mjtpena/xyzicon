@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1104,
-  "aliases": 3985,
+  "count": 1110,
+  "aliases": 3991,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -306,6 +306,12 @@
     "gcp-compute-systems-management",
     "gcp-cloud-test-lab",
     "gcp-game-servers",
+    "gcp-iot-core",
+    "gcp-iot-edge",
+    "gcp-fleet-engine",
+    "gcp-cloud-optimization-ai",
+    "gcp-fleet-routing",
+    "gcp-visual-inspection",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1220,8 +1226,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 204,
-      "concepts": 191
+      "covered": 210,
+      "concepts": 197
     }
   },
   "nearest": {
@@ -5165,8 +5171,8 @@
       },
       {
         "a": "gcp-external-ip",
-        "b": "azure-language",
-        "similarity": 0.2341
+        "b": "gcp-iot-edge",
+        "similarity": 0.2348
       }
     ],
     "gcp-cloud-routes": [
@@ -6219,8 +6225,8 @@
       },
       {
         "a": "gcp-transfer",
-        "b": "aws-activate",
-        "similarity": 0.2244
+        "b": "gcp-iot-core",
+        "similarity": 0.232
       }
     ],
     "gcp-transfer-appliance": [
@@ -6340,6 +6346,108 @@
         "a": "gcp-game-servers",
         "b": "aws-codecatalyst",
         "similarity": 0.1873
+      }
+    ],
+    "gcp-iot-core": [
+      {
+        "a": "gcp-iot-core",
+        "b": "aws-backup",
+        "similarity": 0.2941
+      },
+      {
+        "a": "gcp-iot-core",
+        "b": "fabric-planning",
+        "similarity": 0.2664
+      },
+      {
+        "a": "gcp-iot-core",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2642
+      }
+    ],
+    "gcp-iot-edge": [
+      {
+        "a": "gcp-iot-edge",
+        "b": "aws-proton",
+        "similarity": 0.3024
+      },
+      {
+        "a": "gcp-iot-edge",
+        "b": "azure-language",
+        "similarity": 0.2517
+      },
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "gcp-iot-edge",
+        "similarity": 0.2457
+      }
+    ],
+    "gcp-fleet-engine": [
+      {
+        "a": "gcp-fleet-engine",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2314
+      },
+      {
+        "a": "gcp-fleet-engine",
+        "b": "fabric-database-crown",
+        "similarity": 0.2049
+      },
+      {
+        "a": "gcp-fleet-engine",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.1971
+      }
+    ],
+    "gcp-cloud-optimization-ai": [
+      {
+        "a": "gcp-cloud-optimization-ai",
+        "b": "aws-s3-glacier",
+        "similarity": 0.1708
+      },
+      {
+        "a": "gcp-cloud-optimization-ai",
+        "b": "fabric-stream-settings-bracket",
+        "similarity": 0.1687
+      },
+      {
+        "a": "gcp-cloud-optimization-ai",
+        "b": "fabric-database-up-down",
+        "similarity": 0.1612
+      }
+    ],
+    "gcp-fleet-routing": [
+      {
+        "a": "gcp-fleet-routing",
+        "b": "aws-location-service",
+        "similarity": 0.2383
+      },
+      {
+        "a": "gcp-fleet-routing",
+        "b": "aws-datazone-portal",
+        "similarity": 0.2312
+      },
+      {
+        "a": "gcp-fleet-routing",
+        "b": "aws-cloud9",
+        "similarity": 0.2302
+      }
+    ],
+    "gcp-visual-inspection": [
+      {
+        "a": "gcp-os-patch",
+        "b": "gcp-visual-inspection",
+        "similarity": 0.2118
+      },
+      {
+        "a": "gcp-visual-inspection",
+        "b": "gcp-category-storage",
+        "similarity": 0.206
+      },
+      {
+        "a": "gcp-visual-inspection",
+        "b": "aws-elemental-live",
+        "similarity": 0.1971
       }
     ],
     "gcp-access-context": [
@@ -8673,6 +8781,11 @@
     ],
     "aws-glue-crawler": [
       {
+        "a": "gcp-iot-core",
+        "b": "aws-glue-crawler",
+        "similarity": 0.2428
+      },
+      {
         "a": "aws-glue-crawler",
         "b": "aws-vpc-nat-gateway",
         "similarity": 0.2427
@@ -8681,11 +8794,6 @@
         "a": "aws-glue-crawler",
         "b": "aws-backup",
         "similarity": 0.2342
-      },
-      {
-        "a": "gcp-api-gateway",
-        "b": "aws-glue-crawler",
-        "similarity": 0.2292
       }
     ],
     "aws-glue-catalog": [
@@ -11529,6 +11637,11 @@
     ],
     "aws-proton": [
       {
+        "a": "gcp-iot-edge",
+        "b": "aws-proton",
+        "similarity": 0.3024
+      },
+      {
         "a": "gcp-partner-interconnect",
         "b": "aws-proton",
         "similarity": 0.256
@@ -11537,11 +11650,6 @@
         "a": "gcp-certificate-authority",
         "b": "aws-proton",
         "similarity": 0.2439
-      },
-      {
-        "a": "azure-function-apps",
-        "b": "aws-proton",
-        "similarity": 0.2417
       }
     ],
     "aws-opentelemetry": [
@@ -13676,14 +13784,14 @@
         "similarity": 0.2986
       },
       {
+        "a": "gcp-iot-core",
+        "b": "aws-backup",
+        "similarity": 0.2941
+      },
+      {
         "a": "aws-eventbridge-schema",
         "b": "aws-backup",
         "similarity": 0.2647
-      },
-      {
-        "a": "gcp-api-gateway",
-        "b": "aws-backup",
-        "similarity": 0.2544
       }
     ],
     "aws-elastic-disaster-recovery": [
@@ -16023,9 +16131,9 @@
         "similarity": 0.1699
       },
       {
-        "a": "fabric-data-warehouse",
+        "a": "gcp-iot-edge",
         "b": "aws-ec2-image-builder",
-        "similarity": 0.1592
+        "similarity": 0.1642
       }
     ],
     "aws-lightsail": [
@@ -16256,14 +16364,14 @@
         "similarity": 0.1667
       },
       {
+        "a": "gcp-visual-inspection",
+        "b": "aws-category-serverless",
+        "similarity": 0.1632
+      },
+      {
         "a": "aws-category-serverless",
         "b": "azure-cost-management-billing",
         "similarity": 0.1541
-      },
-      {
-        "a": "gcp-category-storage",
-        "b": "aws-category-serverless",
-        "similarity": 0.1508
       }
     ],
     "aws-category-app-integration": [
@@ -16528,14 +16636,14 @@
         "similarity": 0.199
       },
       {
+        "a": "gcp-visual-inspection",
+        "b": "aws-category-iot",
+        "similarity": 0.1825
+      },
+      {
         "a": "gcp-profiler",
         "b": "aws-category-iot",
         "similarity": 0.18
-      },
-      {
-        "a": "gcp-genomics",
-        "b": "aws-category-iot",
-        "similarity": 0.1761
       }
     ],
     "aws-iot-expresslink": [
