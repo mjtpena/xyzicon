@@ -3,18 +3,8 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 1139,
+  "approved": 1149,
   "needsReview": [
-    "azure-ssis-lift-shift",
-    "azure-sql-edge",
-    "azure-documentdb",
-    "azure-sql-fleet",
-    "azure-sql-vm",
-    "azure-virtual-clusters",
-    "azure-managed-redis",
-    "azure-mysql",
-    "azure-mariadb",
-    "azure-postgresql",
     "azure-postgresql-group",
     "azure-oracle-database",
     "azure-sql-server",
@@ -1175,13 +1165,6 @@
       "notes": "Rechecked the current double and float drawings after verifying the added 1.2F source variants: the D is closed, while F has an open right side."
     },
     {
-      "a": "azure-mysql",
-      "b": "azure-mariadb",
-      "similarity": 0.7102,
-      "review": "distinct",
-      "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
-    },
-    {
       "a": "m365-number-circle-four",
       "b": "fabric-curved-right-circle",
       "similarity": 0.6959,
@@ -1217,32 +1200,11 @@
       "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
     },
     {
-      "a": "azure-documentdb",
-      "b": "azure-mysql",
-      "similarity": 0.6886,
-      "review": "distinct",
-      "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
-    },
-    {
       "a": "fabric-location-database",
       "b": "fabric-location-radar",
       "similarity": 0.6865,
       "review": "distinct",
       "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
-    },
-    {
-      "a": "azure-mariadb",
-      "b": "azure-postgresql",
-      "similarity": 0.6861,
-      "review": "distinct",
-      "notes": "MariaDB has angular MA lettering, while PostgreSQL has an elephant head with ears and a trunk."
-    },
-    {
-      "a": "azure-documentdb",
-      "b": "azure-mariadb",
-      "similarity": 0.686,
-      "review": "distinct",
-      "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
     },
     {
       "a": "fabric-slide-ribbon",
@@ -1280,13 +1242,6 @@
       "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
     },
     {
-      "a": "azure-documentdb",
-      "b": "azure-postgresql",
-      "similarity": 0.6713,
-      "review": "distinct",
-      "notes": "DocumentDB contains opposing braces; PostgreSQL contains an elephant head with a central trunk."
-    },
-    {
       "a": "fabric-table-function",
       "b": "fabric-table-link",
       "similarity": 0.6684,
@@ -1306,13 +1261,6 @@
       "similarity": 0.6667,
       "review": "distinct",
       "notes": "Six intersecting spokes differ from the single circular revision node on a vertical line, including at 32px."
-    },
-    {
-      "a": "azure-mysql",
-      "b": "azure-postgresql",
-      "similarity": 0.6651,
-      "review": "distinct",
-      "notes": "MySQL has My lettering with a forked Y; PostgreSQL has an elephant head with ears and a trunk."
     },
     {
       "a": "fabric-window-interface",
@@ -2988,13 +2936,13 @@
       },
       {
         "a": "azure-blockchain-consortium",
-        "b": "azure-power-up",
-        "similarity": 0.2477
+        "b": "azure-mysql",
+        "similarity": 0.2483
       },
       {
         "a": "azure-blockchain-consortium",
-        "b": "gcp-anthos-config-management",
-        "similarity": 0.2456
+        "b": "azure-power-up",
+        "similarity": 0.2477
       }
     ],
     "azure-confidential-clean-rooms": [
@@ -7097,11 +7045,6 @@
     "gcp-traffic-director": [
       {
         "a": "gcp-traffic-director",
-        "b": "azure-mysql",
-        "similarity": 0.2247
-      },
-      {
-        "a": "gcp-traffic-director",
         "b": "azure-postgresql",
         "similarity": 0.2216
       },
@@ -7109,6 +7052,11 @@
         "a": "gcp-traffic-director",
         "b": "gcp-genomics",
         "similarity": 0.2186
+      },
+      {
+        "a": "gcp-traffic-director",
+        "b": "fabric-vehicle-subway",
+        "similarity": 0.2053
       }
     ],
     "gcp-virtual-private-cloud": [
@@ -7119,13 +7067,13 @@
       },
       {
         "a": "gcp-virtual-private-cloud",
-        "b": "gcp-security-scanner",
-        "similarity": 0.2607
+        "b": "azure-mariadb",
+        "similarity": 0.2618
       },
       {
         "a": "gcp-virtual-private-cloud",
-        "b": "fabric-vehicle-subway",
-        "similarity": 0.2514
+        "b": "gcp-security-scanner",
+        "similarity": 0.2607
       }
     ],
     "gcp-security-key-enforcement": [
@@ -7255,13 +7203,13 @@
       },
       {
         "a": "gcp-security-scanner",
-        "b": "gcp-my-cloud",
-        "similarity": 0.2528
+        "b": "azure-mariadb",
+        "similarity": 0.2601
       },
       {
         "a": "gcp-security-scanner",
-        "b": "gcp-cloud-gpu",
-        "similarity": 0.2446
+        "b": "gcp-my-cloud",
+        "similarity": 0.2528
       }
     ],
     "gcp-security": [
@@ -8428,13 +8376,13 @@
       },
       {
         "a": "gcp-onboarding",
-        "b": "azure-managed-redis",
-        "similarity": 0.2464
+        "b": "azure-documentdb",
+        "similarity": 0.2465
       },
       {
         "a": "gcp-onboarding",
-        "b": "aws-general-shield",
-        "similarity": 0.2419
+        "b": "azure-managed-redis",
+        "similarity": 0.2464
       }
     ],
     "gcp-access-context": [
@@ -10667,24 +10615,18 @@
     "azure-documentdb": [
       {
         "a": "azure-documentdb",
-        "b": "azure-mysql",
-        "similarity": 0.6886,
-        "review": "distinct",
-        "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
-      },
-      {
-        "a": "azure-documentdb",
         "b": "azure-mariadb",
-        "similarity": 0.686,
-        "review": "distinct",
-        "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
+        "similarity": 0.304
       },
       {
-        "a": "azure-documentdb",
-        "b": "azure-postgresql",
-        "similarity": 0.6713,
-        "review": "distinct",
-        "notes": "DocumentDB contains opposing braces; PostgreSQL contains an elephant head with a central trunk."
+        "a": "gcp-identity-platform",
+        "b": "azure-documentdb",
+        "similarity": 0.2465
+      },
+      {
+        "a": "gcp-onboarding",
+        "b": "azure-documentdb",
+        "similarity": 0.2465
       }
     ],
     "azure-sql-fleet": [
@@ -10758,70 +10700,52 @@
     "azure-mysql": [
       {
         "a": "azure-mysql",
-        "b": "azure-mariadb",
-        "similarity": 0.7102,
-        "review": "distinct",
-        "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
+        "b": "fabric-home-lightning",
+        "similarity": 0.252
       },
       {
-        "a": "azure-documentdb",
+        "a": "azure-blockchain-consortium",
         "b": "azure-mysql",
-        "similarity": 0.6886,
-        "review": "distinct",
-        "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
+        "similarity": 0.2483
       },
       {
         "a": "azure-mysql",
-        "b": "azure-postgresql",
-        "similarity": 0.6651,
-        "review": "distinct",
-        "notes": "MySQL has My lettering with a forked Y; PostgreSQL has an elephant head with ears and a trunk."
+        "b": "fabric-signal-square",
+        "similarity": 0.2442
       }
     ],
     "azure-mariadb": [
       {
-        "a": "azure-mysql",
-        "b": "azure-mariadb",
-        "similarity": 0.7102,
-        "review": "distinct",
-        "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
-      },
-      {
-        "a": "azure-mariadb",
-        "b": "azure-postgresql",
-        "similarity": 0.6861,
-        "review": "distinct",
-        "notes": "MariaDB has angular MA lettering, while PostgreSQL has an elephant head with ears and a trunk."
-      },
-      {
         "a": "azure-documentdb",
         "b": "azure-mariadb",
-        "similarity": 0.686,
-        "review": "distinct",
-        "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
+        "similarity": 0.304
+      },
+      {
+        "a": "gcp-virtual-private-cloud",
+        "b": "azure-mariadb",
+        "similarity": 0.2618
+      },
+      {
+        "a": "gcp-security-scanner",
+        "b": "azure-mariadb",
+        "similarity": 0.2601
       }
     ],
     "azure-postgresql": [
       {
-        "a": "azure-mariadb",
-        "b": "azure-postgresql",
-        "similarity": 0.6861,
-        "review": "distinct",
-        "notes": "MariaDB has angular MA lettering, while PostgreSQL has an elephant head with ears and a trunk."
+        "a": "azure-postgresql",
+        "b": "fabric-documents-dax",
+        "similarity": 0.3396
       },
       {
-        "a": "azure-documentdb",
-        "b": "azure-postgresql",
-        "similarity": 0.6713,
-        "review": "distinct",
-        "notes": "DocumentDB contains opposing braces; PostgreSQL contains an elephant head with a central trunk."
+        "a": "azure-postgresql",
+        "b": "fabric-vehicle-subway",
+        "similarity": 0.2956
       },
       {
-        "a": "azure-mysql",
-        "b": "azure-postgresql",
-        "similarity": 0.6651,
-        "review": "distinct",
-        "notes": "MySQL has My lettering with a forked Y; PostgreSQL has an elephant head with ears and a trunk."
+        "a": "azure-postgresql",
+        "b": "fabric-rectangle-list-asterisk",
+        "similarity": 0.2907
       }
     ],
     "azure-postgresql-group": [
@@ -24193,14 +24117,14 @@
         "similarity": 0.2711
       },
       {
-        "a": "azure-mariadb",
-        "b": "aws-general-shield",
-        "similarity": 0.2536
-      },
-      {
         "a": "aws-general-shield",
         "b": "fabric-vehicle-subway",
         "similarity": 0.2524
+      },
+      {
+        "a": "aws-general-sdk",
+        "b": "aws-general-shield",
+        "similarity": 0.2509
       }
     ],
     "aws-general-source-code": [
@@ -34000,9 +33924,9 @@
         "similarity": 0.1784
       },
       {
-        "a": "aws-partner-central",
+        "a": "azure-mariadb",
         "b": "azure-mesh-applications",
-        "similarity": 0.1736
+        "similarity": 0.1767
       }
     ],
     "azure-cloud-services-classic": [
@@ -34680,9 +34604,9 @@
         "similarity": 0.1708
       },
       {
-        "a": "aws-rds-blue-green",
+        "a": "azure-mariadb",
         "b": "fabric-cube-cone-sphere",
-        "similarity": 0.1677
+        "similarity": 0.1686
       }
     ],
     "fabric-area-location": [
@@ -35275,9 +35199,9 @@
         "similarity": 0.2626
       },
       {
-        "a": "azure-documentdb",
-        "b": "fabric-diagram-arrows",
-        "similarity": 0.2507
+        "a": "fabric-diagram-arrows",
+        "b": "fabric-vehicle-subway",
+        "similarity": 0.245
       }
     ],
     "fabric-board-lightning-asterisk": [
@@ -35581,9 +35505,9 @@
         "similarity": 0.2541
       },
       {
-        "a": "fabric-home-lightning",
-        "b": "fabric-signal-square",
-        "similarity": 0.2474
+        "a": "azure-mysql",
+        "b": "fabric-home-lightning",
+        "similarity": 0.252
       }
     ],
     "fabric-home-tree": [
@@ -35954,9 +35878,9 @@
         "similarity": 0.2493
       },
       {
-        "a": "azure-documentdb",
+        "a": "azure-postgresql",
         "b": "fabric-receipt-sparkle",
-        "similarity": 0.2452
+        "similarity": 0.2329
       }
     ],
     "fabric-receipt-sparkle-new": [
@@ -36029,11 +35953,6 @@
     ],
     "fabric-rectangle-list-asterisk": [
       {
-        "a": "azure-documentdb",
-        "b": "fabric-rectangle-list-asterisk",
-        "similarity": 0.2942
-      },
-      {
         "a": "azure-postgresql",
         "b": "fabric-rectangle-list-asterisk",
         "similarity": 0.2907
@@ -36042,6 +35961,11 @@
         "a": "fabric-receipt-sparkle",
         "b": "fabric-rectangle-list-asterisk",
         "similarity": 0.2674
+      },
+      {
+        "a": "fabric-notebook-globe",
+        "b": "fabric-rectangle-list-asterisk",
+        "similarity": 0.2632
       }
     ],
     "fabric-rectangles-curve-left": [
@@ -36609,9 +36533,9 @@
         "similarity": 0.3315
       },
       {
-        "a": "azure-documentdb",
+        "a": "fabric-rectangle-list-asterisk",
         "b": "fabric-script-sparkle",
-        "similarity": 0.2302
+        "similarity": 0.2285
       }
     ],
     "fabric-script-sparkle-add": [
@@ -36852,14 +36776,14 @@
         "similarity": 0.2956
       },
       {
-        "a": "azure-documentdb",
+        "a": "azure-mariadb",
         "b": "fabric-vehicle-subway",
-        "similarity": 0.2887
+        "similarity": 0.2561
       },
       {
-        "a": "azure-mysql",
+        "a": "aws-ec2-ami",
         "b": "fabric-vehicle-subway",
-        "similarity": 0.2865
+        "similarity": 0.2524
       }
     ],
     "fabric-window-asterisk-new": [
@@ -37564,14 +37488,14 @@
         "similarity": 0.3396
       },
       {
-        "a": "azure-mariadb",
+        "a": "azure-subnet",
         "b": "fabric-documents-dax",
-        "similarity": 0.3368
+        "similarity": 0.2725
       },
       {
-        "a": "azure-mysql",
+        "a": "fabric-vehicle-subway",
         "b": "fabric-documents-dax",
-        "similarity": 0.3312
+        "similarity": 0.2473
       }
     ],
     "fabric-documents-pulse": [
@@ -38476,9 +38400,9 @@
         "similarity": 0.2068
       },
       {
-        "a": "azure-mysql",
+        "a": "fabric-document-tree",
         "b": "fabric-checked-documents",
-        "similarity": 0.2064
+        "similarity": 0.2053
       }
     ],
     "fabric-stacked-text": [
