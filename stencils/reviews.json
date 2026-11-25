@@ -1678,9 +1678,9 @@
   },
   "aws-msk-connect": {
     "revision": "4988fcdf2e2d0561528a5d26fde16aa26d6ca6d95e9f78e862f20cdcfdefab05",
-    "comparisonRevision": "53a672f3b2a9e0d0500fe6d1e03dfa1ddd9dbd512a5c112bd2cd3c2a60964ce3",
+    "comparisonRevision": "44520bfb67fb48f5af669b44237b80c34be2c83026431805420a18ee1e08c70d",
     "status": "approved",
-    "notes": "A database connects through a plug to multiple stream nodes, unlike service routing, API security and gaming."
+    "notes": "A connector carries database data to nodes, unlike service connect, Apigee and the video delivery appliance."
   },
   "aws-opensearch-admin-node": {
     "revision": "115efd8dab5ded40a3c4e068bb81c36d53f89aa384a7f636587b4ddbf2624d70",
@@ -1774,9 +1774,9 @@
   },
   "aws-redshift-streaming": {
     "revision": "d76bfd67e5bc01efc7b892ac45e821d3aa8f4f4fa9be290ed498e0b08f4938ac",
-    "comparisonRevision": "ca191b4a18effcbd40167a2e6be196a11ee787abf25a853f96034ba089552f9f",
+    "comparisonRevision": "bebc43d3e4ce1bf44779cb8673ad41346bd54a6c6c113b96f86f671601faba48",
     "status": "approved",
-    "notes": "A flowing stream enters storage, unlike video distribution, reserved IP and public IP."
+    "notes": "A flowing stream enters storage, unlike reserved IP, public IP and an application container."
   },
   "aws-lake-formation-data-lake": {
     "revision": "445a3aa68ee308af32f584e48b21d06301b3bba43334f1503d056ef813b1ca3b",
@@ -2614,9 +2614,9 @@
   },
   "aws-greengrass-nucleus": {
     "revision": "be72ee67426586ef380babaa0ec957a33292317b0547fbf69a819a73a5a9de53",
-    "comparisonRevision": "0e7d80263de0512e752b2aae1a2c8ee459a179808d09a13aafd2c6b087f51dbd",
+    "comparisonRevision": "ffd41db4bec645709617ca9bf29572046b16ad0b923e83c53ed7f2e0073040bd",
     "status": "approved",
-    "notes": "A central runtime chip links to two modules, unlike video distribution, DNS servers and render jobs."
+    "notes": "A central chip serves two components, unlike DNS, render queue and spot VMs."
   },
   "aws-greengrass-private-component": {
     "revision": "eddfb1949cedb6fe1dd5cb403d76ecc2bb1efbc9627c7194432d1c18a5762bb1",
@@ -4383,16 +4383,16 @@
     "notes": "A controller directs two video outputs, unlike directory services, Kubernetes and clustered databases."
   },
   "aws-elemental-delta": {
-    "revision": "5a95a91cbfcabd3e5061ebe8b26620544d7b70b8ac11c340db758c6099b9333e",
-    "comparisonRevision": "5fc220cb8311d9d26f6bd5c479fd4121c51bc60adc1a205a88651a9806b5e9ce",
+    "revision": "9a26702e25af060865c325c7e2d855cf04cff593a5d0c8a67b75cd54819d8024",
+    "comparisonRevision": "01323d5cb12e1e97b95e5c05da692d31cdc400e3d06a9b6d750460b46a396b8e",
     "status": "approved",
-    "notes": "A video signal fans out to outputs, unlike Greengrass, messaging and public IP."
+    "notes": "A video appliance serves a television and phone, unlike analytics hub, DNS multistack and cloud console; MediaConnect fans a video out."
   },
   "aws-thinkbox-deadline": {
     "revision": "2697f79ce0d8f6b7489d4a388524fdf061b45c26568bc6e39de737ba5a9fd63a",
-    "comparisonRevision": "4a55c0182a4542f16f48e2b8e2eaff174e14c295c71ff4c585f902f9c56a7679",
+    "comparisonRevision": "b738e7d7711865c323fe4f172243392e54a172356ed60f382ee4f0bdd7484ff3",
     "status": "approved",
-    "notes": "A job list feeds two render nodes, unlike video routing, operator nexus and connector checklist."
+    "notes": "A job list feeds two render nodes, unlike operator nexus, an assessment connector and firewall manager."
   },
   "aws-thinkbox-frost": {
     "revision": "cb5403214e9f388e853fe2c57b0bfc9fb1dd6c490a3e14f81fe6533bb3bce5b9",
@@ -4417,5 +4417,89 @@
     "comparisonRevision": "3cb20a3f6752ec59bc3b09fbeb0d08f1596eb924e138c235db7ed7ccbd5b6fb9",
     "status": "approved",
     "notes": "A wireframe mesh exports to storage, unlike namespace arrows, pipeline and Frost particles."
+  },
+  "aws-mediaconnect": {
+    "revision": "00f66e5de96ee5ddced72c5a67e66c868c1721cf487a09301ccd59a2e8900b4e",
+    "comparisonRevision": "494604543de5f7c04fcbc65c23d78941f443f5c921434729ff193b86a32e2fd6",
+    "status": "approved",
+    "notes": "A video feed routes to two endpoints, unlike VM scaling, data share and cloud control; Delta shows an appliance with different devices."
+  },
+  "aws-elemental-appliances": {
+    "revision": "098a96c296b0f25cb3d06df9031bbd053b1609d5c45ed361baa8aa7fd0d7e6a7",
+    "comparisonRevision": "390135d6ed0abf2fa89d590622e94793868f62721f20b0c23d00212740beedb5",
+    "status": "approved",
+    "notes": "A video window feeds appliance rack, unlike marketplace, container OS and laptop."
+  },
+  "aws-elemental-inference": {
+    "revision": "37142313170ec23e27106a38f9133ebf48913da20f89426aea634a96272a2f1a",
+    "comparisonRevision": "dba21a9e39c2abe5a55d06f0315caa9bb070394670c5e4073d74c0542595fffc",
+    "status": "approved",
+    "notes": "A video feeds an inference graph, unlike device security, DevOps and a document SDK."
+  },
+  "aws-medialive": {
+    "revision": "a6631fa2082fcf84c4c733670636e7d098e9b64953072ff898246c9a81085a62",
+    "comparisonRevision": "ba4d922d96fcb29b57b886a07dd2b6dc21e2ecd246a504bb6afd0062adbc1395",
+    "status": "approved",
+    "notes": "A camera broadcasts live video, unlike database add, hardware module and modular datacenter."
+  },
+  "aws-mediaconvert": {
+    "revision": "c058ef6e219e099196766b3201e4c78c2f028fc422088634c0b65f6a20d932c1",
+    "comparisonRevision": "d2582ac21f8f941f30a09dd415ff2e44c49e340648b1b3edd9e396382f1bf295",
+    "status": "approved",
+    "notes": "Two video formats exchange via arrows, unlike copy job, filmstrip and data lab."
+  },
+  "aws-mediapackage": {
+    "revision": "9e69047f007d79bf8060791c9da5ec71ac783d103a47e6211ad365742fb0b066",
+    "comparisonRevision": "19010e1c930407e70fc5b6891755d087ed72c592cfdc5599fae560c8f327cf11",
+    "status": "approved",
+    "notes": "A video goes into a package, unlike search, batch accounts and builds."
+  },
+  "aws-mediastore": {
+    "revision": "d27aabf5009d4f50d3c69f5c7bdf9fe37547ea6550d2917e58e68cd2f7757cc1",
+    "comparisonRevision": "1f2ad57daf137a3f16271ece5bb8f3462a5ee796043eb808a1b6e24e2266f25e",
+    "status": "approved",
+    "notes": "Media reels and a video record are stored, unlike schema registry, transfer appliance and Bigtable."
+  },
+  "aws-mediatailor": {
+    "revision": "88347bd352353c7cd2c3a3885789f799b6cab4d5393b8b4a367ad49f1af6b0c1",
+    "comparisonRevision": "73fb9b099d2de7410424d085ca5fdaaf0b9385dc9da7b3f85f46a8cf0d90f72d",
+    "status": "approved",
+    "notes": "Video enters a segmented timeline, unlike comments, Kubernetes and moderation."
+  },
+  "aws-interactive-video": {
+    "revision": "820dde48ce456ebe581ed1695373cc6bf4caffa521458bc0feff94dabf224159",
+    "comparisonRevision": "3a2d9880c8f1f3f42f210caa5e959b2ac27a069a5f0d6d10386573dff7dde500",
+    "status": "approved",
+    "notes": "A viewer interacts with video and chat, unlike project, data exchange and compute fleet."
+  },
+  "aws-gamelift-streams": {
+    "revision": "b4c9aded0888b9bfba9f91470f55800c043305cfd79db75545a7559ef8910c1e",
+    "comparisonRevision": "5f2525449ee1b6c8e8cc497cb24f7dc6f1dc35468bb10bf2f8061edbdbee602d",
+    "status": "approved",
+    "notes": "A game controller under a broadcast screen differs from warehouse, front-end and WAF."
+  },
+  "aws-deadline-cloud": {
+    "revision": "f2f6bfc1e315bd264c3a4ea276d37b39b8f272a2059a1ba68875652b0d92521e",
+    "comparisonRevision": "83f32b252919d88e9ac506814f5e09bbab645b322b3220faeea840e995ef7c8f",
+    "status": "approved",
+    "notes": "A cloud render queue distributes jobs, unlike mainframe modernization, Outposts rack and S3 files."
+  },
+  "aws-elemental-live": {
+    "revision": "6bd05be50605f6f017ec20eef18af4ebf75f1f927533dd32d447f693999766d6",
+    "comparisonRevision": "582b022ab4527b3034344ac56d231c9642215d90af035a27018d9e30f0ee6e74",
+    "status": "approved",
+    "notes": "A live broadcast appliance with antenna differs from storage, schema registry and container OS."
+  },
+  "aws-elemental-link": {
+    "revision": "948c514c580639f8be70920000d693f04c638e06f56a6c96f55743e72cc4dbaf",
+    "comparisonRevision": "875b9dc97526a653169740cfd8c362b5d4e0957e2ef1d8a27356459342044d64",
+    "status": "approved",
+    "notes": "A camera feeds an uplink appliance, unlike SQL database, FSx and security operations."
+  },
+  "aws-elemental-server": {
+    "revision": "3d76e5f844167c614a8c2598143507cef0984bb87a2a0986ae3a391d914e4418",
+    "comparisonRevision": "5c801b6cb7c4d11b1465c7ce8fa4a8d2e1e21443a3033a0f531d46c8764d0382",
+    "status": "approved",
+    "notes": "A video feeds server rows, unlike telemetry, operations agent and copy job."
   }
 }

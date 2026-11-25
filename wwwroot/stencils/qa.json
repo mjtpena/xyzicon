@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 649,
+  "approved": 663,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,20 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-elemental-appliances",
-    "aws-elemental-inference",
-    "aws-medialive",
-    "aws-mediaconvert",
-    "aws-mediapackage",
-    "aws-mediastore",
-    "aws-mediatailor",
-    "aws-mediaconnect",
-    "aws-interactive-video",
-    "aws-gamelift-streams",
-    "aws-deadline-cloud",
-    "aws-elemental-live",
-    "aws-elemental-link",
-    "aws-elemental-server",
     "aws-kms-external-key-store",
     "aws-network-firewall-endpoint",
     "aws-security-hub-finding",
@@ -9484,9 +9470,9 @@
         "similarity": 0.2653
       },
       {
-        "a": "gcp-anthos",
-        "b": "gcp-apigee",
-        "similarity": 0.2585
+        "a": "gcp-apigee",
+        "b": "aws-elemental-delta",
+        "similarity": 0.261
       }
     ],
     "gcp-cloud-armor": [
@@ -12245,9 +12231,9 @@
         "similarity": 0.2548
       },
       {
-        "a": "gcp-game-servers",
-        "b": "aws-msk-connect",
-        "similarity": 0.2193
+        "a": "aws-msk-connect",
+        "b": "aws-elemental-delta",
+        "similarity": 0.2416
       }
     ],
     "aws-opensearch-admin-node": [
@@ -12508,11 +12494,6 @@
     "aws-redshift-streaming": [
       {
         "a": "aws-redshift-streaming",
-        "b": "aws-elemental-delta",
-        "similarity": 0.277
-      },
-      {
-        "a": "aws-redshift-streaming",
         "b": "azure-reserved-ip-classic",
         "similarity": 0.2602
       },
@@ -12520,6 +12501,11 @@
         "a": "aws-redshift-streaming",
         "b": "azure-public-ip-classic",
         "similarity": 0.2572
+      },
+      {
+        "a": "aws-redshift-streaming",
+        "b": "aws-ecs-app-container",
+        "similarity": 0.2564
       }
     ],
     "aws-lake-formation-data-lake": [
@@ -17528,13 +17514,13 @@
       },
       {
         "a": "azure-public-ip-classic",
-        "b": "aws-elemental-delta",
-        "similarity": 0.3034
+        "b": "azure-firewall-policy",
+        "similarity": 0.2913
       },
       {
         "a": "azure-public-ip-classic",
-        "b": "azure-firewall-policy",
-        "similarity": 0.2913
+        "b": "aws-general-data-table",
+        "similarity": 0.2816
       }
     ],
     "azure-reserved-ip-classic": [
@@ -20072,11 +20058,6 @@
     ],
     "aws-greengrass-nucleus": [
       {
-        "a": "aws-greengrass-nucleus",
-        "b": "aws-elemental-delta",
-        "similarity": 0.3544
-      },
-      {
         "a": "azure-dns-multistack",
         "b": "aws-greengrass-nucleus",
         "similarity": 0.2769
@@ -20085,6 +20066,11 @@
         "a": "aws-greengrass-nucleus",
         "b": "aws-thinkbox-deadline",
         "similarity": 0.2616
+      },
+      {
+        "a": "azure-spot-vmss",
+        "b": "aws-greengrass-nucleus",
+        "similarity": 0.243
       }
     ],
     "aws-greengrass-private-component": [
@@ -25852,27 +25838,22 @@
     ],
     "aws-elemental-delta": [
       {
-        "a": "aws-greengrass-nucleus",
+        "a": "gcp-analytics-hub",
         "b": "aws-elemental-delta",
-        "similarity": 0.3544
+        "similarity": 0.2813
       },
       {
-        "a": "aws-elemental-delta",
-        "b": "azure-signalr",
-        "similarity": 0.3228
+        "a": "azure-dns-multistack",
+        "b": "aws-elemental-delta",
+        "similarity": 0.2783
       },
       {
-        "a": "azure-public-ip-classic",
+        "a": "aws-general-management-console",
         "b": "aws-elemental-delta",
-        "similarity": 0.3034
+        "similarity": 0.2778
       }
     ],
     "aws-thinkbox-deadline": [
-      {
-        "a": "aws-elemental-delta",
-        "b": "aws-thinkbox-deadline",
-        "similarity": 0.3004
-      },
       {
         "a": "azure-operator-nexus",
         "b": "aws-thinkbox-deadline",
@@ -25882,6 +25863,11 @@
         "a": "microsoft-engage-center-connect",
         "b": "aws-thinkbox-deadline",
         "similarity": 0.2724
+      },
+      {
+        "a": "azure-firewall-manager",
+        "b": "aws-thinkbox-deadline",
+        "similarity": 0.2717
       }
     ],
     "aws-thinkbox-frost": [
@@ -30727,11 +30713,6 @@
     ],
     "aws-beanstalk-deployment": [
       {
-        "a": "aws-elemental-delta",
-        "b": "aws-beanstalk-deployment",
-        "similarity": 0.2723
-      },
-      {
         "a": "aws-outposts-rack",
         "b": "aws-beanstalk-deployment",
         "similarity": 0.2674
@@ -30740,6 +30721,11 @@
         "a": "aws-security-incident-response",
         "b": "aws-beanstalk-deployment",
         "similarity": 0.2596
+      },
+      {
+        "a": "aws-beanstalk-deployment",
+        "b": "azure-templates",
+        "similarity": 0.2593
       }
     ],
     "aws-lambda-function": [
@@ -34008,11 +33994,6 @@
     ],
     "azure-signalr": [
       {
-        "a": "aws-elemental-delta",
-        "b": "azure-signalr",
-        "similarity": 0.3228
-      },
-      {
         "a": "azure-identity-security",
         "b": "azure-signalr",
         "similarity": 0.315
@@ -34021,6 +34002,11 @@
         "a": "azure-managed-file-shares",
         "b": "azure-signalr",
         "similarity": 0.2886
+      },
+      {
+        "a": "azure-data-virtualization",
+        "b": "azure-signalr",
+        "similarity": 0.2878
       }
     ],
     "azure-notification-namespaces": [
