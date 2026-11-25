@@ -841,6 +841,84 @@
       "notes": ""
     },
     {
+      "id": "azure-activity-log",
+      "provider": "azure",
+      "name": "Activity Log",
+      "rationale": "A log book records chronological activity.",
+      "path": "stencils/azure-activity-log.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00007-icon-service-Activity-Log.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00007-icon-service-Activity-Log.svg"
+      ],
+      "revision": "10a067b87a1793362d63c9d0ce188042b7c9d157a5f65bb0a31946dcf6a967dd",
+      "geometrySignature": "c44f6b44eaef418d693a99c05c16b4b3ee7db123ebbda820e4c9a162be911e16",
+      "comparisonRevision": "57e252af3c090d1b1d5c13758c73a959c032e369d76d2aba4b03264154fb34b1",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-diagnostic-settings",
+      "provider": "azure",
+      "name": "Diagnostic Settings",
+      "rationale": "A log book records a diagnostic health signal.",
+      "path": "stencils/azure-diagnostic-settings.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00008-icon-service-Diagnostics-Settings.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00008-icon-service-Diagnostics-Settings.svg"
+      ],
+      "revision": "e9285b0852f7a1b49a87d31aa05e6adb7b493a25da6e9d9483235628000c2f40",
+      "geometrySignature": "63f3459003905ad836354c3975dc3b9025b29f208e4d8278fa3ab4a927fdcb99",
+      "comparisonRevision": "a60acf212e69e0b8cefba4a5eb6081ce5e8f43907527aa366d285239b4bfa90a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-metrics",
+      "provider": "azure",
+      "name": "Metrics",
+      "rationale": "A trend line traces measurements across a bar chart.",
+      "path": "stencils/azure-metrics.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00020-icon-service-Metrics.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00020-icon-service-Metrics.svg"
+      ],
+      "revision": "bab2c90396d394f9296038a824d0c05a39af222d0c10bae8a7bb35d878eab35a",
+      "geometrySignature": "a6e92793885b3233e2c0814ab9b969b1c0353ba95ca88859612e4e7bdd42f43b",
+      "comparisonRevision": "dba2b85113c3ee62c7292bfc2c29bee54a39ce15cf4178a70cc96d40d40421a3",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-sap-monitor",
+      "provider": "azure",
+      "name": "Azure Monitor for SAP Solutions",
+      "rationale": "A gauge monitors SAP workloads in the cloud.",
+      "path": "stencils/azure-sap-monitor.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00438-icon-service-Azure-Monitors-for-SAP-Solutions.svg"
+      ],
+      "revision": "eec10e4cccd526fd704bda944c993ed4899718cd6aee2f7d828848f785e59404",
+      "geometrySignature": "7b8027ea6881a912060b310bb022c7d1b4c8dd343d5187e9500c150e37212b1f",
+      "comparisonRevision": "a321314dda1aa607818f77a7e54ac93fb67e1f15ef89b3f15d01ea945d8b8325",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-auto-scale",
+      "provider": "azure",
+      "name": "Auto Scale",
+      "rationale": "A workload expands outward as demand grows.",
+      "path": "stencils/azure-auto-scale.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/10832-icon-service-Auto-Scale.svg"
+      ],
+      "revision": "e5ccf8f1883bc66c1686991c7c141f68dcaeacd3d6798fcb582dd19ca2a12725",
+      "geometrySignature": "2c3b00b43a8bfe42ad11d4d3c3b95cabdaf7a014aedc5ee7f4a8c2f78cd1e92b",
+      "comparisonRevision": "2e9b556f85324749078e471a992d4522bcbb8f532876abf94f6b9ac76ffe7bd2",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-recovery-vaults",
       "provider": "azure",
       "name": "Recovery Services Vaults",
@@ -2889,7 +2967,7 @@
       ],
       "revision": "07eba8a18ee0a6e5b2c7f135defc014e7c5c75529dc3d40e876b25dc2f66e729",
       "geometrySignature": "8e9163d8f6e5717565329a4711f0e43cc907e7ce3b72ccc7ece1eeeb409f1788",
-      "comparisonRevision": "7d6311dd369041eb2c5ed328b45df550aed377fda249ca7a4aa272e45fa9786b",
+      "comparisonRevision": "3f4cc9723ff924fa3bc6ab1ec7beb2f1619fada2f2094c8ef9c78bcaa082d03f",
       "review": "pending",
       "notes": ""
     },
@@ -4718,7 +4796,7 @@
       ],
       "revision": "6f5d1d5d196b867ee0079c1f1fbe093abcdfcb1b0405cabaa846391ede0982fc",
       "geometrySignature": "e16378a7db080261a8ef99fe2e82324d9b035af500a435586079d3b27e3b10df",
-      "comparisonRevision": "e69c22c8e00b93c005285a469ab509800545c97fada01f31491e0a93f8b33533",
+      "comparisonRevision": "4f9c79614c3889aca02b95ae924467e4e219cf6b7b21efc6ea2e0aa3764c68e3",
       "review": "pending",
       "notes": ""
     },
@@ -5244,7 +5322,7 @@
       ],
       "revision": "5b5414936f62085c0c8f4ad305b2622215afa3800f0e99fe9a1bad15b0c457c8",
       "geometrySignature": "248b5d2b7a3636b6ae7b32843090361938098370db746a5237a487e64691e64b",
-      "comparisonRevision": "9cdd6f5cd7aa9374746b8b2546c6d6b9b06cfbc5bff70430088bd6f47a2d9043",
+      "comparisonRevision": "2865599e362d08a879660eff7927b351fd902843510d4e16074eb90407939e7e",
       "review": "pending",
       "notes": ""
     },
@@ -5949,7 +6027,7 @@
       ],
       "revision": "a55616f09ccf08d8f91ecffbef3dfc23a97aec94d5ff6900a37e5c5f9b1cac94",
       "geometrySignature": "874ad5b74770ada1bae9ca6d3a74b6cca4762ca039d726de50f64efc304f254f",
-      "comparisonRevision": "91e6649966be8c8f9234ba16e94dedbc7eec0a514dfe9747f1ed4e9c48bf1833",
+      "comparisonRevision": "5be18997e77a61a2bb24b347864c5286bd5d1a896f879f0d6eb350d434de8d77",
       "review": "pending",
       "notes": ""
     },
@@ -8094,7 +8172,7 @@
       ],
       "revision": "8d76272ef4ae5a1d74d4fdfd7dc2cf86c483d3fe2c680df3f7d2961299a42aa2",
       "geometrySignature": "0e7f1fe3aa58ee9512c1d1676f5ce816253058d488374784be7e0a45f9b59556",
-      "comparisonRevision": "d9135aae30a41d461c2e62c7e7c6bde994d0f5000e4125a6a4441e5bed7add03",
+      "comparisonRevision": "d6474c3580ef1aea3f9f20cc0fb6c7b20c9513e83c736536bc635de45437e517",
       "review": "pending",
       "notes": ""
     },
@@ -9003,7 +9081,7 @@
       ],
       "revision": "22990bc504d7eafdad89afdbaa38638ff63b9193ad68a2a689efc08204c14718",
       "geometrySignature": "eb7e36c2f04e29d9fe4d1b82634735f4e2bee02ec43b21f8a48e57053b0d065c",
-      "comparisonRevision": "964f9140dba54ba42324f43726476b19a53f3edf37b366d51767690dcb680ec2",
+      "comparisonRevision": "a2325907ef848dca0a7cb61c66ba68db5434314212d7f176006ca0c8ea42a357",
       "review": "pending",
       "notes": ""
     },
@@ -11663,7 +11741,7 @@
       ],
       "revision": "739ca3635b91cff762a94fde7374df16b9b77c53999d06640da22c2a4240ffda",
       "geometrySignature": "09b9b675eaa167f4cc100f8574ec1a4d7b81e6b2c27b99b8b724bfd5fb7f6288",
-      "comparisonRevision": "9691bd248246f8c06becfffb23b7ecd310232c099b030f003cb9800defe72418",
+      "comparisonRevision": "87f0a5c2bdb0e15ad1f99897b38908943c16f6f2dedc06fd7c5ed7addfa1794a",
       "review": "pending",
       "notes": ""
     },
@@ -12024,7 +12102,7 @@
       ],
       "revision": "62759cf2e6e09f91f47bdacee479ad853789632c1df71f19035908b0424fa284",
       "geometrySignature": "c5db384696efd0ab416082937e9fc6d58ff149bae1e800b501d4bc74fe7d9644",
-      "comparisonRevision": "f32186b08738886899e8afa5aeb8083258a6a594998dd9128b042a33d1d60f0b",
+      "comparisonRevision": "51b90e01c47b6eee0a9f3c555bf9b53d9afc58c266c5eb07e5b2dd47fbf854bc",
       "review": "pending",
       "notes": ""
     },
@@ -13286,7 +13364,7 @@
       ],
       "revision": "7ada7d1e3e8b070ccd101958a3d90703d50139cf951e19592f19d9638ecc37e5",
       "geometrySignature": "c720e68a77d53cf3e0d93488ebd324c1605a4185296ccc6f72a11c62bedc0a44",
-      "comparisonRevision": "2f1b91a88f0d22842c110eb724bf2dc57c548455642b1db3955294fc716ba509",
+      "comparisonRevision": "e5c115e58b1b68ef51ff201e7cbd005c05485b64be65b18fe29b119a594a05a5",
       "review": "pending",
       "notes": ""
     },
@@ -13502,7 +13580,7 @@
       ],
       "revision": "064a363f49c1e3b5c7a5a5aad6d6cc5e9f491026c45d5cc58b7ea39f053a8e51",
       "geometrySignature": "18d89b6bb6b47fc0c1a1077733b2710c4d7d58c1f0be6a4be7f6ca985031925d",
-      "comparisonRevision": "c460f191b97fda79b5d182fec0b4eda224523407542aeaa5630792f0a85287cd",
+      "comparisonRevision": "141261feaf6b5595260c14e3f53980216849481350502910630263bef2894b4d",
       "review": "pending",
       "notes": ""
     },
@@ -14672,7 +14750,7 @@
       ],
       "revision": "0aa81391ece6b36de495390977d3292404433a6c33956fcd67fec9ca70558cb2",
       "geometrySignature": "0021479553a31824c3307e41cb7d9c9ef7c4d1ac7fca986453c2fe65629593dd",
-      "comparisonRevision": "0b0ca08762f964c0cb26bfccf936d19feb57adcecc1de2263aea61b10274f6be",
+      "comparisonRevision": "fbc50370094ff8ad0a2551609ff308d01a1205925760ca8c25a12fa7a37c3b09",
       "review": "pending",
       "notes": ""
     },
@@ -15421,7 +15499,7 @@
       ],
       "revision": "3f58ca77b55f72d2a3b1ffcff8d6d997dff8439e5ffcc17375b92892524df7f1",
       "geometrySignature": "11691927c95924f464234dbd5471bbe8a0dc2ae5695535fc2d4df8f38460c9e0",
-      "comparisonRevision": "457de57aaccf9b8d064e8b4e3b47aaf1f3ca4dbcc49def67a4fde2ee186b3129",
+      "comparisonRevision": "063d35ad092439b6a2313d73b39ec10985c2c7365736357bf1aeac768d3a5e9d",
       "review": "pending",
       "notes": ""
     },
@@ -17510,7 +17588,7 @@
       ],
       "revision": "ca1cd23c59054e9ce200575ff2bd42bc539f2dceb3c651b0163fbed03a90cb0e",
       "geometrySignature": "366fad38d3952c191619d4a7ef5963aee36c317aeca4c780eb9ed74078c7531e",
-      "comparisonRevision": "066c81ee180c36053c447d5e6f5f485acb72ef2c8325bb1612c8d741910d9ea3",
+      "comparisonRevision": "3322e67c018c7f3c66042ba04b97121cf903293acac242a726f0f54850254a77",
       "review": "pending",
       "notes": ""
     },
@@ -18930,7 +19008,7 @@
       ],
       "revision": "8d0a23d66a8f107bed9b3c0b1b61e8bc02f3cc78dda2714e7c89b073b158c31e",
       "geometrySignature": "adf19bd52d20f16c376f12821114e4e403bb46a4f4e453d73ceaa74ada36d9b2",
-      "comparisonRevision": "6359ca39f8448b7ca50f7e8253e89ac9ed08c1210714023f9591f3a09644c4b2",
+      "comparisonRevision": "c1828933fe220410830a0fa495d08a8f8f1ba2fe206d122c8569200738738b2f",
       "review": "pending",
       "notes": ""
     },
@@ -18945,7 +19023,7 @@
       ],
       "revision": "d32e08a0c06b65bfe00037a52e0b1eb45e2549f5fbb4f573c46e98a774714343",
       "geometrySignature": "22f0fb4e6a4e394bf267af3940a804159d2d16161c41a5d0955c452e4839b7ae",
-      "comparisonRevision": "9e4be39117d722181117b4eefc514510e49ddbc85a0e8fd36af61394b7eb1cf1",
+      "comparisonRevision": "233a215f154b8611d4bec89ba205d7cae4ba9724c50ed999e2e303a8347f7a10",
       "review": "pending",
       "notes": ""
     },
@@ -19037,7 +19115,7 @@
       ],
       "revision": "6bb9eab0b751571d693b0063466bf865b1887b1babe44e24b9875c80ea249523",
       "geometrySignature": "9a81f93dfef0afecf97d28b06c43ccd9ae09232d85d044c154381a339b321704",
-      "comparisonRevision": "ee1adfd7f4e46b349e2b2c26ac75a21ba3d097d118126a5e91e948700623eefd",
+      "comparisonRevision": "ca1e7c04b262cd9b8a40f454d1f88dcb92b8ad92865159464feeaa5d7b77307a",
       "review": "pending",
       "notes": ""
     },
@@ -19067,7 +19145,7 @@
       ],
       "revision": "2249a0718144f95fbd6419c8388406cb7fdc82ae5d2254f26567a7b1485da9af",
       "geometrySignature": "a2d77292b1086d1c110a3543fc8de940b57e6cccc6f28b962eed8be57062e5ec",
-      "comparisonRevision": "73a4ecb820930525f9e5aa954c990359323d94deb2abe1838af634fc5c79a4c4",
+      "comparisonRevision": "3e744013931b50ec9c1c69a7cd1f6d2acd9b3f76419e4eca13d5f52926ae0a37",
       "review": "pending",
       "notes": ""
     },
@@ -19097,7 +19175,7 @@
       ],
       "revision": "13e49c33359e4e62d8f90bc887b06e663c692e19564171c196b998c4ce05ef06",
       "geometrySignature": "da41b95fffe713fbe5dc78df8b63249cab188f66b1747c5eed6f4b160c16cb83",
-      "comparisonRevision": "6e71b9d2d4e3d75956af03e6910f1b43748210fad2cab041ff345f35ef2fcfef",
+      "comparisonRevision": "efd6a42b9b42151b35caa8e79c1e44a21618d9fd0e7e4b128a09d33255714d26",
       "review": "pending",
       "notes": ""
     },
@@ -19279,7 +19357,7 @@
       ],
       "revision": "29896ec578e4312ee44f0f05db7d617dbccbc1fe79d228de257adcbe13a596e9",
       "geometrySignature": "daaa818e5bcdaa689341c1286dc84f3cf069c280b7d7b72ce40ece1e722e7fc7",
-      "comparisonRevision": "e2e27ccb499a838bd0356620cbd9f5158c23183c957b2e59a16ef13291936080",
+      "comparisonRevision": "532a0509e83887eef3e1def042b63a6620b989fa64aa930aec7bdf879884c72a",
       "review": "pending",
       "notes": ""
     },
@@ -20385,7 +20463,7 @@
       ],
       "revision": "65cc9a594dea3be8c80e73b701b529a9a189e877607555aec4eab872f717435f",
       "geometrySignature": "be4a1d987415683f2ace302a508477bd13fc0554e968795b89e37e9f9b60e9ad",
-      "comparisonRevision": "74eecc42580fb36c615b0f119f9205b2c08923bb181f95e4ec7cf4f3047e668f",
+      "comparisonRevision": "5b02d5333a435d6d558138b7f03fee744c01183eb30a38c68d8e42df02d549fa",
       "review": "pending",
       "notes": ""
     },
@@ -20609,7 +20687,7 @@
       ],
       "revision": "d7b4e9562448b3b5daef6275109f25a227e9729011be24804042ca05802fb4a2",
       "geometrySignature": "820567f8b65db6ba601c2f393ac5557db155b0cf92165a46a515b85e694f3155",
-      "comparisonRevision": "9451132c5ff500c926bd2580cc1c2f95ffbe376fe1d66298a5bdcf804d1b9284",
+      "comparisonRevision": "2fd2869440ede7709ddc0169a493e9aa625e2e19f02c759eef582482dc1aee3f",
       "review": "pending",
       "notes": ""
     },
@@ -20805,7 +20883,7 @@
       ],
       "revision": "48db350b5aac85f2701c1a3db09c9b28dd4c2323a6fc7d3e3b808fbd4a2f3151",
       "geometrySignature": "475fbda845e6929894c8cd46465ba1f2977f20d805bda9a815a7d2ed10fb618e",
-      "comparisonRevision": "592e6a760e6bbe8c288357fc2f93149f5ec0990f040a1f5d0422ba0c06323584",
+      "comparisonRevision": "fdb5ff7bd87763ea162d4f91236383a6114e90653ca06eaeb5d8229546e83ab1",
       "review": "pending",
       "notes": ""
     },
@@ -22319,7 +22397,7 @@
       ],
       "revision": "0fbe266dc41e43b31878a9ec10188d79cd2caf32090e3136b02e2bf08d35698f",
       "geometrySignature": "f6ee48c662e36f4185925a5c344599e3a9c72c8fdfaf7f303e7d4ef2e1876e60",
-      "comparisonRevision": "f3cf62698a42b3dc233133be0274fa4f3c3a9414fbb3d8a58797cca82ffacb7a",
+      "comparisonRevision": "7768c75ffaf506bd372b0b0c80d5ffc973f0c4eb46d5796715643886069cfda6",
       "review": "pending",
       "notes": ""
     },
@@ -22770,7 +22848,7 @@
       ],
       "revision": "c98d2115171df8f6bce97f4570180a1e01d96af36dcc175de5079b1037d3fff3",
       "geometrySignature": "cc87a209f37cab7864c2399074651139856687b0edfbef3065cb5aaeeab26dfe",
-      "comparisonRevision": "c14481626cf3f0ccdfcc33a40618ae4e4a09c2e4e84b5899fdc8edb40bcee823",
+      "comparisonRevision": "a2330533eb902fd8d67877536b37cd1447e117b21a3d2dd45d1585985248df72",
       "review": "pending",
       "notes": ""
     },
@@ -23512,7 +23590,7 @@
       ],
       "revision": "7c7a5b283904d6b0e3d94809ea36f132cd4525adb78ded847aca92523ecf7abc",
       "geometrySignature": "a48d6cc8fbe270677bb56860cce9a0fa6067b5c4c546656466065ef16811271f",
-      "comparisonRevision": "afc3c122bf54d775952279d883d7c0dda75cc635993de011b23b84281b353297",
+      "comparisonRevision": "fb21912fe0a79c9ccfa0b64a2d94a0ad833445a5723efbf9091b2313e0cf3c4f",
       "review": "pending",
       "notes": ""
     },
@@ -23576,7 +23654,7 @@
       ],
       "revision": "d80b9523b80534f44adcf477924b3d804d7a3be1b6c0da4a8211842afe74d2b0",
       "geometrySignature": "beeb588d17f742689c5154e43086c2752c07c052a38241fe51b20f433f3e2df1",
-      "comparisonRevision": "b5c915a050f7d3c23fbe4003b6bd36d35b89f66ca30f174a06dd314ad9455b21",
+      "comparisonRevision": "4c2e68e834c40331b4c8ddde445b525473d1d01c1f6ec442afe31b05abe743f8",
       "review": "pending",
       "notes": ""
     },
@@ -23994,7 +24072,7 @@
       ],
       "revision": "3efb1af1b81a0f336b6d054f9f28d754ff6637d7448a79ca9ca0a4040f1e32e1",
       "geometrySignature": "3c10992311fd911162cf4dc9d9e086f3d420ec70df41e7221f6ea8a583ebee66",
-      "comparisonRevision": "7900de4a15624abb0e0c0358b017a530d68bf95cb3e409291f41a2cddd7e3c5b",
+      "comparisonRevision": "7055250221024593244eef3a181b62d454ecbe8018eb02e76c4136d98ed3fced",
       "review": "pending",
       "notes": ""
     },

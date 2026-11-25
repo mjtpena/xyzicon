@@ -2,6 +2,39 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-activity-log", "azure", "Activity Log", ["00007-icon-service-Activity-Log"],
+    "A log book records chronological activity.",
+    [
+      line([25, 16], [94, 16], [94, 97], [25, 97], [19, 92], [19, 22], [25, 16]), line([25, 16], [25, 97]),
+      line([37, 32], [83, 32]), line([37, 44], [83, 44]), line([37, 56], [75, 56]), line([37, 68], [83, 68]), line([37, 80], [72, 80]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-diagnostic-settings", "azure", "Diagnostic Settings", ["00008-icon-service-Diagnostics-Settings"],
+    "A log book records a diagnostic health signal.",
+    [
+      line([25, 16], [94, 16], [94, 97], [25, 97], [19, 92], [19, 22], [25, 16]), line([25, 16], [25, 97]),
+      line([34, 58], [43, 58], [49, 42], [57, 72], [64, 51], [69, 58], [83, 58]),
+      line([35, 83], [77, 83]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-metrics", "azure", "Metrics", ["00020-icon-service-Metrics"],
+    "A trend line traces measurements across a bar chart.",
+    [
+      line([16, 92], [107, 92]), rect(22, 72, 13, 20), rect(42, 56, 13, 36), rect(62, 66, 13, 26), rect(82, 39, 13, 53),
+      line([28, 62], [48, 47], [68, 57], [88, 30]), oval(25, 59, 6, 6, true), oval(45, 44, 6, 6, true), oval(65, 54, 6, 6, true), oval(85, 27, 6, 6, true), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-sap-monitor", "azure", "Azure Monitor for SAP Solutions", ["00438-icon-service-Azure-Monitors-for-SAP-Solutions"],
+    "A gauge monitors SAP workloads in the cloud.",
+    [
+      line([24, 76], [17, 70], [17, 57], [22, 48], [32, 44], [36, 33], [46, 26], [59, 26], [69, 32], [73, 42], [84, 43], [94, 49], [99, 59], [97, 70]),
+      line([41, 90], [41, 77], [45, 67], [53, 61], [63, 59], [73, 62], [81, 69], [84, 79], [84, 90], [41, 90]), line([62, 87], [75, 70]), oval(58, 83, 8, 8, true),
+      line([14, 110], [110, 110]),
+    ]),
+  entry("azure-auto-scale", "azure", "Auto Scale", ["10832-icon-service-Auto-Scale"],
+    "A workload expands outward as demand grows.",
+    [
+      rect(21, 33, 54, 54), line([21, 46], [75, 46]), line([29, 57], [65, 57]), line([29, 67], [58, 67]), line([29, 77], [65, 77]),
+      line([60, 53], [102, 11]), line([84, 11], [102, 11], [102, 29]),
+      line([14, 25], [14, 94], [82, 94]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-recovery-vaults", "azure", "Recovery Services Vaults", ["00017-icon-service-Recovery-Services-Vaults"],
     "A vault preserves backups for cloud recovery.",
     [
