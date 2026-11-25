@@ -1,6 +1,86 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-identity-security", "azure", "Security", ["00321-icon-service-Security"],
+    "A lock secures an identity shield.",
+    [
+      line([46, 17], [77, 29], [73, 62], [63, 80], [46, 92], [29, 80], [19, 62], [15, 29], [46, 17]),
+      oval(39, 32, 14, 14), line([33, 63], [35, 54], [40, 50], [52, 50], [57, 54], [59, 63]),
+      rect(72, 60, 31, 25), line([78, 60], [78, 53], [81, 48], [87, 46], [93, 48], [97, 53], [97, 60]), oval(84, 67, 6, 6, true), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-administrative-units", "azure", "Administrative Units", ["00919-icon-service-Administrative-Units"],
+    "An administrative boundary contains a group of users.",
+    [
+      line([17, 25], [17, 17], [25, 17]), line([96, 17], [104, 17], [104, 25]), line([17, 88], [17, 96], [25, 96]), line([96, 96], [104, 96], [104, 88]),
+      oval(46, 26, 25, 25), oval(23, 38, 17, 17), oval(77, 38, 17, 17),
+      line([35, 83], [37, 71], [43, 62], [52, 58], [65, 58], [74, 62], [80, 71], [82, 83], [35, 83]), line([21, 76], [23, 65], [29, 59], [36, 58]), line([96, 76], [94, 65], [88, 59], [81, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-multi-tenancy", "azure", "Multi-Tenancy", ["00965-icon-service-Multi-Tenancy"],
+    "Separate tenants share a service while retaining boundaries.",
+    [
+      oval(42, 16, 38, 12), line([42, 22], [42, 38], [48, 42], [74, 42], [80, 38], [80, 22]),
+      line([51, 42], [30, 55]), line([71, 42], [92, 55]), rect(13, 57, 34, 30), rect(75, 57, 34, 30),
+      oval(25, 62, 9, 9), line([19, 82], [21, 76], [26, 73], [33, 73], [38, 76], [40, 82]),
+      oval(87, 62, 9, 9), line([81, 82], [83, 76], [88, 73], [95, 73], [100, 76], [102, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-verifiable-credentials", "azure", "Verifiable Credentials", ["01084-icon-service-Verifiable-Credentials"],
+    "A signed credential can be independently verified.",
+    [
+      line([21, 18], [82, 18], [96, 32], [96, 91], [21, 91], [21, 18]), line([82, 18], [82, 32], [96, 32]),
+      oval(31, 32, 19, 19), line([28, 67], [30, 59], [35, 55], [45, 55], [50, 59], [52, 67]),
+      line([61, 42], [86, 42]), line([61, 52], [82, 52]), oval(62, 64, 21, 21), line([66, 74], [71, 79], [79, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-privileged-identity-management", "azure", "Entra Privileged Identity Management", ["02251-icon-service-Entra-Privleged-Identity-Management"],
+    "Privileged access is time-limited and protected by a key.",
+    [
+      oval(15, 23, 47, 47), line([38, 32], [38, 47], [49, 53]), oval(35, 44, 6, 6, true),
+      oval(69, 37, 20, 20), line([85, 53], [103, 71], [98, 76]), line([93, 61], [99, 55]), line([98, 66], [104, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-api-proxy", "azure", "API Proxy", ["02386-icon-service-API-Proxy"],
+    "A proxy sits between API clients and a service.",
+    [
+      rect(10, 37, 27, 35), rect(86, 37, 27, 35), oval(49, 35, 24, 39),
+      line([37, 49], [49, 49]), line([73, 61], [86, 61]), line([44, 44], [49, 49], [44, 54]), line([81, 56], [86, 61], [81, 66]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-tenant-properties", "azure", "Tenant Properties", ["02679-icon-service-Tenant-Properties"],
+    "A tenant configuration lists its properties.",
+    [
+      rect(16, 20, 58, 74), oval(25, 29, 18, 18), line([23, 60], [25, 53], [30, 50], [38, 50], [43, 53], [45, 60]),
+      line([51, 35], [66, 35]), line([51, 45], [66, 45]), line([25, 72], [64, 72]), line([79, 37], [106, 37]), line([79, 56], [106, 56]), line([79, 75], [106, 75]),
+      oval(85, 33, 8, 8), oval(95, 52, 8, 8), oval(83, 71, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-custom-identity-roles", "azure", "Entra Identity Custom Roles", ["02680-icon-service-Entra-Identity-Custom-Roles"],
+    "A role groups a customizable set of permissions.",
+    [
+      oval(47, 16, 25, 25), line([39, 60], [41, 52], [48, 47], [59, 45], [70, 47], [77, 52], [79, 60]),
+      line([59, 60], [59, 69], [28, 69], [28, 77]), line([59, 69], [94, 69], [94, 77]), rect(13, 77, 30, 18), rect(78, 77, 30, 18), line([19, 86], [37, 86]), line([84, 86], [102, 86]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-identity-licenses", "azure", "Entra Identity Licenses", ["02681-icon-service-Entra-Identity-Licenses"],
+    "A license badge is granted to an identity.",
+    [
+      oval(24, 19, 29, 29), line([14, 84], [16, 68], [24, 57], [38, 53], [52, 57], [60, 68], [62, 84]),
+      oval(72, 43, 26, 26), line([77, 67], [77, 90], [85, 84], [94, 90], [94, 67]), line([79, 56], [84, 61], [93, 51]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-entra-connect", "azure", "Entra Connect", ["02854-icon-service-Entra-Connect"],
+    "Directory identities synchronize between environments.",
+    [
+      rect(13, 26, 35, 51), line([13, 39], [48, 39]), oval(19, 46, 9, 9), line([31, 50], [42, 50]), line([19, 64], [40, 64]),
+      rect(76, 26, 35, 51), line([76, 39], [111, 39]), oval(82, 46, 9, 9), line([94, 50], [105, 50]), line([82, 64], [103, 64]),
+      line([48, 43], [76, 43]), line([70, 37], [76, 43], [70, 49]), line([76, 64], [48, 64]), line([54, 58], [48, 64], [54, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-entra-verified-id", "azure", "Entra Verified ID", ["03143-icon-service-Entra-Verified-ID"],
+    "A verified identity is presented with a checked credential.",
+    [
+      oval(15, 22, 30, 30), line([9, 80], [11, 69], [18, 61], [27, 57], [36, 57], [44, 61], [51, 69], [53, 80]),
+      line([64, 24], [97, 24], [106, 33], [106, 87], [64, 87], [64, 24]), line([97, 24], [97, 33], [106, 33]), line([72, 43], [98, 43]), line([72, 53], [95, 53]), line([73, 68], [80, 75], [96, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-verification-service", "azure", "Verification as a Service", ["03225-icon-service-Verification-As-A-Service"],
+    "An identity document is sent for verification.",
+    [
+      line([12, 23], [46, 23], [54, 31], [54, 86], [12, 86], [12, 23]), line([46, 23], [46, 31], [54, 31]),
+      oval(21, 37, 13, 13), line([19, 66], [21, 58], [26, 55], [33, 55], [38, 58], [40, 66]), line([62, 54], [78, 54]), line([72, 48], [78, 54], [72, 60]),
+      line([91, 28], [106, 34], [104, 58], [91, 72], [78, 58], [76, 34], [91, 28]), line([83, 51], [89, 57], [99, 45]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-machine-learning-classic", "azure", "Machine Learning", ["10166-icon-service-Machine-Learning"],
     "A model of connected nodes is developed in a laboratory flask.",
     [
