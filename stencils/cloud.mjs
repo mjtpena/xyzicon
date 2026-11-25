@@ -2,6 +2,41 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-local", "azure", "Azure Local", ["033745116-icon-service-Azure-Local"],
+    "A local stack of servers runs Azure workloads.",
+    [
+      oval(16, 86, 91, 20), rect(25, 16, 73, 21), rect(25, 39, 73, 21), rect(25, 62, 73, 21),
+      line([33, 26], [72, 26]), line([33, 49], [72, 49]), line([33, 72], [72, 72]), oval(84, 23, 6, 6, true), oval(84, 46, 6, 6, true), oval(84, 69, 6, 6, true),
+    ]),
+  entry("azure-edge-storage-accelerator", "azure", "Edge Storage Accelerator", ["03521-icon-service-Edge-Storage-Accelerator"],
+    "A cloud-connected edge cache accelerates access to data.",
+    [
+      line([40, 65], [23, 65], [16, 59], [16, 49], [21, 41], [30, 38], [34, 28], [43, 23], [54, 23], [63, 28], [66, 37], [76, 38], [83, 44]),
+      oval(54, 49, 48, 14), line([54, 56], [54, 88], [61, 94], [95, 94], [102, 88], [102, 56]), line([54, 75], [61, 80], [95, 80], [102, 75]),
+      line([75, 58], [67, 74], [77, 74], [72, 88], [90, 67], [80, 67], [85, 58]), line([13, 110], [110, 110]),
+    ]),
+  entry("azure-monitor-pipeline", "azure", "Azure Monitor Pipeline", ["03585-icon-service-Azure-Monitor-Pipeline"],
+    "A pipeline routes monitoring data from the cloud.",
+    [
+      line([31, 72], [20, 72], [14, 66], [14, 54], [19, 46], [29, 43], [33, 32], [43, 27], [54, 27], [63, 32], [67, 42], [77, 43]),
+      line([45, 59], [45, 87], [58, 87], [58, 71], [72, 71], [72, 50], [95, 50], [95, 66]),
+      line([58, 96], [85, 96], [85, 81], [101, 81]), line([95, 75], [101, 81], [95, 87]), line([13, 110], [110, 110]),
+    ]),
+  entry("azure-ai-at-edge", "azure", "AI at Edge", ["03687-icon-service-AI-at-Edge"],
+    "An edge device hosts an AI model.",
+    [
+      rect(15, 21, 49, 73), line([15, 34], [64, 34]), oval(22, 26, 4, 4, true), oval(31, 26, 4, 4, true),
+      oval(26, 44, 8, 8), oval(43, 44, 8, 8), oval(35, 64, 8, 8, true), oval(26, 80, 8, 8), oval(43, 80, 8, 8),
+      line([34, 50], [37, 64]), line([45, 52], [41, 64]), line([37, 72], [33, 80]), line([41, 72], [45, 80]),
+      line([75, 57], [98, 57]), line([92, 51], [98, 57], [92, 63]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-workload-orchestration", "azure", "Workload Orchestration", ["029109619-icon-service-Workload-Orchestration"],
+    "A central controller coordinates several workloads.",
+    [
+      oval(45, 39, 28, 28), line([59, 39], [59, 67]), line([45, 53], [73, 53]),
+      rect(16, 16, 19, 19), rect(85, 16, 19, 19), rect(16, 79, 19, 19), rect(85, 79, 19, 19),
+      line([35, 29], [48, 42]), line([85, 29], [70, 42]), line([35, 85], [48, 64]), line([85, 85], [70, 64]), line([14, 111], [110, 111]),
+    ]),
   entry("azure-activity-log", "azure", "Activity Log", ["00007-icon-service-Activity-Log"],
     "A log book records chronological activity.",
     [
