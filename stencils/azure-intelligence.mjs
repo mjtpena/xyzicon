@@ -1,6 +1,46 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-foundry-application", "azure", "Foundry Application", ["036509374-icon-service-Foundry-Application"],
+    "An application incorporates an AI-powered conversation.",
+    [
+      rect(17, 15, 50, 93), line([17, 28], [67, 28]), line([33, 22], [51, 22]),
+      line([25, 39], [56, 39]), line([25, 49], [47, 49]), line([25, 59], [56, 59]),
+      line([17, 93], [67, 93]), oval(38, 97, 8, 8),
+      line([75, 38], [115, 38], [115, 72], [99, 72], [89, 81], [89, 72], [75, 72], [75, 38]),
+      line([83, 49], [107, 49]), line([83, 59], [102, 59]),
+      line([17, 116], [108, 116]),
+    ]),
+  entry("azure-foundry-agent-service", "azure", "Foundry Agent Service", ["038470523-icon-service-Foundry-Agent-Service"],
+    "An agent uses connected tools to perform a task.",
+    [
+      rect(41, 33, 46, 37), oval(50, 44, 6, 6, true), oval(72, 44, 6, 6, true), line([52, 59], [76, 59]),
+      line([64, 33], [64, 22]), oval(60, 14, 8, 8),
+      line([41, 50], [29, 50], [29, 25]), line([87, 50], [99, 50], [99, 25]),
+      rect(13, 10, 32, 15), line([19, 17], [39, 17]),
+      rect(83, 10, 32, 15), line([89, 17], [109, 17]),
+      line([64, 70], [64, 84]), line([44, 84], [84, 84], [84, 100], [44, 100], [44, 84]),
+      line([51, 92], [77, 92]), line([17, 112], [111, 112]),
+    ]),
+  entry("azure-foundry-control-plane", "azure", "Foundry Control Plane", ["038470534-icon-service-Foundry-Control-Plane"],
+    "Central controls govern connected AI resources.",
+    [
+      rect(32, 31, 64, 54), line([43, 45], [85, 45]), line([43, 58], [85, 58]), line([43, 71], [85, 71]),
+      oval(49, 41, 8, 8, true), oval(69, 54, 8, 8), oval(56, 67, 8, 8),
+      line([64, 31], [64, 21]), rect(50, 8, 28, 13),
+      line([32, 58], [20, 58]), rect(7, 48, 13, 20),
+      line([96, 58], [108, 58]), rect(108, 48, 13, 20),
+      line([64, 85], [64, 96]), rect(50, 96, 28, 13),
+    ]),
+  entry("azure-foundry-labs", "azure", "Foundry Labs", ["038470555-icon-service-Foundry-Labs"],
+    "An experimental model is tested in a laboratory flask.",
+    [
+      line([48, 14], [80, 14]), line([54, 14], [54, 43], [29, 91], [29, 99], [35, 106], [93, 106], [99, 99], [99, 91], [74, 43], [74, 14]),
+      line([39, 73], [89, 73]), oval(51, 79, 7, 7), oval(70, 79, 7, 7), oval(60, 92, 7, 7, true),
+      line([57, 86], [62, 92]), line([72, 86], [67, 92]),
+      line([16, 38], [20, 31], [24, 38], [31, 42], [24, 46], [20, 53], [16, 46], [9, 42], [16, 38]),
+      line([101, 28], [105, 21], [109, 28], [116, 32], [109, 36], [105, 43], [101, 36], [94, 32], [101, 28]),
+    ]),
   entry("azure-ai-foundry", "azure", "AI Foundry", ["035746832-icon-service-AI-Foundry"],
     "An AI workspace connects models, tools, and an application.",
     [

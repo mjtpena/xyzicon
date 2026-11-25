@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 788,
-  "aliases": 3304,
+  "count": 792,
+  "aliases": 3308,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -409,6 +409,10 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-foundry-application",
+    "azure-foundry-agent-service",
+    "azure-foundry-control-plane",
+    "azure-foundry-labs",
     "azure-ai-foundry",
     "azure-foundry-project",
     "azure-foundry-local",
@@ -855,8 +859,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 140,
-      "concepts": 103
+      "covered": 144,
+      "concepts": 107
     },
     "fabric": {
       "sources": 1584,
@@ -3266,13 +3270,13 @@
       },
       {
         "a": "fabric-experiment",
-        "b": "fabric-sustainability",
-        "similarity": 0.1926
+        "b": "azure-foundry-labs",
+        "similarity": 0.2188
       },
       {
         "a": "fabric-experiment",
-        "b": "azure-logic-apps",
-        "similarity": 0.1925
+        "b": "fabric-sustainability",
+        "similarity": 0.1926
       }
     ],
     "fabric-book-database": [
@@ -7763,6 +7767,74 @@
         "similarity": 0.2267
       }
     ],
+    "azure-foundry-application": [
+      {
+        "a": "azure-foundry-application",
+        "b": "gcp-category-storage",
+        "similarity": 0.255
+      },
+      {
+        "a": "fabric-book-database",
+        "b": "azure-foundry-application",
+        "similarity": 0.1995
+      },
+      {
+        "a": "fabric-restricted-report",
+        "b": "azure-foundry-application",
+        "similarity": 0.192
+      }
+    ],
+    "azure-foundry-agent-service": [
+      {
+        "a": "azure-foundry-agent-service",
+        "b": "fabric-platform",
+        "similarity": 0.2399
+      },
+      {
+        "a": "m365-text-number-list",
+        "b": "azure-foundry-agent-service",
+        "similarity": 0.2155
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "azure-foundry-agent-service",
+        "similarity": 0.2129
+      }
+    ],
+    "azure-foundry-control-plane": [
+      {
+        "a": "azure-foundry-control-plane",
+        "b": "aws-nitro-enclaves",
+        "similarity": 0.2923
+      },
+      {
+        "a": "gcp-filestore",
+        "b": "azure-foundry-control-plane",
+        "similarity": 0.2071
+      },
+      {
+        "a": "azure-foundry-control-plane",
+        "b": "fabric-overlapping-squares-line",
+        "similarity": 0.2062
+      }
+    ],
+    "azure-foundry-labs": [
+      {
+        "a": "fabric-experiment",
+        "b": "azure-foundry-labs",
+        "similarity": 0.2188
+      },
+      {
+        "a": "fabric-variable-library",
+        "b": "azure-foundry-labs",
+        "similarity": 0.1746
+      },
+      {
+        "a": "aws-clean-rooms",
+        "b": "azure-foundry-labs",
+        "similarity": 0.1689
+      }
+    ],
     "azure-ai-foundry": [
       {
         "a": "azure-ai-foundry",
@@ -8229,14 +8301,14 @@
         "similarity": 0.2612
       },
       {
-        "a": "fabric-platform",
-        "b": "azure-app-domains",
-        "similarity": 0.2305
+        "a": "azure-foundry-agent-service",
+        "b": "fabric-platform",
+        "similarity": 0.2399
       },
       {
         "a": "fabric-platform",
-        "b": "aws-training-certification",
-        "similarity": 0.2285
+        "b": "azure-app-domains",
+        "similarity": 0.2305
       }
     ],
     "fabric-graph-intelligence": [
@@ -11758,9 +11830,9 @@
         "similarity": 0.2715
       },
       {
-        "a": "aws-elastic-beanstalk",
+        "a": "azure-foundry-application",
         "b": "gcp-category-storage",
-        "similarity": 0.2538
+        "similarity": 0.255
       }
     ],
     "gcp-category-web-mobile": [
@@ -12230,6 +12302,11 @@
     ],
     "aws-nitro-enclaves": [
       {
+        "a": "azure-foundry-control-plane",
+        "b": "aws-nitro-enclaves",
+        "similarity": 0.2923
+      },
+      {
         "a": "fabric-datamart",
         "b": "aws-nitro-enclaves",
         "similarity": 0.2526
@@ -12238,11 +12315,6 @@
         "a": "fabric-data-warehouse-product",
         "b": "aws-nitro-enclaves",
         "similarity": 0.2306
-      },
-      {
-        "a": "m365-window-edit",
-        "b": "aws-nitro-enclaves",
-        "similarity": 0.2135
       }
     ],
     "aws-parallel-cluster": [
@@ -12842,6 +12914,11 @@
     ],
     "azure-notification-hubs": [
       {
+        "a": "azure-foundry-control-plane",
+        "b": "azure-notification-hubs",
+        "similarity": 0.2025
+      },
+      {
         "a": "aws-application-recovery-controller",
         "b": "azure-notification-hubs",
         "similarity": 0.1939
@@ -12850,11 +12927,6 @@
         "a": "azure-private-endpoints",
         "b": "azure-notification-hubs",
         "similarity": 0.1902
-      },
-      {
-        "a": "aws-elastic-fabric-adapter",
-        "b": "azure-notification-hubs",
-        "similarity": 0.1892
       }
     ],
     "azure-app-certificates": [
