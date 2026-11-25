@@ -3,6 +3,44 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-amazon-q", "aws", "Amazon Q", sizes("Amazon-Q"),
+    "An assistant answers a question using connected information.",
+    [
+      line([11, 18], [72, 18], [72, 62], [44, 62], [30, 74], [30, 62], [11, 62], [11, 18]),
+      line([31, 31], [35, 26], [44, 26], [48, 31], [48, 37], [40, 43], [40, 46]), oval(37, 51, 6, 6, true),
+      line([78, 35], [83, 27], [88, 35], [96, 40], [88, 45], [83, 53], [78, 45], [70, 40], [78, 35]),
+      line([77, 67], [112, 67], [112, 101], [77, 101], [77, 67]), line([84, 76], [105, 76]), line([84, 85], [100, 85]), line([84, 94], [105, 94]),
+      line([16, 105], [63, 105]),
+    ]),
+  entry("aws-chatbot", "aws", "AWS Chatbot", sizes("AWS-Chatbot"),
+    "Cloud operations alerts and commands flow through a chat channel.",
+    [
+      line([10, 20], [69, 20], [69, 61], [43, 61], [30, 72], [30, 61], [10, 61], [10, 20]),
+      line([20, 32], [26, 38], [20, 44]), line([32, 44], [46, 44]),
+      line([69, 41], [84, 41]), line([78, 35], [84, 41], [78, 47]),
+      rect(87, 19, 30, 61), line([87, 34], [117, 34]), line([87, 49], [117, 49]), line([87, 64], [117, 64]),
+      oval(92, 24, 5, 5, true), oval(92, 39, 5, 5), oval(92, 54, 5, 5),
+      line([22, 97], [105, 97]), line([22, 107], [79, 107]),
+    ]),
+  entry("aws-appfabric", "aws", "AWS AppFabric", sizes("AWS-AppFabric"),
+    "Security activity from multiple applications is collected together.",
+    [
+      rect(10, 14, 33, 22), rect(10, 53, 33, 22), rect(10, 92, 33, 22),
+      line([16, 25], [37, 25]), line([16, 64], [37, 64]), line([16, 103], [37, 103]),
+      line([43, 25], [58, 25], [58, 64], [71, 64]), line([43, 64], [58, 64]), line([43, 103], [58, 103], [58, 64]),
+      line([91, 39], [112, 47], [110, 67], [103, 78], [91, 87], [79, 78], [72, 67], [70, 47], [91, 39]),
+      line([82, 63], [88, 69], [101, 55]),
+    ]),
+  entry("aws-gamelift-servers", "aws", "Amazon GameLift Servers", sizes("Amazon-GameLift-Servers"),
+    "Game clients connect to hosted multiplayer servers.",
+    [
+      line([13, 30], [20, 23], [31, 21], [45, 21], [55, 24], [61, 31], [66, 47], [63, 53], [57, 53], [48, 44], [28, 44], [19, 53], [13, 53], [10, 47], [13, 30]),
+      line([22, 32], [34, 32]), line([28, 26], [28, 38]), oval(45, 28, 5, 5, true), oval(52, 33, 5, 5),
+      line([38, 53], [38, 70], [76, 70]), line([70, 64], [76, 70], [70, 76]),
+      rect(80, 46, 34, 51), line([80, 59], [114, 59]), line([80, 72], [114, 72]), line([80, 85], [114, 85]),
+      oval(86, 50, 5, 5, true), oval(86, 63, 5, 5), oval(86, 76, 5, 5), line([96, 53], [107, 53]),
+      line([17, 107], [111, 107]),
+    ]),
   entry("aws-activate", "aws", "AWS Activate", sizes("AWS-Activate"),
     "Startup support helps a new business launch.",
     [

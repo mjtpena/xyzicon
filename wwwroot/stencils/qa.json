@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 808,
-  "aliases": 3338,
+  "count": 812,
+  "aliases": 3354,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -470,6 +470,10 @@
     "aws-xray",
     "aws-codecatalyst",
     "aws-corretto",
+    "aws-amazon-q",
+    "aws-chatbot",
+    "aws-appfabric",
+    "aws-gamelift-servers",
     "aws-activate",
     "aws-iq",
     "aws-managed-services",
@@ -905,8 +909,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1076,
-      "concepts": 267
+      "covered": 1092,
+      "concepts": 271
     },
     "gcp": {
       "sources": 261,
@@ -5967,6 +5971,11 @@
     "aws-entity-resolution": [
       {
         "a": "aws-entity-resolution",
+        "b": "aws-appfabric",
+        "similarity": 0.2497
+      },
+      {
+        "a": "aws-entity-resolution",
         "b": "aws-fault-injection",
         "similarity": 0.1747
       },
@@ -5974,11 +5983,6 @@
         "a": "aws-entity-resolution",
         "b": "fabric-restricted-report",
         "similarity": 0.1724
-      },
-      {
-        "a": "aws-glue",
-        "b": "aws-entity-resolution",
-        "similarity": 0.1709
       }
     ],
     "aws-databrew": [
@@ -8074,6 +8078,11 @@
     ],
     "azure-genomics": [
       {
+        "a": "azure-genomics",
+        "b": "aws-gamelift-servers",
+        "similarity": 0.1699
+      },
+      {
         "a": "aws-datazone",
         "b": "azure-genomics",
         "similarity": 0.1677
@@ -8082,11 +8091,6 @@
         "a": "m365-mail-read",
         "b": "azure-genomics",
         "similarity": 0.1637
-      },
-      {
-        "a": "azure-genomics",
-        "b": "fabric-stacked-text",
-        "similarity": 0.1627
       }
     ],
     "azure-computer-vision": [
@@ -8233,13 +8237,13 @@
       },
       {
         "a": "azure-language-understanding",
-        "b": "aws-repost-private",
-        "similarity": 0.2367
+        "b": "aws-amazon-q",
+        "similarity": 0.2451
       },
       {
-        "a": "azure-openai",
-        "b": "azure-language-understanding",
-        "similarity": 0.2048
+        "a": "azure-language-understanding",
+        "b": "aws-repost-private",
+        "similarity": 0.2367
       }
     ],
     "azure-immersive-reader": [
@@ -8363,6 +8367,11 @@
     ],
     "fabric-copilot": [
       {
+        "a": "fabric-copilot",
+        "b": "aws-amazon-q",
+        "similarity": 0.2471
+      },
+      {
         "a": "entra-workload-id",
         "b": "fabric-copilot",
         "similarity": 0.1764
@@ -8371,11 +8380,6 @@
         "a": "m365-document-multiple",
         "b": "fabric-copilot",
         "similarity": 0.176
-      },
-      {
-        "a": "fabric-copilot",
-        "b": "m365-cloud-desktop",
-        "similarity": 0.1734
       }
     ],
     "fabric-data-engineering": [
@@ -8818,6 +8822,74 @@
         "a": "aws-corretto",
         "b": "aws-iot-fleetwise",
         "similarity": 0.1795
+      }
+    ],
+    "aws-amazon-q": [
+      {
+        "a": "fabric-copilot",
+        "b": "aws-amazon-q",
+        "similarity": 0.2471
+      },
+      {
+        "a": "azure-language-understanding",
+        "b": "aws-amazon-q",
+        "similarity": 0.2451
+      },
+      {
+        "a": "entra-workload-id",
+        "b": "aws-amazon-q",
+        "similarity": 0.2225
+      }
+    ],
+    "aws-chatbot": [
+      {
+        "a": "aws-chatbot",
+        "b": "aws-devops-agent",
+        "similarity": 0.2571
+      },
+      {
+        "a": "aws-chatbot",
+        "b": "aws-service-management-connector",
+        "similarity": 0.2164
+      },
+      {
+        "a": "aws-chatbot",
+        "b": "aws-app-studio",
+        "similarity": 0.2087
+      }
+    ],
+    "aws-appfabric": [
+      {
+        "a": "aws-entity-resolution",
+        "b": "aws-appfabric",
+        "similarity": 0.2497
+      },
+      {
+        "a": "aws-appfabric",
+        "b": "azure-service-fabric-clusters",
+        "similarity": 0.2336
+      },
+      {
+        "a": "azure-batch-ai",
+        "b": "aws-appfabric",
+        "similarity": 0.2207
+      }
+    ],
+    "aws-gamelift-servers": [
+      {
+        "a": "m365-lightbulb-check",
+        "b": "aws-gamelift-servers",
+        "similarity": 0.2092
+      },
+      {
+        "a": "aws-gamelift-servers",
+        "b": "aws-wickr",
+        "similarity": 0.2046
+      },
+      {
+        "a": "gcp-cloud-monitoring",
+        "b": "aws-gamelift-servers",
+        "similarity": 0.2023
       }
     ],
     "aws-activate": [
@@ -13525,6 +13597,11 @@
     ],
     "azure-service-fabric-clusters": [
       {
+        "a": "aws-appfabric",
+        "b": "azure-service-fabric-clusters",
+        "similarity": 0.2336
+      },
+      {
         "a": "m365-tablet",
         "b": "azure-service-fabric-clusters",
         "similarity": 0.1967
@@ -13533,11 +13610,6 @@
         "a": "aws-managed-prometheus",
         "b": "azure-service-fabric-clusters",
         "similarity": 0.1922
-      },
-      {
-        "a": "aws-chime",
-        "b": "azure-service-fabric-clusters",
-        "similarity": 0.1865
       }
     ],
     "azure-host-groups": [
