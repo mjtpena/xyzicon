@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 871,
-  "aliases": 3512,
+  "count": 875,
+  "aliases": 3528,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-app-integration",
+    "aws-category-business-applications",
+    "aws-category-ai",
+    "aws-category-management",
     "aws-category-games",
     "aws-category-developer-tools",
     "aws-category-end-user",
@@ -975,8 +979,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1204,
-      "concepts": 298
+      "covered": 1220,
+      "concepts": 302
     },
     "gcp": {
       "sources": 261,
@@ -1916,8 +1920,8 @@
       },
       {
         "a": "azure-horizondb",
-        "b": "fabric-three-shapes",
-        "similarity": 0.1817
+        "b": "aws-category-app-integration",
+        "similarity": 0.1834
       }
     ],
     "azure-encrypted-transport": [
@@ -3887,9 +3891,9 @@
         "similarity": 0.2078
       },
       {
-        "a": "entra-id",
-        "b": "aws-translate",
-        "similarity": 0.1793
+        "a": "aws-translate",
+        "b": "aws-category-business-applications",
+        "similarity": 0.1847
       }
     ],
     "aws-rekognition": [
@@ -4007,8 +4011,8 @@
       },
       {
         "a": "m365-bot",
-        "b": "fabric-data-warehouse-product",
-        "similarity": 0.2009
+        "b": "aws-category-management",
+        "similarity": 0.2034
       }
     ],
     "m365-retail-building": [
@@ -4286,6 +4290,11 @@
     "m365-road-cone": [
       {
         "a": "m365-road-cone",
+        "b": "aws-category-management",
+        "similarity": 0.2506
+      },
+      {
+        "a": "m365-road-cone",
         "b": "fabric-data-warehouse-product",
         "similarity": 0.2425
       },
@@ -4293,11 +4302,6 @@
         "a": "m365-certificate",
         "b": "m365-road-cone",
         "similarity": 0.216
-      },
-      {
-        "a": "m365-road-cone",
-        "b": "aws-elastic-beanstalk",
-        "similarity": 0.2149
       }
     ],
     "m365-shopping-bag": [
@@ -4533,9 +4537,9 @@
         "similarity": 0.2647
       },
       {
-        "a": "azure-container-registry",
-        "b": "gcp-security-operations",
-        "similarity": 0.2492
+        "a": "gcp-security-operations",
+        "b": "aws-category-app-integration",
+        "similarity": 0.2564
       }
     ],
     "gcp-alloydb": [
@@ -4636,8 +4640,8 @@
       },
       {
         "a": "gcp-cloud-vpn",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.2131
+        "b": "aws-category-management",
+        "similarity": 0.2432
       }
     ],
     "gcp-cloud-router": [
@@ -5707,8 +5711,8 @@
       },
       {
         "a": "fabric-metric-sets",
-        "b": "azure-marketplace",
-        "similarity": 0.1829
+        "b": "aws-category-business-applications",
+        "similarity": 0.1852
       }
     ],
     "fabric-mobile-report": [
@@ -7883,8 +7887,8 @@
       },
       {
         "a": "aws-nova",
-        "b": "aws-inspector",
-        "similarity": 0.214
+        "b": "aws-category-app-integration",
+        "similarity": 0.2186
       }
     ],
     "aws-bedrock-agentcore": [
@@ -7963,13 +7967,13 @@
       },
       {
         "a": "aws-kinesis",
-        "b": "aws-cloud-wan",
-        "similarity": 0.1868
+        "b": "aws-category-management",
+        "similarity": 0.202
       },
       {
-        "a": "aws-fraud-detector",
-        "b": "aws-kinesis",
-        "similarity": 0.1848
+        "a": "aws-kinesis",
+        "b": "aws-cloud-wan",
+        "similarity": 0.1868
       }
     ],
     "aws-express-workflows": [
@@ -8098,17 +8102,22 @@
         "similarity": 0.2771
       },
       {
+        "a": "aws-neuron",
+        "b": "aws-category-management",
+        "similarity": 0.2353
+      },
+      {
         "a": "fabric-notebook",
         "b": "aws-neuron",
         "similarity": 0.2217
-      },
-      {
-        "a": "aws-neuron",
-        "b": "aws-service-catalog",
-        "similarity": 0.221
       }
     ],
     "aws-panorama": [
+      {
+        "a": "aws-panorama",
+        "b": "aws-category-app-integration",
+        "similarity": 0.199
+      },
       {
         "a": "m365-phone-laptop",
         "b": "aws-panorama",
@@ -8118,11 +8127,6 @@
         "a": "aws-panorama",
         "b": "aws-memorydb",
         "similarity": 0.1951
-      },
-      {
-        "a": "fabric-external-datamart",
-        "b": "aws-panorama",
-        "similarity": 0.1937
       }
     ],
     "aws-augmented-ai": [
@@ -9141,8 +9145,8 @@
       },
       {
         "a": "aws-codedeploy",
-        "b": "gcp-category-migration",
-        "similarity": 0.2028
+        "b": "aws-category-business-applications",
+        "similarity": 0.2104
       }
     ],
     "aws-codepipeline": [
@@ -9232,6 +9236,11 @@
     ],
     "aws-xray": [
       {
+        "a": "aws-xray",
+        "b": "aws-category-management",
+        "similarity": 0.2934
+      },
+      {
         "a": "azure-storage-queue",
         "b": "aws-xray",
         "similarity": 0.2811
@@ -9240,11 +9249,6 @@
         "a": "gcp-bigtable",
         "b": "aws-xray",
         "similarity": 0.2595
-      },
-      {
-        "a": "aws-xray",
-        "b": "aws-category-compute",
-        "similarity": 0.2421
       }
     ],
     "aws-codecatalyst": [
@@ -9753,8 +9757,8 @@
       },
       {
         "a": "aws-professional-services",
-        "b": "fabric-calendar-person",
-        "similarity": 0.2099
+        "b": "aws-category-business-applications",
+        "similarity": 0.2115
       }
     ],
     "aws-training-certification": [
@@ -10449,9 +10453,9 @@
         "similarity": 0.2525
       },
       {
-        "a": "m365-text-first-line",
-        "b": "aws-mediastore",
-        "similarity": 0.2392
+        "a": "aws-mediastore",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2495
       }
     ],
     "aws-mediatailor": [
@@ -10653,9 +10657,9 @@
         "similarity": 0.2105
       },
       {
-        "a": "m365-person-accounts",
-        "b": "aws-identity-center",
-        "similarity": 0.2081
+        "a": "aws-identity-center",
+        "b": "aws-category-business-applications",
+        "similarity": 0.21
       }
     ],
     "aws-iam": [
@@ -11767,6 +11771,11 @@
     "m365-cloud-download": [
       {
         "a": "m365-cloud-download",
+        "b": "aws-category-ai",
+        "similarity": 0.2194
+      },
+      {
+        "a": "m365-cloud-download",
         "b": "m365-document",
         "similarity": 0.215
       },
@@ -11774,11 +11783,6 @@
         "a": "aws-well-architected-tool",
         "b": "m365-cloud-download",
         "similarity": 0.2104
-      },
-      {
-        "a": "m365-calendar",
-        "b": "m365-cloud-download",
-        "similarity": 0.1787
       }
     ],
     "m365-cloud-upload": [
@@ -12129,6 +12133,11 @@
     ],
     "aws-cloud-wan": [
       {
+        "a": "aws-cloud-wan",
+        "b": "aws-category-management",
+        "similarity": 0.2069
+      },
+      {
         "a": "m365-road-cone",
         "b": "aws-cloud-wan",
         "similarity": 0.2044
@@ -12137,11 +12146,6 @@
         "a": "aws-firewall-manager",
         "b": "aws-cloud-wan",
         "similarity": 0.198
-      },
-      {
-        "a": "m365-retail-building",
-        "b": "aws-cloud-wan",
-        "similarity": 0.1905
       }
     ],
     "aws-direct-connect": [
@@ -12610,14 +12614,14 @@
         "similarity": 0.2042
       },
       {
+        "a": "gcp-category-mixed-reality",
+        "b": "aws-category-app-integration",
+        "similarity": 0.1951
+      },
+      {
         "a": "aws-codewhisperer",
         "b": "gcp-category-mixed-reality",
         "similarity": 0.1916
-      },
-      {
-        "a": "m365-bot",
-        "b": "gcp-category-mixed-reality",
-        "similarity": 0.19
       }
     ],
     "gcp-category-networking": [
@@ -13289,6 +13293,74 @@
         "similarity": 0.1678
       }
     ],
+    "aws-category-app-integration": [
+      {
+        "a": "gcp-security-operations",
+        "b": "aws-category-app-integration",
+        "similarity": 0.2564
+      },
+      {
+        "a": "aws-codeguru",
+        "b": "aws-category-app-integration",
+        "similarity": 0.2278
+      },
+      {
+        "a": "m365-folder-people",
+        "b": "aws-category-app-integration",
+        "similarity": 0.2215
+      }
+    ],
+    "aws-category-business-applications": [
+      {
+        "a": "aws-mediastore",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2495
+      },
+      {
+        "a": "gcp-bigtable",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2382
+      },
+      {
+        "a": "gcp-cloud-monitoring",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2371
+      }
+    ],
+    "aws-category-ai": [
+      {
+        "a": "m365-cloud-download",
+        "b": "aws-category-ai",
+        "similarity": 0.2194
+      },
+      {
+        "a": "m365-clipboard",
+        "b": "aws-category-ai",
+        "similarity": 0.1985
+      },
+      {
+        "a": "azure-ai-foundry",
+        "b": "aws-category-ai",
+        "similarity": 0.1943
+      }
+    ],
+    "aws-category-management": [
+      {
+        "a": "aws-xray",
+        "b": "aws-category-management",
+        "similarity": 0.2934
+      },
+      {
+        "a": "m365-road-cone",
+        "b": "aws-category-management",
+        "similarity": 0.2506
+      },
+      {
+        "a": "gcp-cloud-vpn",
+        "b": "aws-category-management",
+        "similarity": 0.2432
+      }
+    ],
     "aws-category-games": [
       {
         "a": "gcp-app-engine",
@@ -13369,9 +13441,9 @@
         "similarity": 0.2008
       },
       {
-        "a": "aws-elemental-live",
+        "a": "aws-category-app-integration",
         "b": "aws-category-analytics",
-        "similarity": 0.186
+        "similarity": 0.1966
       }
     ],
     "aws-category-containers": [
@@ -13415,14 +13487,14 @@
         "similarity": 0.223
       },
       {
+        "a": "aws-category-business-applications",
+        "b": "aws-category-databases",
+        "similarity": 0.2089
+      },
+      {
         "a": "aws-deadline-cloud",
         "b": "aws-category-databases",
         "similarity": 0.2013
-      },
-      {
-        "a": "aws-cloud9",
-        "b": "aws-category-databases",
-        "similarity": 0.201
       }
     ],
     "aws-category-blockchain": [
@@ -13658,9 +13730,9 @@
         "similarity": 0.2055
       },
       {
-        "a": "gcp-bigtable",
+        "a": "aws-category-business-applications",
         "b": "aws-simspace-weaver",
-        "similarity": 0.186
+        "similarity": 0.1876
       }
     ],
     "aws-parallel-computing": [

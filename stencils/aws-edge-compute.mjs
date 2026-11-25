@@ -4,6 +4,46 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const categorySizes = (name) => [16, 32, 48, 64].map((size) => `Arch-Category_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-category-app-integration", "aws", "Application integration category", categorySizes("Application-Integration"),
+    "Interlocking modules fit together into an application workflow.",
+    [
+      line([12, 35], [35, 35], [35, 28], [40, 24], [45, 28], [45, 35], [56, 35], [56, 49], [62, 49], [66, 54], [62, 59], [56, 59], [56, 78], [12, 78], [12, 35]),
+      line([56, 35], [67, 35], [67, 28], [72, 24], [77, 28], [77, 35], [110, 35], [110, 78], [77, 78], [77, 85], [72, 89], [67, 85], [67, 78], [56, 78]),
+      line([21, 48], [45, 48]), line([21, 57], [39, 57]), line([21, 66], [45, 66]),
+      oval(79, 45, 17, 17), line([87, 49], [87, 58]), line([83, 54], [92, 54]),
+      line([18, 106], [110, 106]), line([103, 99], [110, 106], [103, 113]),
+    ]),
+  entry("aws-category-business-applications", "aws", "Business applications category", categorySizes("Business-Applications"),
+    "People use business applications for customers, documents and reporting.",
+    [
+      oval(13, 34, 16, 16), oval(35, 29, 18, 18), line([8, 72], [10, 58], [14, 53], [22, 52], [27, 55]),
+      line([29, 72], [31, 57], [36, 51], [44, 49], [51, 52], [54, 59], [55, 72]),
+      rect(64, 20, 52, 72), line([64, 32], [116, 32]), line([70, 27], [78, 27]),
+      oval(72, 42, 12, 12), line([69, 61], [72, 56], [84, 56], [87, 61]),
+      line([94, 48], [109, 48]), line([94, 56], [109, 56]), line([72, 72], [108, 72]), line([72, 80], [102, 80]),
+      line([12, 105], [112, 105]),
+    ]),
+  entry("aws-category-ai", "aws", "Artificial intelligence category", categorySizes("Artificial-Intelligence"),
+    "A light bulb contains a network of connected computational nodes.",
+    [
+      line([44, 86], [44, 74], [35, 64], [31, 53], [32, 41], [39, 29], [51, 22], [65, 20], [79, 24], [89, 33], [94, 44], [93, 56], [88, 66], [80, 74], [80, 86]),
+      line([44, 86], [80, 86]), line([46, 94], [78, 94]), line([51, 101], [73, 101]),
+      oval(48, 37, 8, 8), oval(66, 34, 8, 8, true), oval(58, 51, 8, 8), oval(75, 55, 8, 8),
+      line([56, 41], [66, 38]), line([52, 45], [61, 52]), line([70, 42], [64, 52]), line([66, 55], [75, 58]),
+      line([20, 46], [12, 46]), line([26, 28], [20, 22]), line([101, 28], [107, 22]), line([104, 46], [113, 46]),
+      line([27, 114], [99, 114]),
+    ]),
+  entry("aws-category-management", "aws", "Management tools category", categorySizes("Management-Tools"),
+    "An operations console combines a gauge with control switches.",
+    [
+      line([22, 25], [104, 25], [104, 58], [22, 58], [22, 25]),
+      oval(29, 31, 19, 19), line([39, 35], [39, 41], [45, 44]),
+      line([59, 35], [91, 35]), line([59, 43], [85, 43]), line([59, 51], [91, 51]),
+      line([22, 58], [10, 92], [116, 92], [104, 58]),
+      oval(20, 71, 12, 12), oval(42, 71, 12, 12), oval(64, 71, 12, 12),
+      line([88, 83], [88, 68]), oval(84, 61, 8, 8, true),
+      line([16, 105], [110, 105]),
+    ]),
   entry("aws-category-games", "aws", "Games category", categorySizes("Games"),
     "An arcade joystick and a score display evoke interactive games.",
     [
