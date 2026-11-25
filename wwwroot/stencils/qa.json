@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1920,
-  "aliases": 5086,
+  "count": 1922,
+  "aliases": 5088,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1224,6 +1224,8 @@
     "aws-managed-prometheus",
     "aws-user-notifications",
     "aws-resilience-hub",
+    "aws-cloud-digital-interface",
+    "aws-mediaconnect-gateway",
     "aws-elemental-conductor",
     "aws-elemental-delta",
     "aws-thinkbox-deadline",
@@ -2220,8 +2222,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1703,
-      "concepts": 658
+      "covered": 1705,
+      "concepts": 660
     },
     "gcp": {
       "sources": 261,
@@ -5864,8 +5866,8 @@
       },
       {
         "a": "azure-software-as-service",
-        "b": "aws-iot-thing-police-emergency",
-        "similarity": 0.2415
+        "b": "aws-cloud-digital-interface",
+        "similarity": 0.2462
       }
     ],
     "azure-event-grid-domains": [
@@ -18751,14 +18753,14 @@
         "similarity": 0.2358
       },
       {
+        "a": "aws-s3-object-lambda-access",
+        "b": "aws-mediaconnect-gateway",
+        "similarity": 0.2099
+      },
+      {
         "a": "aws-greengrass-component",
         "b": "aws-s3-object-lambda-access",
         "similarity": 0.1974
-      },
-      {
-        "a": "aws-s3-object-lambda-access",
-        "b": "azure-module",
-        "similarity": 0.1973
       }
     ],
     "aws-s3-object-lock": [
@@ -19436,9 +19438,9 @@
         "similarity": 0.3037
       },
       {
-        "a": "aws-iot-desired-state",
-        "b": "aws-gateway-stored-volume",
-        "similarity": 0.2799
+        "a": "aws-gateway-stored-volume",
+        "b": "aws-mediaconnect-gateway",
+        "similarity": 0.2837
       }
     ],
     "aws-gateway-tape": [
@@ -22975,6 +22977,40 @@
         "a": "aws-resilience-hub",
         "b": "azure-tags",
         "similarity": 0.1941
+      }
+    ],
+    "aws-cloud-digital-interface": [
+      {
+        "a": "azure-software-as-service",
+        "b": "aws-cloud-digital-interface",
+        "similarity": 0.2462
+      },
+      {
+        "a": "aws-cloud-digital-interface",
+        "b": "azure-input-output",
+        "similarity": 0.2275
+      },
+      {
+        "a": "aws-mainframe-converter",
+        "b": "aws-cloud-digital-interface",
+        "similarity": 0.2222
+      }
+    ],
+    "aws-mediaconnect-gateway": [
+      {
+        "a": "aws-gateway-stored-volume",
+        "b": "aws-mediaconnect-gateway",
+        "similarity": 0.2837
+      },
+      {
+        "a": "aws-backup-vmware",
+        "b": "aws-mediaconnect-gateway",
+        "similarity": 0.263
+      },
+      {
+        "a": "aws-dynamodb-item",
+        "b": "aws-mediaconnect-gateway",
+        "similarity": 0.2538
       }
     ],
     "aws-elemental-conductor": [

@@ -3,6 +3,21 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsMediaArtwork = [
+  entry("aws-cloud-digital-interface", "aws", "AWS Cloud Digital Interface", ["Res_AWS-Cloud-Digital-Interface_48"],
+    "A cloud interface carries a digital video signal.",
+    [
+      line([25, 37], [21, 31], [24, 23], [32, 20], [39, 23], [46, 15], [57, 16], [64, 23], [64, 29], [71, 33], [70, 40], [65, 44], [27, 44], [21, 40], [25, 37]),
+      line([48, 45], [48, 57]), line([48, 57], [78, 57]), line([72, 51], [78, 57], [72, 63]),
+      rect(82, 45, 33, 29), polygon([94, 51], [94, 68], [107, 59]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mediaconnect-gateway", "aws", "MediaConnect Gateway", ["Res_AWS-Elemental-MediaConnect_MediaConnect-Gateway_48"],
+    "A gateway carries a live video feed between a site and the cloud.",
+    [
+      rect(12, 39, 36, 34), polygon([25, 46], [25, 66], [40, 56]),
+      line([49, 56], [59, 56]), line([54, 51], [59, 56], [54, 61]),
+      line([63, 81], [63, 34], [68, 24], [77, 19], [86, 24], [91, 34], [91, 81]), line([58, 81], [96, 81]),
+      line([92, 56], [110, 56]), line([104, 50], [110, 56], [104, 62]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-elemental-conductor", "aws", "AWS Elemental Conductor", sizes("AWS-Elemental-Conductor"),
     "A control console coordinates multiple video encoders.",
     [
