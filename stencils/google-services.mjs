@@ -1,6 +1,46 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-threat-intelligence", "gcp", "Google Threat Intelligence", ["ThreatIntelligence-512-color"],
+    "Threat reports reveal a pattern across observed signals.",
+    [
+      line([11, 18], [62, 18], [74, 30], [74, 102], [11, 102], [11, 18]), line([62, 18], [62, 30], [74, 30]),
+      line([20, 39], [65, 39]), line([20, 48], [58, 48]),
+      oval(22, 65, 8, 8), oval(48, 60, 8, 8), oval(37, 83, 8, 8, true),
+      line([30, 69], [48, 64]), line([27, 73], [38, 83]), line([50, 68], [45, 83]),
+      oval(71, 50, 30, 30), line([93, 72], [111, 90]),
+      line([19, 113], [103, 113]),
+    ]),
+  entry("gcp-security-command-center", "gcp", "Security Command Center", ["SecurityCommandCenter-512-color", "security_command_center"],
+    "A security dashboard summarizes findings across cloud resources.",
+    [
+      rect(10, 20, 108, 80), line([10, 33], [118, 33]), line([17, 26], [39, 26]),
+      line([34, 43], [48, 48], [46, 62], [41, 69], [34, 74], [27, 69], [22, 62], [20, 48], [34, 43]),
+      line([28, 57], [32, 61], [40, 52]),
+      line([58, 46], [66, 54], [74, 46], [66, 38], [58, 46]), line([80, 46], [108, 46]),
+      line([60, 62], [68, 62]), line([74, 62], [108, 62]), line([60, 76], [68, 76]), line([74, 76], [100, 76]),
+      line([21, 112], [108, 112]),
+    ]),
+  entry("gcp-mandiant", "gcp", "Mandiant", ["Mandiant-512-color"],
+    "An incident responder investigates a security alert.",
+    [
+      oval(12, 16, 22, 22), line([8, 79], [11, 57], [16, 48], [23, 44], [31, 48], [36, 57], [39, 79]),
+      line([39, 65], [52, 65]),
+      line([73, 22], [103, 22], [116, 35], [116, 101], [60, 101], [60, 22], [73, 22]),
+      line([103, 22], [103, 35], [116, 35]), line([71, 44], [84, 66], [58, 66], [71, 44]), line([71, 51], [71, 58]), oval(69, 61, 4, 4, true),
+      line([88, 52], [108, 52]), line([88, 62], [103, 62]), line([69, 80], [106, 80]),
+      oval(39, 72, 21, 21), line([55, 88], [68, 101]),
+      line([14, 111], [107, 111]),
+    ]),
+  entry("gcp-security-operations", "gcp", "Google Security Operations", ["SecOps-512-color-rgb"],
+    "A security operations workflow triages and responds to incidents.",
+    [
+      line([12, 23], [12, 89]), line([12, 32], [26, 32]), line([12, 56], [26, 56]), line([12, 80], [26, 80]),
+      rect(26, 21, 48, 21), rect(26, 45, 48, 21), rect(26, 69, 48, 21),
+      line([33, 31], [66, 31]), line([33, 55], [61, 55]), line([33, 79], [66, 79]),
+      line([94, 37], [113, 44], [111, 63], [105, 74], [94, 82], [83, 74], [77, 63], [75, 44], [94, 37]),
+      line([86, 59], [92, 65], [103, 52]), line([19, 106], [109, 106]),
+    ]),
   entry("gcp-alloydb", "gcp", "AlloyDB", ["AlloyDB-512-color"],
     "A managed relational database supports analytical and transactional tables.",
     [
