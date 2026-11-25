@@ -1980,6 +1980,11 @@
     "azure-ai-manager": [
       {
         "a": "azure-ai-manager",
+        "b": "aws-comprehend",
+        "similarity": 0.2091
+      },
+      {
+        "a": "azure-ai-manager",
         "b": "aws-elasticache",
         "similarity": 0.1962
       },
@@ -1987,11 +1992,6 @@
         "a": "azure-ai-manager",
         "b": "fabric-database-checkmark",
         "similarity": 0.1928
-      },
-      {
-        "a": "azure-ai-manager",
-        "b": "aws-bedrock-agentcore",
-        "similarity": 0.1819
       }
     ],
     "azure-app-service-builder": [
@@ -3056,13 +3056,13 @@
       },
       {
         "a": "m365-calendar",
-        "b": "m365-apps",
-        "similarity": 0.2505
+        "b": "aws-comprehend",
+        "similarity": 0.2765
       },
       {
         "a": "m365-calendar",
-        "b": "gcp-billing",
-        "similarity": 0.2379
+        "b": "m365-apps",
+        "similarity": 0.2505
       }
     ],
     "m365-call": [
@@ -3673,8 +3673,8 @@
       },
       {
         "a": "azure-data-box",
-        "b": "fabric-folder",
-        "similarity": 0.2398
+        "b": "aws-comprehend",
+        "similarity": 0.2531
       }
     ],
     "azure-event-grid-subscriptions": [
@@ -3918,18 +3918,18 @@
     "aws-translate": [
       {
         "a": "aws-translate",
-        "b": "azure-language-understanding",
-        "similarity": 0.2635
+        "b": "aws-managed-grafana",
+        "similarity": 0.2882
       },
       {
         "a": "aws-translate",
-        "b": "azure-marketplace",
-        "similarity": 0.2078
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2811
       },
       {
         "a": "aws-translate",
-        "b": "aws-category-business-applications",
-        "similarity": 0.1847
+        "b": "fabric-folder-share",
+        "similarity": 0.2696
       }
     ],
     "aws-rekognition": [
@@ -6801,8 +6801,8 @@
       },
       {
         "a": "aws-outposts-servers",
-        "b": "aws-category-compute",
-        "similarity": 0.2106
+        "b": "aws-comprehend",
+        "similarity": 0.2189
       }
     ],
     "aws-ec2-autoscaling": [
@@ -7373,14 +7373,14 @@
         "similarity": 0.2966
       },
       {
-        "a": "m365-document-lock",
-        "b": "aws-comprehend",
-        "similarity": 0.2815
-      },
-      {
         "a": "aws-textract",
         "b": "m365-document-lock",
         "similarity": 0.2772
+      },
+      {
+        "a": "m365-document-lock",
+        "b": "m365-document-bullets-multiple",
+        "similarity": 0.2737
       }
     ],
     "m365-folders": [
@@ -8354,19 +8354,19 @@
     ],
     "aws-comprehend": [
       {
-        "a": "m365-document-lock",
+        "a": "m365-calendar",
         "b": "aws-comprehend",
-        "similarity": 0.2815
+        "similarity": 0.2765
       },
       {
-        "a": "aws-comprehend",
-        "b": "m365-comment-multiple",
-        "similarity": 0.2615
+        "a": "m365-text-first-line",
+        "b": "aws-comprehend",
+        "similarity": 0.2605
       },
       {
-        "a": "aws-comprehend",
-        "b": "azure-automanaged-vm",
-        "similarity": 0.2517
+        "a": "azure-data-box",
+        "b": "aws-comprehend",
+        "similarity": 0.2531
       }
     ],
     "aws-devops-guru": [
@@ -8881,11 +8881,6 @@
     ],
     "azure-language-understanding": [
       {
-        "a": "aws-translate",
-        "b": "azure-language-understanding",
-        "similarity": 0.2635
-      },
-      {
         "a": "azure-language-understanding",
         "b": "aws-amazon-q",
         "similarity": 0.2451
@@ -8894,6 +8889,11 @@
         "a": "azure-language-understanding",
         "b": "aws-repost-private",
         "similarity": 0.2367
+      },
+      {
+        "a": "azure-openai",
+        "b": "azure-language-understanding",
+        "similarity": 0.2048
       }
     ],
     "azure-immersive-reader": [
@@ -9923,14 +9923,14 @@
         "similarity": 0.3086
       },
       {
+        "a": "aws-comprehend",
+        "b": "aws-cost-usage-report",
+        "similarity": 0.2517
+      },
+      {
         "a": "m365-contacts",
         "b": "aws-cost-usage-report",
         "similarity": 0.2418
-      },
-      {
-        "a": "gcp-secret-manager",
-        "b": "aws-cost-usage-report",
-        "similarity": 0.2318
       }
     ],
     "aws-savings-plans": [
@@ -10105,6 +10105,11 @@
     ],
     "aws-mainframe-modernization": [
       {
+        "a": "aws-translate",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2811
+      },
+      {
         "a": "gcp-analytics-hub",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2777
@@ -10113,11 +10118,6 @@
         "a": "aws-mainframe-modernization",
         "b": "aws-deadline-cloud",
         "similarity": 0.2764
-      },
-      {
-        "a": "aws-mainframe-modernization",
-        "b": "fabric-folder-share",
-        "similarity": 0.2701
       }
     ],
     "aws-migration-evaluator": [
@@ -11799,9 +11799,9 @@
         "similarity": 0.287
       },
       {
-        "a": "aws-comprehend",
+        "a": "m365-mail-attach",
         "b": "m365-comment-multiple",
-        "similarity": 0.2615
+        "similarity": 0.2401
       }
     ],
     "m365-data-trending": [
@@ -12049,14 +12049,14 @@
         "similarity": 0.1863
       },
       {
-        "a": "aws-comprehend",
-        "b": "m365-cloud-beaker",
-        "similarity": 0.1702
-      },
-      {
         "a": "azure-storage-queue",
         "b": "m365-cloud-beaker",
         "similarity": 0.1658
+      },
+      {
+        "a": "gcp-analytics-hub",
+        "b": "m365-cloud-beaker",
+        "similarity": 0.1601
       }
     ],
     "m365-cloud-cube": [
@@ -13562,9 +13562,9 @@
         "similarity": 0.2131
       },
       {
-        "a": "m365-text-first-line",
+        "a": "aws-comprehend",
         "b": "aws-category-security",
-        "similarity": 0.1945
+        "similarity": 0.2011
       }
     ],
     "aws-elastic-inference": [
@@ -14849,14 +14849,14 @@
         "similarity": 0.2679
       },
       {
-        "a": "aws-comprehend",
-        "b": "azure-automanaged-vm",
-        "similarity": 0.2517
-      },
-      {
         "a": "aws-kendra",
         "b": "azure-automanaged-vm",
         "similarity": 0.2497
+      },
+      {
+        "a": "aws-appconfig",
+        "b": "azure-automanaged-vm",
+        "similarity": 0.2354
       }
     ],
     "azure-image-templates": [
@@ -15580,14 +15580,14 @@
         "similarity": 0.2701
       },
       {
+        "a": "aws-translate",
+        "b": "fabric-folder-share",
+        "similarity": 0.2696
+      },
+      {
         "a": "gcp-anthos",
         "b": "fabric-folder-share",
         "similarity": 0.2529
-      },
-      {
-        "a": "azure-resource-groups",
-        "b": "fabric-folder-share",
-        "similarity": 0.2522
       }
     ],
     "fabric-database-checkmark": [
