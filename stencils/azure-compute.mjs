@@ -1,6 +1,49 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-change-analysis", "azure", "Change Analysis", ["00563-icon-service-Change-Analysis"],
+    "A change marker highlights a point in a trend.",
+    [
+      line([15, 91], [15, 29]), line([15, 91], [105, 91]), line([22, 79], [39, 61], [55, 74], [72, 48], [95, 37]),
+      oval(19, 76, 6, 6, true), oval(36, 58, 6, 6, true), oval(52, 71, 6, 6, true), oval(69, 45, 6, 6, true), oval(92, 34, 6, 6, true),
+      line([67, 25], [70, 18], [77, 14], [85, 15], [91, 20], [92, 27]), line([87, 22], [92, 27], [97, 22]),
+      line([92, 29], [89, 36]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-devops-starter", "azure", "DevOps Starter", ["03339-icon-service-DevOps-Starter"],
+    "A play button starts a cloud DevOps pipeline.",
+    [
+      line([24, 78], [17, 72], [17, 59], [22, 50], [32, 46], [36, 35], [46, 28], [59, 28], [69, 34], [73, 44], [84, 45], [94, 51], [99, 61], [97, 72]),
+      line([31, 57], [36, 51], [43, 51], [51, 61], [59, 71], [66, 71], [71, 65], [71, 59], [66, 53], [59, 53], [51, 61], [43, 71], [36, 71], [31, 65], [31, 57]),
+      oval(75, 70, 27, 27), line([84, 76], [84, 91], [95, 83], [84, 76]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-managed-devops-pools", "azure", "Managed DevOps Pools", ["03393-icon-service-Managed-DevOps-Pools"],
+    "A group contains managed build workers.",
+    [
+      line([25, 16], [13, 23], [13, 89], [25, 96]), line([94, 16], [106, 23], [106, 89], [94, 96]),
+      line([40, 35], [40, 24], [81, 24], [81, 36]), line([32, 46], [32, 34], [73, 34], [73, 46]), rect(24, 45, 48, 37), line([24, 56], [72, 56]),
+      oval(60, 59, 30, 30), line([75, 53], [75, 59]), line([75, 89], [75, 95]), line([54, 74], [60, 74]), line([90, 74], [96, 74]), oval(71, 70, 8, 8), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-workspace-gateway", "azure", "Workspace Gateway", ["03623-icon-service-Workspace-Gateway"],
+    "A gateway connects a workspace to cloud services.",
+    [
+      rect(13, 50, 37, 39), line([13, 61], [50, 61]), line([20, 70], [42, 70]), line([20, 79], [37, 79]),
+      line([64, 53], [60, 48], [60, 40], [65, 34], [72, 32], [75, 25], [83, 21], [91, 24], [94, 31], [102, 32], [108, 38], [108, 47], [103, 53], [64, 53]),
+      line([50, 70], [69, 70]), line([63, 64], [69, 70], [63, 76]), oval(74, 57, 25, 25), line([86, 57], [86, 53]), line([86, 82], [86, 89]), line([99, 70], [105, 70]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-api-connections", "azure", "API Connections", ["10048-icon-service-API-Connections"],
+    "Two linked endpoints connect application interfaces.",
+    [
+      line([48, 33], [27, 33], [18, 38], [15, 47], [18, 56], [27, 61], [52, 61], [60, 56], [63, 48], [60, 40], [52, 35]),
+      line([50, 50], [58, 45], [83, 45], [92, 50], [95, 59], [92, 68], [83, 73], [58, 73], [50, 68], [47, 60]), line([16, 110], [110, 110]),
+    ]),
+  entry("azure-devops", "azure", "Azure DevOps", ["10261-icon-service-Azure-DevOps"],
+    "A continuous pipeline connects code, build and deployment.",
+    [
+      rect(10, 24, 29, 29), line([21, 32], [16, 38], [21, 44]), line([29, 32], [34, 38], [29, 44]),
+      rect(48, 24, 29, 29), line([55, 33], [70, 33]), line([55, 41], [67, 41]), rect(86, 24, 29, 29), line([95, 45], [100, 34], [105, 45]),
+      line([39, 38], [48, 38]), line([77, 38], [86, 38]), line([101, 53], [101, 75], [26, 75], [26, 53]), line([32, 59], [26, 53], [20, 59]),
+      line([16, 109], [110, 109]),
+    ]),
   entry("azure-app-testing", "azure", "Azure App Testing", ["033805167-icon-service-Azure-App-Testing"],
     "A cloud application is tested in a laboratory flask.",
     [
