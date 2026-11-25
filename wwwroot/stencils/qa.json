@@ -3,13 +3,14 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 159,
+  "approved": 158,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "aws-eventbridge",
     "gcp-bigtable",
     "gcp-artifact-registry",
     "gcp-cloud-build",
@@ -4756,8 +4757,8 @@
       },
       {
         "a": "aws-eventbridge",
-        "b": "aws-pinpoint-apis",
-        "similarity": 0.1836
+        "b": "aws-budgets",
+        "similarity": 0.184
       }
     ],
     "aws-eventbridge-pipes": [
@@ -5324,11 +5325,6 @@
     "m365-camera": [
       {
         "a": "m365-camera",
-        "b": "aws-budgets",
-        "similarity": 0.2735
-      },
-      {
-        "a": "m365-camera",
         "b": "aws-cloudshell",
         "similarity": 0.2274
       },
@@ -5336,6 +5332,11 @@
         "a": "m365-camera",
         "b": "aws-category-financial",
         "similarity": 0.2208
+      },
+      {
+        "a": "gcp-bigtable",
+        "b": "m365-camera",
+        "similarity": 0.2028
       }
     ],
     "m365-certificate": [
@@ -6395,35 +6396,35 @@
     "aws-data-firehose": [
       {
         "a": "aws-data-firehose",
-        "b": "fabric-dataflow",
-        "similarity": 0.2019
+        "b": "aws-general-servers",
+        "similarity": 0.2045
       },
       {
         "a": "aws-data-firehose",
-        "b": "fabric-streaming-dataflow",
-        "similarity": 0.2018
+        "b": "azure-backup-vault",
+        "similarity": 0.1969
       },
       {
         "a": "aws-data-firehose",
-        "b": "aws-cloudfront-streaming",
-        "similarity": 0.1923
+        "b": "fabric-metric-sets",
+        "similarity": 0.1944
       }
     ],
     "aws-appsync": [
       {
         "a": "aws-appsync",
-        "b": "azure-defender-distributed-control",
-        "similarity": 0.2082
+        "b": "aws-datazone-business-catalog",
+        "similarity": 0.234
       },
       {
         "a": "aws-appsync",
-        "b": "gcp-container-optimized-os",
-        "similarity": 0.2065
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2221
       },
       {
         "a": "aws-appsync",
-        "b": "azure-foundry-iq",
-        "similarity": 0.2047
+        "b": "azure-app-service-environments",
+        "similarity": 0.2185
       }
     ],
     "aws-b2b-interchange": [
@@ -6496,36 +6497,36 @@
     ],
     "aws-budgets": [
       {
-        "a": "m365-camera",
-        "b": "aws-budgets",
-        "similarity": 0.2735
+        "a": "aws-budgets",
+        "b": "gcp-security-operations",
+        "similarity": 0.276
       },
       {
-        "a": "dynamics-commerce",
+        "a": "gcp-cloud-monitoring",
         "b": "aws-budgets",
-        "similarity": 0.242
+        "similarity": 0.2273
       },
       {
-        "a": "azure-app-services",
-        "b": "aws-budgets",
-        "similarity": 0.2399
+        "a": "aws-budgets",
+        "b": "fabric-data-warehouse-product",
+        "similarity": 0.2231
       }
     ],
     "aws-cost-explorer": [
       {
         "a": "aws-cost-explorer",
-        "b": "gcp-category-data-analytics",
-        "similarity": 0.2903
+        "b": "azure-foundry-project",
+        "similarity": 0.2202
       },
       {
         "a": "aws-cost-explorer",
-        "b": "azure-anomaly-detector",
-        "similarity": 0.2444
+        "b": "aws-payment-cryptography",
+        "similarity": 0.2148
       },
       {
         "a": "aws-cost-explorer",
-        "b": "gcp-administration",
-        "similarity": 0.2125
+        "b": "m365-filmstrip-play",
+        "similarity": 0.2086
       }
     ],
     "aws-ses": [
@@ -9901,14 +9902,14 @@
         "similarity": 0.2881
       },
       {
+        "a": "aws-budgets",
+        "b": "gcp-security-operations",
+        "similarity": 0.276
+      },
+      {
         "a": "gcp-security-operations",
         "b": "fabric-copy-job",
         "similarity": 0.2647
-      },
-      {
-        "a": "gcp-datalab",
-        "b": "gcp-security-operations",
-        "similarity": 0.2615
       }
     ],
     "gcp-alloydb": [
@@ -11079,9 +11080,9 @@
         "similarity": 0.2065
       },
       {
-        "a": "fabric-metric-sets",
-        "b": "aws-category-business-applications",
-        "similarity": 0.1852
+        "a": "aws-data-firehose",
+        "b": "fabric-metric-sets",
+        "similarity": 0.1944
       }
     ],
     "fabric-mobile-report": [
@@ -13886,14 +13887,14 @@
         "similarity": 0.2102
       },
       {
-        "a": "aws-data-firehose",
-        "b": "fabric-streaming-dataflow",
-        "similarity": 0.2018
-      },
-      {
         "a": "fabric-dataflow",
         "b": "fabric-streaming-dataflow",
         "similarity": 0.1853
+      },
+      {
+        "a": "fabric-streaming-dataflow",
+        "b": "azure-vm-scale-sets",
+        "similarity": 0.1812
       }
     ],
     "fabric-streaming-semantic": [
@@ -23792,6 +23793,11 @@
     ],
     "aws-supply-chain": [
       {
+        "a": "aws-budgets",
+        "b": "aws-supply-chain",
+        "similarity": 0.1888
+      },
+      {
         "a": "azure-private-endpoints",
         "b": "aws-supply-chain",
         "similarity": 0.1846
@@ -23800,11 +23806,6 @@
         "a": "azure-defender-robot-controller",
         "b": "aws-supply-chain",
         "similarity": 0.1818
-      },
-      {
-        "a": "aws-supply-chain",
-        "b": "fabric-progress-bars",
-        "similarity": 0.1728
       }
     ],
     "aws-connect": [
@@ -29788,14 +29789,14 @@
         "similarity": 0.3034
       },
       {
-        "a": "aws-cost-explorer",
-        "b": "gcp-category-data-analytics",
-        "similarity": 0.2903
-      },
-      {
         "a": "aws-forecast",
         "b": "gcp-category-data-analytics",
         "similarity": 0.2615
+      },
+      {
+        "a": "gcp-category-data-analytics",
+        "b": "fabric-locked-rows",
+        "similarity": 0.2327
       }
     ],
     "gcp-category-devops": [
