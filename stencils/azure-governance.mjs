@@ -1,6 +1,17 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("microsoft-discovery", "azure", "Microsoft Discovery", ["032869111-icon-service-Microsoft-Discovery"],
+    "Microsoft Discovery combines scientific research, agents, and computation.",
+    [
+      line([25, 82], [38, 82], [38, 39], [48, 39], [48, 82], [62, 82]), line([35, 29], [51, 29]), line([41, 29], [41, 18], [45, 18], [45, 29]), line([35, 67], [51, 67]), line([35, 56], [51, 56]),
+      oval(73, 24, 21, 21), line([90, 42], [106, 57]), line([78, 35], [84, 31], [89, 36]), line([76, 80], [102, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-support-center", "azure", "Azure Support Center", ["02507-icon-service-Azure-Support-Center-Blue"],
+    "A support center connects users with help and assistance.",
+    [
+      oval(45, 27, 35, 35), line([40, 43], [40, 38], [44, 29], [51, 24], [62, 22], [73, 24], [80, 29], [84, 38], [84, 48]), line([40, 43], [32, 43], [32, 57], [40, 57], [40, 43]), line([84, 43], [92, 43], [92, 57], [84, 57], [84, 43]), line([84, 57], [79, 65], [69, 68]), line([28, 91], [30, 79], [40, 70], [52, 67]), line([74, 67], [86, 70], [96, 79], [98, 91]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-prometheus", "azure", "Prometheus", ["033112809-icon-service-promethus"],
     "Prometheus collects time-series metrics from monitored targets.",
     [

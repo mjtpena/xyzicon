@@ -1,6 +1,12 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-agentic-web-apps", "azure", "Agentic Web Apps", ["034296882-icon-service-Agentic-Web-Apps"],
+    "An agentic web app combines a web interface with an assistant.",
+    [
+      rect(13, 25, 59, 49), line([13, 37], [72, 37]), line([20, 31], [24, 31]), line([30, 31], [34, 31]), line([23, 47], [63, 47]), line([23, 56], [51, 56]), line([23, 65], [57, 65]),
+      line([82, 44], [108, 44], [108, 66], [96, 66], [88, 73], [88, 66], [82, 66], [82, 44]), line([88, 53], [91, 53]), line([96, 53], [99, 53]), line([104, 53], [106, 53]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-hdi-aks-cluster", "azure", "HDInsight AKS Cluster", ["03468-icon-service-HDI-AKS-Cluster"],
     "An HDInsight cluster runs analytics workloads on Kubernetes.",
     [

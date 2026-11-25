@@ -1,6 +1,18 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-ai-gateway", "azure", "AI Gateway", ["037838045-icon-service-AI-Gateway"],
+    "A gateway governs access from applications to AI models and tools.",
+    [
+      line([15, 58], [37, 58]), line([30, 51], [37, 58], [30, 65]), line([40, 35], [52, 25], [64, 35], [64, 79], [52, 89], [40, 79], [40, 35]),
+      line([52, 43], [54, 51], [62, 53], [54, 55], [52, 63], [50, 55], [42, 53], [50, 51], [52, 43]), line([64, 48], [84, 34]), line([64, 67], [84, 80]), oval(84, 25, 16, 16), rect(84, 72, 16, 16), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-sonic-dash", "azure", "SONiC DASH", ["02922-icon-service-Sonic-Dash"],
+    "SONiC DASH provides programmable network services for hosts.",
+    [
+      rect(18, 38, 89, 29), line([27, 47], [36, 47], [36, 55], [27, 55], [27, 47]), line([44, 47], [53, 47], [53, 55], [44, 55], [44, 47]), line([61, 47], [70, 47], [70, 55], [61, 55], [61, 47]),
+      line([22, 28], [42, 28]), line([36, 22], [42, 28], [36, 34]), line([75, 78], [100, 78]), line([94, 72], [100, 78], [94, 84]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-enclaves", "azure", "Azure Enclaves", ["03394-icon-service-Azure-Enclaves"],
     "An enclave isolates a workload network behind security boundaries.",
     [
