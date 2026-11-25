@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1271,
-  "aliases": 4200,
+  "count": 1278,
+  "aliases": 4214,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1157,6 +1157,13 @@
     "fabric-library-globe",
     "fabric-library-people",
     "fabric-library-person",
+    "fabric-location-download",
+    "fabric-location-database",
+    "fabric-location-radar",
+    "fabric-nodes-triangle",
+    "fabric-match-category",
+    "fabric-notebook-export",
+    "fabric-notebook-globe",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1286,6 +1293,13 @@
       "notes": "The arrowheads point in opposite directions, including at 32px."
     },
     {
+      "a": "fabric-location-download",
+      "b": "fabric-location-radar",
+      "similarity": 0.7266,
+      "review": "distinct",
+      "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
+    },
+    {
       "a": "fabric-datatype-double",
       "b": "fabric-datatype-float",
       "similarity": 0.7127,
@@ -1305,6 +1319,20 @@
       "similarity": 0.6959,
       "review": "distinct",
       "notes": "The numeral has a closed triangular upper stroke and vertical stem; the curved arrow has a bent shaft and pointed arrowhead, including at 32px."
+    },
+    {
+      "a": "fabric-location-download",
+      "b": "fabric-location-database",
+      "similarity": 0.6894,
+      "review": "distinct",
+      "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
+    },
+    {
+      "a": "fabric-location-database",
+      "b": "fabric-location-radar",
+      "similarity": 0.6865,
+      "review": "distinct",
+      "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
     },
     {
       "a": "m365-check-circle",
@@ -1357,8 +1385,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1363,
-      "concepts": 273
+      "covered": 1377,
+      "concepts": 280
     },
     "entra": {
       "sources": 14,
@@ -1626,8 +1654,8 @@
       },
       {
         "a": "power-apps",
-        "b": "fabric-board-lightning-asterisk",
-        "similarity": 0.2473
+        "b": "fabric-notebook-export",
+        "similarity": 0.2477
       }
     ],
     "power-dataverse": [
@@ -3146,6 +3174,11 @@
     "aws-eventbridge-schema": [
       {
         "a": "aws-eventbridge-schema",
+        "b": "fabric-match-category",
+        "similarity": 0.2707
+      },
+      {
+        "a": "aws-eventbridge-schema",
         "b": "aws-backup",
         "similarity": 0.2647
       },
@@ -3153,11 +3186,6 @@
         "a": "aws-eventbridge-schema",
         "b": "m365-office-notebook",
         "similarity": 0.2597
-      },
-      {
-        "a": "aws-eventbridge-schema",
-        "b": "fabric-document-ssis",
-        "similarity": 0.2419
       }
     ],
     "aws-bedrock": [
@@ -3751,8 +3779,8 @@
       },
       {
         "a": "m365-document-key",
-        "b": "gcp-policy-analyzer",
-        "similarity": 0.2211
+        "b": "fabric-notebook-globe",
+        "similarity": 0.2244
       }
     ],
     "m365-fingerprint": [
@@ -4200,6 +4228,11 @@
     "azure-ddos-plans": [
       {
         "a": "azure-ddos-plans",
+        "b": "fabric-match-category",
+        "similarity": 0.2395
+      },
+      {
+        "a": "azure-ddos-plans",
         "b": "aws-athena-connectors",
         "similarity": 0.2348
       },
@@ -4207,11 +4240,6 @@
         "a": "azure-ddos-plans",
         "b": "gcp-network-intelligence",
         "similarity": 0.2299
-      },
-      {
-        "a": "azure-ddos-plans",
-        "b": "fabric-board-lightning-sparkle",
-        "similarity": 0.2294
       }
     ],
     "azure-data-factory": [
@@ -5735,13 +5763,13 @@
       },
       {
         "a": "gcp-media-translation",
-        "b": "aws-lambda-function",
-        "similarity": 0.2034
+        "b": "fabric-notebook-export",
+        "similarity": 0.2144
       },
       {
         "a": "gcp-media-translation",
-        "b": "fabric-shapes-forward-arrow",
-        "similarity": 0.2011
+        "b": "aws-lambda-function",
+        "similarity": 0.2034
       }
     ],
     "gcp-video-intelligence": [
@@ -6556,8 +6584,8 @@
       },
       {
         "a": "gcp-fleet-engine",
-        "b": "gcp-datashare",
-        "similarity": 0.2036
+        "b": "fabric-notebook-globe",
+        "similarity": 0.2039
       }
     ],
     "gcp-cloud-optimization-ai": [
@@ -9734,9 +9762,9 @@
         "similarity": 0.2542
       },
       {
-        "a": "azure-private-link-services",
-        "b": "aws-emr-cluster",
-        "similarity": 0.2426
+        "a": "aws-emr-cluster",
+        "b": "fabric-match-category",
+        "similarity": 0.2479
       }
     ],
     "aws-emr-engine": [
@@ -9810,6 +9838,11 @@
     "aws-opensearch-data-node": [
       {
         "a": "aws-opensearch-data-node",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2653
+      },
+      {
+        "a": "aws-opensearch-data-node",
         "b": "m365-building-multiple",
         "similarity": 0.2527
       },
@@ -9817,11 +9850,6 @@
         "a": "gcp-api-analytics",
         "b": "aws-opensearch-data-node",
         "similarity": 0.1979
-      },
-      {
-        "a": "m365-script",
-        "b": "aws-opensearch-data-node",
-        "similarity": 0.1931
       }
     ],
     "aws-opensearch-index": [
@@ -9854,8 +9882,8 @@
       },
       {
         "a": "aws-opensearch-observability",
-        "b": "fabric-document-hint",
-        "similarity": 0.2486
+        "b": "fabric-location-database",
+        "similarity": 0.2534
       }
     ],
     "aws-opensearch-dashboards": [
@@ -13515,6 +13543,11 @@
     ],
     "aws-location-geofence": [
       {
+        "a": "aws-location-geofence",
+        "b": "fabric-location-radar",
+        "similarity": 0.2426
+      },
+      {
         "a": "aws-textract-lending",
         "b": "aws-location-geofence",
         "similarity": 0.2411
@@ -13523,11 +13556,6 @@
         "a": "gcp-quantum-engine",
         "b": "aws-location-geofence",
         "similarity": 0.2407
-      },
-      {
-        "a": "aws-opensearch-observability",
-        "b": "aws-location-geofence",
-        "similarity": 0.2403
       }
     ],
     "aws-location-map": [
@@ -16004,13 +16032,13 @@
       },
       {
         "a": "m365-building-multiple",
-        "b": "aws-outposts-family",
-        "similarity": 0.2708
+        "b": "fabric-notebook-export",
+        "similarity": 0.2762
       },
       {
-        "a": "aws-snowball",
-        "b": "m365-building-multiple",
-        "similarity": 0.265
+        "a": "m365-building-multiple",
+        "b": "aws-outposts-family",
+        "similarity": 0.2708
       }
     ],
     "m365-building-people": [
@@ -18004,14 +18032,14 @@
         "similarity": 0.278
       },
       {
+        "a": "aws-ec2-instances",
+        "b": "fabric-match-category",
+        "similarity": 0.2707
+      },
+      {
         "a": "aws-migration-evaluator",
         "b": "aws-ec2-instances",
         "similarity": 0.2663
-      },
-      {
-        "a": "aws-snowball",
-        "b": "aws-ec2-instances",
-        "similarity": 0.2596
       }
     ],
     "aws-ec2-rescue": [
@@ -20401,14 +20429,14 @@
         "similarity": 0.2643
       },
       {
+        "a": "fabric-document-people",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.245
+      },
+      {
         "a": "aws-ecr",
         "b": "fabric-document-people",
         "similarity": 0.2415
-      },
-      {
-        "a": "aws-elasticache",
-        "b": "fabric-document-people",
-        "similarity": 0.2161
       }
     ],
     "fabric-document-shapes": [
@@ -20685,19 +20713,19 @@
     ],
     "fabric-shapes-curved-arrow-new": [
       {
+        "a": "fabric-shapes-curved-arrow-new",
+        "b": "fabric-location-download",
+        "similarity": 0.2466
+      },
+      {
+        "a": "fabric-shapes-curved-arrow-new",
+        "b": "fabric-location-database",
+        "similarity": 0.2455
+      },
+      {
         "a": "aws-sqs-message",
         "b": "fabric-shapes-curved-arrow-new",
         "similarity": 0.2405
-      },
-      {
-        "a": "aws-private-subnet",
-        "b": "fabric-shapes-curved-arrow-new",
-        "similarity": 0.2346
-      },
-      {
-        "a": "aws-serverless-repository",
-        "b": "fabric-shapes-curved-arrow-new",
-        "similarity": 0.2308
       }
     ],
     "fabric-shapes-forward-arrow": [
@@ -20951,8 +20979,8 @@
       },
       {
         "a": "fabric-layer-add",
-        "b": "fabric-database-badge-asterisk",
-        "similarity": 0.1891
+        "b": "fabric-notebook-globe",
+        "similarity": 0.1895
       }
     ],
     "fabric-library-globe": [
@@ -21004,6 +21032,137 @@
         "a": "gcp-catalog",
         "b": "fabric-library-person",
         "similarity": 0.2325
+      }
+    ],
+    "fabric-location-download": [
+      {
+        "a": "fabric-location-download",
+        "b": "fabric-location-radar",
+        "similarity": 0.7266,
+        "review": "distinct",
+        "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
+      },
+      {
+        "a": "fabric-location-download",
+        "b": "fabric-location-database",
+        "similarity": 0.6894,
+        "review": "distinct",
+        "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
+      },
+      {
+        "a": "fabric-shapes-curved-arrow-new",
+        "b": "fabric-location-download",
+        "similarity": 0.2466
+      }
+    ],
+    "fabric-location-database": [
+      {
+        "a": "fabric-location-download",
+        "b": "fabric-location-database",
+        "similarity": 0.6894,
+        "review": "distinct",
+        "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
+      },
+      {
+        "a": "fabric-location-database",
+        "b": "fabric-location-radar",
+        "similarity": 0.6865,
+        "review": "distinct",
+        "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
+      },
+      {
+        "a": "aws-opensearch-observability",
+        "b": "fabric-location-database",
+        "similarity": 0.2534
+      }
+    ],
+    "fabric-location-radar": [
+      {
+        "a": "fabric-location-download",
+        "b": "fabric-location-radar",
+        "similarity": 0.7266,
+        "review": "distinct",
+        "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
+      },
+      {
+        "a": "fabric-location-database",
+        "b": "fabric-location-radar",
+        "similarity": 0.6865,
+        "review": "distinct",
+        "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
+      },
+      {
+        "a": "aws-location-geofence",
+        "b": "fabric-location-radar",
+        "similarity": 0.2426
+      }
+    ],
+    "fabric-nodes-triangle": [
+      {
+        "a": "fabric-funnel-add",
+        "b": "fabric-nodes-triangle",
+        "similarity": 0.1111
+      },
+      {
+        "a": "aws-devops-guru",
+        "b": "fabric-nodes-triangle",
+        "similarity": 0.1092
+      },
+      {
+        "a": "fabric-nodes-triangle",
+        "b": "fabric-progress-bars",
+        "similarity": 0.1085
+      }
+    ],
+    "fabric-match-category": [
+      {
+        "a": "aws-ec2-instances",
+        "b": "fabric-match-category",
+        "similarity": 0.2707
+      },
+      {
+        "a": "aws-eventbridge-schema",
+        "b": "fabric-match-category",
+        "similarity": 0.2707
+      },
+      {
+        "a": "fabric-document-ssis",
+        "b": "fabric-match-category",
+        "similarity": 0.248
+      }
+    ],
+    "fabric-notebook-export": [
+      {
+        "a": "m365-building-multiple",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2762
+      },
+      {
+        "a": "aws-opensearch-data-node",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2653
+      },
+      {
+        "a": "power-apps",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2477
+      }
+    ],
+    "fabric-notebook-globe": [
+      {
+        "a": "fabric-document-people",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.245
+      },
+      {
+        "a": "aws-eks-outposts",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.2382
+      },
+      {
+        "a": "aws-ecs-task",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.231
       }
     ],
     "fabric-database-add": [
@@ -21464,9 +21623,9 @@
         "similarity": 0.2463
       },
       {
-        "a": "fabric-board-lightning-asterisk",
+        "a": "fabric-notebook-export",
         "b": "fabric-datatype-float",
-        "similarity": 0.1743
+        "similarity": 0.1862
       }
     ],
     "fabric-datatype-integer": [
@@ -22163,9 +22322,9 @@
         "similarity": 0.2043
       },
       {
-        "a": "gcp-firewall-rules",
+        "a": "fabric-notebook-export",
         "b": "fabric-square-transfer",
-        "similarity": 0.1955
+        "similarity": 0.2006
       }
     ],
     "fabric-square-database": [
