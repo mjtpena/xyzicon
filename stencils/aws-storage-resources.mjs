@@ -245,8 +245,8 @@ export const awsStorageResourcesArtwork = [
   entry("aws-ebs-multiple-volumes", "aws", "EBS Multiple Volumes", ["Res_Amazon-Elastic-Block-Store_Multiple-Volumes_48"],
     "Three block volumes are arranged as a stack.",
     [
-      rect(22, 38, 55, 43), line([22, 49], [77, 49]), line([31, 69], [42, 69]),
-      line([32, 38], [32, 28], [87, 28], [87, 71], [77, 71]), line([42, 28], [42, 18], [97, 18], [97, 61], [87, 61]), line([14, 109], [110, 109]),
+      rect(24, 17, 74, 20), rect(24, 44, 74, 20), rect(24, 71, 74, 20),
+      oval(31, 23, 8, 8), oval(31, 50, 8, 8), oval(31, 77, 8, 8), line([49, 27], [87, 27]), line([49, 54], [87, 54]), line([49, 81], [87, 81]), line([14, 109], [110, 109]),
     ]),
   entry("aws-ebs-snapshot", "aws", "EBS Snapshot", ["Res_Amazon-Elastic-Block-Store_Snapshot_48"],
     "A camera captures a point-in-time image of a block volume.",

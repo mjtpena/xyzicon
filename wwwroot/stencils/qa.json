@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 386,
+  "approved": 396,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,16 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-efs-file-system",
-    "aws-ebs-lifecycle-manager",
-    "aws-ebs-multiple-volumes",
-    "aws-ebs-snapshot",
-    "aws-ebs-gp3-volume",
-    "aws-ebs-volume",
-    "aws-file-cache-hybrid",
-    "aws-file-cache-on-premises",
-    "aws-file-cache-s3",
-    "aws-snowball-import-export",
     "aws-gateway-fsx-file",
     "aws-gateway-s3-file",
     "aws-gateway-cached-volume",
@@ -16953,11 +16943,6 @@
     "azure-defender-sensor": [
       {
         "a": "azure-defender-sensor",
-        "b": "aws-ebs-multiple-volumes",
-        "similarity": 0.2952
-      },
-      {
-        "a": "azure-defender-sensor",
         "b": "azure-sonic-dash",
         "similarity": 0.2849
       },
@@ -16965,6 +16950,11 @@
         "a": "azure-defender-sensor",
         "b": "azure-globe-warning",
         "similarity": 0.2789
+      },
+      {
+        "a": "azure-defender-sensor",
+        "b": "azure-ip-address-manager",
+        "similarity": 0.2637
       }
     ],
     "azure-defender-slot": [
@@ -21344,13 +21334,13 @@
       },
       {
         "a": "aws-glacier-vault",
-        "b": "aws-vpc-network-adapter",
-        "similarity": 0.3026
+        "b": "aws-ebs-multiple-volumes",
+        "similarity": 0.3226
       },
       {
         "a": "aws-glacier-vault",
-        "b": "aws-iam-mfa-token",
-        "similarity": 0.2948
+        "b": "aws-vpc-network-adapter",
+        "similarity": 0.3026
       }
     ],
     "aws-s3-bucket-with-objects": [
@@ -21593,19 +21583,19 @@
     ],
     "aws-ebs-multiple-volumes": [
       {
-        "a": "azure-defender-sensor",
-        "b": "aws-ebs-multiple-volumes",
-        "similarity": 0.2952
-      },
-      {
         "a": "aws-ebs-multiple-volumes",
-        "b": "azure-backlog",
-        "similarity": 0.2864
+        "b": "azure-file",
+        "similarity": 0.3642
       },
       {
-        "a": "azure-operation-log-classic",
+        "a": "aws-glacier-vault",
         "b": "aws-ebs-multiple-volumes",
-        "similarity": 0.2857
+        "similarity": 0.3226
+      },
+      {
+        "a": "aws-greengrass-private-component",
+        "b": "aws-ebs-multiple-volumes",
+        "similarity": 0.318
       }
     ],
     "aws-ebs-snapshot": [
@@ -33499,9 +33489,9 @@
         "similarity": 0.2946
       },
       {
-        "a": "aws-ebs-multiple-volumes",
+        "a": "azure-defender-sensor",
         "b": "azure-globe-warning",
-        "similarity": 0.2799
+        "similarity": 0.2789
       }
     ],
     "azure-guide": [

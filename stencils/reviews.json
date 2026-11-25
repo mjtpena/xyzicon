@@ -2784,9 +2784,9 @@
   },
   "aws-glacier-vault": {
     "revision": "5b85a76817810c6314aad2842bb9faf74dea05553468c4633cc64d8a2192ab07",
-    "comparisonRevision": "85820664dcec7779d1da1bea9f00dd61e5865d1fe09959c456a735c7bdc1be80",
+    "comparisonRevision": "395fa198368e730405e6160959d4d34e9ba9e1238f8be5b63a4a712f3c20b811",
     "status": "approved",
-    "notes": "A framed snowflake vault differs from the backup vault dial, network adapter and MFA."
+    "notes": "A framed snowflake vault differs from the backup vault dial, multiple drive stack and network adapter."
   },
   "aws-s3-bucket-with-objects": {
     "revision": "f051b7098c0c376821dd6cf82802f0c9c78d1e5b3e35a27a774e15370b310435",
@@ -2859,5 +2859,65 @@
     "comparisonRevision": "5c58e439d7cccb2d9be2277f5638005f3c35ccc1880268267a4eafaad88569d3",
     "status": "approved",
     "notes": "A folder has a lightning bolt and rising arrow, unlike infrequent access, FTPS and zonal access."
+  },
+  "aws-efs-file-system": {
+    "revision": "46036c7aa47e19e99822919f449c7d73c9800a9d94d76b51b1b99181164f804b",
+    "comparisonRevision": "3fc00e6b9f8474243f9d0dc7b6afcc43bfbf0011e12b9d4e655019577afa4f4a",
+    "status": "approved",
+    "notes": "A hierarchy of folders differs from active directory, a pneumatic meter and a controller."
+  },
+  "aws-ebs-lifecycle-manager": {
+    "revision": "70708ae6c2a88bf13b61ca5e0a19c0cde1313125b24f0b54ea08501df47a8a99",
+    "comparisonRevision": "907a412eda66954bb8eb6dd44be7b0617c442d29b345924e37e2f0896307f6d9",
+    "status": "approved",
+    "notes": "Arrows cycle around a volume, unlike SAP integration, over-air updates and recovery."
+  },
+  "aws-ebs-multiple-volumes": {
+    "revision": "58d93a6b83ffa3eb43baaed58db80d78909842c7576504ddccf1602b705f42c7",
+    "comparisonRevision": "0df3349c15d074328c845a0e3f8a74aa9252a84f65b10523b18dba687a4bfbf2",
+    "status": "approved",
+    "notes": "Three horizontal drives form a stack, unlike a file document, snowflake vault and locked component."
+  },
+  "aws-ebs-snapshot": {
+    "revision": "411b8f38c2076c5d7633b3ac82b439cb5fd1d3648a06a250ba6acf49e18b9e46",
+    "comparisonRevision": "e5ae53b4616c6798e42f80b1cd61dc0cfc39bd43a8c37ed13a193699ec3ae880",
+    "status": "approved",
+    "notes": "A volume points to a camera snapshot, unlike virtual visits, storage shell and machine configuration."
+  },
+  "aws-ebs-gp3-volume": {
+    "revision": "72f499e98b2ca4dd18be1402c024d0831b7f0a8ab11acf8ec882bd654b021913",
+    "comparisonRevision": "d2dab6b5d9b259c96bb2772a65a0e12a231b6e0154668b4de20341c381a4dd30",
+    "status": "approved",
+    "notes": "A performance gauge and speed lines distinguish gp3 from a relay, simulator and MySQL instance; the regular volume has a large disk platter."
+  },
+  "aws-ebs-volume": {
+    "revision": "a21201c9ab2d73cb98483f09c901ac3eed348c82874219b2a3d83c5b58bd8e30",
+    "comparisonRevision": "17a55b1c9b9c0c672eb353cc49f897bc1a38187b4f5542e75777dcb77403a9e6",
+    "status": "approved",
+    "notes": "A drive shows a large disk platter, unlike permissions, utility meter and tape library; gp3 has a smaller gauge and speed lines."
+  },
+  "aws-file-cache-hybrid": {
+    "revision": "dccb9e43bab23568f49b7c83b4796ff737ae9332242c1665330381eb79b262e3",
+    "comparisonRevision": "e36dd1c7339a1bc0bce58181fd4b217039d943e8bab432d9668df1d76e85671c",
+    "status": "approved",
+    "notes": "A local source and cloud connect to a file cache, unlike BizTalk, spot instances and VPC analysis."
+  },
+  "aws-file-cache-on-premises": {
+    "revision": "a29199b3462081281a3583061c25843835dd6ff6cf6b3ee1fe4e5415edca4fa9",
+    "comparisonRevision": "60822e05a20b78f689ff5c5fa2be43f18d6d5513de3cd0f7a6748467f552b0ba",
+    "status": "approved",
+    "notes": "A local server feeds a folder, unlike a container worker, reported state and the S3 bucket source."
+  },
+  "aws-file-cache-s3": {
+    "revision": "12266c2a591ad1d26b8e3be5a69086990db204cf2c1521ae41e86df6ee4fe183",
+    "comparisonRevision": "b502490d9d32335585e2670faf14ceb24528ca65c973935990c54142040befe9",
+    "status": "approved",
+    "notes": "An S3 bucket feeds a folder, unlike the local server source, S3 files folder and Azure graph."
+  },
+  "aws-snowball-import-export": {
+    "revision": "e243d444977c019e3084f39e47f44b9aaf1a4400d260c9e192f00eb5ce790bce",
+    "comparisonRevision": "bb95c0c4db141262f942678eaaa7b67b9216a4b1c51f971605b544177c9a736d",
+    "status": "approved",
+    "notes": "A physical transfer case has opposing arrows, unlike the infrastructure rack, blueprint and network card."
   }
 }
