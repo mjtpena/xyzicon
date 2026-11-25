@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1756,
-  "aliases": 4922,
+  "count": 1766,
+  "aliases": 4932,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -891,6 +891,16 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
+    "aws-iot-thing-humidity-sensor",
+    "aws-iot-thing-temperature-sensor",
+    "aws-iot-thing-temperature-humidity",
+    "aws-iot-thing-temperature-vibration",
+    "aws-iot-thing-vibration-sensor",
+    "aws-iot-thing-thermostat",
+    "aws-iot-thing-stacklight",
+    "aws-iot-thing-medical-emergency",
+    "aws-iot-thing-police-emergency",
+    "aws-iot-thing-windfarm",
     "aws-iot-thing-bank",
     "aws-iot-thing-bicycle",
     "aws-iot-thing-camera",
@@ -2056,8 +2066,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1539,
-      "concepts": 494
+      "covered": 1549,
+      "concepts": 504
     },
     "gcp": {
       "sources": 261,
@@ -2397,13 +2407,13 @@
       },
       {
         "a": "m365-download",
-        "b": "aws-snowball",
-        "similarity": 0.2051
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2054
       },
       {
         "a": "m365-download",
-        "b": "azure-multi-tenancy",
-        "similarity": 0.1972
+        "b": "aws-snowball",
+        "similarity": 0.2051
       }
     ],
     "entra-family": [
@@ -2924,13 +2934,13 @@
       },
       {
         "a": "gcp-compute-engine",
-        "b": "azure-language",
-        "similarity": 0.2734
+        "b": "aws-iot-thing-medical-emergency",
+        "similarity": 0.2751
       },
       {
         "a": "gcp-compute-engine",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.2625
+        "b": "azure-language",
+        "similarity": 0.2734
       }
     ],
     "gcp-storage": [
@@ -5576,13 +5586,13 @@
       },
       {
         "a": "azure-partner-namespace",
-        "b": "aws-general-alert",
-        "similarity": 0.2194
+        "b": "aws-iot-thing-temperature-sensor",
+        "similarity": 0.2217
       },
       {
         "a": "azure-partner-namespace",
-        "b": "azure-extensions",
-        "similarity": 0.2193
+        "b": "aws-general-alert",
+        "similarity": 0.2194
       }
     ],
     "azure-pubsub": [
@@ -5622,6 +5632,11 @@
     "azure-integration-environments": [
       {
         "a": "azure-integration-environments",
+        "b": "aws-iot-thing-temperature-vibration",
+        "similarity": 0.3054
+      },
+      {
+        "a": "azure-integration-environments",
         "b": "aws-sqs-message",
         "similarity": 0.2897
       },
@@ -5629,11 +5644,6 @@
         "a": "azure-integration-environments",
         "b": "gcp-financial-marketplace",
         "similarity": 0.2687
-      },
-      {
-        "a": "azure-integration-environments",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.2651
       }
     ],
     "azure-business-process-tracking": [
@@ -5682,9 +5692,9 @@
         "similarity": 0.2945
       },
       {
-        "a": "azure-integration-service-environments",
-        "b": "azure-api-fhir",
-        "similarity": 0.2689
+        "a": "azure-api-fhir",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.2783
       }
     ],
     "azure-software-as-service": [
@@ -5695,13 +5705,13 @@
       },
       {
         "a": "azure-software-as-service",
-        "b": "azure-device-security-apple",
-        "similarity": 0.2252
+        "b": "aws-iot-thing-police-emergency",
+        "similarity": 0.2415
       },
       {
-        "a": "azure-application-security-groups",
-        "b": "azure-software-as-service",
-        "similarity": 0.2235
+        "a": "azure-software-as-service",
+        "b": "azure-device-security-apple",
+        "similarity": 0.2252
       }
     ],
     "azure-event-grid-domains": [
@@ -14950,13 +14960,13 @@
       },
       {
         "a": "azure-intune-ebooks",
-        "b": "azure-resource-group-list",
-        "similarity": 0.3184
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.3232
       },
       {
         "a": "azure-intune-ebooks",
-        "b": "azure-search-grid",
-        "similarity": 0.2917
+        "b": "azure-resource-group-list",
+        "similarity": 0.3184
       }
     ],
     "azure-intune-client-apps": [
@@ -15311,12 +15321,17 @@
         "similarity": 0.2732
       },
       {
-        "a": "gcp-local-ssd",
-        "b": "azure-app-registrations",
-        "similarity": 0.2632
+        "a": "azure-app-registrations",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.2696
       }
     ],
     "azure-identity-governance": [
+      {
+        "a": "azure-identity-governance",
+        "b": "aws-iot-thing-temperature-sensor",
+        "similarity": 0.209
+      },
       {
         "a": "azure-identity-governance",
         "b": "aws-general-ssl-padlock",
@@ -15326,11 +15341,6 @@
         "a": "azure-identity-governance",
         "b": "azure-api-center",
         "similarity": 0.1971
-      },
-      {
-        "a": "azure-identity-governance",
-        "b": "aws-general-recover",
-        "similarity": 0.1942
       }
     ],
     "azure-identity-roles-administrators": [
@@ -16825,8 +16835,8 @@
       },
       {
         "a": "azure-lighthouse",
-        "b": "azure-general-image",
-        "similarity": 0.256
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2588
       }
     ],
     "azure-arc": [
@@ -16956,13 +16966,13 @@
       },
       {
         "a": "azure-alerts",
-        "b": "azure-recent",
-        "similarity": 0.2315
+        "b": "aws-iot-thing-humidity-sensor",
+        "similarity": 0.2325
       },
       {
         "a": "azure-alerts",
-        "b": "aws-general-multimedia",
-        "similarity": 0.2151
+        "b": "azure-recent",
+        "similarity": 0.2315
       }
     ],
     "azure-advisor": [
@@ -17109,16 +17119,21 @@
       },
       {
         "a": "azure-service-providers",
-        "b": "aws-general-alert",
-        "similarity": 0.2245
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2312
       },
       {
         "a": "azure-service-providers",
-        "b": "aws-location-routes",
-        "similarity": 0.2102
+        "b": "aws-general-alert",
+        "similarity": 0.2245
       }
     ],
     "azure-education": [
+      {
+        "a": "azure-education",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.2344
+      },
       {
         "a": "azure-data-share-invitations",
         "b": "azure-education",
@@ -17128,11 +17143,6 @@
         "a": "azure-machines-azure-arc",
         "b": "azure-education",
         "similarity": 0.2288
-      },
-      {
-        "a": "azure-managed-desktop",
-        "b": "azure-education",
-        "similarity": 0.2269
       }
     ],
     "azure-universal-print": [
@@ -17150,6 +17160,176 @@
         "a": "azure-universal-print",
         "b": "azure-templates",
         "similarity": 0.3262
+      }
+    ],
+    "aws-iot-thing-humidity-sensor": [
+      {
+        "a": "aws-iot-thing-humidity-sensor",
+        "b": "aws-iot-thing-lightbulb",
+        "similarity": 0.2392
+      },
+      {
+        "a": "aws-iot-thing-humidity-sensor",
+        "b": "azure-app-space",
+        "similarity": 0.236
+      },
+      {
+        "a": "azure-alerts",
+        "b": "aws-iot-thing-humidity-sensor",
+        "similarity": 0.2325
+      }
+    ],
+    "aws-iot-thing-temperature-sensor": [
+      {
+        "a": "aws-iot-thing-temperature-sensor",
+        "b": "aws-general-alert",
+        "similarity": 0.2533
+      },
+      {
+        "a": "aws-iot-thing-temperature-sensor",
+        "b": "aws-general-recover",
+        "similarity": 0.2438
+      },
+      {
+        "a": "aws-iot-thing-temperature-sensor",
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2404
+      }
+    ],
+    "aws-iot-thing-temperature-humidity": [
+      {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-iot-thing-temperature-humidity",
+        "similarity": 0.206
+      },
+      {
+        "a": "aws-iot-thing-temperature-humidity",
+        "b": "aws-cloudhsm",
+        "similarity": 0.2015
+      },
+      {
+        "a": "aws-iot-thing-temperature-humidity",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.2007
+      }
+    ],
+    "aws-iot-thing-temperature-vibration": [
+      {
+        "a": "azure-integration-environments",
+        "b": "aws-iot-thing-temperature-vibration",
+        "similarity": 0.3054
+      },
+      {
+        "a": "aws-pytorch",
+        "b": "aws-iot-thing-temperature-vibration",
+        "similarity": 0.2554
+      },
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-iot-thing-temperature-vibration",
+        "similarity": 0.2529
+      }
+    ],
+    "aws-iot-thing-vibration-sensor": [
+      {
+        "a": "azure-intune-ebooks",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.3232
+      },
+      {
+        "a": "azure-device-security-windows",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.3132
+      },
+      {
+        "a": "azure-intune-client-apps",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.2877
+      }
+    ],
+    "aws-iot-thing-thermostat": [
+      {
+        "a": "aws-iot-thing-thermostat",
+        "b": "azure-general-error",
+        "similarity": 0.2766
+      },
+      {
+        "a": "azure-information-protection",
+        "b": "aws-iot-thing-thermostat",
+        "similarity": 0.2426
+      },
+      {
+        "a": "azure-windows-core-services",
+        "b": "aws-iot-thing-thermostat",
+        "similarity": 0.2303
+      }
+    ],
+    "aws-iot-thing-stacklight": [
+      {
+        "a": "aws-iot-thing-stacklight",
+        "b": "aws-general-recover",
+        "similarity": 0.2783
+      },
+      {
+        "a": "azure-lighthouse",
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2588
+      },
+      {
+        "a": "azure-entra-connect",
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2457
+      }
+    ],
+    "aws-iot-thing-medical-emergency": [
+      {
+        "a": "aws-iot-thing-medical-emergency",
+        "b": "azure-images",
+        "similarity": 0.3313
+      },
+      {
+        "a": "aws-iot-thing-medical-emergency",
+        "b": "aws-general-application",
+        "similarity": 0.2896
+      },
+      {
+        "a": "aws-iot-thing-medical-emergency",
+        "b": "aws-general-servers",
+        "similarity": 0.2846
+      }
+    ],
+    "aws-iot-thing-police-emergency": [
+      {
+        "a": "aws-iot-thing-police-emergency",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.2592
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "aws-iot-thing-police-emergency",
+        "similarity": 0.2448
+      },
+      {
+        "a": "azure-software-as-service",
+        "b": "aws-iot-thing-police-emergency",
+        "similarity": 0.2415
+      }
+    ],
+    "aws-iot-thing-windfarm": [
+      {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-iot-thing-windfarm",
+        "similarity": 0.234
+      },
+      {
+        "a": "azure-universal-print",
+        "b": "aws-iot-thing-windfarm",
+        "similarity": 0.2083
+      },
+      {
+        "a": "gcp-api-gateway",
+        "b": "aws-iot-thing-windfarm",
+        "similarity": 0.2082
       }
     ],
     "aws-iot-thing-bank": [
@@ -17210,14 +17390,14 @@
         "similarity": 0.2751
       },
       {
+        "a": "aws-iot-thing-police-emergency",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.2592
+      },
+      {
         "a": "azure-application-security-groups",
         "b": "aws-iot-thing-car",
         "similarity": 0.2508
-      },
-      {
-        "a": "azure-exchange-access",
-        "b": "aws-iot-thing-car",
-        "similarity": 0.2443
       }
     ],
     "aws-iot-thing-cart": [
@@ -17307,6 +17487,11 @@
     ],
     "aws-iot-thing-lightbulb": [
       {
+        "a": "aws-iot-thing-humidity-sensor",
+        "b": "aws-iot-thing-lightbulb",
+        "similarity": 0.2392
+      },
+      {
         "a": "azure-identity-secure-score",
         "b": "aws-iot-thing-lightbulb",
         "similarity": 0.222
@@ -17315,11 +17500,6 @@
         "a": "aws-iot-thing-lightbulb",
         "b": "azure-power",
         "similarity": 0.2165
-      },
-      {
-        "a": "azure-privileged-identity-management",
-        "b": "aws-iot-thing-lightbulb",
-        "similarity": 0.2149
       }
     ],
     "fabric-copilot": [
@@ -18927,14 +19107,14 @@
         "similarity": 0.2893
       },
       {
-        "a": "aws-general-servers",
-        "b": "aws-general-folders",
-        "similarity": 0.278
+        "a": "aws-iot-thing-medical-emergency",
+        "b": "aws-general-servers",
+        "similarity": 0.2846
       },
       {
         "a": "aws-general-servers",
-        "b": "aws-general-email",
-        "similarity": 0.2736
+        "b": "aws-general-folders",
+        "similarity": 0.278
       }
     ],
     "aws-general-shield": [
@@ -19211,19 +19391,19 @@
     ],
     "aws-general-recover": [
       {
+        "a": "aws-iot-thing-stacklight",
+        "b": "aws-general-recover",
+        "similarity": 0.2783
+      },
+      {
         "a": "azure-lighthouse",
         "b": "aws-general-recover",
         "similarity": 0.2505
       },
       {
-        "a": "aws-iot-thing-cart",
+        "a": "aws-iot-thing-temperature-sensor",
         "b": "aws-general-recover",
-        "similarity": 0.2412
-      },
-      {
-        "a": "aws-general-recover",
-        "b": "azure-globe-success",
-        "similarity": 0.2376
+        "similarity": 0.2438
       }
     ],
     "aws-general-saml-token": [
@@ -19449,6 +19629,11 @@
     ],
     "aws-general-alert": [
       {
+        "a": "aws-iot-thing-temperature-sensor",
+        "b": "aws-general-alert",
+        "similarity": 0.2533
+      },
+      {
         "a": "aws-general-alert",
         "b": "azure-extensions",
         "similarity": 0.2308
@@ -19457,11 +19642,6 @@
         "a": "azure-event-grid-domains",
         "b": "aws-general-alert",
         "similarity": 0.2286
-      },
-      {
-        "a": "azure-lighthouse",
-        "b": "aws-general-alert",
-        "similarity": 0.2278
       }
     ],
     "aws-general-camera": [
@@ -23615,14 +23795,14 @@
         "similarity": 0.1955
       },
       {
+        "a": "aws-iot-thing-thermostat",
+        "b": "aws-ec2-image-builder",
+        "similarity": 0.1822
+      },
+      {
         "a": "aws-general-recover",
         "b": "aws-ec2-image-builder",
         "similarity": 0.1812
-      },
-      {
-        "a": "azure-stack-hci-premium",
-        "b": "aws-ec2-image-builder",
-        "similarity": 0.1778
       }
     ],
     "aws-lightsail": [
@@ -25830,9 +26010,9 @@
         "similarity": 0.218
       },
       {
-        "a": "m365-download",
+        "a": "aws-iot-thing-temperature-sensor",
         "b": "azure-commit",
-        "similarity": 0.2071
+        "similarity": 0.2098
       }
     ],
     "azure-controls": [
@@ -26561,9 +26741,9 @@
         "similarity": 0.3598
       },
       {
-        "a": "azure-general-error",
+        "a": "aws-iot-thing-medical-emergency",
         "b": "azure-images",
-        "similarity": 0.296
+        "similarity": 0.3313
       }
     ],
     "azure-image-definitions": [
@@ -29882,6 +30062,11 @@
     ],
     "fabric-info": [
       {
+        "a": "aws-iot-thing-temperature-sensor",
+        "b": "fabric-info",
+        "similarity": 0.117
+      },
+      {
         "a": "fabric-three-shapes",
         "b": "fabric-info",
         "similarity": 0.1151
@@ -29890,11 +30075,6 @@
         "a": "aws-verified-access",
         "b": "fabric-info",
         "similarity": 0.1133
-      },
-      {
-        "a": "aws-codecommit",
-        "b": "fabric-info",
-        "similarity": 0.1119
       }
     ],
     "fabric-send-circle": [
