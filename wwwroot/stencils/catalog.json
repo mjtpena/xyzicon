@@ -144,7 +144,7 @@
       ],
       "revision": "336babf1a3239d207861b8fddfe363ccc13e089782bb9b987e77e5cdb1396733",
       "geometrySignature": "b94c729e52df141af504b647182793c9a2c19598a3258d1273efe36594230910",
-      "comparisonRevision": "d826d4d6a8e84908f96c7be5a01e282555424e898133d9434e6754746358caf0",
+      "comparisonRevision": "7868895f48c7659db6f5cdbd258a2f5064f74aa82cfc4a5d02a8f15ccdb49bd1",
       "review": "pending",
       "notes": ""
     },
@@ -702,7 +702,7 @@
       ],
       "revision": "32073c694404114c9c2616c648819872e8438c698117b9dc81d4eb1a47ea3a56",
       "geometrySignature": "e0d82edde386e5da729b3f112af5fc93129d28ed9008cf7257f230402a78e9c9",
-      "comparisonRevision": "80c42000147ddde57d1e4134099be50c1bba7a796d0ba3dd324f4f5e9709469c",
+      "comparisonRevision": "1a9e13c7153a9cc62d8c1d2ba214fe5e3127d7510622cc5620079970f40754e5",
       "review": "pending",
       "notes": ""
     },
@@ -4358,6 +4358,96 @@
       "notes": ""
     },
     {
+      "id": "gcp-debugger",
+      "provider": "gcp",
+      "name": "Cloud Debugger",
+      "rationale": "A breakpoint pauses execution beside a source-code listing.",
+      "path": "stencils/gcp-debugger.svg",
+      "sources": [
+        "/icons/gcp/debugger/debugger.svg"
+      ],
+      "revision": "3629c8daa776df1209a9a1b3614b6f34f6bd5d1c3841f8ecbc2acbcb5bbc8c19",
+      "geometrySignature": "f5c32622c7fb340adf31410902e154f1a51273be6fdda7c2d8ee396288120274",
+      "comparisonRevision": "56a2a19a7d427eee610bc3a17747340f3c3be6d56ff946fa856d59da4b50e8d2",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-profiler",
+      "provider": "gcp",
+      "name": "Cloud Profiler",
+      "rationale": "A stopwatch measures processor activity.",
+      "path": "stencils/gcp-profiler.svg",
+      "sources": [
+        "/icons/gcp/profiler/profiler.svg"
+      ],
+      "revision": "743718376244a5ebab17777b1d42aa40c77c6a51db64e40ebaf06476597f11db",
+      "geometrySignature": "9c0698c0f7ae571d9376728c6090e79663585676ef2c44455fec36d2cb4b2073",
+      "comparisonRevision": "30fcea577b87443e973322aca92441a5259fb60b7cacab0ae9ba6c59fb8d3d05",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-trace",
+      "provider": "gcp",
+      "name": "Cloud Trace",
+      "rationale": "A request timeline shows nested spans across services.",
+      "path": "stencils/gcp-trace.svg",
+      "sources": [
+        "/icons/gcp/trace/trace.svg"
+      ],
+      "revision": "280eec55b64657b9bb9092abdc1f872f6b9e13a6bc58c0540e3abfd6679aa219",
+      "geometrySignature": "c53162214caf9dbd24372fddd2891a6dbc1ec99547be5890f4b5f277dbed10a7",
+      "comparisonRevision": "482897ab1b37a1e015bf0539185bdc8b6a68d1b760cd2fc5bbf421bd4f72cb3d",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-stackdriver",
+      "provider": "gcp",
+      "name": "Stackdriver",
+      "rationale": "A monitoring dashboard combines service health and log entries.",
+      "path": "stencils/gcp-stackdriver.svg",
+      "sources": [
+        "/icons/gcp/stackdriver/stackdriver.svg"
+      ],
+      "revision": "9e602da1518f697d068f5918c2b01f49b450ced6f3f8b404cac77969e2b6b6ac",
+      "geometrySignature": "0691e188477ff77db114d40c60919b23c6ca1f57af6b65a74bc1280250459d3f",
+      "comparisonRevision": "e2af35b915483797fd2ccad973e152ac3ab14e7d482e7b5dda61f7a750b228b1",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-cloud-ops",
+      "provider": "gcp",
+      "name": "Cloud Operations",
+      "rationale": "An operations wrench manages a cloud service's activity.",
+      "path": "stencils/gcp-cloud-ops.svg",
+      "sources": [
+        "/icons/gcp/cloud_ops/cloud_ops.svg"
+      ],
+      "revision": "2afb2d1f428eb303e0e2f2ca6e1395f455bc3b9fecd64a6aaaa2802dd6b3e00c",
+      "geometrySignature": "fb01a533251863c47e7969a2fd5a8e7e5d43752849e74b173e8ea98aafaf0fa9",
+      "comparisonRevision": "47ef375040aa1bf2c8e6a66317759ec85217642f38797246537e31c9b313dd18",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-performance-dashboard",
+      "provider": "gcp",
+      "name": "Performance Dashboard",
+      "rationale": "A dashboard combines a speed gauge and performance trend.",
+      "path": "stencils/gcp-performance-dashboard.svg",
+      "sources": [
+        "/icons/gcp/performance_dashboard/performance_dashboard.svg"
+      ],
+      "revision": "5a7cfd4455f756b1b79c16f7133d15700e6f2fe6178118cf79b5ae37bea07f51",
+      "geometrySignature": "fbc546322a71edb16974ffdeffd299dd6ddf1a6de8c7d5013fb6ea490c922819",
+      "comparisonRevision": "a924dc08961c273de8e5fe45c19f2e994d09225e185bf13f8da7a39a72b661ba",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "gcp-access-context",
       "provider": "gcp",
       "name": "Access Context Manager",
@@ -7068,7 +7158,7 @@
       ],
       "revision": "676d1fdbb3e4264967197ea4ded77010dece77e82c4c9046ef47f87ccbf29cf6",
       "geometrySignature": "2631d1b6796b611f4be10641708a85b1daa7d725825573a56106a18b3c7ef128",
-      "comparisonRevision": "8a7830f7d82b529178458ef557991c8786a7a9bd4dd59b09492f1ccd748207ae",
+      "comparisonRevision": "dcf2e5c2a794a764e0634c357769b9b79a89033a13c491f05e2b963c0cc99433",
       "review": "pending",
       "notes": ""
     },
@@ -7328,7 +7418,7 @@
       ],
       "revision": "ff325603d4fda6794fdef0a554b97f8ec6451bb82392d473ab87aa08d17e5c69",
       "geometrySignature": "46e111a69a617d50751ede53ed9daf35bd4c13b5e43cb4301f6c3283a9118dc1",
-      "comparisonRevision": "d0bcc98099c23fcae1c633d44d8f10238f3525ce677a964658c7a5fd3fd81968",
+      "comparisonRevision": "7b23c6c349def251a9160f908c92d185da4245c38a9c5468b51c6632b6039a06",
       "review": "pending",
       "notes": ""
     },
@@ -7568,7 +7658,7 @@
       ],
       "revision": "88358570d43c31cfc4a9d2e628b91c5d900a78eb7a0726bb7c00098cac8fe22c",
       "geometrySignature": "19897a069dbf7968694be58ddf15d8ebaf9d4c60eb8e4015e2f81fd414c1c5a6",
-      "comparisonRevision": "064e66dead5c387ab0a08924a287ad237f2c8247edbba1f453223c87cc663597",
+      "comparisonRevision": "542d6dfc339df320400297415d6634b505ac7cdbe0d206c676f1bc34d5ad94d3",
       "review": "pending",
       "notes": ""
     },
@@ -7689,7 +7779,7 @@
       ],
       "revision": "ae344537232161a335c3ec1f49ece6edd5416ede80b012552d39eead95c80e7b",
       "geometrySignature": "5bdcda592f54ff671626388169225bd309342aea4f659e072fab0f2ca249687a",
-      "comparisonRevision": "81ea302790d174eb8beb7e9c033280bcfad023ca98a529ecf4ac491077b06a8d",
+      "comparisonRevision": "ad81c2ffa6cf5378aed5348bb9cff988e8d644936f25f6fc586a82e045e082ff",
       "review": "pending",
       "notes": ""
     },
@@ -8521,7 +8611,7 @@
       ],
       "revision": "a6052b3b309fbb527325abb724eb73d4d35cc7c78967734d113610c2e4f7f036",
       "geometrySignature": "91e0474d006e80fe491a74a3f9e4ef028989047b0bb2798ede67bbc7dfd158d7",
-      "comparisonRevision": "cf9be089851ad49c6cfe4842444424c7b830371680caf3907d0fc4e1b20115a0",
+      "comparisonRevision": "2180236b3364ee419e803751b543d9e992f914cba7d72b61f85dab1bf15fa2bf",
       "review": "pending",
       "notes": ""
     },
@@ -8596,7 +8686,7 @@
       ],
       "revision": "7bfe10b788dbb873094943fcfd73365b3264667165c31408f64afdc5232f1f8a",
       "geometrySignature": "8967830bc7523c948002ab3d1d5569c7f1726005021b56c571934f175b893e11",
-      "comparisonRevision": "593f46b1d1cda6e97df1de0e31369742064d80e16bdf8d742309bec7495d6712",
+      "comparisonRevision": "b81aef3ad2e5812fd7caf4a040b5927a299274fa52d83c80a3778aa796cdcad4",
       "review": "pending",
       "notes": ""
     },
@@ -8834,7 +8924,7 @@
       ],
       "revision": "30c65cfb87aa093ac4948f8e6215920943d66b504edd92660dffe8758376dd06",
       "geometrySignature": "3b272f763f31c93f6c4663abe3cd0412605e1020c7a4d42f35a9987506167a0b",
-      "comparisonRevision": "97eec667772b8d4dd04a79e72ca7201ff528ff29970ebc3038dd357833cf940d",
+      "comparisonRevision": "1b4c2034ea95c45acb59eaba399530961b0b9212bb67ece5012dbfe0c989ec30",
       "review": "pending",
       "notes": ""
     },
@@ -11717,7 +11807,7 @@
       ],
       "revision": "802faa4c6f83bfb0a3ca629aa11219442f1387b9077cff7844ca261003b8a61a",
       "geometrySignature": "248e9856a4c57f33c4295e6c564810e400340c9723df2390260856c98df8858f",
-      "comparisonRevision": "7a78855ee1b9900fbf006e1c0f073af0dff8f9f8a8434547c079f289fca4e9de",
+      "comparisonRevision": "def48559a38e083a97b379d832f2c539c6c22af400b8d492f9463d5a08a36c94",
       "review": "pending",
       "notes": ""
     },
@@ -12977,7 +13067,7 @@
       ],
       "revision": "391f394ca9ba2163665442629cd7d8608359f8b773c2dafffe27b6a26933ecd3",
       "geometrySignature": "4ffdd2dc1c7af80c125ac2981ca13a4eec1c02fd975cff314422b940717a3f69",
-      "comparisonRevision": "7ad9ad9dd1a4ff0f301ca98a16c1573920f7c5216696f7aaa69fd692ae39125e",
+      "comparisonRevision": "0c8c7e47afeaf0519a77a4dc23109f15c4c5fe93cde85a44f5299ca569d383b9",
       "review": "pending",
       "notes": ""
     },
@@ -14786,7 +14876,7 @@
       ],
       "revision": "b4b64e50eef9331dcc76005696f45f6082407b348bef81223665ded93f4ab6ee",
       "geometrySignature": "04d1dff0ca61b80e18f9bdd9fbc128c7f8269acc8c2ee1f215159f89926bf0ff",
-      "comparisonRevision": "c298e95b1d17dbdbc57d78eaa8fd9816331ed105e64382a4d77a148391e63517",
+      "comparisonRevision": "73ad2e105c52b2f4098c4cd9901a7da9ca9d9da2ad8d99985d39e1d688c50c60",
       "review": "pending",
       "notes": ""
     },
@@ -14894,7 +14984,7 @@
       ],
       "revision": "bce2905bb1948387448d52f224644ae3cb39aa9a8e500ea747f685efe7747a9c",
       "geometrySignature": "78d622fb1fed58964902e2f443b314589ff38b180da246bf25071fe3e54ef85f",
-      "comparisonRevision": "f6abe33878c728950d8cb1ed38c60e1485bccf293ad5389029d00f42ad5eecee",
+      "comparisonRevision": "fb585684b8e8c7d86cfd413b8defbea325f6b7689274694c68f2ca83564d923c",
       "review": "pending",
       "notes": ""
     },
@@ -15182,7 +15272,7 @@
       ],
       "revision": "01d74aa3948d7ebe58437eff5102e2acef048d8f75d418bb90412a76c26c6412",
       "geometrySignature": "800d5ad41cc6b103ec31c5d7c0fb9a76533e7eaf5a327593fbdc4db5f49a815b",
-      "comparisonRevision": "47c113917a05ad1735b900845fa07e20df9a730e046be8ffdd6e7a3767d1f28d",
+      "comparisonRevision": "72960746b8a005f1a395c46b44e8013b3891d8befdab9b26986e4fbf67e2ca17",
       "review": "pending",
       "notes": ""
     },
@@ -17192,7 +17282,7 @@
       ],
       "revision": "ec2e2a58e9185a47901b85c5ea211d26b15a7a5e61b1289867e972e0138ce6f9",
       "geometrySignature": "0cd5c3d5fdfc3af21f258e29eafeb2df30f431a60cc81199f65b476ca7ae953a",
-      "comparisonRevision": "f031fef161b9bdc2caf5f6810d4e80dc1ace554b6a9055ae8cc0bee3e5179553",
+      "comparisonRevision": "8b655025d00f94ed9facd517d8a5327e9b87fedf3230f949ed4f01222857be07",
       "review": "pending",
       "notes": ""
     },
@@ -18082,7 +18172,7 @@
       ],
       "revision": "10701be4c34cf210afade2f196fc15ea262e2d45bc92b8ce7f4a467f3b013a49",
       "geometrySignature": "48b47dfb174399264bae5ef93bb7e12750424ec0aab5a41bcb72a04d88bc9c4e",
-      "comparisonRevision": "7ef173433de75c1611427f495f5b4ad42c23b2251ceadc182807883fa862dab1",
+      "comparisonRevision": "e04d2efc608cecfae711d8771d1e244dfc688b5897a0d24d66c17ae2b2883cb8",
       "review": "pending",
       "notes": ""
     },
