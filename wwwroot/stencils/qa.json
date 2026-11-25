@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1196,
-  "aliases": 4078,
+  "count": 1200,
+  "aliases": 4082,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -953,6 +953,10 @@
     "fabric-asterisk-circle",
     "fabric-commit",
     "fabric-commit-circle",
+    "aws-beanstalk-application",
+    "aws-beanstalk-deployment",
+    "aws-lambda-function",
+    "aws-ec2-ami",
     "aws-database-migration",
     "aws-aurora",
     "aws-documentdb",
@@ -1307,8 +1311,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1351,
-      "concepts": 383
+      "covered": 1355,
+      "concepts": 387
     },
     "gcp": {
       "sources": 261,
@@ -5660,13 +5664,13 @@
       },
       {
         "a": "gcp-media-translation",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.1924
+        "b": "aws-lambda-function",
+        "similarity": 0.2034
       },
       {
         "a": "gcp-media-translation",
-        "b": "aws-security-incident-response",
-        "similarity": 0.1892
+        "b": "aws-migration-evaluator",
+        "similarity": 0.1924
       }
     ],
     "gcp-video-intelligence": [
@@ -5813,13 +5817,13 @@
       },
       {
         "a": "gcp-performance-dashboard",
-        "b": "gcp-phishing-protection",
-        "similarity": 0.2101
+        "b": "aws-beanstalk-application",
+        "similarity": 0.2147
       },
       {
         "a": "gcp-performance-dashboard",
-        "b": "aws-redshift-dense-storage",
-        "similarity": 0.2079
+        "b": "gcp-phishing-protection",
+        "similarity": 0.2101
       }
     ],
     "gcp-network-connectivity-center": [
@@ -7088,13 +7092,13 @@
       },
       {
         "a": "gcp-financial-marketplace",
-        "b": "gcp-cloud-tpu",
-        "similarity": 0.2977
+        "b": "aws-ec2-ami",
+        "similarity": 0.2993
       },
       {
-        "a": "gcp-project",
-        "b": "gcp-financial-marketplace",
-        "similarity": 0.2866
+        "a": "gcp-financial-marketplace",
+        "b": "gcp-cloud-tpu",
+        "similarity": 0.2977
       }
     ],
     "gcp-early-access": [
@@ -7337,6 +7341,11 @@
     ],
     "gcp-access-context": [
       {
+        "a": "gcp-access-context",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2186
+      },
+      {
         "a": "gcp-datashare",
         "b": "gcp-access-context",
         "similarity": 0.2055
@@ -7345,11 +7354,6 @@
         "a": "m365-chart-multiple",
         "b": "gcp-access-context",
         "similarity": 0.2033
-      },
-      {
-        "a": "gcp-access-context",
-        "b": "fabric-database-crown",
-        "similarity": 0.1938
       }
     ],
     "gcp-binary-authorization": [
@@ -8266,8 +8270,8 @@
       },
       {
         "a": "gcp-quotas",
-        "b": "m365-task-list-ltr",
-        "similarity": 0.1674
+        "b": "aws-lambda-function",
+        "similarity": 0.1675
       }
     ],
     "gcp-cloud-tpu": [
@@ -9774,13 +9778,13 @@
       },
       {
         "a": "aws-opensearch-observability",
-        "b": "fabric-database-money",
-        "similarity": 0.2332
+        "b": "aws-ec2-ami",
+        "similarity": 0.2372
       },
       {
         "a": "aws-opensearch-observability",
-        "b": "aws-transform",
-        "similarity": 0.2304
+        "b": "fabric-database-money",
+        "similarity": 0.2332
       }
     ],
     "aws-opensearch-dashboards": [
@@ -11723,6 +11727,11 @@
     ],
     "aws-rekognition-image": [
       {
+        "a": "aws-rekognition-image",
+        "b": "aws-ec2-ami",
+        "similarity": 0.2959
+      },
+      {
         "a": "aws-redshift-dense-compute",
         "b": "aws-rekognition-image",
         "similarity": 0.2212
@@ -11731,11 +11740,6 @@
         "a": "gcp-financial-marketplace",
         "b": "aws-rekognition-image",
         "similarity": 0.2158
-      },
-      {
-        "a": "aws-rekognition-image",
-        "b": "aws-category-compute",
-        "similarity": 0.2143
       }
     ],
     "aws-rekognition-video": [
@@ -11937,9 +11941,9 @@
         "similarity": 0.3289
       },
       {
-        "a": "fabric-live-dashboard",
-        "b": "aws-bedrock-agentcore",
-        "similarity": 0.2924
+        "a": "aws-bedrock-agentcore",
+        "b": "aws-ec2-ami",
+        "similarity": 0.3006
       }
     ],
     "aws-sagemaker-ai": [
@@ -15077,14 +15081,14 @@
         "similarity": 0.261
       },
       {
+        "a": "aws-security-incident-response",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2596
+      },
+      {
         "a": "gcp-user-preferences",
         "b": "aws-security-incident-response",
         "similarity": 0.2328
-      },
-      {
-        "a": "azure-genomics-accounts",
-        "b": "aws-security-incident-response",
-        "similarity": 0.2214
       }
     ],
     "aws-audit-manager": [
@@ -15996,14 +16000,14 @@
         "similarity": 0.1378
       },
       {
+        "a": "m365-cloud-add",
+        "b": "aws-beanstalk-application",
+        "similarity": 0.1375
+      },
+      {
         "a": "gcp-profiler",
         "b": "m365-cloud-add",
         "similarity": 0.1178
-      },
-      {
-        "a": "aws-redshift-dense-compute",
-        "b": "m365-cloud-add",
-        "similarity": 0.1134
       }
     ],
     "m365-cloud-download": [
@@ -17463,6 +17467,74 @@
         "similarity": 0.4646
       }
     ],
+    "aws-beanstalk-application": [
+      {
+        "a": "azure-application-insights",
+        "b": "aws-beanstalk-application",
+        "similarity": 0.2365
+      },
+      {
+        "a": "gcp-category-web-mobile",
+        "b": "aws-beanstalk-application",
+        "similarity": 0.2328
+      },
+      {
+        "a": "aws-textract-lending",
+        "b": "aws-beanstalk-application",
+        "similarity": 0.2325
+      }
+    ],
+    "aws-beanstalk-deployment": [
+      {
+        "a": "aws-security-incident-response",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2596
+      },
+      {
+        "a": "azure-genomics-accounts",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2468
+      },
+      {
+        "a": "aws-sns-http-notification",
+        "b": "aws-beanstalk-deployment",
+        "similarity": 0.2337
+      }
+    ],
+    "aws-lambda-function": [
+      {
+        "a": "gcp-cloud-scheduler",
+        "b": "aws-lambda-function",
+        "similarity": 0.2246
+      },
+      {
+        "a": "aws-snowball-edge",
+        "b": "aws-lambda-function",
+        "similarity": 0.2232
+      },
+      {
+        "a": "fabric-data-warehouse",
+        "b": "aws-lambda-function",
+        "similarity": 0.2176
+      }
+    ],
+    "aws-ec2-ami": [
+      {
+        "a": "aws-bedrock-agentcore",
+        "b": "aws-ec2-ami",
+        "similarity": 0.3006
+      },
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-ec2-ami",
+        "similarity": 0.2993
+      },
+      {
+        "a": "aws-rekognition-image",
+        "b": "aws-ec2-ami",
+        "similarity": 0.2959
+      }
+    ],
     "aws-database-migration": [
       {
         "a": "gcp-tensorflow-enterprise",
@@ -18745,14 +18817,14 @@
         "similarity": 0.2477
       },
       {
+        "a": "aws-ec2-ami",
+        "b": "azure-load-testing",
+        "similarity": 0.2437
+      },
+      {
         "a": "aws-vpc-traffic-mirroring",
         "b": "azure-load-testing",
         "similarity": 0.2356
-      },
-      {
-        "a": "gcp-financial-marketplace",
-        "b": "azure-load-testing",
-        "similarity": 0.2272
       }
     ],
     "azure-devtest-labs": [
@@ -19340,14 +19412,14 @@
         "similarity": 0.2519
       },
       {
+        "a": "aws-ec2-ami",
+        "b": "azure-hosts",
+        "similarity": 0.2248
+      },
+      {
         "a": "aws-opensearch-ingestion",
         "b": "azure-hosts",
         "similarity": 0.2201
-      },
-      {
-        "a": "aws-category-storage",
-        "b": "azure-hosts",
-        "similarity": 0.2035
       }
     ],
     "fabric-cube-cone-sphere": [

@@ -3,6 +3,43 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-beanstalk-application", "aws", "Elastic Beanstalk Application", ["Res_AWS-Elastic-Beanstalk_Application_48"],
+    "An application grows on a managed platform.",
+    [
+      rect(15, 20, 67, 63), line([15, 32], [82, 32]), line([22, 26], [25, 26]), line([30, 26], [33, 26]),
+      line([27, 44], [21, 51], [27, 58]), line([40, 44], [46, 51], [40, 58]), line([37, 42], [31, 60]),
+      line([54, 72], [63, 64], [70, 70]), line([91, 104], [91, 62]),
+      line([91, 83], [79, 76], [75, 66], [87, 67], [91, 74]),
+      line([91, 70], [102, 62], [104, 51], [94, 55], [91, 62]), line([16, 113], [112, 113]),
+    ]),
+  entry("aws-beanstalk-deployment", "aws", "Elastic Beanstalk Deployment", ["Res_AWS-Elastic-Beanstalk_Deployment_48"],
+    "An application is deployed to a managed platform.",
+    [
+      rect(15, 23, 39, 39), line([15, 32], [54, 32]), line([24, 42], [19, 47], [24, 52]), line([39, 42], [44, 47], [39, 52]),
+      line([54, 43], [70, 43]), line([64, 37], [70, 43], [64, 49]),
+      line([72, 29], [111, 29], [111, 83], [72, 83], [72, 29]),
+      line([91, 73], [91, 46]), line([91, 60], [82, 54], [81, 46], [89, 49], [91, 55]),
+      line([91, 52], [99, 46], [101, 38], [94, 41], [91, 47]),
+      line([24, 98], [104, 98]), line([32, 104], [96, 104]),
+      line([16, 110], [112, 110]),
+    ]),
+  entry("aws-lambda-function", "aws", "Lambda Function", ["Res_AWS-Lambda_Lambda-Function_48"],
+    "An event triggers a single serverless function.",
+    [
+      oval(12, 49, 18, 18), line([21, 49], [21, 67]), line([12, 58], [30, 58]),
+      line([30, 58], [46, 58]), line([40, 52], [46, 58], [40, 64]),
+      line([51, 22], [99, 22], [110, 33], [110, 94], [51, 94], [51, 22]), line([99, 22], [99, 33], [110, 33]),
+      line([66, 45], [59, 53], [66, 61]), line([91, 45], [98, 53], [91, 61]), line([83, 42], [76, 64]), line([62, 76], [97, 76]),
+      line([15, 109], [112, 109]),
+    ]),
+  entry("aws-ec2-ami", "aws", "EC2 Amazon Machine Image", ["Res_Amazon-EC2_AMI_48"],
+    "A machine image is a reusable blueprint for instances.",
+    [
+      line([15, 18], [75, 18], [88, 31], [88, 88], [15, 88], [15, 18]), line([75, 18], [75, 31], [88, 31]),
+      rect(26, 39, 49, 37), line([26, 49], [75, 49]), line([32, 44], [35, 44]), line([39, 44], [42, 44]),
+      line([38, 58], [32, 63], [38, 68]), line([49, 68], [62, 68]),
+      line([94, 38], [106, 38], [106, 99], [27, 99]), line([15, 112], [112, 112]),
+    ]),
   entry("aws-database-migration", "aws", "AWS Database Migration Service", sizes("AWS-Database-Migration-Service"),
     "A table's records move into a destination database while the source remains available.",
     [
