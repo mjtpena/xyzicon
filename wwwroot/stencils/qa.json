@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 708,
-  "aliases": 2996,
+  "count": 712,
+  "aliases": 3012,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -486,6 +486,10 @@
     "aws-managed-prometheus",
     "aws-user-notifications",
     "aws-resilience-hub",
+    "aws-medialive",
+    "aws-mediaconvert",
+    "aws-mediapackage",
+    "aws-mediastore",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -805,8 +809,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 756,
-      "concepts": 187
+      "covered": 772,
+      "concepts": 191
     },
     "gcp": {
       "sources": 261,
@@ -8992,6 +8996,74 @@
         "similarity": 0.1745
       }
     ],
+    "aws-medialive": [
+      {
+        "a": "aws-kendra",
+        "b": "aws-medialive",
+        "similarity": 0.1631
+      },
+      {
+        "a": "gcp-filestore",
+        "b": "aws-medialive",
+        "similarity": 0.1603
+      },
+      {
+        "a": "aws-medialive",
+        "b": "fabric-database-forward",
+        "similarity": 0.1563
+      }
+    ],
+    "aws-mediaconvert": [
+      {
+        "a": "fabric-copy-job",
+        "b": "aws-mediaconvert",
+        "similarity": 0.2331
+      },
+      {
+        "a": "aws-mediaconvert",
+        "b": "m365-filmstrip-play",
+        "similarity": 0.205
+      },
+      {
+        "a": "aws-mediaconvert",
+        "b": "aws-dcv",
+        "similarity": 0.192
+      }
+    ],
+    "aws-mediapackage": [
+      {
+        "a": "aws-kendra",
+        "b": "aws-mediapackage",
+        "similarity": 0.1968
+      },
+      {
+        "a": "aws-mediapackage",
+        "b": "azure-batch-accounts",
+        "similarity": 0.1763
+      },
+      {
+        "a": "aws-mediapackage",
+        "b": "aws-amplify",
+        "similarity": 0.1703
+      }
+    ],
+    "aws-mediastore": [
+      {
+        "a": "gcp-bigtable",
+        "b": "aws-mediastore",
+        "similarity": 0.2533
+      },
+      {
+        "a": "m365-text-first-line",
+        "b": "aws-mediastore",
+        "similarity": 0.2392
+      },
+      {
+        "a": "dynamics-project-operations",
+        "b": "aws-mediastore",
+        "similarity": 0.2344
+      }
+    ],
     "m365-arrow-circle-left": [
       {
         "a": "m365-arrow-circle-left",
@@ -11191,9 +11263,9 @@
         "similarity": 0.1924
       },
       {
-        "a": "azure-language-understanding",
+        "a": "aws-mediaconvert",
         "b": "aws-dcv",
-        "similarity": 0.1914
+        "similarity": 0.192
       }
     ],
     "aws-elastic-vmware": [
@@ -11912,6 +11984,11 @@
     ],
     "fabric-add-pipeline": [
       {
+        "a": "aws-mediastore",
+        "b": "fabric-add-pipeline",
+        "similarity": 0.1815
+      },
+      {
         "a": "m365-mail-error",
         "b": "fabric-add-pipeline",
         "similarity": 0.1763
@@ -11920,11 +11997,6 @@
         "a": "fabric-add-pipeline",
         "b": "fabric-import-notebook",
         "similarity": 0.1689
-      },
-      {
-        "a": "aws-iot-greengrass",
-        "b": "fabric-add-pipeline",
-        "similarity": 0.1606
       }
     ],
     "fabric-folder": [
