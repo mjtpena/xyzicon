@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 50,
+  "approved": 49,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -11,6 +11,7 @@
     "m365-upload",
     "m365-download",
     "azure-detonation",
+    "azure-defender-easm",
     "azure-information-protection",
     "azure-application-security-groups",
     "azure-sentinel",
@@ -3376,18 +3377,18 @@
     "azure-detonation": [
       {
         "a": "azure-detonation",
-        "b": "azure-power",
-        "similarity": 0.3171
+        "b": "fabric-square-text",
+        "similarity": 0.3189
       },
       {
         "a": "azure-detonation",
-        "b": "azure-defender-easm",
-        "similarity": 0.3109
+        "b": "fabric-window-code",
+        "similarity": 0.2804
       },
       {
         "a": "azure-detonation",
-        "b": "azure-edge-actions",
-        "similarity": 0.2847
+        "b": "fabric-table-left-border",
+        "similarity": 0.268
       }
     ],
     "azure-defender-iot": [
@@ -3409,11 +3410,6 @@
     ],
     "azure-defender-easm": [
       {
-        "a": "azure-detonation",
-        "b": "azure-defender-easm",
-        "similarity": 0.3109
-      },
-      {
         "a": "azure-defender-easm",
         "b": "azure-power",
         "similarity": 0.3047
@@ -3422,6 +3418,11 @@
         "a": "azure-defender-easm",
         "b": "azure-aks-network-policy",
         "similarity": 0.2939
+      },
+      {
+        "a": "azure-defender-easm",
+        "b": "aws-mxnet",
+        "similarity": 0.2911
       }
     ],
     "azure-information-protection": [
@@ -25577,9 +25578,9 @@
         "similarity": 0.2654
       },
       {
-        "a": "azure-detonation",
-        "b": "aws-general-question",
-        "similarity": 0.2625
+        "a": "aws-general-question",
+        "b": "aws-general-globe",
+        "similarity": 0.2594
       }
     ],
     "aws-general-recover": [
@@ -33672,11 +33673,6 @@
     ],
     "azure-power": [
       {
-        "a": "azure-detonation",
-        "b": "azure-power",
-        "similarity": 0.3171
-      },
-      {
         "a": "aws-mxnet",
         "b": "azure-power",
         "similarity": 0.3166
@@ -33685,6 +33681,11 @@
         "a": "azure-power",
         "b": "azure-controls",
         "similarity": 0.3067
+      },
+      {
+        "a": "azure-defender-easm",
+        "b": "azure-power",
+        "similarity": 0.3047
       }
     ],
     "azure-powershell": [

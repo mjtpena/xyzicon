@@ -3,10 +3,17 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
   entry("azure-detonation", "azure", "Detonation", ["00378-icon-service-Detonation"],
-    "A magnifier inspects suspicious code.",
+    "A suspicious file is executed in an isolated test chamber.",
     [
-      oval(25, 16, 58, 58), line([34, 65], [14, 87]), line([30, 70], [19, 92]), line([14, 87], [19, 92]),
-      line([39, 38], [46, 42], [51, 38]), line([60, 38], [66, 42], [72, 38]), line([44, 54], [49, 59], [61, 59], [67, 54]), line([14, 110], [110, 110]),
+      line([16, 22], [16, 16], [25, 16]), line([38, 16], [50, 16]), line([63, 16], [75, 16]), line([88, 16], [109, 16], [109, 24]),
+      line([16, 34], [16, 46]), line([16, 59], [16, 71]), line([16, 84], [16, 100], [25, 100]),
+      line([109, 36], [109, 48]), line([109, 61], [109, 73]), line([109, 86], [109, 100], [96, 100]),
+      line([38, 100], [50, 100]), line([63, 100], [83, 100]),
+      line([29, 34], [51, 34], [59, 42], [59, 79], [29, 79], [29, 34]), line([50, 34], [50, 43], [59, 43]),
+      line([42, 51], [42, 62]), line([42, 69], [42, 70]),
+      line([66, 56], [75, 56]), line([70, 51], [75, 56], [70, 61]),
+      line([90, 38], [90, 47]), line([80, 43], [84, 49]), line([100, 43], [96, 49]), line([79, 58], [84, 58]), line([97, 58], [102, 58]), line([90, 66], [90, 74]),
+      line([14, 113], [111, 113]),
     ]),
   entry("azure-defender-iot", "azure", "Microsoft Defender for IoT", ["02247-icon-service-Microsoft-Defender-for-IoT"],
     "A shield protects a network of connected devices.",
