@@ -3,6 +3,61 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-vpc-peering", "aws", "VPC Peering Connection", ["Res_Amazon-VPC_Peering-Connection_48"],
+    "Two private networks exchange traffic directly.",
+    [
+      rect(10, 28, 38, 49), rect(78, 28, 38, 49), line([10, 39], [48, 39]), line([78, 39], [116, 39]), line([17, 50], [41, 50]), line([85, 50], [109, 50]),
+      line([49, 45], [77, 45]), line([71, 39], [77, 45], [71, 51]), line([77, 62], [49, 62]), line([55, 56], [49, 62], [55, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-reachability", "aws", "VPC Reachability Analyzer", ["Res_Amazon-VPC_Reachability-Analyzer_48"],
+    "An analyzer traces a network path between resources.",
+    [
+      rect(10, 26, 29, 22), rect(88, 63, 29, 22), line([39, 37], [60, 37], [60, 74], [88, 74]), line([82, 68], [88, 74], [82, 80]),
+      oval(49, 45, 28, 28), line([71, 67], [85, 81]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-router", "aws", "VPC Router", ["Res_Amazon-VPC_Router_48"],
+    "A router directs packets between network paths.",
+    [
+      oval(42, 34, 41, 41), line([12, 54], [42, 54]), line([35, 47], [42, 54], [35, 61]), line([63, 44], [63, 18]), line([56, 25], [63, 18], [70, 25]),
+      line([83, 54], [113, 54]), line([106, 47], [113, 54], [106, 61]), line([63, 75], [63, 95]), line([56, 88], [63, 95], [70, 88]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-vpn-connection", "aws", "VPC VPN Connection", ["Res_Amazon-VPC_VPN-Connection_48"],
+    "A VPN tunnel secures traffic between two networks.",
+    [
+      rect(10, 34, 30, 36), rect(88, 34, 30, 36), line([16, 44], [34, 44]), line([94, 44], [112, 44]),
+      line([40, 43], [88, 43]), line([40, 61], [88, 61]), rect(52, 48, 24, 21), line([57, 48], [57, 41], [60, 37], [65, 36], [70, 38], [71, 43], [71, 48]), oval(62, 54, 4, 4, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-vpc-vpn-gateway", "aws", "VPC VPN Gateway", ["Res_Amazon-VPC_VPN-Gateway_48"],
+    "A VPN gateway secures traffic entering a virtual network.",
+    [
+      line([11, 51], [40, 51]), line([33, 44], [40, 51], [33, 58]), line([43, 21], [43, 84]), line([55, 21], [55, 84]), line([43, 21], [55, 21]), line([43, 84], [55, 84]),
+      line([78, 23], [101, 31], [99, 56], [92, 70], [78, 80], [64, 70], [57, 56], [55, 31], [78, 23]), rect(69, 46, 18, 15), line([73, 46], [73, 42], [75, 38], [81, 38], [83, 42], [83, 46]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elb-application", "aws", "Application Load Balancer", ["Res_Elastic-Load-Balancing_Application-Load-Balancer_48"],
+    "An application load balancer routes requests to application targets.",
+    [
+      line([10, 52], [31, 52]), line([25, 46], [31, 52], [25, 58]), line([31, 52], [45, 37], [59, 52], [45, 67], [31, 52]),
+      line([59, 52], [68, 52], [68, 27], [82, 27]), line([68, 52], [68, 78], [82, 78]),
+      rect(83, 16, 32, 22), rect(83, 67, 32, 22), line([83, 23], [115, 23]), line([83, 74], [115, 74]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elb-classic", "aws", "Classic Load Balancer", ["Res_Elastic-Load-Balancing_Classic-Load-Balancer_48"],
+    "A classic load balancer distributes requests across instances.",
+    [
+      line([12, 52], [43, 52]), line([36, 45], [43, 52], [36, 59]), oval(43, 34, 36, 36), line([50, 52], [72, 52]), line([61, 41], [61, 63]),
+      line([79, 52], [90, 52], [90, 29]), line([90, 52], [90, 78]), rect(92, 18, 21, 21), rect(92, 67, 21, 21), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elb-gateway", "aws", "Gateway Load Balancer", ["Res_Elastic-Load-Balancing_Gateway-Load-Balancer_48"],
+    "A gateway load balancer distributes traffic to network appliances.",
+    [
+      line([10, 52], [38, 52]), line([31, 45], [38, 52], [31, 59]), line([40, 20], [40, 85]), line([52, 20], [52, 85]), line([40, 20], [52, 20]), line([40, 85], [52, 85]),
+      line([52, 52], [70, 52], [70, 28], [83, 28]), line([70, 52], [70, 77], [83, 77]), line([94, 17], [107, 22], [106, 32], [101, 39], [94, 43], [87, 39], [82, 32], [81, 22], [94, 17]), line([94, 66], [107, 71], [106, 81], [101, 88], [94, 92], [87, 88], [82, 81], [81, 71], [94, 66]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elb-network", "aws", "Network Load Balancer", ["Res_Elastic-Load-Balancing_Network-Load-Balancer_48"],
+    "A network load balancer distributes transport connections to targets.",
+    [
+      oval(12, 41, 22, 22), line([34, 52], [53, 52]), line([53, 52], [53, 26], [80, 26]), line([53, 52], [80, 52]), line([53, 52], [53, 78], [80, 78]),
+      oval(81, 17, 18, 18), oval(81, 43, 18, 18), oval(81, 69, 18, 18), line([99, 26], [112, 26]), line([99, 52], [112, 52]), line([99, 78], [112, 78]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-vpc-carrier-gateway", "aws", "VPC Carrier Gateway", ["Res_Amazon-VPC_Carrier-Gateway_48"],
     "A carrier gateway connects a VPC to a mobile network.",
     [
