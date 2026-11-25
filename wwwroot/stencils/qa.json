@@ -3,19 +3,22 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 54,
+  "approved": 51,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "azure-defender-iot",
     "azure-defender-easm",
     "azure-information-protection",
     "azure-user-settings",
     "azure-extended-security-updates",
     "azure-identity-secure-score",
+    "azure-risky-signins",
     "azure-risky-users",
+    "azure-multifactor-authentication",
     "azure-conditional-access",
     "azure-defender-cloud",
     "azure-arc-kubernetes",
@@ -3389,18 +3392,18 @@
     "azure-defender-iot": [
       {
         "a": "azure-defender-iot",
-        "b": "azure-extended-security-updates",
-        "similarity": 0.2794
-      },
-      {
-        "a": "azure-defender-iot",
-        "b": "azure-user-settings",
-        "similarity": 0.2689
-      },
-      {
-        "a": "azure-defender-iot",
         "b": "azure-application-security-groups",
         "similarity": 0.2688
+      },
+      {
+        "a": "azure-defender-iot",
+        "b": "aws-rds-blue-green",
+        "similarity": 0.2635
+      },
+      {
+        "a": "azure-defender-iot",
+        "b": "azure-traffic-manager-multistack",
+        "similarity": 0.257
       }
     ],
     "azure-defender-easm": [
@@ -3423,18 +3426,18 @@
     "azure-information-protection": [
       {
         "a": "azure-information-protection",
-        "b": "azure-multifactor-authentication",
-        "similarity": 0.4945
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.3438
       },
       {
         "a": "azure-information-protection",
-        "b": "aws-general-toolkit",
-        "similarity": 0.3529
+        "b": "aws-systems-incident-manager",
+        "similarity": 0.3401
       },
       {
         "a": "azure-information-protection",
-        "b": "azure-cost-management",
-        "similarity": 0.3052
+        "b": "aws-ecs-task",
+        "similarity": 0.3261
       }
     ],
     "azure-application-security-groups": [
@@ -3474,60 +3477,55 @@
     "azure-user-settings": [
       {
         "a": "azure-user-settings",
-        "b": "fabric-person-wrench",
-        "similarity": 0.3462
+        "b": "azure-static-apps",
+        "similarity": 0.3095
       },
       {
         "a": "azure-user-settings",
-        "b": "azure-risky-users",
-        "similarity": 0.3406
+        "b": "azure-notification-namespaces",
+        "similarity": 0.2994
       },
       {
         "a": "azure-user-settings",
-        "b": "azure-identity-licenses",
-        "similarity": 0.287
+        "b": "azure-storage-accounts-classic",
+        "similarity": 0.2923
       }
     ],
     "azure-extended-security-updates": [
       {
         "a": "azure-extended-security-updates",
-        "b": "azure-expressroute-circuits",
-        "similarity": 0.2884
+        "b": "azure-reserved-ip-classic",
+        "similarity": 0.4167
       },
       {
         "a": "azure-extended-security-updates",
-        "b": "azure-data-virtualization",
-        "similarity": 0.2841
+        "b": "aws-general-credentials",
+        "similarity": 0.3312
       },
       {
         "a": "azure-extended-security-updates",
-        "b": "azure-monitor-pipeline",
-        "similarity": 0.2829
+        "b": "azure-programmable-connectivity",
+        "similarity": 0.3261
       }
     ],
     "azure-identity-secure-score": [
       {
         "a": "azure-identity-secure-score",
-        "b": "aws-general-database",
-        "similarity": 0.2969
+        "b": "aws-ses-email",
+        "similarity": 0.1972
       },
       {
         "a": "azure-identity-secure-score",
-        "b": "aws-general-management-console",
-        "similarity": 0.2919
+        "b": "gcp-performance-dashboard",
+        "similarity": 0.1972
       },
       {
         "a": "azure-identity-secure-score",
-        "b": "aws-general-internet-wifi",
-        "similarity": 0.284
+        "b": "azure-tag",
+        "similarity": 0.197
       }
     ],
     "azure-risky-signins": [
-      {
-        "a": "azure-risky-signins",
-        "b": "azure-risky-users",
-        "similarity": 0.4094
-      },
       {
         "a": "azure-risky-signins",
         "b": "azure-power",
@@ -3537,31 +3535,31 @@
         "a": "azure-risky-signins",
         "b": "azure-module",
         "similarity": 0.2949
+      },
+      {
+        "a": "azure-risky-signins",
+        "b": "azure-network-connections",
+        "similarity": 0.2933
       }
     ],
     "azure-risky-users": [
       {
-        "a": "azure-risky-signins",
-        "b": "azure-risky-users",
-        "similarity": 0.4094
-      },
-      {
-        "a": "azure-user-settings",
-        "b": "azure-risky-users",
-        "similarity": 0.3406
+        "a": "azure-risky-users",
+        "b": "azure-managed-file-shares",
+        "similarity": 0.3274
       },
       {
         "a": "azure-risky-users",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2959
+        "b": "fabric-person-wrench",
+        "similarity": 0.2937
+      },
+      {
+        "a": "azure-risky-users",
+        "b": "azure-expressroute-circuits",
+        "similarity": 0.2935
       }
     ],
     "azure-multifactor-authentication": [
-      {
-        "a": "azure-information-protection",
-        "b": "azure-multifactor-authentication",
-        "similarity": 0.4945
-      },
       {
         "a": "azure-multifactor-authentication",
         "b": "azure-file",
@@ -3571,6 +3569,11 @@
         "a": "azure-multifactor-authentication",
         "b": "azure-universal-print",
         "similarity": 0.3628
+      },
+      {
+        "a": "azure-multifactor-authentication",
+        "b": "aws-general-user",
+        "similarity": 0.3542
       }
     ],
     "azure-conditional-access": [
@@ -3585,9 +3588,9 @@
         "similarity": 0.3091
       },
       {
-        "a": "azure-information-protection",
-        "b": "azure-conditional-access",
-        "similarity": 0.2971
+        "a": "azure-conditional-access",
+        "b": "azure-defender-cloud",
+        "similarity": 0.2963
       }
     ],
     "azure-defender-cloud": [
@@ -3694,6 +3697,11 @@
     ],
     "azure-programmable-connectivity": [
       {
+        "a": "azure-extended-security-updates",
+        "b": "azure-programmable-connectivity",
+        "similarity": 0.3261
+      },
+      {
         "a": "azure-programmable-connectivity",
         "b": "azure-dns-security-policy",
         "similarity": 0.3197
@@ -3702,11 +3710,6 @@
         "a": "azure-programmable-connectivity",
         "b": "azure-hpc-cache",
         "similarity": 0.282
-      },
-      {
-        "a": "azure-programmable-connectivity",
-        "b": "azure-data-virtualization",
-        "similarity": 0.2801
       }
     ],
     "azure-local": [
@@ -4170,11 +4173,6 @@
     ],
     "azure-encrypted-transport": [
       {
-        "a": "azure-information-protection",
-        "b": "azure-encrypted-transport",
-        "similarity": 0.2185
-      },
-      {
         "a": "azure-encrypted-transport",
         "b": "m365-folder-open-vertical",
         "similarity": 0.2146
@@ -4183,6 +4181,11 @@
         "a": "azure-encrypted-transport",
         "b": "m365-people",
         "similarity": 0.2138
+      },
+      {
+        "a": "azure-encrypted-transport",
+        "b": "aws-eventbridge-schema-registry",
+        "similarity": 0.2112
       }
     ],
     "azure-ai-manager": [
@@ -6334,14 +6337,14 @@
         "similarity": 0.2508
       },
       {
-        "a": "azure-identity-secure-score",
-        "b": "azure-ddos-plans",
-        "similarity": 0.2478
-      },
-      {
         "a": "azure-ddos-plans",
         "b": "azure-local-network-gateway",
         "similarity": 0.2436
+      },
+      {
+        "a": "azure-ddos-plans",
+        "b": "azure-route-filters",
+        "similarity": 0.2413
       }
     ],
     "azure-data-factory": [
@@ -8782,14 +8785,14 @@
         "similarity": 0.2661
       },
       {
-        "a": "gcp-cloud-apis",
-        "b": "azure-biztalk",
-        "similarity": 0.2589
+        "a": "azure-risky-users",
+        "b": "gcp-cloud-apis",
+        "similarity": 0.2619
       },
       {
         "a": "gcp-cloud-apis",
-        "b": "azure-edge-actions",
-        "similarity": 0.2586
+        "b": "azure-biztalk",
+        "similarity": 0.2589
       }
     ],
     "gcp-cloud-inference": [
@@ -11660,9 +11663,9 @@
         "similarity": 0.2878
       },
       {
-        "a": "azure-extended-security-updates",
+        "a": "azure-import-export-jobs",
         "b": "azure-data-virtualization",
-        "similarity": 0.2841
+        "similarity": 0.2834
       }
     ],
     "azure-storage-hubs": [
@@ -11706,14 +11709,14 @@
         "similarity": 0.3284
       },
       {
-        "a": "azure-managed-file-shares",
-        "b": "azure-media-service",
-        "similarity": 0.3191
+        "a": "azure-risky-users",
+        "b": "azure-managed-file-shares",
+        "similarity": 0.3274
       },
       {
         "a": "azure-managed-file-shares",
-        "b": "azure-file-shares",
-        "similarity": 0.304
+        "b": "azure-media-service",
+        "similarity": 0.3191
       }
     ],
     "azure-file-shares": [
@@ -12053,14 +12056,14 @@
         "similarity": 0.2923
       },
       {
+        "a": "azure-extended-security-updates",
+        "b": "azure-instance-pools",
+        "similarity": 0.2871
+      },
+      {
         "a": "azure-edge-storage-accelerator",
         "b": "azure-instance-pools",
         "similarity": 0.2818
-      },
-      {
-        "a": "azure-instance-pools",
-        "b": "azure-workspaces-select",
-        "similarity": 0.281
       }
     ],
     "azure-sql-registries": [
@@ -12262,9 +12265,9 @@
         "similarity": 0.1417
       },
       {
-        "a": "azure-information-protection",
+        "a": "gcp-cloud-vpn",
         "b": "azure-lake-analytics",
-        "similarity": 0.1384
+        "similarity": 0.1379
       }
     ],
     "azure-lake-store": [
@@ -15635,6 +15638,11 @@
     ],
     "azure-security-baselines": [
       {
+        "a": "azure-user-settings",
+        "b": "azure-security-baselines",
+        "similarity": 0.2199
+      },
+      {
         "a": "azure-security-baselines",
         "b": "aws-iot-alexa-skill",
         "similarity": 0.2185
@@ -15643,11 +15651,6 @@
         "a": "azure-security-baselines",
         "b": "aws-cloudwatch-cross-account",
         "similarity": 0.217
-      },
-      {
-        "a": "azure-software-updates",
-        "b": "azure-security-baselines",
-        "similarity": 0.2109
       }
     ],
     "azure-device-enrollment": [
@@ -15805,11 +15808,6 @@
     ],
     "azure-identity-groups": [
       {
-        "a": "azure-identity-secure-score",
-        "b": "azure-identity-groups",
-        "similarity": 0.2182
-      },
-      {
         "a": "azure-identity-groups",
         "b": "aws-systems-maintenance-windows",
         "similarity": 0.2148
@@ -15818,6 +15816,11 @@
         "a": "azure-identity-groups",
         "b": "azure-bare-metal-infrastructure",
         "similarity": 0.2141
+      },
+      {
+        "a": "azure-identity-groups",
+        "b": "aws-iot-thing-bank",
+        "similarity": 0.2135
       }
     ],
     "azure-entra-connect-health": [
@@ -16213,19 +16216,19 @@
     ],
     "azure-identity-licenses": [
       {
-        "a": "azure-user-settings",
-        "b": "azure-identity-licenses",
-        "similarity": 0.287
-      },
-      {
-        "a": "azure-risky-users",
-        "b": "azure-identity-licenses",
-        "similarity": 0.2723
-      },
-      {
         "a": "azure-identity-licenses",
         "b": "azure-builds",
         "similarity": 0.2365
+      },
+      {
+        "a": "azure-identity-licenses",
+        "b": "azure-center-sap",
+        "similarity": 0.2288
+      },
+      {
+        "a": "azure-identity-licenses",
+        "b": "fabric-person-wrench",
+        "similarity": 0.2267
       }
     ],
     "azure-entra-connect": [
@@ -18066,6 +18069,11 @@
     ],
     "azure-dns-multistack": [
       {
+        "a": "azure-extended-security-updates",
+        "b": "azure-dns-multistack",
+        "similarity": 0.3002
+      },
+      {
         "a": "azure-dns-multistack",
         "b": "azure-files",
         "similarity": 0.2999
@@ -18074,11 +18082,6 @@
         "a": "gcp-analytics-hub",
         "b": "azure-dns-multistack",
         "similarity": 0.2968
-      },
-      {
-        "a": "aws-dynamodb-global-secondary-index",
-        "b": "azure-dns-multistack",
-        "similarity": 0.2943
       }
     ],
     "azure-traffic-manager-multistack": [
@@ -19256,11 +19259,6 @@
     ],
     "azure-template-specs": [
       {
-        "a": "azure-information-protection",
-        "b": "azure-template-specs",
-        "similarity": 0.2607
-      },
-      {
         "a": "azure-conditional-access",
         "b": "azure-template-specs",
         "similarity": 0.2581
@@ -19269,6 +19267,11 @@
         "a": "azure-template-specs",
         "b": "aws-systems-patch-manager",
         "similarity": 0.25
+      },
+      {
+        "a": "azure-information-protection",
+        "b": "azure-template-specs",
+        "similarity": 0.2338
       }
     ],
     "azure-backup-vault": [
@@ -21051,9 +21054,9 @@
         "similarity": 0.2432
       },
       {
-        "a": "azure-information-protection",
-        "b": "aws-iot-thing-thermostat",
-        "similarity": 0.2426
+        "a": "aws-iot-thing-thermostat",
+        "b": "aws-gateway-virtual-tape-library",
+        "similarity": 0.2417
       }
     ],
     "aws-iot-thing-stacklight": [
@@ -21289,9 +21292,9 @@
         "similarity": 0.2329
       },
       {
-        "a": "azure-identity-secure-score",
-        "b": "aws-iot-thing-lightbulb",
-        "similarity": 0.222
+        "a": "aws-iot-thing-lightbulb",
+        "b": "aws-backup-cloudformation",
+        "similarity": 0.2191
       }
     ],
     "aws-s3-on-outposts-resource": [
@@ -22921,9 +22924,9 @@
         "similarity": 0.2209
       },
       {
-        "a": "azure-information-protection",
-        "b": "fabric-one-lake",
-        "similarity": 0.2054
+        "a": "fabric-one-lake",
+        "b": "aws-general-data-table",
+        "similarity": 0.2048
       }
     ],
     "aws-cloud9-resource": [
@@ -23698,14 +23701,14 @@
         "similarity": 0.1767
       },
       {
-        "a": "azure-identity-secure-score",
-        "b": "aws-iq",
-        "similarity": 0.1706
-      },
-      {
         "a": "aws-tensorflow",
         "b": "aws-iq",
         "similarity": 0.1623
+      },
+      {
+        "a": "fabric-planning",
+        "b": "aws-iq",
+        "similarity": 0.161
       }
     ],
     "aws-managed-services": [
@@ -24650,14 +24653,14 @@
         "similarity": 0.4522
       },
       {
-        "a": "aws-cloudwatch-data-protection",
-        "b": "aws-systems-patch-manager",
-        "similarity": 0.3094
+        "a": "azure-information-protection",
+        "b": "aws-cloudwatch-data-protection",
+        "similarity": 0.3136
       },
       {
         "a": "aws-cloudwatch-data-protection",
-        "b": "aws-certificate-authority",
-        "similarity": 0.3088
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.3094
       }
     ],
     "aws-cloudwatch-event-based": [
@@ -24866,6 +24869,11 @@
     ],
     "aws-systems-patch-manager": [
       {
+        "a": "azure-information-protection",
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.3438
+      },
+      {
         "a": "aws-trusted-advisor-checklist",
         "b": "aws-systems-patch-manager",
         "similarity": 0.3299
@@ -24874,11 +24882,6 @@
         "a": "aws-cloudwatch-data-protection",
         "b": "aws-systems-patch-manager",
         "similarity": 0.3094
-      },
-      {
-        "a": "azure-operation-log-classic",
-        "b": "aws-systems-patch-manager",
-        "similarity": 0.2936
       }
     ],
     "aws-systems-run-command": [
@@ -25364,14 +25367,14 @@
         "similarity": 0.3839
       },
       {
-        "a": "azure-information-protection",
-        "b": "aws-general-toolkit",
-        "similarity": 0.3529
-      },
-      {
         "a": "azure-service-endpoint-policies",
         "b": "aws-general-toolkit",
         "similarity": 0.322
+      },
+      {
+        "a": "aws-general-toolkit",
+        "b": "aws-aurora-instance",
+        "similarity": 0.3174
       }
     ],
     "aws-general-user": [
@@ -25534,14 +25537,14 @@
         "similarity": 0.2898
       },
       {
-        "a": "azure-identity-secure-score",
-        "b": "aws-general-office-building",
-        "similarity": 0.2789
-      },
-      {
         "a": "aws-general-office-building",
         "b": "azure-counter",
         "similarity": 0.2787
+      },
+      {
+        "a": "aws-general-office-building",
+        "b": "aws-thinkbox-xmesh",
+        "similarity": 0.2783
       }
     ],
     "aws-general-programming-language": [
@@ -25891,14 +25894,14 @@
         "similarity": 0.3053
       },
       {
-        "a": "azure-identity-secure-score",
-        "b": "aws-general-database",
-        "similarity": 0.2969
-      },
-      {
         "a": "azure-planetary-computer",
         "b": "aws-general-database",
         "similarity": 0.2861
+      },
+      {
+        "a": "aws-general-database",
+        "b": "azure-power",
+        "similarity": 0.2848
       }
     ],
     "aws-general-disk": [
@@ -26498,6 +26501,11 @@
     ],
     "aws-thinkbox-krakatoa": [
       {
+        "a": "azure-extended-security-updates",
+        "b": "aws-thinkbox-krakatoa",
+        "similarity": 0.3075
+      },
+      {
         "a": "aws-thinkbox-krakatoa",
         "b": "aws-iam-roles-anywhere",
         "similarity": 0.2945
@@ -26506,11 +26514,6 @@
         "a": "azure-public-ip-prefixes",
         "b": "aws-thinkbox-krakatoa",
         "similarity": 0.29
-      },
-      {
-        "a": "aws-thinkbox-frost",
-        "b": "aws-thinkbox-krakatoa",
-        "similarity": 0.2807
       }
     ],
     "aws-thinkbox-stoke": [
@@ -27188,9 +27191,9 @@
         "similarity": 0.3339
       },
       {
-        "a": "aws-braket-simulator-2",
+        "a": "azure-information-protection",
         "b": "aws-iam-encrypted-data",
-        "similarity": 0.3022
+        "similarity": 0.3165
       }
     ],
     "aws-iam-mfa-token": [
@@ -28010,9 +28013,9 @@
         "similarity": 0.157
       },
       {
-        "a": "gcp-eventarc",
+        "a": "azure-identity-secure-score",
         "b": "m365-arrow-sync",
-        "similarity": 0.1374
+        "similarity": 0.1468
       }
     ],
     "m365-check": [
@@ -30330,6 +30333,11 @@
     ],
     "fabric-arrow-right-double": [
       {
+        "a": "azure-extended-security-updates",
+        "b": "fabric-arrow-right-double",
+        "similarity": 0.2158
+      },
+      {
         "a": "gcp-data-transfer",
         "b": "fabric-arrow-right-double",
         "similarity": 0.2153
@@ -30338,11 +30346,6 @@
         "a": "aws-sqs",
         "b": "fabric-arrow-right-double",
         "similarity": 0.2131
-      },
-      {
-        "a": "fabric-arrow-right-double",
-        "b": "aws-category-blockchain",
-        "similarity": 0.2037
       }
     ],
     "fabric-arrow-right-double-wrap": [
@@ -31123,14 +31126,14 @@
         "similarity": 0.3377
       },
       {
-        "a": "aws-ecs-task",
-        "b": "azure-file",
-        "similarity": 0.2827
+        "a": "azure-information-protection",
+        "b": "aws-ecs-task",
+        "similarity": 0.3261
       },
       {
         "a": "aws-ecs-task",
-        "b": "fabric-document-hint",
-        "similarity": 0.2799
+        "b": "azure-file",
+        "similarity": 0.2827
       }
     ],
     "aws-eks-outposts": [
@@ -32998,9 +33001,9 @@
         "similarity": 0.2065
       },
       {
-        "a": "azure-user-settings",
+        "a": "aws-cloudfront-edge-location",
         "b": "azure-community-images",
-        "similarity": 0.2058
+        "similarity": 0.2042
       }
     ],
     "azure-vm-image-version": [
@@ -34421,14 +34424,14 @@
         "similarity": 0.2042
       },
       {
+        "a": "azure-identity-secure-score",
+        "b": "azure-tag",
+        "similarity": 0.197
+      },
+      {
         "a": "azure-network-security-hub",
         "b": "azure-tag",
         "similarity": 0.1851
-      },
-      {
-        "a": "aws-beanstalk-application",
-        "b": "azure-tag",
-        "similarity": 0.1818
       }
     ],
     "azure-dashboard": [
@@ -35106,9 +35109,9 @@
         "similarity": 0.3205
       },
       {
-        "a": "azure-storage-hubs",
+        "a": "azure-extended-security-updates",
         "b": "azure-workspaces-select",
-        "similarity": 0.3063
+        "similarity": 0.3076
       }
     ],
     "azure-stage-maps": [
@@ -35803,9 +35806,9 @@
         "similarity": 0.2943
       },
       {
-        "a": "azure-browser",
+        "a": "azure-extended-security-updates",
         "b": "azure-hosts",
-        "similarity": 0.2813
+        "similarity": 0.2887
       }
     ],
     "fabric-cube-cone-sphere": [
@@ -36398,9 +36401,9 @@
         "similarity": 0.2743
       },
       {
-        "a": "azure-user-settings",
-        "b": "fabric-diagram-branch-link",
-        "similarity": 0.2598
+        "a": "fabric-diagram-branch-link",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2495
       }
     ],
     "fabric-diagram-arrows": [
@@ -36507,6 +36510,11 @@
     ],
     "fabric-shapes-forward-arrow": [
       {
+        "a": "azure-risky-users",
+        "b": "fabric-shapes-forward-arrow",
+        "similarity": 0.2881
+      },
+      {
         "a": "azure-expressroute-circuits",
         "b": "fabric-shapes-forward-arrow",
         "similarity": 0.287
@@ -36515,11 +36523,6 @@
         "a": "fabric-shapes-forward-arrow",
         "b": "fabric-endpoint",
         "similarity": 0.2673
-      },
-      {
-        "a": "azure-api-center",
-        "b": "fabric-shapes-forward-arrow",
-        "similarity": 0.2669
       }
     ],
     "fabric-equal": [
@@ -37009,7 +37012,7 @@
         "similarity": 0.2554
       },
       {
-        "a": "azure-information-protection",
+        "a": "azure-universal-print",
         "b": "fabric-sql-lock",
         "similarity": 0.2456
       }
@@ -37021,14 +37024,14 @@
         "similarity": 0.3846
       },
       {
-        "a": "azure-user-settings",
-        "b": "fabric-person-warning",
-        "similarity": 0.2296
-      },
-      {
         "a": "azure-identity-licenses",
         "b": "fabric-person-warning",
         "similarity": 0.2217
+      },
+      {
+        "a": "azure-general-workflow",
+        "b": "fabric-person-warning",
+        "similarity": 0.2189
       }
     ],
     "fabric-person-wrench": [
@@ -37038,14 +37041,14 @@
         "similarity": 0.3846
       },
       {
-        "a": "azure-user-settings",
-        "b": "fabric-person-wrench",
-        "similarity": 0.3462
-      },
-      {
         "a": "fabric-diagram-branch-link",
         "b": "fabric-person-wrench",
         "similarity": 0.3105
+      },
+      {
+        "a": "azure-risky-users",
+        "b": "fabric-person-wrench",
+        "similarity": 0.2937
       }
     ],
     "fabric-phone-data-bars": [
@@ -38461,19 +38464,19 @@
     ],
     "fabric-sample-workload": [
       {
-        "a": "azure-risky-users",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2959
-      },
-      {
         "a": "azure-conditional-access",
         "b": "fabric-sample-workload",
         "similarity": 0.2765
       },
       {
-        "a": "azure-user-settings",
+        "a": "azure-cloud-services-classic",
         "b": "fabric-sample-workload",
-        "similarity": 0.2756
+        "similarity": 0.2715
+      },
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2712
       }
     ],
     "fabric-industry-solutions": [
@@ -39905,9 +39908,9 @@
         "similarity": 0.2461
       },
       {
-        "a": "azure-user-settings",
+        "a": "azure-risky-users",
         "b": "fabric-border-none-eye",
-        "similarity": 0.233
+        "similarity": 0.2336
       }
     ],
     "fabric-calculator-brackets": [
