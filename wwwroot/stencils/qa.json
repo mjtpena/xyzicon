@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1766,
-  "aliases": 4932,
+  "count": 1776,
+  "aliases": 4942,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -891,6 +891,16 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
+    "aws-iot-thing-industrial-pc",
+    "aws-iot-thing-plc",
+    "aws-iot-thing-relay",
+    "aws-iot-thing-freertos",
+    "aws-iot-thing-generic",
+    "aws-iot-hardware-board",
+    "aws-iot-thing-travel",
+    "aws-iot-thing-utility",
+    "aws-iot-sailboat",
+    "aws-iot-sensor",
     "aws-iot-thing-humidity-sensor",
     "aws-iot-thing-temperature-sensor",
     "aws-iot-thing-temperature-humidity",
@@ -2066,8 +2076,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1549,
-      "concepts": 504
+      "covered": 1559,
+      "concepts": 514
     },
     "gcp": {
       "sources": 261,
@@ -3228,8 +3238,8 @@
       },
       {
         "a": "azure-operator-5g-core",
-        "b": "azure-cognitive-search",
-        "similarity": 0.301
+        "b": "aws-iot-thing-relay",
+        "similarity": 0.3023
       }
     ],
     "azure-operator-nexus": [
@@ -3932,6 +3942,11 @@
     "azure-api-management": [
       {
         "a": "azure-api-management",
+        "b": "aws-iot-thing-plc",
+        "similarity": 0.1966
+      },
+      {
+        "a": "azure-api-management",
         "b": "m365-script",
         "similarity": 0.1949
       },
@@ -3939,11 +3954,6 @@
         "a": "azure-api-management",
         "b": "azure-table",
         "similarity": 0.1909
-      },
-      {
-        "a": "azure-api-management",
-        "b": "aws-category-networking",
-        "similarity": 0.1895
       }
     ],
     "azure-app-services": [
@@ -5008,13 +5018,13 @@
       },
       {
         "a": "m365-call",
-        "b": "azure-storage-explorer",
-        "similarity": 0.1111
+        "b": "aws-iot-hardware-board",
+        "similarity": 0.1116
       },
       {
         "a": "m365-call",
-        "b": "m365-text-bullet-list",
-        "similarity": 0.1109
+        "b": "azure-storage-explorer",
+        "similarity": 0.1111
       }
     ],
     "m365-camera": [
@@ -6079,13 +6089,13 @@
       },
       {
         "a": "aws-lake-formation",
-        "b": "aws-general-data-table",
-        "similarity": 0.2164
+        "b": "aws-iot-thing-plc",
+        "similarity": 0.2258
       },
       {
         "a": "aws-lake-formation",
-        "b": "gcp-catalog",
-        "similarity": 0.2047
+        "b": "aws-general-data-table",
+        "similarity": 0.2164
       }
     ],
     "aws-data-firehose": [
@@ -6237,8 +6247,8 @@
       },
       {
         "a": "aws-ses",
-        "b": "aws-compute-optimizer",
-        "similarity": 0.1762
+        "b": "aws-iot-thing-generic",
+        "similarity": 0.1845
       }
     ],
     "aws-textract": [
@@ -10103,6 +10113,11 @@
     "m365-laptop": [
       {
         "a": "m365-laptop",
+        "b": "aws-iot-thing-utility",
+        "similarity": 0.2547
+      },
+      {
+        "a": "m365-laptop",
         "b": "aws-elemental-appliances",
         "similarity": 0.2536
       },
@@ -10110,11 +10125,6 @@
         "a": "m365-laptop",
         "b": "aws-ground-truth",
         "similarity": 0.2454
-      },
-      {
-        "a": "m365-laptop",
-        "b": "aws-elastic-beanstalk",
-        "similarity": 0.233
       }
     ],
     "m365-tablet": [
@@ -10180,9 +10190,9 @@
         "similarity": 0.2593
       },
       {
-        "a": "gcp-cloud-scheduler",
-        "b": "m365-script",
-        "similarity": 0.2503
+        "a": "m365-script",
+        "b": "aws-iot-thing-plc",
+        "similarity": 0.2517
       }
     ],
     "m365-question": [
@@ -10997,8 +11007,8 @@
       },
       {
         "a": "azure-netapp-files",
-        "b": "aws-backup",
-        "similarity": 0.3619
+        "b": "aws-iot-hardware-board",
+        "similarity": 0.3818
       }
     ],
     "azure-data-share-invitations": [
@@ -11678,14 +11688,14 @@
         "similarity": 0.2329
       },
       {
+        "a": "azure-lake-store",
+        "b": "aws-iot-thing-freertos",
+        "similarity": 0.2234
+      },
+      {
         "a": "gcp-container-optimized-os",
         "b": "azure-lake-store",
         "similarity": 0.1984
-      },
-      {
-        "a": "azure-logic-apps-template",
-        "b": "azure-lake-store",
-        "similarity": 0.1958
       }
     ],
     "azure-sql-warehouse": [
@@ -11980,6 +11990,11 @@
     "aws-dynamodb-attributes": [
       {
         "a": "aws-dynamodb-attributes",
+        "b": "aws-iot-thing-generic",
+        "similarity": 0.2603
+      },
+      {
+        "a": "aws-dynamodb-attributes",
         "b": "azure-media-file",
         "similarity": 0.2455
       },
@@ -11987,11 +12002,6 @@
         "a": "aws-dynamodb-attributes",
         "b": "azure-backlog",
         "similarity": 0.237
-      },
-      {
-        "a": "aws-dynamodb-attributes",
-        "b": "aws-general-servers",
-        "similarity": 0.2339
       }
     ],
     "aws-dynamodb-item": [
@@ -12001,14 +12011,14 @@
         "similarity": 0.3147
       },
       {
+        "a": "aws-dynamodb-item",
+        "b": "aws-iot-thing-plc",
+        "similarity": 0.2864
+      },
+      {
         "a": "m365-shopping-bag",
         "b": "aws-dynamodb-item",
         "similarity": 0.2832
-      },
-      {
-        "a": "aws-dynamodb-item",
-        "b": "aws-dynamodb-table",
-        "similarity": 0.2642
       }
     ],
     "aws-dynamodb-items": [
@@ -13361,14 +13371,14 @@
         "similarity": 0.1754
       },
       {
+        "a": "fabric-shared-semantic",
+        "b": "aws-iot-sailboat",
+        "similarity": 0.1669
+      },
+      {
         "a": "m365-payment",
         "b": "fabric-shared-semantic",
         "similarity": 0.1569
-      },
-      {
-        "a": "fabric-shared-semantic",
-        "b": "fabric-diagram-branch",
-        "similarity": 0.1567
       }
     ],
     "fabric-spark-job": [
@@ -15033,8 +15043,8 @@
       },
       {
         "a": "azure-software-updates",
-        "b": "azure-exchange-access",
-        "similarity": 0.3041
+        "b": "aws-iot-thing-industrial-pc",
+        "similarity": 0.3122
       }
     ],
     "azure-security-baselines": [
@@ -15610,9 +15620,9 @@
         "similarity": 0.2432
       },
       {
-        "a": "gcp-database-migration",
-        "b": "azure-custom-identity-roles",
-        "similarity": 0.2159
+        "a": "azure-custom-identity-roles",
+        "b": "aws-iot-thing-relay",
+        "similarity": 0.2213
       }
     ],
     "azure-identity-licenses": [
@@ -16167,13 +16177,13 @@
       },
       {
         "a": "azure-genomics",
-        "b": "fabric-vehicle-subway",
-        "similarity": 0.1727
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.1732
       },
       {
         "a": "azure-genomics",
-        "b": "aws-gamelift-servers",
-        "similarity": 0.1699
+        "b": "fabric-vehicle-subway",
+        "similarity": 0.1727
       }
     ],
     "azure-computer-vision": [
@@ -16494,9 +16504,9 @@
         "similarity": 0.3039
       },
       {
-        "a": "gcp-container-optimized-os",
-        "b": "azure-stack-hci-sizer",
-        "similarity": 0.2947
+        "a": "azure-stack-hci-sizer",
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.3001
       }
     ],
     "azure-stack-hci-premium": [
@@ -16591,14 +16601,14 @@
         "similarity": 0.4318
       },
       {
+        "a": "azure-iot-central-applications",
+        "b": "aws-iot-thing-industrial-pc",
+        "similarity": 0.2991
+      },
+      {
         "a": "azure-application-insights",
         "b": "azure-iot-central-applications",
         "similarity": 0.2884
-      },
-      {
-        "a": "azure-iot-central-applications",
-        "b": "azure-code-optimization",
-        "similarity": 0.2821
       }
     ],
     "azure-maps-accounts": [
@@ -16694,13 +16704,13 @@
       },
       {
         "a": "azure-windows-core-services",
-        "b": "aws-general-client",
-        "similarity": 0.2427
+        "b": "aws-iot-thing-generic",
+        "similarity": 0.2468
       },
       {
         "a": "azure-windows-core-services",
-        "b": "azure-branch",
-        "similarity": 0.2354
+        "b": "aws-general-client",
+        "similarity": 0.2427
       }
     ],
     "azure-device-provisioning": [
@@ -16978,6 +16988,11 @@
     "azure-advisor": [
       {
         "a": "azure-advisor",
+        "b": "aws-iot-thing-relay",
+        "similarity": 0.3218
+      },
+      {
+        "a": "azure-advisor",
         "b": "azure-blueprints",
         "similarity": 0.3128
       },
@@ -16985,11 +17000,6 @@
         "a": "azure-tenant-properties",
         "b": "azure-advisor",
         "similarity": 0.2956
-      },
-      {
-        "a": "azure-advisor",
-        "b": "azure-extensions",
-        "similarity": 0.2913
       }
     ],
     "azure-blueprints": [
@@ -17033,14 +17043,14 @@
         "similarity": 0.3627
       },
       {
+        "a": "azure-governance-compliance",
+        "b": "aws-iot-thing-utility",
+        "similarity": 0.3301
+      },
+      {
         "a": "azure-service-catalog-mad",
         "b": "azure-governance-compliance",
         "similarity": 0.2897
-      },
-      {
-        "a": "azure-governance-compliance",
-        "b": "azure-images",
-        "similarity": 0.2778
       }
     ],
     "azure-my-customers": [
@@ -17162,6 +17172,176 @@
         "similarity": 0.3262
       }
     ],
+    "aws-iot-thing-industrial-pc": [
+      {
+        "a": "aws-iot-thing-industrial-pc",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.3187
+      },
+      {
+        "a": "azure-software-updates",
+        "b": "aws-iot-thing-industrial-pc",
+        "similarity": 0.3122
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "aws-iot-thing-industrial-pc",
+        "similarity": 0.2991
+      }
+    ],
+    "aws-iot-thing-plc": [
+      {
+        "a": "aws-iot-thing-plc",
+        "b": "azure-blob-block",
+        "similarity": 0.3248
+      },
+      {
+        "a": "aws-iot-thing-plc",
+        "b": "aws-iot-thing-medical-emergency",
+        "similarity": 0.3003
+      },
+      {
+        "a": "aws-iot-thing-plc",
+        "b": "aws-general-json-script",
+        "similarity": 0.2888
+      }
+    ],
+    "aws-iot-thing-relay": [
+      {
+        "a": "azure-advisor",
+        "b": "aws-iot-thing-relay",
+        "similarity": 0.3218
+      },
+      {
+        "a": "azure-blueprints",
+        "b": "aws-iot-thing-relay",
+        "similarity": 0.3062
+      },
+      {
+        "a": "azure-operator-5g-core",
+        "b": "aws-iot-thing-relay",
+        "similarity": 0.3023
+      }
+    ],
+    "aws-iot-thing-freertos": [
+      {
+        "a": "azure-stack-hci-sizer",
+        "b": "aws-iot-thing-freertos",
+        "similarity": 0.2888
+      },
+      {
+        "a": "aws-iot-thing-freertos",
+        "b": "azure-controls",
+        "similarity": 0.2814
+      },
+      {
+        "a": "aws-iot-thing-freertos",
+        "b": "aws-general-tape-storage",
+        "similarity": 0.2798
+      }
+    ],
+    "aws-iot-thing-generic": [
+      {
+        "a": "aws-iot-thing-generic",
+        "b": "azure-globe-success",
+        "similarity": 0.2915
+      },
+      {
+        "a": "aws-iot-thing-generic",
+        "b": "fabric-filter-settings",
+        "similarity": 0.2894
+      },
+      {
+        "a": "azure-stack-hci-premium",
+        "b": "aws-iot-thing-generic",
+        "similarity": 0.2614
+      }
+    ],
+    "aws-iot-hardware-board": [
+      {
+        "a": "azure-netapp-files",
+        "b": "aws-iot-hardware-board",
+        "similarity": 0.3818
+      },
+      {
+        "a": "aws-iot-hardware-board",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.3245
+      },
+      {
+        "a": "aws-iot-hardware-board",
+        "b": "aws-general-data-table",
+        "similarity": 0.3144
+      }
+    ],
+    "aws-iot-thing-travel": [
+      {
+        "a": "aws-iot-thing-travel",
+        "b": "aws-general-server",
+        "similarity": 0.332
+      },
+      {
+        "a": "azure-stack-hci-sizer",
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.3001
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.2675
+      }
+    ],
+    "aws-iot-thing-utility": [
+      {
+        "a": "azure-governance-compliance",
+        "b": "aws-iot-thing-utility",
+        "similarity": 0.3301
+      },
+      {
+        "a": "aws-iot-thing-utility",
+        "b": "azure-app-space-component",
+        "similarity": 0.3109
+      },
+      {
+        "a": "aws-iot-thing-utility",
+        "b": "azure-file",
+        "similarity": 0.2899
+      }
+    ],
+    "aws-iot-sailboat": [
+      {
+        "a": "aws-iot-sailboat",
+        "b": "aws-general-recover",
+        "similarity": 0.2559
+      },
+      {
+        "a": "azure-exchange-access",
+        "b": "aws-iot-sailboat",
+        "similarity": 0.2435
+      },
+      {
+        "a": "aws-iot-sailboat",
+        "b": "azure-tfs-vc-repository",
+        "similarity": 0.242
+      }
+    ],
+    "aws-iot-sensor": [
+      {
+        "a": "aws-iot-sensor",
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.3366
+      },
+      {
+        "a": "aws-iot-sensor",
+        "b": "aws-iot-thing-temperature-sensor",
+        "similarity": 0.271
+      },
+      {
+        "a": "azure-lighthouse",
+        "b": "aws-iot-sensor",
+        "similarity": 0.2355
+      }
+    ],
     "aws-iot-thing-humidity-sensor": [
       {
         "a": "aws-iot-thing-humidity-sensor",
@@ -17181,6 +17361,11 @@
     ],
     "aws-iot-thing-temperature-sensor": [
       {
+        "a": "aws-iot-sensor",
+        "b": "aws-iot-thing-temperature-sensor",
+        "similarity": 0.271
+      },
+      {
         "a": "aws-iot-thing-temperature-sensor",
         "b": "aws-general-alert",
         "similarity": 0.2533
@@ -17189,14 +17374,14 @@
         "a": "aws-iot-thing-temperature-sensor",
         "b": "aws-general-recover",
         "similarity": 0.2438
-      },
-      {
-        "a": "aws-iot-thing-temperature-sensor",
-        "b": "aws-iot-thing-stacklight",
-        "similarity": 0.2404
       }
     ],
     "aws-iot-thing-temperature-humidity": [
+      {
+        "a": "aws-iot-thing-travel",
+        "b": "aws-iot-thing-temperature-humidity",
+        "similarity": 0.2581
+      },
       {
         "a": "aws-sagemaker-shadow-testing",
         "b": "aws-iot-thing-temperature-humidity",
@@ -17206,11 +17391,6 @@
         "a": "aws-iot-thing-temperature-humidity",
         "b": "aws-cloudhsm",
         "similarity": 0.2015
-      },
-      {
-        "a": "aws-iot-thing-temperature-humidity",
-        "b": "aws-iot-thing-car",
-        "similarity": 0.2007
       }
     ],
     "aws-iot-thing-temperature-vibration": [
@@ -17266,6 +17446,11 @@
     ],
     "aws-iot-thing-stacklight": [
       {
+        "a": "aws-iot-sensor",
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.3366
+      },
+      {
         "a": "aws-iot-thing-stacklight",
         "b": "aws-general-recover",
         "similarity": 0.2783
@@ -17274,11 +17459,6 @@
         "a": "azure-lighthouse",
         "b": "aws-iot-thing-stacklight",
         "similarity": 0.2588
-      },
-      {
-        "a": "azure-entra-connect",
-        "b": "aws-iot-thing-stacklight",
-        "similarity": 0.2457
       }
     ],
     "aws-iot-thing-medical-emergency": [
@@ -17288,14 +17468,14 @@
         "similarity": 0.3313
       },
       {
-        "a": "aws-iot-thing-medical-emergency",
-        "b": "aws-general-application",
-        "similarity": 0.2896
+        "a": "aws-iot-thing-plc",
+        "b": "aws-iot-thing-medical-emergency",
+        "similarity": 0.3003
       },
       {
         "a": "aws-iot-thing-medical-emergency",
-        "b": "aws-general-servers",
-        "similarity": 0.2846
+        "b": "aws-general-application",
+        "similarity": 0.2896
       }
     ],
     "aws-iot-thing-police-emergency": [
@@ -17305,14 +17485,14 @@
         "similarity": 0.2592
       },
       {
+        "a": "aws-iot-thing-industrial-pc",
+        "b": "aws-iot-thing-police-emergency",
+        "similarity": 0.2483
+      },
+      {
         "a": "azure-iot-central-applications",
         "b": "aws-iot-thing-police-emergency",
         "similarity": 0.2448
-      },
-      {
-        "a": "azure-software-as-service",
-        "b": "aws-iot-thing-police-emergency",
-        "similarity": 0.2415
       }
     ],
     "aws-iot-thing-windfarm": [
@@ -17322,14 +17502,14 @@
         "similarity": 0.234
       },
       {
+        "a": "aws-iot-sailboat",
+        "b": "aws-iot-thing-windfarm",
+        "similarity": 0.2177
+      },
+      {
         "a": "azure-universal-print",
         "b": "aws-iot-thing-windfarm",
         "similarity": 0.2083
-      },
-      {
-        "a": "gcp-api-gateway",
-        "b": "aws-iot-thing-windfarm",
-        "similarity": 0.2082
       }
     ],
     "aws-iot-thing-bank": [
@@ -17385,6 +17565,11 @@
     ],
     "aws-iot-thing-car": [
       {
+        "a": "aws-iot-thing-industrial-pc",
+        "b": "aws-iot-thing-car",
+        "similarity": 0.3187
+      },
+      {
         "a": "azure-system-topic",
         "b": "aws-iot-thing-car",
         "similarity": 0.2751
@@ -17393,11 +17578,6 @@
         "a": "aws-iot-thing-police-emergency",
         "b": "aws-iot-thing-car",
         "similarity": 0.2592
-      },
-      {
-        "a": "azure-application-security-groups",
-        "b": "aws-iot-thing-car",
-        "similarity": 0.2508
       }
     ],
     "aws-iot-thing-cart": [
@@ -18636,9 +18816,9 @@
         "similarity": 0.2419
       },
       {
-        "a": "azure-intune-client-apps",
+        "a": "aws-iot-thing-freertos",
         "b": "aws-workmail",
-        "similarity": 0.2311
+        "similarity": 0.2314
       }
     ],
     "aws-workdocs": [
@@ -19095,9 +19275,9 @@
         "similarity": 0.3341
       },
       {
-        "a": "azure-operator-nexus",
+        "a": "aws-iot-thing-travel",
         "b": "aws-general-server",
-        "similarity": 0.2884
+        "similarity": 0.332
       }
     ],
     "aws-general-servers": [
@@ -19163,9 +19343,9 @@
         "similarity": 0.2802
       },
       {
-        "a": "aws-dynamodb-global-secondary-index",
+        "a": "aws-iot-thing-freertos",
         "b": "aws-general-tape-storage",
-        "similarity": 0.2749
+        "similarity": 0.2798
       }
     ],
     "aws-general-toolkit": [
@@ -19214,9 +19394,9 @@
         "similarity": 0.2179
       },
       {
-        "a": "azure-time-series-environments",
+        "a": "aws-iot-hardware-board",
         "b": "aws-general-users",
-        "similarity": 0.2125
+        "similarity": 0.2151
       }
     ],
     "aws-general-internet-transfer": [
@@ -19238,6 +19418,11 @@
     ],
     "aws-general-json-script": [
       {
+        "a": "aws-iot-thing-plc",
+        "b": "aws-general-json-script",
+        "similarity": 0.2888
+      },
+      {
         "a": "aws-general-json-script",
         "b": "azure-notification-namespaces",
         "similarity": 0.2687
@@ -19246,11 +19431,6 @@
         "a": "aws-mxnet",
         "b": "aws-general-json-script",
         "similarity": 0.2643
-      },
-      {
-        "a": "aws-dynamodb-stream",
-        "b": "aws-general-json-script",
-        "similarity": 0.2614
       }
     ],
     "aws-general-logs": [
@@ -19396,14 +19576,14 @@
         "similarity": 0.2783
       },
       {
+        "a": "aws-iot-sailboat",
+        "b": "aws-general-recover",
+        "similarity": 0.2559
+      },
+      {
         "a": "azure-lighthouse",
         "b": "aws-general-recover",
         "similarity": 0.2505
-      },
-      {
-        "a": "aws-iot-thing-temperature-sensor",
-        "b": "aws-general-recover",
-        "similarity": 0.2438
       }
     ],
     "aws-general-saml-token": [
@@ -19520,9 +19700,9 @@
         "similarity": 0.2733
       },
       {
-        "a": "aws-general-forums",
-        "b": "azure-blob-page",
-        "similarity": 0.2527
+        "a": "aws-iot-thing-freertos",
+        "b": "aws-general-forums",
+        "similarity": 0.2556
       }
     ],
     "aws-general-gear": [
@@ -22990,14 +23170,14 @@
         "similarity": 0.2053
       },
       {
+        "a": "aws-iot-thing-relay",
+        "b": "fabric-arrow-export-import",
+        "similarity": 0.204
+      },
+      {
         "a": "fabric-arrow-export-import",
         "b": "fabric-home-tree",
         "similarity": 0.1895
-      },
-      {
-        "a": "azure-operator-5g-core",
-        "b": "fabric-arrow-export-import",
-        "similarity": 0.1766
       }
     ],
     "fabric-arrow-forward-circle": [
@@ -25524,6 +25704,11 @@
     ],
     "azure-globe-success": [
       {
+        "a": "aws-iot-thing-generic",
+        "b": "azure-globe-success",
+        "similarity": 0.2915
+      },
+      {
         "a": "azure-stack-hci-premium",
         "b": "azure-globe-success",
         "similarity": 0.2705
@@ -25532,11 +25717,6 @@
         "a": "azure-table",
         "b": "azure-globe-success",
         "similarity": 0.241
-      },
-      {
-        "a": "azure-globe-success",
-        "b": "azure-globe-warning",
-        "similarity": 0.2402
       }
     ],
     "azure-globe-warning": [
@@ -25699,14 +25879,14 @@
         "similarity": 0.4353
       },
       {
+        "a": "aws-iot-thing-relay",
+        "b": "azure-counter",
+        "similarity": 0.2915
+      },
+      {
         "a": "aws-general-office-building",
         "b": "azure-counter",
         "similarity": 0.2787
-      },
-      {
-        "a": "azure-counter",
-        "b": "azure-help-support",
-        "similarity": 0.2575
       }
     ],
     "azure-cubes": [
@@ -25869,14 +26049,14 @@
         "similarity": 0.3478
       },
       {
+        "a": "aws-iot-thing-plc",
+        "b": "azure-blob-block",
+        "similarity": 0.3248
+      },
+      {
         "a": "aws-dynamodb-item",
         "b": "azure-blob-block",
         "similarity": 0.3147
-      },
-      {
-        "a": "azure-globe-warning",
-        "b": "azure-blob-block",
-        "similarity": 0.295
       }
     ],
     "azure-blob-page": [
@@ -28601,14 +28781,14 @@
         "similarity": 0.1224
       },
       {
+        "a": "aws-iot-thing-industrial-pc",
+        "b": "fabric-nodes-triangle",
+        "similarity": 0.1163
+      },
+      {
         "a": "azure-dev-console",
         "b": "fabric-nodes-triangle",
         "similarity": 0.1149
-      },
-      {
-        "a": "fabric-funnel-add",
-        "b": "fabric-nodes-triangle",
-        "similarity": 0.1111
       }
     ],
     "fabric-match-category": [
@@ -30926,9 +31106,9 @@
         "similarity": 0.1485
       },
       {
-        "a": "fabric-categorize",
+        "a": "aws-iot-thing-utility",
         "b": "fabric-branch-link",
-        "similarity": 0.1431
+        "similarity": 0.1437
       }
     ],
     "fabric-briefcase-pulse": [

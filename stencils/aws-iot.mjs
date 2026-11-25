@@ -1,6 +1,66 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsIotArtwork = [
+  entry("aws-iot-thing-industrial-pc", "aws", "IoT Thing Industrial PC", ["Res_AWS-IoT_Thing_Industrial-PC_48"],
+    "An industrial computer controls connected equipment.",
+    [
+      rect(15, 21, 64, 51), line([15, 32], [79, 32]), line([23, 41], [70, 41]), line([23, 51], [62, 51]), line([32, 72], [32, 82], [62, 82]), line([47, 72], [47, 82]),
+      rect(86, 24, 21, 48), oval(93, 30, 7, 7, true), line([91, 48], [102, 48]), line([91, 56], [102, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-thing-plc", "aws", "IoT Thing PLC", ["Res_AWS-IoT_Thing_PLC_48"],
+    "A programmable logic controller exposes industrial inputs and outputs.",
+    [
+      rect(23, 20, 77, 65), rect(33, 29, 30, 20), line([39, 38], [57, 38]), oval(72, 31, 5, 5, true), oval(83, 31, 5, 5, true), oval(72, 42, 5, 5, true), oval(83, 42, 5, 5, true),
+      line([33, 58], [91, 58]), line([38, 58], [38, 76]), line([50, 58], [50, 76]), line([62, 58], [62, 76]), line([74, 58], [74, 76]), line([86, 58], [86, 76]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-thing-relay", "aws", "IoT Thing Relay", ["Res_AWS-IoT_Thing_Relay_48"],
+    "A relay switches an electrical circuit.",
+    [
+      rect(19, 20, 84, 66), oval(29, 48, 9, 9), oval(84, 48, 9, 9), line([38, 52], [73, 38]), line([73, 52], [84, 52]),
+      line([32, 70], [42, 70], [47, 64], [52, 76], [57, 64], [62, 76], [67, 64], [72, 70], [88, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-thing-freertos", "aws", "IoT Thing FreeRTOS Device", ["Res_AWS-IoT_Thing_FreeRTOS-Device_48"],
+    "An embedded device runs a real-time operating system.",
+    [
+      rect(30, 23, 63, 63), line([38, 31], [85, 31], [85, 78], [38, 78], [38, 31]), line([46, 43], [54, 43]), line([46, 51], [54, 51]), line([46, 59], [54, 59]),
+      oval(63, 40, 16, 16), line([71, 43], [71, 48], [76, 51]),
+      line([22, 32], [30, 32]), line([22, 47], [30, 47]), line([22, 62], [30, 62]), line([22, 77], [30, 77]), line([93, 32], [101, 32]), line([93, 47], [101, 47]), line([93, 62], [101, 62]), line([93, 77], [101, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-thing-generic", "aws", "IoT Thing Generic", ["Res_AWS-IoT_Thing_Generic_48"],
+    "A generic connected device sends wireless signals.",
+    [
+      rect(31, 28, 62, 57), line([31, 40], [93, 40]), oval(41, 49, 9, 9, true), line([57, 53], [82, 53]), line([41, 68], [82, 68]),
+      line([48, 24], [52, 18], [62, 15], [72, 18], [76, 24]), line([54, 26], [57, 23], [62, 22], [67, 23], [70, 26]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-hardware-board", "aws", "IoT Hardware Board", ["Res_AWS-IoT-Hardware-Board_48"],
+    "A circuit board connects a chip and electronic components.",
+    [
+      rect(16, 17, 91, 77), rect(42, 34, 30, 28), line([37, 39], [42, 39]), line([37, 47], [42, 47]), line([37, 55], [42, 55]), line([72, 39], [77, 39]), line([72, 47], [77, 47]), line([72, 55], [77, 55]),
+      oval(25, 28, 6, 6), oval(91, 28, 6, 6), oval(25, 78, 6, 6), oval(91, 78, 6, 6), line([29, 67], [38, 67], [38, 73], [60, 73]), line([78, 68], [90, 68], [90, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-thing-travel", "aws", "IoT Thing Travel", ["Res_AWS-IoT_Thing_Travel_48"],
+    "A connected suitcase represents travel.",
+    [
+      rect(25, 32, 72, 55), line([45, 32], [45, 24], [50, 19], [73, 19], [78, 24], [78, 32]), line([34, 32], [34, 87]), line([88, 32], [88, 87]), line([25, 50], [97, 50]), oval(31, 87, 8, 8), oval(84, 87, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-thing-utility", "aws", "IoT Thing Utility", ["Res_AWS-IoT_Thing_Utility_48"],
+    "A utility meter tracks electrical usage.",
+    [
+      rect(25, 16, 72, 78), oval(37, 26, 48, 42), line([47, 55], [51, 45], [61, 40], [71, 45], [75, 55]), line([61, 55], [70, 45]), oval(58, 52, 6, 6, true),
+      line([36, 78], [86, 78]), line([45, 72], [45, 85]), line([58, 72], [58, 85]), line([71, 72], [71, 85]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-sailboat", "aws", "IoT Sailboat", ["Res_AWS-IoT_Sailboat_48"],
+    "A connected sailboat reports its position.",
+    [
+      line([15, 70], [105, 70], [94, 85], [31, 85], [15, 70]), line([59, 18], [59, 70]), line([56, 23], [32, 61], [56, 61], [56, 23]), line([64, 24], [88, 61], [64, 61], [64, 24]),
+      line([18, 94], [28, 91], [38, 94], [48, 91], [58, 94], [68, 91], [78, 94], [88, 91], [98, 94]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-sensor", "aws", "IoT Sensor", ["Res_AWS-IoT_Sensor_48"],
+    "A sensor emits wireless measurements.",
+    [
+      oval(45, 46, 32, 32), oval(56, 57, 10, 10, true), line([61, 78], [61, 91]), line([46, 91], [76, 91]),
+      line([40, 38], [48, 31], [61, 28], [74, 31], [82, 38]), line([30, 29], [43, 19], [61, 15], [79, 19], [92, 29]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-iot-thing-humidity-sensor", "aws", "IoT Thing Humidity Sensor", ["Res_AWS-IoT_Thing_Humidity-Sensor_48"],
     "A humidity sensor measures moisture in the air.",
     [
