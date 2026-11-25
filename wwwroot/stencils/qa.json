@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1922,
-  "aliases": 5088,
+  "count": 1930,
+  "aliases": 5097,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1400,6 +1400,14 @@
     "fabric-asterisk-circle",
     "fabric-commit",
     "fabric-commit-circle",
+    "aws-database-migration-workflow",
+    "aws-dynamodb-standard-table-class",
+    "aws-dynamodb-infrequent-table-class",
+    "aws-elasticache-node",
+    "aws-rds-multi-az-cluster",
+    "aws-rds-multi-az",
+    "aws-rds-optimized-writes",
+    "aws-postgresql-trusted-extensions",
     "aws-ecr-image",
     "aws-ecr-registry",
     "aws-ecs-container",
@@ -2222,8 +2230,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1705,
-      "concepts": 660
+      "covered": 1714,
+      "concepts": 668
     },
     "gcp": {
       "sources": 261,
@@ -2490,6 +2498,11 @@
     "dynamics-sales": [
       {
         "a": "dynamics-sales",
+        "b": "aws-elasticache-node",
+        "similarity": 0.195
+      },
+      {
+        "a": "dynamics-sales",
         "b": "m365-payment",
         "similarity": 0.194
       },
@@ -2497,11 +2510,6 @@
         "a": "dynamics-sales",
         "b": "azure-backlog",
         "similarity": 0.1863
-      },
-      {
-        "a": "dynamics-sales",
-        "b": "azure-storage-accounts-classic",
-        "similarity": 0.172
       }
     ],
     "dynamics-field-service": [
@@ -3435,8 +3443,8 @@
       },
       {
         "a": "azure-operator-service-manager",
-        "b": "azure-data-virtualization",
-        "similarity": 0.2681
+        "b": "aws-rds-blue-green",
+        "similarity": 0.2705
       }
     ],
     "azure-programmable-connectivity": [
@@ -3656,8 +3664,8 @@
       },
       {
         "a": "azure-databox-gateway",
-        "b": "aws-dynamodb-accelerator",
-        "similarity": 0.294
+        "b": "aws-rds-blue-green",
+        "similarity": 0.3249
       }
     ],
     "azure-migrate": [
@@ -4302,8 +4310,8 @@
       },
       {
         "a": "gcp-spanner",
-        "b": "gcp-private-service-connect",
-        "similarity": 0.2457
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.25
       }
     ],
     "gcp-functions": [
@@ -5844,13 +5852,13 @@
       },
       {
         "a": "azure-api-fhir",
-        "b": "azure-entra-connect-health",
-        "similarity": 0.3024
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.3083
       },
       {
         "a": "azure-api-fhir",
-        "b": "azure-entra-connect",
-        "similarity": 0.2945
+        "b": "azure-entra-connect-health",
+        "similarity": 0.3024
       }
     ],
     "azure-software-as-service": [
@@ -6201,13 +6209,13 @@
       },
       {
         "a": "azure-event-grid-subscriptions",
-        "b": "gcp-text-to-speech",
-        "similarity": 0.2358
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.2408
       },
       {
         "a": "azure-event-grid-subscriptions",
-        "b": "aws-freertos",
-        "similarity": 0.2317
+        "b": "gcp-text-to-speech",
+        "similarity": 0.2358
       }
     ],
     "aws-glue": [
@@ -6558,13 +6566,13 @@
       },
       {
         "a": "m365-bot",
-        "b": "aws-app-studio",
-        "similarity": 0.234
+        "b": "aws-elasticache-node",
+        "similarity": 0.2525
       },
       {
         "a": "m365-bot",
-        "b": "aws-mainframe-runtime",
-        "similarity": 0.2273
+        "b": "aws-app-studio",
+        "similarity": 0.234
       }
     ],
     "m365-retail-building": [
@@ -9980,8 +9988,8 @@
       },
       {
         "a": "gcp-datastream",
-        "b": "m365-folder-people",
-        "similarity": 0.2213
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2287
       }
     ],
     "gcp-data-catalog": [
@@ -10082,8 +10090,8 @@
       },
       {
         "a": "gcp-cloud-domains",
-        "b": "aws-transfer-family",
-        "similarity": 0.2201
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.2246
       }
     ],
     "gcp-cloud-hsm": [
@@ -11772,8 +11780,8 @@
       },
       {
         "a": "azure-hdinsight-clusters",
-        "b": "aws-iot-shadow",
-        "similarity": 0.229
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2299
       }
     ],
     "azure-stream-analytics": [
@@ -12271,19 +12279,19 @@
     ],
     "aws-rds-blue-green": [
       {
-        "a": "aws-rds-blue-green",
-        "b": "azure-entra-connect",
-        "similarity": 0.3148
-      },
-      {
-        "a": "azure-application-security-groups",
+        "a": "azure-databox-gateway",
         "b": "aws-rds-blue-green",
-        "similarity": 0.2892
+        "similarity": 0.3249
       },
       {
         "a": "aws-rds-blue-green",
-        "b": "azure-files",
-        "similarity": 0.2752
+        "b": "azure-workspace-gateway",
+        "similarity": 0.2872
+      },
+      {
+        "a": "aws-rds-blue-green",
+        "b": "azure-power-platform",
+        "similarity": 0.2837
       }
     ],
     "aws-glue-ray": [
@@ -12425,6 +12433,11 @@
     "aws-opensearch-data-node": [
       {
         "a": "aws-opensearch-data-node",
+        "b": "aws-rds-multi-az",
+        "similarity": 0.355
+      },
+      {
+        "a": "aws-opensearch-data-node",
         "b": "aws-mainframe-analyzer",
         "similarity": 0.341
       },
@@ -12432,11 +12445,6 @@
         "a": "aws-opensearch-data-node",
         "b": "aws-braket-noise-simulator",
         "similarity": 0.3196
-      },
-      {
-        "a": "aws-opensearch-data-node",
-        "b": "aws-datasync-agent",
-        "similarity": 0.3101
       }
     ],
     "aws-opensearch-index": [
@@ -15800,9 +15808,9 @@
         "similarity": 0.3632
       },
       {
-        "a": "aws-rds-blue-green",
-        "b": "azure-entra-connect",
-        "similarity": 0.3148
+        "a": "azure-entra-connect",
+        "b": "azure-server-farm",
+        "similarity": 0.3137
       }
     ],
     "azure-entra-verified-id": [
@@ -15830,13 +15838,13 @@
       },
       {
         "a": "azure-verification-service",
-        "b": "azure-maps-accounts",
-        "similarity": 0.2788
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.2823
       },
       {
         "a": "azure-verification-service",
-        "b": "fabric-document-ssis-play",
-        "similarity": 0.2755
+        "b": "azure-maps-accounts",
+        "similarity": 0.2788
       }
     ],
     "azure-machine-learning-classic": [
@@ -16769,9 +16777,9 @@
         "similarity": 0.2788
       },
       {
-        "a": "azure-intune-devices",
-        "b": "azure-maps-accounts",
-        "similarity": 0.2731
+        "a": "azure-maps-accounts",
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.275
       }
     ],
     "azure-iot-edge": [
@@ -17134,6 +17142,11 @@
     "azure-advisor": [
       {
         "a": "azure-advisor",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.3684
+      },
+      {
+        "a": "azure-advisor",
         "b": "aws-backup-audit-manager",
         "similarity": 0.357
       },
@@ -17141,11 +17154,6 @@
         "a": "azure-advisor",
         "b": "aws-greengrass-public-component",
         "similarity": 0.3381
-      },
-      {
-        "a": "azure-advisor",
-        "b": "aws-iot-thing-relay",
-        "similarity": 0.3218
       }
     ],
     "azure-blueprints": [
@@ -17382,8 +17390,8 @@
       },
       {
         "a": "aws-iot-echo",
-        "b": "aws-iot-thing-generic",
-        "similarity": 0.2526
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.2643
       }
     ],
     "aws-iot-fire-tv": [
@@ -18380,13 +18388,13 @@
       },
       {
         "a": "aws-iot-thing-medical-emergency",
-        "b": "azure-images",
-        "similarity": 0.3313
+        "b": "aws-elasticache-node",
+        "similarity": 0.3715
       },
       {
-        "a": "aws-iot-thing-plc",
-        "b": "aws-iot-thing-medical-emergency",
-        "similarity": 0.3003
+        "a": "aws-iot-thing-medical-emergency",
+        "b": "azure-images",
+        "similarity": 0.3313
       }
     ],
     "aws-iot-thing-police-emergency": [
@@ -18566,14 +18574,14 @@
         "similarity": 0.2711
       },
       {
+        "a": "aws-iot-thing-house",
+        "b": "aws-elasticache-node",
+        "similarity": 0.2673
+      },
+      {
         "a": "gcp-compute-engine",
         "b": "aws-iot-thing-house",
         "similarity": 0.2565
-      },
-      {
-        "a": "aws-iot-thing-house",
-        "b": "aws-backup-compliance-report",
-        "similarity": 0.2454
       }
     ],
     "aws-iot-thing-lightbulb": [
@@ -18669,13 +18677,13 @@
       },
       {
         "a": "aws-s3-vectors",
-        "b": "aws-braket-managed-simulator",
-        "similarity": 0.2882
+        "b": "aws-rds-multi-az",
+        "similarity": 0.293
       },
       {
         "a": "aws-s3-vectors",
-        "b": "aws-gateway-cached-volume",
-        "similarity": 0.2668
+        "b": "aws-braket-managed-simulator",
+        "similarity": 0.2882
       }
     ],
     "aws-s3-general-access-point": [
@@ -19626,8 +19634,8 @@
       },
       {
         "a": "aws-backup-virtual-machine",
-        "b": "azure-process-explorer",
-        "similarity": 0.23
+        "b": "aws-rds-multi-az",
+        "similarity": 0.2314
       }
     ],
     "aws-backup-virtual-machine-monitor": [
@@ -19700,6 +19708,11 @@
     ],
     "aws-backup-vault-lock": [
       {
+        "a": "aws-backup-vault-lock",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.3455
+      },
+      {
         "a": "azure-blueprints",
         "b": "aws-backup-vault-lock",
         "similarity": 0.331
@@ -19708,11 +19721,6 @@
         "a": "aws-greengrass-ml-component",
         "b": "aws-backup-vault-lock",
         "similarity": 0.3207
-      },
-      {
-        "a": "aws-backup-vault-lock",
-        "b": "azure-static-apps",
-        "similarity": 0.3198
       }
     ],
     "aws-backup-legal-hold": [
@@ -19863,9 +19871,9 @@
         "similarity": 0.3095
       },
       {
-        "a": "aws-iot-thing-relay",
-        "b": "aws-braket-simulator-3",
-        "similarity": 0.298
+        "a": "aws-braket-simulator-3",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.3045
       }
     ],
     "aws-braket-simulator-4": [
@@ -19927,13 +19935,13 @@
       },
       {
         "a": "aws-braket-embedded-simulator",
-        "b": "aws-braket-simulator",
-        "similarity": 0.2877
+        "b": "aws-elasticache-node",
+        "similarity": 0.3111
       },
       {
         "a": "aws-braket-embedded-simulator",
-        "b": "aws-vpc",
-        "similarity": 0.2711
+        "b": "aws-braket-simulator",
+        "similarity": 0.2877
       }
     ],
     "aws-braket-managed-simulator": [
@@ -21597,9 +21605,9 @@
         "similarity": 0.341
       },
       {
-        "a": "azure-stack-hci-premium",
-        "b": "aws-mainframe-analyzer",
-        "similarity": 0.3153
+        "a": "aws-mainframe-analyzer",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.3333
       }
     ],
     "aws-mainframe-compiler": [
@@ -22238,14 +22246,14 @@
         "similarity": 0.338
       },
       {
+        "a": "aws-general-client",
+        "b": "aws-elasticache-node",
+        "similarity": 0.3109
+      },
+      {
         "a": "aws-glacier-vault",
         "b": "aws-general-client",
         "similarity": 0.2836
-      },
-      {
-        "a": "gcp-compute-engine",
-        "b": "aws-general-client",
-        "similarity": 0.2805
       }
     ],
     "aws-general-cold-storage": [
@@ -23054,14 +23062,14 @@
         "similarity": 0.3004
       },
       {
-        "a": "aws-thinkbox-deadline",
-        "b": "azure-images-classic",
-        "similarity": 0.2702
+        "a": "aws-rds-blue-green",
+        "b": "aws-thinkbox-deadline",
+        "similarity": 0.2778
       },
       {
         "a": "aws-thinkbox-deadline",
-        "b": "aws-thinkbox-krakatoa",
-        "similarity": 0.267
+        "b": "azure-images-classic",
+        "similarity": 0.2702
       }
     ],
     "aws-thinkbox-frost": [
@@ -26001,6 +26009,142 @@
         "similarity": 0.4646
       }
     ],
+    "aws-database-migration-workflow": [
+      {
+        "a": "azure-api-fhir",
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.3083
+      },
+      {
+        "a": "aws-transfer-ftps",
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.3065
+      },
+      {
+        "a": "aws-iot-thing-vibration-sensor",
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.2907
+      }
+    ],
+    "aws-dynamodb-standard-table-class": [
+      {
+        "a": "aws-dynamodb-standard-table-class",
+        "b": "azure-resource-explorer",
+        "similarity": 0.3797
+      },
+      {
+        "a": "azure-advisor",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.3684
+      },
+      {
+        "a": "aws-iot-thing-relay",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.3634
+      }
+    ],
+    "aws-dynamodb-infrequent-table-class": [
+      {
+        "a": "aws-dynamodb-infrequent-table-class",
+        "b": "azure-web-test",
+        "similarity": 0.3399
+      },
+      {
+        "a": "azure-advisor",
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.3146
+      },
+      {
+        "a": "azure-software-updates",
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.3141
+      }
+    ],
+    "aws-elasticache-node": [
+      {
+        "a": "aws-iot-thing-medical-emergency",
+        "b": "aws-elasticache-node",
+        "similarity": 0.3715
+      },
+      {
+        "a": "aws-braket-embedded-simulator",
+        "b": "aws-elasticache-node",
+        "similarity": 0.3111
+      },
+      {
+        "a": "aws-general-client",
+        "b": "aws-elasticache-node",
+        "similarity": 0.3109
+      }
+    ],
+    "aws-rds-multi-az-cluster": [
+      {
+        "a": "gcp-analytics-hub",
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2461
+      },
+      {
+        "a": "aws-dynamodb-global-secondary-index",
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2303
+      },
+      {
+        "a": "azure-hdinsight-clusters",
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2299
+      }
+    ],
+    "aws-rds-multi-az": [
+      {
+        "a": "aws-opensearch-data-node",
+        "b": "aws-rds-multi-az",
+        "similarity": 0.355
+      },
+      {
+        "a": "aws-ebs-gp3-volume",
+        "b": "aws-rds-multi-az",
+        "similarity": 0.2966
+      },
+      {
+        "a": "aws-s3-vectors",
+        "b": "aws-rds-multi-az",
+        "similarity": 0.293
+      }
+    ],
+    "aws-rds-optimized-writes": [
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-rds-optimized-writes",
+        "similarity": 0.2919
+      },
+      {
+        "a": "aws-backup-compute-resource",
+        "b": "aws-rds-optimized-writes",
+        "similarity": 0.2766
+      },
+      {
+        "a": "aws-s3-standard-ia",
+        "b": "aws-rds-optimized-writes",
+        "similarity": 0.2693
+      }
+    ],
+    "aws-postgresql-trusted-extensions": [
+      {
+        "a": "aws-backup-vault-lock",
+        "b": "aws-postgresql-trusted-extensions",
+        "similarity": 0.2823
+      },
+      {
+        "a": "aws-postgresql-trusted-extensions",
+        "b": "azure-web-test",
+        "similarity": 0.2786
+      },
+      {
+        "a": "aws-postgresql-trusted-extensions",
+        "b": "azure-log-streaming",
+        "similarity": 0.2777
+      }
+    ],
     "aws-ecr-image": [
       {
         "a": "m365-attach",
@@ -26246,14 +26390,14 @@
         "similarity": 0.2652
       },
       {
+        "a": "aws-dynamodb-infrequent-table-class",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2594
+      },
+      {
         "a": "aws-ec2-cloudwatch-instance",
         "b": "fabric-document-ssis-play",
         "similarity": 0.2583
-      },
-      {
-        "a": "azure-time-series-data-sets",
-        "b": "aws-ec2-cloudwatch-instance",
-        "similarity": 0.2559
       }
     ],
     "aws-ec2-instance": [
@@ -27720,6 +27864,11 @@
     ],
     "azure-web-test": [
       {
+        "a": "aws-dynamodb-infrequent-table-class",
+        "b": "azure-web-test",
+        "similarity": 0.3399
+      },
+      {
         "a": "azure-web-test",
         "b": "azure-resource-group-list",
         "similarity": 0.3297
@@ -27728,11 +27877,6 @@
         "a": "azure-external-id-modified",
         "b": "azure-web-test",
         "similarity": 0.3239
-      },
-      {
-        "a": "azure-blueprints",
-        "b": "azure-web-test",
-        "similarity": 0.3173
       }
     ],
     "azure-general-workbooks": [
@@ -27788,6 +27932,11 @@
     ],
     "azure-general-media": [
       {
+        "a": "aws-rds-multi-az",
+        "b": "azure-general-media",
+        "similarity": 0.2621
+      },
+      {
         "a": "azure-general-media",
         "b": "azure-production-ready-database",
         "similarity": 0.2469
@@ -27796,11 +27945,6 @@
         "a": "azure-intune-trends",
         "b": "azure-general-media",
         "similarity": 0.2326
-      },
-      {
-        "a": "aws-migration-evaluator-collector",
-        "b": "azure-general-media",
-        "similarity": 0.2208
       }
     ],
     "azure-module": [
@@ -27832,9 +27976,9 @@
         "similarity": 0.3243
       },
       {
-        "a": "azure-web-test",
+        "a": "aws-dynamodb-standard-table-class",
         "b": "azure-search-grid",
-        "similarity": 0.3149
+        "similarity": 0.3237
       }
     ],
     "azure-feature-previews": [
@@ -27883,9 +28027,9 @@
         "similarity": 0.2727
       },
       {
-        "a": "aws-opensearch-data-node",
+        "a": "aws-rds-optimized-writes",
         "b": "azure-production-ready-database",
-        "similarity": 0.26
+        "similarity": 0.264
       }
     ],
     "azure-resource-group-list": [
@@ -28393,9 +28537,9 @@
         "similarity": 0.2064
       },
       {
-        "a": "azure-alerts",
+        "a": "aws-rds-optimized-writes",
         "b": "azure-heart",
-        "similarity": 0.199
+        "similarity": 0.2
       }
     ],
     "azure-general-image": [
@@ -28655,6 +28799,11 @@
     ],
     "azure-resource-explorer": [
       {
+        "a": "aws-dynamodb-standard-table-class",
+        "b": "azure-resource-explorer",
+        "similarity": 0.3797
+      },
+      {
         "a": "azure-resource-explorer",
         "b": "azure-static-apps",
         "similarity": 0.3379
@@ -28663,11 +28812,6 @@
         "a": "aws-general-management-console",
         "b": "azure-resource-explorer",
         "similarity": 0.3315
-      },
-      {
-        "a": "azure-tenant-properties",
-        "b": "azure-resource-explorer",
-        "similarity": 0.3215
       }
     ],
     "azure-blob-block": [
@@ -29255,14 +29399,14 @@
         "similarity": 0.3788
       },
       {
+        "a": "aws-rds-blue-green",
+        "b": "azure-workspace-gateway",
+        "similarity": 0.2872
+      },
+      {
         "a": "aws-dynamodb-accelerator",
         "b": "azure-workspace-gateway",
         "similarity": 0.2839
-      },
-      {
-        "a": "azure-industrial-iot",
-        "b": "azure-workspace-gateway",
-        "similarity": 0.2724
       }
     ],
     "azure-api-connections": [
@@ -34064,6 +34208,11 @@
     ],
     "fabric-airplane": [
       {
+        "a": "aws-rds-blue-green",
+        "b": "fabric-airplane",
+        "similarity": 0.1548
+      },
+      {
         "a": "fabric-binoculars",
         "b": "fabric-airplane",
         "similarity": 0.1469
@@ -34072,11 +34221,6 @@
         "a": "aws-dynamodb-table",
         "b": "fabric-airplane",
         "similarity": 0.1437
-      },
-      {
-        "a": "fabric-copy-job",
-        "b": "fabric-airplane",
-        "similarity": 0.1383
       }
     ],
     "fabric-app-folder-pulse": [

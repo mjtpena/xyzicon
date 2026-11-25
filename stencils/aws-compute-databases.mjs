@@ -3,6 +3,60 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-database-migration-workflow", "aws", "Database Migration Workflow", ["Res_AWS-Database-Migration-Service_Database-migration-workflow-or-job_48"],
+    "A database moves through the steps of a migration job.",
+    [
+      oval(13, 23, 40, 13), line([13, 29], [13, 74], [19, 79], [34, 81], [48, 79], [53, 74], [53, 29]), line([13, 47], [19, 52], [34, 54], [48, 52], [53, 47]),
+      line([54, 53], [70, 53]), line([64, 47], [70, 53], [64, 59]), rect(75, 35, 36, 44), line([81, 46], [86, 51], [94, 41]), line([81, 63], [86, 68], [94, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-standard-table-class", "aws", "DynamoDB Standard Table Class", ["Res_Amazon-DynamoDB_Standard-Access-Table-Class_48"],
+    "A table is available for regular data access.",
+    [
+      rect(15, 20, 72, 66), line([15, 35], [87, 35]), line([15, 51], [87, 51]), line([15, 67], [87, 67]), line([38, 20], [38, 86]), line([61, 20], [61, 86]),
+      line([92, 63], [109, 63]), line([103, 57], [109, 63], [103, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-infrequent-table-class", "aws", "DynamoDB Standard Infrequent Access", ["Res_Amazon-DynamoDB_Standard-Infrequent-Access-Table-Class_48"],
+    "A clock marks a table used less frequently.",
+    [
+      rect(13, 21, 65, 65), line([13, 37], [78, 37]), line([13, 53], [78, 53]), line([13, 69], [78, 69]), line([34, 21], [34, 86]), line([56, 21], [56, 86]),
+      oval(76, 51, 32, 32), line([92, 58], [92, 67], [100, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elasticache-node", "aws", "ElastiCache Node", ["Res_Amazon-ElastiCache_Cache-Node_48"],
+    "A cache node serves frequently requested data.",
+    [
+      rect(23, 19, 76, 72), line([23, 34], [99, 34]), line([31, 26], [39, 26]), line([45, 26], [53, 26]),
+      line([65, 40], [48, 61], [59, 61], [53, 80], [77, 54], [66, 54], [72, 40], [65, 40]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-rds-multi-az-cluster", "aws", "RDS Multi-AZ DB Cluster", ["Res_Amazon-RDS_Multi-AZ-DB-Cluster_48"],
+    "A database cluster spans three availability zones.",
+    [
+      oval(12, 38, 30, 11), line([12, 43], [12, 69], [17, 73], [27, 75], [37, 73], [42, 69], [42, 43]),
+      oval(85, 15, 30, 11), line([85, 20], [85, 46], [90, 50], [100, 52], [110, 50], [115, 46], [115, 20]),
+      oval(85, 61, 30, 11), line([85, 66], [85, 92], [90, 96], [100, 98], [110, 96], [115, 92], [115, 66]),
+      line([42, 55], [65, 55], [65, 34], [85, 34]), line([65, 55], [65, 80], [85, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-rds-multi-az", "aws", "RDS Multi-AZ", ["Res_Amazon-RDS_Multi-AZ_48"],
+    "A database has a standby in a second availability zone.",
+    [
+      oval(18, 19, 53, 17), line([18, 27], [18, 79], [25, 84], [45, 86], [64, 84], [71, 79], [71, 27]),
+      line([18, 45], [25, 50], [45, 52], [64, 50], [71, 45]), line([18, 64], [25, 69], [45, 71], [64, 69], [71, 64]),
+      oval(80, 46, 31, 11), line([80, 51], [80, 76], [84, 80], [95, 82], [107, 80], [111, 76], [111, 51]), line([80, 63], [84, 67], [95, 69], [107, 67], [111, 63]),
+      line([72, 58], [80, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-rds-optimized-writes", "aws", "RDS Optimized Writes", ["Res_Amazon-RDS_Optimized-Writes_48"],
+    "A fast write updates a database.",
+    [
+      oval(17, 22, 56, 17), line([17, 30], [17, 79], [24, 84], [45, 86], [66, 84], [73, 79], [73, 30]), line([17, 49], [24, 54], [45, 56], [66, 54], [73, 49]),
+      line([76, 75], [98, 36], [109, 42], [87, 81], [76, 86], [76, 75]), line([94, 43], [105, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-postgresql-trusted-extensions", "aws", "Trusted Language Extensions for PostgreSQL",
+    ["Res_Amazon-Aurora_Trusted-Language-Extensions-for-PostgreSQL_48", "Res_Amazon-RDS_Trusted-Language-Extensions-for-PostgreSQL_48"],
+    "A trusted code extension is protected for a database.",
+    [
+      line([15, 17], [67, 17], [77, 27], [77, 88], [15, 88], [15, 17]), line([67, 17], [67, 27], [77, 27]),
+      line([33, 37], [25, 45], [33, 53]), line([52, 37], [60, 45], [52, 53]), line([47, 34], [39, 56]), line([25, 68], [58, 68]),
+      line([93, 46], [111, 53], [108, 72], [102, 80], [93, 86], [84, 80], [78, 72], [75, 53], [93, 46]), line([85, 66], [91, 72], [102, 60]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-ecr-image", "aws", "ECR Image", ["Res_Amazon-Elastic-Container-Registry_Image_48"],
     "A container image packages an application for deployment.",
     [

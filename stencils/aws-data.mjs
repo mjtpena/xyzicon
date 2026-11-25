@@ -67,9 +67,10 @@ export const awsDataArtwork = [
   entry("aws-rds-blue-green", "aws", "RDS Blue/Green Deployments", ["Res_Amazon-RDS_Blue-Green-Deployments_48"],
     "A database deployment switches from the current environment to a staged replacement.",
     [
-      oval(13, 27, 34, 12), line([13, 33], [13, 76], [19, 81], [41, 81], [47, 76], [47, 33]),
-      oval(77, 27, 34, 12), line([77, 33], [77, 76], [83, 81], [105, 81], [111, 76], [111, 33]),
-      line([47, 51], [77, 51]), line([70, 44], [77, 51], [70, 58]), line([77, 68], [47, 68]), line([54, 61], [47, 68], [54, 75]), line([14, 110], [110, 110]),
+      oval(13, 17, 41, 12), line([13, 23], [13, 44], [19, 48], [34, 50], [48, 48], [54, 44], [54, 23]),
+      oval(13, 59, 41, 12), line([13, 65], [13, 86], [19, 90], [34, 92], [48, 90], [54, 86], [54, 65]),
+      line([55, 33], [74, 33], [74, 75], [55, 75]), line([61, 69], [55, 75], [61, 81]),
+      oval(82, 39, 27, 27), line([95, 45], [95, 60]), line([88, 52], [102, 52]), line([14, 110], [110, 110]),
     ]),
   entry("aws-glue-ray", "aws", "AWS Glue for Ray", ["Res_AWS-Glue_AWS-Glue-for-Ray_48"],
     "Parallel workers process data through a shared execution hub.",
