@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1687,
-  "aliases": 4852,
+  "count": 1703,
+  "aliases": 4868,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -832,6 +832,22 @@
     "azure-object-understanding",
     "azure-metrics-advisor",
     "azure-content-safety",
+    "azure-digital-twins",
+    "azure-industrial-iot",
+    "azure-stack-hci-sizer",
+    "azure-stack-hci-premium",
+    "azure-iot-operations",
+    "azure-hybrid-connectivity-hub",
+    "azure-time-series-environments",
+    "azure-iot-hub",
+    "azure-iot-central-applications",
+    "azure-maps-accounts",
+    "azure-iot-edge",
+    "azure-time-series-event-sources",
+    "azure-time-series-access-policies",
+    "azure-time-series-data-sets",
+    "azure-windows-core-services",
+    "azure-device-provisioning",
     "fabric-copilot",
     "fabric-data-engineering",
     "fabric-data-science",
@@ -1957,8 +1973,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 480,
-      "concepts": 402
+      "covered": 496,
+      "concepts": 418
     },
     "fabric": {
       "sources": 1584,
@@ -4271,8 +4287,8 @@
       },
       {
         "a": "azure-backup-center",
-        "b": "fabric-documents-dax-export",
-        "similarity": 0.2283
+        "b": "azure-stack-hci-sizer",
+        "similarity": 0.229
       }
     ],
     "aws-athena": [
@@ -4448,6 +4464,11 @@
     "aws-eventbridge-event": [
       {
         "a": "aws-eventbridge-event",
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2635
+      },
+      {
+        "a": "aws-eventbridge-event",
         "b": "gcp-os-configuration",
         "similarity": 0.2506
       },
@@ -4455,11 +4476,6 @@
         "a": "aws-eventbridge-event",
         "b": "aws-general-mobile-client",
         "similarity": 0.2426
-      },
-      {
-        "a": "aws-eventbridge-event",
-        "b": "azure-instance-pools",
-        "similarity": 0.2384
       }
     ],
     "aws-eventbridge-default-bus": [
@@ -4895,13 +4911,13 @@
       },
       {
         "a": "m365-calculator",
-        "b": "azure-workspaces-select",
-        "similarity": 0.2173
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2362
       },
       {
         "a": "m365-calculator",
-        "b": "aws-health-imaging",
-        "similarity": 0.2149
+        "b": "azure-workspaces-select",
+        "similarity": 0.2173
       }
     ],
     "m365-calendar": [
@@ -5349,6 +5365,11 @@
     "fabric-branch-fork-signal": [
       {
         "a": "fabric-branch-fork-signal",
+        "b": "azure-time-series-environments",
+        "similarity": 0.144
+      },
+      {
+        "a": "fabric-branch-fork-signal",
         "b": "azure-device-security-apple",
         "similarity": 0.1323
       },
@@ -5356,11 +5377,6 @@
         "a": "fabric-branch-fork-signal",
         "b": "azure-blob-block",
         "similarity": 0.1268
-      },
-      {
-        "a": "fabric-branch-fork-signal",
-        "b": "gcp-datashare",
-        "similarity": 0.1265
       }
     ],
     "fabric-briefcase-report": [
@@ -7093,8 +7109,8 @@
       },
       {
         "a": "gcp-media-translation",
-        "b": "fabric-notebook-export",
-        "similarity": 0.2144
+        "b": "azure-time-series-event-sources",
+        "similarity": 0.2184
       }
     ],
     "gcp-video-intelligence": [
@@ -8545,6 +8561,11 @@
     "gcp-beyondcorp": [
       {
         "a": "gcp-beyondcorp",
+        "b": "azure-iot-hub",
+        "similarity": 0.2125
+      },
+      {
+        "a": "gcp-beyondcorp",
         "b": "gcp-mandiant",
         "similarity": 0.21
       },
@@ -8552,11 +8573,6 @@
         "a": "gcp-beyondcorp",
         "b": "aws-codecatalyst",
         "similarity": 0.2035
-      },
-      {
-        "a": "gcp-beyondcorp",
-        "b": "aws-vpc",
-        "similarity": 0.203
       }
     ],
     "gcp-web-risk": [
@@ -10148,13 +10164,13 @@
       },
       {
         "a": "fabric-data-warehouse",
-        "b": "azure-tenant-properties",
-        "similarity": 0.3038
+        "b": "azure-stack-hci-sizer",
+        "similarity": 0.3116
       },
       {
         "a": "fabric-data-warehouse",
-        "b": "aws-backup",
-        "similarity": 0.2986
+        "b": "azure-tenant-properties",
+        "similarity": 0.3038
       }
     ],
     "fabric-dataflow": [
@@ -10799,8 +10815,8 @@
       },
       {
         "a": "azure-ssis-lift-shift",
-        "b": "aws-category-containers",
-        "similarity": 0.2561
+        "b": "azure-time-series-data-sets",
+        "similarity": 0.2605
       }
     ],
     "azure-sql-edge": [
@@ -12421,8 +12437,8 @@
       },
       {
         "a": "aws-kinesis-video",
-        "b": "aws-fraud-detector",
-        "similarity": 0.1939
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.197
       }
     ],
     "aws-managed-flink": [
@@ -13078,14 +13094,14 @@
         "similarity": 0.2618
       },
       {
+        "a": "m365-building",
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2559
+      },
+      {
         "a": "m365-retail-building",
         "b": "m365-building",
         "similarity": 0.2476
-      },
-      {
-        "a": "m365-lock",
-        "b": "m365-building",
-        "similarity": 0.2437
       }
     ],
     "m365-clock": [
@@ -14541,13 +14557,13 @@
       },
       {
         "a": "azure-device-security-google",
-        "b": "azure-folder-blank",
-        "similarity": 0.2085
+        "b": "azure-time-series-environments",
+        "similarity": 0.2116
       },
       {
         "a": "azure-device-security-google",
-        "b": "azure-guide",
-        "similarity": 0.2083
+        "b": "azure-folder-blank",
+        "similarity": 0.2085
       }
     ],
     "azure-device-security-windows": [
@@ -14621,6 +14637,11 @@
     "azure-intune-devices": [
       {
         "a": "azure-intune-devices",
+        "b": "azure-maps-accounts",
+        "similarity": 0.2731
+      },
+      {
+        "a": "azure-intune-devices",
         "b": "azure-entra-connect",
         "similarity": 0.2722
       },
@@ -14628,11 +14649,6 @@
         "a": "azure-intune-devices",
         "b": "aws-elemental-delta",
         "similarity": 0.2676
-      },
-      {
-        "a": "azure-intune-devices",
-        "b": "aws-general-chat",
-        "similarity": 0.2634
       }
     ],
     "azure-device-compliance": [
@@ -14818,8 +14834,8 @@
       },
       {
         "a": "azure-user-subscriptions",
-        "b": "azure-powershell",
-        "similarity": 0.2035
+        "b": "azure-device-provisioning",
+        "similarity": 0.2262
       }
     ],
     "azure-entra-domain-services": [
@@ -14829,14 +14845,14 @@
         "similarity": 0.3043
       },
       {
+        "a": "azure-entra-domain-services",
+        "b": "azure-iot-operations",
+        "similarity": 0.2866
+      },
+      {
         "a": "gcp-catalog",
         "b": "azure-entra-domain-services",
         "similarity": 0.279
-      },
-      {
-        "a": "aws-pytorch",
-        "b": "azure-entra-domain-services",
-        "similarity": 0.2662
       }
     ],
     "azure-identity-groups": [
@@ -14978,18 +14994,18 @@
     "azure-identity-roles-administrators": [
       {
         "a": "azure-identity-roles-administrators",
+        "b": "azure-time-series-event-sources",
+        "similarity": 0.2722
+      },
+      {
+        "a": "azure-identity-roles-administrators",
+        "b": "azure-time-series-access-policies",
+        "similarity": 0.2516
+      },
+      {
+        "a": "azure-identity-roles-administrators",
         "b": "azure-external-id",
         "similarity": 0.2493
-      },
-      {
-        "a": "gcp-cloud-scheduler",
-        "b": "azure-identity-roles-administrators",
-        "similarity": 0.2353
-      },
-      {
-        "a": "fabric-apps",
-        "b": "azure-identity-roles-administrators",
-        "similarity": 0.2339
       }
     ],
     "azure-multi-factor-authentication": [
@@ -15136,16 +15152,21 @@
       },
       {
         "a": "azure-administrative-units",
-        "b": "azure-globe-warning",
-        "similarity": 0.2148
+        "b": "azure-windows-core-services",
+        "similarity": 0.2237
       },
       {
-        "a": "azure-intune-education",
-        "b": "azure-administrative-units",
-        "similarity": 0.2147
+        "a": "azure-administrative-units",
+        "b": "azure-globe-warning",
+        "similarity": 0.2148
       }
     ],
     "azure-multi-tenancy": [
+      {
+        "a": "azure-multi-tenancy",
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2287
+      },
       {
         "a": "azure-multi-tenancy",
         "b": "azure-resource-linked",
@@ -15155,11 +15176,6 @@
         "a": "aws-dynamodb-global-secondary-index",
         "b": "azure-multi-tenancy",
         "similarity": 0.2256
-      },
-      {
-        "a": "azure-multi-tenancy",
-        "b": "azure-globe-error",
-        "similarity": 0.2187
       }
     ],
     "azure-verifiable-credentials": [
@@ -15175,8 +15191,8 @@
       },
       {
         "a": "azure-verifiable-credentials",
-        "b": "azure-backlog",
-        "similarity": 0.2454
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2668
       }
     ],
     "azure-privileged-identity-management": [
@@ -15232,6 +15248,11 @@
     ],
     "azure-custom-identity-roles": [
       {
+        "a": "azure-custom-identity-roles",
+        "b": "azure-stack-hci-sizer",
+        "similarity": 0.2432
+      },
+      {
         "a": "gcp-database-migration",
         "b": "azure-custom-identity-roles",
         "similarity": 0.2159
@@ -15240,11 +15261,6 @@
         "a": "azure-operator-5g-core",
         "b": "azure-custom-identity-roles",
         "similarity": 0.2118
-      },
-      {
-        "a": "azure-logic-apps",
-        "b": "azure-custom-identity-roles",
-        "similarity": 0.2111
       }
     ],
     "azure-identity-licenses": [
@@ -15306,13 +15322,13 @@
       },
       {
         "a": "azure-verification-service",
-        "b": "fabric-document-ssis-play",
-        "similarity": 0.2755
+        "b": "azure-maps-accounts",
+        "similarity": 0.2788
       },
       {
-        "a": "aws-eventbridge-rule",
-        "b": "azure-verification-service",
-        "similarity": 0.2704
+        "a": "azure-verification-service",
+        "b": "fabric-document-ssis-play",
+        "similarity": 0.2755
       }
     ],
     "azure-machine-learning-classic": [
@@ -16078,6 +16094,278 @@
         "a": "azure-content-safety",
         "b": "azure-devops",
         "similarity": 0.1892
+      }
+    ],
+    "azure-digital-twins": [
+      {
+        "a": "azure-digital-twins",
+        "b": "azure-maps-accounts",
+        "similarity": 0.2797
+      },
+      {
+        "a": "azure-digital-twins",
+        "b": "azure-server-farm",
+        "similarity": 0.2617
+      },
+      {
+        "a": "azure-entra-connect",
+        "b": "azure-digital-twins",
+        "similarity": 0.2603
+      }
+    ],
+    "azure-industrial-iot": [
+      {
+        "a": "azure-industrial-iot",
+        "b": "azure-workspace-gateway",
+        "similarity": 0.2724
+      },
+      {
+        "a": "azure-industrial-iot",
+        "b": "azure-device-provisioning",
+        "similarity": 0.2577
+      },
+      {
+        "a": "azure-entra-connect-health",
+        "b": "azure-industrial-iot",
+        "similarity": 0.2133
+      }
+    ],
+    "azure-stack-hci-sizer": [
+      {
+        "a": "fabric-data-warehouse",
+        "b": "azure-stack-hci-sizer",
+        "similarity": 0.3116
+      },
+      {
+        "a": "azure-netapp-files",
+        "b": "azure-stack-hci-sizer",
+        "similarity": 0.3039
+      },
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "azure-stack-hci-sizer",
+        "similarity": 0.2947
+      }
+    ],
+    "azure-stack-hci-premium": [
+      {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-workspaces-select",
+        "similarity": 0.3742
+      },
+      {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-blob-block",
+        "similarity": 0.2938
+      },
+      {
+        "a": "azure-netapp-files",
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2821
+      }
+    ],
+    "azure-iot-operations": [
+      {
+        "a": "azure-entra-domain-services",
+        "b": "azure-iot-operations",
+        "similarity": 0.2866
+      },
+      {
+        "a": "azure-iot-operations",
+        "b": "aws-general-client",
+        "similarity": 0.2661
+      },
+      {
+        "a": "m365-office-notebook",
+        "b": "azure-iot-operations",
+        "similarity": 0.2601
+      }
+    ],
+    "azure-hybrid-connectivity-hub": [
+      {
+        "a": "azure-hybrid-connectivity-hub",
+        "b": "azure-iot-edge",
+        "similarity": 0.2595
+      },
+      {
+        "a": "azure-hybrid-connectivity-hub",
+        "b": "azure-web-slots",
+        "similarity": 0.2497
+      },
+      {
+        "a": "aws-sagemaker-train",
+        "b": "azure-hybrid-connectivity-hub",
+        "similarity": 0.2478
+      }
+    ],
+    "azure-time-series-environments": [
+      {
+        "a": "azure-time-series-environments",
+        "b": "azure-mobile",
+        "similarity": 0.3136
+      },
+      {
+        "a": "azure-time-series-environments",
+        "b": "azure-resource-explorer",
+        "similarity": 0.3058
+      },
+      {
+        "a": "azure-time-series-environments",
+        "b": "azure-service-groups",
+        "similarity": 0.2909
+      }
+    ],
+    "azure-iot-hub": [
+      {
+        "a": "azure-iot-hub",
+        "b": "azure-container-storage",
+        "similarity": 0.2159
+      },
+      {
+        "a": "gcp-beyondcorp",
+        "b": "azure-iot-hub",
+        "similarity": 0.2125
+      },
+      {
+        "a": "azure-databox-gateway",
+        "b": "azure-iot-hub",
+        "similarity": 0.1934
+      }
+    ],
+    "azure-iot-central-applications": [
+      {
+        "a": "azure-application-insights",
+        "b": "azure-iot-central-applications",
+        "similarity": 0.2884
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "azure-code-optimization",
+        "similarity": 0.2821
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "azure-dashboard",
+        "similarity": 0.28
+      }
+    ],
+    "azure-maps-accounts": [
+      {
+        "a": "azure-digital-twins",
+        "b": "azure-maps-accounts",
+        "similarity": 0.2797
+      },
+      {
+        "a": "azure-verification-service",
+        "b": "azure-maps-accounts",
+        "similarity": 0.2788
+      },
+      {
+        "a": "azure-intune-devices",
+        "b": "azure-maps-accounts",
+        "similarity": 0.2731
+      }
+    ],
+    "azure-iot-edge": [
+      {
+        "a": "azure-hybrid-connectivity-hub",
+        "b": "azure-iot-edge",
+        "similarity": 0.2595
+      },
+      {
+        "a": "azure-iot-edge",
+        "b": "azure-notification-namespaces",
+        "similarity": 0.2373
+      },
+      {
+        "a": "azure-iot-edge",
+        "b": "azure-web-slots",
+        "similarity": 0.2281
+      }
+    ],
+    "azure-time-series-event-sources": [
+      {
+        "a": "azure-identity-roles-administrators",
+        "b": "azure-time-series-event-sources",
+        "similarity": 0.2722
+      },
+      {
+        "a": "azure-intune-devices",
+        "b": "azure-time-series-event-sources",
+        "similarity": 0.2553
+      },
+      {
+        "a": "azure-applied-ai",
+        "b": "azure-time-series-event-sources",
+        "similarity": 0.2486
+      }
+    ],
+    "azure-time-series-access-policies": [
+      {
+        "a": "azure-identity-roles-administrators",
+        "b": "azure-time-series-access-policies",
+        "similarity": 0.2516
+      },
+      {
+        "a": "azure-exchange-access",
+        "b": "azure-time-series-access-policies",
+        "similarity": 0.2454
+      },
+      {
+        "a": "azure-time-series-event-sources",
+        "b": "azure-time-series-access-policies",
+        "similarity": 0.2377
+      }
+    ],
+    "azure-time-series-data-sets": [
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "azure-blob-block",
+        "similarity": 0.2838
+      },
+      {
+        "a": "azure-ssis-lift-shift",
+        "b": "azure-time-series-data-sets",
+        "similarity": 0.2605
+      },
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.2562
+      }
+    ],
+    "azure-windows-core-services": [
+      {
+        "a": "azure-windows-core-services",
+        "b": "aws-general-saml-token",
+        "similarity": 0.2782
+      },
+      {
+        "a": "azure-windows-core-services",
+        "b": "aws-general-client",
+        "similarity": 0.2427
+      },
+      {
+        "a": "azure-windows-core-services",
+        "b": "azure-branch",
+        "similarity": 0.2354
+      }
+    ],
+    "azure-device-provisioning": [
+      {
+        "a": "aws-sagemaker-train",
+        "b": "azure-device-provisioning",
+        "similarity": 0.2787
+      },
+      {
+        "a": "azure-device-provisioning",
+        "b": "azure-website-staging",
+        "similarity": 0.2578
+      },
+      {
+        "a": "azure-industrial-iot",
+        "b": "azure-device-provisioning",
+        "similarity": 0.2577
       }
     ],
     "fabric-copilot": [
@@ -17175,14 +17463,14 @@
         "similarity": 0.2454
       },
       {
+        "a": "azure-stack-hci-premium",
+        "b": "aws-managed-blockchain",
+        "similarity": 0.2073
+      },
+      {
         "a": "aws-managed-blockchain",
         "b": "fabric-overlapping-squares",
         "similarity": 0.1997
-      },
-      {
-        "a": "gcp-cloud-router",
-        "b": "aws-managed-blockchain",
-        "similarity": 0.1996
       }
     ],
     "aws-location-service": [
@@ -17209,14 +17497,14 @@
         "similarity": 0.2954
       },
       {
+        "a": "azure-stack-hci-sizer",
+        "b": "aws-workmail",
+        "similarity": 0.2419
+      },
+      {
         "a": "azure-intune-client-apps",
         "b": "aws-workmail",
         "similarity": 0.2311
-      },
-      {
-        "a": "aws-workmail",
-        "b": "azure-cache",
-        "similarity": 0.231
       }
     ],
     "aws-workdocs": [
@@ -17588,9 +17876,9 @@
         "similarity": 0.261
       },
       {
-        "a": "m365-data-area",
+        "a": "azure-stack-hci-sizer",
         "b": "aws-transfer-family",
-        "similarity": 0.2301
+        "similarity": 0.232
       }
     ],
     "aws-application-discovery": [
@@ -17792,9 +18080,9 @@
         "similarity": 0.2179
       },
       {
-        "a": "azure-tenant-status",
+        "a": "azure-time-series-environments",
         "b": "aws-general-users",
-        "similarity": 0.2073
+        "similarity": 0.2125
       }
     ],
     "aws-general-internet-transfer": [
@@ -17991,14 +18279,14 @@
         "similarity": 0.4353
       },
       {
+        "a": "azure-windows-core-services",
+        "b": "aws-general-saml-token",
+        "similarity": 0.2782
+      },
+      {
         "a": "aws-general-office-building",
         "b": "aws-general-saml-token",
         "similarity": 0.253
-      },
-      {
-        "a": "aws-general-saml-token",
-        "b": "azure-mobile-engagement",
-        "similarity": 0.2471
       }
     ],
     "aws-general-credentials": [
@@ -18353,9 +18641,9 @@
         "similarity": 0.2839
       },
       {
-        "a": "aws-general-email",
-        "b": "aws-general-folders",
-        "similarity": 0.2776
+        "a": "azure-time-series-environments",
+        "b": "aws-general-email",
+        "similarity": 0.2812
       }
     ],
     "aws-general-firewall": [
@@ -20905,12 +21193,12 @@
         "similarity": 0.2099
       },
       {
-        "a": "aws-outposts-rack",
+        "a": "azure-stack-hci-sizer",
         "b": "aws-global-accelerator",
-        "similarity": 0.2065
+        "similarity": 0.2077
       },
       {
-        "a": "azure-netapp-files",
+        "a": "aws-outposts-rack",
         "b": "aws-global-accelerator",
         "similarity": 0.2065
       }
@@ -21347,14 +21635,14 @@
         "similarity": 0.2186
       },
       {
-        "a": "gcp-category-mixed-reality",
-        "b": "fabric-group-workspace",
-        "similarity": 0.2042
+        "a": "azure-stack-hci-sizer",
+        "b": "gcp-category-mixed-reality",
+        "similarity": 0.208
       },
       {
         "a": "gcp-category-mixed-reality",
-        "b": "aws-category-app-integration",
-        "similarity": 0.1951
+        "b": "fabric-group-workspace",
+        "similarity": 0.2042
       }
     ],
     "gcp-category-networking": [
@@ -22016,14 +22304,14 @@
         "similarity": 0.2583
       },
       {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2559
+      },
+      {
         "a": "azure-verification-service",
         "b": "aws-ec2-cloudwatch-instance",
         "similarity": 0.25
-      },
-      {
-        "a": "aws-ec2-cloudwatch-instance",
-        "b": "fabric-board-lightning-sparkle",
-        "similarity": 0.2475
       }
     ],
     "aws-ec2-instance": [
@@ -22378,9 +22666,9 @@
         "similarity": 0.1812
       },
       {
-        "a": "azure-operator-5g-core",
+        "a": "azure-stack-hci-premium",
         "b": "aws-ec2-image-builder",
-        "similarity": 0.1747
+        "similarity": 0.1778
       }
     ],
     "aws-lightsail": [
@@ -23631,14 +23919,14 @@
         "similarity": 0.292
       },
       {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-process-explorer",
+        "similarity": 0.2646
+      },
+      {
         "a": "azure-process-explorer",
         "b": "azure-globe-error",
         "similarity": 0.2526
-      },
-      {
-        "a": "aws-general-data-table",
-        "b": "azure-process-explorer",
-        "similarity": 0.2404
       }
     ],
     "azure-production-ready-database": [
@@ -24085,6 +24373,11 @@
     ],
     "azure-globe-error": [
       {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-globe-error",
+        "similarity": 0.2766
+      },
+      {
         "a": "gcp-cloud-domains",
         "b": "azure-globe-error",
         "similarity": 0.2735
@@ -24093,14 +24386,14 @@
         "a": "azure-search-grid",
         "b": "azure-globe-error",
         "similarity": 0.2711
-      },
-      {
-        "a": "azure-language",
-        "b": "azure-globe-error",
-        "similarity": 0.2707
       }
     ],
     "azure-globe-success": [
+      {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-globe-success",
+        "similarity": 0.2705
+      },
       {
         "a": "azure-table",
         "b": "azure-globe-success",
@@ -24110,11 +24403,6 @@
         "a": "azure-globe-success",
         "b": "azure-globe-warning",
         "similarity": 0.2402
-      },
-      {
-        "a": "azure-globe-success",
-        "b": "azure-blob-block",
-        "similarity": 0.2399
       }
     ],
     "azure-globe-warning": [
@@ -24124,14 +24412,14 @@
         "similarity": 0.295
       },
       {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-globe-warning",
+        "similarity": 0.2565
+      },
+      {
         "a": "azure-intune-education",
         "b": "azure-globe-warning",
         "similarity": 0.2508
-      },
-      {
-        "a": "azure-globe-success",
-        "b": "azure-globe-warning",
-        "similarity": 0.2402
       }
     ],
     "azure-guide": [
@@ -24408,6 +24696,11 @@
     ],
     "azure-troubleshoot": [
       {
+        "a": "azure-windows-core-services",
+        "b": "azure-troubleshoot",
+        "similarity": 0.216
+      },
+      {
         "a": "aws-general-logs",
         "b": "azure-troubleshoot",
         "similarity": 0.2068
@@ -24416,11 +24709,6 @@
         "a": "azure-entra-id-protection",
         "b": "azure-troubleshoot",
         "similarity": 0.2026
-      },
-      {
-        "a": "azure-troubleshoot",
-        "b": "fabric-shapes-curved-arrow",
-        "similarity": 0.1967
       }
     ],
     "azure-resource-explorer": [
@@ -24452,9 +24740,9 @@
         "similarity": 0.295
       },
       {
-        "a": "azure-intune-education",
+        "a": "azure-stack-hci-premium",
         "b": "azure-blob-block",
-        "similarity": 0.2789
+        "similarity": 0.2938
       }
     ],
     "azure-blob-page": [
@@ -24476,6 +24764,11 @@
     ],
     "azure-branch": [
       {
+        "a": "azure-windows-core-services",
+        "b": "azure-branch",
+        "similarity": 0.2354
+      },
+      {
         "a": "aws-location-routes",
         "b": "azure-branch",
         "similarity": 0.1937
@@ -24484,11 +24777,6 @@
         "a": "azure-branch",
         "b": "azure-builds",
         "similarity": 0.1935
-      },
-      {
-        "a": "aws-general-forums",
-        "b": "azure-branch",
-        "similarity": 0.1912
       }
     ],
     "azure-browser": [
@@ -25030,9 +25318,9 @@
         "similarity": 0.2839
       },
       {
-        "a": "azure-workspace-gateway",
-        "b": "azure-lab-accounts",
-        "similarity": 0.2708
+        "a": "azure-industrial-iot",
+        "b": "azure-workspace-gateway",
+        "similarity": 0.2724
       }
     ],
     "azure-api-connections": [
@@ -25156,6 +25444,11 @@
     ],
     "azure-service-groups": [
       {
+        "a": "azure-time-series-environments",
+        "b": "azure-service-groups",
+        "similarity": 0.2909
+      },
+      {
         "a": "azure-code-optimization",
         "b": "azure-service-groups",
         "similarity": 0.2779
@@ -25164,11 +25457,6 @@
         "a": "azure-service-groups",
         "b": "fabric-folder-data-bars",
         "similarity": 0.2757
-      },
-      {
-        "a": "azure-notification-namespaces",
-        "b": "azure-service-groups",
-        "similarity": 0.275
       }
     ],
     "azure-aks-network-policy": [
@@ -25394,6 +25682,11 @@
     ],
     "azure-workspaces-select": [
       {
+        "a": "azure-stack-hci-premium",
+        "b": "azure-workspaces-select",
+        "similarity": 0.3742
+      },
+      {
         "a": "azure-storage-hubs",
         "b": "azure-workspaces-select",
         "similarity": 0.3063
@@ -25402,11 +25695,6 @@
         "a": "azure-instance-pools",
         "b": "azure-workspaces-select",
         "similarity": 0.281
-      },
-      {
-        "a": "azure-workspaces-select",
-        "b": "fabric-tooltip-data-bars",
-        "similarity": 0.2716
       }
     ],
     "azure-stage-maps": [
@@ -29499,14 +29787,14 @@
         "similarity": 0.1837
       },
       {
+        "a": "azure-iot-operations",
+        "b": "fabric-branch-link",
+        "similarity": 0.1485
+      },
+      {
         "a": "fabric-categorize",
         "b": "fabric-branch-link",
         "similarity": 0.1431
-      },
-      {
-        "a": "entra-id",
-        "b": "fabric-branch-link",
-        "similarity": 0.1336
       }
     ],
     "fabric-briefcase-pulse": [
@@ -30486,6 +30774,11 @@
     ],
     "fabric-stack-key": [
       {
+        "a": "azure-iot-central-applications",
+        "b": "fabric-stack-key",
+        "similarity": 0.2489
+      },
+      {
         "a": "azure-language",
         "b": "fabric-stack-key",
         "similarity": 0.2149
@@ -30494,11 +30787,6 @@
         "a": "azure-endpoint-analytics",
         "b": "fabric-stack-key",
         "similarity": 0.2137
-      },
-      {
-        "a": "m365-folders",
-        "b": "fabric-stack-key",
-        "similarity": 0.2115
       }
     ],
     "fabric-table-wand": [

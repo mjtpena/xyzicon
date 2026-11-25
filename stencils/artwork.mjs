@@ -18,6 +18,7 @@ import { officeMoreArtwork } from "./office-more.mjs";
 import { peopleArtwork } from "./people.mjs";
 import { awsIntelligenceArtwork } from "./aws-intelligence.mjs";
 import { azureIntelligenceArtwork } from "./azure-intelligence.mjs";
+import { azureIotArtwork } from "./azure-iot.mjs";
 import { fabricProductsArtwork } from "./fabric-products.mjs";
 import { awsDeveloperArtwork } from "./aws-developer.mjs";
 import { awsBusinessArtwork } from "./aws-business.mjs";
@@ -268,6 +269,7 @@ export const artwork = [
   ...peopleArtwork,
   ...awsIntelligenceArtwork,
   ...azureIntelligenceArtwork,
+  ...azureIotArtwork,
   ...fabricProductsArtwork,
   ...awsDeveloperArtwork,
   ...awsBusinessArtwork,
