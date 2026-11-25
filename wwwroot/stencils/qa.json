@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 831,
-  "aliases": 3404,
+  "count": 835,
+  "aliases": 3408,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -202,6 +202,10 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-ai-hypercomputer",
+    "gcp-advanced-agent-modeling",
+    "gcp-agent-assist",
+    "gcp-ai-hub",
     "gcp-threat-intelligence",
     "gcp-security-command-center",
     "gcp-mandiant",
@@ -940,8 +944,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 90,
-      "concepts": 80
+      "covered": 94,
+      "concepts": 84
     }
   },
   "nearest": {
@@ -4294,6 +4298,74 @@
         "similarity": 0.2574
       }
     ],
+    "gcp-ai-hypercomputer": [
+      {
+        "a": "gcp-ai-hypercomputer",
+        "b": "m365-slide-layout",
+        "similarity": 0.2878
+      },
+      {
+        "a": "gcp-ai-hypercomputer",
+        "b": "aws-service-management-connector",
+        "similarity": 0.2859
+      },
+      {
+        "a": "gcp-ai-hypercomputer",
+        "b": "azure-host-groups",
+        "similarity": 0.2854
+      }
+    ],
+    "gcp-advanced-agent-modeling": [
+      {
+        "a": "gcp-advanced-agent-modeling",
+        "b": "aws-lookout-vision",
+        "similarity": 0.2082
+      },
+      {
+        "a": "gcp-advanced-agent-modeling",
+        "b": "azure-app-domains",
+        "similarity": 0.1911
+      },
+      {
+        "a": "gcp-advanced-agent-modeling",
+        "b": "azure-automanaged-vm",
+        "similarity": 0.1871
+      }
+    ],
+    "gcp-agent-assist": [
+      {
+        "a": "gcp-agent-assist",
+        "b": "aws-outposts-rack",
+        "similarity": 0.2524
+      },
+      {
+        "a": "m365-apps",
+        "b": "gcp-agent-assist",
+        "similarity": 0.2433
+      },
+      {
+        "a": "gcp-agent-assist",
+        "b": "gcp-app-engine",
+        "similarity": 0.2371
+      }
+    ],
+    "gcp-ai-hub": [
+      {
+        "a": "gcp-ai-hub",
+        "b": "azure-foundry-control-plane",
+        "similarity": 0.2456
+      },
+      {
+        "a": "gcp-ai-hub",
+        "b": "aws-iot-core",
+        "similarity": 0.2359
+      },
+      {
+        "a": "gcp-ai-hub",
+        "b": "aws-application-recovery-controller",
+        "similarity": 0.2239
+      }
+    ],
     "gcp-threat-intelligence": [
       {
         "a": "gcp-threat-intelligence",
@@ -4500,6 +4572,11 @@
     ],
     "gcp-load-balancing": [
       {
+        "a": "gcp-ai-hub",
+        "b": "gcp-load-balancing",
+        "similarity": 0.2168
+      },
+      {
         "a": "gcp-load-balancing",
         "b": "aws-iot-core",
         "similarity": 0.1975
@@ -4508,11 +4585,6 @@
         "a": "gcp-load-balancing",
         "b": "fabric-asterisk",
         "similarity": 0.1967
-      },
-      {
-        "a": "gcp-load-balancing",
-        "b": "aws-professional-services",
-        "similarity": 0.1944
       }
     ],
     "gcp-cloud-cdn": [
@@ -5003,9 +5075,9 @@
         "similarity": 0.2185
       },
       {
-        "a": "m365-organization",
-        "b": "aws-parallel-cluster",
-        "similarity": 0.2067
+        "a": "gcp-ai-hub",
+        "b": "m365-organization",
+        "similarity": 0.2088
       }
     ],
     "m365-organization-horizontal": [
@@ -5894,6 +5966,11 @@
     ],
     "azure-sql-stretch": [
       {
+        "a": "gcp-ai-hypercomputer",
+        "b": "azure-sql-stretch",
+        "similarity": 0.2345
+      },
+      {
         "a": "azure-sql-stretch",
         "b": "azure-storage-sync",
         "similarity": 0.2225
@@ -5902,11 +5979,6 @@
         "a": "azure-sql-stretch",
         "b": "aws-verified-permissions",
         "similarity": 0.2059
-      },
-      {
-        "a": "gcp-datastream",
-        "b": "azure-sql-stretch",
-        "similarity": 0.205
       }
     ],
     "azure-storage-files": [
@@ -6431,9 +6503,9 @@
         "similarity": 0.26
       },
       {
-        "a": "aws-outposts-rack",
-        "b": "m365-clipboard",
-        "similarity": 0.2417
+        "a": "gcp-agent-assist",
+        "b": "aws-outposts-rack",
+        "similarity": 0.2524
       }
     ],
     "aws-outposts-servers": [
@@ -7990,14 +8062,14 @@
         "similarity": 0.2232
       },
       {
+        "a": "gcp-advanced-agent-modeling",
+        "b": "aws-lookout-vision",
+        "similarity": 0.2082
+      },
+      {
         "a": "aws-lookout-vision",
         "b": "aws-serverless-repository",
         "similarity": 0.1863
-      },
-      {
-        "a": "gcp-storage",
-        "b": "aws-lookout-vision",
-        "similarity": 0.1813
       }
     ],
     "aws-monitron": [
@@ -8012,9 +8084,9 @@
         "similarity": 0.2377
       },
       {
-        "a": "m365-chart-multiple",
+        "a": "gcp-ai-hypercomputer",
         "b": "aws-monitron",
-        "similarity": 0.2267
+        "similarity": 0.234
       }
     ],
     "azure-openai": [
@@ -8126,14 +8198,14 @@
         "similarity": 0.2923
       },
       {
+        "a": "gcp-ai-hub",
+        "b": "azure-foundry-control-plane",
+        "similarity": 0.2456
+      },
+      {
         "a": "gcp-filestore",
         "b": "azure-foundry-control-plane",
         "similarity": 0.2071
-      },
-      {
-        "a": "azure-foundry-control-plane",
-        "b": "fabric-overlapping-squares-line",
-        "similarity": 0.2062
       }
     ],
     "azure-foundry-labs": [
@@ -9712,9 +9784,9 @@
         "similarity": 0.2966
       },
       {
-        "a": "azure-power-bi-embedded",
+        "a": "gcp-ai-hypercomputer",
         "b": "aws-service-management-connector",
-        "similarity": 0.2559
+        "similarity": 0.2859
       }
     ],
     "aws-devops-agent": [
@@ -10297,6 +10369,11 @@
     ],
     "aws-security-hub": [
       {
+        "a": "gcp-ai-hub",
+        "b": "aws-security-hub",
+        "similarity": 0.2173
+      },
+      {
         "a": "m365-data-area",
         "b": "aws-security-hub",
         "similarity": 0.1925
@@ -10305,11 +10382,6 @@
         "a": "aws-security-hub",
         "b": "azure-linux",
         "similarity": 0.1764
-      },
-      {
-        "a": "aws-security-hub",
-        "b": "aws-nitro-enclaves",
-        "similarity": 0.1735
       }
     ],
     "aws-certificate-manager": [
@@ -10756,6 +10828,11 @@
     ],
     "aws-application-recovery-controller": [
       {
+        "a": "gcp-ai-hub",
+        "b": "aws-application-recovery-controller",
+        "similarity": 0.2239
+      },
+      {
         "a": "aws-ecs",
         "b": "aws-application-recovery-controller",
         "similarity": 0.1954
@@ -10764,11 +10841,6 @@
         "a": "aws-application-recovery-controller",
         "b": "azure-notification-hubs",
         "similarity": 0.1939
-      },
-      {
-        "a": "aws-management-console",
-        "b": "aws-application-recovery-controller",
-        "similarity": 0.1904
       }
     ],
     "aws-backup": [
@@ -10885,9 +10957,9 @@
         "similarity": 0.2279
       },
       {
-        "a": "aws-deadline-cloud",
+        "a": "gcp-ai-hypercomputer",
         "b": "aws-storage-gateway",
-        "similarity": 0.2033
+        "similarity": 0.2203
       }
     ],
     "aws-data-transfer-terminal": [
@@ -12060,14 +12132,14 @@
         "similarity": 0.198
       },
       {
+        "a": "gcp-ai-hypercomputer",
+        "b": "gcp-category-collaboration",
+        "similarity": 0.194
+      },
+      {
         "a": "gcp-category-collaboration",
         "b": "fabric-app-folder-pulse",
         "similarity": 0.1881
-      },
-      {
-        "a": "m365-lightbulb-check",
-        "b": "gcp-category-collaboration",
-        "similarity": 0.1873
       }
     ],
     "gcp-category-compute": [
@@ -12264,14 +12336,14 @@
         "similarity": 0.2438
       },
       {
+        "a": "gcp-ai-hypercomputer",
+        "b": "gcp-category-media",
+        "similarity": 0.231
+      },
+      {
         "a": "m365-column-arrow",
         "b": "gcp-category-media",
         "similarity": 0.2302
-      },
-      {
-        "a": "aws-finops-agent",
-        "b": "gcp-category-media",
-        "similarity": 0.2244
       }
     ],
     "gcp-category-migration": [
@@ -13295,9 +13367,9 @@
         "similarity": 0.2031
       },
       {
-        "a": "aws-rds",
+        "a": "gcp-ai-hypercomputer",
         "b": "aws-elastic-vmware",
-        "similarity": 0.1837
+        "similarity": 0.1981
       }
     ],
     "aws-ecs-anywhere": [
@@ -13353,6 +13425,11 @@
     ],
     "aws-iot-core": [
       {
+        "a": "gcp-ai-hub",
+        "b": "aws-iot-core",
+        "similarity": 0.2359
+      },
+      {
         "a": "aws-transit-gateway",
         "b": "aws-iot-core",
         "similarity": 0.1987
@@ -13361,11 +13438,6 @@
         "a": "gcp-load-balancing",
         "b": "aws-iot-core",
         "similarity": 0.1975
-      },
-      {
-        "a": "azure-storage",
-        "b": "aws-iot-core",
-        "similarity": 0.1838
       }
     ],
     "aws-iot-device-defender": [
@@ -13557,6 +13629,11 @@
     ],
     "azure-notification-hubs": [
       {
+        "a": "gcp-ai-hub",
+        "b": "azure-notification-hubs",
+        "similarity": 0.2168
+      },
+      {
         "a": "azure-foundry-control-plane",
         "b": "azure-notification-hubs",
         "similarity": 0.2025
@@ -13565,11 +13642,6 @@
         "a": "aws-application-recovery-controller",
         "b": "azure-notification-hubs",
         "similarity": 0.1939
-      },
-      {
-        "a": "azure-private-endpoints",
-        "b": "azure-notification-hubs",
-        "similarity": 0.1902
       }
     ],
     "azure-app-certificates": [

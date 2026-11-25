@@ -1,6 +1,44 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-ai-hypercomputer", "gcp", "AI Hypercomputer", ["AIHypercomputer-512-color"],
+    "Connected accelerator racks power large AI workloads.",
+    [
+      rect(12, 21, 33, 75), rect(83, 21, 33, 75), line([12, 36], [45, 36]), line([12, 51], [45, 51]), line([12, 66], [45, 66]), line([12, 81], [45, 81]),
+      line([83, 36], [116, 36]), line([83, 51], [116, 51]), line([83, 66], [116, 66]), line([83, 81], [116, 81]),
+      oval(17, 25, 5, 5, true), oval(88, 25, 5, 5), oval(17, 55, 5, 5), oval(88, 55, 5, 5, true),
+      line([45, 44], [83, 44]), line([45, 59], [83, 59]), line([45, 74], [83, 74]),
+      oval(58, 53, 12, 12, true), line([18, 109], [110, 109]),
+    ]),
+  entry("gcp-advanced-agent-modeling", "gcp", "Advanced Agent Modeling", ["advanced_agent_modeling"],
+    "A conversational agent follows connected dialog states.",
+    [
+      line([11, 16], [68, 16], [68, 49], [44, 49], [31, 59], [31, 49], [11, 49], [11, 16]),
+      line([20, 27], [59, 27]), line([20, 37], [52, 37]),
+      oval(25, 70, 17, 17), oval(70, 58, 17, 17, true), oval(92, 91, 17, 17),
+      line([42, 78], [70, 67]), line([85, 74], [96, 91]),
+      line([26, 107], [73, 107]),
+    ]),
+  entry("gcp-agent-assist", "gcp", "Agent Assist", ["agent_assist"],
+    "An assistant offers suggested answers to a contact-center agent.",
+    [
+      rect(34, 13, 79, 91), line([34, 26], [113, 26]), line([42, 20], [66, 20]),
+      line([44, 44], [50, 37], [59, 35], [68, 37], [74, 44], [74, 53], [68, 62], [66, 69], [52, 69], [50, 62], [44, 53], [44, 44]),
+      line([52, 75], [66, 75]), line([54, 80], [64, 80]),
+      line([82, 43], [104, 43]), line([82, 52], [101, 52]), line([82, 61], [104, 61]), line([82, 70], [96, 70]),
+      oval(9, 70, 16, 16), line([7, 103], [9, 94], [14, 90], [20, 90], [25, 94], [27, 103]),
+      line([8, 78], [8, 70], [11, 64], [17, 62], [23, 64], [26, 70], [26, 78]),
+      line([17, 114], [107, 114]),
+    ]),
+  entry("gcp-ai-hub", "gcp", "AI Hub", ["ai_hub"],
+    "A shared hub organizes reusable AI components.",
+    [
+      oval(48, 41, 32, 32), oval(57, 48, 6, 6), oval(67, 48, 6, 6), oval(62, 60, 6, 6, true),
+      line([62, 54], [64, 60]), line([70, 54], [66, 60]),
+      line([64, 41], [64, 28]), line([48, 57], [32, 57]), line([80, 57], [96, 57]), line([64, 73], [64, 88]),
+      rect(49, 12, 30, 16), rect(8, 48, 24, 18), rect(96, 48, 24, 18), rect(49, 88, 30, 16),
+      line([55, 20], [73, 20]), line([55, 96], [73, 96]),
+    ]),
   entry("gcp-threat-intelligence", "gcp", "Google Threat Intelligence", ["ThreatIntelligence-512-color"],
     "Threat reports reveal a pattern across observed signals.",
     [
