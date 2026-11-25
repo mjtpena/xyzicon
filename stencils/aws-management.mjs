@@ -4,6 +4,76 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-general-management-console", "aws", "AWS Management Console", themes("AWS-Management-Console"),
+    "A cloud resource is managed through a console window.",
+    [
+      rect(15, 20, 92, 75), line([15, 34], [107, 34]), oval(22, 24, 5, 5, true), oval(32, 24, 5, 5, true),
+      line([25, 52], [29, 47], [35, 45], [41, 47], [44, 52], [48, 51], [53, 54], [55, 59], [53, 64], [26, 64], [23, 60], [23, 55], [25, 52]),
+      line([67, 45], [97, 45]), line([67, 57], [90, 57]), line([67, 69], [97, 69]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-sdk", "aws", "SDK", themes("SDK"),
+    "Developer tools and code are packaged together.",
+    [
+      line([21, 45], [61, 58], [101, 45], [101, 91], [61, 105], [21, 91], [21, 45]), line([61, 58], [61, 105]),
+      line([21, 45], [35, 35]), line([101, 45], [87, 35]), line([40, 35], [33, 42], [40, 49]), line([81, 35], [88, 42], [81, 49]), line([67, 27], [54, 53]),
+      line([14, 114], [110, 114]),
+    ]),
+  entry("aws-general-ssl-padlock", "aws", "SSL Padlock", themes("SSL-padlock"),
+    "A secured connection is represented by a locked link.",
+    [
+      line([16, 49], [21, 40], [28, 36], [38, 36], [44, 40]), line([16, 49], [16, 58], [21, 66], [28, 70], [38, 70], [44, 66]),
+      line([80, 40], [87, 36], [97, 36], [104, 40], [109, 49], [109, 58], [104, 66], [97, 70], [87, 70], [80, 66]),
+      rect(45, 50, 34, 30), line([52, 50], [52, 43], [55, 37], [62, 34], [69, 37], [72, 43], [72, 50]), oval(59, 58, 6, 6, true), line([62, 64], [62, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-server", "aws", "Server", themes("Server"),
+    "A single server tower exposes storage and status indicators.",
+    [
+      rect(34, 15, 54, 83), line([34, 32], [88, 32]), line([34, 49], [88, 49]), line([34, 66], [88, 66]), line([34, 83], [88, 83]),
+      oval(42, 21, 5, 5, true), oval(42, 38, 5, 5, true), oval(42, 55, 5, 5, true), line([55, 23], [79, 23]), line([55, 40], [79, 40]), line([55, 57], [79, 57]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-servers", "aws", "Servers", themes("Servers"),
+    "Several server units form a rack.",
+    [
+      line([20, 17], [20, 97]), line([104, 17], [104, 97]), rect(25, 21, 74, 20), rect(25, 47, 74, 20), rect(25, 73, 74, 20),
+      oval(32, 28, 6, 6, true), oval(32, 54, 6, 6, true), oval(32, 80, 6, 6, true), line([49, 31], [88, 31]), line([49, 57], [88, 57]), line([49, 83], [88, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-shield", "aws", "Shield", themes("Shield"),
+    "A shield protects a central area.",
+    [
+      line([61, 16], [100, 30], [96, 69], [83, 91], [61, 106], [39, 91], [26, 69], [22, 30], [61, 16]),
+      line([34, 38], [88, 38]), line([39, 67], [83, 67]), line([61, 38], [61, 93]), line([14, 114], [110, 114]),
+    ]),
+  entry("aws-general-source-code", "aws", "Source Code", themes("Source-Code"),
+    "A source file is tracked in a branching revision graph.",
+    [
+      line([12, 21], [59, 21], [70, 32], [70, 91], [12, 91], [12, 21]), line([59, 21], [59, 32], [70, 32]),
+      line([31, 41], [23, 50], [31, 59]), line([50, 41], [58, 50], [50, 59]), line([46, 38], [35, 62]), line([23, 72], [59, 72]),
+      oval(83, 27, 9, 9), oval(83, 75, 9, 9), oval(102, 51, 9, 9), line([87, 36], [87, 75]), line([87, 56], [102, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-tape-storage", "aws", "Tape Storage", themes("Tape-storage"),
+    "A tape cartridge holds two reels.",
+    [
+      rect(16, 30, 93, 56), oval(25, 39, 34, 34), oval(66, 39, 34, 34), oval(36, 50, 12, 12), oval(77, 50, 12, 12),
+      line([42, 73], [83, 73]), line([20, 24], [105, 24]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-toolkit", "aws", "Toolkit", themes("Toolkit"),
+    "A toolbox contains a wrench and screwdriver.",
+    [
+      line([15, 43], [107, 43], [107, 92], [15, 92], [15, 43]), line([40, 43], [40, 32], [47, 25], [76, 25], [83, 32], [83, 43]),
+      line([15, 61], [107, 61]), rect(55, 56, 13, 11), line([30, 75], [38, 82], [51, 69]), line([76, 70], [91, 83]), line([82, 68], [76, 70], [78, 76]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-user", "aws", "User", themes("User"),
+    "A single person represents a user.",
+    [
+      oval(42, 18, 38, 38), line([23, 96], [25, 82], [33, 70], [45, 63], [58, 60], [65, 60], [78, 63], [90, 70], [98, 82], [100, 96], [23, 96]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-users", "aws", "Users", themes("Users"),
+    "Several people form a group.",
+    [
+      oval(46, 19, 28, 28), oval(13, 31, 22, 22), oval(85, 31, 22, 22),
+      line([31, 93], [33, 78], [40, 67], [50, 62], [70, 62], [80, 67], [87, 78], [89, 93], [31, 93]),
+      line([11, 80], [12, 70], [18, 62], [26, 59], [34, 61]), line([109, 80], [108, 70], [102, 62], [94, 59], [86, 61]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-general-internet-transfer", "aws", "Internet Transfer", themes("Internet-alt2"),
     "A device exchanges traffic with a network globe.",
     [
