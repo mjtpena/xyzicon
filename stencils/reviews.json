@@ -769,9 +769,9 @@
   },
   "aws-dynamodb": {
     "revision": "694e7292eb3834efd0afaf47bbf8e976e8cffa1ea3deb3af97a0e8149abb2eca",
-    "comparisonRevision": "61b222b7a703254de28a8e86addea4dd799177d3a977c68cb494e06b03c9c460",
+    "comparisonRevision": "826d74e6399bb50a0a418fe704ba1e4ad5b99abf5d2687f6e7245f0e953f5a49",
     "status": "approved",
-    "notes": "A key points to stacked data records, unlike experimentation charts, Proton flow and the actuator."
+    "notes": "A key points to stacked data records, unlike experimentation charts, S3 tables and Proton flow."
   },
   "gcp-bigquery": {
     "revision": "86cc4560db16a9f782ed5b203cd78203c289bc0fa0b74aa3f1c4f350af63f9cf",
@@ -2262,9 +2262,9 @@
   },
   "aws-iot-rule": {
     "revision": "84859509b429ff1f72b3bc07a4c33f9c58cb41edd3af6105b3c2913099b59347",
-    "comparisonRevision": "128164d29df9268c797dbbd91fd6826a5f76f7efcf29b9b90f49ea1a17bb0bc8",
+    "comparisonRevision": "71eb1c3ab13f3d24f7f3fa5719badfdf1dde129b1c80bdcefedf5c7cddd75362",
     "status": "approved",
-    "notes": "An envelope enters a checklist, unlike DNS logging, storage tables and versioned documents."
+    "notes": "An envelope enters a checklist, unlike DNS logging, versioned documents and applied AI."
   },
   "aws-iot-action": {
     "revision": "9a3bdced8095856944c1e241bb6fdc6fef9da6b2705a0b4a865d78fd48076928",
@@ -2274,9 +2274,9 @@
   },
   "aws-iot-actuator": {
     "revision": "206d2a387cfd84349e01b5f32021f9b0fcf3716ea60c358274b181a6ede3e3e7",
-    "comparisonRevision": "e46ec6ae225d19e03b5d87f3f494cd51ca49cc6553795eeca873d635862e99ef",
+    "comparisonRevision": "c7f9d0d6564c7876cf2aed8f7882379802e05154d33fe20ed02aebb09a4caec6",
     "status": "approved",
-    "notes": "A control signal drives a linear piston, unlike external management, access analysis and relays; the servo rotates instead."
+    "notes": "A control signal drives a linear piston, unlike a cloud connector, external management and access analysis."
   },
   "aws-iot-servo": {
     "revision": "96b5d3f9b30e7172871ef4754a57366ace9b07c1bca25024d2cfaf8dcdbee47d",
@@ -2619,5 +2619,65 @@
     "comparisonRevision": "1922c44afb1f845dce2eb35e1825e89dd256be5d8d3063b4fab58050cf35b971",
     "status": "approved",
     "notes": "A component within a padlock differs from the Snowball, web folder and archive."
+  },
+  "aws-greengrass-public-component": {
+    "revision": "c114df8694258dc0e5a7911c52cee3ec05e43c82f22a2deead22c6efe06e46f7",
+    "comparisonRevision": "db2c73749cf402216c78a41d65b4ad10af5a81dd9ee5f43ab432f9817de27a46",
+    "status": "approved",
+    "notes": "A component panel with a globe differs from MySQL, an advisor and a maintenance calendar."
+  },
+  "aws-greengrass-connector": {
+    "revision": "8bd84d970ac6c07418ad7f06342c16e53be84895524eaa93359366f4cc48e294",
+    "comparisonRevision": "b66b213b9e7453ef4d3f1db77d1eab2e1bf7751fd2556bf809f8f70833b76075",
+    "status": "approved",
+    "notes": "A plug connects a local service to cloud, unlike a relay, piston actuator and VPN lock; ExpressLink has a secure module."
+  },
+  "aws-greengrass-interprocess": {
+    "revision": "23159ed3b5e8fd728c89ab94e2faa10c51bc721d5d430db3ca624f7aca803980",
+    "comparisonRevision": "d34ac6068a86a9b9fe69ffd90596ebec9880bf5c0ad718f1ddacacc244170418",
+    "status": "approved",
+    "notes": "Two process panels exchange opposing arrows, unlike the change set, internet access and identities."
+  },
+  "aws-greengrass-recipe": {
+    "revision": "e54165a75e6a88ca035f744622f7e446a2451168a931e64fc6a06bdf33463f4f",
+    "comparisonRevision": "05a0bd689f6e5066dc53f9310e2f63a9a45535a4b90535589e495a111c5255a9",
+    "status": "approved",
+    "notes": "A recipe document has an outward component marker, unlike the backup clock and policy checklists."
+  },
+  "aws-greengrass-stream-manager": {
+    "revision": "9ad6f2475353f6dee9724e26dbbecb9199bfd53b92ca5d4359b7b05b5a19362e",
+    "comparisonRevision": "b9373555feb3523952e0e2cda33e800db4bc5f6be6cf545bb2d799bfedf6d7cc",
+    "status": "approved",
+    "notes": "Streams of packets enter a manager, unlike a desired-state target, resource list and database index."
+  },
+  "aws-s3-on-outposts-resource": {
+    "revision": "efe0728ed88996da91c55bbd2f87b5e1a59440d49bf654597426d087e7f3ec2b",
+    "comparisonRevision": "f7d65a2465ea8c671e8c525000df74bc39d934f22df40bb473c19ea03f7c1ce2",
+    "status": "approved",
+    "notes": "A storage bucket beside a rack differs from a magnifier, attestation shield and image clock."
+  },
+  "aws-s3-select": {
+    "revision": "8406b2a5a365b2ddf9ca48d5efde6e7bc750e2c66ba3c06748d8874a27b64fe8",
+    "comparisonRevision": "2eb28d023b69d129b8aafbbe26fa3c3062b94962ccd65291b2958945c3221d3a",
+    "status": "approved",
+    "notes": "A bucket feeds a filter that outputs a record, unlike web database, resource provider and versions."
+  },
+  "aws-s3-storage-lens": {
+    "revision": "f143c15908e8d3c08998a1e2c17dee24f5d3c6bccaada7cb3c5ee356c5cc5ac3",
+    "comparisonRevision": "344c9d181d209645232181870316dc1c883ad7a9ca2f61395fb14adb5a3aad65",
+    "status": "approved",
+    "notes": "A bucket feeds an inspected usage chart, unlike vector axes, table grid and public IP."
+  },
+  "aws-s3-tables": {
+    "revision": "8be8480944097fa510a78f7c352a90a73f73a8cab4752cac35f623f7a45153aa",
+    "comparisonRevision": "bbebd4a871c0721c3dae78438c51399abec25ef8560c2349a97486e7e31f175b",
+    "status": "approved",
+    "notes": "A bucket feeds a table grid, unlike vector arrows, conversion and Proton."
+  },
+  "aws-s3-vectors": {
+    "revision": "98b87a60c915e90765613b753fe68b4e7c3dc913e32dc8911d7ca908f84a1877",
+    "comparisonRevision": "5147e5bc2a895e8a43825a316cc57986dacbac888e0755360c430af69a2b3c5a",
+    "status": "approved",
+    "notes": "A bucket sits beside a vector plot, unlike a table grid, usage chart and backup gateway."
   }
 }

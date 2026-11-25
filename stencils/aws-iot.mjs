@@ -271,8 +271,9 @@ export const awsIotArtwork = [
   entry("aws-greengrass-connector", "aws", "IoT Greengrass Connector", ["Res_AWS-IoT-Greengrass_Connector_48"],
     "A connector links two edge services.",
     [
-      line([12, 51], [31, 51]), line([31, 39], [46, 39], [53, 46], [53, 58], [46, 65], [31, 65], [31, 39]),
-      line([53, 45], [68, 45]), line([53, 59], [68, 59]), line([68, 39], [83, 39], [90, 46], [90, 58], [83, 65], [68, 65], [68, 39]), line([90, 51], [110, 51]), line([14, 109], [110, 109]),
+      rect(10, 34, 28, 34), line([16, 43], [32, 43]), line([16, 52], [28, 52]),
+      line([38, 51], [47, 51]), line([47, 41], [59, 41], [65, 47], [65, 55], [59, 61], [47, 61], [47, 41]), line([65, 47], [74, 47]), line([65, 55], [74, 55]),
+      line([81, 55], [77, 52], [77, 46], [80, 42], [86, 41], [89, 34], [96, 32], [102, 35], [104, 41], [109, 41], [114, 46], [114, 52], [110, 56], [81, 56]), line([14, 109], [110, 109]),
     ]),
   entry("aws-greengrass-interprocess", "aws", "IoT Greengrass Interprocess Communication", ["Res_AWS-IoT-Greengrass_Interprocess-Communication_48"],
     "Two edge processes exchange messages.",
