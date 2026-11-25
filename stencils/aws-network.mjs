@@ -3,6 +3,35 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-private-subnet", "aws", "Private subnet", ["Private-subnet_32"],
+    "An isolated network segment protects its internal hosts with a lock.",
+    [
+      line([11, 24], [76, 24], [76, 42]), line([11, 24], [11, 100], [76, 100], [76, 87]),
+      rect(20, 42, 18, 19), rect(20, 71, 18, 19), line([38, 51], [53, 51], [53, 80], [38, 80]),
+      rect(63, 54, 46, 34), line([72, 54], [72, 43], [78, 35], [86, 33], [94, 35], [100, 43], [100, 54]),
+      oval(82, 64, 8, 8, true), line([86, 72], [86, 79]),
+      line([19, 112], [109, 112]),
+    ]),
+  entry("aws-public-subnet", "aws", "Public subnet", ["Public-subnet_32"],
+    "A public network segment connects a host to the internet.",
+    [
+      line([47, 21], [115, 21], [115, 103], [47, 103], [47, 78]),
+      rect(69, 43, 31, 39), line([69, 53], [100, 53]), line([75, 63], [94, 63]), line([75, 72], [90, 72]),
+      oval(9, 42, 30, 30), line([14, 57], [34, 57]),
+      line([24, 42], [18, 48], [18, 66], [24, 72]), line([24, 42], [30, 48], [30, 66], [24, 72]),
+      line([39, 57], [68, 57]), line([62, 51], [68, 57], [62, 63]),
+      line([18, 113], [109, 113]),
+    ]),
+  entry("aws-region-group", "aws", "Region", ["Region_32"],
+    "A geographic region groups two availability locations.",
+    [
+      line([64, 13], [50, 16], [43, 26], [43, 37], [49, 48], [64, 62], [79, 48], [85, 37], [85, 26], [78, 16], [64, 13]),
+      oval(57, 24, 14, 14), line([64, 62], [64, 72]), line([32, 72], [96, 72]),
+      line([32, 72], [32, 80]), line([96, 72], [96, 80]),
+      rect(15, 80, 34, 23), line([15, 91], [49, 91]), line([22, 86], [42, 86]),
+      rect(79, 80, 34, 23), line([79, 91], [113, 91]), line([86, 86], [106, 86]),
+      line([21, 114], [107, 114]),
+    ]),
   entry("aws-app-mesh", "aws", "AWS App Mesh", sizes("AWS-App-Mesh"),
     "Service endpoints communicate through a mesh of proxy connections.",
     [
@@ -104,7 +133,7 @@ export const awsNetworkArtwork = [
       line([35, 36], [93, 36]), line([43, 86], [85, 86]), line([35, 41], [85, 82]), line([43, 81], [93, 41]),
       oval(56, 54, 16, 16, true),
     ]),
-  entry("aws-vpc", "aws", "Amazon Virtual Private Cloud", sizes("Amazon-Virtual-Private-Cloud"),
+  entry("aws-vpc", "aws", "Amazon Virtual Private Cloud", [...sizes("Amazon-Virtual-Private-Cloud"), "Virtual-private-cloud-VPC_32"],
     "A private boundary encloses two subnets linked by a router.",
     [
       line([12, 18], [116, 18], [116, 110], [12, 110], [12, 18]),

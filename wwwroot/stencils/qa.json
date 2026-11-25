@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 943,
-  "aliases": 3663,
+  "count": 946,
+  "aliases": 3667,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -692,6 +692,9 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-private-subnet",
+    "aws-public-subnet",
+    "aws-region-group",
     "aws-app-mesh",
     "aws-client-vpn",
     "aws-cloud-map",
@@ -1047,8 +1050,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1272,
-      "concepts": 318
+      "covered": 1276,
+      "concepts": 321
     },
     "gcp": {
       "sources": 261,
@@ -3632,13 +3635,13 @@
       },
       {
         "a": "azure-subnet",
-        "b": "aws-app-studio",
-        "similarity": 0.2635
+        "b": "aws-region-group",
+        "similarity": 0.2694
       },
       {
         "a": "azure-subnet",
-        "b": "gcp-healthcare-api",
-        "similarity": 0.255
+        "b": "aws-app-studio",
+        "similarity": 0.2635
       }
     ],
     "azure-dns-private-resolver": [
@@ -8516,8 +8519,8 @@
       },
       {
         "a": "aws-bedrock-agentcore",
-        "b": "azure-content-moderation",
-        "similarity": 0.2514
+        "b": "aws-private-subnet",
+        "similarity": 0.2521
       }
     ],
     "aws-sagemaker-ai": [
@@ -12760,6 +12763,57 @@
         "similarity": 0.5942
       }
     ],
+    "aws-private-subnet": [
+      {
+        "a": "aws-private-subnet",
+        "b": "aws-serverless-repository",
+        "similarity": 0.2933
+      },
+      {
+        "a": "aws-transform",
+        "b": "aws-private-subnet",
+        "similarity": 0.2766
+      },
+      {
+        "a": "aws-private-subnet",
+        "b": "azure-resource-groups",
+        "similarity": 0.2607
+      }
+    ],
+    "aws-public-subnet": [
+      {
+        "a": "aws-fsx",
+        "b": "aws-public-subnet",
+        "similarity": 0.2074
+      },
+      {
+        "a": "aws-mediastore",
+        "b": "aws-public-subnet",
+        "similarity": 0.205
+      },
+      {
+        "a": "azure-foundry-project",
+        "b": "aws-public-subnet",
+        "similarity": 0.201
+      }
+    ],
+    "aws-region-group": [
+      {
+        "a": "aws-region-group",
+        "b": "azure-subscriptions",
+        "similarity": 0.3181
+      },
+      {
+        "a": "azure-subnet",
+        "b": "aws-region-group",
+        "similarity": 0.2694
+      },
+      {
+        "a": "aws-well-architected-tool",
+        "b": "aws-region-group",
+        "similarity": 0.2224
+      }
+    ],
     "aws-app-mesh": [
       {
         "a": "m365-radar",
@@ -13900,9 +13954,9 @@
         "similarity": 0.2334
       },
       {
-        "a": "aws-organizations",
+        "a": "aws-private-subnet",
         "b": "aws-parallel-cluster",
-        "similarity": 0.2126
+        "similarity": 0.2271
       }
     ],
     "aws-serverless-repository": [
@@ -13917,9 +13971,9 @@
         "similarity": 0.3012
       },
       {
-        "a": "aws-serverless-repository",
-        "b": "azure-app-domains",
-        "similarity": 0.2882
+        "a": "aws-private-subnet",
+        "b": "aws-serverless-repository",
+        "similarity": 0.2933
       }
     ],
     "aws-ec2-image-builder": [
@@ -13992,6 +14046,11 @@
     ],
     "aws-category-security": [
       {
+        "a": "aws-region-group",
+        "b": "aws-category-security",
+        "similarity": 0.2205
+      },
+      {
         "a": "gcp-app-engine",
         "b": "aws-category-security",
         "similarity": 0.2157
@@ -14000,11 +14059,6 @@
         "a": "gcp-cloud-audit-logs",
         "b": "aws-category-security",
         "similarity": 0.2131
-      },
-      {
-        "a": "aws-comprehend",
-        "b": "aws-category-security",
-        "similarity": 0.2011
       }
     ],
     "aws-elastic-inference": [
@@ -15119,14 +15173,14 @@
         "similarity": 0.3307
       },
       {
+        "a": "aws-region-group",
+        "b": "azure-subscriptions",
+        "similarity": 0.3181
+      },
+      {
         "a": "aws-mediastore",
         "b": "azure-subscriptions",
         "similarity": 0.2525
-      },
-      {
-        "a": "aws-aurora",
-        "b": "azure-subscriptions",
-        "similarity": 0.2522
       }
     ],
     "azure-reservations": [
@@ -16139,14 +16193,14 @@
         "similarity": 0.2495
       },
       {
+        "a": "aws-private-subnet",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2461
+      },
+      {
         "a": "fabric-database-checkmark",
         "b": "fabric-calendar-toolbox",
         "similarity": 0.2231
-      },
-      {
-        "a": "azure-load-testing",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2211
       }
     ],
     "fabric-calendar-toolbox": [
