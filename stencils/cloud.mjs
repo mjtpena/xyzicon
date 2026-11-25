@@ -2,6 +2,58 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-detonation", "azure", "Detonation", ["00378-icon-service-Detonation"],
+    "A magnifier inspects suspicious code.",
+    [
+      oval(25, 16, 58, 58), line([34, 65], [14, 87]), line([30, 70], [19, 92]), line([14, 87], [19, 92]),
+      line([39, 38], [46, 42], [51, 38]), line([60, 38], [66, 42], [72, 38]), line([44, 54], [49, 59], [61, 59], [67, 54]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-defender-iot", "azure", "Microsoft Defender for IoT", ["02247-icon-service-Microsoft-Defender-for-IoT"],
+    "A shield protects a network of connected devices.",
+    [
+      oval(35, 44, 13, 13, true), oval(12, 23, 12, 12), oval(58, 23, 12, 12), oval(12, 74, 12, 12), oval(58, 74, 12, 12),
+      line([24, 33], [36, 45]), line([58, 33], [47, 45]), line([24, 76], [36, 56]), line([58, 76], [47, 56]),
+      line([76, 46], [86, 42], [96, 46], [96, 66], [92, 75], [86, 79], [80, 75], [76, 66], [76, 46]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-defender-easm", "azure", "Microsoft Defender EASM", ["03336-icon-service-Microsoft-Defender-EASM"],
+    "An attack surface is examined under a protective shield.",
+    [
+      line([26, 22], [41, 17], [54, 11], [67, 17], [82, 22], [82, 52], [77, 65], [67, 75], [54, 82], [41, 75], [31, 65], [26, 52], [26, 22]),
+      rect(38, 30, 10, 10), rect(59, 46, 10, 10), rect(37, 61, 10, 10), line([48, 35], [64, 46]), line([59, 53], [47, 66]),
+      oval(72, 64, 23, 23), line([89, 82], [105, 99]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-information-protection", "azure", "Azure Information Protection", ["10229-icon-service-Azure-Information-Protection"],
+    "A lock protects information shared between endpoints.",
+    [
+      line([35, 44], [35, 31], [40, 21], [50, 16], [62, 16], [72, 21], [77, 31], [77, 44]), rect(23, 44, 66, 48),
+      oval(35, 59, 10, 10), oval(68, 50, 10, 10), oval(68, 73, 10, 10), line([45, 64], [68, 55]), line([45, 65], [68, 78]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-application-security-groups", "azure", "Application Security Groups", ["10244-icon-service-Application-Security-Groups"],
+    "A shield protects an application running on a virtual machine.",
+    [
+      rect(13, 21, 64, 51), line([37, 72], [37, 82]), line([25, 82], [63, 82]),
+      line([34, 41], [45, 35], [56, 41], [56, 53], [45, 59], [34, 53], [34, 41]), line([34, 41], [45, 47], [56, 41]), line([45, 47], [45, 59]),
+      line([72, 53], [83, 49], [94, 53], [94, 72], [90, 81], [83, 86], [76, 81], [72, 72], [72, 53]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-sentinel", "azure", "Azure Sentinel", ["10248-icon-service-Azure-Sentinel"],
+    "A security shield watches for threats.",
+    [
+      line([24, 23], [42, 17], [58, 9], [74, 17], [92, 23], [92, 59], [86, 76], [74, 88], [58, 96], [42, 88], [30, 76], [24, 59], [24, 23]),
+      line([36, 57], [42, 48], [50, 43], [58, 41], [66, 43], [74, 48], [80, 57], [74, 66], [66, 71], [58, 73], [50, 71], [42, 66], [36, 57]), oval(51, 50, 14, 14, true), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-user-settings", "azure", "User Settings", ["10433-icon-service-User-Settings"],
+    "A gear controls an individual user's settings.",
+    [
+      oval(24, 17, 28, 28), line([12, 96], [15, 75], [21, 61], [30, 55], [45, 55], [54, 61], [59, 72]),
+      line([77, 55], [82, 60], [89, 60], [89, 67], [94, 72], [89, 77], [89, 84], [82, 84], [77, 89], [72, 84], [65, 84], [65, 77], [60, 72], [65, 67], [65, 60], [72, 60], [77, 55]), oval(71, 66, 12, 12), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-extended-security-updates", "azure", "Extended Security Updates", ["10572-icon-service-ExtendedSecurityUpdates"],
+    "A shield continues receiving security updates.",
+    [
+      line([15, 24], [29, 19], [42, 13], [55, 19], [69, 24], [69, 51], [64, 64], [55, 73], [42, 80], [29, 73], [20, 64], [15, 51], [15, 24]),
+      line([71, 60], [74, 52], [81, 48], [89, 49], [96, 55]), line([88, 54], [96, 55], [94, 47]),
+      line([96, 65], [93, 73], [86, 77], [78, 76], [71, 70]), line([79, 71], [71, 70], [73, 78]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-identity-secure-score", "azure", "Identity Secure Score", ["03340-icon-service-Identity-Secure-Score"],
     "A trophy represents an identity security score.",
     [
