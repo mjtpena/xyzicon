@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1327,
-  "aliases": 4328,
+  "count": 1331,
+  "aliases": 4336,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1213,6 +1213,10 @@
     "fabric-script-sparkle-add",
     "fabric-script-kql-add",
     "fabric-receipt-kql-new",
+    "fabric-tables-curve-right",
+    "fabric-tables-curve-right-new",
+    "fabric-table-cdc",
+    "fabric-table-triangle",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1364,10 +1368,24 @@
     },
     {
       "a": "fabric-table-database",
+      "b": "fabric-table-triangle",
+      "similarity": 0.7177,
+      "review": "distinct",
+      "notes": "The database has a cylinder with an oval top; the triangle has three straight sides and a pointed top."
+    },
+    {
+      "a": "fabric-table-database",
       "b": "fabric-table-function",
       "similarity": 0.7161,
       "review": "distinct",
       "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
+    },
+    {
+      "a": "fabric-table-function",
+      "b": "fabric-table-triangle",
+      "similarity": 0.7132,
+      "review": "distinct",
+      "notes": "The function has separate f and x strokes, while the other table has a closed triangular marker."
     },
     {
       "a": "fabric-datatype-double",
@@ -1433,6 +1451,13 @@
       "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
     },
     {
+      "a": "fabric-table-link",
+      "b": "fabric-table-triangle",
+      "similarity": 0.6756,
+      "review": "distinct",
+      "notes": "The link is a rounded horizontal chain; the triangle is a pointed three-sided marker."
+    },
+    {
       "a": "m365-number-circle-two",
       "b": "m365-number-circle-three",
       "similarity": 0.6755,
@@ -1483,8 +1508,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1491,
-      "concepts": 329
+      "covered": 1499,
+      "concepts": 333
     },
     "entra": {
       "sources": 14,
@@ -1531,8 +1556,8 @@
       },
       {
         "a": "azure-virtual-machine",
-        "b": "fabric-calculator-brackets",
-        "similarity": 0.2198
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2231
       }
     ],
     "azure-kubernetes": [
@@ -1691,6 +1716,11 @@
     "entra-id": [
       {
         "a": "entra-id",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2724
+      },
+      {
+        "a": "entra-id",
         "b": "m365-building-people",
         "similarity": 0.2522
       },
@@ -1698,11 +1728,6 @@
         "a": "entra-id",
         "b": "fabric-data-warehouse",
         "similarity": 0.2429
-      },
-      {
-        "a": "entra-id",
-        "b": "fabric-phone-data-bars",
-        "similarity": 0.2224
       }
     ],
     "entra-verified-id": [
@@ -5708,13 +5733,13 @@
       },
       {
         "a": "gcp-dialogflow-cx",
-        "b": "gcp-project",
-        "similarity": 0.204
+        "b": "fabric-table-triangle",
+        "similarity": 0.2115
       },
       {
         "a": "gcp-dialogflow-cx",
-        "b": "azure-app-service-plans",
-        "similarity": 0.2024
+        "b": "gcp-project",
+        "similarity": 0.204
       }
     ],
     "gcp-dialogflow-insights": [
@@ -6149,14 +6174,14 @@
         "similarity": 0.4304
       },
       {
+        "a": "gcp-standard-network-tier",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.1575
+      },
+      {
         "a": "m365-payment",
         "b": "gcp-standard-network-tier",
         "similarity": 0.1498
-      },
-      {
-        "a": "gcp-standard-network-tier",
-        "b": "m365-cloud-beaker",
-        "similarity": 0.1439
       }
     ],
     "gcp-private-connectivity": [
@@ -7446,9 +7471,9 @@
         "similarity": 0.2026
       },
       {
-        "a": "gcp-quantum-engine",
-        "b": "gcp-powershell-tools",
-        "similarity": 0.1959
+        "a": "gcp-powershell-tools",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.1985
       }
     ],
     "gcp-cloud-media-edge": [
@@ -11935,8 +11960,8 @@
       },
       {
         "a": "aws-rekognition-image",
-        "b": "fabric-shapes-curved-arrow",
-        "similarity": 0.2236
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.245
       }
     ],
     "aws-rekognition-video": [
@@ -12003,8 +12028,8 @@
       },
       {
         "a": "aws-sagemaker-model",
-        "b": "aws-ecs-container",
-        "similarity": 0.2207
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2208
       }
     ],
     "aws-sagemaker-notebook": [
@@ -12750,9 +12775,9 @@
         "similarity": 0.325
       },
       {
-        "a": "azure-virtual-machine",
-        "b": "azure-foundry-local",
-        "similarity": 0.244
+        "a": "azure-foundry-local",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2694
       }
     ],
     "azure-foundry-models": [
@@ -17473,6 +17498,11 @@
     ],
     "gcp-category-operations": [
       {
+        "a": "gcp-category-operations",
+        "b": "fabric-table-cdc",
+        "similarity": 0.221
+      },
+      {
         "a": "fabric-environment",
         "b": "gcp-category-operations",
         "similarity": 0.2086
@@ -17481,11 +17511,6 @@
         "a": "gcp-category-operations",
         "b": "aws-ec2-microservice-extractor",
         "similarity": 0.2061
-      },
-      {
-        "a": "gcp-category-operations",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2016
       }
     ],
     "gcp-category-security": [
@@ -18135,9 +18160,9 @@
         "similarity": 0.2707
       },
       {
-        "a": "aws-migration-evaluator",
-        "b": "aws-ec2-instances",
-        "similarity": 0.2663
+        "a": "aws-ec2-instances",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2706
       }
     ],
     "aws-ec2-rescue": [
@@ -21320,6 +21345,11 @@
     ],
     "fabric-sql-lock": [
       {
+        "a": "fabric-sql-lock",
+        "b": "fabric-table-cdc",
+        "similarity": 0.3056
+      },
+      {
         "a": "fabric-match-category",
         "b": "fabric-sql-lock",
         "similarity": 0.2322
@@ -21328,11 +21358,6 @@
         "a": "fabric-sql-lock",
         "b": "fabric-squares-diagram-new",
         "similarity": 0.2119
-      },
-      {
-        "a": "aws-ec2-auto-scaling",
-        "b": "fabric-sql-lock",
-        "similarity": 0.2007
       }
     ],
     "fabric-person-warning": [
@@ -21632,13 +21657,13 @@
       },
       {
         "a": "fabric-save-phone",
-        "b": "fabric-table-function",
-        "similarity": 0.3033
+        "b": "fabric-table-triangle",
+        "similarity": 0.3216
       },
       {
         "a": "fabric-save-phone",
-        "b": "fabric-database-money",
-        "similarity": 0.3001
+        "b": "fabric-table-function",
+        "similarity": 0.3033
       }
     ],
     "fabric-shopping-data-bars": [
@@ -21845,8 +21870,8 @@
       },
       {
         "a": "fabric-squares-eye",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2184
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2212
       }
     ],
     "fabric-table-export": [
@@ -21903,6 +21928,13 @@
     "fabric-table-database": [
       {
         "a": "fabric-table-database",
+        "b": "fabric-table-triangle",
+        "similarity": 0.7177,
+        "review": "distinct",
+        "notes": "The database has a cylinder with an oval top; the triangle has three straight sides and a pointed top."
+      },
+      {
+        "a": "fabric-table-database",
         "b": "fabric-table-function",
         "similarity": 0.7161,
         "review": "distinct",
@@ -21912,11 +21944,6 @@
         "a": "fabric-table-database",
         "b": "fabric-table-link",
         "similarity": 0.6188
-      },
-      {
-        "a": "fabric-table-database",
-        "b": "fabric-table-key",
-        "similarity": 0.5997
       }
     ],
     "fabric-table-external": [
@@ -21946,13 +21973,13 @@
       },
       {
         "a": "fabric-table-key",
-        "b": "fabric-table-function",
-        "similarity": 0.6232
+        "b": "fabric-table-triangle",
+        "similarity": 0.6293
       },
       {
-        "a": "fabric-table-database",
-        "b": "fabric-table-key",
-        "similarity": 0.5997
+        "a": "fabric-table-key",
+        "b": "fabric-table-function",
+        "similarity": 0.6232
       }
     ],
     "fabric-table-function": [
@@ -21965,15 +21992,17 @@
       },
       {
         "a": "fabric-table-function",
+        "b": "fabric-table-triangle",
+        "similarity": 0.7132,
+        "review": "distinct",
+        "notes": "The function has separate f and x strokes, while the other table has a closed triangular marker."
+      },
+      {
+        "a": "fabric-table-function",
         "b": "fabric-table-link",
         "similarity": 0.6684,
         "review": "distinct",
         "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
-      },
-      {
-        "a": "fabric-table-key",
-        "b": "fabric-table-function",
-        "similarity": 0.6232
       }
     ],
     "fabric-table-header": [
@@ -22002,16 +22031,18 @@
         "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
       },
       {
+        "a": "fabric-table-link",
+        "b": "fabric-table-triangle",
+        "similarity": 0.6756,
+        "review": "distinct",
+        "notes": "The link is a rounded horizontal chain; the triangle is a pointed three-sided marker."
+      },
+      {
         "a": "fabric-table-function",
         "b": "fabric-table-link",
         "similarity": 0.6684,
         "review": "distinct",
         "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
-      },
-      {
-        "a": "fabric-table-database",
-        "b": "fabric-table-link",
-        "similarity": 0.6188
       }
     ],
     "fabric-table-link-lightning": [
@@ -22042,14 +22073,14 @@
         "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
       },
       {
+        "a": "fabric-table-link-triangle",
+        "b": "fabric-table-triangle",
+        "similarity": 0.282
+      },
+      {
         "a": "gcp-configuration-management",
         "b": "fabric-table-link-triangle",
         "similarity": 0.2506
-      },
-      {
-        "a": "aws-ecr-registry",
-        "b": "fabric-table-link-triangle",
-        "similarity": 0.2492
       }
     ],
     "fabric-script-sparkle": [
@@ -22122,6 +22153,80 @@
         "a": "fabric-signal-square",
         "b": "fabric-receipt-kql-new",
         "similarity": 0.2318
+      }
+    ],
+    "fabric-tables-curve-right": [
+      {
+        "a": "fabric-tables-curve-right",
+        "b": "fabric-tables-curve-right-new",
+        "similarity": 0.6466
+      },
+      {
+        "a": "entra-id",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2724
+      },
+      {
+        "a": "aws-ec2-instances",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2706
+      }
+    ],
+    "fabric-tables-curve-right-new": [
+      {
+        "a": "fabric-tables-curve-right",
+        "b": "fabric-tables-curve-right-new",
+        "similarity": 0.6466
+      },
+      {
+        "a": "azure-data-box",
+        "b": "fabric-tables-curve-right-new",
+        "similarity": 0.2485
+      },
+      {
+        "a": "aws-comprehend",
+        "b": "fabric-tables-curve-right-new",
+        "similarity": 0.2452
+      }
+    ],
+    "fabric-table-cdc": [
+      {
+        "a": "fabric-table-link",
+        "b": "fabric-table-cdc",
+        "similarity": 0.3348
+      },
+      {
+        "a": "fabric-table-key",
+        "b": "fabric-table-cdc",
+        "similarity": 0.3109
+      },
+      {
+        "a": "fabric-sql-lock",
+        "b": "fabric-table-cdc",
+        "similarity": 0.3056
+      }
+    ],
+    "fabric-table-triangle": [
+      {
+        "a": "fabric-table-database",
+        "b": "fabric-table-triangle",
+        "similarity": 0.7177,
+        "review": "distinct",
+        "notes": "The database has a cylinder with an oval top; the triangle has three straight sides and a pointed top."
+      },
+      {
+        "a": "fabric-table-function",
+        "b": "fabric-table-triangle",
+        "similarity": 0.7132,
+        "review": "distinct",
+        "notes": "The function has separate f and x strokes, while the other table has a closed triangular marker."
+      },
+      {
+        "a": "fabric-table-link",
+        "b": "fabric-table-triangle",
+        "similarity": 0.6756,
+        "review": "distinct",
+        "notes": "The link is a rounded horizontal chain; the triangle is a pointed three-sided marker."
       }
     ],
     "fabric-database-add": [
