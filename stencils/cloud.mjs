@@ -2,6 +2,46 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-identity-secure-score", "azure", "Identity Secure Score", ["03340-icon-service-Identity-Secure-Score"],
+    "A trophy represents an identity security score.",
+    [
+      line([36, 20], [84, 20], [82, 49], [74, 61], [60, 67], [46, 61], [38, 49], [36, 20]),
+      line([36, 27], [20, 27], [20, 41], [25, 50], [38, 53]), line([84, 27], [100, 27], [100, 41], [95, 50], [82, 53]),
+      line([60, 67], [60, 85]), line([46, 85], [74, 85]), line([40, 94], [80, 94]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-risky-signins", "azure", "Entra Identity Risky Sign-ins", ["03341-icon-service-Entra-Identity-Risky-Signins"],
+    "A sign-in attempt carries a risk warning.",
+    [
+      line([55, 22], [74, 22], [84, 32], [84, 67]), line([55, 22], [55, 31]), line([55, 66], [55, 76], [66, 76]),
+      line([17, 47], [65, 47]), line([55, 37], [65, 47], [55, 57]),
+      line([78, 57], [101, 95], [55, 95], [78, 57]), line([78, 69], [78, 81]), oval(76, 86, 4, 4, true), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-risky-users", "azure", "Entra Identity Risky Users", ["03342-icon-service-Entra-Identity-Risky-Users"],
+    "A warning marks a risky user account.",
+    [
+      oval(25, 18, 30, 30), line([14, 96], [17, 75], [24, 62], [33, 56], [46, 56], [55, 62], [61, 74]),
+      line([78, 53], [102, 95], [54, 95], [78, 53]), line([78, 67], [78, 82]), oval(76, 87, 4, 4, true), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-multifactor-authentication", "azure", "Multifactor Authentication", ["03344-icon-service-Multifactor-Authentication"],
+    "A person and two verification marks appear inside a lock.",
+    [
+      line([35, 44], [35, 30], [40, 20], [50, 15], [62, 15], [72, 20], [77, 30], [77, 44]),
+      rect(23, 44, 66, 52), oval(43, 52, 16, 16), line([36, 87], [38, 78], [44, 72], [51, 70], [58, 72], [64, 78], [66, 87]),
+      line([70, 56], [74, 60], [80, 52]), line([70, 72], [74, 76], [80, 68]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-conditional-access", "azure", "Conditional Access", ["10233-icon-service-Conditional-Access"],
+    "A verified condition unlocks a guarded access point.",
+    [
+      line([24, 21], [24, 91]), line([24, 21], [71, 21], [71, 40]), line([24, 91], [71, 91], [71, 79]),
+      line([13, 57], [48, 57]), line([40, 49], [48, 57], [40, 65]),
+      oval(63, 49, 29, 29), line([70, 63], [76, 69], [86, 56]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-defender-cloud", "azure", "Microsoft Defender for Cloud", ["10241-icon-service-Microsoft-Defender-for-Cloud"],
+    "A protected cloud is enclosed by a security shield.",
+    [
+      line([25, 23], [43, 17], [59, 9], [75, 17], [93, 23], [93, 59], [87, 76], [75, 88], [59, 96], [43, 88], [31, 76], [25, 59], [25, 23]),
+      line([42, 69], [37, 65], [37, 57], [41, 52], [48, 50], [51, 43], [58, 40], [65, 43], [68, 50], [75, 52], [79, 57], [79, 65], [74, 69], [42, 69]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-arc-kubernetes", "azure", "Arc Kubernetes", ["01088-icon-service-Arc-Kubernetes"],
     "Azure Arc manages a set of Kubernetes containers.",
     [

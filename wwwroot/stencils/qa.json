@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1467,
-  "aliases": 4544,
+  "count": 1473,
+  "aliases": 4550,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -57,6 +57,12 @@
     "gcp-cloud-sql",
     "gcp-compute-engine",
     "gcp-storage",
+    "azure-identity-secure-score",
+    "azure-risky-signins",
+    "azure-risky-users",
+    "azure-multifactor-authentication",
+    "azure-conditional-access",
+    "azure-defender-cloud",
     "azure-arc-kubernetes",
     "azure-operator-5g-core",
     "azure-operator-nexus",
@@ -1737,8 +1743,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 316,
-      "concepts": 249
+      "covered": 322,
+      "concepts": 255
     },
     "fabric": {
       "sources": 1584,
@@ -2661,6 +2667,108 @@
         "similarity": 0.281
       }
     ],
+    "azure-identity-secure-score": [
+      {
+        "a": "azure-identity-secure-score",
+        "b": "fabric-document-ssis",
+        "similarity": 0.2838
+      },
+      {
+        "a": "azure-identity-secure-score",
+        "b": "azure-aks-network-policy",
+        "similarity": 0.2786
+      },
+      {
+        "a": "azure-identity-secure-score",
+        "b": "azure-risky-signins",
+        "similarity": 0.2736
+      }
+    ],
+    "azure-risky-signins": [
+      {
+        "a": "azure-risky-signins",
+        "b": "azure-risky-users",
+        "similarity": 0.4094
+      },
+      {
+        "a": "azure-risky-signins",
+        "b": "azure-edge-storage-accelerator",
+        "similarity": 0.2747
+      },
+      {
+        "a": "azure-risky-signins",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2743
+      }
+    ],
+    "azure-risky-users": [
+      {
+        "a": "azure-risky-signins",
+        "b": "azure-risky-users",
+        "similarity": 0.4094
+      },
+      {
+        "a": "azure-risky-users",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2959
+      },
+      {
+        "a": "azure-risky-users",
+        "b": "fabric-person-wrench",
+        "similarity": 0.2923
+      }
+    ],
+    "azure-multifactor-authentication": [
+      {
+        "a": "azure-multifactor-authentication",
+        "b": "fabric-match-category",
+        "similarity": 0.3194
+      },
+      {
+        "a": "azure-multifactor-authentication",
+        "b": "azure-recovery-vaults",
+        "similarity": 0.2907
+      },
+      {
+        "a": "azure-multifactor-authentication",
+        "b": "azure-planetary-computer",
+        "similarity": 0.2802
+      }
+    ],
+    "azure-conditional-access": [
+      {
+        "a": "azure-conditional-access",
+        "b": "fabric-endpoint",
+        "similarity": 0.3091
+      },
+      {
+        "a": "azure-conditional-access",
+        "b": "azure-defender-cloud",
+        "similarity": 0.2963
+      },
+      {
+        "a": "azure-conditional-access",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.295
+      }
+    ],
+    "azure-defender-cloud": [
+      {
+        "a": "azure-conditional-access",
+        "b": "azure-defender-cloud",
+        "similarity": 0.2963
+      },
+      {
+        "a": "azure-risky-users",
+        "b": "azure-defender-cloud",
+        "similarity": 0.2725
+      },
+      {
+        "a": "azure-defender-cloud",
+        "b": "azure-openshift",
+        "similarity": 0.2699
+      }
+    ],
     "azure-arc-kubernetes": [
       {
         "a": "azure-arc-kubernetes",
@@ -2724,9 +2832,9 @@
         "similarity": 0.2601
       },
       {
-        "a": "azure-operator-insights",
-        "b": "azure-operator-service-manager",
-        "similarity": 0.2469
+        "a": "azure-conditional-access",
+        "b": "azure-operator-insights",
+        "similarity": 0.248
       }
     ],
     "azure-operator-service-manager": [
@@ -2787,14 +2895,14 @@
         "similarity": 0.2818
       },
       {
-        "a": "azure-edge-storage-accelerator",
-        "b": "azure-storsimple-device-managers",
-        "similarity": 0.2699
+        "a": "azure-risky-signins",
+        "b": "azure-edge-storage-accelerator",
+        "similarity": 0.2747
       },
       {
         "a": "azure-edge-storage-accelerator",
-        "b": "azure-monitor-pipeline",
-        "similarity": 0.2671
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2699
       }
     ],
     "azure-monitor-pipeline": [
@@ -2935,6 +3043,11 @@
     ],
     "azure-recovery-vaults": [
       {
+        "a": "azure-multifactor-authentication",
+        "b": "azure-recovery-vaults",
+        "similarity": 0.2907
+      },
+      {
         "a": "azure-recovery-vaults",
         "b": "azure-storsimple-data-managers",
         "similarity": 0.2797
@@ -2943,11 +3056,6 @@
         "a": "azure-recovery-vaults",
         "b": "azure-storsimple-device-managers",
         "similarity": 0.2726
-      },
-      {
-        "a": "azure-recovery-vaults",
-        "b": "aws-backup",
-        "similarity": 0.2649
       }
     ],
     "azure-databox-gateway": [
@@ -3671,14 +3779,14 @@
         "similarity": 0.2519
       },
       {
-        "a": "azure-container-instances",
-        "b": "azure-linux",
-        "similarity": 0.2246
+        "a": "azure-multifactor-authentication",
+        "b": "azure-container-instances",
+        "similarity": 0.2375
       },
       {
         "a": "azure-container-instances",
-        "b": "fabric-squares-diagram-new",
-        "similarity": 0.22
+        "b": "azure-linux",
+        "similarity": 0.2246
       }
     ],
     "azure-container-registry": [
@@ -4050,9 +4158,9 @@
         "similarity": 0.2647
       },
       {
-        "a": "aws-eventbridge-schema",
-        "b": "m365-office-notebook",
-        "similarity": 0.2597
+        "a": "azure-multifactor-authentication",
+        "b": "aws-eventbridge-schema",
+        "similarity": 0.2605
       }
     ],
     "aws-bedrock": [
@@ -5094,6 +5202,11 @@
     ],
     "azure-ddos-plans": [
       {
+        "a": "azure-identity-secure-score",
+        "b": "azure-ddos-plans",
+        "similarity": 0.2478
+      },
+      {
         "a": "azure-ddos-plans",
         "b": "fabric-match-category",
         "similarity": 0.2395
@@ -5102,11 +5215,6 @@
         "a": "azure-monitor-pipeline",
         "b": "azure-ddos-plans",
         "similarity": 0.2389
-      },
-      {
-        "a": "azure-ddos-plans",
-        "b": "aws-athena-connectors",
-        "similarity": 0.2348
       }
     ],
     "azure-data-factory": [
@@ -6821,9 +6929,9 @@
         "similarity": 0.255
       },
       {
-        "a": "gcp-network-intelligence",
-        "b": "azure-aks-network-policy",
-        "similarity": 0.2437
+        "a": "azure-conditional-access",
+        "b": "gcp-network-intelligence",
+        "similarity": 0.25
       }
     ],
     "gcp-network-security": [
@@ -10114,14 +10222,14 @@
         "similarity": 0.2726
       },
       {
+        "a": "azure-multifactor-authentication",
+        "b": "azure-storsimple-device-managers",
+        "similarity": 0.2724
+      },
+      {
         "a": "azure-monitor-pipeline",
         "b": "azure-storsimple-device-managers",
         "similarity": 0.2721
-      },
-      {
-        "a": "azure-edge-storage-accelerator",
-        "b": "azure-storsimple-device-managers",
-        "similarity": 0.2699
       }
     ],
     "azure-data-lake-gen1": [
@@ -10233,14 +10341,14 @@
         "similarity": 0.2834
       },
       {
+        "a": "azure-risky-users",
+        "b": "azure-data-virtualization",
+        "similarity": 0.2824
+      },
+      {
         "a": "azure-data-virtualization",
         "b": "aws-emr-cluster",
         "similarity": 0.2811
-      },
-      {
-        "a": "azure-programmable-connectivity",
-        "b": "azure-data-virtualization",
-        "similarity": 0.2801
       }
     ],
     "azure-storage-hubs": [
@@ -10357,9 +10465,9 @@
         "similarity": 0.2784
       },
       {
-        "a": "azure-sql-edge",
-        "b": "fabric-match-category",
-        "similarity": 0.2648
+        "a": "azure-risky-users",
+        "b": "azure-sql-edge",
+        "similarity": 0.2653
       }
     ],
     "azure-documentdb": [
@@ -11260,14 +11368,14 @@
         "similarity": 0.2533
       },
       {
+        "a": "azure-risky-signins",
+        "b": "aws-opensearch-admin-node",
+        "similarity": 0.2513
+      },
+      {
         "a": "azure-edge-storage-accelerator",
         "b": "aws-opensearch-admin-node",
         "similarity": 0.2493
-      },
-      {
-        "a": "gcp-bare-metal",
-        "b": "aws-opensearch-admin-node",
-        "similarity": 0.2455
       }
     ],
     "aws-opensearch-data-node": [
@@ -14019,9 +14127,9 @@
         "similarity": 0.2803
       },
       {
-        "a": "azure-import-export-jobs",
+        "a": "azure-multifactor-authentication",
         "b": "azure-planetary-computer",
-        "similarity": 0.2787
+        "similarity": 0.2802
       }
     ],
     "azure-language": [
@@ -15272,14 +15380,14 @@
         "similarity": 0.2705
       },
       {
+        "a": "azure-risky-signins",
+        "b": "aws-pinpoint-journey",
+        "similarity": 0.2643
+      },
+      {
         "a": "aws-pinpoint-journey",
         "b": "aws-lambda-function",
         "similarity": 0.2638
-      },
-      {
-        "a": "azure-edge-storage-accelerator",
-        "b": "aws-pinpoint-journey",
-        "similarity": 0.2621
       }
     ],
     "aws-ses-email": [
@@ -15561,14 +15669,14 @@
         "similarity": 0.1767
       },
       {
+        "a": "azure-identity-secure-score",
+        "b": "aws-iq",
+        "similarity": 0.1706
+      },
+      {
         "a": "fabric-planning",
         "b": "aws-iq",
         "similarity": 0.161
-      },
-      {
-        "a": "azure-ai-foundry",
-        "b": "aws-iq",
-        "similarity": 0.1574
       }
     ],
     "aws-managed-services": [
@@ -16127,9 +16235,9 @@
         "similarity": 0.2072
       },
       {
-        "a": "azure-storage-accounts-classic",
+        "a": "azure-multifactor-authentication",
         "b": "aws-application-discovery",
-        "similarity": 0.2043
+        "similarity": 0.2067
       }
     ],
     "aws-service-management-connector": [
@@ -16501,9 +16609,9 @@
         "similarity": 0.1872
       },
       {
-        "a": "azure-storsimple-device-managers",
+        "a": "azure-identity-secure-score",
         "b": "aws-resilience-hub",
-        "similarity": 0.1848
+        "similarity": 0.1858
       }
     ],
     "aws-elemental-appliances": [
@@ -17368,9 +17476,9 @@
         "similarity": 0.2687
       },
       {
-        "a": "aws-data-transfer-terminal",
-        "b": "aws-ecs-app-container",
-        "similarity": 0.2652
+        "a": "azure-multifactor-authentication",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2663
       }
     ],
     "aws-fsx-lustre": [
@@ -19506,9 +19614,9 @@
         "similarity": 0.2693
       },
       {
-        "a": "aws-vpc-internet-gateway",
+        "a": "azure-conditional-access",
         "b": "aws-ecs-service",
-        "similarity": 0.2424
+        "similarity": 0.25
       }
     ],
     "aws-ecs-task": [
@@ -21218,14 +21326,14 @@
         "similarity": 0.2806
       },
       {
+        "a": "azure-identity-secure-score",
+        "b": "azure-aks-network-policy",
+        "similarity": 0.2786
+      },
+      {
         "a": "azure-file-shares",
         "b": "azure-aks-network-policy",
         "similarity": 0.2713
-      },
-      {
-        "a": "azure-spatial-anchor-accounts",
-        "b": "azure-aks-network-policy",
-        "similarity": 0.2606
       }
     ],
     "azure-openshift": [
@@ -21235,14 +21343,14 @@
         "similarity": 0.272
       },
       {
+        "a": "azure-defender-cloud",
+        "b": "azure-openshift",
+        "similarity": 0.2699
+      },
+      {
         "a": "azure-aks-network-policy",
         "b": "azure-openshift",
         "similarity": 0.2569
-      },
-      {
-        "a": "azure-openshift",
-        "b": "fabric-endpoint",
-        "similarity": 0.2567
       }
     ],
     "azure-kubernetes-hub": [
@@ -22969,14 +23077,14 @@
         "similarity": 0.3333
       },
       {
+        "a": "azure-conditional-access",
+        "b": "fabric-endpoint",
+        "similarity": 0.3091
+      },
+      {
         "a": "azure-api-connections",
         "b": "fabric-endpoint",
         "similarity": 0.306
-      },
-      {
-        "a": "azure-monitor-pipeline",
-        "b": "fabric-endpoint",
-        "similarity": 0.2995
       }
     ],
     "fabric-folder-data-bars": [
@@ -23236,14 +23344,14 @@
         "similarity": 0.3503
       },
       {
+        "a": "azure-multifactor-authentication",
+        "b": "fabric-match-category",
+        "similarity": 0.3194
+      },
+      {
         "a": "azure-images-classic",
         "b": "fabric-match-category",
         "similarity": 0.3116
-      },
-      {
-        "a": "fabric-match-category",
-        "b": "fabric-squares-diagram-new",
-        "similarity": 0.3015
       }
     ],
     "fabric-notebook-export": [
@@ -23342,14 +23450,14 @@
         "similarity": 0.3056
       },
       {
+        "a": "azure-multifactor-authentication",
+        "b": "fabric-sql-lock",
+        "similarity": 0.2554
+      },
+      {
         "a": "fabric-match-category",
         "b": "fabric-sql-lock",
         "similarity": 0.2322
-      },
-      {
-        "a": "fabric-sql-lock",
-        "b": "fabric-squares-diagram-new",
-        "similarity": 0.2119
       }
     ],
     "fabric-person-warning": [
@@ -23364,9 +23472,9 @@
         "similarity": 0.2143
       },
       {
-        "a": "azure-container-instances",
+        "a": "azure-risky-users",
         "b": "fabric-person-warning",
-        "similarity": 0.2019
+        "similarity": 0.202
       }
     ],
     "fabric-person-wrench": [
@@ -23381,9 +23489,9 @@
         "similarity": 0.3105
       },
       {
-        "a": "azure-cloud-services-classic",
+        "a": "azure-risky-users",
         "b": "fabric-person-wrench",
-        "similarity": 0.2653
+        "similarity": 0.2923
       }
     ],
     "fabric-phone-data-bars": [
@@ -24262,14 +24370,14 @@
         "similarity": 0.2246
       },
       {
+        "a": "azure-conditional-access",
+        "b": "fabric-text-py",
+        "similarity": 0.2123
+      },
+      {
         "a": "m365-task-list",
         "b": "fabric-text-py",
         "similarity": 0.1916
-      },
-      {
-        "a": "m365-folder-open-vertical",
-        "b": "fabric-text-py",
-        "similarity": 0.1897
       }
     ],
     "fabric-tooltip-data-bars": [
@@ -24799,19 +24907,19 @@
     ],
     "fabric-sample-workload": [
       {
+        "a": "azure-risky-users",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2959
+      },
+      {
+        "a": "azure-conditional-access",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2765
+      },
+      {
         "a": "azure-cloud-services-classic",
         "b": "fabric-sample-workload",
         "similarity": 0.2715
-      },
-      {
-        "a": "azure-data-lake-gen1",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2712
-      },
-      {
-        "a": "fabric-endpoint",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2602
       }
     ],
     "fabric-industry-solutions": [
@@ -26238,14 +26346,14 @@
         "similarity": 0.2587
       },
       {
+        "a": "azure-risky-signins",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2329
+      },
+      {
         "a": "fabric-person-wrench",
         "b": "fabric-border-none-eye",
         "similarity": 0.2278
-      },
-      {
-        "a": "azure-sap-monitor",
-        "b": "fabric-border-none-eye",
-        "similarity": 0.2264
       }
     ],
     "fabric-calculator-brackets": [
