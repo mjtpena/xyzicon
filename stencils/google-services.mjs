@@ -1,6 +1,45 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-cloud-audit-logs", "gcp", "Cloud Audit Logs", ["cloud_audit_logs"],
+    "Cloud activity appears as a chronological event trail.",
+    [
+      line([28, 39], [24, 34], [26, 28], [32, 26], [36, 19], [45, 17], [52, 22], [54, 28], [61, 31], [63, 37], [60, 42], [30, 42]),
+      line([44, 42], [44, 50]),
+      oval(39, 50, 10, 10), oval(39, 69, 10, 10), oval(39, 88, 10, 10), line([44, 60], [44, 69]), line([44, 79], [44, 88]),
+      rect(58, 49, 51, 12), line([65, 55], [101, 55]),
+      rect(58, 68, 51, 12), line([65, 74], [96, 74]),
+      rect(58, 87, 51, 12), line([65, 93], [101, 93]),
+      line([24, 114], [108, 114]),
+    ]),
+  entry("gcp-certificate-manager", "gcp", "Certificate Manager", ["certificate_manager"],
+    "A stack of certificates is renewed with a secure key.",
+    [
+      line([23, 23], [96, 23], [96, 81]), line([16, 30], [89, 30], [89, 88]),
+      rect(10, 37, 71, 58), line([19, 47], [70, 47]), line([19, 56], [63, 56]),
+      oval(32, 62, 18, 18), line([37, 79], [34, 91], [41, 87], [48, 91], [46, 79]),
+      oval(83, 68, 17, 17), line([97, 81], [111, 95]), line([105, 89], [101, 93]), line([109, 93], [105, 97]),
+      line([16, 109], [108, 109]),
+    ]),
+  entry("gcp-cloud-code", "gcp", "Cloud Code", ["cloud_code"],
+    "An editor develops an application for deployment to the cloud.",
+    [
+      rect(11, 25, 75, 66), line([11, 37], [86, 37]), line([19, 31], [26, 31]),
+      line([34, 48], [26, 56], [34, 64]), line([52, 48], [60, 56], [52, 64]), line([47, 45], [40, 67]),
+      line([22, 75], [68, 75]), line([22, 83], [57, 83]),
+      line([86, 59], [96, 59], [96, 47]),
+      line([86, 41], [83, 35], [85, 29], [91, 27], [95, 19], [103, 18], [110, 23], [111, 30], [116, 34], [116, 40], [112, 44], [91, 44]),
+      line([17, 108], [110, 108]),
+    ]),
+  entry("gcp-batch", "gcp", "Batch", ["batch"],
+    "A scheduled batch runs a group of work items together.",
+    [
+      oval(45, 13, 38, 38), line([64, 20], [64, 32], [73, 37]),
+      line([64, 51], [64, 62], [26, 62], [26, 73]), line([64, 62], [102, 62], [102, 73]), line([64, 62], [64, 73]),
+      rect(11, 73, 30, 25), rect(49, 73, 30, 25), rect(87, 73, 30, 25),
+      line([17, 81], [35, 81]), line([17, 89], [31, 89]), line([55, 81], [73, 81]), line([55, 89], [69, 89]),
+      line([93, 81], [111, 81]), line([93, 89], [107, 89]), line([13, 111], [115, 111]),
+    ]),
   entry("gcp-anthos", "gcp", "Anthos", ["Anthos-512-color", "anthos"],
     "A management layer coordinates clusters across cloud and on-premises environments.",
     [
