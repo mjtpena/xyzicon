@@ -5133,7 +5133,7 @@
       ],
       "revision": "f5c7c944dade31fec97b0306592a94c8510101c2268500383d4706db0e75612e",
       "geometrySignature": "b4eea39873e557e1ebeb600b874b4026353ea5500d28d5fb170e500da4d1905b",
-      "comparisonRevision": "1f9c4c332100f47f75d7723b2c1bf2a6acf147c892abf28ebffd634693a78505",
+      "comparisonRevision": "c3e3e1d1aa4367ebfc00369105114a81c7985814cf8eaf9ab07a56f092253705",
       "review": "pending",
       "notes": ""
     },
@@ -6537,7 +6537,7 @@
       ],
       "revision": "22f3faa38cebaf93eedf47ec11cb04c2ae0c47118030fb628ef51525645e8b05",
       "geometrySignature": "16a55edf7863b079c10c931caa3472291150bb2224bc888118e4280fe7c4a562",
-      "comparisonRevision": "e1c40e5645caa1eb72a5bb73b5fe579cd1753291ea54de6ddc3680820c57a81c",
+      "comparisonRevision": "62a689f83bdc9c2e08534c25bc09fd94ee6153ebf3c2221b1982943812fa1624",
       "review": "pending",
       "notes": ""
     },
@@ -8371,7 +8371,7 @@
       ],
       "revision": "7c42adb8027212b1f3028a6b2289f7091c65c56a928ec9125eff9d7c43a1418f",
       "geometrySignature": "42df1b1a5eeace4fb0be89650096f6b0b236b97a58fe5182e863bb970ce9e394",
-      "comparisonRevision": "d4e9daa82e05278ffb323d7aa3135f42b146dbc8d9c1c6d1167ccf6eae980b95",
+      "comparisonRevision": "ee37cd55c593bcd67e158c9a01aaf4a1e9269c4f79de4fceb188108c1fcf567c",
       "review": "pending",
       "notes": ""
     },
@@ -8767,7 +8767,7 @@
       ],
       "revision": "9994309845bd6508ad2ae953c0570b50538915d16f1e3aa5dc51e96cedd7aa6b",
       "geometrySignature": "690d7c2cac2e57a184cc409eb501587a4baf3af0cb4911c484a41548a0cfad27",
-      "comparisonRevision": "60c0e82ec4d9b9d975d9a616e6c0851b85bd8e1c192191b108258ea12ed4ebb7",
+      "comparisonRevision": "5df4ef5fb884c324278fc7d6b4646c7e91a010041163b9791be3ed788362796f",
       "review": "pending",
       "notes": ""
     },
@@ -9199,7 +9199,7 @@
       ],
       "revision": "0aa81391ece6b36de495390977d3292404433a6c33956fcd67fec9ca70558cb2",
       "geometrySignature": "0021479553a31824c3307e41cb7d9c9ef7c4d1ac7fca986453c2fe65629593dd",
-      "comparisonRevision": "b81693b3209c00449378f8eb4ce8c8393119038662a394930bac08a83fbd96fd",
+      "comparisonRevision": "37e3abd9cea8ce6231b07e18627bc727a237f12a90db4a6bedec2f95ad2b2ab9",
       "review": "pending",
       "notes": ""
     },
@@ -9312,6 +9312,78 @@
       "notes": ""
     },
     {
+      "id": "aws-shield",
+      "provider": "aws",
+      "name": "AWS Shield",
+      "rationale": "A protective shield deflects a flood of network requests.",
+      "path": "stencils/aws-shield.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Shield_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Shield_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Shield_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Shield_64.svg"
+      ],
+      "revision": "a94ca715897fefaf8228f49ce35eca6727519bd7f2a5c0320939d87f2aeb6f04",
+      "geometrySignature": "e68a0408009c5c92679f46fdc8f6eb1f10b54248adbef355248a48794ecd2fc3",
+      "comparisonRevision": "d587c9abe7791a5fb09f7ae8fedcdd4428f56996e3d3ec2283a094d963375684",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-security-incident-response",
+      "provider": "aws",
+      "name": "AWS Security Incident Response",
+      "rationale": "An incident alert starts a coordinated response.",
+      "path": "stencils/aws-security-incident-response.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Security-Incident-Response_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Security-Incident-Response_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Security-Incident-Response_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Security-Incident-Response_64.svg"
+      ],
+      "revision": "7efd9972bb59954f8538d5124c1b5ab5540bcf25b6ca02a730d467ce41319da7",
+      "geometrySignature": "adc52890969e81864ae948b10dfa0515efee832c8b7363cb750b5d3798140c47",
+      "comparisonRevision": "0dca8d03de533a2309213b53a0a70d8bbd030ea16425fe355fa3c2b5a8f9370b",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-audit-manager",
+      "provider": "aws",
+      "name": "AWS Audit Manager",
+      "rationale": "Evidence from several sources feeds an audit checklist.",
+      "path": "stencils/aws-audit-manager.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Audit-Manager_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Audit-Manager_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Audit-Manager_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Audit-Manager_64.svg"
+      ],
+      "revision": "146751373eb853e6147ec64a6a1399248ca553eadf3c1fcf3b3f75a82a6c57c2",
+      "geometrySignature": "feea1fb491ae9500efa6387c99f8a1b64333567225cd0dd78459ac5306db9319",
+      "comparisonRevision": "d8addf7a66b3e9f74e74ccd311e7785e9a879f807544d96e7ab3cd9b68f0082e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-artifact",
+      "provider": "aws",
+      "name": "AWS Artifact",
+      "rationale": "A compliance report is downloaded into a document tray.",
+      "path": "stencils/aws-artifact.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/16/Arch_AWS-Artifact_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/32/Arch_AWS-Artifact_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/48/Arch_AWS-Artifact_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Security-Identity/64/Arch_AWS-Artifact_64.svg"
+      ],
+      "revision": "9b38c636e36c004ed9f8b8f54190fc048403142cd527dc7f7bcd5580bf8095b4",
+      "geometrySignature": "6317711dc937af371c6cf691dbfba94ca05c5bfdcfddc7a19a696e2ebe8f2e76",
+      "comparisonRevision": "e975e284fd4a77d0e3056b0ecaac4b019150cc4c483936dcec372f7e27b06fe1",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "aws-backup",
       "provider": "aws",
       "name": "AWS Backup",
@@ -9325,7 +9397,7 @@
       ],
       "revision": "f0342de2909eab6b1cec4221fa5aadd984fe503beaef65ac7ebb169ea7789e83",
       "geometrySignature": "a9c73d8375c7f87982e0afbafbad770daa3c4c6a07383d80ae1caa74a1a42171",
-      "comparisonRevision": "08a9fbd5d8abe1c6bd45bf19cb529ec977352a427ebfecec80fb88f64dcd91fd",
+      "comparisonRevision": "708adb06e52b299ecfdb8db26549e68358b6e9c35e983377b5703e172fed4006",
       "review": "pending",
       "notes": ""
     },

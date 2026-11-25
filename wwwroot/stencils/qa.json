@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 748,
-  "aliases": 3156,
+  "count": 752,
+  "aliases": 3172,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -514,6 +514,10 @@
     "aws-detective",
     "aws-macie",
     "aws-security-lake",
+    "aws-shield",
+    "aws-security-incident-response",
+    "aws-audit-manager",
+    "aws-artifact",
     "aws-backup",
     "aws-elastic-disaster-recovery",
     "aws-efs",
@@ -845,8 +849,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 916,
-      "concepts": 227
+      "covered": 932,
+      "concepts": 231
     },
     "gcp": {
       "sources": 261,
@@ -5814,9 +5818,9 @@
         "similarity": 0.2141
       },
       {
-        "a": "azure-sql-database",
-        "b": "aws-clean-rooms",
-        "similarity": 0.2058
+        "a": "aws-clean-rooms",
+        "b": "aws-shield",
+        "similarity": 0.2067
       }
     ],
     "aws-data-exchange": [
@@ -7022,8 +7026,8 @@
       },
       {
         "a": "m365-people-settings",
-        "b": "m365-person-accounts",
-        "similarity": 0.1517
+        "b": "aws-security-incident-response",
+        "similarity": 0.1632
       }
     ],
     "m365-people": [
@@ -8609,6 +8613,11 @@
     ],
     "aws-reserved-instance-reporting": [
       {
+        "a": "aws-reserved-instance-reporting",
+        "b": "aws-audit-manager",
+        "similarity": 0.2457
+      },
+      {
         "a": "aws-billing-conductor",
         "b": "aws-reserved-instance-reporting",
         "similarity": 0.222
@@ -8617,11 +8626,6 @@
         "a": "aws-reserved-instance-reporting",
         "b": "aws-lightsail-research",
         "similarity": 0.2181
-      },
-      {
-        "a": "aws-reserved-instance-reporting",
-        "b": "gcp-category-security",
-        "similarity": 0.2081
       }
     ],
     "aws-support": [
@@ -8983,6 +8987,11 @@
     ],
     "aws-license-manager": [
       {
+        "a": "aws-license-manager",
+        "b": "aws-artifact",
+        "similarity": 0.2224
+      },
+      {
         "a": "fabric-kql-database",
         "b": "aws-license-manager",
         "similarity": 0.1949
@@ -8991,11 +9000,6 @@
         "a": "aws-license-manager",
         "b": "fabric-stacked-text",
         "similarity": 0.1912
-      },
-      {
-        "a": "aws-license-manager",
-        "b": "aws-certificate-manager",
-        "similarity": 0.1874
       }
     ],
     "aws-service-catalog": [
@@ -9391,6 +9395,11 @@
     ],
     "aws-cloudhsm": [
       {
+        "a": "aws-cloudhsm",
+        "b": "aws-security-incident-response",
+        "similarity": 0.207
+      },
+      {
         "a": "aws-outposts-rack",
         "b": "aws-cloudhsm",
         "similarity": 0.2041
@@ -9399,11 +9408,6 @@
         "a": "aws-redshift",
         "b": "aws-cloudhsm",
         "similarity": 0.1974
-      },
-      {
-        "a": "fabric-one-lake",
-        "b": "aws-cloudhsm",
-        "similarity": 0.1954
       }
     ],
     "aws-waf": [
@@ -9508,6 +9512,74 @@
         "similarity": 0.1681
       }
     ],
+    "aws-shield": [
+      {
+        "a": "aws-shield",
+        "b": "fabric-data-graph",
+        "similarity": 0.229
+      },
+      {
+        "a": "aws-clean-rooms",
+        "b": "aws-shield",
+        "similarity": 0.2067
+      },
+      {
+        "a": "aws-shield",
+        "b": "fabric-briefcase-pulse",
+        "similarity": 0.1838
+      }
+    ],
+    "aws-security-incident-response": [
+      {
+        "a": "aws-security-incident-response",
+        "b": "aws-backup",
+        "similarity": 0.2194
+      },
+      {
+        "a": "aws-cloudhsm",
+        "b": "aws-security-incident-response",
+        "similarity": 0.207
+      },
+      {
+        "a": "aws-deadline-cloud",
+        "b": "aws-security-incident-response",
+        "similarity": 0.2046
+      }
+    ],
+    "aws-audit-manager": [
+      {
+        "a": "m365-lightbulb-check",
+        "b": "aws-audit-manager",
+        "similarity": 0.2487
+      },
+      {
+        "a": "aws-reserved-instance-reporting",
+        "b": "aws-audit-manager",
+        "similarity": 0.2457
+      },
+      {
+        "a": "fabric-apps",
+        "b": "aws-audit-manager",
+        "similarity": 0.233
+      }
+    ],
+    "aws-artifact": [
+      {
+        "a": "aws-license-manager",
+        "b": "aws-artifact",
+        "similarity": 0.2224
+      },
+      {
+        "a": "aws-elastic-beanstalk",
+        "b": "aws-artifact",
+        "similarity": 0.2013
+      },
+      {
+        "a": "gcp-cloud-logging",
+        "b": "aws-artifact",
+        "similarity": 0.1932
+      }
+    ],
     "aws-backup": [
       {
         "a": "fabric-data-warehouse",
@@ -9515,14 +9587,14 @@
         "similarity": 0.2986
       },
       {
+        "a": "aws-security-incident-response",
+        "b": "aws-backup",
+        "similarity": 0.2194
+      },
+      {
         "a": "aws-backup",
         "b": "aws-snowball-edge",
         "similarity": 0.216
-      },
-      {
-        "a": "fabric-apps",
-        "b": "aws-backup",
-        "similarity": 0.2156
       }
     ],
     "aws-elastic-disaster-recovery": [
