@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1154,
-  "aliases": 4036,
+  "count": 1157,
+  "aliases": 4039,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -351,6 +351,9 @@
     "gcp-maps-platform",
     "gcp-quantum-engine",
     "gcp-cloud-marketing",
+    "gcp-cloud-generic",
+    "gcp-my-cloud",
+    "gcp-powershell-tools",
     "gcp-cloud-media-edge",
     "gcp-cloud-network",
     "gcp-free-trial",
@@ -1270,8 +1273,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 255,
-      "concepts": 241
+      "covered": 258,
+      "concepts": 244
     }
   },
   "nearest": {
@@ -3357,13 +3360,13 @@
       },
       {
         "a": "gcp-cloud-scheduler",
-        "b": "fabric-datamart",
-        "similarity": 0.2839
+        "b": "gcp-cloud-generic",
+        "similarity": 0.2881
       },
       {
         "a": "gcp-cloud-scheduler",
-        "b": "aws-snowball-edge",
-        "similarity": 0.2556
+        "b": "fabric-datamart",
+        "similarity": 0.2839
       }
     ],
     "gcp-cloud-tasks": [
@@ -5691,8 +5694,8 @@
       },
       {
         "a": "gcp-debugger",
-        "b": "azure-power-bi-embedded",
-        "similarity": 0.2642
+        "b": "gcp-cloud-generic",
+        "similarity": 0.2729
       }
     ],
     "gcp-profiler": [
@@ -5776,8 +5779,8 @@
       },
       {
         "a": "gcp-performance-dashboard",
-        "b": "azure-foundry-agent-service",
-        "similarity": 0.1967
+        "b": "gcp-my-cloud",
+        "similarity": 0.2
       }
     ],
     "gcp-network-connectivity-center": [
@@ -6111,13 +6114,13 @@
       },
       {
         "a": "gcp-security-scanner",
-        "b": "gcp-cloud-gpu",
-        "similarity": 0.2446
+        "b": "gcp-my-cloud",
+        "similarity": 0.2528
       },
       {
         "a": "gcp-security-scanner",
-        "b": "gcp-early-access",
-        "similarity": 0.2375
+        "b": "gcp-cloud-gpu",
+        "similarity": 0.2446
       }
     ],
     "gcp-security": [
@@ -6931,9 +6934,9 @@
         "similarity": 0.2648
       },
       {
-        "a": "gcp-secret-manager",
-        "b": "gcp-release-notes",
-        "similarity": 0.2502
+        "a": "gcp-release-notes",
+        "b": "gcp-cloud-generic",
+        "similarity": 0.2596
       }
     ],
     "gcp-support": [
@@ -7157,6 +7160,57 @@
         "similarity": 0.2586
       }
     ],
+    "gcp-cloud-generic": [
+      {
+        "a": "gcp-cloud-scheduler",
+        "b": "gcp-cloud-generic",
+        "similarity": 0.2881
+      },
+      {
+        "a": "azure-route-tables",
+        "b": "gcp-cloud-generic",
+        "similarity": 0.2789
+      },
+      {
+        "a": "gcp-cloud-generic",
+        "b": "gcp-firewall-rules",
+        "similarity": 0.2736
+      }
+    ],
+    "gcp-my-cloud": [
+      {
+        "a": "gcp-security-scanner",
+        "b": "gcp-my-cloud",
+        "similarity": 0.2528
+      },
+      {
+        "a": "gcp-performance-dashboard",
+        "b": "gcp-my-cloud",
+        "similarity": 0.2
+      },
+      {
+        "a": "gcp-my-cloud",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.1935
+      }
+    ],
+    "gcp-powershell-tools": [
+      {
+        "a": "gcp-dataplex",
+        "b": "gcp-powershell-tools",
+        "similarity": 0.2132
+      },
+      {
+        "a": "gcp-powershell-tools",
+        "b": "azure-foundry-local",
+        "similarity": 0.2026
+      },
+      {
+        "a": "gcp-quantum-engine",
+        "b": "gcp-powershell-tools",
+        "similarity": 0.1959
+      }
+    ],
     "gcp-cloud-media-edge": [
       {
         "a": "gcp-dataprep",
@@ -7346,6 +7400,11 @@
     ],
     "gcp-firewall-rules": [
       {
+        "a": "gcp-cloud-generic",
+        "b": "gcp-firewall-rules",
+        "similarity": 0.2736
+      },
+      {
         "a": "gcp-firewall-rules",
         "b": "aws-marketplace",
         "similarity": 0.2439
@@ -7354,11 +7413,6 @@
         "a": "gcp-firewall-rules",
         "b": "azure-virtual-desktop",
         "similarity": 0.238
-      },
-      {
-        "a": "gcp-firewall-rules",
-        "b": "aws-iot-device-management",
-        "similarity": 0.2311
       }
     ],
     "gcp-natural-language": [
@@ -11810,9 +11864,9 @@
         "similarity": 0.2182
       },
       {
-        "a": "azure-route-tables",
+        "a": "gcp-cloud-generic",
         "b": "azure-foundry-application",
-        "similarity": 0.2079
+        "similarity": 0.2089
       }
     ],
     "azure-foundry-agent-service": [
@@ -15235,6 +15289,11 @@
     ],
     "m365-cloud-add": [
       {
+        "a": "gcp-my-cloud",
+        "b": "m365-cloud-add",
+        "similarity": 0.1378
+      },
+      {
         "a": "gcp-profiler",
         "b": "m365-cloud-add",
         "similarity": 0.1178
@@ -15243,11 +15302,6 @@
         "a": "m365-cloud-add",
         "b": "fabric-database-money",
         "similarity": 0.113
-      },
-      {
-        "a": "m365-cloud-add",
-        "b": "aws-cloudfront-download",
-        "similarity": 0.1123
       }
     ],
     "m365-cloud-download": [
@@ -16390,9 +16444,9 @@
         "similarity": 0.2715
       },
       {
-        "a": "azure-foundry-application",
+        "a": "gcp-cloud-generic",
         "b": "gcp-category-storage",
-        "similarity": 0.255
+        "similarity": 0.2638
       }
     ],
     "gcp-category-web-mobile": [
@@ -20047,6 +20101,11 @@
     ],
     "fabric-square-transfer": [
       {
+        "a": "gcp-cloud-generic",
+        "b": "fabric-square-transfer",
+        "similarity": 0.2066
+      },
+      {
         "a": "gcp-firewall-rules",
         "b": "fabric-square-transfer",
         "similarity": 0.1955
@@ -20055,11 +20114,6 @@
         "a": "aws-marketplace",
         "b": "fabric-square-transfer",
         "similarity": 0.187
-      },
-      {
-        "a": "aws-repost",
-        "b": "fabric-square-transfer",
-        "similarity": 0.1842
       }
     ],
     "fabric-square-database": [
