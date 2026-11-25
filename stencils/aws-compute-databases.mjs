@@ -3,6 +3,54 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-account-group", "aws", "AWS Account", ["AWS-Account_32"],
+    "An account groups its cloud resources.",
+    [
+      rect(14, 21, 96, 71), line([14, 35], [110, 35]), oval(22, 25, 5, 5, true), line([34, 28], [73, 28]),
+      rect(23, 48, 20, 20), oval(53, 48, 20, 20), line([83, 68], [93, 47], [103, 68], [83, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloud-group", "aws", "AWS Cloud", ["AWS-Cloud_32", "AWS-Cloud_32_Dark", "AWS-Cloud-logo_32", "AWS-Cloud-logo_32_Dark"],
+    "A cloud boundary represents resources in AWS.",
+    [
+      line([25, 82], [16, 77], [12, 68], [14, 58], [21, 52], [32, 52], [36, 39], [46, 30], [59, 29], [71, 35], [76, 46], [86, 45], [96, 49], [103, 58], [103, 69], [98, 77], [90, 82], [25, 82]),
+      rect(31, 57, 14, 13), oval(55, 55, 15, 15), line([45, 63], [55, 63]), line([70, 63], [82, 63]), line([76, 57], [82, 63], [76, 69]), line([29, 94], [92, 94]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-deployment-group", "aws", "IoT Greengrass Deployment", ["AWS-IoT-Greengrass-Deployment_32"],
+    "A Greengrass deployment distributes components to edge devices.",
+    [
+      line([13, 39], [13, 24], [33, 24]), line([92, 24], [112, 24], [112, 39]), line([13, 83], [13, 98], [33, 98]), line([92, 98], [112, 98], [112, 83]),
+      rect(50, 39, 25, 23), line([62, 62], [62, 75]), line([62, 75], [31, 75]), line([62, 75], [94, 75]), rect(21, 75, 20, 13), rect(84, 75, 20, 13), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-auto-scaling-group", "aws", "Auto Scaling Group", ["Auto-Scaling-group_32"],
+    "An auto scaling group expands or contracts a set of instances.",
+    [
+      rect(32, 40, 25, 20), rect(68, 40, 25, 20), rect(50, 70, 25, 20), line([62, 32], [62, 15]), line([55, 22], [62, 15], [69, 22]),
+      line([21, 54], [10, 54]), line([16, 48], [10, 54], [16, 60]), line([104, 54], [115, 54]), line([109, 48], [115, 54], [109, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-corporate-data-center", "aws", "Corporate Data Center", ["Corporate-data-center_32"],
+    "A corporate data center houses server racks in a building.",
+    [
+      line([21, 97], [21, 29], [40, 29], [40, 15], [82, 15], [82, 29], [103, 29], [103, 97], [21, 97]), line([35, 40], [45, 40]), line([57, 40], [67, 40]), line([79, 40], [89, 40]), line([35, 54], [45, 54]), line([57, 54], [67, 54]), line([79, 54], [89, 54]),
+      rect(51, 67, 22, 30), line([56, 75], [68, 75]), line([56, 83], [68, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-ec2-instance-contents", "aws", "EC2 Instance Contents", ["EC2-instance-contents_32"],
+    "An EC2 instance contains compute resources within a boundary.",
+    [
+      line([14, 35], [14, 20], [30, 20]), line([97, 20], [112, 20], [112, 35]), line([14, 84], [14, 98], [30, 98]), line([97, 98], [112, 98], [112, 84]),
+      rect(38, 35, 50, 48), line([31, 45], [38, 45]), line([31, 57], [38, 57]), line([31, 70], [38, 70]), line([88, 45], [95, 45]), line([88, 57], [95, 57]), line([88, 70], [95, 70]), line([48, 49], [78, 49]), line([48, 61], [78, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-server-contents", "aws", "Server Contents", ["Server-contents_32"],
+    "A server boundary contains an application and data.",
+    [
+      line([14, 35], [14, 20], [30, 20]), line([97, 20], [112, 20], [112, 35]), line([14, 84], [14, 98], [30, 98]), line([97, 98], [112, 98], [112, 84]),
+      rect(35, 30, 55, 59), line([35, 42], [90, 42]), line([43, 36], [48, 36]), rect(44, 51, 16, 19), line([67, 52], [83, 52]), line([67, 61], [83, 61]), line([67, 70], [80, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-spot-fleet", "aws", "Spot Fleet", ["Spot-Fleet_32"],
+    "A fleet combines instances acquired at spot prices.",
+    [
+      rect(15, 33, 31, 25), rect(48, 57, 31, 25), rect(81, 33, 31, 25), line([24, 41], [37, 41]), line([57, 65], [70, 65]), line([90, 41], [103, 41]),
+      line([46, 45], [57, 45], [57, 57]), line([79, 69], [96, 69], [96, 58]), line([57, 16], [68, 16], [75, 23], [68, 30], [57, 30], [50, 23], [57, 16]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-aurora-instance", "aws", "Aurora Instance",
     ["Res_Amazon-Aurora-Instance_48", "Res_Amazon-Aurora_Amazon-Aurora-Instance-alternate_48"],
     "An Aurora database instance runs within a host.",

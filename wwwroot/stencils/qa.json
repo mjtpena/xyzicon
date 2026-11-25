@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2106,
-  "aliases": 5285,
+  "count": 2114,
+  "aliases": 5296,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1564,6 +1564,14 @@
     "fabric-asterisk-circle",
     "fabric-commit",
     "fabric-commit-circle",
+    "aws-account-group",
+    "aws-cloud-group",
+    "aws-greengrass-deployment-group",
+    "aws-auto-scaling-group",
+    "aws-corporate-data-center",
+    "aws-ec2-instance-contents",
+    "aws-server-contents",
+    "aws-spot-fleet",
     "aws-aurora-instance",
     "aws-rds-instance",
     "aws-mariadb-instance",
@@ -2406,8 +2414,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1841,
-      "concepts": 786
+      "covered": 1852,
+      "concepts": 794
     },
     "gcp": {
       "sources": 261,
@@ -2742,6 +2750,11 @@
     "m365-download": [
       {
         "a": "m365-download",
+        "b": "aws-spot-fleet",
+        "similarity": 0.2201
+      },
+      {
+        "a": "m365-download",
         "b": "aws-iam-encryption-key",
         "similarity": 0.2084
       },
@@ -2749,11 +2762,6 @@
         "a": "m365-download",
         "b": "azure-commit",
         "similarity": 0.2071
-      },
-      {
-        "a": "m365-download",
-        "b": "aws-iot-thing-stacklight",
-        "similarity": 0.2054
       }
     ],
     "entra-family": [
@@ -5863,8 +5871,8 @@
       },
       {
         "a": "azure-integration-service-environments",
-        "b": "azure-api-fhir",
-        "similarity": 0.2689
+        "b": "aws-account-group",
+        "similarity": 0.2798
       }
     ],
     "azure-partner-topic": [
@@ -11490,8 +11498,8 @@
       },
       {
         "a": "azure-sql-service",
-        "b": "aws-fsx-ontap",
-        "similarity": 0.1696
+        "b": "aws-cloud-group",
+        "similarity": 0.175
       }
     ],
     "azure-ssis-lift-shift": [
@@ -15227,6 +15235,11 @@
     "azure-device-security-apple": [
       {
         "a": "azure-device-security-apple",
+        "b": "aws-cloud-group",
+        "similarity": 0.283
+      },
+      {
+        "a": "azure-device-security-apple",
         "b": "azure-controls",
         "similarity": 0.2648
       },
@@ -15234,11 +15247,6 @@
         "a": "azure-device-security-apple",
         "b": "aws-braket-qpu",
         "similarity": 0.2551
-      },
-      {
-        "a": "azure-device-security-apple",
-        "b": "azure-defender-printer",
-        "similarity": 0.2491
       }
     ],
     "azure-device-security-google": [
@@ -15844,13 +15852,13 @@
       },
       {
         "a": "azure-administrative-units",
-        "b": "aws-iot-simulator",
-        "similarity": 0.2241
+        "b": "aws-ec2-instance-contents",
+        "similarity": 0.2277
       },
       {
         "a": "azure-administrative-units",
-        "b": "azure-windows-core-services",
-        "similarity": 0.2237
+        "b": "aws-iot-simulator",
+        "similarity": 0.2241
       }
     ],
     "azure-multi-tenancy": [
@@ -17284,6 +17292,11 @@
     "azure-time-series-environments": [
       {
         "a": "azure-time-series-environments",
+        "b": "aws-account-group",
+        "similarity": 0.3307
+      },
+      {
+        "a": "azure-time-series-environments",
         "b": "aws-iot-fire-tv",
         "similarity": 0.3173
       },
@@ -17291,11 +17304,6 @@
         "a": "azure-time-series-environments",
         "b": "azure-mobile",
         "similarity": 0.3136
-      },
-      {
-        "a": "azure-time-series-environments",
-        "b": "aws-s3-glacier-deep-archive",
-        "similarity": 0.3081
       }
     ],
     "azure-iot-hub": [
@@ -18547,13 +18555,13 @@
       },
       {
         "a": "aws-iot-echo",
-        "b": "aws-general-server",
-        "similarity": 0.2814
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2857
       },
       {
         "a": "aws-iot-echo",
-        "b": "aws-dynamodb-standard-table-class",
-        "similarity": 0.2643
+        "b": "aws-general-server",
+        "similarity": 0.2814
       }
     ],
     "aws-iot-fire-tv": [
@@ -19192,14 +19200,14 @@
         "similarity": 0.2607
       },
       {
+        "a": "aws-greengrass-connector",
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2577
+      },
+      {
         "a": "azure-user-privacy",
         "b": "aws-greengrass-connector",
         "similarity": 0.2459
-      },
-      {
-        "a": "aws-greengrass-connector",
-        "b": "aws-cloud-map-resource",
-        "similarity": 0.2413
       }
     ],
     "aws-greengrass-interprocess": [
@@ -19334,8 +19342,8 @@
       },
       {
         "a": "aws-iot-thing-generic",
-        "b": "aws-systems-parameter-store",
-        "similarity": 0.277
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2775
       }
     ],
     "aws-iot-hardware-board": [
@@ -20939,6 +20947,11 @@
     "aws-backup-recovery-point-objective": [
       {
         "a": "aws-backup-recovery-point-objective",
+        "b": "aws-spot-fleet",
+        "similarity": 0.2613
+      },
+      {
+        "a": "aws-backup-recovery-point-objective",
         "b": "aws-general-chat",
         "similarity": 0.2471
       },
@@ -20946,11 +20959,6 @@
         "a": "azure-managed-file-shares",
         "b": "aws-backup-recovery-point-objective",
         "similarity": 0.2466
-      },
-      {
-        "a": "aws-backup-recovery-point-objective",
-        "b": "aws-elasticache-memcached",
-        "similarity": 0.239
       }
     ],
     "aws-backup-recovery-time-objective": [
@@ -23404,6 +23412,11 @@
     "aws-systems-application-manager": [
       {
         "a": "aws-systems-application-manager",
+        "b": "aws-account-group",
+        "similarity": 0.4047
+      },
+      {
+        "a": "aws-systems-application-manager",
         "b": "aws-organizations-account",
         "similarity": 0.3674
       },
@@ -23411,11 +23424,6 @@
         "a": "aws-systems-application-manager",
         "b": "aws-cloud-wan-segment",
         "similarity": 0.3611
-      },
-      {
-        "a": "aws-systems-application-manager",
-        "b": "azure-resource-explorer",
-        "similarity": 0.3534
       }
     ],
     "aws-systems-automation": [
@@ -24423,6 +24431,11 @@
     ],
     "aws-general-email": [
       {
+        "a": "aws-general-email",
+        "b": "aws-account-group",
+        "similarity": 0.32
+      },
+      {
         "a": "aws-s3-glacier-deep-archive",
         "b": "aws-general-email",
         "similarity": 0.3185
@@ -24431,11 +24444,6 @@
         "a": "azure-defender-dcs-controller",
         "b": "aws-general-email",
         "similarity": 0.2973
-      },
-      {
-        "a": "aws-general-email",
-        "b": "aws-aurora-instance",
-        "similarity": 0.2902
       }
     ],
     "aws-general-firewall": [
@@ -25375,6 +25383,11 @@
     ],
     "aws-waf-filtering-rule": [
       {
+        "a": "aws-waf-filtering-rule",
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2747
+      },
+      {
         "a": "aws-iot-thing-coffee-pot",
         "b": "aws-waf-filtering-rule",
         "similarity": 0.2441
@@ -25383,11 +25396,6 @@
         "a": "aws-dynamodb-item",
         "b": "aws-waf-filtering-rule",
         "similarity": 0.2372
-      },
-      {
-        "a": "aws-iot-thing-generic",
-        "b": "aws-waf-filtering-rule",
-        "similarity": 0.2294
       }
     ],
     "aws-waf-labels": [
@@ -27229,8 +27237,8 @@
       },
       {
         "a": "aws-vpc-router",
-        "b": "azure-toolbox",
-        "similarity": 0.238
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.239
       }
     ],
     "aws-vpc-vpn-connection": [
@@ -27779,6 +27787,11 @@
     ],
     "aws-cloud-map-namespace": [
       {
+        "a": "aws-cloud-map-namespace",
+        "b": "aws-account-group",
+        "similarity": 0.3578
+      },
+      {
         "a": "aws-organizational-unit",
         "b": "aws-cloud-map-namespace",
         "similarity": 0.3396
@@ -27787,11 +27800,6 @@
         "a": "aws-ebs-snapshot",
         "b": "aws-cloud-map-namespace",
         "similarity": 0.3082
-      },
-      {
-        "a": "azure-spot-vmss",
-        "b": "aws-cloud-map-namespace",
-        "similarity": 0.3007
       }
     ],
     "aws-cloud-map-resource": [
@@ -28973,6 +28981,142 @@
         "similarity": 0.4646
       }
     ],
+    "aws-account-group": [
+      {
+        "a": "aws-systems-application-manager",
+        "b": "aws-account-group",
+        "similarity": 0.4047
+      },
+      {
+        "a": "aws-general-application",
+        "b": "aws-account-group",
+        "similarity": 0.3687
+      },
+      {
+        "a": "aws-cloud-map-namespace",
+        "b": "aws-account-group",
+        "similarity": 0.3578
+      }
+    ],
+    "aws-cloud-group": [
+      {
+        "a": "azure-device-security-apple",
+        "b": "aws-cloud-group",
+        "similarity": 0.283
+      },
+      {
+        "a": "azure-service-catalog-mad",
+        "b": "aws-cloud-group",
+        "similarity": 0.2764
+      },
+      {
+        "a": "aws-cloud-group",
+        "b": "azure-cost-budgets",
+        "similarity": 0.2715
+      }
+    ],
+    "aws-greengrass-deployment-group": [
+      {
+        "a": "aws-greengrass-deployment-group",
+        "b": "aws-ec2-instance-contents",
+        "similarity": 0.245
+      },
+      {
+        "a": "azure-spot-vm",
+        "b": "aws-greengrass-deployment-group",
+        "similarity": 0.2367
+      },
+      {
+        "a": "azure-defender-marquee",
+        "b": "aws-greengrass-deployment-group",
+        "similarity": 0.2294
+      }
+    ],
+    "aws-auto-scaling-group": [
+      {
+        "a": "aws-iot-echo",
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2857
+      },
+      {
+        "a": "aws-iot-thing-generic",
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2775
+      },
+      {
+        "a": "aws-waf-filtering-rule",
+        "b": "aws-auto-scaling-group",
+        "similarity": 0.2747
+      }
+    ],
+    "aws-corporate-data-center": [
+      {
+        "a": "aws-systems-change-calendar",
+        "b": "aws-corporate-data-center",
+        "similarity": 0.264
+      },
+      {
+        "a": "aws-general-office-building",
+        "b": "aws-corporate-data-center",
+        "similarity": 0.2598
+      },
+      {
+        "a": "aws-corporate-data-center",
+        "b": "azure-backlog",
+        "similarity": 0.2488
+      }
+    ],
+    "aws-ec2-instance-contents": [
+      {
+        "a": "aws-ec2-instance-contents",
+        "b": "aws-server-contents",
+        "similarity": 0.3369
+      },
+      {
+        "a": "aws-ec2-instance-contents",
+        "b": "aws-dynamodb-standard-table-class",
+        "similarity": 0.2652
+      },
+      {
+        "a": "aws-ec2-instance-contents",
+        "b": "aws-ecs-service",
+        "similarity": 0.2596
+      }
+    ],
+    "aws-server-contents": [
+      {
+        "a": "aws-ec2-instance-contents",
+        "b": "aws-server-contents",
+        "similarity": 0.3369
+      },
+      {
+        "a": "aws-route53-route-table",
+        "b": "aws-server-contents",
+        "similarity": 0.2957
+      },
+      {
+        "a": "aws-iot-fleet-hub",
+        "b": "aws-server-contents",
+        "similarity": 0.2782
+      }
+    ],
+    "aws-spot-fleet": [
+      {
+        "a": "aws-backup-recovery-point-objective",
+        "b": "aws-spot-fleet",
+        "similarity": 0.2613
+      },
+      {
+        "a": "aws-network-firewall-endpoint",
+        "b": "aws-spot-fleet",
+        "similarity": 0.2596
+      },
+      {
+        "a": "aws-spot-fleet",
+        "b": "aws-provisioned-iops-instance",
+        "similarity": 0.2534
+      }
+    ],
     "aws-aurora-instance": [
       {
         "a": "aws-aurora-instance",
@@ -29444,9 +29588,9 @@
         "similarity": 0.2693
       },
       {
-        "a": "azure-application-security-groups",
+        "a": "aws-ec2-instance-contents",
         "b": "aws-ecs-service",
-        "similarity": 0.2543
+        "similarity": 0.2596
       }
     ],
     "aws-ecs-task": [
@@ -29677,14 +29821,14 @@
         "similarity": 0.2638
       },
       {
+        "a": "aws-account-group",
+        "b": "aws-lambda-function",
+        "similarity": 0.2475
+      },
+      {
         "a": "aws-lambda-function",
         "b": "azure-ssd",
         "similarity": 0.2391
-      },
-      {
-        "a": "azure-spot-vm",
-        "b": "aws-lambda-function",
-        "similarity": 0.2365
       }
     ],
     "aws-ec2-ami": [
@@ -32125,14 +32269,14 @@
         "similarity": 0.2821
       },
       {
+        "a": "aws-spot-fleet",
+        "b": "azure-commit",
+        "similarity": 0.2526
+      },
+      {
         "a": "azure-defender-industrial-robot",
         "b": "azure-commit",
         "similarity": 0.2235
-      },
-      {
-        "a": "aws-greengrass-connector",
-        "b": "azure-commit",
-        "similarity": 0.2209
       }
     ],
     "azure-controls": [
