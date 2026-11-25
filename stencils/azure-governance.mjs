@@ -1,6 +1,12 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("microsoft-azure-platform", "azure", "Microsoft Azure", ["10018-icon-service-Azure-A"],
+    "Microsoft Azure provides a cloud platform for applications and infrastructure.",
+    [
+      line([24, 76], [17, 72], [15, 63], [19, 54], [28, 50], [35, 38], [47, 33], [59, 37], [66, 47], [79, 45], [91, 50], [98, 59], [98, 69], [92, 76], [24, 76]),
+      line([34, 65], [39, 53], [44, 65]), line([36, 61], [42, 61]), line([52, 53], [63, 53], [52, 65], [63, 65]), line([78, 25], [78, 16]), line([73, 20], [83, 20]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-aquila", "azure", "Aquila", ["02625-icon-service-Aquila"],
     "Azure Monitor SCOM Managed Instance monitors workloads across cloud and on-premises environments.",
     [

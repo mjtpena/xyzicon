@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2225,
-  "aliases": 5408,
+  "count": 2226,
+  "aliases": 5409,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -950,6 +950,7 @@
     "azure-connected-cache",
     "azure-spot-vm",
     "azure-spot-vmss",
+    "microsoft-azure-platform",
     "azure-aquila",
     "microsoft-discovery",
     "azure-support-center",
@@ -2495,8 +2496,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 713,
-      "concepts": 630
+      "covered": 714,
+      "concepts": 631
     },
     "fabric": {
       "sources": 1584,
@@ -18624,6 +18625,23 @@
         "similarity": 0.3224
       }
     ],
+    "microsoft-azure-platform": [
+      {
+        "a": "microsoft-azure-platform",
+        "b": "azure-managed-grafana",
+        "similarity": 0.3048
+      },
+      {
+        "a": "azure-edge-hardware-center",
+        "b": "microsoft-azure-platform",
+        "similarity": 0.2714
+      },
+      {
+        "a": "microsoft-azure-platform",
+        "b": "aws-cloudtrail-lake",
+        "similarity": 0.2701
+      }
+    ],
     "azure-aquila": [
       {
         "a": "azure-aquila",
@@ -25103,6 +25121,11 @@
     ],
     "aws-cloudtrail-lake": [
       {
+        "a": "microsoft-azure-platform",
+        "b": "aws-cloudtrail-lake",
+        "similarity": 0.2701
+      },
+      {
         "a": "aws-ebs-lifecycle-manager",
         "b": "aws-cloudtrail-lake",
         "similarity": 0.2617
@@ -25111,11 +25134,6 @@
         "a": "aws-iot-http2",
         "b": "aws-cloudtrail-lake",
         "similarity": 0.2551
-      },
-      {
-        "a": "aws-inspector-agent",
-        "b": "aws-cloudtrail-lake",
-        "similarity": 0.2504
       }
     ],
     "aws-license-application-discovery": [
