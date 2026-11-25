@@ -2,6 +2,50 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-blockchain-applications", "azure", "Blockchain Applications", ["10210-icon-service-Blockchain-Applications"],
+    "An application sends code to a blockchain block.",
+    [
+      line([39, 20], [60, 10], [81, 20], [81, 43], [60, 54], [39, 43], [39, 20]), line([39, 20], [60, 31], [81, 20]), line([60, 31], [60, 54]),
+      line([60, 76], [60, 58]), line([53, 65], [60, 58], [67, 65]),
+      rect(29, 77, 62, 27), line([47, 84], [40, 90], [47, 97]), line([73, 84], [80, 90], [73, 97]), line([17, 114], [109, 114]),
+    ]),
+  entry("azure-blockchain-outbound", "azure", "Blockchain Outbound Connection", ["10364-icon-service-Outbound-Connection"],
+    "A blockchain block sends an outbound connection.",
+    [
+      line([30, 20], [55, 8], [80, 20], [80, 47], [55, 60], [30, 47], [30, 20]), line([30, 20], [55, 33], [80, 20]), line([55, 33], [55, 60]),
+      line([30, 44], [18, 50], [14, 59], [17, 68], [27, 73], [100, 73]), line([90, 63], [100, 73], [90, 83]), line([16, 105], [109, 105]),
+    ]),
+  entry("azure-blockchain-service", "azure", "Azure Blockchain Service", ["10366-icon-service-Azure-Blockchain-Service"],
+    "Three linked blocks form a blockchain network.",
+    [
+      line([45, 18], [61, 10], [77, 18], [77, 36], [61, 44], [45, 36], [45, 18]), line([45, 18], [61, 26], [77, 18]), line([61, 26], [61, 44]),
+      line([13, 69], [29, 61], [45, 69], [45, 87], [29, 95], [13, 87], [13, 69]), line([13, 69], [29, 77], [45, 69]), line([29, 77], [29, 95]),
+      line([77, 69], [93, 61], [109, 69], [109, 87], [93, 95], [77, 87], [77, 69]), line([77, 69], [93, 77], [109, 69]), line([93, 77], [93, 95]),
+      line([50, 41], [37, 61]), line([72, 41], [85, 61]), line([45, 80], [77, 80]), line([15, 110], [110, 110]),
+    ]),
+  entry("azure-blockchain-token", "azure", "Azure Token Service", ["10367-icon-service-Azure-Token-Service"],
+    "Tokens are issued beside a blockchain block.",
+    [
+      line([18, 27], [42, 15], [66, 27], [66, 52], [42, 64], [18, 52], [18, 27]), line([18, 27], [42, 39], [66, 27]), line([42, 39], [42, 64]),
+      oval(25, 71, 33, 14), line([25, 78], [25, 90], [31, 95], [52, 95], [58, 90], [58, 78]),
+      oval(71, 59, 33, 14), line([71, 66], [71, 89], [77, 95], [98, 95], [104, 89], [104, 66]), line([71, 78], [78, 82], [97, 82], [104, 78]),
+      line([13, 111], [110, 111]),
+    ]),
+  entry("azure-blockchain-member", "azure", "Blockchain Member", ["10374-icon-service-ABS-Member"],
+    "A member participates in a blockchain block.",
+    [
+      line([28, 27], [58, 12], [88, 27], [88, 62], [58, 77], [28, 62], [28, 27]), line([28, 27], [58, 42], [88, 27]), line([58, 42], [58, 77]),
+      oval(73, 60, 17, 17), line([66, 103], [68, 87], [73, 79], [81, 77], [89, 79], [94, 87], [96, 103]), line([18, 112], [109, 112]),
+    ]),
+  entry("azure-blockchain-consortium", "azure", "Blockchain Consortium", ["10375-icon-service-Consortium"],
+    "Four participants share a linked blockchain consortium.",
+    [
+      line([47, 16], [61, 9], [75, 16], [75, 31], [61, 38], [47, 31], [47, 16]), line([47, 16], [61, 23], [75, 16]), line([61, 23], [61, 38]),
+      line([13, 48], [27, 41], [41, 48], [41, 63], [27, 70], [13, 63], [13, 48]), line([13, 48], [27, 55], [41, 48]), line([27, 55], [27, 70]),
+      line([81, 48], [95, 41], [109, 48], [109, 63], [95, 70], [81, 63], [81, 48]), line([81, 48], [95, 55], [109, 48]), line([95, 55], [95, 70]),
+      line([47, 80], [61, 73], [75, 80], [75, 95], [61, 102], [47, 95], [47, 80]), line([47, 80], [61, 87], [75, 80]), line([61, 87], [61, 102]),
+      line([47, 32], [40, 42]), line([75, 32], [82, 42]), line([40, 68], [48, 77]), line([82, 68], [74, 77]), line([13, 114], [110, 114]),
+    ]),
   entry("azure-confidential-clean-rooms", "azure", "Azure Confidential Clean Rooms",
     ["036687350-icon-service-Azure-Confidential-Clean-Rooms"],
     "Two datasets enter a shared shield with a lock, for confidential collaboration.",
