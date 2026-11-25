@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2220,
-  "aliases": 5403,
+  "count": 2224,
+  "aliases": 5407,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -901,6 +901,8 @@
     "azure-time-series-data-sets",
     "azure-windows-core-services",
     "azure-device-provisioning",
+    "azure-mission-landing-zone",
+    "azure-exchange-on-premises-access",
     "azure-ai-gateway",
     "azure-sonic-dash",
     "azure-enclaves",
@@ -948,6 +950,7 @@
     "azure-connected-cache",
     "azure-spot-vm",
     "azure-spot-vmss",
+    "azure-aquila",
     "microsoft-discovery",
     "azure-support-center",
     "azure-prometheus",
@@ -1767,6 +1770,7 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-mindaro",
     "azure-agentic-web-apps",
     "azure-hdi-aks-cluster",
     "azure-rtos",
@@ -2490,8 +2494,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 708,
-      "concepts": 625
+      "covered": 712,
+      "concepts": 629
     },
     "fabric": {
       "sources": 1584,
@@ -15907,13 +15911,13 @@
       },
       {
         "a": "azure-directory-users",
-        "b": "azure-cognitive-search",
-        "similarity": 0.1823
+        "b": "azure-mission-landing-zone",
+        "similarity": 0.1825
       },
       {
         "a": "azure-directory-users",
-        "b": "fabric-stream-bracket",
-        "similarity": 0.1781
+        "b": "azure-cognitive-search",
+        "similarity": 0.1823
       }
     ],
     "azure-entra-id-protection": [
@@ -17786,6 +17790,40 @@
         "similarity": 0.3034
       }
     ],
+    "azure-mission-landing-zone": [
+      {
+        "a": "azure-mission-landing-zone",
+        "b": "aws-elasticache-valkey",
+        "similarity": 0.3135
+      },
+      {
+        "a": "azure-mission-landing-zone",
+        "b": "aws-general-client",
+        "similarity": 0.2635
+      },
+      {
+        "a": "azure-mission-landing-zone",
+        "b": "aws-greengrass-deployment-group",
+        "similarity": 0.254
+      }
+    ],
+    "azure-exchange-on-premises-access": [
+      {
+        "a": "azure-exchange-on-premises-access",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.298
+      },
+      {
+        "a": "azure-exchange-on-premises-access",
+        "b": "aws-gateway-cached-volume",
+        "similarity": 0.2966
+      },
+      {
+        "a": "azure-exchange-on-premises-access",
+        "b": "azure-aquila",
+        "similarity": 0.2921
+      }
+    ],
     "azure-ai-gateway": [
       {
         "a": "aws-dynamodb-stream",
@@ -17918,8 +17956,8 @@
       },
       {
         "a": "azure-expressroute-direct",
-        "b": "aws-s3-replication",
-        "similarity": 0.2796
+        "b": "azure-mindaro",
+        "similarity": 0.2899
       }
     ],
     "azure-communication-services": [
@@ -18583,6 +18621,23 @@
         "a": "azure-spot-vmss",
         "b": "azure-dev-console",
         "similarity": 0.3224
+      }
+    ],
+    "azure-aquila": [
+      {
+        "a": "azure-aquila",
+        "b": "aws-file-cache-s3",
+        "similarity": 0.3687
+      },
+      {
+        "a": "azure-aquila",
+        "b": "aws-gateway-cached-volume",
+        "similarity": 0.346
+      },
+      {
+        "a": "azure-aquila",
+        "b": "aws-gateway-fsx-file",
+        "similarity": 0.3407
       }
     ],
     "microsoft-discovery": [
@@ -19646,14 +19701,14 @@
         "similarity": 0.3099
       },
       {
+        "a": "azure-aquila",
+        "b": "azure-service-group-relationships",
+        "similarity": 0.2737
+      },
+      {
         "a": "azure-service-group-relationships",
         "b": "aws-rds-instance",
         "similarity": 0.2665
-      },
-      {
-        "a": "azure-entra-connect",
-        "b": "azure-service-group-relationships",
-        "similarity": 0.2628
       }
     ],
     "azure-user-privacy": [
@@ -21953,6 +22008,11 @@
     ],
     "aws-file-cache-s3": [
       {
+        "a": "azure-aquila",
+        "b": "aws-file-cache-s3",
+        "similarity": 0.3687
+      },
+      {
         "a": "aws-file-cache-on-premises",
         "b": "aws-file-cache-s3",
         "similarity": 0.3447
@@ -21961,11 +22021,6 @@
         "a": "aws-file-cache-s3",
         "b": "aws-backup-vmware",
         "similarity": 0.3291
-      },
-      {
-        "a": "aws-file-cache-s3",
-        "b": "aws-gateway-fsx-file",
-        "similarity": 0.3097
       }
     ],
     "aws-snowball-import-export": [
@@ -21987,6 +22042,11 @@
     ],
     "aws-gateway-fsx-file": [
       {
+        "a": "azure-aquila",
+        "b": "aws-gateway-fsx-file",
+        "similarity": 0.3407
+      },
+      {
         "a": "aws-s3-tables",
         "b": "aws-gateway-fsx-file",
         "similarity": 0.3227
@@ -21995,11 +22055,6 @@
         "a": "aws-file-cache-s3",
         "b": "aws-gateway-fsx-file",
         "similarity": 0.3097
-      },
-      {
-        "a": "aws-iot-thing-industrial-pc",
-        "b": "aws-gateway-fsx-file",
-        "similarity": 0.2871
       }
     ],
     "aws-gateway-s3-file": [
@@ -25346,9 +25401,9 @@
         "similarity": 0.2735
       },
       {
-        "a": "azure-logic-apps-custom-connector",
+        "a": "azure-exchange-on-premises-access",
         "b": "aws-general-internet-transfer",
-        "similarity": 0.2692
+        "similarity": 0.2735
       }
     ],
     "aws-general-json-script": [
@@ -30466,6 +30521,11 @@
     ],
     "aws-greengrass-deployment-group": [
       {
+        "a": "azure-mission-landing-zone",
+        "b": "aws-greengrass-deployment-group",
+        "similarity": 0.254
+      },
+      {
         "a": "aws-greengrass-deployment-group",
         "b": "aws-ec2-instance-contents",
         "similarity": 0.245
@@ -30474,11 +30534,6 @@
         "a": "azure-spot-vm",
         "b": "aws-greengrass-deployment-group",
         "similarity": 0.2367
-      },
-      {
-        "a": "azure-defender-marquee",
-        "b": "aws-greengrass-deployment-group",
-        "similarity": 0.2294
       }
     ],
     "aws-auto-scaling-group": [
@@ -30738,6 +30793,11 @@
     ],
     "aws-elasticache-valkey": [
       {
+        "a": "azure-mission-landing-zone",
+        "b": "aws-elasticache-valkey",
+        "similarity": 0.3135
+      },
+      {
         "a": "aws-elasticache-valkey",
         "b": "fabric-stacked-text",
         "similarity": 0.2915
@@ -30746,11 +30806,6 @@
         "a": "aws-dynamodb-items",
         "b": "aws-elasticache-valkey",
         "similarity": 0.2818
-      },
-      {
-        "a": "aws-s3-on-outposts-resource",
-        "b": "aws-elasticache-valkey",
-        "similarity": 0.2816
       }
     ],
     "aws-rds-proxy-instance": [
@@ -32538,6 +32593,23 @@
         "similarity": 0.2297
       }
     ],
+    "azure-mindaro": [
+      {
+        "a": "azure-expressroute-direct",
+        "b": "azure-mindaro",
+        "similarity": 0.2899
+      },
+      {
+        "a": "aws-vpc-carrier-gateway",
+        "b": "azure-mindaro",
+        "similarity": 0.2892
+      },
+      {
+        "a": "aws-s3-replication",
+        "b": "azure-mindaro",
+        "similarity": 0.275
+      }
+    ],
     "azure-agentic-web-apps": [
       {
         "a": "azure-agentic-web-apps",
@@ -33888,14 +33960,14 @@
         "similarity": 0.2629
       },
       {
+        "a": "azure-mission-landing-zone",
+        "b": "azure-cubes",
+        "similarity": 0.2532
+      },
+      {
         "a": "aws-organizations-management-account",
         "b": "azure-cubes",
         "similarity": 0.2465
-      },
-      {
-        "a": "aws-efs-standard",
-        "b": "azure-cubes",
-        "similarity": 0.2436
       }
     ],
     "azure-dev-console": [

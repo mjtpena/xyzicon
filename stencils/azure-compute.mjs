@@ -1,6 +1,12 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-mindaro", "azure", "Mindaro", ["10350-icon-service-Mindaro"],
+    "Bridge to Kubernetes connects a local development process to a cluster.",
+    [
+      rect(13, 30, 39, 29), line([13, 40], [52, 40]), line([21, 49], [27, 44], [33, 49]), line([23, 59], [23, 68]), line([42, 59], [42, 68]), line([16, 68], [49, 68]),
+      line([52, 51], [68, 51]), line([62, 45], [68, 51], [62, 57]), line([79, 27], [91, 20], [103, 27], [103, 41], [91, 48], [79, 41], [79, 27]), line([79, 60], [91, 53], [103, 60], [103, 74], [91, 81], [79, 74], [79, 60]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-agentic-web-apps", "azure", "Agentic Web Apps", ["034296882-icon-service-Agentic-Web-Apps"],
     "An agentic web app combines a web interface with an assistant.",
     [

@@ -1,6 +1,18 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-mission-landing-zone", "azure", "Mission Landing Zone", ["02793-icon-service-Mission-Landing-Zone"],
+    "A secure landing zone provides hub-and-spoke infrastructure for mission workloads.",
+    [
+      line([62, 18], [79, 24], [79, 40], [74, 48], [62, 55], [50, 48], [45, 40], [45, 24], [62, 18]), line([55, 36], [61, 42], [70, 31]),
+      line([62, 55], [62, 66]), line([30, 66], [94, 66]), line([30, 66], [30, 76]), line([62, 66], [62, 76]), line([94, 66], [94, 76]), rect(20, 76, 20, 14), rect(52, 76, 20, 14), rect(84, 76, 20, 14), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-exchange-on-premises-access", "azure", "Exchange On-Premises Access", ["10334-icon-service-Exchange-On-Premises-Access"],
+    "Clients access an on-premises Exchange server.",
+    [
+      line([16, 86], [16, 28], [47, 28], [47, 86]), line([23, 38], [29, 38]), line([35, 38], [41, 38]), line([23, 49], [29, 49]), line([35, 49], [41, 49]), line([27, 86], [27, 70], [36, 70], [36, 86]),
+      line([47, 57], [62, 57]), line([55, 50], [62, 57], [55, 64]), rect(68, 42, 40, 29), line([68, 42], [88, 57], [108, 42]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-ai-gateway", "azure", "AI Gateway", ["037838045-icon-service-AI-Gateway"],
     "A gateway governs access from applications to AI models and tools.",
     [
