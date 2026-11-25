@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1080,
-  "aliases": 3961,
+  "count": 1086,
+  "aliases": 3967,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -282,6 +282,12 @@
     "gcp-private-service-connect",
     "gcp-traffic-director",
     "gcp-virtual-private-cloud",
+    "gcp-security-key-enforcement",
+    "gcp-phishing-protection",
+    "gcp-risk-manager",
+    "gcp-policy-analyzer",
+    "gcp-permissions",
+    "gcp-iam",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1196,8 +1202,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 180,
-      "concepts": 167
+      "covered": 186,
+      "concepts": 173
     }
   },
   "nearest": {
@@ -3130,13 +3136,13 @@
       },
       {
         "a": "aws-cognito",
-        "b": "m365-person-accounts",
-        "similarity": 0.2211
+        "b": "gcp-permissions",
+        "similarity": 0.2352
       },
       {
         "a": "aws-cognito",
-        "b": "aws-cloud9",
-        "similarity": 0.2195
+        "b": "m365-person-accounts",
+        "similarity": 0.2211
       }
     ],
     "aws-guardduty": [
@@ -3555,13 +3561,13 @@
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-document-rdl",
-        "similarity": 0.217
+        "b": "gcp-policy-analyzer",
+        "similarity": 0.2211
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-report",
-        "similarity": 0.2154
+        "b": "fabric-document-rdl",
+        "similarity": 0.217
       }
     ],
     "m365-fingerprint": [
@@ -5691,6 +5697,11 @@
     ],
     "gcp-performance-dashboard": [
       {
+        "a": "gcp-performance-dashboard",
+        "b": "gcp-phishing-protection",
+        "similarity": 0.2101
+      },
+      {
         "a": "m365-calendar",
         "b": "gcp-performance-dashboard",
         "similarity": 0.2037
@@ -5699,11 +5710,6 @@
         "a": "gcp-performance-dashboard",
         "b": "azure-foundry-agent-service",
         "similarity": 0.1967
-      },
-      {
-        "a": "m365-cart",
-        "b": "gcp-performance-dashboard",
-        "similarity": 0.1927
       }
     ],
     "gcp-network-connectivity-center": [
@@ -5908,6 +5914,108 @@
         "a": "gcp-virtual-private-cloud",
         "b": "gcp-app-engine",
         "similarity": 0.2291
+      }
+    ],
+    "gcp-security-key-enforcement": [
+      {
+        "a": "gcp-security-key-enforcement",
+        "b": "azure-ai-studio",
+        "similarity": 0.221
+      },
+      {
+        "a": "azure-dns-private-resolver",
+        "b": "gcp-security-key-enforcement",
+        "similarity": 0.2188
+      },
+      {
+        "a": "gcp-security-key-enforcement",
+        "b": "gcp-translation",
+        "similarity": 0.1875
+      }
+    ],
+    "gcp-phishing-protection": [
+      {
+        "a": "gcp-phishing-protection",
+        "b": "fabric-database-table",
+        "similarity": 0.2166
+      },
+      {
+        "a": "gcp-phishing-protection",
+        "b": "fabric-kql-script",
+        "similarity": 0.2112
+      },
+      {
+        "a": "gcp-performance-dashboard",
+        "b": "gcp-phishing-protection",
+        "similarity": 0.2101
+      }
+    ],
+    "gcp-risk-manager": [
+      {
+        "a": "gcp-risk-manager",
+        "b": "aws-managed-grafana",
+        "similarity": 0.3215
+      },
+      {
+        "a": "gcp-risk-manager",
+        "b": "azure-content-moderation",
+        "similarity": 0.3087
+      },
+      {
+        "a": "gcp-risk-manager",
+        "b": "aws-cloud9",
+        "similarity": 0.3075
+      }
+    ],
+    "gcp-policy-analyzer": [
+      {
+        "a": "gcp-policy-analyzer",
+        "b": "fabric-restricted-report",
+        "similarity": 0.2254
+      },
+      {
+        "a": "m365-document-key",
+        "b": "gcp-policy-analyzer",
+        "similarity": 0.2211
+      },
+      {
+        "a": "gcp-policy-analyzer",
+        "b": "fabric-overlapping-squares-line",
+        "similarity": 0.2141
+      }
+    ],
+    "gcp-permissions": [
+      {
+        "a": "gcp-permissions",
+        "b": "aws-codewhisperer",
+        "similarity": 0.2623
+      },
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "gcp-permissions",
+        "similarity": 0.2596
+      },
+      {
+        "a": "gcp-permissions",
+        "b": "m365-lightbulb-check",
+        "similarity": 0.2545
+      }
+    ],
+    "gcp-iam": [
+      {
+        "a": "m365-contacts",
+        "b": "gcp-iam",
+        "similarity": 0.1871
+      },
+      {
+        "a": "gcp-iam",
+        "b": "aws-region-group",
+        "similarity": 0.1771
+      },
+      {
+        "a": "gcp-iam",
+        "b": "gcp-firewall-rules",
+        "similarity": 0.1735
       }
     ],
     "gcp-access-context": [
@@ -10694,17 +10802,22 @@
         "similarity": 0.3517
       },
       {
+        "a": "gcp-risk-manager",
+        "b": "azure-content-moderation",
+        "similarity": 0.3087
+      },
+      {
         "a": "azure-application-insights",
         "b": "azure-content-moderation",
         "similarity": 0.286
-      },
-      {
-        "a": "fabric-restricted-scorecard",
-        "b": "azure-content-moderation",
-        "similarity": 0.2775
       }
     ],
     "azure-personalizer": [
+      {
+        "a": "gcp-permissions",
+        "b": "azure-personalizer",
+        "similarity": 0.2168
+      },
       {
         "a": "azure-personalizer",
         "b": "aws-professional-services",
@@ -10714,11 +10827,6 @@
         "a": "aws-polly",
         "b": "azure-personalizer",
         "similarity": 0.2112
-      },
-      {
-        "a": "azure-hdinsight-clusters",
-        "b": "azure-personalizer",
-        "similarity": 0.2086
       }
     ],
     "azure-speech": [
@@ -12450,9 +12558,9 @@
         "similarity": 0.3344
       },
       {
-        "a": "azure-power-bi-embedded",
+        "a": "gcp-risk-manager",
         "b": "aws-managed-grafana",
-        "similarity": 0.3115
+        "similarity": 0.3215
       }
     ],
     "aws-managed-prometheus": [
@@ -13307,6 +13415,11 @@
     ],
     "aws-snowball": [
       {
+        "a": "gcp-risk-manager",
+        "b": "aws-snowball",
+        "similarity": 0.2859
+      },
+      {
         "a": "aws-snowball",
         "b": "m365-building-multiple",
         "similarity": 0.265
@@ -13315,11 +13428,6 @@
         "a": "azure-workbooks",
         "b": "aws-snowball",
         "similarity": 0.2593
-      },
-      {
-        "a": "gcp-cloud-monitoring",
-        "b": "aws-snowball",
-        "similarity": 0.2539
       }
     ],
     "aws-snowball-edge": [
@@ -16917,9 +17025,9 @@
         "similarity": 0.2591
       },
       {
-        "a": "azure-content-moderation",
+        "a": "gcp-risk-manager",
         "b": "azure-app-certificates",
-        "similarity": 0.2503
+        "similarity": 0.2519
       }
     ],
     "azure-app-domains": [

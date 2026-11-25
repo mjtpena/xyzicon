@@ -1853,7 +1853,7 @@
       ],
       "revision": "a1222e6851ab91475e7a4569606b2f8619cc4b75bf35afcc482ac5dc7d238a69",
       "geometrySignature": "018dc81820645ce45d3bac3cb5d230e1391a926749f2ecd9d9d7eee4dd98c0b6",
-      "comparisonRevision": "fab1bb5243cc93b2e70fecc1151dbf6cb05e894180bd723b2886ca743ba6fd12",
+      "comparisonRevision": "3f8baf2ded8b7acd4639725b645207751cde08e646ee286799718548d76dda28",
       "review": "pending",
       "notes": ""
     },
@@ -2303,7 +2303,7 @@
       ],
       "revision": "c208cc54f142e0761fb8c4ad9f6fd1f5aef9a6c207f1acc0ea54f3bebdd8662d",
       "geometrySignature": "03c0fe5da602d58a27724166cf71dd165351d2657a5ef45bd64c965e8040e2ff",
-      "comparisonRevision": "39ae9ac6f7dd940e18c17c92151179d0dea48c2d0e6c5d232cadf3eac6678f83",
+      "comparisonRevision": "c2cdf91cbfa201339b00ac4ceef2eaefd775c31fcd7d7374bd95abfdc5e6f530",
       "review": "pending",
       "notes": ""
     },
@@ -4443,7 +4443,7 @@
       ],
       "revision": "5a7cfd4455f756b1b79c16f7133d15700e6f2fe6178118cf79b5ae37bea07f51",
       "geometrySignature": "fbc546322a71edb16974ffdeffd299dd6ddf1a6de8c7d5013fb6ea490c922819",
-      "comparisonRevision": "a924dc08961c273de8e5fe45c19f2e994d09225e185bf13f8da7a39a72b661ba",
+      "comparisonRevision": "4a207aaeed144a925a6a9b6635e520722825ed1f697e1ddd93bae539d431def2",
       "review": "pending",
       "notes": ""
     },
@@ -4624,6 +4624,96 @@
       "revision": "4c3066239cfa07b89488f0ea4cf63804d635b27bec87fcfefd5c8e2ec9709ed2",
       "geometrySignature": "d891c8533a70d840ffd03e1f24b65a09f8dd013cf59e7d328b438236e4030cc8",
       "comparisonRevision": "9c8630c8e3e7a3f73089f447a95f209fb8bd729762f92b632f8c9844d01ec573",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-security-key-enforcement",
+      "provider": "gcp",
+      "name": "Security Key Enforcement",
+      "rationale": "A checked physical security key is required for access.",
+      "path": "stencils/gcp-security-key-enforcement.svg",
+      "sources": [
+        "/icons/gcp/security_key_enforcement/security_key_enforcement.svg"
+      ],
+      "revision": "fd372ba5a9c6ddab2e7d470750239f58dcf7b0b62953e2f2c45414c9f8f2973e",
+      "geometrySignature": "cff42e8c1ab95e2b06d49a7ff2f0f926254f807df2fcc5ed1702140976add8a4",
+      "comparisonRevision": "82d760ac55c6791f5bfbe366b141e1e287565c3c0bafddcb9fb9e9c8c10bbea5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-phishing-protection",
+      "provider": "gcp",
+      "name": "Phishing Protection",
+      "rationale": "A protective shield blocks a hook aimed at an email.",
+      "path": "stencils/gcp-phishing-protection.svg",
+      "sources": [
+        "/icons/gcp/phishing_protection/phishing_protection.svg"
+      ],
+      "revision": "13cef636ec6519ed1a31c0a1c0bc783b59f1a9e7e34858a3be2760d7474fb87e",
+      "geometrySignature": "a12796ea49f4ff829c8ae057a3456e98e26dc00c5a3e47c2c535a84c23bbef8b",
+      "comparisonRevision": "e2fc01cc10d5366bc27d64540622caf2172e721fde49453b4d3a22fb961a470e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-risk-manager",
+      "provider": "gcp",
+      "name": "Risk Manager",
+      "rationale": "A risk dashboard combines a warning and an assessment trend.",
+      "path": "stencils/gcp-risk-manager.svg",
+      "sources": [
+        "/icons/gcp/risk_manager/risk_manager.svg"
+      ],
+      "revision": "8d324fa8b94770522c1d99a1b6134624ffc9abfa606c90e1fd1e37e8101f119b",
+      "geometrySignature": "1ac63d73929ddd6347c9cb15621e46fcfc2574993a26c6ea27f201bc80b817bc",
+      "comparisonRevision": "6edd56de5414431aed0414219e2ef25221d90b7b302513bd86add5256e9ca04c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-policy-analyzer",
+      "provider": "gcp",
+      "name": "Policy Analyzer",
+      "rationale": "A lens inspects access policy rules.",
+      "path": "stencils/gcp-policy-analyzer.svg",
+      "sources": [
+        "/icons/gcp/policy_analyzer/policy_analyzer.svg"
+      ],
+      "revision": "191c76520e15d73624cbe532932119f93071045cbe91e778a4e974fcb4310afc",
+      "geometrySignature": "224929b61fbc11e70dc6685cba084c79d1b9ae9da6a99a97bed69ab66b2f094a",
+      "comparisonRevision": "3a96ac95c8dac5bdfe415764d5de6d2620ec9622fe4ac8a93e4fedb8cf36a92c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-permissions",
+      "provider": "gcp",
+      "name": "Permissions",
+      "rationale": "A person is assigned a checklist of permissions.",
+      "path": "stencils/gcp-permissions.svg",
+      "sources": [
+        "/icons/gcp/permissions/permissions.svg"
+      ],
+      "revision": "cb872408404f15699b232f5b2450826f7cc9f8126b4b86a29da38a04eb0a0b31",
+      "geometrySignature": "23d6f0c7c4f7831f6e88b6627202986ea2045b90a259f0235faf2ea31c145bf8",
+      "comparisonRevision": "7486ba59915579b7d8c1231d4359b77b1c34228fe54cba218197695b98d6dbda",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "gcp-iam",
+      "provider": "gcp",
+      "name": "Identity and Access Management",
+      "rationale": "A shield protects an identity and its access key.",
+      "path": "stencils/gcp-iam.svg",
+      "sources": [
+        "/icons/gcp/identity_and_access_management/identity_and_access_management.svg"
+      ],
+      "revision": "3664be85b8b7b6151c2eaa98e90dd9a84d48bc886975b3f3e547b0456a5f091a",
+      "geometrySignature": "d5bfc2979b459e2ae971e116509c5767e1f3220dd70e2da17b082e0b947cec8e",
+      "comparisonRevision": "41ad0412bf2918134d4f14cb24cc41cb66fa6c923bf601618280ad1b2d192ff7",
       "review": "pending",
       "notes": ""
     },
@@ -9687,7 +9777,7 @@
       ],
       "revision": "82d571b3e4560c38616a0f5061503c6c18bd89a0fbf2e8a4aaa8e389f24eea63",
       "geometrySignature": "86ec2e6339efa20ad8fad4192d2e8d513c08ceb79251ce68496eab519c016373",
-      "comparisonRevision": "ee6a630a554cc9081fa6e56baa2c27363b80f13cd307e6363b68c618c3bf496e",
+      "comparisonRevision": "c638a37f7a4584d2f73e1e41249ce7ca36ba5afde0e7f927af564ad607ce6bd7",
       "review": "pending",
       "notes": ""
     },
@@ -9702,7 +9792,7 @@
       ],
       "revision": "299061ff6c61200463b22b9465e7329c30f708bc1410f35fed004cea91935656",
       "geometrySignature": "66c0709a5c134c608198eebbeda0a90777c433d32ef22f7459b9d3c886f5c3d2",
-      "comparisonRevision": "8a61c5acf46d3013366b72b557b7614bb9e85928e2b1e6874029083ff4d7610a",
+      "comparisonRevision": "27869f4d6b0efdf5390b734d1d865352ef14bf82cc71d2f824eba53427424ada",
       "review": "pending",
       "notes": ""
     },
@@ -11663,7 +11753,7 @@
       ],
       "revision": "b1046ff0ae1ee780bce731e67fe37c655917d6f39dcbbe28b06ad4585622e900",
       "geometrySignature": "45fd7ddcd82b7b4e487155de515b8562f5b94d4118fe8499e73b11adf9d99a55",
-      "comparisonRevision": "5f14ec38d6c73e61029ce4b494e0ec92ce553c23dd720c87c10616180b63d8cb",
+      "comparisonRevision": "52573b09bf433b5f4ef61b5248066e52690087043046405574930a52aa4ba408",
       "review": "pending",
       "notes": ""
     },
@@ -12581,7 +12671,7 @@
       ],
       "revision": "fb455c4122a50bd2efaa588ce1b3e7dcc744512cbe0c7f53f80aa2009473befa",
       "geometrySignature": "afa6fe73668944abf5dd24e43d97db617f97aec1c1a878280619e2173fbf3387",
-      "comparisonRevision": "9ea7b00164c3faf33f860449a28717001fc7bb6877fce42fe716d04feb201acd",
+      "comparisonRevision": "9fd38f40a1a80f9a8d7fee349bccec7f009c1cf77a5c81381f3ed03d6eaaae61",
       "review": "pending",
       "notes": ""
     },
@@ -16270,7 +16360,7 @@
       ],
       "revision": "8aa150ca5d32adabdb92c3e991c460395bd7b03a4131fdad44b74ec329cd1dc1",
       "geometrySignature": "0a17680e08fc362118f2cc5991601e83eaa75b3ab101565f30ec434a07def5db",
-      "comparisonRevision": "51ad1433a2e1e58c83e3a061ab4cfbe5a1492dd0ac367ab03f866ee2b85022f3",
+      "comparisonRevision": "80089b67a206290b09cd504c6f34a9086e7b8eabc2b5425be6dbeb2b270e6c33",
       "review": "pending",
       "notes": ""
     },
