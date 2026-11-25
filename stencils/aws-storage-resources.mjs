@@ -1,6 +1,58 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-s3-general-access-point", "aws", "S3 General Access Point", ["Res_Amazon-Simple-Storage-Service_General-Access-Points_48"],
+    "An access point provides a route into object storage.",
+    [
+      oval(49, 18, 35, 11), line([49, 23], [52, 48], [57, 51], [76, 51], [81, 48], [84, 23]), rect(61, 31, 10, 10),
+      line([66, 51], [66, 70], [26, 70], [26, 80]), line([66, 70], [104, 70], [104, 80]), oval(20, 80, 12, 12), oval(60, 80, 12, 12), oval(98, 80, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-multiregion-access", "aws", "S3 Multi-Region Access Points", ["Res_Amazon-Simple-Storage-Service_S3-Multi-Region-Access-Points_48"],
+    "One access point routes object requests across regions.",
+    [
+      oval(41, 15, 47, 47), line([64, 15], [55, 24], [52, 38], [55, 53], [64, 62]), line([64, 15], [73, 24], [76, 38], [73, 53], [64, 62]), line([43, 38], [86, 38]),
+      line([64, 62], [64, 72], [24, 72], [24, 80]), line([64, 72], [104, 72], [104, 80]), oval(18, 80, 12, 12), oval(58, 80, 12, 12), oval(98, 80, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-vpc-access", "aws", "S3 VPC Access Point", ["Res_Amazon-Simple-Storage-Service_VPC-Access-Points_48"],
+    "A private network controls access to object storage.",
+    [
+      line([64, 13], [103, 27], [97, 70], [84, 85], [64, 98], [44, 85], [31, 70], [25, 27], [64, 13]),
+      oval(46, 34, 36, 11), line([46, 39], [49, 63], [54, 67], [74, 67], [79, 63], [82, 39]), line([54, 50], [74, 50]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-object-lambda", "aws", "S3 Object Lambda", ["Res_Amazon-Simple-Storage-Service_S3-Object-Lambda_48"],
+    "A function transforms an object as it is retrieved.",
+    [
+      oval(15, 28, 52, 15), line([15, 35], [20, 77], [26, 82], [56, 82], [62, 77], [67, 35]), rect(32, 48, 16, 16),
+      line([68, 54], [80, 54]), line([75, 49], [80, 54], [75, 59]), line([87, 30], [96, 30], [108, 78]), line([101, 51], [89, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-object-lambda-access", "aws", "S3 Object Lambda Access Points", ["Res_Amazon-Simple-Storage-Service_S3-Object-Lambda-Access-Points_48"],
+    "An access point invokes a function to transform requested objects.",
+    [
+      line([37, 32], [64, 16], [91, 32], [91, 63], [64, 79], [37, 63], [37, 32]),
+      line([53, 32], [61, 32], [74, 62]), line([67, 45], [53, 62]),
+      line([37, 49], [24, 49]), oval(12, 43, 12, 12), line([91, 49], [104, 49]), oval(104, 43, 12, 12), line([64, 79], [64, 89]), oval(58, 89, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-object-lock", "aws", "S3 Object Lock", ["Res_Amazon-Simple-Storage-Service_S3-Object-Lock_48"],
+    "A lock prevents modification of stored objects.",
+    [
+      oval(19, 20, 73, 19), line([19, 29], [26, 82], [33, 88], [78, 88], [85, 82], [92, 29]),
+      rect(43, 52, 30, 25), line([49, 52], [49, 45], [52, 39], [58, 37], [64, 39], [67, 45], [67, 52]), oval(55, 59, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-replication", "aws", "S3 Replication", ["Res_Amazon-Simple-Storage-Service_S3-Replication_48"],
+    "An object is copied from one bucket into another.",
+    [
+      oval(12, 28, 39, 12), line([12, 34], [16, 71], [21, 75], [42, 75], [47, 71], [51, 34]), rect(25, 46, 12, 12),
+      line([52, 53], [76, 53]), line([70, 47], [76, 53], [70, 59]),
+      oval(78, 28, 39, 12), line([78, 34], [82, 71], [87, 75], [108, 75], [113, 71], [117, 34]), rect(91, 46, 12, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-s3-replication-time", "aws", "S3 Replication Time Control", ["Res_Amazon-Simple-Storage-Service_S3-Replication-Time-Control_48"],
+    "A clock bounds the time allowed for object replication.",
+    [
+      oval(10, 42, 36, 11), line([10, 47], [14, 77], [18, 81], [38, 81], [42, 77], [46, 47]),
+      oval(82, 42, 36, 11), line([82, 47], [86, 77], [90, 81], [110, 81], [114, 77], [118, 47]),
+      line([47, 63], [81, 63]), line([75, 57], [81, 63], [75, 69]),
+      oval(51, 17, 27, 27), line([64, 22], [64, 30], [71, 34]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-s3-express-one-zone", "aws", "S3 Express One Zone", ["Res_Amazon-Simple-Storage-Service_S3-Express-One-Zone_48"],
     "A fast object bucket sits in one availability zone.",
     [

@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1880,
-  "aliases": 5046,
+  "count": 1888,
+  "aliases": 5054,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -966,6 +966,14 @@
     "aws-iot-thing-factory",
     "aws-iot-thing-house",
     "aws-iot-thing-lightbulb",
+    "aws-s3-general-access-point",
+    "aws-s3-multiregion-access",
+    "aws-s3-vpc-access",
+    "aws-s3-object-lambda",
+    "aws-s3-object-lambda-access",
+    "aws-s3-object-lock",
+    "aws-s3-replication",
+    "aws-s3-replication-time",
     "aws-s3-express-one-zone",
     "aws-s3-glacier-deep-archive",
     "aws-s3-glacier-flexible-retrieval",
@@ -2180,8 +2188,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1663,
-      "concepts": 618
+      "covered": 1671,
+      "concepts": 626
     },
     "gcp": {
       "sources": 261,
@@ -2475,7 +2483,7 @@
       },
       {
         "a": "dynamics-field-service",
-        "b": "fabric-bucket",
+        "b": "aws-s3-vpc-access",
         "similarity": 0.13
       }
     ],
@@ -5785,13 +5793,13 @@
       },
       {
         "a": "azure-relays",
-        "b": "azure-api-proxy",
-        "similarity": 0.2346
+        "b": "aws-s3-replication-time",
+        "similarity": 0.2523
       },
       {
         "a": "azure-relays",
-        "b": "aws-iot-http2",
-        "similarity": 0.2323
+        "b": "azure-api-proxy",
+        "similarity": 0.2346
       }
     ],
     "azure-api-fhir": [
@@ -12048,13 +12056,13 @@
       },
       {
         "a": "azure-storage-sync",
-        "b": "m365-share-screen-overlay",
-        "similarity": 0.2824
+        "b": "aws-s3-replication",
+        "similarity": 0.2847
       },
       {
         "a": "azure-storage-sync",
-        "b": "azure-entra-connect",
-        "similarity": 0.2741
+        "b": "m365-share-screen-overlay",
+        "similarity": 0.2824
       }
     ],
     "azure-storage-explorer": [
@@ -13471,6 +13479,11 @@
     "fabric-shared-semantic": [
       {
         "a": "fabric-shared-semantic",
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.1823
+      },
+      {
+        "a": "fabric-shared-semantic",
         "b": "azure-custom-identity-roles",
         "similarity": 0.1754
       },
@@ -13478,11 +13491,6 @@
         "a": "fabric-shared-semantic",
         "b": "aws-iot-sailboat",
         "similarity": 0.1669
-      },
-      {
-        "a": "m365-payment",
-        "b": "fabric-shared-semantic",
-        "similarity": 0.1569
       }
     ],
     "fabric-spark-job": [
@@ -13917,14 +13925,14 @@
         "similarity": 0.2306
       },
       {
+        "a": "m365-ribbon",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.2093
+      },
+      {
         "a": "azure-local",
         "b": "m365-ribbon",
         "similarity": 0.1617
-      },
-      {
-        "a": "azure-arc-kubernetes",
-        "b": "m365-ribbon",
-        "similarity": 0.1541
       }
     ],
     "m365-settings": [
@@ -14065,6 +14073,11 @@
     ],
     "m365-person": [
       {
+        "a": "m365-person",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.2575
+      },
+      {
         "a": "m365-ribbon",
         "b": "m365-person",
         "similarity": 0.2306
@@ -14073,11 +14086,6 @@
         "a": "aws-eventbridge-schema",
         "b": "m365-person",
         "similarity": 0.2256
-      },
-      {
-        "a": "m365-person",
-        "b": "fabric-document-ssis",
-        "similarity": 0.2254
       }
     ],
     "m365-phone-desktop": [
@@ -15725,8 +15733,8 @@
       },
       {
         "a": "azure-custom-identity-roles",
-        "b": "aws-iot-thing-relay",
-        "similarity": 0.2213
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.242
       }
     ],
     "azure-identity-licenses": [
@@ -18180,6 +18188,11 @@
     "aws-iot-sailboat": [
       {
         "a": "aws-iot-sailboat",
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.3077
+      },
+      {
+        "a": "aws-iot-sailboat",
         "b": "aws-s3-glacier-deep-archive",
         "similarity": 0.2618
       },
@@ -18187,11 +18200,6 @@
         "a": "aws-iot-sailboat",
         "b": "aws-glacier-vault",
         "similarity": 0.2583
-      },
-      {
-        "a": "aws-iot-sailboat",
-        "b": "aws-general-recover",
-        "similarity": 0.2559
       }
     ],
     "aws-iot-sensor": [
@@ -18439,14 +18447,14 @@
         "similarity": 0.3187
       },
       {
+        "a": "aws-iot-thing-car",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.2814
+      },
+      {
         "a": "azure-system-topic",
         "b": "aws-iot-thing-car",
         "similarity": 0.2751
-      },
-      {
-        "a": "aws-iot-thing-car",
-        "b": "aws-gateway-fsx-file",
-        "similarity": 0.2598
       }
     ],
     "aws-iot-thing-cart": [
@@ -18549,6 +18557,142 @@
         "a": "aws-iot-thing-lightbulb",
         "b": "aws-backup-cloudformation",
         "similarity": 0.2191
+      }
+    ],
+    "aws-s3-general-access-point": [
+      {
+        "a": "aws-s3-general-access-point",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.3571
+      },
+      {
+        "a": "aws-iot-sailboat",
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.3077
+      },
+      {
+        "a": "azure-custom-identity-roles",
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.242
+      }
+    ],
+    "aws-s3-multiregion-access": [
+      {
+        "a": "aws-s3-general-access-point",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.3571
+      },
+      {
+        "a": "azure-integration-accounts",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.292
+      },
+      {
+        "a": "aws-iot-thing-car",
+        "b": "aws-s3-multiregion-access",
+        "similarity": 0.2814
+      }
+    ],
+    "aws-s3-vpc-access": [
+      {
+        "a": "aws-s3-vpc-access",
+        "b": "aws-s3-object",
+        "similarity": 0.2376
+      },
+      {
+        "a": "aws-s3-vpc-access",
+        "b": "aws-backup-restore-resource",
+        "similarity": 0.2246
+      },
+      {
+        "a": "aws-s3-vpc-access",
+        "b": "aws-snowball-import-export",
+        "similarity": 0.2203
+      }
+    ],
+    "aws-s3-object-lambda": [
+      {
+        "a": "aws-s3-object-lambda",
+        "b": "azure-globe-error",
+        "similarity": 0.2592
+      },
+      {
+        "a": "aws-s3-object-lambda",
+        "b": "aws-gateway-file",
+        "similarity": 0.2519
+      },
+      {
+        "a": "aws-s3-object-lambda",
+        "b": "aws-s3-express-one-zone",
+        "similarity": 0.2373
+      }
+    ],
+    "aws-s3-object-lambda-access": [
+      {
+        "a": "aws-s3-object-lambda-access",
+        "b": "aws-backup-database-resource",
+        "similarity": 0.2358
+      },
+      {
+        "a": "aws-greengrass-component",
+        "b": "aws-s3-object-lambda-access",
+        "similarity": 0.1974
+      },
+      {
+        "a": "aws-s3-object-lambda-access",
+        "b": "azure-module",
+        "similarity": 0.1973
+      }
+    ],
+    "aws-s3-object-lock": [
+      {
+        "a": "aws-s3-object-lock",
+        "b": "aws-general-logs",
+        "similarity": 0.3147
+      },
+      {
+        "a": "aws-s3-object-lock",
+        "b": "aws-backup-vault-lock",
+        "similarity": 0.2812
+      },
+      {
+        "a": "aws-s3-object-lock",
+        "b": "aws-s3-directory-bucket",
+        "similarity": 0.2765
+      }
+    ],
+    "aws-s3-replication": [
+      {
+        "a": "aws-s3-replication",
+        "b": "aws-file-cache-s3",
+        "similarity": 0.2954
+      },
+      {
+        "a": "azure-storage-sync",
+        "b": "aws-s3-replication",
+        "similarity": 0.2847
+      },
+      {
+        "a": "aws-s3-replication",
+        "b": "aws-backup-vmware",
+        "similarity": 0.2559
+      }
+    ],
+    "aws-s3-replication-time": [
+      {
+        "a": "azure-relays",
+        "b": "aws-s3-replication-time",
+        "similarity": 0.2523
+      },
+      {
+        "a": "aws-redshift-query-editor",
+        "b": "aws-s3-replication-time",
+        "similarity": 0.2437
+      },
+      {
+        "a": "aws-s3-replication-time",
+        "b": "aws-backup-gateway-resource",
+        "similarity": 0.2281
       }
     ],
     "aws-s3-express-one-zone": [
@@ -21307,6 +21451,11 @@
     ],
     "aws-general-logs": [
       {
+        "a": "aws-s3-object-lock",
+        "b": "aws-general-logs",
+        "similarity": 0.3147
+      },
+      {
         "a": "aws-general-logs",
         "b": "fabric-squares-diagram",
         "similarity": 0.2649
@@ -21315,11 +21464,6 @@
         "a": "aws-general-logs",
         "b": "azure-website-staging",
         "similarity": 0.2613
-      },
-      {
-        "a": "aws-general-logs",
-        "b": "azure-file",
-        "similarity": 0.2527
       }
     ],
     "aws-general-magnifying-glass": [
@@ -22701,6 +22845,11 @@
     ],
     "aws-kms": [
       {
+        "a": "aws-s3-multiregion-access",
+        "b": "aws-kms",
+        "similarity": 0.1583
+      },
+      {
         "a": "aws-elastic-beanstalk",
         "b": "aws-kms",
         "similarity": 0.1532
@@ -22709,11 +22858,6 @@
         "a": "m365-ribbon",
         "b": "aws-kms",
         "similarity": 0.1514
-      },
-      {
-        "a": "azure-scheduler-job-collections",
-        "b": "aws-kms",
-        "similarity": 0.1503
       }
     ],
     "aws-cloudhsm": [
@@ -27122,14 +27266,14 @@
         "similarity": 0.26
       },
       {
+        "a": "aws-s3-object-lock",
+        "b": "azure-production-ready-database",
+        "similarity": 0.259
+      },
+      {
         "a": "azure-managed-file-shares",
         "b": "azure-production-ready-database",
         "similarity": 0.2548
-      },
-      {
-        "a": "aws-general-multimedia",
-        "b": "azure-production-ready-database",
-        "similarity": 0.2543
       }
     ],
     "azure-resource-group-list": [
@@ -27603,9 +27747,9 @@
         "similarity": 0.2799
       },
       {
-        "a": "azure-stack-hci-premium",
+        "a": "aws-s3-multiregion-access",
         "b": "azure-globe-warning",
-        "similarity": 0.2565
+        "similarity": 0.2576
       }
     ],
     "azure-guide": [
