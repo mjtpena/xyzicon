@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1283,
-  "aliases": 4226,
+  "count": 1288,
+  "aliases": 4236,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1169,6 +1169,11 @@
     "fabric-list-sql",
     "fabric-sql-lock",
     "fabric-person-warning",
+    "fabric-person-wrench",
+    "fabric-phone-data-bars",
+    "fabric-pipeline-note",
+    "fabric-receipt-sparkle",
+    "fabric-receipt-sparkle-new",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1397,8 +1402,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1389,
-      "concepts": 285
+      "covered": 1399,
+      "concepts": 290
     },
     "entra": {
       "sources": 14,
@@ -1615,8 +1620,8 @@
       },
       {
         "a": "entra-id",
-        "b": "fabric-border-inside-all",
-        "similarity": 0.2216
+        "b": "fabric-phone-data-bars",
+        "similarity": 0.2224
       }
     ],
     "entra-verified-id": [
@@ -9782,6 +9787,11 @@
     "aws-emr-engine": [
       {
         "a": "aws-emr-engine",
+        "b": "fabric-phone-data-bars",
+        "similarity": 0.2144
+      },
+      {
+        "a": "aws-emr-engine",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.209
       },
@@ -9789,11 +9799,6 @@
         "a": "aws-emr-engine",
         "b": "fabric-documents-question",
         "similarity": 0.2041
-      },
-      {
-        "a": "aws-elasticache",
-        "b": "aws-emr-engine",
-        "similarity": 0.199
       }
     ],
     "aws-emr-hdfs-cluster": [
@@ -10156,6 +10161,11 @@
     "aws-datazone-projects": [
       {
         "a": "aws-datazone-projects",
+        "b": "fabric-pipeline-note",
+        "similarity": 0.2425
+      },
+      {
+        "a": "aws-datazone-projects",
         "b": "m365-folder-people",
         "similarity": 0.239
       },
@@ -10163,11 +10173,6 @@
         "a": "aws-datazone-projects",
         "b": "fabric-calendar-toolbox",
         "similarity": 0.2386
-      },
-      {
-        "a": "aws-datazone-projects",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2297
       }
     ],
     "aws-glue-crawler": [
@@ -11141,6 +11146,11 @@
     ],
     "m365-document-multiple": [
       {
+        "a": "m365-document-multiple",
+        "b": "fabric-pipeline-note",
+        "similarity": 0.2834
+      },
+      {
         "a": "gcp-cloud-tpu",
         "b": "m365-document-multiple",
         "similarity": 0.2793
@@ -11149,11 +11159,6 @@
         "a": "gcp-financial-marketplace",
         "b": "m365-document-multiple",
         "similarity": 0.2572
-      },
-      {
-        "a": "m365-document-multiple",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2559
       }
     ],
     "m365-document-lock": [
@@ -11906,6 +11911,11 @@
     ],
     "aws-sagemaker-model": [
       {
+        "a": "aws-sagemaker-model",
+        "b": "fabric-phone-data-bars",
+        "similarity": 0.238
+      },
+      {
         "a": "m365-radar",
         "b": "aws-sagemaker-model",
         "similarity": 0.2311
@@ -11914,11 +11924,6 @@
         "a": "aws-sagemaker-model",
         "b": "aws-ecs-container",
         "similarity": 0.2207
-      },
-      {
-        "a": "aws-sagemaker-model",
-        "b": "aws-ec2-auto-scaling",
-        "similarity": 0.2164
       }
     ],
     "aws-sagemaker-notebook": [
@@ -13192,8 +13197,8 @@
       },
       {
         "a": "aws-cloud9-resource",
-        "b": "fabric-database-badge-asterisk",
-        "similarity": 0.2482
+        "b": "fabric-pipeline-note",
+        "similarity": 0.257
       }
     ],
     "aws-amplify-studio": [
@@ -13599,9 +13604,9 @@
         "similarity": 0.1713
       },
       {
-        "a": "gcp-agent-assist",
-        "b": "aws-location-place",
-        "similarity": 0.163
+        "a": "aws-location-place",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.1699
       }
     ],
     "aws-location-routes": [
@@ -20442,13 +20447,13 @@
       },
       {
         "a": "fabric-document-people",
-        "b": "fabric-notebook-globe",
-        "similarity": 0.245
+        "b": "fabric-phone-data-bars",
+        "similarity": 0.2621
       },
       {
-        "a": "aws-ecr",
-        "b": "fabric-document-people",
-        "similarity": 0.2415
+        "a": "fabric-document-people",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.245
       }
     ],
     "fabric-document-shapes": [
@@ -20521,6 +20526,11 @@
     ],
     "fabric-documents-question": [
       {
+        "a": "fabric-documents-question",
+        "b": "fabric-phone-data-bars",
+        "similarity": 0.3289
+      },
+      {
         "a": "aws-elasticache",
         "b": "fabric-documents-question",
         "similarity": 0.2839
@@ -20529,11 +20539,6 @@
         "a": "aws-ecr",
         "b": "fabric-documents-question",
         "similarity": 0.283
-      },
-      {
-        "a": "fabric-document-people",
-        "b": "fabric-documents-question",
-        "similarity": 0.2643
       }
     ],
     "fabric-document-sparkles": [
@@ -20623,6 +20628,11 @@
     ],
     "fabric-diagram-branch-link": [
       {
+        "a": "fabric-diagram-branch-link",
+        "b": "fabric-person-wrench",
+        "similarity": 0.3105
+      },
+      {
         "a": "azure-nat",
         "b": "fabric-diagram-branch-link",
         "similarity": 0.2743
@@ -20631,11 +20641,6 @@
         "a": "aws-athena-connectors",
         "b": "fabric-diagram-branch-link",
         "similarity": 0.2485
-      },
-      {
-        "a": "gcp-user-preferences",
-        "b": "fabric-diagram-branch-link",
-        "similarity": 0.2437
       }
     ],
     "fabric-diagram-arrows": [
@@ -20752,9 +20757,9 @@
         "similarity": 0.2612
       },
       {
-        "a": "gcp-api-gateway",
-        "b": "fabric-shapes-forward-arrow",
-        "similarity": 0.2543
+        "a": "fabric-shapes-forward-arrow",
+        "b": "fabric-person-wrench",
+        "similarity": 0.2557
       }
     ],
     "fabric-equal": [
@@ -20786,9 +20791,9 @@
         "similarity": 0.2072
       },
       {
-        "a": "aws-location-place",
-        "b": "fabric-not-equal-circle",
-        "similarity": 0.1868
+        "a": "fabric-not-equal-circle",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.188
       }
     ],
     "fabric-funnel": [
@@ -20871,9 +20876,9 @@
         "similarity": 0.2673
       },
       {
-        "a": "gcp-transfer",
-        "b": "fabric-endpoint",
-        "similarity": 0.2518
+        "a": "fabric-endpoint",
+        "b": "fabric-person-wrench",
+        "similarity": 0.2611
       }
     ],
     "fabric-folder-data-bars": [
@@ -21251,6 +21256,11 @@
     ],
     "fabric-person-warning": [
       {
+        "a": "fabric-person-warning",
+        "b": "fabric-person-wrench",
+        "similarity": 0.3846
+      },
+      {
         "a": "gcp-connectors",
         "b": "fabric-person-warning",
         "similarity": 0.2143
@@ -21259,11 +21269,91 @@
         "a": "azure-container-instances",
         "b": "fabric-person-warning",
         "similarity": 0.2019
+      }
+    ],
+    "fabric-person-wrench": [
+      {
+        "a": "fabric-person-warning",
+        "b": "fabric-person-wrench",
+        "similarity": 0.3846
       },
       {
-        "a": "fabric-match-category",
-        "b": "fabric-person-warning",
-        "similarity": 0.2003
+        "a": "fabric-diagram-branch-link",
+        "b": "fabric-person-wrench",
+        "similarity": 0.3105
+      },
+      {
+        "a": "fabric-endpoint",
+        "b": "fabric-person-wrench",
+        "similarity": 0.2611
+      }
+    ],
+    "fabric-phone-data-bars": [
+      {
+        "a": "fabric-documents-question",
+        "b": "fabric-phone-data-bars",
+        "similarity": 0.3289
+      },
+      {
+        "a": "fabric-phone-data-bars",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2944
+      },
+      {
+        "a": "fabric-phone-data-bars",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.2667
+      }
+    ],
+    "fabric-pipeline-note": [
+      {
+        "a": "m365-document-multiple",
+        "b": "fabric-pipeline-note",
+        "similarity": 0.2834
+      },
+      {
+        "a": "aws-cloud9-resource",
+        "b": "fabric-pipeline-note",
+        "similarity": 0.257
+      },
+      {
+        "a": "aws-datazone-projects",
+        "b": "fabric-pipeline-note",
+        "similarity": 0.2425
+      }
+    ],
+    "fabric-receipt-sparkle": [
+      {
+        "a": "fabric-notebook-globe",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.2163
+      },
+      {
+        "a": "fabric-report",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.201
+      },
+      {
+        "a": "azure-content-moderation",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.1974
+      }
+    ],
+    "fabric-receipt-sparkle-new": [
+      {
+        "a": "aws-cloudtrail",
+        "b": "fabric-receipt-sparkle-new",
+        "similarity": 0.2431
+      },
+      {
+        "a": "fabric-notebook",
+        "b": "fabric-receipt-sparkle-new",
+        "similarity": 0.2359
+      },
+      {
+        "a": "fabric-document-shapes",
+        "b": "fabric-receipt-sparkle-new",
+        "similarity": 0.2158
       }
     ],
     "fabric-database-add": [
@@ -22661,9 +22751,9 @@
         "similarity": 0.2875
       },
       {
-        "a": "fabric-border-inside-horizontal",
+        "a": "fabric-phone-data-bars",
         "b": "fabric-border-inside-vertical",
-        "similarity": 0.25
+        "similarity": 0.2667
       }
     ],
     "fabric-border-none-eye": [
@@ -22673,14 +22763,14 @@
         "similarity": 0.2587
       },
       {
+        "a": "fabric-person-wrench",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2278
+      },
+      {
         "a": "fabric-endpoint",
         "b": "fabric-border-none-eye",
         "similarity": 0.2217
-      },
-      {
-        "a": "fabric-shapes-curved-arrow",
-        "b": "fabric-border-none-eye",
-        "similarity": 0.2176
       }
     ],
     "fabric-calculator-brackets": [
