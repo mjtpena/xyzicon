@@ -1,8 +1,82 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
+const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-general-alert", "aws", "Alert", themes("Alert"),
+    "An exclamation mark warns of an alert.",
+    [
+      line([62, 16], [109, 91], [15, 91], [62, 16]), line([62, 41], [62, 65]), oval(58, 73, 8, 8, true), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-general-camera", "aws", "Camera", themes("Camera"),
+    "A camera captures a picture.",
+    [
+      line([18, 38], [35, 38], [41, 27], [78, 27], [84, 38], [105, 38], [105, 89], [18, 89], [18, 38]),
+      oval(42, 44, 37, 37), oval(50, 52, 21, 21), rect(25, 45, 9, 6), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-general-chat", "aws", "Chat", themes("Chat"),
+    "Two speech bubbles show a conversation.",
+    [
+      line([12, 24], [78, 24], [78, 60], [50, 60], [37, 71], [37, 60], [12, 60], [12, 24]),
+      oval(23, 38, 6, 6, true), oval(40, 38, 6, 6, true), oval(57, 38, 6, 6, true),
+      line([78, 46], [106, 46], [106, 81], [93, 81], [93, 92], [81, 81], [58, 81], [58, 68]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-general-data-stream", "aws", "Data Stream", themes("Data-Stream"),
+    "Data points travel along a flowing stream.",
+    [
+      line([14, 56], [25, 45], [37, 45], [50, 56], [63, 67], [76, 67], [89, 56], [102, 45]),
+      line([14, 75], [25, 64], [37, 64], [50, 75], [63, 86], [76, 86], [89, 75], [102, 64]),
+      oval(25, 28, 10, 10), rect(59, 37, 10, 10), line([87, 28], [93, 22], [99, 28], [93, 34], [87, 28]),
+      line([96, 59], [102, 64], [103, 56]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-general-database", "aws", "Database", themes("Database"),
+    "A database cylinder stores records.",
+    [
+      oval(27, 21, 68, 23), line([27, 32], [27, 83], [34, 91], [48, 95], [74, 95], [88, 91], [95, 83], [95, 32]),
+      line([27, 54], [34, 61], [48, 65], [74, 65], [88, 61], [95, 54]), line([27, 73], [34, 80], [48, 84], [74, 84], [88, 80], [95, 73]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-disk", "aws", "Disk", themes("Disk"),
+    "A circular disk has a central hub and read arm.",
+    [
+      oval(20, 17, 81, 81), oval(48, 45, 25, 25), oval(56, 53, 9, 9, true), line([95, 83], [70, 62]), oval(65, 57, 9, 9), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-document", "aws", "Document", themes("Document"),
+    "A single page contains written lines.",
+    [
+      line([28, 16], [76, 16], [94, 34], [94, 96], [28, 96], [28, 16]), line([76, 16], [76, 34], [94, 34]),
+      line([39, 48], [82, 48]), line([39, 59], [82, 59]), line([39, 70], [82, 70]), line([39, 81], [68, 81]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-documents", "aws", "Documents", themes("Documents"),
+    "A stack contains several written pages.",
+    [
+      line([39, 28], [39, 15], [88, 15], [102, 29], [102, 85]), line([31, 37], [31, 23], [80, 23], [94, 37], [94, 93]),
+      line([23, 32], [72, 32], [86, 46], [86, 100], [23, 100], [23, 32]), line([72, 32], [72, 46], [86, 46]), line([34, 59], [75, 59]), line([34, 70], [75, 70]), line([34, 81], [66, 81]), line([14, 111], [110, 111]),
+    ]),
+  entry("aws-general-email", "aws", "Email", themes("Email"),
+    "An envelope carries an addressed message.",
+    [
+      line([34, 46], [34, 21], [89, 21], [89, 46]), line([43, 30], [80, 30]), line([43, 39], [70, 39]),
+      rect(15, 46, 94, 46), line([15, 46], [62, 75], [109, 46]), line([15, 92], [45, 68]), line([109, 92], [79, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-general-firewall", "aws", "Firewall", themes("Firewall"),
+    "A brick barrier blocks incoming network traffic.",
+    [
+      rect(47, 21, 46, 72), line([47, 39], [93, 39]), line([47, 57], [93, 57]), line([47, 75], [93, 75]), line([70, 21], [70, 39]), line([58, 39], [58, 57]), line([82, 39], [82, 57]), line([70, 57], [70, 75]), line([58, 75], [58, 93]), line([82, 75], [82, 93]),
+      line([12, 55], [39, 55]), line([33, 49], [39, 55], [33, 61]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-folder", "aws", "Folder", themes("Folder"),
+    "An open folder holds a page.",
+    [
+      line([17, 48], [17, 27], [46, 27], [54, 35], [99, 35], [99, 46]),
+      line([27, 48], [27, 38], [86, 38], [86, 48]), line([17, 48], [107, 48], [96, 93], [14, 93], [17, 48]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-general-folders", "aws", "Folders", themes("Folders"),
+    "Overlapping folders represent multiple collections.",
+    [
+      line([34, 39], [34, 22], [57, 22], [65, 30], [104, 30], [104, 76]), line([25, 48], [25, 31], [48, 31], [56, 39], [95, 39], [95, 85]),
+      line([16, 93], [16, 40], [39, 40], [47, 48], [86, 48], [86, 93], [16, 93]), line([16, 57], [86, 57]), line([14, 110], [110, 110]),
+    ]),
   entry("aws-service-management-connector", "aws", "AWS Service Management Connector", sizes("AWS-Service-Management-Connector"),
     "A ticketing system exchanges service requests with cloud operations.",
     [
