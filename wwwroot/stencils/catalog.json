@@ -3948,7 +3948,7 @@
       ],
       "revision": "a0e64d87cbc4a66ac8464af690356a592464aef5669744f9fc6a1fa1ec273952",
       "geometrySignature": "ea26a081c5be089df79763fe0a94629571d7d89a249dfebc196e62f30d27cbc7",
-      "comparisonRevision": "b75256e8e62b6b631a8628c06f5d2f05969ec8d81d93a3f9d2a76d0a1f780169",
+      "comparisonRevision": "0a08e04af1bbe1f73deb3809ac3381c3e4b27056906b95c63afa54705c374d39",
       "review": "pending",
       "notes": ""
     },
@@ -5344,7 +5344,7 @@
       ],
       "revision": "d5816f23c135247e19813f9f0380345495eacc5a03756f954848827a053cea1a",
       "geometrySignature": "bc168afcf179e303a60e24e9aec073e82d18b154cb1b6bdb469b00c7c7a268a8",
-      "comparisonRevision": "31ce598cb66f6c4fc5bd13f09844b7d925bae21431d5bd9b9834ab9db9cabb9b",
+      "comparisonRevision": "b43d4210cb0510a9651283bd3c49dc257d0b17d050f1fb41f50cddeee2056850",
       "review": "pending",
       "notes": ""
     },
@@ -7655,6 +7655,81 @@
       "revision": "8065e3eb6c987c72133ed0a89214384ed15dbfa32b044fdb779001ad72bda152",
       "geometrySignature": "b08b2c58058d3384512314b1a787930d2ec449ead1dc99b6aa6e04a1115f6fd8",
       "comparisonRevision": "15e589eefabac29e7342916ba765105ff16b9210be919d2f17d879754ab0ebf2",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-sql-service",
+      "provider": "azure",
+      "name": "Azure SQL",
+      "rationale": "SQL runs as a cloud service.",
+      "path": "stencils/azure-sql-service.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/02390-icon-service-Azure-SQL.svg"
+      ],
+      "revision": "d32f87444b6401ccf0afa9bd99cc3b7760f65928d560e30e6d430de0809b573d",
+      "geometrySignature": "595334475a0a94af504fff6f0cf66d4fd3fbc799578bd424b71f7615d3055f8d",
+      "comparisonRevision": "10ad924496e6838f2364fb33c376b7e6bce216e03989a4f34d3cb71f0a8b1b32",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-ssis-lift-shift",
+      "provider": "azure",
+      "name": "SSIS Lift-and-Shift IR",
+      "rationale": "An integration runtime moves an existing data workflow.",
+      "path": "stencils/azure-ssis-lift-shift.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/02392-icon-service-SSIS-Lift-And-Shift-IR.svg"
+      ],
+      "revision": "f4306b4e523609df107d918f3bf5d610e585530a47e0d2632062206879f7bac0",
+      "geometrySignature": "d35c8d76de714108e52fc1282e952976c5b89ba906a5e2497b232b218fe1974a",
+      "comparisonRevision": "65441e5714327e1ec9a66c11dfcfe24331c9639baf3ee6aa0a8c2b5e6e3e7eed",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-sql-edge",
+      "provider": "azure",
+      "name": "Azure SQL Edge",
+      "rationale": "A database runs at the edge of a cloud connection.",
+      "path": "stencils/azure-sql-edge.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/02750-icon-service-Azure-SQL-Edge.svg"
+      ],
+      "revision": "aa0e2ed9511aef2bd5aae4b560ec69d6838d5074040a4adda11b0a974ce2c1db",
+      "geometrySignature": "113770bd8240965f11cf0ccc3685f32e226c7e5f5742d3c10942fddc08b6cd78",
+      "comparisonRevision": "d49b6b58742424dfeba754c1c89df3c57bdc6359e60a2d2cc588241467a8b6ad",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-documentdb",
+      "provider": "azure",
+      "name": "Azure DocumentDB",
+      "rationale": "A database stores structured documents.",
+      "path": "stencils/azure-documentdb.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/035656437-icon-service-Azure-DocumentDB.svg"
+      ],
+      "revision": "1a21186324a95629e32227b39d8e57b10de58bdbdf8ab94f0d169a72d7391c87",
+      "geometrySignature": "cc5853ae27cbd094a7426634376b56aaa46a62b9d425a1f36df217b1911f517d",
+      "comparisonRevision": "76f83989f75002d4e6a2302edee1f8646695125353e20205d63ad11bd3828ed5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-sql-fleet",
+      "provider": "azure",
+      "name": "SQL Database Fleet Manager",
+      "rationale": "A manager coordinates a fleet of databases.",
+      "path": "stencils/azure-sql-fleet.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/03565-icon-service-SQL-Database-Fleet-Manager.svg"
+      ],
+      "revision": "433fe75045e86898e196ad4480048bdeffd5c12f50f1ca1be606e010f0599fd3",
+      "geometrySignature": "23a8d3ef156a350a7fc7ff0c24763e2b9b1e40f3e09effe87c278df9cc582cd1",
+      "comparisonRevision": "a34af8cbfb97ec4be3134dc1071fb1ab922c7bde31f395511bb5e616cc96eb96",
       "review": "pending",
       "notes": ""
     },
@@ -10848,7 +10923,7 @@
       ],
       "revision": "cee8616e62b7f4c9e12e044d7b1a70e6aa5077813b6ead184f4512b7e6144e31",
       "geometrySignature": "07fb3309e8f1b23105f0a6d6d63298edf6a4fb606980be84764de0f01e83438d",
-      "comparisonRevision": "061680040b3f54f0cb3604987259eac0229b889ac872f5c92f56ca24b83a469c",
+      "comparisonRevision": "e063b30a16f0bdfea429b02d2196b3e7b87ac6a3faa4d7078cb0d1a19bae5503",
       "review": "pending",
       "notes": ""
     },
@@ -12467,7 +12542,7 @@
       ],
       "revision": "02e3573132720a2f7cd3027b6297734b3e0a0520a8b6d022bfc9c4653fe31a0c",
       "geometrySignature": "616b8c86455d71f1bb12617a0bc1958cb8039a84f4dc967235d055dfd9a7e936",
-      "comparisonRevision": "3a0fb791901bf275883fd9d031855f92750ff01bb929ba3350698c275285cc1b",
+      "comparisonRevision": "64a7904599e9b946d5965ac6a1cf1f62a7562649d87a5fcf35efeef5ed7276b0",
       "review": "pending",
       "notes": ""
     },
@@ -19237,7 +19312,7 @@
       ],
       "revision": "91fdba56ea6afc2e416f64f7f45b10b2603c33ea741c51e88d1f24aa93583af4",
       "geometrySignature": "9b3836d5ae74ca7554923217e4341526e08ce3eb482b005897186fc1d2a0bd13",
-      "comparisonRevision": "17ea270987b865b241bff4fb943ebbf89282c034a2cd5479fe9bd263c8f32a8e",
+      "comparisonRevision": "be380c20ab5be8c382c8d596fc124d4dd3035fa14aa839af5c8f84bbc9b2b929",
       "review": "pending",
       "notes": ""
     },
@@ -19481,7 +19556,7 @@
       ],
       "revision": "3d763a190d76813542d50f2255550b99044d3026e0842aba9a09d85c9d10761a",
       "geometrySignature": "07434f2d15fb1d6d31366b0882644204a80f6ce6bbe0eb5948f4fdd43094c379",
-      "comparisonRevision": "c23861508a26c0152f7d0e0efca54687bf8bda048b450484d9b2b6d4dbbe766c",
+      "comparisonRevision": "b814282ff69af9b94a1f049963186aa6f693f28663d451767c13488a507d3055",
       "review": "pending",
       "notes": ""
     },
@@ -20113,7 +20188,7 @@
       ],
       "revision": "3c3e5edb8c8fc294874792b6708db5b1c41685b08ca8eae6ec88631a03f11d54",
       "geometrySignature": "213f88086ac31b2a0e4f218b1de90241bec9c11cad55404200dfcf8c0e8d0af3",
-      "comparisonRevision": "00ba2b67e0c70439236dd86f89c1add76797ed52058b720c23e25a22001a8569",
+      "comparisonRevision": "848b75c81ff7d579d88bf5a4fc19c4a771e439f01e2b9071b2b9b85baa84cb49",
       "review": "pending",
       "notes": ""
     },
@@ -20193,7 +20268,7 @@
       ],
       "revision": "88da7f3f5da4aa04af162a7e997e5b931a66cedad8674e476776e7ab4542dc87",
       "geometrySignature": "8bad29452cc11699511751925319a7be8d40c2363e674c475f90e4df63291d20",
-      "comparisonRevision": "81c93a1f535192f11367912d19fe099f6f9a8c0057b61a438b3125cd2eed3b30",
+      "comparisonRevision": "7a934cf02b567df613bb77c28a53592adfd01b31ccd261437a9c7fe2068c6344",
       "review": "pending",
       "notes": ""
     },
@@ -20705,7 +20780,7 @@
       ],
       "revision": "d97ee7e79d0134376e4c2895725860969b660fbd4cde013d0a0cce8d99732561",
       "geometrySignature": "de785c31cd87b884f8fa9685952a86358e4cf202348bb4e9a359a136f0a312f7",
-      "comparisonRevision": "a6f7bdd7c38f00ce185439bdf4884295612af18fa2ce932a3244662f11de0073",
+      "comparisonRevision": "175919323806bdbf131a120324fc71ac784e877d17cfab9fd0aebecab34bc50b",
       "review": "pending",
       "notes": ""
     },
@@ -20929,7 +21004,7 @@
       ],
       "revision": "a8f4553881ae811ccbdb557be6ba88aa9699d77fb5e417299807dc57eb8f1e65",
       "geometrySignature": "0d39e8dc2a3ea18c4c009465812b52d70ce275a84d12c938456ac743a8dcf4e3",
-      "comparisonRevision": "33a1c74090d2ffd34fc5682089ea56150edf7743da9b06fe70999ca6e51f6642",
+      "comparisonRevision": "b3ed895eafbea71dee29f3e7a8425df7fe1f96412eebd7eb12fd1e55aabb381f",
       "review": "pending",
       "notes": ""
     },
@@ -21584,7 +21659,7 @@
       ],
       "revision": "13e7627dd0c34859040f9a617f042c1f156b3806817ae9cb10ce97a3656e6089",
       "geometrySignature": "bac9eaab62ea71312c75db75def3ed7df970b96196bf16a91c63e72d16c050cf",
-      "comparisonRevision": "ccf18e10592257ec78899337b30763b397723af9e9ec59f30f193f9164ab7353",
+      "comparisonRevision": "768cfadd546898bf7264fddd8b03ab859444d085b912d510b4f020d4b84c627e",
       "review": "pending",
       "notes": ""
     },

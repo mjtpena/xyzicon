@@ -1,6 +1,44 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-sql-service", "azure", "Azure SQL", ["02390-icon-service-Azure-SQL"],
+    "SQL runs as a cloud service.",
+    [
+      line([19, 84], [15, 77], [15, 64], [21, 54], [32, 50], [36, 36], [47, 28], [62, 28], [74, 34], [79, 45], [92, 45], [104, 51], [110, 63], [109, 77], [102, 84]),
+      line([38, 58], [30, 58], [27, 62], [27, 68], [38, 72], [38, 78], [35, 82], [27, 82]),
+      oval(45, 58, 15, 24), line([55, 77], [62, 84]), line([68, 58], [68, 82], [83, 82]), line([16, 105], [112, 105]),
+    ]),
+  entry("azure-ssis-lift-shift", "azure", "SSIS Lift-and-Shift IR", ["02392-icon-service-SSIS-Lift-And-Shift-IR"],
+    "An integration runtime moves an existing data workflow.",
+    [
+      oval(13, 23, 54, 17), line([13, 31], [13, 83], [21, 89], [59, 89], [67, 83], [67, 31]), line([13, 61], [21, 67], [59, 67], [67, 61]),
+      oval(66, 54, 39, 39), line([75, 65], [94, 65]), line([88, 59], [94, 65], [88, 71]),
+      line([95, 81], [76, 81]), line([82, 75], [76, 81], [82, 87]), line([16, 108], [112, 108]),
+    ]),
+  entry("azure-sql-edge", "azure", "Azure SQL Edge", ["02750-icon-service-Azure-SQL-Edge"],
+    "A database runs at the edge of a cloud connection.",
+    [
+      line([17, 58], [14, 51], [15, 39], [22, 30], [33, 27], [38, 17], [51, 13], [64, 18], [68, 28], [81, 28], [91, 35], [95, 44]),
+      oval(35, 55, 42, 14), line([35, 62], [35, 88], [42, 94], [70, 94], [77, 88], [77, 62]),
+      line([15, 96], [14, 85], [18, 74]), line([85, 82], [100, 70], [107, 53], [105, 35]), line([100, 40], [105, 35], [111, 41]),
+      line([16, 110], [112, 110]),
+    ]),
+  entry("azure-documentdb", "azure", "Azure DocumentDB", ["035656437-icon-service-Azure-DocumentDB"],
+    "A database stores structured documents.",
+    [
+      oval(20, 17, 76, 22), line([20, 28], [20, 95], [30, 102], [86, 102], [96, 95], [96, 28]),
+      line([43, 46], [37, 46], [34, 51], [34, 62], [29, 66], [34, 70], [34, 81], [37, 86], [43, 86]),
+      line([73, 46], [79, 46], [82, 51], [82, 62], [87, 66], [82, 70], [82, 81], [79, 86], [73, 86]), line([16, 114], [112, 114]),
+    ]),
+  entry("azure-sql-fleet", "azure", "SQL Database Fleet Manager", ["03565-icon-service-SQL-Database-Fleet-Manager"],
+    "A manager coordinates a fleet of databases.",
+    [
+      oval(12, 42, 30, 11), line([12, 47], [12, 75], [18, 80], [36, 80], [42, 75], [42, 47]),
+      oval(80, 42, 30, 11), line([80, 47], [80, 75], [86, 80], [104, 80], [110, 75], [110, 47]),
+      oval(46, 60, 30, 11), line([46, 65], [46, 93], [52, 98], [70, 98], [76, 93], [76, 65]),
+      line([60, 17], [65, 22], [72, 22], [72, 29], [77, 34], [72, 39], [72, 45], [65, 45], [60, 50], [55, 45], [48, 45], [48, 39], [43, 34], [48, 29], [48, 22], [55, 22], [60, 17]), oval(55, 29, 10, 10),
+      line([16, 111], [112, 111]),
+    ]),
   entry("azure-databricks", "azure", "Azure Databricks", ["10787-icon-service-Azure-Databricks"],
     "A collaborative notebook directs data processing across a cluster.",
     [
