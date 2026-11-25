@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1323,
-  "aliases": 4306,
+  "count": 1327,
+  "aliases": 4314,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1209,6 +1209,10 @@
     "fabric-table-link",
     "fabric-table-link-lightning",
     "fabric-table-link-triangle",
+    "fabric-script-sparkle",
+    "fabric-script-sparkle-add",
+    "fabric-script-kql-add",
+    "fabric-receipt-kql-new",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1387,6 +1391,13 @@
       "notes": "The numeral has a closed triangular upper stroke and vertical stem; the curved arrow has a bent shaft and pointed arrowhead, including at 32px."
     },
     {
+      "a": "fabric-script-sparkle-add",
+      "b": "fabric-script-kql-add",
+      "similarity": 0.6938,
+      "review": "distinct",
+      "notes": "The added sparkle script has a four-point star; the KQL script has a diagonal query mark and parallel strokes."
+    },
+    {
       "a": "fabric-table-key",
       "b": "fabric-table-link",
       "similarity": 0.6938,
@@ -1472,8 +1483,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1469,
-      "concepts": 325
+      "covered": 1477,
+      "concepts": 329
     },
     "entra": {
       "sources": 14,
@@ -7346,13 +7357,13 @@
       },
       {
         "a": "gcp-maps-platform",
-        "b": "aws-region-group",
-        "similarity": 0.2206
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.2231
       },
       {
-        "a": "gcp-automl",
-        "b": "gcp-maps-platform",
-        "similarity": 0.2185
+        "a": "gcp-maps-platform",
+        "b": "aws-region-group",
+        "similarity": 0.2206
       }
     ],
     "gcp-quantum-engine": [
@@ -9034,8 +9045,8 @@
       },
       {
         "a": "fabric-experiments",
-        "b": "fabric-stacked-text",
-        "similarity": 0.1704
+        "b": "fabric-script-sparkle",
+        "similarity": 0.1711
       }
     ],
     "fabric-exploration": [
@@ -15958,9 +15969,9 @@
         "similarity": 0.118
       },
       {
-        "a": "fabric-exploration",
-        "b": "m365-arrow-clockwise",
-        "similarity": 0.1064
+        "a": "m365-arrow-clockwise",
+        "b": "fabric-script-sparkle",
+        "similarity": 0.1084
       }
     ],
     "m365-arrow-down": [
@@ -21399,14 +21410,14 @@
         "similarity": 0.2674
       },
       {
+        "a": "fabric-receipt-sparkle",
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.217
+      },
+      {
         "a": "fabric-notebook-globe",
         "b": "fabric-receipt-sparkle",
         "similarity": 0.2163
-      },
-      {
-        "a": "fabric-report",
-        "b": "fabric-receipt-sparkle",
-        "similarity": 0.201
       }
     ],
     "fabric-receipt-sparkle-new": [
@@ -21421,9 +21432,9 @@
         "similarity": 0.2359
       },
       {
-        "a": "fabric-document-shapes",
-        "b": "fabric-receipt-sparkle-new",
-        "similarity": 0.2158
+        "a": "fabric-receipt-sparkle-new",
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.2225
       }
     ],
     "fabric-rectangle-exit-down": [
@@ -22039,6 +22050,78 @@
         "a": "aws-ecr-registry",
         "b": "fabric-table-link-triangle",
         "similarity": 0.2492
+      }
+    ],
+    "fabric-script-sparkle": [
+      {
+        "a": "fabric-script-sparkle",
+        "b": "fabric-script-sparkle-add",
+        "similarity": 0.4289
+      },
+      {
+        "a": "fabric-script-sparkle",
+        "b": "fabric-script-kql-add",
+        "similarity": 0.3315
+      },
+      {
+        "a": "fabric-rectangle-list-asterisk",
+        "b": "fabric-script-sparkle",
+        "similarity": 0.2285
+      }
+    ],
+    "fabric-script-sparkle-add": [
+      {
+        "a": "fabric-script-sparkle-add",
+        "b": "fabric-script-kql-add",
+        "similarity": 0.6938,
+        "review": "distinct",
+        "notes": "The added sparkle script has a four-point star; the KQL script has a diagonal query mark and parallel strokes."
+      },
+      {
+        "a": "fabric-script-sparkle",
+        "b": "fabric-script-sparkle-add",
+        "similarity": 0.4289
+      },
+      {
+        "a": "fabric-script-sparkle-add",
+        "b": "fabric-code-text-flash",
+        "similarity": 0.2107
+      }
+    ],
+    "fabric-script-kql-add": [
+      {
+        "a": "fabric-script-sparkle-add",
+        "b": "fabric-script-kql-add",
+        "similarity": 0.6938,
+        "review": "distinct",
+        "notes": "The added sparkle script has a four-point star; the KQL script has a diagonal query mark and parallel strokes."
+      },
+      {
+        "a": "fabric-script-sparkle",
+        "b": "fabric-script-kql-add",
+        "similarity": 0.3315
+      },
+      {
+        "a": "fabric-rectangle-list-asterisk",
+        "b": "fabric-script-kql-add",
+        "similarity": 0.2189
+      }
+    ],
+    "fabric-receipt-kql-new": [
+      {
+        "a": "fabric-notebook",
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.2657
+      },
+      {
+        "a": "aws-well-architected-tool",
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.2351
+      },
+      {
+        "a": "fabric-signal-square",
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.2318
       }
     ],
     "fabric-database-add": [
