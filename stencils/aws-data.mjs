@@ -3,6 +3,73 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsDataArtwork = [
+  entry("aws-dynamodb-attribute", "aws", "DynamoDB Attribute", ["Res_Amazon-DynamoDB_Attribute_48"],
+    "A single key and value form an attribute.",
+    [
+      rect(15, 35, 91, 40), line([50, 35], [50, 75]), oval(26, 47, 13, 13, true),
+      line([61, 48], [95, 48]), line([61, 60], [87, 60]), line([15, 108], [110, 108]),
+    ]),
+  entry("aws-dynamodb-attributes", "aws", "DynamoDB Attributes", ["Res_Amazon-DynamoDB_Attributes_48"],
+    "Multiple key-value attributes appear as individual labels.",
+    [
+      line([14, 29], [29, 17], [97, 17], [97, 41], [29, 41], [14, 29]), oval(26, 25, 7, 7),
+      line([20, 57], [35, 45], [103, 45], [103, 69], [35, 69], [20, 57]), oval(32, 53, 7, 7),
+      line([14, 85], [29, 73], [97, 73], [97, 97], [29, 97], [14, 85]), oval(26, 81, 7, 7),
+      line([42, 29], [86, 29]), line([48, 57], [92, 57]), line([42, 85], [86, 85]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-item", "aws", "DynamoDB Item", ["Res_Amazon-DynamoDB_Item_48"],
+    "A single record contains three attributes.",
+    [
+      line([17, 26], [18, 19], [25, 19]), line([98, 19], [105, 19], [105, 26]), line([17, 88], [18, 95], [25, 95]), line([98, 95], [105, 95], [105, 88]),
+      rect(23, 39, 77, 35), line([48, 39], [48, 74]), line([74, 39], [74, 74]), oval(31, 51, 9, 9, true), line([54, 56], [68, 56]), line([80, 56], [94, 56]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-items", "aws", "DynamoDB Items", ["Res_Amazon-DynamoDB_Items_48"],
+    "A stack of records represents several items.",
+    [
+      line([24, 35], [24, 22], [95, 22], [95, 73]), line([17, 44], [17, 30], [88, 30], [88, 81]),
+      rect(10, 39, 71, 51), line([10, 56], [81, 56]), line([33, 39], [33, 90]), line([57, 39], [57, 90]),
+      oval(18, 44, 7, 7, true), line([40, 48], [51, 48]), line([64, 48], [75, 48]), line([18, 66], [27, 66]), line([40, 66], [51, 66]), line([64, 66], [75, 66]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-table", "aws", "DynamoDB Table", ["Res_Amazon-DynamoDB_Table_48"],
+    "A table groups key-value records.",
+    [
+      rect(16, 20, 91, 74), line([16, 38], [107, 38]), line([16, 56], [107, 56]), line([16, 74], [107, 74]), line([41, 20], [41, 94]),
+      line([23, 29], [33, 29]), line([23, 47], [33, 47]), line([23, 65], [33, 65]), line([23, 84], [33, 84]), line([49, 29], [96, 29]), line([49, 47], [86, 47]), line([49, 65], [96, 65]), line([49, 84], [86, 84]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-global-secondary-index", "aws", "DynamoDB Global Secondary Index", ["Res_Amazon-DynamoDB_Global-secondary-index_48"],
+    "An index points from a secondary key to table records.",
+    [
+      rect(12, 22, 30, 65), line([12, 42], [42, 42]), line([12, 63], [42, 63]), oval(21, 28, 9, 9, true), oval(21, 48, 9, 9, true), oval(21, 69, 9, 9, true),
+      line([42, 55], [62, 55]), line([56, 49], [62, 55], [56, 61]), rect(66, 22, 42, 65), line([66, 42], [108, 42]), line([66, 63], [108, 63]), line([74, 32], [100, 32]), line([74, 52], [100, 52]), line([74, 73], [100, 73]), line([15, 109], [110, 109]),
+    ]),
+  entry("aws-dynamodb-stream", "aws", "DynamoDB Stream", ["Res_Amazon-DynamoDB_Stream_48"],
+    "Ordered change records flow from a table.",
+    [
+      rect(13, 30, 27, 49), line([13, 46], [40, 46]), line([13, 62], [40, 62]),
+      line([40, 55], [57, 55]), line([51, 49], [57, 55], [51, 61]),
+      rect(64, 30, 15, 49), rect(84, 30, 15, 49), line([65, 91], [104, 91]), line([98, 85], [104, 91], [98, 97]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-dynamodb-accelerator", "aws", "DynamoDB Accelerator", ["Res_Amazon-DynamoDB_Amazon-DynamoDB-Accelerator_48"],
+    "A cache accelerates access to a DynamoDB table.",
+    [
+      rect(12, 29, 39, 51), line([12, 45], [51, 45]), line([12, 62], [51, 62]), line([28, 29], [28, 80]),
+      line([51, 55], [67, 55]), line([61, 49], [67, 55], [61, 61]),
+      oval(75, 23, 28, 11), line([75, 28], [75, 73], [80, 78], [98, 78], [103, 73], [103, 28]), line([91, 38], [83, 55], [91, 55], [85, 68], [99, 49], [91, 49], [95, 38]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-documentdb-elastic-clusters", "aws", "DocumentDB Elastic Clusters", ["Res_Amazon-DocumentDB_Elastic-Clusters_48"],
+    "Document databases scale out across an elastic cluster.",
+    [
+      oval(42, 39, 37, 13), line([42, 45], [42, 69], [48, 74], [73, 74], [79, 69], [79, 45]),
+      line([14, 35], [14, 20], [30, 20]), line([91, 20], [107, 20], [107, 35]), line([14, 79], [14, 94], [30, 94]), line([91, 94], [107, 94], [107, 79]),
+      line([30, 34], [18, 22]), line([18, 29], [18, 22], [25, 22]), line([91, 80], [103, 92]), line([96, 92], [103, 92], [103, 85]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-rds-blue-green", "aws", "RDS Blue/Green Deployments", ["Res_Amazon-RDS_Blue-Green-Deployments_48"],
+    "A database deployment switches from the current environment to a staged replacement.",
+    [
+      oval(13, 27, 34, 12), line([13, 33], [13, 76], [19, 81], [41, 81], [47, 76], [47, 33]),
+      oval(77, 27, 34, 12), line([77, 33], [77, 76], [83, 81], [105, 81], [111, 76], [111, 33]),
+      line([47, 51], [77, 51]), line([70, 44], [77, 51], [70, 58]), line([77, 68], [47, 68]), line([54, 61], [47, 68], [54, 75]), line([14, 110], [110, 110]),
+    ]),
   entry("aws-glue-ray", "aws", "AWS Glue for Ray", ["Res_AWS-Glue_AWS-Glue-for-Ray_48"],
     "Parallel workers process data through a shared execution hub.",
     [
