@@ -4,6 +4,40 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricActionArtwork = [
+  entry("fabric-code-text-flash", "fabric", "Code text flash", variants("code_text_flash", [20]),
+    "A lightning bolt highlights an executable code block.",
+    [
+      line([13, 20], [90, 20], [90, 42]), line([13, 20], [13, 102], [68, 102]),
+      line([27, 38], [21, 44], [27, 50]), line([46, 38], [52, 44], [46, 50]), line([39, 36], [34, 52]),
+      line([22, 63], [64, 63]), line([22, 73], [55, 73]), line([22, 83], [64, 83]),
+      line([93, 46], [75, 73], [88, 73], [80, 99], [110, 66], [96, 66], [93, 46]),
+      line([17, 114], [107, 114]),
+    ]),
+  entry("fabric-folder-share", "fabric", "Share folder", variants("folder_share", [20]),
+    "A folder is shared with another person.",
+    [
+      line([10, 25], [41, 25], [49, 33], [82, 33], [82, 92], [10, 92], [10, 25]),
+      line([20, 46], [70, 46]), line([20, 57], [58, 57]),
+      line([48, 77], [67, 77], [67, 68], [88, 83], [67, 98], [67, 89], [48, 89], [48, 77]),
+      oval(96, 40, 16, 16), line([92, 82], [94, 68], [99, 61], [106, 61], [111, 68], [113, 82]),
+      line([18, 110], [109, 110]),
+    ]),
+  entry("fabric-database-checkmark", "fabric", "Database checkmark", variants("database_checkmark", [20]),
+    "A check confirms a database.",
+    [
+      oval(18, 19, 62, 22), line([18, 30], [18, 92], [29, 100], [69, 100], [80, 92], [80, 30]),
+      line([18, 51], [29, 58], [69, 58], [80, 51]), line([18, 73], [29, 80], [69, 80], [80, 73]),
+      oval(67, 58, 42, 42), line([76, 80], [85, 89], [100, 72]),
+      line([22, 112], [106, 112]),
+    ]),
+  entry("fabric-calendar-toolbox", "fabric", "Calendar toolbox", variants("calendar_month_toolbox", [20]),
+    "A toolbox marks scheduled maintenance on a calendar.",
+    [
+      rect(12, 21, 77, 79), line([12, 36], [89, 36]), line([29, 13], [29, 28]), line([72, 13], [72, 28]),
+      oval(22, 46, 6, 6), oval(40, 46, 6, 6), oval(58, 46, 6, 6), oval(22, 61, 6, 6), oval(40, 61, 6, 6),
+      rect(57, 68, 57, 30), line([73, 68], [73, 61], [98, 61], [98, 68]), line([57, 79], [114, 79]),
+      rect(81, 76, 9, 8, true), line([18, 112], [109, 112]),
+    ]),
   entry("fabric-airplane", "fabric", "Airplane", variants("airplane", [12]),
     "An airplane is seen from above with wings extended.",
     [
