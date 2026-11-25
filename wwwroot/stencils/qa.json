@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 899,
-  "aliases": 3601,
+  "count": 903,
+  "aliases": 3609,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -870,6 +870,10 @@
     "fabric-overlapping-squares-line",
     "fabric-person-pulse",
     "fabric-person-settings",
+    "fabric-border-inside-all",
+    "fabric-border-inside-horizontal",
+    "fabric-border-inside-vertical",
+    "fabric-border-none-eye",
     "fabric-calculator-brackets",
     "fabric-calculator-brackets-number",
     "fabric-calculator-multiple-brackets",
@@ -978,8 +982,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1055,
-      "concepts": 172
+      "covered": 1063,
+      "concepts": 176
     },
     "entra": {
       "sources": 14,
@@ -4772,19 +4776,19 @@
     ],
     "gcp-load-balancing": [
       {
+        "a": "gcp-load-balancing",
+        "b": "fabric-border-inside-all",
+        "similarity": 0.2518
+      },
+      {
         "a": "gcp-ai-hub",
         "b": "gcp-load-balancing",
         "similarity": 0.2168
       },
       {
         "a": "gcp-load-balancing",
-        "b": "aws-iot-core",
-        "similarity": 0.1975
-      },
-      {
-        "a": "gcp-load-balancing",
-        "b": "fabric-asterisk",
-        "similarity": 0.1967
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.2134
       }
     ],
     "gcp-cloud-cdn": [
@@ -7923,13 +7927,13 @@
       },
       {
         "a": "m365-three-shapes",
-        "b": "aws-reserved-instance-reporting",
-        "similarity": 0.169
+        "b": "fabric-border-inside-all",
+        "similarity": 0.1711
       },
       {
-        "a": "fabric-data-warehouse",
-        "b": "m365-three-shapes",
-        "similarity": 0.1667
+        "a": "m365-three-shapes",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.169
       }
     ],
     "m365-share-screen-overlay": [
@@ -9567,6 +9571,11 @@
     "aws-activate": [
       {
         "a": "aws-activate",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.1981
+      },
+      {
+        "a": "aws-activate",
         "b": "aws-migration-evaluator",
         "similarity": 0.1931
       },
@@ -9574,11 +9583,6 @@
         "a": "gcp-anthos",
         "b": "aws-activate",
         "similarity": 0.1929
-      },
-      {
-        "a": "aws-activate",
-        "b": "aws-backup",
-        "similarity": 0.1926
       }
     ],
     "aws-iq": [
@@ -12473,9 +12477,9 @@
         "similarity": 0.1998
       },
       {
-        "a": "aws-transcribe",
-        "b": "aws-elastic-load-balancing",
-        "similarity": 0.1874
+        "a": "aws-elastic-load-balancing",
+        "b": "fabric-border-inside-horizontal",
+        "similarity": 0.1954
       }
     ],
     "gcp-category-ai": [
@@ -12854,6 +12858,11 @@
     ],
     "gcp-category-serverless": [
       {
+        "a": "gcp-category-serverless",
+        "b": "fabric-border-inside-all",
+        "similarity": 0.1443
+      },
+      {
         "a": "aws-rekognition",
         "b": "gcp-category-serverless",
         "similarity": 0.1429
@@ -12862,11 +12871,6 @@
         "a": "m365-organization",
         "b": "gcp-category-serverless",
         "similarity": 0.1356
-      },
-      {
-        "a": "power-platform",
-        "b": "gcp-category-serverless",
-        "similarity": 0.135
       }
     ],
     "gcp-category-storage": [
@@ -13134,13 +13138,13 @@
       },
       {
         "a": "fabric-asterisk",
-        "b": "fabric-commit",
-        "similarity": 0.2519
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.2875
       },
       {
-        "a": "gcp-load-balancing",
-        "b": "fabric-asterisk",
-        "similarity": 0.1967
+        "a": "fabric-asterisk",
+        "b": "fabric-commit",
+        "similarity": 0.2519
       }
     ],
     "fabric-asterisk-circle": [
@@ -13169,14 +13173,14 @@
         "similarity": 0.2519
       },
       {
+        "a": "fabric-commit",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.2446
+      },
+      {
         "a": "m365-radar",
         "b": "fabric-commit",
         "similarity": 0.2152
-      },
-      {
-        "a": "m365-team",
-        "b": "fabric-commit",
-        "similarity": 0.2125
       }
     ],
     "fabric-commit-circle": [
@@ -15748,6 +15752,74 @@
         "a": "aws-fsx-lustre",
         "b": "fabric-person-settings",
         "similarity": 0.1383
+      }
+    ],
+    "fabric-border-inside-all": [
+      {
+        "a": "fabric-border-inside-all",
+        "b": "fabric-border-inside-horizontal",
+        "similarity": 0.6135
+      },
+      {
+        "a": "fabric-border-inside-all",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.6135
+      },
+      {
+        "a": "m365-radar",
+        "b": "fabric-border-inside-all",
+        "similarity": 0.288
+      }
+    ],
+    "fabric-border-inside-horizontal": [
+      {
+        "a": "fabric-border-inside-all",
+        "b": "fabric-border-inside-horizontal",
+        "similarity": 0.6135
+      },
+      {
+        "a": "fabric-sample",
+        "b": "fabric-border-inside-horizontal",
+        "similarity": 0.26
+      },
+      {
+        "a": "fabric-border-inside-horizontal",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.25
+      }
+    ],
+    "fabric-border-inside-vertical": [
+      {
+        "a": "fabric-border-inside-all",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.6135
+      },
+      {
+        "a": "fabric-asterisk",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.2875
+      },
+      {
+        "a": "fabric-border-inside-horizontal",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.25
+      }
+    ],
+    "fabric-border-none-eye": [
+      {
+        "a": "aws-finspace",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2028
+      },
+      {
+        "a": "fabric-folder-share",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2028
+      },
+      {
+        "a": "aws-data-transfer-terminal",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.1995
       }
     ],
     "fabric-calculator-brackets": [
