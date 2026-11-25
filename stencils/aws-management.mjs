@@ -4,6 +4,74 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-cloudwatch-alarm", "aws", "CloudWatch Alarm", ["Res_Amazon-CloudWatch_Alarm_48"],
+    "An alarm rings when a metric crosses its threshold.",
+    [
+      line([15, 20], [15, 87], [108, 87]), line([22, 53], [102, 53]), line([25, 77], [37, 70], [49, 74], [61, 58], [74, 62], [88, 34]),
+      line([91, 24], [97, 16], [104, 24], [104, 37], [108, 42], [87, 42], [91, 37], [91, 24]), line([95, 46], [100, 46]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-cross-account", "aws", "CloudWatch Cross-account Observability", ["Res_Amazon-CloudWatch_Cross-account-Observability_48"],
+    "A monitoring view combines telemetry from multiple accounts.",
+    [
+      rect(10, 20, 33, 24), rect(10, 63, 33, 24), oval(16, 25, 8, 8), oval(16, 68, 8, 8), line([28, 32], [37, 32]), line([28, 75], [37, 75]),
+      line([44, 32], [57, 32], [57, 54], [72, 54]), line([44, 75], [57, 75], [57, 54]), rect(73, 33, 40, 42), line([79, 63], [86, 54], [92, 59], [106, 43]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-data-protection", "aws", "CloudWatch Data Protection", ["Res_Amazon-CloudWatch_Data-Protection_48"],
+    "Sensitive data in logs is identified and protected.",
+    [
+      line([20, 17], [75, 17], [87, 29], [87, 89], [20, 89], [20, 17]), line([75, 17], [75, 29], [87, 29]), line([29, 38], [71, 38]), line([29, 49], [59, 49]), line([29, 60], [57, 60]), line([29, 71], [57, 71]),
+      rect(66, 65, 34, 24), line([72, 65], [72, 58], [75, 53], [82, 51], [89, 53], [92, 58], [92, 65]), oval(80, 72, 5, 5, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-event-based", "aws", "CloudWatch Event-based Event", ["Res_Amazon-CloudWatch_Event-Event-Based_48"],
+    "An event triggers a downstream action.",
+    [
+      line([15, 54], [26, 54], [33, 37], [41, 69], [49, 48], [56, 54], [63, 54]), line([66, 54], [82, 54]), line([75, 47], [82, 54], [75, 61]),
+      rect(85, 34, 27, 40), line([91, 46], [106, 46]), line([91, 58], [106, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-time-based", "aws", "CloudWatch Time-based Event", ["Res_Amazon-CloudWatch_Event-Time-Based_48"],
+    "A scheduled event triggers an action at a specified time.",
+    [
+      oval(13, 30, 43, 43), line([34, 37], [34, 51], [44, 57]), line([57, 52], [79, 52]), line([72, 45], [79, 52], [72, 59]),
+      rect(82, 31, 31, 43), line([88, 43], [107, 43]), line([88, 55], [107, 55]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-evidently", "aws", "CloudWatch Evidently", ["Res_Amazon-CloudWatch_Evidently_48"],
+    "An experiment compares two application feature variants.",
+    [
+      rect(13, 20, 48, 57), line([13, 32], [61, 32]), line([21, 43], [53, 43]), line([21, 54], [46, 54]),
+      line([64, 50], [77, 50], [77, 28], [87, 28]), line([77, 50], [77, 73], [87, 73]), oval(87, 18, 19, 19), oval(87, 63, 19, 19),
+      line([92, 28], [101, 28]), line([96, 23], [96, 33]), line([92, 73], [101, 73]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-logs", "aws", "CloudWatch Logs", ["Res_Amazon-CloudWatch_Logs_48"],
+    "Timestamped log events are collected for monitoring.",
+    [
+      line([15, 24], [27, 24]), line([36, 24], [86, 24]), line([15, 39], [27, 39]), line([36, 39], [80, 39]),
+      line([15, 54], [27, 54]), line([36, 54], [65, 54]), line([15, 69], [27, 69]), line([36, 69], [65, 69]),
+      oval(63, 45, 28, 28), line([84, 66], [103, 85]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-metrics-insights", "aws", "CloudWatch Metrics Insights", ["Res_Amazon-CloudWatch_Metrics-Insights_48"],
+    "A magnifier examines trends in a metric chart.",
+    [
+      line([20, 20], [20, 85], [100, 85]), line([29, 71], [42, 59], [54, 65], [67, 45], [79, 51], [93, 29]),
+      oval(57, 47, 28, 28), line([78, 68], [96, 86]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-rum", "aws", "CloudWatch Real User Monitoring", ["Res_Amazon-CloudWatch_RUM_48"],
+    "A browser records the performance experienced by a real user.",
+    [
+      rect(13, 19, 98, 70), line([13, 32], [111, 32]), oval(19, 22, 5, 5, true), oval(28, 22, 5, 5, true),
+      oval(23, 42, 17, 17), line([19, 77], [21, 68], [27, 63], [37, 63], [43, 68], [45, 77]), line([52, 65], [62, 65], [68, 49], [75, 73], [82, 57], [89, 65], [102, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-rule", "aws", "CloudWatch Rule", ["Res_Amazon-CloudWatch_Rule_48"],
+    "A rule matches an event and routes it to a target.",
+    [
+      oval(12, 39, 24, 24), line([20, 51], [29, 51]), line([37, 51], [48, 51]), line([43, 46], [48, 51], [43, 56]),
+      line([53, 35], [73, 35], [83, 51], [73, 67], [53, 67], [43, 51], [53, 35]), line([83, 51], [96, 51]), line([91, 46], [96, 51], [91, 56]), rect(98, 40, 19, 22), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudwatch-synthetics", "aws", "CloudWatch Synthetics", ["Res_Amazon-CloudWatch_Synthetics_48"],
+    "A synthetic probe checks an application endpoint on a schedule.",
+    [
+      line([19, 70], [23, 55], [32, 46], [46, 43], [60, 46], [69, 55], [73, 70]), line([25, 70], [67, 70]), line([46, 48], [46, 56]), line([46, 70], [56, 58]),
+      oval(80, 20, 29, 29), line([94, 25], [94, 35], [102, 39]), line([70, 56], [82, 45]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-systems-inventory", "aws", "Systems Manager Inventory", ["Res_AWS-Systems-Manager_Inventory_48"],
     "An inventory lists software and configuration on managed machines.",
     [
