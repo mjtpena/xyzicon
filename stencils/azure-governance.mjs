@@ -1,6 +1,48 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-chaos-studio", "azure", "Azure Chaos Studio", ["02223-icon-service-Azure-Chaos-Studio"],
+    "A controlled disruption tests a service's resilience.",
+    [
+      rect(17, 26, 50, 57), line([17, 38], [67, 38]), line([25, 48], [58, 48]), line([25, 59], [51, 59]), line([25, 70], [58, 70]),
+      line([85, 23], [72, 50], [83, 50], [74, 77], [103, 44], [92, 44], [103, 23], [85, 23]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-network-managers", "azure", "Network Managers", ["02237-icon-service-Network-Managers"],
+    "A manager controls a connected network.",
+    [
+      oval(49, 37, 25, 25), oval(19, 16, 15, 15), oval(90, 16, 15, 15), oval(19, 80, 15, 15), oval(90, 80, 15, 15), line([34, 29], [51, 42]), line([90, 29], [72, 42]), line([34, 82], [51, 58]), line([90, 82], [72, 58]),
+      oval(56, 44, 11, 11), line([61, 31], [61, 37]), line([61, 62], [61, 69]), line([43, 49], [49, 49]), line([74, 49], [80, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-dedicated-hsm", "azure", "Dedicated HSM", ["02322-icon-service-Dedicated-HSM"],
+    "A dedicated hardware security module protects cryptographic keys.",
+    [
+      rect(15, 49, 95, 34), line([15, 60], [110, 60]), line([23, 71], [30, 71]), line([36, 71], [43, 71]), line([49, 71], [56, 71]),
+      oval(63, 17, 22, 22), oval(70, 24, 8, 8), line([74, 39], [74, 71], [83, 71]), line([74, 55], [81, 55]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-modular-data-center", "azure", "Modular Data Center", ["02323-icon-service-Modular-Data-Center"],
+    "A modular data center groups portable server racks.",
+    [
+      line([15, 36], [62, 18], [109, 36], [109, 82], [62, 101], [15, 82], [15, 36]), line([15, 36], [62, 54], [109, 36]), line([62, 54], [62, 101]),
+      line([27, 45], [50, 54], [50, 78], [27, 69], [27, 45]), line([31, 54], [46, 60]), line([31, 63], [46, 69]), line([74, 54], [97, 45], [97, 69], [74, 78], [74, 54]), line([78, 60], [93, 54]), line([78, 69], [93, 63]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-template-specs", "azure", "Template Specs", ["02340-icon-service-Template-Specs"],
+    "A versioned template specifies infrastructure resources.",
+    [
+      line([23, 20], [76, 20], [88, 32], [88, 91], [23, 91], [23, 20]), line([76, 20], [76, 32], [88, 32]), line([33, 40], [43, 49], [33, 58]), line([57, 40], [67, 49], [57, 58]), line([54, 36], [46, 62]),
+      line([34, 72], [77, 72]), oval(75, 76, 28, 28), line([89, 81], [89, 90], [96, 93]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-backup-vault", "azure", "Backup Vault", ["02361-icon-service-Backup-Vault"],
+    "A vault stores recoverable backups.",
+    [
+      rect(25, 20, 75, 75), line([25, 33], [100, 33]), oval(47, 42, 31, 31), line([54, 59], [56, 53], [62, 50], [68, 53], [70, 58]), line([65, 56], [70, 59], [73, 54]), line([69, 63], [64, 67], [57, 65]),
+      line([34, 83], [88, 83]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-device-update-iot-hub", "azure", "Device Update for IoT Hub", ["02475-icon-service-Device-Update-IoT-Hub"],
+    "An IoT hub distributes updates to connected devices.",
+    [
+      rect(45, 37, 34, 31), line([51, 45], [73, 45]), line([51, 55], [73, 55]), line([62, 68], [62, 83]), line([62, 83], [31, 83]), line([62, 83], [94, 83]), rect(20, 83, 22, 13), rect(83, 83, 22, 13),
+      line([34, 35], [39, 24], [50, 18], [65, 17], [76, 22]), line([69, 16], [76, 22], [68, 27]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-toolchain-orchestrator", "azure", "Toolchain Orchestrator", ["029109619-icon-service-Toolchain-Orchestrator"],
     "An orchestrator coordinates tools in a delivery workflow.",
     [

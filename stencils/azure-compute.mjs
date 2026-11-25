@@ -1,6 +1,18 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-disk-pool", "azure", "Disk Pool", ["02560-icon-service-Disk-Pool"],
+    "A pool groups disks for shared storage.",
+    [
+      line([21, 28], [13, 28], [13, 89], [21, 89]), line([103, 28], [111, 28], [111, 89], [103, 89]),
+      oval(26, 27, 36, 13), line([26, 33], [26, 54], [31, 58], [44, 60], [57, 58], [62, 54], [62, 33]), oval(64, 48, 36, 13), line([64, 54], [64, 75], [69, 79], [82, 81], [95, 79], [100, 75], [100, 54]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-bare-metal-infrastructure", "azure", "Bare Metal Infrastructure", ["02561-icon-service-Bare-Metal-Infrastructure"],
+    "Dedicated physical servers run directly on hardware.",
+    [
+      rect(24, 20, 76, 68), line([24, 36], [100, 36]), line([24, 52], [100, 52]), line([24, 68], [100, 68]), oval(32, 25, 6, 6, true), oval(32, 41, 6, 6, true), oval(32, 57, 6, 6, true), oval(32, 74, 6, 6, true), line([48, 28], [90, 28]), line([48, 44], [90, 44]), line([48, 60], [90, 60]), line([48, 76], [90, 76]),
+      line([39, 96], [85, 96]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-biztalk", "azure", "BizTalk", ["10779-icon-service-Biz-Talk"],
     "An orchestration connects business applications and messages.",
     [
