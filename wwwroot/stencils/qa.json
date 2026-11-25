@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 966,
-  "aliases": 3703,
+  "count": 970,
+  "aliases": 3713,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -878,6 +878,7 @@
     "azure-service-fabric-clusters",
     "azure-host-groups",
     "azure-hosts",
+    "fabric-cube-cone-sphere",
     "fabric-area-location",
     "fabric-bar-edit",
     "fabric-circle-chart",
@@ -895,6 +896,7 @@
     "fabric-import-notebook",
     "fabric-my-workspace",
     "fabric-sample",
+    "fabric-datatype-uid",
     "fabric-branch-link",
     "fabric-briefcase-pulse",
     "fabric-retail-link",
@@ -908,6 +910,8 @@
     "fabric-square-waves",
     "fabric-stream-bracket",
     "fabric-stream-settings",
+    "fabric-cloud-endpoint",
+    "fabric-connector",
     "fabric-cloud-up-down",
     "fabric-code-text-flash",
     "fabric-folder-share",
@@ -1045,8 +1049,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1089,
-      "concepts": 188
+      "covered": 1099,
+      "concepts": 192
     },
     "entra": {
       "sources": 14,
@@ -1127,8 +1131,8 @@
       },
       {
         "a": "azure-sql-database",
-        "b": "azure-firewall",
-        "similarity": 0.2266
+        "b": "fabric-connector",
+        "similarity": 0.227
       }
     ],
     "azure-cosmos-db": [
@@ -1899,6 +1903,11 @@
     "gcp-cloud-run": [
       {
         "a": "gcp-cloud-run",
+        "b": "fabric-connector",
+        "similarity": 0.1972
+      },
+      {
+        "a": "gcp-cloud-run",
         "b": "azure-restore-point",
         "similarity": 0.1774
       },
@@ -1906,11 +1915,6 @@
         "a": "gcp-cloud-run",
         "b": "aws-marketplace",
         "similarity": 0.1714
-      },
-      {
-        "a": "gcp-cloud-run",
-        "b": "m365-document",
-        "similarity": 0.1702
       }
     ],
     "gcp-cloud-sql": [
@@ -3757,13 +3761,13 @@
       },
       {
         "a": "azure-ddos-plans",
-        "b": "aws-activate",
-        "similarity": 0.2164
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2207
       },
       {
-        "a": "azure-nat",
-        "b": "azure-ddos-plans",
-        "similarity": 0.2093
+        "a": "azure-ddos-plans",
+        "b": "aws-activate",
+        "similarity": 0.2164
       }
     ],
     "azure-data-factory": [
@@ -6965,6 +6969,11 @@
     "azure-private-link": [
       {
         "a": "azure-private-link",
+        "b": "fabric-connector",
+        "similarity": 0.1698
+      },
+      {
+        "a": "azure-private-link",
         "b": "aws-category-storage",
         "similarity": 0.1445
       },
@@ -6972,11 +6981,6 @@
         "a": "azure-private-link",
         "b": "fabric-chart-phone",
         "similarity": 0.1407
-      },
-      {
-        "a": "azure-private-link",
-        "b": "aws-kinesis",
-        "similarity": 0.1378
       }
     ],
     "azure-data-share": [
@@ -10347,6 +10351,11 @@
     ],
     "aws-activate": [
       {
+        "a": "aws-activate",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2451
+      },
+      {
         "a": "gcp-api-gateway",
         "b": "aws-activate",
         "similarity": 0.2431
@@ -10355,11 +10364,6 @@
         "a": "azure-ddos-plans",
         "b": "aws-activate",
         "similarity": 0.2164
-      },
-      {
-        "a": "aws-activate",
-        "b": "fabric-border-none-eye",
-        "similarity": 0.1981
       }
     ],
     "aws-iq": [
@@ -15951,7 +15955,29 @@
         "similarity": 0.1936
       }
     ],
+    "fabric-cube-cone-sphere": [
+      {
+        "a": "azure-management-groups",
+        "b": "fabric-cube-cone-sphere",
+        "similarity": 0.1834
+      },
+      {
+        "a": "aws-partner-central",
+        "b": "fabric-cube-cone-sphere",
+        "similarity": 0.1642
+      },
+      {
+        "a": "azure-cost-management-billing",
+        "b": "fabric-cube-cone-sphere",
+        "similarity": 0.1557
+      }
+    ],
     "fabric-area-location": [
+      {
+        "a": "fabric-area-location",
+        "b": "fabric-datatype-uid",
+        "similarity": 0.2412
+      },
       {
         "a": "dynamics-family",
         "b": "fabric-area-location",
@@ -15960,11 +15986,6 @@
       {
         "a": "fabric-area-location",
         "b": "fabric-bar-prohibited",
-        "similarity": 0.2024
-      },
-      {
-        "a": "fabric-area-location",
-        "b": "fabric-chart-phone",
         "similarity": 0.2024
       }
     ],
@@ -16240,6 +16261,23 @@
         "similarity": 0.423
       }
     ],
+    "fabric-datatype-uid": [
+      {
+        "a": "fabric-area-location",
+        "b": "fabric-datatype-uid",
+        "similarity": 0.2412
+      },
+      {
+        "a": "aws-lookout-equipment",
+        "b": "fabric-datatype-uid",
+        "similarity": 0.1877
+      },
+      {
+        "a": "aws-sagemaker-ai",
+        "b": "fabric-datatype-uid",
+        "similarity": 0.1787
+      }
+    ],
     "fabric-branch-link": [
       {
         "a": "fabric-branch-link",
@@ -16459,6 +16497,40 @@
         "a": "aws-firewall-manager",
         "b": "fabric-stream-settings",
         "similarity": 0.1733
+      }
+    ],
+    "fabric-cloud-endpoint": [
+      {
+        "a": "fabric-cloud-endpoint",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2587
+      },
+      {
+        "a": "aws-activate",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2451
+      },
+      {
+        "a": "azure-private-link-services",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2221
+      }
+    ],
+    "fabric-connector": [
+      {
+        "a": "azure-sql-database",
+        "b": "fabric-connector",
+        "similarity": 0.227
+      },
+      {
+        "a": "gcp-cloud-run",
+        "b": "fabric-connector",
+        "similarity": 0.1972
+      },
+      {
+        "a": "m365-document",
+        "b": "fabric-connector",
+        "similarity": 0.1805
       }
     ],
     "fabric-cloud-up-down": [
@@ -16907,6 +16979,11 @@
     ],
     "fabric-border-none-eye": [
       {
+        "a": "fabric-cloud-endpoint",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2587
+      },
+      {
         "a": "aws-finspace",
         "b": "fabric-border-none-eye",
         "similarity": 0.2028
@@ -16915,11 +16992,6 @@
         "a": "fabric-folder-share",
         "b": "fabric-border-none-eye",
         "similarity": 0.2028
-      },
-      {
-        "a": "aws-data-transfer-terminal",
-        "b": "fabric-border-none-eye",
-        "similarity": 0.1995
       }
     ],
     "fabric-calculator-brackets": [

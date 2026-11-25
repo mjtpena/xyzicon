@@ -5,6 +5,16 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
 const nonItem = (name) => [20, 24, 32, 40, 48, 64].map((size) => `${name}_${size}_non-item`);
 
 export const fabricVisualArtwork = [
+  entry("fabric-cube-cone-sphere", "fabric", "Cube cone sphere",
+    variants("cube_cone_sphere", [20]),
+    "A cube, a cone and a sphere represent three-dimensional objects.",
+    [
+      oval(43, 13, 37, 37),
+      line([12, 57], [29, 47], [46, 57], [46, 79], [29, 89], [12, 79], [12, 57]),
+      line([12, 57], [29, 67], [46, 57]), line([29, 67], [29, 89]),
+      line([85, 43], [62, 96], [68, 102], [85, 105], [102, 102], [108, 96], [85, 43]),
+      line([20, 115], [108, 115]),
+    ]),
   entry("fabric-area-location", "fabric", "Area chart location",
     variants("data_area_location", [20]),
     "A location marker identifies a point on an area chart.",

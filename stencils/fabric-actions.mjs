@@ -4,6 +4,23 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricActionArtwork = [
+  entry("fabric-cloud-endpoint", "fabric", "Cloud endpoint",
+    variants("cloud_endpoint", [20]),
+    "A cloud reaches a network endpoint through a radio connection.",
+    [
+      line([26, 71], [19, 67], [17, 59], [20, 51], [28, 48], [32, 38], [42, 33], [53, 35], [60, 41], [63, 49], [74, 49], [81, 55], [82, 63], [78, 70]),
+      oval(49, 79, 14, 14, true), line([64, 86], [98, 86]),
+      line([45, 70], [53, 67], [62, 70], [67, 77]), line([39, 61], [53, 56], [67, 61], [75, 73]),
+      line([18, 110], [109, 110]),
+    ]),
+  entry("fabric-connector", "fabric", "Connector",
+    variants("connector", [20]),
+    "Two interlocking terminals connect a line across a gap.",
+    [
+      line([10, 64], [27, 64]), line([101, 64], [118, 64]),
+      line([27, 39], [52, 39], [52, 51], [70, 51], [70, 64], [52, 64], [52, 90], [27, 90], [27, 39]),
+      line([101, 39], [76, 39], [76, 51], [58, 51]), line([58, 64], [76, 64], [76, 90], [101, 90], [101, 39]),
+    ]),
   entry("fabric-cloud-up-down", "fabric", "Cloud arrow up down",
     variants("cloud_arrow_up_down", [20]),
     "Opposing arrows exchange data with a cloud.",

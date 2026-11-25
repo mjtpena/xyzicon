@@ -4,6 +4,14 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricDataSymbolArtwork = [
+  entry("fabric-datatype-uid", "fabric", "Unique identifier data type",
+    variants("datatype_unique_identifier", [16, 20]),
+    "The letters UID identify a unique identifier data type.",
+    [
+      line([13, 32], [13, 84], [16, 96], [25, 102], [34, 96], [37, 84], [37, 32]),
+      line([53, 32], [53, 102]),
+      line([70, 32], [70, 102], [85, 102], [98, 96], [107, 83], [109, 67], [107, 51], [98, 38], [85, 32], [70, 32]),
+    ]),
   entry("fabric-branch-link", "fabric", "Branch fork link",
     variants("branch_fork_link", [20, 24, 32]),
     "A forked path joins a separate linked chain.",
