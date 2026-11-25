@@ -1,6 +1,95 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-arc-machines", "azure", "Arc Machines", ["01710-icon-service-Arc-Machines"],
+    "Hybrid machines are attached to a cloud management plane.",
+    [
+      rect(14, 33, 38, 48), line([14, 45], [52, 45]), line([21, 54], [44, 54]), line([21, 65], [40, 65]), oval(20, 38, 4, 4, true),
+      line([52, 58], [70, 58]), line([64, 52], [70, 58], [64, 64]),
+      line([81, 44], [77, 40], [79, 33], [86, 30], [92, 32], [97, 25], [105, 26], [110, 32], [109, 38], [115, 42], [114, 48], [109, 52], [81, 52], [76, 49], [81, 44]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-machines-azure-arc", "azure", "Machines Azure Arc", ["10450-icon-service-MachinesAzureArc"],
+    "An Arc-connected server is managed alongside its configuration.",
+    [
+      rect(14, 19, 47, 19), rect(14, 42, 47, 19), rect(14, 65, 47, 19), oval(21, 26, 5, 5, true), oval(21, 49, 5, 5, true), oval(21, 72, 5, 5, true), line([33, 28], [53, 28]), line([33, 51], [53, 51]), line([33, 74], [53, 74]),
+      line([71, 33], [108, 33]), oval(80, 29, 8, 8), line([71, 52], [108, 52]), oval(94, 48, 8, 8), line([71, 71], [108, 71]), oval(82, 67, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resources-provider", "azure", "Resources Provider", ["03366-icon-service-Resources-Provider"],
+    "A provider supplies several resource types.",
+    [
+      rect(12, 32, 32, 40), line([12, 42], [44, 42]), line([19, 51], [37, 51]), line([19, 60], [34, 60]),
+      line([44, 52], [59, 52]), line([53, 46], [59, 52], [53, 58]), line([74, 26], [88, 18], [102, 26], [102, 42], [88, 50], [74, 42], [74, 26]),
+      line([62, 67], [76, 59], [90, 67], [90, 83], [76, 91], [62, 83], [62, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-managed-applications-center", "azure", "Managed Applications Center", ["10313-icon-service-Managed-Applications-Center"],
+    "A central dashboard manages application packages.",
+    [
+      rect(13, 19, 76, 65), line([13, 32], [89, 32]), line([20, 26], [25, 26]), rect(22, 42, 18, 15), rect(46, 42, 18, 15), rect(22, 63, 18, 15), rect(46, 63, 18, 15),
+      oval(78, 55, 30, 30), line([93, 49], [93, 55]), line([93, 85], [93, 91]), line([72, 70], [78, 70]), line([108, 70], [114, 70]), oval(88, 65, 10, 10), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-service-catalog-mad", "azure", "Service Catalog MAD", ["00027-icon-service-Service-Catalog-MAD"],
+    "A catalog lists available managed application definitions.",
+    [
+      line([19, 16], [84, 16], [96, 28], [96, 93], [19, 93], [19, 16]), line([84, 16], [84, 28], [96, 28]),
+      rect(28, 35, 18, 15), line([54, 39], [86, 39]), line([54, 47], [79, 47]), rect(28, 57, 18, 15), line([54, 61], [86, 61]), line([54, 69], [79, 69]), line([29, 82], [85, 82]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-intune-trends", "azure", "Intune Trends", ["00408-icon-service-Intune-Trends"],
+    "A trend chart summarizes managed device activity.",
+    [
+      line([17, 81], [17, 24]), line([17, 81], [104, 81]), rect(27, 61, 13, 20), rect(49, 51, 13, 30), rect(71, 41, 13, 40),
+      line([26, 51], [48, 41], [63, 45], [91, 24]), line([84, 24], [91, 24], [91, 31]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-lighthouse", "azure", "Azure Lighthouse", ["00471-icon-service-Azure-Lighthouse"],
+    "A lighthouse overlooks multiple managed environments.",
+    [
+      line([45, 80], [49, 37], [73, 37], [77, 80], [45, 80]), line([46, 37], [61, 23], [76, 37]), rect(54, 46, 14, 14), line([40, 80], [82, 80]),
+      line([35, 48], [16, 43]), line([35, 55], [13, 55]), line([87, 48], [106, 43]), line([87, 55], [109, 55]), line([25, 90], [96, 90]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-arc", "azure", "Azure Arc", ["00756-icon-service-Azure-Arc"],
+    "A cloud management plane spans on-premises and edge machines.",
+    [
+      line([47, 31], [43, 27], [45, 20], [52, 17], [59, 19], [64, 12], [73, 13], [78, 20], [77, 26], [84, 30], [83, 38], [78, 42], [47, 42], [42, 38], [47, 31]),
+      line([16, 68], [22, 55], [32, 46], [42, 42]), line([84, 42], [94, 46], [104, 55], [110, 68]),
+      rect(9, 68, 26, 21), rect(89, 68, 26, 21), line([15, 75], [29, 75]), line([95, 75], [109, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-service-group-relationships", "azure", "Service Group Relationships", ["030777508-icon-service-Service-Group-Relationships", "030777508 -icon-service-Service-Group-Relationships"],
+    "Two service groups are connected by a relationship.",
+    [
+      line([14, 30], [31, 20], [48, 30], [48, 49], [31, 59], [14, 49], [14, 30]), line([14, 30], [31, 40], [48, 30]), line([31, 40], [31, 59]),
+      line([76, 54], [93, 44], [110, 54], [110, 73], [93, 83], [76, 73], [76, 54]), line([76, 54], [93, 64], [110, 54]), line([93, 64], [93, 83]),
+      line([48, 39], [62, 39], [62, 64], [76, 64]), line([70, 58], [76, 64], [70, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-user-privacy", "azure", "User Privacy", ["10303-icon-service-User-Privacy"],
+    "A user controls the visibility of their identity.",
+    [
+      oval(14, 27, 25, 25), line([9, 79], [11, 67], [18, 60], [27, 57], [36, 60], [43, 67], [45, 79]),
+      line([58, 52], [66, 43], [76, 39], [87, 39], [97, 43], [105, 52], [97, 61], [87, 65], [76, 65], [66, 61], [58, 52]), oval(75, 45, 14, 14), line([61, 71], [102, 32]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-managed-desktop", "azure", "Managed Desktop", ["10311-icon-service-Managed-Desktop"],
+    "A managed desktop displays a successful configuration.",
+    [
+      rect(14, 21, 94, 58), line([14, 33], [108, 33]), line([22, 27], [27, 27]), line([42, 52], [54, 63], [77, 41]),
+      line([48, 79], [48, 91], [73, 91]), line([61, 79], [61, 91]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-customer-lockbox", "azure", "Customer Lockbox for Microsoft Azure", ["10314-icon-service-Customer-Lockbox-for-Microsoft-Azure"],
+    "A customer approves time-limited access to a locked resource.",
+    [
+      rect(15, 44, 49, 36), line([23, 44], [23, 34], [28, 27], [39, 24], [50, 27], [55, 34], [55, 44]), oval(35, 55, 8, 8, true), line([39, 63], [39, 71]),
+      line([70, 43], [78, 51], [94, 34]), line([70, 72], [78, 80], [94, 63]), line([99, 43], [110, 43]), line([99, 72], [110, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-policy", "azure", "Policy", ["10316-icon-service-Policy"],
+    "A policy sets rules for protected resources.",
+    [
+      line([20, 15], [78, 15], [91, 28], [91, 92], [20, 92], [20, 15]), line([78, 15], [78, 28], [91, 28]),
+      line([29, 39], [35, 45], [45, 33]), line([50, 40], [81, 40]), line([29, 59], [35, 65], [45, 53]), line([50, 60], [81, 60]),
+      line([29, 79], [35, 85], [45, 73]), line([50, 80], [81, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resource-graph-explorer", "azure", "Resource Graph Explorer", ["10318-icon-service-Resource-Graph-Explorer"],
+    "A magnifier inspects relationships between resources.",
+    [
+      oval(15, 23, 14, 14), oval(53, 14, 14, 14), oval(54, 55, 14, 14), line([29, 30], [53, 21]), line([26, 37], [54, 60]),
+      oval(63, 42, 34, 34), line([89, 69], [107, 87]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-alerts", "azure", "Alerts", ["00002-icon-service-Alerts"],
     "A bell announces an alert.",
     [
