@@ -453,8 +453,8 @@ export const awsStorageResourcesArtwork = [
   entry("aws-backup-recovery-point-objective", "aws", "Backup Recovery Point Objective", ["Res_AWS-Backup_Recovery-Point-Objective_48"],
     "A timeline marks the allowable age of a recovery point.",
     [
-      line([16, 59], [106, 59]), line([16, 50], [16, 68]), line([106, 50], [106, 68]), oval(36, 50, 18, 18), line([45, 50], [45, 33]), line([34, 29], [56, 29]),
-      line([87, 47], [87, 71]), line([81, 47], [93, 47]), line([81, 71], [93, 71]), line([59, 82], [93, 82]), line([65, 77], [59, 82], [65, 87]), line([14, 109], [110, 109]),
+      oval(15, 17, 36, 36), line([33, 25], [33, 35], [42, 40]), line([33, 53], [33, 75]), oval(28, 75, 10, 10, true),
+      line([18, 80], [108, 80]), line([89, 72], [89, 88]), line([56, 58], [91, 58]), line([62, 52], [56, 58], [62, 64]), line([14, 109], [110, 109]),
     ]),
   entry("aws-backup-recovery-time-objective", "aws", "Backup Recovery Time Objective", ["Res_AWS-Backup_Recovery-Time-Objective_48"],
     "A stopwatch measures the time allowed for recovery.",
