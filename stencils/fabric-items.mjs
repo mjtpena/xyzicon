@@ -148,7 +148,10 @@ export const fabricItemsArtwork = [
       polygon([57, 42], [71, 42], [71, 53], [82, 53], [82, 67], [71, 67], [71, 78], [57, 78], [57, 67], [46, 67], [46, 53], [57, 53]),
       line([23, 91], [35, 91], [41, 82], [47, 99], [53, 91], [102, 91]),
     ]),
-  entry("fabric-kql-database", "fabric", "KQL Database", item("kql_database"),
+  entry("fabric-kql-database", "fabric", "KQL Database", [
+    ...item("kql_database"),
+    ...[20, 24, 32].flatMap((size) => ["filled", "regular"].map((style) => `database_kql_${size}_${style}`)),
+  ],
     "A queryable event database has a fast time-series index.",
     [
       oval(18, 18, 70, 22, true), line([18, 29], [18, 98], [32, 106], [74, 106], [88, 98], [88, 29]),

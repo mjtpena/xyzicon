@@ -4,6 +4,34 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricDataSymbolArtwork = [
+  entry("fabric-document-power-query", "fabric", "Power Query document",
+    variants("document_pq", [16, 20, 24, 32]),
+    "A document is marked with the Power Query initials.",
+    [
+      line([21, 12], [80, 12], [105, 37], [105, 111], [21, 111], [21, 12]), line([80, 12], [80, 37], [105, 37]),
+      line([34, 52], [34, 94]), line([34, 52], [49, 52], [56, 57], [56, 66], [49, 71], [34, 71]),
+      oval(66, 52, 23, 36), line([80, 81], [91, 94]), line([33, 103], [94, 103]),
+    ]),
+  entry("fabric-gauge-kql", "fabric", "KQL gauge",
+    variants("gauge_kql", [16, 20, 24, 32]),
+    "A query lens examines the reading of a live data gauge.",
+    [
+      line([14, 86], [14, 70], [20, 53], [31, 40], [46, 33], [63, 31], [80, 35], [94, 45], [102, 59]),
+      line([23, 83], [23, 71]), line([31, 55], [37, 61]), line([57, 42], [57, 50]), line([82, 50], [77, 56]),
+      oval(51, 69, 13, 13), line([58, 75], [79, 58]), line([22, 94], [67, 94]),
+      oval(76, 72, 25, 25), line([96, 92], [111, 106]),
+      line([22, 113], [105, 113]),
+    ]),
+  entry("fabric-home-kql", "fabric", "KQL home",
+    variants("home_kql", [16, 20, 24, 32]),
+    "A KQL workspace home displays a time-series query.",
+    [
+      line([12, 57], [61, 16], [110, 57]), line([22, 49], [22, 107], [99, 107], [99, 49]),
+      rect(37, 55, 48, 36), line([43, 84], [43, 62]), line([43, 84], [79, 84]),
+      line([47, 78], [54, 72], [61, 77], [68, 65], [77, 69]),
+      line([36, 33], [36, 22], [49, 22], [49, 26]),
+      line([35, 115], [89, 115]),
+    ]),
   entry("fabric-datatype-uid", "fabric", "Unique identifier data type",
     variants("datatype_unique_identifier", [16, 20]),
     "The letters UID identify a unique identifier data type.",

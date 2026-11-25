@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 996,
-  "aliases": 3741,
+  "count": 999,
+  "aliases": 3771,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -922,6 +922,9 @@
     "fabric-import-notebook",
     "fabric-my-workspace",
     "fabric-sample",
+    "fabric-document-power-query",
+    "fabric-gauge-kql",
+    "fabric-home-kql",
     "fabric-datatype-uid",
     "fabric-branch-link",
     "fabric-briefcase-pulse",
@@ -1075,8 +1078,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1099,
-      "concepts": 192
+      "covered": 1129,
+      "concepts": 195
     },
     "entra": {
       "sources": 14,
@@ -1429,8 +1432,8 @@
       },
       {
         "a": "m365-upload",
-        "b": "aws-device-farm",
-        "similarity": 0.1559
+        "b": "fabric-home-kql",
+        "similarity": 0.1625
       }
     ],
     "m365-download": [
@@ -3459,6 +3462,11 @@
     "m365-document-key": [
       {
         "a": "m365-document-key",
+        "b": "fabric-document-power-query",
+        "similarity": 0.2468
+      },
+      {
+        "a": "m365-document-key",
         "b": "fabric-report",
         "similarity": 0.2154
       },
@@ -3466,11 +3474,6 @@
         "a": "m365-document-key",
         "b": "fabric-restricted-report",
         "similarity": 0.2057
-      },
-      {
-        "a": "m365-document-key",
-        "b": "m365-document-text",
-        "similarity": 0.2055
       }
     ],
     "m365-fingerprint": [
@@ -10123,6 +10126,11 @@
     "fabric-data-warehouse-product": [
       {
         "a": "fabric-data-warehouse-product",
+        "b": "fabric-home-kql",
+        "similarity": 0.255
+      },
+      {
+        "a": "fabric-data-warehouse-product",
         "b": "aws-gamelift-streams",
         "similarity": 0.251
       },
@@ -10130,11 +10138,6 @@
         "a": "m365-road-cone",
         "b": "fabric-data-warehouse-product",
         "similarity": 0.2425
-      },
-      {
-        "a": "fabric-data-warehouse-product",
-        "b": "aws-nitro-enclaves",
-        "similarity": 0.2306
       }
     ],
     "fabric-databases": [
@@ -13103,14 +13106,14 @@
         "similarity": 0.2289
       },
       {
+        "a": "m365-cloud-upload",
+        "b": "fabric-home-kql",
+        "similarity": 0.1781
+      },
+      {
         "a": "m365-cloud-download",
         "b": "m365-cloud-upload",
         "similarity": 0.1722
-      },
-      {
-        "a": "m365-cloud-upload",
-        "b": "fabric-column-relationship",
-        "similarity": 0.1713
       }
     ],
     "m365-cloud-beaker": [
@@ -13154,14 +13157,14 @@
         "similarity": 0.2289
       },
       {
+        "a": "m365-cloud-database",
+        "b": "fabric-home-kql",
+        "similarity": 0.203
+      },
+      {
         "a": "aws-network-firewall",
         "b": "m365-cloud-database",
         "similarity": 0.1669
-      },
-      {
-        "a": "m365-cloud-database",
-        "b": "fabric-overlapping-squares",
-        "similarity": 0.1523
       }
     ],
     "m365-cloud-desktop": [
@@ -16727,6 +16730,57 @@
         "a": "m365-text-bullet-list-square",
         "b": "fabric-sample",
         "similarity": 0.423
+      }
+    ],
+    "fabric-document-power-query": [
+      {
+        "a": "m365-document-key",
+        "b": "fabric-document-power-query",
+        "similarity": 0.2468
+      },
+      {
+        "a": "m365-document-text",
+        "b": "fabric-document-power-query",
+        "similarity": 0.2359
+      },
+      {
+        "a": "m365-office-notebook",
+        "b": "fabric-document-power-query",
+        "similarity": 0.219
+      }
+    ],
+    "fabric-gauge-kql": [
+      {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "fabric-gauge-kql",
+        "similarity": 0.1744
+      },
+      {
+        "a": "azure-subscriptions",
+        "b": "fabric-gauge-kql",
+        "similarity": 0.1715
+      },
+      {
+        "a": "gcp-category-management",
+        "b": "fabric-gauge-kql",
+        "similarity": 0.1654
+      }
+    ],
+    "fabric-home-kql": [
+      {
+        "a": "fabric-data-warehouse-product",
+        "b": "fabric-home-kql",
+        "similarity": 0.255
+      },
+      {
+        "a": "aws-nitro-enclaves",
+        "b": "fabric-home-kql",
+        "similarity": 0.2201
+      },
+      {
+        "a": "m365-cloud-database",
+        "b": "fabric-home-kql",
+        "similarity": 0.203
       }
     ],
     "fabric-datatype-uid": [
