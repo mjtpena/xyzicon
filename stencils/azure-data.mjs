@@ -1,6 +1,18 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-fhir-service", "azure", "FHIR Service", ["02658-icon-service-FHIR-Service"],
+    "FHIR healthcare records are stored and exchanged.",
+    [
+      line([19, 16], [72, 16], [86, 30], [86, 91], [19, 91], [19, 16]), line([72, 16], [72, 30], [86, 30]), line([30, 43], [39, 43], [39, 34], [48, 34], [48, 43], [57, 43], [57, 52], [48, 52], [48, 61], [39, 61], [39, 52], [30, 52], [30, 43]),
+      line([29, 71], [75, 71]), line([29, 81], [68, 81]), line([89, 48], [108, 48]), line([101, 41], [108, 48], [101, 55]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-medtech-service", "azure", "MedTech Service", ["02660-icon-service-MedTech-Service"],
+    "Medical device measurements flow into a healthcare service.",
+    [
+      rect(13, 23, 38, 64), line([13, 35], [51, 35]), line([21, 70], [26, 70], [30, 52], [35, 75], [39, 61], [44, 61]),
+      line([51, 55], [72, 55]), line([65, 48], [72, 55], [65, 62]), oval(76, 37, 33, 11), line([76, 42], [76, 72], [81, 76], [92, 78], [103, 76], [109, 72], [109, 42]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-storage-accounts-classic", "azure", "Storage Accounts Classic", ["10087-icon-service-Storage-Accounts-(Classic)"],
     "A classic account organizes stored files.",
     [

@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2144,
-  "aliases": 5326,
+  "count": 2153,
+  "aliases": 5335,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -525,6 +525,8 @@
     "fabric-sql-database",
     "fabric-sustainability",
     "fabric-variable-library",
+    "azure-fhir-service",
+    "azure-medtech-service",
     "azure-storage-accounts-classic",
     "azure-storsimple-device-managers",
     "azure-data-lake-gen1",
@@ -928,6 +930,13 @@
     "azure-connected-cache",
     "azure-spot-vm",
     "azure-spot-vmss",
+    "azure-reserved-capacity",
+    "azure-capacity-reservation-groups",
+    "azure-custom-ip-prefix",
+    "azure-confidential-ledgers",
+    "azure-orbital",
+    "azure-windows-notification-services",
+    "azure-test-base",
     "azure-chaos-studio",
     "azure-network-managers",
     "azure-dedicated-hsm",
@@ -2414,8 +2423,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 631,
-      "concepts": 549
+      "covered": 640,
+      "concepts": 558
     },
     "fabric": {
       "sources": 1584,
@@ -4519,13 +4528,13 @@
       },
       {
         "a": "gcp-spanner",
-        "b": "fabric-experiment",
-        "similarity": 0.2522
+        "b": "azure-reserved-capacity",
+        "similarity": 0.2599
       },
       {
         "a": "gcp-spanner",
-        "b": "aws-dynamodb-infrequent-table-class",
-        "similarity": 0.25
+        "b": "fabric-experiment",
+        "similarity": 0.2522
       }
     ],
     "gcp-functions": [
@@ -6061,6 +6070,11 @@
     "azure-api-fhir": [
       {
         "a": "azure-api-fhir",
+        "b": "azure-medtech-service",
+        "similarity": 0.3322
+      },
+      {
+        "a": "azure-api-fhir",
         "b": "aws-iot-shadow",
         "similarity": 0.3112
       },
@@ -6068,11 +6082,6 @@
         "a": "azure-api-fhir",
         "b": "aws-database-migration-workflow",
         "similarity": 0.3083
-      },
-      {
-        "a": "azure-api-fhir",
-        "b": "azure-entra-connect-health",
-        "similarity": 0.3024
       }
     ],
     "azure-software-as-service": [
@@ -6945,6 +6954,11 @@
     "m365-mail": [
       {
         "a": "m365-mail",
+        "b": "azure-test-base",
+        "similarity": 0.2471
+      },
+      {
+        "a": "m365-mail",
         "b": "m365-shifts",
         "similarity": 0.2358
       },
@@ -6952,11 +6966,6 @@
         "a": "m365-data-area",
         "b": "m365-mail",
         "similarity": 0.2296
-      },
-      {
-        "a": "m365-mail",
-        "b": "aws-transfer-family",
-        "similarity": 0.2124
       }
     ],
     "m365-office-notebook": [
@@ -7992,8 +8001,8 @@
       },
       {
         "a": "gcp-performance-dashboard",
-        "b": "aws-redshift-auto-copy",
-        "similarity": 0.2239
+        "b": "azure-reserved-capacity",
+        "similarity": 0.2253
       }
     ],
     "gcp-network-connectivity-center": [
@@ -11294,6 +11303,40 @@
         "similarity": 0.3343
       }
     ],
+    "azure-fhir-service": [
+      {
+        "a": "azure-fhir-service",
+        "b": "aws-cloudsearch-documents",
+        "similarity": 0.3232
+      },
+      {
+        "a": "azure-fhir-service",
+        "b": "aws-backup-plan",
+        "similarity": 0.3169
+      },
+      {
+        "a": "azure-fhir-service",
+        "b": "aws-cloudwatch-data-protection",
+        "similarity": 0.2947
+      }
+    ],
+    "azure-medtech-service": [
+      {
+        "a": "azure-api-fhir",
+        "b": "azure-medtech-service",
+        "similarity": 0.3322
+      },
+      {
+        "a": "azure-medtech-service",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.3281
+      },
+      {
+        "a": "azure-medtech-service",
+        "b": "aws-iot-device-advisor",
+        "similarity": 0.3007
+      }
+    ],
     "azure-storage-accounts-classic": [
       {
         "a": "azure-storage-accounts-classic",
@@ -12544,6 +12587,11 @@
     ],
     "aws-cloudsearch-documents": [
       {
+        "a": "azure-fhir-service",
+        "b": "aws-cloudsearch-documents",
+        "similarity": 0.3232
+      },
+      {
         "a": "aws-cloudsearch-documents",
         "b": "azure-frd-qa",
         "similarity": 0.3159
@@ -12552,11 +12600,6 @@
         "a": "aws-cloudsearch-documents",
         "b": "fabric-home-lightning",
         "similarity": 0.2541
-      },
-      {
-        "a": "gcp-anthos-config-management",
-        "b": "aws-cloudsearch-documents",
-        "similarity": 0.2439
       }
     ],
     "aws-emr-cluster": [
@@ -13183,9 +13226,9 @@
         "similarity": 0.2297
       },
       {
-        "a": "aws-rds",
-        "b": "aws-managed-flink",
-        "similarity": 0.2141
+        "a": "aws-managed-flink",
+        "b": "azure-confidential-ledgers",
+        "similarity": 0.2215
       }
     ],
     "aws-managed-kafka": [
@@ -14857,6 +14900,11 @@
     "aws-sagemaker-studio-lab": [
       {
         "a": "aws-sagemaker-studio-lab",
+        "b": "azure-test-base",
+        "similarity": 0.3416
+      },
+      {
+        "a": "aws-sagemaker-studio-lab",
         "b": "azure-mobile",
         "similarity": 0.335
       },
@@ -14864,11 +14912,6 @@
         "a": "aws-sagemaker-studio-lab",
         "b": "azure-software-updates",
         "similarity": 0.3333
-      },
-      {
-        "a": "aws-sagemaker-studio-lab",
-        "b": "aws-organizations-management-account",
-        "similarity": 0.3084
       }
     ],
     "aws-nova": [
@@ -15609,13 +15652,13 @@
         "similarity": 0.3439
       },
       {
-        "a": "azure-entra-connect-health",
-        "b": "aws-route53-resolver",
-        "similarity": 0.3125
+        "a": "azure-medtech-service",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.3281
       },
       {
         "a": "azure-entra-connect-health",
-        "b": "azure-verification-service",
+        "b": "aws-route53-resolver",
         "similarity": 0.3125
       }
     ],
@@ -16234,6 +16277,11 @@
     "azure-planetary-computer": [
       {
         "a": "azure-planetary-computer",
+        "b": "azure-capacity-reservation-groups",
+        "similarity": 0.3659
+      },
+      {
+        "a": "azure-planetary-computer",
         "b": "azure-bastions",
         "similarity": 0.3029
       },
@@ -16241,11 +16289,6 @@
         "a": "azure-planetary-computer",
         "b": "azure-power",
         "similarity": 0.2884
-      },
-      {
-        "a": "azure-planetary-computer",
-        "b": "aws-general-database",
-        "similarity": 0.2861
       }
     ],
     "azure-language": [
@@ -17241,14 +17284,14 @@
         "similarity": 0.2724
       },
       {
-        "a": "azure-industrial-iot",
-        "b": "azure-arc-machines",
-        "similarity": 0.2688
+        "a": "azure-medtech-service",
+        "b": "azure-industrial-iot",
+        "similarity": 0.2716
       },
       {
         "a": "azure-industrial-iot",
-        "b": "azure-device-provisioning",
-        "similarity": 0.2577
+        "b": "azure-arc-machines",
+        "similarity": 0.2688
       }
     ],
     "azure-stack-hci-sizer": [
@@ -17604,8 +17647,8 @@
       },
       {
         "a": "azure-communications-gateway",
-        "b": "azure-container-services-classic",
-        "similarity": 0.2764
+        "b": "azure-capacity-reservation-groups",
+        "similarity": 0.2788
       }
     ],
     "azure-application-gateway-containers": [
@@ -18167,6 +18210,125 @@
         "a": "azure-spot-vmss",
         "b": "azure-dev-console",
         "similarity": 0.3224
+      }
+    ],
+    "azure-reserved-capacity": [
+      {
+        "a": "azure-reserved-capacity",
+        "b": "aws-systems-state-manager",
+        "similarity": 0.341
+      },
+      {
+        "a": "azure-reserved-capacity",
+        "b": "azure-blob-block",
+        "similarity": 0.3099
+      },
+      {
+        "a": "azure-ip-address-manager",
+        "b": "azure-reserved-capacity",
+        "similarity": 0.2982
+      }
+    ],
+    "azure-capacity-reservation-groups": [
+      {
+        "a": "azure-planetary-computer",
+        "b": "azure-capacity-reservation-groups",
+        "similarity": 0.3659
+      },
+      {
+        "a": "azure-capacity-reservation-groups",
+        "b": "azure-power-platform",
+        "similarity": 0.2923
+      },
+      {
+        "a": "azure-capacity-reservation-groups",
+        "b": "aws-server-contents",
+        "similarity": 0.2901
+      }
+    ],
+    "azure-custom-ip-prefix": [
+      {
+        "a": "azure-custom-ip-prefix",
+        "b": "azure-web-test",
+        "similarity": 0.3348
+      },
+      {
+        "a": "azure-custom-ip-prefix",
+        "b": "aws-systems-state-manager",
+        "similarity": 0.3232
+      },
+      {
+        "a": "azure-custom-ip-prefix",
+        "b": "aws-iam-long-term-credential",
+        "similarity": 0.3224
+      }
+    ],
+    "azure-confidential-ledgers": [
+      {
+        "a": "azure-confidential-ledgers",
+        "b": "aws-inspector-agent",
+        "similarity": 0.3384
+      },
+      {
+        "a": "azure-storage-accounts-classic",
+        "b": "azure-confidential-ledgers",
+        "similarity": 0.3265
+      },
+      {
+        "a": "azure-custom-ip-prefix",
+        "b": "azure-confidential-ledgers",
+        "similarity": 0.3109
+      }
+    ],
+    "azure-orbital": [
+      {
+        "a": "azure-orbital",
+        "b": "aws-general-recover",
+        "similarity": 0.235
+      },
+      {
+        "a": "azure-orbital",
+        "b": "aws-cloudwatch-logs",
+        "similarity": 0.2302
+      },
+      {
+        "a": "azure-orbital",
+        "b": "aws-s3-standard",
+        "similarity": 0.2297
+      }
+    ],
+    "azure-windows-notification-services": [
+      {
+        "a": "azure-windows-notification-services",
+        "b": "aws-ebs-snapshot",
+        "similarity": 0.3125
+      },
+      {
+        "a": "azure-windows-notification-services",
+        "b": "aws-mainframe-compiler",
+        "similarity": 0.3083
+      },
+      {
+        "a": "azure-windows-notification-services",
+        "b": "aws-systems-inventory",
+        "similarity": 0.2975
+      }
+    ],
+    "azure-test-base": [
+      {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "azure-test-base",
+        "similarity": 0.3416
+      },
+      {
+        "a": "azure-test-base",
+        "b": "azure-web-test",
+        "similarity": 0.3291
+      },
+      {
+        "a": "azure-test-base",
+        "b": "aws-mainframe-developer",
+        "similarity": 0.3273
       }
     ],
     "azure-chaos-studio": [
@@ -19196,14 +19358,14 @@
         "similarity": 0.2635
       },
       {
-        "a": "aws-greengrass-protocol",
-        "b": "azure-controls",
-        "similarity": 0.2421
+        "a": "azure-capacity-reservation-groups",
+        "b": "aws-greengrass-protocol",
+        "similarity": 0.2583
       },
       {
         "a": "aws-greengrass-protocol",
-        "b": "fabric-table-cdc",
-        "similarity": 0.2384
+        "b": "azure-controls",
+        "similarity": 0.2421
       }
     ],
     "aws-iot-device-gateway": [
@@ -20097,14 +20259,14 @@
         "similarity": 0.234
       },
       {
+        "a": "azure-orbital",
+        "b": "aws-iot-thing-windfarm",
+        "similarity": 0.2185
+      },
+      {
         "a": "aws-iot-sailboat",
         "b": "aws-iot-thing-windfarm",
         "similarity": 0.2177
-      },
-      {
-        "a": "aws-iot-thing-windfarm",
-        "b": "aws-app-mesh-virtual-node",
-        "similarity": 0.2137
       }
     ],
     "aws-iot-thing-bank": [
@@ -20131,14 +20293,14 @@
         "similarity": 0.2573
       },
       {
-        "a": "aws-iot-thing-bicycle",
-        "b": "azure-toolbox",
-        "similarity": 0.2274
+        "a": "azure-reserved-capacity",
+        "b": "aws-iot-thing-bicycle",
+        "similarity": 0.2404
       },
       {
         "a": "aws-iot-thing-bicycle",
-        "b": "aws-backup-cloudformation",
-        "similarity": 0.224
+        "b": "azure-toolbox",
+        "similarity": 0.2274
       }
     ],
     "aws-iot-thing-camera": [
@@ -20437,14 +20599,14 @@
         "similarity": 0.2358
       },
       {
-        "a": "aws-s3-object-lambda-access",
-        "b": "aws-vpc-router",
-        "similarity": 0.2133
+        "a": "azure-windows-notification-services",
+        "b": "aws-s3-object-lambda-access",
+        "similarity": 0.2136
       },
       {
         "a": "aws-s3-object-lambda-access",
-        "b": "aws-mediaconnect-gateway",
-        "similarity": 0.2099
+        "b": "aws-vpc-router",
+        "similarity": 0.2133
       }
     ],
     "aws-s3-object-lock": [
@@ -23213,9 +23375,9 @@
         "similarity": 0.3011
       },
       {
-        "a": "azure-verification-service",
+        "a": "azure-medtech-service",
         "b": "aws-discovery-agent-resource",
-        "similarity": 0.2638
+        "similarity": 0.2662
       }
     ],
     "aws-migration-evaluator-collector": [
@@ -23288,6 +23450,11 @@
     ],
     "aws-mainframe-compiler": [
       {
+        "a": "azure-windows-notification-services",
+        "b": "aws-mainframe-compiler",
+        "similarity": 0.3083
+      },
+      {
         "a": "aws-backup-storage-resource",
         "b": "aws-mainframe-compiler",
         "similarity": 0.3008
@@ -23296,11 +23463,6 @@
         "a": "aws-iot-device-tester",
         "b": "aws-mainframe-compiler",
         "similarity": 0.3008
-      },
-      {
-        "a": "aws-mainframe-compiler",
-        "b": "azure-disk-pool",
-        "similarity": 0.2949
       }
     ],
     "aws-mainframe-converter": [
@@ -23696,6 +23858,11 @@
     ],
     "aws-cloudwatch-logs": [
       {
+        "a": "azure-reserved-capacity",
+        "b": "aws-cloudwatch-logs",
+        "similarity": 0.295
+      },
+      {
         "a": "aws-cloudwatch-logs",
         "b": "azure-extensions",
         "similarity": 0.2937
@@ -23704,11 +23871,6 @@
         "a": "aws-cloudwatch-logs",
         "b": "aws-vpc-network-adapter",
         "similarity": 0.2915
-      },
-      {
-        "a": "aws-cloudwatch-logs",
-        "b": "aws-general-credentials",
-        "similarity": 0.2791
       }
     ],
     "aws-cloudwatch-metrics-insights": [
@@ -23900,6 +24062,11 @@
     ],
     "aws-systems-state-manager": [
       {
+        "a": "azure-reserved-capacity",
+        "b": "aws-systems-state-manager",
+        "similarity": 0.341
+      },
+      {
         "a": "aws-systems-state-manager",
         "b": "aws-dynamodb-standard-table-class",
         "similarity": 0.3318
@@ -23908,11 +24075,6 @@
         "a": "aws-systems-state-manager",
         "b": "aws-elasticache-redis",
         "similarity": 0.3238
-      },
-      {
-        "a": "aws-iot-action",
-        "b": "aws-systems-state-manager",
-        "similarity": 0.3216
       }
     ],
     "aws-systems-application-manager": [
@@ -25957,6 +26119,11 @@
     ],
     "aws-iam-sts": [
       {
+        "a": "azure-reserved-capacity",
+        "b": "aws-iam-sts",
+        "similarity": 0.2877
+      },
+      {
         "a": "aws-license-application-discovery",
         "b": "aws-iam-sts",
         "similarity": 0.2617
@@ -25965,11 +26132,6 @@
         "a": "azure-communication-services",
         "b": "aws-iam-sts",
         "similarity": 0.2609
-      },
-      {
-        "a": "aws-iam-sts",
-        "b": "azure-search-grid",
-        "similarity": 0.2557
       }
     ],
     "aws-iam-addon": [
@@ -26035,9 +26197,9 @@
         "similarity": 0.3395
       },
       {
-        "a": "aws-iot-fire-tv",
+        "a": "azure-custom-ip-prefix",
         "b": "aws-iam-long-term-credential",
-        "similarity": 0.3102
+        "similarity": 0.3224
       }
     ],
     "aws-iam-temporary-credential": [
@@ -29601,9 +29763,9 @@
         "similarity": 0.2957
       },
       {
-        "a": "aws-iot-fleet-hub",
+        "a": "azure-capacity-reservation-groups",
         "b": "aws-server-contents",
-        "similarity": 0.2782
+        "similarity": 0.2901
       }
     ],
     "aws-spot-fleet": [
@@ -29812,6 +29974,11 @@
     ],
     "aws-rds-proxy-instance": [
       {
+        "a": "azure-medtech-service",
+        "b": "aws-rds-proxy-instance",
+        "similarity": 0.29
+      },
+      {
         "a": "aws-vpc-vpn-connection",
         "b": "aws-rds-proxy-instance",
         "similarity": 0.2843
@@ -29820,11 +29987,6 @@
         "a": "azure-external-identities",
         "b": "aws-rds-proxy-instance",
         "similarity": 0.2747
-      },
-      {
-        "a": "aws-iot-device-advisor",
-        "b": "aws-rds-proxy-instance",
-        "similarity": 0.2673
       }
     ],
     "aws-database-migration-workflow": [
@@ -29919,14 +30081,14 @@
         "similarity": 0.355
       },
       {
+        "a": "azure-custom-ip-prefix",
+        "b": "aws-rds-multi-az",
+        "similarity": 0.3175
+      },
+      {
         "a": "aws-ebs-gp3-volume",
         "b": "aws-rds-multi-az",
         "similarity": 0.2966
-      },
-      {
-        "a": "azure-defender-local-manager",
-        "b": "aws-rds-multi-az",
-        "similarity": 0.2943
       }
     ],
     "aws-rds-optimized-writes": [
@@ -30560,6 +30722,11 @@
     ],
     "aws-ec2-image-builder": [
       {
+        "a": "azure-reserved-capacity",
+        "b": "aws-ec2-image-builder",
+        "similarity": 0.2015
+      },
+      {
         "a": "aws-general-ssl-padlock",
         "b": "aws-ec2-image-builder",
         "similarity": 0.1955
@@ -30568,11 +30735,6 @@
         "a": "aws-app-mesh-virtual-node",
         "b": "aws-ec2-image-builder",
         "similarity": 0.1915
-      },
-      {
-        "a": "aws-iot-thing-thermostat",
-        "b": "aws-ec2-image-builder",
-        "similarity": 0.1822
       }
     ],
     "aws-lightsail": [
@@ -32090,6 +32252,11 @@
     ],
     "azure-location": [
       {
+        "a": "azure-test-base",
+        "b": "azure-location",
+        "similarity": 0.3023
+      },
+      {
         "a": "aws-elasticache-redis",
         "b": "azure-location",
         "similarity": 0.289
@@ -32098,11 +32265,6 @@
         "a": "azure-location",
         "b": "azure-folder-blank",
         "similarity": 0.2862
-      },
-      {
-        "a": "azure-device-enrollment",
-        "b": "azure-location",
-        "similarity": 0.2704
       }
     ],
     "azure-log-streaming": [
@@ -32894,14 +33056,14 @@
         "similarity": 0.2709
       },
       {
+        "a": "azure-windows-notification-services",
+        "b": "azure-recent",
+        "similarity": 0.2571
+      },
+      {
         "a": "azure-video-indexer",
         "b": "azure-recent",
         "similarity": 0.2563
-      },
-      {
-        "a": "aws-cloudwatch-time-based",
-        "b": "azure-recent",
-        "similarity": 0.2506
       }
     ],
     "azure-templates": [
@@ -36499,14 +36661,14 @@
         "similarity": 0.1948
       },
       {
+        "a": "azure-fhir-service",
+        "b": "fabric-vehicle-ship",
+        "similarity": 0.1669
+      },
+      {
         "a": "aws-iot-thing-house",
         "b": "fabric-vehicle-ship",
         "similarity": 0.1632
-      },
-      {
-        "a": "aws-license-manager",
-        "b": "fabric-vehicle-ship",
-        "similarity": 0.1549
       }
     ],
     "fabric-vehicle-subway": [
@@ -37475,9 +37637,9 @@
         "similarity": 0.2463
       },
       {
-        "a": "aws-datasync-agent",
+        "a": "azure-confidential-ledgers",
         "b": "fabric-datatype-float",
-        "similarity": 0.1942
+        "similarity": 0.1996
       }
     ],
     "fabric-datatype-integer": [
@@ -38174,9 +38336,9 @@
         "similarity": 0.2162
       },
       {
-        "a": "aws-backup-cloudformation",
+        "a": "azure-confidential-ledgers",
         "b": "fabric-square-transfer",
-        "similarity": 0.2105
+        "similarity": 0.2156
       }
     ],
     "fabric-square-database": [

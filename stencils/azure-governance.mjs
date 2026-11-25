@@ -1,6 +1,48 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-reserved-capacity", "azure", "Reserved Capacity", ["02638-icon-service-Reserved-Capacity"],
+    "Capacity is reserved for a future workload.",
+    [
+      rect(15, 23, 58, 61), line([15, 38], [73, 38]), line([15, 53], [73, 53]), line([15, 68], [73, 68]), line([23, 31], [31, 31]), line([23, 46], [31, 46]), line([23, 61], [31, 61]), line([23, 76], [31, 76]),
+      oval(75, 58, 32, 32), line([91, 64], [91, 74], [98, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-capacity-reservation-groups", "azure", "Capacity Reservation Groups", ["02732-icon-service-Capacity-Reservation-Groups"],
+    "A group holds reserved compute capacity.",
+    [
+      line([15, 23], [15, 14], [29, 14]), line([95, 14], [109, 14], [109, 23]), line([15, 90], [15, 99], [29, 99]), line([95, 99], [109, 99], [109, 90]),
+      rect(29, 28, 62, 16), rect(29, 50, 62, 16), rect(29, 72, 62, 16), line([37, 36], [52, 36]), line([37, 58], [52, 58]), line([37, 80], [52, 80]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-custom-ip-prefix", "azure", "Custom IP Prefix", ["02654-icon-service-Custom-IP-Prefix"],
+    "A custom IP prefix brings an address range to Azure.",
+    [
+      rect(17, 22, 63, 63), line([17, 35], [80, 35]), line([25, 45], [31, 45]), line([39, 45], [45, 45]), line([53, 45], [59, 45]), line([25, 57], [31, 57]), line([39, 57], [45, 57]), line([53, 57], [59, 57]), line([25, 70], [60, 70]),
+      line([78, 76], [99, 40], [110, 46], [89, 82], [76, 86], [78, 76]), line([96, 46], [106, 52]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-confidential-ledgers", "azure", "Confidential Ledgers", ["02668-icon-service-Confidential-Ledgers"],
+    "A protected ledger records tamper-resistant entries.",
+    [
+      rect(18, 19, 62, 74), line([29, 19], [29, 93]), line([38, 35], [68, 35]), line([38, 47], [68, 47]), line([38, 59], [68, 59]), line([38, 71], [61, 71]),
+      rect(76, 62, 29, 25), line([82, 62], [82, 55], [87, 50], [94, 50], [99, 55], [99, 62]), oval(87, 69, 7, 7, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-orbital", "azure", "Azure Orbital", ["02697-icon-service-Azure-Orbital"],
+    "A satellite connects to a ground station.",
+    [
+      rect(49, 25, 26, 22), line([42, 19], [51, 26], [46, 34], [37, 27], [42, 19]), line([76, 37], [85, 44], [80, 52], [71, 45]), line([62, 47], [62, 56]),
+      line([36, 76], [45, 84], [57, 87], [70, 84], [79, 76]), line([57, 87], [57, 97], [44, 97], [70, 97]), line([84, 70], [90, 65], [94, 58]), line([89, 77], [98, 69], [103, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-windows-notification-services", "azure", "Windows Notification Services", ["02733-icon-service-Windows-Notification-Services"],
+    "A Windows client receives a notification.",
+    [
+      rect(14, 32, 48, 47), line([38, 32], [38, 79]), line([14, 55], [62, 55]), line([62, 53], [74, 53]),
+      line([77, 41], [111, 41], [111, 67], [95, 67], [87, 75], [87, 67], [77, 67], [77, 41]), line([83, 49], [105, 49]), line([83, 58], [100, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-test-base", "azure", "Test Base", ["02691-icon-service-Test-Base"],
+    "A test base validates an application before release.",
+    [
+      rect(14, 21, 65, 60), line([14, 34], [79, 34]), line([22, 28], [26, 28]), line([32, 28], [36, 28]), line([25, 46], [31, 52], [40, 42]), line([48, 48], [68, 48]), line([25, 63], [31, 69], [40, 59]), line([48, 65], [68, 65]),
+      line([86, 36], [103, 36]), line([89, 36], [89, 54], [81, 72], [85, 81], [106, 81], [110, 72], [102, 54], [102, 36]), line([87, 66], [104, 66]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-chaos-studio", "azure", "Azure Chaos Studio", ["02223-icon-service-Azure-Chaos-Studio"],
     "A controlled disruption tests a service's resilience.",
     [
