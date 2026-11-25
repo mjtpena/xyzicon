@@ -25,6 +25,7 @@ import { awsMigrationArtwork } from "./aws-migration.mjs";
 import { awsManagementArtwork } from "./aws-management.mjs";
 import { awsMediaArtwork } from "./aws-media.mjs";
 import { awsSecurityArtwork } from "./aws-security.mjs";
+import { awsStorageArtwork } from "./aws-storage.mjs";
 import { officeNavigationArtwork } from "./office-navigation.mjs";
 import { officeSymbolsArtwork } from "./office-symbols.mjs";
 import { awsNetworkArtwork } from "./aws-network.mjs";
@@ -274,6 +275,7 @@ export const artwork = [
   ...awsManagementArtwork,
   ...awsMediaArtwork,
   ...awsSecurityArtwork,
+  ...awsStorageArtwork,
   ...officeNavigationArtwork,
   ...officeSymbolsArtwork,
   ...awsNetworkArtwork,
