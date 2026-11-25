@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 780,
-  "aliases": 3284,
+  "count": 784,
+  "aliases": 3300,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -454,6 +454,10 @@
     "aws-xray",
     "aws-codecatalyst",
     "aws-corretto",
+    "aws-pinpoint",
+    "aws-pinpoint-apis",
+    "aws-workdocs-sdk",
+    "aws-workspaces",
     "aws-finops-agent",
     "aws-managed-blockchain",
     "aws-location-service",
@@ -877,8 +881,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1044,
-      "concepts": 259
+      "covered": 1060,
+      "concepts": 263
     },
     "gcp": {
       "sources": 261,
@@ -946,13 +950,13 @@
       },
       {
         "a": "azure-cosmos-db",
-        "b": "fabric-progress-bars",
-        "similarity": 0.129
+        "b": "aws-workspaces",
+        "similarity": 0.134
       },
       {
         "a": "azure-cosmos-db",
-        "b": "gcp-cloud-hsm",
-        "similarity": 0.1288
+        "b": "fabric-progress-bars",
+        "similarity": 0.129
       }
     ],
     "azure-key-vault": [
@@ -2488,6 +2492,11 @@
     "aws-sagemaker": [
       {
         "a": "aws-sagemaker",
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.1997
+      },
+      {
+        "a": "aws-sagemaker",
         "b": "aws-codebuild",
         "similarity": 0.194
       },
@@ -2495,11 +2504,6 @@
         "a": "aws-sagemaker",
         "b": "aws-wickr",
         "similarity": 0.1903
-      },
-      {
-        "a": "aws-sagemaker",
-        "b": "fabric-data-engineering",
-        "similarity": 0.183
       }
     ],
     "aws-eventbridge": [
@@ -2510,13 +2514,13 @@
       },
       {
         "a": "aws-eventbridge",
-        "b": "aws-health-imaging",
-        "similarity": 0.1723
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.1836
       },
       {
-        "a": "entra-verified-id",
-        "b": "aws-eventbridge",
-        "similarity": 0.1656
+        "a": "aws-eventbridge",
+        "b": "aws-health-imaging",
+        "similarity": 0.1723
       }
     ],
     "aws-bedrock": [
@@ -6228,17 +6232,17 @@
     "fabric-external-dataflow": [
       {
         "a": "fabric-external-dataflow",
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.2091
+      },
+      {
+        "a": "fabric-external-dataflow",
         "b": "aws-management-console",
         "similarity": 0.197
       },
       {
         "a": "fabric-external-dataflow",
         "b": "aws-vpc-lattice",
-        "similarity": 0.1939
-      },
-      {
-        "a": "fabric-external-dataflow",
-        "b": "m365-tablet-laptop",
         "similarity": 0.1939
       }
     ],
@@ -8520,6 +8524,74 @@
         "similarity": 0.1795
       }
     ],
+    "aws-pinpoint": [
+      {
+        "a": "aws-pinpoint",
+        "b": "aws-fsx",
+        "similarity": 0.2235
+      },
+      {
+        "a": "aws-pinpoint",
+        "b": "aws-application-auto-scaling",
+        "similarity": 0.2036
+      },
+      {
+        "a": "aws-pinpoint",
+        "b": "aws-billing-conductor",
+        "similarity": 0.1778
+      }
+    ],
+    "aws-pinpoint-apis": [
+      {
+        "a": "aws-pinpoint-apis",
+        "b": "aws-resource-access-manager",
+        "similarity": 0.2109
+      },
+      {
+        "a": "fabric-external-dataflow",
+        "b": "aws-pinpoint-apis",
+        "similarity": 0.2091
+      },
+      {
+        "a": "aws-pinpoint-apis",
+        "b": "aws-auto-scaling",
+        "similarity": 0.2086
+      }
+    ],
+    "aws-workdocs-sdk": [
+      {
+        "a": "m365-window-dev-edit",
+        "b": "aws-workdocs-sdk",
+        "similarity": 0.2286
+      },
+      {
+        "a": "m365-folder-people",
+        "b": "aws-workdocs-sdk",
+        "similarity": 0.2221
+      },
+      {
+        "a": "aws-pinpoint-apis",
+        "b": "aws-workdocs-sdk",
+        "similarity": 0.2074
+      }
+    ],
+    "aws-workspaces": [
+      {
+        "a": "aws-workspaces",
+        "b": "aws-sustainability",
+        "similarity": 0.2145
+      },
+      {
+        "a": "aws-workspaces",
+        "b": "gcp-category-security",
+        "similarity": 0.2097
+      },
+      {
+        "a": "gcp-cloud-vpn",
+        "b": "aws-workspaces",
+        "similarity": 0.204
+      }
+    ],
     "aws-finops-agent": [
       {
         "a": "aws-finops-agent",
@@ -8952,14 +9024,14 @@
         "similarity": 0.206
       },
       {
+        "a": "aws-pinpoint",
+        "b": "aws-application-auto-scaling",
+        "similarity": 0.2036
+      },
+      {
         "a": "aws-ec2-autoscaling",
         "b": "aws-application-auto-scaling",
         "similarity": 0.1965
-      },
-      {
-        "a": "m365-organization-horizontal",
-        "b": "aws-application-auto-scaling",
-        "similarity": 0.1906
       }
     ],
     "aws-auto-scaling": [
@@ -9921,14 +9993,14 @@
         "similarity": 0.2185
       },
       {
+        "a": "aws-workdocs-sdk",
+        "b": "aws-file-cache",
+        "similarity": 0.207
+      },
+      {
         "a": "aws-connect",
         "b": "aws-file-cache",
         "similarity": 0.1927
-      },
-      {
-        "a": "gcp-cloud-shell",
-        "b": "aws-file-cache",
-        "similarity": 0.19
       }
     ],
     "aws-s3-on-outposts": [
@@ -11580,9 +11652,9 @@
         "similarity": 0.2144
       },
       {
-        "a": "aws-reserved-instance-reporting",
+        "a": "aws-workspaces",
         "b": "gcp-category-security",
-        "similarity": 0.2081
+        "similarity": 0.2097
       }
     ],
     "gcp-category-serverless": [
@@ -14147,6 +14219,11 @@
     ],
     "fabric-histogram-function": [
       {
+        "a": "aws-workspaces",
+        "b": "fabric-histogram-function",
+        "similarity": 0.1957
+      },
+      {
         "a": "aws-datazone",
         "b": "fabric-histogram-function",
         "similarity": 0.1782
@@ -14155,11 +14232,6 @@
         "a": "aws-sustainability",
         "b": "fabric-histogram-function",
         "similarity": 0.1772
-      },
-      {
-        "a": "aws-ec2-autoscaling",
-        "b": "fabric-histogram-function",
-        "similarity": 0.1764
       }
     ],
     "fabric-connected-nodes": [

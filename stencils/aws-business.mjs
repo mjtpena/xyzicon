@@ -3,6 +3,47 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-pinpoint", "aws", "Amazon Pinpoint", sizes("Amazon-Pinpoint"),
+    "A campaign sends targeted messages to an audience.",
+    [
+      line([11, 37], [61, 37], [61, 70], [11, 70], [11, 37]), line([11, 37], [36, 55], [61, 37]),
+      line([61, 54], [75, 54], [75, 26], [90, 26]), line([75, 54], [90, 54]), line([75, 54], [75, 82], [90, 82]),
+      oval(92, 12, 14, 14), line([88, 39], [90, 31], [95, 27], [103, 27], [108, 31], [110, 39]),
+      oval(92, 40, 14, 14), line([88, 67], [90, 59], [95, 55], [103, 55], [108, 59], [110, 67]),
+      oval(92, 68, 14, 14), line([88, 95], [90, 87], [95, 83], [103, 83], [108, 87], [110, 95]),
+      line([12, 99], [68, 99]),
+    ]),
+  entry("aws-pinpoint-apis", "aws", "Amazon Pinpoint APIs", sizes("Amazon-Pinpoint-APIs"),
+    "An application sends a message through a communications API.",
+    [
+      rect(10, 22, 43, 42), line([10, 33], [53, 33]),
+      line([24, 42], [18, 48], [24, 54]), line([39, 42], [45, 48], [39, 54]),
+      line([33, 40], [29, 56]),
+      line([54, 43], [71, 43]), line([65, 37], [71, 43], [65, 49]),
+      rect(74, 25, 41, 28), line([74, 25], [94, 40], [115, 25]),
+      line([30, 75], [30, 91], [104, 91], [104, 62]), line([98, 68], [104, 62], [110, 68]),
+      line([18, 105], [109, 105]),
+    ]),
+  entry("aws-workdocs-sdk", "aws", "Amazon WorkDocs SDK", sizes("Amazon-WorkDocs-SDK"),
+    "An application integrates a shared document using a software interface.",
+    [
+      rect(10, 23, 48, 65), line([10, 35], [58, 35]),
+      line([25, 47], [19, 53], [25, 59]), line([43, 47], [49, 53], [43, 59]), line([36, 44], [31, 62]),
+      line([19, 76], [48, 76]),
+      line([58, 55], [71, 55]), line([65, 49], [71, 55], [65, 61]),
+      line([75, 19], [103, 19], [115, 31], [115, 96], [75, 96], [75, 19]),
+      line([103, 19], [103, 31], [115, 31]), line([82, 43], [107, 43]), line([82, 52], [107, 52]), line([82, 61], [101, 61]),
+      line([18, 105], [106, 105]),
+    ]),
+  entry("aws-workspaces", "aws", "Amazon WorkSpaces", sizes("Amazon-WorkSpaces"),
+    "A user connects to a cloud-hosted desktop.",
+    [
+      rect(11, 47, 67, 45), line([11, 82], [78, 82]), line([37, 92], [37, 102]), line([52, 92], [52, 102]), line([24, 102], [65, 102]),
+      oval(32, 54, 14, 14), line([26, 78], [28, 72], [33, 69], [40, 69], [45, 72], [47, 78]),
+      line([78, 60], [93, 60], [93, 49]),
+      line([81, 43], [77, 36], [79, 29], [87, 27], [91, 19], [100, 18], [107, 23], [109, 30], [116, 33], [118, 39], [115, 46], [110, 49], [86, 49]),
+      line([88, 36], [108, 36]),
+    ]),
   entry("aws-finops-agent", "aws", "AWS FinOps Agent", sizes("AWS-FinOps-Agent"),
     "An automated assistant identifies opportunities in a cost report.",
     [
