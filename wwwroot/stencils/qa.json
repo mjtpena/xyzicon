@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1217,
-  "aliases": 4099,
+  "count": 1220,
+  "aliases": 4102,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -696,6 +696,9 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
+    "aws-cloud9-resource",
+    "aws-amplify-studio",
+    "aws-devops-guru-insights",
     "aws-proton",
     "aws-opentelemetry",
     "aws-red-hat-openshift",
@@ -1328,8 +1331,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1372,
-      "concepts": 404
+      "covered": 1375,
+      "concepts": 407
     },
     "gcp": {
       "sources": 261,
@@ -2405,8 +2408,8 @@
       },
       {
         "a": "azure-firewall",
-        "b": "m365-phone",
-        "similarity": 0.2331
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2344
       }
     ],
     "azure-app-gateway": [
@@ -2676,9 +2679,9 @@
         "similarity": 0.2378
       },
       {
-        "a": "dynamics-supply-chain",
-        "b": "gcp-functions",
-        "similarity": 0.1949
+        "a": "gcp-functions",
+        "b": "aws-cloud9-resource",
+        "similarity": 0.2027
       }
     ],
     "gcp-secret-manager": [
@@ -2864,8 +2867,8 @@
       },
       {
         "a": "azure-backup-center",
-        "b": "fabric-column-single",
-        "similarity": 0.2024
+        "b": "aws-amplify-studio",
+        "similarity": 0.2068
       }
     ],
     "aws-athena": [
@@ -3437,13 +3440,13 @@
       },
       {
         "a": "gcp-cloud-tasks",
-        "b": "aws-iot-device-management",
-        "similarity": 0.2311
+        "b": "aws-amplify-studio",
+        "similarity": 0.2412
       },
       {
         "a": "gcp-cloud-tasks",
-        "b": "azure-storage-queue",
-        "similarity": 0.2291
+        "b": "aws-iot-device-management",
+        "similarity": 0.2311
       }
     ],
     "gcp-dataflow": [
@@ -6060,8 +6063,8 @@
       },
       {
         "a": "gcp-security-key-enforcement",
-        "b": "gcp-translation",
-        "similarity": 0.1875
+        "b": "aws-cloud9-resource",
+        "similarity": 0.1951
       }
     ],
     "gcp-phishing-protection": [
@@ -6416,9 +6419,9 @@
         "similarity": 0.2112
       },
       {
-        "a": "gcp-dialogflow-insights",
-        "b": "gcp-compute-systems-management",
-        "similarity": 0.2021
+        "a": "gcp-compute-systems-management",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2079
       }
     ],
     "gcp-cloud-test-lab": [
@@ -6973,13 +6976,13 @@
       },
       {
         "a": "gcp-project",
-        "b": "aws-bedrock-agentcore",
-        "similarity": 0.3372
+        "b": "aws-amplify-studio",
+        "similarity": 0.343
       },
       {
         "a": "gcp-project",
-        "b": "m365-window",
-        "similarity": 0.3072
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.3372
       }
     ],
     "gcp-release-notes": [
@@ -7653,13 +7656,13 @@
       },
       {
         "a": "gcp-looker",
-        "b": "aws-opensearch-ultrawarm",
-        "similarity": 0.2557
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2583
       },
       {
         "a": "gcp-looker",
-        "b": "azure-service-health",
-        "similarity": 0.2556
+        "b": "aws-opensearch-ultrawarm",
+        "similarity": 0.2557
       }
     ],
     "gcp-analytics-hub": [
@@ -9709,14 +9712,14 @@
         "similarity": 0.3135
       },
       {
+        "a": "aws-emr-hdfs-cluster",
+        "b": "aws-amplify-studio",
+        "similarity": 0.2237
+      },
+      {
         "a": "gcp-storage",
         "b": "aws-emr-hdfs-cluster",
         "similarity": 0.212
-      },
-      {
-        "a": "fabric-data-agent",
-        "b": "aws-emr-hdfs-cluster",
-        "similarity": 0.2013
       }
     ],
     "aws-msk-connect": [
@@ -9858,6 +9861,11 @@
     "aws-opensearch-ultrawarm": [
       {
         "a": "aws-opensearch-ultrawarm",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2837
+      },
+      {
+        "a": "aws-opensearch-ultrawarm",
         "b": "aws-vpc-traffic-mirroring",
         "similarity": 0.2613
       },
@@ -9865,11 +9873,6 @@
         "a": "gcp-looker",
         "b": "aws-opensearch-ultrawarm",
         "similarity": 0.2557
-      },
-      {
-        "a": "aws-opensearch-ultrawarm",
-        "b": "aws-sqs-message",
-        "similarity": 0.2445
       }
     ],
     "aws-redshift-auto-copy": [
@@ -9935,9 +9938,9 @@
         "similarity": 0.2608
       },
       {
-        "a": "gcp-project",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.2537
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2606
       }
     ],
     "aws-redshift-dense-storage": [
@@ -10526,13 +10529,13 @@
       },
       {
         "a": "fabric-stream-connector",
-        "b": "aws-verified-permissions",
-        "similarity": 0.1938
+        "b": "aws-amplify-studio",
+        "similarity": 0.1945
       },
       {
-        "a": "azure-storage-sync",
-        "b": "fabric-stream-connector",
-        "similarity": 0.193
+        "a": "fabric-stream-connector",
+        "b": "aws-verified-permissions",
+        "similarity": 0.1938
       }
     ],
     "fabric-external-dataflow": [
@@ -10701,8 +10704,8 @@
       },
       {
         "a": "fabric-operations-agent",
-        "b": "aws-elemental-server",
-        "similarity": 0.2633
+        "b": "aws-amplify-studio",
+        "similarity": 0.2639
       }
     ],
     "fabric-paginated-report": [
@@ -11783,14 +11786,14 @@
         "similarity": 0.4664
       },
       {
+        "a": "aws-sagemaker-canvas",
+        "b": "aws-amplify-studio",
+        "similarity": 0.3384
+      },
+      {
         "a": "gcp-producer-portal",
         "b": "aws-sagemaker-canvas",
         "similarity": 0.3014
-      },
-      {
-        "a": "m365-image",
-        "b": "aws-sagemaker-canvas",
-        "similarity": 0.2994
       }
     ],
     "aws-sagemaker-geospatial": [
@@ -11959,8 +11962,8 @@
       },
       {
         "a": "aws-bedrock-agentcore",
-        "b": "aws-ec2-ami",
-        "similarity": 0.3006
+        "b": "aws-amplify-studio",
+        "similarity": 0.3141
       }
     ],
     "aws-sagemaker-ai": [
@@ -12357,6 +12360,11 @@
     "azure-bot-services": [
       {
         "a": "azure-bot-services",
+        "b": "aws-amplify-studio",
+        "similarity": 0.2157
+      },
+      {
+        "a": "azure-bot-services",
         "b": "aws-category-end-user",
         "similarity": 0.203
       },
@@ -12364,11 +12372,6 @@
         "a": "azure-bot-services",
         "b": "aws-category-compute",
         "similarity": 0.1939
-      },
-      {
-        "a": "azure-bot-services",
-        "b": "azure-availability-sets",
-        "similarity": 0.1915
       }
     ],
     "azure-cognitive-services": [
@@ -12570,9 +12573,9 @@
         "similarity": 0.244
       },
       {
-        "a": "aws-opensearch-traces",
-        "b": "azure-foundry-local",
-        "similarity": 0.2113
+        "a": "azure-foundry-local",
+        "b": "aws-cloud9-resource",
+        "similarity": 0.2241
       }
     ],
     "azure-foundry-models": [
@@ -13083,6 +13086,57 @@
         "a": "azure-private-endpoints",
         "b": "fabric-one-lake",
         "similarity": 0.188
+      }
+    ],
+    "aws-cloud9-resource": [
+      {
+        "a": "aws-cloud9-resource",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2712
+      },
+      {
+        "a": "aws-cloud9-resource",
+        "b": "fabric-folder",
+        "similarity": 0.2651
+      },
+      {
+        "a": "aws-cloud9-resource",
+        "b": "fabric-database-badge-asterisk",
+        "similarity": 0.2482
+      }
+    ],
+    "aws-amplify-studio": [
+      {
+        "a": "fabric-live-dashboard",
+        "b": "aws-amplify-studio",
+        "similarity": 0.388
+      },
+      {
+        "a": "gcp-project",
+        "b": "aws-amplify-studio",
+        "similarity": 0.343
+      },
+      {
+        "a": "aws-sagemaker-canvas",
+        "b": "aws-amplify-studio",
+        "similarity": 0.3384
+      }
+    ],
+    "aws-devops-guru-insights": [
+      {
+        "a": "aws-opensearch-ultrawarm",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2837
+      },
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2606
+      },
+      {
+        "a": "gcp-looker",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2583
       }
     ],
     "aws-proton": [
@@ -15353,14 +15407,14 @@
         "similarity": 0.3176
       },
       {
+        "a": "aws-cloud9-resource",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2712
+      },
+      {
         "a": "gcp-batch",
         "b": "aws-firewall-manager",
         "similarity": 0.2696
-      },
-      {
-        "a": "aws-transform",
-        "b": "aws-firewall-manager",
-        "similarity": 0.2617
       }
     ],
     "aws-resource-access-manager": [
@@ -17632,9 +17686,9 @@
         "similarity": 0.2398
       },
       {
-        "a": "azure-private-link-services",
+        "a": "aws-amplify-studio",
         "b": "aws-ec2-microservice-extractor",
-        "similarity": 0.2284
+        "similarity": 0.229
       }
     ],
     "aws-ec2-auto-scaling": [
@@ -18482,9 +18536,9 @@
         "similarity": 0.249
       },
       {
-        "a": "m365-apps-list",
+        "a": "aws-amplify-studio",
         "b": "aws-category-compute",
-        "similarity": 0.2468
+        "similarity": 0.248
       }
     ],
     "aws-category-databases": [
@@ -19655,9 +19709,9 @@
         "similarity": 0.2017
       },
       {
-        "a": "azure-app-services",
+        "a": "aws-devops-guru-insights",
         "b": "azure-disks",
-        "similarity": 0.1988
+        "similarity": 0.2014
       }
     ],
     "azure-vm-scale-sets": [
@@ -19951,6 +20005,11 @@
     ],
     "fabric-folder": [
       {
+        "a": "aws-cloud9-resource",
+        "b": "fabric-folder",
+        "similarity": 0.2651
+      },
+      {
         "a": "dynamics-supply-chain",
         "b": "fabric-folder",
         "similarity": 0.2546
@@ -19959,11 +20018,6 @@
         "a": "aws-appconfig",
         "b": "fabric-folder",
         "similarity": 0.2455
-      },
-      {
-        "a": "gcp-functions",
-        "b": "fabric-folder",
-        "similarity": 0.2432
       }
     ],
     "fabric-group-workspace": [

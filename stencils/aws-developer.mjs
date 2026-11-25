@@ -3,6 +3,29 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsDeveloperArtwork = [
+  entry("aws-cloud9-resource", "aws", "Cloud9 Development Environment", ["Res_AWS-Cloud9_Cloud9_48"],
+    "A cloud-hosted editor provides a development environment.",
+    [
+      line([19, 40], [12, 36], [11, 29], [15, 23], [23, 22], [28, 14], [39, 12], [48, 17], [51, 24], [61, 24], [68, 29], [68, 36], [63, 40]),
+      rect(17, 47, 94, 51), line([17, 58], [111, 58]), line([25, 53], [28, 53]), line([34, 53], [37, 53]),
+      line([39, 68], [31, 75], [39, 82]), line([59, 68], [67, 75], [59, 82]), line([54, 66], [45, 84]), line([77, 74], [99, 74]), line([77, 83], [94, 83]), line([16, 111], [112, 111]),
+    ]),
+  entry("aws-amplify-studio", "aws", "Amplify Studio", ["Res_AWS-Amplify_AWS-Amplify-Studio_48"],
+    "A visual editor assembles reusable interface components.",
+    [
+      rect(13, 19, 102, 80), line([13, 32], [115, 32]), line([21, 26], [24, 26]), line([30, 26], [33, 26]),
+      rect(22, 43, 26, 19), rect(22, 70, 26, 19), line([28, 51], [42, 51]), line([28, 78], [42, 78]),
+      line([56, 41], [105, 41], [105, 89], [56, 89], [56, 41]), line([65, 51], [96, 51]), line([65, 60], [86, 60]),
+      line([75, 63], [75, 88], [82, 81], [88, 94], [95, 91], [89, 79], [99, 78], [75, 63]), line([16, 112], [112, 112]),
+    ]),
+  entry("aws-devops-guru-insights", "aws", "DevOps Guru Insights", ["Res_Amazon-DevOps-Guru_Insights_48"],
+    "An operational insight identifies an anomaly and recommends action.",
+    [
+      line([18, 19], [92, 19], [92, 89], [53, 89], [41, 101], [41, 89], [18, 89], [18, 19]),
+      line([27, 38], [35, 38], [40, 30], [47, 53], [54, 40], [65, 40]),
+      line([27, 63], [32, 68], [39, 59]), line([45, 64], [78, 64]), line([45, 75], [70, 75]),
+      line([84, 36], [89, 29], [96, 25]), line([96, 20], [96, 14]), line([104, 25], [109, 21]), line([16, 112], [112, 112]),
+    ]),
   entry("aws-proton", "aws", "AWS Proton", sizes("AWS-Proton"),
     "A service template provisions consistent application environments.",
     [
