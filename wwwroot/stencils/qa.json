@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 672,
-  "aliases": 2852,
+  "count": 676,
+  "aliases": 2868,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -458,6 +458,10 @@
     "aws-workdocs",
     "aws-supply-chain",
     "aws-connect",
+    "aws-billing-conductor",
+    "aws-cost-usage-report",
+    "aws-savings-plans",
+    "aws-reserved-instance-reporting",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -769,8 +773,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 612,
-      "concepts": 151
+      "covered": 628,
+      "concepts": 155
     },
     "gcp": {
       "sources": 261,
@@ -1081,8 +1085,8 @@
       },
       {
         "a": "dynamics-business-central",
-        "b": "fabric-arrow-sort",
-        "similarity": 0.2183
+        "b": "dynamics-family",
+        "similarity": 0.23
       }
     ],
     "m365-upload": [
@@ -1496,18 +1500,18 @@
     "dynamics-family": [
       {
         "a": "dynamics-family",
-        "b": "gcp-gke",
-        "similarity": 0.2368
+        "b": "aws-tools-sdks",
+        "similarity": 0.2561
+      },
+      {
+        "a": "dynamics-business-central",
+        "b": "dynamics-family",
+        "similarity": 0.23
       },
       {
         "a": "dynamics-family",
-        "b": "fabric-diagram-branch",
-        "similarity": 0.1901
-      },
-      {
-        "a": "dynamics-family",
-        "b": "azure-storage-files",
-        "similarity": 0.1867
+        "b": "m365-wallet-card",
+        "similarity": 0.2274
       }
     ],
     "aws-ec2": [
@@ -1768,6 +1772,11 @@
     "azure-device-registry": [
       {
         "a": "azure-device-registry",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2055
+      },
+      {
+        "a": "azure-device-registry",
         "b": "aws-site-vpn",
         "similarity": 0.1907
       },
@@ -1775,11 +1784,6 @@
         "a": "azure-device-registry",
         "b": "gcp-speech-to-text",
         "similarity": 0.1747
-      },
-      {
-        "a": "azure-device-registry",
-        "b": "gcp-category-devtools",
-        "similarity": 0.1723
       }
     ],
     "azure-monitor": [
@@ -2039,11 +2043,6 @@
     ],
     "gcp-gke": [
       {
-        "a": "dynamics-family",
-        "b": "gcp-gke",
-        "similarity": 0.2368
-      },
-      {
         "a": "aws-step-functions",
         "b": "gcp-gke",
         "similarity": 0.2233
@@ -2052,6 +2051,11 @@
         "a": "azure-load-balancer",
         "b": "gcp-gke",
         "similarity": 0.1965
+      },
+      {
+        "a": "gcp-gke",
+        "b": "aws-elastic-beanstalk",
+        "similarity": 0.1886
       }
     ],
     "gcp-vertex-ai": [
@@ -2232,13 +2236,13 @@
       },
       {
         "a": "azure-managed-identities",
-        "b": "azure-disk-encryption",
-        "similarity": 0.2025
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2061
       },
       {
         "a": "azure-managed-identities",
-        "b": "fabric-stream-connector",
-        "similarity": 0.1928
+        "b": "azure-disk-encryption",
+        "similarity": 0.2025
       }
     ],
     "azure-dns-zones": [
@@ -3902,9 +3906,9 @@
         "similarity": 0.1918
       },
       {
-        "a": "m365-folder-open",
-        "b": "m365-lock",
-        "similarity": 0.1789
+        "a": "dynamics-family",
+        "b": "m365-folder-open",
+        "similarity": 0.1863
       }
     ],
     "m365-heart-pulse": [
@@ -4344,9 +4348,9 @@
         "similarity": 0.2042
       },
       {
-        "a": "dynamics-family",
-        "b": "gcp-eventarc",
-        "similarity": 0.1846
+        "a": "gcp-eventarc",
+        "b": "aws-aurora",
+        "similarity": 0.1774
       }
     ],
     "gcp-filestore": [
@@ -5099,6 +5103,11 @@
     ],
     "fabric-experiments": [
       {
+        "a": "dynamics-family",
+        "b": "fabric-experiments",
+        "similarity": 0.1728
+      },
+      {
         "a": "fabric-experiments",
         "b": "fabric-stacked-text",
         "similarity": 0.1704
@@ -5106,11 +5115,6 @@
       {
         "a": "azure-encrypted-transport",
         "b": "fabric-experiments",
-        "similarity": 0.166
-      },
-      {
-        "a": "fabric-experiments",
-        "b": "aws-ec2-autoscaling",
         "similarity": 0.166
       }
     ],
@@ -5286,6 +5290,11 @@
     ],
     "fabric-report": [
       {
+        "a": "fabric-report",
+        "b": "aws-cost-usage-report",
+        "similarity": 0.3086
+      },
+      {
         "a": "gcp-secret-manager",
         "b": "fabric-report",
         "similarity": 0.261
@@ -5294,11 +5303,6 @@
         "a": "fabric-report",
         "b": "fabric-rdl-report",
         "similarity": 0.2551
-      },
-      {
-        "a": "fabric-report",
-        "b": "fabric-restricted-report",
-        "similarity": 0.2436
       }
     ],
     "fabric-scorecard": [
@@ -6085,6 +6089,11 @@
     ],
     "aws-ec2-autoscaling": [
       {
+        "a": "dynamics-family",
+        "b": "aws-ec2-autoscaling",
+        "similarity": 0.2113
+      },
+      {
         "a": "fabric-lakehouse",
         "b": "aws-ec2-autoscaling",
         "similarity": 0.2082
@@ -6093,11 +6102,6 @@
         "a": "azure-sql-elastic-pool",
         "b": "aws-ec2-autoscaling",
         "similarity": 0.2037
-      },
-      {
-        "a": "fabric-bucket",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.1948
       }
     ],
     "fabric-stream-connector": [
@@ -6838,14 +6842,14 @@
         "similarity": 0.2556
       },
       {
+        "a": "dynamics-family",
+        "b": "m365-mail-read",
+        "similarity": 0.2219
+      },
+      {
         "a": "azure-backup-center",
         "b": "m365-mail-read",
         "similarity": 0.2216
-      },
-      {
-        "a": "azure-data-box",
-        "b": "m365-mail-read",
-        "similarity": 0.2122
       }
     ],
     "m365-panel-left": [
@@ -7280,14 +7284,14 @@
         "similarity": 0.1797
       },
       {
+        "a": "m365-three-shapes",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.169
+      },
+      {
         "a": "fabric-data-warehouse",
         "b": "m365-three-shapes",
         "similarity": 0.1667
-      },
-      {
-        "a": "fabric-apps",
-        "b": "m365-three-shapes",
-        "similarity": 0.1665
       }
     ],
     "m365-share-screen-overlay": [
@@ -8351,14 +8355,14 @@
         "similarity": 0.3095
       },
       {
+        "a": "dynamics-family",
+        "b": "aws-tools-sdks",
+        "similarity": 0.2561
+      },
+      {
         "a": "azure-immersive-reader",
         "b": "aws-tools-sdks",
         "similarity": 0.2381
-      },
-      {
-        "a": "aws-tools-sdks",
-        "b": "aws-documentdb",
-        "similarity": 0.2371
       }
     ],
     "aws-xray": [
@@ -8478,6 +8482,74 @@
         "a": "aws-outposts-servers",
         "b": "aws-connect",
         "similarity": 0.1699
+      }
+    ],
+    "aws-billing-conductor": [
+      {
+        "a": "aws-billing-conductor",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.222
+      },
+      {
+        "a": "aws-billing-conductor",
+        "b": "aws-site-vpn",
+        "similarity": 0.2162
+      },
+      {
+        "a": "aws-billing-conductor",
+        "b": "aws-lightsail-research",
+        "similarity": 0.2071
+      }
+    ],
+    "aws-cost-usage-report": [
+      {
+        "a": "fabric-report",
+        "b": "aws-cost-usage-report",
+        "similarity": 0.3086
+      },
+      {
+        "a": "m365-contacts",
+        "b": "aws-cost-usage-report",
+        "similarity": 0.2418
+      },
+      {
+        "a": "gcp-secret-manager",
+        "b": "aws-cost-usage-report",
+        "similarity": 0.2318
+      }
+    ],
+    "aws-savings-plans": [
+      {
+        "a": "azure-custom-vision",
+        "b": "aws-savings-plans",
+        "similarity": 0.2365
+      },
+      {
+        "a": "aws-elasticache",
+        "b": "aws-savings-plans",
+        "similarity": 0.2219
+      },
+      {
+        "a": "aws-cdk",
+        "b": "aws-savings-plans",
+        "similarity": 0.2176
+      }
+    ],
+    "aws-reserved-instance-reporting": [
+      {
+        "a": "aws-billing-conductor",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.222
+      },
+      {
+        "a": "aws-reserved-instance-reporting",
+        "b": "aws-lightsail-research",
+        "similarity": 0.2181
+      },
+      {
+        "a": "aws-reserved-instance-reporting",
+        "b": "gcp-category-security",
+        "similarity": 0.2081
       }
     ],
     "m365-arrow-circle-left": [
@@ -9653,9 +9725,9 @@
         "similarity": 0.2267
       },
       {
-        "a": "azure-content-moderation",
+        "a": "aws-reserved-instance-reporting",
         "b": "gcp-category-databases",
-        "similarity": 0.1955
+        "similarity": 0.2074
       }
     ],
     "gcp-category-devtools": [
@@ -9869,14 +9941,14 @@
         "similarity": 0.2144
       },
       {
+        "a": "aws-reserved-instance-reporting",
+        "b": "gcp-category-security",
+        "similarity": 0.2081
+      },
+      {
         "a": "gcp-category-security",
         "b": "aws-memorydb",
         "similarity": 0.2052
-      },
-      {
-        "a": "gcp-category-media",
-        "b": "gcp-category-security",
-        "similarity": 0.2023
       }
     ],
     "gcp-category-serverless": [
