@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 879,
-  "aliases": 3544,
+  "count": 883,
+  "aliases": 3560,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-customer-enablement",
+    "aws-category-customer-experience",
+    "aws-category-hybrid",
+    "aws-category-migration",
     "aws-category-media",
     "aws-category-networking",
     "aws-category-storage",
@@ -983,8 +987,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1236,
-      "concepts": 306
+      "covered": 1252,
+      "concepts": 310
     },
     "gcp": {
       "sources": 261,
@@ -4235,9 +4239,9 @@
         "similarity": 0.2331
       },
       {
-        "a": "dynamics-business-central",
-        "b": "m365-phone",
-        "similarity": 0.2017
+        "a": "m365-phone",
+        "b": "aws-category-hybrid",
+        "similarity": 0.2079
       }
     ],
     "m365-radar": [
@@ -7737,9 +7741,9 @@
         "similarity": 0.1889
       },
       {
-        "a": "gcp-security-operations",
-        "b": "m365-top-speed",
-        "similarity": 0.1735
+        "a": "m365-top-speed",
+        "b": "aws-category-customer-enablement",
+        "similarity": 0.1767
       }
     ],
     "m365-wallet-card": [
@@ -13297,6 +13301,74 @@
         "similarity": 0.1678
       }
     ],
+    "aws-category-customer-enablement": [
+      {
+        "a": "aws-category-customer-enablement",
+        "b": "aws-category-app-integration",
+        "similarity": 0.2061
+      },
+      {
+        "a": "aws-management-console",
+        "b": "aws-category-customer-enablement",
+        "similarity": 0.2037
+      },
+      {
+        "a": "aws-xray",
+        "b": "aws-category-customer-enablement",
+        "similarity": 0.1993
+      }
+    ],
+    "aws-category-customer-experience": [
+      {
+        "a": "m365-shifts",
+        "b": "aws-category-customer-experience",
+        "similarity": 0.1804
+      },
+      {
+        "a": "aws-xray",
+        "b": "aws-category-customer-experience",
+        "similarity": 0.1639
+      },
+      {
+        "a": "gcp-security-operations",
+        "b": "aws-category-customer-experience",
+        "similarity": 0.1625
+      }
+    ],
+    "aws-category-hybrid": [
+      {
+        "a": "m365-calendar",
+        "b": "aws-category-hybrid",
+        "similarity": 0.2167
+      },
+      {
+        "a": "m365-phone",
+        "b": "aws-category-hybrid",
+        "similarity": 0.2079
+      },
+      {
+        "a": "aws-ec2",
+        "b": "aws-category-hybrid",
+        "similarity": 0.195
+      }
+    ],
+    "aws-category-migration": [
+      {
+        "a": "aws-application-migration",
+        "b": "aws-category-migration",
+        "similarity": 0.199
+      },
+      {
+        "a": "aws-transform",
+        "b": "aws-category-migration",
+        "similarity": 0.1947
+      },
+      {
+        "a": "aws-category-migration",
+        "b": "aws-category-satellite",
+        "similarity": 0.1912
+      }
+    ],
     "aws-category-media": [
       {
         "a": "azure-function-apps",
@@ -13445,9 +13517,9 @@
         "similarity": 0.1946
       },
       {
-        "a": "aws-well-architected-tool",
+        "a": "aws-category-hybrid",
         "b": "aws-category-games",
-        "similarity": 0.1856
+        "similarity": 0.1911
       }
     ],
     "aws-category-developer-tools": [
@@ -13605,6 +13677,11 @@
     ],
     "aws-category-satellite": [
       {
+        "a": "aws-category-migration",
+        "b": "aws-category-satellite",
+        "similarity": 0.1912
+      },
+      {
         "a": "aws-application-migration",
         "b": "aws-category-satellite",
         "similarity": 0.1783
@@ -13613,11 +13690,6 @@
         "a": "fabric-scorecard",
         "b": "aws-category-satellite",
         "similarity": 0.1673
-      },
-      {
-        "a": "aws-s3-glacier",
-        "b": "aws-category-satellite",
-        "similarity": 0.1535
       }
     ],
     "aws-category-iot": [

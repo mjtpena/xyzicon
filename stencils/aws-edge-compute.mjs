@@ -4,6 +4,47 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const categorySizes = (name) => [16, 32, 48, 64].map((size) => `Arch-Category_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-category-customer-enablement", "aws", "Customer enablement category", categorySizes("Customer-Enablement"),
+    "A customer learns from a guide and grows their skills.",
+    [
+      oval(14, 30, 20, 20), line([9, 87], [11, 68], [17, 58], [24, 55], [31, 58], [37, 68], [39, 87]),
+      line([43, 82], [43, 44], [61, 40], [78, 47], [78, 86], [61, 79], [43, 83]),
+      line([78, 47], [96, 40], [112, 44], [112, 82], [96, 79], [78, 86]),
+      line([50, 52], [62, 49], [70, 52]), line([50, 61], [62, 58], [70, 61]),
+      line([86, 54], [96, 50], [106, 52]), line([86, 63], [96, 59], [106, 61]),
+      line([21, 21], [31, 21]), line([26, 16], [26, 26]), line([20, 105], [111, 105]),
+    ]),
+  entry("aws-category-customer-experience", "aws", "Customer experience category", categorySizes("Customer-Experience"),
+    "Customer feedback guides a service conversation.",
+    [
+      oval(17, 30, 22, 22), line([10, 87], [13, 69], [19, 61], [28, 57], [37, 61], [43, 69], [46, 87]),
+      oval(89, 46, 22, 22), line([82, 103], [85, 85], [91, 77], [100, 73], [109, 77], [115, 85], [118, 103]),
+      line([48, 23], [105, 23], [105, 42], [86, 42], [78, 49], [78, 42], [48, 42], [48, 23]),
+      line([56, 32], [61, 27], [66, 32], [61, 37], [56, 32]),
+      line([72, 32], [77, 27], [82, 32], [77, 37], [72, 32]),
+      line([88, 32], [93, 27], [98, 32], [93, 37], [88, 32]),
+      line([17, 106], [72, 106]),
+    ]),
+  entry("aws-category-hybrid", "aws", "Multicloud and hybrid category", categorySizes("Multicloud-and-Hybrid"),
+    "A local environment shares workloads with two clouds.",
+    [
+      line([10, 40], [8, 34], [10, 27], [16, 25], [19, 19], [27, 17], [34, 21], [36, 27], [42, 29], [44, 35], [42, 40], [10, 40]),
+      line([84, 40], [82, 34], [84, 27], [90, 25], [93, 19], [101, 17], [108, 21], [110, 27], [116, 29], [118, 35], [116, 40], [84, 40]),
+      line([26, 40], [26, 54], [64, 54], [64, 65]), line([100, 40], [100, 54], [64, 54]),
+      line([38, 78], [64, 61], [90, 78], [90, 105], [38, 105], [38, 78]),
+      rect(49, 80, 30, 18), line([49, 89], [79, 89]), line([54, 84], [59, 84]), line([54, 94], [59, 94]),
+      line([21, 114], [107, 114]),
+    ]),
+  entry("aws-category-migration", "aws", "Migration and modernization category", categorySizes("Migration-Modernization"),
+    "A workload climbs from an older environment into the cloud.",
+    [
+      rect(11, 67, 29, 34), line([11, 78], [40, 78]), line([11, 89], [40, 89]),
+      line([17, 73], [33, 73]), line([17, 84], [33, 84]), line([17, 95], [33, 95]),
+      line([47, 98], [58, 98], [58, 86], [69, 86], [69, 74], [80, 74], [80, 62], [91, 62]),
+      line([85, 56], [91, 62], [85, 68]),
+      line([69, 42], [64, 37], [66, 30], [72, 27], [76, 19], [85, 17], [93, 22], [95, 29], [102, 32], [104, 39], [101, 44], [69, 44]),
+      line([11, 113], [112, 113]),
+    ]),
   entry("aws-category-media", "aws", "Media services category", categorySizes("Media-Services"),
     "A clapperboard and audio track represent media production.",
     [
