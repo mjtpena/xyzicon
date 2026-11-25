@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 724,
-  "aliases": 3060,
+  "count": 728,
+  "aliases": 3076,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -502,6 +502,10 @@
     "aws-elemental-live",
     "aws-elemental-link",
     "aws-elemental-server",
+    "aws-security-hub",
+    "aws-certificate-manager",
+    "aws-identity-center",
+    "aws-iam",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -821,8 +825,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 820,
-      "concepts": 203
+      "covered": 836,
+      "concepts": 207
     },
     "gcp": {
       "sources": 261,
@@ -1371,8 +1375,8 @@
       },
       {
         "a": "dynamics-contact-center",
-        "b": "aws-app-studio",
-        "similarity": 0.1553
+        "b": "aws-iam",
+        "similarity": 0.1556
       }
     ],
     "dynamics-customer-insights": [
@@ -2024,6 +2028,11 @@
     "aws-sns": [
       {
         "a": "aws-sns",
+        "b": "aws-identity-center",
+        "similarity": 0.1449
+      },
+      {
+        "a": "aws-sns",
         "b": "aws-managed-airflow",
         "similarity": 0.1354
       },
@@ -2031,11 +2040,6 @@
         "a": "aws-sns",
         "b": "aws-iot-device-management",
         "similarity": 0.1338
-      },
-      {
-        "a": "aws-sns",
-        "b": "azure-private-endpoints",
-        "similarity": 0.1314
       }
     ],
     "aws-cloudwatch": [
@@ -8545,8 +8549,8 @@
       },
       {
         "a": "aws-billing-conductor",
-        "b": "aws-lightsail-research",
-        "similarity": 0.2071
+        "b": "aws-identity-center",
+        "similarity": 0.2105
       }
     ],
     "aws-cost-usage-report": [
@@ -8714,9 +8718,9 @@
         "similarity": 0.2114
       },
       {
-        "a": "azure-event-grid-subscriptions",
-        "b": "aws-wickr",
-        "similarity": 0.2028
+        "a": "aws-wickr",
+        "b": "aws-certificate-manager",
+        "similarity": 0.205
       }
     ],
     "aws-end-user-messaging": [
@@ -8969,9 +8973,9 @@
         "similarity": 0.1912
       },
       {
-        "a": "azure-encrypted-transport",
-        "b": "aws-license-manager",
-        "similarity": 0.1824
+        "a": "aws-license-manager",
+        "b": "aws-certificate-manager",
+        "similarity": 0.1874
       }
     ],
     "aws-service-catalog": [
@@ -9278,6 +9282,74 @@
         "a": "m365-toolbox",
         "b": "aws-elemental-server",
         "similarity": 0.2327
+      }
+    ],
+    "aws-security-hub": [
+      {
+        "a": "m365-data-area",
+        "b": "aws-security-hub",
+        "similarity": 0.1925
+      },
+      {
+        "a": "aws-security-hub",
+        "b": "aws-nitro-enclaves",
+        "similarity": 0.1735
+      },
+      {
+        "a": "m365-lightbulb-check",
+        "b": "aws-security-hub",
+        "similarity": 0.1732
+      }
+    ],
+    "aws-certificate-manager": [
+      {
+        "a": "fabric-paginated-report",
+        "b": "aws-certificate-manager",
+        "similarity": 0.25
+      },
+      {
+        "a": "aws-certificate-manager",
+        "b": "azure-scheduled-actions",
+        "similarity": 0.2415
+      },
+      {
+        "a": "aws-certificate-manager",
+        "b": "aws-iot-greengrass",
+        "similarity": 0.2343
+      }
+    ],
+    "aws-identity-center": [
+      {
+        "a": "aws-identity-center",
+        "b": "gcp-category-web-mobile",
+        "similarity": 0.2148
+      },
+      {
+        "a": "aws-billing-conductor",
+        "b": "aws-identity-center",
+        "similarity": 0.2105
+      },
+      {
+        "a": "m365-person-accounts",
+        "b": "aws-identity-center",
+        "similarity": 0.2081
+      }
+    ],
+    "aws-iam": [
+      {
+        "a": "aws-elemental-server",
+        "b": "aws-iam",
+        "similarity": 0.2151
+      },
+      {
+        "a": "m365-person-settings",
+        "b": "aws-iam",
+        "similarity": 0.1952
+      },
+      {
+        "a": "aws-iam",
+        "b": "m365-check",
+        "similarity": 0.1932
       }
     ],
     "m365-arrow-circle-left": [
@@ -10725,9 +10797,9 @@
         "similarity": 0.2152
       },
       {
-        "a": "azure-storage-queue",
+        "a": "aws-identity-center",
         "b": "gcp-category-web-mobile",
-        "similarity": 0.2098
+        "similarity": 0.2148
       }
     ],
     "gcp-category-web3": [
@@ -11639,6 +11711,11 @@
     ],
     "aws-iot-greengrass": [
       {
+        "a": "aws-certificate-manager",
+        "b": "aws-iot-greengrass",
+        "similarity": 0.2343
+      },
+      {
         "a": "m365-toolbox",
         "b": "aws-iot-greengrass",
         "similarity": 0.2128
@@ -11647,11 +11724,6 @@
         "a": "aws-iot-fleetwise",
         "b": "aws-iot-greengrass",
         "similarity": 0.206
-      },
-      {
-        "a": "aws-textract",
-        "b": "aws-iot-greengrass",
-        "similarity": 0.2045
       }
     ],
     "aws-iot-sitewise": [
@@ -11899,14 +11971,14 @@
         "similarity": 0.2537
       },
       {
+        "a": "aws-certificate-manager",
+        "b": "azure-scheduled-actions",
+        "similarity": 0.2415
+      },
+      {
         "a": "aws-end-user-messaging",
         "b": "azure-scheduled-actions",
         "similarity": 0.2312
-      },
-      {
-        "a": "m365-filmstrip-play",
-        "b": "azure-scheduled-actions",
-        "similarity": 0.2267
       }
     ],
     "azure-compute-fleet": [
