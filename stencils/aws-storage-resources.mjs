@@ -1,6 +1,60 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-ebs-lifecycle-manager", "aws", "EBS Data Lifecycle Manager", ["Res_Amazon-Elastic-Block-Store_Amazon-Data-Lifecycle-Manager_48"],
+    "A scheduled cycle manages a block volume's lifetime.",
+    [
+      rect(43, 35, 40, 35), line([43, 46], [83, 46]), line([50, 55], [75, 55]),
+      line([90, 38], [85, 25], [74, 18], [60, 16], [47, 21], [38, 29]), line([38, 20], [38, 29], [47, 29]),
+      line([36, 67], [41, 79], [52, 86], [66, 88], [79, 83], [88, 75]), line([88, 84], [88, 75], [79, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-ebs-multiple-volumes", "aws", "EBS Multiple Volumes", ["Res_Amazon-Elastic-Block-Store_Multiple-Volumes_48"],
+    "Three block volumes are arranged as a stack.",
+    [
+      rect(22, 38, 55, 43), line([22, 49], [77, 49]), line([31, 69], [42, 69]),
+      line([32, 38], [32, 28], [87, 28], [87, 71], [77, 71]), line([42, 28], [42, 18], [97, 18], [97, 61], [87, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-ebs-snapshot", "aws", "EBS Snapshot", ["Res_Amazon-Elastic-Block-Store_Snapshot_48"],
+    "A camera captures a point-in-time image of a block volume.",
+    [
+      rect(14, 29, 47, 47), line([14, 40], [61, 40]), line([22, 65], [34, 65]),
+      line([62, 54], [72, 54]), line([67, 49], [72, 54], [67, 59]),
+      line([77, 43], [83, 43], [87, 37], [99, 37], [103, 43], [111, 43], [111, 71], [77, 71], [77, 43]), oval(84, 48, 20, 17), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-ebs-gp3-volume", "aws", "EBS gp3 Volume", ["Res_Amazon-Elastic-Block-Store_Volume-gp3_48"],
+    "A block volume has adjustable, provisioned performance.",
+    [
+      rect(18, 20, 71, 66), line([18, 33], [89, 33]), line([28, 73], [43, 73]),
+      oval(49, 42, 28, 28), line([63, 56], [71, 48]), line([53, 56], [57, 52]), line([69, 64], [73, 60]),
+      line([96, 36], [109, 36]), line([93, 46], [109, 46]), line([96, 56], [109, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-ebs-volume", "aws", "EBS Volume", ["Res_Amazon-Elastic-Block-Store_Volume_48"],
+    "A single block storage drive exposes a disk platter.",
+    [
+      rect(25, 16, 75, 78), line([25, 29], [100, 29]), oval(39, 38, 48, 43), oval(56, 52, 14, 14), line([63, 59], [78, 44]),
+      line([34, 87], [46, 87]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-file-cache-hybrid", "aws", "File Cache Hybrid NFS Datasets", ["Res_Amazon-File-Cache_Hybrid-NFS-linked-datasets_48"],
+    "Local and cloud sources feed a shared file cache.",
+    [
+      rect(12, 21, 33, 25), line([18, 30], [39, 30]), line([18, 38], [34, 38]),
+      line([79, 26], [76, 22], [79, 16], [85, 15], [90, 18], [95, 14], [102, 17], [103, 23], [109, 26], [108, 32], [80, 32], [76, 29], [79, 26]),
+      line([29, 47], [46, 66]), line([92, 33], [77, 65]), line([38, 70], [38, 62], [49, 62], [55, 68], [88, 68], [88, 90], [38, 90], [38, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-file-cache-on-premises", "aws", "File Cache On-premises NFS Datasets", ["Res_Amazon-File-Cache_On-premises-NFS-linked-datasets_48"],
+    "An on-premises server links its files to a cache.",
+    [
+      rect(13, 24, 35, 49), line([13, 35], [48, 35]), line([20, 45], [41, 45]), line([20, 55], [36, 55]), oval(20, 63, 5, 5, true),
+      line([49, 49], [65, 49]), line([59, 43], [65, 49], [59, 55]),
+      line([70, 38], [70, 30], [81, 30], [88, 37], [111, 37], [111, 69], [70, 69], [70, 38]), line([78, 48], [103, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-file-cache-s3", "aws", "File Cache S3 Datasets", ["Res_Amazon-File-Cache_S3-linked-datasets_48"],
+    "An object bucket links its contents to a file cache.",
+    [
+      oval(14, 27, 38, 12), line([14, 33], [18, 72], [24, 76], [42, 76], [48, 72], [52, 33]), rect(27, 46, 12, 12),
+      line([54, 51], [68, 51]), line([62, 45], [68, 51], [62, 57]),
+      line([72, 39], [72, 31], [82, 31], [88, 37], [110, 37], [110, 70], [72, 70], [72, 39]), line([79, 48], [103, 48]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-snowball-import-export", "aws", "Snowball Import Export", ["Res_AWS-Snowball_Snowball-Import-Export_48"],
     "A rugged transfer appliance carries data in both directions.",
     [
