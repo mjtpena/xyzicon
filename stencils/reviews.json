@@ -1899,5 +1899,65 @@
     "comparisonRevision": "7d3bdb88a40bbc39354afc16f1ebeabc623ecb8fc4b6fb536ad2a4f566ea691a",
     "status": "approved",
     "notes": "A payment card is checked with a warning lens, unlike instance pools, network gateways and the office building."
+  },
+  "aws-kendra": {
+    "revision": "cd30316232851adb7597fb52a75e8c608c7670f18a0d11081b43c848256a0d12",
+    "comparisonRevision": "44f4ffbdcc8d159094d28cb87af3f35b0c11f31101061a35953aa8e56d4f45ff",
+    "status": "rework",
+    "notes": "A densely shaded document stack obscures the search and question at small sizes."
+  },
+  "aws-polly": {
+    "revision": "1ba7e7875ba3607dd752d67ca09bcd9d14505846599cc4b9353c7e2920956437",
+    "comparisonRevision": "14c4c1c0a6b1480f6543a1bdb5bc87107bbb15bf38ec55e6774c75490dcd780f",
+    "status": "rework",
+    "notes": "The voice waveform is obscured by dense hatching; simplify the speech output."
+  },
+  "aws-personalize": {
+    "revision": "676d1fdbb3e4264967197ea4ded77010dece77e82c4c9046ef47f87ccbf29cf6",
+    "comparisonRevision": "dcf2e5c2a794a764e0634c357769b9b79a89033a13c491f05e2b963c0cc99433",
+    "status": "rework",
+    "notes": "The recommendation list is obscured by hatching at small sizes."
+  },
+  "aws-codeguru": {
+    "revision": "57ec7a84ca17ebd4832a9f6fee31af7473b23ec9667bd0240642bb94eb7a57b7",
+    "comparisonRevision": "66ad0e81a83b8bcea7e5a75574c6f18fe69e0cc8e7bc989fdc6b91a6d238529f",
+    "status": "rework",
+    "notes": "The review lens is dark and obscures its content at small sizes."
+  },
+  "aws-compute-optimizer": {
+    "revision": "cc43c7a3b2d6588e2a07e7660b7aa80878552f2f5d8af7cdcfff749907054809",
+    "comparisonRevision": "c48e86e70ad41d466c0bef8e4c248ae995cbfa9a627fc715ea75d0d3496d22df",
+    "status": "rework",
+    "notes": "The processor is densely shaded and the optimization gauge lacks a clear cue at small sizes."
+  },
+  "aws-elastic-beanstalk": {
+    "revision": "be290001a7ad46d217c68d7dd062b9456069d2eb1bbf17c819a233e4529662ea",
+    "comparisonRevision": "2f18b77897f4f1d942ef5c6e0d7184a7bf90e2ed4b19eca5887ba91a211089df",
+    "status": "approved",
+    "notes": "Applications grow from a platform like a beanstalk, distinct from storage, metrics and a data table."
+  },
+  "aws-outposts-rack": {
+    "revision": "a3a4e6edcb1cd8586d0470362875ae65ebb6ebe1a59a42769169ac9a3598563a",
+    "comparisonRevision": "645a1cb7d0f0fe04b60bfa6ca9de8548727107b3fabc68a68bc7fde847489a85",
+    "status": "rework",
+    "notes": "A generic rack is hard to distinguish from other infrastructure racks and does not indicate the on-premises context."
+  },
+  "aws-outposts-servers": {
+    "revision": "b7ba8cd377f79a8a2346174935d272e29fea9c13d8f63ad27f306b051b51debb",
+    "comparisonRevision": "c5dfd10ce3d01d6f0e4b8f82e746640fd61b86b9ba0965e95179cbe0a0a10c94",
+    "status": "rework",
+    "notes": "Both server faces are obscured by dense hatching at small sizes."
+  },
+  "aws-ec2-autoscaling": {
+    "revision": "4d332b184542be2fbd8d2ef8c0c52fa9736ebb15f57c3f45acf81736330e56a0",
+    "comparisonRevision": "63899f45ae9b5801cd71cb45ae852197e4c83a338fc11d302490564cffb07441",
+    "status": "rework",
+    "notes": "The clock suggests scheduled scaling but does not clearly communicate automatic changes in capacity."
+  },
+  "aws-mxnet": {
+    "revision": "576dadab81f6fa4dcd61472f50e7a0ca3fba2f6b9f478f76c4a0a7fa08cba11a",
+    "comparisonRevision": "7183863debd48dda1d94a58856b1750d01fc60613e5fe796355c03085dceed23",
+    "status": "approved",
+    "notes": "A labeled MX processing node connects to a graph, unlike power, external attack management and CDN security."
   }
 }
