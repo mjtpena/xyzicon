@@ -1,6 +1,54 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureIotArtwork = [
+  entry("azure-defender-robot-controller", "azure", "Defender Robot Controller", ["03408-icon-service-Defender-Robot-Controller"],
+    "A control console operates a robotic arm.",
+    [
+      rect(12, 31, 44, 44), line([12, 42], [56, 42]), oval(21, 51, 8, 8, true), line([35, 54], [49, 54]),
+      line([69, 84], [99, 84], [99, 92], [69, 92], [69, 84]), oval(74, 67, 15, 15), line([81, 67], [68, 51], [75, 43], [91, 56]), oval(88, 52, 13, 13), line([94, 52], [94, 37], [103, 30]), line([101, 28], [108, 27], [110, 34]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-sensor", "azure", "Defender Sensor", ["03409-icon-service-Defender-Sensor"],
+    "An industrial sensor measures and transmits a reading.",
+    [
+      rect(27, 38, 70, 43), oval(40, 48, 22, 22), line([51, 52], [51, 60], [57, 64]), line([70, 51], [87, 51]), line([70, 63], [87, 63]),
+      line([44, 29], [48, 24], [55, 22], [62, 24], [66, 29]), line([37, 22], [44, 15], [55, 12], [66, 15], [73, 22]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-slot", "azure", "Defender Slot", ["03410-icon-service-Defender-Slot"],
+    "An equipment rack has a populated slot and open expansion slots.",
+    [
+      rect(17, 20, 23, 70), rect(52, 20, 23, 70), rect(87, 20, 23, 70), line([24, 30], [33, 30]), line([24, 40], [33, 40]), line([24, 50], [33, 50]), oval(25, 72, 7, 7, true),
+      line([59, 31], [68, 31]), line([94, 31], [103, 31]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-web-guiding", "azure", "Defender Web Guiding System", ["03411-icon-service-Defender-Web-Guiding-System"],
+    "Rollers align a moving sheet of material.",
+    [
+      oval(12, 41, 28, 28), oval(86, 41, 28, 28), oval(20, 49, 12, 12), oval(94, 49, 12, 12), line([40, 44], [86, 44]), line([40, 66], [86, 66]),
+      line([51, 31], [51, 22], [75, 22], [75, 31]), line([55, 33], [63, 41], [71, 33]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-engineering-station", "azure", "Defender Engineering Station", ["03414-icon-service-Defender-Engineering-Station"],
+    "An engineering workstation configures industrial control software.",
+    [
+      rect(15, 20, 94, 61), line([15, 32], [109, 32]), line([41, 43], [31, 53], [41, 63]), line([78, 43], [88, 53], [78, 63]), line([69, 39], [52, 68]),
+      line([62, 81], [62, 93]), line([45, 93], [79, 93]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-packaging", "azure", "Defender Industrial Packaging System", ["03415-icon-service-Defender-Industrial-Packaging-System"],
+    "A conveyor carries a package through industrial equipment.",
+    [
+      rect(16, 73, 96, 17), oval(22, 77, 9, 9), oval(43, 77, 9, 9), oval(64, 77, 9, 9), oval(85, 77, 9, 9),
+      line([38, 32], [64, 22], [90, 32], [90, 68], [64, 75], [38, 68], [38, 32]), line([38, 32], [64, 42], [90, 32]), line([64, 42], [64, 75]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-printer", "azure", "Defender Industrial Printer", ["03416-icon-service-Defender-Industrial-Printer"],
+    "An industrial printer produces a labeled sheet.",
+    [
+      rect(17, 39, 93, 45), line([26, 39], [26, 20], [101, 20], [101, 39]), line([24, 65], [103, 65]),
+      line([35, 60], [92, 60], [92, 96], [35, 96], [35, 60]), line([43, 71], [84, 71]), line([43, 80], [77, 80]), oval(94, 46, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-defender-scale", "azure", "Defender Industrial Scale System", ["03417-icon-service-Defender-Industrial-Scale-System"],
+    "An industrial scale weighs goods on a platform.",
+    [
+      line([16, 79], [108, 79], [103, 90], [21, 90], [16, 79]), line([35, 79], [35, 70], [89, 70], [89, 79]),
+      line([57, 70], [57, 41]), line([68, 70], [68, 41]), line([37, 27], [42, 18], [62, 13], [82, 18], [87, 27], [80, 41], [44, 41], [37, 27]), line([49, 32], [62, 23], [75, 32]), line([62, 23], [65, 34]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-defender-local-manager", "azure", "Defender CM Local Manager", ["03402-icon-service-Defender-CM-Local-Manager"],
     "A local server manages industrial device configuration.",
     [

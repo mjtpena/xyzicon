@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2046,
-  "aliases": 5215,
+  "count": 2054,
+  "aliases": 5223,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -849,6 +849,14 @@
     "azure-object-understanding",
     "azure-metrics-advisor",
     "azure-content-safety",
+    "azure-defender-robot-controller",
+    "azure-defender-sensor",
+    "azure-defender-slot",
+    "azure-defender-web-guiding",
+    "azure-defender-engineering-station",
+    "azure-defender-packaging",
+    "azure-defender-printer",
+    "azure-defender-scale",
     "azure-defender-local-manager",
     "azure-defender-external-management",
     "azure-defender-freezer-monitor",
@@ -2316,8 +2324,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 546,
-      "concepts": 467
+      "covered": 554,
+      "concepts": 475
     },
     "fabric": {
       "sources": 1584,
@@ -4035,8 +4043,8 @@
       },
       {
         "a": "azure-horizondb",
-        "b": "fabric-building-data",
-        "similarity": 0.1924
+        "b": "azure-defender-web-guiding",
+        "similarity": 0.1947
       }
     ],
     "azure-encrypted-transport": [
@@ -5186,13 +5194,13 @@
       },
       {
         "a": "gcp-cloud-scheduler",
-        "b": "aws-cloud-wan-segment",
-        "similarity": 0.3242
+        "b": "azure-defender-printer",
+        "similarity": 0.3425
       },
       {
         "a": "gcp-cloud-scheduler",
-        "b": "m365-building-multiple",
-        "similarity": 0.3003
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3242
       }
     ],
     "gcp-cloud-tasks": [
@@ -5696,13 +5704,13 @@
       },
       {
         "a": "fabric-branch-add",
-        "b": "azure-folder-blank",
-        "similarity": 0.1402
+        "b": "azure-defender-sensor",
+        "similarity": 0.1647
       },
       {
         "a": "fabric-branch-add",
-        "b": "azure-service-catalog-mad",
-        "similarity": 0.1386
+        "b": "azure-folder-blank",
+        "similarity": 0.1402
       }
     ],
     "fabric-branch-fork-signal": [
@@ -5713,13 +5721,13 @@
       },
       {
         "a": "fabric-branch-fork-signal",
-        "b": "azure-device-security-apple",
-        "similarity": 0.1323
+        "b": "azure-defender-printer",
+        "similarity": 0.1354
       },
       {
         "a": "fabric-branch-fork-signal",
-        "b": "azure-blob-block",
-        "similarity": 0.1268
+        "b": "azure-device-security-apple",
+        "similarity": 0.1323
       }
     ],
     "fabric-briefcase-report": [
@@ -10784,8 +10792,8 @@
       },
       {
         "a": "fabric-data-factory",
-        "b": "azure-defender-hmi",
-        "similarity": 0.1937
+        "b": "azure-defender-packaging",
+        "similarity": 0.1945
       }
     ],
     "fabric-data-warehouse": [
@@ -10982,14 +10990,14 @@
         "similarity": 0.2341
       },
       {
+        "a": "fabric-kql-database",
+        "b": "azure-defender-printer",
+        "similarity": 0.2314
+      },
+      {
         "a": "gcp-bigtable",
         "b": "fabric-kql-database",
         "similarity": 0.2186
-      },
-      {
-        "a": "fabric-building-data",
-        "b": "fabric-kql-database",
-        "similarity": 0.2138
       }
     ],
     "fabric-kql-queryset": [
@@ -11839,14 +11847,14 @@
         "similarity": 0.3014
       },
       {
+        "a": "azure-endpoint-analytics",
+        "b": "azure-defender-printer",
+        "similarity": 0.2932
+      },
+      {
         "a": "azure-waf-policies",
         "b": "azure-endpoint-analytics",
         "similarity": 0.2892
-      },
-      {
-        "a": "azure-storsimple-data-managers",
-        "b": "azure-endpoint-analytics",
-        "similarity": 0.2891
       }
     ],
     "azure-workbooks": [
@@ -12230,14 +12238,14 @@
         "similarity": 0.212
       },
       {
+        "a": "azure-storage-explorer",
+        "b": "azure-defender-slot",
+        "similarity": 0.2074
+      },
+      {
         "a": "fabric-kql-database",
         "b": "azure-storage-explorer",
         "similarity": 0.2069
-      },
-      {
-        "a": "azure-storage-explorer",
-        "b": "aws-transfer-as2",
-        "similarity": 0.202
       }
     ],
     "aws-dynamodb-attribute": [
@@ -13647,8 +13655,8 @@
       },
       {
         "a": "fabric-shared-semantic",
-        "b": "aws-iot-sailboat",
-        "similarity": 0.1669
+        "b": "azure-defender-packaging",
+        "similarity": 0.1708
       }
     ],
     "fabric-spark-job": [
@@ -15177,8 +15185,8 @@
       },
       {
         "a": "azure-device-security-apple",
-        "b": "azure-policy",
-        "similarity": 0.2465
+        "b": "azure-defender-printer",
+        "similarity": 0.2491
       }
     ],
     "azure-device-security-google": [
@@ -15636,8 +15644,8 @@
       },
       {
         "a": "azure-identity-roles-administrators",
-        "b": "aws-systems-inventory",
-        "similarity": 0.2584
+        "b": "azure-defender-slot",
+        "similarity": 0.2605
       }
     ],
     "azure-multi-factor-authentication": [
@@ -16728,6 +16736,142 @@
         "similarity": 0.1898
       }
     ],
+    "azure-defender-robot-controller": [
+      {
+        "a": "azure-defender-robot-controller",
+        "b": "azure-resources-provider",
+        "similarity": 0.2846
+      },
+      {
+        "a": "azure-defender-robot-controller",
+        "b": "aws-backup-gateway-resource",
+        "similarity": 0.2831
+      },
+      {
+        "a": "azure-language",
+        "b": "azure-defender-robot-controller",
+        "similarity": 0.2714
+      }
+    ],
+    "azure-defender-sensor": [
+      {
+        "a": "azure-defender-sensor",
+        "b": "aws-ebs-multiple-volumes",
+        "similarity": 0.2952
+      },
+      {
+        "a": "azure-defender-sensor",
+        "b": "azure-globe-warning",
+        "similarity": 0.2789
+      },
+      {
+        "a": "azure-defender-sensor",
+        "b": "aws-elasticache-memcached",
+        "similarity": 0.2607
+      }
+    ],
+    "azure-defender-slot": [
+      {
+        "a": "azure-defender-slot",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3662
+      },
+      {
+        "a": "azure-defender-slot",
+        "b": "azure-defender-hmi",
+        "similarity": 0.3596
+      },
+      {
+        "a": "azure-defender-slot",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.3381
+      }
+    ],
+    "azure-defender-web-guiding": [
+      {
+        "a": "azure-defender-web-guiding",
+        "b": "azure-resource-group-list",
+        "similarity": 0.2924
+      },
+      {
+        "a": "azure-defender-web-guiding",
+        "b": "aws-general-forums",
+        "similarity": 0.2867
+      },
+      {
+        "a": "azure-defender-web-guiding",
+        "b": "azure-search-grid",
+        "similarity": 0.2626
+      }
+    ],
+    "azure-defender-engineering-station": [
+      {
+        "a": "azure-defender-engineering-station",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.4473
+      },
+      {
+        "a": "azure-defender-engineering-station",
+        "b": "aws-mainframe-developer",
+        "similarity": 0.4224
+      },
+      {
+        "a": "azure-defender-engineering-station",
+        "b": "azure-managed-desktop",
+        "similarity": 0.377
+      }
+    ],
+    "azure-defender-packaging": [
+      {
+        "a": "azure-event-grid-domains",
+        "b": "azure-defender-packaging",
+        "similarity": 0.2846
+      },
+      {
+        "a": "azure-defender-packaging",
+        "b": "azure-general-image",
+        "similarity": 0.2731
+      },
+      {
+        "a": "azure-defender-packaging",
+        "b": "azure-table",
+        "similarity": 0.272
+      }
+    ],
+    "azure-defender-printer": [
+      {
+        "a": "gcp-cloud-scheduler",
+        "b": "azure-defender-printer",
+        "similarity": 0.3425
+      },
+      {
+        "a": "azure-endpoint-analytics",
+        "b": "azure-defender-printer",
+        "similarity": 0.2932
+      },
+      {
+        "a": "azure-defender-printer",
+        "b": "aws-s3-tables",
+        "similarity": 0.2862
+      }
+    ],
+    "azure-defender-scale": [
+      {
+        "a": "azure-defender-scale",
+        "b": "azure-lighthouse",
+        "similarity": 0.3161
+      },
+      {
+        "a": "azure-defender-scale",
+        "b": "azure-general-image",
+        "similarity": 0.3095
+      },
+      {
+        "a": "azure-defender-scale",
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.2952
+      }
+    ],
     "azure-defender-local-manager": [
       {
         "a": "azure-defender-local-manager",
@@ -16808,9 +16952,9 @@
         "similarity": 0.3605
       },
       {
-        "a": "azure-defender-hmi",
-        "b": "aws-braket-simulator",
-        "similarity": 0.329
+        "a": "azure-defender-slot",
+        "b": "azure-defender-hmi",
+        "similarity": 0.3596
       }
     ],
     "azure-defender-marquee": [
@@ -17143,14 +17287,14 @@
         "similarity": 0.4146
       },
       {
+        "a": "azure-defender-robot-controller",
+        "b": "azure-resources-provider",
+        "similarity": 0.2846
+      },
+      {
         "a": "azure-software-updates",
         "b": "azure-resources-provider",
         "similarity": 0.2708
-      },
-      {
-        "a": "gcp-migrate-anthos",
-        "b": "azure-resources-provider",
-        "similarity": 0.2695
       }
     ],
     "azure-managed-applications-center": [
@@ -17206,6 +17350,11 @@
     ],
     "azure-lighthouse": [
       {
+        "a": "azure-defender-scale",
+        "b": "azure-lighthouse",
+        "similarity": 0.3161
+      },
+      {
         "a": "azure-lighthouse",
         "b": "aws-general-cold-storage",
         "similarity": 0.2845
@@ -17214,11 +17363,6 @@
         "a": "azure-hpc-cache",
         "b": "azure-lighthouse",
         "similarity": 0.2729
-      },
-      {
-        "a": "azure-lighthouse",
-        "b": "aws-s3-on-outposts-resource",
-        "similarity": 0.2617
       }
     ],
     "azure-arc": [
@@ -17284,9 +17428,9 @@
         "similarity": 0.3922
       },
       {
-        "a": "azure-managed-desktop",
-        "b": "aws-greengrass-ml-component",
-        "similarity": 0.3352
+        "a": "azure-defender-engineering-station",
+        "b": "azure-managed-desktop",
+        "similarity": 0.377
       }
     ],
     "azure-customer-lockbox": [
@@ -18180,14 +18324,14 @@
         "similarity": 0.4662
       },
       {
+        "a": "azure-defender-engineering-station",
+        "b": "aws-greengrass-ml-component",
+        "similarity": 0.4473
+      },
+      {
         "a": "azure-blueprints",
         "b": "aws-greengrass-ml-component",
         "similarity": 0.4363
-      },
-      {
-        "a": "aws-iot-fleet-hub",
-        "b": "aws-greengrass-ml-component",
-        "similarity": 0.4097
       }
     ],
     "aws-greengrass-nucleus": [
@@ -18321,9 +18465,9 @@
         "similarity": 0.3122
       },
       {
-        "a": "azure-iot-central-applications",
+        "a": "azure-defender-engineering-station",
         "b": "aws-iot-thing-industrial-pc",
-        "similarity": 0.2991
+        "similarity": 0.3081
       }
     ],
     "aws-iot-thing-plc": [
@@ -18724,14 +18868,14 @@
         "similarity": 0.323
       },
       {
-        "a": "aws-iot-thing-cart",
-        "b": "aws-general-recover",
-        "similarity": 0.2412
+        "a": "azure-defender-sensor",
+        "b": "aws-iot-thing-cart",
+        "similarity": 0.2475
       },
       {
         "a": "aws-iot-thing-cart",
-        "b": "aws-s3-storage-lens",
-        "similarity": 0.2402
+        "b": "aws-general-recover",
+        "similarity": 0.2412
       }
     ],
     "aws-iot-thing-coffee-pot": [
@@ -18916,9 +19060,9 @@
         "similarity": 0.3077
       },
       {
-        "a": "aws-s3-general-access-point",
-        "b": "aws-transfer-ftp",
-        "similarity": 0.2685
+        "a": "azure-defender-scale",
+        "b": "aws-s3-general-access-point",
+        "similarity": 0.2952
       }
     ],
     "aws-s3-multiregion-access": [
@@ -19450,6 +19594,11 @@
     ],
     "aws-ebs-multiple-volumes": [
       {
+        "a": "azure-defender-sensor",
+        "b": "aws-ebs-multiple-volumes",
+        "similarity": 0.2952
+      },
+      {
         "a": "aws-ebs-multiple-volumes",
         "b": "azure-backlog",
         "similarity": 0.2864
@@ -19458,11 +19607,6 @@
         "a": "azure-operation-log-classic",
         "b": "aws-ebs-multiple-volumes",
         "similarity": 0.2857
-      },
-      {
-        "a": "aws-ebs-multiple-volumes",
-        "b": "aws-cloudwatch-data-protection",
-        "similarity": 0.284
       }
     ],
     "aws-ebs-snapshot": [
@@ -21427,14 +21571,14 @@
         "similarity": 0.1846
       },
       {
+        "a": "azure-defender-robot-controller",
+        "b": "aws-supply-chain",
+        "similarity": 0.1818
+      },
+      {
         "a": "aws-supply-chain",
         "b": "fabric-progress-bars",
         "similarity": 0.1728
-      },
-      {
-        "a": "gcp-cloud-tpu",
-        "b": "aws-supply-chain",
-        "similarity": 0.1725
       }
     ],
     "aws-connect": [
@@ -21864,6 +22008,11 @@
     ],
     "aws-mainframe-developer": [
       {
+        "a": "azure-defender-engineering-station",
+        "b": "aws-mainframe-developer",
+        "similarity": 0.4224
+      },
+      {
         "a": "azure-iot-central-applications",
         "b": "aws-mainframe-developer",
         "similarity": 0.3977
@@ -21872,11 +22021,6 @@
         "a": "aws-mainframe-developer",
         "b": "aws-cloudwatch-rum",
         "similarity": 0.3464
-      },
-      {
-        "a": "aws-mainframe-developer",
-        "b": "aws-ecs-copilot-cli",
-        "similarity": 0.3313
       }
     ],
     "aws-mainframe-runtime": [
@@ -22333,9 +22477,9 @@
         "similarity": 0.355
       },
       {
-        "a": "aws-migration-evaluator-collector",
+        "a": "azure-defender-engineering-station",
         "b": "aws-systems-inventory",
-        "similarity": 0.3136
+        "similarity": 0.3183
       }
     ],
     "aws-systems-maintenance-windows": [
@@ -23229,14 +23373,14 @@
         "similarity": 0.3647
       },
       {
+        "a": "azure-defender-web-guiding",
+        "b": "aws-general-forums",
+        "similarity": 0.2867
+      },
+      {
         "a": "aws-general-forums",
         "b": "azure-resource-group-list",
         "similarity": 0.2786
-      },
-      {
-        "a": "aws-efs-standard",
-        "b": "aws-general-forums",
-        "similarity": 0.2766
       }
     ],
     "aws-general-gear": [
@@ -23343,6 +23487,11 @@
     ],
     "aws-general-alert": [
       {
+        "a": "azure-defender-packaging",
+        "b": "aws-general-alert",
+        "similarity": 0.2616
+      },
+      {
         "a": "aws-iot-thing-temperature-sensor",
         "b": "aws-general-alert",
         "similarity": 0.2533
@@ -23351,11 +23500,6 @@
         "a": "aws-systems-change-calendar",
         "b": "aws-general-alert",
         "similarity": 0.252
-      },
-      {
-        "a": "aws-general-alert",
-        "b": "azure-extensions",
-        "similarity": 0.2308
       }
     ],
     "aws-general-camera": [
@@ -25967,14 +26111,14 @@
         "similarity": 0.215
       },
       {
+        "a": "azure-defender-web-guiding",
+        "b": "m365-cloud-beaker",
+        "similarity": 0.1876
+      },
+      {
         "a": "m365-cloud-beaker",
         "b": "m365-cloud-cube",
         "similarity": 0.1863
-      },
-      {
-        "a": "azure-edge-storage-accelerator",
-        "b": "m365-cloud-beaker",
-        "similarity": 0.1835
       }
     ],
     "m365-cloud-cube": [
@@ -26359,6 +26503,11 @@
     ],
     "aws-elb-gateway": [
       {
+        "a": "azure-defender-slot",
+        "b": "aws-elb-gateway",
+        "similarity": 0.2886
+      },
+      {
         "a": "aws-elb-application",
         "b": "aws-elb-gateway",
         "similarity": 0.2878
@@ -26367,11 +26516,6 @@
         "a": "aws-elb-gateway",
         "b": "aws-elb-network",
         "similarity": 0.2542
-      },
-      {
-        "a": "aws-general-json-script",
-        "b": "aws-elb-gateway",
-        "similarity": 0.2492
       }
     ],
     "aws-elb-network": [
@@ -26534,14 +26678,14 @@
         "similarity": 0.2774
       },
       {
+        "a": "azure-defender-packaging",
+        "b": "aws-route53-hosted-zone",
+        "similarity": 0.2592
+      },
+      {
         "a": "aws-route53-hosted-zone",
         "b": "aws-app-mesh-virtual-node",
         "similarity": 0.2536
-      },
-      {
-        "a": "aws-greengrass-component",
-        "b": "aws-route53-hosted-zone",
-        "similarity": 0.2533
       }
     ],
     "aws-route53-readiness": [
@@ -26670,14 +26814,14 @@
         "similarity": 0.3961
       },
       {
+        "a": "azure-defender-slot",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3662
+      },
+      {
         "a": "aws-systems-application-manager",
         "b": "aws-cloud-wan-segment",
         "similarity": 0.3611
-      },
-      {
-        "a": "aws-general-data-table",
-        "b": "aws-cloud-wan-segment",
-        "similarity": 0.3424
       }
     ],
     "aws-cloud-wan-transit-attachment": [
@@ -28563,14 +28707,14 @@
         "similarity": 0.2955
       },
       {
+        "a": "azure-defender-engineering-station",
+        "b": "aws-beanstalk-application",
+        "similarity": 0.2772
+      },
+      {
         "a": "aws-systems-session-manager",
         "b": "aws-beanstalk-application",
         "similarity": 0.2729
-      },
-      {
-        "a": "aws-ecr-registry",
-        "b": "aws-beanstalk-application",
-        "similarity": 0.2676
       }
     ],
     "aws-beanstalk-deployment": [
@@ -28602,9 +28746,9 @@
         "similarity": 0.2391
       },
       {
-        "a": "aws-organizational-unit",
+        "a": "azure-defender-slot",
         "b": "aws-lambda-function",
-        "similarity": 0.2325
+        "similarity": 0.2354
       }
     ],
     "aws-ec2-ami": [
@@ -29673,9 +29817,9 @@
         "similarity": 0.2031
       },
       {
-        "a": "gcp-ai-hypercomputer",
+        "a": "azure-defender-printer",
         "b": "aws-elastic-vmware",
-        "similarity": 0.1981
+        "similarity": 0.1986
       }
     ],
     "aws-ecs-anywhere": [
@@ -35277,14 +35421,14 @@
         "similarity": 0.2684
       },
       {
+        "a": "azure-defender-printer",
+        "b": "fabric-database-enter",
+        "similarity": 0.2103
+      },
+      {
         "a": "azure-app-service-environments",
         "b": "fabric-database-enter",
         "similarity": 0.2062
-      },
-      {
-        "a": "aws-category-analytics",
-        "b": "fabric-database-enter",
-        "similarity": 0.1992
       }
     ],
     "fabric-database-badge-asterisk": [
@@ -36170,9 +36314,9 @@
         "similarity": 0.1755
       },
       {
-        "a": "aws-firewall-manager",
+        "a": "azure-defender-packaging",
         "b": "fabric-stream-settings",
-        "similarity": 0.1733
+        "similarity": 0.1748
       }
     ],
     "fabric-cloud-endpoint": [
@@ -36541,14 +36685,14 @@
         "similarity": 0.3071
       },
       {
+        "a": "azure-defender-engineering-station",
+        "b": "fabric-column-double-caret",
+        "similarity": 0.2938
+      },
+      {
         "a": "m365-video",
         "b": "fabric-column-double-caret",
         "similarity": 0.2758
-      },
-      {
-        "a": "azure-monitor",
-        "b": "fabric-column-double-caret",
-        "similarity": 0.2706
       }
     ],
     "fabric-column-inline": [
