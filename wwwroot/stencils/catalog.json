@@ -1628,7 +1628,7 @@
       ],
       "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
       "geometrySignature": "55f80e09d910baa73c18cf98835b4c4bc920f38f27505500f9b29e934feb9d5d",
-      "comparisonRevision": "9f83aa7796186b314a450893944cf1daaf5fe28a9d8a86954d235c8b15100527",
+      "comparisonRevision": "493100ae6ffe3d88dfe39a81dedecbfb48114f41b7b1186e4fb30062ee7922ea",
       "review": "pending",
       "notes": ""
     },
@@ -7865,6 +7865,82 @@
       "revision": "8c947275f3772b446d1d9183c9e6ff66ca67ee1f865bf581c6f8a8ac21478e23",
       "geometrySignature": "9b05c9c75a9d93d539916ee0766df2a6bf4d8146083fa0eb25da86bc56d8e8a8",
       "comparisonRevision": "0a32f887fd5705c814af07c6776e16cedcdac9500867c30b85afdbba3015d56a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-elastic-job-agents",
+      "provider": "azure",
+      "name": "Elastic Job Agents",
+      "rationale": "A scheduled database job fans out in several directions.",
+      "path": "stencils/azure-elastic-job-agents.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10128-icon-service-Elastic-Job-Agents.svg"
+      ],
+      "revision": "8d76272ef4ae5a1d74d4fdfd7dc2cf86c483d3fe2c680df3f7d2961299a42aa2",
+      "geometrySignature": "0e7f1fe3aa58ee9512c1d1676f5ce816253058d488374784be7e0a45f9b59556",
+      "comparisonRevision": "d9135aae30a41d461c2e62c7e7c6bde994d0f5000e4125a6a4441e5bed7add03",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-managed-database",
+      "provider": "azure",
+      "name": "Managed Database",
+      "rationale": "A managed database carries an M cloud badge.",
+      "path": "stencils/azure-managed-database.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10135-icon-service-Managed-Database.svg"
+      ],
+      "revision": "988b3aa7318b1e6ea980d61767290cd45a1fe42edfa136b5b792ed753b555c27",
+      "geometrySignature": "f7fbc0a09e838b4523c0e2167bca2129dc5d1cb726ab5f759ee637d83e72d70b",
+      "comparisonRevision": "657418c3debb1494cb55fccc17313734ba0a13250f9f60854f532f035f2e6291",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-redis-cache",
+      "provider": "azure",
+      "name": "Cache for Redis",
+      "rationale": "Three small database stores form a cache cluster.",
+      "path": "stencils/azure-redis-cache.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10137-icon-service-Cache-Redis.svg"
+      ],
+      "revision": "280cdfd449b934a120fb1d07e13573277b9a4541ddbe8924e48bcb1fa533552e",
+      "geometrySignature": "ed125bf7f68a992ff17f713841d1ee51dd3c418df56867227cef77a972a5e559",
+      "comparisonRevision": "7bfb3e0623ac65c4df38d626e36ff2ae223b96434919787a0a70bdbf25428b79",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-instance-pools",
+      "provider": "azure",
+      "name": "SQL Instance Pools",
+      "rationale": "Stacked server cards share an SQL instance pool.",
+      "path": "stencils/azure-instance-pools.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10139-icon-service-Instance-Pools.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/10139-icon-service-Instance-Pools.svg"
+      ],
+      "revision": "3de4361bddfb9fab3e17498ff45463059c8851967b0242cf7ac0a37151b8c849",
+      "geometrySignature": "28aa036f9097d69e84f79bb9dd97e6041f936fedb26b358abefc14ae36caab92",
+      "comparisonRevision": "b183990cb87609d2178d9731b1ce95e8d60677e31533cd67e6b81b3e8bbf9507",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-sql-registries",
+      "provider": "azure",
+      "name": "SQL Server Registries",
+      "rationale": "A SQL database has an accompanying registry document.",
+      "path": "stencils/azure-sql-registries.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10351-icon-service-SQL-Server-Registries.svg"
+      ],
+      "revision": "784d4fb1fd773cb4abb0b913c349a9383f1210b3e405c6a609545f11b0aeecda",
+      "geometrySignature": "912f22bfad235a51132d7014a29fc5b8f24dd63f0b6e513b1028909ad1232fc9",
+      "comparisonRevision": "087ac8be6d37a1791f0ff5d12f5febce20b155b3f17f992f984579afa81d4633",
       "review": "pending",
       "notes": ""
     },
@@ -16989,7 +17065,7 @@
       ],
       "revision": "1515744ed998d8e51794d0a5c791c1131c070e36b82ad39954fdedaafea0e56f",
       "geometrySignature": "e8f96f4a346f89c51c1d5aa1908492f862eaf0ab3f2b6cf99ac3f8f9fd4c4113",
-      "comparisonRevision": "b2f8d1a9002866f1f29f8494dde9b14a474bc0ede43c38adc9cac7667cde218b",
+      "comparisonRevision": "758a3943d7068eb75012453b777655fc5c5f87ec0f84f13db49a5dff22d0f634",
       "review": "pending",
       "notes": ""
     },
@@ -18021,7 +18097,7 @@
       ],
       "revision": "2e7d2646861f337f9c93547f30188125d86c207daa35778da1c0f61322426580",
       "geometrySignature": "1d5c938e2d8174a17f8c27bde3b58eb0e9ee140031ed90f03815a3c9c29f2366",
-      "comparisonRevision": "6cd22a177910a17f35806a9562e30a27fa2c66ac65e2d59d426933b3debb07d7",
+      "comparisonRevision": "18b5ef29df5b7b11b49bb796a5c161798967f496ab5071d15ecd42b3538ee1f6",
       "review": "pending",
       "notes": ""
     },
@@ -19499,7 +19575,7 @@
       ],
       "revision": "e92d7f242ba25dddcf0d4ff4f45f1dee2b1fcf1b8b215be6f21fe3951258694c",
       "geometrySignature": "d9ceedcfc9d7869ea3eb80ba53cae94cc1bc3522090fd1519f218f760733e0de",
-      "comparisonRevision": "b2ec7ce30bd5316a78eb6d3ccc5618a7634503c08a3d19af4e5ea638e5b4c9e9",
+      "comparisonRevision": "f33e56e32a4cd3fe1d03033db65720822af51aa9886f20e44db959767548acfc",
       "review": "pending",
       "notes": ""
     },
@@ -19595,7 +19671,7 @@
       ],
       "revision": "a7de4a2a840aed96c0709ba51c812cbdea86c23e7a08a353645aaa808b0b6478",
       "geometrySignature": "a8dbb4a29d53c97d6e81f48ab2189adbc2f91b6d1c0ea46229f1a273aaae9cf2",
-      "comparisonRevision": "45a298e00924fad29580e9d273d43c5309950d685d43e3ba221ecbc08180a9a2",
+      "comparisonRevision": "80ae1df592ef0b87102417d6f032918d85e1fc5d43c06a14bf5ffbd80e99f98e",
       "review": "pending",
       "notes": ""
     },
@@ -19839,7 +19915,7 @@
       ],
       "revision": "dff544db277f779254feefa10dddb02bb1fb10f93ebd6c53cc49fb5ed840452e",
       "geometrySignature": "0467e3b743c7fce1be038b0a9156c907722e7fca0ac5c46012ab59afe2b8fed6",
-      "comparisonRevision": "ee95e9b6cb949ce1a14d2c1d2abc8fa90eeb69ae81f81215e64ab1f835e5086a",
+      "comparisonRevision": "7a0569a9970754f6a45fee70a9b51c0a47fe53120dd891845593d73e4ebe79ee",
       "review": "pending",
       "notes": ""
     },
@@ -20177,7 +20253,7 @@
       ],
       "revision": "c401df5bcf08cbb391a404d3fc758a5573ceadb893b489fd961de59992009701",
       "geometrySignature": "0648a790f5ae4310204255bab9d95967e74a5b6ab866dcf3278430769b4205da",
-      "comparisonRevision": "2e18fd6d988910b1101f48ea0b9417c1d8947102992c178939dc57d010bbd879",
+      "comparisonRevision": "87b7df655f6c2c585875d3277190e6e290b29b8982408adf9d043c7a239fb57c",
       "review": "pending",
       "notes": ""
     },
@@ -20579,7 +20655,7 @@
       ],
       "revision": "49ac1ea9875705e8da4a7d2645bff63ae463de6b5a397a69e137922a5134fd82",
       "geometrySignature": "f7d9a2c3a8a8cf7d4ccd80c15bd0901257a561afade60a4ba51ff00605817500",
-      "comparisonRevision": "becc150bd4c10c32b6da299068f5e175cfca68be696c0d062b64eaf314e443d9",
+      "comparisonRevision": "aa6bab7c9aa3eaa8eb8475919b17638a41ed21e09385c5fea12dced95403c11b",
       "review": "pending",
       "notes": ""
     },

@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1379,
-  "aliases": 4435,
+  "count": 1384,
+  "aliases": 4441,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -478,6 +478,11 @@
     "azure-postgresql-group",
     "azure-oracle-database",
     "azure-sql-server",
+    "azure-elastic-job-agents",
+    "azure-managed-database",
+    "azure-redis-cache",
+    "azure-instance-pools",
+    "azure-sql-registries",
     "azure-databricks",
     "azure-analysis-services",
     "azure-event-hub-clusters",
@@ -1649,8 +1654,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 207,
-      "concepts": 161
+      "covered": 213,
+      "concepts": 166
     },
     "fabric": {
       "sources": 1584,
@@ -3397,13 +3402,13 @@
       },
       {
         "a": "aws-eventbridge-event",
-        "b": "aws-elasticache",
-        "similarity": 0.2249
+        "b": "azure-instance-pools",
+        "similarity": 0.2384
       },
       {
         "a": "aws-eventbridge-event",
-        "b": "fabric-squares-diagram",
-        "similarity": 0.2232
+        "b": "aws-elasticache",
+        "similarity": 0.2249
       }
     ],
     "aws-eventbridge-default-bus": [
@@ -9752,6 +9757,91 @@
         "a": "azure-sql-server",
         "b": "fabric-table-link",
         "similarity": 0.3057
+      }
+    ],
+    "azure-elastic-job-agents": [
+      {
+        "a": "azure-elastic-job-agents",
+        "b": "fabric-table-export",
+        "similarity": 0.2219
+      },
+      {
+        "a": "aws-ecr",
+        "b": "azure-elastic-job-agents",
+        "similarity": 0.2181
+      },
+      {
+        "a": "azure-elastic-job-agents",
+        "b": "fabric-documents-question",
+        "similarity": 0.2081
+      }
+    ],
+    "azure-managed-database": [
+      {
+        "a": "azure-managed-database",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.2845
+      },
+      {
+        "a": "azure-managed-database",
+        "b": "fabric-document-sparkles",
+        "similarity": 0.2681
+      },
+      {
+        "a": "azure-sql-server",
+        "b": "azure-managed-database",
+        "similarity": 0.2468
+      }
+    ],
+    "azure-redis-cache": [
+      {
+        "a": "azure-redis-cache",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2418
+      },
+      {
+        "a": "azure-redis-cache",
+        "b": "aws-textract-lending",
+        "similarity": 0.2377
+      },
+      {
+        "a": "gcp-os-inventory",
+        "b": "azure-redis-cache",
+        "similarity": 0.2376
+      }
+    ],
+    "azure-instance-pools": [
+      {
+        "a": "azure-instance-pools",
+        "b": "fabric-squares-diagram",
+        "similarity": 0.2805
+      },
+      {
+        "a": "azure-instance-pools",
+        "b": "fabric-document-ssis",
+        "similarity": 0.2754
+      },
+      {
+        "a": "azure-instance-pools",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.2692
+      }
+    ],
+    "azure-sql-registries": [
+      {
+        "a": "azure-sql-registries",
+        "b": "aws-ec2-db-instance",
+        "similarity": 0.2591
+      },
+      {
+        "a": "fabric-planning",
+        "b": "azure-sql-registries",
+        "similarity": 0.2556
+      },
+      {
+        "a": "azure-sql-registries",
+        "b": "fabric-database-crown",
+        "similarity": 0.2391
       }
     ],
     "azure-databricks": [
@@ -18495,14 +18585,14 @@
         "similarity": 0.3333
       },
       {
+        "a": "azure-sql-registries",
+        "b": "aws-ec2-db-instance",
+        "similarity": 0.2591
+      },
+      {
         "a": "aws-sns-http-notification",
         "b": "aws-ec2-db-instance",
         "similarity": 0.2506
-      },
-      {
-        "a": "aws-rekognition-image",
-        "b": "aws-ec2-db-instance",
-        "similarity": 0.25
       }
     ],
     "aws-ec2-elastic-ip": [
@@ -19493,6 +19583,11 @@
     ],
     "aws-ground-station": [
       {
+        "a": "azure-redis-cache",
+        "b": "aws-ground-station",
+        "similarity": 0.1866
+      },
+      {
         "a": "aws-ground-station",
         "b": "fabric-signal-tower",
         "similarity": 0.1861
@@ -19501,11 +19596,6 @@
         "a": "m365-edit",
         "b": "aws-ground-station",
         "similarity": 0.1845
-      },
-      {
-        "a": "aws-ground-station",
-        "b": "fabric-trophy-data-bars",
-        "similarity": 0.1835
       }
     ],
     "aws-local-zones": [
@@ -20960,14 +21050,14 @@
         "similarity": 0.3237
       },
       {
-        "a": "fabric-document-people",
-        "b": "fabric-table-export",
-        "similarity": 0.2659
+        "a": "azure-instance-pools",
+        "b": "fabric-document-people",
+        "similarity": 0.2661
       },
       {
         "a": "fabric-document-people",
-        "b": "fabric-documents-question",
-        "similarity": 0.2643
+        "b": "fabric-table-export",
+        "similarity": 0.2659
       }
     ],
     "fabric-document-shapes": [
@@ -21062,14 +21152,14 @@
         "similarity": 0.2774
       },
       {
-        "a": "fabric-document-sparkles",
-        "b": "fabric-table-external",
-        "similarity": 0.2659
+        "a": "azure-managed-database",
+        "b": "fabric-document-sparkles",
+        "similarity": 0.2681
       },
       {
         "a": "fabric-document-sparkles",
-        "b": "fabric-document-ssis",
-        "similarity": 0.2563
+        "b": "fabric-table-external",
+        "similarity": 0.2659
       }
     ],
     "fabric-document-ssis": [
@@ -21322,9 +21412,9 @@
         "similarity": 0.2167
       },
       {
-        "a": "fabric-funnel",
-        "b": "fabric-window-person",
-        "similarity": 0.2033
+        "a": "azure-redis-cache",
+        "b": "fabric-funnel",
+        "similarity": 0.2084
       }
     ],
     "fabric-funnel-add": [
@@ -21681,6 +21771,11 @@
     ],
     "fabric-notebook-globe": [
       {
+        "a": "azure-managed-database",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.2845
+      },
+      {
         "a": "fabric-notebook-globe",
         "b": "fabric-rectangle-list-asterisk",
         "similarity": 0.2632
@@ -21689,11 +21784,6 @@
         "a": "fabric-notebook-globe",
         "b": "fabric-window-sparkle-new",
         "similarity": 0.2461
-      },
-      {
-        "a": "fabric-document-people",
-        "b": "fabric-notebook-globe",
-        "similarity": 0.245
       }
     ],
     "fabric-list-asterisk": [
@@ -22115,14 +22205,14 @@
         "similarity": 0.2603
       },
       {
+        "a": "azure-redis-cache",
+        "b": "fabric-signal-tower",
+        "similarity": 0.2418
+      },
+      {
         "a": "aws-opensearch-observability",
         "b": "fabric-signal-tower",
         "similarity": 0.2389
-      },
-      {
-        "a": "fabric-signal-tower",
-        "b": "fabric-trophy-data-bars",
-        "similarity": 0.234
       }
     ],
     "fabric-slide-accept-dismiss": [
