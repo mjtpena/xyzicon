@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 553,
+  "approved": 565,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,18 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-systems-state-manager",
-    "aws-systems-application-manager",
-    "aws-systems-automation",
-    "aws-systems-change-calendar",
-    "aws-systems-change-manager",
-    "aws-systems-compliance",
-    "aws-systems-distributor",
-    "aws-systems-documents",
-    "aws-systems-incident-manager",
-    "aws-cloudformation-template",
-    "aws-cloudformation-stack",
-    "aws-cloudformation-change-set",
     "aws-cloudtrail-lake",
     "aws-license-application-discovery",
     "aws-license-blending",
@@ -2567,6 +2555,11 @@
     "dynamics-customer-voice": [
       {
         "a": "dynamics-customer-voice",
+        "b": "aws-cloudformation-template",
+        "similarity": 0.3097
+      },
+      {
+        "a": "dynamics-customer-voice",
         "b": "aws-braket-simulator",
         "similarity": 0.3092
       },
@@ -2574,11 +2567,6 @@
         "a": "dynamics-customer-voice",
         "b": "m365-chat",
         "similarity": 0.3077
-      },
-      {
-        "a": "dynamics-customer-voice",
-        "b": "azure-hybrid-center",
-        "similarity": 0.3043
       }
     ],
     "dynamics-finance-operations": [
@@ -3937,8 +3925,8 @@
       },
       {
         "a": "aws-sns",
-        "b": "aws-fsx",
-        "similarity": 0.1386
+        "b": "aws-cloudformation-template",
+        "similarity": 0.1424
       }
     ],
     "aws-cloudwatch": [
@@ -7949,8 +7937,8 @@
       },
       {
         "a": "gcp-key-management",
-        "b": "azure-power-bi-embedded",
-        "similarity": 0.2484
+        "b": "aws-cloudformation-template",
+        "similarity": 0.2547
       }
     ],
     "gcp-database-migration": [
@@ -9224,8 +9212,8 @@
       },
       {
         "a": "gcp-vision",
-        "b": "fabric-power-bi",
-        "similarity": 0.2769
+        "b": "aws-cloudformation-template",
+        "similarity": 0.2786
       }
     ],
     "gcp-genomics": [
@@ -10608,6 +10596,11 @@
     "fabric-healthcare": [
       {
         "a": "fabric-healthcare",
+        "b": "aws-cloudformation-template",
+        "similarity": 0.2463
+      },
+      {
+        "a": "fabric-healthcare",
         "b": "fabric-column-double-caret",
         "similarity": 0.2366
       },
@@ -10615,11 +10608,6 @@
         "a": "fabric-healthcare",
         "b": "aws-snowball-edge",
         "similarity": 0.2331
-      },
-      {
-        "a": "fabric-healthcare",
-        "b": "aws-iot-twinmaker",
-        "similarity": 0.2317
       }
     ],
     "fabric-kql-database": [
@@ -12077,11 +12065,6 @@
     "aws-dynamodb-attributes": [
       {
         "a": "aws-dynamodb-attributes",
-        "b": "aws-cloudformation-template",
-        "similarity": 0.2783
-      },
-      {
-        "a": "aws-dynamodb-attributes",
         "b": "aws-iot-thing-generic",
         "similarity": 0.2603
       },
@@ -12089,6 +12072,11 @@
         "a": "aws-dynamodb-attributes",
         "b": "azure-media-file",
         "similarity": 0.2455
+      },
+      {
+        "a": "aws-dynamodb-attributes",
+        "b": "aws-cloudwatch-logs",
+        "similarity": 0.2448
       }
     ],
     "aws-dynamodb-item": [
@@ -19159,8 +19147,8 @@
       },
       {
         "a": "azure-service-catalog-mad",
-        "b": "aws-cloudformation-template",
-        "similarity": 0.3198
+        "b": "azure-policy",
+        "similarity": 0.3197
       }
     ],
     "azure-intune-trends": [
@@ -20416,9 +20404,9 @@
         "similarity": 0.3522
       },
       {
-        "a": "aws-iot-thing-utility",
-        "b": "aws-cloudformation-template",
-        "similarity": 0.3437
+        "a": "azure-governance-compliance",
+        "b": "aws-iot-thing-utility",
+        "similarity": 0.3301
       }
     ],
     "aws-iot-sailboat": [
@@ -20496,14 +20484,14 @@
         "similarity": 0.2581
       },
       {
-        "a": "aws-iot-thing-temperature-humidity",
-        "b": "aws-cloudformation-template",
-        "similarity": 0.2271
-      },
-      {
         "a": "aws-sitewise-asset",
         "b": "aws-iot-thing-temperature-humidity",
         "similarity": 0.2253
+      },
+      {
+        "a": "aws-iot-thing-temperature-humidity",
+        "b": "aws-gateway-file",
+        "similarity": 0.2194
       }
     ],
     "aws-iot-thing-temperature-vibration": [
@@ -24543,13 +24531,13 @@
       },
       {
         "a": "aws-systems-documents",
-        "b": "aws-cloudformation-template",
-        "similarity": 0.3443
+        "b": "azure-file",
+        "similarity": 0.3309
       },
       {
         "a": "aws-systems-documents",
-        "b": "azure-file",
-        "similarity": 0.3309
+        "b": "azure-backlog",
+        "similarity": 0.3121
       }
     ],
     "aws-systems-incident-manager": [
@@ -24572,18 +24560,18 @@
     "aws-cloudformation-template": [
       {
         "a": "aws-cloudformation-template",
-        "b": "azure-app-space-component",
-        "similarity": 0.4486
+        "b": "gcp-category-containers",
+        "similarity": 0.3289
       },
       {
-        "a": "aws-cloudformation-template",
-        "b": "azure-file",
-        "similarity": 0.3821
-      },
-      {
-        "a": "aws-systems-documents",
+        "a": "fabric-power-bi",
         "b": "aws-cloudformation-template",
-        "similarity": 0.3443
+        "similarity": 0.3171
+      },
+      {
+        "a": "azure-application-insights",
+        "b": "aws-cloudformation-template",
+        "similarity": 0.3163
       }
     ],
     "aws-cloudformation-stack": [
@@ -29372,6 +29360,11 @@
     ],
     "gcp-category-containers": [
       {
+        "a": "aws-cloudformation-template",
+        "b": "gcp-category-containers",
+        "similarity": 0.3289
+      },
+      {
         "a": "fabric-placeholder",
         "b": "gcp-category-containers",
         "similarity": 0.3201
@@ -29380,11 +29373,6 @@
         "a": "gcp-category-containers",
         "b": "fabric-table-kql",
         "similarity": 0.31
-      },
-      {
-        "a": "gcp-category-containers",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2978
       }
     ],
     "gcp-category-data-analytics": [
@@ -30051,9 +30039,9 @@
         "similarity": 0.245
       },
       {
-        "a": "azure-spot-vm",
+        "a": "aws-cloudformation-template",
         "b": "aws-greengrass-deployment-group",
-        "similarity": 0.2367
+        "similarity": 0.2393
       }
     ],
     "aws-auto-scaling-group": [
@@ -33587,9 +33575,9 @@
         "similarity": 0.3831
       },
       {
-        "a": "aws-cloudformation-template",
-        "b": "azure-file",
-        "similarity": 0.3821
+        "a": "azure-file",
+        "b": "azure-templates",
+        "similarity": 0.3768
       }
     ],
     "azure-files": [
@@ -34087,11 +34075,6 @@
     ],
     "azure-app-space-component": [
       {
-        "a": "aws-cloudformation-template",
-        "b": "azure-app-space-component",
-        "similarity": 0.4486
-      },
-      {
         "a": "aws-general-document",
         "b": "azure-app-space-component",
         "similarity": 0.4486
@@ -34100,6 +34083,11 @@
         "a": "azure-media-file",
         "b": "azure-app-space-component",
         "similarity": 0.408
+      },
+      {
+        "a": "azure-templates",
+        "b": "azure-app-space-component",
+        "similarity": 0.403
       }
     ],
     "azure-signalr": [
@@ -39961,6 +39949,11 @@
     ],
     "fabric-progress-bars": [
       {
+        "a": "aws-cloudformation-template",
+        "b": "fabric-progress-bars",
+        "similarity": 0.3084
+      },
+      {
         "a": "fabric-power-bi",
         "b": "fabric-progress-bars",
         "similarity": 0.2996
@@ -39969,11 +39962,6 @@
         "a": "azure-storage-queue",
         "b": "fabric-progress-bars",
         "similarity": 0.2913
-      },
-      {
-        "a": "fabric-number-field",
-        "b": "fabric-progress-bars",
-        "similarity": 0.271
       }
     ],
     "fabric-stream-search": [

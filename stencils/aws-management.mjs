@@ -210,8 +210,9 @@ export const awsManagementArtwork = [
   entry("aws-cloudformation-template", "aws", "CloudFormation Template", ["Res_AWS-CloudFormation_Template_48"],
     "An infrastructure template describes resources in code.",
     [
-      line([25, 16], [81, 16], [96, 31], [96, 96], [25, 96], [25, 16]), line([81, 16], [81, 31], [96, 31]),
-      rect(34, 39, 12, 12), rect(34, 60, 12, 12), rect(34, 81, 12, 8), line([54, 45], [83, 45]), line([54, 66], [83, 66]), line([54, 85], [78, 85]), line([14, 109], [110, 109]),
+      rect(14, 18, 100, 79), line([14, 30], [114, 30]), line([21, 24], [25, 24]), line([31, 24], [35, 24]),
+      rect(52, 39, 24, 15), line([64, 54], [64, 64]), line([33, 64], [95, 64]), line([33, 64], [33, 72]), line([95, 64], [95, 72]),
+      rect(20, 72, 26, 16), rect(82, 72, 26, 16), line([14, 109], [110, 109]),
     ]),
   entry("aws-cloudformation-stack", "aws", "CloudFormation Stack", ["Res_AWS-CloudFormation_Stack_48"],
     "A stack groups infrastructure resources deployed together.",
