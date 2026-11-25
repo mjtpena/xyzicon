@@ -4,6 +4,39 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricOperationArtwork = [
+  entry("fabric-column-double-caret", "fabric", "Columns with opposing carets",
+    variants("column_double_caret", [20]),
+    "Two columns point outward in opposite directions.",
+    [
+      rect(15, 20, 42, 87), rect(71, 20, 42, 87), line([15, 32], [57, 32]), line([71, 32], [113, 32]),
+      line([39, 49], [29, 63], [39, 77]), line([89, 49], [99, 63], [89, 77]),
+      line([21, 117], [108, 117]),
+    ]),
+  entry("fabric-column-inline", "fabric", "Inline column",
+    variants("column_inline", [20]),
+    "A column highlights a row between its header and footer.",
+    [
+      rect(32, 13, 64, 101), line([32, 30], [96, 30]), line([32, 52], [96, 52]),
+      rect(32, 55, 64, 20, true), line([32, 79], [96, 79]), line([32, 98], [96, 98]),
+      line([41, 22], [87, 22]), line([42, 42], [86, 42]), line([42, 89], [80, 89]),
+    ]),
+  entry("fabric-column-relationship", "fabric", "Column relationship",
+    variants("column_relationship", [20]),
+    "A connector links fields in two separate columns.",
+    [
+      rect(15, 55, 37, 51), line([15, 67], [52, 67]), line([22, 61], [45, 61]),
+      rect(76, 20, 37, 51), line([76, 32], [113, 32]), line([83, 26], [106, 26]),
+      line([52, 91], [68, 91], [76, 83], [76, 61]),
+      oval(48, 87, 8, 8, true), oval(72, 57, 8, 8, true),
+      line([20, 116], [108, 116]),
+    ]),
+  entry("fabric-column-single", "fabric", "Single column",
+    variants("column_single", [20]),
+    "One field column has a header and an empty body.",
+    [
+      rect(33, 14, 62, 100), line([33, 34], [95, 34]), line([43, 24], [84, 24]),
+      line([23, 47], [23, 92]), line([105, 47], [105, 92]),
+    ]),
   entry("fabric-border-inside-all", "fabric", "All inside borders",
     variants("border_inside_all", [20]),
     "A table shows both interior horizontal and vertical borders.",
