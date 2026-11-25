@@ -3,6 +3,39 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-ec2-microservice-extractor", "aws", "Microservice Extractor for .NET", ["Res_Amazon-EC2_AWS-Microservice-Extractor-for-.NET_48"],
+    "A monolithic application is separated into smaller services.",
+    [
+      rect(13, 30, 40, 55), line([13, 41], [53, 41]), line([21, 51], [45, 51]), line([21, 60], [45, 60]), line([21, 69], [45, 69]),
+      line([53, 58], [69, 58]), line([63, 52], [69, 58], [63, 64]),
+      rect(76, 19, 33, 20), rect(76, 49, 33, 20), rect(76, 79, 33, 20),
+      line([82, 29], [103, 29]), line([82, 59], [103, 59]), line([82, 89], [103, 89]), line([16, 111], [112, 111]),
+    ]),
+  entry("aws-ec2-auto-scaling", "aws", "EC2 Auto Scaling Resource", ["Res_Amazon-EC2_Auto-Scaling_48"],
+    "Instances expand and contract as demand changes.",
+    [
+      rect(47, 42, 33, 32), line([54, 51], [73, 51]), line([54, 59], [73, 59]), line([54, 67], [68, 67]),
+      line([64, 42], [64, 17]), line([57, 24], [64, 17], [71, 24]),
+      line([64, 74], [64, 99]), line([57, 92], [64, 99], [71, 92]),
+      line([47, 58], [18, 58]), line([25, 51], [18, 58], [25, 65]),
+      line([80, 58], [109, 58]), line([102, 51], [109, 58], [102, 65]), line([16, 111], [112, 111]),
+    ]),
+  entry("aws-ec2-db-instance", "aws", "EC2 Database Instance", ["Res_Amazon-EC2_DB-Instance_48"],
+    "A database runs on a compute instance.",
+    [
+      rect(14, 24, 58, 65), line([14, 37], [72, 37]), line([21, 30], [24, 30]), line([29, 30], [32, 30]),
+      line([25, 50], [19, 57], [25, 64]), line([36, 64], [51, 64]),
+      oval(63, 49, 43, 16), line([63, 57], [63, 88], [68, 94], [101, 94], [106, 88], [106, 57]),
+      line([63, 73], [68, 78], [101, 78], [106, 73]), line([16, 111], [112, 111]),
+    ]),
+  entry("aws-ec2-elastic-ip", "aws", "EC2 Elastic IP Address", ["Res_Amazon-EC2_Elastic-IP-Address_48"],
+    "A stable public address can be reassigned to an instance.",
+    [
+      oval(11, 42, 30, 30), line([18, 57], [34, 57]), line([26, 42], [26, 72]), line([16, 48], [36, 48]), line([16, 66], [36, 66]),
+      line([41, 57], [64, 57]), line([57, 50], [64, 57], [57, 64]),
+      rect(72, 20, 38, 29), rect(72, 69, 38, 29), line([80, 29], [102, 29]), line([80, 78], [102, 78]),
+      line([16, 112], [112, 112]),
+    ]),
   entry("aws-beanstalk-application", "aws", "Elastic Beanstalk Application", ["Res_AWS-Elastic-Beanstalk_Application_48"],
     "An application grows on a managed platform.",
     [

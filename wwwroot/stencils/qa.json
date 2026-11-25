@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1203,
-  "aliases": 4085,
+  "count": 1207,
+  "aliases": 4089,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -956,6 +956,10 @@
     "fabric-asterisk-circle",
     "fabric-commit",
     "fabric-commit-circle",
+    "aws-ec2-microservice-extractor",
+    "aws-ec2-auto-scaling",
+    "aws-ec2-db-instance",
+    "aws-ec2-elastic-ip",
     "aws-beanstalk-application",
     "aws-beanstalk-deployment",
     "aws-lambda-function",
@@ -1314,8 +1318,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1358,
-      "concepts": 390
+      "covered": 1362,
+      "concepts": 394
     },
     "gcp": {
       "sources": 261,
@@ -5271,6 +5275,11 @@
     "gcp-cloud-routes": [
       {
         "a": "gcp-cloud-routes",
+        "b": "aws-ec2-elastic-ip",
+        "similarity": 0.2055
+      },
+      {
+        "a": "gcp-cloud-routes",
         "b": "gcp-identity-platform",
         "similarity": 0.1853
       },
@@ -5278,11 +5287,6 @@
         "a": "gcp-cloud-routes",
         "b": "aws-identity-center",
         "similarity": 0.1852
-      },
-      {
-        "a": "gcp-cloud-routes",
-        "b": "aws-rekognition-video",
-        "similarity": 0.1816
       }
     ],
     "gcp-anthos-config-management": [
@@ -5637,9 +5641,9 @@
         "similarity": 0.2225
       },
       {
-        "a": "gcp-dataplex",
-        "b": "gcp-healthcare-marketplace",
-        "similarity": 0.2136
+        "a": "gcp-healthcare-marketplace",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2145
       }
     ],
     "gcp-healthcare-nlp": [
@@ -6495,6 +6499,11 @@
     "gcp-cloud-optimization-ai": [
       {
         "a": "gcp-cloud-optimization-ai",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.1986
+      },
+      {
+        "a": "gcp-cloud-optimization-ai",
         "b": "aws-sagemaker-model",
         "similarity": 0.1725
       },
@@ -6502,11 +6511,6 @@
         "a": "gcp-cloud-optimization-ai",
         "b": "aws-s3-glacier",
         "similarity": 0.1708
-      },
-      {
-        "a": "gcp-cloud-optimization-ai",
-        "b": "fabric-stream-settings-bracket",
-        "similarity": 0.1687
       }
     ],
     "gcp-fleet-routing": [
@@ -6716,6 +6720,11 @@
     "gcp-real-world-insights": [
       {
         "a": "gcp-real-world-insights",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2315
+      },
+      {
+        "a": "gcp-real-world-insights",
         "b": "azure-ai-studio",
         "similarity": 0.2118
       },
@@ -6723,11 +6732,6 @@
         "a": "gcp-real-world-insights",
         "b": "aws-category-end-user",
         "similarity": 0.1957
-      },
-      {
-        "a": "gcp-real-world-insights",
-        "b": "azure-load-testing",
-        "similarity": 0.1788
       }
     ],
     "gcp-data-studio": [
@@ -7911,13 +7915,13 @@
       },
       {
         "a": "gcp-cloud-router",
-        "b": "aws-workmail",
-        "similarity": 0.2188
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2266
       },
       {
         "a": "gcp-cloud-router",
-        "b": "gcp-category-networking",
-        "similarity": 0.2122
+        "b": "aws-workmail",
+        "similarity": 0.2188
       }
     ],
     "gcp-cloud-nat": [
@@ -9683,9 +9687,9 @@
         "similarity": 0.1899
       },
       {
-        "a": "gcp-fleet-engine",
-        "b": "aws-emr-engine",
-        "similarity": 0.1805
+        "a": "aws-emr-engine",
+        "b": "aws-ec2-db-instance",
+        "similarity": 0.1846
       }
     ],
     "aws-emr-hdfs-cluster": [
@@ -11735,14 +11739,14 @@
         "similarity": 0.2959
       },
       {
+        "a": "aws-rekognition-image",
+        "b": "aws-ec2-db-instance",
+        "similarity": 0.25
+      },
+      {
         "a": "aws-redshift-dense-compute",
         "b": "aws-rekognition-image",
         "similarity": 0.2212
-      },
-      {
-        "a": "gcp-financial-marketplace",
-        "b": "aws-rekognition-image",
-        "similarity": 0.2158
       }
     ],
     "aws-rekognition-video": [
@@ -11803,14 +11807,14 @@
         "similarity": 0.2311
       },
       {
+        "a": "aws-sagemaker-model",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2164
+      },
+      {
         "a": "gcp-apigee-sense",
         "b": "aws-sagemaker-model",
         "similarity": 0.2151
-      },
-      {
-        "a": "gcp-healthcare-marketplace",
-        "b": "aws-sagemaker-model",
-        "similarity": 0.2076
       }
     ],
     "aws-sagemaker-notebook": [
@@ -17149,13 +17153,13 @@
       },
       {
         "a": "gcp-category-operations",
-        "b": "fabric-window-pulse",
-        "similarity": 0.2016
+        "b": "aws-ec2-microservice-extractor",
+        "similarity": 0.2061
       },
       {
-        "a": "m365-panel-left-header-key",
-        "b": "gcp-category-operations",
-        "similarity": 0.1952
+        "a": "gcp-category-operations",
+        "b": "fabric-window-pulse",
+        "similarity": 0.2016
       }
     ],
     "gcp-category-security": [
@@ -17519,6 +17523,74 @@
         "a": "fabric-circle-tree",
         "b": "fabric-commit-circle",
         "similarity": 0.4646
+      }
+    ],
+    "aws-ec2-microservice-extractor": [
+      {
+        "a": "aws-ec2-microservice-extractor",
+        "b": "aws-ec2-elastic-ip",
+        "similarity": 0.2519
+      },
+      {
+        "a": "gcp-analytics-hub",
+        "b": "aws-ec2-microservice-extractor",
+        "similarity": 0.2398
+      },
+      {
+        "a": "azure-private-link-services",
+        "b": "aws-ec2-microservice-extractor",
+        "similarity": 0.2284
+      }
+    ],
+    "aws-ec2-auto-scaling": [
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2423
+      },
+      {
+        "a": "aws-pinpoint-journey",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2389
+      },
+      {
+        "a": "gcp-real-world-insights",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2315
+      }
+    ],
+    "aws-ec2-db-instance": [
+      {
+        "a": "aws-sns-http-notification",
+        "b": "aws-ec2-db-instance",
+        "similarity": 0.2506
+      },
+      {
+        "a": "aws-rekognition-image",
+        "b": "aws-ec2-db-instance",
+        "similarity": 0.25
+      },
+      {
+        "a": "aws-ec2-db-instance",
+        "b": "fabric-database-money",
+        "similarity": 0.2433
+      }
+    ],
+    "aws-ec2-elastic-ip": [
+      {
+        "a": "aws-ec2-microservice-extractor",
+        "b": "aws-ec2-elastic-ip",
+        "similarity": 0.2519
+      },
+      {
+        "a": "aws-ec2-elastic-ip",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.25
+      },
+      {
+        "a": "fabric-external-datamart",
+        "b": "aws-ec2-elastic-ip",
+        "similarity": 0.2489
       }
     ],
     "aws-beanstalk-application": [
@@ -19393,6 +19465,11 @@
     ],
     "azure-disks": [
       {
+        "a": "aws-ec2-elastic-ip",
+        "b": "azure-disks",
+        "similarity": 0.2068
+      },
+      {
         "a": "azure-disks",
         "b": "fabric-database-checkmark",
         "similarity": 0.2017
@@ -19401,11 +19478,6 @@
         "a": "azure-app-services",
         "b": "azure-disks",
         "similarity": 0.1988
-      },
-      {
-        "a": "azure-disks",
-        "b": "fabric-stacked-text",
-        "similarity": 0.1944
       }
     ],
     "azure-vm-scale-sets": [
