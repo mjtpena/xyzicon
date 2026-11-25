@@ -1,6 +1,12 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureIotArtwork = [
+  entry("azure-edge-management", "azure", "Edge Management", ["10117-icon-service-Edge-Management"],
+    "A management console coordinates devices at the network edge.",
+    [
+      rect(13, 26, 47, 34), line([13, 36], [60, 36]), line([20, 32], [24, 32]), line([30, 32], [34, 32]), line([22, 46], [51, 46]), line([22, 53], [44, 53]),
+      line([36, 60], [36, 74]), line([36, 74], [91, 74]), line([73, 74], [73, 62]), line([103, 74], [103, 62]), rect(66, 45, 14, 17), rect(96, 45, 14, 17), line([14, 109], [110, 109]),
+    ]),
   entry("azure-connected-vehicle-platform", "azure", "Connected Vehicle Platform", ["02573-icon-service-Connected-Vehicle-Platform"],
     "Connected vehicles send telemetry to a shared platform.",
     [

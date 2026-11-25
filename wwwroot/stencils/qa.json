@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2226,
-  "aliases": 5409,
+  "count": 2228,
+  "aliases": 5411,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -279,6 +279,7 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-kuberun",
     "gcp-local-ssd",
     "gcp-bare-metal",
     "gcp-container-optimized-os",
@@ -859,6 +860,7 @@
     "azure-object-understanding",
     "azure-metrics-advisor",
     "azure-content-safety",
+    "azure-edge-management",
     "azure-connected-vehicle-platform",
     "azure-open-supply-chain-platform",
     "azure-sphere",
@@ -2496,8 +2498,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 714,
-      "concepts": 631
+      "covered": 715,
+      "concepts": 632
     },
     "fabric": {
       "sources": 1584,
@@ -2531,8 +2533,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 258,
-      "concepts": 244
+      "covered": 259,
+      "concepts": 245
     }
   },
   "nearest": {
@@ -6476,8 +6478,8 @@
       },
       {
         "a": "azure-network-watcher",
-        "b": "aws-elasticache-memcached",
-        "similarity": 0.1535
+        "b": "azure-edge-management",
+        "similarity": 0.1616
       }
     ],
     "azure-data-box": [
@@ -7192,6 +7194,23 @@
         "a": "dynamics-customer-voice",
         "b": "m365-video",
         "similarity": 0.2625
+      }
+    ],
+    "gcp-kuberun": [
+      {
+        "a": "gcp-kuberun",
+        "b": "aws-iot-action",
+        "similarity": 0.2597
+      },
+      {
+        "a": "gcp-kuberun",
+        "b": "aws-vpc-vpn-gateway",
+        "similarity": 0.2325
+      },
+      {
+        "a": "gcp-kuberun",
+        "b": "azure-user-privacy",
+        "similarity": 0.2287
       }
     ],
     "gcp-local-ssd": [
@@ -15568,6 +15587,11 @@
     "azure-intune": [
       {
         "a": "azure-intune",
+        "b": "azure-edge-management",
+        "similarity": 0.279
+      },
+      {
+        "a": "azure-intune",
         "b": "azure-chaos-studio",
         "similarity": 0.2484
       },
@@ -15575,11 +15599,6 @@
         "a": "azure-arc-sql-server",
         "b": "azure-intune",
         "similarity": 0.2464
-      },
-      {
-        "a": "azure-intune",
-        "b": "azure-counter",
-        "similarity": 0.2461
       }
     ],
     "azure-intune-ebooks": [
@@ -17076,6 +17095,23 @@
         "a": "azure-content-safety",
         "b": "azure-ip-groups",
         "similarity": 0.193
+      }
+    ],
+    "azure-edge-management": [
+      {
+        "a": "azure-edge-management",
+        "b": "azure-agentic-web-apps",
+        "similarity": 0.3308
+      },
+      {
+        "a": "azure-edge-management",
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.3175
+      },
+      {
+        "a": "azure-edge-management",
+        "b": "azure-resource-linked",
+        "similarity": 0.3159
       }
     ],
     "azure-connected-vehicle-platform": [
@@ -28732,6 +28768,11 @@
     ],
     "aws-vpc-reachability": [
       {
+        "a": "azure-edge-management",
+        "b": "aws-vpc-reachability",
+        "similarity": 0.2755
+      },
+      {
         "a": "aws-iot-alexa-skill",
         "b": "aws-vpc-reachability",
         "similarity": 0.2722
@@ -28740,11 +28781,6 @@
         "a": "azure-business-process-tracking",
         "b": "aws-vpc-reachability",
         "similarity": 0.2576
-      },
-      {
-        "a": "aws-iot-alexa-device",
-        "b": "aws-vpc-reachability",
-        "similarity": 0.2481
       }
     ],
     "aws-vpc-router": [
@@ -29422,9 +29458,9 @@
         "similarity": 0.2668
       },
       {
-        "a": "aws-cloudfront-streaming",
-        "b": "azure-wac",
-        "similarity": 0.264
+        "a": "azure-edge-management",
+        "b": "aws-cloudfront-streaming",
+        "similarity": 0.2644
       }
     ],
     "aws-vpc-nat-gateway": [
@@ -32687,14 +32723,14 @@
         "similarity": 0.2937
       },
       {
+        "a": "azure-edge-management",
+        "b": "azure-rtos",
+        "similarity": 0.2832
+      },
+      {
         "a": "aws-waf-labels",
         "b": "azure-rtos",
         "similarity": 0.2695
-      },
-      {
-        "a": "aws-opensearch-data-node",
-        "b": "azure-rtos",
-        "similarity": 0.2569
       }
     ],
     "azure-scvmm-management-servers": [
@@ -33379,6 +33415,11 @@
     ],
     "azure-resource-linked": [
       {
+        "a": "azure-edge-management",
+        "b": "azure-resource-linked",
+        "similarity": 0.3159
+      },
+      {
         "a": "azure-service-group-relationships",
         "b": "azure-resource-linked",
         "similarity": 0.3099
@@ -33387,11 +33428,6 @@
         "a": "azure-worker-container-app",
         "b": "azure-resource-linked",
         "similarity": 0.3007
-      },
-      {
-        "a": "azure-device-enrollment",
-        "b": "azure-resource-linked",
-        "similarity": 0.2997
       }
     ],
     "azure-scheduler": [

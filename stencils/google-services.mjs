@@ -1,6 +1,12 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-kuberun", "gcp", "Kuberun", ["kuberun"],
+    "Knative serving runs services on a Kubernetes cluster.",
+    [
+      line([27, 24], [41, 16], [55, 24], [55, 40], [41, 48], [27, 40], [27, 24]), line([27, 62], [41, 54], [55, 62], [55, 78], [41, 86], [27, 78], [27, 62]), line([41, 48], [41, 54]),
+      line([55, 51], [80, 51]), line([73, 44], [80, 51], [73, 58]), line([88, 37], [106, 51], [88, 65], [88, 37]), line([14, 109], [110, 109]),
+    ]),
   entry("gcp-local-ssd", "gcp", "Local SSD", ["local_ssd"],
     "A solid-state drive connects directly to a compute host.",
     [
