@@ -5621,11 +5621,6 @@
     "fabric-healthcare": [
       {
         "a": "fabric-healthcare",
-        "b": "aws-firewall-manager",
-        "similarity": 0.2952
-      },
-      {
-        "a": "fabric-healthcare",
         "b": "aws-snowball-edge",
         "similarity": 0.2331
       },
@@ -5633,6 +5628,11 @@
         "a": "fabric-healthcare",
         "b": "aws-iot-twinmaker",
         "similarity": 0.2317
+      },
+      {
+        "a": "fabric-healthcare",
+        "b": "fabric-progress-bars",
+        "similarity": 0.228
       }
     ],
     "fabric-kql-database": [
@@ -8282,9 +8282,9 @@
         "similarity": 0.2283
       },
       {
-        "a": "fabric-environment",
-        "b": "azure-ai-studio",
-        "similarity": 0.2076
+        "a": "azure-ai-studio",
+        "b": "aws-firewall-manager",
+        "similarity": 0.2136
       }
     ],
     "azure-foundry-iq": [
@@ -10584,11 +10584,6 @@
     ],
     "aws-security-agent": [
       {
-        "a": "aws-security-agent",
-        "b": "aws-firewall-manager",
-        "similarity": 0.1923
-      },
-      {
         "a": "azure-function-apps",
         "b": "aws-security-agent",
         "similarity": 0.186
@@ -10597,6 +10592,11 @@
         "a": "aws-xray",
         "b": "aws-security-agent",
         "similarity": 0.1835
+      },
+      {
+        "a": "aws-security-agent",
+        "b": "azure-restore-collection",
+        "similarity": 0.18
       }
     ],
     "aws-security-hub": [
@@ -10941,19 +10941,19 @@
     ],
     "aws-firewall-manager": [
       {
-        "a": "fabric-healthcare",
+        "a": "aws-transform",
         "b": "aws-firewall-manager",
-        "similarity": 0.2952
+        "similarity": 0.2617
       },
       {
         "a": "aws-firewall-manager",
-        "b": "aws-iot-twinmaker",
-        "similarity": 0.2218
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2354
       },
       {
-        "a": "gcp-cloud-monitoring",
+        "a": "m365-chart-multiple",
         "b": "aws-firewall-manager",
-        "similarity": 0.2161
+        "similarity": 0.2339
       }
     ],
     "aws-resource-access-manager": [
@@ -11479,9 +11479,9 @@
         "similarity": 0.1967
       },
       {
-        "a": "m365-building-cloud",
-        "b": "azure-resource-groups",
-        "similarity": 0.182
+        "a": "aws-firewall-manager",
+        "b": "m365-building-cloud",
+        "similarity": 0.185
       }
     ],
     "m365-building-multiple": [
@@ -12126,14 +12126,14 @@
         "similarity": 0.2044
       },
       {
+        "a": "aws-firewall-manager",
+        "b": "aws-cloud-wan",
+        "similarity": 0.198
+      },
+      {
         "a": "m365-retail-building",
         "b": "aws-cloud-wan",
         "similarity": 0.1905
-      },
-      {
-        "a": "aws-kinesis",
-        "b": "aws-cloud-wan",
-        "similarity": 0.1868
       }
     ],
     "aws-direct-connect": [
@@ -14432,9 +14432,9 @@
         "similarity": 0.1936
       },
       {
-        "a": "gcp-error-reporting",
+        "a": "aws-firewall-manager",
         "b": "azure-hosts",
-        "similarity": 0.1892
+        "similarity": 0.1894
       }
     ],
     "fabric-hexagons": [
@@ -14891,9 +14891,9 @@
         "similarity": 0.1755
       },
       {
-        "a": "aws-kinesis",
+        "a": "aws-firewall-manager",
         "b": "fabric-stream-settings",
-        "similarity": 0.1712
+        "similarity": 0.1733
       }
     ],
     "fabric-code-text-flash": [
@@ -14942,9 +14942,9 @@
         "similarity": 0.2231
       },
       {
-        "a": "aws-rds",
+        "a": "aws-firewall-manager",
         "b": "fabric-database-checkmark",
-        "similarity": 0.218
+        "similarity": 0.2195
       }
     ],
     "fabric-calendar-toolbox": [
@@ -15414,11 +15414,6 @@
     ],
     "fabric-toggle-sparkles": [
       {
-        "a": "aws-firewall-manager",
-        "b": "fabric-toggle-sparkles",
-        "similarity": 0.162
-      },
-      {
         "a": "aws-signer",
         "b": "fabric-toggle-sparkles",
         "similarity": 0.1596
@@ -15427,6 +15422,11 @@
         "a": "fabric-toggle-sparkles",
         "b": "fabric-progress-bars",
         "similarity": 0.1503
+      },
+      {
+        "a": "m365-building-people",
+        "b": "fabric-toggle-sparkles",
+        "similarity": 0.1493
       }
     ],
     "fabric-window-asterisk": [
