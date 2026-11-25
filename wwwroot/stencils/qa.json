@@ -3,13 +3,15 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 171,
+  "approved": 169,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "dynamics-customer-insights",
+    "dynamics-customer-voice",
     "gcp-bigtable",
     "gcp-artifact-registry",
     "gcp-cloud-build",
@@ -2925,8 +2927,8 @@
       },
       {
         "a": "dynamics-customer-insights",
-        "b": "aws-ses",
-        "similarity": 0.1538
+        "b": "azure-dns-multistack",
+        "similarity": 0.1439
       }
     ],
     "dynamics-customer-service": [
@@ -2949,11 +2951,6 @@
     "dynamics-customer-voice": [
       {
         "a": "dynamics-customer-voice",
-        "b": "aws-lex",
-        "similarity": 0.3869
-      },
-      {
-        "a": "dynamics-customer-voice",
         "b": "aws-sitewise-asset-properties",
         "similarity": 0.32
       },
@@ -2961,6 +2958,11 @@
         "a": "dynamics-customer-voice",
         "b": "m365-chat",
         "similarity": 0.3077
+      },
+      {
+        "a": "dynamics-customer-voice",
+        "b": "azure-hybrid-center",
+        "similarity": 0.3043
       }
     ],
     "dynamics-finance-operations": [
@@ -6519,18 +6521,18 @@
     "aws-ses": [
       {
         "a": "aws-ses",
-        "b": "fabric-progress-bars",
-        "similarity": 0.1929
+        "b": "azure-availability-sets",
+        "similarity": 0.2466
       },
       {
         "a": "aws-ses",
-        "b": "fabric-filter-settings",
-        "similarity": 0.1901
+        "b": "aws-app-mesh-virtual-service",
+        "similarity": 0.2447
       },
       {
         "a": "aws-ses",
-        "b": "aws-iot-thing-generic",
-        "similarity": 0.1845
+        "b": "aws-fsx",
+        "similarity": 0.2031
       }
     ],
     "aws-textract": [
@@ -6603,19 +6605,19 @@
     ],
     "aws-lex": [
       {
-        "a": "dynamics-customer-voice",
-        "b": "aws-lex",
-        "similarity": 0.3869
+        "a": "aws-lex",
+        "b": "aws-datazone-portal",
+        "similarity": 0.2394
       },
       {
         "a": "aws-lex",
-        "b": "aws-braket-simulator",
-        "similarity": 0.3233
+        "b": "aws-fsx",
+        "similarity": 0.2251
       },
       {
         "a": "aws-lex",
-        "b": "aws-iot-fleet-hub",
-        "similarity": 0.2811
+        "b": "m365-people",
+        "similarity": 0.2187
       }
     ],
     "m365-apps": [
@@ -14362,6 +14364,11 @@
     ],
     "m365-people": [
       {
+        "a": "aws-lex",
+        "b": "m365-people",
+        "similarity": 0.2187
+      },
+      {
         "a": "gcp-administration",
         "b": "m365-people",
         "similarity": 0.2185
@@ -14370,11 +14377,6 @@
         "a": "azure-encrypted-transport",
         "b": "m365-people",
         "similarity": 0.2138
-      },
-      {
-        "a": "m365-people",
-        "b": "fabric-home-tree",
-        "similarity": 0.2134
       }
     ],
     "m365-person-accounts": [
@@ -35567,9 +35569,9 @@
         "similarity": 0.2474
       },
       {
-        "a": "entra-family",
+        "a": "aws-ses",
         "b": "azure-availability-sets",
-        "similarity": 0.2455
+        "similarity": 0.2466
       }
     ],
     "azure-disk-snapshot": [
