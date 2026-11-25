@@ -1,6 +1,80 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-troubleshoot", "azure", "Troubleshoot", ["10341-icon-service-Troubleshoot"],
+    "A wrench repairs an identified fault.",
+    [
+      line([22, 23], [30, 21], [38, 25], [41, 32], [40, 40], [82, 82], [76, 88], [34, 46], [26, 47], [19, 44], [15, 36], [17, 28], [26, 37], [33, 30], [22, 23]),
+      line([72, 22], [83, 22], [88, 27], [88, 43]), line([80, 31], [88, 23], [96, 31]), oval(84, 49, 8, 8, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-resource-explorer", "azure", "Resource Explorer", ["10349-icon-service-Resource-Explorer"],
+    "A magnifier explores an inventory of resources.",
+    [
+      rect(15, 20, 72, 72), line([15, 34], [87, 34]), line([24, 45], [48, 45]), line([24, 56], [48, 56]), line([24, 67], [44, 67]),
+      oval(55, 47, 31, 31), line([80, 72], [103, 95]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-blob-block", "azure", "Blob Block", ["10780-icon-service-Blob-Block"],
+    "A blob is assembled from distinct data blocks.",
+    [
+      line([14, 29], [100, 29], [100, 84], [14, 84], [14, 29]), rect(23, 38, 21, 17), rect(49, 38, 21, 17), rect(75, 38, 16, 17),
+      rect(23, 60, 16, 15), rect(44, 60, 24, 15), rect(73, 60, 18, 15), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-blob-page", "azure", "Blob Page", ["10781-icon-service-Blob-Page"],
+    "Pages of data are stored within a blob.",
+    [
+      oval(21, 22, 79, 19), line([21, 31], [21, 79], [29, 86], [47, 90], [74, 90], [92, 86], [100, 79], [100, 31]),
+      line([38, 46], [54, 46], [60, 52], [60, 72], [38, 72], [38, 46]), line([54, 46], [54, 52], [60, 52]),
+      line([65, 50], [77, 50], [83, 56], [83, 76], [65, 76]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-branch", "azure", "Branch", ["10782-icon-service-Branch"],
+    "A branch separates from a main development line.",
+    [
+      oval(24, 17, 14, 14), oval(24, 81, 14, 14), oval(84, 37, 14, 14),
+      line([31, 31], [31, 81]), line([31, 55], [47, 55], [63, 44], [84, 44]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-browser", "azure", "Browser", ["10783-icon-service-Browser"],
+    "A browser window displays a web page.",
+    [
+      rect(14, 19, 94, 77), line([14, 35], [108, 35]), oval(21, 24, 5, 5, true), oval(31, 24, 5, 5, true), line([46, 27], [97, 27]),
+      line([26, 48], [46, 48], [46, 76], [26, 76], [26, 48]), line([55, 49], [96, 49]), line([55, 60], [96, 60]), line([55, 71], [85, 71]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-bug", "azure", "Bug", ["10784-icon-service-Bug"],
+    "A bug is examined under a diagnostic lens.",
+    [
+      oval(24, 22, 65, 65), line([76, 77], [100, 101]), oval(43, 42, 19, 24), oval(47, 34, 11, 10), line([45, 37], [40, 31]), line([59, 37], [64, 31]),
+      line([43, 48], [37, 44]), line([43, 56], [36, 57]), line([44, 63], [39, 68]), line([62, 48], [68, 44]), line([62, 56], [69, 57]), line([61, 63], [66, 68]), line([14, 112], [110, 112]),
+    ]),
+  entry("azure-builds", "azure", "Builds", ["10785-icon-service-Builds"],
+    "Source files feed a build artifact.",
+    [
+      line([14, 19], [49, 19], [57, 27], [57, 55], [14, 55], [14, 19]), line([49, 19], [49, 27], [57, 27]), line([21, 35], [50, 35]), line([21, 45], [45, 45]),
+      line([57, 44], [78, 44], [78, 58]), line([72, 52], [78, 58], [84, 52]),
+      line([61, 68], [78, 59], [95, 68], [95, 86], [78, 95], [61, 86], [61, 68]), line([61, 68], [78, 77], [95, 68]), line([78, 77], [78, 95]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cache", "azure", "Cache", ["10786-icon-service-Cache"],
+    "A nearby cache speeds access to stored data.",
+    [
+      oval(18, 24, 42, 14), line([18, 31], [18, 72], [24, 78], [54, 78], [60, 72], [60, 31]),
+      line([60, 51], [73, 51]), line([67, 45], [73, 51], [67, 57]),
+      rect(77, 28, 29, 51), line([94, 34], [84, 54], [93, 54], [87, 72], [100, 50], [92, 50], [98, 34]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-code", "azure", "Code", ["10787-icon-service-Code"],
+    "Code symbols are written on a small editor sheet.",
+    [
+      rect(18, 24, 66, 68), line([18, 37], [84, 37]), line([39, 48], [30, 57], [39, 66]), line([64, 48], [73, 57], [64, 66]), line([57, 44], [46, 70]),
+      line([77, 78], [99, 56], [105, 62], [83, 84], [75, 86], [77, 78]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-commit", "azure", "Commit", ["10788-icon-service-Commit"],
+    "A new commit joins the version history.",
+    [
+      line([16, 57], [43, 57]), oval(43, 48, 18, 18), line([61, 57], [102, 57]), oval(95, 50, 14, 14),
+      line([52, 18], [52, 45]), line([45, 38], [52, 45], [59, 38]), line([39, 83], [65, 83]), line([46, 92], [58, 92]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-controls", "azure", "Controls", ["10789-icon-service-Controls"],
+    "Vertical controls adjust three settings.",
+    [
+      line([30, 20], [30, 93]), line([61, 20], [61, 93]), line([92, 20], [92, 93]), rect(22, 37, 16, 12), rect(53, 65, 16, 12), rect(84, 26, 16, 12), line([14, 110], [110, 110]),
+    ]),
   entry("azure-preview-features", "azure", "Preview Features", ["00456-icon-service-Preview-Features"],
     "An emerging feature shines above a small set of tiles.",
     [
