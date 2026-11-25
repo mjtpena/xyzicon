@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 716,
-  "aliases": 3028,
+  "count": 720,
+  "aliases": 3044,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -494,6 +494,10 @@
     "aws-mediaconnect",
     "aws-interactive-video",
     "aws-gamelift-streams",
+    "aws-deadline-cloud",
+    "aws-elemental-live",
+    "aws-elemental-link",
+    "aws-elemental-server",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -813,8 +817,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 788,
-      "concepts": 195
+      "covered": 804,
+      "concepts": 199
     },
     "gcp": {
       "sources": 261,
@@ -3250,8 +3254,8 @@
       },
       {
         "a": "fabric-bucket",
-        "b": "m365-organization",
-        "similarity": 0.169
+        "b": "aws-elemental-server",
+        "similarity": 0.1743
       }
     ],
     "fabric-building-data": [
@@ -4673,13 +4677,13 @@
       },
       {
         "a": "m365-toolbox",
-        "b": "fabric-table-wand",
-        "similarity": 0.2254
+        "b": "aws-elemental-server",
+        "similarity": 0.2327
       },
       {
         "a": "m365-toolbox",
-        "b": "azure-host-groups",
-        "similarity": 0.2221
+        "b": "fabric-table-wand",
+        "similarity": 0.2254
       }
     ],
     "m365-script": [
@@ -4962,13 +4966,13 @@
       },
       {
         "a": "fabric-copy-job",
-        "b": "m365-filmstrip-play",
-        "similarity": 0.2407
+        "b": "aws-elemental-server",
+        "similarity": 0.2534
       },
       {
         "a": "fabric-copy-job",
-        "b": "m365-share-screen-overlay",
-        "similarity": 0.2337
+        "b": "m365-filmstrip-play",
+        "similarity": 0.2407
       }
     ],
     "fabric-dashboard": [
@@ -5535,6 +5539,11 @@
     "azure-sql-elastic-pool": [
       {
         "a": "azure-sql-elastic-pool",
+        "b": "aws-elemental-server",
+        "similarity": 0.2233
+      },
+      {
+        "a": "azure-sql-elastic-pool",
         "b": "m365-check",
         "similarity": 0.2178
       },
@@ -5542,11 +5551,6 @@
         "a": "azure-sql-elastic-pool",
         "b": "aws-eks-anywhere",
         "similarity": 0.2155
-      },
-      {
-        "a": "azure-database-migration",
-        "b": "azure-sql-elastic-pool",
-        "similarity": 0.2067
       }
     ],
     "azure-managed-sql": [
@@ -5721,6 +5725,11 @@
     ],
     "azure-data-sharing": [
       {
+        "a": "azure-data-sharing",
+        "b": "aws-elemental-live",
+        "similarity": 0.2039
+      },
+      {
         "a": "azure-virtual-network-gateway",
         "b": "azure-data-sharing",
         "similarity": 0.1982
@@ -5729,11 +5738,6 @@
         "a": "azure-data-sharing",
         "b": "gcp-category-collaboration",
         "similarity": 0.198
-      },
-      {
-        "a": "azure-data-sharing",
-        "b": "azure-storage-sync",
-        "similarity": 0.1858
       }
     ],
     "azure-storage-sync": [
@@ -6327,8 +6331,8 @@
       },
       {
         "a": "fabric-operations-agent",
-        "b": "fabric-live-dashboard",
-        "similarity": 0.2554
+        "b": "aws-elemental-server",
+        "similarity": 0.2633
       }
     ],
     "fabric-paginated-report": [
@@ -7041,8 +7045,8 @@
       },
       {
         "a": "m365-person-settings",
-        "b": "aws-timestream",
-        "similarity": 0.1971
+        "b": "aws-elemental-server",
+        "similarity": 0.1976
       }
     ],
     "m365-person-square": [
@@ -7647,14 +7651,14 @@
         "similarity": 0.2142
       },
       {
+        "a": "aws-lookout-equipment",
+        "b": "aws-elemental-live",
+        "similarity": 0.2141
+      },
+      {
         "a": "dynamics-sales-insights",
         "b": "aws-lookout-equipment",
         "similarity": 0.2102
-      },
-      {
-        "a": "entra-private-access",
-        "b": "aws-lookout-equipment",
-        "similarity": 0.2093
       }
     ],
     "aws-lookout-vision": [
@@ -9136,6 +9140,74 @@
         "similarity": 0.226
       }
     ],
+    "aws-deadline-cloud": [
+      {
+        "a": "fabric-data-warehouse",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2243
+      },
+      {
+        "a": "aws-managed-grafana",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2227
+      },
+      {
+        "a": "m365-document-multiple",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2197
+      }
+    ],
+    "aws-elemental-live": [
+      {
+        "a": "aws-lookout-equipment",
+        "b": "aws-elemental-live",
+        "similarity": 0.2141
+      },
+      {
+        "a": "aws-savings-plans",
+        "b": "aws-elemental-live",
+        "similarity": 0.2085
+      },
+      {
+        "a": "aws-elastic-beanstalk",
+        "b": "aws-elemental-live",
+        "similarity": 0.2065
+      }
+    ],
+    "aws-elemental-link": [
+      {
+        "a": "azure-sql-database",
+        "b": "aws-elemental-link",
+        "similarity": 0.2246
+      },
+      {
+        "a": "aws-datasync",
+        "b": "aws-elemental-link",
+        "similarity": 0.1946
+      },
+      {
+        "a": "azure-storage-queue",
+        "b": "aws-elemental-link",
+        "similarity": 0.1849
+      }
+    ],
+    "aws-elemental-server": [
+      {
+        "a": "fabric-operations-agent",
+        "b": "aws-elemental-server",
+        "similarity": 0.2633
+      },
+      {
+        "a": "fabric-copy-job",
+        "b": "aws-elemental-server",
+        "similarity": 0.2534
+      },
+      {
+        "a": "m365-toolbox",
+        "b": "aws-elemental-server",
+        "similarity": 0.2327
+      }
+    ],
     "m365-arrow-circle-left": [
       {
         "a": "m365-arrow-circle-left",
@@ -9993,6 +10065,11 @@
     ],
     "aws-direct-connect": [
       {
+        "a": "aws-deadline-cloud",
+        "b": "aws-direct-connect",
+        "similarity": 0.2065
+      },
+      {
         "a": "m365-column-arrow",
         "b": "aws-direct-connect",
         "similarity": 0.1952
@@ -10001,11 +10078,6 @@
         "a": "fabric-paginated-report",
         "b": "aws-direct-connect",
         "similarity": 0.1948
-      },
-      {
-        "a": "gcp-cloud-tasks",
-        "b": "aws-direct-connect",
-        "similarity": 0.1929
       }
     ],
     "aws-global-accelerator": [
@@ -10995,9 +11067,9 @@
         "similarity": 0.2349
       },
       {
-        "a": "aws-databrew",
+        "a": "aws-elemental-server",
         "b": "aws-timestream",
-        "similarity": 0.2216
+        "similarity": 0.231
       }
     ],
     "aws-oracle-database": [
@@ -11522,9 +11594,9 @@
         "similarity": 0.1849
       },
       {
-        "a": "dynamics-family",
+        "a": "aws-deadline-cloud",
         "b": "aws-iot-sitewise",
-        "similarity": 0.1757
+        "similarity": 0.1838
       }
     ],
     "aws-iot-twinmaker": [
@@ -12508,9 +12580,9 @@
         "similarity": 0.1377
       },
       {
-        "a": "gcp-data-catalog",
+        "a": "aws-elemental-link",
         "b": "fabric-person-settings",
-        "similarity": 0.1303
+        "similarity": 0.133
       }
     ],
     "fabric-branch-edit": [
