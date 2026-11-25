@@ -54,7 +54,7 @@ export const awsIotArtwork = [
     "HTTP/2 multiplexes streams over one connection.",
     [
       rect(12, 27, 24, 50), rect(88, 27, 24, 50), line([12, 37], [36, 37]), line([88, 37], [112, 37]),
-      line([36, 44], [88, 44]), line([36, 54], [88, 54]), line([36, 64], [88, 64]), rect(45, 40, 10, 8), rect(69, 40, 10, 8), rect(56, 50, 10, 8), rect(44, 60, 10, 8), rect(70, 60, 10, 8), line([14, 109], [110, 109]),
+      line([36, 44], [88, 44]), line([36, 55], [88, 55]), line([36, 66], [88, 66]), rect(50, 40, 12, 8), rect(68, 51, 12, 8), rect(46, 62, 12, 8), line([14, 109], [110, 109]),
     ]),
   entry("aws-iot-lorawan", "aws", "IoT LoRaWAN Protocol", ["Res_AWS-IoT_LoRaWAN-Protocol_48"],
     "A low-power radio sensor reaches a distant gateway.",
@@ -73,9 +73,11 @@ export const awsIotArtwork = [
   entry("aws-greengrass-protocol", "aws", "IoT Greengrass Protocol", ["Res_AWS-IoT-Greengrass_Protocol_48"],
     "A protocol carries messages between edge components.",
     [
-      rect(31, 42, 62, 24), line([39, 50], [45, 50]), line([51, 50], [57, 50]), line([63, 50], [69, 50]), line([75, 50], [84, 50]),
-      line([39, 42], [29, 25]), line([61, 42], [61, 20]), line([85, 42], [95, 25]), line([39, 66], [29, 83]), line([61, 66], [61, 88]), line([85, 66], [95, 83]),
-      oval(23, 16, 12, 12), oval(55, 8, 12, 12), oval(89, 16, 12, 12), oval(23, 82, 12, 12), oval(55, 88, 12, 12), oval(89, 82, 12, 12), line([14, 111], [110, 111]),
+      rect(10, 20, 33, 35), oval(20, 29, 13, 13), line([17, 49], [36, 49]),
+      rect(81, 52, 33, 35), oval(91, 61, 13, 13), line([88, 81], [107, 81]),
+      line([43, 35], [68, 35], [68, 48]), line([62, 42], [68, 48], [74, 42]),
+      line([81, 73], [56, 73], [56, 60]), line([50, 66], [56, 60], [62, 66]),
+      line([14, 111], [110, 111]),
     ]),
   entry("aws-iot-device-gateway", "aws", "IoT Device Gateway", ["Res_AWS-IoT_Device-Gateway_48"],
     "A gateway connects multiple devices to the cloud.",

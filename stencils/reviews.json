@@ -769,9 +769,9 @@
   },
   "aws-dynamodb": {
     "revision": "694e7292eb3834efd0afaf47bbf8e976e8cffa1ea3deb3af97a0e8149abb2eca",
-    "comparisonRevision": "0f667d0c27497848ac08e99b70a40fdf93afc2162a52d7c0a55cd245afee6a29",
+    "comparisonRevision": "34884475ba800ec5d7e6e06ce24a21c96bf8233e11ba4392e5d1ac7b4b549117",
     "status": "approved",
-    "notes": "A key points to stacked records, a key-value concept distinct from nearby experiment and transport flows."
+    "notes": "A key points to stacked data records, unlike experimentation charts, Proton flow and a public IP globe."
   },
   "gcp-bigquery": {
     "revision": "86cc4560db16a9f782ed5b203cd78203c289bc0fa0b74aa3f1c4f350af63f9cf",
@@ -1068,9 +1068,9 @@
   },
   "azure-operator-5g-core": {
     "revision": "b553fbcd431bd816ca0f7316d40fa39b439a8d7842576c10bf6e385ff455b937",
-    "comparisonRevision": "c5aad2d14007d26dfcfbe592c66342d78894e2f83b0e58721080a2ace62a98c3",
+    "comparisonRevision": "7896781172e13a937e09b3c74732f3fcb8c02abebab9547d57599c797877cc95",
     "status": "approved",
-    "notes": "A mobile device connects through a central core to endpoints; neighbors show an application database, hybrid gateway and IoT transport."
+    "notes": "A wireless device links through a hub to two endpoints, unlike web database, hybrid cloud and discovery."
   },
   "azure-operator-nexus": {
     "revision": "675a560fb059321df2a64da72de4a1a97f9633a870ada8b199e666f61b40abb7",
@@ -2199,5 +2199,65 @@
     "comparisonRevision": "371b078702241e7956c99f5d298a9366f9f775bc661fc5e6ace1d302c8940183",
     "status": "approved",
     "notes": "A cylindrical speaker emits sound, distinct from mobile engagement, identity panels and the square Alexa display."
+  },
+  "aws-iot-fire-tv": {
+    "revision": "b7838fb37fe93f876af2c6ca680d676d0e93590882f7075382f5d43041924ff9",
+    "comparisonRevision": "12d4b81043da618385842d8662d3bb2f7c2256925887126482f87c8e08e404e5",
+    "status": "approved",
+    "notes": "A television with play and broadcast marks differs from the HTTP arrows, vibration trace and time series chart."
+  },
+  "aws-iot-fire-tv-stick": {
+    "revision": "6395000d833c775def0b37853e791dc5776154e86ace85ec8444896f5f562f57",
+    "comparisonRevision": "d066c8cc6babd1928e646b0d4461bbc774368fe8f4fc69d4f1682c8e40efc41f",
+    "status": "approved",
+    "notes": "A streaming stick plugs into a television, unlike the update, application and VM definition displays."
+  },
+  "aws-iot-lambda-function": {
+    "revision": "0643df84cff8243305a9b7198196ba030ffc1f5fad5180404c441da80c7afbf4",
+    "comparisonRevision": "368d3df22777996c0121d9b0c643d6992d20c19dda1541a1be57d15fdde43ffb",
+    "status": "approved",
+    "notes": "A device points to a lambda function, unlike the connector, transit attachment and backup flow."
+  },
+  "aws-iot-http": {
+    "revision": "dea9c844a13fbc527b396d4008491beaae62073598bb81e56ef7775ee42249f0",
+    "comparisonRevision": "0457305b161e2c1c2a83023dd249788b651ad97106c6315235c52412d9851fed",
+    "status": "approved",
+    "notes": "A web panel has opposing request and response arrows, unlike the TV, host columns and configuration view."
+  },
+  "aws-iot-http2": {
+    "revision": "b6feed282e4a2610c6f83d285a637d121511077afba2af07a2ddcec1878aff40",
+    "comparisonRevision": "efff33e6dbf6a322de90dca1911a1c05e5a2c3bae421565955b69e06b928fbf2",
+    "status": "approved",
+    "notes": "Parallel packet streams between endpoints differ from web slots, backup resource and identity connection."
+  },
+  "aws-iot-lorawan": {
+    "revision": "7f1fe71dc6d9c539f8b5f62262d80241bb2f413f4afd635ab916eed98c689813",
+    "comparisonRevision": "8df6ba2443accf42bfcf7ea1c5c22bbc9392ef13c34efc33e7856d7a0450bd12",
+    "status": "approved",
+    "notes": "A sensor transmits wirelessly to a distant mast, unlike an accelerator, web job and storage location."
+  },
+  "aws-iot-mqtt": {
+    "revision": "ee4de262964f52660aea2d5dd4e520a61d49b368f4a73d52b5f38620a7d97940",
+    "comparisonRevision": "97ec9c9ad74d10317d8977201f139f1a3262b52d16441bd85bf2d5328dc9a86f",
+    "status": "approved",
+    "notes": "Devices publish an envelope through a message broker, unlike the health, VM and ingestion diagrams."
+  },
+  "aws-greengrass-protocol": {
+    "revision": "275c0bebaad6f071fa4e92835d9938a8e10e16dc0256ce6713d5a49b5f4274e7",
+    "comparisonRevision": "2e8a1efe1a834a0ffe02c4875d454cbc5c6efc518b70a4ac0dba980c3390d5b1",
+    "status": "approved",
+    "notes": "Two edge devices exchange messages diagonally, unlike the end-user, AI workflow and SSD drawings."
+  },
+  "aws-iot-device-gateway": {
+    "revision": "94bffb85d9d100290d669178804b79487cceb80a5719f376392a1c82ed0667a4",
+    "comparisonRevision": "24bcbcb111c34bea94a728ae75115caf465b0bff165a53d8b9a8e40ee8b944ad",
+    "status": "approved",
+    "notes": "Two devices connect through a gateway to a cloud, unlike the cross-account, storage and acceleration motifs."
+  },
+  "aws-iot-topic": {
+    "revision": "aac15f377c66b33c0811d604b13975be8b41b0cbc69aaec0600b782f48cd5b41",
+    "comparisonRevision": "59d2fb9614d3c93f26b8c4767587bc8df2f43e30abb0bea8acdb62be0c1688eb",
+    "status": "approved",
+    "notes": "An envelope is directed to a target, unlike a voice skill, DNS shield and peering links."
   }
 }

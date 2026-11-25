@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 276,
+  "approved": 286,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -763,16 +763,6 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
-    "aws-iot-fire-tv",
-    "aws-iot-fire-tv-stick",
-    "aws-iot-lambda-function",
-    "aws-iot-http",
-    "aws-iot-http2",
-    "aws-iot-lorawan",
-    "aws-iot-mqtt",
-    "aws-greengrass-protocol",
-    "aws-iot-device-gateway",
-    "aws-iot-topic",
     "aws-iot-rule",
     "aws-iot-action",
     "aws-iot-actuator",
@@ -3058,8 +3048,8 @@
       },
       {
         "a": "aws-dynamodb",
-        "b": "aws-iot-http2",
-        "similarity": 0.1924
+        "b": "azure-public-ip-classic",
+        "similarity": 0.1897
       }
     ],
     "gcp-bigquery": [
@@ -3415,8 +3405,8 @@
       },
       {
         "a": "azure-operator-5g-core",
-        "b": "aws-iot-http2",
-        "similarity": 0.2503
+        "b": "aws-discovery-agent-resource",
+        "similarity": 0.25
       }
     ],
     "azure-operator-nexus": [
@@ -8429,9 +8419,9 @@
         "similarity": 0.2193
       },
       {
-        "a": "gcp-game-servers",
-        "b": "aws-greengrass-protocol",
-        "similarity": 0.1979
+        "a": "azure-sap-monitor",
+        "b": "gcp-game-servers",
+        "similarity": 0.1962
       }
     ],
     "gcp-iot-core": [
@@ -15368,13 +15358,13 @@
       },
       {
         "a": "azure-intune-devices",
-        "b": "aws-iot-http2",
-        "similarity": 0.2914
+        "b": "aws-systems-change-manager",
+        "similarity": 0.2863
       },
       {
         "a": "azure-intune-devices",
-        "b": "aws-systems-change-manager",
-        "similarity": 0.2863
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.2813
       }
     ],
     "azure-device-compliance": [
@@ -15952,7 +15942,7 @@
       {
         "a": "azure-api-proxy",
         "b": "aws-iot-http2",
-        "similarity": 0.3104
+        "similarity": 0.2984
       }
     ],
     "azure-tenant-properties": [
@@ -16020,7 +16010,7 @@
       {
         "a": "azure-entra-connect",
         "b": "aws-iot-http2",
-        "similarity": 0.3632
+        "similarity": 0.3202
       }
     ],
     "azure-entra-verified-id": [
@@ -16886,8 +16876,8 @@
       },
       {
         "a": "azure-sphere",
-        "b": "aws-iot-http2",
-        "similarity": 0.2698
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2659
       }
     ],
     "azure-defender-industrial-robot": [
@@ -17107,8 +17097,8 @@
       },
       {
         "a": "azure-defender-web-guiding",
-        "b": "azure-search-grid",
-        "similarity": 0.2626
+        "b": "aws-iot-http2",
+        "similarity": 0.2709
       }
     ],
     "azure-defender-engineering-station": [
@@ -17545,7 +17535,7 @@
       {
         "a": "azure-device-provisioning",
         "b": "aws-iot-http2",
-        "similarity": 0.3182
+        "similarity": 0.3047
       },
       {
         "a": "azure-device-provisioning",
@@ -19937,17 +19927,17 @@
       {
         "a": "aws-iot-http2",
         "b": "azure-web-slots",
-        "similarity": 0.4007
+        "similarity": 0.3958
+      },
+      {
+        "a": "aws-iot-http2",
+        "b": "aws-backup-storage-resource",
+        "similarity": 0.3205
       },
       {
         "a": "azure-entra-connect",
         "b": "aws-iot-http2",
-        "similarity": 0.3632
-      },
-      {
-        "a": "azure-storage-mover",
-        "b": "aws-iot-http2",
-        "similarity": 0.327
+        "similarity": 0.3202
       }
     ],
     "aws-iot-lorawan": [
@@ -19974,31 +19964,31 @@
         "similarity": 0.2714
       },
       {
-        "a": "aws-iot-http2",
-        "b": "aws-iot-mqtt",
-        "similarity": 0.2661
-      },
-      {
         "a": "aws-iot-mqtt",
         "b": "azure-avs-vm",
         "similarity": 0.2638
+      },
+      {
+        "a": "aws-opensearch-ingestion",
+        "b": "aws-iot-mqtt",
+        "similarity": 0.2543
       }
     ],
     "aws-greengrass-protocol": [
       {
         "a": "aws-greengrass-protocol",
-        "b": "aws-general-server",
-        "similarity": 0.2635
+        "b": "aws-category-end-user",
+        "similarity": 0.2222
       },
       {
-        "a": "azure-capacity-reservation-groups",
+        "a": "azure-ai-studio",
         "b": "aws-greengrass-protocol",
-        "similarity": 0.2583
+        "similarity": 0.2098
       },
       {
-        "a": "aws-greengrass-protocol",
-        "b": "azure-controls",
-        "similarity": 0.2421
+        "a": "gcp-local-ssd",
+        "b": "aws-greengrass-protocol",
+        "similarity": 0.2066
       }
     ],
     "aws-iot-device-gateway": [
@@ -22079,7 +22069,7 @@
       {
         "a": "aws-iot-http2",
         "b": "aws-backup-storage-resource",
-        "similarity": 0.3231
+        "similarity": 0.3205
       },
       {
         "a": "aws-backup-storage-resource",
@@ -31746,6 +31736,11 @@
     ],
     "aws-category-analytics": [
       {
+        "a": "aws-iot-http2",
+        "b": "aws-category-analytics",
+        "similarity": 0.2107
+      },
+      {
         "a": "aws-category-analytics",
         "b": "fabric-odata",
         "similarity": 0.2099
@@ -31754,11 +31749,6 @@
         "a": "aws-category-analytics",
         "b": "azure-app-service-environments",
         "similarity": 0.2059
-      },
-      {
-        "a": "aws-iot-http2",
-        "b": "aws-category-analytics",
-        "similarity": 0.2036
       }
     ],
     "aws-category-containers": [
@@ -32045,9 +32035,9 @@
         "similarity": 0.2055
       },
       {
-        "a": "aws-iot-http2",
+        "a": "aws-category-business-applications",
         "b": "aws-simspace-weaver",
-        "similarity": 0.1892
+        "similarity": 0.1876
       }
     ],
     "aws-parallel-computing": [
@@ -32960,7 +32950,7 @@
       {
         "a": "aws-iot-http2",
         "b": "azure-web-slots",
-        "similarity": 0.4007
+        "similarity": 0.3958
       },
       {
         "a": "azure-web-app-database",
@@ -35207,9 +35197,9 @@
         "similarity": 0.2039
       },
       {
-        "a": "aws-greengrass-protocol",
+        "a": "azure-app-space",
         "b": "azure-managed-service-fabric",
-        "similarity": 0.1874
+        "similarity": 0.1783
       }
     ],
     "azure-notification-hubs": [
