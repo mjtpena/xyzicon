@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1056,
-  "aliases": 3937,
+  "count": 1062,
+  "aliases": 3943,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -258,6 +258,12 @@
     "gcp-datastore",
     "gcp-dataproc",
     "gcp-dataproc-metastore",
+    "gcp-healthcare-marketplace",
+    "gcp-healthcare-nlp",
+    "gcp-media-translation",
+    "gcp-video-intelligence",
+    "gcp-recommendations-ai",
+    "gcp-retail-api",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1172,8 +1178,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 156,
-      "concepts": 143
+      "covered": 162,
+      "concepts": 149
     }
   },
   "nearest": {
@@ -3429,13 +3435,13 @@
       },
       {
         "a": "m365-chat-multiple",
-        "b": "m365-comment-multiple",
-        "similarity": 0.2334
+        "b": "gcp-healthcare-nlp",
+        "similarity": 0.2388
       },
       {
         "a": "m365-chat-multiple",
-        "b": "fabric-table-wand",
-        "similarity": 0.2311
+        "b": "m365-comment-multiple",
+        "similarity": 0.2334
       }
     ],
     "m365-task-list": [
@@ -5049,8 +5055,8 @@
       },
       {
         "a": "gcp-dataplex",
-        "b": "azure-endpoint-analytics",
-        "similarity": 0.2121
+        "b": "gcp-healthcare-marketplace",
+        "similarity": 0.2136
       }
     ],
     "gcp-dataprep": [
@@ -5478,6 +5484,108 @@
         "similarity": 0.226
       }
     ],
+    "gcp-healthcare-marketplace": [
+      {
+        "a": "gcp-healthcare-marketplace",
+        "b": "azure-event-hub-clusters",
+        "similarity": 0.2351
+      },
+      {
+        "a": "gcp-healthcare-marketplace",
+        "b": "aws-marketplace",
+        "similarity": 0.2225
+      },
+      {
+        "a": "gcp-dataplex",
+        "b": "gcp-healthcare-marketplace",
+        "similarity": 0.2136
+      }
+    ],
+    "gcp-healthcare-nlp": [
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "gcp-video-intelligence",
+        "similarity": 0.3256
+      },
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "azure-private-link-services",
+        "similarity": 0.2978
+      },
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "aws-vpc",
+        "similarity": 0.263
+      }
+    ],
+    "gcp-media-translation": [
+      {
+        "a": "gcp-media-translation",
+        "b": "m365-building-multiple",
+        "similarity": 0.2307
+      },
+      {
+        "a": "gcp-media-translation",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.1924
+      },
+      {
+        "a": "gcp-media-translation",
+        "b": "aws-security-incident-response",
+        "similarity": 0.1892
+      }
+    ],
+    "gcp-video-intelligence": [
+      {
+        "a": "gcp-healthcare-nlp",
+        "b": "gcp-video-intelligence",
+        "similarity": 0.3256
+      },
+      {
+        "a": "azure-waf-policies",
+        "b": "gcp-video-intelligence",
+        "similarity": 0.2791
+      },
+      {
+        "a": "gcp-video-intelligence",
+        "b": "aws-finspace",
+        "similarity": 0.2741
+      }
+    ],
+    "gcp-recommendations-ai": [
+      {
+        "a": "gcp-recommendations-ai",
+        "b": "gcp-vision",
+        "similarity": 0.2597
+      },
+      {
+        "a": "gcp-recommendations-ai",
+        "b": "aws-vpc",
+        "similarity": 0.2535
+      },
+      {
+        "a": "gcp-recommendations-ai",
+        "b": "fabric-database-crown",
+        "similarity": 0.246
+      }
+    ],
+    "gcp-retail-api": [
+      {
+        "a": "gcp-retail-api",
+        "b": "gcp-cloud-gpu",
+        "similarity": 0.2156
+      },
+      {
+        "a": "gcp-retail-api",
+        "b": "aws-category-iot",
+        "similarity": 0.1727
+      },
+      {
+        "a": "gcp-retail-api",
+        "b": "gcp-app-engine",
+        "similarity": 0.1696
+      }
+    ],
     "gcp-access-context": [
       {
         "a": "m365-chart-multiple",
@@ -5643,9 +5751,9 @@
         "similarity": 0.2602
       },
       {
-        "a": "gcp-vision",
-        "b": "aws-deep-learning-containers",
-        "similarity": 0.2488
+        "a": "gcp-recommendations-ai",
+        "b": "gcp-vision",
+        "similarity": 0.2597
       }
     ],
     "gcp-genomics": [
@@ -6245,6 +6353,11 @@
     ],
     "gcp-persistent-disk": [
       {
+        "a": "gcp-video-intelligence",
+        "b": "gcp-persistent-disk",
+        "similarity": 0.2215
+      },
+      {
         "a": "gcp-persistent-disk",
         "b": "aws-wickr",
         "similarity": 0.2213
@@ -6253,11 +6366,6 @@
         "a": "gcp-deployment-manager",
         "b": "gcp-persistent-disk",
         "similarity": 0.2111
-      },
-      {
-        "a": "gcp-persistent-disk",
-        "b": "fabric-data-agent",
-        "similarity": 0.1993
       }
     ],
     "gcp-cloud-domains": [
@@ -7316,6 +7424,11 @@
     ],
     "azure-private-link-services": [
       {
+        "a": "gcp-healthcare-nlp",
+        "b": "azure-private-link-services",
+        "similarity": 0.2978
+      },
+      {
         "a": "azure-private-link-services",
         "b": "azure-qna",
         "similarity": 0.2757
@@ -7324,11 +7437,6 @@
         "a": "azure-private-link-services",
         "b": "aws-managed-grafana",
         "similarity": 0.2667
-      },
-      {
-        "a": "fabric-copy-job",
-        "b": "azure-private-link-services",
-        "similarity": 0.2557
       }
     ],
     "azure-endpoint-analytics": [
@@ -7343,9 +7451,9 @@
         "similarity": 0.2686
       },
       {
-        "a": "gcp-local-ssd",
+        "a": "gcp-video-intelligence",
         "b": "azure-endpoint-analytics",
-        "similarity": 0.2597
+        "similarity": 0.266
       }
     ],
     "azure-workbooks": [
@@ -9502,9 +9610,9 @@
         "similarity": 0.2716
       },
       {
-        "a": "aws-sagemaker-studio-lab",
-        "b": "aws-finspace",
-        "similarity": 0.2474
+        "a": "gcp-video-intelligence",
+        "b": "aws-sagemaker-studio-lab",
+        "similarity": 0.2571
       }
     ],
     "aws-nova": [
@@ -10517,14 +10625,14 @@
         "similarity": 0.1772
       },
       {
-        "a": "fabric-data-science",
-        "b": "aws-mediatailor",
-        "similarity": 0.1647
+        "a": "gcp-recommendations-ai",
+        "b": "fabric-data-science",
+        "similarity": 0.1762
       },
       {
         "a": "fabric-data-science",
-        "b": "aws-cdk",
-        "similarity": 0.1598
+        "b": "aws-mediatailor",
+        "similarity": 0.1647
       }
     ],
     "fabric-data-warehouse-product": [
@@ -15669,9 +15777,9 @@
         "similarity": 0.1761
       },
       {
-        "a": "aws-elastic-beanstalk",
+        "a": "gcp-retail-api",
         "b": "aws-category-iot",
-        "similarity": 0.1675
+        "similarity": 0.1727
       }
     ],
     "aws-iot-expresslink": [
