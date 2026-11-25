@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 477,
+  "approved": 497,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,26 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-chatbot",
-    "aws-appfabric",
-    "aws-gamelift-servers",
-    "aws-activate",
-    "aws-iq",
-    "aws-managed-services",
-    "aws-repost-private",
-    "aws-pinpoint",
-    "aws-pinpoint-apis",
-    "aws-workdocs-sdk",
-    "aws-workspaces",
-    "aws-finops-agent",
-    "aws-managed-blockchain",
-    "aws-location-service",
-    "aws-workmail",
-    "aws-workdocs",
-    "aws-supply-chain",
-    "aws-connect",
-    "aws-billing-conductor",
-    "aws-cost-usage-report",
     "aws-savings-plans",
     "aws-reserved-instance-reporting",
     "aws-support",
@@ -2898,6 +2878,11 @@
     "gcp-cloud-sql": [
       {
         "a": "gcp-cloud-sql",
+        "b": "aws-workmail",
+        "similarity": 0.295
+      },
+      {
+        "a": "gcp-cloud-sql",
         "b": "fabric-data-agent",
         "similarity": 0.2663
       },
@@ -2905,11 +2890,6 @@
         "a": "gcp-cloud-sql",
         "b": "aws-keyspaces",
         "similarity": 0.2646
-      },
-      {
-        "a": "gcp-cloud-sql",
-        "b": "fabric-copy-job",
-        "similarity": 0.258
       }
     ],
     "gcp-compute-engine": [
@@ -9708,8 +9688,8 @@
       },
       {
         "a": "gcp-cloud-router",
-        "b": "aws-workmail",
-        "similarity": 0.2188
+        "b": "gcp-category-networking",
+        "similarity": 0.2122
       }
     ],
     "gcp-cloud-nat": [
@@ -10485,13 +10465,13 @@
       },
       {
         "a": "fabric-data-agent",
-        "b": "aws-category-compute",
-        "similarity": 0.2752
+        "b": "aws-workmail",
+        "similarity": 0.2771
       },
       {
-        "a": "gcp-cloud-sql",
-        "b": "fabric-data-agent",
-        "similarity": 0.2663
+        "a": "fabric-data-agent",
+        "b": "aws-category-compute",
+        "similarity": 0.2752
       }
     ],
     "fabric-data-factory": [
@@ -14996,14 +14976,14 @@
         "similarity": 0.324
       },
       {
+        "a": "aws-devops-guru",
+        "b": "aws-workmail",
+        "similarity": 0.318
+      },
+      {
         "a": "gcp-developer-portal",
         "b": "aws-devops-guru",
         "similarity": 0.3154
-      },
-      {
-        "a": "gcp-data-studio",
-        "b": "aws-devops-guru",
-        "similarity": 0.306
       }
     ],
     "aws-lookout-equipment": [
@@ -23389,19 +23369,19 @@
     ],
     "aws-finops-agent": [
       {
-        "a": "aws-finops-agent",
-        "b": "aws-certificate-manager",
-        "similarity": 0.2946
+        "a": "m365-signature",
+        "b": "aws-finops-agent",
+        "similarity": 0.2007
       },
       {
-        "a": "aws-finops-agent",
-        "b": "azure-cost-management-billing",
-        "similarity": 0.2438
+        "a": "aws-outposts-servers",
+        "b": "aws-finops-agent",
+        "similarity": 0.1965
       },
       {
-        "a": "aws-finops-agent",
-        "b": "gcp-category-media",
-        "similarity": 0.2244
+        "a": "azure-ml-web-service-plans",
+        "b": "aws-finops-agent",
+        "similarity": 0.1944
       }
     ],
     "aws-managed-blockchain": [
@@ -23441,18 +23421,18 @@
     "aws-workmail": [
       {
         "a": "aws-workmail",
-        "b": "azure-website-staging",
-        "similarity": 0.2954
+        "b": "m365-filmstrip-play",
+        "similarity": 0.3213
       },
       {
-        "a": "aws-backup-vault-resource",
+        "a": "aws-devops-guru",
         "b": "aws-workmail",
-        "similarity": 0.2715
+        "similarity": 0.318
       },
       {
-        "a": "azure-stack-hci-sizer",
-        "b": "aws-workmail",
-        "similarity": 0.2419
+        "a": "aws-workmail",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2997
       }
     ],
     "aws-workdocs": [
@@ -23683,14 +23663,14 @@
         "similarity": 0.2765
       },
       {
+        "a": "aws-workmail",
+        "b": "aws-wickr",
+        "similarity": 0.2715
+      },
+      {
         "a": "aws-wickr",
         "b": "azure-vm-app-definitions",
         "similarity": 0.2603
-      },
-      {
-        "a": "azure-multi-factor-authentication",
-        "b": "aws-wickr",
-        "similarity": 0.2416
       }
     ],
     "aws-end-user-messaging": [
@@ -26845,14 +26825,14 @@
         "similarity": 0.3061
       },
       {
-        "a": "aws-finops-agent",
-        "b": "aws-certificate-manager",
-        "similarity": 0.2946
-      },
-      {
         "a": "fabric-paginated-report",
         "b": "aws-certificate-manager",
         "similarity": 0.25
+      },
+      {
+        "a": "aws-certificate-manager",
+        "b": "azure-scheduled-actions",
+        "similarity": 0.2415
       }
     ],
     "aws-identity-center": [
@@ -27827,6 +27807,11 @@
     ],
     "m365-filmstrip-play": [
       {
+        "a": "aws-workmail",
+        "b": "m365-filmstrip-play",
+        "similarity": 0.3213
+      },
+      {
         "a": "m365-filmstrip-play",
         "b": "gcp-category-migration",
         "similarity": 0.3106
@@ -27835,11 +27820,6 @@
         "a": "aws-cloud9",
         "b": "m365-filmstrip-play",
         "similarity": 0.2845
-      },
-      {
-        "a": "aws-devops-guru",
-        "b": "m365-filmstrip-play",
-        "similarity": 0.2733
       }
     ],
     "m365-folder-open-vertical": [
@@ -31426,6 +31406,11 @@
     ],
     "aws-category-business-applications": [
       {
+        "a": "aws-workmail",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2997
+      },
+      {
         "a": "aws-datazone-portal",
         "b": "aws-category-business-applications",
         "similarity": 0.2535
@@ -31434,11 +31419,6 @@
         "a": "aws-mediastore",
         "b": "aws-category-business-applications",
         "similarity": 0.2495
-      },
-      {
-        "a": "gcp-bigtable",
-        "b": "aws-category-business-applications",
-        "similarity": 0.2382
       }
     ],
     "aws-category-ai": [
@@ -31844,9 +31824,9 @@
         "similarity": 0.2055
       },
       {
-        "a": "aws-category-business-applications",
+        "a": "aws-workmail",
         "b": "aws-simspace-weaver",
-        "similarity": 0.1876
+        "similarity": 0.1954
       }
     ],
     "aws-parallel-computing": [
@@ -40059,14 +40039,14 @@
         "similarity": 0.1224
       },
       {
+        "a": "aws-finops-agent",
+        "b": "fabric-stream-search",
+        "similarity": 0.1191
+      },
+      {
         "a": "aws-lookout-equipment",
         "b": "fabric-stream-search",
         "similarity": 0.1188
-      },
-      {
-        "a": "azure-defender-printer",
-        "b": "fabric-stream-search",
-        "similarity": 0.1125
       }
     ],
     "fabric-histogram-function": [

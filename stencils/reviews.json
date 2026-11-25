@@ -787,9 +787,9 @@
   },
   "gcp-cloud-sql": {
     "revision": "13d2bc0cbdd7ea653d974b16dece3489f8c482d43be2575336ce8575ea79cf47",
-    "comparisonRevision": "80ec7bf3a7948ad6004aa993a171b2a9d068561ef164775c60534ecef408fcbc",
+    "comparisonRevision": "b78d5deef95ea984a2135332b99bc59395df84a7c1fea881b5e74cf7424602ec",
     "status": "approved",
-    "notes": "A database linked to a table conveys relational data; neighboring grid diagrams show agents, keys or copied files."
+    "notes": "A database cylinder and table are distinct from the WorkMail desktop, data agent and Keyspaces table."
   },
   "azure-notification-hubs": {
     "revision": "0c779ae010946b41a61bcd8928772a4357a9ecbdf3594469ac0637d1aea6df7a",
@@ -951,24 +951,28 @@
     "notes": "An envelope publishes through a hub to three recipients, unlike the organizational chart, transform flow and connectivity channel."
   },
   "aws-workmail": {
-    "revision": "cd087fafd81e2d4e4c681d395ce9941b847ed5f9d47affbcbede6f685761388b",
+    "revision": "fc8c2dc812c026f623cd36e0a632bc2473148c130a631b3816a879ecdb04565d",
+    "comparisonRevision": "f684adde1df95cd5bfbb78528822c4b8420916f354c3f676ae501e1ae617660a",
     "status": "approved",
-    "notes": "The post-mounted mailbox and envelope read at 32px, distinct from the router, network graph and globe neighbors and from the source envelope logo."
+    "notes": "A desktop presents an envelope and calendar, unlike the filmstrip, DevOps alert and business application, and the SES mailbox."
   },
   "aws-workdocs": {
     "revision": "064a363f49c1e3b5c7a5a5aad6d6cc5e9f491026c45d5cc58b7ea39f053a8e51",
+    "comparisonRevision": "f5e35965248d98edef7812dbf5fbc52d8fa5c15ffe5c9552f6b8a695782e6ae4",
     "status": "approved",
-    "notes": "Two people flank a shared page; their silhouettes remain visible at 32px and distinguish it from the arrow, bar-chart and locked-envelope neighbors."
+    "notes": "Two people share a document, unlike an activity log, double arrow and Snowball transfer."
   },
   "aws-supply-chain": {
     "revision": "d51bbae4d13c01aed023320d51624d5443a79c4a640df297d19c8f98dde7ef72",
+    "comparisonRevision": "8b7cf663d64fb493e8ad2e8ead9410685d7b68da2c9d75bd99db6b059944de57",
     "status": "approved",
-    "notes": "The warehouse and delivery truck remain recognizable at 32px, unlike the network endpoints, progress bars and processor neighbors."
+    "notes": "A warehouse sends goods by truck, unlike budget charts, private endpoints and a robot controller."
   },
   "aws-connect": {
     "revision": "08ea1595d6addcd27bc5ae24cd80abccb5d1e4cea66a8f5f1fdc0be821f6ff7c",
+    "comparisonRevision": "a8f25ae85ef1a61bada1ec10843f8b7929c110b3601857b71e51dd287cd44112",
     "status": "approved",
-    "notes": "The headset agent and conversation bubble remain visible at 32px and differ from the envelope, data shelves and server stack neighbors."
+    "notes": "A headset agent and speech bubble suggest contact center work, unlike file cache, mail and warehouse."
   },
   "microsoft-engage-center-connect": {
     "revision": "5951f895d61ad768062f6fba6ce1ea5abe3221d12191dfcab5315dd9d7bdde3e",
@@ -2154,9 +2158,9 @@
   },
   "aws-devops-guru": {
     "revision": "65db81f2aecb46e7e1a4c9d3ceb38ec42448d6a30e191f5244cf2c71221eda4f",
-    "comparisonRevision": "87ee159892a6b9569da587c64ccf4137115ada63c0a170a17aef733fa1dbc371",
+    "comparisonRevision": "afd018645a2f9ab12f9bed9f05a40c2b0ac83909a6701db66c8f05bd55902f23",
     "status": "approved",
-    "notes": "A monitor shows an anomaly and alert, unlike Cloud9, developer portal and data studio."
+    "notes": "A monitor shows an anomaly trace and warning, not Cloud9 code, WorkMail inbox or developer portal."
   },
   "aws-lookout-equipment": {
     "revision": "09c80eda7dc7d28d4103584eab82de6fc77638b4d2e64c924957af71029ad584",
@@ -3405,5 +3409,101 @@
     "comparisonRevision": "da4fb696decdad72485da49ed8a943039435ce6fdaa3d34a348dbe48b26de927",
     "status": "approved",
     "notes": "A question bubble, sparkle and response document represent the assistant, unlike the analytics copilot, language graph and workload code."
+  },
+  "aws-chatbot": {
+    "revision": "a83aa183a5d15f5d33fc7b3fe5b359bb8041815ebdf519c459b8278f658705c7",
+    "comparisonRevision": "6adb62467dab3b28cb3982565b7fe9f8c0c5321696c6aba68148c8d1e518c3fd",
+    "status": "approved",
+    "notes": "A command chat bubble addresses a server, distinct from DevOps dashboard, web risk and management connector."
+  },
+  "aws-appfabric": {
+    "revision": "24d0c0f16ab508df953bc81e61f3f75cb215689baa9c48dd1f8a0a18519d6b12",
+    "comparisonRevision": "35f86d4d392659417ebc16372a78254af14c58c44a9b6d56e4638cb7d5f7dcfa",
+    "status": "approved",
+    "notes": "Three apps connect to a checked shield, unlike entity resolution, fabric clusters and batch pipelines."
+  },
+  "aws-gamelift-servers": {
+    "revision": "09dfa2108c0bd9eb4d34c59f43fc658502fa3cf777c3ce1201f2a1ae83c613a3",
+    "comparisonRevision": "41c3202a20780c93f183f4db58b95324c35ef7493b5cb9be94cb15f894a12ef9",
+    "status": "approved",
+    "notes": "A game controller points to servers, unlike a database backup, checked bulb and model container."
+  },
+  "aws-activate": {
+    "revision": "7ada7d1e3e8b070ccd101958a3d90703d50139cf951e19592f19d9638ecc37e5",
+    "comparisonRevision": "6834a9977ac008890947f1195dadac69fe982389db062ccacb6d95a72889a4a6",
+    "status": "approved",
+    "notes": "A launch rocket accompanies a person with a spark, unlike media cloud, simulation nodes and a plug."
+  },
+  "aws-iq": {
+    "revision": "35a1c8cf7874947f82230b0a6a1d288cead7d552974c98d5d6d1b7cec1b1fb9e",
+    "comparisonRevision": "bf96ab13700d1ba3b06bbfc15a040c78eae3702ae1b9966db3745236ec9e75d6",
+    "status": "approved",
+    "notes": "Two people shake hands above an agreement, unlike a terminal, TensorFlow nodes and planning board."
+  },
+  "aws-managed-services": {
+    "revision": "6f41f8367ffe87325a8ddca9a63417c279e19c8a25a51c315f02af97e2034446",
+    "comparisonRevision": "989edcee7e56ae43ae6a1271db31e743be4c780a7080652c7f389df90ed2b995",
+    "status": "approved",
+    "notes": "An operator stands beside a server stack, distinct from an application panel, finance and license blending."
+  },
+  "aws-repost-private": {
+    "revision": "40b03dbc4b83ca364a0ac59513edf79b468e7b24ceadcb85130c679b217b9dc1",
+    "comparisonRevision": "ea58b4051b63ac69043f415003e0db7743424990dd922f6194c8e0539b4889a9",
+    "status": "approved",
+    "notes": "Two discussion bubbles and a lock signify private knowledge exchange, unlike language graphs, analytics and inventory."
+  },
+  "aws-pinpoint": {
+    "revision": "cac128d542817ab6aa01b4ccf600344cb82caabc50c5c454251775c60e3bfe94",
+    "comparisonRevision": "ee79bede2e98cce9050c6c302e3cab4de3aa80354c10a7fc390fa672ff1a3838",
+    "status": "approved",
+    "notes": "An envelope fans out to people, unlike file storage, auto-scaling and billing conductor; the API shows code instead."
+  },
+  "aws-pinpoint-apis": {
+    "revision": "c970d8ff325ae4c001e45017353c9da7f8ba2c4c16d0c32215efed5eb9fdb321",
+    "comparisonRevision": "f0f2817b1c92efa5c134f08c2e4aca5968c5712c843e7b92083603ddfe87201d",
+    "status": "approved",
+    "notes": "A code window exchanges with an envelope, unlike video inference, vision graph and security operations, and unlike the customer delivery sketch."
+  },
+  "aws-workdocs-sdk": {
+    "revision": "b5567bd1e4c4dafcb42a2d80653dce40222b7b9cb62617de7a413f1aa7cebba9",
+    "comparisonRevision": "b23f45e5ebd2fc5dbec701d73adc078e2509de11d6137c906f80d26fd63cbf3e",
+    "status": "approved",
+    "notes": "A code pane connects to a document, unlike video inference, the edit window and document search."
+  },
+  "aws-workspaces": {
+    "revision": "18875759353ab12672bd843deeb54ae5b29c51847a95d47fb02437587f6d8925",
+    "comparisonRevision": "1cb3d7ea3c2c5ba19ef37161c5baba9bcc7eb2075d2f04ec7661832d74d52ff4",
+    "status": "approved",
+    "notes": "A person uses a cloud-connected desktop, unlike a code lab, sustainability chart and industrial robot."
+  },
+  "aws-finops-agent": {
+    "revision": "02cdc8a06d020df36bd5007d885e109a985c1d67839a3fd1cdf5a32f7358deac",
+    "comparisonRevision": "8f42f339ee192c1315a6e73a89756afa145803345d6c64c8518c7cd2fc118d19",
+    "status": "approved",
+    "notes": "A sparkle and magnifier accompany cost bars and a trend arrow, unlike a signature, server stack and ML gauge; unlike cost usage report it is not a document."
+  },
+  "aws-managed-blockchain": {
+    "revision": "6ca51cd0e4f69f160ef4486f591f83aeb2186f8ac8eb7fb7e1bb1bc48bb2470e",
+    "comparisonRevision": "2987ee75d3d055a735ed741f02afd201fdbfc1bc5f9b176f872cdefd9dc49eb7",
+    "status": "approved",
+    "notes": "Three participants connect to a shared ledger, unlike firewall, premium stack and overlapping squares."
+  },
+  "aws-location-service": {
+    "revision": "76c4a2116b5def1b764432cfc99d0d0fbc939db9450b557ebdfee0f54b15bcd5",
+    "comparisonRevision": "223f2533436f6dc64c66794c3e775dffd2168ebc1f9ada04e9bfb3797ef052d9",
+    "status": "approved",
+    "notes": "A marked route crosses a folded map, distinct from check, genomics and filmstrip panels and the flat road chart resource."
+  },
+  "aws-billing-conductor": {
+    "revision": "4bfce3b732d3149e9f4fce49edb02685662d8184237fa6cec563f7b7202b0871",
+    "comparisonRevision": "74dad02eb3f23b14a4de7a4648364eb90ab525c7d96c3d0ad55031be9b2aab9d",
+    "status": "approved",
+    "notes": "A billing document distributes to three account records, unlike FSx, dashboards and image gallery."
+  },
+  "aws-cost-usage-report": {
+    "revision": "27cfad35379cbdc9447847291ea56215cfb28184b8554ea36e682a5d6e7c53c9",
+    "comparisonRevision": "b8877357b6a2add594a9ecc8e2e294fcfb9acc6b2787a0471802bf1a87c98bf9",
+    "status": "approved",
+    "notes": "A page combines expense bars with a usage meter, unlike a report panel, language workflow and contacts."
   }
 }
