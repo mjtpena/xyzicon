@@ -922,9 +922,9 @@
   },
   "aws-cloudwatch": {
     "revision": "b515109bb26d9664dc8d099596a73d8ed59be03728ee6bdf94b3592190336436",
-    "comparisonRevision": "4766157141a49da70b06bddc16008100d1fc7f0197acbbc728bafea70c145a09",
+    "comparisonRevision": "f7e65925269cae669320888976b8340adeadbe671e612055816ea36842bcbe6f",
     "status": "approved",
-    "notes": "A watch with a health signal conveys monitoring, unlike the column, rack and segmented data-usage dial."
+    "notes": "A monitoring watch encloses a signal, unlike the column, usage dial and container topology."
   },
   "aws-route53": {
     "revision": "4f15ee37cdfe5c1369968a78a3de16e16951708efd687bead41e1fe388f410f2",
@@ -1794,9 +1794,9 @@
   },
   "aws-datazone-projects": {
     "revision": "66e5fd4db7c65d0d275c27b3823d9825680eee59eb33326e38d0ccc8009a03a6",
-    "comparisonRevision": "10e867af97f5f263fc71cfa86db003a8e4ac6395086265c391568c579de6fb35",
+    "comparisonRevision": "9ba3d776ef1266eb4105192c879fde37c97dab7e845661cdb5098716217d8313",
     "status": "approved",
-    "notes": "A team works in an analytic project folder, unlike Kubernetes, functions and a pipeline note."
+    "notes": "A team and chart are grouped in a project folder, unlike an on-premises rack, Kubernetes and functions."
   },
   "aws-glue-crawler": {
     "revision": "22990bc504d7eafdad89afdbaa38638ff63b9193ad68a2a689efc08204c14718",
@@ -1901,34 +1901,34 @@
     "notes": "A payment card is checked with a warning lens, unlike instance pools, network gateways and the office building."
   },
   "aws-kendra": {
-    "revision": "cd30316232851adb7597fb52a75e8c608c7670f18a0d11081b43c848256a0d12",
+    "revision": "08420f92e96715d780f7bf5f7102f6035944e92e8dc928bd4ae1a0620db73f78",
     "comparisonRevision": "44f4ffbdcc8d159094d28cb87af3f35b0c11f31101061a35953aa8e56d4f45ff",
-    "status": "rework",
-    "notes": "A densely shaded document stack obscures the search and question at small sizes."
+    "status": "approved",
+    "notes": "A question lens searches a stack of documents, distinct from document security, business intelligence and DLP."
   },
   "aws-polly": {
-    "revision": "1ba7e7875ba3607dd752d67ca09bcd9d14505846599cc4b9353c7e2920956437",
+    "revision": "a3bafb32c9bd71e931bc404ec5352368266d0e40d05cd06be9b0bdfa5b050291",
     "comparisonRevision": "14c4c1c0a6b1480f6543a1bdb5bc87107bbb15bf38ec55e6774c75490dcd780f",
-    "status": "rework",
-    "notes": "The voice waveform is obscured by dense hatching; simplify the speech output."
+    "status": "approved",
+    "notes": "A person voices a script as a waveform, unlike recommendations, a lightbulb and professional services."
   },
   "aws-personalize": {
-    "revision": "676d1fdbb3e4264967197ea4ded77010dece77e82c4c9046ef47f87ccbf29cf6",
-    "comparisonRevision": "dcf2e5c2a794a764e0634c357769b9b79a89033a13c491f05e2b963c0cc99433",
-    "status": "rework",
-    "notes": "The recommendation list is obscured by hatching at small sizes."
+    "revision": "a596cf65affd4ba4684a183588abb0bec2d52e05805ef00301a7367a4bc50a75",
+    "comparisonRevision": "03fb0a6aeb787f199117815b3fdee8c90f953d0a2810c86a36f90964221b2e80",
+    "status": "approved",
+    "notes": "A profile selects among candidate items, unlike the recommendation grid, developer portal and genomics account, and the Azure personalizer list."
   },
   "aws-codeguru": {
-    "revision": "57ec7a84ca17ebd4832a9f6fee31af7473b23ec9667bd0240642bb94eb7a57b7",
+    "revision": "3c6d92afff285c38ad4afbd2ab17d512b8218b561a0de8f89ae0ffc03b8f9f3c",
     "comparisonRevision": "66ad0e81a83b8bcea7e5a75574c6f18fe69e0cc8e7bc989fdc6b91a6d238529f",
-    "status": "rework",
-    "notes": "The review lens is dark and obscures its content at small sizes."
+    "status": "approved",
+    "notes": "A lens identifies an issue in code, unlike screen sharing, a column question and image annotation."
   },
   "aws-compute-optimizer": {
-    "revision": "cc43c7a3b2d6588e2a07e7660b7aa80878552f2f5d8af7cdcfff749907054809",
+    "revision": "adfed4dd1f63475e49b442506a992f5fece9cf2dd304e02f11b9348a2fe2cda7",
     "comparisonRevision": "c48e86e70ad41d466c0bef8e4c248ae995cbfa9a627fc715ea75d0d3496d22df",
-    "status": "rework",
-    "notes": "The processor is densely shaded and the optimization gauge lacks a clear cue at small sizes."
+    "status": "approved",
+    "notes": "A processor is assessed with a gauge, unlike a mainframe search, compliance and download. All eight source variants convey the same optimization service."
   },
   "aws-elastic-beanstalk": {
     "revision": "be290001a7ad46d217c68d7dd062b9456069d2eb1bbf17c819a233e4529662ea",
@@ -1937,22 +1937,22 @@
     "notes": "Applications grow from a platform like a beanstalk, distinct from storage, metrics and a data table."
   },
   "aws-outposts-rack": {
-    "revision": "a3a4e6edcb1cd8586d0470362875ae65ebb6ebe1a59a42769169ac9a3598563a",
-    "comparisonRevision": "645a1cb7d0f0fe04b60bfa6ca9de8548727107b3fabc68a68bc7fde847489a85",
-    "status": "rework",
-    "notes": "A generic rack is hard to distinguish from other infrastructure racks and does not indicate the on-premises context."
+    "revision": "43fdeff2ca5130b7ad11bbfe20d273bbfa90e0018a38b697c4b26f1188b108dc",
+    "comparisonRevision": "a5f01be6f00779bd6334c83f43aa9a4d92a77f2629d83cdf843ee99d5651d2d7",
+    "status": "approved",
+    "notes": "A server rack connects to a local building, distinct from host groups, Kubernetes and external key management, and the Redshift warehouse."
   },
   "aws-outposts-servers": {
-    "revision": "b7ba8cd377f79a8a2346174935d272e29fea9c13d8f63ad27f306b051b51debb",
+    "revision": "10126c09ba3b4cc078567e030847331ed0a6a9f7c9a2202e3e7ad696dc8fe530",
     "comparisonRevision": "c5dfd10ce3d01d6f0e4b8f82e746640fd61b86b9ba0965e95179cbe0a0a10c94",
-    "status": "rework",
-    "notes": "Both server faces are obscured by dense hatching at small sizes."
+    "status": "approved",
+    "notes": "Two compact physical servers are stacked, unlike a data appliance, app manager and database."
   },
   "aws-ec2-autoscaling": {
-    "revision": "4d332b184542be2fbd8d2ef8c0c52fa9736ebb15f57c3f45acf81736330e56a0",
-    "comparisonRevision": "63899f45ae9b5801cd71cb45ae852197e4c83a338fc11d302490564cffb07441",
-    "status": "rework",
-    "notes": "The clock suggests scheduled scaling but does not clearly communicate automatic changes in capacity."
+    "revision": "89f4298a1fb909f085adca4b363c74708d1ad08293ac5c53adc9d7ad20cc5d7b",
+    "comparisonRevision": "40ce0f8195e91200dcf31369aae59498f336e37982fab5aaa7697c8efe55083d",
+    "status": "approved",
+    "notes": "Capacity instances expand under a bidirectional control, unlike HSM, network segments and blockchain resources."
   },
   "aws-mxnet": {
     "revision": "576dadab81f6fa4dcd61472f50e7a0ca3fba2f6b9f478f76c4a0a7fa08cba11a",
