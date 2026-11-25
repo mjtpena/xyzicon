@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1187,
-  "aliases": 4069,
+  "count": 1191,
+  "aliases": 4073,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -617,6 +617,10 @@
     "m365-three-shapes",
     "m365-share-screen-overlay",
     "m365-ribbon-star",
+    "aws-rekognition-image",
+    "aws-rekognition-video",
+    "aws-sagemaker-canvas",
+    "aws-sagemaker-geospatial",
     "aws-deep-learning-amis",
     "aws-sagemaker-studio-lab",
     "aws-nova",
@@ -1298,8 +1302,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1342,
-      "concepts": 374
+      "covered": 1346,
+      "concepts": 378
     },
     "gcp": {
       "sources": 261,
@@ -3730,13 +3734,13 @@
       },
       {
         "a": "m365-image",
-        "b": "aws-cloudshell",
-        "similarity": 0.2779
+        "b": "aws-sagemaker-canvas",
+        "similarity": 0.2994
       },
       {
         "a": "m365-image",
-        "b": "fabric-planning",
-        "similarity": 0.2722
+        "b": "aws-cloudshell",
+        "similarity": 0.2779
       }
     ],
     "m365-map": [
@@ -5265,8 +5269,8 @@
       },
       {
         "a": "gcp-cloud-routes",
-        "b": "m365-text-bullet-list-square",
-        "similarity": 0.1808
+        "b": "aws-rekognition-video",
+        "similarity": 0.1816
       }
     ],
     "gcp-anthos-config-management": [
@@ -9662,14 +9666,14 @@
         "similarity": 0.199
       },
       {
+        "a": "aws-emr-engine",
+        "b": "aws-rekognition-image",
+        "similarity": 0.1899
+      },
+      {
         "a": "gcp-fleet-engine",
         "b": "aws-emr-engine",
         "similarity": 0.1805
-      },
-      {
-        "a": "aws-emr-engine",
-        "b": "fabric-database-up-down",
-        "similarity": 0.1784
       }
     ],
     "aws-emr-hdfs-cluster": [
@@ -9776,6 +9780,11 @@
     ],
     "aws-opensearch-dashboards": [
       {
+        "a": "aws-opensearch-dashboards",
+        "b": "aws-sagemaker-canvas",
+        "similarity": 0.4664
+      },
+      {
         "a": "gcp-producer-portal",
         "b": "aws-opensearch-dashboards",
         "similarity": 0.3351
@@ -9784,11 +9793,6 @@
         "a": "aws-opensearch-dashboards",
         "b": "fabric-code-text-flash",
         "similarity": 0.3264
-      },
-      {
-        "a": "gcp-assured-workloads",
-        "b": "aws-opensearch-dashboards",
-        "similarity": 0.2891
       }
     ],
     "aws-opensearch-ingestion": [
@@ -11712,6 +11716,74 @@
         "similarity": 0.1585
       }
     ],
+    "aws-rekognition-image": [
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-rekognition-image",
+        "similarity": 0.2212
+      },
+      {
+        "a": "gcp-financial-marketplace",
+        "b": "aws-rekognition-image",
+        "similarity": 0.2158
+      },
+      {
+        "a": "aws-rekognition-image",
+        "b": "aws-category-compute",
+        "similarity": 0.2143
+      }
+    ],
+    "aws-rekognition-video": [
+      {
+        "a": "azure-subnet",
+        "b": "aws-rekognition-video",
+        "similarity": 0.2268
+      },
+      {
+        "a": "aws-rekognition-video",
+        "b": "aws-category-financial",
+        "similarity": 0.224
+      },
+      {
+        "a": "aws-rekognition-video",
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.2227
+      }
+    ],
+    "aws-sagemaker-canvas": [
+      {
+        "a": "aws-opensearch-dashboards",
+        "b": "aws-sagemaker-canvas",
+        "similarity": 0.4664
+      },
+      {
+        "a": "gcp-producer-portal",
+        "b": "aws-sagemaker-canvas",
+        "similarity": 0.3014
+      },
+      {
+        "a": "m365-image",
+        "b": "aws-sagemaker-canvas",
+        "similarity": 0.2994
+      }
+    ],
+    "aws-sagemaker-geospatial": [
+      {
+        "a": "m365-text-first-line",
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.2578
+      },
+      {
+        "a": "aws-opensearch-dashboards",
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.256
+      },
+      {
+        "a": "gcp-producer-portal",
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.245
+      }
+    ],
     "aws-deep-learning-amis": [
       {
         "a": "aws-deep-learning-amis",
@@ -12353,9 +12425,9 @@
         "similarity": 0.2191
       },
       {
-        "a": "azure-ai-foundry",
-        "b": "azure-availability-sets",
-        "similarity": 0.2019
+        "a": "aws-sagemaker-canvas",
+        "b": "azure-ai-foundry",
+        "similarity": 0.2136
       }
     ],
     "azure-foundry-project": [
@@ -20479,9 +20551,9 @@
         "similarity": 0.2846
       },
       {
-        "a": "m365-task-list",
+        "a": "aws-sagemaker-canvas",
         "b": "fabric-code-text-flash",
-        "similarity": 0.2326
+        "similarity": 0.2537
       }
     ],
     "fabric-folder-share": [

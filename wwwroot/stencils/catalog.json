@@ -2383,7 +2383,7 @@
       ],
       "revision": "c009776fc28948869b669d747e7ae8413224dc33f4d152701134f744dfda1624",
       "geometrySignature": "1d25cafcc9de834ba26507fb7418662176ff074e24c63812251583f792ed41bb",
-      "comparisonRevision": "4f1c998c2c0d8f723419849e42eaf57a0dcde0eeb393f3c7364d750f77ff9ecc",
+      "comparisonRevision": "c83b6f1a8a63f1c601007fee9c27308fe8e0b15ed5d095c7334d294be12e1c33",
       "review": "pending",
       "notes": ""
     },
@@ -3963,7 +3963,7 @@
       ],
       "revision": "f56ab54338c20c56575424f100d926700b21adb71a02b10572c176beba3e1840",
       "geometrySignature": "49c271083c0043cc86542a556bc7abe76a1197a08df822ba37065acd59d3db6f",
-      "comparisonRevision": "8f0388381e0cfc2a0c87ce065c9ca6c35c1154ff601b720439276aa53ae5c998",
+      "comparisonRevision": "24a28b86bd1f6123f3029c78220f5ca37050b7a4e76a4a444c5d056db70a6469",
       "review": "pending",
       "notes": ""
     },
@@ -8157,7 +8157,7 @@
       ],
       "revision": "3d60d61fdacbe82e69de7820a30f4961ea18b03b9bf95081bf00c85edfd129fe",
       "geometrySignature": "83b31dbf4e4f97578205bc652ab887782ce9436e4c72bb807b255435fc7e36c1",
-      "comparisonRevision": "6a08f5b0835b1f22b63600a79ae9089efb69e7898dedb838c413a319ef91b973",
+      "comparisonRevision": "5bed9eba5d30204f0787bab9db09dd420632cc29b27f6111aa90c649a362297b",
       "review": "pending",
       "notes": ""
     },
@@ -8262,7 +8262,7 @@
       ],
       "revision": "9f46f598ace053e15b4a254690b173f30619d1066aff07202354e2c98a909c21",
       "geometrySignature": "c4ff4b0301e1095aba76c00eac1fe2d7297fe2e7e4ca8cabb75f6f3d3fb13702",
-      "comparisonRevision": "c2b22f9de75573182bb6950af3e0cc52e47e6c6e28e038f306fed2bb580b1793",
+      "comparisonRevision": "129a2c1b2e7b8f92502934bfd8e98657e793b6e363ee76ef0de94e72d74404f2",
       "review": "pending",
       "notes": ""
     },
@@ -10412,6 +10412,66 @@
       "notes": ""
     },
     {
+      "id": "aws-rekognition-image",
+      "provider": "aws",
+      "name": "Rekognition Image",
+      "rationale": "An image is examined for recognizable content.",
+      "path": "stencils/aws-rekognition-image.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Artificial-Intelligence/Res_Amazon-Rekognition_Image_48.svg"
+      ],
+      "revision": "2f9a5b81c19180ff7b4625089ad55fcd964b41fb2db31836ad6ccd8a060456c6",
+      "geometrySignature": "dd74c085a144892b48db3b0d4cb0b84d45383a60fd21bd6d7c46aee24888589d",
+      "comparisonRevision": "8b1b324e25d46c60d384797ac8931228e9c1b7da36fbd54e50b1080c311287a2",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-rekognition-video",
+      "provider": "aws",
+      "name": "Rekognition Video",
+      "rationale": "A video camera tracks a detected subject.",
+      "path": "stencils/aws-rekognition-video.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Artificial-Intelligence/Res_Amazon-Rekognition_Video_48.svg"
+      ],
+      "revision": "2dcfa973259e0002a0fd1920aa578140dfd05c27345732858d0eb215b60f17a5",
+      "geometrySignature": "4899e3af3e55adbbb7fdd9250bb87af50ce416f35cc336e6caa2d31766ab4ec3",
+      "comparisonRevision": "4861971a0ea3e7283836ebb1e625d953c81cf57de3f4f438b9d38e940f636635",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-sagemaker-canvas",
+      "provider": "aws",
+      "name": "SageMaker Canvas",
+      "rationale": "A visual canvas connects data, model, and prediction without code.",
+      "path": "stencils/aws-sagemaker-canvas.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Artificial-Intelligence/Res_Amazon-SageMaker-AI_Canvas_48.svg"
+      ],
+      "revision": "e1d99d044f9729bf577958dcded5daac6f4a6db694bda43fedcb1d4b3599c7a4",
+      "geometrySignature": "9f47a7141bbbd3517e5b00f062e2ff5d67db2922e409f9cb3d286316258acad4",
+      "comparisonRevision": "2487c29110b6da22789bb585a03dec2a9c154e8af2a62db45c0fca6ab89852f5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-sagemaker-geospatial",
+      "provider": "aws",
+      "name": "SageMaker Geospatial ML",
+      "rationale": "A model analyzes a location on a map.",
+      "path": "stencils/aws-sagemaker-geospatial.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Artificial-Intelligence/Res_Amazon-SageMaker-AI_Geospatial-ML_48.svg"
+      ],
+      "revision": "9f8548ed4ab39ab037d5e2699e6171e28a23f27bd7de751408ba2aaae0968e6c",
+      "geometrySignature": "ca944e120cbcd56cf41653a65a2ae772e454067dc99703e7640961214ae4b70b",
+      "comparisonRevision": "8ee75f766e788a4c217e02489cb637ad1b41cc2e6cefd1da7568aad928e6656f",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "aws-deep-learning-amis",
       "provider": "aws",
       "name": "AWS Deep Learning AMIs",
@@ -11053,7 +11113,7 @@
       ],
       "revision": "95883901109628df8b85fa17d81ce5e679568f3fd80a7f49b8378da3447aad34",
       "geometrySignature": "7c94bbed082510412c9fd894b1e5a2bff37918eb2aac6eaea3cdeaa160862207",
-      "comparisonRevision": "9dad9b2c4c01c32619f439082628c2c13ba4c545fd3b83fb7a8fd3f904f04b92",
+      "comparisonRevision": "0e32a5f53b52960688c7445fecf13c634887094cc4906f5d8e95bb2d9e3d6401",
       "review": "pending",
       "notes": ""
     },
@@ -19604,7 +19664,7 @@
       ],
       "revision": "564769252c963a9dff3cebb2d79e27e36b78f2b8fe3095479cc1ae54a0acfbb0",
       "geometrySignature": "e9ff7a60b0318427a415f50302254d7f2c2e729d8586c3f99e9a21016bfd192a",
-      "comparisonRevision": "99174d27f47cb1b6f7852333a4726065e0aa0827897742b40daf4ce5757f6448",
+      "comparisonRevision": "d577bff46055b4c9dfaad15db9f5b43669eaaae8ebac0038e851a2fe084da887",
       "review": "pending",
       "notes": ""
     },

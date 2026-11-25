@@ -3,6 +3,36 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsIntelligenceArtwork = [
+  entry("aws-rekognition-image", "aws", "Rekognition Image", ["Res_Amazon-Rekognition_Image_48"],
+    "An image is examined for recognizable content.",
+    [
+      rect(15, 23, 71, 65), oval(28, 33, 12, 12),
+      line([22, 75], [39, 54], [50, 64], [61, 49], [79, 75], [22, 75]),
+      oval(69, 61, 25, 25), line([90, 82], [108, 100]), line([16, 111], [112, 111]),
+    ]),
+  entry("aws-rekognition-video", "aws", "Rekognition Video", ["Res_Amazon-Rekognition_Video_48"],
+    "A video camera tracks a detected subject.",
+    [
+      rect(12, 39, 43, 39), line([55, 48], [68, 40], [68, 77], [55, 69]), oval(22, 23, 16, 16), oval(39, 23, 16, 16),
+      line([33, 78], [33, 91], [21, 103]), line([33, 91], [45, 103]),
+      line([80, 31], [80, 22], [89, 22]), line([106, 22], [115, 22], [115, 31]), line([80, 69], [80, 78], [89, 78]), line([106, 78], [115, 78], [115, 69]),
+      oval(91, 33, 14, 14), line([86, 66], [88, 55], [94, 51], [102, 51], [108, 55], [110, 66]), line([16, 114], [112, 114]),
+    ]),
+  entry("aws-sagemaker-canvas", "aws", "SageMaker Canvas", ["Res_Amazon-SageMaker-AI_Canvas_48"],
+    "A visual canvas connects data, model, and prediction without code.",
+    [
+      rect(13, 19, 102, 82), line([13, 33], [115, 33]), line([21, 26], [24, 26]), line([30, 26], [33, 26]),
+      oval(23, 53, 18, 18), rect(56, 49, 20, 25), line([93, 49], [104, 61], [93, 74], [82, 61], [93, 49]),
+      line([41, 62], [56, 62]), line([76, 62], [82, 62]), line([16, 113], [112, 113]),
+    ]),
+  entry("aws-sagemaker-geospatial", "aws", "SageMaker Geospatial ML", ["Res_Amazon-SageMaker-AI_Geospatial-ML_48"],
+    "A model analyzes a location on a map.",
+    [
+      line([13, 33], [43, 22], [83, 34], [115, 23], [115, 92], [83, 103], [43, 91], [13, 102], [13, 33]),
+      line([43, 22], [43, 91]), line([83, 34], [83, 103]),
+      line([64, 37], [55, 39], [50, 47], [51, 56], [64, 72], [77, 56], [78, 47], [73, 39], [64, 37]), oval(60, 45, 8, 8),
+      line([16, 114], [112, 114]),
+    ]),
   entry("aws-deep-learning-amis", "aws", "AWS Deep Learning AMIs", sizes("AWS-Deep-Learning-AMIs"),
     "A machine image boots an environment with a ready neural network.",
     [
