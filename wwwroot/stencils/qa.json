@@ -3,13 +3,14 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 204,
+  "approved": 203,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "aws-eventbridge-pipes",
     "gcp-bigtable",
     "gcp-artifact-registry",
     "gcp-cloud-build",
@@ -4723,13 +4724,13 @@
       },
       {
         "a": "aws-eventbridge-pipes",
-        "b": "aws-serverless-repository",
-        "similarity": 0.2038
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.2095
       },
       {
         "a": "aws-eventbridge-pipes",
-        "b": "aws-cloudfront-download",
-        "similarity": 0.2014
+        "b": "aws-serverless-repository",
+        "similarity": 0.2038
       }
     ],
     "aws-eventbridge-rule": [
@@ -5233,13 +5234,13 @@
       },
       {
         "a": "m365-calculator",
-        "b": "aws-redshift-dense-storage",
-        "similarity": 0.2469
+        "b": "azure-stack-hci-premium",
+        "similarity": 0.2362
       },
       {
         "a": "m365-calculator",
-        "b": "azure-stack-hci-premium",
-        "similarity": 0.2362
+        "b": "aws-snowball-import-export",
+        "similarity": 0.2242
       }
     ],
     "m365-calendar": [
@@ -6163,11 +6164,6 @@
     "azure-dns-private-resolver": [
       {
         "a": "azure-dns-private-resolver",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.238
-      },
-      {
-        "a": "azure-dns-private-resolver",
         "b": "azure-sql-server",
         "similarity": 0.2366
       },
@@ -6175,6 +6171,11 @@
         "a": "azure-dns-private-resolver",
         "b": "gcp-dialogflow-insights",
         "similarity": 0.2354
+      },
+      {
+        "a": "azure-dns-private-resolver",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.2314
       }
     ],
     "azure-ddos-plans": [
@@ -7948,11 +7949,6 @@
     "gcp-network-tiers": [
       {
         "a": "gcp-network-tiers",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.2403
-      },
-      {
-        "a": "gcp-network-tiers",
         "b": "fabric-funnel-add",
         "similarity": 0.2279
       },
@@ -7960,6 +7956,11 @@
         "a": "gcp-network-tiers",
         "b": "azure-capacity-reservation-groups",
         "similarity": 0.1963
+      },
+      {
+        "a": "gcp-network-tiers",
+        "b": "azure-spot-vmss",
+        "similarity": 0.1954
       }
     ],
     "gcp-network-topology": [
@@ -8111,8 +8112,8 @@
       },
       {
         "a": "gcp-security-key-enforcement",
-        "b": "azure-entra-domain-services",
-        "similarity": 0.1957
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.1965
       }
     ],
     "gcp-phishing-protection": [
@@ -8246,9 +8247,9 @@
         "similarity": 0.1931
       },
       {
-        "a": "aws-s3",
-        "b": "gcp-security",
-        "similarity": 0.12
+        "a": "gcp-security",
+        "b": "aws-redshift-dense-compute",
+        "similarity": 0.1282
       }
     ],
     "gcp-identity-platform": [
@@ -8934,6 +8935,11 @@
     "gcp-catalog": [
       {
         "a": "gcp-catalog",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.3329
+      },
+      {
+        "a": "gcp-catalog",
         "b": "azure-postgresql-group",
         "similarity": 0.3149
       },
@@ -8941,11 +8947,6 @@
         "a": "gcp-catalog",
         "b": "azure-managed-redis",
         "similarity": 0.2905
-      },
-      {
-        "a": "gcp-catalog",
-        "b": "gcp-quantum-engine",
-        "similarity": 0.2895
       }
     ],
     "gcp-connectors": [
@@ -9155,11 +9156,6 @@
     "gcp-financial-marketplace": [
       {
         "a": "gcp-financial-marketplace",
-        "b": "aws-redshift-dense-storage",
-        "similarity": 0.3259
-      },
-      {
-        "a": "gcp-financial-marketplace",
         "b": "aws-ec2-ami",
         "similarity": 0.2993
       },
@@ -9167,6 +9163,11 @@
         "a": "gcp-financial-marketplace",
         "b": "gcp-cloud-tpu",
         "similarity": 0.2977
+      },
+      {
+        "a": "gcp-project",
+        "b": "gcp-financial-marketplace",
+        "similarity": 0.2866
       }
     ],
     "gcp-early-access": [
@@ -9239,6 +9240,11 @@
     ],
     "gcp-quantum-engine": [
       {
+        "a": "gcp-quantum-engine",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.3017
+      },
+      {
         "a": "gcp-catalog",
         "b": "gcp-quantum-engine",
         "similarity": 0.2895
@@ -9247,11 +9253,6 @@
         "a": "gcp-quantum-engine",
         "b": "fabric-column-inline",
         "similarity": 0.2889
-      },
-      {
-        "a": "gcp-quantum-engine",
-        "b": "aws-ec2-instance",
-        "similarity": 0.254
       }
     ],
     "gcp-cloud-marketing": [
@@ -9704,13 +9705,13 @@
       },
       {
         "a": "gcp-looker",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.2608
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2583
       },
       {
         "a": "gcp-looker",
-        "b": "aws-devops-guru-insights",
-        "similarity": 0.2583
+        "b": "aws-opensearch-ultrawarm",
+        "similarity": 0.2557
       }
     ],
     "gcp-analytics-hub": [
@@ -11720,9 +11721,9 @@
         "similarity": 0.2905
       },
       {
-        "a": "gcp-cloud-logging",
-        "b": "azure-managed-redis",
-        "similarity": 0.2467
+        "a": "azure-managed-redis",
+        "b": "aws-redshift-dense-storage",
+        "similarity": 0.2479
       }
     ],
     "azure-mysql": [
@@ -12885,35 +12886,35 @@
     "aws-redshift-dense-compute": [
       {
         "a": "aws-redshift-dense-compute",
-        "b": "aws-redshift-dense-storage",
-        "similarity": 0.2947
+        "b": "aws-ecs-task",
+        "similarity": 0.3004
       },
       {
-        "a": "azure-integration-environments",
+        "a": "azure-storage-hubs",
         "b": "aws-redshift-dense-compute",
-        "similarity": 0.2651
+        "similarity": 0.3
       },
       {
-        "a": "gcp-looker",
-        "b": "aws-redshift-dense-compute",
-        "similarity": 0.2608
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-glue-catalog",
+        "similarity": 0.2924
       }
     ],
     "aws-redshift-dense-storage": [
       {
-        "a": "gcp-financial-marketplace",
+        "a": "gcp-catalog",
         "b": "aws-redshift-dense-storage",
-        "similarity": 0.3259
+        "similarity": 0.3329
       },
       {
-        "a": "aws-redshift-dense-compute",
+        "a": "gcp-quantum-engine",
         "b": "aws-redshift-dense-storage",
-        "similarity": 0.2947
+        "similarity": 0.3017
       },
       {
         "a": "aws-redshift-dense-storage",
-        "b": "azure-bare-metal-infrastructure",
-        "similarity": 0.289
+        "b": "azure-network-foundation-hub",
+        "similarity": 0.2788
       }
     ],
     "aws-redshift-ml": [
@@ -14849,9 +14850,9 @@
         "similarity": 0.289
       },
       {
-        "a": "aws-sagemaker-notebook",
-        "b": "fabric-tooltip-data-bars",
-        "similarity": 0.2582
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-sagemaker-notebook",
+        "similarity": 0.2639
       }
     ],
     "aws-sagemaker-shadow-testing": [
@@ -18193,14 +18194,14 @@
         "similarity": 0.2903
       },
       {
-        "a": "azure-network-foundation-hub",
-        "b": "fabric-window-gauge",
-        "similarity": 0.2782
+        "a": "aws-redshift-dense-storage",
+        "b": "azure-network-foundation-hub",
+        "similarity": 0.2788
       },
       {
         "a": "azure-network-foundation-hub",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.2781
+        "b": "fabric-window-gauge",
+        "similarity": 0.2782
       }
     ],
     "azure-network-security-hub": [
@@ -20867,9 +20868,9 @@
         "similarity": 0.2554
       },
       {
-        "a": "aws-redshift-dense-compute",
-        "b": "aws-iot-thing-temperature-vibration",
-        "similarity": 0.2529
+        "a": "aws-iot-thing-temperature-vibration",
+        "b": "aws-location-geofence",
+        "similarity": 0.2486
       }
     ],
     "aws-iot-thing-vibration-sensor": [
@@ -30978,9 +30979,9 @@
         "similarity": 0.3261
       },
       {
-        "a": "aws-ecs-task",
-        "b": "azure-file",
-        "similarity": 0.2827
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-ecs-task",
+        "similarity": 0.3004
       }
     ],
     "aws-eks-outposts": [
@@ -31019,11 +31020,6 @@
     ],
     "aws-ec2-auto-scaling": [
       {
-        "a": "aws-redshift-dense-compute",
-        "b": "aws-ec2-auto-scaling",
-        "similarity": 0.2423
-      },
-      {
         "a": "aws-pinpoint-journey",
         "b": "aws-ec2-auto-scaling",
         "similarity": 0.2389
@@ -31032,6 +31028,11 @@
         "a": "azure-storage-actions",
         "b": "aws-ec2-auto-scaling",
         "similarity": 0.2352
+      },
+      {
+        "a": "aws-ec2-auto-scaling",
+        "b": "azure-container-storage",
+        "similarity": 0.2318
       }
     ],
     "aws-ec2-db-instance": [
@@ -31097,9 +31098,9 @@
         "similarity": 0.2866
       },
       {
-        "a": "aws-ec2-instance",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.2824
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-ec2-instance",
+        "similarity": 0.2846
       }
     ],
     "aws-ec2-instances": [
@@ -34939,9 +34940,9 @@
         "similarity": 0.234
       },
       {
-        "a": "aws-redshift-dense-storage",
+        "a": "aws-ecs-compute-container",
         "b": "azure-workspaces-grid",
-        "similarity": 0.2264
+        "similarity": 0.2127
       }
     ],
     "azure-workspaces-select": [
@@ -36651,14 +36652,14 @@
         "similarity": 0.568
       },
       {
+        "a": "aws-redshift-dense-storage",
+        "b": "fabric-library-person",
+        "similarity": 0.2361
+      },
+      {
         "a": "aws-codecatalyst",
         "b": "fabric-library-person",
         "similarity": 0.234
-      },
-      {
-        "a": "gcp-catalog",
-        "b": "fabric-library-person",
-        "similarity": 0.2325
       }
     ],
     "fabric-location-download": [
