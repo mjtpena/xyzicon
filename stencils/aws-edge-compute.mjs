@@ -4,6 +4,48 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const categorySizes = (name) => [16, 32, 48, 64].map((size) => `Arch-Category_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-category-front-end", "aws", "Front-end web and mobile category", categorySizes("Front-End-Web-Mobile"),
+    "A responsive layout adapts from a desktop to a phone.",
+    [
+      rect(12, 16, 104, 49), line([12, 27], [116, 27]), line([19, 22], [24, 22]), line([29, 22], [34, 22]),
+      rect(22, 35, 29, 20), line([58, 38], [104, 38]), line([58, 46], [96, 46]), line([58, 54], [104, 54]),
+      line([34, 74], [46, 74]), line([39, 69], [34, 74], [39, 79]),
+      line([66, 74], [78, 74]), line([73, 69], [78, 74], [73, 79]),
+      rect(49, 72, 15, 36), line([49, 79], [64, 79]), line([52, 85], [61, 85]), line([52, 91], [59, 91]), line([54, 103], [59, 103]),
+      line([20, 116], [108, 116]),
+    ]),
+  entry("aws-category-security", "aws", "Security and identity category", categorySizes("Security-Identity"),
+    "A protected identity is authenticated with a key.",
+    [
+      line([61, 15], [101, 28], [97, 60], [89, 77], [61, 99], [33, 77], [25, 60], [21, 28], [61, 15]),
+      oval(49, 33, 24, 24), line([40, 77], [43, 66], [50, 60], [61, 58], [72, 60], [79, 66], [82, 77]),
+      oval(82, 71, 20, 20), line([99, 86], [113, 100]), line([108, 95], [104, 99]), line([112, 99], [108, 103]),
+      line([20, 114], [107, 114]),
+    ]),
+  entry("aws-elastic-inference", "aws", "Amazon Elastic Inference", sizes("Amazon-Elastic-Inference"),
+    "An attached accelerator speeds up inference on a compute instance.",
+    [
+      rect(9, 25, 47, 66), line([9, 38], [56, 38]), line([16, 33], [23, 33]),
+      oval(19, 47, 9, 9), oval(37, 47, 9, 9), oval(28, 67, 9, 9, true),
+      line([27, 52], [32, 67]), line([41, 56], [35, 67]),
+      line([56, 61], [72, 61]), line([66, 55], [72, 61], [66, 67]),
+      rect(76, 35, 32, 48), line([82, 29], [82, 35]), line([92, 29], [92, 35]), line([102, 29], [102, 35]),
+      line([82, 83], [82, 89]), line([92, 83], [92, 89]), line([102, 83], [102, 89]),
+      line([96, 42], [86, 61], [94, 61], [89, 75], [103, 55], [96, 55]),
+      line([17, 108], [110, 108]),
+    ]),
+  entry("aws-quick", "aws", "Amazon Quick", sizes("Amazon-Quick"),
+    "An AI workspace connects a conversation to analysis and actions.",
+    [
+      line([9, 24], [65, 24], [65, 53], [44, 53], [34, 62], [34, 53], [9, 53], [9, 24]),
+      line([18, 35], [55, 35]), line([18, 43], [48, 43]),
+      line([65, 39], [76, 39], [76, 29], [84, 29]), line([76, 39], [76, 79], [84, 79]),
+      rect(84, 15, 32, 29), line([90, 37], [90, 30], [96, 30], [96, 37]), line([101, 37], [101, 24], [107, 24], [107, 37]),
+      rect(84, 64, 32, 29), line([90, 74], [94, 78], [100, 70]), line([103, 75], [111, 75]), line([90, 85], [110, 85]),
+      line([22, 99], [26, 91], [30, 99], [38, 103], [30, 107], [26, 115], [22, 107], [14, 103], [22, 99]),
+      line([49, 98], [52, 92], [55, 98], [61, 101], [55, 104], [52, 110], [49, 104], [43, 101], [49, 98]),
+      line([16, 118], [111, 118]),
+    ]),
   entry("aws-category-customer-enablement", "aws", "Customer enablement category", categorySizes("Customer-Enablement"),
     "A customer learns from a guide and grows their skills.",
     [

@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 883,
-  "aliases": 3560,
+  "count": 887,
+  "aliases": 3576,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-front-end",
+    "aws-category-security",
+    "aws-elastic-inference",
+    "aws-quick",
     "aws-category-customer-enablement",
     "aws-category-customer-experience",
     "aws-category-hybrid",
@@ -987,8 +991,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1252,
-      "concepts": 310
+      "covered": 1268,
+      "concepts": 314
     },
     "gcp": {
       "sources": 261,
@@ -3193,6 +3197,11 @@
     "m365-deploy": [
       {
         "a": "m365-deploy",
+        "b": "aws-category-front-end",
+        "similarity": 0.1671
+      },
+      {
+        "a": "m365-deploy",
         "b": "azure-metrics-advisor",
         "similarity": 0.1452
       },
@@ -3200,11 +3209,6 @@
         "a": "m365-deploy",
         "b": "fabric-briefcase-pulse",
         "similarity": 0.1447
-      },
-      {
-        "a": "m365-deploy",
-        "b": "gcp-category-databases",
-        "similarity": 0.1375
       }
     ],
     "m365-document-key": [
@@ -4325,8 +4329,8 @@
       },
       {
         "a": "m365-shopping-bag",
-        "b": "aws-codeartifact",
-        "similarity": 0.2076
+        "b": "aws-elastic-inference",
+        "similarity": 0.2128
       }
     ],
     "m365-video": [
@@ -8337,8 +8341,8 @@
       },
       {
         "a": "azure-machine-learning",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2693
+        "b": "aws-elastic-inference",
+        "similarity": 0.2798
       }
     ],
     "azure-foundry-application": [
@@ -8348,14 +8352,14 @@
         "similarity": 0.255
       },
       {
+        "a": "azure-foundry-application",
+        "b": "aws-category-front-end",
+        "similarity": 0.2182
+      },
+      {
         "a": "fabric-book-database",
         "b": "azure-foundry-application",
         "similarity": 0.1995
-      },
-      {
-        "a": "azure-power-bi-embedded",
-        "b": "azure-foundry-application",
-        "similarity": 0.1958
       }
     ],
     "azure-foundry-agent-service": [
@@ -8802,6 +8806,11 @@
     ],
     "fabric-data-engineering": [
       {
+        "a": "fabric-data-engineering",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2095
+      },
+      {
         "a": "fabric-paginated-report",
         "b": "fabric-data-engineering",
         "similarity": 0.2078
@@ -8810,11 +8819,6 @@
         "a": "fabric-data-engineering",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2063
-      },
-      {
-        "a": "fabric-data-engineering",
-        "b": "azure-app-service-environments",
-        "similarity": 0.2039
       }
     ],
     "fabric-data-science": [
@@ -8881,8 +8885,8 @@
       },
       {
         "a": "fabric-platform",
-        "b": "azure-app-domains",
-        "similarity": 0.2305
+        "b": "aws-category-front-end",
+        "similarity": 0.2342
       }
     ],
     "fabric-graph-intelligence": [
@@ -10525,13 +10529,13 @@
       },
       {
         "a": "aws-gamelift-streams",
-        "b": "aws-waf",
-        "similarity": 0.2329
+        "b": "aws-category-front-end",
+        "similarity": 0.2339
       },
       {
         "a": "aws-gamelift-streams",
-        "b": "gcp-category-business-intelligence",
-        "similarity": 0.2267
+        "b": "aws-waf",
+        "similarity": 0.2329
       }
     ],
     "aws-deadline-cloud": [
@@ -11233,6 +11237,11 @@
     ],
     "aws-fsx-lustre": [
       {
+        "a": "aws-fsx-lustre",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2456
+      },
+      {
         "a": "aws-elemental-link",
         "b": "aws-fsx-lustre",
         "similarity": 0.2161
@@ -11241,11 +11250,6 @@
         "a": "gcp-security-operations",
         "b": "aws-fsx-lustre",
         "similarity": 0.2157
-      },
-      {
-        "a": "aws-fsx-lustre",
-        "b": "azure-reservations",
-        "similarity": 0.2086
       }
     ],
     "aws-fsx-ontap": [
@@ -13301,6 +13305,74 @@
         "similarity": 0.1678
       }
     ],
+    "aws-category-front-end": [
+      {
+        "a": "aws-category-front-end",
+        "b": "azure-app-domains",
+        "similarity": 0.2614
+      },
+      {
+        "a": "aws-training-certification",
+        "b": "aws-category-front-end",
+        "similarity": 0.2593
+      },
+      {
+        "a": "aws-category-front-end",
+        "b": "azure-compute-galleries",
+        "similarity": 0.2567
+      }
+    ],
+    "aws-category-security": [
+      {
+        "a": "gcp-app-engine",
+        "b": "aws-category-security",
+        "similarity": 0.2157
+      },
+      {
+        "a": "m365-text-first-line",
+        "b": "aws-category-security",
+        "similarity": 0.1945
+      },
+      {
+        "a": "aws-category-security",
+        "b": "aws-category-games",
+        "similarity": 0.1921
+      }
+    ],
+    "aws-elastic-inference": [
+      {
+        "a": "azure-machine-learning",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2798
+      },
+      {
+        "a": "azure-power-bi-embedded",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2475
+      },
+      {
+        "a": "aws-fsx-lustre",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2456
+      }
+    ],
+    "aws-quick": [
+      {
+        "a": "aws-opentelemetry",
+        "b": "aws-quick",
+        "similarity": 0.1889
+      },
+      {
+        "a": "aws-elemental-inference",
+        "b": "aws-quick",
+        "similarity": 0.185
+      },
+      {
+        "a": "aws-category-front-end",
+        "b": "aws-quick",
+        "similarity": 0.1831
+      }
+    ],
     "aws-category-customer-enablement": [
       {
         "a": "aws-category-customer-enablement",
@@ -13517,9 +13589,9 @@
         "similarity": 0.1946
       },
       {
-        "a": "aws-category-hybrid",
+        "a": "aws-category-security",
         "b": "aws-category-games",
-        "similarity": 0.1911
+        "similarity": 0.1921
       }
     ],
     "aws-category-developer-tools": [
@@ -14690,9 +14762,9 @@
         "similarity": 0.1903
       },
       {
-        "a": "azure-monitor",
+        "a": "aws-elastic-inference",
         "b": "azure-disk-snapshot",
-        "similarity": 0.1888
+        "similarity": 0.19
       }
     ],
     "azure-batch-accounts": [
