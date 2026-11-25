@@ -1,4 +1,28 @@
 {
+  "azure-mariadb|azure-mysql": {
+    "a": "azure-mysql",
+    "b": "azure-mariadb",
+    "revisionA": "f302ffcc46a2fe5b2da5ad9dc34023720ee8cb16a61fbcdd13ff45fbfcc301d6",
+    "revisionB": "cd496f61afe54ad7f3c0d80c92b2436d80d3397217afe949f1888439ea147219",
+    "status": "distinct",
+    "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
+  },
+  "azure-documentdb|azure-mysql": {
+    "a": "azure-documentdb",
+    "b": "azure-mysql",
+    "revisionA": "1a21186324a95629e32227b39d8e57b10de58bdbdf8ab94f0d169a72d7391c87",
+    "revisionB": "f302ffcc46a2fe5b2da5ad9dc34023720ee8cb16a61fbcdd13ff45fbfcc301d6",
+    "status": "distinct",
+    "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
+  },
+  "azure-documentdb|azure-mariadb": {
+    "a": "azure-documentdb",
+    "b": "azure-mariadb",
+    "revisionA": "1a21186324a95629e32227b39d8e57b10de58bdbdf8ab94f0d169a72d7391c87",
+    "revisionB": "cd496f61afe54ad7f3c0d80c92b2436d80d3397217afe949f1888439ea147219",
+    "status": "distinct",
+    "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
+  },
   "fabric-window-tree|fabric-window-tree-export": {
     "a": "fabric-window-tree",
     "b": "fabric-window-tree-export",

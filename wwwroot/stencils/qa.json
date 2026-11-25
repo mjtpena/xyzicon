@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1370,
-  "aliases": 4426,
+  "count": 1375,
+  "aliases": 4431,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -469,6 +469,11 @@
     "azure-sql-edge",
     "azure-documentdb",
     "azure-sql-fleet",
+    "azure-sql-vm",
+    "azure-virtual-clusters",
+    "azure-managed-redis",
+    "azure-mysql",
+    "azure-mariadb",
     "azure-databricks",
     "azure-analysis-services",
     "azure-event-hub-clusters",
@@ -1462,6 +1467,13 @@
       "notes": "Rechecked the current double and float drawings after verifying the added 1.2F source variants: the D is closed, while F has an open right side."
     },
     {
+      "a": "azure-mysql",
+      "b": "azure-mariadb",
+      "similarity": 0.7102,
+      "review": "distinct",
+      "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
+    },
+    {
       "a": "m365-chevron-circle",
       "b": "m365-dismiss-circle",
       "similarity": 0.6972,
@@ -1504,11 +1516,25 @@
       "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
     },
     {
+      "a": "azure-documentdb",
+      "b": "azure-mysql",
+      "similarity": 0.6886,
+      "review": "distinct",
+      "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
+    },
+    {
       "a": "fabric-location-database",
       "b": "fabric-location-radar",
       "similarity": 0.6865,
       "review": "distinct",
       "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
+    },
+    {
+      "a": "azure-documentdb",
+      "b": "azure-mariadb",
+      "similarity": 0.686,
+      "review": "distinct",
+      "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
     },
     {
       "a": "m365-check-circle",
@@ -1598,8 +1624,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 198,
-      "concepts": 152
+      "covered": 203,
+      "concepts": 157
     },
     "fabric": {
       "sources": 1584,
@@ -3997,8 +4023,8 @@
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-notebook-globe",
-        "similarity": 0.2244
+        "b": "azure-mysql",
+        "similarity": 0.2268
       }
     ],
     "m365-fingerprint": [
@@ -6316,6 +6342,11 @@
     "gcp-traffic-director": [
       {
         "a": "gcp-traffic-director",
+        "b": "azure-mysql",
+        "similarity": 0.2247
+      },
+      {
+        "a": "gcp-traffic-director",
         "b": "gcp-genomics",
         "similarity": 0.2186
       },
@@ -6323,11 +6354,6 @@
         "a": "gcp-traffic-director",
         "b": "fabric-vehicle-subway",
         "similarity": 0.2053
-      },
-      {
-        "a": "gcp-traffic-director",
-        "b": "gcp-os-patch",
-        "similarity": 0.2024
       }
     ],
     "gcp-virtual-private-cloud": [
@@ -7183,6 +7209,11 @@
     "gcp-catalog": [
       {
         "a": "gcp-catalog",
+        "b": "azure-managed-redis",
+        "similarity": 0.2905
+      },
+      {
+        "a": "gcp-catalog",
         "b": "gcp-quantum-engine",
         "similarity": 0.2895
       },
@@ -7190,11 +7221,6 @@
         "a": "gcp-catalog",
         "b": "aws-textract-lending",
         "similarity": 0.2779
-      },
-      {
-        "a": "gcp-dialogflow-insights",
-        "b": "gcp-catalog",
-        "similarity": 0.2625
       }
     ],
     "gcp-connectors": [
@@ -7646,14 +7672,14 @@
         "similarity": 0.2593
       },
       {
+        "a": "gcp-onboarding",
+        "b": "azure-managed-redis",
+        "similarity": 0.2464
+      },
+      {
         "a": "gcp-visual-inspection",
         "b": "gcp-onboarding",
         "similarity": 0.2387
-      },
-      {
-        "a": "gcp-onboarding",
-        "b": "fabric-vehicle-subway",
-        "similarity": 0.2225
       }
     ],
     "gcp-access-context": [
@@ -7822,8 +7848,8 @@
       },
       {
         "a": "gcp-vision",
-        "b": "aws-vpc",
-        "similarity": 0.2602
+        "b": "azure-sql-vm",
+        "similarity": 0.2738
       }
     ],
     "gcp-genomics": [
@@ -9495,18 +9521,22 @@
     "azure-documentdb": [
       {
         "a": "azure-documentdb",
+        "b": "azure-mysql",
+        "similarity": 0.6886,
+        "review": "distinct",
+        "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
+      },
+      {
+        "a": "azure-documentdb",
+        "b": "azure-mariadb",
+        "similarity": 0.686,
+        "review": "distinct",
+        "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
+      },
+      {
+        "a": "azure-documentdb",
         "b": "fabric-documents-dax",
         "similarity": 0.3299
-      },
-      {
-        "a": "azure-documentdb",
-        "b": "fabric-rectangle-list-asterisk",
-        "similarity": 0.2942
-      },
-      {
-        "a": "azure-documentdb",
-        "b": "fabric-vehicle-subway",
-        "similarity": 0.2887
       }
     ],
     "azure-sql-fleet": [
@@ -9524,6 +9554,99 @@
         "a": "azure-sql-fleet",
         "b": "aws-mainframe-modernization",
         "similarity": 0.217
+      }
+    ],
+    "azure-sql-vm": [
+      {
+        "a": "azure-sql-vm",
+        "b": "fabric-window-pulse",
+        "similarity": 0.3962
+      },
+      {
+        "a": "azure-sql-vm",
+        "b": "fabric-placeholder",
+        "similarity": 0.3193
+      },
+      {
+        "a": "gcp-developer-portal",
+        "b": "azure-sql-vm",
+        "similarity": 0.3013
+      }
+    ],
+    "azure-virtual-clusters": [
+      {
+        "a": "azure-virtual-clusters",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2314
+      },
+      {
+        "a": "azure-virtual-clusters",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2232
+      },
+      {
+        "a": "azure-virtual-clusters",
+        "b": "aws-opensearch-data-node",
+        "similarity": 0.2128
+      }
+    ],
+    "azure-managed-redis": [
+      {
+        "a": "fabric-book-database",
+        "b": "azure-managed-redis",
+        "similarity": 0.3033
+      },
+      {
+        "a": "gcp-catalog",
+        "b": "azure-managed-redis",
+        "similarity": 0.2905
+      },
+      {
+        "a": "gcp-secret-manager",
+        "b": "azure-managed-redis",
+        "similarity": 0.2715
+      }
+    ],
+    "azure-mysql": [
+      {
+        "a": "azure-mysql",
+        "b": "azure-mariadb",
+        "similarity": 0.7102,
+        "review": "distinct",
+        "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
+      },
+      {
+        "a": "azure-documentdb",
+        "b": "azure-mysql",
+        "similarity": 0.6886,
+        "review": "distinct",
+        "notes": "DocumentDB has opposed curly braces; MySQL has the letters My."
+      },
+      {
+        "a": "azure-mysql",
+        "b": "fabric-documents-dax",
+        "similarity": 0.3312
+      }
+    ],
+    "azure-mariadb": [
+      {
+        "a": "azure-mysql",
+        "b": "azure-mariadb",
+        "similarity": 0.7102,
+        "review": "distinct",
+        "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
+      },
+      {
+        "a": "azure-documentdb",
+        "b": "azure-mariadb",
+        "similarity": 0.686,
+        "review": "distinct",
+        "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
+      },
+      {
+        "a": "azure-mariadb",
+        "b": "fabric-documents-dax",
+        "similarity": 0.3368
       }
     ],
     "azure-databricks": [
@@ -10150,9 +10273,9 @@
         "similarity": 0.2527
       },
       {
-        "a": "gcp-api-analytics",
+        "a": "azure-virtual-clusters",
         "b": "aws-opensearch-data-node",
-        "similarity": 0.1979
+        "similarity": 0.2128
       }
     ],
     "aws-opensearch-index": [
@@ -10626,9 +10749,9 @@
         "similarity": 0.2549
       },
       {
-        "a": "gcp-secret-manager",
+        "a": "azure-managed-redis",
         "b": "aws-datazone",
-        "similarity": 0.2387
+        "similarity": 0.2417
       }
     ],
     "aws-emr": [
@@ -21620,9 +21743,9 @@
         "similarity": 0.2452
       },
       {
-        "a": "fabric-receipt-sparkle",
-        "b": "fabric-receipt-kql-new",
-        "similarity": 0.217
+        "a": "azure-mysql",
+        "b": "fabric-receipt-sparkle",
+        "similarity": 0.2246
       }
     ],
     "fabric-receipt-sparkle-new": [
@@ -21705,9 +21828,9 @@
         "similarity": 0.2674
       },
       {
-        "a": "fabric-notebook-globe",
+        "a": "azure-mysql",
         "b": "fabric-rectangle-list-asterisk",
-        "similarity": 0.2632
+        "similarity": 0.2665
       }
     ],
     "fabric-rectangles-curve-left": [
@@ -22518,14 +22641,14 @@
         "similarity": 0.2887
       },
       {
-        "a": "aws-ec2-ami",
+        "a": "azure-mysql",
         "b": "fabric-vehicle-subway",
-        "similarity": 0.2524
+        "similarity": 0.2865
       },
       {
-        "a": "gcp-virtual-private-cloud",
+        "a": "azure-mariadb",
         "b": "fabric-vehicle-subway",
-        "similarity": 0.2514
+        "similarity": 0.2849
       }
     ],
     "fabric-window-asterisk-new": [
@@ -23225,19 +23348,19 @@
     ],
     "fabric-documents-dax": [
       {
+        "a": "azure-mariadb",
+        "b": "fabric-documents-dax",
+        "similarity": 0.3368
+      },
+      {
+        "a": "azure-mysql",
+        "b": "fabric-documents-dax",
+        "similarity": 0.3312
+      },
+      {
         "a": "azure-documentdb",
         "b": "fabric-documents-dax",
         "similarity": 0.3299
-      },
-      {
-        "a": "azure-subnet",
-        "b": "fabric-documents-dax",
-        "similarity": 0.2725
-      },
-      {
-        "a": "fabric-vehicle-subway",
-        "b": "fabric-documents-dax",
-        "similarity": 0.2473
       }
     ],
     "fabric-documents-pulse": [
@@ -24142,9 +24265,9 @@
         "similarity": 0.2068
       },
       {
-        "a": "fabric-document-tree",
+        "a": "azure-mysql",
         "b": "fabric-checked-documents",
-        "similarity": 0.2053
+        "similarity": 0.2064
       }
     ],
     "fabric-stacked-text": [
@@ -24804,14 +24927,14 @@
         "similarity": 0.4282
       },
       {
+        "a": "azure-sql-vm",
+        "b": "fabric-window-pulse",
+        "similarity": 0.3962
+      },
+      {
         "a": "m365-text-number-list",
         "b": "fabric-window-pulse",
         "similarity": 0.34
-      },
-      {
-        "a": "m365-apps-list",
-        "b": "fabric-window-pulse",
-        "similarity": 0.3384
       }
     ],
     "fabric-calendar-clock": [
