@@ -772,7 +772,7 @@
       ],
       "revision": "86cc4560db16a9f782ed5b203cd78203c289bc0fa0b74aa3f1c4f350af63f9cf",
       "geometrySignature": "63c003be20d4fb796cbda0c4f5ad14825b62f2eef42b34e6294f9980d5e202da",
-      "comparisonRevision": "c46533940e7f6adc0c858d655933595ba9e86f8a22f2291edf639e6937d4fa30",
+      "comparisonRevision": "9743c27dabecfaea64f49caba03cec2c4dd4a36fb541ce68bf34aa4bbe916f54",
       "review": "pending",
       "notes": ""
     },
@@ -7452,7 +7452,7 @@
       ],
       "revision": "eedaaa5ef94f802ff049bea432374f36226966b79548cab9b1023cf0626ba803",
       "geometrySignature": "c418cc9163bccb7ca6146ef7877a7dac7ee275b8a5fbe3ae996b63701c56231b",
-      "comparisonRevision": "aecf6219c7dbd5ff97823380746660a6efc0ab7417dca13cfcc1890f8faa4cd8",
+      "comparisonRevision": "c97f2b0246bdaf38199e08bf299a87cba5034e29ed3273353982811e06f4d587",
       "review": "pending",
       "notes": ""
     },
@@ -7908,7 +7908,7 @@
       ],
       "revision": "e032029811a81cd5b7f7e1d3e7ab5c0710b1c5d9593c5a605d17542665acc1c9",
       "geometrySignature": "303a0e459c9ddaa72b723bee1fb2a92386f4aeb7be950437f693878973afd516",
-      "comparisonRevision": "5e5c4e1f27d830f2d1d90d4bae43ac605f210609a0128c6892ebd16e288932a2",
+      "comparisonRevision": "815ec6a3e72f3ad07f265aa349e25c1b6603790071cfda55997e5af0be871191",
       "review": "pending",
       "notes": ""
     },
@@ -9073,7 +9073,7 @@
       ],
       "revision": "948c514c580639f8be70920000d693f04c638e06f56a6c96f55743e72cc4dbaf",
       "geometrySignature": "5f35eaabdf8411c7ba3f2c517e149dc71d3186ebd070098321acd78c85fc91ad",
-      "comparisonRevision": "8ac44fd9f48dfdba31fe66b6e023da71804ec716c2392c055e1f6eec18dd599b",
+      "comparisonRevision": "9431bbba70e8d6b6b7ca7bc27ff5626eb8adcd49ffcef56688779bbffb2cb6be",
       "review": "pending",
       "notes": ""
     },
@@ -9289,7 +9289,7 @@
       ],
       "revision": "c68815a8b98848bb1886c7dcf1dfdb480a4f329b5082eff8b1bccbacd11c7be6",
       "geometrySignature": "decfee59dc4a0f3a9b8c752ce02e5146d11f5a1ee8197ec3509f8834d13cb3e1",
-      "comparisonRevision": "d35c315a64112e2fa117e5cd99d04945c788c07befbf02215e1cb640c7bc1362",
+      "comparisonRevision": "cfaa9ee1814f7592949de1b0e651435bc58ee479eacc83af12768a2805cc6655",
       "review": "pending",
       "notes": ""
     },
@@ -9452,6 +9452,78 @@
       "revision": "703922f1732b9c69c94422d4e500105f4879b7d108d84ff5ccc1572751fd2ee3",
       "geometrySignature": "9d1b19a0c2d56cb61d6e2781236ca5e9170fef0eb8f9dbd0281fa9a203773d42",
       "comparisonRevision": "f6e4b506b993bdebc6c7a6fe1a616ae1f70c948447778b0ae5cd5867cbc20295",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-fsx-lustre",
+      "provider": "aws",
+      "name": "Amazon FSx for Lustre",
+      "rationale": "A speed gauge highlights a high-performance shared file system.",
+      "path": "stencils/aws-fsx-lustre.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-FSx-for-Lustre_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-FSx-for-Lustre_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-FSx-for-Lustre_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-FSx-for-Lustre_64.svg"
+      ],
+      "revision": "07fd3d6410513dc68e0ffe697feb0ad3626086f66356a0b04ecd1f3f00a25ced",
+      "geometrySignature": "b6387c59805f830be1cbaaf8e06618624d22b1ce1871c037e57e989a9ea36201",
+      "comparisonRevision": "2f4a00b4bec4ff0480bc1e4005878d9a7c6c22486216d0249c6fe03c7211d22c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-fsx-ontap",
+      "provider": "aws",
+      "name": "Amazon FSx for NetApp ONTAP",
+      "rationale": "A managed file volume keeps recoverable snapshots.",
+      "path": "stencils/aws-fsx-ontap.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-FSx-for-NetApp-ONTAP_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-FSx-for-NetApp-ONTAP_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-FSx-for-NetApp-ONTAP_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-FSx-for-NetApp-ONTAP_64.svg"
+      ],
+      "revision": "90e7f895f0b3c3622381282252c2d1b98c1675f860aa49229c6ee75f11abef4f",
+      "geometrySignature": "7399457ddc4414eb4a2e6c5eaf978246b0b5622b947b374647eba4269c68496d",
+      "comparisonRevision": "50944b7ec9b9610ecbd35ae33a2740072cba624c9a776f7986b5b8254710826d",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-fsx-openzfs",
+      "provider": "aws",
+      "name": "Amazon FSx for OpenZFS",
+      "rationale": "A protected storage pool checks the integrity of shared files.",
+      "path": "stencils/aws-fsx-openzfs.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-FSx-for-OpenZFS_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-FSx-for-OpenZFS_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-FSx-for-OpenZFS_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-FSx-for-OpenZFS_64.svg"
+      ],
+      "revision": "a038779b5981120f232d38f5f1311c9adc380234a342d8ca7d2a25c0682fd741",
+      "geometrySignature": "6e641ed7b5fb1f8fc02c7f99b3c47a3b97f4cd9aa69462c8732645721ba3e38c",
+      "comparisonRevision": "c63acf1493e0d44212d434919994d4d86423ace41fcb1eb196b1efff67d5bf1b",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-fsx-windows",
+      "provider": "aws",
+      "name": "Amazon FSx for Windows File Server",
+      "rationale": "Desktop clients share files from a Windows file server.",
+      "path": "stencils/aws-fsx-windows.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-FSx-for-WFS_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-FSx-for-WFS_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-FSx-for-WFS_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-FSx-for-WFS_64.svg"
+      ],
+      "revision": "782af73dd3f0a133f4cf6797225d1bf15c15848664864ec6c7c8253b384e965f",
+      "geometrySignature": "64888ab41797090d8dfa8ba75d5b376cb0c975eca567c93440470e0e89105b64",
+      "comparisonRevision": "61749d66ec8ebdb628db3fa99968c3932821062828afe421a22befba3995c88c",
       "review": "pending",
       "notes": ""
     },
@@ -11540,7 +11612,7 @@
       ],
       "revision": "a79a75c4dcf258ce35c3ef4645a0f080c1b90d23bf8116b04085ba0624376d41",
       "geometrySignature": "7587733e7255b8d9e5ea0d55a86d924e2edcc104466d0d71a97869fa3c7d7109",
-      "comparisonRevision": "d75a4f1f9b2b9a6d3a834686dfb89d6a84f3a586b698710aa0a35a2fb5a8428a",
+      "comparisonRevision": "503a02e31f30068f2df7545288420a3fdd6ded7e4be548c2a625b4cf2bc2ebd2",
       "review": "pending",
       "notes": ""
     },
@@ -13011,7 +13083,7 @@
       ],
       "revision": "2ad263d6a6574a43413637ead980438df291f54dc5647ed5dbe03c31bc59550a",
       "geometrySignature": "6aa81d90d756b33d0c5cd9552371ee97b1beeb84206e2684161c81f0b01ffbf7",
-      "comparisonRevision": "bd6a1c042c2c2a65e3a6d338dc9c61f1f33978febc92bbd473f19ec6254c6d87",
+      "comparisonRevision": "d38df536fd53965368a45493604e84acf0b9e081e018896f84a4bda9d05d93de",
       "review": "pending",
       "notes": ""
     },
@@ -13119,7 +13191,7 @@
       ],
       "revision": "7a6a7d373c341925be5a75df6a0d97dcd0afffe7e4ea3596730f3770eaded827",
       "geometrySignature": "f4e67c5aebb238b9695b7d6af1fc76f1bc2c3b0cc07ca7f1cec9f905721a4a79",
-      "comparisonRevision": "30d9f279886ba50428c54aadb34ca76f0ed2acab314e5c1b5fc0144b34e0520d",
+      "comparisonRevision": "d44949d18ba9543b42e4f27ecb4181f8d7fbe849dfbfce8f00f5625403562fd2",
       "review": "pending",
       "notes": ""
     },

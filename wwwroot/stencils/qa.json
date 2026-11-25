@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 744,
-  "aliases": 3140,
+  "count": 748,
+  "aliases": 3156,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -522,6 +522,10 @@
     "aws-snowball-edge",
     "aws-storage-gateway",
     "aws-data-transfer-terminal",
+    "aws-fsx-lustre",
+    "aws-fsx-ontap",
+    "aws-fsx-openzfs",
+    "aws-fsx-windows",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -841,8 +845,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 900,
-      "concepts": 223
+      "covered": 916,
+      "concepts": 227
     },
     "gcp": {
       "sources": 261,
@@ -1658,13 +1662,13 @@
       },
       {
         "a": "gcp-bigquery",
-        "b": "aws-iot-device-management",
-        "similarity": 0.2166
+        "b": "aws-fsx-windows",
+        "similarity": 0.2241
       },
       {
         "a": "gcp-bigquery",
-        "b": "aws-systems-manager",
-        "similarity": 0.2152
+        "b": "aws-iot-device-management",
+        "similarity": 0.2166
       }
     ],
     "gcp-cloud-run": [
@@ -7868,8 +7872,8 @@
       },
       {
         "a": "azure-qna",
-        "b": "azure-host-groups",
-        "similarity": 0.2339
+        "b": "aws-fsx-windows",
+        "similarity": 0.2365
       }
     ],
     "azure-translator": [
@@ -8190,9 +8194,9 @@
         "similarity": 0.1551
       },
       {
-        "a": "fabric-retail",
-        "b": "fabric-real-time-intelligence",
-        "similarity": 0.1373
+        "a": "fabric-real-time-intelligence",
+        "b": "aws-fsx-openzfs",
+        "similarity": 0.1415
       }
     ],
     "fabric-one-lake": [
@@ -9273,14 +9277,14 @@
         "similarity": 0.2246
       },
       {
+        "a": "aws-elemental-link",
+        "b": "aws-fsx-lustre",
+        "similarity": 0.2161
+      },
+      {
         "a": "aws-datasync",
         "b": "aws-elemental-link",
         "similarity": 0.1946
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "aws-elemental-link",
-        "similarity": 0.1849
       }
     ],
     "aws-elemental-server": [
@@ -9472,6 +9476,11 @@
     ],
     "aws-macie": [
       {
+        "a": "aws-macie",
+        "b": "aws-fsx-ontap",
+        "similarity": 0.2005
+      },
+      {
         "a": "azure-managed-identities",
         "b": "aws-macie",
         "similarity": 0.1909
@@ -9480,11 +9489,6 @@
         "a": "aws-sqs",
         "b": "aws-macie",
         "similarity": 0.1845
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "aws-macie",
-        "similarity": 0.1776
       }
     ],
     "aws-security-lake": [
@@ -9638,6 +9642,74 @@
         "a": "aws-deadline-cloud",
         "b": "aws-data-transfer-terminal",
         "similarity": 0.2296
+      }
+    ],
+    "aws-fsx-lustre": [
+      {
+        "a": "aws-elemental-link",
+        "b": "aws-fsx-lustre",
+        "similarity": 0.2161
+      },
+      {
+        "a": "gcp-cloud-tasks",
+        "b": "aws-fsx-lustre",
+        "similarity": 0.2073
+      },
+      {
+        "a": "azure-storage-queue",
+        "b": "aws-fsx-lustre",
+        "similarity": 0.2039
+      }
+    ],
+    "aws-fsx-ontap": [
+      {
+        "a": "aws-fsx-ontap",
+        "b": "fabric-briefcase-pulse",
+        "similarity": 0.279
+      },
+      {
+        "a": "m365-shifts",
+        "b": "aws-fsx-ontap",
+        "similarity": 0.24
+      },
+      {
+        "a": "aws-forecast",
+        "b": "aws-fsx-ontap",
+        "similarity": 0.2376
+      }
+    ],
+    "aws-fsx-openzfs": [
+      {
+        "a": "aws-fsx-openzfs",
+        "b": "aws-timestream",
+        "similarity": 0.1933
+      },
+      {
+        "a": "entra-verified-id",
+        "b": "aws-fsx-openzfs",
+        "similarity": 0.1828
+      },
+      {
+        "a": "gcp-filestore",
+        "b": "aws-fsx-openzfs",
+        "similarity": 0.1754
+      }
+    ],
+    "aws-fsx-windows": [
+      {
+        "a": "azure-qna",
+        "b": "aws-fsx-windows",
+        "similarity": 0.2365
+      },
+      {
+        "a": "gcp-bigquery",
+        "b": "aws-fsx-windows",
+        "similarity": 0.2241
+      },
+      {
+        "a": "aws-cloud9",
+        "b": "aws-fsx-windows",
+        "similarity": 0.2058
       }
     ],
     "m365-arrow-circle-left": [
@@ -11642,6 +11714,11 @@
     ],
     "aws-local-zones": [
       {
+        "a": "aws-fsx-ontap",
+        "b": "aws-local-zones",
+        "similarity": 0.2022
+      },
+      {
         "a": "gcp-category-data-analytics",
         "b": "aws-local-zones",
         "similarity": 0.1972
@@ -11650,11 +11727,6 @@
         "a": "m365-folder-people",
         "b": "aws-local-zones",
         "similarity": 0.1934
-      },
-      {
-        "a": "aws-cost-explorer",
-        "b": "aws-local-zones",
-        "similarity": 0.1891
       }
     ],
     "aws-wavelength": [
@@ -13007,14 +13079,14 @@
         "similarity": 0.1412
       },
       {
+        "a": "aws-fsx-lustre",
+        "b": "fabric-person-settings",
+        "similarity": 0.1383
+      },
+      {
         "a": "azure-batch-accounts",
         "b": "fabric-person-settings",
         "similarity": 0.1377
-      },
-      {
-        "a": "aws-elemental-link",
-        "b": "fabric-person-settings",
-        "similarity": 0.133
       }
     ],
     "fabric-branch-edit": [
@@ -13104,6 +13176,11 @@
     ],
     "fabric-list-shield": [
       {
+        "a": "aws-fsx-windows",
+        "b": "fabric-list-shield",
+        "similarity": 0.1578
+      },
+      {
         "a": "aws-sagemaker",
         "b": "fabric-list-shield",
         "similarity": 0.1473
@@ -13112,11 +13189,6 @@
         "a": "azure-event-grid-subscriptions",
         "b": "fabric-list-shield",
         "similarity": 0.1455
-      },
-      {
-        "a": "aws-appconfig",
-        "b": "fabric-list-shield",
-        "similarity": 0.1449
       }
     ],
     "fabric-lock-circle": [
