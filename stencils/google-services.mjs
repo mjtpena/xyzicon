@@ -1703,7 +1703,7 @@ export const googleArtwork = [
     [
       rect(13, 21, 43, 53), line([13, 34], [56, 34]), line([22, 44], [47, 44]), line([22, 55], [47, 55]),
       line([56, 47], [68, 47], [68, 65]),
-      oval(64, 61, 50, 50), oval(75, 72, 28, 28, true), oval(85, 82, 8, 8),
+      oval(64, 61, 50, 50), oval(75, 72, 28, 28), oval(85, 82, 8, 8),
       line([89, 86], [104, 99]), line([20, 91], [52, 91]),
     ]),
   entry("gcp-cloud-domains", "gcp", "Google Cloud Domains", ["cloud_domains"],
@@ -1711,14 +1711,14 @@ export const googleArtwork = [
     [
       oval(13, 20, 65, 65), line([45, 20], [35, 33], [32, 52], [35, 72], [45, 85]),
       line([45, 20], [55, 33], [58, 52], [55, 72], [45, 85]), line([14, 52], [77, 52]),
-      polygon([65, 65], [100, 65], [116, 80], [100, 95], [65, 95]),
+      line([65, 65], [100, 65], [116, 80], [100, 95], [65, 95], [65, 65]),
       oval(72, 76, 7, 7, true), line([84, 80], [101, 80]),
       line([26, 100], [58, 100]),
     ]),
   entry("gcp-cloud-hsm", "gcp", "Google Cloud HSM", ["cloud_hsm"],
     "A protected hardware module contains a key and physical chip contacts.",
     [
-      rect(29, 29, 68, 68, true), rect(38, 38, 50, 50),
+      rect(29, 29, 68, 68), rect(38, 38, 50, 50),
       line([42, 20], [42, 29]), line([57, 20], [57, 29]), line([72, 20], [72, 29]), line([87, 20], [87, 29]),
       line([42, 97], [42, 106]), line([57, 97], [57, 106]), line([72, 97], [72, 106]), line([87, 97], [87, 106]),
       line([20, 42], [29, 42]), line([20, 57], [29, 57]), line([97, 42], [106, 42]), line([97, 57], [106, 57]),
@@ -1729,7 +1729,7 @@ export const googleArtwork = [
     [
       rect(13, 15, 59, 93), line([23, 29], [62, 29]), line([23, 42], [62, 42]),
       rect(23, 52, 34, 11, true), line([23, 75], [58, 75]), line([23, 88], [52, 88]),
-      polygon([85, 45], [112, 54], [108, 83], [98, 98], [85, 108], [72, 98], [62, 83], [58, 54]),
+      line([85, 45], [112, 54], [108, 83], [98, 98], [85, 108], [72, 98], [62, 83], [58, 54], [85, 45]),
       line([73, 76], [97, 76]), line([76, 67], [94, 85]),
     ]),
   entry("gcp-billing", "gcp", "Google Cloud Billing", ["billing"],
@@ -1737,7 +1737,7 @@ export const googleArtwork = [
     [
       rect(15, 14, 71, 100), line([27, 27], [73, 27]), line([27, 43], [53, 43]), line([62, 43], [74, 43]),
       line([27, 56], [53, 56]), line([62, 56], [74, 56]), line([27, 69], [53, 69]), line([62, 69], [74, 69]),
-      line([27, 84], [68, 84]), oval(68, 73, 44, 44, true),
+      line([27, 84], [68, 84]), oval(68, 73, 44, 44),
       line([83, 88], [97, 88], [97, 95], [83, 95], [83, 101], [97, 101]), line([90, 83], [90, 107]),
     ]),
   entry("gcp-speech-to-text", "gcp", "Google Speech-to-Text", ["speech-to-text"],
@@ -1764,7 +1764,7 @@ export const googleArtwork = [
     [
       rect(15, 15, 77, 96), line([27, 29], [80, 29]),
       line([27, 43], [53, 43]), line([27, 56], [53, 56]), line([27, 69], [53, 69]), line([27, 82], [63, 82]),
-      polygon([82, 51], [114, 104], [50, 104]), line([82, 67], [82, 85]), oval(79, 91, 6, 6, true),
+      line([82, 51], [114, 104], [50, 104], [82, 51]), line([82, 67], [82, 85]), oval(79, 91, 6, 6, true),
     ]),
   entry("gcp-connectivity-test", "gcp", "Google Connectivity Test", ["connectivity_test"],
     "A diagnostic path connects two endpoints with a check at its midpoint.",
