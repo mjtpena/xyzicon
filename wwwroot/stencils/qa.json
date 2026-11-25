@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1013,
-  "aliases": 3843,
+  "count": 1016,
+  "aliases": 3861,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -939,6 +939,9 @@
     "fabric-column-function",
     "fabric-column-question",
     "fabric-column-sigma",
+    "fabric-database-up-down",
+    "fabric-overlap-kql",
+    "fabric-stream-settings-bracket",
     "fabric-datatype-uid",
     "fabric-branch-link",
     "fabric-briefcase-pulse",
@@ -1099,8 +1102,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1201,
-      "concepts": 209
+      "covered": 1219,
+      "concepts": 212
     },
     "entra": {
       "sources": 14,
@@ -1698,6 +1701,11 @@
     "dynamics-customer-service": [
       {
         "a": "dynamics-customer-service",
+        "b": "fabric-database-up-down",
+        "similarity": 0.2254
+      },
+      {
+        "a": "dynamics-customer-service",
         "b": "fabric-my-workspace",
         "similarity": 0.2234
       },
@@ -1705,11 +1713,6 @@
         "a": "dynamics-customer-service",
         "b": "aws-appconfig",
         "similarity": 0.212
-      },
-      {
-        "a": "dynamics-customer-service",
-        "b": "fabric-bookmark-data-bar",
-        "similarity": 0.2112
       }
     ],
     "dynamics-customer-voice": [
@@ -6361,13 +6364,13 @@
       },
       {
         "a": "m365-share-screen",
-        "b": "azure-cost-management-billing",
-        "similarity": 0.2151
+        "b": "fabric-database-up-down",
+        "similarity": 0.2158
       },
       {
         "a": "m365-share-screen",
-        "b": "aws-waf",
-        "similarity": 0.2149
+        "b": "azure-cost-management-billing",
+        "similarity": 0.2151
       }
     ],
     "m365-select-all": [
@@ -7793,9 +7796,9 @@
         "similarity": 0.1998
       },
       {
-        "a": "azure-managed-identities",
-        "b": "aws-compute-optimizer",
-        "similarity": 0.1901
+        "a": "aws-compute-optimizer",
+        "b": "fabric-database-up-down",
+        "similarity": 0.1913
       }
     ],
     "aws-elastic-beanstalk": [
@@ -9365,6 +9368,11 @@
     "aws-panorama": [
       {
         "a": "aws-panorama",
+        "b": "fabric-stream-settings-bracket",
+        "similarity": 0.2053
+      },
+      {
+        "a": "aws-panorama",
         "b": "aws-category-app-integration",
         "similarity": 0.199
       },
@@ -9372,11 +9380,6 @@
         "a": "m365-phone-laptop",
         "b": "aws-panorama",
         "similarity": 0.1986
-      },
-      {
-        "a": "aws-panorama",
-        "b": "aws-memorydb",
-        "similarity": 0.1951
       }
     ],
     "aws-augmented-ai": [
@@ -9772,6 +9775,11 @@
     ],
     "azure-foundry-models": [
       {
+        "a": "azure-foundry-models",
+        "b": "fabric-database-up-down",
+        "similarity": 0.3216
+      },
+      {
         "a": "m365-office-notebook",
         "b": "azure-foundry-models",
         "similarity": 0.2729
@@ -9780,11 +9788,6 @@
         "a": "gcp-secret-manager",
         "b": "azure-foundry-models",
         "similarity": 0.2652
-      },
-      {
-        "a": "azure-foundry-models",
-        "b": "azure-app-service-plans",
-        "similarity": 0.2496
       }
     ],
     "azure-batch-ai": [
@@ -10038,8 +10041,8 @@
       },
       {
         "a": "azure-experimentation",
-        "b": "fabric-my-workspace",
-        "similarity": 0.1906
+        "b": "fabric-stream-settings-bracket",
+        "similarity": 0.1978
       }
     ],
     "azure-object-understanding": [
@@ -17046,6 +17049,57 @@
         "similarity": 0.2517
       }
     ],
+    "fabric-database-up-down": [
+      {
+        "a": "azure-foundry-models",
+        "b": "fabric-database-up-down",
+        "similarity": 0.3216
+      },
+      {
+        "a": "fabric-schema-model",
+        "b": "fabric-database-up-down",
+        "similarity": 0.2939
+      },
+      {
+        "a": "aws-transform",
+        "b": "fabric-database-up-down",
+        "similarity": 0.271
+      }
+    ],
+    "fabric-overlap-kql": [
+      {
+        "a": "azure-restore-collection",
+        "b": "fabric-overlap-kql",
+        "similarity": 0.2442
+      },
+      {
+        "a": "gcp-category-containers",
+        "b": "fabric-overlap-kql",
+        "similarity": 0.2366
+      },
+      {
+        "a": "aws-cdk",
+        "b": "fabric-overlap-kql",
+        "similarity": 0.2326
+      }
+    ],
+    "fabric-stream-settings-bracket": [
+      {
+        "a": "fabric-stream-settings-bracket",
+        "b": "fabric-overlapping-squares-line",
+        "similarity": 0.2637
+      },
+      {
+        "a": "fabric-external-datamart",
+        "b": "fabric-stream-settings-bracket",
+        "similarity": 0.2466
+      },
+      {
+        "a": "fabric-my-workspace",
+        "b": "fabric-stream-settings-bracket",
+        "similarity": 0.2355
+      }
+    ],
     "fabric-datatype-uid": [
       {
         "a": "fabric-area-location",
@@ -17458,6 +17512,11 @@
     ],
     "fabric-bookmark-data-bar": [
       {
+        "a": "fabric-database-up-down",
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.2274
+      },
+      {
         "a": "fabric-book-database",
         "b": "fabric-bookmark-data-bar",
         "similarity": 0.227
@@ -17466,11 +17525,6 @@
         "a": "gcp-cloud-tpu",
         "b": "fabric-bookmark-data-bar",
         "similarity": 0.2192
-      },
-      {
-        "a": "dynamics-customer-service",
-        "b": "fabric-bookmark-data-bar",
-        "similarity": 0.2112
       }
     ],
     "fabric-checked-documents": [
@@ -17560,6 +17614,11 @@
     ],
     "fabric-overlapping-squares-line": [
       {
+        "a": "fabric-stream-settings-bracket",
+        "b": "fabric-overlapping-squares-line",
+        "similarity": 0.2637
+      },
+      {
         "a": "fabric-stacked-text",
         "b": "fabric-overlapping-squares-line",
         "similarity": 0.2444
@@ -17568,11 +17627,6 @@
         "a": "fabric-overlapping-squares-line",
         "b": "fabric-calculator-brackets",
         "similarity": 0.2333
-      },
-      {
-        "a": "aws-appconfig",
-        "b": "fabric-overlapping-squares-line",
-        "similarity": 0.2232
       }
     ],
     "fabric-person-pulse": [

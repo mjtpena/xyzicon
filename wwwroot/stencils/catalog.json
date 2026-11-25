@@ -549,7 +549,7 @@
       ],
       "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
       "geometrySignature": "e099ae1447977f4a779b59e77cc4fa96248552ee9875c939d69fd8161d6adf70",
-      "comparisonRevision": "672d5397e7ebd5f3648654b6aadcf71b86566d4203b1914b0e1a41e5fc785ae5",
+      "comparisonRevision": "379eec04dff3a01ca25ede1f1f4b0bc8074893eb16b4c7a082b88bb4132cb57b",
       "review": "pending",
       "notes": ""
     },
@@ -5196,7 +5196,7 @@
       ],
       "revision": "b056ec15a6d4fc6f77d17c8f19d821d78d9e8b0df0a2784428a6900a6f36f71b",
       "geometrySignature": "109f4e5d11f973ff8f4bb6fa70f60728540acc81a22f7e6d3138f92961e5ad9c",
-      "comparisonRevision": "62ee5b1a93e3006402887b3ee8fca7127aef999b27f13974e5cb33df409de5da",
+      "comparisonRevision": "4b9db67d95cff611fe1f6215b3b8490e566a1747c4c6abff76287680ed4f997f",
       "review": "pending",
       "notes": ""
     },
@@ -6718,7 +6718,7 @@
       ],
       "revision": "cc43c7a3b2d6588e2a07e7660b7aa80878552f2f5d8af7cdcfff749907054809",
       "geometrySignature": "237103a834c558889c8bf3f2eecd5cc3be90ca2ff71a9344df400562f2e4bb9e",
-      "comparisonRevision": "14c5343f16d04dccece323b95c9c528b398de2f9eb6808706da4804c76ce56c6",
+      "comparisonRevision": "fd2c7e0083e143edce9ef68c017bb000c880c47fe3cdb1b13936ee1b25e3e589",
       "review": "pending",
       "notes": ""
     },
@@ -8552,7 +8552,7 @@
       ],
       "revision": "cee8616e62b7f4c9e12e044d7b1a70e6aa5077813b6ead184f4512b7e6144e31",
       "geometrySignature": "07fb3309e8f1b23105f0a6d6d63298edf6a4fb606980be84764de0f01e83438d",
-      "comparisonRevision": "8363a50bc39f9202782832560ffb52c29d0a4eaaccc5f0d75d2d415ff1a6bafd",
+      "comparisonRevision": "061680040b3f54f0cb3604987259eac0229b889ac872f5c92f56ca24b83a469c",
       "review": "pending",
       "notes": ""
     },
@@ -8937,7 +8937,7 @@
       ],
       "revision": "66f7d0e950fe7d8fe7c5a9c4cecd7c408e4a73a85b23c3dfc13710c3f2067d2f",
       "geometrySignature": "50ff6226c115e72a3a75d47333946a972377695dbdeebf0cd11811d6ee9cca45",
-      "comparisonRevision": "6f580b564117eba3dd1937a497ae8f637d2bfbaefcc20cc00becbb9dc7465552",
+      "comparisonRevision": "88ce2a07cfcd8233a440a1ecf59e3af8d9d7580dca9077480d926ebfc7104bf6",
       "review": "pending",
       "notes": ""
     },
@@ -9162,7 +9162,7 @@
       ],
       "revision": "65c6b7b8df05d6b662980925e8e333b19ce9ce7a4e8db1942a176828577354ef",
       "geometrySignature": "9c8edd379c91950a656cc16efe3d52e2d333277be668fe160277a5d91426adb2",
-      "comparisonRevision": "03d68f35c83bc42c05eef45ddacaff53a0144baadcf42f05b041934f3e20fce5",
+      "comparisonRevision": "44f94cdc5ffbcb9777d2ad79a198ac5aecbfa2f92ddc3d45dee2fd732ee0d85e",
       "review": "pending",
       "notes": ""
     },
@@ -16605,6 +16605,66 @@
       "notes": ""
     },
     {
+      "id": "fabric-database-up-down",
+      "provider": "fabric",
+      "name": "Database transfer up and down",
+      "rationale": "Data moves into and out of a database workspace.",
+      "path": "stencils/fabric-database-up-down.svg",
+      "sources": [
+        "/icons/fabric/svg/square_database_arrow_up_down_20_filled.svg",
+        "/icons/fabric/svg/square_database_arrow_up_down_20_regular.svg",
+        "/icons/fabric/svg/square_database_arrow_up_down_24_filled.svg",
+        "/icons/fabric/svg/square_database_arrow_up_down_24_regular.svg",
+        "/icons/fabric/svg/square_database_arrow_up_down_28_filled.svg",
+        "/icons/fabric/svg/square_database_arrow_up_down_28_regular.svg"
+      ],
+      "revision": "2fa1549a97bc4a4f53182a8ec40bfeb7c69105ea36f85c1d34dad8474bb2c38c",
+      "geometrySignature": "a48019669f49fad6000b6428a499aaa3fdabbcceda673ecb5bc185474f91c513",
+      "comparisonRevision": "a72c2f5b78cb1651837aab873e3592b6204a29247e5d2c36d4abba8cf2beef1f",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "fabric-overlap-kql",
+      "provider": "fabric",
+      "name": "Overlapping KQL windows",
+      "rationale": "Overlapping analysis windows contain related time-series views.",
+      "path": "stencils/fabric-overlap-kql.svg",
+      "sources": [
+        "/icons/fabric/svg/square_multiple_overlap_kql_20_filled.svg",
+        "/icons/fabric/svg/square_multiple_overlap_kql_20_regular.svg",
+        "/icons/fabric/svg/square_multiple_overlap_kql_24_filled.svg",
+        "/icons/fabric/svg/square_multiple_overlap_kql_24_regular.svg",
+        "/icons/fabric/svg/square_multiple_overlap_kql_32_filled.svg",
+        "/icons/fabric/svg/square_multiple_overlap_kql_32_regular.svg"
+      ],
+      "revision": "1972eec70bf070507404596cf15ac792455555abe7101db5a33bac3dc191665f",
+      "geometrySignature": "2b90b6242dcabf34805c817d22029fae3bc0dc7d00212a51855e7fa30baeca24",
+      "comparisonRevision": "4626e12d7f6257529ed35a39e30eb689e5378f7ce2638cc251d310c6832790b2",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "fabric-stream-settings-bracket",
+      "provider": "fabric",
+      "name": "Stream settings bracket",
+      "rationale": "Controls adjust a streaming signal within an open frame.",
+      "path": "stencils/fabric-stream-settings-bracket.svg",
+      "sources": [
+        "/icons/fabric/svg/stream_settings_bracket_20_filled.svg",
+        "/icons/fabric/svg/stream_settings_bracket_20_regular.svg",
+        "/icons/fabric/svg/stream_settings_bracket_24_filled.svg",
+        "/icons/fabric/svg/stream_settings_bracket_24_regular.svg",
+        "/icons/fabric/svg/stream_settings_bracket_32_filled.svg",
+        "/icons/fabric/svg/stream_settings_bracket_32_regular.svg"
+      ],
+      "revision": "f83aaaccd2175cbed14fe2a3127bad809536df8b8c402b08c6f024993532e03f",
+      "geometrySignature": "f142c83302d48fb91c77f3b401cf1c3e3ea179d29b3485b8549e53e7019c5b8e",
+      "comparisonRevision": "7826ae8cfcb0a63a7498319b48eaf7dfbe24a5828301e6fb40e88500f1b6daec",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "fabric-datatype-uid",
       "provider": "fabric",
       "name": "Unique identifier data type",
@@ -17054,7 +17114,7 @@
       ],
       "revision": "b498416fb47ef1d4ce5d56c340d976ff8a70ceecab8fc4c010bac51b052c3867",
       "geometrySignature": "c29ff9457e74ecdfba8c1c33e4c704e99cf669282e7c4f3f0e17524d4ab852dd",
-      "comparisonRevision": "c809267e5fe587ae87535fcc78e64b2908d4ef7a5e3372c6c79e44901c2e1c7e",
+      "comparisonRevision": "f3959b738d115345229aa5ee53450f786b5bea3b5a521d2233de2208b8344785",
       "review": "pending",
       "notes": ""
     },
@@ -17174,7 +17234,7 @@
       ],
       "revision": "0f8afbe91a0c002a303447b74072ec984e53b3e13ce1cf68045e4a3744982466",
       "geometrySignature": "723fa91b399adbd1d06113f2e86423390bdec96834267d323c27b33e29a10a2f",
-      "comparisonRevision": "88c421f9e2ed05c1584714b8a064ddc4946abcb788dc053b5b0d226552e83bac",
+      "comparisonRevision": "9bee3fe5f047c39735967f84be407e30ddbdb262a92bb6b3e1494dadce1e12bc",
       "review": "pending",
       "notes": ""
     },
