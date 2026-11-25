@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1671,
-  "aliases": 4836,
+  "count": 1687,
+  "aliases": 4852,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -740,6 +740,22 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-device-security-apple",
+    "azure-device-security-google",
+    "azure-device-security-windows",
+    "azure-intune",
+    "azure-intune-ebooks",
+    "azure-intune-client-apps",
+    "azure-intune-devices",
+    "azure-device-compliance",
+    "azure-software-updates",
+    "azure-security-baselines",
+    "azure-device-enrollment",
+    "azure-device-configuration",
+    "azure-exchange-access",
+    "azure-tenant-status",
+    "azure-intune-education",
+    "azure-intune-app-protection",
     "azure-entra-connect-sync",
     "azure-user-subscriptions",
     "azure-entra-domain-services",
@@ -1941,8 +1957,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 464,
-      "concepts": 386
+      "covered": 480,
+      "concepts": 402
     },
     "fabric": {
       "sources": 1584,
@@ -4391,8 +4407,8 @@
       },
       {
         "a": "aws-eventbridge-rule",
-        "b": "azure-verification-service",
-        "similarity": 0.2704
+        "b": "azure-intune-client-apps",
+        "similarity": 0.2746
       }
     ],
     "aws-eventbridge-scheduler": [
@@ -5333,6 +5349,11 @@
     "fabric-branch-fork-signal": [
       {
         "a": "fabric-branch-fork-signal",
+        "b": "azure-device-security-apple",
+        "similarity": 0.1323
+      },
+      {
+        "a": "fabric-branch-fork-signal",
         "b": "azure-blob-block",
         "similarity": 0.1268
       },
@@ -5340,11 +5361,6 @@
         "a": "fabric-branch-fork-signal",
         "b": "gcp-datashare",
         "similarity": 0.1265
-      },
-      {
-        "a": "fabric-branch-fork-signal",
-        "b": "aws-general-application",
-        "similarity": 0.1241
       }
     ],
     "fabric-briefcase-report": [
@@ -5575,14 +5591,14 @@
         "similarity": 0.168
       },
       {
+        "a": "azure-data-explorer",
+        "b": "azure-device-enrollment",
+        "similarity": 0.1637
+      },
+      {
         "a": "gcp-bigtable",
         "b": "azure-data-explorer",
         "similarity": 0.1567
-      },
-      {
-        "a": "azure-data-explorer",
-        "b": "azure-managed-devops-pools",
-        "similarity": 0.1461
       }
     ],
     "azure-logic-apps": [
@@ -5780,13 +5796,13 @@
       },
       {
         "a": "aws-mq",
-        "b": "fabric-data-warehouse",
-        "similarity": 0.1747
+        "b": "azure-device-security-windows",
+        "similarity": 0.206
       },
       {
         "a": "aws-mq",
-        "b": "azure-storage-queue",
-        "similarity": 0.1734
+        "b": "fabric-data-warehouse",
+        "similarity": 0.1747
       }
     ],
     "aws-batch": [
@@ -7723,8 +7739,8 @@
       },
       {
         "a": "gcp-transfer",
-        "b": "aws-general-folder",
-        "similarity": 0.3143
+        "b": "azure-intune-education",
+        "similarity": 0.3232
       }
     ],
     "gcp-transfer-appliance": [
@@ -9095,13 +9111,13 @@
       },
       {
         "a": "gcp-advanced-agent-modeling",
-        "b": "aws-lookout-vision",
-        "similarity": 0.2082
+        "b": "azure-intune",
+        "similarity": 0.2161
       },
       {
-        "a": "azure-local",
-        "b": "gcp-advanced-agent-modeling",
-        "similarity": 0.194
+        "a": "gcp-advanced-agent-modeling",
+        "b": "aws-lookout-vision",
+        "similarity": 0.2082
       }
     ],
     "gcp-agent-assist": [
@@ -9668,6 +9684,11 @@
     "gcp-quotas": [
       {
         "a": "gcp-quotas",
+        "b": "azure-device-security-apple",
+        "similarity": 0.1802
+      },
+      {
+        "a": "gcp-quotas",
         "b": "aws-snowball-edge",
         "similarity": 0.1764
       },
@@ -9675,11 +9696,6 @@
         "a": "gcp-quotas",
         "b": "fabric-arrow-right-double-wrap",
         "similarity": 0.1722
-      },
-      {
-        "a": "gcp-quotas",
-        "b": "aws-lambda-function",
-        "similarity": 0.1675
       }
     ],
     "gcp-cloud-tpu": [
@@ -13861,14 +13877,14 @@
         "similarity": 0.1697
       },
       {
+        "a": "m365-ribbon-star",
+        "b": "azure-device-security-apple",
+        "similarity": 0.1644
+      },
+      {
         "a": "m365-calculator",
         "b": "m365-ribbon-star",
         "similarity": 0.1592
-      },
-      {
-        "a": "m365-ribbon-star",
-        "b": "aws-network-firewall",
-        "similarity": 0.1585
       }
     ],
     "aws-mxnet": [
@@ -14036,9 +14052,9 @@
         "similarity": 0.2712
       },
       {
-        "a": "gcp-certificate-manager",
-        "b": "aws-sagemaker-shadow-testing",
-        "similarity": 0.2534
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "azure-software-updates",
+        "similarity": 0.2541
       }
     ],
     "aws-sagemaker-train": [
@@ -14099,14 +14115,14 @@
         "similarity": 0.335
       },
       {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "azure-software-updates",
+        "similarity": 0.3333
+      },
+      {
         "a": "azure-waf-policies",
         "b": "aws-sagemaker-studio-lab",
         "similarity": 0.2929
-      },
-      {
-        "a": "gcp-user-preferences",
-        "b": "aws-sagemaker-studio-lab",
-        "similarity": 0.2756
       }
     ],
     "aws-nova": [
@@ -14500,6 +14516,278 @@
         "similarity": 0.234
       }
     ],
+    "azure-device-security-apple": [
+      {
+        "a": "azure-device-security-apple",
+        "b": "azure-controls",
+        "similarity": 0.2648
+      },
+      {
+        "a": "azure-device-security-apple",
+        "b": "aws-general-internet-wifi",
+        "similarity": 0.2417
+      },
+      {
+        "a": "gcp-cloud-logging",
+        "b": "azure-device-security-apple",
+        "similarity": 0.2386
+      }
+    ],
+    "azure-device-security-google": [
+      {
+        "a": "azure-device-security-google",
+        "b": "azure-identity-roles-administrators",
+        "similarity": 0.2296
+      },
+      {
+        "a": "azure-device-security-google",
+        "b": "azure-folder-blank",
+        "similarity": 0.2085
+      },
+      {
+        "a": "azure-device-security-google",
+        "b": "azure-guide",
+        "similarity": 0.2083
+      }
+    ],
+    "azure-device-security-windows": [
+      {
+        "a": "azure-device-security-windows",
+        "b": "azure-software-updates",
+        "similarity": 0.3837
+      },
+      {
+        "a": "azure-device-security-windows",
+        "b": "azure-multi-factor-authentication",
+        "similarity": 0.3623
+      },
+      {
+        "a": "azure-device-security-windows",
+        "b": "aws-general-chat",
+        "similarity": 0.3333
+      }
+    ],
+    "azure-intune": [
+      {
+        "a": "azure-intune",
+        "b": "azure-counter",
+        "similarity": 0.2461
+      },
+      {
+        "a": "azure-intune",
+        "b": "azure-device-enrollment",
+        "similarity": 0.2418
+      },
+      {
+        "a": "azure-intune",
+        "b": "aws-cdk",
+        "similarity": 0.2384
+      }
+    ],
+    "azure-intune-ebooks": [
+      {
+        "a": "azure-intune-ebooks",
+        "b": "azure-resource-group-list",
+        "similarity": 0.3184
+      },
+      {
+        "a": "azure-intune-ebooks",
+        "b": "azure-search-grid",
+        "similarity": 0.2917
+      },
+      {
+        "a": "azure-intune-ebooks",
+        "b": "aws-general-application",
+        "similarity": 0.2651
+      }
+    ],
+    "azure-intune-client-apps": [
+      {
+        "a": "azure-intune-client-apps",
+        "b": "azure-website-staging",
+        "similarity": 0.3717
+      },
+      {
+        "a": "azure-intune-client-apps",
+        "b": "azure-code",
+        "similarity": 0.3039
+      },
+      {
+        "a": "azure-intune-client-apps",
+        "b": "aws-general-multimedia",
+        "similarity": 0.2989
+      }
+    ],
+    "azure-intune-devices": [
+      {
+        "a": "azure-intune-devices",
+        "b": "azure-entra-connect",
+        "similarity": 0.2722
+      },
+      {
+        "a": "azure-intune-devices",
+        "b": "aws-elemental-delta",
+        "similarity": 0.2676
+      },
+      {
+        "a": "azure-intune-devices",
+        "b": "aws-general-chat",
+        "similarity": 0.2634
+      }
+    ],
+    "azure-device-compliance": [
+      {
+        "a": "azure-device-compliance",
+        "b": "azure-intune-app-protection",
+        "similarity": 0.4576
+      },
+      {
+        "a": "azure-device-compliance",
+        "b": "azure-log-streaming",
+        "similarity": 0.3214
+      },
+      {
+        "a": "azure-device-compliance",
+        "b": "aws-general-git-repository",
+        "similarity": 0.3129
+      }
+    ],
+    "azure-software-updates": [
+      {
+        "a": "azure-device-security-windows",
+        "b": "azure-software-updates",
+        "similarity": 0.3837
+      },
+      {
+        "a": "aws-sagemaker-studio-lab",
+        "b": "azure-software-updates",
+        "similarity": 0.3333
+      },
+      {
+        "a": "azure-software-updates",
+        "b": "azure-exchange-access",
+        "similarity": 0.3041
+      }
+    ],
+    "azure-security-baselines": [
+      {
+        "a": "azure-software-updates",
+        "b": "azure-security-baselines",
+        "similarity": 0.2109
+      },
+      {
+        "a": "azure-device-security-windows",
+        "b": "azure-security-baselines",
+        "similarity": 0.2061
+      },
+      {
+        "a": "azure-security-baselines",
+        "b": "azure-recent",
+        "similarity": 0.2052
+      }
+    ],
+    "azure-device-enrollment": [
+      {
+        "a": "azure-device-enrollment",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.3093
+      },
+      {
+        "a": "azure-device-enrollment",
+        "b": "azure-resource-linked",
+        "similarity": 0.2997
+      },
+      {
+        "a": "azure-intune-client-apps",
+        "b": "azure-device-enrollment",
+        "similarity": 0.272
+      }
+    ],
+    "azure-device-configuration": [
+      {
+        "a": "azure-device-configuration",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.328
+      },
+      {
+        "a": "azure-device-compliance",
+        "b": "azure-device-configuration",
+        "similarity": 0.3034
+      },
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "azure-device-configuration",
+        "similarity": 0.2692
+      }
+    ],
+    "azure-exchange-access": [
+      {
+        "a": "azure-software-updates",
+        "b": "azure-exchange-access",
+        "similarity": 0.3041
+      },
+      {
+        "a": "azure-device-security-windows",
+        "b": "azure-exchange-access",
+        "similarity": 0.2982
+      },
+      {
+        "a": "azure-exchange-access",
+        "b": "azure-ftp",
+        "similarity": 0.2946
+      }
+    ],
+    "azure-tenant-status": [
+      {
+        "a": "azure-tenant-status",
+        "b": "azure-user-subscriptions",
+        "similarity": 0.2572
+      },
+      {
+        "a": "azure-tenant-status",
+        "b": "azure-privileged-identity-management",
+        "similarity": 0.2261
+      },
+      {
+        "a": "azure-tenant-status",
+        "b": "aws-general-users",
+        "similarity": 0.2073
+      }
+    ],
+    "azure-intune-education": [
+      {
+        "a": "gcp-transfer",
+        "b": "azure-intune-education",
+        "similarity": 0.3232
+      },
+      {
+        "a": "azure-intune-education",
+        "b": "azure-blob-block",
+        "similarity": 0.2789
+      },
+      {
+        "a": "azure-intune-education",
+        "b": "aws-general-folder",
+        "similarity": 0.2764
+      }
+    ],
+    "azure-intune-app-protection": [
+      {
+        "a": "azure-device-compliance",
+        "b": "azure-intune-app-protection",
+        "similarity": 0.4576
+      },
+      {
+        "a": "azure-intune-app-protection",
+        "b": "aws-general-git-repository",
+        "similarity": 0.3157
+      },
+      {
+        "a": "azure-intune-app-protection",
+        "b": "azure-log-streaming",
+        "similarity": 0.2977
+      }
+    ],
     "azure-entra-connect-sync": [
       {
         "a": "azure-entra-connect-sync",
@@ -14519,6 +14807,11 @@
     ],
     "azure-user-subscriptions": [
       {
+        "a": "azure-tenant-status",
+        "b": "azure-user-subscriptions",
+        "similarity": 0.2572
+      },
+      {
         "a": "azure-user-subscriptions",
         "b": "azure-privileged-identity-management",
         "similarity": 0.2264
@@ -14527,11 +14820,6 @@
         "a": "azure-user-subscriptions",
         "b": "azure-powershell",
         "similarity": 0.2035
-      },
-      {
-        "a": "azure-data-virtualization",
-        "b": "azure-user-subscriptions",
-        "similarity": 0.2009
       }
     ],
     "azure-entra-domain-services": [
@@ -14604,6 +14892,11 @@
     ],
     "azure-ad-b2c": [
       {
+        "a": "azure-software-updates",
+        "b": "azure-ad-b2c",
+        "similarity": 0.301
+      },
+      {
         "a": "azure-databricks",
         "b": "azure-ad-b2c",
         "similarity": 0.2734
@@ -14612,11 +14905,6 @@
         "a": "gcp-api-monetization",
         "b": "azure-ad-b2c",
         "similarity": 0.2705
-      },
-      {
-        "a": "aws-dynamodb-global-secondary-index",
-        "b": "azure-ad-b2c",
-        "similarity": 0.2609
       }
     ],
     "azure-directory-users": [
@@ -14706,6 +14994,11 @@
     ],
     "azure-multi-factor-authentication": [
       {
+        "a": "azure-device-security-windows",
+        "b": "azure-multi-factor-authentication",
+        "similarity": 0.3623
+      },
+      {
         "a": "azure-multi-factor-authentication",
         "b": "azure-server-farm",
         "similarity": 0.3578
@@ -14714,11 +15007,6 @@
         "a": "gcp-video-intelligence",
         "b": "azure-multi-factor-authentication",
         "similarity": 0.3329
-      },
-      {
-        "a": "azure-waf-policies",
-        "b": "azure-multi-factor-authentication",
-        "similarity": 0.303
       }
     ],
     "azure-global-secure-access": [
@@ -14796,14 +15084,14 @@
         "similarity": 0.2493
       },
       {
-        "a": "azure-external-id",
-        "b": "aws-elemental-delta",
-        "similarity": 0.2434
+        "a": "azure-intune-devices",
+        "b": "azure-external-id",
+        "similarity": 0.249
       },
       {
         "a": "azure-external-id",
-        "b": "azure-resource-linked",
-        "similarity": 0.233
+        "b": "aws-elemental-delta",
+        "similarity": 0.2434
       }
     ],
     "azure-external-id-modified": [
@@ -14852,9 +15140,9 @@
         "similarity": 0.2148
       },
       {
-        "a": "azure-administrative-units",
-        "b": "azure-cost-budgets",
-        "similarity": 0.2114
+        "a": "azure-intune-education",
+        "b": "azure-administrative-units",
+        "similarity": 0.2147
       }
     ],
     "azure-multi-tenancy": [
@@ -16921,14 +17209,14 @@
         "similarity": 0.2954
       },
       {
+        "a": "azure-intune-client-apps",
+        "b": "aws-workmail",
+        "similarity": 0.2311
+      },
+      {
         "a": "aws-workmail",
         "b": "azure-cache",
         "similarity": 0.231
-      },
-      {
-        "a": "gcp-cloud-router",
-        "b": "aws-workmail",
-        "similarity": 0.2188
       }
     ],
     "aws-workdocs": [
@@ -17154,6 +17442,11 @@
     ],
     "aws-wickr": [
       {
+        "a": "azure-software-updates",
+        "b": "aws-wickr",
+        "similarity": 0.2765
+      },
+      {
         "a": "azure-multi-factor-authentication",
         "b": "aws-wickr",
         "similarity": 0.2416
@@ -17162,11 +17455,6 @@
         "a": "gcp-security-operations",
         "b": "aws-wickr",
         "similarity": 0.2315
-      },
-      {
-        "a": "gcp-persistent-disk",
-        "b": "aws-wickr",
-        "similarity": 0.2213
       }
     ],
     "aws-end-user-messaging": [
@@ -17431,14 +17719,14 @@
         "similarity": 0.2882
       },
       {
+        "a": "azure-software-updates",
+        "b": "aws-general-source-code",
+        "similarity": 0.277
+      },
+      {
         "a": "aws-eventbridge-rule",
         "b": "aws-general-source-code",
         "similarity": 0.2638
-      },
-      {
-        "a": "azure-application-security-groups",
-        "b": "aws-general-source-code",
-        "similarity": 0.2566
       }
     ],
     "aws-general-tape-storage": [
@@ -17504,9 +17792,9 @@
         "similarity": 0.2179
       },
       {
-        "a": "aws-general-toolkit",
+        "a": "azure-tenant-status",
         "b": "aws-general-users",
-        "similarity": 0.204
+        "similarity": 0.2073
       }
     ],
     "aws-general-internet-transfer": [
@@ -17516,14 +17804,14 @@
         "similarity": 0.42
       },
       {
+        "a": "azure-exchange-access",
+        "b": "aws-general-internet-transfer",
+        "similarity": 0.2735
+      },
+      {
         "a": "aws-dynamodb-global-secondary-index",
         "b": "aws-general-internet-transfer",
         "similarity": 0.2452
-      },
-      {
-        "a": "aws-general-internet-transfer",
-        "b": "aws-thinkbox-xmesh",
-        "similarity": 0.2336
       }
     ],
     "aws-general-json-script": [
@@ -17623,9 +17911,9 @@
         "similarity": 0.3185
       },
       {
-        "a": "aws-general-multimedia",
-        "b": "azure-web-test",
-        "similarity": 0.2934
+        "a": "azure-intune-client-apps",
+        "b": "aws-general-multimedia",
+        "similarity": 0.2989
       }
     ],
     "aws-general-office-building": [
@@ -17691,9 +17979,9 @@
         "similarity": 0.2287
       },
       {
-        "a": "aws-general-mobile-client",
+        "a": "azure-intune-education",
         "b": "aws-general-recover",
-        "similarity": 0.2186
+        "similarity": 0.2228
       }
     ],
     "aws-general-saml-token": [
@@ -17805,14 +18093,14 @@
         "similarity": 0.2786
       },
       {
-        "a": "aws-general-forums",
-        "b": "azure-blob-page",
-        "similarity": 0.2527
+        "a": "azure-intune-client-apps",
+        "b": "aws-general-forums",
+        "similarity": 0.2733
       },
       {
         "a": "aws-general-forums",
-        "b": "azure-search",
-        "similarity": 0.2374
+        "b": "azure-blob-page",
+        "similarity": 0.2527
       }
     ],
     "aws-general-gear": [
@@ -17851,19 +18139,19 @@
     ],
     "aws-general-git-repository": [
       {
+        "a": "azure-intune-app-protection",
+        "b": "aws-general-git-repository",
+        "similarity": 0.3157
+      },
+      {
+        "a": "azure-device-compliance",
+        "b": "aws-general-git-repository",
+        "similarity": 0.3129
+      },
+      {
         "a": "azure-data-share-invitations",
         "b": "aws-general-git-repository",
         "similarity": 0.3085
-      },
-      {
-        "a": "aws-general-git-repository",
-        "b": "azure-general-image",
-        "similarity": 0.308
-      },
-      {
-        "a": "aws-general-git-repository",
-        "b": "azure-static-apps",
-        "similarity": 0.305
       }
     ],
     "aws-general-globe": [
@@ -17953,6 +18241,11 @@
     ],
     "aws-general-chat": [
       {
+        "a": "azure-device-security-windows",
+        "b": "aws-general-chat",
+        "similarity": 0.3333
+      },
+      {
         "a": "aws-general-chat",
         "b": "azure-folder-website",
         "similarity": 0.2773
@@ -17961,11 +18254,6 @@
         "a": "aws-general-chat",
         "b": "azure-website-staging",
         "similarity": 0.2724
-      },
-      {
-        "a": "aws-general-chat",
-        "b": "aws-elemental-delta",
-        "similarity": 0.2546
       }
     ],
     "aws-general-data-stream": [
@@ -18633,6 +18921,11 @@
     ],
     "aws-elemental-inference": [
       {
+        "a": "azure-device-security-windows",
+        "b": "aws-elemental-inference",
+        "similarity": 0.3008
+      },
+      {
         "a": "aws-elemental-inference",
         "b": "azure-devops",
         "similarity": 0.2583
@@ -18641,11 +18934,6 @@
         "a": "aws-workdocs-sdk",
         "b": "aws-elemental-inference",
         "similarity": 0.2497
-      },
-      {
-        "a": "aws-xray",
-        "b": "aws-elemental-inference",
-        "similarity": 0.2396
       }
     ],
     "aws-medialive": [
@@ -18864,9 +19152,9 @@
         "similarity": 0.1947
       },
       {
-        "a": "gcp-transfer-appliance",
+        "a": "azure-intune-client-apps",
         "b": "aws-security-agent",
-        "similarity": 0.1888
+        "similarity": 0.1895
       }
     ],
     "aws-security-hub": [
@@ -21054,6 +21342,11 @@
     ],
     "gcp-category-mixed-reality": [
       {
+        "a": "azure-device-security-windows",
+        "b": "gcp-category-mixed-reality",
+        "similarity": 0.2186
+      },
+      {
         "a": "gcp-category-mixed-reality",
         "b": "fabric-group-workspace",
         "similarity": 0.2042
@@ -21062,11 +21355,6 @@
         "a": "gcp-category-mixed-reality",
         "b": "aws-category-app-integration",
         "similarity": 0.1951
-      },
-      {
-        "a": "aws-codewhisperer",
-        "b": "gcp-category-mixed-reality",
-        "similarity": 0.1916
       }
     ],
     "gcp-category-networking": [
@@ -21801,9 +22089,9 @@
         "similarity": 0.3333
       },
       {
-        "a": "aws-ec2-spot-instance",
-        "b": "azure-scheduler",
-        "similarity": 0.2917
+        "a": "azure-device-configuration",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.328
       }
     ],
     "aws-beanstalk-application": [
@@ -23168,6 +23456,11 @@
     ],
     "azure-website-staging": [
       {
+        "a": "azure-intune-client-apps",
+        "b": "azure-website-staging",
+        "similarity": 0.3717
+      },
+      {
         "a": "aws-workmail",
         "b": "azure-website-staging",
         "similarity": 0.2954
@@ -23176,11 +23469,6 @@
         "a": "azure-website-staging",
         "b": "azure-search",
         "similarity": 0.2935
-      },
-      {
-        "a": "azure-external-id-modified",
-        "b": "azure-website-staging",
-        "similarity": 0.2876
       }
     ],
     "azure-web-slots": [
@@ -23280,9 +23568,9 @@
         "similarity": 0.2195
       },
       {
-        "a": "azure-general-media",
-        "b": "azure-help-support",
-        "similarity": 0.2149
+        "a": "azure-device-security-windows",
+        "b": "azure-general-media",
+        "similarity": 0.2193
       }
     ],
     "azure-module": [
@@ -23389,19 +23677,19 @@
     ],
     "azure-resource-linked": [
       {
+        "a": "azure-device-enrollment",
+        "b": "azure-resource-linked",
+        "similarity": 0.2997
+      },
+      {
+        "a": "azure-intune-client-apps",
+        "b": "azure-resource-linked",
+        "similarity": 0.2806
+      },
+      {
         "a": "gcp-api-analytics",
         "b": "azure-resource-linked",
         "similarity": 0.2602
-      },
-      {
-        "a": "azure-entra-connect",
-        "b": "azure-resource-linked",
-        "similarity": 0.2596
-      },
-      {
-        "a": "azure-resource-linked",
-        "b": "azure-builds",
-        "similarity": 0.2593
       }
     ],
     "azure-scheduler": [
@@ -23581,31 +23869,31 @@
         "similarity": 0.2862
       },
       {
+        "a": "azure-device-enrollment",
+        "b": "azure-location",
+        "similarity": 0.2704
+      },
+      {
         "a": "azure-location",
         "b": "azure-notification-namespaces",
         "similarity": 0.2681
-      },
-      {
-        "a": "aws-general-git-repository",
-        "b": "azure-location",
-        "similarity": 0.2441
       }
     ],
     "azure-log-streaming": [
+      {
+        "a": "azure-device-compliance",
+        "b": "azure-log-streaming",
+        "similarity": 0.3214
+      },
       {
         "a": "azure-search-grid",
         "b": "azure-log-streaming",
         "similarity": 0.3094
       },
       {
-        "a": "aws-general-git-repository",
+        "a": "azure-intune-app-protection",
         "b": "azure-log-streaming",
-        "similarity": 0.2844
-      },
-      {
-        "a": "azure-log-streaming",
-        "b": "azure-powershell",
-        "similarity": 0.2831
+        "similarity": 0.2977
       }
     ],
     "azure-management-portal": [
@@ -23768,14 +24056,14 @@
         "similarity": 0.42
       },
       {
+        "a": "azure-exchange-access",
+        "b": "azure-ftp",
+        "similarity": 0.2946
+      },
+      {
         "a": "azure-versions",
         "b": "azure-ftp",
         "similarity": 0.286
-      },
-      {
-        "a": "aws-dynamodb-stream",
-        "b": "azure-ftp",
-        "similarity": 0.257
       }
     ],
     "azure-gear": [
@@ -23836,14 +24124,14 @@
         "similarity": 0.295
       },
       {
+        "a": "azure-intune-education",
+        "b": "azure-globe-warning",
+        "similarity": 0.2508
+      },
+      {
         "a": "azure-globe-success",
         "b": "azure-globe-warning",
         "similarity": 0.2402
-      },
-      {
-        "a": "azure-local",
-        "b": "azure-globe-warning",
-        "similarity": 0.2392
       }
     ],
     "azure-guide": [
@@ -24164,9 +24452,9 @@
         "similarity": 0.295
       },
       {
-        "a": "azure-blob-block",
-        "b": "azure-code-optimization",
-        "similarity": 0.2785
+        "a": "azure-intune-education",
+        "b": "azure-blob-block",
+        "similarity": 0.2789
       }
     ],
     "azure-blob-page": [
@@ -24239,6 +24527,11 @@
     ],
     "azure-builds": [
       {
+        "a": "azure-intune-ebooks",
+        "b": "azure-builds",
+        "similarity": 0.262
+      },
+      {
         "a": "azure-resource-explorer",
         "b": "azure-builds",
         "similarity": 0.2594
@@ -24247,11 +24540,6 @@
         "a": "azure-resource-linked",
         "b": "azure-builds",
         "similarity": 0.2593
-      },
-      {
-        "a": "azure-search-grid",
-        "b": "azure-builds",
-        "similarity": 0.2496
       }
     ],
     "azure-cache": [
@@ -25400,14 +25688,14 @@
         "similarity": 0.2127
       },
       {
+        "a": "azure-device-security-google",
+        "b": "azure-aks-automatic",
+        "similarity": 0.2016
+      },
+      {
         "a": "azure-sql-database",
         "b": "azure-aks-automatic",
         "similarity": 0.2
-      },
-      {
-        "a": "azure-aks-automatic",
-        "b": "fabric-receipt-kql",
-        "similarity": 0.1942
       }
     ],
     "azure-linux": [
@@ -26080,14 +26368,14 @@
         "similarity": 0.2255
       },
       {
+        "a": "azure-device-security-apple",
+        "b": "fabric-import-notebook",
+        "similarity": 0.2168
+      },
+      {
         "a": "gcp-key-management",
         "b": "fabric-import-notebook",
         "similarity": 0.2096
-      },
-      {
-        "a": "aws-outposts-family",
-        "b": "fabric-import-notebook",
-        "similarity": 0.208
       }
     ],
     "fabric-my-workspace": [
