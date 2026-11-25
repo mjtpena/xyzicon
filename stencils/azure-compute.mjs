@@ -1,6 +1,45 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-cost-management-billing", "azure", "Cost Management and Billing", ["00004-icon-service-Cost-Management-and-Billing"],
+    "A cloud invoice summarizes spending and usage.",
+    [
+      line([13, 14], [68, 14], [82, 28], [82, 104], [13, 104], [13, 14]), line([68, 14], [68, 28], [82, 28]),
+      line([21, 38], [71, 38]), line([21, 48], [63, 48]), line([21, 59], [45, 59]),
+      line([24, 91], [24, 75], [33, 75], [33, 91]), line([39, 91], [39, 67], [48, 67], [48, 91]), line([54, 91], [54, 62], [63, 62], [63, 91]), line([21, 91], [71, 91]),
+      oval(78, 60, 33, 33), line([95, 67], [95, 86]), line([101, 71], [97, 68], [91, 69], [89, 73], [91, 77], [99, 78], [101, 82], [99, 85], [92, 86], [88, 83]),
+      line([20, 115], [108, 115]),
+    ]),
+  entry("azure-subscriptions", "azure", "Subscriptions", ["10002-icon-service-Subscriptions"],
+    "A subscription groups cloud resources under one account.",
+    [
+      oval(52, 14, 24, 24), line([45, 61], [47, 49], [53, 42], [64, 39], [75, 42], [81, 49], [83, 61]),
+      line([64, 61], [64, 72]), line([27, 72], [101, 72]), line([27, 72], [27, 82]), line([64, 72], [64, 82]), line([101, 72], [101, 82]),
+      rect(12, 82, 30, 21), rect(49, 82, 30, 21), rect(86, 82, 30, 21),
+      line([18, 92], [36, 92]), line([55, 92], [73, 92]), line([92, 92], [110, 92]),
+      line([18, 113], [109, 113]),
+    ]),
+  entry("azure-reservations", "azure", "Reservations", ["10003-icon-service-Reservations"],
+    "Compute capacity is reserved for a future period.",
+    [
+      rect(10, 27, 52, 65), line([10, 40], [62, 40]), line([22, 20], [22, 33]), line([49, 20], [49, 33]),
+      line([20, 52], [28, 52]), line([36, 52], [44, 52]), line([20, 64], [28, 64]), rect(34, 58, 13, 13, true),
+      line([20, 78], [28, 78]), line([36, 78], [44, 78]),
+      line([62, 59], [75, 59]), line([69, 53], [75, 59], [69, 65]),
+      rect(79, 33, 38, 58), line([79, 47], [117, 47]), line([79, 61], [117, 61]), line([79, 75], [117, 75]),
+      oval(84, 37, 5, 5, true), oval(84, 51, 5, 5), oval(84, 65, 5, 5),
+      line([18, 108], [110, 108]),
+    ]),
+  entry("azure-service-health", "azure", "Service Health", ["10004-icon-service-Service-Health"],
+    "A health monitor reports cloud service status.",
+    [
+      line([24, 39], [20, 32], [23, 24], [31, 22], [36, 14], [46, 13], [54, 18], [56, 26], [66, 27], [71, 33], [70, 40], [65, 44], [28, 44]),
+      line([46, 44], [46, 56]), line([32, 56], [60, 56]),
+      rect(12, 59, 104, 42), line([12, 73], [116, 73]), line([20, 66], [43, 66]),
+      line([23, 89], [35, 89], [39, 80], [44, 96], [49, 82], [54, 89], [66, 89]),
+      oval(85, 79, 15, 15), line([89, 86], [92, 89], [97, 83]),
+      line([20, 112], [107, 112]),
+    ]),
   entry("azure-app-service-environments", "azure", "App Service Environments", ["10047-icon-service-App-Service-Environments"],
     "Applications run inside an isolated hosting environment.",
     [

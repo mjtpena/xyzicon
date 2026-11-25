@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 843,
-  "aliases": 3440,
+  "count": 847,
+  "aliases": 3446,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -753,6 +753,10 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-cost-management-billing",
+    "azure-subscriptions",
+    "azure-reservations",
+    "azure-service-health",
     "azure-app-service-environments",
     "azure-aks-automatic",
     "azure-linux",
@@ -917,8 +921,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 158,
-      "concepts": 119
+      "covered": 164,
+      "concepts": 123
     },
     "fabric": {
       "sources": 1584,
@@ -4445,6 +4449,11 @@
     "gcp-alloydb": [
       {
         "a": "gcp-alloydb",
+        "b": "azure-reservations",
+        "similarity": 0.3144
+      },
+      {
+        "a": "gcp-alloydb",
         "b": "aws-service-management-connector",
         "similarity": 0.3028
       },
@@ -4452,11 +4461,6 @@
         "a": "gcp-alloydb",
         "b": "aws-codeartifact",
         "similarity": 0.2712
-      },
-      {
-        "a": "gcp-alloydb",
-        "b": "m365-filmstrip-play",
-        "similarity": 0.2587
       }
     ],
     "gcp-hyperdisk": [
@@ -4535,13 +4539,13 @@
       },
       {
         "a": "gcp-cloud-vpn",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.2131
+        "b": "azure-subscriptions",
+        "similarity": 0.246
       },
       {
-        "a": "gcp-compute-engine",
-        "b": "gcp-cloud-vpn",
-        "similarity": 0.2107
+        "a": "gcp-cloud-vpn",
+        "b": "aws-eks-anywhere",
+        "similarity": 0.2131
       }
     ],
     "gcp-cloud-router": [
@@ -5249,13 +5253,13 @@
       },
       {
         "a": "m365-share-screen",
-        "b": "aws-waf",
-        "similarity": 0.2149
+        "b": "azure-cost-management-billing",
+        "similarity": 0.2151
       },
       {
         "a": "m365-share-screen",
-        "b": "aws-comprehend",
-        "similarity": 0.2026
+        "b": "aws-waf",
+        "similarity": 0.2149
       }
     ],
     "m365-select-all": [
@@ -5992,6 +5996,11 @@
     "azure-storage-files": [
       {
         "a": "azure-storage-files",
+        "b": "azure-subscriptions",
+        "similarity": 0.3307
+      },
+      {
+        "a": "azure-storage-files",
         "b": "fabric-diagram-branch",
         "similarity": 0.2797
       },
@@ -5999,11 +6008,6 @@
         "a": "azure-storage-files",
         "b": "aws-private-ca",
         "similarity": 0.2487
-      },
-      {
-        "a": "azure-app-gateway",
-        "b": "azure-storage-files",
-        "similarity": 0.2339
       }
     ],
     "azure-storage-container": [
@@ -8070,14 +8074,14 @@
         "similarity": 0.3101
       },
       {
+        "a": "aws-comprehend-medical",
+        "b": "azure-cost-management-billing",
+        "similarity": 0.2648
+      },
+      {
         "a": "fabric-kql-script",
         "b": "aws-comprehend-medical",
         "similarity": 0.2608
-      },
-      {
-        "a": "fabric-variable-library",
-        "b": "aws-comprehend-medical",
-        "similarity": 0.2532
       }
     ],
     "aws-comprehend": [
@@ -8219,6 +8223,11 @@
     "azure-machine-learning": [
       {
         "a": "azure-machine-learning",
+        "b": "azure-reservations",
+        "similarity": 0.3001
+      },
+      {
+        "a": "azure-machine-learning",
         "b": "aws-storage-gateway",
         "similarity": 0.2963
       },
@@ -8226,11 +8235,6 @@
         "a": "azure-machine-learning",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2693
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "azure-linux",
-        "similarity": 0.256
       }
     ],
     "azure-foundry-application": [
@@ -8320,6 +8324,11 @@
     ],
     "azure-foundry-project": [
       {
+        "a": "azure-foundry-project",
+        "b": "azure-service-health",
+        "similarity": 0.2675
+      },
+      {
         "a": "fabric-live-dashboard",
         "b": "azure-foundry-project",
         "similarity": 0.2615
@@ -8328,11 +8337,6 @@
         "a": "m365-window",
         "b": "azure-foundry-project",
         "similarity": 0.2566
-      },
-      {
-        "a": "azure-foundry-project",
-        "b": "aws-application-migration",
-        "similarity": 0.2557
       }
     ],
     "azure-foundry-local": [
@@ -8925,9 +8929,9 @@
         "similarity": 0.1937
       },
       {
-        "a": "aws-fraud-detector",
-        "b": "aws-cloud-control",
-        "similarity": 0.1873
+        "a": "aws-cloud-control",
+        "b": "azure-reservations",
+        "similarity": 0.1892
       }
     ],
     "aws-cdk": [
@@ -9448,13 +9452,13 @@
       },
       {
         "a": "aws-finops-agent",
-        "b": "gcp-category-media",
-        "similarity": 0.2244
+        "b": "azure-cost-management-billing",
+        "similarity": 0.2438
       },
       {
         "a": "aws-finops-agent",
-        "b": "aws-elemental-inference",
-        "similarity": 0.2162
+        "b": "gcp-category-media",
+        "similarity": 0.2244
       }
     ],
     "aws-managed-blockchain": [
@@ -9816,6 +9820,11 @@
     ],
     "aws-backint-agent": [
       {
+        "a": "aws-backint-agent",
+        "b": "azure-reservations",
+        "similarity": 0.2582
+      },
+      {
         "a": "gcp-alloydb",
         "b": "aws-backint-agent",
         "similarity": 0.2555
@@ -9824,11 +9833,6 @@
         "a": "aws-backint-agent",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2503
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "aws-backint-agent",
-        "similarity": 0.2458
       }
     ],
     "aws-datasync": [
@@ -9980,8 +9984,8 @@
       },
       {
         "a": "aws-launch-wizard",
-        "b": "aws-database-migration",
-        "similarity": 0.2282
+        "b": "azure-reservations",
+        "similarity": 0.2466
       }
     ],
     "aws-management-console": [
@@ -10093,14 +10097,14 @@
         "similarity": 0.2437
       },
       {
+        "a": "aws-trusted-advisor",
+        "b": "azure-service-health",
+        "similarity": 0.2114
+      },
+      {
         "a": "azure-foundry-models",
         "b": "aws-trusted-advisor",
         "similarity": 0.2103
-      },
-      {
-        "a": "aws-opentelemetry",
-        "b": "aws-trusted-advisor",
-        "similarity": 0.2053
       }
     ],
     "aws-resource-explorer": [
@@ -10348,14 +10352,14 @@
         "similarity": 0.2533
       },
       {
+        "a": "aws-mediastore",
+        "b": "azure-subscriptions",
+        "similarity": 0.2525
+      },
+      {
         "a": "m365-text-first-line",
         "b": "aws-mediastore",
         "similarity": 0.2392
-      },
-      {
-        "a": "dynamics-project-operations",
-        "b": "aws-mediastore",
-        "similarity": 0.2344
       }
     ],
     "aws-mediatailor": [
@@ -10530,6 +10534,11 @@
     ],
     "aws-certificate-manager": [
       {
+        "a": "aws-certificate-manager",
+        "b": "azure-cost-management-billing",
+        "similarity": 0.3061
+      },
+      {
         "a": "aws-finops-agent",
         "b": "aws-certificate-manager",
         "similarity": 0.2946
@@ -10538,11 +10547,6 @@
         "a": "fabric-paginated-report",
         "b": "aws-certificate-manager",
         "similarity": 0.25
-      },
-      {
-        "a": "aws-certificate-manager",
-        "b": "azure-scheduled-actions",
-        "similarity": 0.2415
       }
     ],
     "aws-identity-center": [
@@ -10751,6 +10755,11 @@
     ],
     "aws-audit-manager": [
       {
+        "a": "aws-audit-manager",
+        "b": "azure-reservations",
+        "similarity": 0.2589
+      },
+      {
         "a": "m365-lightbulb-check",
         "b": "aws-audit-manager",
         "similarity": 0.2487
@@ -10759,11 +10768,6 @@
         "a": "aws-reserved-instance-reporting",
         "b": "aws-audit-manager",
         "similarity": 0.2457
-      },
-      {
-        "a": "fabric-apps",
-        "b": "aws-audit-manager",
-        "similarity": 0.233
       }
     ],
     "aws-artifact": [
@@ -11135,9 +11139,9 @@
         "similarity": 0.2157
       },
       {
-        "a": "gcp-cloud-tasks",
-        "b": "aws-fsx-lustre",
-        "similarity": 0.2073
+        "a": "aws-fsx-lustre",
+        "b": "azure-reservations",
+        "similarity": 0.2086
       }
     ],
     "aws-fsx-ontap": [
@@ -12962,14 +12966,14 @@
         "similarity": 0.2761
       },
       {
+        "a": "aws-aurora",
+        "b": "azure-subscriptions",
+        "similarity": 0.2522
+      },
+      {
         "a": "aws-ecs",
         "b": "aws-aurora",
         "similarity": 0.2426
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "aws-aurora",
-        "similarity": 0.2393
       }
     ],
     "aws-documentdb": [
@@ -13019,8 +13023,8 @@
       },
       {
         "a": "aws-memorydb",
-        "b": "aws-oracle-database",
-        "similarity": 0.2266
+        "b": "azure-reservations",
+        "similarity": 0.2282
       }
     ],
     "aws-neptune": [
@@ -13171,9 +13175,9 @@
         "similarity": 0.2538
       },
       {
-        "a": "m365-document-multiple",
-        "b": "aws-lightsail",
-        "similarity": 0.211
+        "a": "aws-lightsail",
+        "b": "azure-subscriptions",
+        "similarity": 0.233
       }
     ],
     "aws-fargate": [
@@ -13703,6 +13707,74 @@
         "similarity": 0.2232
       }
     ],
+    "azure-cost-management-billing": [
+      {
+        "a": "aws-certificate-manager",
+        "b": "azure-cost-management-billing",
+        "similarity": 0.3061
+      },
+      {
+        "a": "aws-comprehend-medical",
+        "b": "azure-cost-management-billing",
+        "similarity": 0.2648
+      },
+      {
+        "a": "aws-codeguru",
+        "b": "azure-cost-management-billing",
+        "similarity": 0.2527
+      }
+    ],
+    "azure-subscriptions": [
+      {
+        "a": "azure-storage-files",
+        "b": "azure-subscriptions",
+        "similarity": 0.3307
+      },
+      {
+        "a": "aws-mediastore",
+        "b": "azure-subscriptions",
+        "similarity": 0.2525
+      },
+      {
+        "a": "aws-aurora",
+        "b": "azure-subscriptions",
+        "similarity": 0.2522
+      }
+    ],
+    "azure-reservations": [
+      {
+        "a": "gcp-alloydb",
+        "b": "azure-reservations",
+        "similarity": 0.3144
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "azure-reservations",
+        "similarity": 0.3001
+      },
+      {
+        "a": "aws-audit-manager",
+        "b": "azure-reservations",
+        "similarity": 0.2589
+      }
+    ],
+    "azure-service-health": [
+      {
+        "a": "fabric-live-dashboard",
+        "b": "azure-service-health",
+        "similarity": 0.2783
+      },
+      {
+        "a": "azure-foundry-project",
+        "b": "azure-service-health",
+        "similarity": 0.2675
+      },
+      {
+        "a": "aws-transform",
+        "b": "azure-service-health",
+        "similarity": 0.2362
+      }
+    ],
     "azure-app-service-environments": [
       {
         "a": "aws-management-console",
@@ -13943,6 +14015,11 @@
     ],
     "azure-restore-collection": [
       {
+        "a": "azure-cost-management-billing",
+        "b": "azure-restore-collection",
+        "similarity": 0.2523
+      },
+      {
         "a": "gcp-firestore",
         "b": "azure-restore-collection",
         "similarity": 0.251
@@ -13951,11 +14028,6 @@
         "a": "fabric-paginated-report",
         "b": "azure-restore-collection",
         "similarity": 0.2509
-      },
-      {
-        "a": "aws-elasticache",
-        "b": "azure-restore-collection",
-        "similarity": 0.2507
       }
     ],
     "azure-compute-galleries": [
@@ -14856,9 +14928,9 @@
         "similarity": 0.231
       },
       {
-        "a": "fabric-briefcase-pulse",
+        "a": "azure-cost-management-billing",
         "b": "fabric-chart-phone",
-        "similarity": 0.2005
+        "similarity": 0.208
       }
     ],
     "fabric-database-sync": [
