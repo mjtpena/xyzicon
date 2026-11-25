@@ -731,53 +731,63 @@
   },
   "dynamics-sales-insights": {
     "revision": "2b7432e30368e278581f61bf04032ca05990eeb3bb8b32fa79c577ac299ba28e",
+    "comparisonRevision": "62efece0f6cddcf6d734176f35dd59821384a935869016eec67dcfbc021e730b",
     "status": "approved",
-    "notes": "The rising bars and magnifier differ from the forecast line and sustainability plot."
+    "notes": "A rising sales chart and magnifier convey analysis; adjacent charts lack the magnifier."
   },
   "dynamics-supply-chain": {
     "revision": "10ca7017119b214b7c8b92895b25c9caa26c34acdc7d4503185ca2d76bf62a0e",
+    "comparisonRevision": "54c214280f6f46d25c3286ed02d871ab37ebfdaf966b7f4c6d75ef4f532c8b76",
     "status": "approved",
-    "notes": "The factory-to-package route is distinct from a generic folder or chart."
+    "notes": "A factory sends a parcel along a route, distinct from the neighboring folder, pulse window and signature."
   },
   "dynamics-family": {
-    "revision": "025eff539a45f7da5239a3d96454ce5796a425f3a95f1144891fad88c2bca5c4",
-    "status": "rework",
-    "notes": "The person connected to a circle and two tiny objects reads as a generic organization diagram, not a recognizable Dynamics product family; distinguish the business-app concept and simplify its 32px details."
+    "revision": "e242505d6cf85bc8e42d407f644bd3b81c42e3440ba199853025f497fd9b8538",
+    "comparisonRevision": "bf397642a853025817289a516247c6779aba8523188eff1bb09035f68630dc92",
+    "status": "approved",
+    "notes": "A briefcase groups chart, person and product panels, unlike the neighboring registry or developer toolbox."
   },
   "aws-ec2": {
     "revision": "32073c694404114c9c2616c648819872e8438c698117b9dc81d4eb1a47ea3a56",
+    "comparisonRevision": "1a9e13c7153a9cc62d8c1d2ba214fe5e3127d7510622cc5620079970f40754e5",
     "status": "approved",
-    "notes": "The large pinned processor reads as compute at 32px; the CLI, schema and dashboard neighbors show command, diagram and chart interiors instead."
+    "notes": "A processor inside a machine represents compute; neighboring windows show commands, monitoring or a schema."
   },
   "aws-lambda": {
     "revision": "ef8436a1a3ab7886896551e6bfa5873bfd24541cfe2b0af4452d4981ab1786f0",
+    "comparisonRevision": "8d640a2580e6c3ba232aaab1e10c41160f976b2ae229608c2f815a029a7b94c1",
     "status": "approved",
-    "notes": "The function with incoming event and outgoing result remains distinguishable at 32px from the folded map, business ledger and data-flow neighbors."
+    "notes": "An input triggers a function and an output; the neighboring map, finance ledger and data-flow diagrams have different contents."
   },
   "aws-s3": {
     "revision": "5b76a9ea1d0030ce934d4c90ea5856a1bb7de4fc8ba8393c0df5bdc170d7ec58",
+    "comparisonRevision": "866551747dc1d4e2fd78507a662634a34f1bb421a36834d631de9fd46a1db0eb",
     "status": "approved",
-    "notes": "The open bucket and single object remain legible at 32px; the database has horizontal layers, the shop has an awning, and the overlapping squares lack the bucket rim."
+    "notes": "A storage bucket holds an object; adjacent chip, database and shop drawings have distinct silhouettes."
   },
   "aws-dynamodb": {
     "revision": "694e7292eb3834efd0afaf47bbf8e976e8cffa1ea3deb3af97a0e8149abb2eca",
+    "comparisonRevision": "0f667d0c27497848ac08e99b70a40fdf93afc2162a52d7c0a55cd245afee6a29",
     "status": "approved",
-    "notes": "The key and stack of records distinguish a key-value lookup from the experimentation charts, person-and-list and web/mobile panes; the key and stack remain visible at 32px."
+    "notes": "A key points to stacked records, a key-value concept distinct from nearby experiment and transport flows."
   },
   "gcp-bigquery": {
     "revision": "86cc4560db16a9f782ed5b203cd78203c289bc0fa0b74aa3f1c4f350af63f9cf",
+    "comparisonRevision": "9743c27dabecfaea64f49caba03cec2c4dd4a36fb541ce68bf34aa4bbe916f54",
     "status": "approved",
-    "notes": "The data table, filter and bar chart remain individually visible at 32px and no longer reproduce the source magnifier; the nearest batch, chat and disk sketches lack that combination."
+    "notes": "A data table, filter and bar chart represent query analytics; nearby records and management diagrams lack this arrangement."
   },
   "gcp-cloud-run": {
     "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+    "comparisonRevision": "ec30af2b37ed38bc1cc31a2bfc2b7e5050f4abd975b42e3ff3ed02cddb6b9048",
     "status": "approved",
-    "notes": "The play-marked container and motion lines remain visible at 32px, distinct from the restore circle, document and doorway; neither source's arrow logo is reproduced."
+    "notes": "A play symbol on a moving container expresses container execution, unlike the neighboring office, code artifact and cluster."
   },
   "gcp-cloud-sql": {
     "revision": "13d2bc0cbdd7ea653d974b16dece3489f8c482d43be2575336ce8575ea79cf47",
+    "comparisonRevision": "80ec7bf3a7948ad6004aa993a171b2a9d068561ef164775c60534ecef408fcbc",
     "status": "approved",
-    "notes": "The paired database and relational table are legible at 32px, unlike the nearby table-plus-agent, table-plus-key and document-to-table drawings."
+    "notes": "A database linked to a table conveys relational data; neighboring grid diagrams show agents, keys or copied files."
   },
   "azure-notification-hubs": {
     "revision": "0c779ae010946b41a61bcd8928772a4357a9ecbdf3594469ac0637d1aea6df7a",
