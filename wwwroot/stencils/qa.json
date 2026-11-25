@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 784,
-  "aliases": 3300,
+  "count": 788,
+  "aliases": 3304,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -409,6 +409,10 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-ai-foundry",
+    "azure-foundry-project",
+    "azure-foundry-local",
+    "azure-foundry-models",
     "azure-batch-ai",
     "azure-genomics",
     "azure-computer-vision",
@@ -851,8 +855,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 136,
-      "concepts": 99
+      "covered": 140,
+      "concepts": 103
     },
     "fabric": {
       "sources": 1584,
@@ -894,6 +898,11 @@
     "azure-virtual-machine": [
       {
         "a": "azure-virtual-machine",
+        "b": "azure-foundry-local",
+        "similarity": 0.244
+      },
+      {
+        "a": "azure-virtual-machine",
         "b": "fabric-arrow-exit-multiple",
         "similarity": 0.232
       },
@@ -901,11 +910,6 @@
         "a": "azure-virtual-machine",
         "b": "aws-lex",
         "similarity": 0.2147
-      },
-      {
-        "a": "azure-virtual-machine",
-        "b": "gcp-speech-to-text",
-        "similarity": 0.2143
       }
     ],
     "azure-kubernetes": [
@@ -1851,13 +1855,13 @@
       },
       {
         "a": "azure-ai-manager",
-        "b": "gcp-secret-manager",
-        "similarity": 0.1682
+        "b": "azure-foundry-local",
+        "similarity": 0.1794
       },
       {
         "a": "azure-ai-manager",
-        "b": "m365-calendar",
-        "similarity": 0.1656
+        "b": "gcp-secret-manager",
+        "similarity": 0.1682
       }
     ],
     "azure-app-service-builder": [
@@ -4014,9 +4018,9 @@
         "similarity": 0.1918
       },
       {
-        "a": "dynamics-family",
-        "b": "m365-folder-open",
-        "similarity": 0.1863
+        "a": "m365-folder-open",
+        "b": "azure-foundry-models",
+        "similarity": 0.1917
       }
     ],
     "m365-heart-pulse": [
@@ -4090,6 +4094,11 @@
     "m365-office-notebook": [
       {
         "a": "m365-office-notebook",
+        "b": "azure-foundry-models",
+        "similarity": 0.2729
+      },
+      {
+        "a": "m365-office-notebook",
         "b": "m365-document-page",
         "similarity": 0.2726
       },
@@ -4097,11 +4106,6 @@
         "a": "m365-office-notebook",
         "b": "fabric-sample",
         "similarity": 0.2585
-      },
-      {
-        "a": "m365-office-notebook",
-        "b": "aws-directory-service",
-        "similarity": 0.2524
       }
     ],
     "m365-payment": [
@@ -7759,6 +7763,74 @@
         "similarity": 0.2267
       }
     ],
+    "azure-ai-foundry": [
+      {
+        "a": "azure-ai-foundry",
+        "b": "azure-availability-sets",
+        "similarity": 0.2019
+      },
+      {
+        "a": "azure-ai-foundry",
+        "b": "aws-app-studio",
+        "similarity": 0.2002
+      },
+      {
+        "a": "azure-virtual-network",
+        "b": "azure-ai-foundry",
+        "similarity": 0.1969
+      }
+    ],
+    "azure-foundry-project": [
+      {
+        "a": "fabric-live-dashboard",
+        "b": "azure-foundry-project",
+        "similarity": 0.2615
+      },
+      {
+        "a": "m365-window",
+        "b": "azure-foundry-project",
+        "similarity": 0.2566
+      },
+      {
+        "a": "azure-foundry-project",
+        "b": "aws-application-migration",
+        "similarity": 0.2557
+      }
+    ],
+    "azure-foundry-local": [
+      {
+        "a": "azure-virtual-machine",
+        "b": "azure-foundry-local",
+        "similarity": 0.244
+      },
+      {
+        "a": "azure-foundry-local",
+        "b": "aws-security-incident-response",
+        "similarity": 0.2099
+      },
+      {
+        "a": "azure-data-box",
+        "b": "azure-foundry-local",
+        "similarity": 0.2036
+      }
+    ],
+    "azure-foundry-models": [
+      {
+        "a": "m365-office-notebook",
+        "b": "azure-foundry-models",
+        "similarity": 0.2729
+      },
+      {
+        "a": "gcp-secret-manager",
+        "b": "azure-foundry-models",
+        "similarity": 0.2652
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "azure-foundry-models",
+        "similarity": 0.2477
+      }
+    ],
     "azure-batch-ai": [
       {
         "a": "azure-batch-ai",
@@ -8934,6 +9006,11 @@
     ],
     "aws-application-migration": [
       {
+        "a": "azure-foundry-project",
+        "b": "aws-application-migration",
+        "similarity": 0.2557
+      },
+      {
         "a": "aws-application-migration",
         "b": "gcp-category-media",
         "similarity": 0.2181
@@ -8942,11 +9019,6 @@
         "a": "aws-finops-agent",
         "b": "aws-application-migration",
         "similarity": 0.2134
-      },
-      {
-        "a": "aws-application-migration",
-        "b": "aws-sustainability",
-        "similarity": 0.1936
       }
     ],
     "aws-transfer-family": [
@@ -9172,19 +9244,19 @@
     ],
     "aws-trusted-advisor": [
       {
+        "a": "azure-foundry-project",
+        "b": "aws-trusted-advisor",
+        "similarity": 0.2437
+      },
+      {
+        "a": "azure-foundry-models",
+        "b": "aws-trusted-advisor",
+        "similarity": 0.2103
+      },
+      {
         "a": "aws-trusted-advisor",
         "b": "aws-payment-cryptography",
         "similarity": 0.1959
-      },
-      {
-        "a": "aws-trusted-advisor",
-        "b": "aws-s3-glacier",
-        "similarity": 0.1904
-      },
-      {
-        "a": "dynamics-commerce",
-        "b": "aws-trusted-advisor",
-        "similarity": 0.1842
       }
     ],
     "aws-resource-explorer": [
@@ -9806,14 +9878,14 @@
         "similarity": 0.2194
       },
       {
+        "a": "azure-foundry-local",
+        "b": "aws-security-incident-response",
+        "similarity": 0.2099
+      },
+      {
         "a": "aws-cloudhsm",
         "b": "aws-security-incident-response",
         "similarity": 0.207
-      },
-      {
-        "a": "aws-deadline-cloud",
-        "b": "aws-security-incident-response",
-        "similarity": 0.2046
       }
     ],
     "aws-audit-manager": [
@@ -9964,9 +10036,9 @@
         "similarity": 0.2194
       },
       {
-        "a": "aws-payment-cryptography",
-        "b": "aws-iot-expresslink",
-        "similarity": 0.2071
+        "a": "azure-foundry-project",
+        "b": "aws-payment-cryptography",
+        "similarity": 0.2084
       }
     ],
     "aws-cloud-directory": [
@@ -9998,9 +10070,9 @@
         "similarity": 0.207
       },
       {
-        "a": "aws-connect",
+        "a": "azure-foundry-project",
         "b": "aws-file-cache",
-        "similarity": 0.1927
+        "similarity": 0.2069
       }
     ],
     "aws-s3-on-outposts": [
@@ -12294,6 +12366,11 @@
     ],
     "aws-telco-network-builder": [
       {
+        "a": "azure-foundry-project",
+        "b": "aws-telco-network-builder",
+        "similarity": 0.236
+      },
+      {
         "a": "aws-payment-cryptography",
         "b": "aws-telco-network-builder",
         "similarity": 0.2194
@@ -12302,11 +12379,6 @@
         "a": "azure-translator",
         "b": "aws-telco-network-builder",
         "similarity": 0.2109
-      },
-      {
-        "a": "m365-check",
-        "b": "aws-telco-network-builder",
-        "similarity": 0.1993
       }
     ],
     "aws-braket": [
@@ -13613,9 +13685,9 @@
         "similarity": 0.2068
       },
       {
-        "a": "m365-wallet-card",
+        "a": "azure-foundry-models",
         "b": "fabric-checked-documents",
-        "similarity": 0.1872
+        "similarity": 0.19
       }
     ],
     "fabric-stacked-text": [
@@ -13868,9 +13940,9 @@
         "similarity": 0.1827
       },
       {
-        "a": "aws-iot-greengrass",
+        "a": "azure-foundry-project",
         "b": "fabric-database-lock",
-        "similarity": 0.1787
+        "similarity": 0.1817
       }
     ],
     "fabric-location-ribbon": [

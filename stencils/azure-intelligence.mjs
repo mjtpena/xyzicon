@@ -1,6 +1,47 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-ai-foundry", "azure", "AI Foundry", ["035746832-icon-service-AI-Foundry"],
+    "An AI workspace connects models, tools, and an application.",
+    [
+      line([13, 30], [13, 19], [49, 19], [49, 44], [13, 44], [13, 30]),
+      oval(25, 25, 5, 5), oval(36, 25, 5, 5), oval(30, 34, 5, 5, true),
+      line([30, 30], [32, 34]), line([39, 30], [35, 34]),
+      rect(79, 19, 36, 25), line([86, 27], [108, 27]), line([86, 35], [102, 35]),
+      rect(46, 77, 36, 25), line([53, 85], [75, 85]), line([53, 93], [69, 93]),
+      line([31, 44], [31, 61], [97, 61], [97, 44]), line([64, 61], [64, 77]),
+      line([12, 113], [115, 113]),
+    ]),
+  entry("azure-foundry-project", "azure", "Foundry Project", ["036509415-icon-service-Foundry-Project"],
+    "A project folder organizes an AI model and its tools.",
+    [
+      line([10, 29], [44, 29], [53, 38], [116, 38], [116, 102], [10, 102], [10, 29]),
+      rect(20, 49, 37, 37), oval(26, 56, 6, 6), oval(43, 56, 6, 6), oval(35, 72, 6, 6, true),
+      line([32, 62], [37, 72]), line([46, 62], [41, 72]),
+      line([70, 50], [105, 50]), line([70, 60], [97, 60]), line([70, 70], [105, 70]),
+      line([70, 81], [77, 87], [87, 76]), line([93, 82], [105, 82]),
+      line([18, 112], [107, 112]),
+    ]),
+  entry("azure-foundry-local", "azure", "Foundry Local", ["038470593-icon-service-Foundry-Local"],
+    "A model runs locally on a laptop processor.",
+    [
+      rect(17, 22, 94, 63), line([17, 85], [9, 99], [119, 99], [111, 85]),
+      line([52, 92], [76, 92]), rect(47, 33, 35, 35),
+      line([42, 40], [47, 40]), line([42, 48], [47, 48]), line([42, 56], [47, 56]), line([42, 64], [47, 64]),
+      line([82, 40], [87, 40]), line([82, 48], [87, 48]), line([82, 56], [87, 56]), line([82, 64], [87, 64]),
+      oval(54, 41, 6, 6), oval(69, 41, 6, 6), oval(62, 54, 6, 6, true),
+      line([60, 47], [64, 54]), line([72, 47], [68, 54]), line([23, 111], [105, 111]),
+    ]),
+  entry("azure-foundry-models", "azure", "Foundry Models", ["038470614-icon-service-Foundry-Models"],
+    "A model catalog offers multiple selectable AI models.",
+    [
+      line([39, 27], [39, 14], [112, 14], [112, 76], [99, 76]),
+      line([26, 40], [26, 27], [99, 27], [99, 89], [86, 89]),
+      rect(13, 40, 73, 62), line([13, 54], [86, 54]), line([21, 47], [46, 47]),
+      oval(25, 63, 9, 9), oval(58, 63, 9, 9), oval(42, 84, 9, 9, true),
+      line([33, 71], [43, 84]), line([59, 71], [50, 84]),
+      line([23, 112], [102, 112]),
+    ]),
   entry("azure-batch-ai", "azure", "Batch AI", ["00028-icon-service-Batch-AI"],
     "A stack of learning jobs is distributed to parallel processors.",
     [
