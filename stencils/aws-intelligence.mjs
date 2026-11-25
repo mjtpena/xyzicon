@@ -3,6 +3,45 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsIntelligenceArtwork = [
+  entry("aws-nova", "aws", "Amazon Nova", sizes("Amazon-Nova"),
+    "A multimodal model combines text and audio inputs.",
+    [
+      line([9, 17], [51, 17], [51, 44], [30, 44], [21, 52], [21, 44], [9, 44], [9, 17]),
+      line([16, 26], [44, 26]), line([16, 35], [38, 35]),
+      line([11, 76], [17, 76], [21, 65], [26, 87], [31, 57], [36, 81], [41, 70], [49, 70]),
+      line([51, 31], [60, 31], [60, 59]), line([49, 72], [60, 72], [60, 59]),
+      oval(63, 39, 43, 43), oval(72, 49, 7, 7), oval(89, 49, 7, 7), oval(80, 65, 7, 7, true),
+      line([78, 56], [82, 65]), line([92, 56], [86, 65]),
+      line([18, 106], [110, 106]),
+    ]),
+  entry("aws-bedrock-agentcore", "aws", "Amazon Bedrock AgentCore", sizes("Amazon-Bedrock-AgentCore"),
+    "A managed agent runtime connects tools with a protected execution environment.",
+    [
+      rect(11, 19, 75, 80), line([11, 32], [86, 32]), line([18, 26], [39, 26]),
+      oval(25, 40, 36, 36), oval(34, 49, 5, 5, true), oval(47, 49, 5, 5, true), line([34, 65], [52, 65]),
+      line([43, 40], [43, 34]), line([21, 87], [70, 87]),
+      line([86, 52], [94, 52]), rect(94, 42, 23, 20), line([99, 52], [112, 52]),
+      rect(80, 77, 25, 21), line([85, 77], [85, 71], [92, 65], [100, 71], [100, 77]), oval(90, 84, 5, 5, true),
+      line([17, 112], [109, 112]),
+    ]),
+  entry("aws-sagemaker-ai", "aws", "Amazon SageMaker AI", sizes("Amazon-SageMaker-AI"),
+    "An experiment trains and evaluates a machine learning model.",
+    [
+      line([13, 14], [59, 14], [70, 25], [70, 103], [13, 103], [13, 14]), line([59, 14], [59, 25], [70, 25]),
+      line([21, 35], [61, 35]), line([21, 44], [53, 44]),
+      line([24, 88], [24, 57]), line([24, 88], [61, 88]), line([28, 82], [36, 71], [44, 75], [52, 60], [60, 63]),
+      oval(77, 46, 13, 13), oval(101, 46, 13, 13), oval(89, 75, 13, 13, true),
+      line([88, 58], [91, 75]), line([103, 58], [99, 75]), line([19, 113], [109, 113]),
+    ]),
+  entry("aws-deep-learning-containers", "aws", "AWS Deep Learning Containers", sizes("AWS-Deep-Learning-Containers"),
+    "A portable container packages a deep-learning model.",
+    [
+      rect(13, 35, 102, 62), line([13, 47], [115, 47]), line([21, 41], [45, 41]),
+      line([25, 53], [25, 89]), line([35, 53], [35, 89]), line([45, 53], [45, 89]),
+      rect(58, 52, 43, 34), oval(65, 58, 7, 7), oval(84, 58, 7, 7), oval(75, 72, 7, 7, true),
+      line([72, 65], [77, 72]), line([87, 65], [82, 72]),
+      line([49, 24], [49, 17], [79, 17], [79, 24]), line([21, 108], [107, 108]),
+    ]),
   entry("aws-finspace", "aws", "Amazon FinSpace", sizes("Amazon-FinSpace"),
     "A financial market chart sits alongside a time-indexed data ledger.",
     [

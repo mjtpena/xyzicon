@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 835,
-  "aliases": 3408,
+  "count": 839,
+  "aliases": 3424,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -406,6 +406,10 @@
     "m365-three-shapes",
     "m365-share-screen-overlay",
     "m365-ribbon-star",
+    "aws-nova",
+    "aws-bedrock-agentcore",
+    "aws-sagemaker-ai",
+    "aws-deep-learning-containers",
     "aws-finspace",
     "aws-kinesis",
     "aws-express-workflows",
@@ -939,8 +943,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1124,
-      "concepts": 278
+      "covered": 1140,
+      "concepts": 282
     },
     "gcp": {
       "sources": 261,
@@ -1909,13 +1913,13 @@
       },
       {
         "a": "azure-ai-manager",
-        "b": "azure-foundry-local",
-        "similarity": 0.1794
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.1819
       },
       {
         "a": "azure-ai-manager",
-        "b": "gcp-secret-manager",
-        "similarity": 0.1682
+        "b": "azure-foundry-local",
+        "similarity": 0.1794
       }
     ],
     "azure-app-service-builder": [
@@ -2470,13 +2474,13 @@
       },
       {
         "a": "azure-backup-center",
-        "b": "m365-radar",
-        "similarity": 0.1965
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.1971
       },
       {
         "a": "azure-backup-center",
-        "b": "aws-redshift",
-        "similarity": 0.196
+        "b": "m365-radar",
+        "similarity": 0.1965
       }
     ],
     "aws-athena": [
@@ -3507,13 +3511,13 @@
       },
       {
         "a": "azure-data-factory",
-        "b": "azure-linux",
-        "similarity": 0.2011
+        "b": "aws-deep-learning-containers",
+        "similarity": 0.2122
       },
       {
         "a": "azure-data-factory",
-        "b": "aws-textract",
-        "similarity": 0.1978
+        "b": "azure-linux",
+        "similarity": 0.2011
       }
     ],
     "azure-data-explorer": [
@@ -3541,13 +3545,13 @@
       },
       {
         "a": "azure-logic-apps",
-        "b": "azure-linux",
-        "similarity": 0.2046
+        "b": "aws-deep-learning-containers",
+        "similarity": 0.2128
       },
       {
-        "a": "gcp-spanner",
-        "b": "azure-logic-apps",
-        "similarity": 0.2032
+        "a": "azure-logic-apps",
+        "b": "azure-linux",
+        "similarity": 0.2046
       }
     ],
     "azure-virtual-network-gateway": [
@@ -3808,6 +3812,11 @@
     "aws-textract": [
       {
         "a": "aws-textract",
+        "b": "aws-sagemaker-ai",
+        "similarity": 0.3015
+      },
+      {
+        "a": "aws-textract",
         "b": "m365-document-lock",
         "similarity": 0.2772
       },
@@ -3815,11 +3824,6 @@
         "a": "aws-textract",
         "b": "azure-managed-sql",
         "similarity": 0.2723
-      },
-      {
-        "a": "gcp-storage",
-        "b": "aws-textract",
-        "similarity": 0.2523
       }
     ],
     "aws-transcribe": [
@@ -4386,6 +4390,11 @@
     "gcp-security-command-center": [
       {
         "a": "gcp-security-command-center",
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.3289
+      },
+      {
+        "a": "gcp-security-command-center",
         "b": "aws-app-studio",
         "similarity": 0.3172
       },
@@ -4393,11 +4402,6 @@
         "a": "gcp-security-command-center",
         "b": "fabric-live-dashboard",
         "similarity": 0.2953
-      },
-      {
-        "a": "gcp-security-command-center",
-        "b": "aws-devops-agent",
-        "similarity": 0.2563
       }
     ],
     "gcp-mandiant": [
@@ -7766,6 +7770,74 @@
         "similarity": 0.1585
       }
     ],
+    "aws-nova": [
+      {
+        "a": "aws-nova",
+        "b": "fabric-data-graph",
+        "similarity": 0.2415
+      },
+      {
+        "a": "gcp-security-operations",
+        "b": "aws-nova",
+        "similarity": 0.2305
+      },
+      {
+        "a": "aws-nova",
+        "b": "aws-inspector",
+        "similarity": 0.214
+      }
+    ],
+    "aws-bedrock-agentcore": [
+      {
+        "a": "gcp-security-command-center",
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.3289
+      },
+      {
+        "a": "fabric-live-dashboard",
+        "b": "aws-bedrock-agentcore",
+        "similarity": 0.2924
+      },
+      {
+        "a": "aws-bedrock-agentcore",
+        "b": "azure-content-moderation",
+        "similarity": 0.2514
+      }
+    ],
+    "aws-sagemaker-ai": [
+      {
+        "a": "aws-textract",
+        "b": "aws-sagemaker-ai",
+        "similarity": 0.3015
+      },
+      {
+        "a": "m365-panel-left",
+        "b": "aws-sagemaker-ai",
+        "similarity": 0.2475
+      },
+      {
+        "a": "m365-document-lock",
+        "b": "aws-sagemaker-ai",
+        "similarity": 0.2451
+      }
+    ],
+    "aws-deep-learning-containers": [
+      {
+        "a": "aws-deep-learning-containers",
+        "b": "aws-device-farm",
+        "similarity": 0.2631
+      },
+      {
+        "a": "aws-deep-learning-containers",
+        "b": "azure-linux",
+        "similarity": 0.26
+      },
+      {
+        "a": "aws-deep-learning-containers",
+        "b": "azure-host-groups",
+        "similarity": 0.2594
+      }
+    ],
     "aws-finspace": [
       {
         "a": "m365-slide-layout",
@@ -8040,6 +8112,11 @@
     ],
     "aws-lookout-equipment": [
       {
+        "a": "aws-sagemaker-ai",
+        "b": "aws-lookout-equipment",
+        "similarity": 0.2417
+      },
+      {
         "a": "gcp-text-to-speech",
         "b": "aws-lookout-equipment",
         "similarity": 0.2142
@@ -8048,11 +8125,6 @@
         "a": "aws-lookout-equipment",
         "b": "aws-elemental-live",
         "similarity": 0.2141
-      },
-      {
-        "a": "dynamics-sales-insights",
-        "b": "aws-lookout-equipment",
-        "similarity": 0.2102
       }
     ],
     "aws-lookout-vision": [
@@ -8181,14 +8253,14 @@
         "similarity": 0.2399
       },
       {
+        "a": "aws-bedrock-agentcore",
+        "b": "azure-foundry-agent-service",
+        "similarity": 0.2158
+      },
+      {
         "a": "m365-text-number-list",
         "b": "azure-foundry-agent-service",
         "similarity": 0.2155
-      },
-      {
-        "a": "m365-apps-list",
-        "b": "azure-foundry-agent-service",
-        "similarity": 0.2129
       }
     ],
     "azure-foundry-control-plane": [
@@ -9172,9 +9244,9 @@
         "similarity": 0.2092
       },
       {
-        "a": "aws-gamelift-servers",
-        "b": "aws-wickr",
-        "similarity": 0.2046
+        "a": "aws-deep-learning-containers",
+        "b": "aws-gamelift-servers",
+        "similarity": 0.2083
       }
     ],
     "aws-activate": [
@@ -10454,6 +10526,11 @@
     ],
     "aws-cloudhsm": [
       {
+        "a": "aws-deep-learning-containers",
+        "b": "aws-cloudhsm",
+        "similarity": 0.2139
+      },
+      {
         "a": "aws-cloudhsm",
         "b": "aws-security-incident-response",
         "similarity": 0.207
@@ -10462,11 +10539,6 @@
         "a": "aws-outposts-rack",
         "b": "aws-cloudhsm",
         "similarity": 0.2041
-      },
-      {
-        "a": "aws-redshift",
-        "b": "aws-cloudhsm",
-        "similarity": 0.1974
       }
     ],
     "aws-waf": [
@@ -12132,14 +12204,14 @@
         "similarity": 0.198
       },
       {
+        "a": "aws-deep-learning-containers",
+        "b": "gcp-category-collaboration",
+        "similarity": 0.1974
+      },
+      {
         "a": "gcp-ai-hypercomputer",
         "b": "gcp-category-collaboration",
         "similarity": 0.194
-      },
-      {
-        "a": "gcp-category-collaboration",
-        "b": "fabric-app-folder-pulse",
-        "similarity": 0.1881
       }
     ],
     "gcp-category-compute": [
