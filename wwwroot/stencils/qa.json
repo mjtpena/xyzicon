@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1294,
-  "aliases": 4248,
+  "count": 1300,
+  "aliases": 4260,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1180,6 +1180,12 @@
     "fabric-rectangle-list-asterisk",
     "fabric-rectangles-curve-left",
     "fabric-rectangles-curve-right",
+    "fabric-shapes",
+    "fabric-shapes-lightning",
+    "fabric-shapes-settings",
+    "fabric-shapes-toolbox",
+    "fabric-scan-categorize",
+    "fabric-save-phone",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1408,8 +1414,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1411,
-      "concepts": 296
+      "covered": 1423,
+      "concepts": 302
     },
     "entra": {
       "sources": 14,
@@ -5638,8 +5644,8 @@
       },
       {
         "a": "gcp-dialogflow-cx",
-        "b": "aws-firewall-manager",
-        "similarity": 0.186
+        "b": "fabric-save-phone",
+        "similarity": 0.196
       }
     ],
     "gcp-dialogflow-insights": [
@@ -13567,6 +13573,11 @@
     "aws-location-geofence": [
       {
         "a": "aws-location-geofence",
+        "b": "fabric-shapes",
+        "similarity": 0.2529
+      },
+      {
+        "a": "aws-location-geofence",
         "b": "fabric-location-radar",
         "similarity": 0.2426
       },
@@ -13574,11 +13585,6 @@
         "a": "aws-textract-lending",
         "b": "aws-location-geofence",
         "similarity": 0.2411
-      },
-      {
-        "a": "gcp-quantum-engine",
-        "b": "aws-location-geofence",
-        "similarity": 0.2407
       }
     ],
     "aws-location-map": [
@@ -13866,8 +13872,8 @@
       },
       {
         "a": "aws-well-architected-tool",
-        "b": "fabric-database-table",
-        "similarity": 0.2658
+        "b": "fabric-save-phone",
+        "similarity": 0.2747
       }
     ],
     "aws-amazon-q": [
@@ -14817,9 +14823,9 @@
         "similarity": 0.277
       },
       {
-        "a": "aws-eventbridge-schema-registry",
-        "b": "aws-service-catalog",
-        "similarity": 0.2379
+        "a": "aws-service-catalog",
+        "b": "fabric-save-phone",
+        "similarity": 0.2464
       }
     ],
     "aws-sustainability": [
@@ -20525,9 +20531,9 @@
         "similarity": 0.2799
       },
       {
-        "a": "m365-edit",
-        "b": "fabric-document-hint",
-        "similarity": 0.2516
+        "a": "fabric-document-hint",
+        "b": "fabric-shapes",
+        "similarity": 0.2539
       }
     ],
     "fabric-documents-question": [
@@ -21462,6 +21468,108 @@
         "a": "azure-event-hub-clusters",
         "b": "fabric-rectangles-curve-right",
         "similarity": 0.228
+      }
+    ],
+    "fabric-shapes": [
+      {
+        "a": "gcp-cloud-jobs",
+        "b": "fabric-shapes",
+        "similarity": 0.257
+      },
+      {
+        "a": "fabric-document-hint",
+        "b": "fabric-shapes",
+        "similarity": 0.2539
+      },
+      {
+        "a": "aws-location-geofence",
+        "b": "fabric-shapes",
+        "similarity": 0.2529
+      }
+    ],
+    "fabric-shapes-lightning": [
+      {
+        "a": "fabric-shapes-lightning",
+        "b": "fabric-shapes-settings",
+        "similarity": 0.4326
+      },
+      {
+        "a": "fabric-shapes-lightning",
+        "b": "fabric-shapes-toolbox",
+        "similarity": 0.4032
+      },
+      {
+        "a": "fabric-shapes-lightning",
+        "b": "fabric-border-none-eye",
+        "similarity": 0.2122
+      }
+    ],
+    "fabric-shapes-settings": [
+      {
+        "a": "fabric-shapes-settings",
+        "b": "fabric-shapes-toolbox",
+        "similarity": 0.5254
+      },
+      {
+        "a": "fabric-shapes-lightning",
+        "b": "fabric-shapes-settings",
+        "similarity": 0.4326
+      },
+      {
+        "a": "aws-rekognition-image",
+        "b": "fabric-shapes-settings",
+        "similarity": 0.2038
+      }
+    ],
+    "fabric-shapes-toolbox": [
+      {
+        "a": "fabric-shapes-settings",
+        "b": "fabric-shapes-toolbox",
+        "similarity": 0.5254
+      },
+      {
+        "a": "fabric-shapes-lightning",
+        "b": "fabric-shapes-toolbox",
+        "similarity": 0.4032
+      },
+      {
+        "a": "aws-ec2-db-instance",
+        "b": "fabric-shapes-toolbox",
+        "similarity": 0.2345
+      }
+    ],
+    "fabric-scan-categorize": [
+      {
+        "a": "fabric-scan-categorize",
+        "b": "fabric-database-table",
+        "similarity": 0.239
+      },
+      {
+        "a": "gcp-early-access",
+        "b": "fabric-scan-categorize",
+        "similarity": 0.2174
+      },
+      {
+        "a": "gcp-cloud-ops",
+        "b": "fabric-scan-categorize",
+        "similarity": 0.2163
+      }
+    ],
+    "fabric-save-phone": [
+      {
+        "a": "fabric-save-phone",
+        "b": "fabric-database-money",
+        "similarity": 0.3001
+      },
+      {
+        "a": "aws-well-architected-tool",
+        "b": "fabric-save-phone",
+        "similarity": 0.2747
+      },
+      {
+        "a": "aws-systems-manager",
+        "b": "fabric-save-phone",
+        "similarity": 0.2635
       }
     ],
     "fabric-database-add": [
@@ -23373,9 +23481,9 @@
         "similarity": 0.231
       },
       {
-        "a": "fabric-calendar-lightning",
+        "a": "fabric-save-phone",
         "b": "fabric-calendar-signal",
-        "similarity": 0.2203
+        "similarity": 0.2271
       }
     ],
     "fabric-data-graph": [
