@@ -1,6 +1,37 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-notification-hubs", "azure", "Notification Hubs", ["10045-icon-service-Notification-Hubs"],
+    "A central bell broadcasts notifications to two mobile devices.",
+    [
+      rect(9, 48, 23, 45), line([15, 54], [26, 54]), line([17, 86], [24, 86]),
+      rect(96, 48, 23, 45), line([102, 54], [113, 54]), line([104, 86], [111, 86]),
+      line([44, 75], [48, 68], [48, 51], [53, 39], [64, 34], [75, 39], [80, 51], [80, 68], [84, 75], [44, 75]),
+      oval(59, 76, 10, 10), line([64, 25], [64, 33]),
+      line([38, 48], [31, 41]), line([90, 48], [97, 41]),
+      line([47, 98], [64, 106], [81, 98]),
+    ]),
+  entry("azure-app-certificates", "azure", "App Service certificates", ["00049-icon-service-App-Service-Certificates"],
+    "A signed certificate with a seal sits in front of an application window.",
+    [
+      line([11, 18], [94, 18], [94, 31]), line([11, 18], [11, 90], [40, 90]),
+      line([11, 32], [94, 32]), line([19, 25], [24, 25]), line([30, 25], [35, 25]),
+      line([45, 37], [90, 37], [108, 55], [108, 100], [45, 100], [45, 37]),
+      line([90, 37], [90, 55], [108, 55]), line([53, 49], [78, 49]), line([53, 59], [78, 59]),
+      oval(65, 68, 23, 23), line([71, 79], [76, 84], [84, 74]),
+      line([68, 91], [68, 112], [76, 106], [84, 112], [84, 91]),
+    ]),
+  entry("azure-app-domains", "azure", "App Service domains", ["00050-icon-service-App-Service-Domains"],
+    "A browser address points to a globe representing the application's domain.",
+    [
+      rect(11, 16, 106, 96), line([11, 37], [117, 37]),
+      line([20, 26], [72, 26]), oval(95, 23, 7, 7),
+      oval(28, 48, 53, 53), line([28, 74], [81, 74]),
+      line([54, 48], [46, 60], [43, 74], [46, 88], [54, 101]),
+      line([54, 48], [62, 60], [65, 74], [62, 88], [54, 101]),
+      line([86, 53], [105, 53], [105, 68]), line([99, 62], [105, 68], [111, 62]),
+      line([88, 85], [105, 85]),
+    ]),
   entry("azure-maintenance-config", "azure", "Maintenance configuration",
     ["00195-icon-service-Maintenance-Configuration"], "A maintenance window combines a clock with an adjustable tool.",
     [

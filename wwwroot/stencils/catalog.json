@@ -10010,6 +10010,52 @@
       "notes": ""
     },
     {
+      "id": "azure-notification-hubs",
+      "provider": "azure",
+      "name": "Notification Hubs",
+      "rationale": "A central bell broadcasts notifications to two mobile devices.",
+      "path": "stencils/azure-notification-hubs.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/app services/10045-icon-service-Notification-Hubs.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/iot/10045-icon-service-Notification-Hubs.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/mobile/10045-icon-service-Notification-Hubs.svg"
+      ],
+      "revision": "0c779ae010946b41a61bcd8928772a4357a9ecbdf3594469ac0637d1aea6df7a",
+      "geometrySignature": "a935c1d8101170de74ec5be38c681c60006da5ea8512ed52d990d599bb4378c5",
+      "review": "approved",
+      "notes": "The bell between two phones remains visible at 32px; the nearest endpoint, adapter and enclave sketches use hardware or a lock instead of a bell."
+    },
+    {
+      "id": "azure-app-certificates",
+      "provider": "azure",
+      "name": "App Service certificates",
+      "rationale": "A signed certificate with a seal sits in front of an application window.",
+      "path": "stencils/azure-app-certificates.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/app services/00049-icon-service-App-Service-Certificates.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/web/00049-icon-service-App-Service-Certificates.svg"
+      ],
+      "revision": "8aa150ca5d32adabdb92c3e991c460395bd7b03a4131fdad44b74ec329cd1dc1",
+      "geometrySignature": "0a17680e08fc362118f2cc5991601e83eaa75b3ab101565f30ec434a07def5db",
+      "review": "approved",
+      "notes": "The folded certificate with checked seal sits in front of a window and remains distinct at 32px from the monitor-and-magnifier, developer-tools and shield-and-list neighbors."
+    },
+    {
+      "id": "azure-app-domains",
+      "provider": "azure",
+      "name": "App Service domains",
+      "rationale": "A browser address points to a globe representing the application's domain.",
+      "path": "stencils/azure-app-domains.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/app services/00050-icon-service-App-Service-Domains.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/web/00050-icon-service-App-Service-Domains.svg"
+      ],
+      "revision": "eac8b3f592bbee02d8cbc29afdafcbcfff6a42a4715473e37bfc6432031a3b68",
+      "geometrySignature": "f7e7eff31f45efd102ecdf054e106d8a2aa47bface8e18ae8ef53b56fb1b3923",
+      "review": "approved",
+      "notes": "The globe in a browser address context is recognizable at 32px and differs from the plain window, image gallery and asterisk window neighbors."
+    },
+    {
       "id": "azure-maintenance-config",
       "provider": "azure",
       "name": "Maintenance configuration",

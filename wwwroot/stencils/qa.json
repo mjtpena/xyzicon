@@ -1,9 +1,9 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 665,
-  "aliases": 2829,
-  "approved": 148,
+  "count": 668,
+  "aliases": 2836,
+  "approved": 151,
   "needsReview": [
     "dynamics-family",
     "gcp-compute-engine",
@@ -584,8 +584,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 129,
-      "concepts": 96
+      "covered": 136,
+      "concepts": 99
     },
     "fabric": {
       "sources": 1584,
@@ -2319,9 +2319,9 @@
         "similarity": 0.2924
       },
       {
-        "a": "aws-ecr",
-        "b": "aws-elasticache",
-        "similarity": 0.2746
+        "a": "aws-elasticache",
+        "b": "azure-app-domains",
+        "similarity": 0.2816
       }
     ],
     "aws-cloudformation": [
@@ -5040,8 +5040,8 @@
       },
       {
         "a": "fabric-kql-queryset",
-        "b": "fabric-platform",
-        "similarity": 0.1819
+        "b": "azure-app-domains",
+        "similarity": 0.1951
       }
     ],
     "fabric-kql-script": [
@@ -7058,13 +7058,13 @@
       },
       {
         "a": "m365-window",
-        "b": "aws-vpc",
-        "similarity": 0.378
+        "b": "azure-app-domains",
+        "similarity": 0.3816
       },
       {
         "a": "m365-window",
-        "b": "azure-compute-galleries",
-        "similarity": 0.3769
+        "b": "aws-vpc",
+        "similarity": 0.378
       }
     ],
     "m365-window-edit": [
@@ -7364,13 +7364,13 @@
       },
       {
         "a": "aws-augmented-ai",
-        "b": "fabric-table-wand",
-        "similarity": 0.1965
+        "b": "azure-app-certificates",
+        "similarity": 0.2073
       },
       {
-        "a": "fabric-operations-agent",
-        "b": "aws-augmented-ai",
-        "similarity": 0.1959
+        "a": "aws-augmented-ai",
+        "b": "fabric-table-wand",
+        "similarity": 0.1965
       }
     ],
     "aws-codewhisperer": [
@@ -7890,14 +7890,14 @@
         "similarity": 0.2612
       },
       {
+        "a": "fabric-platform",
+        "b": "azure-app-domains",
+        "similarity": 0.2305
+      },
+      {
         "a": "m365-window",
         "b": "fabric-platform",
         "similarity": 0.2215
-      },
-      {
-        "a": "fabric-platform",
-        "b": "aws-vpc-lattice",
-        "similarity": 0.2194
       }
     ],
     "fabric-graph-intelligence": [
@@ -9233,6 +9233,11 @@
     ],
     "aws-vpc-lattice": [
       {
+        "a": "aws-vpc-lattice",
+        "b": "azure-app-domains",
+        "similarity": 0.3148
+      },
+      {
         "a": "m365-window",
         "b": "aws-vpc-lattice",
         "similarity": 0.3065
@@ -9241,11 +9246,6 @@
         "a": "aws-vpc-lattice",
         "b": "azure-compute-galleries",
         "similarity": 0.2877
-      },
-      {
-        "a": "aws-codecatalyst",
-        "b": "aws-vpc-lattice",
-        "similarity": 0.2562
       }
     ],
     "aws-vpc": [
@@ -10201,9 +10201,9 @@
         "similarity": 0.3012
       },
       {
-        "a": "m365-window",
-        "b": "aws-serverless-repository",
-        "similarity": 0.2822
+        "a": "aws-serverless-repository",
+        "b": "azure-app-domains",
+        "similarity": 0.2882
       }
     ],
     "aws-ec2-image-builder": [
@@ -10527,6 +10527,57 @@
         "a": "gcp-category-containers",
         "b": "aws-eks-distro",
         "similarity": 0.234
+      }
+    ],
+    "azure-notification-hubs": [
+      {
+        "a": "azure-private-endpoints",
+        "b": "azure-notification-hubs",
+        "similarity": 0.1902
+      },
+      {
+        "a": "aws-elastic-fabric-adapter",
+        "b": "azure-notification-hubs",
+        "similarity": 0.1892
+      },
+      {
+        "a": "aws-nitro-enclaves",
+        "b": "azure-notification-hubs",
+        "similarity": 0.174
+      }
+    ],
+    "azure-app-certificates": [
+      {
+        "a": "azure-application-insights",
+        "b": "azure-app-certificates",
+        "similarity": 0.2939
+      },
+      {
+        "a": "gcp-category-devtools",
+        "b": "azure-app-certificates",
+        "similarity": 0.2591
+      },
+      {
+        "a": "azure-content-moderation",
+        "b": "azure-app-certificates",
+        "similarity": 0.2503
+      }
+    ],
+    "azure-app-domains": [
+      {
+        "a": "m365-window",
+        "b": "azure-app-domains",
+        "similarity": 0.3816
+      },
+      {
+        "a": "azure-app-domains",
+        "b": "azure-compute-galleries",
+        "similarity": 0.34
+      },
+      {
+        "a": "azure-app-domains",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.3326
       }
     ],
     "azure-maintenance-config": [
