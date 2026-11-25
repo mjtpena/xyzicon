@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 613,
+  "approved": 625,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,18 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-general-documents",
-    "aws-general-email",
-    "aws-general-firewall",
-    "aws-general-folder",
-    "aws-general-folders",
-    "aws-service-management-connector",
-    "aws-devops-agent",
-    "aws-application-auto-scaling",
-    "aws-auto-scaling",
-    "aws-launch-wizard",
-    "aws-management-console",
-    "aws-appconfig",
     "aws-console-mobile",
     "aws-organizations",
     "aws-health-dashboard",
@@ -3209,13 +3197,13 @@
       },
       {
         "a": "azure-ai-at-edge",
-        "b": "aws-general-folders",
-        "similarity": 0.3582
+        "b": "aws-general-cold-storage",
+        "similarity": 0.3348
       },
       {
         "a": "azure-ai-at-edge",
-        "b": "aws-general-cold-storage",
-        "similarity": 0.3348
+        "b": "azure-fhir-service",
+        "similarity": 0.3074
       }
     ],
     "azure-workload-orchestration": [
@@ -8449,9 +8437,9 @@
         "similarity": 0.2656
       },
       {
-        "a": "azure-remote-rendering",
-        "b": "gcp-vmware-engine",
-        "similarity": 0.2535
+        "a": "gcp-vmware-engine",
+        "b": "aws-general-folders",
+        "similarity": 0.2549
       }
     ],
     "gcp-memorystore": [
@@ -12141,13 +12129,13 @@
       },
       {
         "a": "aws-documentdb-elastic-clusters",
-        "b": "aws-ecs-app-container",
-        "similarity": 0.2793
+        "b": "aws-general-folders",
+        "similarity": 0.3088
       },
       {
         "a": "aws-documentdb-elastic-clusters",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.2718
+        "b": "aws-ecs-app-container",
+        "similarity": 0.2793
       }
     ],
     "aws-rds-blue-green": [
@@ -12554,8 +12542,8 @@
       },
       {
         "a": "aws-redshift-streaming",
-        "b": "aws-general-folder",
-        "similarity": 0.2584
+        "b": "azure-public-ip-classic",
+        "similarity": 0.2572
       }
     ],
     "aws-lake-formation-data-lake": [
@@ -17275,13 +17263,13 @@
       },
       {
         "a": "azure-sonic-dash",
-        "b": "aws-general-folder",
-        "similarity": 0.2947
-      },
-      {
-        "a": "azure-sonic-dash",
         "b": "azure-folder-blank",
         "similarity": 0.2925
+      },
+      {
+        "a": "azure-business-process-tracking",
+        "b": "azure-sonic-dash",
+        "similarity": 0.2852
       }
     ],
     "azure-enclaves": [
@@ -22358,13 +22346,13 @@
       },
       {
         "a": "fabric-one-lake",
-        "b": "aws-general-programming-language",
-        "similarity": 0.2016
+        "b": "aws-general-folders",
+        "similarity": 0.2032
       },
       {
-        "a": "gcp-anthos",
-        "b": "fabric-one-lake",
-        "similarity": 0.2011
+        "a": "fabric-one-lake",
+        "b": "aws-general-programming-language",
+        "similarity": 0.2016
       }
     ],
     "aws-cloud9-resource": [
@@ -23139,14 +23127,14 @@
         "similarity": 0.1767
       },
       {
+        "a": "aws-iq",
+        "b": "aws-general-folders",
+        "similarity": 0.1632
+      },
+      {
         "a": "aws-tensorflow",
         "b": "aws-iq",
         "similarity": 0.1623
-      },
-      {
-        "a": "aws-iq",
-        "b": "aws-general-programming-language",
-        "similarity": 0.1618
       }
     ],
     "aws-managed-services": [
@@ -24811,8 +24799,8 @@
       },
       {
         "a": "aws-general-toolkit",
-        "b": "aws-aurora-instance",
-        "similarity": 0.3174
+        "b": "aws-general-folders",
+        "similarity": 0.3208
       }
     ],
     "aws-general-user": [
@@ -25429,36 +25417,36 @@
     ],
     "aws-general-folder": [
       {
-        "a": "aws-general-folder",
-        "b": "azure-folder-blank",
-        "similarity": 0.4026
+        "a": "azure-netapp-files",
+        "b": "aws-general-folder",
+        "similarity": 0.3243
       },
       {
         "a": "aws-general-folder",
-        "b": "aws-general-folders",
-        "similarity": 0.379
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.3166
       },
       {
         "a": "aws-general-folder",
-        "b": "azure-cost-management",
-        "similarity": 0.3398
+        "b": "fabric-document-ssis",
+        "similarity": 0.2981
       }
     ],
     "aws-general-folders": [
       {
-        "a": "aws-general-folder",
+        "a": "aws-general-toolkit",
         "b": "aws-general-folders",
-        "similarity": 0.379
-      },
-      {
-        "a": "azure-ai-at-edge",
-        "b": "aws-general-folders",
-        "similarity": 0.3582
+        "similarity": 0.3208
       },
       {
         "a": "aws-general-folders",
-        "b": "azure-notification-namespaces",
-        "similarity": 0.3483
+        "b": "azure-cost-management",
+        "similarity": 0.3156
+      },
+      {
+        "a": "aws-general-folders",
+        "b": "fabric-dual-screen-diff",
+        "similarity": 0.3145
       }
     ],
     "aws-service-management-connector": [
@@ -25973,11 +25961,6 @@
     ],
     "aws-thinkbox-xmesh": [
       {
-        "a": "aws-general-folders",
-        "b": "aws-thinkbox-xmesh",
-        "similarity": 0.3121
-      },
-      {
         "a": "aws-thinkbox-xmesh",
         "b": "azure-notification-namespaces",
         "similarity": 0.2989
@@ -25986,6 +25969,11 @@
         "a": "azure-monitor-pipeline",
         "b": "aws-thinkbox-xmesh",
         "similarity": 0.2882
+      },
+      {
+        "a": "aws-thinkbox-frost",
+        "b": "aws-thinkbox-xmesh",
+        "similarity": 0.281
       }
     ],
     "aws-elemental-appliances": [
@@ -29300,14 +29288,14 @@
         "similarity": 0.237
       },
       {
+        "a": "aws-general-folders",
+        "b": "gcp-category-compute",
+        "similarity": 0.2316
+      },
+      {
         "a": "fabric-mobile-report",
         "b": "gcp-category-compute",
         "similarity": 0.2195
-      },
-      {
-        "a": "azure-storage-queue",
-        "b": "gcp-category-compute",
-        "similarity": 0.2137
       }
     ],
     "gcp-category-containers": [
@@ -33160,11 +33148,6 @@
     ],
     "azure-folder-blank": [
       {
-        "a": "aws-general-folder",
-        "b": "azure-folder-blank",
-        "similarity": 0.4026
-      },
-      {
         "a": "azure-network-function-manager-functions",
         "b": "azure-folder-blank",
         "similarity": 0.31
@@ -33173,6 +33156,11 @@
         "a": "azure-folder-blank",
         "b": "fabric-folder",
         "similarity": 0.305
+      },
+      {
+        "a": "azure-launch-portal",
+        "b": "azure-folder-blank",
+        "similarity": 0.3018
       }
     ],
     "azure-folder-website": [
@@ -33476,9 +33464,9 @@
         "similarity": 0.3094
       },
       {
-        "a": "aws-general-folder",
+        "a": "aws-general-folders",
         "b": "azure-download",
-        "similarity": 0.2849
+        "similarity": 0.2898
       }
     ],
     "azure-general-error": [
@@ -33896,14 +33884,14 @@
         "similarity": 0.3104
       },
       {
-        "a": "aws-general-folder",
+        "a": "aws-general-firewall",
         "b": "azure-free-services",
-        "similarity": 0.3065
+        "similarity": 0.3032
       },
       {
-        "a": "aws-general-folders",
+        "a": "azure-storage-accounts-classic",
         "b": "azure-free-services",
-        "similarity": 0.3041
+        "similarity": 0.3027
       }
     ],
     "azure-cost-management": [
@@ -34066,14 +34054,14 @@
         "similarity": 0.3563
       },
       {
-        "a": "aws-general-folders",
-        "b": "azure-notification-namespaces",
-        "similarity": 0.3483
-      },
-      {
         "a": "azure-arc-sql-managed-instance",
         "b": "azure-notification-namespaces",
         "similarity": 0.3306
+      },
+      {
+        "a": "azure-cost-analysis",
+        "b": "azure-notification-namespaces",
+        "similarity": 0.3289
       }
     ],
     "azure-frontdoor-cdn-profiles": [
