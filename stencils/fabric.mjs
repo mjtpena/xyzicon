@@ -56,7 +56,7 @@ export const fabricArtwork = [
     variants("building_data", [20]),
     "A data center building carries a grid of records and a data connection.",
     [
-      polygon([18, 36], [63, 15], [109, 36], [109, 108], [18, 108]),
+      line([18, 36], [63, 15], [109, 36], [109, 108], [18, 108], [18, 36]),
       rect(29, 48, 21, 17), rect(58, 48, 21, 17, true), rect(87, 48, 12, 17),
       rect(29, 75, 21, 17), line([58, 84], [74, 84]),
       oval(79, 73, 24, 12), line([79, 79], [79, 97]), line([103, 79], [103, 97]),
@@ -87,7 +87,7 @@ export const fabricArtwork = [
     [
       rect(14, 37, 100, 68), line([43, 37], [43, 23], [84, 23], [84, 37]),
       line([14, 56], [114, 56]), line([52, 56], [52, 64], [75, 64], [75, 56]),
-      rect(63, 68, 39, 30, true), line([69, 92], [69, 85], [75, 85], [75, 92]),
+      rect(63, 68, 39, 30), line([69, 92], [69, 85], [75, 85], [75, 92]),
       line([80, 92], [80, 79], [86, 79], [86, 92]), line([91, 92], [91, 74], [97, 74], [97, 92]),
     ]),
   entry("fabric-categorize", "fabric", "Categorize",
