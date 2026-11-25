@@ -83,8 +83,11 @@ export const awsComputeDatabaseArtwork = [
     ["Res_Amazon-Aurora-PostgreSQL-Instance_48", "Res_Amazon-Aurora-PostgreSQL-Instance-Alternate_48"],
     "A database instance uses the PostgreSQL engine.",
     [
-      oval(17, 21, 59, 18), line([17, 30], [17, 79], [25, 85], [46, 88], [68, 85], [76, 79], [76, 30]), line([17, 49], [25, 55], [46, 57], [68, 55], [76, 49]),
-      line([35, 69], [35, 44], [45, 44], [51, 49], [48, 56], [35, 56]), line([57, 62], [65, 55], [71, 62], [71, 73], [65, 79], [58, 76]), line([92, 30], [105, 30], [105, 79], [92, 79]), line([14, 109], [110, 109]),
+      oval(15, 24, 42, 14), line([15, 31], [15, 79], [22, 85], [36, 87], [50, 85], [57, 79], [57, 31]), line([15, 54], [22, 60], [36, 62], [50, 60], [57, 54]),
+      rect(66, 36, 48, 42),
+      line([74, 69], [74, 45], [84, 45], [87, 49], [87, 55], [84, 58], [74, 58]),
+      line([106, 49], [103, 45], [96, 45], [93, 49], [93, 65], [96, 69], [104, 69], [107, 65], [107, 57], [100, 57]),
+      line([14, 109], [110, 109]),
     ]),
   entry("aws-oracle-db-instance", "aws", "Oracle Database Instance",
     ["Res_Amazon-Aurora-Oracle-Instance_48", "Res_Amazon-Aurora-Oracle-Instance-Alternate_48"],

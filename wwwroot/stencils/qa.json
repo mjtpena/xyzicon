@@ -3,1103 +3,9 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 1213,
-  "needsReview": [
-    "azure-intune-ebooks",
-    "azure-intune-client-apps",
-    "azure-intune-devices",
-    "azure-device-compliance",
-    "azure-software-updates",
-    "azure-security-baselines",
-    "azure-device-enrollment",
-    "azure-device-configuration",
-    "azure-exchange-access",
-    "azure-tenant-status",
-    "azure-intune-education",
-    "azure-intune-app-protection",
-    "azure-entra-connect-sync",
-    "azure-user-subscriptions",
-    "azure-entra-domain-services",
-    "azure-identity-groups",
-    "azure-entra-connect-health",
-    "azure-enterprise-applications",
-    "azure-ad-b2c",
-    "azure-directory-users",
-    "azure-entra-id-protection",
-    "azure-app-registrations",
-    "azure-identity-governance",
-    "azure-identity-roles-administrators",
-    "azure-multi-factor-authentication",
-    "azure-global-secure-access",
-    "azure-external-identities",
-    "azure-entra-private-access",
-    "azure-entra-internet-access",
-    "azure-external-id",
-    "azure-external-id-modified",
-    "azure-identity-security",
-    "azure-administrative-units",
-    "azure-multi-tenancy",
-    "azure-verifiable-credentials",
-    "azure-privileged-identity-management",
-    "azure-api-proxy",
-    "azure-tenant-properties",
-    "azure-custom-identity-roles",
-    "azure-identity-licenses",
-    "azure-entra-connect",
-    "azure-entra-verified-id",
-    "azure-verification-service",
-    "azure-machine-learning-classic",
-    "azure-applied-ai",
-    "azure-frd-qa",
-    "azure-ml-classic-web-services",
-    "azure-ml-studio-workspaces",
-    "azure-ml-web-service-plans",
-    "azure-cognitive-decisions",
-    "azure-serverless-search",
-    "azure-cognitive-search",
-    "azure-bonsai",
-    "azure-planetary-computer",
-    "azure-language",
-    "azure-genomics-accounts",
-    "azure-bot-services",
-    "azure-cognitive-services",
-    "azure-openai",
-    "azure-ai-studio",
-    "azure-foundry-iq",
-    "azure-machine-learning",
-    "azure-foundry-application",
-    "azure-foundry-agent-service",
-    "azure-foundry-control-plane",
-    "azure-foundry-labs",
-    "azure-ai-foundry",
-    "azure-foundry-project",
-    "azure-foundry-local",
-    "azure-foundry-models",
-    "azure-batch-ai",
-    "azure-genomics",
-    "azure-computer-vision",
-    "azure-custom-vision",
-    "azure-face-api",
-    "azure-content-moderation",
-    "azure-personalizer",
-    "azure-speech",
-    "azure-qna",
-    "azure-translator",
-    "azure-language-understanding",
-    "azure-immersive-reader",
-    "azure-anomaly-detector",
-    "azure-form-recognizer",
-    "azure-experimentation",
-    "azure-object-understanding",
-    "azure-metrics-advisor",
-    "azure-content-safety",
-    "azure-edge-management",
-    "azure-connected-vehicle-platform",
-    "azure-open-supply-chain-platform",
-    "azure-sphere",
-    "azure-defender-industrial-robot",
-    "azure-defender-meter",
-    "azure-defender-plc",
-    "azure-defender-pneumatic",
-    "azure-defender-programmable-board",
-    "azure-defender-relay",
-    "azure-defender-rtu",
-    "azure-defender-dcs-controller",
-    "azure-defender-distributed-control",
-    "azure-defender-robot-controller",
-    "azure-defender-sensor",
-    "azure-defender-slot",
-    "azure-defender-web-guiding",
-    "azure-defender-engineering-station",
-    "azure-defender-packaging",
-    "azure-defender-printer",
-    "azure-defender-scale",
-    "azure-defender-local-manager",
-    "azure-defender-external-management",
-    "azure-defender-freezer-monitor",
-    "azure-defender-historian",
-    "azure-defender-hmi",
-    "azure-defender-marquee",
-    "azure-digital-twins",
-    "azure-industrial-iot",
-    "azure-stack-hci-sizer",
-    "azure-stack-hci-premium",
-    "azure-iot-operations",
-    "azure-hybrid-connectivity-hub",
-    "azure-time-series-environments",
-    "azure-iot-hub",
-    "azure-iot-central-applications",
-    "azure-maps-accounts",
-    "azure-iot-edge",
-    "azure-time-series-event-sources",
-    "azure-time-series-access-policies",
-    "azure-time-series-data-sets",
-    "azure-windows-core-services",
-    "azure-device-provisioning",
-    "azure-mission-landing-zone",
-    "azure-exchange-on-premises-access",
-    "azure-ai-gateway",
-    "azure-sonic-dash",
-    "azure-enclaves",
-    "azure-aks-istio",
-    "azure-network-function-manager",
-    "azure-mobile-networks",
-    "azure-edge-hardware-center",
-    "azure-expressroute-direct",
-    "azure-communication-services",
-    "azure-peering-service",
-    "azure-peerings",
-    "azure-network-function-manager-functions",
-    "azure-edge-actions",
-    "azure-communications-gateway",
-    "azure-application-gateway-containers",
-    "azure-dns-multistack",
-    "azure-traffic-manager-multistack",
-    "azure-virtual-wans",
-    "azure-public-ip-classic",
-    "azure-reserved-ip-classic",
-    "azure-public-ip-prefixes",
-    "azure-classic-virtual-network",
-    "azure-on-premises-data-gateway",
-    "azure-local-network-gateway",
-    "azure-expressroute-circuits",
-    "azure-network-interfaces",
-    "azure-network-connections",
-    "azure-service-endpoint-policies",
-    "azure-dns-security-policy",
-    "azure-vnet-appliance",
-    "azure-ip-address-manager",
-    "azure-network-foundation-hub",
-    "azure-network-security-hub",
-    "azure-vpn-client-windows",
-    "azure-traffic-manager-profiles",
-    "azure-route-filters",
-    "azure-proximity-placement-groups",
-    "azure-firewall-manager",
-    "azure-firewall-policy",
-    "azure-ip-groups",
-    "azure-virtual-wan-hub",
-    "azure-resource-management-private-link",
-    "azure-load-balancer-hub",
-    "azure-bastions",
-    "azure-connected-cache",
-    "azure-spot-vm",
-    "azure-spot-vmss",
-    "microsoft-azure-platform",
-    "azure-aquila",
-    "microsoft-discovery",
-    "azure-support-center",
-    "azure-prometheus",
-    "azure-virtual-visits-builder",
-    "azure-monitor-dashboard",
-    "azure-managed-grafana",
-    "azure-icm-troubleshooting",
-    "azure-keys",
-    "azure-sustainability",
-    "azure-osconfig",
-    "azure-consumption-commitment",
-    "azure-monitor-health-models",
-    "azure-attestation",
-    "azure-web-jobs",
-    "azure-targets-management",
-    "azure-app-compliance-automation",
-    "azure-storage-mover",
-    "azure-expressroute-traffic-collector",
-    "azure-resource-guard",
-    "azure-update-management-center",
-    "azure-savings-plans",
-    "azure-compliance-center",
-    "azure-network-security-perimeters",
-    "azure-quotas",
-    "azure-reserved-capacity",
-    "azure-capacity-reservation-groups",
-    "azure-custom-ip-prefix",
-    "azure-confidential-ledgers",
-    "azure-orbital",
-    "azure-windows-notification-services",
-    "azure-test-base",
-    "azure-chaos-studio",
-    "azure-network-managers",
-    "azure-dedicated-hsm",
-    "azure-modular-data-center",
-    "azure-template-specs",
-    "azure-backup-vault",
-    "azure-device-update-iot-hub",
-    "azure-toolchain-orchestrator",
-    "azure-landing-zone",
-    "azure-data-transfer",
-    "azure-resiliency",
-    "azure-internet-analyzer-profiles",
-    "azure-cloud-shell",
-    "azure-video-analyzers",
-    "azure-video-indexer",
-    "azure-ssh-keys",
-    "azure-cost-export",
-    "azure-log-analytics-query-pack",
-    "azure-dashboard-hub",
-    "azure-data-collection-rules",
-    "azure-resource-mover",
-    "azure-ddos-custom-policy",
-    "azure-disconnected-operations",
-    "azure-arc-machines",
-    "azure-machines-azure-arc",
-    "azure-resources-provider",
-    "azure-managed-applications-center",
-    "azure-service-catalog-mad",
-    "azure-intune-trends",
-    "azure-lighthouse",
-    "azure-arc",
-    "azure-service-group-relationships",
-    "azure-user-privacy",
-    "azure-managed-desktop",
-    "azure-customer-lockbox",
-    "azure-policy",
-    "azure-resource-graph-explorer",
-    "azure-alerts",
-    "azure-advisor",
-    "azure-blueprints",
-    "azure-scheduler-job-collections",
-    "azure-governance-compliance",
-    "azure-my-customers",
-    "azure-solutions",
-    "azure-automation-accounts",
-    "azure-operation-log-classic",
-    "azure-service-providers",
-    "azure-education",
-    "azure-universal-print",
-    "fabric-copilot",
-    "fabric-data-engineering",
-    "fabric-data-science",
-    "fabric-data-warehouse-product",
-    "fabric-databases",
-    "fabric-platform",
-    "fabric-graph-intelligence",
-    "fabric-power-bi",
-    "fabric-purview",
-    "fabric-real-time-intelligence",
-    "fabric-one-lake",
-    "aws-waf",
-    "aws-network-firewall",
-    "aws-macie",
-    "aws-security-lake",
-    "aws-shield",
-    "aws-security-incident-response",
-    "aws-audit-manager",
-    "aws-artifact",
-    "aws-signer",
-    "aws-private-ca",
-    "aws-verified-permissions",
-    "aws-directory-service",
-    "aws-firewall-manager",
-    "aws-resource-access-manager",
-    "aws-payment-cryptography",
-    "aws-cloud-directory",
-    "aws-file-cache",
-    "aws-s3-on-outposts",
-    "aws-s3-glacier",
-    "aws-application-recovery-controller",
-    "aws-backup",
-    "aws-elastic-disaster-recovery",
-    "aws-efs",
-    "aws-fsx",
-    "aws-snowball",
-    "aws-snowball-edge",
-    "aws-storage-gateway",
-    "aws-data-transfer-terminal",
-    "aws-fsx-lustre",
-    "aws-fsx-ontap",
-    "aws-fsx-openzfs",
-    "aws-fsx-windows",
-    "m365-folder-open-vertical",
-    "m365-grid-circles",
-    "m365-handshake",
-    "m365-mail-error",
-    "m365-panel-left-header-key",
-    "m365-tablet-laptop",
-    "m365-cloud",
-    "m365-cloud-add",
-    "m365-cloud-download",
-    "m365-cloud-upload",
-    "m365-cloud-beaker",
-    "m365-cloud-cube",
-    "m365-cloud-database",
-    "m365-cloud-desktop",
-    "m365-document",
-    "m365-document-page",
-    "m365-document-bullets",
-    "m365-document-bullets-multiple",
-    "m365-clipboard",
-    "m365-task-list-ltr",
-    "m365-text-bullet-list",
-    "m365-text-bullet-list-square",
-    "m365-number-circle-one",
-    "m365-number-circle-two",
-    "m365-number-circle-three",
-    "m365-number-circle-four",
-    "aws-vpc-peering",
-    "aws-vpc-reachability",
-    "aws-vpc-router",
-    "aws-vpc-vpn-connection",
-    "aws-vpc-vpn-gateway",
-    "aws-elb-application",
-    "aws-elb-classic",
-    "aws-elb-gateway",
-    "aws-elb-network",
-    "aws-vpc-carrier-gateway",
-    "aws-vpc-customer-gateway",
-    "aws-vpc-network-adapter",
-    "aws-vpc-network-interface",
-    "aws-vpc-endpoints",
-    "aws-vpc-flow-logs",
-    "aws-vpc-access-analyzer",
-    "aws-vpc-network-acl",
-    "aws-route53-hosted-zone",
-    "aws-route53-readiness",
-    "aws-route53-dns-firewall",
-    "aws-route53-query-logging",
-    "aws-route53-resolver",
-    "aws-route53-route-table",
-    "aws-route53-routing-controls",
-    "aws-cloud-wan-edge",
-    "aws-cloud-wan-segment",
-    "aws-cloud-wan-transit-attachment",
-    "aws-direct-connect-gateway",
-    "aws-transit-gateway-attachment",
-    "aws-api-gateway-endpoint",
-    "aws-app-mesh-mesh",
-    "aws-app-mesh-virtual-gateway",
-    "aws-app-mesh-virtual-node",
-    "aws-app-mesh-virtual-router",
-    "aws-app-mesh-virtual-service",
-    "aws-cloud-map-namespace",
-    "aws-cloud-map-resource",
-    "aws-cloud-map-service",
-    "aws-cloudfront-download",
-    "aws-cloudfront-edge-location",
-    "aws-cloudfront-functions",
-    "aws-cloudfront-streaming",
-    "aws-vpc-nat-gateway",
-    "aws-vpc-internet-gateway",
-    "aws-vpc-traffic-mirroring",
-    "aws-rtb-fabric",
-    "aws-private-subnet",
-    "aws-public-subnet",
-    "aws-region-group",
-    "aws-app-mesh",
-    "aws-client-vpn",
-    "aws-cloud-map",
-    "aws-cloud-wan",
-    "aws-direct-connect",
-    "aws-global-accelerator",
-    "aws-interconnect",
-    "aws-privatelink",
-    "aws-site-vpn",
-    "aws-transit-gateway",
-    "aws-verified-access",
-    "aws-vpc-lattice",
-    "aws-vpc",
-    "aws-elastic-load-balancing",
-    "gcp-category-ai",
-    "gcp-category-agents",
-    "gcp-category-business-intelligence",
-    "gcp-category-collaboration",
-    "gcp-category-compute",
-    "gcp-category-containers",
-    "gcp-category-data-analytics",
-    "gcp-category-devops",
-    "gcp-category-databases",
-    "gcp-category-devtools",
-    "gcp-category-hybrid",
-    "gcp-category-integration",
-    "gcp-category-management",
-    "gcp-category-maps",
-    "gcp-category-marketplace",
-    "gcp-category-media",
-    "gcp-category-migration",
-    "gcp-category-mixed-reality",
-    "gcp-category-networking",
-    "gcp-category-observability",
-    "gcp-category-operations",
-    "gcp-category-security",
-    "gcp-category-serverless",
-    "gcp-category-storage",
-    "gcp-category-web-mobile",
-    "gcp-category-web3",
-    "fabric-arrow-down-double",
-    "fabric-arrow-down-double-wrap",
-    "fabric-arrow-drill",
-    "fabric-arrow-exit-multiple",
-    "fabric-arrow-export-import",
-    "fabric-arrow-forward-circle",
-    "fabric-arrow-right-double",
-    "fabric-arrow-right-double-wrap",
-    "fabric-arrow-sort",
-    "fabric-arrow-sync-settings",
-    "fabric-arrow-trend",
-    "fabric-binoculars",
-    "fabric-asterisk",
-    "fabric-asterisk-circle",
-    "fabric-commit",
-    "fabric-commit-circle",
-    "aws-account-group",
-    "aws-cloud-group",
-    "aws-greengrass-deployment-group",
-    "aws-auto-scaling-group",
-    "aws-corporate-data-center",
-    "aws-ec2-instance-contents",
-    "aws-server-contents",
-    "aws-spot-fleet",
-    "aws-aurora-instance",
-    "aws-rds-instance",
-    "aws-mariadb-instance",
-    "aws-mysql-instance",
-    "aws-postgresql-instance",
-    "aws-oracle-db-instance",
-    "aws-sql-server-instance",
-    "aws-provisioned-iops-instance",
-    "aws-elasticache-memcached",
-    "aws-elasticache-redis",
-    "aws-elasticache-valkey",
-    "aws-rds-proxy-instance",
-    "aws-database-migration-workflow",
-    "aws-dynamodb-standard-table-class",
-    "aws-dynamodb-infrequent-table-class",
-    "aws-elasticache-node",
-    "aws-rds-multi-az-cluster",
-    "aws-rds-multi-az",
-    "aws-rds-optimized-writes",
-    "aws-postgresql-trusted-extensions",
-    "aws-ecr-image",
-    "aws-ecr-registry",
-    "aws-ecs-container",
-    "aws-ecs-compute-container",
-    "aws-ecs-app-container",
-    "aws-ecs-copilot-cli",
-    "aws-ecs-service-connect",
-    "aws-ecs-service",
-    "aws-ecs-task",
-    "aws-eks-outposts",
-    "aws-ec2-microservice-extractor",
-    "aws-ec2-auto-scaling",
-    "aws-ec2-db-instance",
-    "aws-ec2-elastic-ip",
-    "aws-ec2-cloudwatch-instance",
-    "aws-ec2-instance",
-    "aws-ec2-instances",
-    "aws-ec2-rescue",
-    "aws-ec2-spot-instance",
-    "aws-beanstalk-application",
-    "aws-beanstalk-deployment",
-    "aws-lambda-function",
-    "aws-ec2-ami",
-    "aws-database-migration",
-    "aws-aurora",
-    "aws-documentdb",
-    "aws-keyspaces",
-    "aws-memorydb",
-    "aws-neptune",
-    "aws-timestream",
-    "aws-oracle-database",
-    "aws-app-runner",
-    "aws-nitro-enclaves",
-    "aws-parallel-cluster",
-    "aws-serverless-repository",
-    "aws-ec2-image-builder",
-    "aws-lightsail",
-    "aws-fargate",
-    "aws-category-front-end",
-    "aws-category-security",
-    "aws-elastic-inference",
-    "aws-quick",
-    "aws-category-customer-enablement",
-    "aws-category-customer-experience",
-    "aws-category-hybrid",
-    "aws-category-migration",
-    "aws-category-media",
-    "aws-category-networking",
-    "aws-category-storage",
-    "aws-category-serverless",
-    "aws-category-app-integration",
-    "aws-category-business-applications",
-    "aws-category-ai",
-    "aws-category-management",
-    "aws-category-games",
-    "aws-category-developer-tools",
-    "aws-category-end-user",
-    "aws-category-financial",
-    "aws-category-analytics",
-    "aws-category-containers",
-    "aws-category-compute",
-    "aws-category-databases",
-    "aws-category-blockchain",
-    "aws-category-quantum",
-    "aws-category-satellite",
-    "aws-category-iot",
-    "aws-freertos",
-    "aws-telco-network-builder",
-    "aws-braket",
-    "aws-open-3d-engine",
-    "aws-ground-station",
-    "aws-local-zones",
-    "aws-wavelength",
-    "aws-outposts-family",
-    "aws-simspace-weaver",
-    "aws-parallel-computing",
-    "aws-app-studio",
-    "aws-amplify",
-    "aws-device-farm",
-    "aws-lightsail-research",
-    "aws-bottlerocket",
-    "aws-elastic-fabric-adapter",
-    "aws-dcv",
-    "aws-elastic-vmware",
-    "aws-ecs-anywhere",
-    "aws-eks-anywhere",
-    "aws-eks-distro",
-    "aws-iot-fleetwise",
-    "aws-iot-device-management",
-    "aws-iot-greengrass",
-    "aws-iot-sitewise",
-    "aws-iot-twinmaker",
-    "azure-fiji",
-    "azure-mindaro",
-    "azure-agentic-web-apps",
-    "azure-hdi-aks-cluster",
-    "azure-rtos",
-    "azure-scvmm-management-servers",
-    "azure-cloud-services-extended-support",
-    "azure-hpc-workbenches",
-    "azure-wac",
-    "azure-wac-installer",
-    "azure-virtual-instance-sap",
-    "azure-center-sap",
-    "azure-sap-central-services",
-    "azure-sap-database-instance",
-    "azure-dev-box",
-    "azure-deployment-environments",
-    "azure-dev-tunnels",
-    "azure-vmware-solution",
-    "azure-avs-vm",
-    "azure-web-app-database",
-    "azure-vm-app-definitions",
-    "azure-vm-app-versions",
-    "azure-community-images",
-    "azure-vm-image-version",
-    "azure-worker-container-app",
-    "azure-container-app-environments",
-    "azure-kubernetes-fleet-manager",
-    "azure-disk-pool",
-    "azure-bare-metal-infrastructure",
-    "azure-biztalk",
-    "azure-toolbox",
-    "azure-versions",
-    "azure-website-staging",
-    "azure-web-slots",
-    "azure-web-test",
-    "azure-general-workbooks",
-    "azure-general-workflow",
-    "azure-backlog",
-    "azure-general-media",
-    "azure-module",
-    "azure-search-grid",
-    "azure-feature-previews",
-    "azure-process-explorer",
-    "azure-production-ready-database",
-    "azure-resource-group-list",
-    "azure-resource-linked",
-    "azure-scheduler",
-    "azure-search",
-    "azure-server-farm",
-    "azure-ssd",
-    "azure-table",
-    "azure-tags",
-    "azure-tfs-vc-repository",
-    "azure-launch-portal",
-    "azure-learn",
-    "azure-load-test",
-    "azure-location",
-    "azure-log-streaming",
-    "azure-management-portal",
-    "azure-media-file",
-    "azure-mobile",
-    "azure-mobile-engagement",
-    "azure-power",
-    "azure-powershell",
-    "azure-power-up",
-    "azure-folder-blank",
-    "azure-folder-website",
-    "azure-ftp",
-    "azure-gear",
-    "azure-globe-error",
-    "azure-globe-success",
-    "azure-globe-warning",
-    "azure-guide",
-    "azure-heart",
-    "azure-general-image",
-    "azure-input-output",
-    "azure-controls-horizontal",
-    "azure-cost-alerts",
-    "azure-cost-analysis",
-    "azure-cost-budgets",
-    "azure-counter",
-    "azure-cubes",
-    "azure-dev-console",
-    "azure-download",
-    "azure-general-error",
-    "azure-extensions",
-    "azure-file",
-    "azure-files",
-    "azure-troubleshoot",
-    "azure-resource-explorer",
-    "azure-blob-block",
-    "azure-blob-page",
-    "azure-branch",
-    "azure-browser",
-    "azure-bug",
-    "azure-builds",
-    "azure-cache",
-    "azure-code",
-    "azure-commit",
-    "azure-controls",
-    "azure-preview-features",
-    "azure-all-resources",
-    "azure-information",
-    "azure-recent",
-    "azure-templates",
-    "azure-help-support",
-    "azure-tag",
-    "azure-dashboard",
-    "azure-free-services",
-    "azure-cost-management",
-    "azure-marketplace-management",
-    "azure-region-management",
-    "azure-static-apps",
-    "azure-api-center",
-    "azure-power-platform",
-    "azure-app-space",
-    "azure-app-space-component",
-    "azure-signalr",
-    "azure-notification-namespaces",
-    "azure-frontdoor-cdn-profiles",
-    "azure-media-service",
-    "azure-change-analysis",
-    "azure-devops-starter",
-    "azure-managed-devops-pools",
-    "azure-workspace-gateway",
-    "azure-api-connections",
-    "azure-devops",
-    "azure-app-testing",
-    "azure-cloudtest",
-    "azure-lab-services",
-    "azure-lab-accounts",
-    "azure-code-optimization",
-    "azure-service-groups",
-    "azure-aks-network-policy",
-    "azure-openshift",
-    "azure-kubernetes-hub",
-    "azure-container-storage",
-    "azure-container-services-classic",
-    "azure-spring-apps",
-    "azure-virtual-machines-classic",
-    "azure-images-classic",
-    "azure-images",
-    "azure-image-definitions",
-    "azure-image-versions",
-    "azure-image-gallery",
-    "azure-workspaces-grid",
-    "azure-workspaces-select",
-    "azure-stage-maps",
-    "azure-mesh-applications",
-    "azure-cloud-services-classic",
-    "azure-app-service-plans",
-    "azure-cdn-profiles",
-    "azure-load-testing",
-    "azure-devtest-labs",
-    "azure-resource-groups",
-    "azure-marketplace",
-    "azure-quickstart-center",
-    "azure-management-groups",
-    "azure-cost-management-billing",
-    "azure-subscriptions",
-    "azure-reservations",
-    "azure-service-health",
-    "azure-app-service-environments",
-    "azure-aks-automatic",
-    "azure-linux",
-    "azure-managed-service-fabric",
-    "azure-notification-hubs",
-    "azure-app-certificates",
-    "azure-app-domains",
-    "azure-maintenance-config",
-    "azure-host-pools",
-    "azure-application-group",
-    "azure-disk-encryption",
-    "azure-automanaged-vm",
-    "azure-image-templates",
-    "azure-restore-point",
-    "azure-restore-collection",
-    "azure-compute-galleries",
-    "azure-scheduled-actions",
-    "azure-compute-fleet",
-    "azure-availability-sets",
-    "azure-disk-snapshot",
-    "azure-batch-accounts",
-    "azure-disks",
-    "azure-vm-scale-sets",
-    "azure-service-fabric-clusters",
-    "azure-host-groups",
-    "azure-hosts",
-    "fabric-cube-cone-sphere",
-    "fabric-area-location",
-    "fabric-bar-edit",
-    "fabric-circle-chart",
-    "fabric-hexagons",
-    "fabric-home-waves",
-    "fabric-bar-prohibited",
-    "fabric-database-pulse",
-    "fabric-gift-warning",
-    "fabric-iot-person",
-    "fabric-three-shapes",
-    "fabric-overlapping-squares",
-    "fabric-add-pipeline",
-    "fabric-folder",
-    "fabric-group-workspace",
-    "fabric-import-notebook",
-    "fabric-my-workspace",
-    "fabric-sample",
-    "fabric-data-bar-trend",
-    "fabric-data-bar-highlight",
-    "fabric-data-bar-lightning",
-    "fabric-datatype-any",
-    "fabric-datatype-byte",
-    "fabric-document-people",
-    "fabric-document-shapes",
-    "fabric-document-sql",
-    "fabric-document-tree",
-    "fabric-document-hint",
-    "fabric-documents-question",
-    "fabric-document-sparkles",
-    "fabric-document-ssis",
-    "fabric-document-ssis-play",
-    "fabric-documents-dax-export",
-    "fabric-document-tmdl-export",
-    "fabric-diagram-branch-link",
-    "fabric-diagram-arrows",
-    "fabric-board-lightning-asterisk",
-    "fabric-board-lightning-kql",
-    "fabric-board-lightning-sparkle",
-    "fabric-shapes-curved-arrow",
-    "fabric-shapes-curved-arrow-new",
-    "fabric-shapes-forward-arrow",
-    "fabric-equal",
-    "fabric-not-equal-circle",
-    "fabric-funnel",
-    "fabric-funnel-add",
-    "fabric-filter-settings",
-    "fabric-dual-screen-diff",
-    "fabric-endpoint",
-    "fabric-folder-data-bars",
-    "fabric-globe-settings",
-    "fabric-hexagons-add",
-    "fabric-hint-grid",
-    "fabric-home-lightning",
-    "fabric-home-tree",
-    "fabric-layer-add",
-    "fabric-library-globe",
-    "fabric-library-people",
-    "fabric-library-person",
-    "fabric-location-download",
-    "fabric-location-database",
-    "fabric-location-radar",
-    "fabric-nodes-triangle",
-    "fabric-match-category",
-    "fabric-notebook-export",
-    "fabric-notebook-globe",
-    "fabric-list-asterisk",
-    "fabric-list-kql",
-    "fabric-list-sql",
-    "fabric-sql-lock",
-    "fabric-person-warning",
-    "fabric-person-wrench",
-    "fabric-phone-data-bars",
-    "fabric-pipeline-note",
-    "fabric-receipt-sparkle",
-    "fabric-receipt-sparkle-new",
-    "fabric-rectangle-exit-down",
-    "fabric-rectangle-arrow-up",
-    "fabric-rectangle-exit-up",
-    "fabric-rectangle-list-asterisk",
-    "fabric-rectangles-curve-left",
-    "fabric-rectangles-curve-right",
-    "fabric-shapes",
-    "fabric-shapes-lightning",
-    "fabric-shapes-settings",
-    "fabric-shapes-toolbox",
-    "fabric-scan-categorize",
-    "fabric-save-phone",
-    "fabric-shopping-data-bars",
-    "fabric-signal-square",
-    "fabric-signal-tower",
-    "fabric-slide-accept-dismiss",
-    "fabric-slide-ribbon",
-    "fabric-slide-window",
-    "fabric-squares-multiple",
-    "fabric-squares-arrow-up",
-    "fabric-squares-data-bars",
-    "fabric-squares-diagram",
-    "fabric-squares-diagram-new",
-    "fabric-squares-eye",
-    "fabric-table-export",
-    "fabric-table-left-border",
-    "fabric-table-broom",
-    "fabric-table-database",
-    "fabric-table-external",
-    "fabric-table-key",
-    "fabric-table-function",
-    "fabric-table-header",
-    "fabric-table-link",
-    "fabric-table-link-lightning",
-    "fabric-table-link-triangle",
-    "fabric-script-sparkle",
-    "fabric-script-sparkle-add",
-    "fabric-script-kql-add",
-    "fabric-receipt-kql-new",
-    "fabric-tables-curve-right",
-    "fabric-tables-curve-right-new",
-    "fabric-table-cdc",
-    "fabric-table-triangle",
-    "fabric-number-field",
-    "fabric-number-sequence",
-    "fabric-text-py",
-    "fabric-tooltip-data-bars",
-    "fabric-trophy-data-bars",
-    "fabric-vehicle-ship",
-    "fabric-vehicle-subway",
-    "fabric-window-asterisk-new",
-    "fabric-window-list-filter",
-    "fabric-window-code",
-    "fabric-window-database-arrow",
-    "fabric-window-gauge",
-    "fabric-window-interface",
-    "fabric-window-person",
-    "fabric-window-relationship",
-    "fabric-window-relationship-off",
-    "fabric-window-sparkle",
-    "fabric-window-sparkle-new",
-    "fabric-window-math",
-    "fabric-window-synapse-link",
-    "fabric-window-tree",
-    "fabric-window-tree-export",
-    "fabric-number-function",
-    "fabric-orientation-vertical",
-    "fabric-rectangle-diff",
-    "fabric-info",
-    "fabric-send-circle",
-    "fabric-ellipse",
-    "fabric-squares-add",
-    "fabric-square-text",
-    "fabric-list-pulse",
-    "fabric-lambda-glyph",
-    "fabric-sample-workload",
-    "fabric-industry-solutions",
-    "fabric-database-add",
-    "fabric-database-enter",
-    "fabric-database-badge-asterisk",
-    "fabric-database-crown",
-    "fabric-database-dismiss",
-    "fabric-database-globe",
-    "fabric-database-money",
-    "fabric-databases-kql",
-    "fabric-database-badge-pulse",
-    "fabric-database-ribbon",
-    "fabric-database-swap",
-    "fabric-database-table",
-    "fabric-documents-dax",
-    "fabric-documents-pulse",
-    "fabric-document-rdl",
-    "fabric-document-tmdl",
-    "fabric-datatype-binary",
-    "fabric-datatype-boolean",
-    "fabric-datatype-string",
-    "fabric-datatype-long",
-    "fabric-datatype-short",
-    "fabric-calculator-number",
-    "fabric-odata",
-    "fabric-schema",
-    "fabric-datatype-decimal",
-    "fabric-datatype-double",
-    "fabric-datatype-float",
-    "fabric-datatype-integer",
-    "fabric-document-power-query",
-    "fabric-gauge-kql",
-    "fabric-home-kql",
-    "fabric-receipt-kql",
-    "fabric-table-kql",
-    "fabric-column-brackets",
-    "fabric-column-function",
-    "fabric-column-question",
-    "fabric-column-sigma",
-    "fabric-database-up-down",
-    "fabric-overlap-kql",
-    "fabric-stream-settings-bracket",
-    "fabric-datatype-uid",
-    "fabric-branch-link",
-    "fabric-briefcase-pulse",
-    "fabric-retail-link",
-    "fabric-database-forward",
-    "fabric-databases-transfer",
-    "fabric-diagram-branch",
-    "fabric-diagram-sync",
-    "fabric-folder-table",
-    "fabric-partition-hint",
-    "fabric-progress-circle",
-    "fabric-square-waves",
-    "fabric-stream-bracket",
-    "fabric-stream-settings",
-    "fabric-cloud-endpoint",
-    "fabric-connector",
-    "fabric-cloud-up-down",
-    "fabric-code-text-flash",
-    "fabric-folder-share",
-    "fabric-database-checkmark",
-    "fabric-calendar-toolbox",
-    "fabric-airplane",
-    "fabric-app-folder-pulse",
-    "fabric-curved-right-circle",
-    "fabric-bookmark-data-bar",
-    "fabric-checked-documents",
-    "fabric-stacked-text",
-    "fabric-square-transfer",
-    "fabric-square-database",
-    "fabric-global-transfer",
-    "fabric-overlapping-squares-line",
-    "fabric-person-pulse",
-    "fabric-person-settings",
-    "fabric-bracket-rectangles",
-    "fabric-column-uneven",
-    "fabric-column-double-caret",
-    "fabric-column-inline",
-    "fabric-column-relationship",
-    "fabric-column-single",
-    "fabric-border-inside-all",
-    "fabric-border-inside-horizontal",
-    "fabric-border-inside-vertical",
-    "fabric-border-none-eye",
-    "fabric-calculator-brackets",
-    "fabric-calculator-brackets-number",
-    "fabric-calculator-multiple-brackets",
-    "fabric-calculator-multiple-brackets-number",
-    "fabric-branch-edit",
-    "fabric-calculator-triangle",
-    "fabric-chart-phone",
-    "fabric-database-sync",
-    "fabric-database-asterisk",
-    "fabric-list-shield",
-    "fabric-lock-circle",
-    "fabric-database-lock",
-    "fabric-location-ribbon",
-    "fabric-trophy-prohibited",
-    "fabric-locked-columns",
-    "fabric-locked-rows",
-    "fabric-stack-key",
-    "fabric-table-wand",
-    "fabric-toggle-sparkles",
-    "fabric-window-asterisk",
-    "fabric-window-check",
-    "fabric-window-pulse",
-    "fabric-calendar-clock",
-    "fabric-calendar-lightning",
-    "fabric-calendar-up",
-    "fabric-calendar-link",
-    "fabric-calendar-person",
-    "fabric-calendar-prohibited",
-    "fabric-calendar-signal",
-    "fabric-data-graph",
-    "fabric-data-tree",
-    "fabric-double-pie",
-    "fabric-progress-bars",
-    "fabric-stream-search",
-    "fabric-histogram-function",
-    "fabric-connected-nodes"
-  ],
+  "approved": 2229,
+  "needsReview": [],
   "flaggedPairs": [
-    {
-      "a": "fabric-list-kql",
-      "b": "fabric-list-sql",
-      "similarity": 0.8186,
-      "review": "distinct",
-      "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
-    },
-    {
-      "a": "fabric-window-relationship",
-      "b": "fabric-window-relationship-off",
-      "similarity": 0.7813,
-      "review": "distinct",
-      "notes": "The disabled relationship carries a long diagonal slash; the active relationship does not."
-    },
-    {
-      "a": "fabric-window-code",
-      "b": "fabric-window-sparkle",
-      "similarity": 0.7674,
-      "review": "distinct",
-      "notes": "Code uses two separated angle brackets; sparkle is a closed four-point star."
-    },
-    {
-      "a": "fabric-window-asterisk-new",
-      "b": "fabric-window-sparkle-new",
-      "similarity": 0.7477,
-      "review": "distinct",
-      "notes": "The asterisk has six intersecting rays; the sparkle is a closed four-point star."
-    },
-    {
-      "a": "fabric-window-gauge",
-      "b": "fabric-window-synapse-link",
-      "similarity": 0.7393,
-      "review": "distinct",
-      "notes": "The gauge has an arch and diagonal needle; Synapse link has a horizontal line through a small circle and open ring."
-    },
-    {
-      "a": "fabric-table-link-lightning",
-      "b": "fabric-table-link-triangle",
-      "similarity": 0.7386,
-      "review": "distinct",
-      "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
-    },
-    {
-      "a": "fabric-location-download",
-      "b": "fabric-location-radar",
-      "similarity": 0.7266,
-      "review": "distinct",
-      "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
-    },
-    {
-      "a": "fabric-table-database",
-      "b": "fabric-table-triangle",
-      "similarity": 0.7177,
-      "review": "distinct",
-      "notes": "The database has a cylinder with an oval top; the triangle has three straight sides and a pointed top."
-    },
-    {
-      "a": "fabric-table-database",
-      "b": "fabric-table-function",
-      "similarity": 0.7161,
-      "review": "distinct",
-      "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
-    },
-    {
-      "a": "fabric-table-function",
-      "b": "fabric-table-triangle",
-      "similarity": 0.7132,
-      "review": "distinct",
-      "notes": "The function has separate f and x strokes, while the other table has a closed triangular marker."
-    },
-    {
-      "a": "fabric-datatype-double",
-      "b": "fabric-datatype-float",
-      "similarity": 0.7127,
-      "review": "distinct",
-      "notes": "Rechecked the current double and float drawings after verifying the added 1.2F source variants: the D is closed, while F has an open right side."
-    },
     {
       "a": "m365-number-circle-four",
       "b": "fabric-curved-right-circle",
@@ -1108,81 +14,11 @@
       "notes": "The numeral has a closed triangular upper stroke and vertical stem; the curved arrow has a bent shaft and pointed arrowhead, including at 32px."
     },
     {
-      "a": "fabric-window-gauge",
-      "b": "fabric-window-interface",
-      "similarity": 0.695,
-      "review": "distinct",
-      "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
-    },
-    {
-      "a": "fabric-script-sparkle-add",
-      "b": "fabric-script-kql-add",
-      "similarity": 0.6938,
-      "review": "distinct",
-      "notes": "The added sparkle script has a four-point star; the KQL script has a diagonal query mark and parallel strokes."
-    },
-    {
-      "a": "fabric-table-key",
-      "b": "fabric-table-link",
-      "similarity": 0.6938,
-      "review": "distinct",
-      "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
-    },
-    {
-      "a": "fabric-location-download",
-      "b": "fabric-location-database",
-      "similarity": 0.6894,
-      "review": "distinct",
-      "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
-    },
-    {
-      "a": "fabric-location-database",
-      "b": "fabric-location-radar",
-      "similarity": 0.6865,
-      "review": "distinct",
-      "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
-    },
-    {
-      "a": "fabric-slide-ribbon",
-      "b": "fabric-slide-window",
-      "similarity": 0.682,
-      "review": "distinct",
-      "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
-    },
-    {
-      "a": "fabric-table-link",
-      "b": "fabric-table-triangle",
-      "similarity": 0.6756,
-      "review": "distinct",
-      "notes": "The link is a rounded horizontal chain; the triangle is a pointed three-sided marker."
-    },
-    {
       "a": "m365-number-circle-two",
       "b": "m365-number-circle-three",
       "similarity": 0.6755,
       "review": "distinct",
       "notes": "The numerals have different contours: the two has a diagonal baseline and the three has two curved lobes."
-    },
-    {
-      "a": "fabric-window-tree",
-      "b": "fabric-window-tree-export",
-      "similarity": 0.6744,
-      "review": "distinct",
-      "notes": "The plain tree has a rectangular upper child; the export tree replaces it with a circular outward-arrow badge."
-    },
-    {
-      "a": "fabric-window-person",
-      "b": "fabric-window-math",
-      "similarity": 0.6734,
-      "review": "distinct",
-      "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
-    },
-    {
-      "a": "fabric-table-function",
-      "b": "fabric-table-link",
-      "similarity": 0.6684,
-      "review": "distinct",
-      "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
     },
     {
       "a": "fabric-locked-columns",
@@ -1197,13 +33,6 @@
       "similarity": 0.6667,
       "review": "distinct",
       "notes": "Six intersecting spokes differ from the single circular revision node on a vertical line, including at 32px."
-    },
-    {
-      "a": "fabric-window-interface",
-      "b": "fabric-window-synapse-link",
-      "similarity": 0.6601,
-      "review": "distinct",
-      "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
     }
   ],
   "coverage": {
@@ -1262,8 +91,8 @@
       },
       {
         "a": "azure-virtual-machine",
-        "b": "azure-foundry-local",
-        "similarity": 0.244
+        "b": "azure-governance-compliance",
+        "similarity": 0.2441
       }
     ],
     "azure-kubernetes": [
@@ -1393,13 +222,13 @@
       },
       {
         "a": "fabric-pipeline",
-        "b": "azure-management-portal",
-        "similarity": 0.2159
+        "b": "azure-dashboard",
+        "similarity": 0.2139
       },
       {
         "a": "fabric-pipeline",
-        "b": "azure-dashboard",
-        "similarity": 0.2139
+        "b": "aws-datasync-discovery",
+        "similarity": 0.2074
       }
     ],
     "fabric-notebook": [
@@ -2124,13 +953,13 @@
       },
       {
         "a": "gcp-storage",
-        "b": "fabric-purview",
-        "similarity": 0.2844
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.3068
       },
       {
         "a": "gcp-storage",
-        "b": "gcp-user-preferences",
-        "similarity": 0.281
+        "b": "fabric-purview",
+        "similarity": 0.2844
       }
     ],
     "azure-detonation": [
@@ -2146,8 +975,8 @@
       },
       {
         "a": "azure-detonation",
-        "b": "fabric-window-code",
-        "similarity": 0.2804
+        "b": "fabric-table-left-border",
+        "similarity": 0.268
       }
     ],
     "azure-defender-iot": [
@@ -2549,13 +1378,13 @@
       },
       {
         "a": "azure-workload-orchestration",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.2271
+        "b": "azure-storage-hubs",
+        "similarity": 0.2257
       },
       {
         "a": "azure-workload-orchestration",
-        "b": "azure-storage-hubs",
-        "similarity": 0.2257
+        "b": "azure-virtual-wan-hub",
+        "similarity": 0.2175
       }
     ],
     "azure-activity-log": [
@@ -2991,13 +1820,13 @@
       },
       {
         "a": "azure-device-registry",
-        "b": "aws-reserved-instance-reporting",
-        "similarity": 0.2055
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.2129
       },
       {
         "a": "azure-device-registry",
-        "b": "azure-databricks",
-        "similarity": 0.203
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2055
       }
     ],
     "azure-monitor": [
@@ -3343,18 +2172,18 @@
     "gcp-secret-manager": [
       {
         "a": "gcp-secret-manager",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.3265
-      },
-      {
-        "a": "gcp-secret-manager",
-        "b": "fabric-window-interface",
-        "similarity": 0.323
-      },
-      {
-        "a": "gcp-secret-manager",
         "b": "fabric-my-workspace",
         "similarity": 0.3157
+      },
+      {
+        "a": "gcp-secret-manager",
+        "b": "azure-app-service-plans",
+        "similarity": 0.3074
+      },
+      {
+        "a": "gcp-secret-manager",
+        "b": "fabric-table-left-border",
+        "similarity": 0.2998
       }
     ],
     "azure-function-apps": [
@@ -3455,8 +2284,8 @@
       },
       {
         "a": "azure-managed-identities",
-        "b": "azure-firewall-policy",
-        "similarity": 0.2227
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2268
       }
     ],
     "azure-dns-zones": [
@@ -3574,8 +2403,8 @@
       },
       {
         "a": "aws-opensearch",
-        "b": "azure-defender-local-manager",
-        "similarity": 0.1911
+        "b": "azure-app-testing",
+        "similarity": 0.1951
       }
     ],
     "aws-redshift": [
@@ -3790,13 +2619,13 @@
       },
       {
         "a": "aws-ecr",
-        "b": "fabric-documents-question",
-        "similarity": 0.283
+        "b": "fabric-table-external",
+        "similarity": 0.2773
       },
       {
         "a": "aws-ecr",
-        "b": "fabric-table-key",
-        "similarity": 0.2829
+        "b": "aws-elasticache",
+        "similarity": 0.2746
       }
     ],
     "aws-ecs": [
@@ -3824,16 +2653,21 @@
       },
       {
         "a": "aws-elasticache",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.3241
+        "b": "azure-storage-hubs",
+        "similarity": 0.321
       },
       {
         "a": "aws-elasticache",
-        "b": "azure-storage-hubs",
-        "similarity": 0.321
+        "b": "fabric-window-list-filter",
+        "similarity": 0.31
       }
     ],
     "aws-cloudformation": [
+      {
+        "a": "aws-cloudformation",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2462
+      },
       {
         "a": "aws-cloudformation",
         "b": "aws-batch",
@@ -3843,11 +2677,6 @@
         "a": "aws-cloudformation",
         "b": "azure-vm-scale-sets",
         "similarity": 0.2221
-      },
-      {
-        "a": "aws-cloudformation",
-        "b": "aws-lightsail-research",
-        "similarity": 0.2202
       }
     ],
     "aws-cloudtrail": [
@@ -3887,18 +2716,18 @@
     "aws-cloudfront": [
       {
         "a": "aws-cloudfront",
+        "b": "fabric-documents-question",
+        "similarity": 0.2333
+      },
+      {
+        "a": "aws-cloudfront",
         "b": "fabric-library-person",
         "similarity": 0.2219
       },
       {
         "a": "aws-cloudfront",
-        "b": "aws-ecr-registry",
-        "similarity": 0.2137
-      },
-      {
-        "a": "aws-cloudfront",
-        "b": "gcp-os-inventory",
-        "similarity": 0.2112
+        "b": "fabric-table-key",
+        "similarity": 0.2146
       }
     ],
     "aws-secrets-manager": [
@@ -4130,13 +2959,13 @@
       },
       {
         "a": "gcp-firestore",
-        "b": "m365-apps-list",
-        "similarity": 0.2199
+        "b": "fabric-list-sql",
+        "similarity": 0.2477
       },
       {
         "a": "gcp-firestore",
-        "b": "gcp-developer-portal",
-        "similarity": 0.212
+        "b": "m365-apps-list",
+        "similarity": 0.2199
       }
     ],
     "m365-calculator": [
@@ -4278,18 +3107,18 @@
     "m365-code": [
       {
         "a": "m365-code",
-        "b": "fabric-datatype-float",
-        "similarity": 0.2463
-      },
-      {
-        "a": "m365-code",
-        "b": "fabric-datatype-double",
-        "similarity": 0.2164
-      },
-      {
-        "a": "m365-code",
         "b": "fabric-calculator-brackets",
         "similarity": 0.2009
+      },
+      {
+        "a": "m365-code",
+        "b": "m365-arrow-down",
+        "similarity": 0.1981
+      },
+      {
+        "a": "m365-code",
+        "b": "fabric-document-tree",
+        "similarity": 0.1948
       }
     ],
     "m365-data-pie": [
@@ -5230,6 +4059,11 @@
     "aws-glue": [
       {
         "a": "aws-glue",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2285
+      },
+      {
+        "a": "aws-glue",
         "b": "fabric-document-ssis-play",
         "similarity": 0.2089
       },
@@ -5237,11 +4071,6 @@
         "a": "aws-glue",
         "b": "gcp-cloud-endpoints",
         "similarity": 0.2051
-      },
-      {
-        "a": "aws-glue",
-        "b": "aws-vpc-endpoints",
-        "similarity": 0.2047
       }
     ],
     "aws-lake-formation": [
@@ -6004,9 +4833,9 @@
         "similarity": 0.2491
       },
       {
-        "a": "gcp-container-registry",
-        "b": "gcp-assured-workloads",
-        "similarity": 0.242
+        "a": "gcp-assured-workloads",
+        "b": "fabric-window-gauge",
+        "similarity": 0.2479
       }
     ],
     "gcp-external-key-manager": [
@@ -6175,8 +5004,8 @@
       },
       {
         "a": "gcp-dataplex",
-        "b": "fabric-datamart",
-        "similarity": 0.2226
+        "b": "fabric-window-code",
+        "similarity": 0.2292
       }
     ],
     "gcp-dataprep": [
@@ -6255,13 +5084,13 @@
       },
       {
         "a": "gcp-cloud-routes",
-        "b": "gcp-identity-platform",
-        "similarity": 0.1853
+        "b": "fabric-window-sparkle",
+        "similarity": 0.1856
       },
       {
         "a": "gcp-cloud-routes",
-        "b": "aws-identity-center",
-        "similarity": 0.1852
+        "b": "gcp-identity-platform",
+        "similarity": 0.1853
       }
     ],
     "gcp-anthos-config-management": [
@@ -6301,18 +5130,18 @@
     "gcp-configuration-management": [
       {
         "a": "gcp-configuration-management",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.2945
-      },
-      {
-        "a": "gcp-configuration-management",
         "b": "gcp-datastore",
         "similarity": 0.2808
       },
       {
         "a": "gcp-configuration-management",
-        "b": "fabric-slide-window",
-        "similarity": 0.2713
+        "b": "aws-ecr-registry",
+        "similarity": 0.2684
+      },
+      {
+        "a": "gcp-configuration-management",
+        "b": "fabric-sample",
+        "similarity": 0.2547
       }
     ],
     "gcp-runtime-config": [
@@ -6454,6 +5283,11 @@
     "gcp-data-labeling": [
       {
         "a": "gcp-data-labeling",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.3085
+      },
+      {
+        "a": "gcp-data-labeling",
         "b": "fabric-database-table",
         "similarity": 0.2958
       },
@@ -6461,11 +5295,6 @@
         "a": "gcp-data-labeling",
         "b": "gcp-producer-portal",
         "similarity": 0.2873
-      },
-      {
-        "a": "gcp-data-labeling",
-        "b": "fabric-dashboard",
-        "similarity": 0.2665
       }
     ],
     "gcp-dialogflow": [
@@ -6488,18 +5317,18 @@
     "gcp-dialogflow-cx": [
       {
         "a": "gcp-dialogflow-cx",
-        "b": "fabric-table-function",
-        "similarity": 0.218
-      },
-      {
-        "a": "gcp-dialogflow-cx",
-        "b": "fabric-table-triangle",
-        "similarity": 0.2115
-      },
-      {
-        "a": "gcp-dialogflow-cx",
         "b": "gcp-project",
         "similarity": 0.204
+      },
+      {
+        "a": "gcp-dialogflow-cx",
+        "b": "azure-app-service-plans",
+        "similarity": 0.2024
+      },
+      {
+        "a": "gcp-dialogflow-cx",
+        "b": "fabric-squares-data-bars",
+        "similarity": 0.2006
       }
     ],
     "gcp-dialogflow-insights": [
@@ -6595,13 +5424,13 @@
       },
       {
         "a": "gcp-dataproc-metastore",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2323
+        "b": "fabric-table-key",
+        "similarity": 0.2401
       },
       {
         "a": "gcp-dataproc-metastore",
-        "b": "azure-sql-server",
-        "similarity": 0.2278
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2323
       }
     ],
     "gcp-healthcare-marketplace": [
@@ -7376,14 +6205,14 @@
         "similarity": 0.2272
       },
       {
-        "a": "gcp-compute-systems-management",
-        "b": "fabric-table-link-lightning",
-        "similarity": 0.2113
-      },
-      {
         "a": "gcp-transfer-appliance",
         "b": "gcp-compute-systems-management",
         "similarity": 0.2112
+      },
+      {
+        "a": "gcp-compute-systems-management",
+        "b": "aws-devops-guru-insights",
+        "similarity": 0.2079
       }
     ],
     "gcp-cloud-test-lab": [
@@ -7576,18 +6405,18 @@
     "gcp-cloud-jobs": [
       {
         "a": "gcp-cloud-jobs",
-        "b": "fabric-slide-window",
-        "similarity": 0.3008
-      },
-      {
-        "a": "gcp-cloud-jobs",
         "b": "aws-sns-http-notification",
         "similarity": 0.2957
       },
       {
         "a": "gcp-cloud-jobs",
-        "b": "fabric-window-gauge",
-        "similarity": 0.2875
+        "b": "aws-textract-lending",
+        "similarity": 0.2859
+      },
+      {
+        "a": "gcp-bare-metal",
+        "b": "gcp-cloud-jobs",
+        "similarity": 0.2807
       }
     ],
     "gcp-apigee-sense": [
@@ -7615,13 +6444,13 @@
       },
       {
         "a": "gcp-service-discovery",
-        "b": "azure-compute-galleries",
-        "similarity": 0.2153
+        "b": "fabric-window-tree-export",
+        "similarity": 0.2194
       },
       {
         "a": "gcp-service-discovery",
-        "b": "azure-app-service-plans",
-        "similarity": 0.2094
+        "b": "azure-compute-galleries",
+        "similarity": 0.2153
       }
     ],
     "gcp-ai-platform": [
@@ -8113,8 +6942,8 @@
       },
       {
         "a": "gcp-beyondcorp",
-        "b": "aws-codecatalyst",
-        "similarity": 0.2035
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.2067
       }
     ],
     "gcp-web-risk": [
@@ -8715,6 +7544,11 @@
     "gcp-threat-intelligence": [
       {
         "a": "gcp-threat-intelligence",
+        "b": "fabric-table-function",
+        "similarity": 0.2562
+      },
+      {
+        "a": "gcp-threat-intelligence",
         "b": "aws-systems-manager",
         "similarity": 0.2559
       },
@@ -8722,14 +7556,14 @@
         "a": "gcp-threat-intelligence",
         "b": "aws-elemental-appliances",
         "similarity": 0.2431
-      },
-      {
-        "a": "gcp-threat-intelligence",
-        "b": "azure-foundry-project",
-        "similarity": 0.2303
       }
     ],
     "gcp-security-command-center": [
+      {
+        "a": "gcp-security-command-center",
+        "b": "fabric-window-code",
+        "similarity": 0.3702
+      },
       {
         "a": "gcp-security-command-center",
         "b": "azure-resource-groups",
@@ -8739,14 +7573,14 @@
         "a": "gcp-security-command-center",
         "b": "aws-bedrock-agentcore",
         "similarity": 0.3289
-      },
-      {
-        "a": "gcp-security-command-center",
-        "b": "aws-app-studio",
-        "similarity": 0.3172
       }
     ],
     "gcp-mandiant": [
+      {
+        "a": "gcp-mandiant",
+        "b": "fabric-list-sql",
+        "similarity": 0.2374
+      },
       {
         "a": "gcp-mandiant",
         "b": "azure-compute-galleries",
@@ -8756,11 +7590,6 @@
         "a": "gcp-mandiant",
         "b": "azure-host-groups",
         "similarity": 0.2322
-      },
-      {
-        "a": "gcp-mandiant",
-        "b": "aws-cloudshell",
-        "similarity": 0.2218
       }
     ],
     "gcp-security-operations": [
@@ -9207,19 +8036,19 @@
     ],
     "gcp-error-reporting": [
       {
-        "a": "gcp-error-reporting",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.2732
-      },
-      {
-        "a": "gcp-error-reporting",
-        "b": "fabric-slide-window",
-        "similarity": 0.2564
-      },
-      {
         "a": "gcp-billing",
         "b": "gcp-error-reporting",
         "similarity": 0.2512
+      },
+      {
+        "a": "gcp-error-reporting",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.2376
+      },
+      {
+        "a": "m365-receipt",
+        "b": "gcp-error-reporting",
+        "similarity": 0.2327
       }
     ],
     "gcp-connectivity-test": [
@@ -9310,6 +8139,11 @@
     "m365-tablet": [
       {
         "a": "m365-tablet",
+        "b": "fabric-window-code",
+        "similarity": 0.2868
+      },
+      {
+        "a": "m365-tablet",
         "b": "azure-linux",
         "similarity": 0.2646
       },
@@ -9317,11 +8151,6 @@
         "a": "m365-tablet",
         "b": "azure-marketplace",
         "similarity": 0.2567
-      },
-      {
-        "a": "gcp-security-command-center",
-        "b": "m365-tablet",
-        "similarity": 0.247
       }
     ],
     "m365-megaphone": [
@@ -9485,13 +8314,13 @@
       },
       {
         "a": "m365-person-desktop",
-        "b": "fabric-calendar-person",
-        "similarity": 0.1978
+        "b": "azure-governance-compliance",
+        "similarity": 0.2049
       },
       {
         "a": "m365-person-desktop",
-        "b": "azure-monitor-dashboard",
-        "similarity": 0.1974
+        "b": "fabric-calendar-person",
+        "similarity": 0.1978
       }
     ],
     "m365-person-wrench": [
@@ -9684,6 +8513,11 @@
     "fabric-data-factory": [
       {
         "a": "fabric-data-factory",
+        "b": "fabric-datatype-double",
+        "similarity": 0.2283
+      },
+      {
+        "a": "fabric-data-factory",
         "b": "aws-health-imaging",
         "similarity": 0.2166
       },
@@ -9691,11 +8525,6 @@
         "a": "fabric-data-factory",
         "b": "azure-defender-pneumatic",
         "similarity": 0.2045
-      },
-      {
-        "a": "fabric-data-factory",
-        "b": "m365-mail-read",
-        "similarity": 0.1958
       }
     ],
     "fabric-data-warehouse": [
@@ -10551,16 +9380,16 @@
     "azure-documentdb": [
       {
         "a": "azure-documentdb",
+        "b": "fabric-table-database",
+        "similarity": 0.3083
+      },
+      {
+        "a": "azure-documentdb",
         "b": "azure-mariadb",
         "similarity": 0.304
       },
       {
         "a": "gcp-identity-platform",
-        "b": "azure-documentdb",
-        "similarity": 0.2465
-      },
-      {
-        "a": "gcp-onboarding",
         "b": "azure-documentdb",
         "similarity": 0.2465
       }
@@ -10720,19 +9549,19 @@
     ],
     "azure-sql-server": [
       {
-        "a": "azure-sql-server",
-        "b": "fabric-table-key",
-        "similarity": 0.3493
-      },
-      {
         "a": "azure-postgresql-group",
         "b": "azure-sql-server",
         "similarity": 0.3383
       },
       {
         "a": "azure-sql-server",
-        "b": "fabric-table-link",
-        "similarity": 0.3057
+        "b": "fabric-table-external",
+        "similarity": 0.2962
+      },
+      {
+        "a": "azure-sql-server",
+        "b": "aws-textract-lending",
+        "similarity": 0.2846
       }
     ],
     "azure-elastic-job-agents": [
@@ -11733,9 +10562,9 @@
         "similarity": 0.2783
       },
       {
-        "a": "gcp-performance-dashboard",
-        "b": "aws-redshift-auto-copy",
-        "similarity": 0.2239
+        "a": "aws-redshift-auto-copy",
+        "b": "fabric-table-database",
+        "similarity": 0.2242
       }
     ],
     "aws-redshift-governance": [
@@ -12290,13 +11119,13 @@
       },
       {
         "a": "aws-compute-optimizer",
-        "b": "m365-desktop-download",
-        "similarity": 0.205
+        "b": "aws-postgresql-instance",
+        "similarity": 0.2236
       },
       {
         "a": "aws-compute-optimizer",
-        "b": "azure-exchange-on-premises-access",
-        "similarity": 0.2024
+        "b": "m365-desktop-download",
+        "similarity": 0.205
       }
     ],
     "aws-elastic-beanstalk": [
@@ -12532,9 +11361,9 @@
         "similarity": 0.199
       },
       {
-        "a": "aws-managed-flink",
-        "b": "fabric-no-access-semantic",
-        "similarity": 0.185
+        "a": "fabric-no-access-semantic",
+        "b": "fabric-datatype-double",
+        "similarity": 0.1864
       }
     ],
     "fabric-operations-agent": [
@@ -12561,14 +11390,14 @@
         "similarity": 0.2775
       },
       {
+        "a": "fabric-paginated-report",
+        "b": "fabric-window-gauge",
+        "similarity": 0.2766
+      },
+      {
         "a": "aws-kendra",
         "b": "fabric-paginated-report",
         "similarity": 0.2705
-      },
-      {
-        "a": "fabric-scorecard",
-        "b": "fabric-paginated-report",
-        "similarity": 0.2607
       }
     ],
     "fabric-rdl-report": [
@@ -12918,14 +11747,14 @@
         "similarity": 0.2966
       },
       {
+        "a": "m365-document-lock",
+        "b": "fabric-table-database",
+        "similarity": 0.2814
+      },
+      {
         "a": "aws-textract",
         "b": "m365-document-lock",
         "similarity": 0.2772
-      },
-      {
-        "a": "m365-document-lock",
-        "b": "m365-document-bullets-multiple",
-        "similarity": 0.2737
       }
     ],
     "m365-folders": [
@@ -13276,13 +12105,13 @@
       },
       {
         "a": "m365-person-square",
-        "b": "m365-task-square",
-        "similarity": 0.2635
+        "b": "fabric-window-math",
+        "similarity": 0.2813
       },
       {
-        "a": "m365-contacts",
-        "b": "m365-person-square",
-        "similarity": 0.2633
+        "a": "m365-person-square",
+        "b": "m365-task-square",
+        "similarity": 0.2635
       }
     ],
     "m365-person": [
@@ -13417,8 +12246,8 @@
       },
       {
         "a": "m365-text-first-line",
-        "b": "aws-cli",
-        "similarity": 0.2941
+        "b": "fabric-slide-window",
+        "similarity": 0.3118
       }
     ],
     "m365-text-number-list": [
@@ -13530,14 +12359,14 @@
         "similarity": 0.1377
       },
       {
-        "a": "m365-cogs",
-        "b": "fabric-list-sql",
-        "similarity": 0.1371
-      },
-      {
         "a": "azure-applens",
         "b": "m365-cogs",
         "similarity": 0.1358
+      },
+      {
+        "a": "m365-cogs",
+        "b": "azure-code",
+        "similarity": 0.1348
       }
     ],
     "m365-three-shapes": [
@@ -13871,13 +12700,13 @@
       },
       {
         "a": "aws-sagemaker-ai",
-        "b": "fabric-column-brackets",
-        "similarity": 0.2511
+        "b": "fabric-table-link",
+        "similarity": 0.2564
       },
       {
-        "a": "gcp-assured-workloads",
-        "b": "aws-sagemaker-ai",
-        "similarity": 0.2506
+        "a": "aws-sagemaker-ai",
+        "b": "fabric-column-brackets",
+        "similarity": 0.2511
       }
     ],
     "aws-deep-learning-containers": [
@@ -14580,6 +13409,11 @@
     "azure-enterprise-applications": [
       {
         "a": "azure-enterprise-applications",
+        "b": "azure-sap-database-instance",
+        "similarity": 0.2776
+      },
+      {
+        "a": "azure-enterprise-applications",
         "b": "aws-backup-virtual-machine-monitor",
         "similarity": 0.2749
       },
@@ -14587,11 +13421,6 @@
         "a": "azure-enterprise-applications",
         "b": "aws-provisioned-iops-instance",
         "similarity": 0.2627
-      },
-      {
-        "a": "azure-enterprise-applications",
-        "b": "aws-general-cold-storage",
-        "similarity": 0.2566
       }
     ],
     "azure-ad-b2c": [
@@ -14636,13 +13465,13 @@
       },
       {
         "a": "azure-entra-id-protection",
-        "b": "azure-sap-database-instance",
-        "similarity": 0.229
+        "b": "aws-s3-one-zone-ia",
+        "similarity": 0.228
       },
       {
         "a": "azure-entra-id-protection",
-        "b": "aws-s3-one-zone-ia",
-        "similarity": 0.228
+        "b": "aws-greengrass-component",
+        "similarity": 0.2264
       }
     ],
     "azure-app-registrations": [
@@ -15422,9 +14251,9 @@
         "similarity": 0.2509
       },
       {
-        "a": "aws-sagemaker-canvas",
-        "b": "azure-ai-foundry",
-        "similarity": 0.2136
+        "a": "azure-ai-foundry",
+        "b": "fabric-window-gauge",
+        "similarity": 0.2242
       }
     ],
     "azure-foundry-project": [
@@ -15468,14 +14297,14 @@
         "similarity": 0.3216
       },
       {
+        "a": "azure-foundry-models",
+        "b": "fabric-slide-window",
+        "similarity": 0.2846
+      },
+      {
         "a": "m365-office-notebook",
         "b": "azure-foundry-models",
         "similarity": 0.2729
-      },
-      {
-        "a": "azure-foundry-models",
-        "b": "azure-app-service-plans",
-        "similarity": 0.2496
       }
     ],
     "azure-batch-ai": [
@@ -15639,13 +14468,13 @@
       },
       {
         "a": "azure-translator",
-        "b": "azure-resource-groups",
-        "similarity": 0.2179
+        "b": "fabric-list-sql",
+        "similarity": 0.2191
       },
       {
         "a": "azure-translator",
-        "b": "aws-telco-network-builder",
-        "similarity": 0.2109
+        "b": "azure-resource-groups",
+        "similarity": 0.2179
       }
     ],
     "azure-language-understanding": [
@@ -15656,13 +14485,13 @@
       },
       {
         "a": "azure-language-understanding",
-        "b": "aws-amazon-q",
-        "similarity": 0.2451
+        "b": "fabric-window-relationship-off",
+        "similarity": 0.2494
       },
       {
         "a": "azure-language-understanding",
-        "b": "aws-repost-private",
-        "similarity": 0.2367
+        "b": "aws-amazon-q",
+        "similarity": 0.2451
       }
     ],
     "azure-immersive-reader": [
@@ -15718,6 +14547,11 @@
     ],
     "azure-experimentation": [
       {
+        "a": "azure-experimentation",
+        "b": "fabric-window-tree",
+        "similarity": 0.2475
+      },
+      {
         "a": "aws-opensearch-index",
         "b": "azure-experimentation",
         "similarity": 0.2299
@@ -15726,11 +14560,6 @@
         "a": "aws-dynamodb",
         "b": "azure-experimentation",
         "similarity": 0.2172
-      },
-      {
-        "a": "azure-experimentation",
-        "b": "aws-cloud-map",
-        "similarity": 0.2044
       }
     ],
     "azure-object-understanding": [
@@ -16800,8 +15629,8 @@
       },
       {
         "a": "azure-application-gateway-containers",
-        "b": "fabric-sample",
-        "similarity": 0.2423
+        "b": "fabric-location-database",
+        "similarity": 0.243
       }
     ],
     "azure-dns-multistack": [
@@ -17078,19 +15907,19 @@
     ],
     "azure-network-foundation-hub": [
       {
-        "a": "azure-network-foundation-hub",
-        "b": "fabric-window-asterisk-new",
-        "similarity": 0.2903
-      },
-      {
         "a": "aws-redshift-dense-storage",
         "b": "azure-network-foundation-hub",
         "similarity": 0.2788
       },
       {
         "a": "azure-network-foundation-hub",
-        "b": "fabric-window-gauge",
-        "similarity": 0.2782
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2669
+      },
+      {
+        "a": "azure-network-foundation-hub",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2617
       }
     ],
     "azure-network-security-hub": [
@@ -17215,11 +16044,6 @@
     "azure-ip-groups": [
       {
         "a": "azure-ip-groups",
-        "b": "azure-management-portal",
-        "similarity": 0.3389
-      },
-      {
-        "a": "azure-ip-groups",
         "b": "aws-general-application",
         "similarity": 0.338
       },
@@ -17227,6 +16051,11 @@
         "a": "azure-ip-groups",
         "b": "aws-ec2-instances",
         "similarity": 0.3326
+      },
+      {
+        "a": "azure-public-ip-prefixes",
+        "b": "azure-ip-groups",
+        "similarity": 0.3286
       }
     ],
     "azure-virtual-wan-hub": [
@@ -17776,11 +16605,6 @@
     "azure-network-security-perimeters": [
       {
         "a": "azure-network-security-perimeters",
-        "b": "azure-virtual-instance-sap",
-        "similarity": 0.2423
-      },
-      {
-        "a": "azure-network-security-perimeters",
         "b": "aws-route53-hosted-zone",
         "similarity": 0.2378
       },
@@ -17788,6 +16612,11 @@
         "a": "aws-dynamodb-item",
         "b": "azure-network-security-perimeters",
         "similarity": 0.2268
+      },
+      {
+        "a": "azure-network-security-perimeters",
+        "b": "aws-cloud-digital-interface",
+        "similarity": 0.2203
       }
     ],
     "azure-quotas": [
@@ -18626,18 +17455,18 @@
     "azure-governance-compliance": [
       {
         "a": "azure-governance-compliance",
-        "b": "aws-iot-certificate",
-        "similarity": 0.511
+        "b": "aws-s3-files",
+        "similarity": 0.3754
       },
       {
         "a": "azure-governance-compliance",
-        "b": "azure-operation-log-classic",
-        "similarity": 0.3627
+        "b": "azure-web-test",
+        "similarity": 0.3527
       },
       {
         "a": "azure-governance-compliance",
-        "b": "aws-iot-thing-utility",
-        "similarity": 0.3301
+        "b": "azure-server-farm",
+        "similarity": 0.3457
       }
     ],
     "azure-my-customers": [
@@ -18839,9 +17668,9 @@
         "similarity": 0.3378
       },
       {
-        "a": "azure-time-series-environments",
+        "a": "azure-governance-compliance",
         "b": "aws-iot-fire-tv",
-        "similarity": 0.3173
+        "similarity": 0.3333
       }
     ],
     "aws-iot-fire-tv-stick": [
@@ -19067,11 +17896,6 @@
     ],
     "aws-iot-certificate": [
       {
-        "a": "azure-governance-compliance",
-        "b": "aws-iot-certificate",
-        "similarity": 0.511
-      },
-      {
         "a": "azure-operation-log-classic",
         "b": "aws-iot-certificate",
         "similarity": 0.3944
@@ -19080,6 +17904,11 @@
         "a": "aws-iot-certificate",
         "b": "aws-systems-documents",
         "similarity": 0.3699
+      },
+      {
+        "a": "azure-service-catalog-mad",
+        "b": "aws-iot-certificate",
+        "similarity": 0.2924
       }
     ],
     "aws-iot-policy": [
@@ -19650,14 +18479,14 @@
         "similarity": 0.3989
       },
       {
-        "a": "azure-governance-compliance",
-        "b": "aws-iot-thing-utility",
-        "similarity": 0.3301
-      },
-      {
         "a": "aws-iot-thing-utility",
         "b": "azure-app-space-component",
         "similarity": 0.3109
+      },
+      {
+        "a": "aws-iot-thing-utility",
+        "b": "aws-gateway-virtual-tape-library",
+        "similarity": 0.3005
       }
     ],
     "aws-iot-sailboat": [
@@ -20030,8 +18859,8 @@
       },
       {
         "a": "aws-iot-thing-lightbulb",
-        "b": "aws-backup-cloudformation",
-        "similarity": 0.2191
+        "b": "azure-virtual-instance-sap",
+        "similarity": 0.2193
       }
     ],
     "aws-s3-on-outposts-resource": [
@@ -20326,6 +19155,11 @@
     "aws-s3-intelligent-tiering": [
       {
         "a": "aws-s3-intelligent-tiering",
+        "b": "aws-postgresql-instance",
+        "similarity": 0.2914
+      },
+      {
+        "a": "aws-s3-intelligent-tiering",
         "b": "azure-agentic-web-apps",
         "similarity": 0.2649
       },
@@ -20333,11 +19167,6 @@
         "a": "aws-s3-intelligent-tiering",
         "b": "azure-web-app-database",
         "similarity": 0.2552
-      },
-      {
-        "a": "aws-s3-intelligent-tiering",
-        "b": "azure-hpc-workbenches",
-        "similarity": 0.2532
       }
     ],
     "aws-s3-one-zone-ia": [
@@ -20348,13 +19177,13 @@
       },
       {
         "a": "aws-s3-one-zone-ia",
-        "b": "aws-postgresql-instance",
-        "similarity": 0.2255
+        "b": "azure-globe-error",
+        "similarity": 0.225
       },
       {
         "a": "aws-s3-one-zone-ia",
-        "b": "azure-globe-error",
-        "similarity": 0.225
+        "b": "aws-iam-temporary-credential",
+        "similarity": 0.2203
       }
     ],
     "aws-s3-standard-ia": [
@@ -20517,14 +19346,14 @@
         "similarity": 0.4468
       },
       {
-        "a": "aws-s3-files",
-        "b": "aws-vpc-network-acl",
-        "similarity": 0.3716
+        "a": "azure-governance-compliance",
+        "b": "aws-s3-files",
+        "similarity": 0.3754
       },
       {
         "a": "aws-s3-files",
-        "b": "azure-files",
-        "similarity": 0.369
+        "b": "aws-vpc-network-acl",
+        "similarity": 0.3716
       }
     ],
     "aws-efs-intelligent-tiering": [
@@ -21776,13 +20605,13 @@
       },
       {
         "a": "aws-cloud-control",
-        "b": "aws-memorydb",
-        "similarity": 0.1937
+        "b": "fabric-window-tree",
+        "similarity": 0.1961
       },
       {
-        "a": "gcp-analytics-hub",
-        "b": "aws-cloud-control",
-        "similarity": 0.1894
+        "a": "aws-cloud-control",
+        "b": "aws-memorydb",
+        "similarity": 0.1937
       }
     ],
     "aws-cdk": [
@@ -22166,14 +20995,14 @@
         "similarity": 0.2774
       },
       {
-        "a": "aws-ses-email",
-        "b": "fabric-window-math",
-        "similarity": 0.2217
-      },
-      {
         "a": "aws-opensearch-traces",
         "b": "aws-ses-email",
         "similarity": 0.2181
+      },
+      {
+        "a": "gcp-phishing-protection",
+        "b": "aws-ses-email",
+        "similarity": 0.2169
       }
     ],
     "aws-eventbridge-partner-event": [
@@ -22206,8 +21035,8 @@
       },
       {
         "a": "aws-mq-broker",
-        "b": "fabric-calculator-number",
-        "similarity": 0.1659
+        "b": "fabric-table-triangle",
+        "similarity": 0.168
       }
     ],
     "aws-sns-email-notification": [
@@ -22274,8 +21103,8 @@
       },
       {
         "a": "aws-sqs-message",
-        "b": "fabric-slide-window",
-        "similarity": 0.2654
+        "b": "fabric-number-field",
+        "similarity": 0.2584
       }
     ],
     "aws-sqs-queue": [
@@ -22342,8 +21171,8 @@
       },
       {
         "a": "aws-well-architected-tool",
-        "b": "fabric-table-key",
-        "similarity": 0.279
+        "b": "fabric-save-phone",
+        "similarity": 0.2747
       }
     ],
     "aws-amazon-q": [
@@ -22388,13 +21217,13 @@
       },
       {
         "a": "aws-appfabric",
-        "b": "azure-service-fabric-clusters",
-        "similarity": 0.2336
+        "b": "fabric-table-function",
+        "similarity": 0.2494
       },
       {
-        "a": "azure-batch-ai",
-        "b": "aws-appfabric",
-        "similarity": 0.2207
+        "a": "aws-appfabric",
+        "b": "azure-service-fabric-clusters",
+        "similarity": 0.2336
       }
     ],
     "aws-gamelift-servers": [
@@ -22676,14 +21505,14 @@
         "similarity": 0.2518
       },
       {
+        "a": "aws-billing-conductor",
+        "b": "fabric-list-sql",
+        "similarity": 0.25
+      },
+      {
         "a": "aws-opensearch-dashboards",
         "b": "aws-billing-conductor",
         "similarity": 0.2288
-      },
-      {
-        "a": "aws-billing-conductor",
-        "b": "azure-image-gallery",
-        "similarity": 0.2276
       }
     ],
     "aws-cost-usage-report": [
@@ -22834,9 +21663,9 @@
         "similarity": 0.1698
       },
       {
-        "a": "aws-chime-sdk",
-        "b": "fabric-column-sigma",
-        "similarity": 0.1609
+        "a": "azure-software-updates",
+        "b": "aws-chime-sdk",
+        "similarity": 0.1576
       }
     ],
     "aws-wickr": [
@@ -23028,6 +21857,11 @@
     ],
     "aws-mainframe-analyzer": [
       {
+        "a": "aws-mainframe-analyzer",
+        "b": "azure-management-portal",
+        "similarity": 0.2864
+      },
+      {
         "a": "azure-tenant-properties",
         "b": "aws-mainframe-analyzer",
         "similarity": 0.2838
@@ -23036,11 +21870,6 @@
         "a": "azure-iot-central-applications",
         "b": "aws-mainframe-analyzer",
         "similarity": 0.2796
-      },
-      {
-        "a": "aws-mainframe-analyzer",
-        "b": "azure-mobile-engagement",
-        "similarity": 0.2755
       }
     ],
     "aws-mainframe-compiler": [
@@ -23974,8 +22803,8 @@
       },
       {
         "a": "aws-general-management-console",
-        "b": "aws-general-programming-language",
-        "similarity": 0.4312
+        "b": "azure-management-portal",
+        "similarity": 0.4812
       }
     ],
     "aws-general-sdk": [
@@ -24456,27 +23285,22 @@
     ],
     "aws-general-gear": [
       {
-        "a": "aws-general-gear",
-        "b": "fabric-table-link-triangle",
-        "similarity": 0.1431
-      },
-      {
-        "a": "aws-general-gear",
-        "b": "fabric-table-link-lightning",
-        "similarity": 0.134
-      },
-      {
         "a": "gcp-trace",
         "b": "aws-general-gear",
         "similarity": 0.134
+      },
+      {
+        "a": "azure-traffic-manager-profiles",
+        "b": "aws-general-gear",
+        "similarity": 0.1305
+      },
+      {
+        "a": "aws-general-gear",
+        "b": "fabric-document-sparkles",
+        "similarity": 0.1298
       }
     ],
     "aws-general-application": [
-      {
-        "a": "aws-general-application",
-        "b": "azure-management-portal",
-        "similarity": 0.538
-      },
       {
         "a": "aws-general-application",
         "b": "azure-dashboard",
@@ -24486,6 +23310,11 @@
         "a": "aws-general-management-console",
         "b": "aws-general-application",
         "similarity": 0.4852
+      },
+      {
+        "a": "aws-general-application",
+        "b": "azure-browser",
+        "similarity": 0.434
       }
     ],
     "aws-general-git-repository": [
@@ -25005,14 +23834,14 @@
         "similarity": 0.2627
       },
       {
+        "a": "aws-config",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.2438
+      },
+      {
         "a": "aws-xray",
         "b": "aws-config",
         "similarity": 0.2304
-      },
-      {
-        "a": "gcp-transfer-appliance",
-        "b": "aws-config",
-        "similarity": 0.2237
       }
     ],
     "aws-license-manager": [
@@ -25299,9 +24128,9 @@
         "similarity": 0.2614
       },
       {
-        "a": "gcp-threat-intelligence",
-        "b": "aws-elemental-appliances",
-        "similarity": 0.2431
+        "a": "aws-elemental-appliances",
+        "b": "fabric-window-relationship-off",
+        "similarity": 0.2445
       }
     ],
     "aws-elemental-inference": [
@@ -25952,6 +24781,11 @@
     ],
     "aws-iam-permissions": [
       {
+        "a": "azure-governance-compliance",
+        "b": "aws-iam-permissions",
+        "similarity": 0.3024
+      },
+      {
         "a": "aws-iam-permissions",
         "b": "aws-vpc-network-acl",
         "similarity": 0.2916
@@ -25960,11 +24794,6 @@
         "a": "azure-spot-vm",
         "b": "aws-iam-permissions",
         "similarity": 0.266
-      },
-      {
-        "a": "aws-s3-files",
-        "b": "aws-iam-permissions",
-        "similarity": 0.2635
       }
     ],
     "aws-security-agent": [
@@ -26173,6 +25002,11 @@
     ],
     "aws-security-lake": [
       {
+        "a": "aws-security-lake",
+        "b": "fabric-datatype-double",
+        "similarity": 0.2072
+      },
+      {
         "a": "fabric-no-access-semantic",
         "b": "aws-security-lake",
         "similarity": 0.1752
@@ -26181,11 +25015,6 @@
         "a": "aws-mediatailor",
         "b": "aws-security-lake",
         "similarity": 0.1726
-      },
-      {
-        "a": "aws-security-lake",
-        "b": "gcp-category-marketplace",
-        "similarity": 0.1681
       }
     ],
     "aws-shield": [
@@ -26387,9 +25216,9 @@
         "similarity": 0.2476
       },
       {
-        "a": "aws-cost-usage-report",
-        "b": "aws-cloud-directory",
-        "similarity": 0.213
+        "a": "aws-cloud-directory",
+        "b": "fabric-table-triangle",
+        "similarity": 0.2204
       }
     ],
     "aws-file-cache": [
@@ -26796,8 +25625,8 @@
       },
       {
         "a": "m365-check-circle",
-        "b": "fabric-table-link-lightning",
-        "similarity": 0.2924
+        "b": "azure-management-portal",
+        "similarity": 0.2795
       }
     ],
     "m365-chevron-circle": [
@@ -27288,9 +26117,9 @@
         "similarity": 0.303
       },
       {
-        "a": "aws-cli",
-        "b": "m365-document-bullets-multiple",
-        "similarity": 0.2963
+        "a": "m365-document-bullets-multiple",
+        "b": "fabric-list-sql",
+        "similarity": 0.3
       }
     ],
     "m365-clipboard": [
@@ -28118,11 +26947,6 @@
     "aws-cloudfront-functions": [
       {
         "a": "aws-cloudfront-functions",
-        "b": "fabric-window-relationship",
-        "similarity": 0.2576
-      },
-      {
-        "a": "aws-cloudfront-functions",
         "b": "azure-compute-galleries",
         "similarity": 0.2504
       },
@@ -28130,6 +26954,11 @@
         "a": "gcp-automl-translation",
         "b": "aws-cloudfront-functions",
         "similarity": 0.2467
+      },
+      {
+        "a": "aws-cloudfront-functions",
+        "b": "azure-app-service-plans",
+        "similarity": 0.245
       }
     ],
     "aws-cloudfront-streaming": [
@@ -28241,14 +27070,14 @@
         "similarity": 0.2136
       },
       {
+        "a": "aws-public-subnet",
+        "b": "fabric-slide-window",
+        "similarity": 0.211
+      },
+      {
         "a": "aws-fsx",
         "b": "aws-public-subnet",
         "similarity": 0.2074
-      },
-      {
-        "a": "aws-mediastore",
-        "b": "aws-public-subnet",
-        "similarity": 0.205
       }
     ],
     "aws-region-group": [
@@ -28355,6 +27184,11 @@
     ],
     "aws-global-accelerator": [
       {
+        "a": "aws-global-accelerator",
+        "b": "fabric-documents-question",
+        "similarity": 0.2113
+      },
+      {
         "a": "fabric-paginated-report",
         "b": "aws-global-accelerator",
         "similarity": 0.2099
@@ -28363,11 +27197,6 @@
         "a": "azure-stack-hci-sizer",
         "b": "aws-global-accelerator",
         "similarity": 0.2077
-      },
-      {
-        "a": "azure-netapp-files",
-        "b": "aws-global-accelerator",
-        "similarity": 0.2065
       }
     ],
     "aws-interconnect": [
@@ -28406,6 +27235,11 @@
     ],
     "aws-site-vpn": [
       {
+        "a": "aws-site-vpn",
+        "b": "fabric-window-code",
+        "similarity": 0.2636
+      },
+      {
         "a": "aws-devops-agent",
         "b": "aws-site-vpn",
         "similarity": 0.2425
@@ -28414,11 +27248,6 @@
         "a": "aws-outposts-rack",
         "b": "aws-site-vpn",
         "similarity": 0.2422
-      },
-      {
-        "a": "azure-azurite",
-        "b": "aws-site-vpn",
-        "similarity": 0.2395
       }
     ],
     "aws-transit-gateway": [
@@ -29431,18 +28260,18 @@
     "aws-postgresql-instance": [
       {
         "a": "aws-postgresql-instance",
-        "b": "azure-production-ready-database",
-        "similarity": 0.364
+        "b": "aws-oracle-db-instance",
+        "similarity": 0.3028
       },
       {
-        "a": "aws-postgresql-instance",
-        "b": "aws-rds-optimized-writes",
-        "similarity": 0.3501
+        "a": "aws-greengrass-interprocess",
+        "b": "aws-postgresql-instance",
+        "similarity": 0.2952
       },
       {
-        "a": "aws-postgresql-instance",
-        "b": "azure-sap-database-instance",
-        "similarity": 0.2927
+        "a": "azure-arc-sql-server",
+        "b": "aws-postgresql-instance",
+        "similarity": 0.2934
       }
     ],
     "aws-oracle-db-instance": [
@@ -29668,11 +28497,6 @@
     ],
     "aws-rds-optimized-writes": [
       {
-        "a": "aws-postgresql-instance",
-        "b": "aws-rds-optimized-writes",
-        "similarity": 0.3501
-      },
-      {
         "a": "azure-reserved-ip-classic",
         "b": "aws-rds-optimized-writes",
         "similarity": 0.2972
@@ -29681,6 +28505,11 @@
         "a": "azure-network-function-manager-functions",
         "b": "aws-rds-optimized-writes",
         "similarity": 0.2956
+      },
+      {
+        "a": "azure-time-series-data-sets",
+        "b": "aws-rds-optimized-writes",
+        "similarity": 0.2919
       }
     ],
     "aws-postgresql-trusted-extensions": [
@@ -29763,9 +28592,9 @@
         "similarity": 0.2117
       },
       {
-        "a": "aws-ecs-compute-container",
-        "b": "fabric-slide-window",
-        "similarity": 0.2081
+        "a": "m365-person-square",
+        "b": "aws-ecs-compute-container",
+        "similarity": 0.2041
       }
     ],
     "aws-ecs-app-container": [
@@ -29928,14 +28757,14 @@
         "similarity": 0.2634
       },
       {
+        "a": "aws-ec2-elastic-ip",
+        "b": "fabric-location-database",
+        "similarity": 0.2626
+      },
+      {
         "a": "aws-ec2-microservice-extractor",
         "b": "aws-ec2-elastic-ip",
         "similarity": 0.2519
-      },
-      {
-        "a": "aws-ec2-elastic-ip",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.25
       }
     ],
     "aws-ec2-cloudwatch-instance": [
@@ -30200,14 +29029,14 @@
         "similarity": 0.2673
       },
       {
+        "a": "aws-timestream",
+        "b": "fabric-table-function",
+        "similarity": 0.2661
+      },
+      {
         "a": "m365-check",
         "b": "aws-timestream",
         "similarity": 0.2349
-      },
-      {
-        "a": "aws-elemental-server",
-        "b": "aws-timestream",
-        "similarity": 0.231
       }
     ],
     "aws-oracle-database": [
@@ -30274,8 +29103,8 @@
       },
       {
         "a": "aws-parallel-cluster",
-        "b": "azure-vmware-solution",
-        "similarity": 0.2184
+        "b": "fabric-list-sql",
+        "similarity": 0.2265
       }
     ],
     "aws-serverless-repository": [
@@ -30766,9 +29595,9 @@
         "similarity": 0.2246
       },
       {
-        "a": "aws-glacier-archive",
+        "a": "azure-governance-compliance",
         "b": "aws-category-blockchain",
-        "similarity": 0.2212
+        "similarity": 0.2213
       }
     ],
     "aws-category-quantum": [
@@ -30909,6 +29738,11 @@
     ],
     "aws-ground-station": [
       {
+        "a": "aws-ground-station",
+        "b": "fabric-window-relationship",
+        "similarity": 0.1872
+      },
+      {
         "a": "azure-redis-cache",
         "b": "aws-ground-station",
         "similarity": 0.1866
@@ -30917,11 +29751,6 @@
         "a": "aws-ground-station",
         "b": "fabric-signal-tower",
         "similarity": 0.1861
-      },
-      {
-        "a": "m365-edit",
-        "b": "aws-ground-station",
-        "similarity": 0.1845
       }
     ],
     "aws-local-zones": [
@@ -31504,19 +30333,19 @@
     ],
     "azure-virtual-instance-sap": [
       {
-        "a": "azure-network-security-perimeters",
-        "b": "azure-virtual-instance-sap",
-        "similarity": 0.2423
-      },
-      {
         "a": "azure-virtual-instance-sap",
         "b": "azure-folder-website",
-        "similarity": 0.2344
+        "similarity": 0.2267
       },
       {
-        "a": "azure-sphere",
+        "a": "aws-iot-thing-lightbulb",
         "b": "azure-virtual-instance-sap",
-        "similarity": 0.2197
+        "similarity": 0.2193
+      },
+      {
+        "a": "aws-iot-thing-temperature-sensor",
+        "b": "azure-virtual-instance-sap",
+        "similarity": 0.2188
       }
     ],
     "azure-center-sap": [
@@ -31555,19 +30384,19 @@
     ],
     "azure-sap-database-instance": [
       {
-        "a": "aws-backup-compute-resource",
+        "a": "aws-systems-state-manager",
         "b": "azure-sap-database-instance",
-        "similarity": 0.3149
+        "similarity": 0.3028
       },
       {
-        "a": "aws-postgresql-instance",
+        "a": "azure-storage-functions",
         "b": "azure-sap-database-instance",
-        "similarity": 0.2927
+        "similarity": 0.2992
       },
       {
-        "a": "azure-application-security-groups",
+        "a": "azure-icm-troubleshooting",
         "b": "azure-sap-database-instance",
-        "similarity": 0.2804
+        "similarity": 0.2873
       }
     ],
     "azure-dev-box": [
@@ -31922,9 +30751,9 @@
         "similarity": 0.3606
       },
       {
-        "a": "aws-oracle-db-instance",
+        "a": "azure-governance-compliance",
         "b": "azure-web-test",
-        "similarity": 0.3477
+        "similarity": 0.3527
       }
     ],
     "azure-general-workbooks": [
@@ -32065,11 +30894,6 @@
     ],
     "azure-production-ready-database": [
       {
-        "a": "aws-postgresql-instance",
-        "b": "azure-production-ready-database",
-        "similarity": 0.364
-      },
-      {
         "a": "aws-certificate-authority",
         "b": "azure-production-ready-database",
         "similarity": 0.3
@@ -32078,6 +30902,11 @@
         "a": "aws-systems-maintenance-windows",
         "b": "azure-production-ready-database",
         "similarity": 0.2657
+      },
+      {
+        "a": "aws-rds-optimized-writes",
+        "b": "azure-production-ready-database",
+        "similarity": 0.264
       }
     ],
     "azure-resource-group-list": [
@@ -32160,9 +30989,9 @@
         "similarity": 0.3578
       },
       {
-        "a": "azure-web-slots",
+        "a": "azure-governance-compliance",
         "b": "azure-server-farm",
-        "similarity": 0.3244
+        "similarity": 0.3457
       }
     ],
     "azure-ssd": [
@@ -32320,19 +31149,19 @@
     ],
     "azure-management-portal": [
       {
+        "a": "aws-general-management-console",
+        "b": "azure-management-portal",
+        "similarity": 0.4812
+      },
+      {
         "a": "azure-management-portal",
-        "b": "azure-dashboard",
-        "similarity": 0.5551
+        "b": "azure-static-apps",
+        "similarity": 0.4531
       },
       {
         "a": "aws-general-application",
         "b": "azure-management-portal",
-        "similarity": 0.538
-      },
-      {
-        "a": "azure-management-portal",
-        "b": "azure-browser",
-        "similarity": 0.4172
+        "similarity": 0.4121
       }
     ],
     "azure-media-file": [
@@ -32823,9 +31652,9 @@
         "similarity": 0.369
       },
       {
-        "a": "azure-network-connections",
+        "a": "azure-governance-compliance",
         "b": "azure-files",
-        "similarity": 0.3145
+        "similarity": 0.3431
       }
     ],
     "azure-troubleshoot": [
@@ -32920,14 +31749,14 @@
         "similarity": 0.434
       },
       {
-        "a": "azure-management-portal",
-        "b": "azure-browser",
-        "similarity": 0.4172
-      },
-      {
         "a": "aws-general-management-console",
         "b": "azure-browser",
         "similarity": 0.4161
+      },
+      {
+        "a": "azure-browser",
+        "b": "azure-dashboard",
+        "similarity": 0.3808
       }
     ],
     "azure-bug": [
@@ -33044,9 +31873,9 @@
         "similarity": 0.2324
       },
       {
-        "a": "gcp-free-trial",
-        "b": "azure-preview-features",
-        "similarity": 0.2053
+        "a": "azure-preview-features",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.2201
       }
     ],
     "azure-all-resources": [
@@ -33129,9 +31958,9 @@
         "similarity": 0.25
       },
       {
-        "a": "azure-sap-database-instance",
+        "a": "aws-cloudwatch-metrics-insights",
         "b": "azure-help-support",
-        "similarity": 0.2337
+        "similarity": 0.2311
       }
     ],
     "azure-tag": [
@@ -33153,11 +31982,6 @@
     ],
     "azure-dashboard": [
       {
-        "a": "azure-management-portal",
-        "b": "azure-dashboard",
-        "similarity": 0.5551
-      },
-      {
         "a": "aws-general-application",
         "b": "azure-dashboard",
         "similarity": 0.4985
@@ -33166,6 +31990,11 @@
         "a": "azure-browser",
         "b": "azure-dashboard",
         "similarity": 0.3808
+      },
+      {
+        "a": "azure-managed-applications-center",
+        "b": "azure-dashboard",
+        "similarity": 0.3469
       }
     ],
     "azure-free-services": [
@@ -33494,18 +32323,18 @@
     "azure-app-testing": [
       {
         "a": "azure-app-testing",
-        "b": "azure-lab-services",
-        "similarity": 0.5098
+        "b": "azure-virtual-machines-classic",
+        "similarity": 0.299
       },
       {
-        "a": "azure-app-testing",
-        "b": "fabric-list-sql",
-        "similarity": 0.2381
+        "a": "azure-applens",
+        "b": "azure-app-testing",
+        "similarity": 0.2818
       },
       {
-        "a": "azure-app-testing",
-        "b": "fabric-industry-solutions",
-        "similarity": 0.2293
+        "a": "azure-auto-scale",
+        "b": "azure-app-testing",
+        "similarity": 0.2783
       }
     ],
     "azure-cloudtest": [
@@ -33527,11 +32356,6 @@
     ],
     "azure-lab-services": [
       {
-        "a": "azure-app-testing",
-        "b": "azure-lab-services",
-        "similarity": 0.5098
-      },
-      {
         "a": "azure-storsimple-device-managers",
         "b": "azure-lab-services",
         "similarity": 0.2513
@@ -33540,6 +32364,11 @@
         "a": "azure-universal-print",
         "b": "azure-lab-services",
         "similarity": 0.2259
+      },
+      {
+        "a": "azure-lab-services",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2254
       }
     ],
     "azure-lab-accounts": [
@@ -33697,19 +32526,19 @@
     ],
     "azure-virtual-machines-classic": [
       {
-        "a": "azure-virtual-machines-classic",
-        "b": "fabric-window-interface",
-        "similarity": 0.2747
+        "a": "azure-app-testing",
+        "b": "azure-virtual-machines-classic",
+        "similarity": 0.299
       },
       {
         "a": "azure-virtual-machines-classic",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.2713
+        "b": "fabric-window-pulse",
+        "similarity": 0.2686
       },
       {
         "a": "azure-virtual-machines-classic",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.2709
+        "b": "fabric-table-cdc",
+        "similarity": 0.2539
       }
     ],
     "azure-images-classic": [
@@ -33787,14 +32616,14 @@
         "similarity": 0.2941
       },
       {
-        "a": "azure-image-gallery",
-        "b": "fabric-window-asterisk-new",
-        "similarity": 0.2849
-      },
-      {
         "a": "azure-activity-log",
         "b": "azure-image-gallery",
         "similarity": 0.2818
+      },
+      {
+        "a": "gcp-cloud-jobs",
+        "b": "azure-image-gallery",
+        "similarity": 0.2721
       }
     ],
     "azure-workspaces-grid": [
@@ -33809,9 +32638,9 @@
         "similarity": 0.234
       },
       {
-        "a": "aws-ecs-compute-container",
-        "b": "azure-workspaces-grid",
-        "similarity": 0.2127
+        "a": "azure-workspaces-grid",
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.217
       }
     ],
     "azure-workspaces-select": [
@@ -33855,14 +32684,14 @@
         "similarity": 0.1916
       },
       {
+        "a": "azure-mesh-applications",
+        "b": "fabric-table-database",
+        "similarity": 0.1867
+      },
+      {
         "a": "aws-category-games",
         "b": "azure-mesh-applications",
         "similarity": 0.1784
-      },
-      {
-        "a": "azure-mariadb",
-        "b": "azure-mesh-applications",
-        "similarity": 0.1767
       }
     ],
     "azure-cloud-services-classic": [
@@ -34071,6 +32900,11 @@
     ],
     "azure-service-health": [
       {
+        "a": "azure-service-health",
+        "b": "fabric-slide-window",
+        "similarity": 0.2806
+      },
+      {
         "a": "fabric-live-dashboard",
         "b": "azure-service-health",
         "similarity": 0.2783
@@ -34079,11 +32913,6 @@
         "a": "azure-foundry-project",
         "b": "azure-service-health",
         "similarity": 0.2675
-      },
-      {
-        "a": "gcp-looker",
-        "b": "azure-service-health",
-        "similarity": 0.2556
       }
     ],
     "azure-app-service-environments": [
@@ -34217,9 +33046,9 @@
         "similarity": 0.1554
       },
       {
-        "a": "azure-video-analyzers",
-        "b": "azure-maintenance-config",
-        "similarity": 0.1525
+        "a": "azure-maintenance-config",
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.1549
       }
     ],
     "azure-host-pools": [
@@ -34263,14 +33092,14 @@
         "similarity": 0.2481
       },
       {
+        "a": "azure-disk-encryption",
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2278
+      },
+      {
         "a": "aws-databrew",
         "b": "azure-disk-encryption",
         "similarity": 0.2237
-      },
-      {
-        "a": "azure-disk-encryption",
-        "b": "fabric-database-ribbon",
-        "similarity": 0.2213
       }
     ],
     "azure-automanaged-vm": [
@@ -34535,14 +33364,14 @@
         "similarity": 0.1834
       },
       {
-        "a": "azure-serverless-search",
-        "b": "fabric-cube-cone-sphere",
-        "similarity": 0.1708
+        "a": "fabric-cube-cone-sphere",
+        "b": "fabric-table-triangle",
+        "similarity": 0.1768
       },
       {
-        "a": "azure-mariadb",
-        "b": "fabric-cube-cone-sphere",
-        "similarity": 0.1686
+        "a": "fabric-cube-cone-sphere",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.1759
       }
     ],
     "fabric-area-location": [
@@ -35007,18 +33836,18 @@
     "fabric-documents-question": [
       {
         "a": "fabric-documents-question",
-        "b": "fabric-phone-data-bars",
-        "similarity": 0.3289
+        "b": "fabric-library-people",
+        "similarity": 0.2667
       },
       {
-        "a": "aws-elasticache",
-        "b": "fabric-documents-question",
-        "similarity": 0.2839
+        "a": "fabric-documents-question",
+        "b": "fabric-library-person",
+        "similarity": 0.2656
       },
       {
-        "a": "aws-ecr",
+        "a": "azure-image-gallery",
         "b": "fabric-documents-question",
-        "similarity": 0.283
+        "similarity": 0.2555
       }
     ],
     "fabric-document-sparkles": [
@@ -35215,14 +34044,14 @@
         "similarity": 0.2472
       },
       {
-        "a": "fabric-shapes-curved-arrow-new",
-        "b": "fabric-location-download",
-        "similarity": 0.2466
+        "a": "aws-sqs-message",
+        "b": "fabric-shapes-curved-arrow-new",
+        "similarity": 0.2405
       },
       {
-        "a": "fabric-shapes-curved-arrow-new",
-        "b": "fabric-location-database",
-        "similarity": 0.2455
+        "a": "aws-iot-thing-temperature-vibration",
+        "b": "fabric-shapes-curved-arrow-new",
+        "similarity": 0.2369
       }
     ],
     "fabric-shapes-forward-arrow": [
@@ -35504,14 +34333,14 @@
         "similarity": 0.568
       },
       {
-        "a": "gcp-contact-center-ai",
+        "a": "fabric-documents-question",
         "b": "fabric-library-people",
-        "similarity": 0.2375
+        "similarity": 0.2667
       },
       {
-        "a": "azure-network-foundation-hub",
-        "b": "fabric-library-people",
-        "similarity": 0.235
+        "a": "fabric-library-people",
+        "b": "fabric-slide-window",
+        "similarity": 0.2398
       }
     ],
     "fabric-library-person": [
@@ -35521,77 +34350,65 @@
         "similarity": 0.568
       },
       {
+        "a": "fabric-documents-question",
+        "b": "fabric-library-person",
+        "similarity": 0.2656
+      },
+      {
         "a": "aws-redshift-dense-storage",
         "b": "fabric-library-person",
         "similarity": 0.2361
-      },
-      {
-        "a": "aws-codecatalyst",
-        "b": "fabric-library-person",
-        "similarity": 0.234
       }
     ],
     "fabric-location-download": [
       {
         "a": "fabric-location-download",
-        "b": "fabric-location-radar",
-        "similarity": 0.7266,
-        "review": "distinct",
-        "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
+        "b": "fabric-database-money",
+        "similarity": 0.2714
       },
       {
-        "a": "fabric-location-download",
-        "b": "fabric-location-database",
-        "similarity": 0.6894,
-        "review": "distinct",
-        "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
+        "a": "aws-bedrock-agentcore",
+        "b": "fabric-location-download",
+        "similarity": 0.2659
       },
       {
         "a": "fabric-location-download",
         "b": "fabric-trophy-data-bars",
-        "similarity": 0.2596
+        "similarity": 0.26
       }
     ],
     "fabric-location-database": [
       {
-        "a": "fabric-location-download",
-        "b": "fabric-location-database",
-        "similarity": 0.6894,
-        "review": "distinct",
-        "notes": "The download badge has a downward arrow inside a circle; the database is a cylindrical shape with an elliptical top."
-      },
-      {
         "a": "fabric-location-database",
-        "b": "fabric-location-radar",
-        "similarity": 0.6865,
-        "review": "distinct",
-        "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
+        "b": "fabric-table-key",
+        "similarity": 0.2848
       },
       {
-        "a": "azure-postgresql-group",
+        "a": "aws-ecr-registry",
         "b": "fabric-location-database",
-        "similarity": 0.2539
+        "similarity": 0.2697
+      },
+      {
+        "a": "aws-ec2-elastic-ip",
+        "b": "fabric-location-database",
+        "similarity": 0.2626
       }
     ],
     "fabric-location-radar": [
       {
-        "a": "fabric-location-download",
+        "a": "aws-sitewise-asset-model",
         "b": "fabric-location-radar",
-        "similarity": 0.7266,
-        "review": "distinct",
-        "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
+        "similarity": 0.2447
       },
       {
-        "a": "fabric-location-database",
+        "a": "azure-blockchain-member",
         "b": "fabric-location-radar",
-        "similarity": 0.6865,
-        "review": "distinct",
-        "notes": "The database has a closed cylinder and oval top; radar has an open circular sweep and diagonal pointer."
+        "similarity": 0.2397
       },
       {
-        "a": "fabric-location-radar",
-        "b": "fabric-trophy-data-bars",
-        "similarity": 0.2662
+        "a": "azure-machine-learning-classic",
+        "b": "fabric-location-radar",
+        "similarity": 0.2334
       }
     ],
     "fabric-nodes-triangle": [
@@ -35613,11 +34430,6 @@
     ],
     "fabric-match-category": [
       {
-        "a": "fabric-match-category",
-        "b": "fabric-slide-window",
-        "similarity": 0.3503
-      },
-      {
         "a": "aws-general-user",
         "b": "fabric-match-category",
         "similarity": 0.3479
@@ -35626,6 +34438,11 @@
         "a": "azure-app-space-component",
         "b": "fabric-match-category",
         "similarity": 0.3451
+      },
+      {
+        "a": "azure-multifactor-authentication",
+        "b": "fabric-match-category",
+        "similarity": 0.3194
       }
     ],
     "fabric-notebook-export": [
@@ -35681,40 +34498,36 @@
     ],
     "fabric-list-kql": [
       {
-        "a": "fabric-list-kql",
-        "b": "fabric-list-sql",
-        "similarity": 0.8186,
-        "review": "distinct",
-        "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
-      },
-      {
-        "a": "fabric-list-kql",
-        "b": "fabric-folder-share",
-        "similarity": 0.2339
-      },
-      {
-        "a": "azure-marketplace-management",
+        "a": "aws-rekognition-image",
         "b": "fabric-list-kql",
-        "similarity": 0.2194
+        "similarity": 0.2526
+      },
+      {
+        "a": "azure-foundry-local",
+        "b": "fabric-list-kql",
+        "similarity": 0.2236
+      },
+      {
+        "a": "azure-compliance-center",
+        "b": "fabric-list-kql",
+        "similarity": 0.2224
       }
     ],
     "fabric-list-sql": [
       {
-        "a": "fabric-list-kql",
+        "a": "aws-glue-catalog",
         "b": "fabric-list-sql",
-        "similarity": 0.8186,
-        "review": "distinct",
-        "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
+        "similarity": 0.3147
       },
       {
-        "a": "azure-app-testing",
+        "a": "fabric-live-dashboard",
         "b": "fabric-list-sql",
-        "similarity": 0.2381
+        "similarity": 0.3071
       },
       {
-        "a": "azure-activity-log",
+        "a": "m365-window-dev-edit",
         "b": "fabric-list-sql",
-        "similarity": 0.2187
+        "similarity": 0.3049
       }
     ],
     "fabric-sql-lock": [
@@ -35770,19 +34583,19 @@
     ],
     "fabric-phone-data-bars": [
       {
-        "a": "fabric-documents-question",
-        "b": "fabric-phone-data-bars",
-        "similarity": 0.3289
-      },
-      {
-        "a": "fabric-phone-data-bars",
-        "b": "fabric-slide-window",
-        "similarity": 0.3023
-      },
-      {
         "a": "fabric-phone-data-bars",
         "b": "fabric-window-asterisk",
         "similarity": 0.2944
+      },
+      {
+        "a": "fabric-phone-data-bars",
+        "b": "fabric-table-cdc",
+        "similarity": 0.2764
+      },
+      {
+        "a": "fabric-phone-data-bars",
+        "b": "fabric-border-inside-vertical",
+        "similarity": 0.2667
       }
     ],
     "fabric-pipeline-note": [
@@ -36026,26 +34839,21 @@
     "fabric-save-phone": [
       {
         "a": "fabric-save-phone",
-        "b": "fabric-table-database",
-        "similarity": 0.3569
+        "b": "fabric-database-money",
+        "similarity": 0.3001
       },
       {
         "a": "fabric-save-phone",
-        "b": "fabric-table-triangle",
-        "similarity": 0.3216
+        "b": "fabric-squares-add",
+        "similarity": 0.2783
       },
       {
-        "a": "fabric-save-phone",
-        "b": "fabric-table-function",
-        "similarity": 0.3033
+        "a": "aws-well-architected-tool",
+        "b": "fabric-save-phone",
+        "similarity": 0.2747
       }
     ],
     "fabric-shopping-data-bars": [
-      {
-        "a": "fabric-shopping-data-bars",
-        "b": "fabric-window-person",
-        "similarity": 0.3469
-      },
       {
         "a": "fabric-shopping-data-bars",
         "b": "fabric-squares-data-bars",
@@ -36053,8 +34861,13 @@
       },
       {
         "a": "fabric-shopping-data-bars",
-        "b": "fabric-window-math",
-        "similarity": 0.3341
+        "b": "fabric-list-pulse",
+        "similarity": 0.2681
+      },
+      {
+        "a": "fabric-shopping-data-bars",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.2623
       }
     ],
     "fabric-signal-square": [
@@ -36098,52 +34911,48 @@
         "similarity": 0.4551
       },
       {
-        "a": "fabric-slide-accept-dismiss",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.4456
+        "a": "fabric-document-ssis",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.396
       },
       {
-        "a": "fabric-slide-accept-dismiss",
-        "b": "fabric-slide-window",
-        "similarity": 0.4385
+        "a": "azure-images-classic",
+        "b": "fabric-slide-accept-dismiss",
+        "similarity": 0.3521
       }
     ],
     "fabric-slide-ribbon": [
       {
+        "a": "gcp-data-labeling",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.3085
+      },
+      {
+        "a": "gcp-storage",
+        "b": "fabric-slide-ribbon",
+        "similarity": 0.3068
+      },
+      {
         "a": "fabric-slide-ribbon",
-        "b": "fabric-slide-window",
-        "similarity": 0.682,
-        "review": "distinct",
-        "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
-      },
-      {
-        "a": "fabric-slide-accept-dismiss",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.4456
-      },
-      {
-        "a": "fabric-sample",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.3426
+        "b": "fabric-window-person",
+        "similarity": 0.293
       }
     ],
     "fabric-slide-window": [
       {
-        "a": "fabric-slide-ribbon",
-        "b": "fabric-slide-window",
-        "similarity": 0.682,
-        "review": "distinct",
-        "notes": "The slide ribbon has a round medal and tails, while the slide window has a rectangular frame and horizontal header."
+        "a": "fabric-slide-window",
+        "b": "fabric-window-gauge",
+        "similarity": 0.3207
       },
       {
-        "a": "fabric-slide-accept-dismiss",
+        "a": "m365-text-first-line",
         "b": "fabric-slide-window",
-        "similarity": 0.4385
+        "similarity": 0.3118
       },
       {
-        "a": "fabric-match-category",
-        "b": "fabric-slide-window",
-        "similarity": 0.3503
+        "a": "fabric-slide-window",
+        "b": "fabric-window-person",
+        "similarity": 0.301
       }
     ],
     "fabric-squares-multiple": [
@@ -36239,13 +35048,13 @@
       },
       {
         "a": "fabric-squares-eye",
-        "b": "fabric-window-gauge",
-        "similarity": 0.2737
+        "b": "fabric-window-list-filter",
+        "similarity": 0.2629
       },
       {
-        "a": "fabric-squares-eye",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.2717
+        "a": "fabric-phone-data-bars",
+        "b": "fabric-squares-eye",
+        "similarity": 0.2538
       }
     ],
     "fabric-table-export": [
@@ -36260,9 +35069,9 @@
         "similarity": 0.4282
       },
       {
-        "a": "fabric-table-export",
-        "b": "fabric-table-key",
-        "similarity": 0.3539
+        "a": "fabric-sample",
+        "b": "fabric-table-export",
+        "similarity": 0.3192
       }
     ],
     "fabric-table-left-border": [
@@ -36273,13 +35082,13 @@
       },
       {
         "a": "fabric-table-left-border",
-        "b": "fabric-window-code",
-        "similarity": 0.3695
+        "b": "fabric-table-header",
+        "similarity": 0.3167
       },
       {
-        "a": "fabric-table-left-border",
-        "b": "fabric-window-sparkle",
-        "similarity": 0.3507
+        "a": "gcp-secret-manager",
+        "b": "fabric-table-left-border",
+        "similarity": 0.2998
       }
     ],
     "fabric-table-broom": [
@@ -36294,222 +35103,196 @@
         "similarity": 0.4341
       },
       {
-        "a": "fabric-table-broom",
-        "b": "fabric-table-key",
-        "similarity": 0.3582
+        "a": "fabric-document-people",
+        "b": "fabric-table-broom",
+        "similarity": 0.3237
       }
     ],
     "fabric-table-database": [
       {
+        "a": "azure-documentdb",
+        "b": "fabric-table-database",
+        "similarity": 0.3083
+      },
+      {
+        "a": "fabric-table-database",
+        "b": "fabric-window-gauge",
+        "similarity": 0.2934
+      },
+      {
         "a": "fabric-table-database",
         "b": "fabric-table-triangle",
-        "similarity": 0.7177,
-        "review": "distinct",
-        "notes": "The database has a cylinder with an oval top; the triangle has three straight sides and a pointed top."
-      },
-      {
-        "a": "fabric-table-database",
-        "b": "fabric-table-function",
-        "similarity": 0.7161,
-        "review": "distinct",
-        "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
-      },
-      {
-        "a": "fabric-table-database",
-        "b": "fabric-table-link",
-        "similarity": 0.6188
+        "similarity": 0.2878
       }
     ],
     "fabric-table-external": [
       {
-        "a": "fabric-table-external",
-        "b": "fabric-table-key",
-        "similarity": 0.5098
-      },
-      {
-        "a": "fabric-table-external",
-        "b": "fabric-table-link",
-        "similarity": 0.4876
-      },
-      {
         "a": "fabric-table-broom",
         "b": "fabric-table-external",
         "similarity": 0.4341
+      },
+      {
+        "a": "fabric-table-export",
+        "b": "fabric-table-external",
+        "similarity": 0.4282
+      },
+      {
+        "a": "aws-textract-lending",
+        "b": "fabric-table-external",
+        "similarity": 0.3091
       }
     ],
     "fabric-table-key": [
       {
-        "a": "fabric-table-key",
-        "b": "fabric-table-link",
-        "similarity": 0.6938,
-        "review": "distinct",
-        "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
+        "a": "fabric-location-database",
+        "b": "fabric-table-key",
+        "similarity": 0.2848
+      },
+      {
+        "a": "fabric-slide-window",
+        "b": "fabric-table-key",
+        "similarity": 0.2713
       },
       {
         "a": "fabric-table-key",
-        "b": "fabric-table-triangle",
-        "similarity": 0.6293
-      },
-      {
-        "a": "fabric-table-key",
-        "b": "fabric-table-function",
-        "similarity": 0.6232
+        "b": "fabric-window-math",
+        "similarity": 0.2709
       }
     ],
     "fabric-table-function": [
       {
-        "a": "fabric-table-database",
+        "a": "fabric-table-function",
+        "b": "fabric-column-sigma",
+        "similarity": 0.3881
+      },
+      {
+        "a": "gcp-data-labeling",
         "b": "fabric-table-function",
-        "similarity": 0.7161,
-        "review": "distinct",
-        "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
+        "similarity": 0.2859
       },
       {
         "a": "fabric-table-function",
-        "b": "fabric-table-triangle",
-        "similarity": 0.7132,
-        "review": "distinct",
-        "notes": "The function has separate f and x strokes, while the other table has a closed triangular marker."
-      },
-      {
-        "a": "fabric-table-function",
-        "b": "fabric-table-link",
-        "similarity": 0.6684,
-        "review": "distinct",
-        "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
+        "b": "fabric-database-table",
+        "similarity": 0.2667
       }
     ],
     "fabric-table-header": [
       {
-        "a": "fabric-table-header",
-        "b": "fabric-window-code",
-        "similarity": 0.3793
-      },
-      {
-        "a": "fabric-table-header",
-        "b": "fabric-window-sparkle",
-        "similarity": 0.3746
-      },
-      {
         "a": "aws-location-map",
         "b": "fabric-table-header",
         "similarity": 0.332
+      },
+      {
+        "a": "fabric-table-left-border",
+        "b": "fabric-table-header",
+        "similarity": 0.3167
+      },
+      {
+        "a": "fabric-document-tmdl-export",
+        "b": "fabric-table-header",
+        "similarity": 0.3154
       }
     ],
     "fabric-table-link": [
       {
-        "a": "fabric-table-key",
+        "a": "m365-window",
         "b": "fabric-table-link",
-        "similarity": 0.6938,
-        "review": "distinct",
-        "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
+        "similarity": 0.3174
       },
       {
-        "a": "fabric-table-link",
-        "b": "fabric-table-triangle",
-        "similarity": 0.6756,
-        "review": "distinct",
-        "notes": "The link is a rounded horizontal chain; the triangle is a pointed three-sided marker."
+        "a": "m365-task-square",
+        "b": "fabric-table-link",
+        "similarity": 0.2962
       },
       {
-        "a": "fabric-table-function",
+        "a": "m365-text-bullet-list-square",
         "b": "fabric-table-link",
-        "similarity": 0.6684,
-        "review": "distinct",
-        "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
+        "similarity": 0.2723
       }
     ],
     "fabric-table-link-lightning": [
       {
         "a": "fabric-table-link-lightning",
-        "b": "fabric-table-link-triangle",
-        "similarity": 0.7386,
-        "review": "distinct",
-        "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2523
       },
       {
-        "a": "m365-check-circle",
+        "a": "fabric-table-function",
         "b": "fabric-table-link-lightning",
-        "similarity": 0.2924
+        "similarity": 0.2485
       },
       {
-        "a": "aws-ecr-registry",
+        "a": "aws-opensearch-dashboards",
         "b": "fabric-table-link-lightning",
-        "similarity": 0.2549
+        "similarity": 0.2319
       }
     ],
     "fabric-table-link-triangle": [
       {
-        "a": "fabric-table-link-lightning",
+        "a": "m365-task-square",
         "b": "fabric-table-link-triangle",
-        "similarity": 0.7386,
-        "review": "distinct",
-        "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
+        "similarity": 0.2488
       },
       {
-        "a": "fabric-table-link-triangle",
-        "b": "fabric-table-triangle",
-        "similarity": 0.282
+        "a": "gcp-cloud-monitoring",
+        "b": "fabric-table-link-triangle",
+        "similarity": 0.2363
       },
       {
-        "a": "m365-check-circle",
+        "a": "m365-person-square",
         "b": "fabric-table-link-triangle",
-        "similarity": 0.2655
+        "similarity": 0.2351
       }
     ],
     "fabric-script-sparkle": [
       {
         "a": "fabric-script-sparkle",
         "b": "fabric-script-sparkle-add",
-        "similarity": 0.4289
-      },
-      {
-        "a": "fabric-script-sparkle",
-        "b": "fabric-script-kql-add",
-        "similarity": 0.3315
+        "similarity": 0.2847
       },
       {
         "a": "fabric-rectangle-list-asterisk",
         "b": "fabric-script-sparkle",
         "similarity": 0.2285
+      },
+      {
+        "a": "fabric-script-sparkle",
+        "b": "fabric-list-pulse",
+        "similarity": 0.2201
       }
     ],
     "fabric-script-sparkle-add": [
       {
-        "a": "fabric-script-sparkle-add",
-        "b": "fabric-script-kql-add",
-        "similarity": 0.6938,
-        "review": "distinct",
-        "notes": "The added sparkle script has a four-point star; the KQL script has a diagonal query mark and parallel strokes."
-      },
-      {
         "a": "fabric-script-sparkle",
         "b": "fabric-script-sparkle-add",
-        "similarity": 0.4289
+        "similarity": 0.2847
+      },
+      {
+        "a": "fabric-script-sparkle-add",
+        "b": "fabric-code-text-flash",
+        "similarity": 0.2588
       },
       {
         "a": "fabric-script-sparkle-add",
         "b": "fabric-window-database-arrow",
-        "similarity": 0.3053
+        "similarity": 0.2368
       }
     ],
     "fabric-script-kql-add": [
       {
-        "a": "fabric-script-sparkle-add",
+        "a": "fabric-document-shapes",
         "b": "fabric-script-kql-add",
-        "similarity": 0.6938,
-        "review": "distinct",
-        "notes": "The added sparkle script has a four-point star; the KQL script has a diagonal query mark and parallel strokes."
+        "similarity": 0.2432
       },
       {
-        "a": "fabric-script-sparkle",
+        "a": "fabric-receipt-sparkle-new",
         "b": "fabric-script-kql-add",
-        "similarity": 0.3315
+        "similarity": 0.226
       },
       {
         "a": "fabric-script-kql-add",
-        "b": "fabric-window-database-arrow",
-        "similarity": 0.3242
+        "b": "fabric-window-person",
+        "similarity": 0.2221
       }
     ],
     "fabric-receipt-kql-new": [
@@ -36565,42 +35348,36 @@
     ],
     "fabric-table-cdc": [
       {
-        "a": "fabric-table-link",
-        "b": "fabric-table-cdc",
-        "similarity": 0.3348
-      },
-      {
-        "a": "fabric-table-key",
-        "b": "fabric-table-cdc",
-        "similarity": 0.3109
-      },
-      {
         "a": "fabric-sql-lock",
         "b": "fabric-table-cdc",
         "similarity": 0.3056
+      },
+      {
+        "a": "fabric-table-external",
+        "b": "fabric-table-cdc",
+        "similarity": 0.2861
+      },
+      {
+        "a": "fabric-phone-data-bars",
+        "b": "fabric-table-cdc",
+        "similarity": 0.2764
       }
     ],
     "fabric-table-triangle": [
       {
         "a": "fabric-table-database",
         "b": "fabric-table-triangle",
-        "similarity": 0.7177,
-        "review": "distinct",
-        "notes": "The database has a cylinder with an oval top; the triangle has three straight sides and a pointed top."
+        "similarity": 0.2878
       },
       {
-        "a": "fabric-table-function",
+        "a": "gcp-producer-portal",
         "b": "fabric-table-triangle",
-        "similarity": 0.7132,
-        "review": "distinct",
-        "notes": "The function has separate f and x strokes, while the other table has a closed triangular marker."
+        "similarity": 0.2604
       },
       {
-        "a": "fabric-table-link",
+        "a": "azure-multi-factor-authentication",
         "b": "fabric-table-triangle",
-        "similarity": 0.6756,
-        "review": "distinct",
-        "notes": "The link is a rounded horizontal chain; the triangle is a pointed three-sided marker."
+        "similarity": 0.2592
       }
     ],
     "fabric-number-field": [
@@ -36683,9 +35460,9 @@
         "similarity": 0.2739
       },
       {
-        "a": "fabric-location-radar",
+        "a": "aws-sitewise-asset-model",
         "b": "fabric-trophy-data-bars",
-        "similarity": 0.2662
+        "similarity": 0.2624
       }
     ],
     "fabric-vehicle-ship": [
@@ -36725,305 +35502,273 @@
     "fabric-window-asterisk-new": [
       {
         "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.7477,
-        "review": "distinct",
-        "notes": "The asterisk has six intersecting rays; the sparkle is a closed four-point star."
-      },
-      {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.6124
+        "b": "fabric-window-person",
+        "similarity": 0.3926
       },
       {
         "a": "fabric-window-asterisk-new",
         "b": "fabric-window-gauge",
-        "similarity": 0.5966
+        "similarity": 0.3496
+      },
+      {
+        "a": "gcp-stackdriver",
+        "b": "fabric-window-asterisk-new",
+        "similarity": 0.2974
       }
     ],
     "fabric-window-list-filter": [
       {
         "a": "fabric-window-list-filter",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.6019
+        "b": "fabric-window-asterisk",
+        "similarity": 0.4023
       },
       {
         "a": "fabric-window-list-filter",
-        "b": "fabric-window-gauge",
-        "similarity": 0.5918
+        "b": "fabric-list-pulse",
+        "similarity": 0.349
       },
       {
-        "a": "fabric-window-list-filter",
-        "b": "fabric-window-interface",
-        "similarity": 0.5605
+        "a": "aws-elasticache",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.31
       }
     ],
     "fabric-window-code": [
       {
-        "a": "fabric-window-code",
-        "b": "fabric-window-sparkle",
-        "similarity": 0.7674,
-        "review": "distinct",
-        "notes": "Code uses two separated angle brackets; sparkle is a closed four-point star."
+        "a": "gcp-security-command-center",
+        "b": "fabric-window-code",
+        "similarity": 0.3702
       },
       {
-        "a": "fabric-window-code",
-        "b": "fabric-window-person",
-        "similarity": 0.4502
+        "a": "gcp-project",
+        "b": "fabric-window-code",
+        "similarity": 0.3016
       },
       {
-        "a": "fabric-window-code",
-        "b": "fabric-window-math",
-        "similarity": 0.4453
+        "a": "aws-managed-grafana",
+        "b": "fabric-window-code",
+        "similarity": 0.2888
       }
     ],
     "fabric-window-database-arrow": [
       {
-        "a": "fabric-script-kql-add",
+        "a": "fabric-save-phone",
         "b": "fabric-window-database-arrow",
-        "similarity": 0.3242
+        "similarity": 0.2576
+      },
+      {
+        "a": "fabric-window-list-filter",
+        "b": "fabric-window-database-arrow",
+        "similarity": 0.2493
       },
       {
         "a": "fabric-script-sparkle-add",
         "b": "fabric-window-database-arrow",
-        "similarity": 0.3053
-      },
-      {
-        "a": "fabric-window-database-arrow",
-        "b": "fabric-window-math",
-        "similarity": 0.2918
+        "similarity": 0.2368
       }
     ],
     "fabric-window-gauge": [
       {
         "a": "fabric-window-gauge",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.7393,
-        "review": "distinct",
-        "notes": "The gauge has an arch and diagonal needle; Synapse link has a horizontal line through a small circle and open ring."
-      },
-      {
-        "a": "fabric-window-gauge",
-        "b": "fabric-window-interface",
-        "similarity": 0.695,
-        "review": "distinct",
-        "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
-      },
-      {
-        "a": "fabric-window-gauge",
         "b": "fabric-window-person",
-        "similarity": 0.6321
+        "similarity": 0.4697
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-gauge",
+        "similarity": 0.3496
+      },
+      {
+        "a": "fabric-slide-window",
+        "b": "fabric-window-gauge",
+        "similarity": 0.3207
       }
     ],
     "fabric-window-interface": [
       {
-        "a": "fabric-window-gauge",
+        "a": "gcp-secret-manager",
         "b": "fabric-window-interface",
-        "similarity": 0.695,
-        "review": "distinct",
-        "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
+        "similarity": 0.287
       },
       {
-        "a": "fabric-window-interface",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.6601,
-        "review": "distinct",
-        "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
+        "a": "aws-devops-guru-insights",
+        "b": "fabric-window-interface",
+        "similarity": 0.2578
       },
       {
-        "a": "fabric-window-interface",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.5677
+        "a": "fabric-table-link",
+        "b": "fabric-window-interface",
+        "similarity": 0.2428
       }
     ],
     "fabric-window-person": [
       {
-        "a": "fabric-window-person",
-        "b": "fabric-window-math",
-        "similarity": 0.6734,
-        "review": "distinct",
-        "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
-      },
-      {
         "a": "fabric-window-gauge",
         "b": "fabric-window-person",
-        "similarity": 0.6321
+        "similarity": 0.4697
       },
       {
-        "a": "fabric-window-person",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.5708
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-person",
+        "similarity": 0.3926
+      },
+      {
+        "a": "aws-cli",
+        "b": "fabric-window-person",
+        "similarity": 0.3101
       }
     ],
     "fabric-window-relationship": [
       {
         "a": "fabric-window-relationship",
-        "b": "fabric-window-relationship-off",
-        "similarity": 0.7813,
-        "review": "distinct",
-        "notes": "The disabled relationship carries a long diagonal slash; the active relationship does not."
+        "b": "fabric-database-swap",
+        "similarity": 0.2926
       },
       {
         "a": "fabric-window-relationship",
-        "b": "fabric-database-swap",
-        "similarity": 0.2638
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2911
       },
       {
-        "a": "aws-cloudfront-functions",
+        "a": "fabric-table-key",
         "b": "fabric-window-relationship",
-        "similarity": 0.2576
+        "similarity": 0.2659
       }
     ],
     "fabric-window-relationship-off": [
       {
-        "a": "fabric-window-relationship",
+        "a": "azure-language-understanding",
         "b": "fabric-window-relationship-off",
-        "similarity": 0.7813,
-        "review": "distinct",
-        "notes": "The disabled relationship carries a long diagonal slash; the active relationship does not."
+        "similarity": 0.2494
       },
       {
-        "a": "azure-vnet-appliance",
+        "a": "aws-elemental-appliances",
         "b": "fabric-window-relationship-off",
-        "similarity": 0.2036
+        "similarity": 0.2445
       },
       {
-        "a": "fabric-window-person",
+        "a": "azure-foundry-project",
         "b": "fabric-window-relationship-off",
-        "similarity": 0.2021
+        "similarity": 0.2295
       }
     ],
     "fabric-window-sparkle": [
       {
-        "a": "fabric-window-code",
+        "a": "gcp-producer-portal",
         "b": "fabric-window-sparkle",
-        "similarity": 0.7674,
-        "review": "distinct",
-        "notes": "Code uses two separated angle brackets; sparkle is a closed four-point star."
+        "similarity": 0.2634
       },
       {
-        "a": "fabric-window-sparkle",
-        "b": "fabric-window-math",
-        "similarity": 0.4467
+        "a": "gcp-data-labeling",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.2477
       },
       {
-        "a": "fabric-window-person",
+        "a": "aws-config",
         "b": "fabric-window-sparkle",
-        "similarity": 0.4384
+        "similarity": 0.2438
       }
     ],
     "fabric-window-sparkle-new": [
       {
-        "a": "fabric-window-asterisk-new",
+        "a": "m365-apps-list",
         "b": "fabric-window-sparkle-new",
-        "similarity": 0.7477,
-        "review": "distinct",
-        "notes": "The asterisk has six intersecting rays; the sparkle is a closed four-point star."
+        "similarity": 0.2739
       },
       {
-        "a": "fabric-window-gauge",
+        "a": "fabric-table-link",
         "b": "fabric-window-sparkle-new",
-        "similarity": 0.6181
+        "similarity": 0.2643
       },
       {
-        "a": "fabric-window-sparkle-new",
-        "b": "fabric-window-synapse-link",
-        "similarity": 0.6092
+        "a": "aws-systems-application-manager",
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.2558
       }
     ],
     "fabric-window-math": [
       {
-        "a": "fabric-window-person",
+        "a": "m365-person-square",
         "b": "fabric-window-math",
-        "similarity": 0.6734,
-        "review": "distinct",
-        "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
+        "similarity": 0.2813
       },
       {
-        "a": "fabric-window-gauge",
+        "a": "fabric-table-key",
         "b": "fabric-window-math",
-        "similarity": 0.5893
+        "similarity": 0.2709
       },
       {
-        "a": "fabric-window-interface",
+        "a": "azure-app-service-builder",
         "b": "fabric-window-math",
-        "similarity": 0.5629
+        "similarity": 0.2548
       }
     ],
     "fabric-window-synapse-link": [
       {
-        "a": "fabric-window-gauge",
+        "a": "fabric-window-list-filter",
         "b": "fabric-window-synapse-link",
-        "similarity": 0.7393,
-        "review": "distinct",
-        "notes": "The gauge has an arch and diagonal needle; Synapse link has a horizontal line through a small circle and open ring."
+        "similarity": 0.2944
       },
       {
-        "a": "fabric-window-interface",
+        "a": "fabric-table-external",
         "b": "fabric-window-synapse-link",
-        "similarity": 0.6601,
-        "review": "distinct",
-        "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
+        "similarity": 0.2816
       },
       {
-        "a": "fabric-window-asterisk-new",
+        "a": "azure-sql-server",
         "b": "fabric-window-synapse-link",
-        "similarity": 0.6124
+        "similarity": 0.2798
       }
     ],
     "fabric-window-tree": [
       {
-        "a": "fabric-window-tree",
-        "b": "fabric-window-tree-export",
-        "similarity": 0.6744,
-        "review": "distinct",
-        "notes": "The plain tree has a rectangular upper child; the export tree replaces it with a circular outward-arrow badge."
+        "a": "azure-experimentation",
+        "b": "fabric-window-tree",
+        "similarity": 0.2475
       },
       {
-        "a": "gcp-database-migration",
+        "a": "aws-deadline-cloud",
         "b": "fabric-window-tree",
-        "similarity": 0.2215
+        "similarity": 0.2247
       },
       {
-        "a": "gcp-apigee",
+        "a": "aws-outposts-rack",
         "b": "fabric-window-tree",
-        "similarity": 0.2202
+        "similarity": 0.2236
       }
     ],
     "fabric-window-tree-export": [
       {
-        "a": "fabric-window-tree",
+        "a": "fabric-table-function",
         "b": "fabric-window-tree-export",
-        "similarity": 0.6744,
-        "review": "distinct",
-        "notes": "The plain tree has a rectangular upper child; the export tree replaces it with a circular outward-arrow badge."
+        "similarity": 0.249
       },
       {
-        "a": "gcp-certificate-manager",
+        "a": "gcp-container-registry",
         "b": "fabric-window-tree-export",
-        "similarity": 0.2217
+        "similarity": 0.2372
       },
       {
-        "a": "gcp-apigee",
+        "a": "fabric-slide-window",
         "b": "fabric-window-tree-export",
-        "similarity": 0.2134
+        "similarity": 0.2329
       }
     ],
     "fabric-number-function": [
       {
-        "a": "fabric-window-math",
+        "a": "fabric-save-phone",
         "b": "fabric-number-function",
-        "similarity": 0.358
+        "similarity": 0.2555
       },
       {
-        "a": "fabric-window-person",
+        "a": "fabric-table-external",
         "b": "fabric-number-function",
-        "similarity": 0.313
+        "similarity": 0.2536
       },
       {
-        "a": "fabric-table-function",
+        "a": "fabric-window-list-filter",
         "b": "fabric-number-function",
-        "similarity": 0.293
+        "similarity": 0.2461
       }
     ],
     "fabric-orientation-vertical": [
@@ -37096,11 +35841,6 @@
     ],
     "fabric-ellipse": [
       {
-        "a": "fabric-ellipse",
-        "b": "fabric-datatype-double",
-        "similarity": 0.1429
-      },
-      {
         "a": "fabric-arrow-right-double",
         "b": "fabric-ellipse",
         "similarity": 0.1327
@@ -37109,6 +35849,11 @@
         "a": "m365-desktop-download",
         "b": "fabric-ellipse",
         "similarity": 0.1304
+      },
+      {
+        "a": "power-platform",
+        "b": "fabric-ellipse",
+        "similarity": 0.1206
       }
     ],
     "fabric-squares-add": [
@@ -37118,14 +35863,14 @@
         "similarity": 0.3545
       },
       {
-        "a": "fabric-window-sparkle-new",
-        "b": "fabric-squares-add",
-        "similarity": 0.3537
-      },
-      {
         "a": "fabric-squares-eye",
         "b": "fabric-squares-add",
         "similarity": 0.3186
+      },
+      {
+        "a": "fabric-save-phone",
+        "b": "fabric-squares-add",
+        "similarity": 0.2783
       }
     ],
     "fabric-square-text": [
@@ -37135,14 +35880,14 @@
         "similarity": 0.4194
       },
       {
-        "a": "fabric-window-sparkle",
-        "b": "fabric-square-text",
-        "similarity": 0.4141
+        "a": "fabric-square-text",
+        "b": "fabric-square-database",
+        "similarity": 0.3639
       },
       {
-        "a": "fabric-window-code",
+        "a": "azure-detonation",
         "b": "fabric-square-text",
-        "similarity": 0.4103
+        "similarity": 0.3189
       }
     ],
     "fabric-list-pulse": [
@@ -37152,14 +35897,14 @@
         "similarity": 0.4194
       },
       {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-list-pulse",
-        "similarity": 0.3622
-      },
-      {
         "a": "fabric-squares-add",
         "b": "fabric-list-pulse",
         "similarity": 0.3545
+      },
+      {
+        "a": "fabric-window-list-filter",
+        "b": "fabric-list-pulse",
+        "similarity": 0.349
       }
     ],
     "fabric-lambda-glyph": [
@@ -37174,9 +35919,9 @@
         "similarity": 0.0941
       },
       {
-        "a": "m365-merge",
+        "a": "fabric-table-link-triangle",
         "b": "fabric-lambda-glyph",
-        "similarity": 0.081
+        "similarity": 0.083
       }
     ],
     "fabric-sample-workload": [
@@ -37203,14 +35948,14 @@
         "similarity": 0.2984
       },
       {
+        "a": "fabric-window-relationship",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2911
+      },
+      {
         "a": "azure-ml-classic-web-services",
         "b": "fabric-industry-solutions",
         "similarity": 0.2579
-      },
-      {
-        "a": "fabric-documents-dax-export",
-        "b": "fabric-industry-solutions",
-        "similarity": 0.257
       }
     ],
     "fabric-database-add": [
@@ -37387,17 +36132,17 @@
       {
         "a": "fabric-window-relationship",
         "b": "fabric-database-swap",
-        "similarity": 0.2638
+        "similarity": 0.2926
       },
       {
-        "a": "fabric-window-gauge",
+        "a": "azure-app-domains",
         "b": "fabric-database-swap",
-        "similarity": 0.2446
+        "similarity": 0.2359
       },
       {
-        "a": "fabric-window-interface",
+        "a": "fabric-window-code",
         "b": "fabric-database-swap",
-        "similarity": 0.2418
+        "similarity": 0.2338
       }
     ],
     "fabric-database-table": [
@@ -37640,40 +36385,36 @@
     ],
     "fabric-datatype-double": [
       {
-        "a": "fabric-datatype-double",
-        "b": "fabric-datatype-float",
-        "similarity": 0.7127,
-        "review": "distinct",
-        "notes": "Rechecked the current double and float drawings after verifying the added 1.2F source variants: the D is closed, while F has an open right side."
+        "a": "fabric-data-factory",
+        "b": "fabric-datatype-double",
+        "similarity": 0.2283
       },
       {
-        "a": "m365-code",
+        "a": "dynamics-customer-voice",
         "b": "fabric-datatype-double",
-        "similarity": 0.2164
+        "similarity": 0.2263
       },
       {
-        "a": "azure-app-services",
+        "a": "gcp-asset-inventory",
         "b": "fabric-datatype-double",
-        "similarity": 0.181
+        "similarity": 0.2242
       }
     ],
     "fabric-datatype-float": [
       {
-        "a": "fabric-datatype-double",
+        "a": "aws-iot-expresslink",
         "b": "fabric-datatype-float",
-        "similarity": 0.7127,
-        "review": "distinct",
-        "notes": "Rechecked the current double and float drawings after verifying the added 1.2F source variants: the D is closed, while F has an open right side."
+        "similarity": 0.2033
+      },
+      {
+        "a": "fabric-datatype-float",
+        "b": "fabric-chart-phone",
+        "similarity": 0.1829
       },
       {
         "a": "m365-code",
         "b": "fabric-datatype-float",
-        "similarity": 0.2463
-      },
-      {
-        "a": "azure-confidential-ledgers",
-        "b": "fabric-datatype-float",
-        "similarity": 0.1996
+        "similarity": 0.1787
       }
     ],
     "fabric-datatype-integer": [
@@ -37819,31 +36560,31 @@
         "similarity": 0.2738
       },
       {
+        "a": "fabric-column-question",
+        "b": "fabric-column-sigma",
+        "similarity": 0.2511
+      },
+      {
         "a": "gcp-ai-platform",
         "b": "fabric-column-question",
         "similarity": 0.2487
-      },
-      {
-        "a": "fabric-column-question",
-        "b": "fabric-chart-phone",
-        "similarity": 0.2476
       }
     ],
     "fabric-column-sigma": [
       {
-        "a": "aws-appconfig",
+        "a": "fabric-table-function",
         "b": "fabric-column-sigma",
-        "similarity": 0.2926
+        "similarity": 0.3881
       },
       {
-        "a": "azure-app-configuration",
+        "a": "fabric-column-question",
         "b": "fabric-column-sigma",
-        "similarity": 0.2681
+        "similarity": 0.2511
       },
       {
-        "a": "aws-snowball-edge",
+        "a": "aws-cloudformation",
         "b": "fabric-column-sigma",
-        "similarity": 0.2629
+        "similarity": 0.2462
       }
     ],
     "fabric-database-up-down": [
@@ -37858,9 +36599,9 @@
         "similarity": 0.2939
       },
       {
-        "a": "aws-transform",
+        "a": "fabric-slide-window",
         "b": "fabric-database-up-down",
-        "similarity": 0.271
+        "similarity": 0.2915
       }
     ],
     "fabric-overlap-kql": [
@@ -38198,9 +36939,9 @@
         "similarity": 0.2846
       },
       {
-        "a": "aws-sagemaker-canvas",
+        "a": "fabric-script-sparkle-add",
         "b": "fabric-code-text-flash",
-        "similarity": 0.2537
+        "similarity": 0.2588
       }
     ],
     "fabric-folder-share": [
@@ -38394,19 +37135,19 @@
     ],
     "fabric-global-transfer": [
       {
-        "a": "fabric-slide-ribbon",
-        "b": "fabric-global-transfer",
-        "similarity": 0.2815
-      },
-      {
-        "a": "fabric-slide-window",
-        "b": "fabric-global-transfer",
-        "similarity": 0.2679
-      },
-      {
         "a": "aws-waf",
         "b": "fabric-global-transfer",
         "similarity": 0.2619
+      },
+      {
+        "a": "fabric-slide-accept-dismiss",
+        "b": "fabric-global-transfer",
+        "similarity": 0.243
+      },
+      {
+        "a": "fabric-sample",
+        "b": "fabric-global-transfer",
+        "similarity": 0.2311
       }
     ],
     "fabric-overlapping-squares-line": [
@@ -38964,14 +37705,14 @@
         "similarity": 0.483
       },
       {
-        "a": "fabric-window-gauge",
+        "a": "fabric-placeholder",
         "b": "fabric-window-asterisk",
-        "similarity": 0.4428
+        "similarity": 0.4129
       },
       {
-        "a": "fabric-window-synapse-link",
+        "a": "fabric-window-list-filter",
         "b": "fabric-window-asterisk",
-        "similarity": 0.4323
+        "similarity": 0.4023
       }
     ],
     "fabric-window-check": [
@@ -38981,14 +37722,14 @@
         "similarity": 0.3904
       },
       {
-        "a": "fabric-window-sparkle",
+        "a": "aws-elasticache",
         "b": "fabric-window-check",
-        "similarity": 0.3131
+        "similarity": 0.2706
       },
       {
-        "a": "fabric-window-gauge",
+        "a": "fabric-window-list-filter",
         "b": "fabric-window-check",
-        "similarity": 0.3014
+        "similarity": 0.2695
       }
     ],
     "fabric-window-pulse": [
