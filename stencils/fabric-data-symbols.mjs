@@ -4,6 +4,47 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricDataSymbolArtwork = [
+  entry("fabric-data-bar-trend", "fabric", "Data bars with trend",
+    variants("data_bar_vertical_diagonal_up_right", [20]),
+    "An upward arrow highlights a rising data series.",
+    [
+      rect(15, 60, 17, 36), rect(42, 43, 17, 53), rect(69, 26, 17, 70),
+      line([27, 38], [49, 28], [68, 34], [101, 15]), line([86, 15], [101, 15], [101, 30]), line([15, 109], [112, 109]),
+    ]),
+  entry("fabric-data-bar-highlight", "fabric", "Highlighted data bars",
+    variants("data_bar_vertical_highlight", [20]),
+    "The middle bar is emphasized in a data series.",
+    [
+      rect(16, 68, 20, 29), rect(52, 28, 20, 69), rect(88, 52, 20, 45),
+      line([16, 82], [36, 82]), line([52, 48], [72, 48]), line([88, 68], [108, 68]),
+      line([53, 17], [59, 11]), line([64, 15], [64, 8]), line([70, 17], [76, 11]), line([16, 110], [112, 110]),
+    ]),
+  entry("fabric-data-bar-lightning", "fabric", "Data bars with lightning",
+    variants("data_bar_vertical_lightning", [20]),
+    "A lightning bolt marks a rapid change in data.",
+    [
+      rect(14, 43, 21, 54), rect(44, 58, 21, 39),
+      line([91, 28], [68, 67], [84, 67], [77, 97], [110, 53], [93, 53], [101, 28], [91, 28]),
+      line([16, 110], [112, 110]),
+    ]),
+  entry("fabric-datatype-any", "fabric", "Any data type",
+    variants("datatype_any", [20]),
+    "The label ANY denotes an unconstrained data type.",
+    [
+      line([8, 96], [20, 30], [32, 96]), line([13, 71], [27, 71]),
+      line([43, 96], [43, 30], [65, 96], [65, 30]),
+      line([76, 30], [90, 60], [104, 30]), line([90, 60], [90, 96]),
+    ]),
+  entry("fabric-datatype-byte", "fabric", "Byte data type",
+    variants("datatype_byte", [20]),
+    "The label BYTE denotes byte values.",
+    [
+      line([9, 33], [9, 94], [19, 94], [25, 88], [25, 75], [19, 65], [9, 65]),
+      line([9, 33], [19, 33], [25, 39], [25, 57], [19, 65]),
+      line([32, 33], [42, 59], [52, 33]), line([42, 59], [42, 94]),
+      line([56, 33], [76, 33]), line([66, 33], [66, 94]),
+      line([84, 94], [84, 33], [105, 33]), line([84, 63], [102, 63]), line([84, 94], [105, 94]),
+    ]),
   entry("fabric-database-add", "fabric", "Add database",
     variants("database_add", [20]),
     "A plus sign creates a database.",
