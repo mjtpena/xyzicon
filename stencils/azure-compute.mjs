@@ -1,6 +1,70 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-folder-blank", "azure", "Blank Folder", ["10802-icon-service-Folder-Blank"],
+    "An empty folder has a tab and no contents.",
+    [
+      line([15, 87], [15, 28], [44, 28], [53, 38], [104, 38], [104, 87], [15, 87]), line([15, 48], [104, 48]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-folder-website", "azure", "Website Folder", ["10803-icon-service-Folder-Website"],
+    "A website globe sits within a content folder.",
+    [
+      line([13, 88], [13, 25], [42, 25], [51, 35], [106, 35], [106, 88], [13, 88]), line([13, 44], [106, 44]),
+      oval(42, 49, 32, 32), line([58, 49], [53, 55], [51, 65], [53, 75], [58, 81]), line([58, 49], [63, 55], [65, 65], [63, 75], [58, 81]), line([44, 60], [72, 60]), line([44, 70], [72, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-ftp", "azure", "FTP", ["10804-icon-service-FTP"],
+    "A file transfers between a client and a server.",
+    [
+      rect(12, 31, 28, 37), line([17, 61], [35, 61]), rect(83, 27, 24, 45), line([83, 42], [107, 42]), line([83, 57], [107, 57]),
+      line([40, 42], [81, 42]), line([75, 36], [81, 42], [75, 48]), line([83, 59], [42, 59]), line([48, 53], [42, 59], [48, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-gear", "azure", "Gear", ["10805-icon-service-Gear"],
+    "A small cog turns an adjustable mechanism.",
+    [
+      oval(20, 25, 55, 55), oval(39, 44, 17, 17), line([47, 17], [47, 25]), line([47, 80], [47, 88]), line([12, 52], [20, 52]), line([75, 52], [83, 52]),
+      line([23, 28], [18, 22]), line([72, 77], [78, 83]), line([23, 77], [18, 83]), line([72, 28], [78, 22]),
+      line([84, 36], [105, 36]), line([84, 52], [105, 52]), line([84, 68], [105, 68]), oval(88, 32, 8, 8), oval(97, 48, 8, 8), oval(88, 64, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-globe-error", "azure", "Globe Error", ["10807-icon-service-Globe-Error"],
+    "A failed network endpoint is marked on a globe.",
+    [
+      oval(14, 21, 64, 64), line([46, 21], [36, 31], [32, 53], [36, 75], [46, 85]), line([46, 21], [56, 31], [60, 53], [56, 75], [46, 85]), line([17, 42], [75, 42]), line([17, 64], [75, 64]),
+      oval(74, 57, 32, 32), line([82, 65], [98, 81]), line([98, 65], [82, 81]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-globe-success", "azure", "Globe Success", ["10808-icon-service-Globe-Success"],
+    "A check confirms a successful global connection.",
+    [
+      oval(27, 17, 68, 68), line([61, 17], [50, 28], [46, 51], [50, 74], [61, 85]), line([61, 17], [72, 28], [76, 51], [72, 74], [61, 85]), line([30, 40], [92, 40]), line([30, 62], [92, 62]),
+      line([12, 80], [23, 91], [43, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-globe-warning", "azure", "Globe Warning", ["10809-icon-service-Globe-Warning"],
+    "A warning triangle marks a global connectivity issue.",
+    [
+      oval(21, 15, 68, 68), line([55, 15], [44, 26], [40, 49], [44, 72], [55, 83]), line([55, 15], [66, 26], [70, 49], [66, 72], [55, 83]), line([24, 38], [86, 38]), line([24, 60], [86, 60]),
+      line([87, 54], [108, 91], [66, 91], [87, 54]), line([87, 66], [87, 77]), oval(85, 82, 4, 4, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-guide", "azure", "Guide", ["10810-icon-service-Guide"],
+    "An open guide shows a route toward a destination.",
+    [
+      line([15, 27], [38, 24], [61, 30], [61, 91], [38, 85], [15, 88], [15, 27]), line([61, 30], [84, 24], [107, 27], [107, 88], [84, 85], [61, 91]),
+      line([25, 71], [33, 63], [42, 67], [52, 52]), line([47, 54], [52, 52], [52, 58]), oval(78, 42, 12, 12), line([84, 54], [84, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-heart", "azure", "Heart", ["10811-icon-service-Heart"],
+    "A heart represents care or favorites.",
+    [
+      line([61, 96], [23, 61], [17, 49], [18, 36], [25, 26], [35, 22], [46, 24], [61, 39], [76, 24], [87, 22], [97, 26], [104, 36], [105, 49], [99, 61], [61, 96]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-general-image", "azure", "Image", ["10812-icon-service-Image"],
+    "A framed landscape represents an image.",
+    [
+      rect(16, 23, 91, 67), oval(28, 32, 14, 14), line([22, 79], [42, 56], [54, 68], [70, 49], [101, 79], [22, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-input-output", "azure", "Input/Output", ["10813-icon-service-Input-Output"],
+    "Incoming and outgoing arrows pass through a processing block.",
+    [
+      rect(43, 33, 38, 45), line([51, 45], [73, 45]), line([51, 56], [73, 56]), line([51, 67], [68, 67]),
+      line([12, 45], [41, 45]), line([35, 39], [41, 45], [35, 51]), line([82, 66], [111, 66]), line([105, 60], [111, 66], [105, 72]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-controls-horizontal", "azure", "Horizontal Controls", ["10790-icon-service-Controls-Horizontal"],
     "Horizontal sliders adjust three settings.",
     [
