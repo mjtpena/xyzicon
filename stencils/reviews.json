@@ -1539,5 +1539,65 @@
     "comparisonRevision": "26ac57ff609bc6a5a79a146114b1520b9e01c3b466ebe9c8dda78d7cf3d57ac1",
     "status": "approved",
     "notes": "A spending table with an allocation chart avoids copying the source lens, and differs from the project, payment and filmstrip panels."
+  },
+  "aws-ses": {
+    "revision": "dd7c1a86109b6bcaf7374dcf63032ecac1a9caa679cf9a60dd1590396355190a",
+    "comparisonRevision": "a8c4433baf61a3bee1c91f359e42c68b14b6f08c780555fd5863e5f759b5d8c5",
+    "status": "rework",
+    "notes": "Dense envelope hatching obscures the email and recipients at small sizes."
+  },
+  "aws-textract": {
+    "revision": "e21b2f3d86018113c07ac5b2588eec2177f07e5f04c62a679e872c7fc85ea83a",
+    "comparisonRevision": "ec74fbc3144747864ec3473b9f5fa312fb261e4e29b7af8575f53e05e6013f03",
+    "status": "rework",
+    "notes": "The extracted area is densely shaded, obscuring the text extraction metaphor at small sizes."
+  },
+  "aws-transcribe": {
+    "revision": "83aec350c52e10a278a0373e121307a2c6e51d77fd4f8b5692bef1f179e7c147",
+    "comparisonRevision": "9be9792bab3bb5ecf5de9b519dd347bedfb0eaec28fe18b48fed4dfab1d38ccf",
+    "status": "rework",
+    "notes": "The transcript is densely hatched and unreadable at small sizes."
+  },
+  "aws-translate": {
+    "revision": "a62636414a930f95a5bc23652250a11479e07c2d3fc8e27372d015cddd1626a2",
+    "comparisonRevision": "f0a41e3d2e4d3c674ea3fe59f10b5a7f3de033a93a39e91955a500c23407b84b",
+    "status": "approved",
+    "notes": "An open bilingual book contrasts with the config panels, split screen and monitoring chart."
+  },
+  "aws-rekognition": {
+    "revision": "1894a7a4854e848b0bfef307d3a286351f3bc1334a161581cd901d17eb053083",
+    "comparisonRevision": "3c02ee35a9ac2f4d52f1232e1347503dd5944599156e1dfab40efd837bd3329b",
+    "status": "rework",
+    "notes": "The face is densely shaded, obscuring facial recognition at small sizes."
+  },
+  "aws-lex": {
+    "revision": "1a45ae81c6fbacbf043160d62fc7e7aca6102e5061d03cadf1aa94286325128b",
+    "comparisonRevision": "fd4393c4d8b2855a1ac4aad7cc709c6329ee853af391eadac3b89560712a5770",
+    "status": "rework",
+    "notes": "The chat bubble and microphone are obscured by dense hatching; the silhouette also resembles Customer Voice."
+  },
+  "aws-dynamodb-attribute": {
+    "revision": "bfceabe4c161db9d48a1c8192769e9c3db52995543501ea0c80028b0772770ad",
+    "comparisonRevision": "8f9eb86ee0a0c7f561cedee7a143f3278c3bed6867f4e672f597b4b120a57499",
+    "status": "approved",
+    "notes": "A single labeled value cell differs from the edge device, network peer and search cloud."
+  },
+  "aws-dynamodb-attributes": {
+    "revision": "54549a49f3833aadeb8dca1caea4add94a585e5a6ce8c646b68a8d4700de4ce9",
+    "comparisonRevision": "022e860458a2e873d32844b89d3f80992cc01d6c28998a8f4fc4afa10b4c888e",
+    "status": "approved",
+    "notes": "Three stacked attribute tags differ from a template, device and media document, and from the single attribute."
+  },
+  "aws-dynamodb-item": {
+    "revision": "8c8cf8cda8907ec8c97b7be6287ad86a5056256c4a181956ad07c43dc0bc71dd",
+    "comparisonRevision": "0ff571f855e80ca13367a8b3cf50ac4a0ba5a8b5004b0695aa82d4cc2d7b105d",
+    "status": "approved",
+    "notes": "One selected multi-attribute record differs from a block grid, network adapter and device controller."
+  },
+  "aws-dynamodb-items": {
+    "revision": "6e8d30dd1e2165bae8d9909485fd8deb9db6c355c5cb090051fce5650ea6bedb",
+    "comparisonRevision": "44e4c55388d13140d8c371536ab0051b9f4b676f474c45ace968174c07157cdd",
+    "status": "approved",
+    "notes": "Stacked multi-attribute records differ from the certificate, storage queue and tilted table, and from the single item."
   }
 }
