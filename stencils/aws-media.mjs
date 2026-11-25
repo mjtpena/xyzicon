@@ -3,6 +3,57 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsMediaArtwork = [
+  entry("aws-elemental-conductor", "aws", "AWS Elemental Conductor", sizes("AWS-Elemental-Conductor"),
+    "A control console coordinates multiple video encoders.",
+    [
+      rect(43, 14, 42, 27), line([51, 22], [77, 22]), line([51, 31], [70, 31]),
+      line([64, 41], [64, 52], [30, 52], [30, 66]), line([64, 52], [98, 52], [98, 66]),
+      rect(13, 66, 34, 25), line([26, 72], [26, 85], [37, 79], [26, 72]), rect(81, 66, 34, 25), line([94, 72], [94, 85], [105, 79], [94, 72]),
+      line([15, 110], [110, 110]),
+    ]),
+  entry("aws-elemental-delta", "aws", "AWS Elemental Delta", sizes("AWS-Elemental-Delta"),
+    "A packaged video stream is delivered to multiple screens.",
+    [
+      rect(12, 24, 43, 37), line([27, 31], [27, 54], [44, 42], [27, 31]),
+      line([55, 42], [70, 42], [70, 28], [80, 28]), line([70, 42], [70, 74], [80, 74]), line([74, 22], [80, 28], [74, 34]), line([74, 68], [80, 74], [74, 80]),
+      rect(81, 17, 29, 23), rect(81, 63, 29, 23), line([15, 110], [110, 110]),
+    ]),
+  entry("aws-thinkbox-deadline", "aws", "AWS Thinkbox Deadline", sizes("AWS-Thinkbox-Deadline"),
+    "A render queue distributes jobs to workers.",
+    [
+      rect(13, 17, 39, 68), line([20, 29], [44, 29]), line([20, 41], [44, 41]), line([20, 53], [44, 53]), line([20, 65], [40, 65]),
+      line([52, 48], [67, 48], [67, 27], [78, 27]), line([67, 48], [67, 75], [78, 75]),
+      rect(79, 16, 29, 23), rect(79, 64, 29, 23), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-thinkbox-frost", "aws", "AWS Thinkbox Frost", sizes("AWS-Thinkbox-Frost"),
+    "Particles combine into a mesh.",
+    [
+      oval(12, 23, 8, 8), oval(29, 17, 8, 8), oval(24, 43, 8, 8), oval(10, 64, 8, 8), oval(30, 72, 8, 8),
+      line([42, 52], [58, 52]), line([52, 46], [58, 52], [52, 58]),
+      line([65, 33], [85, 23], [105, 33], [105, 62], [85, 74], [65, 62], [65, 33]), line([65, 33], [85, 44], [105, 33]), line([65, 62], [85, 44], [105, 62]), line([85, 23], [85, 74]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-thinkbox-krakatoa", "aws", "AWS Thinkbox Krakatoa", sizes("AWS-Thinkbox-Krakatoa"),
+    "A particle cloud is rendered into an image.",
+    [
+      oval(13, 24, 7, 7), oval(27, 19, 7, 7), oval(20, 39, 7, 7), oval(36, 34, 7, 7), oval(10, 52, 7, 7), oval(30, 58, 7, 7), oval(17, 73, 7, 7), oval(39, 72, 7, 7),
+      line([46, 52], [61, 52]), line([55, 46], [61, 52], [55, 58]),
+      rect(66, 26, 42, 50), line([71, 66], [82, 49], [89, 58], [96, 43], [103, 66], [71, 66]), oval(75, 33, 7, 7), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-thinkbox-stoke", "aws", "AWS Thinkbox Stoke", sizes("AWS-Thinkbox-Stoke"),
+    "Particles circulate in a simulation field.",
+    [
+      oval(36, 24, 9, 9), oval(70, 31, 9, 9), oval(76, 67, 9, 9), oval(42, 76, 9, 9), oval(27, 52, 9, 9), oval(54, 51, 9, 9, true),
+      line([35, 44], [39, 34], [49, 27], [61, 26]), line([55, 20], [61, 26], [55, 32]),
+      line([85, 46], [88, 57], [84, 67]), line([78, 61], [84, 67], [90, 61]),
+      line([68, 86], [56, 90], [45, 85], [37, 77]), line([45, 78], [37, 77], [38, 85]), line([14, 110], [110, 110]),
+    ]),
+  entry("aws-thinkbox-xmesh", "aws", "AWS Thinkbox XMesh", sizes("AWS-Thinkbox-XMesh"),
+    "A geometry mesh is cached for reuse.",
+    [
+      line([15, 35], [35, 25], [55, 35], [55, 61], [35, 72], [15, 61], [15, 35]), line([15, 35], [35, 46], [55, 35]), line([15, 61], [35, 46], [55, 61]), line([35, 25], [35, 72]),
+      line([55, 52], [69, 52]), line([63, 46], [69, 52], [63, 58]),
+      oval(75, 28, 29, 10), line([75, 33], [75, 69], [80, 74], [99, 74], [104, 69], [104, 33]), line([14, 110], [110, 110]),
+    ]),
   entry("aws-elemental-appliances", "aws", "AWS Elemental Appliances and Software", sizes("AWS-Elemental-Appliances-&-Software"),
     "Video software controls a dedicated media-processing appliance.",
     [
