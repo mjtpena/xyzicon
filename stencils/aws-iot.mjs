@@ -1,6 +1,59 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsIotArtwork = [
+  entry("aws-iot-http", "aws", "IoT HTTP Protocol", ["Res_AWS-IoT_HTTP_Protocol_48"],
+    "An HTTP request and response connect a device to a service.",
+    [
+      rect(12, 17, 99, 65), line([12, 30], [111, 30]), line([20, 23], [25, 23]), line([35, 23], [98, 23]),
+      line([24, 45], [92, 45]), line([85, 38], [92, 45], [85, 52]), line([92, 65], [24, 65]), line([31, 58], [24, 65], [31, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-http2", "aws", "IoT HTTP2 Protocol", ["Res_AWS-IoT_HTTP2-Protocol_48"],
+    "HTTP/2 multiplexes streams over one connection.",
+    [
+      rect(12, 27, 24, 50), rect(88, 27, 24, 50), line([12, 37], [36, 37]), line([88, 37], [112, 37]),
+      line([36, 44], [88, 44]), line([36, 54], [88, 54]), line([36, 64], [88, 64]), rect(45, 40, 10, 8), rect(69, 40, 10, 8), rect(56, 50, 10, 8), rect(44, 60, 10, 8), rect(70, 60, 10, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-lorawan", "aws", "IoT LoRaWAN Protocol", ["Res_AWS-IoT_LoRaWAN-Protocol_48"],
+    "A low-power radio sensor reaches a distant gateway.",
+    [
+      rect(12, 60, 27, 20), oval(22, 65, 7, 7, true), line([25, 60], [25, 50]), line([18, 46], [21, 42], [25, 41], [29, 42], [32, 46]),
+      line([40, 36], [47, 28], [58, 24], [69, 28], [76, 36]), line([48, 41], [52, 36], [58, 34], [64, 36], [68, 41]),
+      line([91, 80], [99, 33], [107, 80]), line([87, 80], [111, 80]), oval(95, 25, 8, 8, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-mqtt", "aws", "IoT MQTT Protocol", ["Res_AWS-IoT_MQTT_Protocol_48"],
+    "A lightweight broker distributes device messages.",
+    [
+      rect(12, 19, 20, 17), rect(12, 66, 20, 17), line([32, 27], [50, 44]), line([32, 74], [50, 57]),
+      oval(50, 35, 34, 34), rect(58, 45, 18, 14), line([58, 45], [67, 53], [76, 45]),
+      line([84, 52], [101, 52]), line([95, 46], [101, 52], [95, 58]), oval(101, 45, 13, 13), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-greengrass-protocol", "aws", "IoT Greengrass Protocol", ["Res_AWS-IoT-Greengrass_Protocol_48"],
+    "A protocol carries messages between edge components.",
+    [
+      rect(31, 42, 62, 24), line([39, 50], [45, 50]), line([51, 50], [57, 50]), line([63, 50], [69, 50]), line([75, 50], [84, 50]),
+      line([39, 42], [29, 25]), line([61, 42], [61, 20]), line([85, 42], [95, 25]), line([39, 66], [29, 83]), line([61, 66], [61, 88]), line([85, 66], [95, 83]),
+      oval(23, 16, 12, 12), oval(55, 8, 12, 12), oval(89, 16, 12, 12), oval(23, 82, 12, 12), oval(55, 88, 12, 12), oval(89, 82, 12, 12), line([14, 111], [110, 111]),
+    ]),
+  entry("aws-iot-device-gateway", "aws", "IoT Device Gateway", ["Res_AWS-IoT_Device-Gateway_48"],
+    "A gateway connects multiple devices to the cloud.",
+    [
+      rect(10, 29, 20, 15), rect(10, 62, 20, 15), line([30, 36], [44, 47]), line([30, 69], [44, 58]),
+      rect(45, 35, 29, 36), line([45, 45], [74, 45]), line([52, 54], [67, 54]), line([74, 53], [84, 53]),
+      line([90, 43], [87, 39], [89, 33], [94, 31], [100, 33], [104, 27], [110, 28], [114, 34], [113, 39], [118, 43], [117, 49], [113, 52], [90, 52], [86, 49], [90, 43]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-topic", "aws", "IoT Topic", ["Res_AWS-IoT_Topic_48"],
+    "An IoT message is published to a topic.",
+    [
+      line([13, 37], [44, 37], [44, 61], [13, 61], [13, 37]), line([13, 37], [28, 50], [44, 37]), line([44, 49], [62, 49]), line([56, 43], [62, 49], [56, 55]),
+      oval(72, 27, 32, 32), oval(81, 36, 14, 14), oval(86, 41, 4, 4, true), line([88, 59], [88, 78]), line([79, 78], [97, 78]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-rule", "aws", "IoT Rule", ["Res_AWS-IoT-Rule_48"],
+    "An incoming device event is checked against a rule.",
+    [
+      rect(12, 28, 32, 21), line([12, 28], [28, 40], [44, 28]), line([44, 38], [60, 38]), line([54, 32], [60, 38], [54, 44]),
+      line([66, 19], [98, 19], [109, 30], [109, 84], [66, 84], [66, 19]), line([98, 19], [98, 30], [109, 30]),
+      line([73, 42], [78, 47], [88, 36]), line([91, 42], [102, 42]), line([73, 61], [78, 66], [88, 55]), line([91, 61], [102, 61]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-iot-action", "aws", "IoT Action", ["Res_AWS-IoT_Action_48"],
     "An IoT rule triggers an action.",
     [
