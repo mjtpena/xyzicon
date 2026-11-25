@@ -3,6 +3,38 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-marketplace", "aws", "AWS Marketplace",
+    [...sizes("AWS-Marketplace_Dark"), ...sizes("AWS-Marketplace_Light")],
+    "A cloud software marketplace displays products in a storefront.",
+    [
+      line([13, 35], [22, 18], [105, 18], [114, 35]), line([13, 35], [114, 35]), line([20, 35], [20, 101], [107, 101], [107, 35]),
+      line([21, 42], [31, 47], [41, 42], [51, 47], [61, 42], [71, 47], [81, 42], [91, 47], [106, 42]),
+      rect(28, 57, 25, 30), line([33, 65], [48, 65]), line([33, 73], [45, 73]),
+      rect(65, 57, 33, 30), line([72, 65], [91, 65]), line([72, 73], [88, 73]),
+      line([14, 111], [113, 111]),
+    ]),
+  entry("aws-partner-central", "aws", "AWS Partner Central", sizes("AWS-Partner-Central"),
+    "Partners collaborate around a shared business opportunity.",
+    [
+      rect(43, 16, 42, 30), line([54, 16], [54, 10], [74, 10], [74, 16]), line([43, 28], [85, 28]), line([60, 28], [68, 28], [68, 33], [60, 33], [60, 28]),
+      line([64, 46], [64, 57]), line([25, 57], [103, 57]), line([25, 57], [25, 67]), line([64, 57], [64, 67]), line([103, 57], [103, 67]),
+      oval(17, 67, 16, 16), oval(56, 67, 16, 16), oval(95, 67, 16, 16),
+      line([12, 105], [14, 93], [19, 87], [30, 87], [35, 93], [37, 105]),
+      line([51, 105], [53, 93], [58, 87], [69, 87], [74, 93], [76, 105]),
+      line([90, 105], [92, 93], [97, 87], [108, 87], [113, 93], [115, 105]),
+      line([18, 115], [110, 115]),
+    ]),
+  entry("aws-well-architected-tool", "aws", "AWS Well-Architected Tool", sizes("AWS-Well-Architected-Tool"),
+    "An architecture review checks the health of a workload.",
+    [
+      line([14, 18], [65, 18], [78, 31], [78, 103], [14, 103], [14, 18]),
+      line([65, 18], [65, 31], [78, 31]),
+      line([22, 43], [27, 48], [34, 39]), line([40, 44], [69, 44]),
+      line([22, 60], [27, 65], [34, 56]), line([40, 61], [69, 61]),
+      line([22, 77], [27, 82], [34, 73]), line([40, 78], [69, 78]),
+      oval(74, 59, 29, 29), line([95, 80], [111, 96]), line([83, 73], [88, 78], [97, 68]),
+      line([20, 114], [103, 114]),
+    ]),
   entry("aws-amazon-q", "aws", "Amazon Q", sizes("Amazon-Q"),
     "An assistant answers a question using connected information.",
     [
