@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 696,
-  "aliases": 2948,
+  "count": 700,
+  "aliases": 2964,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -474,6 +474,10 @@
     "aws-console-mobile",
     "aws-organizations",
     "aws-health-dashboard",
+    "aws-control-tower",
+    "aws-trusted-advisor",
+    "aws-resource-explorer",
+    "aws-systems-manager",
     "m365-arrow-circle-left",
     "m365-arrow-circle-right",
     "m365-arrow-clockwise",
@@ -793,8 +797,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 708,
-      "concepts": 175
+      "covered": 724,
+      "concepts": 179
     },
     "gcp": {
       "sources": 261,
@@ -1615,8 +1619,8 @@
       },
       {
         "a": "gcp-bigquery",
-        "b": "m365-chat-multiple",
-        "similarity": 0.214
+        "b": "aws-systems-manager",
+        "similarity": 0.2152
       }
     ],
     "gcp-cloud-run": [
@@ -5286,9 +5290,9 @@
         "similarity": 0.1658
       },
       {
-        "a": "azure-network-watcher",
-        "b": "fabric-model",
-        "similarity": 0.1393
+        "a": "fabric-model",
+        "b": "aws-systems-manager",
+        "similarity": 0.1445
       }
     ],
     "fabric-planning": [
@@ -6296,6 +6300,11 @@
     ],
     "fabric-operations-agent": [
       {
+        "a": "fabric-operations-agent",
+        "b": "aws-systems-manager",
+        "similarity": 0.2772
+      },
+      {
         "a": "gcp-text-to-speech",
         "b": "fabric-operations-agent",
         "similarity": 0.2742
@@ -6304,11 +6313,6 @@
         "a": "fabric-operations-agent",
         "b": "fabric-live-dashboard",
         "similarity": 0.2554
-      },
-      {
-        "a": "dynamics-customer-voice",
-        "b": "fabric-operations-agent",
-        "similarity": 0.2511
       }
     ],
     "fabric-paginated-report": [
@@ -7293,8 +7297,8 @@
       },
       {
         "a": "m365-cogs",
-        "b": "aws-lookout-vision",
-        "similarity": 0.1296
+        "b": "aws-control-tower",
+        "similarity": 0.1304
       }
     ],
     "m365-three-shapes": [
@@ -8776,6 +8780,74 @@
         "similarity": 0.1714
       }
     ],
+    "aws-control-tower": [
+      {
+        "a": "fabric-power-bi",
+        "b": "aws-control-tower",
+        "similarity": 0.2159
+      },
+      {
+        "a": "gcp-filestore",
+        "b": "aws-control-tower",
+        "similarity": 0.2131
+      },
+      {
+        "a": "fabric-datamart",
+        "b": "aws-control-tower",
+        "similarity": 0.1886
+      }
+    ],
+    "aws-trusted-advisor": [
+      {
+        "a": "dynamics-commerce",
+        "b": "aws-trusted-advisor",
+        "similarity": 0.1842
+      },
+      {
+        "a": "aws-trusted-advisor",
+        "b": "fabric-stacked-text",
+        "similarity": 0.1833
+      },
+      {
+        "a": "aws-trusted-advisor",
+        "b": "m365-edit",
+        "similarity": 0.1755
+      }
+    ],
+    "aws-resource-explorer": [
+      {
+        "a": "m365-desktop-download",
+        "b": "aws-resource-explorer",
+        "similarity": 0.1967
+      },
+      {
+        "a": "aws-resource-explorer",
+        "b": "fabric-locked-rows",
+        "similarity": 0.1556
+      },
+      {
+        "a": "azure-encrypted-transport",
+        "b": "aws-resource-explorer",
+        "similarity": 0.1556
+      }
+    ],
+    "aws-systems-manager": [
+      {
+        "a": "aws-systems-manager",
+        "b": "fabric-locked-rows",
+        "similarity": 0.2954
+      },
+      {
+        "a": "fabric-operations-agent",
+        "b": "aws-systems-manager",
+        "similarity": 0.2772
+      },
+      {
+        "a": "aws-systems-manager",
+        "b": "fabric-locked-columns",
+        "similarity": 0.2628
+      }
+    ],
     "m365-arrow-circle-left": [
       {
         "a": "m365-arrow-circle-left",
@@ -9095,9 +9167,9 @@
         "similarity": 0.1768
       },
       {
-        "a": "m365-office-notebook",
+        "a": "aws-trusted-advisor",
         "b": "m365-edit",
-        "similarity": 0.1625
+        "similarity": 0.1755
       }
     ],
     "m365-filmstrip-play": [
@@ -10323,9 +10395,9 @@
         "similarity": 0.1506
       },
       {
-        "a": "m365-phone-laptop",
+        "a": "aws-control-tower",
         "b": "fabric-arrow-export-import",
-        "similarity": 0.1359
+        "similarity": 0.1374
       }
     ],
     "fabric-arrow-forward-circle": [
@@ -10771,9 +10843,9 @@
         "similarity": 0.1699
       },
       {
-        "a": "aws-datazone",
+        "a": "aws-trusted-advisor",
         "b": "aws-fargate",
-        "similarity": 0.1614
+        "similarity": 0.1678
       }
     ],
     "aws-local-zones": [
@@ -12182,9 +12254,9 @@
         "similarity": 0.2647
       },
       {
-        "a": "gcp-category-containers",
+        "a": "aws-systems-manager",
         "b": "fabric-calculator-triangle",
-        "similarity": 0.2579
+        "similarity": 0.2585
       }
     ],
     "fabric-chart-phone": [
@@ -12351,14 +12423,14 @@
         "notes": "The layout dividers are vertical for columns and horizontal for rows, including at 32px."
       },
       {
+        "a": "aws-systems-manager",
+        "b": "fabric-locked-rows",
+        "similarity": 0.2954
+      },
+      {
         "a": "m365-apps-list",
         "b": "fabric-locked-rows",
         "similarity": 0.2485
-      },
-      {
-        "a": "azure-anomaly-detector",
-        "b": "fabric-locked-rows",
-        "similarity": 0.2478
       }
     ],
     "fabric-stack-key": [
