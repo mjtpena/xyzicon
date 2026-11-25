@@ -99,8 +99,8 @@ export const azureGovernanceArtwork = [
   entry("azure-advisor", "azure", "Advisor", ["00003-icon-service-Advisor"],
     "A light bulb offers a recommendation for cloud resources.",
     [
-      line([36, 44], [36, 34], [41, 25], [50, 20], [61, 18], [72, 20], [81, 25], [86, 34], [86, 44], [82, 53], [75, 60], [72, 70], [50, 70], [47, 60], [40, 53], [36, 44]),
-      line([51, 77], [71, 77]), line([54, 84], [68, 84]), line([61, 12], [61, 7]), line([25, 30], [19, 26]), line([97, 30], [103, 26]), line([14, 109], [110, 109]),
+      line([15, 20], [68, 20], [78, 30], [78, 86], [15, 86], [15, 20]), line([68, 20], [68, 30], [78, 30]), line([24, 39], [59, 39]), line([24, 50], [52, 50]), line([24, 61], [47, 61]), line([24, 72], [56, 72]),
+      line([88, 52], [87, 43], [91, 37], [98, 35], [105, 37], [109, 43], [108, 52], [103, 58], [103, 65], [93, 65], [93, 58], [88, 52]), line([93, 71], [103, 71]), line([14, 109], [110, 109]),
     ]),
   entry("azure-blueprints", "azure", "Blueprints", ["00006-icon-service-Blueprints"],
     "An architectural plan specifies a repeatable resource layout.",
