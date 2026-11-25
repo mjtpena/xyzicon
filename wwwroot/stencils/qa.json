@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 825,
+  "approved": 841,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -682,22 +682,6 @@
     "aws-fsx-ontap",
     "aws-fsx-openzfs",
     "aws-fsx-windows",
-    "m365-arrow-down",
-    "m365-arrow-sync",
-    "m365-check",
-    "m365-checkmark",
-    "m365-check-circle",
-    "m365-chevron-circle",
-    "m365-dismiss-circle",
-    "m365-building-cloud",
-    "m365-building-multiple",
-    "m365-building-people",
-    "m365-comment",
-    "m365-comment-multiple",
-    "m365-data-trending",
-    "m365-database",
-    "m365-edit",
-    "m365-filmstrip-play",
     "m365-folder-open-vertical",
     "m365-grid-circles",
     "m365-handshake",
@@ -1496,13 +1480,6 @@
       "notes": "The MySQL cylinder is labeled My with a forked Y; MariaDB is labeled MA with a crossbar."
     },
     {
-      "a": "m365-chevron-circle",
-      "b": "m365-dismiss-circle",
-      "similarity": 0.6972,
-      "review": "distinct",
-      "notes": "The chevron is an open right-pointing angle; dismiss has two crossing strokes."
-    },
-    {
       "a": "m365-number-circle-four",
       "b": "fabric-curved-right-circle",
       "similarity": 0.6959,
@@ -1566,13 +1543,6 @@
       "notes": "DocumentDB has opposed curly braces; MariaDB has the letters MA."
     },
     {
-      "a": "m365-check-circle",
-      "b": "m365-dismiss-circle",
-      "similarity": 0.6828,
-      "review": "distinct",
-      "notes": "The angled check and crossed strokes remain different at 32px."
-    },
-    {
       "a": "fabric-slide-ribbon",
       "b": "fabric-slide-window",
       "similarity": 0.682,
@@ -1606,13 +1576,6 @@
       "similarity": 0.6734,
       "review": "distinct",
       "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
-    },
-    {
-      "a": "m365-check-circle",
-      "b": "m365-chevron-circle",
-      "similarity": 0.6724,
-      "review": "distinct",
-      "notes": "The check descends then rises; the chevron points right with a central vertex."
     },
     {
       "a": "azure-documentdb",
@@ -3357,13 +3320,13 @@
       },
       {
         "a": "azure-container-app-sandboxes",
-        "b": "m365-dismiss-circle",
-        "similarity": 0.2836
+        "b": "azure-host-pools",
+        "similarity": 0.2778
       },
       {
         "a": "azure-container-app-sandboxes",
-        "b": "m365-check-circle",
-        "similarity": 0.2817
+        "b": "fabric-arrow-drill",
+        "similarity": 0.2714
       }
     ],
     "azure-horizondb": [
@@ -6343,19 +6306,19 @@
     ],
     "m365-video": [
       {
-        "a": "azure-function-apps",
-        "b": "m365-video",
-        "similarity": 0.287
+        "a": "m365-video",
+        "b": "azure-avs-vm",
+        "similarity": 0.2733
       },
       {
         "a": "m365-video",
-        "b": "aws-opensearch-index",
-        "similarity": 0.2781
+        "b": "azure-sql-vm",
+        "similarity": 0.2647
       },
       {
         "a": "m365-video",
-        "b": "fabric-column-double-caret",
-        "similarity": 0.2758
+        "b": "aws-s3-glacier-flexible-retrieval",
+        "similarity": 0.2542
       }
     ],
     "gcp-kuberun": [
@@ -10366,8 +10329,8 @@
       },
       {
         "a": "fabric-kql-queryset",
-        "b": "azure-governance-compliance",
-        "similarity": 0.1986
+        "b": "m365-chevron-circle",
+        "similarity": 0.2045
       }
     ],
     "fabric-kql-script": [
@@ -13483,9 +13446,9 @@
         "similarity": 0.15
       },
       {
-        "a": "m365-key",
-        "b": "azure-wac-installer",
-        "similarity": 0.1356
+        "a": "m365-video",
+        "b": "m365-key",
+        "similarity": 0.1384
       }
     ],
     "m365-layer": [
@@ -13666,13 +13629,13 @@
       },
       {
         "a": "m365-community",
-        "b": "m365-chevron-circle",
-        "similarity": 0.4271
+        "b": "fabric-arrow-drill",
+        "similarity": 0.4248
       },
       {
         "a": "m365-community",
-        "b": "fabric-arrow-drill",
-        "similarity": 0.4248
+        "b": "m365-number-circle-four",
+        "similarity": 0.2616
       }
     ],
     "m365-people-settings": [
@@ -25503,8 +25466,8 @@
       },
       {
         "a": "aws-license-manager",
-        "b": "fabric-document-sql",
-        "similarity": 0.1985
+        "b": "m365-check-circle",
+        "similarity": 0.2096
       }
     ],
     "aws-service-catalog": [
@@ -27192,36 +27155,36 @@
     ],
     "m365-arrow-down": [
       {
-        "a": "m365-arrow-down",
-        "b": "m365-cloud-download",
-        "similarity": 0.169
+        "a": "azure-attestation",
+        "b": "m365-arrow-down",
+        "similarity": 0.2046
       },
       {
-        "a": "m365-download",
+        "a": "fabric-restricted-report",
         "b": "m365-arrow-down",
-        "similarity": 0.1612
+        "similarity": 0.2026
       },
       {
-        "a": "azure-language-understanding",
+        "a": "m365-code",
         "b": "m365-arrow-down",
-        "similarity": 0.1312
+        "similarity": 0.1981
       }
     ],
     "m365-arrow-sync": [
       {
         "a": "m365-arrow-sync",
         "b": "fabric-arrow-sync-settings",
-        "similarity": 0.1876
+        "similarity": 0.2
       },
       {
-        "a": "aws-cloudwatch",
+        "a": "m365-bot",
         "b": "m365-arrow-sync",
-        "similarity": 0.157
+        "similarity": 0.1621
       },
       {
-        "a": "azure-identity-secure-score",
-        "b": "m365-arrow-sync",
-        "similarity": 0.1468
+        "a": "m365-arrow-sync",
+        "b": "gcp-category-networking",
+        "similarity": 0.1604
       }
     ],
     "m365-check": [
@@ -27243,82 +27206,70 @@
     ],
     "m365-checkmark": [
       {
-        "a": "m365-signature",
+        "a": "aws-braket-state-vector",
         "b": "m365-checkmark",
-        "similarity": 0.1151
+        "similarity": 0.1527
       },
       {
-        "a": "fabric-eventstream",
+        "a": "aws-cloudwatch-alarm",
         "b": "m365-checkmark",
-        "similarity": 0.1043
+        "similarity": 0.1327
       },
       {
-        "a": "aws-security-hub-finding",
-        "b": "m365-checkmark",
-        "similarity": 0.0962
+        "a": "m365-checkmark",
+        "b": "aws-vpc-vpn-connection",
+        "similarity": 0.1279
       }
     ],
     "m365-check-circle": [
       {
-        "a": "m365-check-circle",
-        "b": "m365-dismiss-circle",
-        "similarity": 0.6828,
-        "review": "distinct",
-        "notes": "The angled check and crossed strokes remain different at 32px."
+        "a": "aws-systems-maintenance-windows",
+        "b": "m365-check-circle",
+        "similarity": 0.3022
       },
       {
         "a": "m365-check-circle",
-        "b": "m365-chevron-circle",
-        "similarity": 0.6724,
-        "review": "distinct",
-        "notes": "The check descends then rises; the chevron points right with a central vertex."
+        "b": "azure-resource-explorer",
+        "similarity": 0.2934
       },
       {
         "a": "m365-check-circle",
-        "b": "fabric-arrow-drill",
-        "similarity": 0.5443
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2924
       }
     ],
     "m365-chevron-circle": [
       {
-        "a": "m365-chevron-circle",
-        "b": "m365-dismiss-circle",
-        "similarity": 0.6972,
-        "review": "distinct",
-        "notes": "The chevron is an open right-pointing angle; dismiss has two crossing strokes."
-      },
-      {
-        "a": "m365-check-circle",
+        "a": "fabric-kql-queryset",
         "b": "m365-chevron-circle",
-        "similarity": 0.6724,
-        "review": "distinct",
-        "notes": "The check descends then rises; the chevron points right with a central vertex."
+        "similarity": 0.2045
       },
       {
         "a": "m365-chevron-circle",
-        "b": "fabric-arrow-drill",
-        "similarity": 0.5176
+        "b": "azure-marketplace-management",
+        "similarity": 0.1801
+      },
+      {
+        "a": "m365-chevron-circle",
+        "b": "azure-log-streaming",
+        "similarity": 0.1772
       }
     ],
     "m365-dismiss-circle": [
       {
-        "a": "m365-chevron-circle",
+        "a": "azure-ip-address-manager",
         "b": "m365-dismiss-circle",
-        "similarity": 0.6972,
-        "review": "distinct",
-        "notes": "The chevron is an open right-pointing angle; dismiss has two crossing strokes."
+        "similarity": 0.3027
       },
       {
-        "a": "m365-check-circle",
+        "a": "aws-iot-thing-vibration-sensor",
         "b": "m365-dismiss-circle",
-        "similarity": 0.6828,
-        "review": "distinct",
-        "notes": "The angled check and crossed strokes remain different at 32px."
+        "similarity": 0.2944
       },
       {
-        "a": "m365-dismiss-circle",
-        "b": "fabric-arrow-drill",
-        "similarity": 0.5126
+        "a": "azure-video-analyzers",
+        "b": "m365-dismiss-circle",
+        "similarity": 0.2558
       }
     ],
     "m365-building-cloud": [
@@ -29471,19 +29422,19 @@
     ],
     "fabric-arrow-drill": [
       {
-        "a": "m365-check-circle",
-        "b": "fabric-arrow-drill",
-        "similarity": 0.5443
+        "a": "fabric-arrow-drill",
+        "b": "fabric-lock-circle",
+        "similarity": 0.4314
       },
       {
-        "a": "m365-chevron-circle",
+        "a": "m365-community",
         "b": "fabric-arrow-drill",
-        "similarity": 0.5176
+        "similarity": 0.4248
       },
       {
-        "a": "m365-dismiss-circle",
+        "a": "m365-number-circle-one",
         "b": "fabric-arrow-drill",
-        "similarity": 0.5126
+        "similarity": 0.326
       }
     ],
     "fabric-arrow-exit-multiple": [
@@ -29592,7 +29543,7 @@
       {
         "a": "m365-arrow-sync",
         "b": "fabric-arrow-sync-settings",
-        "similarity": 0.1876
+        "similarity": 0.2
       },
       {
         "a": "fabric-no-access-semantic",
@@ -36915,14 +36866,14 @@
         "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
       },
       {
+        "a": "m365-check-circle",
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2924
+      },
+      {
         "a": "aws-ecr-registry",
         "b": "fabric-table-link-lightning",
         "similarity": 0.2549
-      },
-      {
-        "a": "aws-textract-lending",
-        "b": "fabric-table-link-lightning",
-        "similarity": 0.2543
       }
     ],
     "fabric-table-link-triangle": [
@@ -36939,9 +36890,9 @@
         "similarity": 0.282
       },
       {
-        "a": "azure-logic-apps-template",
+        "a": "m365-check-circle",
         "b": "fabric-table-link-triangle",
-        "similarity": 0.262
+        "similarity": 0.2655
       }
     ],
     "fabric-script-sparkle": [
@@ -39289,19 +39240,19 @@
     ],
     "fabric-lock-circle": [
       {
-        "a": "m365-chevron-circle",
+        "a": "m365-community",
         "b": "fabric-lock-circle",
-        "similarity": 0.5136
+        "similarity": 0.4456
       },
       {
-        "a": "m365-dismiss-circle",
+        "a": "fabric-arrow-drill",
         "b": "fabric-lock-circle",
-        "similarity": 0.4975
+        "similarity": 0.4314
       },
       {
-        "a": "m365-check-circle",
+        "a": "m365-number-circle-two",
         "b": "fabric-lock-circle",
-        "similarity": 0.4951
+        "similarity": 0.2962
       }
     ],
     "fabric-database-lock": [
@@ -39524,9 +39475,9 @@
         "similarity": 0.2455
       },
       {
-        "a": "m365-shifts",
+        "a": "m365-dismiss-circle",
         "b": "fabric-calendar-lightning",
-        "similarity": 0.2392
+        "similarity": 0.2405
       }
     ],
     "fabric-calendar-up": [
@@ -39604,14 +39555,14 @@
         "similarity": 0.2388
       },
       {
-        "a": "m365-video",
-        "b": "fabric-calendar-signal",
-        "similarity": 0.231
-      },
-      {
         "a": "fabric-save-phone",
         "b": "fabric-calendar-signal",
         "similarity": 0.2271
+      },
+      {
+        "a": "fabric-calendar-lightning",
+        "b": "fabric-calendar-signal",
+        "similarity": 0.2203
       }
     ],
     "fabric-data-graph": [

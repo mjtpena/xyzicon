@@ -178,11 +178,10 @@ export const officeArtwork = [
       oval(39, 45, 8, 8, true), oval(73, 45, 8, 8), line([35, 74], [81, 74]),
     ]),
   entry("m365-video", "microsoft365", "Video", ["Video"],
-    "A video frame contains a play control and a filmstrip edge.",
+    "A video camera records a moving image.",
     [
-      rect(14, 19, 99, 88), line([29, 19], [29, 107]), line([99, 19], [99, 107]),
-      line([14, 34], [29, 34]), line([14, 52], [29, 52]), line([14, 70], [29, 70]), line([14, 88], [29, 88]),
-      line([99, 34], [113, 34]), line([99, 52], [113, 52]), line([99, 70], [113, 70]), line([99, 88], [113, 88]),
-      polygon([49, 40], [49, 85], [81, 63]),
+      rect(14, 35, 60, 49), line([74, 48], [105, 31], [105, 88], [74, 71]),
+      oval(25, 45, 10, 10, true), line([42, 48], [64, 48]), line([42, 59], [59, 59]),
+      line([25, 35], [25, 25], [56, 25], [56, 35]), line([23, 99], [97, 99]),
     ]),
 ];

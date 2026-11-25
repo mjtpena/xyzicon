@@ -1536,9 +1536,9 @@
       ],
       "revision": "0ed2903e3dd623434a3f6854993d0cbfb22d35d258c87c37064114b5c81dd592",
       "geometrySignature": "830d1dc54f698f08a217bbe86271b953c981bccf0c485bfb1b1f5e6ae92d9297",
-      "comparisonRevision": "1feb139b343bb2a351ac36e924f45251de16e308b3a72679060911da81c0b6fd",
+      "comparisonRevision": "0fc4286974b12609ede9e2febc2fbd3949e132edd866c3631f3f0c3e220b801b",
       "review": "approved",
-      "notes": "A container in an isolation bubble with code differs from the lock, dismiss and check symbols."
+      "notes": "A container runs inside an isolated circle, unlike lock, host pools and drill."
     },
     {
       "id": "azure-horizondb",
@@ -4575,7 +4575,7 @@
       "id": "m365-video",
       "provider": "microsoft365",
       "name": "Video",
-      "rationale": "A video frame contains a play control and a filmstrip edge.",
+      "rationale": "A video camera records a moving image.",
       "path": "stencils/m365-video.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Video.svg",
@@ -4585,11 +4585,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Video.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Video.svg"
       ],
-      "revision": "4bce57760e84e821ab58e5ccaaf02ead084d442ab8dc4d04a72e0ae4a9456af4",
-      "geometrySignature": "770c55576c0eb87de2f67573171012d3bf108dfb4b27b5a935cd5555ce9a2aa4",
-      "comparisonRevision": "c0dc41f3bc1ac4aa3528828e6036d91d69117d402dd368481f2a2609e2ade594",
+      "revision": "3abca39e366a0071d7327be2259fcc1dee04ead58c4db447dbfeec7b3e9e5449",
+      "geometrySignature": "601397d33f9ce520f211b16d7bf8090d101405317bf4cc04e02ab252680ea4e5",
+      "comparisonRevision": "bea0e24c710606bf4f5ae9788721fe29ca1df3a015a942e65d1c34117ced9626",
       "review": "approved",
-      "notes": "A filmstrip with play symbol differs from functions, index and code column."
+      "notes": "A video camera with recording mark differs from VM, SQL VM and retrieval; filmstrip is a playback frame."
     },
     {
       "id": "gcp-kuberun",
@@ -8362,7 +8362,7 @@
       ],
       "revision": "905267331df00527a9ba10436d9ec4170fe3333b0dc32098f34fb29c30b55b2a",
       "geometrySignature": "7c5b969460ddb079c96f79056c824e2724c955a65b7c5072ea5ce971cbb0f224",
-      "comparisonRevision": "4d36af8bef38fcbd7ad62234aaa7d01e397ec548d2cf3159831d52fc0863d6fd",
+      "comparisonRevision": "184268e4b0486489acdabcabb1873abdb41b426114c4a60d95087ed02213e760",
       "review": "pending",
       "notes": ""
     },
@@ -11446,9 +11446,9 @@
       ],
       "revision": "9df2fc4e161248924f838c506a13d1d86c3326207b6865241251d256ab2eaa11",
       "geometrySignature": "59febf9c6bae728c501eaccce126d7f18882729b352aea6b6398ebb0f4f11703",
-      "comparisonRevision": "652d79f232f5b566e1d2d7f83372a814e35faedc1e223e8df691a5a880165c6e",
+      "comparisonRevision": "56bb4a4caefc46c78d2e28f08567bfa4c50faae2a95de86b2b931948d6f1cecd",
       "review": "approved",
-      "notes": "A key with teeth differs from troubleshooting document, application pipeline and installer."
+      "notes": "A key with teeth differs from troubleshooting document, application pipeline and video camera."
     },
     {
       "id": "m365-layer",
@@ -11672,9 +11672,9 @@
       ],
       "revision": "4916b55dc7d94ca11ed8786746423657c567b6d71372a0cee4044401a97ac024",
       "geometrySignature": "62e8126eab403e416c8095e7aacc734b8d41db730b0943d5d3efd2b1b7685dd9",
-      "comparisonRevision": "3abcce8229595a23e7de91dc93e9912aca8187dd04fd4636297ed5ab399a69e7",
+      "comparisonRevision": "a1cb90be544a0ef016a193c173e3506300ee09f45849af64a5cc89c944ef50e9",
       "review": "approved",
-      "notes": "People gather in a circle, unlike lock circle, chevron and drill."
+      "notes": "People gather in a circle, unlike lock, drill and numbered circle."
     },
     {
       "id": "m365-people-settings",
@@ -22791,9 +22791,9 @@
       ],
       "revision": "9994309845bd6508ad2ae953c0570b50538915d16f1e3aa5dc51e96cedd7aa6b",
       "geometrySignature": "690d7c2cac2e57a184cc409eb501587a4baf3af0cb4911c484a41548a0cfad27",
-      "comparisonRevision": "61457f318343dbeacd495e2f48250f7e14f8bc7f597d8e591479d7c7569a9d96",
+      "comparisonRevision": "282e1b3ab3473d23b8eb85d7771c9e4c951158fe53f45cbbd1f9aa4eb8a5bff6",
       "review": "approved",
-      "notes": "A certificate with key differs from artifact, document tree and SQL page."
+      "notes": "A signed license bears seal and key, unlike artifact, document tree and checked item."
     },
     {
       "id": "aws-service-catalog",
@@ -24504,7 +24504,7 @@
       "id": "m365-arrow-down",
       "provider": "microsoft365",
       "name": "Arrow Down",
-      "rationale": "A bold downward arrow indicates movement toward the bottom.",
+      "rationale": "A downward arrow moves through a vertical sequence.",
       "path": "stencils/m365-arrow-down.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Down.svg",
@@ -24514,17 +24514,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Down.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Down.svg"
       ],
-      "revision": "ededaa76be2bb8387196981ec62ddcd1a94b620d092c68812c83947a7b70018e",
-      "geometrySignature": "7d7ecf1154dcdd3c992279b1895d612596ecd31f643e941fc0a7b4c90f1f2e7c",
-      "comparisonRevision": "8278178e75ae935328acd431c73d3d5625cf2443ce210cc758b52cf39cd3a545",
-      "review": "pending",
-      "notes": ""
+      "revision": "7c89b20389ccbe5d8802f1bbfd196a8931277166d96496d4522ffb3bbe98806d",
+      "geometrySignature": "c0f0ae193c525a48a275dcdf24c7c3996e8c2654469dfd377706a9a6879a3fbd",
+      "comparisonRevision": "a607adc49ef29143092221f36ee4bf616ec4b3b99fe268d19319d32c2876838e",
+      "review": "approved",
+      "notes": "A downward arrow moves alongside a sequence of rows, unlike attestation, report and code."
     },
     {
       "id": "m365-arrow-sync",
       "provider": "microsoft365",
       "name": "Arrow Sync",
-      "rationale": "Two opposing curved arrows describe a complete synchronization cycle.",
+      "rationale": "Two opposing curved arrows synchronize a pair of records.",
       "path": "stencils/m365-arrow-sync.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Sync.svg",
@@ -24534,11 +24534,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Sync.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Sync.svg"
       ],
-      "revision": "c369056e0502c444e1c2d691903ece15eb507d1d55bf3a1c4867ffe840b9578d",
-      "geometrySignature": "3d2b0341ca85724536ec2433ee07addd424a8cdf00a798c5c09774deee27d5c5",
-      "comparisonRevision": "2ad64a98700923a63c5a43595f3fc4e2691fb2550ced9979cd5014481b15943a",
-      "review": "pending",
-      "notes": ""
+      "revision": "250dead020821d3d1342da4ffac1065197a4ae9ce8bfd776f4b4fb4ba348fd05",
+      "geometrySignature": "844bf12f40ba05b4d8bbea8029bb0e5f1cd6c32c3b3c568cb886ce4115d674d5",
+      "comparisonRevision": "8d911dac294408abc667bb91408a4ea63034c5ee234762b055e9232ee71eb00e",
+      "review": "approved",
+      "notes": "Two arrows cycle between records, unlike settings, robot and networking."
     },
     {
       "id": "m365-check",
@@ -24557,31 +24557,31 @@
       "revision": "daaf2dbf48862774377f9b770a2b78b032249e86b0b2ec3e88fd6d9adcdf2fa8",
       "geometrySignature": "211dc0e7faaa0d47378eca87eb84d618337037d11e3158e5e28a595951ae49d7",
       "comparisonRevision": "e196450eb89324c191405063cac9417f88eefc6d56ce893cb20ed8dcfc02dfe8",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A payment check has written lines and signature, unlike desktop tower, health screen and split view."
     },
     {
       "id": "m365-checkmark",
       "provider": "microsoft365",
       "name": "Checkmark",
-      "rationale": "A single large check mark confirms completion.",
+      "rationale": "A checkmark is drawn with a pencil to confirm completion.",
       "path": "stencils/m365-checkmark.svg",
       "sources": [
         "/icons/microsoft365/Planner Green/48x48 SVG Icons/Checkmark_Dark.svg",
         "/icons/microsoft365/Planner Green/48x48 SVG Icons/Checkmark_Gray.svg",
         "/icons/microsoft365/Planner Green/48x48 SVG Icons/Checkmark_Light.svg"
       ],
-      "revision": "3f58ca77b55f72d2a3b1ffcff8d6d997dff8439e5ffcc17375b92892524df7f1",
-      "geometrySignature": "11691927c95924f464234dbd5471bbe8a0dc2ae5695535fc2d4df8f38460c9e0",
-      "comparisonRevision": "d4781043cb026e940e04afc32ef6e169c10554fea44bc9511f680ba51018a7dd",
-      "review": "pending",
-      "notes": ""
+      "revision": "5973a9e8ba66b110eed921928c8777582a8c797c7afaa9e7c7e4d8745eab40af",
+      "geometrySignature": "f50f1714643aaad0890aaaac1431a610737765438bf53c180c7ef31624f3c28f",
+      "comparisonRevision": "079f15043f4a6c8a566138d0fc98077327f4bd78bdca38dab22dfc4b7a970b1a",
+      "review": "approved",
+      "notes": "A pencil draws a large checkmark, unlike state vector, alarm and network connection."
     },
     {
       "id": "m365-check-circle",
       "provider": "microsoft365",
       "name": "Checkmark Circle",
-      "rationale": "A circled check confirms a completed state.",
+      "rationale": "A circled check confirms a completed item.",
       "path": "stencils/m365-check-circle.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Checkmark Circle.svg",
@@ -24594,17 +24594,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Checkmark Circle.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Checkmark Circle.svg"
       ],
-      "revision": "83fa900c0cb26db63b704a86bbd023770dbb9ca064aff31fcd35d30afc4aab4b",
-      "geometrySignature": "ee262865b48a1c229fe2ab6b7482dbd6b0d7e3b35520b18cea3ec5d781f2f93c",
-      "comparisonRevision": "9efec9fae64811e8cfa2e3b3504d0ff5b576d3355aa0b6065f91bb60e9fc2c55",
-      "review": "pending",
-      "notes": ""
+      "revision": "171583063d8c0ebfcac110aaaaaa4bd0059edbb89f1c57045d86f1fb097b2a01",
+      "geometrySignature": "f819ba38f487763727cca7d9f5ea72fd568f97586ab110a70c21bec42de68c95",
+      "comparisonRevision": "130dd0f505065aaeaa0d123a9a94d5a9ea81b2d9c94be303fbf4fe820ea7c7e9",
+      "review": "approved",
+      "notes": "A circled check confirms a document, unlike maintenance calendar, resource search and lightning table."
     },
     {
       "id": "m365-chevron-circle",
       "provider": "microsoft365",
       "name": "Chevron Circle",
-      "rationale": "A circled chevron points right to the next item.",
+      "rationale": "A circled chevron advances a list to its next item.",
       "path": "stencils/m365-chevron-circle.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Chevron Circle.svg",
@@ -24614,17 +24614,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Chevron Circle.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Chevron Circle.svg"
       ],
-      "revision": "0457cd2bfe5f1fa5d935fab3212d784b342976ac54ab0bd200c403ecc8eb93de",
-      "geometrySignature": "38df23bfd427e6eed7a240655fee7ceb9908942650bfdf1e245d204efbee5325",
-      "comparisonRevision": "003eee162b8a40b07a4cadf9e3927166cfcf18d7eee32bf2f34f23cda7e96e76",
-      "review": "pending",
-      "notes": ""
+      "revision": "5e36109cd4de43343ae8469de5f51e26f487f7a5080bcb40047628415d72498d",
+      "geometrySignature": "48d09b02407f7de8f6fc300cee93508dc5d3f7886fd6c8d3cf846fe2496f19ca",
+      "comparisonRevision": "99c6facdfcd3492e97dfd1ead1bf7db782b928c71003c29a1ec6726c9c6a861c",
+      "review": "approved",
+      "notes": "A circled chevron advances a list, unlike query search, marketplace and log stream."
     },
     {
       "id": "m365-dismiss-circle",
       "provider": "microsoft365",
       "name": "Dismiss Circle",
-      "rationale": "A circled cross dismisses the current item.",
+      "rationale": "A circled cross dismisses a notification.",
       "path": "stencils/m365-dismiss-circle.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Dismiss Circle.svg",
@@ -24634,11 +24634,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Dismiss Circle.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Dismiss Circle.svg"
       ],
-      "revision": "7b84b67d8129d262ce5a1a11c09ebeb1a7718b04c4ae17e99649edc6908ea797",
-      "geometrySignature": "4c60409f99bc2415abc0dcf5219e9106c665ac5cb5b852b6a0fdab2311edc107",
-      "comparisonRevision": "5d039de1cce932f0b9fffe851f033e6244910f67fe508ebf17e671db63dc4470",
-      "review": "pending",
-      "notes": ""
+      "revision": "88b92500d7d15292469bef369728b153b4aa897219a17cc0a29b9f27a19c0aaa",
+      "geometrySignature": "f676f2e8081eced593563293309e237858fb26c15920b38534f69741372bde09",
+      "comparisonRevision": "0a74977b556dd40af388da7a58aff101e0ab12cf5f0a01c4794714f71c908651",
+      "review": "approved",
+      "notes": "A circled cross dismisses a message, unlike IP manager, vibration display and video."
     },
     {
       "id": "m365-building-cloud",
@@ -24654,8 +24654,8 @@
       "revision": "e2d661fe25a64a5c96255680e2132496348c4a04f427eee0408a8b5a1d51fd22",
       "geometrySignature": "c68435f7e826dcc3ca276ba1ef4f7fea1dc702c868327ce52083583a00bd3782",
       "comparisonRevision": "e6d7ef8656571bc265a047bff85326b0ff84033796895154654b6563382d3b65",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "An office connects to a cloud, unlike gift, data building and DNS."
     },
     {
       "id": "m365-building-multiple",
@@ -24674,8 +24674,8 @@
       "revision": "f52818902f46815f4daa150e2b1f97e3ee0e88f143c91ba23969c90ce9903756",
       "geometrySignature": "464f2306b5225ab4490af50e8fa3f7e7892dcaa6f186dae342e3a697b7e8bcd2",
       "comparisonRevision": "11ccd24f9d1ed7198ff368a409ed1f63b79b6dc5aa2545a1e05147b8c80da4f7",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "Two buildings of differing heights form a campus, unlike scheduler, SQL host and S3."
     },
     {
       "id": "m365-building-people",
@@ -24697,8 +24697,8 @@
       "revision": "8e353c2981fea0c6bb4c570eea5d876c34295d9474aab0c58193ec20996a0f3d",
       "geometrySignature": "6993445347ceb124bd16131d5b0c69c7fe223573b3f925db145733cc27e48a97",
       "comparisonRevision": "bf2160c6f3040302193c9a35166596145808f3b0b3b42bc38dc5ee0a7879ecda",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "People stand outside a building, unlike admin directory, identity and trace."
     },
     {
       "id": "m365-comment",
@@ -24717,8 +24717,8 @@
       "revision": "c0ec14d680533d7ff5986b468521bbeaa5203d8eedcaca85f3e82df3c50adfe5",
       "geometrySignature": "4d5a3154a15291c4d0bfa31052048f86f4b9b962726b8ca202629be5f18267c5",
       "comparisonRevision": "8efc0dd155987611ab0f571c4ff2abc1cf562b325919a07fb8cadfd50352c99b",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A single written bubble differs from monitoring, partition and database."
     },
     {
       "id": "m365-comment-multiple",
@@ -24737,8 +24737,8 @@
       "revision": "23e384c4e19c859fd55004c374ad38960b7a894e159bf10b359f438eee0da77e",
       "geometrySignature": "029e043e717fc54cb5b9f4a2ced1a84b254cd1402747c0799fb6e45804a00136",
       "comparisonRevision": "564d44174f16602af9e7ea6327747697248cbecd7e21f27fbbf45693bbae15d6",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "Two overlapping text comments differ from media timeline, Q&A and data lab; chat has typing dots."
     },
     {
       "id": "m365-data-trending",
@@ -24763,8 +24763,8 @@
       "revision": "80e557ab664aa27c47b8b557d54e67fa7eda3b1f11dcc3fedef05aad9f36389d",
       "geometrySignature": "818a432600232592aec5643ec82b15d94535846709de4e147a926ee37654bab4",
       "comparisonRevision": "51d318077f08c393207e058a3567d57532c6a4d3f0ae8a426298cd9daff22466",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "Bars carry an upward trend, unlike forecast line, plain bars and medical analysis."
     },
     {
       "id": "m365-database",
@@ -24783,8 +24783,8 @@
       "revision": "e2f1d37b3d5307a8a2e2c9bf98f6ab892688fa53fa739c21f5e35bcd01c000d0",
       "geometrySignature": "775fdd5e1629085a37463149ddbeb423dc7d30f9f2609d88c4379cc87ebb7050",
       "comparisonRevision": "265fe39a70a2962b90f1831a862b9d80296c0554f9f9a839d8baf535d3a100fc",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A three-tier cylinder differs from neuron, document shapes and SQL table."
     },
     {
       "id": "m365-edit",
@@ -24803,8 +24803,8 @@
       "revision": "6edcebcd610b2b7ec590d3a3d6bcdf86b2784d882aa0952441c3f0700c41cf46",
       "geometrySignature": "8dd87bad37c9f138fc7c9f1a877477403afb56c772b8efbed21115a675c5d993",
       "comparisonRevision": "e0fc673cfe7700e9b8c57984b8cddc61222de1b6bcd9dfda31bbbf624d87c6af",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A pencil leaves an editing stroke, unlike document placeholder, Spring editor and radio tower."
     },
     {
       "id": "m365-filmstrip-play",
@@ -24823,8 +24823,8 @@
       "revision": "603682a49b3307b84e909937d95704cfe752f1cd14d25752795587c2bbe87ee3",
       "geometrySignature": "d6b202eead22b7f61c7ede21041df59a25aa7eecaaa16e67c7737bb74f2b2c41",
       "comparisonRevision": "45739d503f7a0c06e25820bfb514b974ead94c5327830569c9b5b0a17c364d9f",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A perforated film frame has a play triangle, unlike mail, migration and code editor; video is a camera."
     },
     {
       "id": "m365-folder-open-vertical",
@@ -26759,7 +26759,7 @@
       ],
       "revision": "8d9b69ffea66813fffb0c13a4c32889f2d447d7a3487e0cbda3c0a520c06fe6d",
       "geometrySignature": "79dddad9759cfd413fec38cace16146e1a6505b5ade70e8e942ea18832504341",
-      "comparisonRevision": "c40b84993363930f9f778128ebbe0b48e8d6b9203a60c90f41e025d7c4e0b5e1",
+      "comparisonRevision": "cab0c4aa0a2892c22f19725e6d7f7700bf5ea61e018fca3209058492c07169ab",
       "review": "pending",
       "notes": ""
     },
@@ -26875,7 +26875,7 @@
       ],
       "revision": "b1fb8ae7e25adc2096047d4a997c4ddcad00d929c2859c4fc562c7a04e7ccd02",
       "geometrySignature": "f55fde2bbb8ba797514cfdee15a3d44ec5a43a706b8dda50afc16073f598e5f5",
-      "comparisonRevision": "32d5935841b2f6d4a36c9fa55dbfa5caeaae19281ef1d33c66f0bb486de33d52",
+      "comparisonRevision": "18600fb8810e8b3c82ccf0b612e1641411ca2097c1c0879fbee91355b5bf73e3",
       "review": "pending",
       "notes": ""
     },
@@ -33760,7 +33760,7 @@
       ],
       "revision": "e98a2c21a39c5bfc26701b1b97904e36d4276a23a5f356a196269e5f77164726",
       "geometrySignature": "7636f5de94dd9a733e9c5d8d408115855a09546457c4ea0333d636597a954da6",
-      "comparisonRevision": "10bac84ed99d6efc2fcfff062f210e215f990467de53ef7ea56c318d90ff6134",
+      "comparisonRevision": "4557237a9ff4cd6c7ee2cc72576579a25ce11808fa54bb4d67230f7ba5553889",
       "review": "pending",
       "notes": ""
     },
@@ -33776,7 +33776,7 @@
       ],
       "revision": "a0674ba2cc53a5e742b33f8e4014f3ae3af4cad8b74e1548fd411042bc396139",
       "geometrySignature": "268da5e9660293e064f387a3730c1ec1150cf194c806e9d5d292a2bdc86364c8",
-      "comparisonRevision": "b7f6289cd46dfb70651a410ae2c792d70f01f74e3951cb6b5b9de8ed917e2240",
+      "comparisonRevision": "4dca404f273c65f0b1f57d232300f6058d9ae54b9dff2dab7e7b5106724443f4",
       "review": "pending",
       "notes": ""
     },
@@ -36167,7 +36167,7 @@
       ],
       "revision": "417ed42faaaf3429f54a7b253ef536dffbb63a1768fc86ea7625e8ee02cd10e6",
       "geometrySignature": "be855f4687d318d1c5bb4d9ddc662343659a687010324ccffd32740ad8b6e022",
-      "comparisonRevision": "d69ec64cd734b1804cfd48f14d3e4fefaa610388dfcae0f84a820d1b117302c8",
+      "comparisonRevision": "38e289906d1e1912a214e4034463ccad877b611c7b932740d451c4d26481fa42",
       "review": "pending",
       "notes": ""
     },
@@ -36403,7 +36403,7 @@
       ],
       "revision": "c1e32f53c4a3c0f624ee22cfd18763378919ce2b289d9e5a087c578c2e333e3f",
       "geometrySignature": "db54bd7489e7bf7dae65a1a9bfe8a99beb6edb00c3d3d799905036816b665ae4",
-      "comparisonRevision": "1d19ae40ce52a0c5c1c9f761c55bbb3127489c885795345bcedcc3cb7996a17d",
+      "comparisonRevision": "50f0aa35fc473c1bd974c429ffe1550f55027f2b7e239c092fde836f93cde208",
       "review": "pending",
       "notes": ""
     },
@@ -36501,7 +36501,7 @@
       ],
       "revision": "4bd2065edd44335acbf0ede28d31aed93d635fbe5b771a24aa9c89fb2028180c",
       "geometrySignature": "e8b535cb6067b697f1769dc29c21813d34c76752e191635012d708fc08fb1045",
-      "comparisonRevision": "3e2c63831880e0a09ce1120b8b43ace4b0deee5dd159b24db92a3541aa31a13d",
+      "comparisonRevision": "2f992e6c12e374f6d2e904d1f810e4d6f530056cd9fa016101fd77261e09907d",
       "review": "pending",
       "notes": ""
     },
