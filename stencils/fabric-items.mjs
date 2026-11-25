@@ -144,8 +144,8 @@ export const fabricItemsArtwork = [
   entry("fabric-healthcare", "fabric", "Healthcare", item("healthcare"),
     "A medical kit combines a cross with a patient pulse.",
     [
-      rect(15, 30, 98, 75, true), line([43, 30], [43, 18], [85, 18], [85, 30]),
-      polygon([57, 42], [71, 42], [71, 53], [82, 53], [82, 67], [71, 67], [71, 78], [57, 78], [57, 67], [46, 67], [46, 53], [57, 53]),
+      rect(15, 30, 98, 75), line([43, 30], [43, 18], [85, 18], [85, 30]),
+      line([57, 42], [71, 42], [71, 53], [82, 53], [82, 67], [71, 67], [71, 78], [57, 78], [57, 67], [46, 67], [46, 53], [57, 53], [57, 42]),
       line([23, 91], [35, 91], [41, 82], [47, 99], [53, 91], [102, 91]),
     ]),
   entry("fabric-kql-database", "fabric", "KQL Database", [
@@ -162,7 +162,7 @@ export const fabricItemsArtwork = [
   entry("fabric-kql-queryset", "fabric", "KQL Queryset", item("kql_queryset"),
     "Multiple query cards are grouped around a shared analysis lens.",
     [
-      rect(11, 15, 52, 32), rect(19, 54, 52, 32, true), rect(28, 92, 44, 19),
+      rect(11, 15, 52, 32), rect(19, 54, 52, 32), rect(28, 92, 44, 19),
       line([19, 26], [54, 26]), line([19, 36], [45, 36]), line([27, 65], [62, 65]), line([27, 75], [54, 75]),
       oval(69, 35, 35, 35), line([98, 64], [114, 81]), line([78, 52], [86, 43], [94, 54]),
       line([36, 101], [63, 101]),
@@ -176,7 +176,7 @@ export const fabricItemsArtwork = [
       rect(13, 13, 71, 100), line([23, 26], [74, 26]), line([23, 38], [64, 38]),
       line([34, 52], [26, 60], [34, 68]), line([51, 52], [59, 60], [51, 68]), line([46, 49], [39, 71]),
       line([23, 84], [74, 84]), line([23, 96], [55, 96]),
-      rect(77, 62, 37, 32, true), line([82, 87], [82, 69]), line([82, 87], [108, 87]), line([86, 82], [91, 76], [97, 80], [105, 71]),
+      rect(77, 62, 37, 32), line([82, 87], [82, 69]), line([82, 87], [108, 87]), line([86, 82], [91, 76], [97, 80], [105, 71]),
     ]),
   entry("fabric-metric-sets", "fabric", "Metric Sets", item("metric_sets"),
     "Three metric gauges summarize separate measures as one set.",
@@ -191,7 +191,7 @@ export const fabricItemsArtwork = [
     "A mobile report shows an overview bar chart inside a phone.",
     [
       rect(35, 11, 58, 106), line([35, 25], [93, 25]), line([53, 18], [75, 18]),
-      rect(42, 34, 44, 48, true), line([48, 75], [48, 64], [54, 64], [54, 75]),
+      rect(42, 34, 44, 48), line([48, 75], [48, 64], [54, 64], [54, 75]),
       line([60, 75], [60, 53], [66, 53], [66, 75]), line([72, 75], [72, 45], [78, 45], [78, 75]),
       line([44, 91], [84, 91]), oval(60, 103, 8, 8),
     ]),
