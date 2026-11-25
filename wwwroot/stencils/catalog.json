@@ -1027,7 +1027,7 @@
       "id": "aws-eks",
       "provider": "aws",
       "name": "Amazon Elastic Kubernetes Service",
-      "rationale": "A managed cluster contains three container pods under a control plane.",
+      "rationale": "A control wheel manages two container workloads in a cluster.",
       "path": "stencils/aws-eks.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/16/Arch_Amazon-Elastic-Kubernetes-Service_16.svg",
@@ -1035,10 +1035,10 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/48/Arch_Amazon-Elastic-Kubernetes-Service_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/64/Arch_Amazon-Elastic-Kubernetes-Service_64.svg"
       ],
-      "revision": "1672d22189e0413434614e64ef192d17a78f4a73f66289bcc5027868232e5e0b",
-      "geometrySignature": "b4d2cf17734f952f34f0699a7730146bd9b1e765e6f067ba051b3bc7970ffb3c",
-      "review": "rework",
-      "notes": "The top panel and three tiny boxes read as a generic hierarchy, similar to the application gateway, rather than container orchestration; enlarge and clarify the workload cue."
+      "revision": "dbc1cfdec8fc3321056df339e1951d28035d3705a9503f2748369a0954442148",
+      "geometrySignature": "83aaca872a870c4dba15e7139f0abc2e519031de79dcc0ed81911a40cabbe5b7",
+      "review": "approved",
+      "notes": "A control node connects two large container cubes, visible at 32px and different from the builder tool, database cluster and mail envelope neighbors."
     },
     {
       "id": "aws-sqs",
@@ -1086,10 +1086,10 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_Amazon-CloudWatch_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_Amazon-CloudWatch_64.svg"
       ],
-      "revision": "b593da1eb1542c402ce5e56bf8064869d28d1604a81fbc54754b62f03cfdc5da",
+      "revision": "b515109bb26d9664dc8d099596a73d8ed59be03728ee6bdf94b3592190336436",
       "geometrySignature": "f24bdf332ccb485a29b86b7ec3c68f5fc918f5cd9aba19b129a032a5771db69d",
-      "review": "rework",
-      "notes": "Heavy hatching inside the watch obscures the monitoring waveform at 32px; simplify the face so the signal is clear."
+      "review": "approved",
+      "notes": "The unfilled watch face makes the monitoring waveform visible at 32px; its strap distinguishes it from the lifebuoy, storage cabinet and rack neighbors."
     },
     {
       "id": "aws-route53",
