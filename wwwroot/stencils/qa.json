@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1092,
-  "aliases": 3973,
+  "count": 1098,
+  "aliases": 3979,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -294,6 +294,12 @@
     "gcp-identity-platform",
     "gcp-managed-active-directory",
     "gcp-key-management",
+    "gcp-database-migration",
+    "gcp-migrate-anthos",
+    "gcp-migrate-compute",
+    "gcp-data-transfer",
+    "gcp-transfer",
+    "gcp-transfer-appliance",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1208,8 +1214,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 192,
-      "concepts": 179
+      "covered": 198,
+      "concepts": 185
     }
   },
   "nearest": {
@@ -1340,13 +1346,13 @@
       },
       {
         "a": "fabric-lakehouse",
-        "b": "aws-iot-twinmaker",
-        "similarity": 0.1875
+        "b": "gcp-data-transfer",
+        "similarity": 0.1924
       },
       {
         "a": "fabric-lakehouse",
-        "b": "fabric-datamart",
-        "similarity": 0.1804
+        "b": "aws-iot-twinmaker",
+        "similarity": 0.1875
       }
     ],
     "fabric-pipeline": [
@@ -3800,6 +3806,11 @@
     "fabric-branch-add": [
       {
         "a": "fabric-branch-add",
+        "b": "gcp-transfer",
+        "similarity": 0.1678
+      },
+      {
+        "a": "fabric-branch-add",
         "b": "fabric-schema",
         "similarity": 0.1373
       },
@@ -3807,11 +3818,6 @@
         "a": "fabric-branch-add",
         "b": "aws-migration-evaluator",
         "similarity": 0.1287
-      },
-      {
-        "a": "m365-deploy",
-        "b": "fabric-branch-add",
-        "similarity": 0.1276
       }
     ],
     "fabric-branch-fork-signal": [
@@ -5747,9 +5753,9 @@
         "similarity": 0.2254
       },
       {
-        "a": "gcp-local-ssd",
-        "b": "gcp-network-intelligence",
-        "similarity": 0.2106
+        "a": "gcp-network-intelligence",
+        "b": "gcp-transfer",
+        "similarity": 0.2172
       }
     ],
     "gcp-network-security": [
@@ -5806,18 +5812,18 @@
     "gcp-partner-interconnect": [
       {
         "a": "gcp-partner-interconnect",
+        "b": "gcp-migrate-anthos",
+        "similarity": 0.3265
+      },
+      {
+        "a": "gcp-partner-interconnect",
         "b": "aws-backint-agent",
         "similarity": 0.2995
       },
       {
         "a": "gcp-partner-interconnect",
-        "b": "aws-vpc-internet-gateway",
-        "similarity": 0.2688
-      },
-      {
-        "a": "gcp-partner-interconnect",
-        "b": "aws-elastic-disaster-recovery",
-        "similarity": 0.2661
+        "b": "gcp-migrate-compute",
+        "similarity": 0.2874
       }
     ],
     "gcp-premium-network-tier": [
@@ -5942,6 +5948,11 @@
     "gcp-phishing-protection": [
       {
         "a": "gcp-phishing-protection",
+        "b": "gcp-transfer-appliance",
+        "similarity": 0.2466
+      },
+      {
+        "a": "gcp-phishing-protection",
         "b": "fabric-database-table",
         "similarity": 0.2166
       },
@@ -5949,11 +5960,6 @@
         "a": "gcp-phishing-protection",
         "b": "fabric-kql-script",
         "similarity": 0.2112
-      },
-      {
-        "a": "gcp-performance-dashboard",
-        "b": "gcp-phishing-protection",
-        "similarity": 0.2101
       }
     ],
     "gcp-risk-manager": [
@@ -6124,6 +6130,108 @@
         "a": "gcp-key-management",
         "b": "azure-power-bi-embedded",
         "similarity": 0.2484
+      }
+    ],
+    "gcp-database-migration": [
+      {
+        "a": "azure-waf-policies",
+        "b": "gcp-database-migration",
+        "similarity": 0.2475
+      },
+      {
+        "a": "gcp-database-migration",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2474
+      },
+      {
+        "a": "gcp-database-migration",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2453
+      }
+    ],
+    "gcp-migrate-anthos": [
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "gcp-migrate-anthos",
+        "similarity": 0.3265
+      },
+      {
+        "a": "gcp-migrate-anthos",
+        "b": "gcp-migrate-compute",
+        "similarity": 0.2656
+      },
+      {
+        "a": "azure-waf-policies",
+        "b": "gcp-migrate-anthos",
+        "similarity": 0.2374
+      }
+    ],
+    "gcp-migrate-compute": [
+      {
+        "a": "gcp-migrate-compute",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2958
+      },
+      {
+        "a": "gcp-partner-interconnect",
+        "b": "gcp-migrate-compute",
+        "similarity": 0.2874
+      },
+      {
+        "a": "gcp-external-key-manager",
+        "b": "gcp-migrate-compute",
+        "similarity": 0.2834
+      }
+    ],
+    "gcp-data-transfer": [
+      {
+        "a": "gcp-data-transfer",
+        "b": "gcp-data-catalog",
+        "similarity": 0.2218
+      },
+      {
+        "a": "gcp-data-transfer",
+        "b": "fabric-arrow-right-double",
+        "similarity": 0.2153
+      },
+      {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "gcp-data-transfer",
+        "similarity": 0.2144
+      }
+    ],
+    "gcp-transfer": [
+      {
+        "a": "gcp-transfer",
+        "b": "fabric-planning",
+        "similarity": 0.3037
+      },
+      {
+        "a": "gcp-transfer",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2332
+      },
+      {
+        "a": "gcp-transfer",
+        "b": "aws-activate",
+        "similarity": 0.2244
+      }
+    ],
+    "gcp-transfer-appliance": [
+      {
+        "a": "gcp-transfer-appliance",
+        "b": "aws-mediastore",
+        "similarity": 0.2637
+      },
+      {
+        "a": "aws-eventbridge-schema-registry",
+        "b": "gcp-transfer-appliance",
+        "similarity": 0.2489
+      },
+      {
+        "a": "gcp-transfer-appliance",
+        "b": "aws-well-architected-tool",
+        "similarity": 0.2489
       }
     ],
     "gcp-access-context": [
@@ -6915,14 +7023,14 @@
         "similarity": 0.2201
       },
       {
-        "a": "gcp-cloud-domains",
-        "b": "m365-mail-read",
-        "similarity": 0.191
+        "a": "gcp-transfer-appliance",
+        "b": "gcp-cloud-domains",
+        "similarity": 0.197
       },
       {
         "a": "gcp-cloud-domains",
-        "b": "aws-cloudsearch",
-        "similarity": 0.1803
+        "b": "m365-mail-read",
+        "similarity": 0.191
       }
     ],
     "gcp-cloud-hsm": [
@@ -7532,9 +7640,9 @@
         "similarity": 0.2344
       },
       {
-        "a": "fabric-dataflow",
-        "b": "aws-memorydb",
-        "similarity": 0.2237
+        "a": "gcp-migrate-anthos",
+        "b": "fabric-dataflow",
+        "similarity": 0.2321
       }
     ],
     "fabric-dataflow-gen2": [
@@ -7804,9 +7912,9 @@
         "similarity": 0.3158
       },
       {
-        "a": "m365-image",
+        "a": "gcp-transfer",
         "b": "fabric-planning",
-        "similarity": 0.2722
+        "similarity": 0.3037
       }
     ],
     "fabric-report": [
@@ -8887,14 +8995,14 @@
         "similarity": 0.2356
       },
       {
+        "a": "gcp-transfer-appliance",
+        "b": "aws-ec2-autoscaling",
+        "similarity": 0.234
+      },
+      {
         "a": "azure-event-hub-clusters",
         "b": "aws-ec2-autoscaling",
         "similarity": 0.2189
-      },
-      {
-        "a": "dynamics-family",
-        "b": "aws-ec2-autoscaling",
-        "similarity": 0.2113
       }
     ],
     "fabric-stream-connector": [
@@ -9538,9 +9646,9 @@
         "similarity": 0.1347
       },
       {
-        "a": "m365-search",
+        "a": "gcp-transfer-appliance",
         "b": "m365-key",
-        "similarity": 0.131
+        "similarity": 0.133
       }
     ],
     "m365-layer": [
@@ -9754,14 +9862,14 @@
         "similarity": 0.2138
       },
       {
+        "a": "gcp-data-transfer",
+        "b": "m365-people",
+        "similarity": 0.2051
+      },
+      {
         "a": "aws-datazone-portal",
         "b": "m365-people",
         "similarity": 0.2
-      },
-      {
-        "a": "m365-people",
-        "b": "aws-config",
-        "similarity": 0.1982
       }
     ],
     "m365-person-accounts": [
@@ -11289,9 +11397,9 @@
         "similarity": 0.1551
       },
       {
-        "a": "fabric-real-time-intelligence",
-        "b": "aws-fsx-openzfs",
-        "similarity": 0.1415
+        "a": "gcp-migrate-anthos",
+        "b": "fabric-real-time-intelligence",
+        "similarity": 0.1481
       }
     ],
     "fabric-one-lake": [
@@ -11624,14 +11732,14 @@
         "similarity": 0.1957
       },
       {
-        "a": "aws-corretto",
-        "b": "m365-folder-open-vertical",
-        "similarity": 0.1806
+        "a": "gcp-transfer-appliance",
+        "b": "aws-corretto",
+        "similarity": 0.1828
       },
       {
         "a": "aws-corretto",
-        "b": "aws-iot-fleetwise",
-        "similarity": 0.1795
+        "b": "m365-folder-open-vertical",
+        "similarity": 0.1806
       }
     ],
     "aws-marketplace": [
@@ -11765,9 +11873,9 @@
         "similarity": 0.2431
       },
       {
-        "a": "azure-ddos-plans",
+        "a": "gcp-transfer",
         "b": "aws-activate",
-        "similarity": 0.2164
+        "similarity": 0.2244
       }
     ],
     "aws-iq": [
@@ -12219,14 +12327,14 @@
         "similarity": 0.4072
       },
       {
+        "a": "gcp-migrate-compute",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2958
+      },
+      {
         "a": "gcp-local-ssd",
         "b": "aws-mainframe-modernization",
         "similarity": 0.295
-      },
-      {
-        "a": "aws-translate",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2811
       }
     ],
     "aws-migration-evaluator": [
@@ -12343,9 +12451,9 @@
         "similarity": 0.1921
       },
       {
-        "a": "gcp-automl-translation",
+        "a": "gcp-transfer-appliance",
         "b": "aws-application-discovery",
-        "similarity": 0.1897
+        "similarity": 0.1905
       }
     ],
     "aws-service-management-connector": [
@@ -12593,14 +12701,14 @@
         "similarity": 0.2304
       },
       {
-        "a": "aws-config",
-        "b": "aws-service-catalog",
-        "similarity": 0.2182
+        "a": "gcp-transfer-appliance",
+        "b": "aws-config",
+        "similarity": 0.2237
       },
       {
         "a": "aws-config",
-        "b": "aws-category-storage",
-        "similarity": 0.2169
+        "b": "aws-service-catalog",
+        "similarity": 0.2182
       }
     ],
     "aws-license-manager": [
@@ -12814,14 +12922,14 @@
         "similarity": 0.2944
       },
       {
+        "a": "gcp-transfer-appliance",
+        "b": "aws-mediastore",
+        "similarity": 0.2637
+      },
+      {
         "a": "gcp-bigtable",
         "b": "aws-mediastore",
         "similarity": 0.2533
-      },
-      {
-        "a": "aws-mediastore",
-        "b": "azure-subscriptions",
-        "similarity": 0.2525
       }
     ],
     "aws-mediatailor": [
@@ -12967,14 +13075,14 @@
         "similarity": 0.1947
       },
       {
+        "a": "gcp-transfer-appliance",
+        "b": "aws-security-agent",
+        "similarity": 0.1888
+      },
+      {
         "a": "azure-function-apps",
         "b": "aws-security-agent",
         "similarity": 0.186
-      },
-      {
-        "a": "aws-xray",
-        "b": "aws-security-agent",
-        "similarity": 0.1835
       }
     ],
     "aws-security-hub": [
@@ -15417,6 +15525,11 @@
     ],
     "fabric-arrow-right-double": [
       {
+        "a": "gcp-data-transfer",
+        "b": "fabric-arrow-right-double",
+        "similarity": 0.2153
+      },
+      {
         "a": "aws-sqs",
         "b": "fabric-arrow-right-double",
         "similarity": 0.2131
@@ -15425,11 +15538,6 @@
         "a": "fabric-arrow-right-double",
         "b": "aws-category-blockchain",
         "similarity": 0.2037
-      },
-      {
-        "a": "gcp-cloud-hsm",
-        "b": "fabric-arrow-right-double",
-        "similarity": 0.2015
       }
     ],
     "fabric-arrow-right-double-wrap": [
@@ -17468,14 +17576,14 @@
         "similarity": 0.2035
       },
       {
+        "a": "gcp-database-migration",
+        "b": "azure-hosts",
+        "similarity": 0.1993
+      },
+      {
         "a": "aws-redshift",
         "b": "azure-hosts",
         "similarity": 0.1967
-      },
-      {
-        "a": "azure-hosts",
-        "b": "fabric-column-brackets",
-        "similarity": 0.1938
       }
     ],
     "fabric-cube-cone-sphere": [
@@ -17570,14 +17678,14 @@
         "similarity": 0.2043
       },
       {
+        "a": "gcp-data-transfer",
+        "b": "fabric-home-waves",
+        "similarity": 0.1896
+      },
+      {
         "a": "aws-clean-rooms",
         "b": "fabric-home-waves",
         "similarity": 0.182
-      },
-      {
-        "a": "gcp-data-catalog",
-        "b": "fabric-home-waves",
-        "similarity": 0.1817
       }
     ],
     "fabric-bar-prohibited": [
@@ -18718,9 +18826,9 @@
         "similarity": 0.2451
       },
       {
-        "a": "azure-private-link-services",
+        "a": "gcp-transfer",
         "b": "fabric-cloud-endpoint",
-        "similarity": 0.2221
+        "similarity": 0.2332
       }
     ],
     "fabric-connector": [
