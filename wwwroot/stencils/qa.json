@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 809,
+  "approved": 825,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -373,19 +373,6 @@
     "fabric-streaming-dataflow",
     "fabric-streaming-semantic",
     "fabric-user-data-function",
-    "m365-slide-layout",
-    "m365-task-square",
-    "m365-text-first-line",
-    "m365-text-number-list",
-    "m365-top-speed",
-    "m365-wallet-card",
-    "m365-window",
-    "m365-window-edit",
-    "m365-window-dev-edit",
-    "m365-cogs",
-    "m365-three-shapes",
-    "m365-share-screen-overlay",
-    "m365-ribbon-star",
     "azure-device-security-apple",
     "azure-device-security-google",
     "azure-device-security-windows",
@@ -695,9 +682,6 @@
     "aws-fsx-ontap",
     "aws-fsx-openzfs",
     "aws-fsx-windows",
-    "m365-arrow-circle-left",
-    "m365-arrow-circle-right",
-    "m365-arrow-clockwise",
     "m365-arrow-down",
     "m365-arrow-sync",
     "m365-check",
@@ -1428,13 +1412,6 @@
   ],
   "flaggedPairs": [
     {
-      "a": "m365-arrow-circle-left",
-      "b": "m365-arrow-circle-right",
-      "similarity": 0.8831,
-      "review": "distinct",
-      "notes": "The arrowheads point in opposite directions, including at 32px."
-    },
-    {
       "a": "fabric-list-kql",
       "b": "fabric-list-sql",
       "similarity": 0.8186,
@@ -1678,13 +1655,6 @@
       "similarity": 0.6601,
       "review": "distinct",
       "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
-    },
-    {
-      "a": "m365-arrow-circle-left",
-      "b": "fabric-arrow-trend",
-      "similarity": 0.6534,
-      "review": "distinct",
-      "notes": "The left-pointing straight arrow and rising zigzag arrow have different direction and contours at 32px."
     }
   ],
   "coverage": {
@@ -6289,18 +6259,18 @@
     "m365-radar": [
       {
         "a": "m365-radar",
-        "b": "m365-arrow-circle-right",
-        "similarity": 0.425
-      },
-      {
-        "a": "m365-radar",
-        "b": "m365-arrow-circle-left",
-        "similarity": 0.4228
-      },
-      {
-        "a": "m365-radar",
         "b": "m365-number-circle-one",
         "similarity": 0.4097
+      },
+      {
+        "a": "m365-radar",
+        "b": "m365-number-circle-three",
+        "similarity": 0.3807
+      },
+      {
+        "a": "m365-radar",
+        "b": "m365-number-circle-two",
+        "similarity": 0.3754
       }
     ],
     "m365-receipt": [
@@ -10107,8 +10077,8 @@
       },
       {
         "a": "fabric-cohort",
-        "b": "m365-arrow-circle-left",
-        "similarity": 0.4779
+        "b": "m365-number-circle-four",
+        "similarity": 0.4655
       }
     ],
     "fabric-copy-job": [
@@ -12994,6 +12964,11 @@
     "fabric-links": [
       {
         "a": "fabric-links",
+        "b": "m365-arrow-circle-right",
+        "similarity": 0.1316
+      },
+      {
+        "a": "fabric-links",
         "b": "azure-disconnected-operations",
         "similarity": 0.1124
       },
@@ -13001,11 +12976,6 @@
         "a": "fabric-links",
         "b": "azure-network-function-manager",
         "similarity": 0.1088
-      },
-      {
-        "a": "azure-load-balancer",
-        "b": "fabric-links",
-        "similarity": 0.1076
       }
     ],
     "fabric-mirrored-database": [
@@ -27172,58 +27142,52 @@
     "m365-arrow-circle-left": [
       {
         "a": "m365-arrow-circle-left",
-        "b": "m365-arrow-circle-right",
-        "similarity": 0.8831,
-        "review": "distinct",
-        "notes": "The arrowheads point in opposite directions, including at 32px."
+        "b": "azure-wac-installer",
+        "similarity": 0.2787
+      },
+      {
+        "a": "aws-systems-state-manager",
+        "b": "m365-arrow-circle-left",
+        "similarity": 0.278
       },
       {
         "a": "m365-arrow-circle-left",
-        "b": "fabric-arrow-trend",
-        "similarity": 0.6534,
-        "review": "distinct",
-        "notes": "The left-pointing straight arrow and rising zigzag arrow have different direction and contours at 32px."
-      },
-      {
-        "a": "m365-arrow-circle-left",
-        "b": "fabric-curved-right-circle",
-        "similarity": 0.6343
+        "b": "azure-search-grid",
+        "similarity": 0.2508
       }
     ],
     "m365-arrow-circle-right": [
       {
-        "a": "m365-arrow-circle-left",
+        "a": "gcp-media-translation",
         "b": "m365-arrow-circle-right",
-        "similarity": 0.8831,
-        "review": "distinct",
-        "notes": "The arrowheads point in opposite directions, including at 32px."
+        "similarity": 0.1876
+      },
+      {
+        "a": "aws-gateway-stored-volume",
+        "b": "m365-arrow-circle-right",
+        "similarity": 0.186
       },
       {
         "a": "m365-arrow-circle-right",
-        "b": "fabric-arrow-trend",
-        "similarity": 0.6487
-      },
-      {
-        "a": "m365-arrow-circle-right",
-        "b": "fabric-curved-right-circle",
-        "similarity": 0.6435
+        "b": "fabric-notebook-export",
+        "similarity": 0.179
       }
     ],
     "m365-arrow-clockwise": [
       {
         "a": "m365-arrow-clockwise",
-        "b": "m365-arrow-sync",
-        "similarity": 0.1353
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.1779
       },
       {
-        "a": "aws-s3-bucket-with-objects",
-        "b": "m365-arrow-clockwise",
-        "similarity": 0.1319
+        "a": "m365-arrow-clockwise",
+        "b": "fabric-tables-curve-right-new",
+        "similarity": 0.156
       },
       {
-        "a": "aws-iot-thing-door-lock",
+        "a": "azure-data-box",
         "b": "m365-arrow-clockwise",
-        "similarity": 0.1202
+        "similarity": 0.1494
       }
     ],
     "m365-arrow-down": [
@@ -27886,19 +27850,19 @@
     ],
     "m365-number-circle-one": [
       {
-        "a": "m365-arrow-circle-left",
-        "b": "m365-number-circle-one",
-        "similarity": 0.6082
-      },
-      {
-        "a": "m365-arrow-circle-right",
-        "b": "m365-number-circle-one",
-        "similarity": 0.6082
-      },
-      {
         "a": "m365-number-circle-one",
         "b": "fabric-arrow-trend",
         "similarity": 0.6049
+      },
+      {
+        "a": "m365-number-circle-one",
+        "b": "m365-number-circle-three",
+        "similarity": 0.5969
+      },
+      {
+        "a": "m365-number-circle-one",
+        "b": "m365-number-circle-two",
+        "similarity": 0.5952
       }
     ],
     "m365-number-circle-two": [
@@ -27915,9 +27879,9 @@
         "similarity": 0.6075
       },
       {
-        "a": "m365-arrow-circle-left",
+        "a": "m365-number-circle-one",
         "b": "m365-number-circle-two",
-        "similarity": 0.6022
+        "similarity": 0.5952
       }
     ],
     "m365-number-circle-three": [
@@ -27934,9 +27898,9 @@
         "similarity": 0.5969
       },
       {
-        "a": "m365-arrow-circle-right",
-        "b": "m365-number-circle-three",
-        "similarity": 0.5791
+        "a": "m365-number-circle-three",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.5686
       }
     ],
     "m365-number-circle-four": [
@@ -27953,9 +27917,9 @@
         "similarity": 0.625
       },
       {
-        "a": "m365-arrow-circle-left",
+        "a": "m365-number-circle-one",
         "b": "m365-number-circle-four",
-        "similarity": 0.5942
+        "similarity": 0.5754
       }
     ],
     "aws-vpc-peering": [
@@ -29563,14 +29527,14 @@
         "similarity": 0.6042
       },
       {
-        "a": "m365-arrow-circle-right",
-        "b": "fabric-arrow-forward-circle",
-        "similarity": 0.5989
+        "a": "fabric-arrow-forward-circle",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.5754
       },
       {
-        "a": "m365-arrow-circle-left",
+        "a": "m365-number-circle-one",
         "b": "fabric-arrow-forward-circle",
-        "similarity": 0.5947
+        "similarity": 0.5678
       }
     ],
     "fabric-arrow-right-double": [
@@ -29643,21 +29607,19 @@
     ],
     "fabric-arrow-trend": [
       {
-        "a": "m365-arrow-circle-left",
-        "b": "fabric-arrow-trend",
-        "similarity": 0.6534,
-        "review": "distinct",
-        "notes": "The left-pointing straight arrow and rising zigzag arrow have different direction and contours at 32px."
-      },
-      {
-        "a": "m365-arrow-circle-right",
-        "b": "fabric-arrow-trend",
-        "similarity": 0.6487
-      },
-      {
         "a": "fabric-arrow-trend",
         "b": "fabric-curved-right-circle",
         "similarity": 0.6354
+      },
+      {
+        "a": "m365-number-circle-four",
+        "b": "fabric-arrow-trend",
+        "similarity": 0.625
+      },
+      {
+        "a": "m365-number-circle-two",
+        "b": "fabric-arrow-trend",
+        "similarity": 0.6075
       }
     ],
     "fabric-binoculars": [
@@ -35429,6 +35391,11 @@
     ],
     "fabric-datatype-byte": [
       {
+        "a": "m365-arrow-circle-right",
+        "b": "fabric-datatype-byte",
+        "similarity": 0.1772
+      },
+      {
         "a": "aws-license-application-discovery",
         "b": "fabric-datatype-byte",
         "similarity": 0.1741
@@ -35437,11 +35404,6 @@
         "a": "gcp-healthcare-api",
         "b": "fabric-datatype-byte",
         "similarity": 0.1739
-      },
-      {
-        "a": "azure-applens",
-        "b": "fabric-datatype-byte",
-        "similarity": 0.1729
       }
     ],
     "fabric-document-people": [
@@ -37587,6 +37549,11 @@
     ],
     "fabric-info": [
       {
+        "a": "m365-arrow-circle-left",
+        "b": "fabric-info",
+        "similarity": 0.1573
+      },
+      {
         "a": "aws-iot-thing-temperature-sensor",
         "b": "fabric-info",
         "similarity": 0.117
@@ -37595,28 +37562,23 @@
         "a": "aws-iot-alexa-device",
         "b": "fabric-info",
         "similarity": 0.1168
-      },
-      {
-        "a": "fabric-three-shapes",
-        "b": "fabric-info",
-        "similarity": 0.1151
       }
     ],
     "fabric-send-circle": [
       {
-        "a": "m365-arrow-circle-left",
-        "b": "fabric-send-circle",
-        "similarity": 0.3376
-      },
-      {
-        "a": "m365-arrow-circle-right",
-        "b": "fabric-send-circle",
-        "similarity": 0.3319
-      },
-      {
         "a": "fabric-commit-circle",
         "b": "fabric-send-circle",
         "similarity": 0.3079
+      },
+      {
+        "a": "fabric-asterisk-circle",
+        "b": "fabric-send-circle",
+        "similarity": 0.299
+      },
+      {
+        "a": "m365-number-circle-four",
+        "b": "fabric-send-circle",
+        "similarity": 0.2793
       }
     ],
     "fabric-ellipse": [
@@ -38822,14 +38784,14 @@
         "notes": "The numeral has a closed triangular upper stroke and vertical stem; the curved arrow has a bent shaft and pointed arrowhead, including at 32px."
       },
       {
-        "a": "m365-arrow-circle-right",
-        "b": "fabric-curved-right-circle",
-        "similarity": 0.6435
-      },
-      {
         "a": "fabric-arrow-trend",
         "b": "fabric-curved-right-circle",
         "similarity": 0.6354
+      },
+      {
+        "a": "m365-number-circle-one",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.592
       }
     ],
     "fabric-bookmark-data-bar": [

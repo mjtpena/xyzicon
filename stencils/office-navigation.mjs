@@ -2,20 +2,23 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const officeNavigationArtwork = [
   entry("m365-arrow-circle-left", "microsoft365", "Arrow Circle Left", ["Arrow Circle Left"],
-    "A left-pointing navigation arrow sits inside a circular boundary.",
+    "A left navigation button returns to a previous page.",
     [
-      oval(14, 14, 100, 100), line([91, 64], [38, 64]), line([56, 46], [38, 64], [56, 82]),
+      rect(15, 23, 45, 70), line([23, 35], [52, 35]), line([23, 46], [47, 46]),
+      oval(62, 42, 48, 48), line([99, 66], [73, 66]), line([82, 57], [73, 66], [82, 75]),
     ]),
   entry("m365-arrow-circle-right", "microsoft365", "Arrow Circle Right", ["Arrow Circle Right"],
-    "A right-pointing navigation arrow sits inside a circular boundary.",
+    "A right navigation button advances to a next page.",
     [
-      oval(14, 14, 100, 100), line([37, 64], [90, 64]), line([72, 46], [90, 64], [72, 82]),
+      oval(15, 42, 48, 48), line([26, 66], [52, 66]), line([43, 57], [52, 66], [43, 75]),
+      rect(66, 23, 45, 70), line([74, 35], [103, 35]), line([74, 46], [98, 46]),
     ]),
   entry("m365-arrow-clockwise", "microsoft365", "Arrow Clockwise", ["Arrow Clockwise"],
-    "A single clockwise loop ends in a directional arrow.",
+    "A clockwise arrow repeats an action around a central clock.",
     [
       line([94, 41], [84, 27], [68, 20], [49, 23], [34, 34], [26, 50], [26, 70], [34, 87], [50, 98], [69, 101], [86, 94], [98, 81]),
       line([76, 43], [95, 43], [95, 23]),
+      oval(44, 44, 40, 40), line([64, 51], [64, 64], [73, 70]),
     ]),
   entry("m365-arrow-down", "microsoft365", "Arrow Down", ["Arrow Down"],
     "A bold downward arrow indicates movement toward the bottom.",
