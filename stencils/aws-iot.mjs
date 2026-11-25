@@ -1,6 +1,71 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsIotArtwork = [
+  entry("aws-iot-action", "aws", "IoT Action", ["Res_AWS-IoT_Action_48"],
+    "An IoT rule triggers an action.",
+    [
+      line([15, 23], [55, 23], [55, 83], [15, 83], [15, 23]), line([23, 35], [47, 35]), line([23, 47], [43, 47]), line([23, 59], [47, 59]),
+      line([64, 53], [105, 53]), line([94, 42], [105, 53], [94, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-actuator", "aws", "IoT Actuator", ["Res_AWS-IoT_Actuator_48"],
+    "A control signal moves a mechanical actuator.",
+    [
+      rect(15, 30, 43, 45), line([15, 41], [58, 41]), line([22, 50], [48, 50]), line([22, 60], [44, 60]),
+      line([58, 52], [73, 52]), line([67, 46], [73, 52], [67, 58]), rect(77, 42, 24, 21), line([101, 52], [112, 52]), line([106, 46], [112, 52], [106, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-servo", "aws", "IoT Servo", ["Res_AWS-IoT_Servo_48"],
+    "A servo rotates an output arm to a controlled position.",
+    [
+      rect(23, 43, 65, 38), oval(45, 50, 25, 25), oval(54, 59, 7, 7, true), line([58, 62], [83, 30]), oval(79, 24, 10, 10), line([23, 54], [12, 54]), line([23, 65], [12, 65]),
+      line([91, 47], [98, 53], [101, 61], [98, 69]), line([91, 21], [102, 27], [110, 37]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-certificate", "aws", "IoT Certificate", ["Res_AWS-IoT_Certificate_48"],
+    "A device certificate contains an identity key.",
+    [
+      line([23, 15], [84, 15], [96, 27], [96, 91], [23, 91], [23, 15]), line([84, 15], [84, 27], [96, 27]), line([32, 36], [78, 36]),
+      oval(36, 48, 18, 18), line([50, 62], [70, 82], [75, 77]), line([59, 71], [65, 65]), line([65, 77], [71, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-policy", "aws", "IoT Policy", ["Res_AWS-IoT_Policy_48"],
+    "A policy grants device permissions.",
+    [
+      line([17, 15], [77, 15], [89, 27], [89, 92], [17, 92], [17, 15]), line([77, 15], [77, 27], [89, 27]),
+      line([27, 38], [33, 44], [42, 33]), line([48, 39], [78, 39]), line([27, 55], [33, 61], [42, 50]), line([48, 56], [78, 56]),
+      oval(67, 67, 18, 18), line([81, 80], [101, 80]), line([95, 74], [101, 80], [95, 86]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-desired-state", "aws", "IoT Desired State", ["Res_AWS-IoT_Desired-State_48"],
+    "A target state is sent to a device.",
+    [
+      oval(13, 27, 41, 41), oval(22, 36, 23, 23), oval(29, 43, 9, 9, true), line([54, 48], [72, 48]), line([66, 42], [72, 48], [66, 54]),
+      rect(77, 23, 31, 57), line([77, 34], [108, 34]), line([84, 44], [101, 44]), line([84, 54], [98, 54]), line([84, 70], [101, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-reported-state", "aws", "IoT Reported State", ["Res_AWS-IoT_Reported-State_48"],
+    "A device reports its observed state as measurements.",
+    [
+      rect(14, 25, 32, 55), line([14, 36], [46, 36]), line([21, 46], [39, 46]), line([21, 57], [36, 57]), line([21, 69], [39, 69]),
+      line([46, 51], [64, 51]), line([58, 45], [64, 51], [58, 57]),
+      line([70, 77], [70, 29]), line([70, 77], [108, 77]), line([77, 68], [85, 55], [93, 60], [102, 38]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-shadow", "aws", "IoT Device Shadow", ["Res_AWS-IoT_Shadow_48"],
+    "A cloud shadow stores the last known state of a device.",
+    [
+      rect(12, 44, 39, 40), line([12, 54], [51, 54]), line([20, 64], [43, 64]), line([20, 73], [38, 73]),
+      line([51, 62], [66, 62]), line([60, 56], [66, 62], [60, 68]),
+      line([75, 40], [71, 36], [73, 29], [80, 26], [87, 28], [92, 21], [101, 22], [106, 29], [105, 35], [112, 39], [111, 47], [106, 51], [75, 51], [70, 47], [75, 40]),
+      rect(78, 55, 29, 24), line([84, 63], [101, 63]), line([84, 71], [98, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-simulator", "aws", "IoT Simulator", ["Res_AWS-IoT_Simulator_48"],
+    "A simulated device runs a test scenario.",
+    [
+      line([17, 26], [17, 17], [26, 17]), line([89, 17], [98, 17], [98, 26]), line([17, 76], [17, 85], [26, 85]), line([89, 85], [98, 85], [98, 76]),
+      rect(28, 29, 42, 43), line([28, 39], [70, 39]), line([35, 48], [62, 48]), line([35, 58], [58, 58]),
+      oval(63, 53, 29, 29), line([74, 61], [84, 67], [74, 73], [74, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-over-air-update", "aws", "IoT Over Air Update", ["Res_AWS-IoT_Over-Air-Update_48"],
+    "An update travels wirelessly to a device.",
+    [
+      rect(44, 34, 37, 52), line([51, 41], [74, 41]), line([52, 78], [73, 78]), line([62, 49], [62, 68]), line([55, 61], [62, 68], [69, 61]),
+      line([38, 27], [46, 20], [62, 16], [78, 20], [86, 27]), line([29, 20], [42, 11], [62, 7], [82, 11], [95, 20]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-iot-device-advisor", "aws", "IoT Core Device Advisor", ["Res_AWS-IoT-Core_Device-Advisor_48"],
     "A device is evaluated against an IoT readiness checklist.",
     [
