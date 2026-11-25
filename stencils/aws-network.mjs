@@ -3,6 +3,45 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-cloud-wan-edge", "aws", "Cloud WAN Core Network Edge", ["Res_AWS-Cloud-WAN_Core-Network-Edge_48"],
+    "A core network edge connects regional networks.",
+    [
+      oval(43, 35, 40, 40), line([50, 55], [76, 55]), line([63, 42], [63, 68]), oval(9, 15, 20, 20), oval(99, 15, 20, 20), oval(9, 77, 20, 20), oval(99, 77, 20, 20),
+      line([27, 31], [46, 43]), line([100, 31], [80, 43]), line([27, 81], [46, 68]), line([100, 81], [80, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloud-wan-segment", "aws", "Cloud WAN Segment Network", ["Res_AWS-Cloud-WAN_Segment-Network_48"],
+    "An isolated network segment connects a set of sites.",
+    [
+      line([16, 20], [110, 20], [110, 91], [16, 91], [16, 20]), line([16, 56], [110, 56]), line([63, 20], [63, 91]),
+      oval(26, 30, 18, 18), oval(82, 30, 18, 18), oval(26, 65, 18, 18), oval(82, 65, 18, 18), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloud-wan-transit-attachment", "aws", "Cloud WAN Transit Gateway Route Table Attachment", ["Res_AWS-Cloud-WAN_Transit-Gateway-Route-Table-Attachment_48"],
+    "A transit gateway attachment links a core network to a route table.",
+    [
+      oval(13, 35, 34, 34), line([21, 52], [39, 52]), line([30, 43], [30, 61]),
+      line([48, 52], [68, 52]), line([61, 45], [68, 52], [61, 59]), rect(71, 24, 42, 58), line([71, 38], [113, 38]),
+      line([78, 48], [105, 48]), line([78, 58], [105, 58]), line([78, 68], [105, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-direct-connect-gateway", "aws", "Direct Connect Gateway", ["Res_AWS-Direct-Connect_Gateway_48"],
+    "A dedicated connection gateway bridges an on-premises network and AWS.",
+    [
+      line([9, 29], [24, 19], [39, 29], [39, 61], [9, 61], [9, 29]), line([15, 36], [33, 36]), line([15, 46], [33, 46]),
+      line([39, 49], [48, 49], [48, 65]), line([48, 65], [57, 65], [57, 78], [48, 78], [48, 65]), line([57, 69], [65, 69]), line([57, 74], [65, 74]),
+      line([65, 65], [74, 65], [74, 78], [65, 78], [65, 65]), line([74, 71], [88, 71], [88, 50]),
+      line([79, 40], [76, 34], [79, 28], [85, 26], [90, 29], [95, 23], [102, 25], [106, 31], [106, 36], [112, 40], [111, 46], [106, 50], [80, 50], [76, 46], [79, 40]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-transit-gateway-attachment", "aws", "Transit Gateway Attachment", ["Res_AWS-Transit-Gateway_Attachment_48"],
+    "An attachment connects a network to a transit gateway.",
+    [
+      line([12, 28], [47, 28], [47, 76], [12, 76], [12, 28]), line([20, 38], [39, 38]), line([20, 49], [39, 49]), line([20, 60], [39, 60]),
+      line([47, 52], [70, 52]), line([64, 46], [70, 52], [64, 58]), oval(72, 32, 40, 40), line([80, 52], [104, 52]), line([92, 40], [92, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-api-gateway-endpoint", "aws", "API Gateway Endpoint", ["Res_Amazon-API-Gateway_Endpoint_48"],
+    "An API endpoint accepts a request at a gateway.",
+    [
+      line([12, 53], [43, 53]), line([36, 46], [43, 53], [36, 60]), line([46, 19], [46, 88]), line([58, 19], [58, 88]), line([46, 19], [58, 19]), line([46, 88], [58, 88]),
+      line([68, 34], [61, 42], [68, 50]), line([98, 34], [105, 42], [98, 50]), line([91, 29], [77, 56]), line([70, 68], [102, 68]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-app-mesh-mesh", "aws", "App Mesh Mesh", ["Res_AWS-App-Mesh_Mesh_48"],
     "A service mesh connects multiple application services.",
     [

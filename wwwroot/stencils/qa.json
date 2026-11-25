@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2006,
-  "aliases": 5174,
+  "count": 2012,
+  "aliases": 5180,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1401,6 +1401,12 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-cloud-wan-edge",
+    "aws-cloud-wan-segment",
+    "aws-cloud-wan-transit-attachment",
+    "aws-direct-connect-gateway",
+    "aws-transit-gateway-attachment",
+    "aws-api-gateway-endpoint",
     "aws-app-mesh-mesh",
     "aws-app-mesh-virtual-gateway",
     "aws-app-mesh-virtual-node",
@@ -2306,8 +2312,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1791,
-      "concepts": 744
+      "covered": 1797,
+      "concepts": 750
     },
     "gcp": {
       "sources": 261,
@@ -5146,13 +5152,13 @@
       },
       {
         "a": "gcp-cloud-scheduler",
-        "b": "m365-building-multiple",
-        "similarity": 0.3003
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3242
       },
       {
         "a": "gcp-cloud-scheduler",
-        "b": "gcp-cloud-generic",
-        "similarity": 0.2881
+        "b": "m365-building-multiple",
+        "similarity": 0.3003
       }
     ],
     "gcp-cloud-tasks": [
@@ -6324,8 +6330,8 @@
       },
       {
         "a": "aws-lake-formation",
-        "b": "aws-iot-thing-plc",
-        "similarity": 0.2258
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.2354
       }
     ],
     "aws-data-firehose": [
@@ -8733,13 +8739,13 @@
       },
       {
         "a": "gcp-tensorflow-enterprise",
-        "b": "aws-data-exchange-api",
-        "similarity": 0.2342
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.2507
       },
       {
         "a": "gcp-tensorflow-enterprise",
-        "b": "aws-nova",
-        "similarity": 0.2226
+        "b": "aws-data-exchange-api",
+        "similarity": 0.2342
       }
     ],
     "gcp-real-world-insights": [
@@ -8920,13 +8926,13 @@
       },
       {
         "a": "gcp-connectors",
-        "b": "aws-backup-gateway-resource",
-        "similarity": 0.2356
+        "b": "aws-api-gateway-endpoint",
+        "similarity": 0.236
       },
       {
         "a": "gcp-connectors",
-        "b": "azure-signalr",
-        "similarity": 0.2259
+        "b": "aws-backup-gateway-resource",
+        "similarity": 0.2356
       }
     ],
     "gcp-workflows": [
@@ -9634,13 +9640,13 @@
       },
       {
         "a": "gcp-anthos",
-        "b": "azure-learn",
-        "similarity": 0.2654
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.2669
       },
       {
         "a": "gcp-anthos",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.2608
+        "b": "azure-learn",
+        "similarity": 0.2654
       }
     ],
     "gcp-distributed-cloud": [
@@ -10223,6 +10229,11 @@
     ],
     "gcp-speech-to-text": [
       {
+        "a": "gcp-speech-to-text",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3126
+      },
+      {
         "a": "gcp-asset-inventory",
         "b": "gcp-speech-to-text",
         "similarity": 0.2926
@@ -10231,11 +10242,6 @@
         "a": "gcp-speech-to-text",
         "b": "fabric-partition-hint",
         "similarity": 0.2844
-      },
-      {
-        "a": "gcp-speech-to-text",
-        "b": "aws-ecr-registry",
-        "similarity": 0.2468
       }
     ],
     "gcp-text-to-speech": [
@@ -14927,14 +14933,14 @@
         "similarity": 0.239
       },
       {
+        "a": "aws-health-omics",
+        "b": "aws-cloud-wan-transit-attachment",
+        "similarity": 0.2349
+      },
+      {
         "a": "m365-shifts",
         "b": "aws-health-omics",
         "similarity": 0.2202
-      },
-      {
-        "a": "aws-datazone-portal",
-        "b": "aws-health-omics",
-        "similarity": 0.2108
       }
     ],
     "aws-health-scribe": [
@@ -15586,6 +15592,11 @@
     "azure-identity-roles-administrators": [
       {
         "a": "azure-identity-roles-administrators",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3048
+      },
+      {
+        "a": "azure-identity-roles-administrators",
         "b": "azure-time-series-event-sources",
         "similarity": 0.2722
       },
@@ -15593,11 +15604,6 @@
         "a": "azure-identity-roles-administrators",
         "b": "aws-systems-inventory",
         "similarity": 0.2584
-      },
-      {
-        "a": "azure-identity-roles-administrators",
-        "b": "aws-systems-application-manager",
-        "similarity": 0.2582
       }
     ],
     "azure-multi-factor-authentication": [
@@ -15654,6 +15660,11 @@
     "azure-entra-private-access": [
       {
         "a": "azure-entra-private-access",
+        "b": "aws-cloud-wan-transit-attachment",
+        "similarity": 0.3318
+      },
+      {
+        "a": "azure-entra-private-access",
         "b": "aws-greengrass-interprocess",
         "similarity": 0.3229
       },
@@ -15661,11 +15672,6 @@
         "a": "azure-entra-private-access",
         "b": "aws-cloud-map-service",
         "similarity": 0.25
-      },
-      {
-        "a": "azure-entra-private-access",
-        "b": "aws-iot-http2",
-        "similarity": 0.2422
       }
     ],
     "azure-entra-internet-access": [
@@ -16900,13 +16906,13 @@
       },
       {
         "a": "azure-time-series-access-policies",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.262
+        "b": "aws-api-gateway-endpoint",
+        "similarity": 0.2633
       },
       {
         "a": "azure-time-series-access-policies",
-        "b": "aws-datasync-agent",
-        "similarity": 0.2604
+        "b": "aws-sitewise-asset-properties",
+        "similarity": 0.262
       }
     ],
     "azure-time-series-data-sets": [
@@ -16946,6 +16952,11 @@
     "azure-device-provisioning": [
       {
         "a": "azure-device-provisioning",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.3544
+      },
+      {
+        "a": "azure-device-provisioning",
         "b": "aws-iot-http2",
         "similarity": 0.3182
       },
@@ -16953,11 +16964,6 @@
         "a": "azure-device-provisioning",
         "b": "aws-efs-elastic-throughput",
         "similarity": 0.3034
-      },
-      {
-        "a": "aws-sagemaker-train",
-        "b": "azure-device-provisioning",
-        "similarity": 0.2787
       }
     ],
     "azure-arc-machines": [
@@ -17512,13 +17518,13 @@
       },
       {
         "a": "aws-iot-lambda-function",
-        "b": "aws-backup-vmware",
-        "similarity": 0.321
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.3294
       },
       {
-        "a": "azure-entra-internet-access",
-        "b": "aws-iot-lambda-function",
-        "similarity": 0.3084
+        "a": "aws-iot-lambda-function",
+        "b": "aws-backup-vmware",
+        "similarity": 0.321
       }
     ],
     "aws-iot-http": [
@@ -18447,13 +18453,13 @@
       },
       {
         "a": "aws-iot-thing-stacklight",
-        "b": "aws-app-mesh-virtual-gateway",
-        "similarity": 0.3042
+        "b": "aws-api-gateway-endpoint",
+        "similarity": 0.3142
       },
       {
         "a": "aws-iot-thing-stacklight",
-        "b": "aws-general-recover",
-        "similarity": 0.2783
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.3042
       }
     ],
     "aws-iot-thing-medical-emergency": [
@@ -19688,13 +19694,13 @@
       },
       {
         "a": "aws-backup-storage-resource",
-        "b": "aws-mainframe-compiler",
-        "similarity": 0.3008
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.3033
       },
       {
         "a": "aws-backup-storage-resource",
-        "b": "azure-web-slots",
-        "similarity": 0.2996
+        "b": "aws-mainframe-compiler",
+        "similarity": 0.3008
       }
     ],
     "aws-backup-virtual-machine": [
@@ -19914,8 +19920,8 @@
       },
       {
         "a": "aws-braket-simulator-1",
-        "b": "aws-kms-external-key-store",
-        "similarity": 0.2808
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.2934
       }
     ],
     "aws-braket-simulator-2": [
@@ -20100,9 +20106,9 @@
         "similarity": 0.2953
       },
       {
-        "a": "azure-intune-trends",
-        "b": "aws-braket-state-vector",
-        "similarity": 0.257
+        "a": "aws-braket-state-vector",
+        "b": "aws-cloud-wan-transit-attachment",
+        "similarity": 0.2617
       }
     ],
     "aws-braket-tensor-network": [
@@ -22323,13 +22329,13 @@
       },
       {
         "a": "aws-systems-application-manager",
-        "b": "azure-resource-explorer",
-        "similarity": 0.3534
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3611
       },
       {
         "a": "aws-systems-application-manager",
-        "b": "aws-general-application",
-        "similarity": 0.3362
+        "b": "azure-resource-explorer",
+        "similarity": 0.3534
       }
     ],
     "aws-systems-automation": [
@@ -22600,8 +22606,8 @@
       },
       {
         "a": "aws-organizational-unit",
-        "b": "aws-general-credentials",
-        "similarity": 0.3028
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.331
       }
     ],
     "aws-general-management-console": [
@@ -23801,14 +23807,14 @@
         "similarity": 0.2837
       },
       {
+        "a": "aws-mediaconnect-gateway",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.2668
+      },
+      {
         "a": "aws-backup-vmware",
         "b": "aws-mediaconnect-gateway",
         "similarity": 0.263
-      },
-      {
-        "a": "aws-dynamodb-item",
-        "b": "aws-mediaconnect-gateway",
-        "similarity": 0.2538
       }
     ],
     "aws-elemental-conductor": [
@@ -26096,6 +26102,108 @@
         "similarity": 0.5942
       }
     ],
+    "aws-cloud-wan-edge": [
+      {
+        "a": "aws-ebs-lifecycle-manager",
+        "b": "aws-cloud-wan-edge",
+        "similarity": 0.2018
+      },
+      {
+        "a": "aws-iot-http2",
+        "b": "aws-cloud-wan-edge",
+        "similarity": 0.1849
+      },
+      {
+        "a": "aws-documentdb-elastic-clusters",
+        "b": "aws-cloud-wan-edge",
+        "similarity": 0.1833
+      }
+    ],
+    "aws-cloud-wan-segment": [
+      {
+        "a": "aws-systems-application-manager",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3611
+      },
+      {
+        "a": "aws-general-data-table",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3424
+      },
+      {
+        "a": "aws-greengrass-ml-component",
+        "b": "aws-cloud-wan-segment",
+        "similarity": 0.3326
+      }
+    ],
+    "aws-cloud-wan-transit-attachment": [
+      {
+        "a": "azure-entra-private-access",
+        "b": "aws-cloud-wan-transit-attachment",
+        "similarity": 0.3318
+      },
+      {
+        "a": "aws-sns-http-notification",
+        "b": "aws-cloud-wan-transit-attachment",
+        "similarity": 0.2717
+      },
+      {
+        "a": "aws-mainframe-converter",
+        "b": "aws-cloud-wan-transit-attachment",
+        "similarity": 0.2627
+      }
+    ],
+    "aws-direct-connect-gateway": [
+      {
+        "a": "azure-entra-connect",
+        "b": "aws-direct-connect-gateway",
+        "similarity": 0.2522
+      },
+      {
+        "a": "gcp-api-analytics",
+        "b": "aws-direct-connect-gateway",
+        "similarity": 0.2337
+      },
+      {
+        "a": "aws-mainframe-modernization",
+        "b": "aws-direct-connect-gateway",
+        "similarity": 0.2301
+      }
+    ],
+    "aws-transit-gateway-attachment": [
+      {
+        "a": "azure-device-provisioning",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.3544
+      },
+      {
+        "a": "aws-transit-gateway-attachment",
+        "b": "fabric-document-ssis-play",
+        "similarity": 0.3296
+      },
+      {
+        "a": "aws-iot-lambda-function",
+        "b": "aws-transit-gateway-attachment",
+        "similarity": 0.3294
+      }
+    ],
+    "aws-api-gateway-endpoint": [
+      {
+        "a": "aws-api-gateway-endpoint",
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.4333
+      },
+      {
+        "a": "aws-iot-thing-stacklight",
+        "b": "aws-api-gateway-endpoint",
+        "similarity": 0.3142
+      },
+      {
+        "a": "azure-time-series-access-policies",
+        "b": "aws-api-gateway-endpoint",
+        "similarity": 0.2633
+      }
+    ],
     "aws-app-mesh-mesh": [
       {
         "a": "aws-app-mesh-mesh",
@@ -26115,6 +26223,11 @@
     ],
     "aws-app-mesh-virtual-gateway": [
       {
+        "a": "aws-api-gateway-endpoint",
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.4333
+      },
+      {
         "a": "aws-iot-thing-stacklight",
         "b": "aws-app-mesh-virtual-gateway",
         "similarity": 0.3042
@@ -26123,11 +26236,6 @@
         "a": "aws-app-mesh-virtual-gateway",
         "b": "azure-log-streaming",
         "similarity": 0.2465
-      },
-      {
-        "a": "aws-app-mesh-virtual-gateway",
-        "b": "aws-ec2-cloudwatch-instance",
-        "similarity": 0.2328
       }
     ],
     "aws-app-mesh-virtual-node": [
@@ -26176,9 +26284,9 @@
         "similarity": 0.2612
       },
       {
-        "a": "gcp-certificate-manager",
+        "a": "aws-cloud-wan-segment",
         "b": "aws-app-mesh-virtual-service",
-        "similarity": 0.258
+        "similarity": 0.2589
       }
     ],
     "aws-cloud-map-namespace": [
@@ -27067,6 +27175,11 @@
     ],
     "gcp-category-web-mobile": [
       {
+        "a": "aws-cloud-wan-segment",
+        "b": "gcp-category-web-mobile",
+        "similarity": 0.2677
+      },
+      {
         "a": "gcp-category-web-mobile",
         "b": "fabric-column-double-caret",
         "similarity": 0.255
@@ -27075,11 +27188,6 @@
         "a": "gcp-security-command-center",
         "b": "gcp-category-web-mobile",
         "similarity": 0.255
-      },
-      {
-        "a": "aws-systems-opscenter",
-        "b": "gcp-category-web-mobile",
-        "similarity": 0.248
       }
     ],
     "gcp-category-web3": [
@@ -32377,6 +32485,11 @@
     ],
     "fabric-document-ssis-play": [
       {
+        "a": "aws-transit-gateway-attachment",
+        "b": "fabric-document-ssis-play",
+        "similarity": 0.3296
+      },
+      {
         "a": "azure-machines-azure-arc",
         "b": "fabric-document-ssis-play",
         "similarity": 0.2893
@@ -32385,11 +32498,6 @@
         "a": "gcp-api-monetization",
         "b": "fabric-document-ssis-play",
         "similarity": 0.2871
-      },
-      {
-        "a": "azure-verification-service",
-        "b": "fabric-document-ssis-play",
-        "similarity": 0.2755
       }
     ],
     "fabric-documents-dax-export": [
@@ -33180,14 +33288,14 @@
         "similarity": 0.2962
       },
       {
+        "a": "aws-cloud-wan-segment",
+        "b": "fabric-rectangle-arrow-up",
+        "similarity": 0.2806
+      },
+      {
         "a": "fabric-funnel",
         "b": "fabric-rectangle-arrow-up",
         "similarity": 0.2406
-      },
-      {
-        "a": "fabric-rectangle-arrow-up",
-        "b": "fabric-table-link-triangle",
-        "similarity": 0.2357
       }
     ],
     "fabric-rectangle-exit-up": [
