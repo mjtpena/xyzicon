@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 819,
-  "aliases": 3386,
+  "count": 823,
+  "aliases": 3394,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -786,6 +786,10 @@
     "fabric-square-waves",
     "fabric-stream-bracket",
     "fabric-stream-settings",
+    "fabric-airplane",
+    "fabric-app-folder-pulse",
+    "fabric-curved-right-circle",
+    "fabric-bookmark-data-bar",
     "fabric-checked-documents",
     "fabric-stacked-text",
     "fabric-square-transfer",
@@ -841,6 +845,13 @@
       "notes": "The chevron is an open right-pointing angle; dismiss has two crossing strokes."
     },
     {
+      "a": "m365-number-circle-four",
+      "b": "fabric-curved-right-circle",
+      "similarity": 0.6959,
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "a": "m365-check-circle",
       "b": "m365-dismiss-circle",
       "similarity": 0.6828,
@@ -891,8 +902,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1023,
-      "concepts": 160
+      "covered": 1031,
+      "concepts": 164
     },
     "entra": {
       "sources": 14,
@@ -1500,8 +1511,8 @@
       },
       {
         "a": "dynamics-customer-service",
-        "b": "aws-waf",
-        "similarity": 0.2081
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.2112
       }
     ],
     "dynamics-customer-voice": [
@@ -7122,13 +7133,13 @@
       },
       {
         "a": "m365-tap",
-        "b": "m365-ribbon-star",
-        "similarity": 0.13
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.1405
       },
       {
-        "a": "fabric-no-access-semantic",
-        "b": "m365-tap",
-        "similarity": 0.1277
+        "a": "m365-tap",
+        "b": "m365-ribbon-star",
+        "similarity": 0.13
       }
     ],
     "m365-community": [
@@ -9557,9 +9568,9 @@
         "similarity": 0.2559
       },
       {
-        "a": "azure-machine-learning",
-        "b": "aws-service-management-connector",
-        "similarity": 0.2483
+        "a": "aws-service-management-connector",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2545
       }
     ],
     "aws-devops-agent": [
@@ -10837,8 +10848,8 @@
       },
       {
         "a": "m365-arrow-circle-left",
-        "b": "m365-number-circle-one",
-        "similarity": 0.6082
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6343
       }
     ],
     "m365-arrow-circle-right": [
@@ -10856,8 +10867,8 @@
       },
       {
         "a": "m365-arrow-circle-right",
-        "b": "m365-number-circle-one",
-        "similarity": 0.6082
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6435
       }
     ],
     "m365-arrow-clockwise": [
@@ -11593,6 +11604,13 @@
     "m365-number-circle-four": [
       {
         "a": "m365-number-circle-four",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6959,
+        "review": "pending",
+        "notes": ""
+      },
+      {
+        "a": "m365-number-circle-four",
         "b": "fabric-arrow-trend",
         "similarity": 0.625
       },
@@ -11600,11 +11618,6 @@
         "a": "m365-arrow-circle-left",
         "b": "m365-number-circle-four",
         "similarity": 0.5942
-      },
-      {
-        "a": "m365-arrow-circle-right",
-        "b": "m365-number-circle-four",
-        "similarity": 0.5901
       }
     ],
     "aws-app-mesh": [
@@ -11903,14 +11916,14 @@
         "similarity": 0.198
       },
       {
+        "a": "gcp-category-collaboration",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.1881
+      },
+      {
         "a": "m365-lightbulb-check",
         "b": "gcp-category-collaboration",
         "similarity": 0.1873
-      },
-      {
-        "a": "aws-snowball-edge",
-        "b": "gcp-category-collaboration",
-        "similarity": 0.1858
       }
     ],
     "gcp-category-compute": [
@@ -12471,9 +12484,9 @@
         "similarity": 0.6487
       },
       {
-        "a": "m365-number-circle-four",
-        "b": "fabric-arrow-trend",
-        "similarity": 0.625
+        "a": "fabric-arrow-trend",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6354
       }
     ],
     "fabric-binoculars": [
@@ -14231,6 +14244,76 @@
         "similarity": 0.1712
       }
     ],
+    "fabric-airplane": [
+      {
+        "a": "fabric-binoculars",
+        "b": "fabric-airplane",
+        "similarity": 0.1469
+      },
+      {
+        "a": "fabric-copy-job",
+        "b": "fabric-airplane",
+        "similarity": 0.1383
+      },
+      {
+        "a": "fabric-experiment",
+        "b": "fabric-airplane",
+        "similarity": 0.1299
+      }
+    ],
+    "fabric-app-folder-pulse": [
+      {
+        "a": "m365-slide-layout",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.267
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2553
+      },
+      {
+        "a": "aws-service-management-connector",
+        "b": "fabric-app-folder-pulse",
+        "similarity": 0.2545
+      }
+    ],
+    "fabric-curved-right-circle": [
+      {
+        "a": "m365-number-circle-four",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6959,
+        "review": "pending",
+        "notes": ""
+      },
+      {
+        "a": "m365-arrow-circle-right",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6435
+      },
+      {
+        "a": "fabric-arrow-trend",
+        "b": "fabric-curved-right-circle",
+        "similarity": 0.6354
+      }
+    ],
+    "fabric-bookmark-data-bar": [
+      {
+        "a": "fabric-book-database",
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.227
+      },
+      {
+        "a": "gcp-cloud-tpu",
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.2192
+      },
+      {
+        "a": "dynamics-customer-service",
+        "b": "fabric-bookmark-data-bar",
+        "similarity": 0.2112
+      }
+    ],
     "fabric-checked-documents": [
       {
         "a": "fabric-checked-documents",
@@ -14430,9 +14513,9 @@
         "similarity": 0.2354
       },
       {
-        "a": "gcp-spanner",
+        "a": "fabric-curved-right-circle",
         "b": "fabric-database-sync",
-        "similarity": 0.1848
+        "similarity": 0.1866
       }
     ],
     "fabric-database-asterisk": [

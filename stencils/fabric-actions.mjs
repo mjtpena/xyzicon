@@ -4,6 +4,33 @@ const variants = (name, sizes) => sizes.flatMap((size) =>
   ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
 
 export const fabricActionArtwork = [
+  entry("fabric-airplane", "fabric", "Airplane", variants("airplane", [12]),
+    "An airplane is seen from above with wings extended.",
+    [
+      line([64, 15], [57, 21], [54, 45], [12, 65], [12, 74], [54, 65], [57, 94], [43, 104], [43, 111], [64, 105], [85, 111], [85, 104], [71, 94], [74, 65], [116, 74], [116, 65], [74, 45], [71, 21], [64, 15]),
+      line([58, 34], [70, 34]), line([62, 19], [66, 19]),
+    ]),
+  entry("fabric-app-folder-pulse", "fabric", "Application folder pulse", variants("app_folder_pulse", [20]),
+    "An application folder has a live activity indicator.",
+    [
+      line([11, 25], [45, 25], [54, 34], [109, 34], [109, 93], [11, 93], [11, 25]),
+      rect(21, 44, 20, 17), rect(49, 44, 20, 17), rect(21, 68, 20, 17), rect(49, 68, 20, 17),
+      line([75, 69], [81, 69], [85, 59], [90, 79], [95, 65], [99, 69], [106, 69]),
+      line([21, 108], [102, 108]),
+    ]),
+  entry("fabric-curved-right-circle", "fabric", "Curved right arrow in circle", variants("arrow_curved_right_circle", [20]),
+    "A curved arrow points right inside a circle.",
+    [
+      oval(14, 14, 100, 100), line([36, 39], [37, 55], [43, 65], [54, 70], [89, 70]),
+      line([78, 59], [89, 70], [78, 81]),
+    ]),
+  entry("fabric-bookmark-data-bar", "fabric", "Bookmark data bars", variants("bookmark_data_bar_vertical", [20]),
+    "A saved bookmark contains a vertical bar chart.",
+    [
+      line([28, 14], [99, 14], [99, 110], [63, 91], [28, 110], [28, 14]),
+      line([39, 72], [39, 55], [47, 55], [47, 72]), line([54, 72], [54, 39], [62, 39], [62, 72]),
+      line([69, 72], [69, 27], [77, 27], [77, 72]), line([35, 72], [85, 72]),
+    ]),
   entry("fabric-checked-documents", "fabric", "Documents with checkmark",
     variants("document_multiple_checkmark", [16, 20, 24]),
     "A checkmark confirms a stack of documents.",
