@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 815,
-  "aliases": 3370,
+  "count": 819,
+  "aliases": 3386,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -504,6 +504,10 @@
     "aws-chime-sdk",
     "aws-wickr",
     "aws-end-user-messaging",
+    "aws-mainframe-modernization",
+    "aws-migration-evaluator",
+    "aws-transform",
+    "aws-backint-agent",
     "aws-datasync",
     "aws-application-migration",
     "aws-transfer-family",
@@ -912,8 +916,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1108,
-      "concepts": 274
+      "covered": 1124,
+      "concepts": 278
     },
     "gcp": {
       "sources": 261,
@@ -1146,6 +1150,11 @@
     "power-apps": [
       {
         "a": "power-apps",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2564
+      },
+      {
+        "a": "power-apps",
         "b": "fabric-stacked-text",
         "similarity": 0.2491
       },
@@ -1153,11 +1162,6 @@
         "a": "power-apps",
         "b": "fabric-restricted-report",
         "similarity": 0.2387
-      },
-      {
-        "a": "power-apps",
-        "b": "gcp-secret-manager",
-        "similarity": 0.2228
       }
     ],
     "power-dataverse": [
@@ -1712,13 +1716,13 @@
       },
       {
         "a": "aws-dynamodb",
-        "b": "azure-personalizer",
-        "similarity": 0.1856
+        "b": "aws-backint-agent",
+        "similarity": 0.1891
       },
       {
         "a": "aws-dynamodb",
-        "b": "gcp-category-web-mobile",
-        "similarity": 0.1785
+        "b": "azure-personalizer",
+        "similarity": 0.1856
       }
     ],
     "gcp-bigquery": [
@@ -1802,8 +1806,8 @@
       },
       {
         "a": "gcp-storage",
-        "b": "m365-chart-multiple",
-        "similarity": 0.2796
+        "b": "aws-transform",
+        "similarity": 0.2804
       }
     ],
     "azure-confidential-clean-rooms": [
@@ -2812,6 +2816,11 @@
     "gcp-cloud-dns": [
       {
         "a": "gcp-cloud-dns",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2263
+      },
+      {
+        "a": "gcp-cloud-dns",
         "b": "azure-storage-queue",
         "similarity": 0.2213
       },
@@ -2819,11 +2828,6 @@
         "a": "gcp-cloud-dns",
         "b": "azure-endpoint-analytics",
         "similarity": 0.2101
-      },
-      {
-        "a": "gcp-cloud-dns",
-        "b": "fabric-data-warehouse",
-        "similarity": 0.2054
       }
     ],
     "gcp-cloud-logging": [
@@ -3372,6 +3376,11 @@
     ],
     "fabric-branch-add": [
       {
+        "a": "fabric-branch-add",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.1287
+      },
+      {
         "a": "m365-deploy",
         "b": "fabric-branch-add",
         "similarity": 0.1276
@@ -3380,11 +3389,6 @@
         "a": "fabric-branch-add",
         "b": "fabric-briefcase-pulse",
         "similarity": 0.1262
-      },
-      {
-        "a": "power-apps",
-        "b": "fabric-branch-add",
-        "similarity": 0.1196
       }
     ],
     "fabric-branch-fork-signal": [
@@ -5531,6 +5535,11 @@
     ],
     "azure-endpoint-analytics": [
       {
+        "a": "azure-endpoint-analytics",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2539
+      },
+      {
         "a": "fabric-planning",
         "b": "azure-endpoint-analytics",
         "similarity": 0.2519
@@ -5539,11 +5548,6 @@
         "a": "azure-endpoint-analytics",
         "b": "aws-devops-agent",
         "similarity": 0.25
-      },
-      {
-        "a": "azure-endpoint-analytics",
-        "b": "aws-repost-private",
-        "similarity": 0.2322
       }
     ],
     "azure-workbooks": [
@@ -6110,6 +6114,11 @@
     "aws-ground-truth": [
       {
         "a": "aws-ground-truth",
+        "b": "aws-transform",
+        "similarity": 0.2922
+      },
+      {
+        "a": "aws-ground-truth",
         "b": "azure-batch-accounts",
         "similarity": 0.2824
       },
@@ -6117,11 +6126,6 @@
         "a": "aws-ground-truth",
         "b": "fabric-purview",
         "similarity": 0.2739
-      },
-      {
-        "a": "aws-ground-truth",
-        "b": "aws-codeguru",
-        "similarity": 0.2617
       }
     ],
     "aws-forecast": [
@@ -6845,12 +6849,12 @@
         "similarity": 0.2793
       },
       {
-        "a": "azure-storage-queue",
-        "b": "m365-document-multiple",
-        "similarity": 0.2351
+        "a": "m365-document-multiple",
+        "b": "aws-transform",
+        "similarity": 0.236
       },
       {
-        "a": "fabric-operations-agent",
+        "a": "azure-storage-queue",
         "b": "m365-document-multiple",
         "similarity": 0.2351
       }
@@ -7917,13 +7921,13 @@
       },
       {
         "a": "azure-machine-learning",
-        "b": "azure-linux",
-        "similarity": 0.256
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2693
       },
       {
         "a": "azure-machine-learning",
-        "b": "aws-deadline-cloud",
-        "similarity": 0.2506
+        "b": "azure-linux",
+        "similarity": 0.256
       }
     ],
     "azure-foundry-application": [
@@ -8393,13 +8397,13 @@
       },
       {
         "a": "fabric-data-engineering",
-        "b": "azure-app-service-environments",
-        "similarity": 0.2039
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2063
       },
       {
         "a": "fabric-data-engineering",
-        "b": "aws-app-runner",
-        "similarity": 0.1985
+        "b": "azure-app-service-environments",
+        "similarity": 0.2039
       }
     ],
     "fabric-data-science": [
@@ -8931,6 +8935,11 @@
     ],
     "aws-gamelift-servers": [
       {
+        "a": "aws-gamelift-servers",
+        "b": "aws-backint-agent",
+        "similarity": 0.2222
+      },
+      {
         "a": "m365-lightbulb-check",
         "b": "aws-gamelift-servers",
         "similarity": 0.2092
@@ -8939,14 +8948,14 @@
         "a": "aws-gamelift-servers",
         "b": "aws-wickr",
         "similarity": 0.2046
-      },
-      {
-        "a": "gcp-cloud-monitoring",
-        "b": "aws-gamelift-servers",
-        "similarity": 0.2023
       }
     ],
     "aws-activate": [
+      {
+        "a": "aws-activate",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.1931
+      },
       {
         "a": "aws-activate",
         "b": "aws-backup",
@@ -8956,11 +8965,6 @@
         "a": "azure-endpoint-analytics",
         "b": "aws-activate",
         "similarity": 0.1908
-      },
-      {
-        "a": "aws-activate",
-        "b": "aws-data-transfer-terminal",
-        "similarity": 0.1848
       }
     ],
     "aws-iq": [
@@ -9405,6 +9409,74 @@
         "similarity": 0.2312
       }
     ],
+    "aws-mainframe-modernization": [
+      {
+        "a": "aws-mainframe-modernization",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2764
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.2693
+      },
+      {
+        "a": "aws-mainframe-modernization",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2532
+      }
+    ],
+    "aws-migration-evaluator": [
+      {
+        "a": "power-apps",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2564
+      },
+      {
+        "a": "azure-endpoint-analytics",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2539
+      },
+      {
+        "a": "aws-mainframe-modernization",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2532
+      }
+    ],
+    "aws-transform": [
+      {
+        "a": "fabric-live-dashboard",
+        "b": "aws-transform",
+        "similarity": 0.3255
+      },
+      {
+        "a": "m365-window",
+        "b": "aws-transform",
+        "similarity": 0.2953
+      },
+      {
+        "a": "aws-ground-truth",
+        "b": "aws-transform",
+        "similarity": 0.2922
+      }
+    ],
+    "aws-backint-agent": [
+      {
+        "a": "aws-backint-agent",
+        "b": "aws-elastic-disaster-recovery",
+        "similarity": 0.2503
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "aws-backint-agent",
+        "similarity": 0.2458
+      },
+      {
+        "a": "aws-backint-agent",
+        "b": "aws-device-farm",
+        "similarity": 0.2399
+      }
+    ],
     "aws-datasync": [
       {
         "a": "aws-datasync",
@@ -9458,6 +9530,11 @@
     ],
     "aws-application-discovery": [
       {
+        "a": "aws-migration-evaluator",
+        "b": "aws-application-discovery",
+        "similarity": 0.1921
+      },
+      {
         "a": "aws-application-discovery",
         "b": "aws-data-transfer-terminal",
         "similarity": 0.186
@@ -9466,11 +9543,6 @@
         "a": "aws-application-discovery",
         "b": "aws-backup",
         "similarity": 0.183
-      },
-      {
-        "a": "aws-application-discovery",
-        "b": "fabric-calculator-triangle",
-        "similarity": 0.1825
       }
     ],
     "aws-service-management-connector": [
@@ -9985,6 +10057,11 @@
     ],
     "aws-deadline-cloud": [
       {
+        "a": "aws-mainframe-modernization",
+        "b": "aws-deadline-cloud",
+        "similarity": 0.2764
+      },
+      {
         "a": "azure-machine-learning",
         "b": "aws-deadline-cloud",
         "similarity": 0.2506
@@ -9993,11 +10070,6 @@
         "a": "aws-deadline-cloud",
         "b": "aws-data-transfer-terminal",
         "similarity": 0.2296
-      },
-      {
-        "a": "azure-endpoint-analytics",
-        "b": "aws-deadline-cloud",
-        "similarity": 0.2247
       }
     ],
     "aws-elemental-live": [
@@ -10301,9 +10373,9 @@
         "similarity": 0.2099
       },
       {
-        "a": "aws-cloudhsm",
+        "a": "aws-migration-evaluator",
         "b": "aws-security-incident-response",
-        "similarity": 0.207
+        "similarity": 0.2074
       }
     ],
     "aws-audit-manager": [
@@ -10573,9 +10645,9 @@
         "similarity": 0.2644
       },
       {
-        "a": "aws-appflow",
+        "a": "aws-backint-agent",
         "b": "aws-elastic-disaster-recovery",
-        "similarity": 0.2408
+        "similarity": 0.2503
       }
     ],
     "aws-efs": [
@@ -10653,14 +10725,14 @@
         "similarity": 0.2963
       },
       {
+        "a": "aws-mainframe-modernization",
+        "b": "aws-storage-gateway",
+        "similarity": 0.2279
+      },
+      {
         "a": "aws-deadline-cloud",
         "b": "aws-storage-gateway",
         "similarity": 0.2033
-      },
-      {
-        "a": "aws-storage-gateway",
-        "b": "aws-ecs-anywhere",
-        "similarity": 0.1944
       }
     ],
     "aws-data-transfer-terminal": [
@@ -10726,9 +10798,9 @@
         "similarity": 0.1828
       },
       {
-        "a": "gcp-filestore",
+        "a": "aws-backint-agent",
         "b": "aws-fsx-openzfs",
-        "similarity": 0.1754
+        "similarity": 0.1769
       }
     ],
     "aws-fsx-windows": [
@@ -14450,6 +14522,11 @@
     ],
     "fabric-trophy-prohibited": [
       {
+        "a": "aws-transform",
+        "b": "fabric-trophy-prohibited",
+        "similarity": 0.1703
+      },
+      {
         "a": "fabric-operations-agent",
         "b": "fabric-trophy-prohibited",
         "similarity": 0.1564
@@ -14458,11 +14535,6 @@
         "a": "fabric-database-pulse",
         "b": "fabric-trophy-prohibited",
         "similarity": 0.1498
-      },
-      {
-        "a": "azure-app-services",
-        "b": "fabric-trophy-prohibited",
-        "similarity": 0.1497
       }
     ],
     "fabric-locked-columns": [

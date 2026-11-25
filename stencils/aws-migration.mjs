@@ -3,6 +3,45 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsMigrationArtwork = [
+  entry("aws-mainframe-modernization", "aws", "AWS Mainframe Modernization", sizes("AWS-Mainframe-Modernization"),
+    "A mainframe workload is modernized for cloud application hosting.",
+    [
+      rect(10, 28, 38, 67), line([10, 45], [48, 45]), line([10, 62], [48, 62]), line([10, 79], [48, 79]),
+      oval(15, 33, 5, 5, true), oval(15, 50, 5, 5), oval(15, 67, 5, 5), line([27, 36], [42, 36]), line([27, 53], [42, 53]),
+      line([48, 62], [64, 62]), line([58, 56], [64, 62], [58, 68]),
+      line([69, 45], [65, 38], [68, 31], [76, 29], [80, 21], [89, 20], [96, 25], [98, 32], [107, 34], [112, 40], [111, 47], [106, 52], [73, 52]),
+      rect(71, 61, 40, 31), line([71, 70], [111, 70]), line([79, 78], [103, 78]),
+      line([16, 110], [110, 110]),
+    ]),
+  entry("aws-migration-evaluator", "aws", "AWS Migration Evaluator", sizes("AWS-Migration-Evaluator"),
+    "An infrastructure inventory is assessed for migration costs.",
+    [
+      oval(10, 20, 66, 66), rect(28, 33, 30, 40), line([28, 43], [58, 43]), line([28, 53], [58, 53]), line([28, 63], [58, 63]),
+      oval(32, 36, 4, 4, true), oval(32, 46, 4, 4), oval(32, 56, 4, 4),
+      line([66, 75], [88, 97]),
+      line([82, 70], [82, 38], [90, 38], [90, 70]), line([96, 70], [96, 27], [104, 27], [104, 70]),
+      line([76, 70], [111, 70]), line([18, 110], [110, 110]),
+    ]),
+  entry("aws-transform", "aws", "AWS Transform", sizes("AWS-Transform"),
+    "AI-assisted modernization transforms an application into a new workload.",
+    [
+      line([12, 16], [68, 16], [80, 28], [80, 100], [12, 100], [12, 16]), line([68, 16], [68, 28], [80, 28]),
+      line([30, 39], [22, 47], [30, 55]), line([58, 39], [66, 47], [58, 55]), line([50, 37], [38, 57]),
+      line([22, 68], [66, 68]), line([22, 78], [56, 78]), line([22, 88], [66, 88]),
+      line([70, 91], [100, 61], [108, 69], [78, 99], [70, 91]), line([94, 67], [102, 75]),
+      line([100, 32], [103, 26], [106, 32], [112, 35], [106, 38], [103, 44], [100, 38], [94, 35], [100, 32]),
+      line([16, 112], [109, 112]),
+    ]),
+  entry("aws-backint-agent", "aws", "AWS Backint Agent", sizes("AWS-Backint-Agent"),
+    "A database backup agent transfers a database into durable storage.",
+    [
+      oval(10, 25, 43, 16), line([10, 33], [10, 78], [18, 85], [45, 85], [53, 78], [53, 33]),
+      line([10, 50], [18, 57], [45, 57], [53, 50]), line([10, 67], [18, 74], [45, 74], [53, 67]),
+      line([53, 55], [72, 55]), line([65, 48], [72, 55], [65, 62]),
+      rect(77, 41, 37, 44), line([73, 33], [118, 33], [118, 45], [73, 45], [73, 33]),
+      rect(86, 53, 19, 9), line([90, 57], [101, 57]), line([85, 72], [106, 72]),
+      line([15, 108], [109, 108]),
+    ]),
   entry("aws-datasync", "aws", "AWS DataSync", sizes("AWS-DataSync"),
     "Two storage locations synchronize data in both directions.",
     [
