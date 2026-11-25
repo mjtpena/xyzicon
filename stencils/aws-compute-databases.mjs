@@ -3,6 +3,42 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-ecr-image", "aws", "ECR Image", ["Res_Amazon-Elastic-Container-Registry_Image_48"],
+    "A container image packages an application for deployment.",
+    [
+      line([24, 15], [78, 15], [91, 28], [91, 96], [24, 96], [24, 15]), line([78, 15], [78, 28], [91, 28]),
+      line([37, 45], [56, 37], [75, 45], [75, 67], [56, 75], [37, 67], [37, 45]), line([37, 45], [56, 53], [75, 45]), line([56, 53], [56, 75]),
+      line([15, 103], [112, 103]),
+    ]),
+  entry("aws-ecr-registry", "aws", "ECR Registry", ["Res_Amazon-Elastic-Container-Registry_Registry_48"],
+    "A registry stores a catalog of container images.",
+    [
+      line([16, 20], [111, 20], [111, 99], [16, 99], [16, 20]), line([16, 34], [111, 34]), line([24, 27], [28, 27]), line([34, 27], [38, 27]),
+      line([27, 49], [39, 43], [51, 49], [51, 65], [39, 71], [27, 65], [27, 49]), line([27, 49], [39, 55], [51, 49]), line([39, 55], [39, 71]),
+      line([70, 49], [82, 43], [94, 49], [94, 65], [82, 71], [70, 65], [70, 49]), line([70, 49], [82, 55], [94, 49]), line([82, 55], [82, 71]),
+      line([25, 85], [102, 85]), line([16, 112], [112, 112]),
+    ]),
+  entry("aws-ecs-container", "aws", "ECS Container", ["Res_Amazon-Elastic-Container-Service_Container-1_48"],
+    "A container packages a workload.",
+    [
+      line([15, 31], [64, 15], [113, 31], [113, 79], [64, 96], [15, 79], [15, 31]),
+      line([15, 31], [64, 48], [113, 31]), line([64, 48], [64, 96]),
+      line([25, 42], [25, 73]), line([35, 45], [35, 76]), line([45, 49], [45, 79]), line([16, 110], [112, 110]),
+    ]),
+  entry("aws-ecs-compute-container", "aws", "ECS Compute Container", ["Res_Amazon-Elastic-Container-Service_Container-2_48"],
+    "A container carries a compute workload.",
+    [
+      line([17, 47], [64, 32], [111, 47], [111, 87], [64, 102], [17, 87], [17, 47]), line([17, 47], [64, 62], [111, 47]), line([64, 62], [64, 102]),
+      rect(49, 12, 30, 25), line([56, 17], [72, 17]), line([56, 24], [72, 24]), line([56, 31], [72, 31]),
+      line([43, 18], [49, 18]), line([43, 30], [49, 30]), line([79, 18], [85, 18]), line([79, 30], [85, 30]), line([16, 113], [112, 113]),
+    ]),
+  entry("aws-ecs-app-container", "aws", "ECS Application Container", ["Res_Amazon-Elastic-Container-Service_Container-3_48"],
+    "A container runs an application server.",
+    [
+      rect(12, 28, 103, 63), line([23, 28], [23, 91]), line([104, 28], [104, 91]),
+      rect(37, 39, 52, 39), line([37, 50], [89, 50]), line([44, 45], [47, 45]), line([52, 45], [55, 45]),
+      line([47, 59], [42, 64], [47, 69]), line([60, 69], [77, 69]), line([16, 110], [112, 110]),
+    ]),
   entry("aws-ec2-microservice-extractor", "aws", "Microservice Extractor for .NET", ["Res_Amazon-EC2_AWS-Microservice-Extractor-for-.NET_48"],
     "A monolithic application is separated into smaller services.",
     [
