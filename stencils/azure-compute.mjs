@@ -1,6 +1,45 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-resource-groups", "azure", "Resource Groups", ["10007-icon-service-Resource-Groups"],
+    "Related cloud resources are collected in a shared group.",
+    [
+      line([11, 24], [43, 24], [52, 33], [117, 33], [117, 100], [11, 100], [11, 24]),
+      rect(21, 46, 25, 30), line([21, 56], [46, 56]), line([26, 66], [41, 66]),
+      oval(54, 46, 23, 10), line([54, 51], [54, 71], [58, 76], [73, 76], [77, 71], [77, 51]),
+      line([86, 51], [96, 45], [106, 51], [106, 70], [96, 76], [86, 70], [86, 51]),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("azure-marketplace", "azure", "Marketplace", ["10008-icon-service-Marketplace"],
+    "A cloud catalog lets a customer choose a product.",
+    [
+      rect(11, 17, 106, 77), line([11, 30], [117, 30]), line([18, 24], [39, 24]),
+      rect(20, 40, 23, 30), rect(52, 40, 23, 30), rect(84, 40, 23, 30),
+      line([25, 49], [38, 49]), line([57, 49], [70, 49]), line([89, 49], [102, 49]),
+      line([25, 59], [34, 59]), line([57, 59], [66, 59]), line([89, 59], [98, 59]),
+      line([55, 81], [91, 81]), line([85, 75], [91, 81], [85, 87]), line([20, 106], [109, 106]),
+    ]),
+  entry("azure-quickstart-center", "azure", "Quickstart Center", ["10010-icon-service-Quickstart-Center"],
+    "A guided checklist gets a cloud project started.",
+    [
+      oval(12, 18, 19, 19), line([18, 27], [21, 30], [26, 24]), line([31, 27], [64, 27]),
+      oval(12, 48, 19, 19), line([18, 57], [21, 60], [26, 54]), line([31, 57], [64, 57]),
+      oval(12, 78, 19, 19), line([18, 87], [21, 90], [26, 84]), line([31, 87], [64, 87]),
+      line([64, 27], [72, 27], [72, 87], [64, 87]), line([72, 57], [82, 57]),
+      oval(82, 39, 36, 36), line([96, 48], [96, 66], [108, 57], [96, 48]),
+      line([18, 112], [110, 112]),
+    ]),
+  entry("azure-management-groups", "azure", "Management Groups", ["10011-icon-service-Management-Groups"],
+    "A policy hierarchy organizes multiple subscriptions.",
+    [
+      line([48, 14], [80, 14], [80, 32], [48, 32], [48, 14]), line([54, 23], [74, 23]),
+      line([64, 32], [64, 47]), line([30, 47], [98, 47]), line([30, 47], [30, 59]), line([98, 47], [98, 59]),
+      line([14, 59], [46, 59], [46, 77], [14, 77], [14, 59]), line([20, 68], [40, 68]),
+      line([82, 59], [114, 59], [114, 77], [82, 77], [82, 59]), line([88, 68], [108, 68]),
+      line([30, 77], [30, 91]), line([98, 77], [98, 91]),
+      rect(17, 91, 26, 15), rect(85, 91, 26, 15), line([23, 98], [37, 98]), line([91, 98], [105, 98]),
+      line([18, 115], [110, 115]),
+    ]),
   entry("azure-cost-management-billing", "azure", "Cost Management and Billing", ["00004-icon-service-Cost-Management-and-Billing"],
     "A cloud invoice summarizes spending and usage.",
     [
