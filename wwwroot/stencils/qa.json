@@ -3,11 +3,9 @@
   "threshold": 0.65,
   "count": 668,
   "aliases": 2836,
-  "approved": 161,
+  "approved": 163,
   "needsReview": [
     "dynamics-family",
-    "azure-device-registry",
-    "azure-virtual-network",
     "azure-app-gateway",
     "azure-event-hubs",
     "azure-api-management",
@@ -854,11 +852,6 @@
     ],
     "power-dataverse": [
       {
-        "a": "power-dataverse",
-        "b": "azure-device-registry",
-        "similarity": 0.2089
-      },
-      {
         "a": "entra-id",
         "b": "power-dataverse",
         "similarity": 0.2002
@@ -867,6 +860,11 @@
         "a": "power-dataverse",
         "b": "gcp-storage",
         "similarity": 0.1958
+      },
+      {
+        "a": "power-dataverse",
+        "b": "m365-folders",
+        "similarity": 0.1942
       }
     ],
     "dynamics-sales": [
@@ -1103,8 +1101,8 @@
       },
       {
         "a": "power-pages",
-        "b": "azure-device-registry",
-        "similarity": 0.271
+        "b": "m365-slide-layout",
+        "similarity": 0.2502
       }
     ],
     "power-platform": [
@@ -1603,18 +1601,18 @@
     "azure-device-registry": [
       {
         "a": "azure-device-registry",
-        "b": "fabric-restricted-scorecard",
-        "similarity": 0.391
+        "b": "aws-site-vpn",
+        "similarity": 0.1907
       },
       {
         "a": "azure-device-registry",
-        "b": "fabric-table-wand",
-        "similarity": 0.3203
+        "b": "gcp-speech-to-text",
+        "similarity": 0.1747
       },
       {
         "a": "azure-device-registry",
-        "b": "m365-slide-layout",
-        "similarity": 0.3061
+        "b": "gcp-category-devtools",
+        "similarity": 0.1723
       }
     ],
     "azure-monitor": [
@@ -1637,18 +1635,18 @@
     "azure-virtual-network": [
       {
         "a": "azure-virtual-network",
-        "b": "m365-document-bullets-multiple",
-        "similarity": 0.2588
-      },
-      {
-        "a": "aws-ec2",
-        "b": "azure-virtual-network",
-        "similarity": 0.248
+        "b": "fabric-square-database",
+        "similarity": 0.2716
       },
       {
         "a": "azure-virtual-network",
-        "b": "fabric-schema-model",
-        "similarity": 0.2215
+        "b": "gcp-category-management",
+        "similarity": 0.2504
+      },
+      {
+        "a": "azure-virtual-network",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2493
       }
     ],
     "azure-load-balancer": [
@@ -2729,14 +2727,14 @@
         "similarity": 0.2614
       },
       {
-        "a": "azure-device-registry",
-        "b": "m365-chat-multiple",
-        "similarity": 0.2546
-      },
-      {
         "a": "m365-chat-multiple",
         "b": "m365-comment-multiple",
         "similarity": 0.2334
+      },
+      {
+        "a": "m365-chat-multiple",
+        "b": "fabric-table-wand",
+        "similarity": 0.2311
       }
     ],
     "m365-task-list": [
@@ -4128,9 +4126,9 @@
         "similarity": 0.2109
       },
       {
-        "a": "azure-device-registry",
+        "a": "aws-textract",
         "b": "gcp-datastream",
-        "similarity": 0.2085
+        "similarity": 0.2054
       }
     ],
     "gcp-data-catalog": [
@@ -5658,9 +5656,9 @@
         "similarity": 0.2387
       },
       {
-        "a": "power-apps",
+        "a": "azure-virtual-network",
         "b": "aws-datazone",
-        "similarity": 0.1994
+        "similarity": 0.2239
       }
     ],
     "aws-emr": [
@@ -6192,11 +6190,6 @@
     ],
     "fabric-restricted-scorecard": [
       {
-        "a": "azure-device-registry",
-        "b": "fabric-restricted-scorecard",
-        "similarity": 0.391
-      },
-      {
         "a": "power-pages",
         "b": "fabric-restricted-scorecard",
         "similarity": 0.2998
@@ -6205,6 +6198,11 @@
         "a": "fabric-restricted-scorecard",
         "b": "aws-codewhisperer",
         "similarity": 0.2853
+      },
+      {
+        "a": "fabric-restricted-scorecard",
+        "b": "azure-content-moderation",
+        "similarity": 0.2775
       }
     ],
     "fabric-retail": [
@@ -7251,14 +7249,14 @@
         "similarity": 0.2618
       },
       {
-        "a": "azure-device-registry",
-        "b": "aws-health-imaging",
-        "similarity": 0.2561
-      },
-      {
         "a": "dynamics-project-operations",
         "b": "aws-health-imaging",
         "similarity": 0.2431
+      },
+      {
+        "a": "fabric-restricted-scorecard",
+        "b": "aws-health-imaging",
+        "similarity": 0.2407
       }
     ],
     "aws-health-lake": [
@@ -7302,14 +7300,14 @@
         "similarity": 0.2921
       },
       {
-        "a": "azure-device-registry",
-        "b": "aws-health-scribe",
-        "similarity": 0.2224
-      },
-      {
         "a": "aws-health-scribe",
         "b": "azure-batch-ai",
         "similarity": 0.2158
+      },
+      {
+        "a": "aws-health-scribe",
+        "b": "aws-vpc",
+        "similarity": 0.2105
       }
     ],
     "aws-neuron": [
@@ -7455,14 +7453,14 @@
         "similarity": 0.1863
       },
       {
-        "a": "azure-virtual-network",
-        "b": "aws-lookout-vision",
-        "similarity": 0.186
-      },
-      {
         "a": "gcp-storage",
         "b": "aws-lookout-vision",
         "similarity": 0.1813
+      },
+      {
+        "a": "power-pages",
+        "b": "aws-lookout-vision",
+        "similarity": 0.1797
       }
     ],
     "aws-monitron": [
@@ -7579,9 +7577,9 @@
         "similarity": 0.286
       },
       {
-        "a": "azure-device-registry",
+        "a": "fabric-restricted-scorecard",
         "b": "azure-content-moderation",
-        "similarity": 0.2787
+        "similarity": 0.2775
       }
     ],
     "azure-personalizer": [
@@ -7637,11 +7635,6 @@
     ],
     "azure-translator": [
       {
-        "a": "azure-virtual-network",
-        "b": "azure-translator",
-        "similarity": 0.2075
-      },
-      {
         "a": "azure-translator",
         "b": "aws-infrastructure-composer",
         "similarity": 0.1923
@@ -7650,6 +7643,11 @@
         "a": "azure-translator",
         "b": "azure-automanaged-vm",
         "similarity": 0.1922
+      },
+      {
+        "a": "aws-datazone",
+        "b": "azure-translator",
+        "similarity": 0.1911
       }
     ],
     "azure-language-understanding": [
@@ -8004,9 +8002,9 @@
         "similarity": 0.2507
       },
       {
-        "a": "azure-device-registry",
-        "b": "aws-cdk",
-        "similarity": 0.2505
+        "a": "aws-cdk",
+        "b": "gcp-category-containers",
+        "similarity": 0.2492
       }
     ],
     "aws-cloud9": [
@@ -8118,14 +8116,14 @@
         "similarity": 0.1771
       },
       {
-        "a": "azure-virtual-network",
-        "b": "aws-codepipeline",
-        "similarity": 0.177
-      },
-      {
         "a": "gcp-firestore",
         "b": "aws-codepipeline",
         "similarity": 0.1763
+      },
+      {
+        "a": "aws-lookout-vision",
+        "b": "aws-codepipeline",
+        "similarity": 0.1645
       }
     ],
     "aws-cli": [
@@ -9143,14 +9141,14 @@
         "similarity": 0.3113
       },
       {
-        "a": "azure-device-registry",
-        "b": "aws-interconnect",
-        "similarity": 0.253
-      },
-      {
         "a": "m365-column-arrow",
         "b": "aws-interconnect",
         "similarity": 0.2529
+      },
+      {
+        "a": "aws-interconnect",
+        "b": "aws-eks-anywhere",
+        "similarity": 0.251
       }
     ],
     "aws-privatelink": [
@@ -11715,11 +11713,6 @@
     ],
     "fabric-table-wand": [
       {
-        "a": "azure-device-registry",
-        "b": "fabric-table-wand",
-        "similarity": 0.3203
-      },
-      {
         "a": "azure-scheduled-actions",
         "b": "fabric-table-wand",
         "similarity": 0.2537
@@ -11728,6 +11721,11 @@
         "a": "fabric-restricted-scorecard",
         "b": "fabric-table-wand",
         "similarity": 0.2432
+      },
+      {
+        "a": "aws-app-studio",
+        "b": "fabric-table-wand",
+        "similarity": 0.2403
       }
     ],
     "fabric-toggle-sparkles": [
