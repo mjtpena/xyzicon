@@ -4,6 +4,61 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 const themes = (name) => ["Dark", "Light"].map((theme) => `Res_${name}_48_${theme}`);
 
 export const awsManagementArtwork = [
+  entry("aws-cloudformation-template", "aws", "CloudFormation Template", ["Res_AWS-CloudFormation_Template_48"],
+    "An infrastructure template describes resources in code.",
+    [
+      line([25, 16], [81, 16], [96, 31], [96, 96], [25, 96], [25, 16]), line([81, 16], [81, 31], [96, 31]),
+      rect(34, 39, 12, 12), rect(34, 60, 12, 12), rect(34, 81, 12, 8), line([54, 45], [83, 45]), line([54, 66], [83, 66]), line([54, 85], [78, 85]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudformation-stack", "aws", "CloudFormation Stack", ["Res_AWS-CloudFormation_Stack_48"],
+    "A stack groups infrastructure resources deployed together.",
+    [
+      line([19, 38], [62, 19], [105, 38], [62, 57], [19, 38]), line([19, 50], [62, 69], [105, 50]), line([19, 62], [62, 81], [105, 62]), line([19, 74], [62, 93], [105, 74]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudformation-change-set", "aws", "CloudFormation Change Set", ["Res_AWS-CloudFormation_Change-Set_48"],
+    "A proposed change set compares infrastructure before and after deployment.",
+    [
+      rect(10, 25, 42, 59), line([17, 36], [45, 36]), line([17, 47], [40, 47]), line([17, 58], [45, 58]), line([21, 70], [38, 70]),
+      rect(76, 25, 42, 59), line([83, 36], [111, 36]), line([83, 47], [106, 47]), line([83, 58], [111, 58]), line([88, 65], [102, 65]), line([95, 58], [95, 72]),
+      line([52, 52], [76, 52]), line([69, 45], [76, 52], [69, 59]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloudtrail-lake", "aws", "CloudTrail Lake", ["Res_AWS-CloudTrail_CloudTrail-Lake_48"],
+    "An event data lake stores and queries audit records.",
+    [
+      line([16, 65], [28, 61], [40, 65], [52, 61], [64, 65], [76, 61], [88, 65], [101, 61], [112, 65]), line([16, 78], [28, 74], [40, 78], [52, 74], [64, 78], [76, 74], [88, 78], [101, 74], [112, 78]),
+      line([37, 19], [78, 19], [89, 30], [89, 55], [37, 55], [37, 19]), line([78, 19], [78, 30], [89, 30]), line([45, 35], [78, 35]), line([45, 44], [72, 44]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-license-application-discovery", "aws", "License Manager Application Discovery", ["Res_AWS-License-Manager_Application-Discovery_48"],
+    "A magnifier discovers applications to assess licenses.",
+    [
+      rect(19, 21, 65, 59), line([19, 33], [84, 33]), rect(29, 42, 14, 14), rect(50, 42, 14, 14), rect(29, 61, 14, 14), rect(50, 61, 14, 14),
+      oval(66, 55, 28, 28), line([87, 76], [105, 94]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-license-blending", "aws", "License Manager License Blending", ["Res_AWS-License-Manager_License-Blending_48"],
+    "Two license sources combine into one entitlement.",
+    [
+      line([12, 19], [39, 19], [46, 26], [46, 51], [12, 51], [12, 19]), line([39, 19], [39, 26], [46, 26]), line([18, 35], [39, 35]),
+      line([12, 62], [39, 62], [46, 69], [46, 94], [12, 94], [12, 62]), line([39, 62], [39, 69], [46, 69]), line([18, 78], [39, 78]),
+      line([46, 35], [62, 35], [72, 56]), line([46, 78], [62, 78], [72, 56]), line([72, 56], [87, 56]), line([81, 50], [87, 56], [81, 62]), oval(88, 43, 26, 26), line([95, 56], [101, 62], [108, 50]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-organizations-account", "aws", "Organizations Account", ["Res_AWS-Organizations_Account_48"],
+    "An account contains an identified member.",
+    [
+      rect(25, 21, 76, 70), line([25, 34], [101, 34]), oval(34, 24, 6, 6, true), oval(47, 42, 20, 20), line([39, 80], [41, 71], [47, 65], [57, 65], [63, 71], [65, 80]), line([73, 52], [91, 52]), line([73, 64], [91, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-organizations-management-account", "aws", "Organizations Management Account", ["Res_AWS-Organizations_Management-Account_48"],
+    "A management account administers member accounts.",
+    [
+      rect(13, 21, 64, 61), line([13, 33], [77, 33]), oval(21, 23, 6, 6, true), oval(25, 42, 14, 14), line([21, 70], [23, 62], [27, 59], [37, 59], [41, 62], [43, 70]),
+      line([49, 45], [68, 45]), line([49, 55], [68, 55]),
+      oval(69, 56, 32, 32), oval(78, 65, 14, 14), line([85, 50], [85, 56]), line([85, 88], [85, 94]), line([63, 72], [69, 72]), line([101, 72], [107, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-organizational-unit", "aws", "Organizational Unit", ["Res_AWS-Organizations_Organizational-Unit_48"],
+    "An organizational unit groups multiple accounts.",
+    [
+      line([17, 32], [17, 20], [48, 20], [56, 28], [110, 28], [110, 91], [17, 91], [17, 32]), line([17, 39], [110, 39]),
+      rect(27, 51, 30, 25), rect(70, 51, 30, 25), oval(33, 56, 8, 8), oval(76, 56, 8, 8), line([44, 64], [52, 64]), line([87, 64], [95, 64]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-general-management-console", "aws", "AWS Management Console", themes("AWS-Management-Console"),
     "A cloud resource is managed through a console window.",
     [
