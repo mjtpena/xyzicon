@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1032,
-  "aliases": 3901,
+  "count": 1036,
+  "aliases": 3905,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -246,6 +246,10 @@
     "gcp-automl-language",
     "gcp-automl-translation",
     "gcp-automl-vision",
+    "gcp-automl-tables",
+    "gcp-automl-video",
+    "gcp-contact-center-ai",
+    "gcp-data-labeling",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1148,8 +1152,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 144,
-      "concepts": 131
+      "covered": 148,
+      "concepts": 135
     }
   },
   "nearest": {
@@ -1518,13 +1522,13 @@
       },
       {
         "a": "entra-governance",
-        "b": "aws-ebs",
-        "similarity": 0.1348
+        "b": "gcp-automl-tables",
+        "similarity": 0.1356
       },
       {
         "a": "entra-governance",
-        "b": "aws-eventbridge-rule",
-        "similarity": 0.1346
+        "b": "aws-ebs",
+        "similarity": 0.1348
       }
     ],
     "entra-internet-access": [
@@ -3791,6 +3795,11 @@
     "fabric-categorize": [
       {
         "a": "fabric-categorize",
+        "b": "gcp-automl-video",
+        "similarity": 0.2326
+      },
+      {
+        "a": "fabric-categorize",
         "b": "aws-aurora",
         "similarity": 0.2207
       },
@@ -3798,11 +3807,6 @@
         "a": "fabric-categorize",
         "b": "m365-organization",
         "similarity": 0.2185
-      },
-      {
-        "a": "fabric-categorize",
-        "b": "fabric-stacked-text",
-        "similarity": 0.2086
       }
     ],
     "fabric-circle-group": [
@@ -5250,6 +5254,74 @@
         "similarity": 0.2335
       }
     ],
+    "gcp-automl-tables": [
+      {
+        "a": "gcp-dataprep",
+        "b": "gcp-automl-tables",
+        "similarity": 0.2557
+      },
+      {
+        "a": "gcp-automl-tables",
+        "b": "aws-launch-wizard",
+        "similarity": 0.2471
+      },
+      {
+        "a": "gcp-runtime-config",
+        "b": "gcp-automl-tables",
+        "similarity": 0.2425
+      }
+    ],
+    "gcp-automl-video": [
+      {
+        "a": "gcp-automl-video",
+        "b": "azure-subscriptions",
+        "similarity": 0.2612
+      },
+      {
+        "a": "gcp-automl-video",
+        "b": "fabric-documents-dax",
+        "similarity": 0.2428
+      },
+      {
+        "a": "gcp-automl-video",
+        "b": "aws-comprehend",
+        "similarity": 0.2377
+      }
+    ],
+    "gcp-contact-center-ai": [
+      {
+        "a": "gcp-key-access-justifications",
+        "b": "gcp-contact-center-ai",
+        "similarity": 0.2429
+      },
+      {
+        "a": "gcp-contact-center-ai",
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2099
+      },
+      {
+        "a": "gcp-contact-center-ai",
+        "b": "azure-quickstart-center",
+        "similarity": 0.2049
+      }
+    ],
+    "gcp-data-labeling": [
+      {
+        "a": "gcp-data-labeling",
+        "b": "fabric-dashboard",
+        "similarity": 0.2665
+      },
+      {
+        "a": "gcp-data-labeling",
+        "b": "m365-panel-left-header-key",
+        "similarity": 0.2621
+      },
+      {
+        "a": "gcp-data-labeling",
+        "b": "aws-well-architected-tool",
+        "similarity": 0.2438
+      }
+    ],
     "gcp-access-context": [
       {
         "a": "m365-chart-multiple",
@@ -5325,14 +5397,14 @@
         "similarity": 0.2395
       },
       {
+        "a": "gcp-automl-tables",
+        "b": "gcp-cloud-ids",
+        "similarity": 0.2257
+      },
+      {
         "a": "gcp-data-fusion",
         "b": "gcp-cloud-ids",
         "similarity": 0.2256
-      },
-      {
-        "a": "fabric-building-data",
-        "b": "gcp-cloud-ids",
-        "similarity": 0.2198
       }
     ],
     "gcp-cloud-gpu": [
@@ -11552,9 +11624,9 @@
         "similarity": 0.2536
       },
       {
-        "a": "aws-launch-wizard",
-        "b": "azure-reservations",
-        "similarity": 0.2466
+        "a": "gcp-automl-tables",
+        "b": "aws-launch-wizard",
+        "similarity": 0.2471
       }
     ],
     "aws-management-console": [
@@ -13752,9 +13824,9 @@
         "similarity": 0.2694
       },
       {
-        "a": "gcp-anthos-config-management",
+        "a": "gcp-automl-video",
         "b": "aws-region-group",
-        "similarity": 0.2303
+        "similarity": 0.2342
       }
     ],
     "aws-app-mesh": [
@@ -15397,6 +15469,11 @@
     ],
     "aws-category-quantum": [
       {
+        "a": "gcp-automl-tables",
+        "b": "aws-category-quantum",
+        "similarity": 0.1918
+      },
+      {
         "a": "aws-lightsail",
         "b": "aws-category-quantum",
         "similarity": 0.1837
@@ -15405,11 +15482,6 @@
         "a": "gcp-security-operations",
         "b": "aws-category-quantum",
         "similarity": 0.1837
-      },
-      {
-        "a": "aws-snowball-edge",
-        "b": "aws-category-quantum",
-        "similarity": 0.1812
       }
     ],
     "aws-category-satellite": [
@@ -16121,9 +16193,9 @@
         "similarity": 0.3181
       },
       {
-        "a": "aws-mediastore",
+        "a": "gcp-automl-video",
         "b": "azure-subscriptions",
-        "similarity": 0.2525
+        "similarity": 0.2612
       }
     ],
     "azure-reservations": [
@@ -16920,9 +16992,9 @@
         "similarity": 0.2466
       },
       {
-        "a": "fabric-rdl-report",
+        "a": "gcp-automl-video",
         "b": "fabric-documents-dax",
-        "similarity": 0.2369
+        "similarity": 0.2428
       }
     ],
     "fabric-documents-pulse": [
