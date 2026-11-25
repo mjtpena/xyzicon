@@ -1599,5 +1599,65 @@
     "comparisonRevision": "44e4c55388d13140d8c371536ab0051b9f4b676f474c45ace968174c07157cdd",
     "status": "approved",
     "notes": "Stacked multi-attribute records differ from the certificate, storage queue and tilted table, and from the single item."
+  },
+  "aws-dynamodb-table": {
+    "revision": "55c0887ed2e771555a46b9e60be2de9c291f192e10a60d5847f8be116ebb187e",
+    "comparisonRevision": "0f62f93ecf67323e80c15834eacb354f558e8b247ee58df72416baed1a894c32",
+    "status": "approved",
+    "notes": "A key points to a table of records, unlike DNS, notebook data and organizational units."
+  },
+  "aws-dynamodb-global-secondary-index": {
+    "revision": "7d3d3bedf4bb16884c55a9a7003ba715767f726ab54828708ecc219541466411",
+    "comparisonRevision": "13febaa5174f8e33884fdc638561cb8e5c5059d9732ce63adef27f393cb57137",
+    "status": "approved",
+    "notes": "A column of selected attributes points to an index, unlike a resource list, data stream and dashboard."
+  },
+  "aws-dynamodb-stream": {
+    "revision": "9417d74f2de954dcbcb1a031ef33ef5e58931e3f7a26dbb3bf3d77742375ccf3",
+    "comparisonRevision": "0e04fd4f4d6613b45adebf9bca9026263a652e052a6b3431d0286b9ebe8b0f66",
+    "status": "approved",
+    "notes": "A record table sends changes into a stream, unlike the firewall, accelerated cache and folder."
+  },
+  "aws-dynamodb-accelerator": {
+    "revision": "2b1541d43c570ff97d7e0b60c61d67d4265989c73d7373d7a4e12805faf7c8d9",
+    "comparisonRevision": "058d96a96f73f3d4fe1b932e4e390517ba7f8789d8dc4270faa07f23b805d44a",
+    "status": "approved",
+    "notes": "A table feeds a lightning-marked cache, distinct from the firewall, CLI and stream."
+  },
+  "aws-documentdb-elastic-clusters": {
+    "revision": "085571db742fa21895e21d5a29d85c9d802aa5518a902014f0b7ace1f1191453",
+    "comparisonRevision": "9a7037d89a6ed67e7065c7187d05cb8203e548ee91349df00b25e5227e899411",
+    "status": "rework",
+    "notes": "A database with outward corner arrows is too close to the source icon; redraw the elastic cluster."
+  },
+  "aws-rds-blue-green": {
+    "revision": "a4309e83fae985f5d3c2b6eaf50e0bd3ef3fc64e8752824b1b8b9d2247e2ad6c",
+    "comparisonRevision": "169c0fdec21aa81268bef1ebb00b0ffe9f0e92b455565b9d6a5738836405a795",
+    "status": "rework",
+    "notes": "Two stores and a plus do not clearly convey a deployment switch or blue/green environments."
+  },
+  "aws-glue-ray": {
+    "revision": "232e83531de16ddc82a94faee7c635a08fb504f400f68d6b4dc9a3f72cd83bf3",
+    "comparisonRevision": "10725708a63e4eaddd42d192bb1985e5df38bda8e96f0a811bd0395ddd7ea0dc",
+    "status": "approved",
+    "notes": "A document fans into a distributed worker cluster, unlike the device hub, service mesh and rule list."
+  },
+  "aws-athena-connectors": {
+    "revision": "0a8e85d7f5285d410e2ae533002b60e3fc1b978c881511a7d97deef633e9d779",
+    "comparisonRevision": "d271d499e34ccec6b356384677ac69f7607b44112cb9d63f02f160d7a9c56edc",
+    "status": "rework",
+    "notes": "Two data sources and a round connector closely resemble the Glue crawler composition, especially at small sizes."
+  },
+  "aws-cloudsearch-documents": {
+    "revision": "96318de4bbed60ce6cbf3e97ba1f76dd43b31340f9b7a409833b7b6d28eae571",
+    "comparisonRevision": "66e7d8dce5d7e8b7c110c796a6bd998f5b500c9f439080506f8e1b44bcd04524",
+    "status": "approved",
+    "notes": "A search lens examines a document, unlike a medical export, report chart and attestation shield."
+  },
+  "aws-emr-cluster": {
+    "revision": "3ffad77d01fd4cc483a05627d9e9c6ba5b3ca37f5150ecbccb22bbd91d664f5f",
+    "comparisonRevision": "b1174bba2db63b1caafb10f73c445e0d287dc6660eed206ffa3fc10ce9ab5985",
+    "status": "approved",
+    "notes": "A data store and workers connect as a processing cluster, unlike virtualization, video and person icons."
   }
 }
