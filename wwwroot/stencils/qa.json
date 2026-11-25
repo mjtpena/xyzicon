@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1345,
-  "aliases": 4370,
+  "count": 1351,
+  "aliases": 4386,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1231,6 +1231,12 @@
     "fabric-window-gauge",
     "fabric-window-interface",
     "fabric-window-person",
+    "fabric-window-relationship",
+    "fabric-window-relationship-off",
+    "fabric-window-sparkle",
+    "fabric-window-sparkle-new",
+    "fabric-window-math",
+    "fabric-window-synapse-link",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1367,6 +1373,34 @@
       "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
     },
     {
+      "a": "fabric-window-relationship",
+      "b": "fabric-window-relationship-off",
+      "similarity": 0.7813,
+      "review": "distinct",
+      "notes": "The disabled relationship carries a long diagonal slash; the active relationship does not."
+    },
+    {
+      "a": "fabric-window-code",
+      "b": "fabric-window-sparkle",
+      "similarity": 0.7674,
+      "review": "distinct",
+      "notes": "Code uses two separated angle brackets; sparkle is a closed four-point star."
+    },
+    {
+      "a": "fabric-window-asterisk-new",
+      "b": "fabric-window-sparkle-new",
+      "similarity": 0.7477,
+      "review": "distinct",
+      "notes": "The asterisk has six intersecting rays; the sparkle is a closed four-point star."
+    },
+    {
+      "a": "fabric-window-gauge",
+      "b": "fabric-window-synapse-link",
+      "similarity": 0.7393,
+      "review": "distinct",
+      "notes": "The gauge has an arch and diagonal needle; Synapse link has a horizontal line through a small circle and open ring."
+    },
+    {
       "a": "fabric-table-link-lightning",
       "b": "fabric-table-link-triangle",
       "similarity": 0.7386,
@@ -1486,6 +1520,13 @@
       "notes": "The numerals have different contours: the two has a diagonal baseline and the three has two curved lobes."
     },
     {
+      "a": "fabric-window-person",
+      "b": "fabric-window-math",
+      "similarity": 0.6734,
+      "review": "distinct",
+      "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
+    },
+    {
       "a": "m365-check-circle",
       "b": "m365-chevron-circle",
       "similarity": 0.6724,
@@ -1514,6 +1555,13 @@
       "notes": "Six intersecting spokes differ from the single circular revision node on a vertical line, including at 32px."
     },
     {
+      "a": "fabric-window-interface",
+      "b": "fabric-window-synapse-link",
+      "similarity": 0.6601,
+      "review": "distinct",
+      "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
+    },
+    {
       "a": "m365-arrow-circle-left",
       "b": "fabric-arrow-trend",
       "similarity": 0.6534,
@@ -1529,8 +1577,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1533,
-      "concepts": 347
+      "covered": 1549,
+      "concepts": 353
     },
     "entra": {
       "sources": 14,
@@ -3391,13 +3439,13 @@
       },
       {
         "a": "aws-elasticache",
-        "b": "fabric-window-asterisk-new",
-        "similarity": 0.3233
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.3241
       },
       {
         "a": "aws-elasticache",
-        "b": "fabric-window-list-filter",
-        "similarity": 0.31
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.3184
       }
     ],
     "aws-cloudformation": [
@@ -6847,8 +6895,8 @@
       },
       {
         "a": "gcp-cloud-jobs",
-        "b": "fabric-window-asterisk-new",
-        "similarity": 0.2944
+        "b": "fabric-window-gauge",
+        "similarity": 0.2875
       }
     ],
     "gcp-apigee-sense": [
@@ -13811,14 +13859,14 @@
         "similarity": 0.2774
       },
       {
+        "a": "aws-ses-email",
+        "b": "fabric-window-math",
+        "similarity": 0.2217
+      },
+      {
         "a": "aws-opensearch-traces",
         "b": "aws-ses-email",
         "similarity": 0.2181
-      },
-      {
-        "a": "gcp-phishing-protection",
-        "b": "aws-ses-email",
-        "similarity": 0.2169
       }
     ],
     "aws-eventbridge-partner-event": [
@@ -16282,9 +16330,9 @@
         "similarity": 0.2304
       },
       {
-        "a": "m365-document-text",
-        "b": "m365-edit",
-        "similarity": 0.2175
+        "a": "m365-edit",
+        "b": "fabric-window-relationship",
+        "similarity": 0.2232
       }
     ],
     "m365-filmstrip-play": [
@@ -16789,6 +16837,11 @@
     "aws-cloudfront-functions": [
       {
         "a": "aws-cloudfront-functions",
+        "b": "fabric-window-relationship",
+        "similarity": 0.2576
+      },
+      {
+        "a": "aws-cloudfront-functions",
         "b": "azure-compute-galleries",
         "similarity": 0.2504
       },
@@ -16796,11 +16849,6 @@
         "a": "gcp-automl-translation",
         "b": "aws-cloudfront-functions",
         "similarity": 0.2467
-      },
-      {
-        "a": "aws-cloudfront-functions",
-        "b": "azure-app-service-plans",
-        "similarity": 0.245
       }
     ],
     "aws-cloudfront-streaming": [
@@ -18165,8 +18213,8 @@
       },
       {
         "a": "aws-ec2-instance",
-        "b": "fabric-slide-ribbon",
-        "similarity": 0.2816
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.2824
       }
     ],
     "aws-ec2-instances": [
@@ -21299,14 +21347,14 @@
         "similarity": 0.2632
       },
       {
+        "a": "fabric-notebook-globe",
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.2461
+      },
+      {
         "a": "fabric-document-people",
         "b": "fabric-notebook-globe",
         "similarity": 0.245
-      },
-      {
-        "a": "fabric-notebook-globe",
-        "b": "fabric-window-asterisk-new",
-        "similarity": 0.2415
       }
     ],
     "fabric-list-asterisk": [
@@ -21318,7 +21366,7 @@
       {
         "a": "fabric-list-asterisk",
         "b": "fabric-window-asterisk-new",
-        "similarity": 0.2224
+        "similarity": 0.2128
       },
       {
         "a": "fabric-document-ssis",
@@ -21700,8 +21748,8 @@
       },
       {
         "a": "fabric-shopping-data-bars",
-        "b": "fabric-window-gauge",
-        "similarity": 0.3233
+        "b": "fabric-window-math",
+        "similarity": 0.3341
       }
     ],
     "fabric-signal-square": [
@@ -21886,13 +21934,13 @@
       },
       {
         "a": "fabric-squares-eye",
-        "b": "fabric-window-list-filter",
-        "similarity": 0.2629
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.2717
       },
       {
-        "a": "fabric-phone-data-bars",
-        "b": "fabric-squares-eye",
-        "similarity": 0.2538
+        "a": "fabric-squares-eye",
+        "b": "fabric-window-list-filter",
+        "similarity": 0.2629
       }
     ],
     "fabric-table-export": [
@@ -21925,8 +21973,8 @@
       },
       {
         "a": "fabric-table-left-border",
-        "b": "fabric-table-header",
-        "similarity": 0.3167
+        "b": "fabric-window-sparkle",
+        "similarity": 0.3507
       }
     ],
     "fabric-table-broom": [
@@ -22033,14 +22081,14 @@
         "similarity": 0.3793
       },
       {
+        "a": "fabric-table-header",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.3746
+      },
+      {
         "a": "fabric-table-left-border",
         "b": "fabric-table-header",
         "similarity": 0.3167
-      },
-      {
-        "a": "fabric-document-tmdl-export",
-        "b": "fabric-table-header",
-        "similarity": 0.3154
       }
     ],
     "fabric-table-link": [
@@ -22372,21 +22420,28 @@
     "fabric-window-asterisk-new": [
       {
         "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.7477,
+        "review": "distinct",
+        "notes": "The asterisk has six intersecting rays; the sparkle is a closed four-point star."
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.6124
+      },
+      {
+        "a": "fabric-window-asterisk-new",
         "b": "fabric-window-gauge",
-        "similarity": 0.6238
-      },
-      {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-interface",
-        "similarity": 0.5728
-      },
-      {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-list-filter",
-        "similarity": 0.5394
+        "similarity": 0.5966
       }
     ],
     "fabric-window-list-filter": [
+      {
+        "a": "fabric-window-list-filter",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.6019
+      },
       {
         "a": "fabric-window-list-filter",
         "b": "fabric-window-gauge",
@@ -22396,14 +22451,16 @@
         "a": "fabric-window-list-filter",
         "b": "fabric-window-interface",
         "similarity": 0.5605
-      },
-      {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-list-filter",
-        "similarity": 0.5394
       }
     ],
     "fabric-window-code": [
+      {
+        "a": "fabric-window-code",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.7674,
+        "review": "distinct",
+        "notes": "Code uses two separated angle brackets; sparkle is a closed four-point star."
+      },
       {
         "a": "fabric-window-code",
         "b": "fabric-window-person",
@@ -22411,13 +22468,8 @@
       },
       {
         "a": "fabric-window-code",
-        "b": "fabric-window-gauge",
-        "similarity": 0.4311
-      },
-      {
-        "a": "fabric-window-code",
-        "b": "fabric-window-interface",
-        "similarity": 0.4215
+        "b": "fabric-window-math",
+        "similarity": 0.4453
       }
     ],
     "fabric-window-database-arrow": [
@@ -22433,11 +22485,18 @@
       },
       {
         "a": "fabric-window-database-arrow",
-        "b": "fabric-window-person",
-        "similarity": 0.284
+        "b": "fabric-window-math",
+        "similarity": 0.2918
       }
     ],
     "fabric-window-gauge": [
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.7393,
+        "review": "distinct",
+        "notes": "The gauge has an arch and diagonal needle; Synapse link has a horizontal line through a small circle and open ring."
+      },
       {
         "a": "fabric-window-gauge",
         "b": "fabric-window-interface",
@@ -22449,11 +22508,6 @@
         "a": "fabric-window-gauge",
         "b": "fabric-window-person",
         "similarity": 0.6321
-      },
-      {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-gauge",
-        "similarity": 0.6238
       }
     ],
     "fabric-window-interface": [
@@ -22465,31 +22519,151 @@
         "notes": "The gauge has an open semicircle and diagonal needle; the interface has two closed circular nodes joined by a horizontal line."
       },
       {
-        "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-interface",
-        "similarity": 0.5728
+        "a": "fabric-window-interface",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.6601,
+        "review": "distinct",
+        "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
       },
       {
-        "a": "fabric-window-list-filter",
-        "b": "fabric-window-interface",
-        "similarity": 0.5605
+        "a": "fabric-window-interface",
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.5677
       }
     ],
     "fabric-window-person": [
+      {
+        "a": "fabric-window-person",
+        "b": "fabric-window-math",
+        "similarity": 0.6734,
+        "review": "distinct",
+        "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
+      },
       {
         "a": "fabric-window-gauge",
         "b": "fabric-window-person",
         "similarity": 0.6321
       },
       {
+        "a": "fabric-window-person",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.5708
+      }
+    ],
+    "fabric-window-relationship": [
+      {
+        "a": "fabric-window-relationship",
+        "b": "fabric-window-relationship-off",
+        "similarity": 0.7813,
+        "review": "distinct",
+        "notes": "The disabled relationship carries a long diagonal slash; the active relationship does not."
+      },
+      {
+        "a": "fabric-window-relationship",
+        "b": "fabric-database-swap",
+        "similarity": 0.2638
+      },
+      {
+        "a": "aws-cloudfront-functions",
+        "b": "fabric-window-relationship",
+        "similarity": 0.2576
+      }
+    ],
+    "fabric-window-relationship-off": [
+      {
+        "a": "fabric-window-relationship",
+        "b": "fabric-window-relationship-off",
+        "similarity": 0.7813,
+        "review": "distinct",
+        "notes": "The disabled relationship carries a long diagonal slash; the active relationship does not."
+      },
+      {
+        "a": "fabric-window-person",
+        "b": "fabric-window-relationship-off",
+        "similarity": 0.2021
+      },
+      {
+        "a": "aws-cloudfront-functions",
+        "b": "fabric-window-relationship-off",
+        "similarity": 0.1947
+      }
+    ],
+    "fabric-window-sparkle": [
+      {
+        "a": "fabric-window-code",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.7674,
+        "review": "distinct",
+        "notes": "Code uses two separated angle brackets; sparkle is a closed four-point star."
+      },
+      {
+        "a": "fabric-window-sparkle",
+        "b": "fabric-window-math",
+        "similarity": 0.4467
+      },
+      {
+        "a": "fabric-window-person",
+        "b": "fabric-window-sparkle",
+        "similarity": 0.4384
+      }
+    ],
+    "fabric-window-sparkle-new": [
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.7477,
+        "review": "distinct",
+        "notes": "The asterisk has six intersecting rays; the sparkle is a closed four-point star."
+      },
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-sparkle-new",
+        "similarity": 0.6181
+      },
+      {
+        "a": "fabric-window-sparkle-new",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.6092
+      }
+    ],
+    "fabric-window-math": [
+      {
+        "a": "fabric-window-person",
+        "b": "fabric-window-math",
+        "similarity": 0.6734,
+        "review": "distinct",
+        "notes": "The person has a round head and shoulders; the formula uses separate f and x strokes."
+      },
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-math",
+        "similarity": 0.5893
+      },
+      {
         "a": "fabric-window-interface",
-        "b": "fabric-window-person",
-        "similarity": 0.551
+        "b": "fabric-window-math",
+        "similarity": 0.5629
+      }
+    ],
+    "fabric-window-synapse-link": [
+      {
+        "a": "fabric-window-gauge",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.7393,
+        "review": "distinct",
+        "notes": "The gauge has an arch and diagonal needle; Synapse link has a horizontal line through a small circle and open ring."
+      },
+      {
+        "a": "fabric-window-interface",
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.6601,
+        "review": "distinct",
+        "notes": "The interface has two separate circular nodes; Synapse link has a concentric open ring around one central node."
       },
       {
         "a": "fabric-window-asterisk-new",
-        "b": "fabric-window-person",
-        "similarity": 0.5308
+        "b": "fabric-window-synapse-link",
+        "similarity": 0.6124
       }
     ],
     "fabric-database-add": [
@@ -22664,6 +22838,11 @@
     ],
     "fabric-database-swap": [
       {
+        "a": "fabric-window-relationship",
+        "b": "fabric-database-swap",
+        "similarity": 0.2638
+      },
+      {
         "a": "fabric-window-gauge",
         "b": "fabric-database-swap",
         "similarity": 0.2446
@@ -22672,11 +22851,6 @@
         "a": "fabric-window-interface",
         "b": "fabric-database-swap",
         "similarity": 0.2418
-      },
-      {
-        "a": "azure-app-domains",
-        "b": "fabric-database-swap",
-        "similarity": 0.2359
       }
     ],
     "fabric-database-table": [
@@ -24248,9 +24422,9 @@
         "similarity": 0.4428
       },
       {
-        "a": "fabric-window-interface",
+        "a": "fabric-window-synapse-link",
         "b": "fabric-window-asterisk",
-        "similarity": 0.4311
+        "similarity": 0.4323
       }
     ],
     "fabric-window-check": [
@@ -24260,14 +24434,14 @@
         "similarity": 0.3904
       },
       {
+        "a": "fabric-window-sparkle",
+        "b": "fabric-window-check",
+        "similarity": 0.3131
+      },
+      {
         "a": "fabric-window-gauge",
         "b": "fabric-window-check",
         "similarity": 0.3014
-      },
-      {
-        "a": "fabric-window-code",
-        "b": "fabric-window-check",
-        "similarity": 0.2982
       }
     ],
     "fabric-window-pulse": [
