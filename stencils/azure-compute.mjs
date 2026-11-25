@@ -1,6 +1,79 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-controls-horizontal", "azure", "Horizontal Controls", ["10790-icon-service-Controls-Horizontal"],
+    "Horizontal sliders adjust three settings.",
+    [
+      line([19, 31], [104, 31]), line([19, 57], [104, 57]), line([19, 83], [104, 83]),
+      rect(38, 23, 12, 16), rect(74, 49, 12, 16), rect(52, 75, 12, 16), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cost-alerts", "azure", "Cost Alerts", ["10791-icon-service-Cost-Alerts"],
+    "An alert bell signals spending that needs attention.",
+    [
+      line([42, 75], [42, 52], [46, 41], [54, 35], [64, 34], [74, 39], [79, 49], [79, 75], [86, 82], [35, 82], [42, 75]),
+      oval(56, 83, 10, 10), oval(81, 18, 22, 22), line([92, 23], [92, 30]), oval(90, 33, 4, 4, true), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cost-analysis", "azure", "Cost Analysis", ["10792-icon-service-Cost-Analysis"],
+    "A magnifier examines a spending chart.",
+    [
+      line([16, 20], [16, 91], [104, 91]), rect(25, 65, 12, 26), rect(43, 53, 12, 38), rect(61, 43, 12, 48),
+      oval(70, 27, 29, 29), line([94, 51], [108, 65]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-cost-budgets", "azure", "Cost Budgets", ["10793-icon-service-Cost-Budgets"],
+    "A spending gauge tracks progress toward a budget limit.",
+    [
+      line([20, 82], [21, 65], [28, 50], [40, 40], [55, 36], [70, 39], [82, 48], [90, 62], [92, 79]),
+      line([56, 47], [56, 80], [75, 62]), oval(51, 75, 10, 10, true), line([23, 82], [89, 82]),
+      line([91, 24], [91, 45]), line([98, 29], [87, 29], [84, 33], [87, 36], [95, 37], [98, 41], [95, 44], [85, 44]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-counter", "azure", "Counter", ["10794-icon-service-Counter"],
+    "A counter records events as tally marks.",
+    [
+      rect(20, 27, 83, 58), line([33, 44], [33, 68]), line([43, 44], [43, 68]), line([53, 44], [53, 68]), line([63, 44], [63, 68]), line([28, 70], [68, 42]),
+      line([78, 43], [78, 69]), line([86, 43], [86, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cubes", "azure", "Cubes", ["10795-icon-service-Cubes"],
+    "Three cubes form a group of modular objects.",
+    [
+      line([61, 16], [78, 25], [78, 43], [61, 52], [44, 43], [44, 25], [61, 16]), line([44, 25], [61, 34], [78, 25]), line([61, 34], [61, 52]),
+      line([38, 54], [55, 63], [55, 81], [38, 90], [21, 81], [21, 63], [38, 54]), line([21, 63], [38, 72], [55, 63]), line([38, 72], [38, 90]),
+      line([84, 54], [101, 63], [101, 81], [84, 90], [67, 81], [67, 63], [84, 54]), line([67, 63], [84, 72], [101, 63]), line([84, 72], [84, 90]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-dev-console", "azure", "Developer Console", ["10796-icon-service-Dev-Console"],
+    "A terminal display accepts a developer command.",
+    [
+      rect(16, 20, 90, 63), line([25, 30], [97, 30], [97, 73], [25, 73], [25, 30]),
+      line([35, 40], [48, 50], [35, 60]), line([56, 61], [79, 61]), line([52, 83], [52, 96], [38, 96]), line([70, 83], [70, 96], [84, 96]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-download", "azure", "Download", ["10797-icon-service-Download"],
+    "A downward arrow brings a file into a tray.",
+    [
+      line([48, 18], [48, 55], [36, 55], [61, 80], [86, 55], [74, 55], [74, 18]), line([18, 76], [18, 93], [105, 93], [105, 76]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-general-error", "azure", "Error", ["10798-icon-service-Error"],
+    "An error mark appears inside a broken operation.",
+    [
+      oval(22, 17, 78, 78), line([43, 38], [79, 74]), line([79, 38], [43, 74]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-extensions", "azure", "Extensions", ["10799-icon-service-Extensions"],
+    "A plug-in piece attaches to an application.",
+    [
+      rect(15, 25, 63, 66), line([15, 39], [78, 39]), line([24, 49], [44, 49]), line([24, 59], [44, 59]), line([24, 69], [40, 69]),
+      line([64, 51], [71, 51], [71, 45], [75, 42], [80, 42], [84, 45], [84, 51], [92, 51], [92, 59], [98, 59], [101, 63], [101, 68], [98, 72], [92, 72], [92, 80], [64, 80], [64, 51]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-file", "azure", "File", ["10800-icon-service-File"],
+    "A labeled file page has punched binder holes.",
+    [
+      line([24, 17], [80, 17], [98, 35], [98, 96], [24, 96], [24, 17]), line([80, 17], [80, 35], [98, 35]),
+      oval(30, 36, 6, 6), oval(30, 54, 6, 6), oval(30, 72, 6, 6), rect(44, 44, 43, 21), line([50, 54], [81, 54]), line([44, 76], [79, 76]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-files", "azure", "Files", ["10801-icon-service-Files"],
+    "Several file pages are arranged side by side.",
+    [
+      line([12, 31], [33, 31], [40, 38], [40, 88], [12, 88], [12, 31]), line([33, 31], [33, 38], [40, 38]), line([17, 49], [34, 49]), line([17, 59], [34, 59]),
+      line([48, 21], [69, 21], [76, 28], [76, 88], [48, 88], [48, 21]), line([69, 21], [69, 28], [76, 28]), line([53, 39], [70, 39]), line([53, 49], [70, 49]),
+      line([84, 31], [105, 31], [112, 38], [112, 88], [84, 88], [84, 31]), line([105, 31], [105, 38], [112, 38]), line([89, 49], [106, 49]), line([89, 59], [106, 59]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-troubleshoot", "azure", "Troubleshoot", ["10341-icon-service-Troubleshoot"],
     "A wrench repairs an identified fault.",
     [
