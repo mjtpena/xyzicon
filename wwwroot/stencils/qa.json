@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1356,
-  "aliases": 4396,
+  "count": 1365,
+  "aliases": 4421,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1242,6 +1242,15 @@
     "fabric-number-function",
     "fabric-orientation-vertical",
     "fabric-rectangle-diff",
+    "fabric-info",
+    "fabric-send-circle",
+    "fabric-ellipse",
+    "fabric-squares-add",
+    "fabric-square-text",
+    "fabric-list-pulse",
+    "fabric-lambda-glyph",
+    "fabric-sample-workload",
+    "fabric-industry-solutions",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1589,8 +1598,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1559,
-      "concepts": 358
+      "covered": 1584,
+      "concepts": 367
     },
     "entra": {
       "sources": 14,
@@ -2911,9 +2920,9 @@
         "similarity": 0.1567
       },
       {
-        "a": "azure-firewall",
-        "b": "gcp-vertex-ai",
-        "similarity": 0.1499
+        "a": "gcp-vertex-ai",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.1511
       }
     ],
     "gcp-pubsub": [
@@ -7654,9 +7663,9 @@
         "similarity": 0.2115
       },
       {
-        "a": "gcp-datashare",
-        "b": "gcp-access-context",
-        "similarity": 0.2055
+        "a": "gcp-access-context",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2102
       }
     ],
     "gcp-binary-authorization": [
@@ -10076,6 +10085,11 @@
     "aws-opensearch-observability": [
       {
         "a": "aws-opensearch-observability",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2855
+      },
+      {
+        "a": "aws-opensearch-observability",
         "b": "fabric-documents-dax-export",
         "similarity": 0.2647
       },
@@ -10083,11 +10097,6 @@
         "a": "aws-opensearch-observability",
         "b": "aws-ec2-instance",
         "similarity": 0.2636
-      },
-      {
-        "a": "aws-opensearch-observability",
-        "b": "fabric-location-database",
-        "similarity": 0.2534
       }
     ],
     "aws-opensearch-dashboards": [
@@ -20825,9 +20834,9 @@
         "similarity": 0.2743
       },
       {
-        "a": "aws-athena-connectors",
-        "b": "fabric-diagram-branch-link",
-        "similarity": 0.2485
+        "a": "fabric-diagram-branch-link",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2495
       }
     ],
     "fabric-diagram-arrows": [
@@ -21580,6 +21589,11 @@
     "fabric-rectangle-exit-up": [
       {
         "a": "fabric-rectangle-exit-up",
+        "b": "fabric-square-text",
+        "similarity": 0.2726
+      },
+      {
+        "a": "fabric-rectangle-exit-up",
         "b": "fabric-squares-multiple",
         "similarity": 0.2511
       },
@@ -21587,11 +21601,6 @@
         "a": "gcp-distributed-cloud",
         "b": "fabric-rectangle-exit-up",
         "similarity": 0.2198
-      },
-      {
-        "a": "fabric-rectangle-exit-up",
-        "b": "fabric-window-code",
-        "similarity": 0.2175
       }
     ],
     "fabric-rectangle-list-asterisk": [
@@ -21606,9 +21615,9 @@
         "similarity": 0.2632
       },
       {
-        "a": "aws-sagemaker-notebook",
-        "b": "fabric-rectangle-list-asterisk",
-        "similarity": 0.2412
+        "a": "fabric-rectangle-list-asterisk",
+        "b": "fabric-list-pulse",
+        "similarity": 0.2479
       }
     ],
     "fabric-rectangles-curve-left": [
@@ -21647,6 +21656,11 @@
     ],
     "fabric-shapes": [
       {
+        "a": "fabric-shapes",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2984
+      },
+      {
         "a": "gcp-cloud-jobs",
         "b": "fabric-shapes",
         "similarity": 0.257
@@ -21655,11 +21669,6 @@
         "a": "fabric-document-hint",
         "b": "fabric-shapes",
         "similarity": 0.2539
-      },
-      {
-        "a": "aws-location-geofence",
-        "b": "fabric-shapes",
-        "similarity": 0.2529
       }
     ],
     "fabric-shapes-lightning": [
@@ -21771,14 +21780,14 @@
         "similarity": 0.2879
       },
       {
+        "a": "fabric-signal-square",
+        "b": "fabric-square-text",
+        "similarity": 0.2825
+      },
+      {
         "a": "fabric-book-database",
         "b": "fabric-signal-square",
         "similarity": 0.2802
-      },
-      {
-        "a": "gcp-cloud-run-anthos",
-        "b": "fabric-signal-square",
-        "similarity": 0.2476
       }
     ],
     "fabric-signal-tower": [
@@ -21941,6 +21950,11 @@
     "fabric-squares-eye": [
       {
         "a": "fabric-squares-eye",
+        "b": "fabric-squares-add",
+        "similarity": 0.3186
+      },
+      {
+        "a": "fabric-squares-eye",
         "b": "fabric-window-gauge",
         "similarity": 0.2737
       },
@@ -21948,11 +21962,6 @@
         "a": "fabric-squares-eye",
         "b": "fabric-window-synapse-link",
         "similarity": 0.2717
-      },
-      {
-        "a": "fabric-squares-eye",
-        "b": "fabric-window-list-filter",
-        "similarity": 0.2629
       }
     ],
     "fabric-table-export": [
@@ -22596,8 +22605,8 @@
       },
       {
         "a": "fabric-window-relationship-off",
-        "b": "fabric-number-function",
-        "similarity": 0.2003
+        "b": "fabric-square-text",
+        "similarity": 0.2009
       }
     ],
     "fabric-window-sparkle": [
@@ -22765,6 +22774,159 @@
         "a": "azure-foundry-application",
         "b": "fabric-rectangle-diff",
         "similarity": 0.2543
+      }
+    ],
+    "fabric-info": [
+      {
+        "a": "fabric-three-shapes",
+        "b": "fabric-info",
+        "similarity": 0.1151
+      },
+      {
+        "a": "aws-verified-access",
+        "b": "fabric-info",
+        "similarity": 0.1133
+      },
+      {
+        "a": "aws-codecommit",
+        "b": "fabric-info",
+        "similarity": 0.1119
+      }
+    ],
+    "fabric-send-circle": [
+      {
+        "a": "m365-arrow-circle-left",
+        "b": "fabric-send-circle",
+        "similarity": 0.3376
+      },
+      {
+        "a": "m365-arrow-circle-right",
+        "b": "fabric-send-circle",
+        "similarity": 0.3319
+      },
+      {
+        "a": "fabric-commit-circle",
+        "b": "fabric-send-circle",
+        "similarity": 0.3079
+      }
+    ],
+    "fabric-ellipse": [
+      {
+        "a": "fabric-ellipse",
+        "b": "fabric-datatype-double",
+        "similarity": 0.1429
+      },
+      {
+        "a": "fabric-arrow-right-double",
+        "b": "fabric-ellipse",
+        "similarity": 0.1327
+      },
+      {
+        "a": "m365-desktop-download",
+        "b": "fabric-ellipse",
+        "similarity": 0.1304
+      }
+    ],
+    "fabric-squares-add": [
+      {
+        "a": "fabric-squares-add",
+        "b": "fabric-list-pulse",
+        "similarity": 0.3545
+      },
+      {
+        "a": "fabric-window-sparkle-new",
+        "b": "fabric-squares-add",
+        "similarity": 0.3537
+      },
+      {
+        "a": "fabric-squares-eye",
+        "b": "fabric-squares-add",
+        "similarity": 0.3186
+      }
+    ],
+    "fabric-square-text": [
+      {
+        "a": "fabric-square-text",
+        "b": "fabric-list-pulse",
+        "similarity": 0.4194
+      },
+      {
+        "a": "fabric-window-sparkle",
+        "b": "fabric-square-text",
+        "similarity": 0.4141
+      },
+      {
+        "a": "fabric-window-code",
+        "b": "fabric-square-text",
+        "similarity": 0.4103
+      }
+    ],
+    "fabric-list-pulse": [
+      {
+        "a": "fabric-square-text",
+        "b": "fabric-list-pulse",
+        "similarity": 0.4194
+      },
+      {
+        "a": "fabric-window-asterisk-new",
+        "b": "fabric-list-pulse",
+        "similarity": 0.3622
+      },
+      {
+        "a": "fabric-squares-add",
+        "b": "fabric-list-pulse",
+        "similarity": 0.3545
+      }
+    ],
+    "fabric-lambda-glyph": [
+      {
+        "a": "m365-key",
+        "b": "fabric-lambda-glyph",
+        "similarity": 0.1006
+      },
+      {
+        "a": "m365-three-shapes",
+        "b": "fabric-lambda-glyph",
+        "similarity": 0.0941
+      },
+      {
+        "a": "m365-merge",
+        "b": "fabric-lambda-glyph",
+        "similarity": 0.081
+      }
+    ],
+    "fabric-sample-workload": [
+      {
+        "a": "fabric-endpoint",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2602
+      },
+      {
+        "a": "fabric-folder-data-bars",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2561
+      },
+      {
+        "a": "fabric-data-bar-lightning",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2539
+      }
+    ],
+    "fabric-industry-solutions": [
+      {
+        "a": "fabric-shapes",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2984
+      },
+      {
+        "a": "aws-opensearch-observability",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2855
+      },
+      {
+        "a": "fabric-documents-dax-export",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.257
       }
     ],
     "fabric-database-add": [
@@ -23633,9 +23795,9 @@
         "similarity": 0.1729
       },
       {
-        "a": "fabric-commit-circle",
+        "a": "fabric-send-circle",
         "b": "fabric-progress-circle",
-        "similarity": 0.1292
+        "similarity": 0.1627
       }
     ],
     "fabric-square-waves": [
@@ -23936,14 +24098,14 @@
         "similarity": 0.381
       },
       {
+        "a": "fabric-square-text",
+        "b": "fabric-square-database",
+        "similarity": 0.3639
+      },
+      {
         "a": "fabric-square-database",
         "b": "fabric-window-asterisk",
         "similarity": 0.3552
-      },
-      {
-        "a": "m365-text-bullet-list-square",
-        "b": "fabric-square-database",
-        "similarity": 0.3333
       }
     ],
     "fabric-global-transfer": [
