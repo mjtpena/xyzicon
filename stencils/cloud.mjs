@@ -2,6 +2,40 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-recovery-vaults", "azure", "Recovery Services Vaults", ["00017-icon-service-Recovery-Services-Vaults"],
+    "A vault preserves backups for cloud recovery.",
+    [
+      line([16, 51], [16, 42], [21, 34], [29, 31], [33, 22], [42, 18], [52, 18], [60, 23], [63, 31], [72, 32], [79, 38], [80, 46]),
+      rect(29, 54, 53, 42), oval(46, 61, 19, 19), line([55, 66], [55, 75]), line([50, 70], [60, 70]),
+      line([84, 37], [94, 40], [101, 48], [103, 58]), line([97, 52], [103, 58], [109, 52]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-databox-gateway", "azure", "Azure Data Box Gateway", ["00691-icon-service-Azure-Databox-Gateway"],
+    "A local data box exchanges data with a cloud gateway.",
+    [
+      rect(12, 49, 39, 42), line([12, 60], [51, 60]), line([20, 70], [43, 70]), line([20, 80], [38, 80]),
+      line([68, 61], [61, 56], [61, 47], [66, 40], [74, 38], [78, 28], [87, 25], [96, 29], [99, 37], [107, 39], [112, 46], [112, 55], [107, 61], [68, 61]),
+      line([51, 69], [78, 69]), line([72, 63], [78, 69], [72, 75]), line([78, 82], [51, 82]), line([57, 76], [51, 82], [57, 88]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-migrate", "azure", "Azure Migrate", ["10281-icon-service-Azure-Migrate"],
+    "A workload moves between on-premises and cloud environments.",
+    [
+      rect(12, 53, 36, 36), line([12, 64], [48, 64]), line([19, 73], [41, 73]), line([19, 81], [36, 81]),
+      line([68, 59], [62, 54], [62, 46], [67, 39], [75, 37], [79, 28], [88, 25], [97, 29], [100, 37], [108, 39], [113, 46], [113, 54], [108, 59], [68, 59]),
+      line([51, 74], [91, 74]), line([83, 66], [91, 74], [83, 82]), line([62, 83], [70, 91], [62, 99]), line([14, 111], [110, 111]),
+    ]),
+  entry("azure-remote-rendering", "azure", "Remote Rendering", ["00698-icon-service-Remote-Rendering"],
+    "A three-dimensional model is rendered in the cloud.",
+    [
+      line([20, 88], [14, 81], [14, 67], [20, 57], [31, 53], [35, 40], [46, 32], [60, 32], [71, 38], [76, 49], [88, 50], [99, 57], [105, 67], [104, 81], [98, 88], [20, 88]),
+      line([35, 62], [49, 54], [63, 62], [63, 77], [49, 85], [35, 77], [35, 62]), line([35, 62], [49, 70], [63, 62]), line([49, 70], [49, 85]),
+      line([66, 76], [78, 48], [89, 76], [66, 76]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-spatial-anchor-accounts", "azure", "Spatial Anchor Accounts", ["10352-icon-service-Spatial-Anchor-Accounts"],
+    "A location pin anchors spatial coordinates.",
+    [
+      line([79, 77], [65, 58], [61, 46], [63, 34], [70, 26], [80, 23], [90, 26], [97, 34], [99, 46], [95, 58], [79, 77]), oval(72, 36, 15, 15),
+      oval(15, 59, 12, 12), oval(38, 39, 12, 12), oval(38, 83, 12, 12), line([27, 62], [38, 50]), line([27, 68], [38, 84]), line([50, 45], [61, 43]), line([50, 89], [79, 77]), line([14, 110], [110, 110]),
+    ]),
   entry("azure-collaborative-service", "azure", "Collaborative Service", ["01038-icon-service-Collaborative-Service"],
     "Three participants collaborate in a connected circle.",
     [

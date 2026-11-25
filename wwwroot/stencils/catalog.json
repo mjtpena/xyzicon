@@ -841,6 +841,86 @@
       "notes": ""
     },
     {
+      "id": "azure-recovery-vaults",
+      "provider": "azure",
+      "name": "Recovery Services Vaults",
+      "rationale": "A vault preserves backups for cloud recovery.",
+      "path": "stencils/azure-recovery-vaults.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00017-icon-service-Recovery-Services-Vaults.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/migrate/00017-icon-service-Recovery-Services-Vaults.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/storage/00017-icon-service-Recovery-Services-Vaults.svg"
+      ],
+      "revision": "9273bf03633c126a7911bfec9ee21b7cf8c5dd8a012b29f1d9f6fcfe421db544",
+      "geometrySignature": "17d677f4ca5a4b14a470b12bbdb6be733b9c70baefc4b45fdbc05141cf211b68",
+      "comparisonRevision": "84384b8ea4ab11f61083fa43570cda03454c4567237e897f18724cd6a8242531",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-databox-gateway",
+      "provider": "azure",
+      "name": "Azure Data Box Gateway",
+      "rationale": "A local data box exchanges data with a cloud gateway.",
+      "path": "stencils/azure-databox-gateway.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/integration/00691-icon-service-Azure-Databox-Gateway.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/iot/00691-icon-service-Azure-Databox-Gateway.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/migrate/00691-icon-service-Azure-Databox-Gateway.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/storage/00691-icon-service-Azure-Databox-Gateway.svg"
+      ],
+      "revision": "33956d91cd677c30e8de13bce948dff30c1c578d1ab639cc632776cde87b63f4",
+      "geometrySignature": "102685da234936abce90d02d56dcb3fec8f605d470f34fc53867dc3fe32d3db4",
+      "comparisonRevision": "cf1480398bcccbf09240e0411dc32c17f7809ac0aaecdd2f5a65170774653a1a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-migrate",
+      "provider": "azure",
+      "name": "Azure Migrate",
+      "rationale": "A workload moves between on-premises and cloud environments.",
+      "path": "stencils/azure-migrate.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/migrate/10281-icon-service-Azure-Migrate.svg"
+      ],
+      "revision": "9467ca64743fcd0d32df362dd97d196a91e0e4fec8b7c921052ee944f00c0ed8",
+      "geometrySignature": "578a195d56febff96b9c18f7b40d873bd07ab2063b089df40d1ca4401b388f47",
+      "comparisonRevision": "4d6aa4bbb6734b4b2a7526834485e982523d3a1e36a733f286beeafe593dcf8a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-remote-rendering",
+      "provider": "azure",
+      "name": "Remote Rendering",
+      "rationale": "A three-dimensional model is rendered in the cloud.",
+      "path": "stencils/azure-remote-rendering.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/mixed reality/00698-icon-service-Remote-Rendering.svg"
+      ],
+      "revision": "3f21eea45477bc326ba17d4b1e4ce711c02b48717b8f07d6dabe85596afbd134",
+      "geometrySignature": "e588d5de6d9104d1d19ecaa6943aa14f800e2cb2967f8ded564e206f1bf8c855",
+      "comparisonRevision": "f81d74e3c92bba2f05ad110c3b37f8fcecb50bb0440009a250baa405f124f312",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-spatial-anchor-accounts",
+      "provider": "azure",
+      "name": "Spatial Anchor Accounts",
+      "rationale": "A location pin anchors spatial coordinates.",
+      "path": "stencils/azure-spatial-anchor-accounts.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/mixed reality/10352-icon-service-Spatial-Anchor-Accounts.svg"
+      ],
+      "revision": "8891530a4124db8e2cf49e46249d98b9fd3fa13c89251041213b90596f3de587",
+      "geometrySignature": "c2d551bbfa8be380300c2508fb2f937717565e373f70883910019750b7a22fbb",
+      "comparisonRevision": "30ebff63062636d377c9ee3acebed3e387416f6f7911345970f001ae15e0feef",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-collaborative-service",
       "provider": "azure",
       "name": "Collaborative Service",
@@ -881,7 +961,7 @@
       ],
       "revision": "4b072596817f3e365b90abf26e19830d34c520c8436f6691a724bada893296bf",
       "geometrySignature": "70e44eb4ffaf9eefa704d8077ff83028e3951324344797c7466d9b5976cfce68",
-      "comparisonRevision": "08661cb5f2dec18905204ada82160b81f929a7cebd8b8a2079bbde4f2e3cf93b",
+      "comparisonRevision": "1ecf2f9dd3df6964be01622a1c155a2c55cf40becd2b04dcf131bbe11a05f8a9",
       "review": "pending",
       "notes": ""
     },
@@ -4608,7 +4688,7 @@
       ],
       "revision": "9a7c8bf646ebe177a08ccdaa980c56ec58cee439d8f9460a0c1daae64c1d73f7",
       "geometrySignature": "70489c35547308c16c5555d3fcf3109b85e8c7e02de9086023862ca78e94e6e6",
-      "comparisonRevision": "5060e801a315f18ecf25a096598fec74f76112ddbb86c21cbbb76ad7cabcb4ec",
+      "comparisonRevision": "95951a27be48293927955199a4dfa28c69b89f93359a496b21ccb29e60a248ba",
       "review": "pending",
       "notes": ""
     },
@@ -4638,7 +4718,7 @@
       ],
       "revision": "6f5d1d5d196b867ee0079c1f1fbe093abcdfcb1b0405cabaa846391ede0982fc",
       "geometrySignature": "e16378a7db080261a8ef99fe2e82324d9b035af500a435586079d3b27e3b10df",
-      "comparisonRevision": "5273e7458d4f5ffe0e17eebcfead705145c53507ffbd35027793d57b40f54857",
+      "comparisonRevision": "e69c22c8e00b93c005285a469ab509800545c97fada01f31491e0a93f8b33533",
       "review": "pending",
       "notes": ""
     },
@@ -5179,7 +5259,7 @@
       ],
       "revision": "05d22f7debe6142653c924363dc76ca435f79b551d4bee5320b8be8e831ffc2f",
       "geometrySignature": "ed449f7dc4bfa1980f2b769091d48b71d942c4bea0ba079b5bdf20e741b3cccf",
-      "comparisonRevision": "b1c328dcc06b1ca255132da6379adc5e8749615c9957897d651e85317ae3311b",
+      "comparisonRevision": "8c4b6fb4341176181367ae9f28eeb6ad16f843cb875ab54b042337a1fa0bbcfe",
       "review": "pending",
       "notes": ""
     },
@@ -5479,7 +5559,7 @@
       ],
       "revision": "d5816f23c135247e19813f9f0380345495eacc5a03756f954848827a053cea1a",
       "geometrySignature": "bc168afcf179e303a60e24e9aec073e82d18b154cb1b6bdb469b00c7c7a268a8",
-      "comparisonRevision": "da02c68aea0de2d8e381b769696d2902c5d0a02580cdd99cf2ef636cff054071",
+      "comparisonRevision": "d43819f7b24e017deb7d26addd89460c31664cd6dbd3d9e24d0f4098a21b922a",
       "review": "pending",
       "notes": ""
     },
@@ -11553,7 +11633,7 @@
       ],
       "revision": "99ec7df32bbe4bc4667f427c3921a59b5c0da2d46ab1a4d61a1c6d588b4b1ef7",
       "geometrySignature": "6a3d1742ab0f69f832aba0508f21392f8ddc3bc067c3c628069d5064debac78c",
-      "comparisonRevision": "cb04a7c866340f0b8bf162461f10a106baeea000d2c63e0a58859db7c13df5f2",
+      "comparisonRevision": "2a06b7c4019cfd50d2bb6fb5103a9b018e783afb10105541d5b68363e36cafde",
       "review": "pending",
       "notes": ""
     },
@@ -11583,7 +11663,7 @@
       ],
       "revision": "739ca3635b91cff762a94fde7374df16b9b77c53999d06640da22c2a4240ffda",
       "geometrySignature": "09b9b675eaa167f4cc100f8574ec1a4d7b81e6b2c27b99b8b724bfd5fb7f6288",
-      "comparisonRevision": "7c91c8763ccc1725087f0f805cea1b0431147747bc4cd80bf901d8133aa4e25b",
+      "comparisonRevision": "9691bd248246f8c06becfffb23b7ecd310232c099b030f003cb9800defe72418",
       "review": "pending",
       "notes": ""
     },
@@ -15132,7 +15212,7 @@
       ],
       "revision": "703922f1732b9c69c94422d4e500105f4879b7d108d84ff5ccc1572751fd2ee3",
       "geometrySignature": "9d1b19a0c2d56cb61d6e2781236ca5e9170fef0eb8f9dbd0281fa9a203773d42",
-      "comparisonRevision": "1fde9fd92681064562e717ecfa8d92985e778c0dc6bba8b2aa277c70db1d35bf",
+      "comparisonRevision": "a84663a7537f2ce31c806933366787fda9d420953d62ceb4bb4ee4d1734faac1",
       "review": "pending",
       "notes": ""
     },
@@ -15744,7 +15824,7 @@
       ],
       "revision": "391f394ca9ba2163665442629cd7d8608359f8b773c2dafffe27b6a26933ecd3",
       "geometrySignature": "4ffdd2dc1c7af80c125ac2981ca13a4eec1c02fd975cff314422b940717a3f69",
-      "comparisonRevision": "d9404d44957d1e32cadcbab6862baac7088691c3f9578412278fce4fa4e93b97",
+      "comparisonRevision": "455e1505ebf280a42f35ae3a689888fe34dc6a24cd2ed8a03b31e31a178a2749",
       "review": "pending",
       "notes": ""
     },
@@ -18895,7 +18975,7 @@
       ],
       "revision": "31e452d25f7cfdb26839487cf0674a6e2ff931b0791804ad0e4e23613a98a0ad",
       "geometrySignature": "fedf2a92de1f85b11fa75cf3550fff8a392e48f0f202f780cd921d23d3dc0f01",
-      "comparisonRevision": "748b6c21a21638f0306b07823183e8d319bd82f79c830e487b7219f988634022",
+      "comparisonRevision": "fc7cf1311481f022e4a64d1df8825653acbe032c2d80b6aba92284c82cc44ec1",
       "review": "pending",
       "notes": ""
     },
@@ -18987,7 +19067,7 @@
       ],
       "revision": "2249a0718144f95fbd6419c8388406cb7fdc82ae5d2254f26567a7b1485da9af",
       "geometrySignature": "a2d77292b1086d1c110a3543fc8de940b57e6cccc6f28b962eed8be57062e5ec",
-      "comparisonRevision": "d7ba26b8bc72a3bc4fbeca892d07a30c24ff1cf25997e632bc5507830e1b5738",
+      "comparisonRevision": "73a4ecb820930525f9e5aa954c990359323d94deb2abe1838af634fc5c79a4c4",
       "review": "pending",
       "notes": ""
     },
@@ -19032,7 +19112,7 @@
       ],
       "revision": "0567a6e09e6ad31170ffd91ec947679148dd2fef9449d7167e8f9e8a783eb045",
       "geometrySignature": "a4e02e2d60177321ad0a44f15eb5994dbc4d11c64f2f153896bb19993690c7a0",
-      "comparisonRevision": "f3169acc924e5a58fbf46b9250836d878892cbcefbb8a65e631e0f3853ad2ffe",
+      "comparisonRevision": "8f57d0ddeff3d954791dcb0995b6547c5e52d5c4f13cd3cd49620c19f0320c2f",
       "review": "pending",
       "notes": ""
     },
@@ -19274,7 +19354,7 @@
       ],
       "revision": "e000a770542bc2e0a777f0f5ee193e649cdaf03ad7dc19bcdf73a9803ccc6dd0",
       "geometrySignature": "9866038f213259d1861084f69cab80474667a5e344e512cf0a9b7ed6b09fcebd",
-      "comparisonRevision": "74c0de91a0a14d967bebb9d55f327cc88cf08361133cbba97ad6fe3c1efbc6e6",
+      "comparisonRevision": "9deddb94f5a91fbab4f2f7243e87f57d4c70850d92eb2288ca01bdeb416a12d2",
       "review": "pending",
       "notes": ""
     },
@@ -19336,7 +19416,7 @@
       ],
       "revision": "d74e46d080d434c5c1c8ca2380e4fab8d7462378b3bdc5eea31110f1147c212d",
       "geometrySignature": "578ad9f7fbaeb3ac4d89259585a4116deff55668ef39ada42252b1a336de72be",
-      "comparisonRevision": "fe90559197f44d52a352fdef07e9b351d4582f3424626e5e6b31e8ea6c2e12d9",
+      "comparisonRevision": "4987080153a8c460d8a3fb3ab334e15b832c5397ada88a114b9082733e1c17f4",
       "review": "pending",
       "notes": ""
     },
@@ -23432,7 +23512,7 @@
       ],
       "revision": "7c7a5b283904d6b0e3d94809ea36f132cd4525adb78ded847aca92523ecf7abc",
       "geometrySignature": "a48d6cc8fbe270677bb56860cce9a0fa6067b5c4c546656466065ef16811271f",
-      "comparisonRevision": "416f77a0e3d393665733cfe55dcbf1173848569dfa71fce8e9ef20bd867a0acd",
+      "comparisonRevision": "afc3c122bf54d775952279d883d7c0dda75cc635993de011b23b84281b353297",
       "review": "pending",
       "notes": ""
     },

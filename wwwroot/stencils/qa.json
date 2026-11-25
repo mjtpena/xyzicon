@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1433,
-  "aliases": 4501,
+  "count": 1438,
+  "aliases": 4511,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -57,6 +57,11 @@
     "gcp-cloud-sql",
     "gcp-compute-engine",
     "gcp-storage",
+    "azure-recovery-vaults",
+    "azure-databox-gateway",
+    "azure-migrate",
+    "azure-remote-rendering",
+    "azure-spatial-anchor-accounts",
     "azure-collaborative-service",
     "azure-applens",
     "azure-hybrid-center",
@@ -1703,8 +1708,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 273,
-      "concepts": 215
+      "covered": 283,
+      "concepts": 220
     },
     "fabric": {
       "sources": 1584,
@@ -2627,6 +2632,91 @@
         "similarity": 0.281
       }
     ],
+    "azure-recovery-vaults": [
+      {
+        "a": "azure-recovery-vaults",
+        "b": "aws-backup",
+        "similarity": 0.2649
+      },
+      {
+        "a": "azure-recovery-vaults",
+        "b": "azure-lab-accounts",
+        "similarity": 0.2624
+      },
+      {
+        "a": "azure-recovery-vaults",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2568
+      }
+    ],
+    "azure-databox-gateway": [
+      {
+        "a": "azure-databox-gateway",
+        "b": "azure-workspace-gateway",
+        "similarity": 0.3788
+      },
+      {
+        "a": "azure-databox-gateway",
+        "b": "azure-hybrid-center",
+        "similarity": 0.3649
+      },
+      {
+        "a": "azure-databox-gateway",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2738
+      }
+    ],
+    "azure-migrate": [
+      {
+        "a": "azure-databox-gateway",
+        "b": "azure-migrate",
+        "similarity": 0.2398
+      },
+      {
+        "a": "azure-migrate",
+        "b": "aws-ec2-auto-scaling",
+        "similarity": 0.2313
+      },
+      {
+        "a": "azure-migrate",
+        "b": "azure-service-health",
+        "similarity": 0.2297
+      }
+    ],
+    "azure-remote-rendering": [
+      {
+        "a": "azure-remote-rendering",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.3872
+      },
+      {
+        "a": "azure-remote-rendering",
+        "b": "azure-cognitive-search",
+        "similarity": 0.3485
+      },
+      {
+        "a": "azure-remote-rendering",
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2745
+      }
+    ],
+    "azure-spatial-anchor-accounts": [
+      {
+        "a": "azure-spatial-anchor-accounts",
+        "b": "azure-planetary-computer",
+        "similarity": 0.2823
+      },
+      {
+        "a": "azure-spatial-anchor-accounts",
+        "b": "azure-api-connections",
+        "similarity": 0.2611
+      },
+      {
+        "a": "azure-spatial-anchor-accounts",
+        "b": "azure-aks-network-policy",
+        "similarity": 0.2606
+      }
+    ],
     "azure-collaborative-service": [
       {
         "a": "azure-collaborative-service",
@@ -2663,6 +2753,11 @@
     ],
     "azure-hybrid-center": [
       {
+        "a": "azure-databox-gateway",
+        "b": "azure-hybrid-center",
+        "similarity": 0.3649
+      },
+      {
         "a": "azure-hybrid-center",
         "b": "azure-workspace-gateway",
         "similarity": 0.2658
@@ -2671,11 +2766,6 @@
         "a": "azure-hybrid-center",
         "b": "aws-eventbridge-rule",
         "similarity": 0.2559
-      },
-      {
-        "a": "azure-hybrid-center",
-        "b": "gcp-external-key-manager",
-        "similarity": 0.2522
       }
     ],
     "azure-blockchain-applications": [
@@ -6420,6 +6510,11 @@
     ],
     "gcp-network-intelligence": [
       {
+        "a": "azure-remote-rendering",
+        "b": "gcp-network-intelligence",
+        "similarity": 0.255
+      },
+      {
         "a": "gcp-network-intelligence",
         "b": "azure-aks-network-policy",
         "similarity": 0.2437
@@ -6428,11 +6523,6 @@
         "a": "gcp-network-intelligence",
         "b": "aws-opensearch-ingestion",
         "similarity": 0.2435
-      },
-      {
-        "a": "azure-ddos-plans",
-        "b": "gcp-network-intelligence",
-        "similarity": 0.2299
       }
     ],
     "gcp-network-security": [
@@ -6464,9 +6554,9 @@
         "similarity": 0.2279
       },
       {
-        "a": "gcp-network-tiers",
-        "b": "gcp-cloud-test-lab",
-        "similarity": 0.1921
+        "a": "azure-remote-rendering",
+        "b": "gcp-network-tiers",
+        "similarity": 0.2046
       }
     ],
     "gcp-network-topology": [
@@ -7076,9 +7166,9 @@
         "similarity": 0.1986
       },
       {
-        "a": "gcp-cloud-optimization-ai",
-        "b": "fabric-table-export",
-        "similarity": 0.1743
+        "a": "azure-spatial-anchor-accounts",
+        "b": "gcp-cloud-optimization-ai",
+        "similarity": 0.1965
       }
     ],
     "gcp-fleet-routing": [
@@ -7416,9 +7506,9 @@
         "similarity": 0.1983
       },
       {
-        "a": "gcp-data-layers",
-        "b": "azure-workspace-gateway",
-        "similarity": 0.1888
+        "a": "azure-migrate",
+        "b": "gcp-data-layers",
+        "similarity": 0.1953
       }
     ],
     "gcp-datashare": [
@@ -13368,14 +13458,14 @@
         "similarity": 0.3567
       },
       {
+        "a": "azure-remote-rendering",
+        "b": "azure-cognitive-search",
+        "similarity": 0.3485
+      },
+      {
         "a": "azure-ssis-lift-shift",
         "b": "azure-cognitive-search",
         "similarity": 0.2947
-      },
-      {
-        "a": "azure-workbooks",
-        "b": "azure-cognitive-search",
-        "similarity": 0.257
       }
     ],
     "azure-bonsai": [
@@ -13397,6 +13487,11 @@
     ],
     "azure-planetary-computer": [
       {
+        "a": "azure-spatial-anchor-accounts",
+        "b": "azure-planetary-computer",
+        "similarity": 0.2823
+      },
+      {
         "a": "azure-planetary-computer",
         "b": "aws-ec2-instances",
         "similarity": 0.2785
@@ -13405,11 +13500,6 @@
         "a": "azure-planetary-computer",
         "b": "aws-activate",
         "similarity": 0.2644
-      },
-      {
-        "a": "azure-planetary-computer",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2541
       }
     ],
     "azure-language": [
@@ -16746,6 +16836,11 @@
     ],
     "aws-data-transfer-terminal": [
       {
+        "a": "azure-databox-gateway",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2738
+      },
+      {
         "a": "aws-data-transfer-terminal",
         "b": "azure-devtest-labs",
         "similarity": 0.2687
@@ -16754,11 +16849,6 @@
         "a": "aws-data-transfer-terminal",
         "b": "aws-ecs-app-container",
         "similarity": 0.2652
-      },
-      {
-        "a": "gcp-user-preferences",
-        "b": "aws-data-transfer-terminal",
-        "similarity": 0.265
       }
     ],
     "aws-fsx-lustre": [
@@ -17291,6 +17381,11 @@
     ],
     "m365-cloud-add": [
       {
+        "a": "azure-remote-rendering",
+        "b": "m365-cloud-add",
+        "similarity": 0.1626
+      },
+      {
         "a": "gcp-my-cloud",
         "b": "m365-cloud-add",
         "similarity": 0.1378
@@ -17299,11 +17394,6 @@
         "a": "m365-cloud-add",
         "b": "aws-beanstalk-application",
         "similarity": 0.1375
-      },
-      {
-        "a": "m365-cloud-add",
-        "b": "azure-code-optimization",
-        "similarity": 0.129
       }
     ],
     "m365-cloud-download": [
@@ -20448,6 +20538,11 @@
     ],
     "azure-workspace-gateway": [
       {
+        "a": "azure-databox-gateway",
+        "b": "azure-workspace-gateway",
+        "similarity": 0.3788
+      },
+      {
         "a": "azure-workspace-gateway",
         "b": "azure-lab-accounts",
         "similarity": 0.2708
@@ -20456,11 +20551,6 @@
         "a": "azure-hybrid-center",
         "b": "azure-workspace-gateway",
         "similarity": 0.2658
-      },
-      {
-        "a": "azure-workspace-gateway",
-        "b": "azure-devtest-labs",
-        "similarity": 0.2586
       }
     ],
     "azure-api-connections": [
@@ -20555,14 +20645,14 @@
         "similarity": 0.2708
       },
       {
-        "a": "azure-lab-accounts",
-        "b": "fabric-cloud-endpoint",
-        "similarity": 0.2537
+        "a": "azure-remote-rendering",
+        "b": "azure-lab-accounts",
+        "similarity": 0.2637
       },
       {
-        "a": "azure-lab-accounts",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2504
+        "a": "azure-recovery-vaults",
+        "b": "azure-lab-accounts",
+        "similarity": 0.2624
       }
     ],
     "azure-code-optimization": [
@@ -20606,14 +20696,14 @@
         "similarity": 0.2806
       },
       {
+        "a": "azure-spatial-anchor-accounts",
+        "b": "azure-aks-network-policy",
+        "similarity": 0.2606
+      },
+      {
         "a": "azure-aks-network-policy",
         "b": "azure-openshift",
         "similarity": 0.2569
-      },
-      {
-        "a": "gcp-network-intelligence",
-        "b": "azure-aks-network-policy",
-        "similarity": 0.2437
       }
     ],
     "azure-openshift": [
@@ -20873,6 +20963,11 @@
     ],
     "azure-cloud-services-classic": [
       {
+        "a": "azure-remote-rendering",
+        "b": "azure-cloud-services-classic",
+        "similarity": 0.3872
+      },
+      {
         "a": "azure-cloud-services-classic",
         "b": "fabric-folder-data-bars",
         "similarity": 0.2973
@@ -20881,11 +20976,6 @@
         "a": "azure-cloud-services-classic",
         "b": "fabric-sample-workload",
         "similarity": 0.2715
-      },
-      {
-        "a": "azure-devops-starter",
-        "b": "azure-cloud-services-classic",
-        "similarity": 0.2687
       }
     ],
     "azure-app-service-plans": [
@@ -20951,9 +21041,9 @@
         "similarity": 0.2687
       },
       {
-        "a": "azure-workspace-gateway",
+        "a": "azure-remote-rendering",
         "b": "azure-devtest-labs",
-        "similarity": 0.2586
+        "similarity": 0.2624
       }
     ],
     "azure-resource-groups": [
@@ -25153,9 +25243,9 @@
         "similarity": 0.2808
       },
       {
-        "a": "azure-devops-starter",
+        "a": "azure-remote-rendering",
         "b": "fabric-cloud-endpoint",
-        "similarity": 0.2605
+        "similarity": 0.2745
       }
     ],
     "fabric-connector": [
