@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1384,
-  "aliases": 4441,
+  "count": 1392,
+  "aliases": 4454,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -670,6 +670,14 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-ml-classic-web-services",
+    "azure-ml-studio-workspaces",
+    "azure-ml-web-service-plans",
+    "azure-cognitive-decisions",
+    "azure-serverless-search",
+    "azure-cognitive-search",
+    "azure-bonsai",
+    "azure-planetary-computer",
     "azure-language",
     "azure-genomics-accounts",
     "azure-bot-services",
@@ -1654,8 +1662,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 213,
-      "concepts": 166
+      "covered": 226,
+      "concepts": 174
     },
     "fabric": {
       "sources": 1584,
@@ -6865,6 +6873,11 @@
     "gcp-cloud-optimization-ai": [
       {
         "a": "gcp-cloud-optimization-ai",
+        "b": "azure-ml-classic-web-services",
+        "similarity": 0.2006
+      },
+      {
+        "a": "gcp-cloud-optimization-ai",
         "b": "aws-ec2-auto-scaling",
         "similarity": 0.1986
       },
@@ -6872,11 +6885,6 @@
         "a": "gcp-cloud-optimization-ai",
         "b": "fabric-table-export",
         "similarity": 0.1743
-      },
-      {
-        "a": "gcp-cloud-optimization-ai",
-        "b": "aws-sagemaker-model",
-        "similarity": 0.1725
       }
     ],
     "gcp-fleet-routing": [
@@ -9517,6 +9525,11 @@
     "azure-ssis-lift-shift": [
       {
         "a": "azure-ssis-lift-shift",
+        "b": "azure-cognitive-search",
+        "similarity": 0.2947
+      },
+      {
+        "a": "azure-ssis-lift-shift",
         "b": "aws-sqs-queue",
         "similarity": 0.2823
       },
@@ -9524,11 +9537,6 @@
         "a": "azure-ssis-lift-shift",
         "b": "aws-category-containers",
         "similarity": 0.2561
-      },
-      {
-        "a": "gcp-external-ip",
-        "b": "azure-ssis-lift-shift",
-        "similarity": 0.2544
       }
     ],
     "azure-sql-edge": [
@@ -9936,14 +9944,14 @@
         "similarity": 0.2593
       },
       {
+        "a": "azure-workbooks",
+        "b": "azure-cognitive-search",
+        "similarity": 0.257
+      },
+      {
         "a": "fabric-sustainability",
         "b": "azure-workbooks",
         "similarity": 0.2461
-      },
-      {
-        "a": "gcp-secret-manager",
-        "b": "azure-workbooks",
-        "similarity": 0.2366
       }
     ],
     "azure-power-bi-embedded": [
@@ -13023,6 +13031,142 @@
         "similarity": 0.234
       }
     ],
+    "azure-ml-classic-web-services": [
+      {
+        "a": "azure-ml-classic-web-services",
+        "b": "azure-ml-web-service-plans",
+        "similarity": 0.2581
+      },
+      {
+        "a": "azure-ml-classic-web-services",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2579
+      },
+      {
+        "a": "azure-ml-classic-web-services",
+        "b": "azure-ml-studio-workspaces",
+        "similarity": 0.2431
+      }
+    ],
+    "azure-ml-studio-workspaces": [
+      {
+        "a": "azure-ml-studio-workspaces",
+        "b": "azure-ml-web-service-plans",
+        "similarity": 0.439
+      },
+      {
+        "a": "azure-ml-studio-workspaces",
+        "b": "fabric-window-pulse",
+        "similarity": 0.2549
+      },
+      {
+        "a": "azure-ml-classic-web-services",
+        "b": "azure-ml-studio-workspaces",
+        "similarity": 0.2431
+      }
+    ],
+    "azure-ml-web-service-plans": [
+      {
+        "a": "azure-ml-studio-workspaces",
+        "b": "azure-ml-web-service-plans",
+        "similarity": 0.439
+      },
+      {
+        "a": "azure-ml-classic-web-services",
+        "b": "azure-ml-web-service-plans",
+        "similarity": 0.2581
+      },
+      {
+        "a": "azure-ml-web-service-plans",
+        "b": "fabric-industry-solutions",
+        "similarity": 0.2441
+      }
+    ],
+    "azure-cognitive-decisions": [
+      {
+        "a": "fabric-environment",
+        "b": "azure-cognitive-decisions",
+        "similarity": 0.1554
+      },
+      {
+        "a": "azure-cognitive-decisions",
+        "b": "azure-computer-vision",
+        "similarity": 0.1487
+      },
+      {
+        "a": "m365-person-accounts",
+        "b": "azure-cognitive-decisions",
+        "similarity": 0.1443
+      }
+    ],
+    "azure-serverless-search": [
+      {
+        "a": "gcp-cloud-ops",
+        "b": "azure-serverless-search",
+        "similarity": 0.2026
+      },
+      {
+        "a": "azure-serverless-search",
+        "b": "aws-partner-central",
+        "similarity": 0.188
+      },
+      {
+        "a": "azure-serverless-search",
+        "b": "aws-location-place",
+        "similarity": 0.1776
+      }
+    ],
+    "azure-cognitive-search": [
+      {
+        "a": "azure-cognitive-search",
+        "b": "aws-sqs-queue",
+        "similarity": 0.3567
+      },
+      {
+        "a": "azure-ssis-lift-shift",
+        "b": "azure-cognitive-search",
+        "similarity": 0.2947
+      },
+      {
+        "a": "azure-workbooks",
+        "b": "azure-cognitive-search",
+        "similarity": 0.257
+      }
+    ],
+    "azure-bonsai": [
+      {
+        "a": "gcp-looker",
+        "b": "azure-bonsai",
+        "similarity": 0.2512
+      },
+      {
+        "a": "azure-bonsai",
+        "b": "fabric-vehicle-subway",
+        "similarity": 0.2397
+      },
+      {
+        "a": "gcp-assured-workloads",
+        "b": "azure-bonsai",
+        "similarity": 0.2236
+      }
+    ],
+    "azure-planetary-computer": [
+      {
+        "a": "azure-planetary-computer",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2785
+      },
+      {
+        "a": "azure-planetary-computer",
+        "b": "aws-activate",
+        "similarity": 0.2644
+      },
+      {
+        "a": "azure-planetary-computer",
+        "b": "aws-migration-evaluator",
+        "similarity": 0.2541
+      }
+    ],
     "azure-language": [
       {
         "a": "azure-language",
@@ -14203,14 +14347,14 @@
         "similarity": 0.1868
       },
       {
+        "a": "azure-serverless-search",
+        "b": "aws-location-place",
+        "similarity": 0.1776
+      },
+      {
         "a": "gcp-cloud-run-anthos",
         "b": "aws-location-place",
         "similarity": 0.1713
-      },
-      {
-        "a": "aws-location-place",
-        "b": "fabric-receipt-sparkle",
-        "similarity": 0.1699
       }
     ],
     "aws-location-routes": [
@@ -14402,6 +14546,11 @@
     ],
     "aws-sqs-queue": [
       {
+        "a": "azure-cognitive-search",
+        "b": "aws-sqs-queue",
+        "similarity": 0.3567
+      },
+      {
         "a": "azure-ssis-lift-shift",
         "b": "aws-sqs-queue",
         "similarity": 0.2823
@@ -14410,11 +14559,6 @@
         "a": "aws-sqs-queue",
         "b": "aws-device-farm",
         "similarity": 0.2686
-      },
-      {
-        "a": "gcp-iot-edge",
-        "b": "aws-sqs-queue",
-        "similarity": 0.2672
       }
     ],
     "aws-marketplace": [
@@ -14538,6 +14682,11 @@
     ],
     "aws-activate": [
       {
+        "a": "azure-planetary-computer",
+        "b": "aws-activate",
+        "similarity": 0.2644
+      },
+      {
         "a": "aws-activate",
         "b": "fabric-endpoint",
         "similarity": 0.2516
@@ -14546,11 +14695,6 @@
         "a": "aws-activate",
         "b": "fabric-cloud-endpoint",
         "similarity": 0.2451
-      },
-      {
-        "a": "gcp-api-gateway",
-        "b": "aws-activate",
-        "similarity": 0.2431
       }
     ],
     "aws-iq": [
@@ -16912,9 +17056,9 @@
         "similarity": 0.1375
       },
       {
-        "a": "gcp-profiler",
+        "a": "azure-cognitive-search",
         "b": "m365-cloud-add",
-        "similarity": 0.1178
+        "similarity": 0.1184
       }
     ],
     "m365-cloud-download": [
@@ -18648,6 +18792,11 @@
     ],
     "aws-ec2-instances": [
       {
+        "a": "azure-planetary-computer",
+        "b": "aws-ec2-instances",
+        "similarity": 0.2785
+      },
+      {
         "a": "aws-ec2-instances",
         "b": "fabric-document-ssis",
         "similarity": 0.278
@@ -18656,11 +18805,6 @@
         "a": "aws-ec2-instances",
         "b": "fabric-match-category",
         "similarity": 0.2707
-      },
-      {
-        "a": "aws-ec2-instances",
-        "b": "fabric-tables-curve-right",
-        "similarity": 0.2706
       }
     ],
     "aws-ec2-rescue": [
@@ -19214,14 +19358,14 @@
         "similarity": 0.1736
       },
       {
+        "a": "azure-serverless-search",
+        "b": "aws-category-serverless",
+        "similarity": 0.1677
+      },
+      {
         "a": "gcp-cloud-ops",
         "b": "aws-category-serverless",
         "similarity": 0.1667
-      },
-      {
-        "a": "aws-category-serverless",
-        "b": "fabric-not-equal-circle",
-        "similarity": 0.1646
       }
     ],
     "aws-category-app-integration": [
@@ -19447,6 +19591,11 @@
     ],
     "aws-category-quantum": [
       {
+        "a": "azure-cognitive-search",
+        "b": "aws-category-quantum",
+        "similarity": 0.2083
+      },
+      {
         "a": "gcp-automl-tables",
         "b": "aws-category-quantum",
         "similarity": 0.1918
@@ -19455,11 +19604,6 @@
         "a": "gcp-private-connectivity",
         "b": "aws-category-quantum",
         "similarity": 0.1872
-      },
-      {
-        "a": "aws-lightsail",
-        "b": "aws-category-quantum",
-        "similarity": 0.1837
       }
     ],
     "aws-category-satellite": [
@@ -20664,9 +20808,9 @@
         "similarity": 0.1834
       },
       {
-        "a": "aws-partner-central",
+        "a": "azure-serverless-search",
         "b": "fabric-cube-cone-sphere",
-        "similarity": 0.1642
+        "similarity": 0.1708
       }
     ],
     "fabric-area-location": [
@@ -23332,9 +23476,9 @@
         "similarity": 0.2855
       },
       {
-        "a": "fabric-documents-dax-export",
+        "a": "azure-ml-classic-web-services",
         "b": "fabric-industry-solutions",
-        "similarity": 0.257
+        "similarity": 0.2579
       }
     ],
     "fabric-database-add": [

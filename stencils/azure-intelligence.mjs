@@ -1,6 +1,59 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureIntelligenceArtwork = [
+  entry("azure-ml-classic-web-services", "azure", "Machine Learning Studio Classic Web Services", ["00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services"],
+    "A laboratory flask is exposed through a web service.",
+    [
+      oval(49, 16, 57, 57), line([77, 16], [68, 23], [64, 34], [64, 54], [68, 66], [77, 73]), line([77, 16], [86, 23], [90, 34], [90, 54], [86, 66], [77, 73]), line([52, 33], [102, 33]), line([50, 48], [105, 48]), line([54, 61], [100, 61]),
+      line([25, 45], [50, 45]), line([31, 45], [31, 62], [15, 91], [18, 98], [57, 98], [60, 91], [44, 62], [44, 45]), line([23, 80], [51, 80]), line([13, 111], [112, 111]),
+    ]),
+  entry("azure-ml-studio-workspaces", "azure", "Machine Learning Studio Workspaces", ["10167-icon-service-Machine-Learning-Studio-Workspaces"],
+    "A laboratory flask sits beside a workspace of panels.",
+    [
+      rect(49, 17, 58, 60), line([49, 37], [107, 37]), line([49, 57], [107, 57]), line([77, 17], [77, 77]),
+      line([21, 45], [47, 45]), line([27, 45], [27, 62], [12, 91], [15, 98], [54, 98], [57, 91], [41, 62], [41, 45]), line([20, 80], [49, 80]), line([13, 111], [112, 111]),
+    ]),
+  entry("azure-ml-web-service-plans", "azure", "Machine Learning Studio Web Service Plans", ["10168-icon-service-Machine-Learning-Studio-Web-Service-Plans"],
+    "A laboratory flask sits in front of a service capacity gauge.",
+    [
+      line([49, 68], [49, 50], [54, 35], [64, 25], [78, 21], [92, 25], [102, 35], [107, 50], [107, 68], [49, 68]),
+      line([78, 29], [78, 36]), line([58, 40], [64, 44]), line([98, 40], [92, 44]), line([78, 58], [91, 42]), oval(74, 54, 8, 8),
+      line([21, 46], [46, 46]), line([27, 46], [27, 62], [12, 91], [15, 98], [54, 98], [57, 91], [41, 62], [41, 46]), line([20, 80], [49, 80]), line([13, 111], [112, 111]),
+    ]),
+  entry("azure-cognitive-decisions", "azure", "Cognitive Services Decisions", ["03173-icon-service-Cognitive-Services-Decisions"],
+    "A decision splits an input into two possible outcomes.",
+    [
+      line([13, 28], [13, 17], [25, 17]), line([103, 17], [115, 17], [115, 28]), line([13, 91], [13, 103], [25, 103]), line([103, 103], [115, 103], [115, 91]),
+      oval(21, 52, 17, 17), line([38, 60], [54, 60], [54, 39], [69, 39]), line([54, 60], [54, 80], [69, 80]),
+      oval(69, 30, 18, 18), oval(69, 71, 18, 18), line([87, 39], [103, 39]), line([97, 33], [103, 39], [97, 45]),
+    ]),
+  entry("azure-serverless-search", "azure", "Serverless Search", ["03321-icon-service-Serverless-Search"],
+    "A cloud search lens is marked with a serverless lightning bolt.",
+    [
+      line([18, 80], [13, 74], [13, 61], [19, 51], [29, 48], [33, 35], [44, 28], [58, 28], [68, 34], [72, 44], [84, 45], [95, 52], [100, 63], [98, 72]),
+      oval(37, 45, 28, 28), line([43, 69], [28, 85]),
+      line([77, 68], [65, 92], [76, 92], [69, 110], [94, 83], [82, 83], [89, 68], [77, 68]), line([13, 115], [108, 115]),
+    ]),
+  entry("azure-cognitive-search", "azure", "Cognitive Search", ["10044-icon-service-Cognitive-Search"],
+    "A search lens examines a document inside a cloud.",
+    [
+      line([21, 89], [14, 82], [14, 67], [20, 56], [31, 52], [35, 38], [46, 30], [60, 30], [71, 36], [76, 48], [88, 49], [99, 56], [105, 67], [104, 81], [97, 89], [21, 89]),
+      line([38, 50], [60, 50], [67, 57], [67, 76], [38, 76], [38, 50]), line([60, 50], [60, 57], [67, 57]), line([43, 61], [59, 61]), line([43, 68], [56, 68]),
+      oval(64, 57, 22, 22), line([81, 74], [93, 86]), line([15, 108], [110, 108]),
+    ]),
+  entry("azure-bonsai", "azure", "Bonsai", ["03337-icon-service-Bonsai"],
+    "A miniature branching tree grows in a shallow planter.",
+    [
+      line([28, 88], [100, 88], [95, 101], [33, 101], [28, 88]), line([58, 88], [60, 70], [53, 58], [42, 51]), line([60, 70], [72, 58], [81, 51]), line([60, 70], [62, 49]),
+      line([18, 43], [18, 33], [26, 28], [35, 30], [41, 22], [52, 23], [57, 32], [64, 27], [73, 29], [77, 38], [87, 36], [96, 42], [96, 50], [18, 50], [18, 43]),
+      line([30, 39], [38, 34], [46, 39]), line([62, 39], [70, 35], [77, 41]), line([13, 113], [112, 113]),
+    ]),
+  entry("azure-planetary-computer", "azure", "Planetary Computer Pro", ["03755-icon-service-Planetary-Computer-Pro"],
+    "A satellite orbit circles a planet.",
+    [
+      oval(28, 25, 63, 63), line([59, 25], [49, 34], [45, 48], [45, 64], [50, 79], [59, 88]), line([59, 25], [69, 34], [73, 48], [73, 64], [68, 79], [59, 88]),
+      line([31, 44], [88, 44]), line([29, 65], [90, 65]), line([13, 86], [19, 75], [34, 60]), line([78, 37], [94, 25], [103, 23], [106, 28], [102, 36]), line([16, 95], [24, 96], [42, 85]), oval(87, 29, 9, 9, true), line([14, 110], [109, 110]),
+    ]),
   entry("azure-language", "azure", "Language", ["02876-icon-service-Language"],
     "A magnifier examines highlighted words in a conversation.",
     [
