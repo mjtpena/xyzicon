@@ -1,6 +1,48 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsIotArtwork = [
+  entry("aws-iot-alexa-device", "aws", "IoT Alexa Enabled Device", ["Res_AWS-IoT_Alexa_Enabled-Device_48"],
+    "A device responds to a voice command.",
+    [
+      rect(15, 25, 45, 54), line([15, 37], [60, 37]), oval(28, 47, 19, 19), line([34, 79], [34, 88], [43, 88]), line([39, 79], [39, 88]),
+      line([74, 34], [79, 40], [81, 49], [79, 58], [74, 64]), line([84, 27], [92, 37], [95, 49], [92, 61], [84, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-alexa-skill", "aws", "IoT Alexa Skill", ["Res_AWS-IoT_Alexa_Skill_48"],
+    "A voice command invokes an assistant skill.",
+    [
+      line([12, 24], [61, 24], [61, 59], [42, 59], [32, 69], [32, 59], [12, 59], [12, 24]), line([21, 37], [52, 37]), line([21, 46], [46, 46]),
+      line([61, 42], [72, 42]), line([66, 37], [72, 42], [66, 47]), line([88, 30], [104, 46], [88, 62], [72, 46], [88, 30]), line([88, 62], [88, 80]), line([80, 80], [96, 80]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-alexa-voice-service", "aws", "IoT Alexa Voice Service", ["Res_AWS-IoT_Alexa_Voice-Service_48"],
+    "A voice service processes spoken audio.",
+    [
+      oval(19, 20, 24, 40), line([24, 43], [24, 51], [29, 55], [33, 55], [38, 51], [38, 43]), line([15, 45], [15, 53], [20, 62], [31, 66], [42, 62], [47, 53], [47, 45]), line([31, 66], [31, 79]), line([21, 79], [41, 79]),
+      line([56, 49], [63, 49], [68, 37], [75, 63], [82, 32], [89, 59], [94, 49], [108, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-echo", "aws", "IoT Echo", ["Res_AWS-IoT_Echo_48"],
+    "A voice assistant speaker listens for commands.",
+    [
+      oval(34, 19, 53, 14), line([34, 26], [34, 79], [39, 85], [49, 88], [72, 88], [82, 85], [87, 79], [87, 26]), line([34, 36], [40, 40], [50, 42], [71, 42], [81, 40], [87, 36]),
+      line([46, 60], [75, 60]), line([46, 68], [75, 68]), oval(57, 22, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-fire-tv", "aws", "IoT Fire TV", ["Res_AWS-IoT_Fire_TV_48"],
+    "A television plays a connected video stream.",
+    [
+      rect(12, 22, 99, 60), line([45, 82], [45, 91], [78, 91]), line([61, 82], [61, 91]), line([52, 38], [72, 51], [52, 64], [52, 38]),
+      line([87, 39], [92, 44], [94, 51], [92, 58], [87, 63]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-fire-tv-stick", "aws", "IoT Fire TV Stick", ["Res_AWS-IoT_Fire-TV_Stick_48"],
+    "A streaming stick plugs into a television.",
+    [
+      rect(12, 20, 69, 50), line([12, 31], [81, 31]), line([38, 70], [38, 79], [57, 79]), line([48, 70], [48, 79]),
+      rect(73, 50, 34, 17), line([107, 54], [114, 54], [114, 63], [107, 63]), line([80, 58], [99, 58]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-iot-lambda-function", "aws", "IoT Lambda Function", ["Res_AWS-IoT_Lambda_Function_48"],
+    "A device event invokes a serverless function.",
+    [
+      rect(11, 27, 35, 44), line([11, 38], [46, 38]), line([19, 48], [39, 48]), line([19, 58], [36, 58]), line([46, 49], [61, 49]), line([55, 43], [61, 49], [55, 55]),
+      line([78, 31], [84, 31], [98, 68], [106, 68]), line([75, 68], [85, 46]), line([68, 68], [76, 68]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-iot-http", "aws", "IoT HTTP Protocol", ["Res_AWS-IoT_HTTP_Protocol_48"],
     "An HTTP request and response connect a device to a service.",
     [

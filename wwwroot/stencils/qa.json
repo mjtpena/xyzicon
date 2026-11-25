@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1814,
-  "aliases": 4980,
+  "count": 1821,
+  "aliases": 4987,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -891,6 +891,13 @@
     "azure-service-providers",
     "azure-education",
     "azure-universal-print",
+    "aws-iot-alexa-device",
+    "aws-iot-alexa-skill",
+    "aws-iot-alexa-voice-service",
+    "aws-iot-echo",
+    "aws-iot-fire-tv",
+    "aws-iot-fire-tv-stick",
+    "aws-iot-lambda-function",
     "aws-iot-http",
     "aws-iot-http2",
     "aws-iot-lorawan",
@@ -2114,8 +2121,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1597,
-      "concepts": 552
+      "covered": 1604,
+      "concepts": 559
     },
     "gcp": {
       "sources": 261,
@@ -4529,13 +4536,13 @@
       },
       {
         "a": "aws-eventbridge-rule",
-        "b": "aws-iot-device-jobs",
-        "similarity": 0.2861
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.3179
       },
       {
         "a": "aws-eventbridge-rule",
-        "b": "fabric-dual-screen-diff",
-        "similarity": 0.2764
+        "b": "aws-iot-device-jobs",
+        "similarity": 0.2861
       }
     ],
     "aws-eventbridge-scheduler": [
@@ -5833,6 +5840,11 @@
     "azure-logic-apps-custom-connector": [
       {
         "a": "azure-logic-apps-custom-connector",
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.4113
+      },
+      {
+        "a": "azure-logic-apps-custom-connector",
         "b": "azure-entra-internet-access",
         "similarity": 0.2991
       },
@@ -5840,11 +5852,6 @@
         "a": "azure-logic-apps-custom-connector",
         "b": "aws-iot-reported-state",
         "similarity": 0.2778
-      },
-      {
-        "a": "azure-logic-apps-custom-connector",
-        "b": "azure-hybrid-connectivity-hub",
-        "similarity": 0.2758
       }
     ],
     "azure-waf-policies": [
@@ -7334,13 +7341,13 @@
       },
       {
         "a": "gcp-dialogflow",
-        "b": "gcp-advanced-agent-modeling",
-        "similarity": 0.2394
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.2439
       },
       {
         "a": "gcp-dialogflow",
-        "b": "azure-linux",
-        "similarity": 0.2347
+        "b": "gcp-advanced-agent-modeling",
+        "similarity": 0.2394
       }
     ],
     "gcp-dialogflow-cx": [
@@ -9080,6 +9087,11 @@
     "gcp-powershell-tools": [
       {
         "a": "gcp-powershell-tools",
+        "b": "aws-iot-fire-tv",
+        "similarity": 0.2369
+      },
+      {
+        "a": "gcp-powershell-tools",
         "b": "azure-file-shares",
         "similarity": 0.2269
       },
@@ -9087,11 +9099,6 @@
         "a": "azure-application-security-groups",
         "b": "gcp-powershell-tools",
         "similarity": 0.2221
-      },
-      {
-        "a": "gcp-powershell-tools",
-        "b": "aws-general-database",
-        "similarity": 0.2162
       }
     ],
     "gcp-cloud-media-edge": [
@@ -15025,13 +15032,13 @@
       },
       {
         "a": "azure-intune-client-apps",
-        "b": "azure-code",
-        "similarity": 0.3039
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.3241
       },
       {
         "a": "azure-intune-client-apps",
-        "b": "aws-general-multimedia",
-        "similarity": 0.2989
+        "b": "azure-code",
+        "similarity": 0.3039
       }
     ],
     "azure-intune-devices": [
@@ -15070,6 +15077,11 @@
     ],
     "azure-software-updates": [
       {
+        "a": "azure-software-updates",
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.4379
+      },
+      {
         "a": "azure-device-security-windows",
         "b": "azure-software-updates",
         "similarity": 0.3837
@@ -15078,14 +15090,14 @@
         "a": "aws-sagemaker-studio-lab",
         "b": "azure-software-updates",
         "similarity": 0.3333
-      },
-      {
-        "a": "azure-software-updates",
-        "b": "aws-iot-thing-industrial-pc",
-        "similarity": 0.3122
       }
     ],
     "azure-security-baselines": [
+      {
+        "a": "azure-security-baselines",
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.2185
+      },
       {
         "a": "azure-software-updates",
         "b": "azure-security-baselines",
@@ -15095,11 +15107,6 @@
         "a": "azure-device-security-windows",
         "b": "azure-security-baselines",
         "similarity": 0.2061
-      },
-      {
-        "a": "azure-security-baselines",
-        "b": "azure-recent",
-        "similarity": 0.2052
       }
     ],
     "azure-device-enrollment": [
@@ -15114,9 +15121,9 @@
         "similarity": 0.2997
       },
       {
-        "a": "azure-intune-client-apps",
-        "b": "azure-device-enrollment",
-        "similarity": 0.272
+        "a": "azure-device-enrollment",
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.2796
       }
     ],
     "azure-device-configuration": [
@@ -15234,8 +15241,8 @@
       },
       {
         "a": "azure-user-subscriptions",
-        "b": "azure-privileged-identity-management",
-        "similarity": 0.2264
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.231
       }
     ],
     "azure-entra-domain-services": [
@@ -15313,14 +15320,14 @@
         "similarity": 0.301
       },
       {
+        "a": "azure-ad-b2c",
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.2946
+      },
+      {
         "a": "azure-databricks",
         "b": "azure-ad-b2c",
         "similarity": 0.2734
-      },
-      {
-        "a": "gcp-api-monetization",
-        "b": "azure-ad-b2c",
-        "similarity": 0.2705
       }
     ],
     "azure-directory-users": [
@@ -15347,14 +15354,14 @@
         "similarity": 0.2264
       },
       {
+        "a": "azure-entra-id-protection",
+        "b": "aws-iot-echo",
+        "similarity": 0.2167
+      },
+      {
         "a": "azure-partner-topic",
         "b": "azure-entra-id-protection",
         "similarity": 0.2155
-      },
-      {
-        "a": "azure-entra-id-protection",
-        "b": "azure-alerts",
-        "similarity": 0.2149
       }
     ],
     "azure-app-registrations": [
@@ -15483,14 +15490,14 @@
         "similarity": 0.3338
       },
       {
+        "a": "azure-entra-internet-access",
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.3084
+      },
+      {
         "a": "azure-logic-apps-custom-connector",
         "b": "azure-entra-internet-access",
         "similarity": 0.2991
-      },
-      {
-        "a": "azure-business-process-tracking",
-        "b": "azure-entra-internet-access",
-        "similarity": 0.2725
       }
     ],
     "azure-external-id": [
@@ -15598,6 +15605,11 @@
     "azure-privileged-identity-management": [
       {
         "a": "azure-privileged-identity-management",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2469
+      },
+      {
+        "a": "azure-privileged-identity-management",
         "b": "azure-load-test",
         "similarity": 0.2335
       },
@@ -15605,11 +15617,6 @@
         "a": "azure-privileged-identity-management",
         "b": "azure-recent",
         "similarity": 0.2286
-      },
-      {
-        "a": "azure-user-subscriptions",
-        "b": "azure-privileged-identity-management",
-        "similarity": 0.2264
       }
     ],
     "azure-api-proxy": [
@@ -15964,9 +15971,9 @@
         "similarity": 0.203
       },
       {
-        "a": "azure-netapp-files",
-        "b": "azure-bot-services",
-        "similarity": 0.1941
+        "a": "azure-bot-services",
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.2022
       }
     ],
     "azure-cognitive-services": [
@@ -16588,17 +16595,22 @@
         "similarity": 0.2758
       },
       {
+        "a": "azure-hybrid-connectivity-hub",
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.268
+      },
+      {
         "a": "azure-business-process-tracking",
         "b": "azure-hybrid-connectivity-hub",
         "similarity": 0.2618
-      },
-      {
-        "a": "azure-hybrid-connectivity-hub",
-        "b": "azure-iot-edge",
-        "similarity": 0.2595
       }
     ],
     "azure-time-series-environments": [
+      {
+        "a": "azure-time-series-environments",
+        "b": "aws-iot-fire-tv",
+        "similarity": 0.3173
+      },
       {
         "a": "azure-time-series-environments",
         "b": "azure-mobile",
@@ -16608,11 +16620,6 @@
         "a": "azure-time-series-environments",
         "b": "azure-resource-explorer",
         "similarity": 0.3058
-      },
-      {
-        "a": "azure-time-series-environments",
-        "b": "azure-managed-desktop",
-        "similarity": 0.2992
       }
     ],
     "azure-iot-hub": [
@@ -16645,8 +16652,8 @@
       },
       {
         "a": "azure-iot-central-applications",
-        "b": "aws-iot-thing-industrial-pc",
-        "similarity": 0.2991
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.3135
       }
     ],
     "azure-maps-accounts": [
@@ -17111,6 +17118,11 @@
     "azure-solutions": [
       {
         "a": "azure-solutions",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2239
+      },
+      {
+        "a": "azure-solutions",
         "b": "azure-frontdoor-cdn-profiles",
         "similarity": 0.2134
       },
@@ -17118,11 +17130,6 @@
         "a": "azure-enterprise-applications",
         "b": "azure-solutions",
         "similarity": 0.2124
-      },
-      {
-        "a": "azure-solutions",
-        "b": "fabric-document-ssis-play",
-        "similarity": 0.2108
       }
     ],
     "azure-automation-accounts": [
@@ -17210,7 +17217,131 @@
         "similarity": 0.3262
       }
     ],
+    "aws-iot-alexa-device": [
+      {
+        "a": "aws-iot-alexa-device",
+        "b": "azure-website-staging",
+        "similarity": 0.2989
+      },
+      {
+        "a": "aws-iot-alexa-device",
+        "b": "azure-log-streaming",
+        "similarity": 0.2919
+      },
+      {
+        "a": "aws-iot-alexa-device",
+        "b": "aws-iot-reported-state",
+        "similarity": 0.2889
+      }
+    ],
+    "aws-iot-alexa-skill": [
+      {
+        "a": "aws-iot-alexa-skill",
+        "b": "aws-general-chat",
+        "similarity": 0.3265
+      },
+      {
+        "a": "azure-intune-client-apps",
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.3241
+      },
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "aws-iot-alexa-skill",
+        "similarity": 0.3179
+      }
+    ],
+    "aws-iot-alexa-voice-service": [
+      {
+        "a": "azure-privileged-identity-management",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2469
+      },
+      {
+        "a": "azure-hybrid-connectivity-hub",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2459
+      },
+      {
+        "a": "aws-iot-alexa-voice-service",
+        "b": "azure-counter",
+        "similarity": 0.2355
+      }
+    ],
+    "aws-iot-echo": [
+      {
+        "a": "aws-iot-echo",
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.3122
+      },
+      {
+        "a": "aws-iot-echo",
+        "b": "aws-general-server",
+        "similarity": 0.2814
+      },
+      {
+        "a": "aws-iot-echo",
+        "b": "aws-iot-thing-generic",
+        "similarity": 0.2526
+      }
+    ],
+    "aws-iot-fire-tv": [
+      {
+        "a": "aws-iot-fire-tv",
+        "b": "aws-iot-http",
+        "similarity": 0.4281
+      },
+      {
+        "a": "aws-iot-fire-tv",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.3378
+      },
+      {
+        "a": "azure-time-series-environments",
+        "b": "aws-iot-fire-tv",
+        "similarity": 0.3173
+      }
+    ],
+    "aws-iot-fire-tv-stick": [
+      {
+        "a": "azure-software-updates",
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.4379
+      },
+      {
+        "a": "azure-iot-central-applications",
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.3135
+      },
+      {
+        "a": "azure-ad-b2c",
+        "b": "aws-iot-fire-tv-stick",
+        "similarity": 0.2946
+      }
+    ],
+    "aws-iot-lambda-function": [
+      {
+        "a": "azure-logic-apps-custom-connector",
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.4113
+      },
+      {
+        "a": "azure-entra-internet-access",
+        "b": "aws-iot-lambda-function",
+        "similarity": 0.3084
+      },
+      {
+        "a": "aws-iot-lambda-function",
+        "b": "aws-iot-reported-state",
+        "similarity": 0.2682
+      }
+    ],
     "aws-iot-http": [
+      {
+        "a": "aws-iot-fire-tv",
+        "b": "aws-iot-http",
+        "similarity": 0.4281
+      },
       {
         "a": "aws-iot-http",
         "b": "azure-host-groups",
@@ -17220,11 +17351,6 @@
         "a": "aws-iot-http",
         "b": "aws-appconfig",
         "similarity": 0.3069
-      },
-      {
-        "a": "aws-iot-http",
-        "b": "aws-sitewise-asset-properties",
-        "similarity": 0.3061
       }
     ],
     "aws-iot-http2": [
@@ -17314,6 +17440,11 @@
     ],
     "aws-iot-topic": [
       {
+        "a": "aws-iot-alexa-skill",
+        "b": "aws-iot-topic",
+        "similarity": 0.2746
+      },
+      {
         "a": "azure-partner-topic",
         "b": "aws-iot-topic",
         "similarity": 0.2606
@@ -17322,11 +17453,6 @@
         "a": "azure-resources-provider",
         "b": "aws-iot-topic",
         "similarity": 0.25
-      },
-      {
-        "a": "aws-iot-topic",
-        "b": "azure-website-staging",
-        "similarity": 0.2421
       }
     ],
     "aws-iot-rule": [
@@ -17460,9 +17586,9 @@
         "similarity": 0.2953
       },
       {
-        "a": "aws-iot-reported-state",
-        "b": "azure-website-staging",
-        "similarity": 0.2857
+        "a": "aws-iot-alexa-device",
+        "b": "aws-iot-reported-state",
+        "similarity": 0.2889
       }
     ],
     "aws-iot-shadow": [
@@ -17965,14 +18091,14 @@
         "similarity": 0.332
       },
       {
+        "a": "aws-iot-echo",
+        "b": "aws-iot-thing-travel",
+        "similarity": 0.3122
+      },
+      {
         "a": "azure-stack-hci-sizer",
         "b": "aws-iot-thing-travel",
         "similarity": 0.3001
-      },
-      {
-        "a": "aws-iot-fleet-hub",
-        "b": "aws-iot-thing-travel",
-        "similarity": 0.2728
       }
     ],
     "aws-iot-thing-utility": [
@@ -18096,6 +18222,11 @@
     ],
     "aws-iot-thing-vibration-sensor": [
       {
+        "a": "aws-iot-fire-tv",
+        "b": "aws-iot-thing-vibration-sensor",
+        "similarity": 0.3378
+      },
+      {
         "a": "azure-intune-ebooks",
         "b": "aws-iot-thing-vibration-sensor",
         "similarity": 0.3232
@@ -18104,11 +18235,6 @@
         "a": "azure-device-security-windows",
         "b": "aws-iot-thing-vibration-sensor",
         "similarity": 0.3132
-      },
-      {
-        "a": "azure-intune-client-apps",
-        "b": "aws-iot-thing-vibration-sensor",
-        "similarity": 0.2877
       }
     ],
     "aws-iot-thing-thermostat": [
@@ -20010,9 +20136,9 @@
         "similarity": 0.277
       },
       {
-        "a": "aws-eventbridge-rule",
+        "a": "aws-iot-fire-tv",
         "b": "aws-general-source-code",
-        "similarity": 0.2638
+        "similarity": 0.2722
       }
     ],
     "aws-general-tape-storage": [
@@ -20532,14 +20658,14 @@
         "similarity": 0.3333
       },
       {
-        "a": "aws-general-chat",
-        "b": "azure-folder-website",
-        "similarity": 0.2773
+        "a": "aws-iot-alexa-skill",
+        "b": "aws-general-chat",
+        "similarity": 0.3265
       },
       {
         "a": "aws-general-chat",
-        "b": "azure-website-staging",
-        "similarity": 0.2724
+        "b": "azure-folder-website",
+        "similarity": 0.2773
       }
     ],
     "aws-general-data-stream": [
@@ -25747,14 +25873,14 @@
         "similarity": 0.3717
       },
       {
-        "a": "aws-workmail",
+        "a": "aws-iot-alexa-skill",
         "b": "azure-website-staging",
-        "similarity": 0.2954
+        "similarity": 0.3083
       },
       {
-        "a": "azure-website-staging",
-        "b": "azure-search",
-        "similarity": 0.2935
+        "a": "aws-iot-alexa-device",
+        "b": "azure-website-staging",
+        "similarity": 0.2989
       }
     ],
     "azure-web-slots": [
@@ -26772,9 +26898,9 @@
         "similarity": 0.2354
       },
       {
-        "a": "aws-iot-device-location",
+        "a": "aws-iot-alexa-voice-service",
         "b": "azure-branch",
-        "similarity": 0.2116
+        "similarity": 0.2216
       }
     ],
     "azure-browser": [
@@ -26830,6 +26956,11 @@
     ],
     "azure-cache": [
       {
+        "a": "aws-iot-alexa-device",
+        "b": "azure-cache",
+        "similarity": 0.2827
+      },
+      {
         "a": "aws-sitewise-data-streams",
         "b": "azure-cache",
         "similarity": 0.2671
@@ -26838,11 +26969,6 @@
         "a": "aws-general-multimedia",
         "b": "azure-cache",
         "similarity": 0.251
-      },
-      {
-        "a": "azure-enterprise-applications",
-        "b": "azure-cache",
-        "similarity": 0.2508
       }
     ],
     "azure-code": [
@@ -26932,6 +27058,11 @@
     ],
     "azure-information": [
       {
+        "a": "aws-iot-fire-tv",
+        "b": "azure-information",
+        "similarity": 0.2886
+      },
+      {
         "a": "m365-retail-building",
         "b": "azure-information",
         "similarity": 0.2723
@@ -26940,11 +27071,6 @@
         "a": "gcp-trace",
         "b": "azure-information",
         "similarity": 0.2633
-      },
-      {
-        "a": "m365-script",
-        "b": "azure-information",
-        "similarity": 0.2593
       }
     ],
     "azure-recent": [
@@ -30931,14 +31057,14 @@
         "similarity": 0.117
       },
       {
+        "a": "aws-iot-alexa-device",
+        "b": "fabric-info",
+        "similarity": 0.1168
+      },
+      {
         "a": "fabric-three-shapes",
         "b": "fabric-info",
         "similarity": 0.1151
-      },
-      {
-        "a": "aws-verified-access",
-        "b": "fabric-info",
-        "similarity": 0.1133
       }
     ],
     "fabric-send-circle": [
