@@ -2885,7 +2885,7 @@
       ],
       "revision": "83aec350c52e10a278a0373e121307a2c6e51d77fd4f8b5692bef1f179e7c147",
       "geometrySignature": "0157d649354182e186ab152641d67dda3797963cdaaa89d8bbc366fed13134ec",
-      "comparisonRevision": "3e9cea5857dae4b3cc61a84109e0d6269257566daa1e5124f2083325686d23a2",
+      "comparisonRevision": "281fd51a8f6a6464c42061973f4c204eefe6b929682d2c7c15820e943a6f1600",
       "review": "pending",
       "notes": ""
     },
@@ -8335,7 +8335,7 @@
       ],
       "revision": "08ea1595d6addcd27bc5ae24cd80abccb5d1e4cea66a8f5f1fdc0be821f6ff7c",
       "geometrySignature": "d64a5b693e35b6a17aa073d387201b045fcab54145582688a005b804bdcfd296",
-      "comparisonRevision": "1c6e547936959d832b876ecda98c3050d866f249d652196a84576ef4a90baca3",
+      "comparisonRevision": "a8f25ae85ef1a61bada1ec10843f8b7929c110b3601857b71e51dd287cd44112",
       "review": "pending",
       "notes": ""
     },
@@ -8803,7 +8803,7 @@
       ],
       "revision": "99475b2562c5a41f285fe69afae40dfbd49d2c389f28ffacf649e47eb6b54374",
       "geometrySignature": "8961765110eab5d7fa48c5de898d5e727f5864e8281466db5941448a98fa7f21",
-      "comparisonRevision": "cbcd60dcb56df3eb50855c032db9515cfddc878703766dca31c3b07576dfa623",
+      "comparisonRevision": "0e1398c60c07435a9cdfef36b654c4bcf245e47f2df7be204a4d1596c231c891",
       "review": "pending",
       "notes": ""
     },
@@ -9636,6 +9636,78 @@
       "notes": ""
     },
     {
+      "id": "aws-file-cache",
+      "provider": "aws",
+      "name": "Amazon File Cache",
+      "rationale": "A nearby cache speeds access to shared files.",
+      "path": "stencils/aws-file-cache.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-File-Cache_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-File-Cache_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-File-Cache_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-File-Cache_64.svg"
+      ],
+      "revision": "ff37d4a914c979da13f12ab870e52916f70ab575a889ee637123707199bb0747",
+      "geometrySignature": "70162589ec9f386ef24f1fcf00d3c8b640b7c14b2395b48e0ad55e1efd3b70f7",
+      "comparisonRevision": "b565a5e89411327731c0fef4636b6c961100e28f6153eb6fc95e54f34e2a3b78",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-s3-on-outposts",
+      "provider": "aws",
+      "name": "Amazon S3 on Outposts",
+      "rationale": "Object storage is hosted at an on-premises site.",
+      "path": "stencils/aws-s3-on-outposts.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-S3-on-Outposts_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-S3-on-Outposts_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-S3-on-Outposts_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-S3-on-Outposts_64.svg"
+      ],
+      "revision": "e443e36bd50040a9b1a5148e5e00b4a5bbad2e55c14e0a8ae565c1ec9ef3e7ba",
+      "geometrySignature": "20aebb57ea9746b0d326bc0b85088daa152ce840fd702b670c2ca2a614ce1707",
+      "comparisonRevision": "0cfc3bb40e22bd44e4e2cfe07e382a2ac63c1c178b8305078217462e7966c648",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-s3-glacier",
+      "provider": "aws",
+      "name": "Amazon S3 Glacier",
+      "rationale": "An archive box preserves cold data for long-term retrieval.",
+      "path": "stencils/aws-s3-glacier.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/16/Arch_Amazon-Simple-Storage-Service-Glacier_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/32/Arch_Amazon-Simple-Storage-Service-Glacier_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/48/Arch_Amazon-Simple-Storage-Service-Glacier_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Storage/64/Arch_Amazon-Simple-Storage-Service-Glacier_64.svg"
+      ],
+      "revision": "264a231ab39eb59c9ed75c67238c186e987b51b58cd5c42a045d536fcac4bf4b",
+      "geometrySignature": "661a283725df0fc2a27905d83ddaeac2868fc6984a95f571e45ebb19e6618415",
+      "comparisonRevision": "8e01a4c66bc491e16a99ec7697c0d9234dada146e99e3b993be118393f0d8e7e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-application-recovery-controller",
+      "provider": "aws",
+      "name": "Amazon Application Recovery Controller",
+      "rationale": "A recovery controller shifts application traffic from an impaired region to a standby.",
+      "path": "stencils/aws-application-recovery-controller.svg",
+      "sources": [
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/16/Arch_Amazon-Application-Recovery-Controller_16.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/32/Arch_Amazon-Application-Recovery-Controller_32.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/48/Arch_Amazon-Application-Recovery-Controller_48.svg",
+        "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/64/Arch_Amazon-Application-Recovery-Controller_64.svg"
+      ],
+      "revision": "7790b396ff21e78aa8027500e44c3dff7c7fbafa4a7b45f508838f8e51dc9006",
+      "geometrySignature": "882833d5947bb87700ea3db4d3e02f5900e1bb932c8c5425287d5203287b6c33",
+      "comparisonRevision": "56a3fb84ae3b66e9dd7d3c7e6ec1a59ab4a2338cb1032c6f17c6b26c9a0e9448",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "aws-backup",
       "provider": "aws",
       "name": "AWS Backup",
@@ -10213,7 +10285,7 @@
       ],
       "revision": "6edcebcd610b2b7ec590d3a3d6bcdf86b2784d882aa0952441c3f0700c41cf46",
       "geometrySignature": "8dd87bad37c9f138fc7c9f1a877477403afb56c772b8efbed21115a675c5d993",
-      "comparisonRevision": "142721682413f68c487cbe96224c315cf60d0879aaeb47e24c1c478ef2239f59",
+      "comparisonRevision": "fd3384518f8cbc9905d1a47cddcc51abde53b5b7d9b8436c46be2faab5f991a8",
       "review": "pending",
       "notes": ""
     },
@@ -12403,7 +12475,7 @@
       ],
       "revision": "0c779ae010946b41a61bcd8928772a4357a9ecbdf3594469ac0637d1aea6df7a",
       "geometrySignature": "a935c1d8101170de74ec5be38c681c60006da5ea8512ed52d990d599bb4378c5",
-      "comparisonRevision": "63d56a873a62919ad5f89fdaa3b3a625bdffb5a627fbf40fb67be06232d2e505",
+      "comparisonRevision": "ff2b9f5ff8adbe8456f76c255e1f00f99e17c4ee6d92b421d45aa6edc1f0cf0f",
       "review": "pending",
       "notes": ""
     },

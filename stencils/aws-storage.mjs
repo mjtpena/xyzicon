@@ -3,6 +3,47 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsStorageArtwork = [
+  entry("aws-file-cache", "aws", "Amazon File Cache", sizes("Amazon-File-Cache"),
+    "A nearby cache speeds access to shared files.",
+    [
+      line([8, 29], [29, 29], [35, 36], [58, 36], [58, 78], [8, 78], [8, 29]),
+      line([15, 47], [49, 47]), line([15, 56], [42, 56]), line([15, 65], [49, 65]),
+      line([58, 53], [72, 53]), line([66, 47], [72, 53], [66, 59]),
+      rect(76, 26, 39, 58), line([76, 37], [115, 37]), line([83, 33], [108, 33]),
+      line([100, 43], [89, 59], [97, 59], [90, 75], [107, 55], [99, 55], [100, 43]),
+      line([22, 101], [105, 101]),
+    ]),
+  entry("aws-s3-on-outposts", "aws", "Amazon S3 on Outposts", sizes("Amazon-S3-on-Outposts"),
+    "Object storage is hosted at an on-premises site.",
+    [
+      line([10, 34], [15, 77], [22, 83], [48, 83], [55, 77], [60, 34]),
+      oval(10, 25, 50, 18), line([20, 52], [49, 52]), line([20, 62], [44, 62]),
+      line([62, 58], [76, 58]), line([70, 52], [76, 58], [70, 64]),
+      line([80, 101], [80, 38], [98, 26], [116, 38], [116, 101]),
+      rect(89, 49, 18, 14), line([89, 56], [107, 56]), line([98, 49], [98, 63]),
+      rect(93, 76, 10, 25), line([74, 101], [121, 101]),
+      line([14, 105], [59, 105]),
+    ]),
+  entry("aws-s3-glacier", "aws", "Amazon S3 Glacier", sizes("Amazon-Simple-Storage-Service-Glacier"),
+    "An archive box preserves cold data for long-term retrieval.",
+    [
+      rect(16, 43, 74, 58), line([12, 35], [94, 35], [94, 47], [12, 47], [12, 35]),
+      rect(37, 57, 32, 13), line([44, 64], [62, 64]), line([25, 82], [52, 82]),
+      line([100, 13], [100, 53]), line([82, 23], [118, 43]), line([82, 43], [118, 23]),
+      line([94, 17], [100, 23], [106, 17]), line([94, 49], [100, 43], [106, 49]),
+      line([16, 112], [107, 112]),
+    ]),
+  entry("aws-application-recovery-controller", "aws", "Amazon Application Recovery Controller", sizes("Amazon-Application-Recovery-Controller"),
+    "A recovery controller shifts application traffic from an impaired region to a standby.",
+    [
+      rect(8, 48, 37, 39), line([8, 58], [45, 58]), line([15, 68], [28, 68]),
+      line([31, 64], [39, 72]), line([39, 64], [31, 72]),
+      rect(83, 48, 37, 39), line([83, 58], [120, 58]), line([90, 68], [101, 68]),
+      line([103, 70], [107, 74], [114, 65]),
+      line([45, 67], [83, 67]), line([76, 60], [83, 67], [76, 74]),
+      rect(47, 11, 34, 20), line([55, 21], [73, 21]), line([64, 31], [64, 48]),
+      line([18, 105], [109, 105]),
+    ]),
   entry("aws-backup", "aws", "AWS Backup", sizes("AWS-Backup"),
     "A scheduled backup preserves an archive for restoration.",
     [
