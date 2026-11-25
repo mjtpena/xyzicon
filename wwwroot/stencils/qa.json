@@ -3,13 +3,14 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 264,
+  "approved": 263,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "azure-blockchain-outbound",
     "gcp-bigtable",
     "gcp-artifact-registry",
     "gcp-cloud-build",
@@ -3825,11 +3826,6 @@
     "azure-blockchain-outbound": [
       {
         "a": "azure-blockchain-outbound",
-        "b": "aws-health-omics",
-        "similarity": 0.219
-      },
-      {
-        "a": "azure-blockchain-outbound",
         "b": "azure-traffic-manager-multistack",
         "similarity": 0.2044
       },
@@ -3837,6 +3833,11 @@
         "a": "azure-blockchain-outbound",
         "b": "aws-file-cache-on-premises",
         "similarity": 0.2004
+      },
+      {
+        "a": "azure-blockchain-outbound",
+        "b": "aws-trusted-advisor-fault",
+        "similarity": 0.1983
       }
     ],
     "azure-blockchain-service": [
@@ -15068,19 +15069,19 @@
     ],
     "aws-health-omics": [
       {
-        "a": "gcp-bigtable",
-        "b": "aws-health-omics",
-        "similarity": 0.239
+        "a": "aws-health-omics",
+        "b": "aws-application-discovery",
+        "similarity": 0.2891
       },
       {
         "a": "aws-health-omics",
-        "b": "aws-cloud-wan-transit-attachment",
-        "similarity": 0.2349
+        "b": "fabric-odata",
+        "similarity": 0.2835
       },
       {
-        "a": "m365-shifts",
+        "a": "gcp-bigtable",
         "b": "aws-health-omics",
-        "similarity": 0.2202
+        "similarity": 0.2128
       }
     ],
     "aws-health-scribe": [
@@ -24282,6 +24283,11 @@
     ],
     "aws-application-discovery": [
       {
+        "a": "aws-health-omics",
+        "b": "aws-application-discovery",
+        "similarity": 0.2891
+      },
+      {
         "a": "azure-application-security-groups",
         "b": "aws-application-discovery",
         "similarity": 0.223
@@ -24290,11 +24296,6 @@
         "a": "aws-application-discovery",
         "b": "aws-ec2-instances",
         "similarity": 0.2227
-      },
-      {
-        "a": "azure-dns-security-policy",
-        "b": "aws-application-discovery",
-        "similarity": 0.2189
       }
     ],
     "aws-trusted-advisor-checklist": [
@@ -38659,6 +38660,11 @@
     ],
     "fabric-odata": [
       {
+        "a": "aws-health-omics",
+        "b": "fabric-odata",
+        "similarity": 0.2835
+      },
+      {
         "a": "aws-service-management-connector",
         "b": "fabric-odata",
         "similarity": 0.2243
@@ -38667,11 +38673,6 @@
         "a": "azure-fiji",
         "b": "fabric-odata",
         "similarity": 0.219
-      },
-      {
-        "a": "aws-data-exchange-api",
-        "b": "fabric-odata",
-        "similarity": 0.2156
       }
     ],
     "fabric-schema": [
