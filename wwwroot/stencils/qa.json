@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1005,
-  "aliases": 3811,
+  "count": 1009,
+  "aliases": 3827,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -926,6 +926,10 @@
     "fabric-datatype-boolean",
     "fabric-datatype-string",
     "fabric-datatype-long",
+    "fabric-datatype-decimal",
+    "fabric-datatype-double",
+    "fabric-datatype-float",
+    "fabric-datatype-integer",
     "fabric-document-power-query",
     "fabric-gauge-kql",
     "fabric-home-kql",
@@ -1020,6 +1024,13 @@
       "notes": "The arrowheads point in opposite directions, including at 32px."
     },
     {
+      "a": "fabric-datatype-double",
+      "b": "fabric-datatype-float",
+      "similarity": 0.7127,
+      "review": "distinct",
+      "notes": "The double has a closed D suffix while the float has an open F suffix; both remain readable at 32px."
+    },
+    {
       "a": "m365-chevron-circle",
       "b": "m365-dismiss-circle",
       "similarity": 0.6972,
@@ -1084,8 +1095,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1169,
-      "concepts": 201
+      "covered": 1185,
+      "concepts": 205
     },
     "entra": {
       "sources": 14,
@@ -1173,6 +1184,11 @@
     "azure-cosmos-db": [
       {
         "a": "azure-cosmos-db",
+        "b": "fabric-datatype-decimal",
+        "similarity": 0.1523
+      },
+      {
+        "a": "azure-cosmos-db",
         "b": "m365-handshake",
         "similarity": 0.1367
       },
@@ -1180,11 +1196,6 @@
         "a": "azure-cosmos-db",
         "b": "aws-workspaces",
         "similarity": 0.134
-      },
-      {
-        "a": "azure-cosmos-db",
-        "b": "fabric-progress-bars",
-        "similarity": 0.129
       }
     ],
     "azure-key-vault": [
@@ -3400,18 +3411,18 @@
     "m365-code": [
       {
         "a": "m365-code",
+        "b": "fabric-datatype-float",
+        "similarity": 0.2463
+      },
+      {
+        "a": "m365-code",
+        "b": "fabric-datatype-double",
+        "similarity": 0.2164
+      },
+      {
+        "a": "m365-code",
         "b": "fabric-calculator-brackets",
         "similarity": 0.2009
-      },
-      {
-        "a": "m365-code",
-        "b": "fabric-restricted-report",
-        "similarity": 0.1913
-      },
-      {
-        "a": "m365-code",
-        "b": "fabric-stacked-text",
-        "similarity": 0.1805
       }
     ],
     "m365-data-pie": [
@@ -16804,6 +16815,78 @@
         "a": "aws-data-transfer-terminal",
         "b": "fabric-datatype-long",
         "similarity": 0.1703
+      }
+    ],
+    "fabric-datatype-decimal": [
+      {
+        "a": "m365-settings",
+        "b": "fabric-datatype-decimal",
+        "similarity": 0.1835
+      },
+      {
+        "a": "azure-container-instances",
+        "b": "fabric-datatype-decimal",
+        "similarity": 0.1731
+      },
+      {
+        "a": "fabric-datatype-decimal",
+        "b": "fabric-table-wand",
+        "similarity": 0.1619
+      }
+    ],
+    "fabric-datatype-double": [
+      {
+        "a": "fabric-datatype-double",
+        "b": "fabric-datatype-float",
+        "similarity": 0.7127,
+        "review": "distinct",
+        "notes": "The double has a closed D suffix while the float has an open F suffix; both remain readable at 32px."
+      },
+      {
+        "a": "m365-code",
+        "b": "fabric-datatype-double",
+        "similarity": 0.2164
+      },
+      {
+        "a": "azure-app-services",
+        "b": "fabric-datatype-double",
+        "similarity": 0.181
+      }
+    ],
+    "fabric-datatype-float": [
+      {
+        "a": "fabric-datatype-double",
+        "b": "fabric-datatype-float",
+        "similarity": 0.7127,
+        "review": "distinct",
+        "notes": "The double has a closed D suffix while the float has an open F suffix; both remain readable at 32px."
+      },
+      {
+        "a": "m365-code",
+        "b": "fabric-datatype-float",
+        "similarity": 0.2463
+      },
+      {
+        "a": "fabric-datatype-float",
+        "b": "fabric-square-transfer",
+        "similarity": 0.1678
+      }
+    ],
+    "fabric-datatype-integer": [
+      {
+        "a": "m365-settings",
+        "b": "fabric-datatype-integer",
+        "similarity": 0.1755
+      },
+      {
+        "a": "m365-text-bullet-list",
+        "b": "fabric-datatype-integer",
+        "similarity": 0.1384
+      },
+      {
+        "a": "fabric-datatype-float",
+        "b": "fabric-datatype-integer",
+        "similarity": 0.1346
       }
     ],
     "fabric-document-power-query": [
