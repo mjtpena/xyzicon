@@ -2,6 +2,28 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const cloudArtwork = [
+  entry("azure-collaborative-service", "azure", "Collaborative Service", ["01038-icon-service-Collaborative-Service"],
+    "Three participants collaborate in a connected circle.",
+    [
+      oval(49, 12, 19, 19), line([42, 49], [44, 38], [49, 33], [58, 31], [67, 33], [72, 38], [74, 49]),
+      oval(13, 61, 19, 19), line([6, 105], [8, 92], [13, 84], [22, 82], [31, 84], [36, 92], [38, 105]),
+      oval(85, 61, 19, 19), line([78, 105], [80, 92], [85, 84], [94, 82], [103, 84], [108, 92], [110, 105]),
+      line([37, 46], [29, 52], [25, 59]), line([80, 46], [88, 52], [92, 59]), line([42, 95], [74, 95]), line([14, 114], [112, 114]),
+    ]),
+  entry("azure-applens", "azure", "AppLens", ["02354-icon-service-Applens"],
+    "A lens inspects an application's health signal.",
+    [
+      rect(14, 21, 70, 67), line([14, 34], [84, 34]), oval(20, 25, 4, 4, true), oval(29, 25, 4, 4, true),
+      line([22, 62], [33, 62], [38, 49], [45, 72], [52, 55], [58, 62], [70, 62]),
+      oval(63, 54, 29, 29), line([85, 77], [106, 98]), line([13, 111], [110, 111]),
+    ]),
+  entry("azure-hybrid-center", "azure", "Azure Hybrid Center", ["02573-icon-service-Azure-Hybrid-Center"],
+    "An on-premises server connects to the cloud.",
+    [
+      line([57, 57], [57, 48], [62, 40], [71, 37], [75, 27], [85, 23], [95, 27], [99, 36], [108, 38], [114, 46], [114, 56], [108, 62], [62, 62], [57, 57]),
+      rect(12, 49, 37, 43), line([19, 59], [42, 59]), line([19, 69], [42, 69]), line([19, 79], [42, 79]), oval(22, 55, 3, 3, true), oval(22, 65, 3, 3, true), oval(22, 75, 3, 3, true),
+      line([49, 72], [72, 72], [72, 62]), line([15, 109], [112, 109]),
+    ]),
   entry("azure-blockchain-applications", "azure", "Blockchain Applications", ["10210-icon-service-Blockchain-Applications"],
     "An application sends code to a blockchain block.",
     [

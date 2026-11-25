@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1401,
-  "aliases": 4463,
+  "count": 1404,
+  "aliases": 4466,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -57,6 +57,9 @@
     "gcp-cloud-sql",
     "gcp-compute-engine",
     "gcp-storage",
+    "azure-collaborative-service",
+    "azure-applens",
+    "azure-hybrid-center",
     "azure-blockchain-applications",
     "azure-blockchain-outbound",
     "azure-blockchain-service",
@@ -1671,8 +1674,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 235,
-      "concepts": 183
+      "covered": 238,
+      "concepts": 186
     },
     "fabric": {
       "sources": 1584,
@@ -2593,6 +2596,57 @@
         "a": "gcp-storage",
         "b": "gcp-user-preferences",
         "similarity": 0.281
+      }
+    ],
+    "azure-collaborative-service": [
+      {
+        "a": "azure-collaborative-service",
+        "b": "gcp-early-access",
+        "similarity": 0.2378
+      },
+      {
+        "a": "azure-collaborative-service",
+        "b": "gcp-cloud-ops",
+        "similarity": 0.2276
+      },
+      {
+        "a": "azure-collaborative-service",
+        "b": "fabric-home-lightning",
+        "similarity": 0.2216
+      }
+    ],
+    "azure-applens": [
+      {
+        "a": "azure-applens",
+        "b": "aws-rekognition-image",
+        "similarity": 0.3412
+      },
+      {
+        "a": "azure-applens",
+        "b": "gcp-video-intelligence",
+        "similarity": 0.3215
+      },
+      {
+        "a": "azure-applens",
+        "b": "aws-ec2-rescue",
+        "similarity": 0.2834
+      }
+    ],
+    "azure-hybrid-center": [
+      {
+        "a": "azure-hybrid-center",
+        "b": "aws-eventbridge-rule",
+        "similarity": 0.2559
+      },
+      {
+        "a": "azure-hybrid-center",
+        "b": "gcp-external-key-manager",
+        "similarity": 0.2522
+      },
+      {
+        "a": "azure-hybrid-center",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.2144
       }
     ],
     "azure-blockchain-applications": [
@@ -6177,9 +6231,9 @@
         "similarity": 0.3256
       },
       {
-        "a": "azure-waf-policies",
+        "a": "azure-applens",
         "b": "gcp-video-intelligence",
-        "similarity": 0.2791
+        "similarity": 0.3215
       }
     ],
     "gcp-recommendations-ai": [
@@ -6296,9 +6350,9 @@
         "similarity": 0.2334
       },
       {
-        "a": "gcp-cloud-ops",
-        "b": "gcp-virtual-private-cloud",
-        "similarity": 0.2262
+        "a": "azure-collaborative-service",
+        "b": "gcp-cloud-ops",
+        "similarity": 0.2276
       }
     ],
     "gcp-performance-dashboard": [
@@ -12566,6 +12620,11 @@
     ],
     "aws-rekognition-image": [
       {
+        "a": "azure-applens",
+        "b": "aws-rekognition-image",
+        "similarity": 0.3412
+      },
+      {
         "a": "aws-rekognition-image",
         "b": "aws-ec2-ami",
         "similarity": 0.2959
@@ -12574,11 +12633,6 @@
         "a": "aws-rekognition-image",
         "b": "aws-ec2-db-instance",
         "similarity": 0.25
-      },
-      {
-        "a": "aws-rekognition-image",
-        "b": "fabric-tables-curve-right",
-        "similarity": 0.245
       }
     ],
     "aws-rekognition-video": [
@@ -18896,9 +18950,9 @@
         "similarity": 0.2591
       },
       {
-        "a": "aws-sns-http-notification",
+        "a": "azure-applens",
         "b": "aws-ec2-db-instance",
-        "similarity": 0.2506
+        "similarity": 0.2509
       }
     ],
     "aws-ec2-elastic-ip": [
@@ -18971,6 +19025,11 @@
     ],
     "aws-ec2-rescue": [
       {
+        "a": "azure-applens",
+        "b": "aws-ec2-rescue",
+        "similarity": 0.2834
+      },
+      {
         "a": "gcp-video-intelligence",
         "b": "aws-ec2-rescue",
         "similarity": 0.2636
@@ -18979,11 +19038,6 @@
         "a": "gcp-user-preferences",
         "b": "aws-ec2-rescue",
         "similarity": 0.254
-      },
-      {
-        "a": "aws-ec2-rescue",
-        "b": "aws-beanstalk-deployment",
-        "similarity": 0.2182
       }
     ],
     "aws-ec2-spot-instance": [
@@ -19707,14 +19761,14 @@
         "similarity": 0.2752
       },
       {
+        "a": "azure-applens",
+        "b": "aws-category-compute",
+        "similarity": 0.2622
+      },
+      {
         "a": "gcp-vmware-engine",
         "b": "aws-category-compute",
         "similarity": 0.249
-      },
-      {
-        "a": "aws-amplify-studio",
-        "b": "aws-category-compute",
-        "similarity": 0.248
       }
     ],
     "aws-category-databases": [
@@ -21339,14 +21393,14 @@
         "similarity": 0.1739
       },
       {
+        "a": "azure-applens",
+        "b": "fabric-datatype-byte",
+        "similarity": 0.1729
+      },
+      {
         "a": "aws-management-console",
         "b": "fabric-datatype-byte",
         "similarity": 0.1695
-      },
-      {
-        "a": "m365-cloud-database",
-        "b": "fabric-datatype-byte",
-        "similarity": 0.1682
       }
     ],
     "fabric-document-people": [
@@ -22966,14 +23020,14 @@
         "similarity": 0.6466
       },
       {
+        "a": "azure-applens",
+        "b": "fabric-tables-curve-right",
+        "similarity": 0.2757
+      },
+      {
         "a": "entra-id",
         "b": "fabric-tables-curve-right",
         "similarity": 0.2724
-      },
-      {
-        "a": "aws-ec2-instances",
-        "b": "fabric-tables-curve-right",
-        "similarity": 0.2706
       }
     ],
     "fabric-tables-curve-right-new": [
