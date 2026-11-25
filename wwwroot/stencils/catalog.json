@@ -896,7 +896,7 @@
       ],
       "revision": "1b33e870829972789f9d09fd9acf963c5d2dcf423a15909954b70526928faefe",
       "geometrySignature": "82ceb18f6925371d5637cbe9d5207e6248ea23917ba61b1667424d64fc1f3083",
-      "comparisonRevision": "42aa7fc35425618fd3100dc6270bf8dcae046258ea66312231cbb326b0b9351b",
+      "comparisonRevision": "e1de5fe149aba76f73ddec3e032bfb5127ff3f91c1e39a9327bf74d5431bfaad",
       "review": "pending",
       "notes": ""
     },
@@ -1611,9 +1611,69 @@
       "sources": [
         "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Schema-Registry_48.svg"
       ],
-      "revision": "36e9f9588e4d63065d8c6bd5506985b27ebbe8f834414ddb254d93b74a000370",
-      "geometrySignature": "ac4d7400ddae888cbadb1fa6227a46df6e8e87ace3748d62ea7dbceb446fc533",
-      "comparisonRevision": "be00ff60e6e4f6538c7677e1b9b2d5b9659da426f641a5617e02556b9039443a",
+      "revision": "2a14f11a249301264013fb5cefe2000d8b9b81160bff8a084ce59b7f258b93b6",
+      "geometrySignature": "def302a3a89bae799e0bd06e52e5c48d5f348a8cf714c17a93f46daa8aeba112",
+      "comparisonRevision": "79c4c4b5bc668669b6d4f2a49cc9ff44c803949ce7010aa247206addbe8b22b5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-event",
+      "provider": "aws",
+      "name": "EventBridge Event",
+      "rationale": "A change emits an event record as a burst on a timeline.",
+      "path": "stencils/aws-eventbridge-event.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge-Event_48.svg"
+      ],
+      "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+      "geometrySignature": "55f80e09d910baa73c18cf98835b4c4bc920f38f27505500f9b29e934feb9d5d",
+      "comparisonRevision": "1b9d55b612c9239a0270527623aa6f8de8b7c174038de3a33263af6a8fbebc84",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-default-bus",
+      "provider": "aws",
+      "name": "EventBridge Default Event Bus",
+      "rationale": "AWS service events enter the default bus and fan out to targets.",
+      "path": "stencils/aws-eventbridge-default-bus.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Default-Event-Bus_48.svg"
+      ],
+      "revision": "a745cebb3cf9c4091e678b640cff3a2c07685e93e0b9f5881b9f4ec9bddb49ef",
+      "geometrySignature": "01c2444af94a13bf56c88e9f052945cfa8576fc4016b1bb244f3e54f61246229",
+      "comparisonRevision": "f2b6184ade6fde26310ddf2cf234636d386e53d1bd99eb745a1e4f0cd742578a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-custom-bus",
+      "provider": "aws",
+      "name": "EventBridge Custom Event Bus",
+      "rationale": "An application sends events through a user-configured event bus.",
+      "path": "stencils/aws-eventbridge-custom-bus.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Custom-Event-Bus_48.svg"
+      ],
+      "revision": "4185b90e3e31bde54acc3e7820946c9d0cb419ad3aa55e52a4dbd85512d4a4c8",
+      "geometrySignature": "76cb28ba9271d20c7d683b9ffdd50f516409c632de3a43a691e8c2d018cd653b",
+      "comparisonRevision": "e89dc608fa4d823e83246e46fc047ebf0366e92d68a6d9d6b1b9d201e4f4b68a",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-eventbridge-schema",
+      "provider": "aws",
+      "name": "EventBridge Schema",
+      "rationale": "An event schema describes the fields of a structured event.",
+      "path": "stencils/aws-eventbridge-schema.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Schema_48.svg"
+      ],
+      "revision": "82da59467e1f60280a7f93dd581293e143c6481edef040edc905e0542da151b5",
+      "geometrySignature": "fa8842edd6c5c3dae7d352219f37f9087fbf436c21db1d7aa42fdf7e81a3fa42",
+      "comparisonRevision": "f856361d51021a5c40da4c08c2168c24655e84f55f206d70ab496d0da0969bcc",
       "review": "pending",
       "notes": ""
     },
@@ -2719,7 +2779,7 @@
       ],
       "revision": "6627f660898e45d90d4050d248b9f77fdc1698f8d2f548efc6a0229f6c77aa3a",
       "geometrySignature": "1df5dd6dc4604df1bc1ba8004d2d8b18a8a13202224c1ecc4dbebe98dc0f749a",
-      "comparisonRevision": "96ed70e8ac6044eecd87fcce6290eeb0c8430283a79fb7f09d2b1a7f5a6dec7f",
+      "comparisonRevision": "9460d8c993aa46b9fc38e1661ab35ef7fc01e17c9f7f435ca6a932c7de4047e5",
       "review": "pending",
       "notes": ""
     },
@@ -3442,7 +3502,7 @@
       ],
       "revision": "aa82ec2c2d985df64c0010dc16b0d564803eaac4bdab12a1843c2438c3ab774d",
       "geometrySignature": "f13221fecf4ad547e6559aab8d37d9732f5702efda71f4a39d7193a8f8119825",
-      "comparisonRevision": "2372f40f9d3391c1d8f6ea8113d3de7410d399619c980e5cc748039cfdac85a5",
+      "comparisonRevision": "6a4a4939959a13cd3c5bc8421d721fdec7369635b05eef06461f9d68447ee6a4",
       "review": "pending",
       "notes": ""
     },
@@ -3797,7 +3857,7 @@
       ],
       "revision": "0db02a60b95e7baeec6904bcb64c4ce92eb936dc5de935e999242c6c1da4df7e",
       "geometrySignature": "9ee13bd0893b660be147307c81175a93da39a4b3c5bddc36c550585418c24565",
-      "comparisonRevision": "7c4b83a4db40fb0a01dcd05781f4a6fe038094152fe651e4effc0f889fa26857",
+      "comparisonRevision": "74b3183531018a3453ac16c12b89d03c333ccbcf485fa758454fa0b170e56d04",
       "review": "pending",
       "notes": ""
     },
@@ -4023,7 +4083,7 @@
       ],
       "revision": "ad82d240fda0ca0732ec10243cdccd5dcfb3c176b9855dd08a74516b0a5e217e",
       "geometrySignature": "88bbb35c88f967885b9ed4c03cb69ecf37ad6d65f53f75f78106de6c45696d61",
-      "comparisonRevision": "7d336188860b4f9df69af7a43741e4eb5f6fbc3fb76f22cf18179dd040ec8355",
+      "comparisonRevision": "9a8f6107708c492f41fc5794e52ee91e01f5c7f291c398fcc01b4b21e75ca62f",
       "review": "pending",
       "notes": ""
     },
@@ -5016,7 +5076,7 @@
       ],
       "revision": "27bce4cae118086d367e5130ce23bfec0027a5581e45b4be76ca488f75c1b929",
       "geometrySignature": "f28e1fa83c5f4169f614af73423790fabfe3ac4265b64a3b0d2dd750b2b3d032",
-      "comparisonRevision": "4c39ad91adf7621af3c6c6805423d29d667fa1a9f50effad794b85991972615f",
+      "comparisonRevision": "d0882fef9843f4829b7d2b25e37e7900486b3ed744f48e0bea4c950356377bff",
       "review": "pending",
       "notes": ""
     },
@@ -5480,7 +5540,7 @@
       ],
       "revision": "2a583d695d2bd03a54d3267dcac7e7abbde03f405cc1262234a7ae7661a4007b",
       "geometrySignature": "0c43f1542a2b8749fcd0096630809bce1fdfe0235365f1f3e2b66911caea6ebf",
-      "comparisonRevision": "833e16dd75a6d362ddc13efa9a1bedddbe969180d18255408444c31fd2be53be",
+      "comparisonRevision": "b53a430b4e441bf8d68e33a657cde61db80570977ce1e3289304f6e35a43992d",
       "review": "pending",
       "notes": ""
     },
@@ -7344,7 +7404,7 @@
       ],
       "revision": "bbe194e025329f16b7a0f6778ec89da1821358ac7acac842eb2843e8dac28bc1",
       "geometrySignature": "d27dc0c61e71481a05af8923f70fb7a4e630598e31d5b712bcaddff0da2f9ac1",
-      "comparisonRevision": "d8c6532dddc4ea9fcf1d15f4cccadefe5c5972bf799fc7b906dd60993fcc5de8",
+      "comparisonRevision": "795a6ab04005fa6eade1057d6eb1d49ea1e0ccac40e9a4635063f3671c7e43f7",
       "review": "pending",
       "notes": ""
     },
@@ -7830,7 +7890,7 @@
       ],
       "revision": "565c92e575d1e6fde4f4b9c6e959aadc1f7878a51bdd3cbe061dbcf101d7a6fc",
       "geometrySignature": "1247681fb5e44f4437201fca53d1c13580a9fd71a7babaf87a1dfb82374f89a7",
-      "comparisonRevision": "5954981918677685aa3e7b083edbbb30e97976e4832da9d079f7dc190433564c",
+      "comparisonRevision": "ccce6b0340450ed7f35cee5335145a2b3f5ed2ed95e745b4058b869516f51ec7",
       "review": "pending",
       "notes": ""
     },
@@ -8240,7 +8300,7 @@
       ],
       "revision": "c1cb6cbaaee9287f3471c509bbca15afa9dc3271d43720966ab14bcb406e7199",
       "geometrySignature": "1a8600ab1bc72947e40c1821be4959ea09e78e52714f953b364ffcca3c2c6276",
-      "comparisonRevision": "a999ffd17861e8718ac748e374bdf9aaf6287dbbabace2d61506892796c1dc80",
+      "comparisonRevision": "8b2c238c4c43133532579a531c74d7f4551f5c742a5eacaafb944dee293c2e29",
       "review": "pending",
       "notes": ""
     },
@@ -8456,7 +8516,7 @@
       ],
       "revision": "67990ec2cc6e38ad24552b209063cd0ab14e05ac7e979d73a38166491e8c1d5e",
       "geometrySignature": "6b0f6ea916c5eaea36dd436e5243c16b92fc0e9a3fb015f8c0f82c8f55d5d3f1",
-      "comparisonRevision": "8a2f2103b77b8d8a8a9685af1836e50e06f3125f2284b7cad1efea36e009ea12",
+      "comparisonRevision": "db373f4061c6615a4086c29cd548911d9961e8d57d590556056fd62a735dc544",
       "review": "pending",
       "notes": ""
     },
@@ -8889,7 +8949,7 @@
       ],
       "revision": "da2ee74753ea7f5ae9952f0d69276ed21d159488bdabb9048fadece64a766f2a",
       "geometrySignature": "63e8d531a687d78d4481ee562eed9c69589d8bac0e3a6b39b61df29df16e6ca3",
-      "comparisonRevision": "9ddb02b64c465881e6ed051494949cc955948015bce52e2641da9b1c85a92262",
+      "comparisonRevision": "36822db9ba586221af223d9d36063d7a65047cf6ef7fbac57d084d285aefe3fa",
       "review": "pending",
       "notes": ""
     },
@@ -10781,7 +10841,7 @@
       ],
       "revision": "95a132276f52e368f4dc22b92ecae6114e5738ef35bc902883ef66a43886c68b",
       "geometrySignature": "8125dfd9e9aea7b85feb037bb3a24b38b98756a70236c54d3130810c1d029826",
-      "comparisonRevision": "42bb758932a3d2755b43b9e58fb3273a804d030926404ceed51ea3e68e4b1662",
+      "comparisonRevision": "26c64e85ebeedc0edb45957a19deafa4cd388d79f7e7c4f714d34a8640118314",
       "review": "pending",
       "notes": ""
     },
@@ -10889,7 +10949,7 @@
       ],
       "revision": "17a5173dbe0fcd416745415e24884fa3440b407ea9da9d5e84041bb33d45455a",
       "geometrySignature": "aaae35ee9b50ce7373bd4f96b801128a1e025dd7adf8216df594265dee04c668",
-      "comparisonRevision": "2b8026ec501348257d482be8014060d8b0c195df0169e5a3d3acbfc0edfc7381",
+      "comparisonRevision": "0fa3d12a496c6e9ce78e00f304a857f13c50b1c1cf15530d81a7409020f6066a",
       "review": "pending",
       "notes": ""
     },
@@ -11087,7 +11147,7 @@
       ],
       "revision": "d27aabf5009d4f50d3c69f5c7bdf9fe37547ea6550d2917e58e68cd2f7757cc1",
       "geometrySignature": "80e2dbbb6d6d71af45958dd3e84d8b77ebbb4c37b278486f9bc2906b6a95f75e",
-      "comparisonRevision": "202ba4a2e63d4ec7e027ac95db31f843ca1a35767c01eb8df97ce7efd5fa90ba",
+      "comparisonRevision": "90becf1b1fc1f91544c9f004b89be1e783e2970f695e5a7a48808cd8f44de0c9",
       "review": "pending",
       "notes": ""
     },
@@ -11195,7 +11255,7 @@
       ],
       "revision": "6bd05be50605f6f017ec20eef18af4ebf75f1f927533dd32d447f693999766d6",
       "geometrySignature": "7ed06898a43cd581f4beb91c1324ee4293a45cde41e7d553bd06cd01b6d5917d",
-      "comparisonRevision": "de4ef5aab570a8705e7c7302abf082de8a3e387cfd5ec61ffeed1267b047daf7",
+      "comparisonRevision": "582b022ab4527b3034344ac56d231c9642215d90af035a27018d9e30f0ee6e74",
       "review": "pending",
       "notes": ""
     },
@@ -11339,7 +11399,7 @@
       ],
       "revision": "1eecd2b69bc336c5c1b66cd27cdc7c561dfe10abb06f5c0c66a208679e8f423e",
       "geometrySignature": "8ccbf701c7bddcf038862b3a170bd07a615a726ca899c21e0c3dc493845f399f",
-      "comparisonRevision": "74e047665304a642b20cd665d3fb613f61ee0ff3203c4dd82c471dcafdfbb08e",
+      "comparisonRevision": "c2f3581a5da01532feb500e4c3249754d7407728478e213c9f8dc7257b6f9d44",
       "review": "pending",
       "notes": ""
     },
@@ -11447,7 +11507,7 @@
       ],
       "revision": "c68815a8b98848bb1886c7dcf1dfdb480a4f329b5082eff8b1bccbacd11c7be6",
       "geometrySignature": "decfee59dc4a0f3a9b8c752ce02e5146d11f5a1ee8197ec3509f8834d13cb3e1",
-      "comparisonRevision": "d1e6df0a2f9460b2761232d2a8a691ac3c2fa3bef4a2b20e1c8e51ca00950a5c",
+      "comparisonRevision": "984687ab7f75c79e307206549aa59e6e15a22e202624d484ec69112e2c85f515",
       "review": "pending",
       "notes": ""
     },
@@ -11771,7 +11831,7 @@
       ],
       "revision": "f0342de2909eab6b1cec4221fa5aadd984fe503beaef65ac7ebb169ea7789e83",
       "geometrySignature": "a9c73d8375c7f87982e0afbafbad770daa3c4c6a07383d80ae1caa74a1a42171",
-      "comparisonRevision": "9b1dec87e6e23b967b4ef217dc8352840fc36484a7b31aab7b75ec31ea0000c7",
+      "comparisonRevision": "0d1506974268c76c859f20f0708482c2813d2dc1a1394e493934b06b65ca49dd",
       "review": "pending",
       "notes": ""
     },
@@ -11915,7 +11975,7 @@
       ],
       "revision": "07fd3d6410513dc68e0ffe697feb0ad3626086f66356a0b04ecd1f3f00a25ced",
       "geometrySignature": "b6387c59805f830be1cbaaf8e06618624d22b1ce1871c037e57e989a9ea36201",
-      "comparisonRevision": "195ffb5a2f35e56e859dc12b3e22683dc11069ac8516ecdb0201210a2ecef72c",
+      "comparisonRevision": "95500b55baaf4cc404152fc68e94a9f57c042989eb29bf9336a3458f9feaa02e",
       "review": "pending",
       "notes": ""
     },
@@ -13094,7 +13154,7 @@
       ],
       "revision": "d47eac3707fdc3a9d40ac8832210f9752e989c8cf9b4c8a0520293a8da1386ac",
       "geometrySignature": "ec5d15e34b6d0774a8440979928b39263bbdd93218b8265408a18390d81d65fe",
-      "comparisonRevision": "5f9c82418f1e0517645a2d54c888067af65122a27e585e3b0e27a167da27c7ee",
+      "comparisonRevision": "e3187006739b599e7db2afd96012dd94d60b47e72e17d3a74a282d020302a2d9",
       "review": "pending",
       "notes": ""
     },
@@ -13754,7 +13814,7 @@
       ],
       "revision": "801aa952ee618ed846af35456e3851c9e8ded587c95a8c808e454bfe6ee514cc",
       "geometrySignature": "6d01cf43cef76b7dc2d6d362b1e7b7b1c7769f4f23ad33363ce0e64540f81aab",
-      "comparisonRevision": "58a93ce51ffea9874728a162c0e98abe816e6f04d4a0a13f015ca1f0ea84e413",
+      "comparisonRevision": "c7be001b79ac621d0855631978fb5b91b229349d772b19c86f52be60f6abec61",
       "review": "pending",
       "notes": ""
     },
@@ -14408,7 +14468,7 @@
       ],
       "revision": "f5ff75b7b8cd8cd38af7318dbf96f294418bbcce2bfb893305e80e7670b91b77",
       "geometrySignature": "74b5d4efd4eac94bce76a84f59945703fa999fff29084878fc1f9325d37eefdf",
-      "comparisonRevision": "e4f40048d0d0f04cb7322034459a4b604e1a13b9facada83dd6b45d423cde368",
+      "comparisonRevision": "2ae210795e3a8dfc694fb39f2111cb26e3a662fe57b6e56239613d2b8c7e4804",
       "review": "pending",
       "notes": ""
     },
@@ -14570,7 +14630,7 @@
       ],
       "revision": "2ff6a74250b50af73e9600a5b1f8026a257c56ee22294a1286fc1c9df2f62b80",
       "geometrySignature": "5854640e35eccb03144a898aff8c67791d0a172ba7ec90e9ad4bb3c52704b84e",
-      "comparisonRevision": "eff28f3e1cebf01a1059e42b8df734fcef6d2ee5e0fc0571528dac28e3240b01",
+      "comparisonRevision": "2b1fc7425208535d3fb9fd9c544670abbfc8cd06076920c824497bf9ba1c9f95",
       "review": "pending",
       "notes": ""
     },
@@ -15393,7 +15453,7 @@
       ],
       "revision": "2ecb92db77eda35b87ed228177cf903ef3eba96e39219a19e8a4b8c3de9ff726",
       "geometrySignature": "a583e159fddd7755143522249dc7578a76abd3299c14025c73c1e473dbedbbca",
-      "comparisonRevision": "e6b698c5165dfcdbf14a3f3ef709f7e5d88e98888fd85e788ed57646429b017d",
+      "comparisonRevision": "42965b8a9965a436c1d372e21cf922be94af675aee7bad19948683c4487b4cc5",
       "review": "pending",
       "notes": ""
     },
@@ -15423,7 +15483,7 @@
       ],
       "revision": "ccf718ad349b1e7113d1bf55e34793f82282bc6251f2a75f9f6b7dd83ed213bc",
       "geometrySignature": "90400721e302c5a8beb2b203c94f50836b61e971762c2a53667c0b4e3748cc6f",
-      "comparisonRevision": "8d3738deed4b716afcf6a46176dde3a44e393d005491c94c30a30654c1eee2f4",
+      "comparisonRevision": "d7fab530de375c3811ce733cb89d635bf3d0cd5523e8f76501da78b83ab78b56",
       "review": "pending",
       "notes": ""
     },
@@ -15578,7 +15638,7 @@
       ],
       "revision": "46fcef45fc27a05da894d194278b100cd8d0b8157ce5a1db583e20e0976b126d",
       "geometrySignature": "0126e39a0fe93e427e9f0c34d6e903df7d6e8efbc2501a7a59d3a48a4c188adb",
-      "comparisonRevision": "45a9b34d10cc0948e09930cdee74e9182bfc909eeb5e98de898e0d8f7be20687",
+      "comparisonRevision": "373c040e58619bbead6b8e648f51a43f53a078085b91f3019034b584f82cf925",
       "review": "pending",
       "notes": ""
     },
@@ -16622,7 +16682,7 @@
       ],
       "revision": "887e7a5c329e7716a222fcde0f35687868b339afba9eafd1fb56250cf3720ae2",
       "geometrySignature": "fe64b05094aeee13c8bd264ae2fe9ed3e8b52138519905f923d808a267266c70",
-      "comparisonRevision": "ae11470cd666eba0528a1a63b592406dc566085f31f9f7f23c30286cd733d236",
+      "comparisonRevision": "85c716fb52554900e9bb5409bb93d56ab9670b1d65da3a92a623d7209a8ba376",
       "review": "pending",
       "notes": ""
     },
@@ -17030,7 +17090,7 @@
       ],
       "revision": "5ef4d027f04eb71399765e956df4d5b4a84fa88ac77a18ff001236dd0ce617ed",
       "geometrySignature": "a3cfc92c25cb70ae0ba3d6db5a9e0e58b4b0af11919d0c25dfff78b807780cc0",
-      "comparisonRevision": "66ecb6d569de23babff0b74e4dfa2563012ab7d25cfbd29c1076e4624f9971fc",
+      "comparisonRevision": "183dfe01823d94558ed2cb66cef5b3d9925fb1100ba3c4610f9da7201abb6756",
       "review": "pending",
       "notes": ""
     },
@@ -17120,7 +17180,7 @@
       ],
       "revision": "dd181ebda105304f825f63d21c234a19e1f0626e257bf79de21966f31e97ec8a",
       "geometrySignature": "54418ca6abf8e0f05aa958bfe3b07054dfa7a0fc731bb80dfee08b143ca10c14",
-      "comparisonRevision": "b291db690202c1887ed006152c17b227c5a41ad876250a8af2887dd6894c030c",
+      "comparisonRevision": "89c15df09eb0d49679a68d7a20100888221f1a92d49bd035193f20a4822a8a6d",
       "review": "pending",
       "notes": ""
     },
@@ -17556,7 +17616,7 @@
       ],
       "revision": "26b4e1f10fdf85a004a2a8d7f908b974ee368b5dde1e8d4746bcc9385ab8afae",
       "geometrySignature": "9b1f099ece6ffdbc6dcaed40a25f5ef525696aaef74741f0de74fb1f3f4da4fd",
-      "comparisonRevision": "ee588e4110aeb7f12f7977dd791ac44b91c9ff10eaa3a6168e1259768a95ac2c",
+      "comparisonRevision": "ff33a7d867c14fe7b222ff0fd29464c74e561c1f7e8c8cb867313d4147088fbd",
       "review": "pending",
       "notes": ""
     },
