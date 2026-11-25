@@ -3,6 +3,39 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsDeveloperArtwork = [
+  entry("aws-proton", "aws", "AWS Proton", sizes("AWS-Proton"),
+    "A service template provisions consistent application environments.",
+    [
+      line([10, 17], [42, 17], [51, 26], [51, 65], [10, 65], [10, 17]), line([42, 17], [42, 26], [51, 26]),
+      line([17, 35], [43, 35]), line([17, 44], [38, 44]), line([17, 53], [43, 53]),
+      line([51, 41], [66, 41]), line([60, 35], [66, 41], [60, 47]),
+      rect(71, 20, 42, 25), rect(71, 62, 42, 25), line([71, 29], [113, 29]), line([71, 71], [113, 71]),
+      line([78, 36], [106, 36]), line([78, 78], [106, 78]), line([66, 41], [66, 74], [71, 74]),
+      line([17, 108], [110, 108]),
+    ]),
+  entry("aws-opentelemetry", "aws", "AWS Distro for OpenTelemetry", sizes("AWS-Distro-for-OpenTelemetry"),
+    "An instrumentation agent collects metrics and traces from an application.",
+    [
+      rect(10, 24, 42, 44), line([10, 35], [52, 35]), line([17, 45], [45, 45]), line([17, 54], [38, 54]),
+      line([52, 46], [67, 46]), line([61, 40], [67, 46], [61, 52]),
+      rect(70, 18, 45, 57), line([70, 30], [115, 30]),
+      line([77, 47], [82, 47], [86, 38], [91, 61], [96, 42], [101, 51], [108, 51]),
+      line([76, 66], [108, 66]),
+      line([18, 102], [108, 102]), line([18, 111], [80, 111]),
+    ]),
+  entry("aws-red-hat-openshift", "aws", "Red Hat OpenShift Service on AWS", sizes("Red-Hat-OpenShift-Service-on-AWS"),
+    "A managed cluster runs container applications across worker nodes.",
+    [
+      rect(48, 12, 32, 22), line([54, 23], [74, 23]), line([64, 34], [64, 48]),
+      line([64, 48], [28, 48], [28, 65]), line([64, 48], [100, 48], [100, 65]), line([64, 48], [64, 65]),
+      line([13, 73], [28, 65], [43, 73], [43, 92], [28, 100], [13, 92], [13, 73]),
+      line([13, 73], [28, 81], [43, 73]), line([28, 81], [28, 100]),
+      line([49, 73], [64, 65], [79, 73], [79, 92], [64, 100], [49, 92], [49, 73]),
+      line([49, 73], [64, 81], [79, 73]), line([64, 81], [64, 100]),
+      line([85, 73], [100, 65], [115, 73], [115, 92], [100, 100], [85, 92], [85, 73]),
+      line([85, 73], [100, 81], [115, 73]), line([100, 81], [100, 100]),
+      line([17, 112], [111, 112]),
+    ]),
   entry("aws-cloud-control", "aws", "AWS Cloud Control API", sizes("AWS-Cloud-Control-API"),
     "An API controller operates three different infrastructure resources.",
     [

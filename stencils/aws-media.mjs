@@ -3,6 +3,17 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsMediaArtwork = [
+  entry("aws-elemental-inference", "aws", "AWS Elemental Inference", sizes("AWS-Elemental-Inference"),
+    "AI analysis extracts insight from a video stream.",
+    [
+      rect(10, 24, 68, 51), line([10, 34], [78, 34]), line([17, 29], [21, 29]), line([27, 29], [31, 29]),
+      line([35, 43], [35, 65], [53, 54], [35, 43]),
+      line([78, 49], [91, 49]), line([85, 43], [91, 49], [85, 55]),
+      oval(92, 27, 9, 9), oval(108, 27, 9, 9), oval(100, 43, 9, 9, true),
+      line([100, 35], [103, 43]), line([111, 35], [106, 43]),
+      line([91, 67], [115, 67]), line([91, 75], [110, 75]), line([91, 83], [115, 83]),
+      line([16, 105], [110, 105]),
+    ]),
   entry("aws-medialive", "aws", "AWS Elemental MediaLive", sizes("AWS-Elemental-MediaLive"),
     "A video camera broadcasts a live signal.",
     [

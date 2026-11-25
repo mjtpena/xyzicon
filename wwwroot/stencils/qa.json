@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 839,
-  "aliases": 3424,
+  "count": 843,
+  "aliases": 3440,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -470,6 +470,9 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
+    "aws-proton",
+    "aws-opentelemetry",
+    "aws-red-hat-openshift",
     "aws-cloud-control",
     "aws-cdk",
     "aws-cloud9",
@@ -550,6 +553,7 @@
     "aws-managed-prometheus",
     "aws-user-notifications",
     "aws-resilience-hub",
+    "aws-elemental-inference",
     "aws-medialive",
     "aws-mediaconvert",
     "aws-mediapackage",
@@ -943,8 +947,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1140,
-      "concepts": 282
+      "covered": 1156,
+      "concepts": 286
     },
     "gcp": {
       "sources": 261,
@@ -1743,13 +1747,13 @@
       },
       {
         "a": "aws-dynamodb",
-        "b": "aws-backint-agent",
-        "similarity": 0.1891
+        "b": "aws-proton",
+        "similarity": 0.1962
       },
       {
         "a": "aws-dynamodb",
-        "b": "azure-personalizer",
-        "similarity": 0.1856
+        "b": "aws-backint-agent",
+        "similarity": 0.1891
       }
     ],
     "gcp-bigquery": [
@@ -2173,8 +2177,8 @@
       },
       {
         "a": "aws-cloudwatch",
-        "b": "gcp-category-storage",
-        "similarity": 0.1705
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.1742
       }
     ],
     "aws-route53": [
@@ -2554,6 +2558,11 @@
     "aws-sagemaker": [
       {
         "a": "aws-sagemaker",
+        "b": "aws-elemental-inference",
+        "similarity": 0.2259
+      },
+      {
+        "a": "aws-sagemaker",
         "b": "gcp-security-operations",
         "similarity": 0.2099
       },
@@ -2561,11 +2570,6 @@
         "a": "aws-sagemaker",
         "b": "aws-pinpoint-apis",
         "similarity": 0.1997
-      },
-      {
-        "a": "aws-sagemaker",
-        "b": "aws-codebuild",
-        "similarity": 0.194
       }
     ],
     "aws-eventbridge": [
@@ -3703,8 +3707,8 @@
       },
       {
         "a": "aws-b2b-interchange",
-        "b": "aws-elastic-disaster-recovery",
-        "similarity": 0.2257
+        "b": "aws-elemental-inference",
+        "similarity": 0.2269
       }
     ],
     "aws-appflow": [
@@ -5012,8 +5016,8 @@
       },
       {
         "a": "m365-toolbox",
-        "b": "fabric-table-wand",
-        "similarity": 0.2254
+        "b": "aws-opentelemetry",
+        "similarity": 0.2282
       }
     ],
     "m365-script": [
@@ -5074,14 +5078,14 @@
         "similarity": 0.3152
       },
       {
+        "a": "m365-organization",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2449
+      },
+      {
         "a": "fabric-categorize",
         "b": "m365-organization",
         "similarity": 0.2185
-      },
-      {
-        "a": "gcp-ai-hub",
-        "b": "m365-organization",
-        "similarity": 0.2088
       }
     ],
     "m365-organization-horizontal": [
@@ -8203,13 +8207,13 @@
       },
       {
         "a": "azure-foundry-iq",
-        "b": "aws-workdocs-sdk",
-        "similarity": 0.2267
+        "b": "aws-opentelemetry",
+        "similarity": 0.2292
       },
       {
         "a": "azure-foundry-iq",
-        "b": "aws-management-console",
-        "similarity": 0.21
+        "b": "aws-workdocs-sdk",
+        "similarity": 0.2267
       }
     ],
     "azure-machine-learning": [
@@ -8858,6 +8862,57 @@
         "similarity": 0.1799
       }
     ],
+    "aws-proton": [
+      {
+        "a": "azure-function-apps",
+        "b": "aws-proton",
+        "similarity": 0.2417
+      },
+      {
+        "a": "aws-proton",
+        "b": "aws-backint-agent",
+        "similarity": 0.2388
+      },
+      {
+        "a": "aws-proton",
+        "b": "aws-devops-agent",
+        "similarity": 0.2384
+      }
+    ],
+    "aws-opentelemetry": [
+      {
+        "a": "aws-opentelemetry",
+        "b": "aws-elemental-server",
+        "similarity": 0.2724
+      },
+      {
+        "a": "aws-opentelemetry",
+        "b": "m365-check",
+        "similarity": 0.265
+      },
+      {
+        "a": "aws-opentelemetry",
+        "b": "fabric-stacked-text",
+        "similarity": 0.2397
+      }
+    ],
+    "aws-red-hat-openshift": [
+      {
+        "a": "m365-organization",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2449
+      },
+      {
+        "a": "fabric-scorecard",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2348
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2223
+      }
+    ],
     "aws-cloud-control": [
       {
         "a": "aws-cloud-control",
@@ -9092,8 +9147,8 @@
       },
       {
         "a": "aws-xray",
-        "b": "aws-config",
-        "similarity": 0.2304
+        "b": "aws-elemental-inference",
+        "similarity": 0.2396
       }
     ],
     "aws-codecatalyst": [
@@ -9142,9 +9197,9 @@
         "similarity": 0.2231
       },
       {
-        "a": "aws-marketplace",
-        "b": "fabric-square-waves",
-        "similarity": 0.21
+        "a": "aws-opentelemetry",
+        "b": "aws-marketplace",
+        "similarity": 0.2116
       }
     ],
     "aws-partner-central": [
@@ -9336,6 +9391,11 @@
     ],
     "aws-pinpoint-apis": [
       {
+        "a": "aws-pinpoint-apis",
+        "b": "aws-elemental-inference",
+        "similarity": 0.2386
+      },
+      {
         "a": "gcp-security-operations",
         "b": "aws-pinpoint-apis",
         "similarity": 0.2244
@@ -9344,14 +9404,14 @@
         "a": "aws-pinpoint-apis",
         "b": "aws-resource-access-manager",
         "similarity": 0.2109
-      },
-      {
-        "a": "fabric-external-dataflow",
-        "b": "aws-pinpoint-apis",
-        "similarity": 0.2091
       }
     ],
     "aws-workdocs-sdk": [
+      {
+        "a": "aws-workdocs-sdk",
+        "b": "aws-elemental-inference",
+        "similarity": 0.2497
+      },
       {
         "a": "m365-window-dev-edit",
         "b": "aws-workdocs-sdk",
@@ -9361,11 +9421,6 @@
         "a": "azure-foundry-iq",
         "b": "aws-workdocs-sdk",
         "similarity": 0.2267
-      },
-      {
-        "a": "m365-folder-people",
-        "b": "aws-workdocs-sdk",
-        "similarity": 0.2221
       }
     ],
     "aws-workspaces": [
@@ -9398,8 +9453,8 @@
       },
       {
         "a": "aws-finops-agent",
-        "b": "aws-application-migration",
-        "similarity": 0.2134
+        "b": "aws-elemental-inference",
+        "similarity": 0.2162
       }
     ],
     "aws-managed-blockchain": [
@@ -10043,9 +10098,9 @@
         "similarity": 0.2103
       },
       {
-        "a": "aws-trusted-advisor",
-        "b": "aws-payment-cryptography",
-        "similarity": 0.1959
+        "a": "aws-opentelemetry",
+        "b": "aws-trusted-advisor",
+        "similarity": 0.2053
       }
     ],
     "aws-resource-explorer": [
@@ -10216,6 +10271,23 @@
         "a": "m365-globe",
         "b": "aws-resilience-hub",
         "similarity": 0.1745
+      }
+    ],
+    "aws-elemental-inference": [
+      {
+        "a": "aws-workdocs-sdk",
+        "b": "aws-elemental-inference",
+        "similarity": 0.2497
+      },
+      {
+        "a": "aws-xray",
+        "b": "aws-elemental-inference",
+        "similarity": 0.2396
+      },
+      {
+        "a": "aws-pinpoint-apis",
+        "b": "aws-elemental-inference",
+        "similarity": 0.2386
       }
     ],
     "aws-medialive": [
@@ -10407,6 +10479,11 @@
     ],
     "aws-elemental-server": [
       {
+        "a": "aws-opentelemetry",
+        "b": "aws-elemental-server",
+        "similarity": 0.2724
+      },
+      {
         "a": "fabric-operations-agent",
         "b": "aws-elemental-server",
         "similarity": 0.2633
@@ -10415,11 +10492,6 @@
         "a": "fabric-copy-job",
         "b": "aws-elemental-server",
         "similarity": 0.2534
-      },
-      {
-        "a": "aws-elemental-server",
-        "b": "aws-fsx",
-        "similarity": 0.2459
       }
     ],
     "aws-security-agent": [
@@ -10815,6 +10887,11 @@
     ],
     "aws-payment-cryptography": [
       {
+        "a": "aws-opentelemetry",
+        "b": "aws-payment-cryptography",
+        "similarity": 0.2241
+      },
+      {
         "a": "aws-kinesis-video",
         "b": "aws-payment-cryptography",
         "similarity": 0.223
@@ -10823,11 +10900,6 @@
         "a": "aws-payment-cryptography",
         "b": "aws-telco-network-builder",
         "similarity": 0.2194
-      },
-      {
-        "a": "azure-foundry-project",
-        "b": "aws-payment-cryptography",
-        "similarity": 0.2084
       }
     ],
     "aws-cloud-directory": [
@@ -11319,9 +11391,9 @@
         "similarity": 0.1967
       },
       {
-        "a": "m365-building-cloud",
-        "b": "aws-outposts-family",
-        "similarity": 0.1726
+        "a": "aws-red-hat-openshift",
+        "b": "m365-building-cloud",
+        "similarity": 0.1792
       }
     ],
     "m365-building-multiple": [
@@ -12175,9 +12247,9 @@
         "similarity": 0.1775
       },
       {
-        "a": "aws-organizations",
+        "a": "aws-red-hat-openshift",
         "b": "gcp-category-agents",
-        "similarity": 0.1631
+        "similarity": 0.1657
       }
     ],
     "gcp-category-business-intelligence": [
@@ -13167,9 +13239,9 @@
         "similarity": 0.2194
       },
       {
-        "a": "azure-translator",
+        "a": "aws-opentelemetry",
         "b": "aws-telco-network-builder",
-        "similarity": 0.2109
+        "similarity": 0.216
       }
     ],
     "aws-braket": [
