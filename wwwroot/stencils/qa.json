@@ -3,39 +3,14 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 686,
+  "approved": 723,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
-    "gcp-bigtable",
-    "gcp-artifact-registry",
-    "gcp-cloud-build",
-    "gcp-cloud-dns",
-    "gcp-cloud-logging",
-    "gcp-cloud-monitoring",
-    "gcp-cloud-scheduler",
-    "gcp-cloud-tasks",
-    "gcp-dataflow",
-    "gcp-firestore",
-    "m365-calculator",
-    "m365-calendar",
-    "m365-call",
-    "m365-camera",
-    "m365-certificate",
-    "m365-chart-multiple",
-    "m365-chat-multiple",
     "m365-task-list",
-    "m365-code",
-    "m365-data-pie",
-    "m365-data-area",
-    "m365-deploy",
-    "m365-document-key",
-    "m365-fingerprint",
-    "m365-globe",
-    "m365-headset",
     "m365-image",
     "m365-map",
     "m365-search",
@@ -774,20 +749,8 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-iam-role",
-    "aws-iam-mfa-token",
-    "aws-iam-permissions",
-    "aws-security-agent",
-    "aws-security-hub",
-    "aws-certificate-manager",
-    "aws-identity-center",
-    "aws-iam",
-    "aws-kms",
-    "aws-cloudhsm",
     "aws-waf",
     "aws-network-firewall",
-    "aws-inspector",
-    "aws-detective",
     "aws-macie",
     "aws-security-lake",
     "aws-shield",
@@ -2315,6 +2278,11 @@
     "power-ai-builder": [
       {
         "a": "power-ai-builder",
+        "b": "aws-cloudhsm",
+        "similarity": 0.3375
+      },
+      {
+        "a": "power-ai-builder",
         "b": "azure-managed-grafana",
         "similarity": 0.3327
       },
@@ -2322,11 +2290,6 @@
         "a": "power-ai-builder",
         "b": "azure-arc-sql-managed-instance",
         "similarity": 0.3317
-      },
-      {
-        "a": "power-ai-builder",
-        "b": "aws-waf-labels",
-        "similarity": 0.3178
       }
     ],
     "power-pages": [
@@ -4797,18 +4760,18 @@
     "m365-camera": [
       {
         "a": "m365-camera",
-        "b": "aws-cloudshell",
-        "similarity": 0.2274
+        "b": "aws-general-forums",
+        "similarity": 0.2346
       },
       {
         "a": "m365-camera",
-        "b": "aws-category-financial",
-        "similarity": 0.2208
+        "b": "aws-eks-outposts",
+        "similarity": 0.1914
       },
       {
-        "a": "gcp-bigtable",
-        "b": "m365-camera",
-        "similarity": 0.2028
+        "a": "m365-camera",
+        "b": "azure-edge-hardware-center",
+        "similarity": 0.1797
       }
     ],
     "m365-certificate": [
@@ -9579,13 +9542,13 @@
       },
       {
         "a": "gcp-cloud-shell",
-        "b": "m365-shifts",
-        "similarity": 0.2617
+        "b": "aws-cloudhsm",
+        "similarity": 0.267
       },
       {
         "a": "gcp-cloud-shell",
-        "b": "m365-mail-read",
-        "similarity": 0.2556
+        "b": "m365-shifts",
+        "similarity": 0.2617
       }
     ],
     "gcp-interconnect": [
@@ -10644,6 +10607,11 @@
     ],
     "fabric-semantic-model": [
       {
+        "a": "fabric-semantic-model",
+        "b": "aws-cloudhsm",
+        "similarity": 0.2049
+      },
+      {
         "a": "gcp-bare-metal",
         "b": "fabric-semantic-model",
         "similarity": 0.1975
@@ -10652,11 +10620,6 @@
         "a": "fabric-semantic-model",
         "b": "azure-genomics-accounts",
         "similarity": 0.1885
-      },
-      {
-        "a": "aws-glue",
-        "b": "fabric-semantic-model",
-        "similarity": 0.1881
       }
     ],
     "fabric-sql-database": [
@@ -15082,8 +15045,8 @@
       },
       {
         "a": "azure-tenant-status",
-        "b": "azure-privileged-identity-management",
-        "similarity": 0.2261
+        "b": "aws-iam-permissions",
+        "similarity": 0.234
       }
     ],
     "azure-intune-education": [
@@ -15150,8 +15113,8 @@
       },
       {
         "a": "azure-user-subscriptions",
-        "b": "aws-iam-role",
-        "similarity": 0.2571
+        "b": "azure-expressroute-direct",
+        "similarity": 0.241
       }
     ],
     "azure-entra-domain-services": [
@@ -15677,8 +15640,8 @@
       },
       {
         "a": "azure-applied-ai",
-        "b": "aws-proton",
-        "similarity": 0.2653
+        "b": "aws-cloudhsm",
+        "similarity": 0.2681
       }
     ],
     "azure-frd-qa": [
@@ -18380,8 +18343,8 @@
       },
       {
         "a": "azure-savings-plans",
-        "b": "aws-waf-labels",
-        "similarity": 0.3207
+        "b": "aws-cloudhsm",
+        "similarity": 0.3213
       }
     ],
     "azure-compliance-center": [
@@ -18448,8 +18411,8 @@
       },
       {
         "a": "azure-reserved-capacity",
-        "b": "azure-wac-installer",
-        "similarity": 0.299
+        "b": "aws-cloudhsm",
+        "similarity": 0.2999
       }
     ],
     "azure-capacity-reservation-groups": [
@@ -19423,11 +19386,6 @@
     ],
     "aws-iot-alexa-voice-service": [
       {
-        "a": "aws-iot-alexa-voice-service",
-        "b": "aws-iam-role",
-        "similarity": 0.266
-      },
-      {
         "a": "azure-open-supply-chain-platform",
         "b": "aws-iot-alexa-voice-service",
         "similarity": 0.2545
@@ -19436,6 +19394,11 @@
         "a": "aws-iot-alexa-voice-service",
         "b": "aws-iot-actuator",
         "similarity": 0.2473
+      },
+      {
+        "a": "azure-privileged-identity-management",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2469
       }
     ],
     "aws-iot-echo": [
@@ -20278,14 +20241,14 @@
         "similarity": 0.3989
       },
       {
-        "a": "aws-iot-thing-utility",
-        "b": "aws-iam-permissions",
-        "similarity": 0.3522
-      },
-      {
         "a": "azure-governance-compliance",
         "b": "aws-iot-thing-utility",
         "similarity": 0.3301
+      },
+      {
+        "a": "aws-iot-thing-utility",
+        "b": "azure-app-space-component",
+        "similarity": 0.3109
       }
     ],
     "aws-iot-sailboat": [
@@ -21344,11 +21307,6 @@
     ],
     "aws-ebs-volume": [
       {
-        "a": "aws-ebs-volume",
-        "b": "aws-iam-permissions",
-        "similarity": 0.43
-      },
-      {
         "a": "aws-iot-thing-utility",
         "b": "aws-ebs-volume",
         "similarity": 0.3989
@@ -21357,6 +21315,11 @@
         "a": "aws-ebs-volume",
         "b": "aws-gateway-virtual-tape-library",
         "similarity": 0.3582
+      },
+      {
+        "a": "aws-ebs-volume",
+        "b": "aws-general-user",
+        "similarity": 0.3294
       }
     ],
     "aws-file-cache-hybrid": [
@@ -26444,19 +26407,19 @@
     ],
     "aws-iam-role": [
       {
-        "a": "aws-iot-alexa-voice-service",
-        "b": "aws-iam-role",
-        "similarity": 0.266
+        "a": "aws-iam-role",
+        "b": "azure-folder-blank",
+        "similarity": 0.2309
       },
       {
-        "a": "azure-user-subscriptions",
+        "a": "azure-device-provisioning",
         "b": "aws-iam-role",
-        "similarity": 0.2571
+        "similarity": 0.2302
       },
       {
-        "a": "azure-user-privacy",
+        "a": "aws-iot-thing-car",
         "b": "aws-iam-role",
-        "similarity": 0.2455
+        "similarity": 0.2201
       }
     ],
     "aws-certificate-authority": [
@@ -26580,19 +26543,19 @@
     ],
     "aws-iam-permissions": [
       {
-        "a": "aws-ebs-volume",
-        "b": "aws-iam-permissions",
-        "similarity": 0.43
+        "a": "aws-iam-permissions",
+        "b": "aws-vpc-network-acl",
+        "similarity": 0.2916
       },
       {
-        "a": "aws-iot-thing-utility",
+        "a": "azure-spot-vm",
         "b": "aws-iam-permissions",
-        "similarity": 0.3522
+        "similarity": 0.266
       },
       {
-        "a": "aws-gateway-virtual-tape-library",
+        "a": "aws-s3-files",
         "b": "aws-iam-permissions",
-        "similarity": 0.3011
+        "similarity": 0.2635
       }
     ],
     "aws-security-agent": [
@@ -26700,18 +26663,18 @@
     "aws-cloudhsm": [
       {
         "a": "aws-cloudhsm",
-        "b": "azure-browser",
-        "similarity": 0.2494
+        "b": "azure-web-slots",
+        "similarity": 0.3729
       },
       {
         "a": "aws-cloudhsm",
-        "b": "azure-app-space-component",
-        "similarity": 0.2464
+        "b": "azure-blob-block",
+        "similarity": 0.3459
       },
       {
-        "a": "aws-cloudhsm",
-        "b": "azure-templates",
-        "similarity": 0.2446
+        "a": "power-ai-builder",
+        "b": "aws-cloudhsm",
+        "similarity": 0.3375
       }
     ],
     "aws-waf": [
@@ -33483,14 +33446,14 @@
         "similarity": 0.2548
       },
       {
-        "a": "aws-iam-role",
-        "b": "azure-troubleshoot",
-        "similarity": 0.2228
-      },
-      {
         "a": "azure-windows-core-services",
         "b": "azure-troubleshoot",
         "similarity": 0.216
+      },
+      {
+        "a": "aws-iot-topic",
+        "b": "azure-troubleshoot",
+        "similarity": 0.2146
       }
     ],
     "azure-resource-explorer": [
@@ -33517,14 +33480,14 @@
         "similarity": 0.3478
       },
       {
+        "a": "aws-cloudhsm",
+        "b": "azure-blob-block",
+        "similarity": 0.3459
+      },
+      {
         "a": "aws-iot-thing-plc",
         "b": "azure-blob-block",
         "similarity": 0.3248
-      },
-      {
-        "a": "aws-dynamodb-item",
-        "b": "azure-blob-block",
-        "similarity": 0.3147
       }
     ],
     "azure-blob-page": [
@@ -34882,9 +34845,9 @@
         "similarity": 0.2772
       },
       {
-        "a": "m365-community",
+        "a": "aws-cloudhsm",
         "b": "azure-host-pools",
-        "similarity": 0.2246
+        "similarity": 0.2287
       }
     ],
     "azure-application-group": [
@@ -39110,6 +39073,11 @@
     ],
     "fabric-bracket-rectangles": [
       {
+        "a": "aws-cloudhsm",
+        "b": "fabric-bracket-rectangles",
+        "similarity": 0.2118
+      },
+      {
         "a": "aws-general-credentials",
         "b": "fabric-bracket-rectangles",
         "similarity": 0.2114
@@ -39118,11 +39086,6 @@
         "a": "aws-vpc-network-adapter",
         "b": "fabric-bracket-rectangles",
         "similarity": 0.2036
-      },
-      {
-        "a": "azure-kubernetes",
-        "b": "fabric-bracket-rectangles",
-        "similarity": 0.198
       }
     ],
     "fabric-column-uneven": [
