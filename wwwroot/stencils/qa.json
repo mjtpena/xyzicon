@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 970,
-  "aliases": 3713,
+  "count": 974,
+  "aliases": 3717,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -210,6 +210,10 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-local-ssd",
+    "gcp-bare-metal",
+    "gcp-container-optimized-os",
+    "gcp-container-registry",
     "gcp-assured-workloads",
     "gcp-external-key-manager",
     "gcp-key-access-justifications",
@@ -1079,8 +1083,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 128,
-      "concepts": 116
+      "covered": 132,
+      "concepts": 120
     }
   },
   "nearest": {
@@ -1109,13 +1113,13 @@
       },
       {
         "a": "azure-kubernetes",
-        "b": "aws-waf",
-        "similarity": 0.2225
+        "b": "gcp-container-registry",
+        "similarity": 0.2228
       },
       {
         "a": "azure-kubernetes",
-        "b": "azure-route-tables",
-        "similarity": 0.2213
+        "b": "aws-waf",
+        "similarity": 0.2225
       }
     ],
     "azure-sql-database": [
@@ -1335,8 +1339,8 @@
       },
       {
         "a": "power-dataverse",
-        "b": "gcp-storage",
-        "similarity": 0.1958
+        "b": "gcp-container-optimized-os",
+        "similarity": 0.2002
       }
     ],
     "dynamics-sales": [
@@ -1801,6 +1805,11 @@
     "dynamics-family": [
       {
         "a": "dynamics-family",
+        "b": "gcp-container-registry",
+        "similarity": 0.2575
+      },
+      {
+        "a": "dynamics-family",
         "b": "aws-tools-sdks",
         "similarity": 0.2561
       },
@@ -1808,11 +1817,6 @@
         "a": "dynamics-family",
         "b": "aws-iot-expresslink",
         "similarity": 0.2304
-      },
-      {
-        "a": "dynamics-family",
-        "b": "azure-event-hub-clusters",
-        "similarity": 0.2301
       }
     ],
     "aws-ec2": [
@@ -2464,6 +2468,11 @@
     "azure-container-instances": [
       {
         "a": "azure-container-instances",
+        "b": "gcp-bare-metal",
+        "similarity": 0.2519
+      },
+      {
+        "a": "azure-container-instances",
         "b": "azure-linux",
         "similarity": 0.2246
       },
@@ -2471,11 +2480,6 @@
         "a": "azure-container-instances",
         "b": "gcp-category-business-intelligence",
         "similarity": 0.2155
-      },
-      {
-        "a": "azure-container-instances",
-        "b": "gcp-category-devtools",
-        "similarity": 0.211
       }
     ],
     "azure-container-registry": [
@@ -3943,6 +3947,11 @@
     "aws-appsync": [
       {
         "a": "aws-appsync",
+        "b": "gcp-container-optimized-os",
+        "similarity": 0.2065
+      },
+      {
+        "a": "aws-appsync",
         "b": "azure-foundry-iq",
         "similarity": 0.2047
       },
@@ -3950,11 +3959,6 @@
         "a": "aws-appsync",
         "b": "m365-slide-layout",
         "similarity": 0.1937
-      },
-      {
-        "a": "aws-appsync",
-        "b": "aws-codewhisperer",
-        "similarity": 0.1928
       }
     ],
     "aws-b2b-interchange": [
@@ -4569,6 +4573,74 @@
         "similarity": 0.2625
       }
     ],
+    "gcp-local-ssd": [
+      {
+        "a": "gcp-local-ssd",
+        "b": "gcp-external-key-manager",
+        "similarity": 0.3443
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "azure-machine-learning",
+        "similarity": 0.3166
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.295
+      }
+    ],
+    "gcp-bare-metal": [
+      {
+        "a": "gcp-bare-metal",
+        "b": "azure-linux",
+        "similarity": 0.4099
+      },
+      {
+        "a": "gcp-bare-metal",
+        "b": "azure-genomics-accounts",
+        "similarity": 0.3979
+      },
+      {
+        "a": "gcp-bare-metal",
+        "b": "aws-category-developer-tools",
+        "similarity": 0.3157
+      }
+    ],
+    "gcp-container-optimized-os": [
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-cloud9",
+        "similarity": 0.3475
+      },
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-training-certification",
+        "similarity": 0.3467
+      },
+      {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-vpc",
+        "similarity": 0.3383
+      }
+    ],
+    "gcp-container-registry": [
+      {
+        "a": "gcp-container-registry",
+        "b": "azure-event-hub-clusters",
+        "similarity": 0.2877
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "gcp-container-registry",
+        "similarity": 0.2719
+      },
+      {
+        "a": "gcp-container-registry",
+        "b": "fabric-window-asterisk",
+        "similarity": 0.2652
+      }
+    ],
     "gcp-assured-workloads": [
       {
         "a": "gcp-assured-workloads",
@@ -4581,9 +4653,9 @@
         "similarity": 0.2491
       },
       {
-        "a": "gcp-assured-workloads",
-        "b": "gcp-text-to-speech",
-        "similarity": 0.2413
+        "a": "gcp-container-registry",
+        "b": "gcp-assured-workloads",
+        "similarity": 0.242
       }
     ],
     "gcp-external-key-manager": [
@@ -4593,14 +4665,14 @@
         "similarity": 0.4072
       },
       {
-        "a": "gcp-external-key-manager",
-        "b": "azure-reservations",
-        "similarity": 0.3042
+        "a": "gcp-local-ssd",
+        "b": "gcp-external-key-manager",
+        "similarity": 0.3443
       },
       {
         "a": "gcp-external-key-manager",
-        "b": "fabric-folder-share",
-        "similarity": 0.2947
+        "b": "azure-reservations",
+        "similarity": 0.3042
       }
     ],
     "gcp-key-access-justifications": [
@@ -4639,6 +4711,11 @@
     ],
     "gcp-api-analytics": [
       {
+        "a": "gcp-local-ssd",
+        "b": "gcp-api-analytics",
+        "similarity": 0.2631
+      },
+      {
         "a": "gcp-api-analytics",
         "b": "azure-machine-learning",
         "similarity": 0.23
@@ -4647,11 +4724,6 @@
         "a": "gcp-api-analytics",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2283
-      },
-      {
-        "a": "gcp-api-analytics",
-        "b": "aws-deep-learning-amis",
-        "similarity": 0.2214
       }
     ],
     "gcp-api-monetization": [
@@ -4814,14 +4886,14 @@
         "similarity": 0.2912
       },
       {
+        "a": "gcp-local-ssd",
+        "b": "gcp-binary-authorization",
+        "similarity": 0.2573
+      },
+      {
         "a": "gcp-api-gateway",
         "b": "gcp-binary-authorization",
         "similarity": 0.2478
-      },
-      {
-        "a": "gcp-binary-authorization",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2477
       }
     ],
     "gcp-certificate-authority": [
@@ -4853,9 +4925,9 @@
         "similarity": 0.255
       },
       {
-        "a": "gcp-healthcare-api",
-        "b": "aws-comprehend",
-        "similarity": 0.2312
+        "a": "gcp-local-ssd",
+        "b": "gcp-healthcare-api",
+        "similarity": 0.2337
       }
     ],
     "gcp-cloud-ids": [
@@ -4996,6 +5068,11 @@
     ],
     "gcp-certificate-manager": [
       {
+        "a": "gcp-bare-metal",
+        "b": "gcp-certificate-manager",
+        "similarity": 0.3035
+      },
+      {
         "a": "gcp-certificate-manager",
         "b": "azure-linux",
         "similarity": 0.2768
@@ -5004,11 +5081,6 @@
         "a": "gcp-certificate-manager",
         "b": "azure-machine-learning",
         "similarity": 0.2716
-      },
-      {
-        "a": "gcp-certificate-manager",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2659
       }
     ],
     "gcp-cloud-code": [
@@ -5108,9 +5180,9 @@
         "similarity": 0.2777
       },
       {
-        "a": "gcp-external-key-manager",
+        "a": "gcp-local-ssd",
         "b": "gcp-analytics-hub",
-        "similarity": 0.274
+        "similarity": 0.2752
       }
     ],
     "gcp-ai-hypercomputer": [
@@ -6509,6 +6581,11 @@
     ],
     "fabric-semantic-model": [
       {
+        "a": "gcp-bare-metal",
+        "b": "fabric-semantic-model",
+        "similarity": 0.1975
+      },
+      {
         "a": "fabric-semantic-model",
         "b": "azure-genomics-accounts",
         "similarity": 0.1885
@@ -6517,11 +6594,6 @@
         "a": "aws-glue",
         "b": "fabric-semantic-model",
         "similarity": 0.1881
-      },
-      {
-        "a": "fabric-semantic-model",
-        "b": "aws-category-containers",
-        "similarity": 0.1855
       }
     ],
     "fabric-sql-database": [
@@ -6616,14 +6688,14 @@
         "similarity": 0.2979
       },
       {
-        "a": "azure-event-hub-clusters",
-        "b": "azure-foundry-project",
-        "similarity": 0.2657
+        "a": "gcp-container-registry",
+        "b": "azure-event-hub-clusters",
+        "similarity": 0.2877
       },
       {
         "a": "azure-event-hub-clusters",
-        "b": "aws-trusted-advisor",
-        "similarity": 0.2455
+        "b": "azure-foundry-project",
+        "similarity": 0.2657
       }
     ],
     "azure-private-link-services": [
@@ -6650,14 +6722,14 @@
         "similarity": 0.2892
       },
       {
+        "a": "gcp-local-ssd",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2597
+      },
+      {
         "a": "azure-endpoint-analytics",
         "b": "aws-migration-evaluator",
         "similarity": 0.2539
-      },
-      {
-        "a": "azure-nat",
-        "b": "azure-endpoint-analytics",
-        "similarity": 0.2533
       }
     ],
     "azure-workbooks": [
@@ -6769,14 +6841,14 @@
         "similarity": 0.2329
       },
       {
+        "a": "gcp-container-optimized-os",
+        "b": "azure-lake-store",
+        "similarity": 0.1984
+      },
+      {
         "a": "aws-lake-formation",
         "b": "azure-lake-store",
         "similarity": 0.1881
-      },
-      {
-        "a": "m365-calculator",
-        "b": "azure-lake-store",
-        "similarity": 0.1859
       }
     ],
     "azure-sql-warehouse": [
@@ -7007,14 +7079,14 @@
         "similarity": 0.2039
       },
       {
+        "a": "gcp-container-optimized-os",
+        "b": "azure-data-sharing",
+        "similarity": 0.2011
+      },
+      {
         "a": "azure-data-sharing",
         "b": "aws-snowball-edge",
         "similarity": 0.2
-      },
-      {
-        "a": "azure-virtual-network-gateway",
-        "b": "azure-data-sharing",
-        "similarity": 0.1982
       }
     ],
     "azure-storage-sync": [
@@ -8202,9 +8274,9 @@
         "similarity": 0.1777
       },
       {
-        "a": "m365-mail-alert",
-        "b": "gcp-category-devtools",
-        "similarity": 0.1698
+        "a": "gcp-bare-metal",
+        "b": "m365-mail-alert",
+        "similarity": 0.1764
       }
     ],
     "m365-mail-attach": [
@@ -8464,6 +8536,11 @@
     ],
     "m365-phone-tablet": [
       {
+        "a": "gcp-bare-metal",
+        "b": "m365-phone-tablet",
+        "similarity": 0.2444
+      },
+      {
         "a": "m365-office-notebook",
         "b": "m365-phone-tablet",
         "similarity": 0.2432
@@ -8472,11 +8549,6 @@
         "a": "gcp-api-gateway",
         "b": "m365-phone-tablet",
         "similarity": 0.2413
-      },
-      {
-        "a": "gcp-cloud-scheduler",
-        "b": "m365-phone-tablet",
-        "similarity": 0.2352
       }
     ],
     "m365-phone-update": [
@@ -9161,6 +9233,11 @@
     ],
     "azure-genomics-accounts": [
       {
+        "a": "gcp-bare-metal",
+        "b": "azure-genomics-accounts",
+        "similarity": 0.3979
+      },
+      {
         "a": "azure-genomics-accounts",
         "b": "m365-check",
         "similarity": 0.306
@@ -9169,11 +9246,6 @@
         "a": "azure-genomics-accounts",
         "b": "azure-host-groups",
         "similarity": 0.3028
-      },
-      {
-        "a": "azure-genomics-accounts",
-        "b": "azure-linux",
-        "similarity": 0.3006
       }
     ],
     "azure-bot-services": [
@@ -9263,6 +9335,11 @@
     ],
     "azure-machine-learning": [
       {
+        "a": "gcp-local-ssd",
+        "b": "azure-machine-learning",
+        "similarity": 0.3166
+      },
+      {
         "a": "azure-machine-learning",
         "b": "azure-reservations",
         "similarity": 0.3001
@@ -9271,11 +9348,6 @@
         "a": "azure-machine-learning",
         "b": "aws-storage-gateway",
         "similarity": 0.2963
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "aws-elastic-inference",
-        "similarity": 0.2798
       }
     ],
     "azure-foundry-application": [
@@ -9999,14 +10071,14 @@
         "similarity": 0.3498
       },
       {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-cloud9",
+        "similarity": 0.3475
+      },
+      {
         "a": "aws-cloud9",
         "b": "aws-vpc",
         "similarity": 0.3401
-      },
-      {
-        "a": "aws-finspace",
-        "b": "aws-cloud9",
-        "similarity": 0.3253
       }
     ],
     "aws-cloudshell": [
@@ -10713,14 +10785,14 @@
         "similarity": 0.3663
       },
       {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-training-certification",
+        "similarity": 0.3467
+      },
+      {
         "a": "m365-slide-layout",
         "b": "aws-training-certification",
         "similarity": 0.2735
-      },
-      {
-        "a": "m365-share-screen-overlay",
-        "b": "aws-training-certification",
-        "similarity": 0.2686
       }
     ],
     "aws-repost": [
@@ -10815,14 +10887,14 @@
         "similarity": 0.4072
       },
       {
+        "a": "gcp-local-ssd",
+        "b": "aws-mainframe-modernization",
+        "similarity": 0.295
+      },
+      {
         "a": "aws-translate",
         "b": "aws-mainframe-modernization",
         "similarity": 0.2811
-      },
-      {
-        "a": "gcp-analytics-hub",
-        "b": "aws-mainframe-modernization",
-        "similarity": 0.2777
       }
     ],
     "aws-migration-evaluator": [
@@ -11325,14 +11397,14 @@
         "similarity": 0.2629
       },
       {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2614
+      },
+      {
         "a": "m365-laptop",
         "b": "aws-elemental-appliances",
         "similarity": 0.2536
-      },
-      {
-        "a": "gcp-threat-intelligence",
-        "b": "aws-elemental-appliances",
-        "similarity": 0.2431
       }
     ],
     "aws-elemental-inference": [
@@ -11512,14 +11584,14 @@
         "similarity": 0.2722
       },
       {
+        "a": "gcp-container-optimized-os",
+        "b": "aws-elemental-live",
+        "similarity": 0.2412
+      },
+      {
         "a": "aws-lookout-equipment",
         "b": "aws-elemental-live",
         "similarity": 0.2141
-      },
-      {
-        "a": "aws-savings-plans",
-        "b": "aws-elemental-live",
-        "similarity": 0.2085
       }
     ],
     "aws-elemental-link": [
@@ -12163,9 +12235,9 @@
         "similarity": 0.2458
       },
       {
-        "a": "azure-databricks",
+        "a": "gcp-local-ssd",
         "b": "aws-storage-gateway",
-        "similarity": 0.2307
+        "similarity": 0.2419
       }
     ],
     "aws-data-transfer-terminal": [
@@ -13105,9 +13177,9 @@
         "similarity": 0.2694
       },
       {
-        "a": "aws-well-architected-tool",
+        "a": "gcp-container-registry",
         "b": "aws-region-group",
-        "similarity": 0.2224
+        "similarity": 0.2289
       }
     ],
     "aws-app-mesh": [
@@ -14614,17 +14686,17 @@
     ],
     "aws-category-developer-tools": [
       {
+        "a": "gcp-bare-metal",
+        "b": "aws-category-developer-tools",
+        "similarity": 0.3157
+      },
+      {
         "a": "aws-category-developer-tools",
         "b": "azure-linux",
         "similarity": 0.2306
       },
       {
         "a": "azure-genomics-accounts",
-        "b": "aws-category-developer-tools",
-        "similarity": 0.218
-      },
-      {
-        "a": "gcp-certificate-manager",
         "b": "aws-category-developer-tools",
         "similarity": 0.218
       }
@@ -15015,9 +15087,9 @@
         "similarity": 0.2204
       },
       {
-        "a": "aws-vpc",
+        "a": "gcp-local-ssd",
         "b": "aws-amplify",
-        "similarity": 0.1973
+        "similarity": 0.1978
       }
     ],
     "aws-device-farm": [
@@ -15549,6 +15621,11 @@
     ],
     "azure-linux": [
       {
+        "a": "gcp-bare-metal",
+        "b": "azure-linux",
+        "similarity": 0.4099
+      },
+      {
         "a": "azure-genomics-accounts",
         "b": "azure-linux",
         "similarity": 0.3006
@@ -15557,11 +15634,6 @@
         "a": "aws-service-management-connector",
         "b": "azure-linux",
         "similarity": 0.2966
-      },
-      {
-        "a": "gcp-certificate-manager",
-        "b": "azure-linux",
-        "similarity": 0.2768
       }
     ],
     "azure-managed-service-fabric": [
@@ -15865,9 +15937,9 @@
         "similarity": 0.2824
       },
       {
-        "a": "m365-column-arrow",
+        "a": "gcp-container-optimized-os",
         "b": "azure-batch-accounts",
-        "similarity": 0.2695
+        "similarity": 0.2777
       }
     ],
     "azure-disks": [

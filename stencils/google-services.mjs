@@ -1,6 +1,46 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-local-ssd", "gcp", "Local SSD", ["local_ssd"],
+    "A solid-state drive connects directly to a compute host.",
+    [
+      rect(10, 23, 39, 68), line([10, 36], [49, 36]), line([10, 51], [49, 51]), line([10, 66], [49, 66]), line([10, 81], [49, 81]),
+      oval(16, 27, 5, 5, true), oval(16, 40, 5, 5), oval(16, 55, 5, 5), oval(16, 70, 5, 5),
+      line([49, 57], [62, 57]), line([56, 51], [62, 57], [56, 63]),
+      rect(65, 33, 50, 49), rect(73, 41, 12, 12), rect(91, 41, 12, 12), rect(73, 61, 12, 12), rect(91, 61, 12, 12),
+      line([74, 82], [74, 90]), line([84, 82], [84, 90]), line([94, 82], [94, 90]), line([104, 82], [104, 90]),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("gcp-bare-metal", "gcp", "Bare Metal Solutions", ["bare_metal_solutions"],
+    "A workload runs directly on a physical server processor.",
+    [
+      rect(11, 24, 106, 72), line([11, 37], [117, 37]), line([19, 30], [49, 30]),
+      rect(35, 48, 40, 35), rect(45, 56, 20, 19),
+      line([43, 42], [43, 48]), line([54, 42], [54, 48]), line([66, 42], [66, 48]),
+      line([43, 83], [43, 89]), line([54, 83], [54, 89]), line([66, 83], [66, 89]),
+      line([28, 57], [35, 57]), line([28, 69], [35, 69]), line([75, 57], [82, 57]), line([75, 69], [82, 69]),
+      oval(93, 52, 11, 11, true), line([90, 75], [107, 75]), line([20, 110], [108, 110]),
+    ]),
+  entry("gcp-container-optimized-os", "gcp", "Container-Optimized OS", ["container_optimized_os"],
+    "An operating system provides a lightweight host for container workloads.",
+    [
+      rect(12, 18, 104, 76), line([12, 31], [116, 31]), line([19, 24], [41, 24]),
+      line([24, 47], [35, 41], [46, 47], [46, 61], [35, 67], [24, 61], [24, 47]), line([24, 47], [35, 53], [46, 47]),
+      line([54, 47], [65, 41], [76, 47], [76, 61], [65, 67], [54, 61], [54, 47]), line([54, 47], [65, 53], [76, 47]),
+      line([16, 78], [112, 78]), line([23, 86], [98, 86]),
+      oval(86, 42, 18, 18), line([95, 37], [95, 42]), line([95, 60], [95, 65]), line([81, 51], [86, 51]), line([104, 51], [109, 51]),
+      line([19, 109], [109, 109]),
+    ]),
+  entry("gcp-container-registry", "gcp", "Container Registry", ["container_registry"],
+    "A registry catalogs versioned container images on shelves.",
+    [
+      line([15, 17], [113, 17], [113, 102], [15, 102], [15, 17]), line([15, 57], [113, 57]),
+      line([24, 30], [35, 24], [46, 30], [46, 43], [35, 49], [24, 43], [24, 30]), line([24, 30], [35, 36], [46, 30]),
+      line([62, 30], [73, 24], [84, 30], [84, 43], [73, 49], [62, 43], [62, 30]), line([62, 30], [73, 36], [84, 30]),
+      line([24, 70], [35, 64], [46, 70], [46, 83], [35, 89], [24, 83], [24, 70]), line([24, 70], [35, 76], [46, 70]),
+      line([58, 70], [101, 70]), line([58, 80], [95, 80]), line([58, 90], [101, 90]),
+      line([21, 113], [108, 113]),
+    ]),
   entry("gcp-assured-workloads", "gcp", "Assured Workloads", ["assured_workloads"],
     "A compliant workload is protected within a geographic boundary.",
     [
