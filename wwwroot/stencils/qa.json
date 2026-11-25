@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1040,
-  "aliases": 3909,
+  "count": 1044,
+  "aliases": 3913,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -254,6 +254,10 @@
     "gcp-dialogflow-cx",
     "gcp-dialogflow-insights",
     "gcp-data-qna",
+    "gcp-datalab",
+    "gcp-datastore",
+    "gcp-dataproc",
+    "gcp-dataproc-metastore",
     "gcp-access-context",
     "gcp-binary-authorization",
     "gcp-certificate-authority",
@@ -1156,8 +1160,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 152,
-      "concepts": 139
+      "covered": 156,
+      "concepts": 143
     }
   },
   "nearest": {
@@ -5159,6 +5163,11 @@
     "gcp-configuration-management": [
       {
         "a": "gcp-configuration-management",
+        "b": "gcp-datastore",
+        "similarity": 0.2808
+      },
+      {
+        "a": "gcp-configuration-management",
         "b": "fabric-sample",
         "similarity": 0.2547
       },
@@ -5166,11 +5175,6 @@
         "a": "gcp-configuration-management",
         "b": "azure-quickstart-center",
         "similarity": 0.254
-      },
-      {
-        "a": "gcp-configuration-management",
-        "b": "fabric-window-asterisk",
-        "similarity": 0.241
       }
     ],
     "gcp-runtime-config": [
@@ -5300,13 +5304,13 @@
       },
       {
         "a": "gcp-contact-center-ai",
-        "b": "aws-vpc-traffic-mirroring",
-        "similarity": 0.2099
+        "b": "gcp-dataproc-metastore",
+        "similarity": 0.216
       },
       {
         "a": "gcp-contact-center-ai",
-        "b": "azure-quickstart-center",
-        "similarity": 0.2049
+        "b": "aws-vpc-traffic-mirroring",
+        "similarity": 0.2099
       }
     ],
     "gcp-data-labeling": [
@@ -5392,6 +5396,74 @@
         "a": "gcp-data-qna",
         "b": "azure-power-bi-embedded",
         "similarity": 0.2618
+      }
+    ],
+    "gcp-datalab": [
+      {
+        "a": "gcp-datalab",
+        "b": "m365-share-screen-overlay",
+        "similarity": 0.3137
+      },
+      {
+        "a": "gcp-datalab",
+        "b": "azure-marketplace",
+        "similarity": 0.3086
+      },
+      {
+        "a": "gcp-datalab",
+        "b": "gcp-dlp",
+        "similarity": 0.2837
+      }
+    ],
+    "gcp-datastore": [
+      {
+        "a": "gcp-configuration-management",
+        "b": "gcp-datastore",
+        "similarity": 0.2808
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "gcp-datastore",
+        "similarity": 0.2521
+      },
+      {
+        "a": "gcp-dialogflow-insights",
+        "b": "gcp-datastore",
+        "similarity": 0.2518
+      }
+    ],
+    "gcp-dataproc": [
+      {
+        "a": "gcp-dataproc",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2933
+      },
+      {
+        "a": "gcp-dataproc",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2383
+      },
+      {
+        "a": "gcp-dataproc",
+        "b": "aws-firewall-manager",
+        "similarity": 0.225
+      }
+    ],
+    "gcp-dataproc-metastore": [
+      {
+        "a": "gcp-dataproc-metastore",
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.2323
+      },
+      {
+        "a": "gcp-dataproc-metastore",
+        "b": "aws-codecatalyst",
+        "similarity": 0.2272
+      },
+      {
+        "a": "gcp-dataproc-metastore",
+        "b": "azure-compute-galleries",
+        "similarity": 0.226
       }
     ],
     "gcp-access-context": [
@@ -5848,9 +5920,9 @@
         "similarity": 0.2647
       },
       {
-        "a": "gcp-security-operations",
-        "b": "aws-category-app-integration",
-        "similarity": 0.2564
+        "a": "gcp-datalab",
+        "b": "gcp-security-operations",
+        "similarity": 0.2615
       }
     ],
     "gcp-alloydb": [
@@ -6222,9 +6294,9 @@
         "similarity": 0.2913
       },
       {
-        "a": "gcp-dlp",
-        "b": "aws-kendra",
-        "similarity": 0.2738
+        "a": "gcp-datalab",
+        "b": "gcp-dlp",
+        "similarity": 0.2837
       }
     ],
     "gcp-billing": [
@@ -9362,14 +9434,14 @@
         "similarity": 0.3257
       },
       {
+        "a": "gcp-datalab",
+        "b": "m365-share-screen-overlay",
+        "similarity": 0.3137
+      },
+      {
         "a": "aws-ec2",
         "b": "m365-share-screen-overlay",
         "similarity": 0.3039
-      },
-      {
-        "a": "aws-codeguru",
-        "b": "m365-share-screen-overlay",
-        "similarity": 0.2963
       }
     ],
     "m365-ribbon-star": [
@@ -10258,6 +10330,11 @@
     ],
     "azure-language-understanding": [
       {
+        "a": "gcp-datalab",
+        "b": "azure-language-understanding",
+        "similarity": 0.2594
+      },
+      {
         "a": "azure-language-understanding",
         "b": "aws-amazon-q",
         "similarity": 0.2451
@@ -10266,11 +10343,6 @@
         "a": "azure-language-understanding",
         "b": "aws-repost-private",
         "similarity": 0.2367
-      },
-      {
-        "a": "azure-language-understanding",
-        "b": "aws-elemental-appliances",
-        "similarity": 0.2247
       }
     ],
     "azure-immersive-reader": [
@@ -10399,14 +10471,14 @@
         "similarity": 0.2471
       },
       {
+        "a": "gcp-datalab",
+        "b": "fabric-copilot",
+        "similarity": 0.179
+      },
+      {
         "a": "entra-workload-id",
         "b": "fabric-copilot",
         "similarity": 0.1764
-      },
-      {
-        "a": "m365-document-multiple",
-        "b": "fabric-copilot",
-        "similarity": 0.176
       }
     ],
     "fabric-data-engineering": [
@@ -12053,9 +12125,9 @@
         "similarity": 0.205
       },
       {
-        "a": "aws-mediaconvert",
-        "b": "aws-dcv",
-        "similarity": 0.192
+        "a": "gcp-datalab",
+        "b": "aws-mediaconvert",
+        "similarity": 0.1996
       }
     ],
     "aws-mediapackage": [
@@ -12869,9 +12941,9 @@
         "similarity": 0.2322
       },
       {
-        "a": "aws-elemental-link",
+        "a": "gcp-datalab",
         "b": "aws-fsx-lustre",
-        "similarity": 0.2161
+        "similarity": 0.2214
       }
     ],
     "aws-fsx-ontap": [
@@ -12920,9 +12992,9 @@
         "similarity": 0.2361
       },
       {
-        "a": "gcp-bigquery",
+        "a": "gcp-datalab",
         "b": "aws-fsx-windows",
-        "similarity": 0.2241
+        "similarity": 0.2257
       }
     ],
     "m365-arrow-circle-left": [
@@ -13193,9 +13265,9 @@
         "similarity": 0.287
       },
       {
-        "a": "m365-mail-attach",
+        "a": "gcp-datalab",
         "b": "m365-comment-multiple",
-        "similarity": 0.2401
+        "similarity": 0.2664
       }
     ],
     "m365-data-trending": [
@@ -16119,6 +16191,11 @@
     ],
     "azure-cdn-profiles": [
       {
+        "a": "gcp-dataproc",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2933
+      },
+      {
         "a": "m365-organization",
         "b": "azure-cdn-profiles",
         "similarity": 0.2735
@@ -16127,11 +16204,6 @@
         "a": "gcp-batch",
         "b": "azure-cdn-profiles",
         "similarity": 0.271
-      },
-      {
-        "a": "aws-parallel-cluster",
-        "b": "azure-cdn-profiles",
-        "similarity": 0.2513
       }
     ],
     "azure-load-testing": [
@@ -16197,9 +16269,9 @@
         "similarity": 0.361
       },
       {
-        "a": "m365-share-screen-overlay",
+        "a": "gcp-datalab",
         "b": "azure-marketplace",
-        "similarity": 0.2912
+        "similarity": 0.3086
       }
     ],
     "azure-quickstart-center": [
@@ -16214,9 +16286,9 @@
         "similarity": 0.254
       },
       {
-        "a": "gcp-looker",
+        "a": "gcp-datastore",
         "b": "azure-quickstart-center",
-        "similarity": 0.2168
+        "similarity": 0.2354
       }
     ],
     "azure-management-groups": [
@@ -17867,9 +17939,9 @@
         "similarity": 0.2461
       },
       {
-        "a": "fabric-database-checkmark",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2231
+        "a": "gcp-datastore",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2306
       }
     ],
     "fabric-calendar-toolbox": [
