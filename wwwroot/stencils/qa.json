@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1191,
-  "aliases": 4073,
+  "count": 1196,
+  "aliases": 4078,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -621,6 +621,11 @@
     "aws-rekognition-video",
     "aws-sagemaker-canvas",
     "aws-sagemaker-geospatial",
+    "aws-sagemaker-model",
+    "aws-sagemaker-notebook",
+    "aws-sagemaker-shadow-testing",
+    "aws-sagemaker-train",
+    "aws-textract-lending",
     "aws-deep-learning-amis",
     "aws-sagemaker-studio-lab",
     "aws-nova",
@@ -1302,8 +1307,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1346,
-      "concepts": 378
+      "covered": 1351,
+      "concepts": 383
     },
     "gcp": {
       "sources": 261,
@@ -4783,6 +4788,11 @@
     "m365-office-notebook": [
       {
         "a": "m365-office-notebook",
+        "b": "aws-sagemaker-notebook",
+        "similarity": 0.289
+      },
+      {
+        "a": "m365-office-notebook",
         "b": "azure-foundry-models",
         "similarity": 0.2729
       },
@@ -4790,11 +4800,6 @@
         "a": "m365-office-notebook",
         "b": "m365-document-page",
         "similarity": 0.2726
-      },
-      {
-        "a": "aws-eventbridge-schema",
-        "b": "m365-office-notebook",
-        "similarity": 0.2597
       }
     ],
     "m365-payment": [
@@ -5983,8 +5988,8 @@
       },
       {
         "a": "gcp-private-service-connect",
-        "b": "aws-sqs-queue",
-        "similarity": 0.2576
+        "b": "aws-sagemaker-train",
+        "similarity": 0.2611
       }
     ],
     "gcp-traffic-director": [
@@ -6483,6 +6488,11 @@
     "gcp-cloud-optimization-ai": [
       {
         "a": "gcp-cloud-optimization-ai",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.1725
+      },
+      {
+        "a": "gcp-cloud-optimization-ai",
         "b": "aws-s3-glacier",
         "similarity": 0.1708
       },
@@ -6490,11 +6500,6 @@
         "a": "gcp-cloud-optimization-ai",
         "b": "fabric-stream-settings-bracket",
         "similarity": 0.1687
-      },
-      {
-        "a": "gcp-cloud-optimization-ai",
-        "b": "gcp-real-world-insights",
-        "similarity": 0.1655
       }
     ],
     "gcp-fleet-routing": [
@@ -6589,14 +6594,14 @@
         "similarity": 0.2957
       },
       {
+        "a": "gcp-cloud-jobs",
+        "b": "aws-textract-lending",
+        "similarity": 0.2859
+      },
+      {
         "a": "gcp-bare-metal",
         "b": "gcp-cloud-jobs",
         "similarity": 0.2807
-      },
-      {
-        "a": "gcp-cloud-jobs",
-        "b": "aws-category-developer-tools",
-        "similarity": 0.2487
       }
     ],
     "gcp-apigee-sense": [
@@ -6674,14 +6679,14 @@
         "similarity": 0.2452
       },
       {
+        "a": "gcp-advanced-solutions-lab",
+        "b": "aws-textract-lending",
+        "similarity": 0.2384
+      },
+      {
         "a": "gcp-dataproc-metastore",
         "b": "gcp-advanced-solutions-lab",
         "similarity": 0.2258
-      },
-      {
-        "a": "gcp-advanced-solutions-lab",
-        "b": "aws-opensearch-ultrawarm",
-        "similarity": 0.2219
       }
     ],
     "gcp-tensorflow-enterprise": [
@@ -6861,14 +6866,14 @@
         "similarity": 0.2895
       },
       {
+        "a": "gcp-catalog",
+        "b": "aws-textract-lending",
+        "similarity": 0.2779
+      },
+      {
         "a": "gcp-dialogflow-insights",
         "b": "gcp-catalog",
         "similarity": 0.2625
-      },
-      {
-        "a": "gcp-catalog",
-        "b": "aws-red-hat-openshift",
-        "similarity": 0.2609
       }
     ],
     "gcp-connectors": [
@@ -6935,8 +6940,8 @@
       },
       {
         "a": "gcp-home",
-        "b": "aws-opensearch-dashboards",
-        "similarity": 0.2303
+        "b": "aws-sagemaker-notebook",
+        "similarity": 0.2384
       }
     ],
     "gcp-project": [
@@ -9882,6 +9887,11 @@
     ],
     "aws-redshift-query-editor": [
       {
+        "a": "aws-redshift-query-editor",
+        "b": "aws-sagemaker-train",
+        "similarity": 0.2786
+      },
+      {
         "a": "aws-eventbridge-custom-bus",
         "b": "aws-redshift-query-editor",
         "similarity": 0.2725
@@ -9890,11 +9900,6 @@
         "a": "aws-redshift-query-editor",
         "b": "aws-device-farm",
         "similarity": 0.2717
-      },
-      {
-        "a": "aws-redshift-query-editor",
-        "b": "azure-language",
-        "similarity": 0.2664
       }
     ],
     "aws-redshift-dense-compute": [
@@ -10087,6 +10092,11 @@
     "aws-glue-quality": [
       {
         "a": "aws-glue-quality",
+        "b": "aws-sagemaker-train",
+        "similarity": 0.2567
+      },
+      {
+        "a": "aws-glue-quality",
         "b": "azure-machine-learning",
         "similarity": 0.2445
       },
@@ -10094,11 +10104,6 @@
         "a": "aws-redshift-governance",
         "b": "aws-glue-quality",
         "similarity": 0.2442
-      },
-      {
-        "a": "aws-glue-quality",
-        "b": "aws-eventbridge-partner-event",
-        "similarity": 0.2369
       }
     ],
     "aws-data-exchange-api": [
@@ -10330,13 +10335,13 @@
       },
       {
         "a": "aws-fraud-detector",
-        "b": "aws-kendra",
-        "similarity": 0.2077
+        "b": "aws-sagemaker-train",
+        "similarity": 0.2082
       },
       {
-        "a": "aws-ecr",
-        "b": "aws-fraud-detector",
-        "similarity": 0.1956
+        "a": "aws-fraud-detector",
+        "b": "aws-kendra",
+        "similarity": 0.2077
       }
     ],
     "aws-kendra": [
@@ -11298,14 +11303,14 @@
         "similarity": 0.2377
       },
       {
+        "a": "m365-tap",
+        "b": "aws-sagemaker-shadow-testing",
+        "similarity": 0.1484
+      },
+      {
         "a": "gcp-batch",
         "b": "m365-tap",
         "similarity": 0.1449
-      },
-      {
-        "a": "m365-tap",
-        "b": "fabric-bookmark-data-bar",
-        "similarity": 0.1405
       }
     ],
     "m365-community": [
@@ -11650,6 +11655,11 @@
     ],
     "m365-cogs": [
       {
+        "a": "m365-cogs",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.1389
+      },
+      {
         "a": "fabric-kql-script",
         "b": "m365-cogs",
         "similarity": 0.1377
@@ -11658,11 +11668,6 @@
         "a": "azure-endpoint-analytics",
         "b": "m365-cogs",
         "similarity": 0.1333
-      },
-      {
-        "a": "fabric-user-data-function",
-        "b": "m365-cogs",
-        "similarity": 0.1313
       }
     ],
     "m365-three-shapes": [
@@ -11782,6 +11787,91 @@
         "a": "gcp-producer-portal",
         "b": "aws-sagemaker-geospatial",
         "similarity": 0.245
+      }
+    ],
+    "aws-sagemaker-model": [
+      {
+        "a": "m365-radar",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.2311
+      },
+      {
+        "a": "gcp-apigee-sense",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.2151
+      },
+      {
+        "a": "gcp-healthcare-marketplace",
+        "b": "aws-sagemaker-model",
+        "similarity": 0.2076
+      }
+    ],
+    "aws-sagemaker-notebook": [
+      {
+        "a": "m365-office-notebook",
+        "b": "aws-sagemaker-notebook",
+        "similarity": 0.289
+      },
+      {
+        "a": "aws-sagemaker-notebook",
+        "b": "fabric-sample",
+        "similarity": 0.2437
+      },
+      {
+        "a": "gcp-assured-workloads",
+        "b": "aws-sagemaker-notebook",
+        "similarity": 0.2384
+      }
+    ],
+    "aws-sagemaker-shadow-testing": [
+      {
+        "a": "gcp-certificate-manager",
+        "b": "aws-sagemaker-shadow-testing",
+        "similarity": 0.2534
+      },
+      {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-cloudhsm",
+        "similarity": 0.2342
+      },
+      {
+        "a": "gcp-bare-metal",
+        "b": "aws-sagemaker-shadow-testing",
+        "similarity": 0.2289
+      }
+    ],
+    "aws-sagemaker-train": [
+      {
+        "a": "aws-sagemaker-train",
+        "b": "azure-machine-learning",
+        "similarity": 0.3207
+      },
+      {
+        "a": "aws-redshift-query-editor",
+        "b": "aws-sagemaker-train",
+        "similarity": 0.2786
+      },
+      {
+        "a": "aws-sagemaker-train",
+        "b": "aws-device-farm",
+        "similarity": 0.2762
+      }
+    ],
+    "aws-textract-lending": [
+      {
+        "a": "gcp-cloud-jobs",
+        "b": "aws-textract-lending",
+        "similarity": 0.2859
+      },
+      {
+        "a": "gcp-catalog",
+        "b": "aws-textract-lending",
+        "similarity": 0.2779
+      },
+      {
+        "a": "aws-textract-lending",
+        "b": "fabric-database-money",
+        "similarity": 0.2684
       }
     ],
     "aws-deep-learning-amis": [
@@ -12330,6 +12420,11 @@
     ],
     "azure-machine-learning": [
       {
+        "a": "aws-sagemaker-train",
+        "b": "azure-machine-learning",
+        "similarity": 0.3207
+      },
+      {
         "a": "gcp-local-ssd",
         "b": "azure-machine-learning",
         "similarity": 0.3166
@@ -12338,11 +12433,6 @@
         "a": "azure-machine-learning",
         "b": "azure-reservations",
         "similarity": 0.3001
-      },
-      {
-        "a": "azure-machine-learning",
-        "b": "aws-storage-gateway",
-        "similarity": 0.2963
       }
     ],
     "azure-foundry-application": [
@@ -12391,9 +12481,9 @@
         "similarity": 0.2456
       },
       {
-        "a": "gcp-firewall-rules",
+        "a": "aws-sagemaker-shadow-testing",
         "b": "azure-foundry-control-plane",
-        "similarity": 0.2159
+        "similarity": 0.2177
       }
     ],
     "azure-foundry-labs": [
@@ -12867,9 +12957,9 @@
         "similarity": 0.2122
       },
       {
-        "a": "fabric-databases",
-        "b": "aws-category-containers",
-        "similarity": 0.2009
+        "a": "aws-sagemaker-train",
+        "b": "fabric-databases",
+        "similarity": 0.2055
       }
     ],
     "fabric-platform": [
@@ -14499,9 +14589,9 @@
         "similarity": 0.178
       },
       {
-        "a": "m365-globe",
+        "a": "aws-sagemaker-shadow-testing",
         "b": "aws-resilience-hub",
-        "similarity": 0.1745
+        "similarity": 0.1767
       }
     ],
     "aws-elemental-appliances": [
@@ -14846,6 +14936,11 @@
     ],
     "aws-cloudhsm": [
       {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-cloudhsm",
+        "similarity": 0.2342
+      },
+      {
         "a": "aws-redshift-dense-storage",
         "b": "aws-cloudhsm",
         "similarity": 0.216
@@ -14854,11 +14949,6 @@
         "a": "aws-deep-learning-containers",
         "b": "aws-cloudhsm",
         "similarity": 0.2139
-      },
-      {
-        "a": "gcp-anthos",
-        "b": "aws-cloudhsm",
-        "similarity": 0.2081
       }
     ],
     "aws-waf": [
@@ -16716,9 +16806,9 @@
         "similarity": 0.1974
       },
       {
-        "a": "gcp-ai-hypercomputer",
+        "a": "aws-sagemaker-shadow-testing",
         "b": "gcp-category-collaboration",
-        "similarity": 0.194
+        "similarity": 0.1964
       }
     ],
     "gcp-category-compute": [
@@ -17584,14 +17674,14 @@
         "similarity": 0.1731
       },
       {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-ec2-image-builder",
+        "similarity": 0.1716
+      },
+      {
         "a": "aws-ec2-image-builder",
         "b": "aws-fargate",
         "similarity": 0.1699
-      },
-      {
-        "a": "gcp-iot-edge",
-        "b": "aws-ec2-image-builder",
-        "similarity": 0.1642
       }
     ],
     "aws-lightsail": [
@@ -17997,9 +18087,9 @@
         "similarity": 0.2633
       },
       {
-        "a": "gcp-cloud-code",
+        "a": "aws-sagemaker-train",
         "b": "aws-category-containers",
-        "similarity": 0.2554
+        "similarity": 0.2575
       }
     ],
     "aws-category-compute": [
@@ -18174,6 +18264,11 @@
     ],
     "aws-open-3d-engine": [
       {
+        "a": "aws-sagemaker-shadow-testing",
+        "b": "aws-open-3d-engine",
+        "similarity": 0.1905
+      },
+      {
         "a": "aws-codebuild",
         "b": "aws-open-3d-engine",
         "similarity": 0.1587
@@ -18182,11 +18277,6 @@
         "a": "aws-route53",
         "b": "aws-open-3d-engine",
         "similarity": 0.1478
-      },
-      {
-        "a": "azure-data-box",
-        "b": "aws-open-3d-engine",
-        "similarity": 0.1471
       }
     ],
     "aws-ground-station": [
