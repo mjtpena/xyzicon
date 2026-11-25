@@ -3,6 +3,58 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-eventbridge-partner-event", "aws", "EventBridge SaaS Partner Event", ["Res_Amazon-EventBridge_Saas-Partner-Event_48"],
+    "A partner application emits an event to a shared event bus.",
+    [
+      rect(12, 24, 43, 42), line([12, 35], [55, 35]), line([19, 30], [22, 30]), line([27, 30], [30, 30]),
+      line([22, 46], [29, 52], [22, 58]), line([34, 58], [45, 58]),
+      line([55, 45], [72, 45]), line([66, 39], [72, 45], [66, 51]),
+      oval(75, 30, 24, 24), line([87, 30], [87, 54]), line([75, 42], [99, 42]),
+      line([87, 54], [87, 76]), line([63, 76], [111, 76]), line([17, 107], [112, 107]),
+    ]),
+  entry("aws-mq-broker", "aws", "Amazon MQ Broker", ["Res_Amazon-MQ_Broker_48"],
+    "A broker routes messages among connected applications.",
+    [
+      rect(44, 43, 40, 32), line([44, 43], [64, 59], [84, 43]),
+      rect(11, 12, 20, 17), rect(97, 12, 20, 17), rect(11, 91, 20, 17), rect(97, 91, 20, 17),
+      line([31, 25], [48, 43]), line([97, 25], [80, 43]), line([31, 95], [48, 75]), line([97, 95], [80, 75]),
+      line([39, 114], [89, 114]),
+    ]),
+  entry("aws-sns-email-notification", "aws", "SNS Email Notification", ["Res_Amazon-Simple-Notification-Service_Email-Notification_48"],
+    "An alert is delivered as an email.",
+    [
+      rect(19, 38, 89, 57), line([19, 38], [63, 70], [108, 38]), line([19, 95], [50, 67]), line([108, 95], [77, 67]),
+      oval(80, 14, 31, 31), line([95, 20], [95, 30]), line([95, 35], [95, 37]), line([15, 110], [112, 110]),
+    ]),
+  entry("aws-sns-http-notification", "aws", "SNS HTTP Notification", ["Res_Amazon-Simple-Notification-Service_HTTP-Notification_48"],
+    "An alert is posted to a web endpoint.",
+    [
+      rect(16, 24, 96, 71), line([16, 38], [112, 38]), line([24, 31], [27, 31]), line([33, 31], [36, 31]),
+      line([29, 53], [22, 61], [29, 69]), line([43, 53], [50, 61], [43, 69]), line([39, 51], [34, 71]),
+      line([59, 62], [75, 62]), line([69, 56], [75, 62], [69, 68]),
+      oval(79, 45, 23, 23), line([90, 50], [90, 58]), line([90, 62], [90, 64]), line([16, 110], [112, 110]),
+    ]),
+  entry("aws-sns-topic", "aws", "SNS Topic", ["Res_Amazon-Simple-Notification-Service_Topic_48"],
+    "A topic distributes a publication to multiple subscribers.",
+    [
+      line([13, 51], [38, 51]), line([32, 45], [38, 51], [32, 57]),
+      rect(41, 35, 38, 33), line([48, 43], [72, 43]), line([48, 51], [68, 51]), line([48, 59], [72, 59]),
+      line([79, 51], [91, 51], [91, 27], [100, 27]), line([91, 51], [100, 51]), line([91, 51], [91, 75], [100, 75]),
+      oval(100, 20, 14, 14), oval(100, 44, 14, 14), oval(100, 68, 14, 14), line([16, 105], [112, 105]),
+    ]),
+  entry("aws-sqs-message", "aws", "SQS Message", ["Res_Amazon-Simple-Queue-Service_Message_48"],
+    "A single message is carried in a queue.",
+    [
+      rect(25, 30, 78, 53), line([25, 30], [64, 59], [103, 30]), line([25, 83], [51, 60]), line([103, 83], [77, 60]),
+      line([17, 95], [110, 95]), line([100, 88], [110, 95], [100, 102]), line([17, 112], [112, 112]),
+    ]),
+  entry("aws-sqs-queue", "aws", "SQS Queue", ["Res_Amazon-Simple-Queue-Service_Queue_48"],
+    "Messages wait in order for a consumer.",
+    [
+      line([13, 38], [13, 89], [115, 89], [115, 38]), line([20, 51], [38, 51], [38, 75], [20, 75], [20, 51]),
+      line([46, 51], [64, 51], [64, 75], [46, 75], [46, 51]), line([72, 51], [90, 51], [90, 75], [72, 75], [72, 51]),
+      line([94, 63], [109, 63]), line([103, 57], [109, 63], [103, 69]), line([16, 108], [112, 108]),
+    ]),
   entry("aws-marketplace", "aws", "AWS Marketplace",
     [...sizes("AWS-Marketplace_Dark"), ...sizes("AWS-Marketplace_Light")],
     "A cloud software marketplace displays products in a storefront.",
