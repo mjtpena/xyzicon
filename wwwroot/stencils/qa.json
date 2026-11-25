@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1020,
-  "aliases": 3877,
+  "count": 1024,
+  "aliases": 3893,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -930,6 +930,10 @@
     "fabric-datatype-boolean",
     "fabric-datatype-string",
     "fabric-datatype-long",
+    "fabric-datatype-short",
+    "fabric-calculator-number",
+    "fabric-odata",
+    "fabric-schema",
     "fabric-datatype-decimal",
     "fabric-datatype-double",
     "fabric-datatype-float",
@@ -1106,8 +1110,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1235,
-      "concepts": 216
+      "covered": 1251,
+      "concepts": 220
     },
     "entra": {
       "sources": 14,
@@ -2577,13 +2581,13 @@
       },
       {
         "a": "azure-log-analytics",
-        "b": "fabric-kql-script",
-        "similarity": 0.2437
+        "b": "fabric-calculator-number",
+        "similarity": 0.3158
       },
       {
         "a": "azure-log-analytics",
-        "b": "aws-cloudtrail",
-        "similarity": 0.2429
+        "b": "fabric-kql-script",
+        "similarity": 0.2437
       }
     ],
     "azure-managed-identities": [
@@ -2708,6 +2712,11 @@
     "aws-opensearch": [
       {
         "a": "aws-opensearch",
+        "b": "fabric-calculator-number",
+        "similarity": 0.1989
+      },
+      {
+        "a": "aws-opensearch",
         "b": "m365-search",
         "similarity": 0.1864
       },
@@ -2715,11 +2724,6 @@
         "a": "aws-opensearch",
         "b": "m365-cart",
         "similarity": 0.1818
-      },
-      {
-        "a": "aws-opensearch",
-        "b": "azure-maintenance-config",
-        "similarity": 0.1805
       }
     ],
     "aws-redshift": [
@@ -3728,6 +3732,11 @@
     "fabric-branch-add": [
       {
         "a": "fabric-branch-add",
+        "b": "fabric-schema",
+        "similarity": 0.1373
+      },
+      {
+        "a": "fabric-branch-add",
         "b": "aws-migration-evaluator",
         "similarity": 0.1287
       },
@@ -3735,11 +3744,6 @@
         "a": "m365-deploy",
         "b": "fabric-branch-add",
         "similarity": 0.1276
-      },
-      {
-        "a": "fabric-branch-add",
-        "b": "fabric-briefcase-pulse",
-        "similarity": 0.1262
       }
     ],
     "fabric-branch-fork-signal": [
@@ -5948,8 +5952,8 @@
       },
       {
         "a": "gcp-billing",
-        "b": "aws-directory-service",
-        "similarity": 0.2726
+        "b": "fabric-calculator-number",
+        "similarity": 0.3097
       }
     ],
     "gcp-speech-to-text": [
@@ -8974,8 +8978,8 @@
       },
       {
         "a": "m365-wallet-card",
-        "b": "fabric-calendar-lightning",
-        "similarity": 0.2455
+        "b": "fabric-calculator-number",
+        "similarity": 0.2466
       }
     ],
     "m365-window": [
@@ -10452,9 +10456,9 @@
         "similarity": 0.2308
       },
       {
-        "a": "gcp-api-monetization",
-        "b": "aws-codecommit",
-        "similarity": 0.2291
+        "a": "aws-codecommit",
+        "b": "fabric-schema",
+        "similarity": 0.2294
       }
     ],
     "aws-codedeploy": [
@@ -15165,6 +15169,11 @@
     "aws-category-analytics": [
       {
         "a": "aws-category-analytics",
+        "b": "fabric-odata",
+        "similarity": 0.2099
+      },
+      {
+        "a": "aws-category-analytics",
         "b": "azure-app-service-environments",
         "similarity": 0.2059
       },
@@ -15172,11 +15181,6 @@
         "a": "fabric-user-data-function",
         "b": "aws-category-analytics",
         "similarity": 0.2008
-      },
-      {
-        "a": "aws-category-app-integration",
-        "b": "aws-category-analytics",
-        "similarity": 0.1966
       }
     ],
     "aws-category-containers": [
@@ -15357,13 +15361,13 @@
       },
       {
         "a": "aws-braket",
-        "b": "fabric-folder",
-        "similarity": 0.2041
+        "b": "fabric-odata",
+        "similarity": 0.206
       },
       {
         "a": "aws-braket",
-        "b": "azure-resource-groups",
-        "similarity": 0.1786
+        "b": "fabric-folder",
+        "similarity": 0.2041
       }
     ],
     "aws-open-3d-engine": [
@@ -16874,12 +16878,17 @@
         "similarity": 0.1829
       },
       {
-        "a": "aws-parallel-computing",
-        "b": "fabric-datatype-string",
-        "similarity": 0.1648
+        "a": "fabric-datatype-string",
+        "b": "fabric-datatype-short",
+        "similarity": 0.1789
       }
     ],
     "fabric-datatype-long": [
+      {
+        "a": "fabric-datatype-long",
+        "b": "fabric-datatype-short",
+        "similarity": 0.5833
+      },
       {
         "a": "fabric-arrow-down-double",
         "b": "fabric-datatype-long",
@@ -16889,11 +16898,74 @@
         "a": "fabric-arrow-sort",
         "b": "fabric-datatype-long",
         "similarity": 0.2276
+      }
+    ],
+    "fabric-datatype-short": [
+      {
+        "a": "fabric-datatype-long",
+        "b": "fabric-datatype-short",
+        "similarity": 0.5833
       },
       {
-        "a": "aws-data-transfer-terminal",
-        "b": "fabric-datatype-long",
-        "similarity": 0.1703
+        "a": "fabric-datatype-string",
+        "b": "fabric-datatype-short",
+        "similarity": 0.1789
+      },
+      {
+        "a": "fabric-datatype-short",
+        "b": "fabric-bracket-rectangles",
+        "similarity": 0.154
+      }
+    ],
+    "fabric-calculator-number": [
+      {
+        "a": "azure-log-analytics",
+        "b": "fabric-calculator-number",
+        "similarity": 0.3158
+      },
+      {
+        "a": "gcp-billing",
+        "b": "fabric-calculator-number",
+        "similarity": 0.3097
+      },
+      {
+        "a": "m365-wallet-card",
+        "b": "fabric-calculator-number",
+        "similarity": 0.2466
+      }
+    ],
+    "fabric-odata": [
+      {
+        "a": "aws-service-management-connector",
+        "b": "fabric-odata",
+        "similarity": 0.2243
+      },
+      {
+        "a": "aws-data-exchange-api",
+        "b": "fabric-odata",
+        "similarity": 0.2156
+      },
+      {
+        "a": "aws-category-business-applications",
+        "b": "fabric-odata",
+        "similarity": 0.2133
+      }
+    ],
+    "fabric-schema": [
+      {
+        "a": "aws-management-console",
+        "b": "fabric-schema",
+        "similarity": 0.247
+      },
+      {
+        "a": "aws-codecommit",
+        "b": "fabric-schema",
+        "similarity": 0.2294
+      },
+      {
+        "a": "aws-devops-agent",
+        "b": "fabric-schema",
+        "similarity": 0.2231
       }
     ],
     "fabric-datatype-decimal": [
