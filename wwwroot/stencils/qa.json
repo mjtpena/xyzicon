@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1652,
-  "aliases": 4814,
+  "count": 1671,
+  "aliases": 4836,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -740,6 +740,25 @@
     "aws-lookout-equipment",
     "aws-lookout-vision",
     "aws-monitron",
+    "azure-entra-connect-sync",
+    "azure-user-subscriptions",
+    "azure-entra-domain-services",
+    "azure-identity-groups",
+    "azure-entra-connect-health",
+    "azure-enterprise-applications",
+    "azure-ad-b2c",
+    "azure-directory-users",
+    "azure-entra-id-protection",
+    "azure-app-registrations",
+    "azure-identity-governance",
+    "azure-identity-roles-administrators",
+    "azure-multi-factor-authentication",
+    "azure-global-secure-access",
+    "azure-external-identities",
+    "azure-entra-private-access",
+    "azure-entra-internet-access",
+    "azure-external-id",
+    "azure-external-id-modified",
     "azure-identity-security",
     "azure-administrative-units",
     "azure-multi-tenancy",
@@ -1922,8 +1941,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 442,
-      "concepts": 367
+      "covered": 464,
+      "concepts": 386
     },
     "fabric": {
       "sources": 1584,
@@ -4362,6 +4381,11 @@
     "aws-eventbridge-rule": [
       {
         "a": "aws-eventbridge-rule",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.3439
+      },
+      {
+        "a": "aws-eventbridge-rule",
         "b": "fabric-dual-screen-diff",
         "similarity": 0.2764
       },
@@ -4369,11 +4393,6 @@
         "a": "aws-eventbridge-rule",
         "b": "azure-verification-service",
         "similarity": 0.2704
-      },
-      {
-        "a": "aws-eventbridge-rule",
-        "b": "fabric-folder-data-bars",
-        "similarity": 0.2698
       }
     ],
     "aws-eventbridge-scheduler": [
@@ -4729,8 +4748,8 @@
       },
       {
         "a": "gcp-cloud-build",
-        "b": "gcp-os-patch",
-        "similarity": 0.2007
+        "b": "azure-app-registrations",
+        "similarity": 0.2015
       }
     ],
     "gcp-cloud-dns": [
@@ -6475,13 +6494,13 @@
       },
       {
         "a": "gcp-api-analytics",
-        "b": "azure-resource-linked",
-        "similarity": 0.2602
+        "b": "azure-entra-internet-access",
+        "similarity": 0.2613
       },
       {
         "a": "gcp-api-analytics",
-        "b": "azure-devops",
-        "similarity": 0.2552
+        "b": "azure-resource-linked",
+        "similarity": 0.2602
       }
     ],
     "gcp-api-monetization": [
@@ -6497,8 +6516,8 @@
       },
       {
         "a": "gcp-api-monetization",
-        "b": "azure-reservations",
-        "similarity": 0.2551
+        "b": "azure-ad-b2c",
+        "similarity": 0.2705
       }
     ],
     "gcp-api-gateway": [
@@ -7069,14 +7088,14 @@
         "similarity": 0.3362
       },
       {
+        "a": "gcp-video-intelligence",
+        "b": "azure-multi-factor-authentication",
+        "similarity": 0.3329
+      },
+      {
         "a": "gcp-healthcare-nlp",
         "b": "gcp-video-intelligence",
         "similarity": 0.3256
-      },
-      {
-        "a": "gcp-video-intelligence",
-        "b": "azure-mobile",
-        "similarity": 0.3229
       }
     ],
     "gcp-recommendations-ai": [
@@ -7432,8 +7451,8 @@
       },
       {
         "a": "gcp-security-key-enforcement",
-        "b": "aws-cloud9-resource",
-        "similarity": 0.1951
+        "b": "azure-entra-domain-services",
+        "similarity": 0.1957
       }
     ],
     "gcp-phishing-protection": [
@@ -8073,13 +8092,13 @@
       },
       {
         "a": "gcp-advanced-solutions-lab",
-        "b": "aws-textract-lending",
-        "similarity": 0.2384
+        "b": "azure-entra-domain-services",
+        "similarity": 0.244
       },
       {
         "a": "gcp-advanced-solutions-lab",
-        "b": "fabric-library-globe",
-        "similarity": 0.2308
+        "b": "aws-textract-lending",
+        "similarity": 0.2384
       }
     ],
     "gcp-tensorflow-enterprise": [
@@ -8187,6 +8206,11 @@
     "gcp-memorystore": [
       {
         "a": "gcp-memorystore",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.2792
+      },
+      {
+        "a": "gcp-memorystore",
         "b": "fabric-app-folder-pulse",
         "similarity": 0.2783
       },
@@ -8194,11 +8218,6 @@
         "a": "gcp-partner-interconnect",
         "b": "gcp-memorystore",
         "similarity": 0.2744
-      },
-      {
-        "a": "gcp-iot-edge",
-        "b": "gcp-memorystore",
-        "similarity": 0.2692
       }
     ],
     "gcp-workload-identity-pool": [
@@ -9495,6 +9514,11 @@
     ],
     "gcp-persistent-disk": [
       {
+        "a": "gcp-persistent-disk",
+        "b": "azure-multi-factor-authentication",
+        "similarity": 0.2231
+      },
+      {
         "a": "gcp-video-intelligence",
         "b": "gcp-persistent-disk",
         "similarity": 0.2215
@@ -9503,11 +9527,6 @@
         "a": "gcp-persistent-disk",
         "b": "aws-wickr",
         "similarity": 0.2213
-      },
-      {
-        "a": "gcp-deployment-manager",
-        "b": "gcp-persistent-disk",
-        "similarity": 0.2111
       }
     ],
     "gcp-cloud-domains": [
@@ -13474,8 +13493,8 @@
       },
       {
         "a": "m365-people-settings",
-        "b": "azure-personalizer",
-        "similarity": 0.1635
+        "b": "azure-app-registrations",
+        "similarity": 0.1639
       }
     ],
     "m365-people": [
@@ -14063,14 +14082,14 @@
         "similarity": 0.2965
       },
       {
+        "a": "aws-deep-learning-amis",
+        "b": "azure-external-identities",
+        "similarity": 0.269
+      },
+      {
         "a": "azure-device-registry",
         "b": "aws-deep-learning-amis",
         "similarity": 0.2668
-      },
-      {
-        "a": "azure-databricks",
-        "b": "aws-deep-learning-amis",
-        "similarity": 0.2619
       }
     ],
     "aws-sagemaker-studio-lab": [
@@ -14481,6 +14500,329 @@
         "similarity": 0.234
       }
     ],
+    "azure-entra-connect-sync": [
+      {
+        "a": "azure-entra-connect-sync",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.299
+      },
+      {
+        "a": "gcp-cloud-inference",
+        "b": "azure-entra-connect-sync",
+        "similarity": 0.2349
+      },
+      {
+        "a": "gcp-memorystore",
+        "b": "azure-entra-connect-sync",
+        "similarity": 0.2347
+      }
+    ],
+    "azure-user-subscriptions": [
+      {
+        "a": "azure-user-subscriptions",
+        "b": "azure-privileged-identity-management",
+        "similarity": 0.2264
+      },
+      {
+        "a": "azure-user-subscriptions",
+        "b": "azure-powershell",
+        "similarity": 0.2035
+      },
+      {
+        "a": "azure-data-virtualization",
+        "b": "azure-user-subscriptions",
+        "similarity": 0.2009
+      }
+    ],
+    "azure-entra-domain-services": [
+      {
+        "a": "azure-entra-domain-services",
+        "b": "aws-firewall-manager",
+        "similarity": 0.3043
+      },
+      {
+        "a": "gcp-catalog",
+        "b": "azure-entra-domain-services",
+        "similarity": 0.279
+      },
+      {
+        "a": "aws-pytorch",
+        "b": "azure-entra-domain-services",
+        "similarity": 0.2662
+      }
+    ],
+    "azure-identity-groups": [
+      {
+        "a": "azure-identity-secure-score",
+        "b": "azure-identity-groups",
+        "similarity": 0.2182
+      },
+      {
+        "a": "azure-identity-groups",
+        "b": "azure-region-management",
+        "similarity": 0.2122
+      },
+      {
+        "a": "aws-dynamodb-attribute",
+        "b": "azure-identity-groups",
+        "similarity": 0.2081
+      }
+    ],
+    "azure-entra-connect-health": [
+      {
+        "a": "aws-eventbridge-rule",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.3439
+      },
+      {
+        "a": "azure-entra-connect-health",
+        "b": "azure-verification-service",
+        "similarity": 0.3125
+      },
+      {
+        "a": "azure-entra-connect-sync",
+        "b": "azure-entra-connect-health",
+        "similarity": 0.299
+      }
+    ],
+    "azure-enterprise-applications": [
+      {
+        "a": "azure-enterprise-applications",
+        "b": "aws-general-cold-storage",
+        "similarity": 0.2566
+      },
+      {
+        "a": "azure-enterprise-applications",
+        "b": "azure-cache",
+        "similarity": 0.2508
+      },
+      {
+        "a": "azure-enterprise-applications",
+        "b": "fabric-notebook-export",
+        "similarity": 0.2485
+      }
+    ],
+    "azure-ad-b2c": [
+      {
+        "a": "azure-databricks",
+        "b": "azure-ad-b2c",
+        "similarity": 0.2734
+      },
+      {
+        "a": "gcp-api-monetization",
+        "b": "azure-ad-b2c",
+        "similarity": 0.2705
+      },
+      {
+        "a": "aws-dynamodb-global-secondary-index",
+        "b": "azure-ad-b2c",
+        "similarity": 0.2609
+      }
+    ],
+    "azure-directory-users": [
+      {
+        "a": "azure-directory-users",
+        "b": "aws-elemental-link",
+        "similarity": 0.1926
+      },
+      {
+        "a": "azure-directory-users",
+        "b": "azure-cognitive-search",
+        "similarity": 0.1823
+      },
+      {
+        "a": "azure-directory-users",
+        "b": "fabric-stream-bracket",
+        "similarity": 0.1781
+      }
+    ],
+    "azure-entra-id-protection": [
+      {
+        "a": "azure-entra-id-protection",
+        "b": "azure-mobile-engagement",
+        "similarity": 0.2149
+      },
+      {
+        "a": "azure-entra-id-protection",
+        "b": "azure-blob-page",
+        "similarity": 0.2137
+      },
+      {
+        "a": "azure-entra-id-protection",
+        "b": "azure-globe-success",
+        "similarity": 0.2133
+      }
+    ],
+    "azure-app-registrations": [
+      {
+        "a": "azure-app-registrations",
+        "b": "azure-web-slots",
+        "similarity": 0.3502
+      },
+      {
+        "a": "azure-app-registrations",
+        "b": "aws-elemental-delta",
+        "similarity": 0.2732
+      },
+      {
+        "a": "gcp-local-ssd",
+        "b": "azure-app-registrations",
+        "similarity": 0.2632
+      }
+    ],
+    "azure-identity-governance": [
+      {
+        "a": "azure-identity-governance",
+        "b": "aws-general-ssl-padlock",
+        "similarity": 0.2013
+      },
+      {
+        "a": "azure-identity-governance",
+        "b": "azure-api-center",
+        "similarity": 0.1971
+      },
+      {
+        "a": "azure-identity-governance",
+        "b": "aws-general-recover",
+        "similarity": 0.1942
+      }
+    ],
+    "azure-identity-roles-administrators": [
+      {
+        "a": "azure-identity-roles-administrators",
+        "b": "azure-external-id",
+        "similarity": 0.2493
+      },
+      {
+        "a": "gcp-cloud-scheduler",
+        "b": "azure-identity-roles-administrators",
+        "similarity": 0.2353
+      },
+      {
+        "a": "fabric-apps",
+        "b": "azure-identity-roles-administrators",
+        "similarity": 0.2339
+      }
+    ],
+    "azure-multi-factor-authentication": [
+      {
+        "a": "azure-multi-factor-authentication",
+        "b": "azure-server-farm",
+        "similarity": 0.3578
+      },
+      {
+        "a": "gcp-video-intelligence",
+        "b": "azure-multi-factor-authentication",
+        "similarity": 0.3329
+      },
+      {
+        "a": "azure-waf-policies",
+        "b": "azure-multi-factor-authentication",
+        "similarity": 0.303
+      }
+    ],
+    "azure-global-secure-access": [
+      {
+        "a": "gcp-analytics-hub",
+        "b": "azure-global-secure-access",
+        "similarity": 0.2272
+      },
+      {
+        "a": "azure-global-secure-access",
+        "b": "aws-general-tape-storage",
+        "similarity": 0.2195
+      },
+      {
+        "a": "azure-global-secure-access",
+        "b": "aws-general-users",
+        "similarity": 0.2179
+      }
+    ],
+    "azure-external-identities": [
+      {
+        "a": "azure-external-identities",
+        "b": "azure-api-proxy",
+        "similarity": 0.4383
+      },
+      {
+        "a": "azure-external-identities",
+        "b": "aws-backint-agent",
+        "similarity": 0.2797
+      },
+      {
+        "a": "aws-deep-learning-amis",
+        "b": "azure-external-identities",
+        "similarity": 0.269
+      }
+    ],
+    "azure-entra-private-access": [
+      {
+        "a": "azure-external-identities",
+        "b": "azure-entra-private-access",
+        "similarity": 0.2407
+      },
+      {
+        "a": "aws-deep-learning-amis",
+        "b": "azure-entra-private-access",
+        "similarity": 0.2347
+      },
+      {
+        "a": "azure-entra-private-access",
+        "b": "fabric-dual-screen-diff",
+        "similarity": 0.2266
+      }
+    ],
+    "azure-entra-internet-access": [
+      {
+        "a": "gcp-api-analytics",
+        "b": "azure-entra-internet-access",
+        "similarity": 0.2613
+      },
+      {
+        "a": "azure-external-identities",
+        "b": "azure-entra-internet-access",
+        "similarity": 0.2609
+      },
+      {
+        "a": "azure-entra-internet-access",
+        "b": "azure-api-proxy",
+        "similarity": 0.2573
+      }
+    ],
+    "azure-external-id": [
+      {
+        "a": "azure-identity-roles-administrators",
+        "b": "azure-external-id",
+        "similarity": 0.2493
+      },
+      {
+        "a": "azure-external-id",
+        "b": "aws-elemental-delta",
+        "similarity": 0.2434
+      },
+      {
+        "a": "azure-external-id",
+        "b": "azure-resource-linked",
+        "similarity": 0.233
+      }
+    ],
+    "azure-external-id-modified": [
+      {
+        "a": "azure-external-id-modified",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.3512
+      },
+      {
+        "a": "azure-external-id-modified",
+        "b": "azure-web-test",
+        "similarity": 0.3239
+      },
+      {
+        "a": "azure-external-id-modified",
+        "b": "azure-search-grid",
+        "similarity": 0.2894
+      }
+    ],
     "azure-identity-security": [
       {
         "a": "azure-identity-security",
@@ -14561,26 +14903,26 @@
         "similarity": 0.2286
       },
       {
-        "a": "azure-privileged-identity-management",
-        "b": "azure-search",
-        "similarity": 0.2214
+        "a": "azure-user-subscriptions",
+        "b": "azure-privileged-identity-management",
+        "similarity": 0.2264
       }
     ],
     "azure-api-proxy": [
       {
+        "a": "azure-external-identities",
+        "b": "azure-api-proxy",
+        "similarity": 0.4383
+      },
+      {
+        "a": "azure-entra-internet-access",
+        "b": "azure-api-proxy",
+        "similarity": 0.2573
+      },
+      {
         "a": "gcp-partner-interconnect",
         "b": "azure-api-proxy",
         "similarity": 0.2357
-      },
-      {
-        "a": "gcp-migrate-compute",
-        "b": "azure-api-proxy",
-        "similarity": 0.2317
-      },
-      {
-        "a": "gcp-cloud-inference",
-        "b": "azure-api-proxy",
-        "similarity": 0.2312
       }
     ],
     "azure-tenant-properties": [
@@ -14670,6 +15012,11 @@
     ],
     "azure-verification-service": [
       {
+        "a": "azure-entra-connect-health",
+        "b": "azure-verification-service",
+        "similarity": 0.3125
+      },
+      {
         "a": "azure-verification-service",
         "b": "fabric-document-ssis-play",
         "similarity": 0.2755
@@ -14678,11 +15025,6 @@
         "a": "aws-eventbridge-rule",
         "b": "azure-verification-service",
         "similarity": 0.2704
-      },
-      {
-        "a": "gcp-memorystore",
-        "b": "azure-verification-service",
-        "similarity": 0.2566
       }
     ],
     "azure-machine-learning-classic": [
@@ -15525,14 +15867,14 @@
         "similarity": 0.2147
       },
       {
+        "a": "azure-entra-connect-health",
+        "b": "fabric-databases",
+        "similarity": 0.2124
+      },
+      {
         "a": "aws-glue-quality",
         "b": "fabric-databases",
         "similarity": 0.2122
-      },
-      {
-        "a": "aws-sagemaker-train",
-        "b": "fabric-databases",
-        "similarity": 0.2055
       }
     ],
     "fabric-platform": [
@@ -15724,6 +16066,11 @@
     ],
     "aws-red-hat-openshift": [
       {
+        "a": "azure-entra-domain-services",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2618
+      },
+      {
         "a": "gcp-catalog",
         "b": "aws-red-hat-openshift",
         "similarity": 0.2609
@@ -15732,11 +16079,6 @@
         "a": "aws-red-hat-openshift",
         "b": "aws-cloudfront-download",
         "similarity": 0.2578
-      },
-      {
-        "a": "gcp-financial-marketplace",
-        "b": "aws-red-hat-openshift",
-        "similarity": 0.2564
       }
     ],
     "aws-cloud-control": [
@@ -16812,6 +17154,11 @@
     ],
     "aws-wickr": [
       {
+        "a": "azure-multi-factor-authentication",
+        "b": "aws-wickr",
+        "similarity": 0.2416
+      },
+      {
         "a": "gcp-security-operations",
         "b": "aws-wickr",
         "similarity": 0.2315
@@ -16820,11 +17167,6 @@
         "a": "gcp-persistent-disk",
         "b": "aws-wickr",
         "similarity": 0.2213
-      },
-      {
-        "a": "fabric-data-agent",
-        "b": "aws-wickr",
-        "similarity": 0.2114
       }
     ],
     "aws-end-user-messaging": [
@@ -17157,14 +17499,14 @@
         "similarity": 0.2185
       },
       {
+        "a": "azure-global-secure-access",
+        "b": "aws-general-users",
+        "similarity": 0.2179
+      },
+      {
         "a": "aws-general-toolkit",
         "b": "aws-general-users",
         "similarity": 0.204
-      },
-      {
-        "a": "azure-tenant-properties",
-        "b": "aws-general-users",
-        "similarity": 0.2028
       }
     ],
     "aws-general-internet-transfer": [
@@ -18874,14 +19216,14 @@
         "similarity": 0.3176
       },
       {
+        "a": "azure-entra-domain-services",
+        "b": "aws-firewall-manager",
+        "similarity": 0.3043
+      },
+      {
         "a": "aws-cloud9-resource",
         "b": "aws-firewall-manager",
         "similarity": 0.2712
-      },
-      {
-        "a": "gcp-batch",
-        "b": "aws-firewall-manager",
-        "similarity": 0.2696
       }
     ],
     "aws-resource-access-manager": [
@@ -20059,9 +20401,9 @@
         "similarity": 0.2272
       },
       {
-        "a": "aws-backint-agent",
+        "a": "azure-entra-internet-access",
         "b": "aws-cloudfront-streaming",
-        "similarity": 0.2213
+        "similarity": 0.2247
       }
     ],
     "aws-vpc-nat-gateway": [
@@ -21449,6 +21791,11 @@
     ],
     "aws-ec2-spot-instance": [
       {
+        "a": "azure-external-id-modified",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.3512
+      },
+      {
         "a": "aws-ec2-db-instance",
         "b": "aws-ec2-spot-instance",
         "similarity": 0.3333
@@ -21457,11 +21804,6 @@
         "a": "aws-ec2-spot-instance",
         "b": "azure-scheduler",
         "similarity": 0.2917
-      },
-      {
-        "a": "aws-ec2-spot-instance",
-        "b": "azure-web-test",
-        "similarity": 0.2907
       }
     ],
     "aws-beanstalk-application": [
@@ -21510,9 +21852,9 @@
         "similarity": 0.2391
       },
       {
-        "a": "gcp-cloud-scheduler",
+        "a": "azure-identity-roles-administrators",
         "b": "aws-lambda-function",
-        "similarity": 0.2246
+        "similarity": 0.2322
       }
     ],
     "aws-ec2-ami": [
@@ -22836,9 +23178,9 @@
         "similarity": 0.2935
       },
       {
-        "a": "aws-ec2-spot-instance",
+        "a": "azure-external-id-modified",
         "b": "azure-website-staging",
-        "similarity": 0.2847
+        "similarity": 0.2876
       }
     ],
     "azure-web-slots": [
@@ -22848,14 +23190,14 @@
         "similarity": 0.4392
       },
       {
+        "a": "azure-app-registrations",
+        "b": "azure-web-slots",
+        "similarity": 0.3502
+      },
+      {
         "a": "azure-web-slots",
         "b": "azure-server-farm",
         "similarity": 0.3244
-      },
-      {
-        "a": "aws-sagemaker-train",
-        "b": "azure-web-slots",
-        "similarity": 0.3235
       }
     ],
     "azure-web-test": [
@@ -22865,14 +23207,14 @@
         "similarity": 0.3297
       },
       {
-        "a": "azure-web-test",
-        "b": "azure-search-grid",
-        "similarity": 0.3149
+        "a": "azure-external-id-modified",
+        "b": "azure-web-test",
+        "similarity": 0.3239
       },
       {
         "a": "azure-web-test",
-        "b": "azure-static-apps",
-        "similarity": 0.3083
+        "b": "azure-search-grid",
+        "similarity": 0.3149
       }
     ],
     "azure-general-workbooks": [
@@ -23091,9 +23433,9 @@
         "similarity": 0.2702
       },
       {
-        "a": "azure-web-test",
+        "a": "azure-external-id-modified",
         "b": "azure-search",
-        "similarity": 0.2403
+        "similarity": 0.2538
       }
     ],
     "azure-server-farm": [
@@ -23103,14 +23445,14 @@
         "similarity": 0.4414
       },
       {
+        "a": "azure-multi-factor-authentication",
+        "b": "azure-server-farm",
+        "similarity": 0.3578
+      },
+      {
         "a": "azure-web-slots",
         "b": "azure-server-farm",
         "similarity": 0.3244
-      },
-      {
-        "a": "azure-entra-connect",
-        "b": "azure-server-farm",
-        "similarity": 0.3137
       }
     ],
     "azure-ssd": [
@@ -23783,14 +24125,14 @@
         "similarity": 0.2068
       },
       {
+        "a": "azure-entra-id-protection",
+        "b": "azure-troubleshoot",
+        "similarity": 0.2026
+      },
+      {
         "a": "azure-troubleshoot",
         "b": "fabric-shapes-curved-arrow",
         "similarity": 0.1967
-      },
-      {
-        "a": "azure-load-test",
-        "b": "azure-troubleshoot",
-        "similarity": 0.1954
       }
     ],
     "azure-resource-explorer": [
@@ -23919,14 +24261,14 @@
         "similarity": 0.251
       },
       {
+        "a": "azure-enterprise-applications",
+        "b": "azure-cache",
+        "similarity": 0.2508
+      },
+      {
         "a": "aws-general-cold-storage",
         "b": "azure-cache",
         "similarity": 0.2466
-      },
-      {
-        "a": "azure-website-staging",
-        "b": "azure-cache",
-        "similarity": 0.2456
       }
     ],
     "azure-code": [
@@ -25097,9 +25439,9 @@
         "similarity": 0.1783
       },
       {
-        "a": "aws-documentdb-elastic-clusters",
+        "a": "azure-entra-domain-services",
         "b": "azure-managed-service-fabric",
-        "similarity": 0.1691
+        "similarity": 0.1697
       }
     ],
     "azure-notification-hubs": [
@@ -26015,9 +26357,9 @@
         "similarity": 0.2755
       },
       {
-        "a": "aws-ec2-cloudwatch-instance",
+        "a": "azure-entra-connect-health",
         "b": "fabric-document-ssis-play",
-        "similarity": 0.2583
+        "similarity": 0.2745
       }
     ],
     "fabric-documents-dax-export": [
