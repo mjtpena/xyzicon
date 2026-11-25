@@ -1,8 +1,50 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
+const categorySizes = (name) => [16, 32, 48, 64].map((size) => `Arch-Category_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-category-blockchain", "aws", "Blockchain category", categorySizes("Blockchain"),
+    "Three linked blocks represent a distributed chain of records.",
+    [
+      line([11, 42], [26, 34], [41, 42], [41, 62], [26, 70], [11, 62], [11, 42]),
+      line([11, 42], [26, 50], [41, 42]), line([26, 50], [26, 70]),
+      line([49, 42], [64, 34], [79, 42], [79, 62], [64, 70], [49, 62], [49, 42]),
+      line([49, 42], [64, 50], [79, 42]), line([64, 50], [64, 70]),
+      line([87, 42], [102, 34], [117, 42], [117, 62], [102, 70], [87, 62], [87, 42]),
+      line([87, 42], [102, 50], [117, 42]), line([102, 50], [102, 70]),
+      line([41, 52], [49, 52]), line([79, 52], [87, 52]), line([15, 88], [113, 88]),
+    ]),
+  entry("aws-category-quantum", "aws", "Quantum technologies category", categorySizes("Quantum-Technologies"),
+    "An atom and a measurement scale suggest quantum phenomena.",
+    [
+      oval(25, 45, 70, 32), oval(45, 25, 30, 72), oval(55, 55, 10, 10, true),
+      line([33, 35], [42, 30], [54, 29], [68, 34], [81, 45], [88, 59], [87, 71], [80, 83]),
+      oval(27, 38, 9, 9, true), oval(81, 66, 9, 9, true), oval(55, 19, 9, 9, true),
+      line([17, 107], [103, 107]), line([29, 103], [29, 111]), line([49, 103], [49, 111]),
+      line([69, 103], [69, 111]), line([89, 103], [89, 111]),
+    ]),
+  entry("aws-category-satellite", "aws", "Satellite category", categorySizes("Satellite"),
+    "A satellite circles a planet on an orbital path.",
+    [
+      oval(28, 38, 58, 58), line([15, 80], [13, 69], [18, 58], [30, 47]),
+      line([82, 44], [96, 42], [107, 47], [110, 56], [106, 66], [96, 77], [83, 87], [68, 94], [51, 99], [35, 101], [22, 98], [15, 92]),
+      line([40, 56], [50, 50], [58, 54], [56, 61], [47, 64], [44, 71], [35, 69]),
+      line([64, 76], [75, 69], [81, 73]), line([89, 23], [101, 19], [106, 31], [94, 35], [89, 23]),
+      line([89, 25], [80, 21], [76, 29], [94, 31]), line([102, 21], [110, 12], [116, 20], [106, 27]),
+      line([17, 113], [109, 113]),
+    ]),
+  entry("aws-category-iot", "aws", "Internet of Things category", categorySizes("Internet-of-Things"),
+    "Connected everyday devices exchange signals with a wireless hub.",
+    [
+      line([48, 38], [55, 31], [73, 31], [80, 38]), line([54, 42], [59, 38], [69, 38], [74, 42]), oval(61, 43, 6, 6, true),
+      line([64, 51], [64, 67]), line([31, 67], [97, 67]), line([31, 67], [31, 75]), line([97, 67], [97, 75]),
+      line([18, 93], [18, 84], [22, 77], [31, 74], [40, 77], [44, 84], [44, 93], [18, 93]),
+      line([25, 98], [37, 98]), line([27, 103], [35, 103]), line([31, 79], [31, 88]),
+      rect(53, 78, 22, 29), line([60, 84], [68, 84]), oval(60, 93, 8, 8),
+      rect(85, 77, 24, 21), line([97, 98], [97, 105]), line([89, 105], [105, 105]),
+      line([12, 115], [114, 115]),
+    ]),
   entry("aws-iot-expresslink", "aws", "AWS IoT ExpressLink", sizes("AWS-IoT-ExpressLink"),
     "A connectivity module securely links an embedded sensor to the cloud.",
     [

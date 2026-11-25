@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 859,
-  "aliases": 3464,
+  "count": 863,
+  "aliases": 3480,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -727,6 +727,10 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-category-blockchain",
+    "aws-category-quantum",
+    "aws-category-satellite",
+    "aws-category-iot",
     "aws-iot-expresslink",
     "aws-freertos",
     "aws-telco-network-builder",
@@ -963,8 +967,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1156,
-      "concepts": 286
+      "covered": 1172,
+      "concepts": 290
     },
     "gcp": {
       "sources": 261,
@@ -2149,6 +2153,11 @@
     "aws-sqs": [
       {
         "a": "aws-sqs",
+        "b": "aws-category-blockchain",
+        "similarity": 0.2283
+      },
+      {
+        "a": "aws-sqs",
         "b": "aws-snowball",
         "similarity": 0.2159
       },
@@ -2156,11 +2165,6 @@
         "a": "aws-sqs",
         "b": "fabric-arrow-right-double",
         "similarity": 0.2131
-      },
-      {
-        "a": "aws-sqs",
-        "b": "azure-storage-queue",
-        "similarity": 0.2013
       }
     ],
     "aws-sns": [
@@ -12853,14 +12857,14 @@
         "similarity": 0.2131
       },
       {
+        "a": "fabric-arrow-right-double",
+        "b": "aws-category-blockchain",
+        "similarity": 0.2037
+      },
+      {
         "a": "gcp-cloud-hsm",
         "b": "fabric-arrow-right-double",
         "similarity": 0.2015
-      },
-      {
-        "a": "azure-virtual-machine",
-        "b": "fabric-arrow-right-double",
-        "similarity": 0.167
       }
     ],
     "fabric-arrow-right-double-wrap": [
@@ -13275,6 +13279,74 @@
         "a": "aws-trusted-advisor",
         "b": "aws-fargate",
         "similarity": 0.1678
+      }
+    ],
+    "aws-category-blockchain": [
+      {
+        "a": "aws-sqs",
+        "b": "aws-category-blockchain",
+        "similarity": 0.2283
+      },
+      {
+        "a": "azure-virtual-machine",
+        "b": "aws-category-blockchain",
+        "similarity": 0.2105
+      },
+      {
+        "a": "fabric-arrow-right-double",
+        "b": "aws-category-blockchain",
+        "similarity": 0.2037
+      }
+    ],
+    "aws-category-quantum": [
+      {
+        "a": "aws-lightsail",
+        "b": "aws-category-quantum",
+        "similarity": 0.1837
+      },
+      {
+        "a": "gcp-security-operations",
+        "b": "aws-category-quantum",
+        "similarity": 0.1837
+      },
+      {
+        "a": "aws-snowball-edge",
+        "b": "aws-category-quantum",
+        "similarity": 0.1812
+      }
+    ],
+    "aws-category-satellite": [
+      {
+        "a": "aws-application-migration",
+        "b": "aws-category-satellite",
+        "similarity": 0.1783
+      },
+      {
+        "a": "fabric-scorecard",
+        "b": "aws-category-satellite",
+        "similarity": 0.1673
+      },
+      {
+        "a": "aws-s3-glacier",
+        "b": "aws-category-satellite",
+        "similarity": 0.1535
+      }
+    ],
+    "aws-category-iot": [
+      {
+        "a": "aws-category-iot",
+        "b": "azure-management-groups",
+        "similarity": 0.199
+      },
+      {
+        "a": "aws-elastic-beanstalk",
+        "b": "aws-category-iot",
+        "similarity": 0.1675
+      },
+      {
+        "a": "aws-partner-central",
+        "b": "aws-category-iot",
+        "similarity": 0.1669
       }
     ],
     "aws-iot-expresslink": [
@@ -14904,9 +14976,9 @@
         "similarity": 0.1383
       },
       {
-        "a": "fabric-experiment",
+        "a": "aws-category-quantum",
         "b": "fabric-airplane",
-        "similarity": 0.1299
+        "similarity": 0.1342
       }
     ],
     "fabric-app-folder-pulse": [
