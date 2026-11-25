@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2200,
-  "aliases": 5383,
+  "count": 2208,
+  "aliases": 5391,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -858,6 +858,9 @@
     "azure-object-understanding",
     "azure-metrics-advisor",
     "azure-content-safety",
+    "azure-connected-vehicle-platform",
+    "azure-open-supply-chain-platform",
+    "azure-sphere",
     "azure-defender-industrial-robot",
     "azure-defender-meter",
     "azure-defender-plc",
@@ -1755,6 +1758,11 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-scvmm-management-servers",
+    "azure-cloud-services-extended-support",
+    "azure-hpc-workbenches",
+    "azure-wac",
+    "azure-wac-installer",
     "azure-virtual-instance-sap",
     "azure-center-sap",
     "azure-sap-central-services",
@@ -2470,8 +2478,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 688,
-      "concepts": 605
+      "covered": 696,
+      "concepts": 613
     },
     "fabric": {
       "sources": 1584,
@@ -4825,6 +4833,11 @@
     "aws-opensearch": [
       {
         "a": "aws-opensearch",
+        "b": "azure-wac-installer",
+        "similarity": 0.2084
+      },
+      {
+        "a": "aws-opensearch",
         "b": "fabric-calculator-number",
         "similarity": 0.1989
       },
@@ -4832,11 +4845,6 @@
         "a": "aws-opensearch",
         "b": "azure-defender-local-manager",
         "similarity": 0.1911
-      },
-      {
-        "a": "aws-opensearch",
-        "b": "aws-s3-glacier-instant-retrieval",
-        "similarity": 0.1906
       }
     ],
     "aws-redshift": [
@@ -5709,6 +5717,11 @@
     "m365-search": [
       {
         "a": "m365-search",
+        "b": "azure-wac-installer",
+        "similarity": 0.2392
+      },
+      {
+        "a": "m365-search",
         "b": "aws-backup-compute-resource",
         "similarity": 0.1993
       },
@@ -5716,11 +5729,6 @@
         "a": "dynamics-customer-insights",
         "b": "m365-search",
         "similarity": 0.1912
-      },
-      {
-        "a": "aws-opensearch",
-        "b": "m365-search",
-        "similarity": 0.1864
       }
     ],
     "m365-wrench": [
@@ -5957,8 +5965,8 @@
       },
       {
         "a": "azure-integration-service-environments",
-        "b": "aws-account-group",
-        "similarity": 0.2798
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.2825
       }
     ],
     "azure-partner-topic": [
@@ -9794,13 +9802,13 @@
       },
       {
         "a": "gcp-cloud-code",
-        "b": "aws-systems-patch-manager",
-        "similarity": 0.2823
+        "b": "azure-wac",
+        "similarity": 0.2824
       },
       {
         "a": "gcp-cloud-code",
-        "b": "azure-devops",
-        "similarity": 0.258
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.2823
       }
     ],
     "gcp-batch": [
@@ -10581,8 +10589,8 @@
       },
       {
         "a": "m365-megaphone",
-        "b": "aws-iot-shadow",
-        "similarity": 0.1398
+        "b": "azure-wac",
+        "similarity": 0.14
       }
     ],
     "m365-toolbox": [
@@ -14259,9 +14267,9 @@
         "similarity": 0.15
       },
       {
-        "a": "gcp-cloud-domains",
-        "b": "m365-key",
-        "similarity": 0.1347
+        "a": "m365-key",
+        "b": "azure-wac-installer",
+        "similarity": 0.1356
       }
     ],
     "m365-layer": [
@@ -15326,13 +15334,13 @@
       },
       {
         "a": "aws-panorama",
-        "b": "fabric-stream-settings-bracket",
+        "b": "azure-scvmm-management-servers",
         "similarity": 0.2053
       },
       {
         "a": "aws-panorama",
-        "b": "aws-efs-one-zone-ia",
-        "similarity": 0.2033
+        "b": "fabric-stream-settings-bracket",
+        "similarity": 0.2053
       }
     ],
     "aws-augmented-ai": [
@@ -15644,6 +15652,11 @@
     "azure-device-enrollment": [
       {
         "a": "azure-device-enrollment",
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.4132
+      },
+      {
+        "a": "azure-device-enrollment",
         "b": "aws-oracle-db-instance",
         "similarity": 0.3403
       },
@@ -15651,11 +15664,6 @@
         "a": "azure-device-enrollment",
         "b": "azure-icm-troubleshooting",
         "similarity": 0.3222
-      },
-      {
-        "a": "azure-device-enrollment",
-        "b": "aws-ec2-spot-instance",
-        "similarity": 0.3093
       }
     ],
     "azure-device-configuration": [
@@ -15971,14 +15979,14 @@
         "similarity": 0.2613
       },
       {
+        "a": "azure-global-secure-access",
+        "b": "azure-wac",
+        "similarity": 0.2525
+      },
+      {
         "a": "azure-partner-topic",
         "b": "azure-global-secure-access",
         "similarity": 0.25
-      },
-      {
-        "a": "azure-global-secure-access",
-        "b": "aws-greengrass-stream-manager",
-        "similarity": 0.2395
       }
     ],
     "azure-external-identities": [
@@ -16142,13 +16150,13 @@
       },
       {
         "a": "azure-privileged-identity-management",
-        "b": "azure-load-test",
-        "similarity": 0.2335
+        "b": "azure-open-supply-chain-platform",
+        "similarity": 0.2375
       },
       {
         "a": "azure-privileged-identity-management",
-        "b": "aws-iam-role",
-        "similarity": 0.2304
+        "b": "azure-load-test",
+        "similarity": 0.2335
       }
     ],
     "azure-api-proxy": [
@@ -17035,6 +17043,57 @@
         "similarity": 0.193
       }
     ],
+    "azure-connected-vehicle-platform": [
+      {
+        "a": "azure-connected-vehicle-platform",
+        "b": "azure-defender-scale",
+        "similarity": 0.2655
+      },
+      {
+        "a": "azure-connected-vehicle-platform",
+        "b": "aws-license-application-discovery",
+        "similarity": 0.2512
+      },
+      {
+        "a": "azure-connected-vehicle-platform",
+        "b": "aws-network-firewall-endpoint",
+        "similarity": 0.2361
+      }
+    ],
+    "azure-open-supply-chain-platform": [
+      {
+        "a": "azure-open-supply-chain-platform",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2545
+      },
+      {
+        "a": "azure-entra-connect",
+        "b": "azure-open-supply-chain-platform",
+        "similarity": 0.246
+      },
+      {
+        "a": "azure-open-supply-chain-platform",
+        "b": "azure-resource-mover",
+        "similarity": 0.2392
+      }
+    ],
+    "azure-sphere": [
+      {
+        "a": "azure-sphere",
+        "b": "aws-transfer-as2",
+        "similarity": 0.2874
+      },
+      {
+        "a": "azure-sphere",
+        "b": "aws-iot-http2",
+        "similarity": 0.2698
+      },
+      {
+        "a": "azure-sphere",
+        "b": "aws-iot-thing-stacklight",
+        "similarity": 0.2659
+      }
+    ],
     "azure-defender-industrial-robot": [
       {
         "a": "azure-defender-industrial-robot",
@@ -17200,9 +17259,9 @@
         "similarity": 0.2831
       },
       {
-        "a": "azure-language",
-        "b": "azure-defender-robot-controller",
-        "similarity": 0.2714
+        "a": "azure-defender-robot-controller",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.2776
       }
     ],
     "azure-defender-sensor": [
@@ -17706,13 +17765,13 @@
       },
       {
         "a": "azure-network-function-manager",
-        "b": "azure-search",
-        "similarity": 0.2228
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.2281
       },
       {
         "a": "azure-network-function-manager",
-        "b": "aws-efs-elastic-throughput",
-        "similarity": 0.2204
+        "b": "azure-search",
+        "similarity": 0.2228
       }
     ],
     "azure-mobile-networks": [
@@ -18454,13 +18513,13 @@
       },
       {
         "a": "azure-managed-grafana",
-        "b": "aws-general-multimedia",
-        "similarity": 0.3051
+        "b": "azure-wac",
+        "similarity": 0.3201
       },
       {
         "a": "azure-managed-grafana",
-        "b": "aws-backup-compute-resource",
-        "similarity": 0.2971
+        "b": "aws-general-multimedia",
+        "similarity": 0.3051
       }
     ],
     "azure-icm-troubleshooting": [
@@ -18471,13 +18530,13 @@
       },
       {
         "a": "azure-icm-troubleshooting",
-        "b": "aws-iot-reported-state",
-        "similarity": 0.3434
+        "b": "azure-wac-installer",
+        "similarity": 0.3704
       },
       {
         "a": "azure-icm-troubleshooting",
-        "b": "aws-backup-compute-resource",
-        "similarity": 0.3284
+        "b": "aws-iot-reported-state",
+        "similarity": 0.3434
       }
     ],
     "azure-keys": [
@@ -18589,14 +18648,14 @@
         "similarity": 0.4951
       },
       {
+        "a": "azure-web-jobs",
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.3615
+      },
+      {
         "a": "azure-intune-client-apps",
         "b": "azure-web-jobs",
         "similarity": 0.3486
-      },
-      {
-        "a": "azure-web-jobs",
-        "b": "aws-efs-one-zone-ia",
-        "similarity": 0.3454
       }
     ],
     "azure-targets-management": [
@@ -18781,9 +18840,9 @@
         "similarity": 0.3099
       },
       {
-        "a": "azure-ip-address-manager",
-        "b": "azure-reserved-capacity",
-        "similarity": 0.2982
+        "a": "azure-reserved-capacity",
+        "b": "azure-wac-installer",
+        "similarity": 0.299
       }
     ],
     "azure-capacity-reservation-groups": [
@@ -19002,9 +19061,9 @@
         "similarity": 0.2615
       },
       {
-        "a": "azure-custom-identity-roles",
+        "a": "azure-sphere",
         "b": "azure-device-update-iot-hub",
-        "similarity": 0.2426
+        "similarity": 0.2452
       }
     ],
     "azure-toolchain-orchestrator": [
@@ -19082,17 +19141,22 @@
         "similarity": 0.2754
       },
       {
+        "a": "azure-internet-analyzer-profiles",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.2643
+      },
+      {
         "a": "azure-dedicated-hsm",
         "b": "azure-internet-analyzer-profiles",
         "similarity": 0.2636
-      },
-      {
-        "a": "azure-proximity-placement-groups",
-        "b": "azure-internet-analyzer-profiles",
-        "similarity": 0.2555
       }
     ],
     "azure-cloud-shell": [
+      {
+        "a": "azure-cloud-shell",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.302
+      },
       {
         "a": "azure-defender-marquee",
         "b": "azure-cloud-shell",
@@ -19102,11 +19166,6 @@
         "a": "azure-cloud-shell",
         "b": "aws-sitewise-asset-properties",
         "similarity": 0.2886
-      },
-      {
-        "a": "azure-cloud-shell",
-        "b": "aws-iot-fleet-hub",
-        "similarity": 0.2824
       }
     ],
     "azure-video-analyzers": [
@@ -19240,9 +19299,9 @@
         "similarity": 0.2474
       },
       {
-        "a": "azure-resource-mover",
-        "b": "azure-commit",
-        "similarity": 0.2353
+        "a": "azure-open-supply-chain-platform",
+        "b": "azure-resource-mover",
+        "similarity": 0.2392
       }
     ],
     "azure-ddos-custom-policy": [
@@ -19626,14 +19685,14 @@
         "similarity": 0.2376
       },
       {
+        "a": "azure-open-supply-chain-platform",
+        "b": "azure-solutions",
+        "similarity": 0.2375
+      },
+      {
         "a": "azure-edge-hardware-center",
         "b": "azure-solutions",
         "similarity": 0.229
-      },
-      {
-        "a": "azure-solutions",
-        "b": "aws-cloudwatch-rule",
-        "similarity": 0.2255
       }
     ],
     "azure-automation-accounts": [
@@ -19734,8 +19793,8 @@
       },
       {
         "a": "aws-iot-alexa-device",
-        "b": "azure-website-staging",
-        "similarity": 0.2989
+        "b": "azure-wac-installer",
+        "similarity": 0.3217
       }
     ],
     "aws-iot-alexa-skill": [
@@ -19762,14 +19821,14 @@
         "similarity": 0.266
       },
       {
+        "a": "azure-open-supply-chain-platform",
+        "b": "aws-iot-alexa-voice-service",
+        "similarity": 0.2545
+      },
+      {
         "a": "azure-privileged-identity-management",
         "b": "aws-iot-alexa-voice-service",
         "similarity": 0.2469
-      },
-      {
-        "a": "azure-hybrid-connectivity-hub",
-        "b": "aws-iot-alexa-voice-service",
-        "similarity": 0.2459
       }
     ],
     "aws-iot-echo": [
@@ -20107,9 +20166,9 @@
         "similarity": 0.3112
       },
       {
-        "a": "azure-entra-connect-health",
-        "b": "aws-iot-shadow",
-        "similarity": 0.2855
+        "a": "aws-iot-shadow",
+        "b": "azure-wac",
+        "similarity": 0.2889
       }
     ],
     "aws-iot-simulator": [
@@ -20166,6 +20225,11 @@
     "aws-iot-device-location": [
       {
         "a": "aws-iot-device-location",
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.3178
+      },
+      {
+        "a": "aws-iot-device-location",
         "b": "aws-mainframe-developer",
         "similarity": 0.317
       },
@@ -20173,14 +20237,14 @@
         "a": "aws-iot-reported-state",
         "b": "aws-iot-device-location",
         "similarity": 0.3012
-      },
-      {
-        "a": "aws-iot-device-location",
-        "b": "aws-file-cache-on-premises",
-        "similarity": 0.3007
       }
     ],
     "aws-iot-device-jobs": [
+      {
+        "a": "aws-iot-device-jobs",
+        "b": "azure-wac-installer",
+        "similarity": 0.3506
+      },
       {
         "a": "aws-iot-device-jobs",
         "b": "aws-oracle-db-instance",
@@ -20190,11 +20254,6 @@
         "a": "azure-app-registrations",
         "b": "aws-iot-device-jobs",
         "similarity": 0.2931
-      },
-      {
-        "a": "aws-iot-device-jobs",
-        "b": "azure-resource-linked",
-        "similarity": 0.2907
       }
     ],
     "aws-iot-fleet-hub": [
@@ -21293,13 +21352,13 @@
       },
       {
         "a": "aws-s3-intelligent-tiering",
-        "b": "aws-systems-run-command",
-        "similarity": 0.2515
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.2532
       },
       {
         "a": "aws-s3-intelligent-tiering",
-        "b": "azure-signalr",
-        "similarity": 0.2465
+        "b": "aws-systems-run-command",
+        "similarity": 0.2515
       }
     ],
     "aws-s3-one-zone-ia": [
@@ -21820,13 +21879,13 @@
       },
       {
         "a": "aws-gateway-file",
-        "b": "azure-log-streaming",
-        "similarity": 0.2755
+        "b": "azure-wac-installer",
+        "similarity": 0.2841
       },
       {
         "a": "aws-gateway-file",
-        "b": "aws-transfer-sftp",
-        "similarity": 0.269
+        "b": "azure-log-streaming",
+        "similarity": 0.2755
       }
     ],
     "aws-gateway-stored-volume": [
@@ -21973,13 +22032,13 @@
       },
       {
         "a": "aws-backup-compute-resource",
-        "b": "azure-sap-database-instance",
-        "similarity": 0.3149
+        "b": "azure-wac-installer",
+        "similarity": 0.3184
       },
       {
         "a": "aws-backup-compute-resource",
-        "b": "aws-general-multimedia",
-        "similarity": 0.31
+        "b": "azure-sap-database-instance",
+        "similarity": 0.3149
       }
     ],
     "aws-backup-database-resource": [
@@ -23842,14 +23901,14 @@
         "similarity": 0.3235
       },
       {
+        "a": "azure-sphere",
+        "b": "aws-transfer-as2",
+        "similarity": 0.2874
+      },
+      {
         "a": "aws-transfer-as2",
         "b": "aws-general-mobile-client",
         "similarity": 0.284
-      },
-      {
-        "a": "azure-windows-core-services",
-        "b": "aws-transfer-as2",
-        "similarity": 0.2726
       }
     ],
     "aws-transfer-ftp": [
@@ -24466,6 +24525,11 @@
     ],
     "aws-cloudwatch-rule": [
       {
+        "a": "azure-open-supply-chain-platform",
+        "b": "aws-cloudwatch-rule",
+        "similarity": 0.237
+      },
+      {
         "a": "aws-cloudwatch-rule",
         "b": "aws-vpc-router",
         "similarity": 0.2353
@@ -24474,11 +24538,6 @@
         "a": "azure-pubsub",
         "b": "aws-cloudwatch-rule",
         "similarity": 0.2303
-      },
-      {
-        "a": "aws-s3-vpc-access",
-        "b": "aws-cloudwatch-rule",
-        "similarity": 0.2298
       }
     ],
     "aws-cloudwatch-synthetics": [
@@ -24619,6 +24678,11 @@
     ],
     "aws-systems-state-manager": [
       {
+        "a": "aws-systems-state-manager",
+        "b": "azure-wac-installer",
+        "similarity": 0.4061
+      },
+      {
         "a": "azure-reserved-capacity",
         "b": "aws-systems-state-manager",
         "similarity": 0.341
@@ -24627,11 +24691,6 @@
         "a": "aws-systems-state-manager",
         "b": "aws-dynamodb-standard-table-class",
         "similarity": 0.3318
-      },
-      {
-        "a": "azure-arc-sql-managed-instance",
-        "b": "aws-systems-state-manager",
-        "similarity": 0.325
       }
     ],
     "aws-systems-application-manager": [
@@ -25564,9 +25623,9 @@
         "similarity": 0.3265
       },
       {
-        "a": "azure-video-analyzers",
-        "b": "aws-general-chat",
-        "similarity": 0.2779
+        "a": "aws-general-chat",
+        "b": "azure-wac",
+        "similarity": 0.2796
       }
     ],
     "aws-general-data-stream": [
@@ -26489,6 +26548,11 @@
     ],
     "aws-kms-external-key-store": [
       {
+        "a": "aws-kms-external-key-store",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.3364
+      },
+      {
         "a": "azure-firewall-manager",
         "b": "aws-kms-external-key-store",
         "similarity": 0.3216
@@ -26497,11 +26561,6 @@
         "a": "aws-braket-simulator-1",
         "b": "aws-kms-external-key-store",
         "similarity": 0.2808
-      },
-      {
-        "a": "aws-dynamodb-accelerator",
-        "b": "aws-kms-external-key-store",
-        "similarity": 0.2767
       }
     ],
     "aws-network-firewall-endpoint": [
@@ -26812,6 +26871,11 @@
     ],
     "aws-directory-ad-connector": [
       {
+        "a": "aws-directory-ad-connector",
+        "b": "azure-wac-installer",
+        "similarity": 0.322
+      },
+      {
         "a": "aws-iot-thing-vibration-sensor",
         "b": "aws-directory-ad-connector",
         "similarity": 0.3214
@@ -26820,14 +26884,14 @@
         "a": "aws-gateway-file",
         "b": "aws-directory-ad-connector",
         "similarity": 0.2857
-      },
-      {
-        "a": "aws-iot-device-advisor",
-        "b": "aws-directory-ad-connector",
-        "similarity": 0.2807
       }
     ],
     "aws-directory-managed-ad": [
+      {
+        "a": "aws-directory-managed-ad",
+        "b": "azure-cloud-services-extended-support",
+        "similarity": 0.2614
+      },
       {
         "a": "aws-directory-managed-ad",
         "b": "azure-general-media",
@@ -26837,11 +26901,6 @@
         "a": "aws-iot-thing-generic",
         "b": "aws-directory-managed-ad",
         "similarity": 0.2229
-      },
-      {
-        "a": "azure-icm-troubleshooting",
-        "b": "aws-directory-managed-ad",
-        "similarity": 0.2212
       }
     ],
     "aws-directory-simple-ad": [
@@ -28490,14 +28549,14 @@
         "similarity": 0.2496
       },
       {
+        "a": "azure-sphere",
+        "b": "aws-vpc-vpn-gateway",
+        "similarity": 0.2495
+      },
+      {
         "a": "aws-ebs-lifecycle-manager",
         "b": "aws-vpc-vpn-gateway",
         "similarity": 0.2439
-      },
-      {
-        "a": "aws-vpc-vpn-gateway",
-        "b": "azure-input-output",
-        "similarity": 0.2335
       }
     ],
     "aws-elb-application": [
@@ -29124,9 +29183,9 @@
         "similarity": 0.2668
       },
       {
-        "a": "aws-waf-labels",
-        "b": "aws-cloudfront-streaming",
-        "similarity": 0.2637
+        "a": "aws-cloudfront-streaming",
+        "b": "azure-wac",
+        "similarity": 0.264
       }
     ],
     "aws-vpc-nat-gateway": [
@@ -30507,9 +30566,9 @@
         "similarity": 0.3587
       },
       {
-        "a": "aws-s3-glacier-instant-retrieval",
-        "b": "aws-elasticache-redis",
-        "similarity": 0.3301
+        "a": "aws-elasticache-redis",
+        "b": "azure-wac-installer",
+        "similarity": 0.3428
       }
     ],
     "aws-elasticache-valkey": [
@@ -31760,14 +31819,14 @@
         "similarity": 0.2083
       },
       {
+        "a": "azure-sphere",
+        "b": "aws-category-quantum",
+        "similarity": 0.1997
+      },
+      {
         "a": "gcp-automl-tables",
         "b": "aws-category-quantum",
         "similarity": 0.1918
-      },
-      {
-        "a": "gcp-private-connectivity",
-        "b": "aws-category-quantum",
-        "similarity": 0.1872
       }
     ],
     "aws-category-satellite": [
@@ -32314,6 +32373,91 @@
         "similarity": 0.2297
       }
     ],
+    "azure-scvmm-management-servers": [
+      {
+        "a": "aws-kms-external-key-store",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.3364
+      },
+      {
+        "a": "azure-cloud-shell",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.302
+      },
+      {
+        "a": "azure-api-fhir",
+        "b": "azure-scvmm-management-servers",
+        "similarity": 0.2941
+      }
+    ],
+    "azure-cloud-services-extended-support": [
+      {
+        "a": "azure-cloud-services-extended-support",
+        "b": "azure-vmware-solution",
+        "similarity": 0.2714
+      },
+      {
+        "a": "aws-elasticache-redis",
+        "b": "azure-cloud-services-extended-support",
+        "similarity": 0.2704
+      },
+      {
+        "a": "aws-migration-evaluator-collector",
+        "b": "azure-cloud-services-extended-support",
+        "similarity": 0.2628
+      }
+    ],
+    "azure-hpc-workbenches": [
+      {
+        "a": "azure-device-enrollment",
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.4132
+      },
+      {
+        "a": "azure-web-jobs",
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.3615
+      },
+      {
+        "a": "aws-oracle-db-instance",
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.3446
+      }
+    ],
+    "azure-wac": [
+      {
+        "a": "azure-managed-grafana",
+        "b": "azure-wac",
+        "similarity": 0.3201
+      },
+      {
+        "a": "azure-wac",
+        "b": "azure-web-app-database",
+        "similarity": 0.3161
+      },
+      {
+        "a": "aws-backup-compute-resource",
+        "b": "azure-wac",
+        "similarity": 0.3028
+      }
+    ],
+    "azure-wac-installer": [
+      {
+        "a": "aws-systems-state-manager",
+        "b": "azure-wac-installer",
+        "similarity": 0.4061
+      },
+      {
+        "a": "azure-icm-troubleshooting",
+        "b": "azure-wac-installer",
+        "similarity": 0.3704
+      },
+      {
+        "a": "aws-iot-device-jobs",
+        "b": "azure-wac-installer",
+        "similarity": 0.3506
+      }
+    ],
     "azure-virtual-instance-sap": [
       {
         "a": "azure-network-security-perimeters",
@@ -32326,9 +32470,9 @@
         "similarity": 0.2344
       },
       {
-        "a": "azure-blueprints",
+        "a": "azure-sphere",
         "b": "azure-virtual-instance-sap",
-        "similarity": 0.2195
+        "similarity": 0.2197
       }
     ],
     "azure-center-sap": [
@@ -32462,9 +32606,9 @@
         "similarity": 0.3032
       },
       {
-        "a": "azure-avs-vm",
-        "b": "azure-web-test",
-        "similarity": 0.2732
+        "a": "azure-hpc-workbenches",
+        "b": "azure-avs-vm",
+        "similarity": 0.2809
       }
     ],
     "azure-web-app-database": [
@@ -32831,14 +32975,14 @@
         "similarity": 0.3914
       },
       {
+        "a": "azure-wac-installer",
+        "b": "azure-search-grid",
+        "similarity": 0.338
+      },
+      {
         "a": "azure-ip-groups",
         "b": "azure-search-grid",
         "similarity": 0.3277
-      },
-      {
-        "a": "aws-transfer-sftp",
-        "b": "azure-search-grid",
-        "similarity": 0.3243
       }
     ],
     "azure-feature-previews": [

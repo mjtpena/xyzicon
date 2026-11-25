@@ -1,6 +1,25 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureIotArtwork = [
+  entry("azure-connected-vehicle-platform", "azure", "Connected Vehicle Platform", ["02573-icon-service-Connected-Vehicle-Platform"],
+    "Connected vehicles send telemetry to a shared platform.",
+    [
+      line([19, 70], [23, 58], [34, 55], [43, 42], [67, 42], [79, 55], [95, 59], [101, 70], [101, 79], [19, 79], [19, 70]), oval(28, 73, 16, 16), oval(76, 73, 16, 16),
+      line([40, 55], [47, 47], [64, 47], [72, 55], [40, 55]), line([49, 31], [54, 25], [61, 23], [68, 25], [73, 31]), line([42, 24], [50, 16], [61, 13], [72, 16], [80, 24]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-open-supply-chain-platform", "azure", "Open Supply Chain Platform", ["02602-icon-service-Open-Supply-Chain-Platform"],
+    "Supply chain partners coordinate the movement of goods.",
+    [
+      line([16, 45], [29, 38], [42, 45], [42, 60], [29, 67], [16, 60], [16, 45]), line([16, 45], [29, 52], [42, 45]), line([29, 52], [29, 67]),
+      line([83, 45], [96, 38], [109, 45], [109, 60], [96, 67], [83, 60], [83, 45]), line([83, 45], [96, 52], [109, 45]), line([96, 52], [96, 67]),
+      line([47, 47], [76, 47]), line([69, 40], [76, 47], [69, 54]), line([78, 64], [49, 64]), line([56, 57], [49, 64], [56, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-sphere", "azure", "Azure Sphere", ["10190-icon-service-Azure-Sphere"],
+    "Azure Sphere secures connected microcontroller devices.",
+    [
+      rect(36, 31, 51, 45), rect(44, 38, 35, 29), line([47, 31], [47, 22]), line([62, 31], [62, 22]), line([77, 31], [77, 22]), line([47, 76], [47, 85]), line([62, 76], [62, 85]), line([77, 76], [77, 85]), line([36, 43], [27, 43]), line([36, 64], [27, 64]), line([87, 43], [96, 43]), line([87, 64], [96, 64]),
+      line([53, 47], [62, 44], [71, 47], [71, 54], [67, 59], [62, 62], [57, 59], [53, 54], [53, 47]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-defender-industrial-robot", "azure", "Defender Industrial Robot", ["03418-icon-service-Defender-Industrial-Robot"],
     "An industrial robot arm moves a part.",
     [

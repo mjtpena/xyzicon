@@ -1,6 +1,37 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-scvmm-management-servers", "azure", "SCVMM Management Servers", ["02503-icon-service-SCVMM-Management-Servers"],
+    "A System Center Virtual Machine Manager server manages virtual machines.",
+    [
+      rect(13, 30, 42, 52), line([13, 43], [55, 43]), line([21, 37], [25, 37]), line([21, 53], [47, 53]), line([21, 63], [47, 63]), line([21, 73], [47, 73]),
+      line([55, 55], [71, 55]), line([65, 49], [71, 55], [65, 61]), rect(77, 29, 33, 24), rect(77, 62, 33, 24), line([83, 37], [104, 37]), line([83, 70], [104, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-cloud-services-extended-support", "azure", "Cloud Services Extended Support", ["02505-icon-service-Cloud-Services-(extended-support)"],
+    "A cloud service runs web and worker roles under extended support.",
+    [
+      line([25, 43], [19, 39], [19, 32], [24, 27], [32, 27], [37, 19], [47, 16], [57, 19], [62, 27], [70, 27], [76, 33], [76, 39], [71, 43], [25, 43]),
+      line([48, 43], [48, 53]), line([24, 53], [72, 53]), line([24, 53], [24, 64]), line([72, 53], [72, 64]), rect(14, 64, 21, 18), rect(62, 64, 21, 18),
+      line([89, 73], [89, 50], [109, 50]), line([103, 44], [109, 50], [103, 56]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-hpc-workbenches", "azure", "Azure HPC Workbenches", ["02518-icon-service-Azure-HPC-Workbenches"],
+    "A workbench orchestrates high-performance computing jobs.",
+    [
+      rect(14, 24, 62, 48), line([14, 36], [76, 36]), line([21, 30], [25, 30]), line([31, 30], [35, 30]), line([25, 46], [34, 55], [25, 64]), line([42, 63], [61, 63]),
+      line([76, 53], [88, 53]), line([88, 53], [88, 37], [109, 37]), line([88, 53], [88, 69], [109, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-wac", "azure", "Windows Admin Center", ["10355-icon-service-WAC"],
+    "Windows Admin Center provides a console for managing servers.",
+    [
+      rect(13, 25, 65, 50), line([13, 37], [78, 37]), line([20, 31], [24, 31]), line([30, 31], [34, 31]), line([22, 46], [46, 46]), line([22, 55], [46, 55]), line([22, 64], [46, 64]),
+      rect(85, 32, 22, 47), line([90, 43], [102, 43]), line([90, 53], [102, 53]), line([90, 63], [102, 63]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-wac-installer", "azure", "Windows Admin Center Installer", ["03563-icon-service-WAC-Installer"],
+    "An installer deploys Windows Admin Center to a server.",
+    [
+      rect(15, 23, 45, 59), line([15, 36], [60, 36]), line([23, 30], [27, 30]), line([23, 46], [51, 46]), line([23, 56], [51, 56]), line([23, 66], [51, 66]),
+      line([84, 26], [84, 64]), line([73, 54], [84, 65], [95, 54]), line([68, 75], [68, 84], [102, 84], [102, 75]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-virtual-instance-sap", "azure", "Virtual Instance for SAP", ["03089-icon-service-Virtual-Instance-for-SAP"],
     "A virtual instance groups the components of an SAP system.",
     [
