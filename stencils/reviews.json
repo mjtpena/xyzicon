@@ -482,8 +482,9 @@
   },
   "gcp-gke": {
     "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+    "comparisonRevision": "41109e389b7c6678eba9f6e1c5c48353706a79f3a922c8e2c8b6ace65c6a802e",
     "status": "approved",
-    "notes": "The unfilled central wheel and three radial workloads differ from Azure's grid and the nearby workflow sketches."
+    "notes": "A Kubernetes wheel connects three workloads; the nearby workflow has a diamond and the load balancer has opposing arrows."
   },
   "azure-load-balancer": {
     "revision": "bab2f8bc320bfd6157026570b79e01132ab5490113df0f8570ac7443c302289c",
@@ -897,48 +898,57 @@
   },
   "aws-rds": {
     "revision": "a942ae6e4ff97e71e8eca7a595b5091e2ec7950fa1e5e64854005488273dc5af",
+    "comparisonRevision": "400794f0bdb564cc0c5af96908f958bdf6c1026ee11a87facf1db486b8969280",
     "status": "approved",
-    "notes": "The relational table on a database with an adjacent clock is visible at 32px and differs from the stream processor, queue and starred database neighbors."
+    "notes": "A relational table on a database with a clock differs from nearby export, verified database and processing diagrams."
   },
   "aws-eks": {
     "revision": "dbc1cfdec8fc3321056df339e1951d28035d3705a9503f2748369a0954442148",
+    "comparisonRevision": "95d274b30e87111f868b38ad669a646eb7cbb607f4e9b540dc0ba8ee0817bf46",
     "status": "approved",
-    "notes": "A control node connects two large container cubes, visible at 32px and different from the builder tool, database cluster and mail envelope neighbors."
+    "notes": "A control hub connects container instances, unlike the certificate hierarchy, column and distributed sites."
   },
   "aws-sqs": {
     "revision": "3d9960e6ab62a3a31beba8fefae0df8ead6bc79d7a1f78282d8bf9b608f6874e",
+    "comparisonRevision": "cad569a26b619109655a69bdee25a60e640fb9a72b8b351da4815488e9f2532c",
     "status": "approved",
-    "notes": "Three envelopes travel in sequence on a conveyor, clear at 32px and distinct from plain arrows, a storage queue and a processor."
+    "notes": "Queued envelopes move on a conveyor, unlike the fleet dashboard, blueprint and blockchain cubes."
   },
   "aws-sns": {
     "revision": "a005a1ce821849e50792ecd8da09f28d13ba1e0d6800206757b5b4a946b00abc",
+    "comparisonRevision": "1791e8856f014110142e2850c096b7b1619ab168f2c04795cb95c5aeacc4b650",
     "status": "approved",
-    "notes": "A bell broadcasts to three envelopes; the bell and fan-out remain visible at 32px and distinguish it from the airflow diagram, endpoints and progress bars."
+    "notes": "A notification bell fans out messages, distinct from the distribution package, identity hub and filesystem."
   },
   "aws-cloudwatch": {
     "revision": "b515109bb26d9664dc8d099596a73d8ed59be03728ee6bdf94b3592190336436",
+    "comparisonRevision": "4766157141a49da70b06bddc16008100d1fc7f0197acbbc728bafea70c145a09",
     "status": "approved",
-    "notes": "The unfilled watch face makes the monitoring waveform visible at 32px; its strap distinguishes it from the lifebuoy, storage cabinet and rack neighbors."
+    "notes": "A watch with a health signal conveys monitoring, unlike the column, rack and segmented data-usage dial."
   },
   "aws-route53": {
     "revision": "4f15ee37cdfe5c1369968a78a3de16e16951708efd687bead41e1fe388f410f2",
+    "comparisonRevision": "8df35c589b8d4017e5f4484a1f1460900fcdea039854fa3867ac0b66409dd77f",
     "status": "approved",
-    "notes": "The globe and signposted route remain identifiable at 32px, unlike the processor, annotation and batch stack neighbors."
+    "notes": "A globe routes to a destination, unlike the chip, labeling task and batch accounts."
   },
   "aws-step-functions": {
     "revision": "6c2993738c707da0761bbe3615ee391cb460a5d1c5a3ed6256e60657ee72201a",
+    "comparisonRevision": "47b27838ffaed79bcdedcd320875412db3ff590456beb6ca132efb22ea3e91ae",
     "status": "approved",
-    "notes": "A decision splits a workflow into distinct steps, readable at 32px and unlike the CDN hierarchy, padlock and Kubernetes wheel neighbors."
+    "notes": "A decision branches workflow steps, unlike CDN distribution, lock and the Kubernetes wheel."
   },
   "gcp-vertex-ai": {
     "revision": "263480eb4ee86ac8ce97df1be5587e33d1480a238c58339941fe6286ee419653",
+    "comparisonRevision": "c9a75aad19c42125ac7c75175fb6264c79a7c0c6117c422ca2ffbc15b05b4924",
     "status": "approved",
-    "notes": "A layered connected model inside a training cycle remains distinguishable at 32px from the database sync, group of people and brick wall neighbors."
+    "notes": "A model network inside a lifecycle loop differs from database synchronization, community and firewall drawings."
   },
   "gcp-pubsub": {
     "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+    "comparisonRevision": "92fab159e4777dcc04de004b932b0d794d1af5a39513314e17018c2a0242c394",
     "status": "approved",
-    "notes": "The message enters a central hub and fans out to three subscribers; it remains distinguishable at 32px from the organization list, dataflow diamond and connectivity panel."
+    "notes": "An envelope publishes through a hub to three recipients, unlike the organizational chart, transform flow and connectivity channel."
   },
   "aws-workmail": {
     "revision": "cd087fafd81e2d4e4c681d395ce9941b847ed5f9d47affbcbede6f685761388b",
@@ -1229,5 +1239,35 @@
     "comparisonRevision": "4b3b53f00185fed468026fc27e3f3fe4c25a4cf5d03b6bb3fc033d767a229868",
     "status": "approved",
     "notes": "Three participants surround a shared ledger; the neighboring collaborative service connects people without a ledger."
+  },
+  "azure-app-services": {
+    "revision": "fe02117b002ecc3451b36928f5df9b67c16799179ec98cb5238948c7fab6cf21",
+    "comparisonRevision": "ceb109068733944248090e2e193913bcb02cebf24e701383676dbdc59920bdf3",
+    "status": "approved",
+    "notes": "An application code window on a platform differs from the registry, data synchronization and storage panels. All five source aliases are byte-identical."
+  },
+  "gcp-spanner": {
+    "revision": "e080bb670becf129a99a26eba1f6ad291319fcf84fef44ca23f54415da0717c2",
+    "comparisonRevision": "f1766a1b399acbc0ccfae5c7c1ed2160564c63e5d5d86eca28805e1121b583a3",
+    "status": "approved",
+    "notes": "A table linked across nodes conveys a distributed relational store, unlike the certificate transfer, capacity rack and experiment."
+  },
+  "gcp-functions": {
+    "revision": "48c7313b01530b32018d0b9026e63a15f51f560943cca5e2115c4a7e1b76bcf6",
+    "comparisonRevision": "6404a63aee4af3c56b8e5c9eedc522fd3994e1d6fde3a89b6f45399091237b86",
+    "status": "rework",
+    "notes": "The trigger and function are heavily hatched and merge at small sizes; make event-driven execution legible."
+  },
+  "gcp-secret-manager": {
+    "revision": "cb30e9360590f72975bbeeb00d2fa4d299c83f905c2e3c9b8badc8c7ee4d4784",
+    "comparisonRevision": "73bb0d6283ed620a59b371cffadb023c7cf95311720cff5619537e622c0d6f17",
+    "status": "rework",
+    "notes": "The dense shaded square obscures the intended secret or secure-storage metaphor even at 128px. Use simpler open shapes."
+  },
+  "azure-function-apps": {
+    "revision": "b3daad8371c9940e3a11b712b97ace853bfadf68be9d0b9ceca1a4921ae0a0f3",
+    "comparisonRevision": "d9f760fc65e3949971c5d1d7e05e2f086b1f0a8d5505d1b67297021f7a11b51f",
+    "status": "approved",
+    "notes": "Code and lightning inside an application window express function execution, unlike the pulse briefcase, monitor and split columns."
   }
 }
