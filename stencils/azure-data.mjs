@@ -260,7 +260,7 @@ export const azureDataArtwork = [
       line([25, 85], [103, 85]), line([97, 79], [103, 85], [97, 91]),
       line([25, 112], [103, 112]),
     ]),
-  entry("azure-private-link-services", "azure", "Private Link Services", ["02209-icon-service-Private-Link-Services"],
+  entry("azure-private-link-services", "azure", "Private Link Services", ["01105-icon-service-Private-Link-Service", "02209-icon-service-Private-Link-Services"],
     "A provider exposes a service through a private, locked connection.",
     [
       line([12, 21], [50, 21], [50, 61], [12, 61], [12, 21]), line([12, 31], [50, 31]), line([19, 42], [43, 42]), line([19, 52], [38, 52]),
