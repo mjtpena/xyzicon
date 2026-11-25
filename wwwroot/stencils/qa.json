@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 823,
-  "aliases": 3394,
+  "count": 827,
+  "aliases": 3399,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -202,6 +202,10 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-alloydb",
+    "gcp-hyperdisk",
+    "gcp-app-engine",
+    "gcp-apigee",
     "gcp-cloud-armor",
     "gcp-cloud-vpn",
     "gcp-cloud-router",
@@ -932,8 +936,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 80,
-      "concepts": 72
+      "covered": 85,
+      "concepts": 76
     }
   },
   "nearest": {
@@ -1540,13 +1544,13 @@
       },
       {
         "a": "dynamics-finance-operations",
-        "b": "aws-service-management-connector",
-        "similarity": 0.2038
+        "b": "gcp-alloydb",
+        "similarity": 0.2164
       },
       {
         "a": "dynamics-finance-operations",
-        "b": "fabric-copy-job",
-        "similarity": 0.1964
+        "b": "aws-service-management-connector",
+        "similarity": 0.2038
       }
     ],
     "dynamics-finance": [
@@ -2259,8 +2263,8 @@
       },
       {
         "a": "gcp-spanner",
-        "b": "aws-cloud9",
-        "similarity": 0.2179
+        "b": "gcp-alloydb",
+        "similarity": 0.2205
       }
     ],
     "gcp-functions": [
@@ -2492,13 +2496,13 @@
       },
       {
         "a": "aws-kinesis-streams",
-        "b": "gcp-artifact-registry",
-        "similarity": 0.202
+        "b": "gcp-alloydb",
+        "similarity": 0.2099
       },
       {
         "a": "aws-kinesis-streams",
-        "b": "gcp-cloud-tpu",
-        "similarity": 0.1921
+        "b": "gcp-artifact-registry",
+        "similarity": 0.202
       }
     ],
     "aws-opensearch": [
@@ -2912,6 +2916,11 @@
     "gcp-dataflow": [
       {
         "a": "gcp-dataflow",
+        "b": "gcp-apigee",
+        "similarity": 0.2225
+      },
+      {
+        "a": "gcp-dataflow",
         "b": "azure-data-share",
         "similarity": 0.2122
       },
@@ -2919,11 +2928,6 @@
         "a": "gcp-dataflow",
         "b": "fabric-eventstream",
         "similarity": 0.2118
-      },
-      {
-        "a": "gcp-pubsub",
-        "b": "gcp-dataflow",
-        "similarity": 0.1841
       }
     ],
     "gcp-firestore": [
@@ -4286,6 +4290,74 @@
         "similarity": 0.2574
       }
     ],
+    "gcp-alloydb": [
+      {
+        "a": "gcp-alloydb",
+        "b": "aws-service-management-connector",
+        "similarity": 0.3028
+      },
+      {
+        "a": "gcp-alloydb",
+        "b": "aws-codeartifact",
+        "similarity": 0.2712
+      },
+      {
+        "a": "gcp-alloydb",
+        "b": "m365-filmstrip-play",
+        "similarity": 0.2587
+      }
+    ],
+    "gcp-hyperdisk": [
+      {
+        "a": "gcp-hyperdisk",
+        "b": "m365-folder-people",
+        "similarity": 0.2124
+      },
+      {
+        "a": "aws-batch",
+        "b": "gcp-hyperdisk",
+        "similarity": 0.1956
+      },
+      {
+        "a": "gcp-hyperdisk",
+        "b": "aws-iot-sitewise",
+        "similarity": 0.1949
+      }
+    ],
+    "gcp-app-engine": [
+      {
+        "a": "gcp-app-engine",
+        "b": "m365-task-square",
+        "similarity": 0.2454
+      },
+      {
+        "a": "gcp-app-engine",
+        "b": "aws-well-architected-tool",
+        "similarity": 0.2441
+      },
+      {
+        "a": "gcp-app-engine",
+        "b": "aws-outposts-rack",
+        "similarity": 0.2374
+      }
+    ],
+    "gcp-apigee": [
+      {
+        "a": "gcp-apigee",
+        "b": "aws-finspace",
+        "similarity": 0.2314
+      },
+      {
+        "a": "gcp-dataflow",
+        "b": "gcp-apigee",
+        "similarity": 0.2225
+      },
+      {
+        "a": "gcp-apigee",
+        "b": "azure-host-groups",
+        "similarity": 0.2192
+      }
+    ],
     "gcp-cloud-armor": [
       {
         "a": "gcp-cloud-armor",
@@ -5172,6 +5244,11 @@
     ],
     "fabric-dataflow-gen2": [
       {
+        "a": "gcp-alloydb",
+        "b": "fabric-dataflow-gen2",
+        "similarity": 0.233
+      },
+      {
         "a": "fabric-dataflow-gen2",
         "b": "azure-storage-sync",
         "similarity": 0.195
@@ -5180,11 +5257,6 @@
         "a": "fabric-dataflow-gen2",
         "b": "aws-training-certification",
         "similarity": 0.1866
-      },
-      {
-        "a": "fabric-dataflow-gen2",
-        "b": "aws-database-migration",
-        "similarity": 0.1793
       }
     ],
     "fabric-datamart": [
@@ -5250,9 +5322,9 @@
         "similarity": 0.1854
       },
       {
-        "a": "fabric-eventstream",
-        "b": "aws-managed-airflow",
-        "similarity": 0.1561
+        "a": "gcp-apigee",
+        "b": "fabric-eventstream",
+        "similarity": 0.1847
       }
     ],
     "fabric-experiments": [
@@ -7409,9 +7481,9 @@
         "similarity": 0.1889
       },
       {
-        "a": "gcp-cloud-dns",
+        "a": "gcp-hyperdisk",
         "b": "m365-top-speed",
-        "similarity": 0.1671
+        "similarity": 0.1696
       }
     ],
     "m365-wallet-card": [
@@ -8650,9 +8722,9 @@
         "similarity": 0.2791
       },
       {
-        "a": "m365-retail-building",
+        "a": "gcp-alloydb",
         "b": "aws-codeartifact",
-        "similarity": 0.2675
+        "similarity": 0.2712
       }
     ],
     "aws-codebuild": [
@@ -8883,14 +8955,14 @@
         "similarity": 0.2867
       },
       {
+        "a": "gcp-app-engine",
+        "b": "aws-well-architected-tool",
+        "similarity": 0.2441
+      },
+      {
         "a": "aws-well-architected-tool",
         "b": "fabric-locked-rows",
         "similarity": 0.2371
-      },
-      {
-        "a": "m365-calendar",
-        "b": "aws-well-architected-tool",
-        "similarity": 0.237
       }
     ],
     "aws-amazon-q": [
@@ -9473,6 +9545,11 @@
     ],
     "aws-backint-agent": [
       {
+        "a": "gcp-alloydb",
+        "b": "aws-backint-agent",
+        "similarity": 0.2555
+      },
+      {
         "a": "aws-backint-agent",
         "b": "aws-elastic-disaster-recovery",
         "similarity": 0.2503
@@ -9481,11 +9558,6 @@
         "a": "azure-machine-learning",
         "b": "aws-backint-agent",
         "similarity": 0.2458
-      },
-      {
-        "a": "aws-backint-agent",
-        "b": "aws-device-farm",
-        "similarity": 0.2399
       }
     ],
     "aws-datasync": [
@@ -9558,6 +9630,11 @@
     ],
     "aws-service-management-connector": [
       {
+        "a": "gcp-alloydb",
+        "b": "aws-service-management-connector",
+        "similarity": 0.3028
+      },
+      {
         "a": "aws-service-management-connector",
         "b": "azure-linux",
         "similarity": 0.2966
@@ -9566,11 +9643,6 @@
         "a": "azure-power-bi-embedded",
         "b": "aws-service-management-connector",
         "similarity": 0.2559
-      },
-      {
-        "a": "aws-service-management-connector",
-        "b": "fabric-app-folder-pulse",
-        "similarity": 0.2545
       }
     ],
     "aws-devops-agent": [
@@ -12704,14 +12776,14 @@
         "similarity": 0.2266
       },
       {
+        "a": "gcp-alloydb",
+        "b": "aws-oracle-database",
+        "similarity": 0.2069
+      },
+      {
         "a": "gcp-cloud-vpn",
         "b": "aws-oracle-database",
         "similarity": 0.1979
-      },
-      {
-        "a": "aws-oracle-database",
-        "b": "fabric-folder-table",
-        "similarity": 0.1864
       }
     ],
     "aws-app-runner": [
@@ -13311,6 +13383,11 @@
     ],
     "aws-iot-sitewise": [
       {
+        "a": "gcp-hyperdisk",
+        "b": "aws-iot-sitewise",
+        "similarity": 0.1949
+      },
+      {
         "a": "aws-databrew",
         "b": "aws-iot-sitewise",
         "similarity": 0.1938
@@ -13319,11 +13396,6 @@
         "a": "dynamics-business-central",
         "b": "aws-iot-sitewise",
         "similarity": 0.1849
-      },
-      {
-        "a": "aws-deadline-cloud",
-        "b": "aws-iot-sitewise",
-        "similarity": 0.1838
       }
     ],
     "aws-iot-twinmaker": [

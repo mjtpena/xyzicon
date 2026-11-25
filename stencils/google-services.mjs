@@ -1,6 +1,46 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-alloydb", "gcp", "AlloyDB", ["AlloyDB-512-color"],
+    "A managed relational database supports analytical and transactional tables.",
+    [
+      oval(11, 24, 50, 19), line([11, 33], [11, 87], [20, 94], [52, 94], [61, 87], [61, 33]),
+      line([11, 51], [20, 58], [52, 58], [61, 51]), line([11, 70], [20, 77], [52, 77], [61, 70]),
+      rect(53, 38, 63, 53), line([53, 51], [116, 51]), line([53, 64], [116, 64]), line([53, 77], [116, 77]),
+      line([74, 38], [74, 91]), line([95, 38], [95, 91]), rect(75, 65, 19, 11, true),
+      line([17, 108], [110, 108]),
+    ]),
+  entry("gcp-hyperdisk", "gcp", "Hyperdisk", ["Hyperdisk-512-color"],
+    "A high-performance block volume serves a virtual machine.",
+    [
+      rect(11, 27, 38, 59), line([11, 41], [49, 41]), line([11, 55], [49, 55]), line([11, 69], [49, 69]),
+      oval(16, 31, 5, 5, true), oval(16, 45, 5, 5), oval(16, 59, 5, 5),
+      line([49, 57], [68, 57]), line([62, 51], [68, 57], [62, 63]),
+      oval(73, 28, 38, 15), line([73, 35], [73, 77], [80, 84], [104, 84], [111, 77], [111, 35]),
+      line([93, 46], [84, 61], [92, 61], [86, 74], [102, 57], [94, 57], [93, 46]),
+      line([19, 105], [108, 105]),
+    ]),
+  entry("gcp-app-engine", "gcp", "App Engine", ["app_engine"],
+    "A managed platform hosts a web application.",
+    [
+      line([13, 35], [9, 28], [12, 21], [20, 19], [24, 11], [33, 10], [40, 15], [42, 22], [51, 24], [56, 30], [55, 37], [50, 42], [17, 42]),
+      line([56, 32], [72, 32], [72, 47]),
+      rect(33, 47, 80, 56), line([33, 60], [113, 60]), line([41, 54], [59, 54]),
+      line([42, 69], [60, 69]), line([42, 78], [56, 78]), line([42, 87], [60, 87]),
+      rect(68, 68, 34, 24), line([75, 76], [95, 76]), line([75, 84], [90, 84]),
+      line([18, 114], [109, 114]),
+    ]),
+  entry("gcp-apigee", "gcp", "Apigee", ["Apigee-512-color-rgb", "apigee_api_platform"],
+    "A managed API gateway controls requests to backend services.",
+    [
+      rect(10, 48, 28, 27), line([16, 56], [32, 56]), line([16, 65], [28, 65]),
+      line([38, 61], [53, 61]), line([47, 55], [53, 61], [47, 67]),
+      line([66, 31], [82, 37], [80, 58], [74, 68], [66, 74], [58, 68], [52, 58], [50, 37], [66, 31]),
+      line([60, 53], [64, 57], [72, 47]),
+      line([82, 61], [93, 61], [93, 35]), line([93, 61], [93, 89]),
+      rect(94, 22, 23, 18), rect(94, 80, 23, 18), line([99, 31], [112, 31]), line([99, 89], [112, 89]),
+      line([15, 110], [110, 110]),
+    ]),
   entry("gcp-cloud-armor", "gcp", "Google Cloud Armor", ["cloud_armor"],
     "A protective shield filters incoming web requests at an edge boundary.",
     [
