@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1157,
-  "aliases": 4039,
+  "count": 1163,
+  "aliases": 4045,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -492,6 +492,12 @@
     "azure-data-sharing",
     "azure-storage-sync",
     "azure-storage-explorer",
+    "aws-glue-ray",
+    "aws-athena-connectors",
+    "aws-cloudsearch-documents",
+    "aws-emr-cluster",
+    "aws-emr-engine",
+    "aws-emr-hdfs-cluster",
     "aws-lake-formation-data-lake",
     "aws-datazone-business-catalog",
     "aws-datazone-portal",
@@ -1268,8 +1274,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1312,
-      "concepts": 344
+      "covered": 1318,
+      "concepts": 350
     },
     "gcp": {
       "sources": 261,
@@ -3989,13 +3995,13 @@
       },
       {
         "a": "azure-nat",
-        "b": "azure-endpoint-analytics",
-        "similarity": 0.2533
+        "b": "aws-athena-connectors",
+        "similarity": 0.2663
       },
       {
-        "a": "azure-waf-policies",
-        "b": "azure-nat",
-        "similarity": 0.2478
+        "a": "azure-nat",
+        "b": "azure-endpoint-analytics",
+        "similarity": 0.2533
       }
     ],
     "azure-route-tables": [
@@ -4086,6 +4092,11 @@
     "azure-ddos-plans": [
       {
         "a": "azure-ddos-plans",
+        "b": "aws-athena-connectors",
+        "similarity": 0.2348
+      },
+      {
+        "a": "azure-ddos-plans",
         "b": "gcp-network-intelligence",
         "similarity": 0.2299
       },
@@ -4093,11 +4104,6 @@
         "a": "aws-eventbridge-schema",
         "b": "azure-ddos-plans",
         "similarity": 0.2278
-      },
-      {
-        "a": "azure-ddos-plans",
-        "b": "aws-migration-evaluator",
-        "similarity": 0.2246
       }
     ],
     "azure-data-factory": [
@@ -5247,13 +5253,13 @@
       },
       {
         "a": "gcp-anthos-config-management",
-        "b": "m365-document",
-        "similarity": 0.2334
+        "b": "aws-cloudsearch-documents",
+        "similarity": 0.2439
       },
       {
         "a": "gcp-anthos-config-management",
-        "b": "gcp-app-engine",
-        "similarity": 0.2315
+        "b": "m365-document",
+        "similarity": 0.2334
       }
     ],
     "gcp-anthos-service-mesh": [
@@ -6074,6 +6080,11 @@
     ],
     "gcp-iam": [
       {
+        "a": "gcp-iam",
+        "b": "aws-cloudsearch-documents",
+        "similarity": 0.1902
+      },
+      {
         "a": "m365-contacts",
         "b": "gcp-iam",
         "similarity": 0.1871
@@ -6082,11 +6093,6 @@
         "a": "gcp-iam",
         "b": "aws-region-group",
         "similarity": 0.1771
-      },
-      {
-        "a": "gcp-iam",
-        "b": "gcp-firewall-rules",
-        "similarity": 0.1735
       }
     ],
     "gcp-security-health-advisor": [
@@ -9557,6 +9563,108 @@
         "similarity": 0.1845
       }
     ],
+    "aws-glue-ray": [
+      {
+        "a": "aws-glue-ray",
+        "b": "aws-iot-core",
+        "similarity": 0.2056
+      },
+      {
+        "a": "gcp-firewall-rules",
+        "b": "aws-glue-ray",
+        "similarity": 0.1855
+      },
+      {
+        "a": "gcp-os-patch",
+        "b": "aws-glue-ray",
+        "similarity": 0.1836
+      }
+    ],
+    "aws-athena-connectors": [
+      {
+        "a": "aws-athena-connectors",
+        "b": "aws-glue-crawler",
+        "similarity": 0.2933
+      },
+      {
+        "a": "azure-nat",
+        "b": "aws-athena-connectors",
+        "similarity": 0.2663
+      },
+      {
+        "a": "aws-athena-connectors",
+        "b": "azure-machine-learning",
+        "similarity": 0.26
+      }
+    ],
+    "aws-cloudsearch-documents": [
+      {
+        "a": "gcp-anthos-config-management",
+        "b": "aws-cloudsearch-documents",
+        "similarity": 0.2439
+      },
+      {
+        "a": "m365-contacts",
+        "b": "aws-cloudsearch-documents",
+        "similarity": 0.2404
+      },
+      {
+        "a": "aws-cloudsearch-documents",
+        "b": "aws-region-group",
+        "similarity": 0.24
+      }
+    ],
+    "aws-emr-cluster": [
+      {
+        "a": "gcp-video-intelligence",
+        "b": "aws-emr-cluster",
+        "similarity": 0.2743
+      },
+      {
+        "a": "aws-emr-cluster",
+        "b": "aws-glue-crawler",
+        "similarity": 0.2542
+      },
+      {
+        "a": "azure-private-link-services",
+        "b": "aws-emr-cluster",
+        "similarity": 0.2426
+      }
+    ],
+    "aws-emr-engine": [
+      {
+        "a": "aws-elasticache",
+        "b": "aws-emr-engine",
+        "similarity": 0.199
+      },
+      {
+        "a": "gcp-fleet-engine",
+        "b": "aws-emr-engine",
+        "similarity": 0.1805
+      },
+      {
+        "a": "aws-emr-engine",
+        "b": "fabric-database-up-down",
+        "similarity": 0.1784
+      }
+    ],
+    "aws-emr-hdfs-cluster": [
+      {
+        "a": "gcp-storage",
+        "b": "aws-emr-hdfs-cluster",
+        "similarity": 0.212
+      },
+      {
+        "a": "fabric-data-agent",
+        "b": "aws-emr-hdfs-cluster",
+        "similarity": 0.2013
+      },
+      {
+        "a": "aws-emr-hdfs-cluster",
+        "b": "azure-foundry-project",
+        "similarity": 0.2002
+      }
+    ],
     "aws-lake-formation-data-lake": [
       {
         "a": "gcp-anthos-service-mesh",
@@ -9627,19 +9735,19 @@
     ],
     "aws-glue-crawler": [
       {
+        "a": "aws-athena-connectors",
+        "b": "aws-glue-crawler",
+        "similarity": 0.2933
+      },
+      {
+        "a": "aws-emr-cluster",
+        "b": "aws-glue-crawler",
+        "similarity": 0.2542
+      },
+      {
         "a": "gcp-iot-core",
         "b": "aws-glue-crawler",
         "similarity": 0.2428
-      },
-      {
-        "a": "aws-glue-crawler",
-        "b": "aws-vpc-nat-gateway",
-        "similarity": 0.2427
-      },
-      {
-        "a": "aws-glue-crawler",
-        "b": "aws-backup",
-        "similarity": 0.2342
       }
     ],
     "aws-glue-catalog": [
@@ -15798,9 +15906,9 @@
         "similarity": 0.2694
       },
       {
-        "a": "gcp-automl-video",
+        "a": "aws-cloudsearch-documents",
         "b": "aws-region-group",
-        "similarity": 0.2342
+        "similarity": 0.24
       }
     ],
     "aws-app-mesh": [
@@ -17873,14 +17981,14 @@
         "similarity": 0.2359
       },
       {
+        "a": "aws-glue-ray",
+        "b": "aws-iot-core",
+        "similarity": 0.2056
+      },
+      {
         "a": "aws-transit-gateway",
         "b": "aws-iot-core",
         "similarity": 0.1987
-      },
-      {
-        "a": "gcp-load-balancing",
-        "b": "aws-iot-core",
-        "similarity": 0.1975
       }
     ],
     "aws-iot-device-defender": [
@@ -19085,9 +19193,9 @@
         "similarity": 0.2003
       },
       {
-        "a": "aws-backup",
+        "a": "aws-emr-cluster",
         "b": "fabric-databases-kql",
-        "similarity": 0.1902
+        "similarity": 0.1985
       }
     ],
     "fabric-database-badge-pulse": [

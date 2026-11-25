@@ -2689,7 +2689,7 @@
       ],
       "revision": "591a229fb741b892b027decd21316ae18da8a73461660346642cf1026812ecb3",
       "geometrySignature": "96c042afbcddbdfe4cc193e981ab4d6c588f659a058c70740fa1b8c2ec3a8eca",
-      "comparisonRevision": "4b9a7089edf94eb56fdaf69abc29737f4b31f32db985401035f3ba6d4c29135f",
+      "comparisonRevision": "038ea3057884045c48fb55d15a2c868867dc71d93a090b962f334409e8d3a266",
       "review": "pending",
       "notes": ""
     },
@@ -2779,7 +2779,7 @@
       ],
       "revision": "6627f660898e45d90d4050d248b9f77fdc1698f8d2f548efc6a0229f6c77aa3a",
       "geometrySignature": "1df5dd6dc4604df1bc1ba8004d2d8b18a8a13202224c1ecc4dbebe98dc0f749a",
-      "comparisonRevision": "64d438ad8d9740368eb3b63d150f3227af529c039f5889e3713d8be1bd5782bc",
+      "comparisonRevision": "82cd39388c1ea346e4222b6be64932493a549ac229f4104d3eb385e7f8ad8e8d",
       "review": "pending",
       "notes": ""
     },
@@ -3978,7 +3978,7 @@
       ],
       "revision": "c445ada859df5d5b2f36d66bad4f8b4919b6f5d8e45ab02ff6e09845d2b68867",
       "geometrySignature": "dffc81fb5eb8f7e765a4fbaa702421830e177d71840dccb9ef324ba098c5f3f3",
-      "comparisonRevision": "2dbd7af15529350ab71581aac1b1efea1f1f6773e8d09a40e71220e9350f0c96",
+      "comparisonRevision": "c5bb8e55441e076270b0639931aca670e8d232bcb8d0ede7083c4de2032f211e",
       "review": "pending",
       "notes": ""
     },
@@ -4713,7 +4713,7 @@
       ],
       "revision": "3664be85b8b7b6151c2eaa98e90dd9a84d48bc886975b3f3e547b0456a5f091a",
       "geometrySignature": "d5bfc2979b459e2ae971e116509c5767e1f3220dd70e2da17b082e0b947cec8e",
-      "comparisonRevision": "41ad0412bf2918134d4f14cb24cc41cb66fa6c923bf601618280ad1b2d192ff7",
+      "comparisonRevision": "f2c588b516db7d3713fc272e7d428069336e54296f4a6b618fcc02f9d716c447",
       "review": "pending",
       "notes": ""
     },
@@ -8087,6 +8087,96 @@
       "notes": ""
     },
     {
+      "id": "aws-glue-ray",
+      "provider": "aws",
+      "name": "AWS Glue for Ray",
+      "rationale": "Parallel workers process data through a shared execution hub.",
+      "path": "stencils/aws-glue-ray.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_AWS-Glue_AWS-Glue-for-Ray_48.svg"
+      ],
+      "revision": "232e83531de16ddc82a94faee7c635a08fb504f400f68d6b4dc9a3f72cd83bf3",
+      "geometrySignature": "26dcfc5fa0942150106436195baf37d03c03369eff9b866d8ec00b18ae860293",
+      "comparisonRevision": "1960a6765854c93e8b0c240704c43e5f0495a6e5b8d2196d05238010245d0709",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-athena-connectors",
+      "provider": "aws",
+      "name": "Athena Data Source Connectors",
+      "rationale": "A query joins multiple external data sources.",
+      "path": "stencils/aws-athena-connectors.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-Athena_Data-Source-Connectors_48.svg"
+      ],
+      "revision": "0a8e85d7f5285d410e2ae533002b60e3fc1b978c881511a7d97deef633e9d779",
+      "geometrySignature": "abbac19b955a069c17b0ee1c74278d1372a7e8386cd729a530f26e044d69ad59",
+      "comparisonRevision": "ae3654bdb30c474568f2c1b4b776a710ba8aed97baf5ad29e001e0309611165e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-cloudsearch-documents",
+      "provider": "aws",
+      "name": "CloudSearch Search Documents",
+      "rationale": "A magnifier searches a set of documents.",
+      "path": "stencils/aws-cloudsearch-documents.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-CloudSearch_Search-Documents_48.svg"
+      ],
+      "revision": "96318de4bbed60ce6cbf3e97ba1f76dd43b31340f9b7a409833b7b6d28eae571",
+      "geometrySignature": "5644b9ed6f2f1c6b626bfca232b85bbd73d180ca4c45871692edc15d239d3e96",
+      "comparisonRevision": "b3c31c05814787d5fe78ea22f4e2f1eedcbe1dce33a059a4189a10dc813710c5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-emr-cluster",
+      "provider": "aws",
+      "name": "EMR Cluster",
+      "rationale": "A central data store distributes jobs to a cluster of workers.",
+      "path": "stencils/aws-emr-cluster.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-EMR_Cluster_48.svg"
+      ],
+      "revision": "3ffad77d01fd4cc483a05627d9e9c6ba5b3ca37f5150ecbccb22bbd91d664f5f",
+      "geometrySignature": "1635c01ba57096d56ef416a4834302ad0a595dd9eff5618e68d99b45b4363e58",
+      "comparisonRevision": "26dd4ec67e0e6ca3b94ab068f2c3de3a0b4d3dc20d858f8f96a4cdecdd0b08b8",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-emr-engine",
+      "provider": "aws",
+      "name": "EMR Engine",
+      "rationale": "An engine drives a stream of data processing.",
+      "path": "stencils/aws-emr-engine.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-EMR_EMR-Engine_48.svg"
+      ],
+      "revision": "3d60d61fdacbe82e69de7820a30f4961ea18b03b9bf95081bf00c85edfd129fe",
+      "geometrySignature": "83b31dbf4e4f97578205bc652ab887782ce9436e4c72bb807b255435fc7e36c1",
+      "comparisonRevision": "6a08f5b0835b1f22b63600a79ae9089efb69e7898dedb838c413a319ef91b973",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-emr-hdfs-cluster",
+      "provider": "aws",
+      "name": "EMR HDFS Cluster",
+      "rationale": "A file is split across distributed storage nodes.",
+      "path": "stencils/aws-emr-hdfs-cluster.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-EMR_HDFS-Cluster_48.svg"
+      ],
+      "revision": "6fcbac682eb1cf42e0dda13aa935b07a465116e2d548e1600fbfe8e9b17741cf",
+      "geometrySignature": "2c91606b152ef6cd1366593a7581bdb039bdc726a858bde02582ae4e1ac09f82",
+      "comparisonRevision": "2acff6ce23df097c7d750a6cd258d7fd9076c67956f1bb7ad4be79de436988c8",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "aws-lake-formation-data-lake",
       "provider": "aws",
       "name": "Lake Formation Data Lake",
@@ -8157,7 +8247,7 @@
       ],
       "revision": "22990bc504d7eafdad89afdbaa38638ff63b9193ad68a2a689efc08204c14718",
       "geometrySignature": "eb7e36c2f04e29d9fe4d1b82634735f4e2bee02ec43b21f8a48e57053b0d065c",
-      "comparisonRevision": "0760ecdb98f588b166a1f21853101d4dc9ce3e9a05915ebb11c72dbba0ed40ce",
+      "comparisonRevision": "8c193ff36cc39f47ce5e84ed7383361f0723cbfe9333ab5f05c2b65daae1988e",
       "review": "pending",
       "notes": ""
     },
@@ -14916,7 +15006,7 @@
       ],
       "revision": "4201f57a0c6c14103c8792cb180afdaf61caae85e1134a95f530d777da94855e",
       "geometrySignature": "8346abe088bdcb1becbb99b13c942bb1b5fe59f62c00d7a6c81ff11627e5b736",
-      "comparisonRevision": "b7893c6df1bb760a76cb2602171e628bfb0d50a35e745952df62dcf0446448db",
+      "comparisonRevision": "da2b9986ce3eea9590f237f34e0a3aee811e07c5674cdcb971721736d072e08b",
       "review": "pending",
       "notes": ""
     },
@@ -17022,7 +17112,7 @@
       ],
       "revision": "0b8e2f74edf44c7077191109398548a563e36de2ab3351be62de272f8011d088",
       "geometrySignature": "580d59ccd963d67937886738b2e82ad280400e8012808c8ddb69b7b1f56ee917",
-      "comparisonRevision": "d4dd0c04589934a3932b532be6c50acfeb8993a86adfe6dc6df59ebcdcaab367",
+      "comparisonRevision": "a96dd8177fbbf86b39d2efada8e0738b692f29f9fc84d32b8a87601ffa46f44e",
       "review": "pending",
       "notes": ""
     },
@@ -18222,7 +18312,7 @@
       ],
       "revision": "3b1735b274fd8df0266062afbb34e15602ebaa9524b675cfa7edfc78139e6798",
       "geometrySignature": "c3413b2cf73a84ee02298501576c8b10dee0d7fbf42a32647b9ee363d8c6260e",
-      "comparisonRevision": "76adb1063c75e5b05f18a8ebc5756c739cbf305f95367088442feeef29626cb0",
+      "comparisonRevision": "de36133b26cd04df55e902a680f838ccd5c9408d981208825e491f466a587508",
       "review": "pending",
       "notes": ""
     },

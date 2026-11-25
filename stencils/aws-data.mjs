@@ -3,6 +3,56 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsDataArtwork = [
+  entry("aws-glue-ray", "aws", "AWS Glue for Ray", ["Res_AWS-Glue_AWS-Glue-for-Ray_48"],
+    "Parallel workers process data through a shared execution hub.",
+    [
+      rect(14, 43, 22, 30), line([20, 53], [30, 53]), line([20, 61], [30, 61]),
+      line([36, 58], [49, 58]), line([49, 58], [62, 28]), line([49, 58], [62, 58]), line([49, 58], [62, 88]),
+      oval(62, 18, 19, 19), oval(62, 48, 19, 19), oval(62, 78, 19, 19),
+      line([81, 28], [96, 28], [108, 58]), line([81, 58], [108, 58]), line([81, 88], [96, 88], [108, 58]), line([102, 52], [108, 58], [102, 64]),
+      line([19, 115], [109, 115]),
+    ]),
+  entry("aws-athena-connectors", "aws", "Athena Data Source Connectors", ["Res_Amazon-Athena_Data-Source-Connectors_48"],
+    "A query joins multiple external data sources.",
+    [
+      oval(10, 21, 26, 10), line([10, 26], [10, 48], [14, 52], [32, 52], [36, 48], [36, 26]),
+      rect(10, 72, 26, 24), line([10, 80], [36, 80]), line([23, 80], [23, 96]),
+      line([36, 37], [52, 48]), line([36, 84], [52, 70]),
+      oval(53, 38, 35, 35), line([82, 67], [103, 88]), line([89, 61], [110, 82]),
+      line([62, 53], [78, 53]), line([70, 45], [70, 61]), line([16, 110], [112, 110]),
+    ]),
+  entry("aws-cloudsearch-documents", "aws", "CloudSearch Search Documents", ["Res_Amazon-CloudSearch_Search-Documents_48"],
+    "A magnifier searches a set of documents.",
+    [
+      line([19, 15], [72, 15], [87, 30], [87, 91], [19, 91], [19, 15]), line([72, 15], [72, 30], [87, 30]),
+      line([29, 39], [69, 39]), line([29, 50], [58, 50]), line([29, 61], [53, 61]), line([29, 72], [52, 72]),
+      oval(61, 58, 28, 28), line([85, 82], [107, 104]), line([16, 114], [112, 114]),
+    ]),
+  entry("aws-emr-cluster", "aws", "EMR Cluster", ["Res_Amazon-EMR_Cluster_48"],
+    "A central data store distributes jobs to a cluster of workers.",
+    [
+      oval(13, 19, 28, 12), line([13, 25], [13, 51], [17, 56], [37, 56], [41, 51], [41, 25]),
+      line([41, 40], [62, 40]), line([62, 40], [62, 54]), line([34, 76], [62, 54], [94, 76]), line([34, 76], [94, 76]),
+      rect(51, 15, 22, 21), rect(23, 76, 22, 20), rect(83, 76, 22, 20),
+      line([18, 110], [110, 110]),
+    ]),
+  entry("aws-emr-engine", "aws", "EMR Engine", ["Res_Amazon-EMR_EMR-Engine_48"],
+    "An engine drives a stream of data processing.",
+    [
+      line([25, 45], [38, 45], [43, 35], [73, 35], [78, 45], [91, 45], [99, 53], [99, 78], [91, 86], [78, 86], [73, 95], [43, 95], [38, 86], [25, 86], [25, 45]),
+      line([50, 35], [50, 26], [67, 26], [67, 35]), line([14, 48], [14, 83]), line([14, 65], [25, 65]),
+      line([51, 53], [44, 64], [51, 75]), line([73, 53], [80, 64], [73, 75]), line([65, 50], [58, 78]),
+      line([15, 111], [112, 111]),
+    ]),
+  entry("aws-emr-hdfs-cluster", "aws", "EMR HDFS Cluster", ["Res_Amazon-EMR_HDFS-Cluster_48"],
+    "A file is split across distributed storage nodes.",
+    [
+      line([11, 24], [37, 24], [46, 33], [46, 70], [11, 70], [11, 24]), line([37, 24], [37, 33], [46, 33]),
+      line([18, 43], [38, 43]), line([18, 51], [38, 51]), line([18, 59], [32, 59]),
+      line([46, 48], [61, 48], [70, 31]), line([61, 48], [70, 61]), line([61, 48], [61, 91], [70, 91]),
+      rect(70, 21, 35, 20), rect(70, 51, 35, 20), rect(70, 81, 35, 20),
+      line([77, 30], [98, 30]), line([77, 60], [98, 60]), line([77, 90], [98, 90]), line([15, 113], [112, 113]),
+    ]),
   entry("aws-lake-formation-data-lake", "aws", "Lake Formation Data Lake", ["Res_AWS-Lake-Formation_Data-Lake_48"],
     "Structured and unstructured data flow into a shared lake.",
     [
