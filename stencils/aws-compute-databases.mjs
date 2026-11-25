@@ -3,6 +3,30 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-elasticache-memcached", "aws", "ElastiCache for Memcached", ["Res_Amazon-ElastiCache_ElastiCache-for-Memcached_48"],
+    "A memory chip caches key-value entries.",
+    [
+      rect(28, 25, 68, 57), line([20, 35], [28, 35]), line([20, 49], [28, 49]), line([20, 63], [28, 63]), line([20, 77], [28, 77]), line([96, 35], [104, 35]), line([96, 49], [104, 49]), line([96, 63], [104, 63]), line([96, 77], [104, 77]),
+      rect(38, 35, 48, 37), line([38, 47], [86, 47]), line([38, 59], [86, 59]), line([54, 35], [54, 72]), line([70, 35], [70, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elasticache-redis", "aws", "ElastiCache for Redis", ["Res_Amazon-ElastiCache_ElastiCache-for-Redis_48"],
+    "An in-memory cache serves a stack of data structures.",
+    [
+      rect(15, 23, 57, 59), line([15, 34], [72, 34]), line([24, 43], [39, 43], [39, 56], [24, 56], [24, 43]), line([47, 43], [63, 43], [63, 56], [47, 56], [47, 43]), line([24, 63], [63, 63]),
+      line([79, 39], [98, 39], [106, 47], [106, 63]), line([100, 57], [106, 63], [112, 57]), line([106, 71], [91, 82], [77, 82]), line([83, 76], [77, 82], [83, 88]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-elasticache-valkey", "aws", "ElastiCache for Valkey", ["Res_Amazon-ElastiCache_ElastiCache-for-Valkey_48"],
+    "A key identifies a value in a fast in-memory cache.",
+    [
+      oval(20, 17, 24, 24), oval(27, 24, 9, 9), line([43, 29], [80, 29], [86, 35], [92, 29]), line([67, 29], [67, 36]),
+      line([32, 54], [96, 54], [96, 90], [32, 90], [32, 54]), line([32, 66], [96, 66]), line([32, 78], [96, 78]), line([48, 54], [48, 90]), line([70, 54], [70, 90]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-rds-proxy-instance", "aws", "RDS Proxy Instance", ["Res_Amazon-RDS-Proxy-Instance_48", "Res_Amazon-RDS-Proxy-Instance-Alternate_48"],
+    "A proxy pools connections to a database instance.",
+    [
+      rect(10, 23, 28, 22), rect(10, 64, 28, 22), line([38, 34], [51, 34], [51, 55], [65, 55]), line([38, 75], [51, 75], [51, 55]),
+      line([65, 38], [76, 38], [76, 72], [65, 72], [65, 38]), line([76, 55], [87, 55]), oval(87, 35, 29, 11), line([87, 40], [87, 71], [92, 75], [101, 77], [111, 75], [116, 71], [116, 40]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-database-migration-workflow", "aws", "Database Migration Workflow", ["Res_AWS-Database-Migration-Service_Database-migration-workflow-or-job_48"],
     "A database moves through the steps of a migration job.",
     [
