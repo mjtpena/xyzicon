@@ -762,59 +762,59 @@
       "id": "gcp-compute-engine",
       "provider": "gcp",
       "name": "Google Compute Engine",
-      "rationale": "A virtual compute board exposes a chip, memory slots and expandable power.",
+      "rationale": "A virtual compute instance runs above a physical server.",
       "path": "stencils/gcp-compute-engine.svg",
       "sources": [
         "/icons/gcp/Unique Icons/Compute Engine/SVG/ComputeEngine-512-color-rgb.svg",
         "/icons/gcp/compute_engine/compute_engine.svg"
       ],
-      "revision": "051f40623df8e05989fbec58b70e43beb705407ab109033e63bd2b038242e833",
-      "geometrySignature": "b0d45a85c5c6548045dfd57e3d068511af41f5adb4026670da707d566e5de9be",
-      "review": "rework",
-      "notes": "The processor in a rectangular frame is too close in concept to the EC2 processor-in-rack drawing and loses its surrounding details at 32px; differentiate the instance metaphor."
+      "revision": "4e5b2d1ea9e9ff7406f6d208eba7eff1ab1e52a611b5f93d6fb99c1504203dd7",
+      "geometrySignature": "99b843c1611f26b1f21e62efe60d9d14398987cf93a864e6e8ee63d1af3a3a4d",
+      "review": "approved",
+      "notes": "A terminal instance above the host is distinct from the EC2 chip and from the nearest workload-grid and building compositions; both instance and host remain visible at 32px."
     },
     {
       "id": "gcp-storage",
       "provider": "gcp",
       "name": "Google Cloud Storage",
-      "rationale": "A stacked object shelf, with a retrieval path leading to a file.",
+      "rationale": "An object-storage cabinet returns a large file.",
       "path": "stencils/gcp-storage.svg",
       "sources": [
         "/icons/gcp/Unique Icons/Cloud Storage/SVG/Cloud_Storage-512-color.svg",
         "/icons/gcp/cloud_storage/cloud_storage.svg"
       ],
-      "revision": "34056ea47c4fe16e92bbfeac43756b2bef708409c4fc8f618222c4bdae0523b4",
-      "geometrySignature": "9375b7f6e51fc5b08d73ee5336fd7060e4f23323705f4d8cef6b45eeb686de33",
-      "review": "rework",
-      "notes": "The shelves and small mixed objects collapse at 32px, and the composition resembles the data warehouse neighbor; simplify the object-storage metaphor."
+      "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+      "geometrySignature": "485c8c1bfc55425b11ec07b916be51bf6e51fe6f3db54dcacc9907d45e73f9db",
+      "review": "approved",
+      "notes": "The storage drawers and large retrieved document remain legible at 32px and differ from the host-pair, shield-and-list and stacked-chart neighbors."
     },
     {
       "id": "azure-confidential-clean-rooms",
       "provider": "azure",
       "name": "Azure Confidential Clean Rooms",
-      "rationale": "Two separate datasets meet inside a locked, isolated analysis chamber.",
+      "rationale": "Two datasets enter a shared shield with a lock, for confidential collaboration.",
       "path": "stencils/azure-confidential-clean-rooms.svg",
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/new icons/036687350-icon-service-Azure-Confidential-Clean-Rooms.svg"
       ],
-      "revision": "fe8b246f42b65e7a9a33d2af902363d34d50452b89228f47fe95a821c1bdc828",
-      "geometrySignature": "e0ade88af3d2ffc003e9a6d6ed10950e9416ebee6a156607f93441894732566e",
-      "review": "rework",
-      "notes": "The literal room with a circular center reads like a washing machine and does not convey confidential collaboration; depict protected data sharing instead."
+      "revision": "005ec5b466c35f6b662366aa4a1eeabda98328fb3d7290f7272d768cfdb0890c",
+      "geometrySignature": "c06cef918dd9add497afa877dde77146f428ad863932bb80e9609f994be3bdc2",
+      "review": "approved",
+      "notes": "Two records feed a locked shield rather than a literal room; the shield and flanking datasets remain distinct at 32px from the chip, data-flow and adapter neighbors."
     },
     {
       "id": "azure-container-app-sandboxes",
       "provider": "azure",
       "name": "Azure Container Apps Sandboxes",
-      "rationale": "A runnable application container sits inside an isolated sandbox boundary.",
+      "rationale": "A container runs inside a sealed isolation boundary.",
       "path": "stencils/azure-container-app-sandboxes.svg",
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/new icons/038647133-icon-service-ACA-Sandboxes.svg"
       ],
-      "revision": "0f9c47086a22ce658265e99b5863f6e099de9a6759519cce9acd1e5aa91cb272",
-      "geometrySignature": "9899ebfed3f5a777c45de5481109b064b0d37fdc91db606001d1ee6934dd9170",
-      "review": "rework",
-      "notes": "A lone cube in an open frame does not convey sandbox isolation and is close to the containers and object-understanding neighbors; add a legible containment or separation cue."
+      "revision": "0ed2903e3dd623434a3f6854993d0cbfb22d35d258c87c37064114b5c81dd592",
+      "geometrySignature": "830d1dc54f698f08a217bbe86271b953c981bccf0c485bfb1b1f5e6ae92d9297",
+      "review": "approved",
+      "notes": "The runnable cube sits inside a complete boundary and stays visible at 32px; the nearest circles contain a lock, cross or check instead of a container."
     },
     {
       "id": "azure-horizondb",
