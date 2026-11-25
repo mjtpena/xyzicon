@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1857,
-  "aliases": 5023,
+  "count": 1864,
+  "aliases": 5030,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -966,6 +966,13 @@
     "aws-iot-thing-factory",
     "aws-iot-thing-house",
     "aws-iot-thing-lightbulb",
+    "aws-efs-intelligent-tiering",
+    "aws-efs-one-zone-ia",
+    "aws-efs-one-zone",
+    "aws-efs-standard-ia",
+    "aws-efs-standard",
+    "aws-efs-elastic-throughput",
+    "aws-efs-file-system",
     "aws-ebs-lifecycle-manager",
     "aws-ebs-multiple-volumes",
     "aws-ebs-snapshot",
@@ -2157,8 +2164,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1640,
-      "concepts": 595
+      "covered": 1647,
+      "concepts": 602
     },
     "gcp": {
       "sources": 261,
@@ -6039,8 +6046,8 @@
       },
       {
         "a": "azure-data-factory",
-        "b": "aws-comprehend-medical",
-        "similarity": 0.2202
+        "b": "aws-efs-standard",
+        "similarity": 0.2218
       }
     ],
     "azure-data-explorer": [
@@ -7700,13 +7707,13 @@
       },
       {
         "a": "gcp-performance-dashboard",
-        "b": "aws-redshift-auto-copy",
-        "similarity": 0.2239
+        "b": "aws-efs-standard",
+        "similarity": 0.2323
       },
       {
         "a": "gcp-performance-dashboard",
-        "b": "aws-beanstalk-application",
-        "similarity": 0.2147
+        "b": "aws-redshift-auto-copy",
+        "similarity": 0.2239
       }
     ],
     "gcp-network-connectivity-center": [
@@ -14829,14 +14836,14 @@
         "similarity": 0.2053
       },
       {
+        "a": "aws-panorama",
+        "b": "aws-efs-one-zone-ia",
+        "similarity": 0.2033
+      },
+      {
         "a": "azure-sql-fleet",
         "b": "aws-panorama",
         "similarity": 0.2031
-      },
-      {
-        "a": "aws-panorama",
-        "b": "aws-iot-http",
-        "similarity": 0.1995
       }
     ],
     "aws-augmented-ai": [
@@ -15174,9 +15181,9 @@
         "similarity": 0.3214
       },
       {
-        "a": "azure-device-compliance",
-        "b": "azure-device-configuration",
-        "similarity": 0.3034
+        "a": "azure-device-configuration",
+        "b": "aws-efs-intelligent-tiering",
+        "similarity": 0.3086
       }
     ],
     "azure-exchange-access": [
@@ -15260,8 +15267,8 @@
       },
       {
         "a": "azure-entra-connect-sync",
-        "b": "aws-backup-vmware",
-        "similarity": 0.2536
+        "b": "aws-efs-standard",
+        "similarity": 0.2576
       }
     ],
     "azure-user-subscriptions": [
@@ -16636,9 +16643,9 @@
         "similarity": 0.268
       },
       {
-        "a": "azure-business-process-tracking",
-        "b": "azure-hybrid-connectivity-hub",
-        "similarity": 0.2618
+        "a": "azure-hybrid-connectivity-hub",
+        "b": "aws-efs-one-zone-ia",
+        "similarity": 0.2663
       }
     ],
     "azure-time-series-environments": [
@@ -16801,14 +16808,14 @@
         "similarity": 0.3182
       },
       {
+        "a": "azure-device-provisioning",
+        "b": "aws-efs-elastic-throughput",
+        "similarity": 0.3034
+      },
+      {
         "a": "aws-sagemaker-train",
         "b": "azure-device-provisioning",
         "similarity": 0.2787
-      },
-      {
-        "a": "azure-device-provisioning",
-        "b": "aws-backup-storage-resource",
-        "similarity": 0.2715
       }
     ],
     "azure-arc-machines": [
@@ -16898,6 +16905,11 @@
     ],
     "azure-intune-trends": [
       {
+        "a": "azure-intune-trends",
+        "b": "aws-efs-one-zone",
+        "similarity": 0.2871
+      },
+      {
         "a": "azure-managed-file-shares",
         "b": "azure-intune-trends",
         "similarity": 0.2749
@@ -16906,11 +16918,6 @@
         "a": "azure-intune-trends",
         "b": "azure-media-file",
         "similarity": 0.2591
-      },
-      {
-        "a": "azure-intune-trends",
-        "b": "aws-iot-servo",
-        "similarity": 0.259
       }
     ],
     "azure-lighthouse": [
@@ -16933,6 +16940,11 @@
     "azure-arc": [
       {
         "a": "azure-arc",
+        "b": "aws-efs-file-system",
+        "similarity": 0.2432
+      },
+      {
+        "a": "azure-arc",
         "b": "azure-ftp",
         "similarity": 0.2308
       },
@@ -16940,11 +16952,6 @@
         "a": "azure-multi-tenancy",
         "b": "azure-arc",
         "similarity": 0.2241
-      },
-      {
-        "a": "gcp-managed-active-directory",
-        "b": "azure-arc",
-        "similarity": 0.2149
       }
     ],
     "azure-service-group-relationships": [
@@ -17418,9 +17425,9 @@
         "similarity": 0.2274
       },
       {
-        "a": "aws-redshift-query-editor",
-        "b": "aws-iot-lorawan",
-        "similarity": 0.2168
+        "a": "aws-iot-lorawan",
+        "b": "aws-efs-one-zone-ia",
+        "similarity": 0.2206
       }
     ],
     "aws-iot-mqtt": [
@@ -17459,6 +17466,11 @@
     ],
     "aws-iot-device-gateway": [
       {
+        "a": "aws-iot-device-gateway",
+        "b": "aws-efs-one-zone-ia",
+        "similarity": 0.2772
+      },
+      {
         "a": "aws-dynamodb-accelerator",
         "b": "aws-iot-device-gateway",
         "similarity": 0.2731
@@ -17467,11 +17479,6 @@
         "a": "aws-iot-http2",
         "b": "aws-iot-device-gateway",
         "similarity": 0.2639
-      },
-      {
-        "a": "azure-device-provisioning",
-        "b": "aws-iot-device-gateway",
-        "similarity": 0.2424
       }
     ],
     "aws-iot-topic": [
@@ -17771,13 +17778,13 @@
       },
       {
         "a": "aws-sitewise-asset",
-        "b": "aws-general-saml-token",
-        "similarity": 0.2599
+        "b": "aws-efs-standard",
+        "similarity": 0.2772
       },
       {
         "a": "aws-sitewise-asset",
-        "b": "azure-counter",
-        "similarity": 0.2476
+        "b": "aws-general-saml-token",
+        "similarity": 0.2599
       }
     ],
     "aws-sitewise-asset-hierarchy": [
@@ -18528,6 +18535,125 @@
         "similarity": 0.2191
       }
     ],
+    "aws-efs-intelligent-tiering": [
+      {
+        "a": "azure-device-configuration",
+        "b": "aws-efs-intelligent-tiering",
+        "similarity": 0.3086
+      },
+      {
+        "a": "azure-data-lake-gen1",
+        "b": "aws-efs-intelligent-tiering",
+        "similarity": 0.2941
+      },
+      {
+        "a": "aws-efs-intelligent-tiering",
+        "b": "aws-ec2-spot-instance",
+        "similarity": 0.2714
+      }
+    ],
+    "aws-efs-one-zone-ia": [
+      {
+        "a": "aws-efs-one-zone-ia",
+        "b": "aws-efs-elastic-throughput",
+        "similarity": 0.3353
+      },
+      {
+        "a": "aws-efs-one-zone-ia",
+        "b": "aws-efs-standard-ia",
+        "similarity": 0.3053
+      },
+      {
+        "a": "aws-dynamodb-accelerator",
+        "b": "aws-efs-one-zone-ia",
+        "similarity": 0.2957
+      }
+    ],
+    "aws-efs-one-zone": [
+      {
+        "a": "azure-intune-trends",
+        "b": "aws-efs-one-zone",
+        "similarity": 0.2871
+      },
+      {
+        "a": "aws-efs-one-zone",
+        "b": "aws-backup-cloudformation",
+        "similarity": 0.2844
+      },
+      {
+        "a": "azure-storsimple-device-managers",
+        "b": "aws-efs-one-zone",
+        "similarity": 0.2423
+      }
+    ],
+    "aws-efs-standard-ia": [
+      {
+        "a": "aws-efs-standard-ia",
+        "b": "aws-efs-elastic-throughput",
+        "similarity": 0.3819
+      },
+      {
+        "a": "aws-efs-one-zone-ia",
+        "b": "aws-efs-standard-ia",
+        "similarity": 0.3053
+      },
+      {
+        "a": "azure-multi-factor-authentication",
+        "b": "aws-efs-standard-ia",
+        "similarity": 0.2904
+      }
+    ],
+    "aws-efs-standard": [
+      {
+        "a": "aws-efs-standard",
+        "b": "aws-general-saml-token",
+        "similarity": 0.3778
+      },
+      {
+        "a": "aws-efs-standard",
+        "b": "azure-controls-horizontal",
+        "similarity": 0.3046
+      },
+      {
+        "a": "azure-managed-applications-center",
+        "b": "aws-efs-standard",
+        "similarity": 0.3001
+      }
+    ],
+    "aws-efs-elastic-throughput": [
+      {
+        "a": "aws-efs-standard-ia",
+        "b": "aws-efs-elastic-throughput",
+        "similarity": 0.3819
+      },
+      {
+        "a": "aws-efs-one-zone-ia",
+        "b": "aws-efs-elastic-throughput",
+        "similarity": 0.3353
+      },
+      {
+        "a": "azure-device-provisioning",
+        "b": "aws-efs-elastic-throughput",
+        "similarity": 0.3034
+      }
+    ],
+    "aws-efs-file-system": [
+      {
+        "a": "gcp-managed-active-directory",
+        "b": "aws-efs-file-system",
+        "similarity": 0.2643
+      },
+      {
+        "a": "azure-arc",
+        "b": "aws-efs-file-system",
+        "similarity": 0.2432
+      },
+      {
+        "a": "aws-efs-file-system",
+        "b": "aws-elemental-conductor",
+        "similarity": 0.2382
+      }
+    ],
     "aws-ebs-lifecycle-manager": [
       {
         "a": "aws-iot-over-air-update",
@@ -18931,9 +19057,9 @@
         "similarity": 0.2996
       },
       {
-        "a": "azure-logic-apps-custom-connector",
+        "a": "aws-efs-one-zone-ia",
         "b": "aws-backup-storage-resource",
-        "similarity": 0.2909
+        "similarity": 0.2932
       }
     ],
     "aws-backup-virtual-machine": [
@@ -21051,14 +21177,14 @@
         "similarity": 0.4353
       },
       {
+        "a": "aws-efs-standard",
+        "b": "aws-general-saml-token",
+        "similarity": 0.3778
+      },
+      {
         "a": "azure-windows-core-services",
         "b": "aws-general-saml-token",
         "similarity": 0.2782
-      },
-      {
-        "a": "aws-backup-vault-resource",
-        "b": "aws-general-saml-token",
-        "similarity": 0.2781
       }
     ],
     "aws-general-credentials": [
@@ -21153,14 +21279,14 @@
         "similarity": 0.2786
       },
       {
+        "a": "aws-efs-standard",
+        "b": "aws-general-forums",
+        "similarity": 0.2766
+      },
+      {
         "a": "azure-intune-client-apps",
         "b": "aws-general-forums",
         "similarity": 0.2733
-      },
-      {
-        "a": "aws-iot-thing-freertos",
-        "b": "aws-general-forums",
-        "similarity": 0.2556
       }
     ],
     "aws-general-gear": [
@@ -25071,6 +25197,11 @@
     ],
     "aws-ec2-cloudwatch-instance": [
       {
+        "a": "aws-efs-intelligent-tiering",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2652
+      },
+      {
         "a": "aws-ec2-cloudwatch-instance",
         "b": "fabric-document-ssis-play",
         "similarity": 0.2583
@@ -25079,11 +25210,6 @@
         "a": "azure-time-series-data-sets",
         "b": "aws-ec2-cloudwatch-instance",
         "similarity": 0.2559
-      },
-      {
-        "a": "azure-verification-service",
-        "b": "aws-ec2-cloudwatch-instance",
-        "similarity": 0.25
       }
     ],
     "aws-ec2-instance": [
@@ -27257,12 +27383,17 @@
         "similarity": 0.2643
       },
       {
-        "a": "azure-customer-lockbox",
+        "a": "aws-efs-standard",
         "b": "azure-input-output",
-        "similarity": 0.2472
+        "similarity": 0.2588
       }
     ],
     "azure-controls-horizontal": [
+      {
+        "a": "aws-efs-standard",
+        "b": "azure-controls-horizontal",
+        "similarity": 0.3046
+      },
       {
         "a": "azure-controls-horizontal",
         "b": "azure-commit",
@@ -27272,11 +27403,6 @@
         "a": "azure-controls-horizontal",
         "b": "azure-help-support",
         "similarity": 0.25
-      },
-      {
-        "a": "azure-controls-horizontal",
-        "b": "azure-cost-budgets",
-        "similarity": 0.2474
       }
     ],
     "azure-cost-alerts": [
@@ -27354,14 +27480,14 @@
         "similarity": 0.2629
       },
       {
-        "a": "azure-cubes",
-        "b": "fabric-filter-settings",
-        "similarity": 0.2399
+        "a": "aws-efs-standard",
+        "b": "azure-cubes",
+        "similarity": 0.2436
       },
       {
         "a": "azure-cubes",
-        "b": "azure-blob-block",
-        "similarity": 0.2231
+        "b": "fabric-filter-settings",
+        "similarity": 0.2399
       }
     ],
     "azure-dev-console": [

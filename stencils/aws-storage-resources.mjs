@@ -1,6 +1,53 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const awsStorageResourcesArtwork = [
+  entry("aws-efs-intelligent-tiering", "aws", "EFS Intelligent Tiering", ["Res_Amazon-Elastic-File-System_EFS-Intelligent-Tiering_48"],
+    "File access moves between storage tiers automatically.",
+    [
+      line([14, 33], [14, 26], [27, 26], [33, 32], [57, 32], [57, 54], [14, 54], [14, 33]),
+      line([14, 70], [14, 63], [27, 63], [33, 69], [57, 69], [57, 91], [14, 91], [14, 70]),
+      line([81, 30], [81, 78]), line([75, 36], [81, 30], [87, 36]), line([99, 78], [99, 30]), line([93, 72], [99, 78], [105, 72]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-efs-one-zone-ia", "aws", "EFS One Zone Infrequent Access", ["Res_Amazon-Elastic-File-System_EFS-One-Zone-Infrequent-Access_48"],
+    "A file share in one zone is for less frequent access.",
+    [
+      line([12, 38], [12, 28], [32, 28], [40, 36], [74, 36], [74, 79], [12, 79], [12, 38]),
+      oval(25, 45, 28, 28), line([39, 50], [39, 59], [46, 63]),
+      line([91, 77], [79, 57], [79, 47], [84, 40], [91, 37], [98, 40], [103, 47], [103, 57], [91, 77]), oval(87, 47, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-efs-one-zone", "aws", "EFS One Zone", ["Res_Amazon-Elastic-File-System_EFS-One-Zone_48"],
+    "A file share is located in one availability zone.",
+    [
+      line([17, 44], [17, 34], [34, 34], [41, 41], [84, 41], [84, 85], [17, 85], [17, 44]), line([26, 55], [72, 55]), line([26, 66], [61, 66]),
+      line([92, 48], [80, 29], [80, 20], [85, 13], [92, 10], [99, 13], [104, 20], [104, 29], [92, 48]), oval(88, 20, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-efs-standard-ia", "aws", "EFS Standard Infrequent Access", ["Res_Amazon-Elastic-File-System_EFS-Standard-Infrequent-Access_48"],
+    "A shared file system stores rarely accessed files.",
+    [
+      line([13, 36], [13, 26], [31, 26], [39, 34], [67, 34], [67, 79], [13, 79], [13, 36]),
+      line([22, 46], [57, 46]), line([22, 57], [50, 57]), oval(75, 43, 34, 34), line([92, 50], [92, 60], [100, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-efs-standard", "aws", "EFS Standard", ["Res_Amazon-Elastic-File-System_EFS-Standard_48"],
+    "A shared file system provides standard file access.",
+    [
+      line([21, 33], [21, 23], [43, 23], [52, 32], [101, 32], [101, 84], [21, 84], [21, 33]),
+      line([30, 45], [91, 45]), line([30, 56], [75, 56]), line([30, 67], [85, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-efs-elastic-throughput", "aws", "EFS Elastic Throughput", ["Res_Amazon-Elastic-File-System_Elastic-Throughput_48"],
+    "File-system throughput expands with demand.",
+    [
+      line([13, 36], [13, 26], [31, 26], [38, 33], [75, 33], [75, 79], [13, 79], [13, 36]),
+      line([38, 41], [29, 59], [41, 59], [35, 73], [54, 51], [42, 51], [48, 41], [38, 41]),
+      line([83, 62], [104, 62], [104, 30]), line([98, 36], [104, 30], [110, 36]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-efs-file-system", "aws", "EFS File System", ["Res_Amazon-Elastic-File-System_File-System_48"],
+    "A hierarchy organizes shared files and folders.",
+    [
+      line([45, 23], [45, 16], [55, 16], [61, 22], [83, 22], [83, 43], [45, 43], [45, 23]),
+      line([64, 43], [64, 57], [31, 57], [31, 65]), line([64, 57], [97, 57], [97, 65]),
+      line([12, 72], [12, 65], [23, 65], [29, 71], [49, 71], [49, 90], [12, 90], [12, 72]),
+      line([78, 72], [78, 65], [89, 65], [95, 71], [115, 71], [115, 90], [78, 90], [78, 72]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-ebs-lifecycle-manager", "aws", "EBS Data Lifecycle Manager", ["Res_Amazon-Elastic-Block-Store_Amazon-Data-Lifecycle-Manager_48"],
     "A scheduled cycle manages a block volume's lifetime.",
     [
