@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1998,
-  "aliases": 5166,
+  "count": 2006,
+  "aliases": 5174,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1401,6 +1401,14 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-app-mesh-mesh",
+    "aws-app-mesh-virtual-gateway",
+    "aws-app-mesh-virtual-node",
+    "aws-app-mesh-virtual-router",
+    "aws-app-mesh-virtual-service",
+    "aws-cloud-map-namespace",
+    "aws-cloud-map-resource",
+    "aws-cloud-map-service",
     "aws-cloudfront-download",
     "aws-cloudfront-edge-location",
     "aws-cloudfront-functions",
@@ -2298,8 +2306,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1783,
-      "concepts": 736
+      "covered": 1791,
+      "concepts": 744
     },
     "gcp": {
       "sources": 261,
@@ -15651,13 +15659,13 @@
       },
       {
         "a": "azure-entra-private-access",
-        "b": "aws-iot-http2",
-        "similarity": 0.2422
+        "b": "aws-cloud-map-service",
+        "similarity": 0.25
       },
       {
-        "a": "azure-external-identities",
-        "b": "azure-entra-private-access",
-        "similarity": 0.2407
+        "a": "azure-entra-private-access",
+        "b": "aws-iot-http2",
+        "similarity": 0.2422
       }
     ],
     "azure-entra-internet-access": [
@@ -18104,8 +18112,8 @@
       },
       {
         "a": "aws-greengrass-connector",
-        "b": "azure-branch",
-        "similarity": 0.2404
+        "b": "aws-cloud-map-resource",
+        "similarity": 0.2413
       }
     ],
     "aws-greengrass-interprocess": [
@@ -18332,6 +18340,11 @@
     "aws-iot-thing-humidity-sensor": [
       {
         "a": "aws-iot-thing-humidity-sensor",
+        "b": "aws-app-mesh-virtual-router",
+        "similarity": 0.257
+      },
+      {
+        "a": "aws-iot-thing-humidity-sensor",
         "b": "aws-iot-thing-lightbulb",
         "similarity": 0.2392
       },
@@ -18339,11 +18352,6 @@
         "a": "aws-iot-thing-humidity-sensor",
         "b": "azure-app-space",
         "similarity": 0.236
-      },
-      {
-        "a": "azure-alerts",
-        "b": "aws-iot-thing-humidity-sensor",
-        "similarity": 0.2325
       }
     ],
     "aws-iot-thing-temperature-sensor": [
@@ -18439,13 +18447,13 @@
       },
       {
         "a": "aws-iot-thing-stacklight",
-        "b": "aws-general-recover",
-        "similarity": 0.2783
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.3042
       },
       {
         "a": "aws-iot-thing-stacklight",
-        "b": "aws-iam-mfa-token",
-        "similarity": 0.2718
+        "b": "aws-general-recover",
+        "similarity": 0.2783
       }
     ],
     "aws-iot-thing-medical-emergency": [
@@ -18494,9 +18502,9 @@
         "similarity": 0.2177
       },
       {
-        "a": "azure-universal-print",
-        "b": "aws-iot-thing-windfarm",
-        "similarity": 0.2083
+        "a": "aws-iot-thing-windfarm",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2137
       }
     ],
     "aws-iot-thing-bank": [
@@ -21957,14 +21965,14 @@
         "similarity": 0.3534
       },
       {
+        "a": "aws-trusted-advisor-security",
+        "b": "aws-cloud-map-namespace",
+        "similarity": 0.2714
+      },
+      {
         "a": "azure-maps-accounts",
         "b": "aws-trusted-advisor-security",
         "similarity": 0.2687
-      },
-      {
-        "a": "azure-digital-twins",
-        "b": "aws-trusted-advisor-security",
-        "similarity": 0.2642
       }
     ],
     "aws-inspector-agent": [
@@ -22048,8 +22056,8 @@
       },
       {
         "a": "aws-cloudwatch-event-based",
-        "b": "aws-cloudwatch-time-based",
-        "similarity": 0.2599
+        "b": "aws-cloud-map-service",
+        "similarity": 0.2628
       }
     ],
     "aws-cloudwatch-time-based": [
@@ -22587,13 +22595,13 @@
       },
       {
         "a": "aws-organizational-unit",
-        "b": "aws-general-credentials",
-        "similarity": 0.3028
+        "b": "aws-cloud-map-namespace",
+        "similarity": 0.3396
       },
       {
-        "a": "aws-systems-inventory",
-        "b": "aws-organizational-unit",
-        "similarity": 0.2998
+        "a": "aws-organizational-unit",
+        "b": "aws-general-credentials",
+        "similarity": 0.3028
       }
     ],
     "aws-general-management-console": [
@@ -24189,9 +24197,9 @@
         "similarity": 0.2759
       },
       {
-        "a": "aws-efs-standard",
-        "b": "aws-network-firewall-endpoint",
-        "similarity": 0.2575
+        "a": "aws-network-firewall-endpoint",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2587
       }
     ],
     "aws-security-hub-finding": [
@@ -26088,6 +26096,142 @@
         "similarity": 0.5942
       }
     ],
+    "aws-app-mesh-mesh": [
+      {
+        "a": "aws-app-mesh-mesh",
+        "b": "azure-input-output",
+        "similarity": 0.2472
+      },
+      {
+        "a": "azure-custom-identity-roles",
+        "b": "aws-app-mesh-mesh",
+        "similarity": 0.24
+      },
+      {
+        "a": "aws-waf-bad-bot",
+        "b": "aws-app-mesh-mesh",
+        "similarity": 0.2377
+      }
+    ],
+    "aws-app-mesh-virtual-gateway": [
+      {
+        "a": "aws-iot-thing-stacklight",
+        "b": "aws-app-mesh-virtual-gateway",
+        "similarity": 0.3042
+      },
+      {
+        "a": "aws-app-mesh-virtual-gateway",
+        "b": "azure-log-streaming",
+        "similarity": 0.2465
+      },
+      {
+        "a": "aws-app-mesh-virtual-gateway",
+        "b": "aws-ec2-cloudwatch-instance",
+        "similarity": 0.2328
+      }
+    ],
+    "aws-app-mesh-virtual-node": [
+      {
+        "a": "aws-network-firewall-endpoint",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2587
+      },
+      {
+        "a": "aws-waf-labels",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2305
+      },
+      {
+        "a": "aws-general-server",
+        "b": "aws-app-mesh-virtual-node",
+        "similarity": 0.2301
+      }
+    ],
+    "aws-app-mesh-virtual-router": [
+      {
+        "a": "aws-app-mesh-virtual-router",
+        "b": "azure-app-space",
+        "similarity": 0.2941
+      },
+      {
+        "a": "aws-iot-thing-humidity-sensor",
+        "b": "aws-app-mesh-virtual-router",
+        "similarity": 0.257
+      },
+      {
+        "a": "aws-app-mesh-virtual-router",
+        "b": "azure-cost-alerts",
+        "similarity": 0.2405
+      }
+    ],
+    "aws-app-mesh-virtual-service": [
+      {
+        "a": "azure-logic-apps-custom-connector",
+        "b": "aws-app-mesh-virtual-service",
+        "similarity": 0.2615
+      },
+      {
+        "a": "aws-iot-lambda-function",
+        "b": "aws-app-mesh-virtual-service",
+        "similarity": 0.2612
+      },
+      {
+        "a": "gcp-certificate-manager",
+        "b": "aws-app-mesh-virtual-service",
+        "similarity": 0.258
+      }
+    ],
+    "aws-cloud-map-namespace": [
+      {
+        "a": "aws-organizational-unit",
+        "b": "aws-cloud-map-namespace",
+        "similarity": 0.3396
+      },
+      {
+        "a": "aws-ebs-snapshot",
+        "b": "aws-cloud-map-namespace",
+        "similarity": 0.3082
+      },
+      {
+        "a": "azure-time-series-environments",
+        "b": "aws-cloud-map-namespace",
+        "similarity": 0.2997
+      }
+    ],
+    "aws-cloud-map-resource": [
+      {
+        "a": "aws-greengrass-connector",
+        "b": "aws-cloud-map-resource",
+        "similarity": 0.2413
+      },
+      {
+        "a": "aws-iot-desired-state",
+        "b": "aws-cloud-map-resource",
+        "similarity": 0.2324
+      },
+      {
+        "a": "aws-backup-virtual-machine-monitor",
+        "b": "aws-cloud-map-resource",
+        "similarity": 0.2318
+      }
+    ],
+    "aws-cloud-map-service": [
+      {
+        "a": "aws-iot-thing-vibration-sensor",
+        "b": "aws-cloud-map-service",
+        "similarity": 0.301
+      },
+      {
+        "a": "aws-cloudwatch-event-based",
+        "b": "aws-cloud-map-service",
+        "similarity": 0.2628
+      },
+      {
+        "a": "aws-waf-managed-rule",
+        "b": "aws-cloud-map-service",
+        "similarity": 0.2612
+      }
+    ],
     "aws-cloudfront-download": [
       {
         "a": "aws-organizations",
@@ -27971,14 +28115,14 @@
         "similarity": 0.1955
       },
       {
+        "a": "aws-app-mesh-virtual-node",
+        "b": "aws-ec2-image-builder",
+        "similarity": 0.1915
+      },
+      {
         "a": "aws-iot-thing-thermostat",
         "b": "aws-ec2-image-builder",
         "similarity": 0.1822
-      },
-      {
-        "a": "aws-general-recover",
-        "b": "aws-ec2-image-builder",
-        "similarity": 0.1812
       }
     ],
     "aws-lightsail": [
@@ -29829,9 +29973,9 @@
         "similarity": 0.2511
       },
       {
-        "a": "azure-file-shares",
+        "a": "aws-app-mesh-virtual-router",
         "b": "azure-cost-alerts",
-        "similarity": 0.2369
+        "similarity": 0.2405
       }
     ],
     "azure-cost-analysis": [
@@ -31597,9 +31741,9 @@
         "similarity": 0.2023
       },
       {
-        "a": "aws-systems-opscenter",
+        "a": "aws-cloud-map-namespace",
         "b": "azure-disk-snapshot",
-        "similarity": 0.1973
+        "similarity": 0.2008
       }
     ],
     "azure-batch-accounts": [
@@ -36281,9 +36425,9 @@
         "similarity": 0.2557
       },
       {
-        "a": "aws-sns-http-notification",
+        "a": "aws-cloud-map-namespace",
         "b": "fabric-calendar-prohibited",
-        "similarity": 0.2177
+        "similarity": 0.2208
       }
     ],
     "fabric-calendar-signal": [

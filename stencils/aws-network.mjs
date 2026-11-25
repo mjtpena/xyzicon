@@ -3,6 +3,55 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-app-mesh-mesh", "aws", "App Mesh Mesh", ["Res_AWS-App-Mesh_Mesh_48"],
+    "A service mesh connects multiple application services.",
+    [
+      oval(49, 16, 25, 25), oval(14, 65, 25, 25), oval(85, 65, 25, 25), line([55, 39], [34, 66]), line([68, 39], [89, 66]), line([39, 78], [85, 78]),
+      line([57, 28], [66, 28]), line([21, 77], [30, 77]), line([92, 77], [101, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-app-mesh-virtual-gateway", "aws", "App Mesh Virtual Gateway", ["Res_AWS-App-Mesh_Virtual-Gateway_48"],
+    "A virtual gateway directs incoming traffic into a service mesh.",
+    [
+      line([12, 54], [44, 54]), line([37, 47], [44, 54], [37, 61]), line([46, 22], [46, 88]), line([57, 22], [57, 88]), line([46, 22], [57, 22]), line([46, 88], [57, 88]),
+      line([58, 54], [75, 54], [75, 31], [88, 31]), line([75, 54], [75, 78], [88, 78]), oval(88, 21, 20, 20), oval(88, 68, 20, 20), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-app-mesh-virtual-node", "aws", "App Mesh Virtual Node", ["Res_AWS-App-Mesh_Virtual-Node_48"],
+    "A virtual node represents a workload in a service mesh.",
+    [
+      oval(35, 25, 57, 57), rect(48, 41, 31, 25), line([48, 49], [79, 49]), line([55, 57], [72, 57]),
+      line([63, 13], [63, 25]), line([63, 82], [63, 96]), line([21, 53], [35, 53]), line([92, 53], [106, 53]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-app-mesh-virtual-router", "aws", "App Mesh Virtual Router", ["Res_AWS-App-Mesh_Virtual-Router_48"],
+    "A virtual router directs service traffic along different paths.",
+    [
+      oval(39, 34, 41, 41), line([12, 54], [39, 54]), line([32, 47], [39, 54], [32, 61]),
+      line([61, 43], [78, 26], [105, 26]), line([98, 19], [105, 26], [98, 33]), line([61, 64], [78, 81], [105, 81]), line([98, 74], [105, 81], [98, 88]),
+      line([49, 54], [68, 54]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-app-mesh-virtual-service", "aws", "App Mesh Virtual Service", ["Res_AWS-App-Mesh_Virtual-Service_48"],
+    "A virtual service fronts multiple service implementations.",
+    [
+      rect(10, 38, 35, 31), line([10, 47], [45, 47]), line([17, 57], [38, 57]), line([45, 54], [63, 54]),
+      line([63, 54], [63, 30], [81, 30]), line([63, 54], [63, 79], [81, 79]), rect(82, 19, 30, 22), rect(82, 68, 30, 22), line([88, 30], [106, 30]), line([88, 79], [106, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloud-map-namespace", "aws", "Cloud Map Namespace", ["Res_AWS-Cloud-Map_Namespace_48"],
+    "A namespace groups discoverable services.",
+    [
+      line([14, 34], [14, 21], [45, 21], [53, 29], [111, 29], [111, 91], [14, 91], [14, 34]), line([14, 40], [111, 40]),
+      oval(25, 53, 17, 17), oval(56, 53, 17, 17), oval(87, 53, 17, 17), line([42, 61], [56, 61]), line([73, 61], [87, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloud-map-resource", "aws", "Cloud Map Resource", ["Res_AWS-Cloud-Map_Resource_48"],
+    "A discoverable resource is located on a service map.",
+    [
+      line([31, 16], [20, 20], [15, 29], [15, 39], [21, 49], [31, 60], [41, 49], [47, 39], [47, 29], [42, 20], [31, 16]), oval(25, 26, 12, 12),
+      line([47, 45], [64, 45]), line([58, 39], [64, 45], [58, 51]), line([69, 37], [89, 30], [109, 37], [109, 61], [89, 69], [69, 61], [69, 37]), line([69, 37], [89, 44], [109, 37]), line([89, 44], [89, 69]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-cloud-map-service", "aws", "Cloud Map Service", ["Res_AWS-Cloud-Map_Service_48"],
+    "A service map locates an application endpoint.",
+    [
+      line([25, 15], [14, 19], [9, 28], [9, 39], [15, 49], [25, 60], [35, 49], [41, 39], [41, 28], [36, 19], [25, 15]), oval(19, 25, 12, 12),
+      line([41, 46], [54, 46]), line([48, 40], [54, 46], [48, 52]), rect(57, 24, 55, 48), line([57, 35], [112, 35]), line([66, 47], [103, 47]), line([66, 58], [96, 58]), line([14, 109], [110, 109]),
+    ]),
   entry("aws-cloudfront-download", "aws", "CloudFront Download Distribution", ["Res_Amazon-CloudFront_Download-Distribution_48"],
     "A downloadable file is distributed to multiple clients.",
     [
