@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 214,
+  "approved": 213,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -84,6 +84,7 @@
     "azure-network-watcher",
     "azure-data-box",
     "azure-event-grid-subscriptions",
+    "aws-appsync",
     "m365-apps",
     "m365-apps-list",
     "m365-attach",
@@ -6357,11 +6358,6 @@
     "aws-appsync": [
       {
         "a": "aws-appsync",
-        "b": "aws-datazone-business-catalog",
-        "similarity": 0.234
-      },
-      {
-        "a": "aws-appsync",
         "b": "aws-resource-access-manager",
         "similarity": 0.2221
       },
@@ -6369,6 +6365,11 @@
         "a": "aws-appsync",
         "b": "azure-app-service-environments",
         "similarity": 0.2185
+      },
+      {
+        "a": "aws-appsync",
+        "b": "aws-elastic-fabric-adapter",
+        "similarity": 0.2115
       }
     ],
     "aws-b2b-interchange": [
@@ -7399,13 +7400,13 @@
       },
       {
         "a": "gcp-runtime-config",
-        "b": "aws-datazone-business-catalog",
-        "similarity": 0.3224
+        "b": "aws-vpc-vpn-connection",
+        "similarity": 0.2819
       },
       {
         "a": "gcp-runtime-config",
-        "b": "aws-vpc-vpn-connection",
-        "similarity": 0.2819
+        "b": "aws-opensearch-observability",
+        "similarity": 0.2793
       }
     ],
     "gcp-automl": [
@@ -7688,13 +7689,13 @@
       },
       {
         "a": "gcp-healthcare-marketplace",
-        "b": "azure-event-hub-clusters",
-        "similarity": 0.2351
+        "b": "aws-datazone-business-catalog",
+        "similarity": 0.2373
       },
       {
         "a": "gcp-healthcare-marketplace",
-        "b": "azure-ip-groups",
-        "similarity": 0.234
+        "b": "azure-event-hub-clusters",
+        "similarity": 0.2351
       }
     ],
     "gcp-healthcare-nlp": [
@@ -8470,13 +8471,13 @@
       },
       {
         "a": "gcp-cloud-test-lab",
-        "b": "azure-host-groups",
-        "similarity": 0.2295
+        "b": "aws-datazone-business-catalog",
+        "similarity": 0.2398
       },
       {
         "a": "gcp-cloud-test-lab",
-        "b": "gcp-project",
-        "similarity": 0.2285
+        "b": "azure-host-groups",
+        "similarity": 0.2295
       }
     ],
     "gcp-game-servers": [
@@ -10386,11 +10387,6 @@
     "m365-tablet": [
       {
         "a": "m365-tablet",
-        "b": "aws-datazone-business-catalog",
-        "similarity": 0.2895
-      },
-      {
-        "a": "m365-tablet",
         "b": "azure-linux",
         "similarity": 0.2646
       },
@@ -10398,6 +10394,11 @@
         "a": "m365-tablet",
         "b": "azure-marketplace",
         "similarity": 0.2567
+      },
+      {
+        "a": "gcp-security-command-center",
+        "b": "m365-tablet",
+        "similarity": 0.247
       }
     ],
     "m365-megaphone": [
@@ -12976,19 +12977,19 @@
     ],
     "aws-datazone-business-catalog": [
       {
-        "a": "gcp-runtime-config",
-        "b": "aws-datazone-business-catalog",
-        "similarity": 0.3224
+        "a": "aws-datazone-business-catalog",
+        "b": "aws-ec2-ami",
+        "similarity": 0.2472
       },
       {
-        "a": "m365-tablet",
-        "b": "aws-datazone-business-catalog",
-        "similarity": 0.2895
+        "a": "aws-datazone-business-catalog",
+        "b": "aws-glue-catalog",
+        "similarity": 0.2437
       },
       {
-        "a": "aws-translate",
-        "b": "aws-datazone-business-catalog",
-        "similarity": 0.2742
+        "a": "aws-datazone-business-catalog",
+        "b": "aws-ec2-elastic-ip",
+        "similarity": 0.243
       }
     ],
     "aws-datazone-portal": [
@@ -13095,19 +13096,19 @@
     ],
     "aws-clean-rooms": [
       {
+        "a": "aws-clean-rooms",
+        "b": "fabric-no-access-semantic",
+        "similarity": 0.2235
+      },
+      {
+        "a": "gcp-private-connectivity",
+        "b": "aws-clean-rooms",
+        "similarity": 0.2119
+      },
+      {
         "a": "gcp-security-operations",
         "b": "aws-clean-rooms",
-        "similarity": 0.223
-      },
-      {
-        "a": "aws-clean-rooms",
-        "b": "fabric-data-warehouse-product",
-        "similarity": 0.222
-      },
-      {
-        "a": "m365-calculator",
-        "b": "aws-clean-rooms",
-        "similarity": 0.2141
+        "similarity": 0.2069
       }
     ],
     "aws-data-exchange": [
@@ -13622,6 +13623,11 @@
     ],
     "fabric-no-access-semantic": [
       {
+        "a": "aws-clean-rooms",
+        "b": "fabric-no-access-semantic",
+        "similarity": 0.2235
+      },
+      {
         "a": "fabric-no-access-semantic",
         "b": "aws-verified-permissions",
         "similarity": 0.199
@@ -13630,11 +13636,6 @@
         "a": "aws-managed-flink",
         "b": "fabric-no-access-semantic",
         "similarity": 0.185
-      },
-      {
-        "a": "fabric-no-access-semantic",
-        "b": "fabric-stack-key",
-        "similarity": 0.1828
       }
     ],
     "fabric-operations-agent": [
@@ -13758,11 +13759,6 @@
     ],
     "fabric-runtime-lineage": [
       {
-        "a": "aws-datazone-business-catalog",
-        "b": "fabric-runtime-lineage",
-        "similarity": 0.2067
-      },
-      {
         "a": "fabric-runtime-lineage",
         "b": "aws-managed-prometheus",
         "similarity": 0.1797
@@ -13771,6 +13767,11 @@
         "a": "azure-private-link-services",
         "b": "fabric-runtime-lineage",
         "similarity": 0.1652
+      },
+      {
+        "a": "gcp-cloud-deploy",
+        "b": "fabric-runtime-lineage",
+        "similarity": 0.165
       }
     ],
     "fabric-schema-model": [
@@ -27295,14 +27296,14 @@
         "similarity": 0.229
       },
       {
-        "a": "aws-clean-rooms",
-        "b": "aws-shield",
-        "similarity": 0.2067
-      },
-      {
         "a": "gcp-private-connectivity",
         "b": "aws-shield",
         "similarity": 0.2007
+      },
+      {
+        "a": "aws-clean-rooms",
+        "b": "aws-shield",
+        "similarity": 0.1981
       }
     ],
     "aws-security-incident-response": [
@@ -29524,11 +29525,6 @@
     ],
     "aws-site-vpn": [
       {
-        "a": "aws-datazone-business-catalog",
-        "b": "aws-site-vpn",
-        "similarity": 0.2475
-      },
-      {
         "a": "aws-devops-agent",
         "b": "aws-site-vpn",
         "similarity": 0.2425
@@ -29537,6 +29533,11 @@
         "a": "gcp-security-command-center",
         "b": "aws-site-vpn",
         "similarity": 0.2365
+      },
+      {
+        "a": "azure-power-bi-embedded",
+        "b": "aws-site-vpn",
+        "similarity": 0.2306
       }
     ],
     "aws-transit-gateway": [
@@ -35604,14 +35605,14 @@
         "similarity": 0.2336
       },
       {
-        "a": "aws-datazone-business-catalog",
-        "b": "azure-service-fabric-clusters",
-        "similarity": 0.2094
-      },
-      {
         "a": "m365-tablet",
         "b": "azure-service-fabric-clusters",
         "similarity": 0.1967
+      },
+      {
+        "a": "aws-managed-prometheus",
+        "b": "azure-service-fabric-clusters",
+        "similarity": 0.1922
       }
     ],
     "azure-host-groups": [
