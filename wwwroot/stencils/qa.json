@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 915,
-  "aliases": 3627,
+  "count": 919,
+  "aliases": 3631,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -202,6 +202,10 @@
     "m365-road-cone",
     "m365-shopping-bag",
     "m365-video",
+    "gcp-healthcare-api",
+    "gcp-cloud-ids",
+    "gcp-cloud-gpu",
+    "gcp-firewall-rules",
     "gcp-natural-language",
     "gcp-translation",
     "gcp-vision",
@@ -1024,8 +1028,8 @@
     },
     "gcp": {
       "sources": 261,
-      "covered": 108,
-      "concepts": 96
+      "covered": 112,
+      "concepts": 100
     }
   },
   "nearest": {
@@ -4378,6 +4382,74 @@
         "similarity": 0.2625
       }
     ],
+    "gcp-healthcare-api": [
+      {
+        "a": "gcp-healthcare-api",
+        "b": "azure-foundry-project",
+        "similarity": 0.2723
+      },
+      {
+        "a": "gcp-healthcare-api",
+        "b": "aws-comprehend",
+        "similarity": 0.2312
+      },
+      {
+        "a": "gcp-healthcare-api",
+        "b": "aws-reserved-instance-reporting",
+        "similarity": 0.2076
+      }
+    ],
+    "gcp-cloud-ids": [
+      {
+        "a": "gcp-cloud-ids",
+        "b": "fabric-sustainability",
+        "similarity": 0.2395
+      },
+      {
+        "a": "fabric-building-data",
+        "b": "gcp-cloud-ids",
+        "similarity": 0.2198
+      },
+      {
+        "a": "gcp-cloud-ids",
+        "b": "aws-elastic-inference",
+        "similarity": 0.2116
+      }
+    ],
+    "gcp-cloud-gpu": [
+      {
+        "a": "gcp-cloud-gpu",
+        "b": "gcp-cloud-audit-logs",
+        "similarity": 0.2617
+      },
+      {
+        "a": "gcp-cloud-gpu",
+        "b": "gcp-app-engine",
+        "similarity": 0.2437
+      },
+      {
+        "a": "gcp-cloud-gpu",
+        "b": "gcp-genomics",
+        "similarity": 0.2254
+      }
+    ],
+    "gcp-firewall-rules": [
+      {
+        "a": "gcp-firewall-rules",
+        "b": "aws-marketplace",
+        "similarity": 0.2439
+      },
+      {
+        "a": "gcp-firewall-rules",
+        "b": "azure-virtual-desktop",
+        "similarity": 0.238
+      },
+      {
+        "a": "gcp-firewall-rules",
+        "b": "aws-iot-device-management",
+        "similarity": 0.2311
+      }
+    ],
     "gcp-natural-language": [
       {
         "a": "gcp-natural-language",
@@ -4453,14 +4525,14 @@
         "similarity": 0.2729
       },
       {
+        "a": "gcp-cloud-gpu",
+        "b": "gcp-cloud-audit-logs",
+        "similarity": 0.2617
+      },
+      {
         "a": "gcp-cloud-audit-logs",
         "b": "aws-outposts-rack",
         "similarity": 0.2291
-      },
-      {
-        "a": "gcp-cloud-logging",
-        "b": "gcp-cloud-audit-logs",
-        "similarity": 0.2271
       }
     ],
     "gcp-certificate-manager": [
@@ -6425,14 +6497,14 @@
         "similarity": 0.2996
       },
       {
+        "a": "gcp-firewall-rules",
+        "b": "azure-virtual-desktop",
+        "similarity": 0.238
+      },
+      {
         "a": "m365-presenter",
         "b": "azure-virtual-desktop",
         "similarity": 0.2322
-      },
-      {
-        "a": "azure-virtual-desktop",
-        "b": "fabric-calendar-person",
-        "similarity": 0.2295
       }
     ],
     "azure-private-link": [
@@ -8691,9 +8763,9 @@
         "similarity": 0.2456
       },
       {
-        "a": "gcp-filestore",
+        "a": "gcp-firewall-rules",
         "b": "azure-foundry-control-plane",
-        "similarity": 0.2071
+        "similarity": 0.2159
       }
     ],
     "azure-foundry-labs": [
@@ -8737,14 +8809,14 @@
         "similarity": 0.2804
       },
       {
+        "a": "gcp-healthcare-api",
+        "b": "azure-foundry-project",
+        "similarity": 0.2723
+      },
+      {
         "a": "azure-foundry-project",
         "b": "azure-service-health",
         "similarity": 0.2675
-      },
-      {
-        "a": "azure-event-hub-clusters",
-        "b": "azure-foundry-project",
-        "similarity": 0.2657
       }
     ],
     "azure-foundry-local": [
@@ -9604,14 +9676,14 @@
         "similarity": 0.2768
       },
       {
-        "a": "aws-marketplace",
-        "b": "aws-s3-glacier",
-        "similarity": 0.2231
+        "a": "gcp-firewall-rules",
+        "b": "aws-marketplace",
+        "similarity": 0.2439
       },
       {
         "a": "aws-marketplace",
-        "b": "aws-category-compute",
-        "similarity": 0.2163
+        "b": "aws-s3-glacier",
+        "similarity": 0.2231
       }
     ],
     "aws-partner-central": [
@@ -11435,6 +11507,11 @@
     ],
     "aws-efs": [
       {
+        "a": "gcp-cloud-gpu",
+        "b": "aws-efs",
+        "similarity": 0.2029
+      },
+      {
         "a": "aws-efs",
         "b": "fabric-arrow-exit-multiple",
         "similarity": 0.1941
@@ -11443,11 +11520,6 @@
         "a": "aws-workmail",
         "b": "aws-efs",
         "similarity": 0.1772
-      },
-      {
-        "a": "aws-efs",
-        "b": "aws-global-accelerator",
-        "similarity": 0.1707
       }
     ],
     "aws-fsx": [
@@ -12082,6 +12154,11 @@
     ],
     "m365-cloud-download": [
       {
+        "a": "gcp-cloud-gpu",
+        "b": "m365-cloud-download",
+        "similarity": 0.2195
+      },
+      {
         "a": "m365-cloud-download",
         "b": "aws-category-ai",
         "similarity": 0.2194
@@ -12090,11 +12167,6 @@
         "a": "m365-cloud-download",
         "b": "m365-document",
         "similarity": 0.215
-      },
-      {
-        "a": "aws-well-architected-tool",
-        "b": "m365-cloud-download",
-        "similarity": 0.2104
       }
     ],
     "m365-cloud-upload": [
@@ -13850,14 +13922,14 @@
         "similarity": 0.2194
       },
       {
+        "a": "gcp-cloud-gpu",
+        "b": "aws-category-ai",
+        "similarity": 0.2186
+      },
+      {
         "a": "gcp-cloud-audit-logs",
         "b": "aws-category-ai",
         "similarity": 0.2003
-      },
-      {
-        "a": "m365-clipboard",
-        "b": "aws-category-ai",
-        "similarity": 0.1985
       }
     ],
     "aws-category-management": [
@@ -15802,6 +15874,11 @@
     ],
     "fabric-square-transfer": [
       {
+        "a": "gcp-firewall-rules",
+        "b": "fabric-square-transfer",
+        "similarity": 0.1955
+      },
+      {
         "a": "aws-marketplace",
         "b": "fabric-square-transfer",
         "similarity": 0.187
@@ -15810,11 +15887,6 @@
         "a": "aws-repost",
         "b": "fabric-square-transfer",
         "similarity": 0.1842
-      },
-      {
-        "a": "aws-lex",
-        "b": "fabric-square-transfer",
-        "similarity": 0.1798
       }
     ],
     "fabric-square-database": [
@@ -16232,14 +16304,14 @@
         "similarity": 0.2217
       },
       {
+        "a": "gcp-healthcare-api",
+        "b": "fabric-database-lock",
+        "similarity": 0.1993
+      },
+      {
         "a": "aws-category-financial",
         "b": "fabric-database-lock",
         "similarity": 0.1899
-      },
-      {
-        "a": "fabric-database-lock",
-        "b": "fabric-calendar-person",
-        "similarity": 0.1827
       }
     ],
     "fabric-location-ribbon": [

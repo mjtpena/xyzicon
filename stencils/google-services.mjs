@@ -1,6 +1,44 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const googleArtwork = [
+  entry("gcp-healthcare-api", "gcp", "Cloud Healthcare API", ["cloud_healthcare_api"],
+    "A medical record exchanges structured health data with an application.",
+    [
+      rect(10, 23, 55, 80), line([10, 35], [65, 35]), line([18, 29], [25, 29]),
+      line([27, 44], [27, 63]), line([18, 53], [36, 53]),
+      line([17, 74], [55, 74]), line([17, 83], [49, 83]), line([17, 92], [55, 92]),
+      line([65, 53], [83, 53]), line([77, 47], [83, 53], [77, 59]),
+      rect(84, 38, 30, 43), line([84, 49], [114, 49]), line([90, 60], [108, 60]), line([90, 69], [105, 69]),
+      line([21, 114], [107, 114]),
+    ]),
+  entry("gcp-cloud-ids", "gcp", "Cloud IDS", ["cloud_ids"],
+    "An intrusion detector inspects network activity for threats.",
+    [
+      line([14, 30], [41, 30], [59, 49]), line([14, 59], [57, 59]), line([14, 88], [41, 88], [59, 69]),
+      oval(8, 24, 12, 12), oval(8, 53, 12, 12), oval(8, 82, 12, 12),
+      oval(57, 36, 43, 43), line([91, 70], [111, 90]),
+      line([78, 45], [78, 58]), oval(75, 64, 6, 6, true),
+      line([21, 108], [110, 108]),
+    ]),
+  entry("gcp-cloud-gpu", "gcp", "Cloud GPUs", ["cloud_gpu"],
+    "A cloud-hosted processor runs parallel graphics computations.",
+    [
+      line([20, 54], [15, 49], [16, 42], [22, 38], [30, 38], [35, 29], [45, 25], [56, 27], [63, 34], [65, 41], [74, 42], [80, 48], [79, 54]),
+      rect(35, 48, 57, 49), line([44, 42], [44, 48]), line([56, 42], [56, 48]), line([68, 42], [68, 48]), line([80, 42], [80, 48]),
+      line([44, 97], [44, 103]), line([56, 97], [56, 103]), line([68, 97], [68, 103]), line([80, 97], [80, 103]),
+      rect(45, 57, 9, 9), rect(59, 57, 9, 9, true), rect(73, 57, 9, 9),
+      rect(45, 78, 9, 9, true), rect(59, 78, 9, 9), rect(73, 78, 9, 9, true),
+      line([19, 114], [109, 114]),
+    ]),
+  entry("gcp-firewall-rules", "gcp", "Cloud Firewall Rules", ["cloud_firewall_rules"],
+    "Allow and deny rules govern a network firewall.",
+    [
+      rect(18, 18, 92, 40), line([18, 31], [110, 31]), line([18, 44], [110, 44]),
+      line([41, 18], [41, 31]), line([87, 18], [87, 31]), line([64, 31], [64, 44]), line([41, 44], [41, 58]), line([87, 44], [87, 58]),
+      line([27, 70], [34, 77], [46, 65]), line([55, 72], [103, 72]),
+      line([28, 88], [42, 102]), line([42, 88], [28, 102]), line([55, 95], [103, 95]),
+      line([18, 115], [110, 115]),
+    ]),
   entry("gcp-natural-language", "gcp", "Cloud Natural Language API", ["cloud_natural_language_api"],
     "A sentence is parsed into tokens and dependency links.",
     [
