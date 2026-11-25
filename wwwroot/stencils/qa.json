@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1318,
-  "aliases": 4296,
+  "count": 1323,
+  "aliases": 4306,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1204,6 +1204,11 @@
     "fabric-table-database",
     "fabric-table-external",
     "fabric-table-key",
+    "fabric-table-function",
+    "fabric-table-header",
+    "fabric-table-link",
+    "fabric-table-link-lightning",
+    "fabric-table-link-triangle",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1340,11 +1345,25 @@
       "notes": "The list labels start with a K made of a stem and two diagonals, versus a curved S in SQL; the source icons differ by the same letter."
     },
     {
+      "a": "fabric-table-link-lightning",
+      "b": "fabric-table-link-triangle",
+      "similarity": 0.7386,
+      "review": "distinct",
+      "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
+    },
+    {
       "a": "fabric-location-download",
       "b": "fabric-location-radar",
       "similarity": 0.7266,
       "review": "distinct",
       "notes": "The download badge is a closed circle with a downward arrow; radar has an open arc and an upward diagonal sweep, visible at 32px."
+    },
+    {
+      "a": "fabric-table-database",
+      "b": "fabric-table-function",
+      "similarity": 0.7161,
+      "review": "distinct",
+      "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
     },
     {
       "a": "fabric-datatype-double",
@@ -1366,6 +1385,13 @@
       "similarity": 0.6959,
       "review": "distinct",
       "notes": "The numeral has a closed triangular upper stroke and vertical stem; the curved arrow has a bent shaft and pointed arrowhead, including at 32px."
+    },
+    {
+      "a": "fabric-table-key",
+      "b": "fabric-table-link",
+      "similarity": 0.6938,
+      "review": "distinct",
+      "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
     },
     {
       "a": "fabric-location-download",
@@ -1410,6 +1436,13 @@
       "notes": "The check descends then rises; the chevron points right with a central vertex."
     },
     {
+      "a": "fabric-table-function",
+      "b": "fabric-table-link",
+      "similarity": 0.6684,
+      "review": "distinct",
+      "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
+    },
+    {
       "a": "fabric-locked-columns",
       "b": "fabric-locked-rows",
       "similarity": 0.6672,
@@ -1439,8 +1472,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1459,
-      "concepts": 320
+      "covered": 1469,
+      "concepts": 325
     },
     "entra": {
       "sources": 14,
@@ -5659,6 +5692,11 @@
     "gcp-dialogflow-cx": [
       {
         "a": "gcp-dialogflow-cx",
+        "b": "fabric-table-function",
+        "similarity": 0.218
+      },
+      {
+        "a": "gcp-dialogflow-cx",
         "b": "gcp-project",
         "similarity": 0.204
       },
@@ -5666,11 +5704,6 @@
         "a": "gcp-dialogflow-cx",
         "b": "azure-app-service-plans",
         "similarity": 0.2024
-      },
-      {
-        "a": "gcp-dialogflow-cx",
-        "b": "fabric-squares-data-bars",
-        "similarity": 0.2006
       }
     ],
     "gcp-dialogflow-insights": [
@@ -6547,14 +6580,14 @@
         "similarity": 0.2272
       },
       {
+        "a": "gcp-compute-systems-management",
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2113
+      },
+      {
         "a": "gcp-transfer-appliance",
         "b": "gcp-compute-systems-management",
         "similarity": 0.2112
-      },
-      {
-        "a": "gcp-compute-systems-management",
-        "b": "aws-devops-guru-insights",
-        "similarity": 0.2079
       }
     ],
     "gcp-cloud-test-lab": [
@@ -12333,8 +12366,8 @@
       },
       {
         "a": "aws-augmented-ai",
-        "b": "aws-auto-scaling",
-        "similarity": 0.2016
+        "b": "fabric-table-header",
+        "similarity": 0.2037
       }
     ],
     "aws-codewhisperer": [
@@ -18142,9 +18175,9 @@
         "similarity": 0.2676
       },
       {
-        "a": "azure-application-insights",
-        "b": "aws-beanstalk-application",
-        "similarity": 0.2365
+        "a": "aws-beanstalk-application",
+        "b": "fabric-table-header",
+        "similarity": 0.2515
       }
     ],
     "aws-beanstalk-deployment": [
@@ -20653,14 +20686,14 @@
         "similarity": 0.3371
       },
       {
+        "a": "fabric-document-tmdl-export",
+        "b": "fabric-table-header",
+        "similarity": 0.3154
+      },
+      {
         "a": "aws-textract-lending",
         "b": "fabric-document-tmdl-export",
         "similarity": 0.3039
-      },
-      {
-        "a": "fabric-document-tmdl-export",
-        "b": "fabric-database-checkmark",
-        "similarity": 0.2965
       }
     ],
     "fabric-diagram-branch-link": [
@@ -21417,14 +21450,14 @@
         "similarity": 0.2406
       },
       {
+        "a": "fabric-rectangle-arrow-up",
+        "b": "fabric-table-link-triangle",
+        "similarity": 0.2357
+      },
+      {
         "a": "fabric-rectangle-exit-down",
         "b": "fabric-rectangle-arrow-up",
         "similarity": 0.2291
-      },
-      {
-        "a": "aws-location-track",
-        "b": "fabric-rectangle-arrow-up",
-        "similarity": 0.2287
       }
     ],
     "fabric-rectangle-exit-up": [
@@ -21440,7 +21473,7 @@
       },
       {
         "a": "fabric-rectangle-exit-up",
-        "b": "fabric-table-left-border",
+        "b": "fabric-table-header",
         "similarity": 0.2139
       }
     ],
@@ -21588,13 +21621,13 @@
       },
       {
         "a": "fabric-save-phone",
-        "b": "fabric-database-money",
-        "similarity": 0.3001
+        "b": "fabric-table-function",
+        "similarity": 0.3033
       },
       {
-        "a": "aws-well-architected-tool",
-        "b": "fabric-save-phone",
-        "similarity": 0.2747
+        "a": "fabric-save-phone",
+        "b": "fabric-database-money",
+        "similarity": 0.3001
       }
     ],
     "fabric-shopping-data-bars": [
@@ -21710,14 +21743,14 @@
         "similarity": 0.3086
       },
       {
+        "a": "fabric-squares-multiple",
+        "b": "fabric-table-header",
+        "similarity": 0.2887
+      },
+      {
         "a": "fabric-rectangles-curve-left",
         "b": "fabric-squares-multiple",
         "similarity": 0.2754
-      },
-      {
-        "a": "fabric-rectangles-curve-right",
-        "b": "fabric-squares-multiple",
-        "similarity": 0.2607
       }
     ],
     "fabric-squares-arrow-up": [
@@ -21727,14 +21760,14 @@
         "similarity": 0.2918
       },
       {
+        "a": "fabric-squares-arrow-up",
+        "b": "fabric-table-header",
+        "similarity": 0.2526
+      },
+      {
         "a": "gcp-firewall-rules",
         "b": "fabric-squares-arrow-up",
         "similarity": 0.2057
-      },
-      {
-        "a": "aws-redshift-auto-copy",
-        "b": "fabric-squares-arrow-up",
-        "similarity": 0.184
       }
     ],
     "fabric-squares-data-bars": [
@@ -21824,6 +21857,11 @@
     ],
     "fabric-table-left-border": [
       {
+        "a": "fabric-table-left-border",
+        "b": "fabric-table-header",
+        "similarity": 0.3167
+      },
+      {
         "a": "fabric-save-phone",
         "b": "fabric-table-left-border",
         "similarity": 0.2673
@@ -21832,11 +21870,6 @@
         "a": "fabric-library-globe",
         "b": "fabric-table-left-border",
         "similarity": 0.2574
-      },
-      {
-        "a": "gcp-asset-inventory",
-        "b": "fabric-table-left-border",
-        "similarity": 0.246
       }
     ],
     "fabric-table-broom": [
@@ -21859,18 +21892,20 @@
     "fabric-table-database": [
       {
         "a": "fabric-table-database",
-        "b": "fabric-table-key",
-        "similarity": 0.5997
+        "b": "fabric-table-function",
+        "similarity": 0.7161,
+        "review": "distinct",
+        "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
       },
       {
         "a": "fabric-table-database",
-        "b": "fabric-table-external",
-        "similarity": 0.3921
+        "b": "fabric-table-link",
+        "similarity": 0.6188
       },
       {
-        "a": "fabric-save-phone",
-        "b": "fabric-table-database",
-        "similarity": 0.3569
+        "a": "fabric-table-database",
+        "b": "fabric-table-key",
+        "similarity": 0.5997
       }
     ],
     "fabric-table-external": [
@@ -21880,31 +21915,130 @@
         "similarity": 0.5098
       },
       {
+        "a": "fabric-table-external",
+        "b": "fabric-table-link",
+        "similarity": 0.4876
+      },
+      {
         "a": "fabric-table-broom",
         "b": "fabric-table-external",
         "similarity": 0.4341
-      },
-      {
-        "a": "fabric-table-export",
-        "b": "fabric-table-external",
-        "similarity": 0.4282
       }
     ],
     "fabric-table-key": [
       {
+        "a": "fabric-table-key",
+        "b": "fabric-table-link",
+        "similarity": 0.6938,
+        "review": "distinct",
+        "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
+      },
+      {
+        "a": "fabric-table-key",
+        "b": "fabric-table-function",
+        "similarity": 0.6232
+      },
+      {
         "a": "fabric-table-database",
         "b": "fabric-table-key",
         "similarity": 0.5997
+      }
+    ],
+    "fabric-table-function": [
+      {
+        "a": "fabric-table-database",
+        "b": "fabric-table-function",
+        "similarity": 0.7161,
+        "review": "distinct",
+        "notes": "The database has a closed cylinder and oval top; the function is an open f and x symbol beside the grid."
       },
       {
-        "a": "fabric-table-external",
-        "b": "fabric-table-key",
-        "similarity": 0.5098
+        "a": "fabric-table-function",
+        "b": "fabric-table-link",
+        "similarity": 0.6684,
+        "review": "distinct",
+        "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
       },
       {
-        "a": "fabric-table-broom",
-        "b": "fabric-table-key",
-        "similarity": 0.3582
+        "a": "fabric-table-key",
+        "b": "fabric-table-function",
+        "similarity": 0.6232
+      }
+    ],
+    "fabric-table-header": [
+      {
+        "a": "fabric-table-left-border",
+        "b": "fabric-table-header",
+        "similarity": 0.3167
+      },
+      {
+        "a": "fabric-document-tmdl-export",
+        "b": "fabric-table-header",
+        "similarity": 0.3154
+      },
+      {
+        "a": "aws-ecr-registry",
+        "b": "fabric-table-header",
+        "similarity": 0.3142
+      }
+    ],
+    "fabric-table-link": [
+      {
+        "a": "fabric-table-key",
+        "b": "fabric-table-link",
+        "similarity": 0.6938,
+        "review": "distinct",
+        "notes": "The key has a circular head and diagonal toothed shaft; the link has horizontal joined loops."
+      },
+      {
+        "a": "fabric-table-function",
+        "b": "fabric-table-link",
+        "similarity": 0.6684,
+        "review": "distinct",
+        "notes": "The function uses f and x strokes, while the link has two joined horizontal loops."
+      },
+      {
+        "a": "fabric-table-database",
+        "b": "fabric-table-link",
+        "similarity": 0.6188
+      }
+    ],
+    "fabric-table-link-lightning": [
+      {
+        "a": "fabric-table-link-lightning",
+        "b": "fabric-table-link-triangle",
+        "similarity": 0.7386,
+        "review": "distinct",
+        "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
+      },
+      {
+        "a": "aws-ecr-registry",
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2549
+      },
+      {
+        "a": "aws-textract-lending",
+        "b": "fabric-table-link-lightning",
+        "similarity": 0.2543
+      }
+    ],
+    "fabric-table-link-triangle": [
+      {
+        "a": "fabric-table-link-lightning",
+        "b": "fabric-table-link-triangle",
+        "similarity": 0.7386,
+        "review": "distinct",
+        "notes": "The linked table is accompanied by a zigzag lightning bolt in one drawing and a closed triangle in the other."
+      },
+      {
+        "a": "gcp-configuration-management",
+        "b": "fabric-table-link-triangle",
+        "similarity": 0.2506
+      },
+      {
+        "a": "aws-ecr-registry",
+        "b": "fabric-table-link-triangle",
+        "similarity": 0.2492
       }
     ],
     "fabric-database-add": [
@@ -22785,14 +22919,14 @@
         "similarity": 0.2766
       },
       {
+        "a": "fabric-table-header",
+        "b": "fabric-square-waves",
+        "similarity": 0.2621
+      },
+      {
         "a": "dynamics-commerce",
         "b": "fabric-square-waves",
         "similarity": 0.2565
-      },
-      {
-        "a": "azure-app-services",
-        "b": "fabric-square-waves",
-        "similarity": 0.244
       }
     ],
     "fabric-stream-bracket": [
