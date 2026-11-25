@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 529,
+  "approved": 541,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,18 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-trusted-advisor-checklist",
-    "aws-trusted-advisor-cost",
-    "aws-trusted-advisor-fault",
-    "aws-trusted-advisor-performance",
-    "aws-trusted-advisor-security",
-    "aws-inspector-agent",
-    "aws-cloudwatch-alarm",
-    "aws-cloudwatch-cross-account",
-    "aws-cloudwatch-data-protection",
-    "aws-cloudwatch-event-based",
-    "aws-cloudwatch-time-based",
-    "aws-cloudwatch-evidently",
     "aws-cloudwatch-logs",
     "aws-cloudwatch-metrics-insights",
     "aws-cloudwatch-rum",
@@ -11822,8 +11810,8 @@
       },
       {
         "a": "azure-sql-warehouse",
-        "b": "aws-trusted-advisor-checklist",
-        "similarity": 0.2358
+        "b": "aws-outposts-family",
+        "similarity": 0.2324
       }
     ],
     "azure-database-migration": [
@@ -15183,13 +15171,13 @@
       },
       {
         "a": "azure-device-enrollment",
-        "b": "aws-oracle-db-instance",
-        "similarity": 0.3403
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.341
       },
       {
         "a": "azure-device-enrollment",
-        "b": "azure-icm-troubleshooting",
-        "similarity": 0.3222
+        "b": "aws-oracle-db-instance",
+        "similarity": 0.3403
       }
     ],
     "azure-device-configuration": [
@@ -16674,11 +16662,6 @@
     "azure-defender-plc": [
       {
         "a": "azure-defender-plc",
-        "b": "aws-trusted-advisor-checklist",
-        "similarity": 0.3429
-      },
-      {
-        "a": "azure-defender-plc",
         "b": "aws-general-forums",
         "similarity": 0.3202
       },
@@ -16686,6 +16669,11 @@
         "a": "azure-defender-plc",
         "b": "aws-elasticache-memcached",
         "similarity": 0.2984
+      },
+      {
+        "a": "azure-defender-plc",
+        "b": "aws-vpc-network-adapter",
+        "similarity": 0.2898
       }
     ],
     "azure-defender-pneumatic": [
@@ -16747,13 +16735,13 @@
       },
       {
         "a": "azure-defender-rtu",
-        "b": "aws-trusted-advisor-checklist",
-        "similarity": 0.2864
+        "b": "aws-general-ssl-padlock",
+        "similarity": 0.2677
       },
       {
         "a": "azure-defender-rtu",
-        "b": "aws-general-ssl-padlock",
-        "similarity": 0.2677
+        "b": "aws-transfer-as2",
+        "similarity": 0.2585
       }
     ],
     "azure-defender-dcs-controller": [
@@ -18417,9 +18405,9 @@
         "similarity": 0.3615
       },
       {
-        "a": "azure-intune-client-apps",
-        "b": "azure-web-jobs",
-        "similarity": 0.3486
+        "a": "azure-web-jobs",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.3599
       }
     ],
     "azure-targets-management": [
@@ -20788,11 +20776,6 @@
     "aws-iot-thing-house": [
       {
         "a": "aws-iot-thing-house",
-        "b": "aws-trusted-advisor-checklist",
-        "similarity": 0.3478
-      },
-      {
-        "a": "aws-iot-thing-house",
         "b": "aws-systems-change-calendar",
         "similarity": 0.2806
       },
@@ -20800,6 +20783,11 @@
         "a": "aws-iot-thing-house",
         "b": "aws-general-client",
         "similarity": 0.2711
+      },
+      {
+        "a": "aws-iot-thing-house",
+        "b": "aws-elasticache-node",
+        "similarity": 0.2673
       }
     ],
     "aws-iot-thing-lightbulb": [
@@ -24034,19 +24022,19 @@
     ],
     "aws-trusted-advisor-checklist": [
       {
+        "a": "azure-web-jobs",
+        "b": "aws-trusted-advisor-checklist",
+        "similarity": 0.3599
+      },
+      {
         "a": "aws-trusted-advisor-checklist",
-        "b": "aws-general-forums",
-        "similarity": 0.3647
+        "b": "azure-hpc-workbenches",
+        "similarity": 0.3517
       },
       {
-        "a": "aws-iot-thing-house",
-        "b": "aws-trusted-advisor-checklist",
-        "similarity": 0.3478
-      },
-      {
-        "a": "azure-defender-plc",
-        "b": "aws-trusted-advisor-checklist",
-        "similarity": 0.3429
+        "a": "aws-trusted-advisor-checklist",
+        "b": "aws-vpc-network-interface",
+        "similarity": 0.3468
       }
     ],
     "aws-trusted-advisor-cost": [
@@ -24396,14 +24384,14 @@
         "similarity": 0.3438
       },
       {
-        "a": "aws-trusted-advisor-checklist",
-        "b": "aws-systems-patch-manager",
-        "similarity": 0.3299
-      },
-      {
         "a": "aws-cloudwatch-data-protection",
         "b": "aws-systems-patch-manager",
         "similarity": 0.3094
+      },
+      {
+        "a": "azure-operation-log-classic",
+        "b": "aws-systems-patch-manager",
+        "similarity": 0.2936
       }
     ],
     "aws-systems-run-command": [
@@ -25224,11 +25212,6 @@
     ],
     "aws-general-forums": [
       {
-        "a": "aws-trusted-advisor-checklist",
-        "b": "aws-general-forums",
-        "similarity": 0.3647
-      },
-      {
         "a": "azure-defender-plc",
         "b": "aws-general-forums",
         "similarity": 0.3202
@@ -25237,6 +25220,11 @@
         "a": "azure-defender-web-guiding",
         "b": "aws-general-forums",
         "similarity": 0.2867
+      },
+      {
+        "a": "aws-general-forums",
+        "b": "azure-resource-group-list",
+        "similarity": 0.2786
       }
     ],
     "aws-general-gear": [
@@ -26550,6 +26538,11 @@
     ],
     "aws-iam-roles-anywhere": [
       {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "aws-iam-roles-anywhere",
+        "similarity": 0.3319
+      },
+      {
         "a": "azure-managed-desktop",
         "b": "aws-iam-roles-anywhere",
         "similarity": 0.3035
@@ -26558,11 +26551,6 @@
         "a": "azure-web-jobs",
         "b": "aws-iam-roles-anywhere",
         "similarity": 0.3027
-      },
-      {
-        "a": "aws-opensearch-ingestion",
-        "b": "aws-iam-roles-anywhere",
-        "similarity": 0.3021
       }
     ],
     "aws-iam-long-term-credential": [
@@ -32268,9 +32256,9 @@
         "similarity": 0.3615
       },
       {
-        "a": "aws-oracle-db-instance",
+        "a": "aws-trusted-advisor-checklist",
         "b": "azure-hpc-workbenches",
-        "similarity": 0.3446
+        "similarity": 0.3517
       }
     ],
     "azure-wac": [
@@ -32445,6 +32433,11 @@
     ],
     "azure-avs-vm": [
       {
+        "a": "aws-trusted-advisor-checklist",
+        "b": "azure-avs-vm",
+        "similarity": 0.3284
+      },
+      {
         "a": "aws-efs-one-zone-ia",
         "b": "azure-avs-vm",
         "similarity": 0.3066
@@ -32453,11 +32446,6 @@
         "a": "aws-backup-compute-resource",
         "b": "azure-avs-vm",
         "similarity": 0.3032
-      },
-      {
-        "a": "azure-hpc-workbenches",
-        "b": "azure-avs-vm",
-        "similarity": 0.2809
       }
     ],
     "azure-web-app-database": [
@@ -33691,14 +33679,14 @@
         "similarity": 0.3722
       },
       {
-        "a": "aws-trusted-advisor-checklist",
-        "b": "azure-blob-page",
-        "similarity": 0.2649
-      },
-      {
         "a": "azure-arc-data-services",
         "b": "azure-blob-page",
         "similarity": 0.2556
+      },
+      {
+        "a": "aws-general-forums",
+        "b": "azure-blob-page",
+        "similarity": 0.2527
       }
     ],
     "azure-branch": [

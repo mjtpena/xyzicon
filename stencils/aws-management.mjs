@@ -7,8 +7,10 @@ export const awsManagementArtwork = [
   entry("aws-trusted-advisor-checklist", "aws", "Trusted Advisor Checklist", ["Res_AWS-Trusted-Advisor_Checklist_48"],
     "A trusted advisor checklist records recommended actions.",
     [
-      rect(22, 23, 79, 68), line([22, 36], [101, 36]), line([30, 48], [35, 53], [44, 43]), line([52, 48], [91, 48]),
-      line([30, 64], [35, 69], [44, 59]), line([52, 64], [91, 64]), line([30, 80], [35, 85], [44, 75]), line([52, 80], [91, 80]), line([14, 109], [110, 109]),
+      rect(14, 23, 60, 68), line([14, 36], [74, 36]), line([21, 48], [25, 52], [32, 44]), line([38, 48], [67, 48]),
+      line([21, 64], [25, 68], [32, 60]), line([38, 64], [67, 64]), line([21, 80], [25, 84], [32, 76]), line([38, 80], [67, 80]),
+      line([89, 61], [89, 55], [82, 47], [81, 39], [85, 32], [93, 29], [101, 32], [105, 39], [104, 47], [97, 55], [97, 61], [89, 61]),
+      line([89, 66], [97, 66]), line([92, 71], [94, 71]), line([14, 109], [110, 109]),
     ]),
   entry("aws-trusted-advisor-cost", "aws", "Trusted Advisor Cost Checklist", ["Res_AWS-Trusted-Advisor_Checklist-Cost_48"],
     "A cost checklist highlights recommendations for savings.",

@@ -2530,9 +2530,9 @@
   },
   "aws-iot-thing-house": {
     "revision": "c401fb55aa29239a1b16444cf5d502a09c1b0072bf535a3b412c7d431565c015",
-    "comparisonRevision": "22f058a744ba5235e542588f1252d25f76573b16ad82342b9cc29b4479a060d2",
+    "comparisonRevision": "41c0f6b9798eb11c8bb81ef28854f6d996e38e887c8bab54a0453b9a87d5e0ac",
     "status": "approved",
-    "notes": "A house silhouette differs from a checklist, calendar and laptop."
+    "notes": "A house differs from the change calendar, laptop and flash node."
   },
   "aws-iot-thing-lightbulb": {
     "revision": "da78b8bd717a9389d526b3c57bc1182eeb2020ea4c321b4494f06d87c42821f4",
@@ -3697,5 +3697,77 @@
     "comparisonRevision": "8359eab14151f23a913532c643aab265ae4687b06fb217a38aabaabf23d321b7",
     "status": "approved",
     "notes": "A magnifier encloses a dependency tree, unlike omics, a protected app and an instance stack."
+  },
+  "aws-trusted-advisor-checklist": {
+    "revision": "7397c43ba4e9807254a54b4422deb4cebbf492ad11c41e4acd1c4eae10093227",
+    "comparisonRevision": "4fa0c8a00ef68dd0e1fe438fbdef858c04a7bc22ca97c2757d99179c091d9b7b",
+    "status": "approved",
+    "notes": "A checked list with an idea bulb suggests advice, unlike web jobs, a workbench and a network interface."
+  },
+  "aws-trusted-advisor-cost": {
+    "revision": "745638606162f95f889e16322fcf0c6b865e26c762c5f78681ae3f165ffad73a",
+    "comparisonRevision": "536a0893dd49af1e0699e6e5fc921cfc114f2f9dc78f3f94f109b4546d770f27",
+    "status": "approved",
+    "notes": "A price tag and checks represent cost advice, unlike Alexa skill, web jobs and resource graph."
+  },
+  "aws-trusted-advisor-fault": {
+    "revision": "bd1ec6c16da79f812ee098acf568d73ecfba37cf17ee87cf315ee9b75e1c3221",
+    "comparisonRevision": "4ed1261cc5c7736eaabc9583343354d95c41ef3cd4c9fece2ef0c35a2da11c80",
+    "status": "approved",
+    "notes": "Two checked server tiers represent fault tolerance, unlike the lock of security advice, traffic stack and identity verification."
+  },
+  "aws-trusted-advisor-performance": {
+    "revision": "b842c106e1c1ecf5deaa570546211d2a32d2e51c58a3ebb01398ba6eaa609d6c",
+    "comparisonRevision": "ccf4093ec7896d20358ca0152b5d0b5d8d232787b353fd4c7b0e95e301da8108",
+    "status": "approved",
+    "notes": "Bars and checks suggest performance advice, unlike a trend gauge, component and unchecked data trend."
+  },
+  "aws-trusted-advisor-security": {
+    "revision": "be558a07350f72ff7cf1fa2acad40758f15ac741928351ca089bd25ad2cf9af8",
+    "comparisonRevision": "5845dabaafb6cb0e5fd1bb3ed1b50b1e88fa565b039d4c87de1816967b9f35e3",
+    "status": "approved",
+    "notes": "A padlock and checks represent security advice, unlike checked server tiers, namespace and maps."
+  },
+  "aws-inspector-agent": {
+    "revision": "1b7400c0b414f4b65bb1a6d1dfc6747509cc1c2447046bc06ad825d9da070e8a",
+    "comparisonRevision": "10f5435674079857c837c3d27ab39d9c25f8cbfd8053c773f40555c253577f6b",
+    "status": "approved",
+    "notes": "A magnifier inspects an agent panel, unlike outposts storage, local manager and a storage account."
+  },
+  "aws-cloudwatch-alarm": {
+    "revision": "1fe8d5be5e834470912c2a1bf4921571e022ee70104b56722e57886ef8c0c1dc",
+    "comparisonRevision": "a49572659e18182ed0eb7f41db163fa40f791051f0622f6e73f7a5647486545a",
+    "status": "approved",
+    "notes": "A trend reaches a bell alarm, unlike historian trend, a blank folder and a map guide."
+  },
+  "aws-cloudwatch-cross-account": {
+    "revision": "a5a2d6b01a893040a920e495b1c75f1df61e2e3615b30d431bc190a43eaa7b1a",
+    "comparisonRevision": "b817a2a6bf9d6bbb6249a8d89af40d3c0b5a717012a9dcd70b3cc87af6aa1d8d",
+    "status": "approved",
+    "notes": "Two accounts feed a graph, unlike Databricks, a device gateway and user identity."
+  },
+  "aws-cloudwatch-data-protection": {
+    "revision": "fdb439589cb042495f0f965ed8b85794ab9e5828a6576cdd3e72b4a8b0d65209",
+    "comparisonRevision": "b8bb406f10b82aa072267875454a959f99b2261e9c088ede8f3edd8bcf3226dc",
+    "status": "approved",
+    "notes": "A document is secured by a padlock, unlike an incident warning, protected-information shield and patch document."
+  },
+  "aws-cloudwatch-event-based": {
+    "revision": "10723ab6f48ccc5eedec12571b898859cc672ac6d7c4cb381243b15dfd707036",
+    "comparisonRevision": "623609f1895630d884b98912ac22696ce0a46939fd35e31b98e57bbb96a46adf",
+    "status": "approved",
+    "notes": "An event pulse triggers a record, unlike volume, replication and a location service."
+  },
+  "aws-cloudwatch-time-based": {
+    "revision": "13a126c34fe06a5fe794306352564e89059df43981877357bd01501ff722ba78",
+    "comparisonRevision": "3a1b31e493f30d871b114662daafbc4ec606815681f932ca30cc0fe556a5d804",
+    "status": "approved",
+    "notes": "A clock triggers a record, unlike converter, tape gateway and device location; the event version uses a pulse."
+  },
+  "aws-cloudwatch-evidently": {
+    "revision": "484917e7f7ad3783f1d9b49f014b6a433b5eecff0323536e165d6afa4fbe140d",
+    "comparisonRevision": "f8c1f42bf24965c1714e007310a1a952de91e1a7d12c78cf1165a80d133bfd85",
+    "status": "approved",
+    "notes": "A panel branches to two experiment variants, unlike identity, inventory and export."
   }
 }
