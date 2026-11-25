@@ -3,6 +3,77 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsSecurityArtwork = [
+  entry("aws-kms-external-key-store", "aws", "KMS External Key Store", ["Res_AWS-Key-Management-Service_External-Key-Store_48"],
+    "A key stored outside AWS is connected to a managed key service.",
+    [
+      rect(13, 30, 43, 53), line([13, 46], [56, 46]), line([13, 62], [56, 62]), oval(20, 35, 6, 6, true), oval(20, 51, 6, 6, true), oval(20, 67, 6, 6, true),
+      line([56, 56], [70, 56]), line([64, 50], [70, 56], [64, 62]), oval(73, 30, 23, 23), line([91, 48], [108, 65], [103, 70]), line([98, 55], [104, 49]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-network-firewall-endpoint", "aws", "Network Firewall Endpoint", ["Res_AWS-Network-Firewall_Endpoints_48"],
+    "Network traffic passes through a firewall endpoint.",
+    [
+      line([12, 57], [35, 57]), line([27, 49], [35, 57], [27, 65]), line([93, 57], [116, 57]), line([108, 49], [116, 57], [108, 65]),
+      rect(37, 45, 54, 35), line([37, 56], [91, 56]), line([37, 68], [91, 68]), line([50, 45], [50, 56]), line([76, 45], [76, 56]), line([63, 56], [63, 68]), line([50, 68], [50, 80]), line([76, 68], [76, 80]),
+      line([56, 43], [52, 34], [57, 25], [61, 31], [67, 17], [74, 29], [73, 37], [70, 43]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-security-hub-finding", "aws", "Security Hub Finding", ["Res_AWS-Security-Hub_Finding_48"],
+    "A security finding flags a problem on a shield.",
+    [
+      line([50, 16], [82, 27], [80, 57], [73, 74], [50, 92], [27, 74], [20, 57], [18, 27], [50, 16]),
+      line([50, 29], [69, 36], [67, 56], [60, 68], [50, 75]), oval(69, 61, 32, 32), line([85, 67], [85, 78]), oval(83, 83, 4, 4, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-shield-advanced", "aws", "AWS Shield Advanced", ["Res_AWS-Shield_AWS-Shield-Advanced_48"],
+    "An enhanced shield provides layered attack protection.",
+    [
+      line([61, 15], [98, 29], [95, 63], [84, 83], [61, 99], [38, 83], [27, 63], [24, 29], [61, 15]),
+      line([61, 28], [84, 37], [82, 59], [74, 73], [61, 82], [48, 73], [40, 59], [38, 37], [61, 28]),
+      line([53, 55], [61, 63], [74, 46]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-bot", "aws", "WAF Bot", ["Res_AWS-WAF_Bot_48"],
+    "A robot represents automated web traffic.",
+    [
+      rect(29, 34, 69, 47), oval(40, 48, 12, 12), oval(75, 48, 12, 12), line([52, 69], [75, 69]),
+      line([64, 34], [64, 21]), oval(59, 11, 10, 10), line([29, 48], [21, 48], [21, 64], [29, 64]), line([98, 48], [106, 48], [106, 64], [98, 64]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-bad-bot", "aws", "WAF Bad Bot", ["Res_AWS-WAF_Bad-Bot_48"],
+    "A blocked robot represents malicious automated traffic.",
+    [
+      rect(28, 33, 65, 45), oval(38, 46, 10, 10), oval(72, 46, 10, 10), line([50, 68], [71, 68]),
+      line([61, 33], [61, 21]), oval(56, 11, 10, 10), oval(68, 61, 30, 30), line([74, 85], [92, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-bot-control", "aws", "WAF Bot Control", ["Res_AWS-WAF_Bot-Control_48"],
+    "A shield controls automated requests from a bot.",
+    [
+      line([62, 16], [99, 29], [96, 65], [84, 84], [62, 99], [40, 84], [28, 65], [25, 29], [62, 16]),
+      rect(41, 42, 42, 28), oval(48, 49, 7, 7), oval(69, 49, 7, 7), line([56, 63], [69, 63]), line([62, 42], [62, 35]), oval(59, 29, 6, 6), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-filtering-rule", "aws", "WAF Filtering Rule", ["Res_AWS-WAF_Filtering-Rule_48"],
+    "A filter sorts requests according to a rule.",
+    [
+      line([24, 39], [102, 39], [74, 65], [74, 83], [53, 94], [53, 65], [24, 39]),
+      oval(31, 16, 8, 8, true), oval(58, 16, 8, 8, true), oval(85, 16, 8, 8, true), line([35, 25], [35, 33]), line([62, 25], [62, 33]), line([89, 25], [89, 33]),
+      line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-labels", "aws", "WAF Labels", ["Res_AWS-WAF_Labels_48"],
+    "A tag labels a web request for rule matching.",
+    [
+      line([17, 26], [72, 26], [101, 55], [72, 84], [17, 84], [17, 26]), oval(25, 48, 12, 12),
+      line([46, 45], [71, 45]), line([46, 56], [83, 56]), line([46, 67], [71, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-rule", "aws", "WAF Rule", ["Res_AWS-WAF_Rule_48"],
+    "A web access rule allows and blocks matching requests.",
+    [
+      rect(22, 18, 82, 75), line([22, 43], [104, 43]), line([22, 68], [104, 68]),
+      line([31, 30], [65, 30]), line([77, 29], [82, 34], [91, 24]), line([31, 55], [65, 55]), line([77, 54], [82, 59], [91, 49]),
+      line([31, 80], [65, 80]), line([78, 75], [90, 87]), line([90, 75], [78, 87]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-waf-managed-rule", "aws", "WAF Managed Rule", ["Res_AWS-WAF_Managed-Rule_48"],
+    "A managed rule group applies a maintained set of web protections.",
+    [
+      rect(28, 24, 75, 69), line([28, 47], [103, 47]), line([28, 70], [103, 70]), line([37, 35], [64, 35]), line([37, 58], [64, 58]), line([37, 81], [64, 81]),
+      line([75, 34], [79, 38], [88, 29]), line([75, 57], [79, 61], [88, 52]), line([75, 80], [79, 84], [88, 75]),
+      oval(11, 13, 24, 24), oval(18, 20, 10, 10), line([14, 109], [110, 109]),
+    ]),
   entry("aws-iam-sts", "aws", "AWS Security Token Service", ["Res_AWS-Identity-Access-Management_AWS-STS_48", "Res_AWS-Identity-Access-Management_AWS-STS-Alternate_48"],
     "A time-limited security token carries a key.",
     [
