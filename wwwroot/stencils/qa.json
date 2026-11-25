@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 720,
-  "aliases": 3044,
+  "count": 724,
+  "aliases": 3060,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -466,6 +466,10 @@
     "aws-professional-services",
     "aws-training-certification",
     "aws-repost",
+    "aws-chime",
+    "aws-chime-sdk",
+    "aws-wickr",
+    "aws-end-user-messaging",
     "aws-datasync",
     "aws-application-migration",
     "aws-transfer-family",
@@ -817,8 +821,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 804,
-      "concepts": 199
+      "covered": 820,
+      "concepts": 203
     },
     "gcp": {
       "sources": 261,
@@ -2319,8 +2323,8 @@
       },
       {
         "a": "azure-private-endpoints",
-        "b": "m365-mail-read",
-        "similarity": 0.1988
+        "b": "aws-chime",
+        "similarity": 0.2087
       }
     ],
     "azure-event-grid-topics": [
@@ -2433,13 +2437,13 @@
       },
       {
         "a": "aws-sagemaker",
-        "b": "fabric-data-engineering",
-        "similarity": 0.183
+        "b": "aws-wickr",
+        "similarity": 0.1903
       },
       {
         "a": "aws-sagemaker",
-        "b": "fabric-calendar-up",
-        "similarity": 0.1809
+        "b": "fabric-data-engineering",
+        "similarity": 0.183
       }
     ],
     "aws-eventbridge": [
@@ -4320,13 +4324,13 @@
       },
       {
         "a": "gcp-interconnect",
-        "b": "aws-elastic-fabric-adapter",
-        "similarity": 0.243
+        "b": "aws-chime",
+        "similarity": 0.2457
       },
       {
         "a": "gcp-interconnect",
-        "b": "gcp-category-integration",
-        "similarity": 0.2129
+        "b": "aws-elastic-fabric-adapter",
+        "similarity": 0.243
       }
     ],
     "gcp-datastream": [
@@ -4417,6 +4421,11 @@
     "gcp-persistent-disk": [
       {
         "a": "gcp-persistent-disk",
+        "b": "aws-wickr",
+        "similarity": 0.2213
+      },
+      {
+        "a": "gcp-persistent-disk",
         "b": "fabric-data-agent",
         "similarity": 0.1993
       },
@@ -4424,11 +4433,6 @@
         "a": "gcp-persistent-disk",
         "b": "azure-storage-queue",
         "similarity": 0.1902
-      },
-      {
-        "a": "gcp-persistent-disk",
-        "b": "aws-cdk",
-        "similarity": 0.1875
       }
     ],
     "gcp-cloud-domains": [
@@ -4643,13 +4647,13 @@
       },
       {
         "a": "m365-tablet",
-        "b": "fabric-calendar-link",
-        "similarity": 0.2277
+        "b": "aws-chime",
+        "similarity": 0.2326
       },
       {
         "a": "m365-tablet",
-        "b": "azure-compute-fleet",
-        "similarity": 0.2214
+        "b": "fabric-calendar-link",
+        "similarity": 0.2277
       }
     ],
     "m365-megaphone": [
@@ -4960,6 +4964,11 @@
     ],
     "fabric-copy-job": [
       {
+        "a": "fabric-copy-job",
+        "b": "aws-end-user-messaging",
+        "similarity": 0.261
+      },
+      {
         "a": "gcp-cloud-sql",
         "b": "fabric-copy-job",
         "similarity": 0.258
@@ -4968,11 +4977,6 @@
         "a": "fabric-copy-job",
         "b": "aws-elemental-server",
         "similarity": 0.2534
-      },
-      {
-        "a": "fabric-copy-job",
-        "b": "m365-filmstrip-play",
-        "similarity": 0.2407
       }
     ],
     "fabric-dashboard": [
@@ -5056,8 +5060,8 @@
       },
       {
         "a": "fabric-dataflow",
-        "b": "aws-database-migration",
-        "similarity": 0.2119
+        "b": "aws-chime",
+        "similarity": 0.2134
       }
     ],
     "fabric-dataflow-gen2": [
@@ -5147,6 +5151,11 @@
     ],
     "fabric-experiments": [
       {
+        "a": "fabric-experiments",
+        "b": "aws-end-user-messaging",
+        "similarity": 0.1814
+      },
+      {
         "a": "dynamics-family",
         "b": "fabric-experiments",
         "similarity": 0.1728
@@ -5155,11 +5164,6 @@
         "a": "fabric-experiments",
         "b": "fabric-stacked-text",
         "similarity": 0.1704
-      },
-      {
-        "a": "fabric-experiments",
-        "b": "aws-license-manager",
-        "similarity": 0.1669
       }
     ],
     "fabric-exploration": [
@@ -7572,8 +7576,8 @@
       },
       {
         "a": "aws-augmented-ai",
-        "b": "fabric-table-wand",
-        "similarity": 0.1965
+        "b": "aws-end-user-messaging",
+        "similarity": 0.1969
       }
     ],
     "aws-codewhisperer": [
@@ -8603,14 +8607,14 @@
         "similarity": 0.1771
       },
       {
+        "a": "aws-support",
+        "b": "aws-chime-sdk",
+        "similarity": 0.1458
+      },
+      {
         "a": "fabric-data-agent",
         "b": "aws-support",
         "similarity": 0.145
-      },
-      {
-        "a": "aws-compute-optimizer",
-        "b": "aws-support",
-        "similarity": 0.1384
       }
     ],
     "aws-professional-services": [
@@ -8662,6 +8666,74 @@
         "a": "fabric-restricted-scorecard",
         "b": "aws-repost",
         "similarity": 0.255
+      }
+    ],
+    "aws-chime": [
+      {
+        "a": "aws-chime",
+        "b": "aws-managed-grafana",
+        "similarity": 0.3344
+      },
+      {
+        "a": "aws-chime",
+        "b": "aws-vpc-lattice",
+        "similarity": 0.2812
+      },
+      {
+        "a": "aws-cloud9",
+        "b": "aws-chime",
+        "similarity": 0.2475
+      }
+    ],
+    "aws-chime-sdk": [
+      {
+        "a": "azure-storage-sync",
+        "b": "aws-chime-sdk",
+        "similarity": 0.1834
+      },
+      {
+        "a": "azure-virtual-network-gateway",
+        "b": "aws-chime-sdk",
+        "similarity": 0.1736
+      },
+      {
+        "a": "azure-event-grid-subscriptions",
+        "b": "aws-chime-sdk",
+        "similarity": 0.1698
+      }
+    ],
+    "aws-wickr": [
+      {
+        "a": "gcp-persistent-disk",
+        "b": "aws-wickr",
+        "similarity": 0.2213
+      },
+      {
+        "a": "fabric-data-agent",
+        "b": "aws-wickr",
+        "similarity": 0.2114
+      },
+      {
+        "a": "azure-event-grid-subscriptions",
+        "b": "aws-wickr",
+        "similarity": 0.2028
+      }
+    ],
+    "aws-end-user-messaging": [
+      {
+        "a": "fabric-copy-job",
+        "b": "aws-end-user-messaging",
+        "similarity": 0.261
+      },
+      {
+        "a": "aws-end-user-messaging",
+        "b": "fabric-table-wand",
+        "similarity": 0.2349
+      },
+      {
+        "a": "aws-end-user-messaging",
+        "b": "azure-scheduled-actions",
+        "similarity": 0.2312
       }
     ],
     "aws-datasync": [
@@ -8938,6 +9010,11 @@
     ],
     "aws-managed-grafana": [
       {
+        "a": "aws-chime",
+        "b": "aws-managed-grafana",
+        "similarity": 0.3344
+      },
+      {
         "a": "aws-managed-grafana",
         "b": "azure-host-groups",
         "similarity": 0.294
@@ -8946,11 +9023,6 @@
         "a": "aws-cloud9",
         "b": "aws-managed-grafana",
         "similarity": 0.2885
-      },
-      {
-        "a": "aws-codecatalyst",
-        "b": "aws-managed-grafana",
-        "similarity": 0.2713
       }
     ],
     "aws-managed-prometheus": [
@@ -11028,14 +11100,14 @@
         "similarity": 0.2731
       },
       {
+        "a": "aws-chime",
+        "b": "aws-memorydb",
+        "similarity": 0.2291
+      },
+      {
         "a": "aws-memorydb",
         "b": "aws-oracle-database",
         "similarity": 0.2266
-      },
-      {
-        "a": "fabric-dataflow",
-        "b": "aws-memorydb",
-        "similarity": 0.2237
       }
     ],
     "aws-neptune": [
@@ -11827,14 +11899,14 @@
         "similarity": 0.2537
       },
       {
+        "a": "aws-end-user-messaging",
+        "b": "azure-scheduled-actions",
+        "similarity": 0.2312
+      },
+      {
         "a": "m365-filmstrip-play",
         "b": "azure-scheduled-actions",
         "similarity": 0.2267
-      },
-      {
-        "a": "m365-check",
-        "b": "azure-scheduled-actions",
-        "similarity": 0.2264
       }
     ],
     "azure-compute-fleet": [
@@ -11951,9 +12023,9 @@
         "similarity": 0.1922
       },
       {
-        "a": "aws-iot-device-management",
+        "a": "aws-chime",
         "b": "azure-service-fabric-clusters",
-        "similarity": 0.1754
+        "similarity": 0.1865
       }
     ],
     "azure-host-groups": [
@@ -12907,9 +12979,9 @@
         "similarity": 0.2036
       },
       {
-        "a": "azure-anomaly-detector",
+        "a": "aws-wickr",
         "b": "fabric-calendar-up",
-        "similarity": 0.1891
+        "similarity": 0.1933
       }
     ],
     "fabric-calendar-link": [
