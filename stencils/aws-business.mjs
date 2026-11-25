@@ -3,6 +3,41 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsBusinessArtwork = [
+  entry("aws-activate", "aws", "AWS Activate", sizes("AWS-Activate"),
+    "Startup support helps a new business launch.",
+    [
+      line([33, 78], [33, 47], [41, 32], [52, 23], [63, 32], [71, 47], [71, 78], [52, 70], [33, 78]),
+      oval(47, 42, 10, 10), line([42, 80], [42, 93]), line([52, 77], [52, 100]), line([62, 80], [62, 93]),
+      line([76, 53], [87, 53], [87, 42]), oval(82, 32, 10, 10),
+      line([78, 70], [80, 61], [85, 57], [93, 57], [98, 61], [100, 70]),
+      line([18, 110], [110, 110]), line([82, 20], [102, 20]), line([92, 10], [92, 30]),
+    ]),
+  entry("aws-iq", "aws", "AWS IQ", sizes("AWS-IQ"),
+    "A customer connects with an AWS expert for a project.",
+    [
+      oval(17, 18, 21, 21), line([11, 72], [14, 53], [19, 45], [27, 42], [35, 45], [40, 53], [43, 72]),
+      oval(89, 18, 21, 21), line([84, 72], [87, 53], [92, 45], [100, 42], [108, 45], [113, 53], [116, 72]),
+      line([40, 61], [51, 61], [58, 68], [64, 62], [71, 68], [78, 61], [87, 61]),
+      line([47, 65], [57, 78], [64, 74], [70, 78], [80, 65]),
+      line([45, 93], [83, 93], [83, 110], [45, 110], [45, 93]), line([52, 101], [76, 101]),
+    ]),
+  entry("aws-managed-services", "aws", "AWS Managed Services", sizes("AWS-Managed-Services"),
+    "Operations staff maintain a managed cloud environment.",
+    [
+      rect(13, 26, 42, 68), line([13, 43], [55, 43]), line([13, 60], [55, 60]), line([13, 77], [55, 77]),
+      oval(18, 31, 5, 5, true), oval(18, 48, 5, 5), oval(18, 65, 5, 5), line([30, 34], [48, 34]), line([30, 51], [48, 51]), line([30, 68], [48, 68]),
+      oval(77, 17, 23, 23), line([68, 83], [71, 60], [77, 50], [88, 46], [99, 50], [105, 60], [108, 83]),
+      line([71, 83], [105, 83]), line([64, 99], [111, 99]), line([18, 109], [108, 109]),
+    ]),
+  entry("aws-repost-private", "aws", "AWS rePost Private", sizes("AWS-rePost-Private"),
+    "A private community shares questions and answers.",
+    [
+      line([10, 21], [76, 21], [76, 64], [44, 64], [29, 76], [29, 64], [10, 64], [10, 21]),
+      line([22, 32], [64, 32]), line([22, 42], [57, 42]), line([22, 52], [64, 52]),
+      line([57, 76], [57, 62], [113, 62], [113, 101], [85, 101], [73, 111], [73, 101], [57, 101], [57, 76]),
+      line([67, 74], [103, 74]), line([67, 84], [96, 84]),
+      rect(89, 28, 22, 19), line([93, 28], [93, 22], [100, 16], [107, 22], [107, 28]), oval(98, 35, 4, 4, true),
+    ]),
   entry("aws-pinpoint", "aws", "Amazon Pinpoint", sizes("Amazon-Pinpoint"),
     "A campaign sends targeted messages to an audience.",
     [

@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 792,
-  "aliases": 3308,
+  "count": 796,
+  "aliases": 3324,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -462,6 +462,10 @@
     "aws-xray",
     "aws-codecatalyst",
     "aws-corretto",
+    "aws-activate",
+    "aws-iq",
+    "aws-managed-services",
+    "aws-repost-private",
     "aws-pinpoint",
     "aws-pinpoint-apis",
     "aws-workdocs-sdk",
@@ -889,8 +893,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1060,
-      "concepts": 263
+      "covered": 1076,
+      "concepts": 267
     },
     "gcp": {
       "sources": 261,
@@ -3371,14 +3375,14 @@
         "similarity": 0.124
       },
       {
+        "a": "fabric-branch-fork-signal",
+        "b": "aws-managed-services",
+        "similarity": 0.1232
+      },
+      {
         "a": "m365-globe",
         "b": "fabric-branch-fork-signal",
         "similarity": 0.1218
-      },
-      {
-        "a": "fabric-branch-fork-signal",
-        "b": "fabric-planning",
-        "similarity": 0.1176
       }
     ],
     "fabric-briefcase-report": [
@@ -5921,14 +5925,14 @@
         "similarity": 0.2621
       },
       {
+        "a": "aws-cloudsearch",
+        "b": "aws-managed-services",
+        "similarity": 0.2562
+      },
+      {
         "a": "azure-container-registry",
         "b": "aws-cloudsearch",
         "similarity": 0.2434
-      },
-      {
-        "a": "aws-cloudsearch",
-        "b": "aws-inspector",
-        "similarity": 0.2197
       }
     ],
     "aws-datazone": [
@@ -6495,6 +6499,11 @@
     "fabric-retail": [
       {
         "a": "fabric-retail",
+        "b": "aws-repost-private",
+        "similarity": 0.1928
+      },
+      {
+        "a": "fabric-retail",
         "b": "aws-datasync",
         "similarity": 0.1914
       },
@@ -6502,11 +6511,6 @@
         "a": "fabric-retail",
         "b": "azure-compute-fleet",
         "similarity": 0.1869
-      },
-      {
-        "a": "fabric-operations-agent",
-        "b": "fabric-retail",
-        "similarity": 0.185
       }
     ],
     "fabric-runtime-lineage": [
@@ -8080,14 +8084,14 @@
         "similarity": 0.2635
       },
       {
+        "a": "azure-language-understanding",
+        "b": "aws-repost-private",
+        "similarity": 0.2367
+      },
+      {
         "a": "entra-workload-id",
         "b": "azure-language-understanding",
         "similarity": 0.1973
-      },
-      {
-        "a": "azure-language-understanding",
-        "b": "aws-managed-grafana",
-        "similarity": 0.1968
       }
     ],
     "azure-immersive-reader": [
@@ -8666,6 +8670,74 @@
         "a": "aws-corretto",
         "b": "aws-iot-fleetwise",
         "similarity": 0.1795
+      }
+    ],
+    "aws-activate": [
+      {
+        "a": "aws-activate",
+        "b": "aws-backup",
+        "similarity": 0.1926
+      },
+      {
+        "a": "aws-activate",
+        "b": "aws-data-transfer-terminal",
+        "similarity": 0.1848
+      },
+      {
+        "a": "power-apps",
+        "b": "aws-activate",
+        "similarity": 0.1832
+      }
+    ],
+    "aws-iq": [
+      {
+        "a": "aws-cloudshell",
+        "b": "aws-iq",
+        "similarity": 0.1767
+      },
+      {
+        "a": "fabric-planning",
+        "b": "aws-iq",
+        "similarity": 0.161
+      },
+      {
+        "a": "azure-ai-foundry",
+        "b": "aws-iq",
+        "similarity": 0.1574
+      }
+    ],
+    "aws-managed-services": [
+      {
+        "a": "aws-cloudsearch",
+        "b": "aws-managed-services",
+        "similarity": 0.2562
+      },
+      {
+        "a": "m365-slide-layout",
+        "b": "aws-managed-services",
+        "similarity": 0.2512
+      },
+      {
+        "a": "azure-container-registry",
+        "b": "aws-managed-services",
+        "similarity": 0.2426
+      }
+    ],
+    "aws-repost-private": [
+      {
+        "a": "azure-language-understanding",
+        "b": "aws-repost-private",
+        "similarity": 0.2367
+      },
+      {
+        "a": "m365-phone-desktop",
+        "b": "aws-repost-private",
+        "similarity": 0.2297
+      },
+      {
+        "a": "aws-emr",
+        "b": "aws-repost-private",
+        "similarity": 0.2119
       }
     ],
     "aws-pinpoint": [
@@ -11422,9 +11494,9 @@
         "similarity": 0.1874
       },
       {
-        "a": "aws-elastic-load-balancing",
-        "b": "aws-dcv",
-        "similarity": 0.1814
+        "a": "aws-repost-private",
+        "b": "aws-elastic-load-balancing",
+        "similarity": 0.182
       }
     ],
     "gcp-category-ai": [
