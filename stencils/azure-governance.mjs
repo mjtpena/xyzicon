@@ -1,6 +1,18 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  entry("azure-prometheus", "azure", "Prometheus", ["033112809-icon-service-promethus"],
+    "Prometheus collects time-series metrics from monitored targets.",
+    [
+      oval(14, 30, 17, 17), oval(14, 66, 17, 17), line([31, 38], [43, 48]), line([31, 74], [43, 64]), line([43, 56], [51, 56]),
+      rect(53, 28, 57, 55), line([60, 73], [60, 40]), line([60, 73], [102, 73]), line([64, 67], [71, 58], [78, 62], [86, 47], [95, 53], [102, 44]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-virtual-visits-builder", "azure", "Virtual Visits Builder", ["02949-icon-service-Virtual-Visits-Builder"],
+    "A builder creates a video appointment experience.",
+    [
+      rect(13, 30, 64, 48), line([13, 42], [77, 42]), oval(36, 47, 14, 14), line([29, 70], [29, 67], [33, 62], [43, 62], [48, 67], [48, 70]),
+      line([85, 49], [103, 49], [103, 68], [85, 68], [85, 49]), line([103, 55], [112, 50], [112, 67], [103, 62]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-monitor-dashboard", "azure", "Azure Monitor Dashboard", ["02488-icon-service-Azure-Monitor-Dashboard"],
     "A monitoring dashboard displays service health and metrics.",
     [

@@ -1,6 +1,19 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
+  entry("azure-enclaves", "azure", "Azure Enclaves", ["03394-icon-service-Azure-Enclaves"],
+    "An enclave isolates a workload network behind security boundaries.",
+    [
+      line([19, 28], [19, 19], [31, 19]), line([95, 19], [107, 19], [107, 28]), line([19, 81], [19, 90], [31, 90]), line([95, 90], [107, 90], [107, 81]),
+      oval(31, 42, 16, 16), oval(77, 42, 16, 16), oval(54, 68, 16, 16), line([47, 50], [77, 50]), line([43, 57], [56, 70]), line([81, 57], [68, 70]),
+      line([53, 26], [53, 23], [56, 18], [63, 16], [70, 18], [73, 23], [73, 26]), rect(50, 26, 26, 15), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-aks-istio", "azure", "AKS Istio", ["03399-icon-service-AKS-Istio"],
+    "An Istio service mesh connects services in an AKS cluster.",
+    [
+      line([28, 27], [42, 19], [56, 27], [56, 43], [42, 51], [28, 43], [28, 27]), line([68, 27], [82, 19], [96, 27], [96, 43], [82, 51], [68, 43], [68, 27]),
+      line([48, 69], [62, 61], [76, 69], [76, 85], [62, 93], [48, 85], [48, 69]), line([56, 35], [68, 35]), line([50, 49], [55, 62]), line([74, 49], [69, 62]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-network-function-manager", "azure", "Azure Network Function Manager", ["02740-icon-service-Azure-Network-Function-Manager"],
     "Network functions are managed across connected sites.",
     [

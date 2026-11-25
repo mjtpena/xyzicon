@@ -1,6 +1,18 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-hdi-aks-cluster", "azure", "HDInsight AKS Cluster", ["03468-icon-service-HDI-AKS-Cluster"],
+    "An HDInsight cluster runs analytics workloads on Kubernetes.",
+    [
+      rect(15, 24, 25, 20), rect(15, 50, 25, 20), rect(15, 76, 25, 20), line([21, 31], [34, 31]), line([21, 57], [34, 57]), line([21, 83], [34, 83]),
+      line([40, 34], [49, 34], [49, 86], [40, 86]), line([40, 60], [49, 60]), line([49, 60], [58, 60]), line([69, 77], [69, 57]), line([81, 77], [81, 46]), line([93, 77], [93, 34]), line([62, 77], [102, 77]), line([14, 109], [110, 109]),
+    ]),
+  entry("azure-rtos", "azure", "Azure RTOS", ["10778-icon-service-RTOS"],
+    "A real-time operating system schedules embedded device tasks.",
+    [
+      rect(17, 26, 48, 47), rect(25, 34, 32, 31), line([29, 26], [29, 19]), line([41, 26], [41, 19]), line([53, 26], [53, 19]), line([29, 73], [29, 80]), line([41, 73], [41, 80]), line([53, 73], [53, 80]),
+      oval(73, 42, 32, 32), line([89, 47], [89, 58], [98, 63]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-scvmm-management-servers", "azure", "SCVMM Management Servers", ["02503-icon-service-SCVMM-Management-Servers"],
     "A System Center Virtual Machine Manager server manages virtual machines.",
     [

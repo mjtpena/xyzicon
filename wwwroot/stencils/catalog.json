@@ -335,7 +335,7 @@
       ],
       "revision": "c438ddb9c87e61050590b41c17815fee0e3015e2eecbf4eb0ae4b2cb5fc83da0",
       "geometrySignature": "11afb40d5e220c0acbfffaf8b96bf1e4ee66abb3bb810e99fea1297566e7e016",
-      "comparisonRevision": "db0ad9f64ce23d4880c3280301e4c3bf55735ae2244bee00be06ae9893b8d591",
+      "comparisonRevision": "5fd089ba98e22c76230b2a5a390eb7f22921a2527d847130fcdcc61efd6da110",
       "review": "pending",
       "notes": ""
     },
@@ -8584,6 +8584,21 @@
       "notes": ""
     },
     {
+      "id": "azure-azurite",
+      "provider": "azure",
+      "name": "Azurite",
+      "rationale": "Azurite emulates Azure Storage for local development.",
+      "path": "stencils/azure-azurite.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/02842-icon-service-Azurite.svg"
+      ],
+      "revision": "32c6d3565037be517a83414af76c16b0d994c254d651c5764d80f71fa0d7915b",
+      "geometrySignature": "2910fd71ed0a6319018dbab5f619fd0e5827f54fa451a7fab4763e714669e3e2",
+      "comparisonRevision": "6fbbba8e7fd707c83ea70478cc2403cd721b1fa2722b2db87b6dcba6e361dbd6",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-arc-postgresql",
       "provider": "azure",
       "name": "Azure Arc PostgreSQL",
@@ -13146,7 +13161,7 @@
       ],
       "revision": "f13b4090696f479f9746bfb579d19c0b770bd45b697305c076f0af8e5e2ce582",
       "geometrySignature": "02d57e002ce65c268f27fe495b459afd0161cf3044c729bba23d2ce47cc637aa",
-      "comparisonRevision": "9419680050d882e7bf96d1327a7025b8c7fc57d3f38091f679d8b5337561821a",
+      "comparisonRevision": "3e2b403918618ad29f47b1151838c7d45e72a303f8213210430d4e2d260f8db1",
       "review": "pending",
       "notes": ""
     },
@@ -14520,7 +14535,7 @@
       ],
       "revision": "5ebd3356832a17a801a8b5c85dd9b14fee979c7909bbe1264c9b6c923499803d",
       "geometrySignature": "150f59102d651669595d99e0a9802cb2ec389e3afc988864a3dbf6ae16dd574f",
-      "comparisonRevision": "b8d872451a2d8322d02ec7bb6bdf7c14be2455657e22d3cda4b23949aef22d61",
+      "comparisonRevision": "2d685d4498ccb2712f550dcd9df8566bc3d1b53c233dd4450926eb83fe8cc970",
       "review": "pending",
       "notes": ""
     },
@@ -14761,6 +14776,36 @@
       "revision": "62d113b27ec02e519ea0bca32248300db8c4d0353e0225c539e1d8aa95509a23",
       "geometrySignature": "1be4ebf912cd696450d42aa0de08c15893fd069d2d497f61ed2bf0b5836026c6",
       "comparisonRevision": "b2919c6a1611114677a002868896abc98a66cdbdabaa620d3d2359c851269235",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-enclaves",
+      "provider": "azure",
+      "name": "Azure Enclaves",
+      "rationale": "An enclave isolates a workload network behind security boundaries.",
+      "path": "stencils/azure-enclaves.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/03394-icon-service-Azure-Enclaves.svg"
+      ],
+      "revision": "f972150188fc2cdf0742c1842c64789907f9acbbee874682fa655eb24e728f2f",
+      "geometrySignature": "abc1bc92acccff37ae3f4ecd72904dec5bb9452868486fb04fd977c34aaad425",
+      "comparisonRevision": "d613c9127933ff86b0ce16cdbee73dd088c3a4d4ecb96d47d5dc627880f4eda4",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-aks-istio",
+      "provider": "azure",
+      "name": "AKS Istio",
+      "rationale": "An Istio service mesh connects services in an AKS cluster.",
+      "path": "stencils/azure-aks-istio.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/03399-icon-service-AKS-Istio.svg"
+      ],
+      "revision": "5be6c7b0885113feb819963104f32a03bc5b26fafdb7d14d2f144a8cc700d6e5",
+      "geometrySignature": "a00ad329c19ac78f8831a493f3efd2e01d7ce51a73e3265ecc0ea2fcca505488",
+      "comparisonRevision": "b7a7dd95d61ca8bddd55dac03b077bd607edbc1ad1074a3ba9fff1d4ec439e4d",
       "review": "pending",
       "notes": ""
     },
@@ -15412,6 +15457,36 @@
       "notes": ""
     },
     {
+      "id": "azure-prometheus",
+      "provider": "azure",
+      "name": "Prometheus",
+      "rationale": "Prometheus collects time-series metrics from monitored targets.",
+      "path": "stencils/azure-prometheus.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/033112809-icon-service-promethus.svg"
+      ],
+      "revision": "aa61689c745313797d47eab4fa5cff857f10cd57d3e4eb354d28142e5da3bf7c",
+      "geometrySignature": "3fb0852960564b88c8b3723d7963d83478facc18a2ccd30f6063b550dfdd686c",
+      "comparisonRevision": "b658e3acf8a5621c0145aa0be136c60fbd8a1ec3c5dd75bd09f0556fe0b2f002",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-virtual-visits-builder",
+      "provider": "azure",
+      "name": "Virtual Visits Builder",
+      "rationale": "A builder creates a video appointment experience.",
+      "path": "stencils/azure-virtual-visits-builder.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/02949-icon-service-Virtual-Visits-Builder.svg"
+      ],
+      "revision": "90f2289309de2037b385375ed8f29bf38c3a1a51bed24127cb322bfe4475a450",
+      "geometrySignature": "af191be2330633d0c11dbf1242b07b88dc4faf9db83ad896b6cf3a9631b93039",
+      "comparisonRevision": "ae796240e8aee26daedef13ac2fe0e456640cca738bc4656ab9ad2baf187e77e",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-monitor-dashboard",
       "provider": "azure",
       "name": "Azure Monitor Dashboard",
@@ -15797,7 +15872,7 @@
       ],
       "revision": "95f03279ab2dceca49be9c941d2b040f3ae7f0ac48594f49037ce8e7b5b949d0",
       "geometrySignature": "ff4cc629eec9b7d6a7429b5d8f627964669948ea8a5f84527a9359035a24400a",
-      "comparisonRevision": "e54ce88266daf5147b5072924ddac898572da66b029a3258ee0597469a66c38d",
+      "comparisonRevision": "98da02b71607e9d7e8afdb9e8208cf94041cc466bed12870fc878842b1241e30",
       "review": "pending",
       "notes": ""
     },
@@ -16007,7 +16082,7 @@
       ],
       "revision": "b395f8de0801f6dcabe32939d5a65e65e77db937916341eba83b56c682b9ab30",
       "geometrySignature": "4911da77854ffc3c18a6a5c6cd9bceafd4f1d1abff510083e0c1ed03890ce486",
-      "comparisonRevision": "2207aba4d1e50bf183d627a5823ce9a40e885abe451cccece5d949c6b19200ff",
+      "comparisonRevision": "637522b2a932a5137cbf8b014018d388cc27dc4e06a3dfd2ec09384bb158d15c",
       "review": "pending",
       "notes": ""
     },
@@ -16803,7 +16878,7 @@
       ],
       "revision": "2202b49044c378b80e0b37055d0c7fb14083734d5ecb2218a4f07fc7ff1e8a16",
       "geometrySignature": "4d4a55ff47d223947b870e05eb245da4cf029319ace4f615f7e82e05b33520e5",
-      "comparisonRevision": "5ea13bdb1967fce49206ee0fde7bbced2a217a5aa46ffe0ec34379762d9034ba",
+      "comparisonRevision": "0f0d28ed378f2a0e57b395fc535d832045879d4604e7a204ec441818238ce7c2",
       "review": "pending",
       "notes": ""
     },
@@ -17403,7 +17478,7 @@
       ],
       "revision": "d95e5194f26a3bc21acd8f275b2afbfd2e609cb5c063feb97539c98521a737ed",
       "geometrySignature": "348b972c0cef5c92ce250caa6ed74cb62e32b0e96e44ce180ca6640f20a40cb8",
-      "comparisonRevision": "42f24c3b500b6ca1fbe4bab04b2f7aceded9322b74d7163e254524691af73564",
+      "comparisonRevision": "c2981ab25ac14ee1e1d2536cd68c3cdfe0169ed554db3d38eb6e7025b676270b",
       "review": "pending",
       "notes": ""
     },
@@ -17523,7 +17598,7 @@
       ],
       "revision": "e29657a88bd4800cc7e3c87890edb6440ca81002fe0033374fc3ecf4f3b9a55e",
       "geometrySignature": "fc5db9a55835da4feaf32c8ebdf70cdd7e291dc75fef6ab0cb526e0eec8593d0",
-      "comparisonRevision": "e5ca95ad680850d1117b1efcf754268f55163f1ec062b5b1c64d3a646dbe6410",
+      "comparisonRevision": "871808baddcf5feb3df4be021eef1d6fb2741cc58f926a0b678b3e6ab8d1d5c2",
       "review": "pending",
       "notes": ""
     },
@@ -17808,7 +17883,7 @@
       ],
       "revision": "76f716c6fa81df38e6f64190bfac20afa08dbb18ad89c411b5e4db848380173d",
       "geometrySignature": "29afb1821f3556b26ea3148f53aa7751d54ce183195df2efc14c0ac4033d0610",
-      "comparisonRevision": "a762c02f1ba7eca0611117f497d8419b9adbe86348de3312302c721551d9d834",
+      "comparisonRevision": "bcd4efc5dc2d66ca5a9e1d58d612cb8bf8af8bbbc42e459c1c27359042f583eb",
       "review": "pending",
       "notes": ""
     },
@@ -18258,7 +18333,7 @@
       ],
       "revision": "411b8f38c2076c5d7633b3ac82b439cb5fd1d3648a06a250ba6acf49e18b9e46",
       "geometrySignature": "98ed21bf9235298e4d9f2ed17e127455afba6ecf8f49cccc185af773f5eb5146",
-      "comparisonRevision": "be0a0d03dcdb290e76b9d1e3f19dae070573dc3fa17345f51f5f2ea0c7eafb3d",
+      "comparisonRevision": "994c918d64021bf2a1d952a75e151cfa4f0dc881a187b0caa85cd415155e7e47",
       "review": "pending",
       "notes": ""
     },
@@ -18513,7 +18588,7 @@
       ],
       "revision": "79a6a5a7304c7596ad9bee6f285b30500a114ce4d69ce3ebe38d318b40b29283",
       "geometrySignature": "44dfd8ca4a12f29dd89122fc8c19eb2a4e3cca264ee5a7df6aabc947251d083c",
-      "comparisonRevision": "f3ec2921c0122ddd581bf4c4e8b7963460099100ddcb237af961a1cc758a2cc0",
+      "comparisonRevision": "53c17720f52f2e8ee536584ed8af1b6f58083bac7943e702b999d4d165a00299",
       "review": "pending",
       "notes": ""
     },
@@ -18753,7 +18828,7 @@
       ],
       "revision": "0d7f9692f1c79d7ada5e46649bc665584ab082c47845abc1ee818458c34982cc",
       "geometrySignature": "bb77004db5de23d0aa4487774e77fd7eeb01ad34f999c00adeb2c0042951ac47",
-      "comparisonRevision": "0327af2899797d0ca556828ca5d500891a41032e1ebb0d94fc0a9ee0921b38cc",
+      "comparisonRevision": "72616abbb46798f39fdf70f195aa6e9b9a81105f17b8bd8cb1bb33236e9f59e5",
       "review": "pending",
       "notes": ""
     },
@@ -20707,7 +20782,7 @@
       ],
       "revision": "62f84c2be249aa46b06b5bb733e8432743d23031ac651dacaeac0f5bfcf4cbba",
       "geometrySignature": "35d35f8d6cb75e2a34ad60124a02a94c32b12b97354784a88a3cf010410c00ec",
-      "comparisonRevision": "5aed7c800c5179e2bc2f96a43b934bf9bdb9abe2f515bf622acd21ee747cdb80",
+      "comparisonRevision": "1eb9006074302476cd8d59cea7b1138da557676b619c93089d9304bb03118ea8",
       "review": "pending",
       "notes": ""
     },
@@ -23278,7 +23353,7 @@
       ],
       "revision": "bbcf2feb0c6ec75973f7470ffdec9931fbc31089fd100275f2cec7cd49dec884",
       "geometrySignature": "a8ba4b49e0334b6a1f593a0bb3f4c652d74ef3de6d5353b5b9352d7819420319",
-      "comparisonRevision": "b0b24e53b374c4c873aaa2fdcfe3b9f038e99c936c49fd60fdfb43cc01818f82",
+      "comparisonRevision": "f17a0ceca935a0b2b033c70c5d543d7e8ae8ae17aba7a0628b00fb4b35c781b8",
       "review": "pending",
       "notes": ""
     },
@@ -25546,7 +25621,7 @@
       ],
       "revision": "495795524eb51cb5db8cd5d7d4d8d809e8ec4782df0e796520d70f606ed7cdfd",
       "geometrySignature": "9830389f874ba91e43804be5c08151403d47e4aee659509aa946eb41359b9a71",
-      "comparisonRevision": "0d7dff06b49e4919f9ea36b45c2889375199e12475d36d6ff6a7deb9085b8f1f",
+      "comparisonRevision": "f12042ac5e03c226ef48fe262122e0e335a06b10760c15bbe7183b1b50ac018c",
       "review": "pending",
       "notes": ""
     },
@@ -25576,7 +25651,7 @@
       ],
       "revision": "a3c3159ec5e7db302230bc46f454cc466861d5a0f6cbfef1b17488b97d8e42eb",
       "geometrySignature": "8f6de7e5f9018e283e26abc04550c0672a5ac279ddbac0ea0db5c927cc4e6504",
-      "comparisonRevision": "972cde7879eed4f65891206c272d982a6e96a65892a71fab92e7f11c6b183e28",
+      "comparisonRevision": "1c2e3efcdf3be0d2fba663ea8576b2ac35b1f97dd93b23ee86d4c7d67206fb6f",
       "review": "pending",
       "notes": ""
     },
@@ -26892,7 +26967,7 @@
       ],
       "revision": "4e5d01da23197ca20e28947c50d1154d929d544c4248b0fe3df7fc6b9f1e08dd",
       "geometrySignature": "841c6ea7ff07d91b4d6f6fe469c0b2d322714914ac96b34468ca7fbee7a4ad2a",
-      "comparisonRevision": "541a468e64db4acf42be4afd93acbce45e563f76b722d868e013b1b237e2cd56",
+      "comparisonRevision": "b68d954390879867ed67e1f8819d2e47bbd6af2a8505c76471c6b21eb4f5ef66",
       "review": "pending",
       "notes": ""
     },
@@ -28833,6 +28908,36 @@
       "notes": ""
     },
     {
+      "id": "azure-hdi-aks-cluster",
+      "provider": "azure",
+      "name": "HDInsight AKS Cluster",
+      "rationale": "An HDInsight cluster runs analytics workloads on Kubernetes.",
+      "path": "stencils/azure-hdi-aks-cluster.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/03468-icon-service-HDI-AKS-Cluster.svg"
+      ],
+      "revision": "0a25163d9b5b20d9a5f0f1db7b6baf9c1bb8730573e4984db0e3a7ec49431310",
+      "geometrySignature": "88c6e33ddad48b49c465d215a734a30723d2c2964b9741622c1844f1be846d4e",
+      "comparisonRevision": "6a43024536c350c491689f99444677e7fb7a7a5a0d4a979c32cd4ef073a52fc5",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-rtos",
+      "provider": "azure",
+      "name": "Azure RTOS",
+      "rationale": "A real-time operating system schedules embedded device tasks.",
+      "path": "stencils/azure-rtos.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/10778-icon-service-RTOS.svg"
+      ],
+      "revision": "a02a58b1421dd2af839892372553160cb3fdedf2d88cc03d6156e4e10e348198",
+      "geometrySignature": "0d2a40aa494e74784a9bfe29e4ce0668f83ba058da81c12c8bdd11cd8b311a90",
+      "comparisonRevision": "6c396bffdb1acfe64a28fa0cee27000addf69f8b56b2e901ed0abf579f9ae844",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "azure-scvmm-management-servers",
       "provider": "azure",
       "name": "SCVMM Management Servers",
@@ -28843,7 +28948,7 @@
       ],
       "revision": "fa17ea811b8ff96df9ae1512060515b9286e23fd7bd84b1ec9527eac13bb158b",
       "geometrySignature": "86923b58c09fe74b6f9b4c00d164d8952737d28ee4b1bad957af9cfc7a8546a2",
-      "comparisonRevision": "ae11bc00d8d4f31fb76afaf6116820dfebc492723edd66583ebcb2044eee22c8",
+      "comparisonRevision": "20558c33fad3afe739de705af22be635b0b83e1baed0f31c8df06e5069385fe4",
       "review": "pending",
       "notes": ""
     },
@@ -36234,7 +36339,7 @@
       ],
       "revision": "26b4e1f10fdf85a004a2a8d7f908b974ee368b5dde1e8d4746bcc9385ab8afae",
       "geometrySignature": "9b1f099ece6ffdbc6dcaed40a25f5ef525696aaef74741f0de74fb1f3f4da4fd",
-      "comparisonRevision": "dc14e332d83309b13b652d3d2a5495bad65584faa2fe2fef5393e0fb3fd45659",
+      "comparisonRevision": "661d0884de453af74d88ce72c972701b7d81f177587973362ce8b43fc85a2a82",
       "review": "pending",
       "notes": ""
     },

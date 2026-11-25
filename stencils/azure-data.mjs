@@ -1,6 +1,12 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureDataArtwork = [
+  entry("azure-azurite", "azure", "Azurite", ["02842-icon-service-Azurite"],
+    "Azurite emulates Azure Storage for local development.",
+    [
+      oval(15, 27, 45, 14), line([15, 34], [15, 71], [21, 76], [37, 78], [54, 76], [60, 71], [60, 34]), line([15, 52], [21, 56], [37, 58], [54, 56], [60, 52]),
+      line([70, 50], [82, 50]), line([76, 44], [82, 50], [76, 56]), line([90, 39], [96, 46], [90, 53]), line([100, 54], [109, 54]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-arc-postgresql", "azure", "Azure Arc PostgreSQL", ["01848-icon-service-Arc-PostgreSQL "],
     "Azure Arc manages a PostgreSQL database outside Azure.",
     [
