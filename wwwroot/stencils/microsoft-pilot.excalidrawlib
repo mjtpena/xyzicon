@@ -344,11 +344,11 @@
       "elements": [
         {
           "id": "azure-kubernetes-0",
-          "type": "rectangle",
-          "x": 14,
-          "y": 17,
-          "width": 40,
-          "height": 32,
+          "type": "ellipse",
+          "x": 51,
+          "y": 13,
+          "width": 26,
+          "height": 26,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -373,11 +373,11 @@
         },
         {
           "id": "azure-kubernetes-1",
-          "type": "rectangle",
-          "x": 62,
-          "y": 17,
-          "width": 40,
-          "height": 32,
+          "type": "line",
+          "x": 64,
+          "y": 13,
+          "width": 0,
+          "height": 26,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -398,15 +398,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              26
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "azure-kubernetes-2",
-          "type": "rectangle",
-          "x": 14,
-          "y": 57,
-          "width": 40,
-          "height": 32,
+          "type": "line",
+          "x": 51,
+          "y": 26,
+          "width": 26,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -427,15 +442,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              26,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "azure-kubernetes-3",
-          "type": "line",
-          "x": 62,
-          "y": 72,
-          "width": 40,
-          "height": 15,
+          "type": "ellipse",
+          "x": 60,
+          "y": 22,
+          "width": 8,
+          "height": 8,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -456,38 +486,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              -15
-            ],
-            [
-              40,
-              -15
-            ],
-            [
-              40,
-              -6
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "azure-kubernetes-4",
           "type": "line",
-          "x": 22,
-          "y": 27,
-          "width": 24,
-          "height": 0,
+          "x": 64,
+          "y": 39,
+          "width": 34,
+          "height": 24,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -515,8 +522,16 @@
               0
             ],
             [
-              24,
-              0
+              0,
+              11
+            ],
+            [
+              -34,
+              11
+            ],
+            [
+              -34,
+              24
             ]
           ],
           "startBinding": null,
@@ -528,10 +543,10 @@
         {
           "id": "azure-kubernetes-5",
           "type": "line",
-          "x": 70,
-          "y": 27,
-          "width": 24,
-          "height": 0,
+          "x": 64,
+          "y": 50,
+          "width": 34,
+          "height": 13,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -559,8 +574,12 @@
               0
             ],
             [
-              24,
+              34,
               0
+            ],
+            [
+              34,
+              13
             ]
           ],
           "startBinding": null,
@@ -572,10 +591,10 @@
         {
           "id": "azure-kubernetes-6",
           "type": "line",
-          "x": 22,
-          "y": 67,
-          "width": 24,
-          "height": 0,
+          "x": 19,
+          "y": 70,
+          "width": 22,
+          "height": 25,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -603,7 +622,27 @@
               0
             ],
             [
-              24,
+              11,
+              -6
+            ],
+            [
+              22,
+              0
+            ],
+            [
+              22,
+              13
+            ],
+            [
+              11,
+              19
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
               0
             ]
           ],
@@ -615,11 +654,11 @@
         },
         {
           "id": "azure-kubernetes-7",
-          "type": "ellipse",
-          "x": 71,
-          "y": 68,
-          "width": 43,
-          "height": 43,
+          "type": "line",
+          "x": 19,
+          "y": 70,
+          "width": 22,
+          "height": 6,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -640,15 +679,34 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              22,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "azure-kubernetes-8",
-          "type": "ellipse",
-          "x": 87,
-          "y": 84,
-          "width": 11,
-          "height": 11,
+          "type": "line",
+          "x": 30,
+          "y": 76,
+          "width": 0,
+          "height": 13,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -669,15 +727,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              13
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "azure-kubernetes-9",
           "type": "line",
-          "x": 92,
-          "y": 68,
-          "width": 0,
-          "height": 16,
+          "x": 53,
+          "y": 70,
+          "width": 22,
+          "height": 25,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -705,8 +778,28 @@
               0
             ],
             [
+              11,
+              -6
+            ],
+            [
+              22,
+              0
+            ],
+            [
+              22,
+              13
+            ],
+            [
+              11,
+              19
+            ],
+            [
               0,
-              16
+              13
+            ],
+            [
+              0,
+              0
             ]
           ],
           "startBinding": null,
@@ -718,10 +811,10 @@
         {
           "id": "azure-kubernetes-10",
           "type": "line",
-          "x": 92,
-          "y": 95,
-          "width": 0,
-          "height": 16,
+          "x": 53,
+          "y": 70,
+          "width": 22,
+          "height": 6,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -749,8 +842,12 @@
               0
             ],
             [
-              0,
-              16
+              11,
+              6
+            ],
+            [
+              22,
+              0
             ]
           ],
           "startBinding": null,
@@ -762,10 +859,10 @@
         {
           "id": "azure-kubernetes-11",
           "type": "line",
-          "x": 71,
-          "y": 89,
-          "width": 16,
-          "height": 0,
+          "x": 64,
+          "y": 76,
+          "width": 0,
+          "height": 13,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -793,8 +890,8 @@
               0
             ],
             [
-              16,
-              0
+              0,
+              13
             ]
           ],
           "startBinding": null,
@@ -806,10 +903,10 @@
         {
           "id": "azure-kubernetes-12",
           "type": "line",
-          "x": 98,
-          "y": 89,
-          "width": 16,
-          "height": 0,
+          "x": 87,
+          "y": 70,
+          "width": 22,
+          "height": 25,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -837,7 +934,163 @@
               0
             ],
             [
-              16,
+              11,
+              -6
+            ],
+            [
+              22,
+              0
+            ],
+            [
+              22,
+              13
+            ],
+            [
+              11,
+              19
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-kubernetes-13",
+          "type": "line",
+          "x": 87,
+          "y": 70,
+          "width": 22,
+          "height": 6,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-kubernetes"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 967425239,
+          "version": 1,
+          "versionNonce": 11985926,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              22,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-kubernetes-14",
+          "type": "line",
+          "x": 98,
+          "y": 76,
+          "width": 0,
+          "height": 13,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-kubernetes"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 323617873,
+          "version": 1,
+          "versionNonce": 351080139,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              13
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-kubernetes-15",
+          "type": "line",
+          "x": 14,
+          "y": 109,
+          "width": 96,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-kubernetes"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 672558188,
+          "version": 1,
+          "versionNonce": 582680430,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              96,
               0
             ]
           ],
@@ -1164,10 +1417,10 @@
         {
           "id": "azure-cosmos-db-0",
           "type": "ellipse",
-          "x": 36,
-          "y": 34,
-          "width": 57,
-          "height": 57,
+          "x": 40,
+          "y": 18,
+          "width": 48,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -1193,10 +1446,10 @@
         {
           "id": "azure-cosmos-db-1",
           "type": "line",
-          "x": 18,
-          "y": 87,
-          "width": 97,
-          "height": 72,
+          "x": 40,
+          "y": 26,
+          "width": 48,
+          "height": 41,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -1224,43 +1477,27 @@
               0
             ],
             [
-              -1,
-              -12
-            ],
-            [
-              18,
-              -34
-            ],
-            [
-              56,
-              -56
-            ],
-            [
-              86,
-              -61
-            ],
-            [
-              96,
-              -54
-            ],
-            [
-              92,
-              -40
-            ],
-            [
-              72,
-              -17
-            ],
-            [
-              32,
-              7
+              0,
+              34
             ],
             [
               7,
-              11
+              39
             ],
             [
-              0,
+              24,
+              41
+            ],
+            [
+              41,
+              39
+            ],
+            [
+              48,
+              34
+            ],
+            [
+              48,
               0
             ]
           ],
@@ -1272,11 +1509,11 @@
         },
         {
           "id": "azure-cosmos-db-2",
-          "type": "ellipse",
-          "x": 91,
-          "y": 23,
-          "width": 14,
-          "height": 14,
+          "type": "line",
+          "x": 40,
+          "y": 44,
+          "width": 48,
+          "height": 7,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -1297,15 +1534,42 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              24,
+              7
+            ],
+            [
+              41,
+              5
+            ],
+            [
+              48,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "azure-cosmos-db-3",
-          "type": "ellipse",
-          "x": 23,
-          "y": 84,
-          "width": 12,
-          "height": 12,
+          "type": "line",
+          "x": 40,
+          "y": 37,
+          "width": 15,
+          "height": 28,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -1326,15 +1590,34 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              -15,
+              0
+            ],
+            [
+              -15,
+              28
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "azure-cosmos-db-4",
           "type": "line",
-          "x": 55,
-          "y": 44,
-          "width": 9,
-          "height": 20,
+          "x": 88,
+          "y": 37,
+          "width": 15,
+          "height": 28,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -1362,12 +1645,12 @@
               0
             ],
             [
-              -8,
-              9
+              15,
+              0
             ],
             [
-              -9,
-              20
+              15,
+              28
             ]
           ],
           "startBinding": null,
@@ -1379,10 +1662,10 @@
         {
           "id": "azure-cosmos-db-5",
           "type": "line",
-          "x": 76,
-          "y": 79,
-          "width": 7,
-          "height": 8,
+          "x": 64,
+          "y": 67,
+          "width": 0,
+          "height": 12,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -1410,8 +1693,286 @@
               0
             ],
             [
-              7,
-              -8
+              0,
+              12
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-cosmos-db-6",
+          "type": "ellipse",
+          "x": 15,
+          "y": 65,
+          "width": 20,
+          "height": 7,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-cosmos-db"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1759363265,
+          "version": 1,
+          "versionNonce": 435066203,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false
+        },
+        {
+          "id": "azure-cosmos-db-7",
+          "type": "line",
+          "x": 15,
+          "y": 69,
+          "width": 20,
+          "height": 15,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-cosmos-db"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1155353151,
+          "version": 1,
+          "versionNonce": 844498247,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              20,
+              12
+            ],
+            [
+              20,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-cosmos-db-8",
+          "type": "ellipse",
+          "x": 93,
+          "y": 65,
+          "width": 20,
+          "height": 7,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-cosmos-db"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1515399326,
+          "version": 1,
+          "versionNonce": 1738537714,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false
+        },
+        {
+          "id": "azure-cosmos-db-9",
+          "type": "line",
+          "x": 93,
+          "y": 69,
+          "width": 20,
+          "height": 15,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-cosmos-db"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1690571557,
+          "version": 1,
+          "versionNonce": 184503210,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              15,
+              15
+            ],
+            [
+              20,
+              12
+            ],
+            [
+              20,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-cosmos-db-10",
+          "type": "line",
+          "x": 54,
+          "y": 84,
+          "width": 20,
+          "height": 10,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-cosmos-db"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1948876315,
+          "version": 1,
+          "versionNonce": 138656359,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              -5
+            ],
+            [
+              20,
+              0
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "azure-cosmos-db-11",
+          "type": "line",
+          "x": 14,
+          "y": 109,
+          "width": 96,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "azure-cosmos-db"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 399173714,
+          "version": 1,
+          "versionNonce": 1832744577,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              96,
+              0
             ]
           ],
           "startBinding": null,
@@ -246319,6 +246880,632 @@
           "seed": 389645873,
           "version": 1,
           "versionNonce": 1654787112,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              96,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        }
+      ]
+    },
+    {
+      "id": "microsoft-engage-center-connect",
+      "name": "Microsoft Engage Center Connector",
+      "status": "unpublished",
+      "created": 1,
+      "elements": [
+        {
+          "id": "microsoft-engage-center-connect-0",
+          "type": "rectangle",
+          "x": 14,
+          "y": 23,
+          "width": 38,
+          "height": 58,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 122634395,
+          "version": 1,
+          "versionNonce": 859026676,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false
+        },
+        {
+          "id": "microsoft-engage-center-connect-1",
+          "type": "line",
+          "x": 24,
+          "y": 23,
+          "width": 18,
+          "height": 6,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 577737063,
+          "version": 1,
+          "versionNonce": 1825800832,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              -6
+            ],
+            [
+              18,
+              -6
+            ],
+            [
+              18,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-2",
+          "type": "line",
+          "x": 21,
+          "y": 38,
+          "width": 11,
+          "height": 7,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 642010290,
+          "version": 1,
+          "versionNonce": 1179993834,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              11,
+              -2
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-3",
+          "type": "line",
+          "x": 35,
+          "y": 40,
+          "width": 10,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 409936643,
+          "version": 1,
+          "versionNonce": 1927754869,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-4",
+          "type": "line",
+          "x": 21,
+          "y": 53,
+          "width": 11,
+          "height": 7,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1535105844,
+          "version": 1,
+          "versionNonce": 2142423716,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              11,
+              -2
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-5",
+          "type": "line",
+          "x": 35,
+          "y": 55,
+          "width": 10,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1064553692,
+          "version": 1,
+          "versionNonce": 86409894,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-6",
+          "type": "line",
+          "x": 21,
+          "y": 68,
+          "width": 11,
+          "height": 7,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 614658664,
+          "version": 1,
+          "versionNonce": 150329974,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              11,
+              -2
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-7",
+          "type": "line",
+          "x": 52,
+          "y": 52,
+          "width": 21,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 2056269866,
+          "version": 1,
+          "versionNonce": 481831492,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              21,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-8",
+          "type": "line",
+          "x": 67,
+          "y": 46,
+          "width": 6,
+          "height": 12,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1412625463,
+          "version": 1,
+          "versionNonce": 410563195,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              0,
+              12
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-9",
+          "type": "rectangle",
+          "x": 77,
+          "y": 31,
+          "width": 34,
+          "height": 41,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 537349342,
+          "version": 1,
+          "versionNonce": 1354570430,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false
+        },
+        {
+          "id": "microsoft-engage-center-connect-10",
+          "type": "line",
+          "x": 83,
+          "y": 64,
+          "width": 0,
+          "height": 22,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 874004664,
+          "version": 1,
+          "versionNonce": 1558399050,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              -22
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-11",
+          "type": "line",
+          "x": 83,
+          "y": 64,
+          "width": 22,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1611539946,
+          "version": 1,
+          "versionNonce": 156060521,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              22,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-12",
+          "type": "line",
+          "x": 86,
+          "y": 59,
+          "width": 17,
+          "height": 14,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 790205702,
+          "version": 1,
+          "versionNonce": 532266775,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              5,
+              -7
+            ],
+            [
+              10,
+              -4
+            ],
+            [
+              17,
+              -14
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "microsoft-engage-center-connect-13",
+          "type": "line",
+          "x": 14,
+          "y": 109,
+          "width": 96,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "microsoft-engage-center-connect"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 834512569,
+          "version": 1,
+          "versionNonce": 593324477,
           "isDeleted": false,
           "boundElements": null,
           "updated": 1,

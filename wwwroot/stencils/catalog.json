@@ -20,17 +20,17 @@
       "id": "azure-kubernetes",
       "provider": "azure",
       "name": "Kubernetes Service",
-      "rationale": "An orchestration wheel supervises a grid of container workloads.",
+      "rationale": "An orchestrator schedules container workloads across a cluster.",
       "path": "stencils/azure-kubernetes.svg",
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10023-icon-service-Kubernetes-Services.svg",
         "/icons/azure/Azure_Public_Service_Icons/Icons/containers/10023-icon-service-Kubernetes-Services.svg"
       ],
-      "revision": "1fe22ea1a781d8413664ca173e893ee71de7d801b488fd6ec3e140256af1de9c",
-      "geometrySignature": "50916b1136ad9eaa0d86967fba7db2301c68924968b764068f3c9ac6a82a7993",
-      "comparisonRevision": "a44f06a51504994d4145afa1fd59a83c2d8f0d21e20c99dc1a4e1e5e87213fdc",
-      "review": "rework",
-      "notes": "The three rectangles look like generic windows and the wheel badge is indistinct at 32px. Make a recognizable container cluster without relying on a tiny badge."
+      "revision": "c9b76f7ab9b49dd3e6d4d7783e7e3599507d397e56516085d808fcdbdbab19b3",
+      "geometrySignature": "791289f048a4e519863e919ff458007c96716a95eea794ca684ed76ce0892e74",
+      "comparisonRevision": "81f5bb1fcd2e1dbcd7afa87a3bdaa68d1e71c29c93e1cfbb733c943f8667ca95",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-sql-database",
@@ -51,17 +51,17 @@
       "id": "azure-cosmos-db",
       "provider": "azure",
       "name": "Cosmos DB",
-      "rationale": "An orbital data system: a central planet, diagonal orbit and two satellite records.",
+      "rationale": "A database distributes replicated records to regions around the world.",
       "path": "stencils/azure-cosmos-db.svg",
       "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10121-icon-service-Azure-Cosmos-DB.svg",
         "/icons/azure/Azure_Public_Service_Icons/Icons/iot/10121-icon-service-Azure-Cosmos-DB.svg"
       ],
-      "revision": "8337364224248bc63c6010b319c04f2381f98d5032560305393167eceadb9b75",
-      "geometrySignature": "4a0944f79d4bd58476ad0efef2ae01209e9e53ed6aeb5c2b066d86d1123534db",
-      "comparisonRevision": "f0b26b560f542e767e3f87051cfe55a2256c6b60b071d185a2a775fe2757d40c",
-      "review": "rework",
-      "notes": "The ringed planet closely reproduces the source logo's central motif. Replace it with an original depiction of a globally distributed database."
+      "revision": "ece6cbebb99021f8f78ae486b30f1ae9a4601c7bde82e7bcff274b84e440f407",
+      "geometrySignature": "abd1f727994b7a79da44b9b7cd31fa5196b3adefb4715b8838df42421878389f",
+      "comparisonRevision": "c6d2c9b8eb16df3ce486c918cf216e0e4cbfa66060714900784e25c4ffb074a5",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-key-vault",
@@ -489,7 +489,7 @@
       ],
       "revision": "95a1cb67ac49cde9841a012cd446c2a907baaf04c525f9f3af16421185d9a3dc",
       "geometrySignature": "8f35a21d93a2dc89ccf129e7cbe05add9b1b67f2e68dfdba6e6d7086c395ff7a",
-      "comparisonRevision": "3e1ec927755d8ca2884866abeb3bdff2eefb68750e124213a7a74290c1d03685",
+      "comparisonRevision": "efea60b45fe260b06ad7129c9780401aaf66bd542e65f9cced706d155bc7312f",
       "review": "pending",
       "notes": ""
     },
@@ -5458,7 +5458,7 @@
       ],
       "revision": "5d1445b1939215f9c2140f009761cf21c82abb78b4bfe5e06e43415ebdab254c",
       "geometrySignature": "19849b64bc020082d3f8a02e0791e7d955acb79b8b6a30b283d70462323e23df",
-      "comparisonRevision": "ba9747ee3a1ae2938adb3b5d3532be11a52e31feecbd329032824483b544d63a",
+      "comparisonRevision": "e41e3785a2f439e534bebf3df5e0837f415059a3c233cd8c8ec95eaa08d6daf4",
       "review": "pending",
       "notes": ""
     },
@@ -15547,6 +15547,21 @@
       "notes": ""
     },
     {
+      "id": "microsoft-engage-center-connect",
+      "provider": "azure",
+      "name": "Microsoft Engage Center Connector",
+      "rationale": "An Engage Center connector links assessments and surveys with an Azure Log Analytics workspace.",
+      "path": "stencils/microsoft-engage-center-connect.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/intune/029797391-icon-service-Engage-Center-Connect.svg"
+      ],
+      "revision": "5951f895d61ad768062f6fba6ce1ea5abe3221d12191dfcab5315dd9d7bdde3e",
+      "geometrySignature": "b3ccb4da4d63c2b7ec5242019a68a5046f79c1db58c16bbaf16bd165e98b3d69",
+      "comparisonRevision": "cf46053f21d35c891330db0a8ed857b396e5d9cbeb2b11330af0f40175558fee",
+      "review": "pending",
+      "notes": ""
+    },
+    {
       "id": "microsoft-azure-platform",
       "provider": "azure",
       "name": "Microsoft Azure",
@@ -16397,7 +16412,7 @@
       ],
       "revision": "8899945de69f6e3e60e831adaa68b6a17608209d50838868933ec13ab7fad1b7",
       "geometrySignature": "68a6f6b7edb6bed8982b461afd043ff496f09680e9c4c6ac2fbba8ccef45544c",
-      "comparisonRevision": "eaa8b0965f69d2ff404e917dd322dfebebe4f130d6c12d0d69e55842445948fe",
+      "comparisonRevision": "4def493d4b04d63c507aa706554bee9134c95e893d2fc1c843cf6233efed78cd",
       "review": "pending",
       "notes": ""
     },
@@ -17178,7 +17193,7 @@
       ],
       "revision": "ad2c7e9079217acd5a2e59a2a164df53b9bb40d9c6d6c94e16f33a7ae7b002f0",
       "geometrySignature": "aa2070aa55164284c863b543fb2594c006e921d8a507cdeba54ed9ce7f23b1b5",
-      "comparisonRevision": "d78c3afdea1f8d31832dd6aba2b726c4860287f1950e7d77f12b97299bc79dc6",
+      "comparisonRevision": "75031ac1d75c0c6d9455b40c46d0367aebf8f63f4cbde0ad98f27405997e0348",
       "review": "pending",
       "notes": ""
     },
@@ -17253,7 +17268,7 @@
       ],
       "revision": "4eeab85fed22dcd6154179014ab0cc88e8f2cfd446f7ca9601bb1eef29ce8963",
       "geometrySignature": "c48d2f8cf253a6c8c2bac5e0877652c9e50bc90b5b2317915bb2c9f4afeb534c",
-      "comparisonRevision": "164841c864b8926c34c8abcb302362d81807af23bfdc0432223179b01aa182e4",
+      "comparisonRevision": "863841fabedd34d88935612cde999da6b6d2d2a5f5b16bbeed82838b463fbf1e",
       "review": "pending",
       "notes": ""
     },
@@ -22968,7 +22983,7 @@
       ],
       "revision": "2697f79ce0d8f6b7489d4a388524fdf061b45c26568bc6e39de737ba5a9fd63a",
       "geometrySignature": "2edb9c98bd4fb89de863133d0fa3b75897360847542aa1afda7f14661df50394",
-      "comparisonRevision": "95b7d739fb27c852df02cc63589ed89eb14331150a3bc39d96601e409a5a618e",
+      "comparisonRevision": "e204811c5bd3b72899eca2c7d36d1957714fad05331a091e59923807c47dd5d0",
       "review": "pending",
       "notes": ""
     },
@@ -24861,7 +24876,7 @@
       ],
       "revision": "b68e671a09116aa9e66fdc846d7e87b2a5af82beafb1dcd5e0e97279e97e69f6",
       "geometrySignature": "4365099b3e32511c683795919c16e27c59e65700bf0fbc606e779abf775408b7",
-      "comparisonRevision": "b57415302ce6bf30dee5d5aad2f9db266a2e591684025b3402a887926c524598",
+      "comparisonRevision": "492f6ccd21ed3bc38aa3a680e3332d986e700006091c5238796c563ab19a9e8e",
       "review": "pending",
       "notes": ""
     },
@@ -26062,7 +26077,7 @@
       ],
       "revision": "f357a9d658ce1d780a99f30f132d269d257a4820b64154500f82f1c2b9d0f7d4",
       "geometrySignature": "1981f4f4d4ade5df5d8131434250cc9024212262e7be20b5d8a383ee7e2205e1",
-      "comparisonRevision": "ff2a81c4e597b3bc2cec3677e7076423cacba06f71b17deb798c259f090ab493",
+      "comparisonRevision": "de2c9b52bc5d0b20c3032e348c38e18780b06ac011a5cad112380611144cddeb",
       "review": "pending",
       "notes": ""
     },
@@ -29458,7 +29473,7 @@
       ],
       "revision": "aea89e96a87a06fce9ee8634f6cb64bb6914c5431495e73b278c42a2c2ddbaa7",
       "geometrySignature": "2c540b59ec42300e49be19e049a9cb2a97cc7d96cf576fdbd86f3b50e58a4be8",
-      "comparisonRevision": "ed1cd7a36b4ad2833cf55dbba028634e7f902486908809c0888446b3845f340b",
+      "comparisonRevision": "8a1d130004a5374b6f0698f4fdede9eccf3bfd04ecba524b2d94ee03782b68c8",
       "review": "pending",
       "notes": ""
     },
@@ -35808,7 +35823,7 @@
       ],
       "revision": "254599f9f926be71c29d3c5c057c307fec321388d3d124d05623ac3ad5f74c37",
       "geometrySignature": "6e2d6e3e86d0728fdf37789e03ef66c3e72826e0726fa3f88e61d44853e41aea",
-      "comparisonRevision": "5525b421f60249c6848d0837c6a986031de26240aff4298ecc567c95bba285cb",
+      "comparisonRevision": "558c04a59f2d3fab87081e483892219ecd5f4b32519323ba0a2efde819e55f2b",
       "review": "pending",
       "notes": ""
     },
@@ -36566,7 +36581,7 @@
       ],
       "revision": "1ecaba6a60bf40c034a66f896de2c78c0bfbff792410b8c4e798f9e2f2e73773",
       "geometrySignature": "f9c468e7a85dc994d5377fcf7ef5aca9ba01c8e1f8eaa5ef1b36e454c697dc6d",
-      "comparisonRevision": "1673bad25c40d64fc0b8b85d1c35caa06cd5b0bef17d61a800d26a9110533227",
+      "comparisonRevision": "563973a0e03082b3799606a5089503a13a9eb84cd246787695f30ab1c46e3aeb",
       "review": "pending",
       "notes": ""
     },

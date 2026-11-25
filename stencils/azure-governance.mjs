@@ -1,6 +1,13 @@
 import { rect, oval, line, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
+  // Portal icon mapping: https://learn.microsoft.com/en-us/services-hub/microsoft-engage-center/health/connector-get-started
+  entry("microsoft-engage-center-connect", "azure", "Microsoft Engage Center Connector", ["029797391-icon-service-Engage-Center-Connect"],
+    "An Engage Center connector links assessments and surveys with an Azure Log Analytics workspace.",
+    [
+      rect(14, 23, 38, 58), line([24, 23], [24, 17], [42, 17], [42, 23]), line([21, 38], [26, 43], [32, 36]), line([35, 40], [45, 40]), line([21, 53], [26, 58], [32, 51]), line([35, 55], [45, 55]), line([21, 68], [26, 73], [32, 66]),
+      line([52, 52], [73, 52]), line([67, 46], [73, 52], [67, 58]), rect(77, 31, 34, 41), line([83, 64], [83, 42]), line([83, 64], [105, 64]), line([86, 59], [91, 52], [96, 55], [103, 45]), line([14, 109], [110, 109]),
+    ]),
   entry("microsoft-azure-platform", "azure", "Microsoft Azure", ["10018-icon-service-Azure-A"],
     "Microsoft Azure provides a cloud platform for applications and infrastructure.",
     [
