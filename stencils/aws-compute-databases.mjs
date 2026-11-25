@@ -3,6 +3,60 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsComputeDatabaseArtwork = [
+  entry("aws-aurora-instance", "aws", "Aurora Instance",
+    ["Res_Amazon-Aurora-Instance_48", "Res_Amazon-Aurora_Amazon-Aurora-Instance-alternate_48"],
+    "An Aurora database instance runs within a host.",
+    [
+      rect(15, 20, 92, 72), line([15, 33], [107, 33]), line([23, 26], [27, 26]), line([33, 26], [37, 26]),
+      oval(37, 41, 47, 15), line([37, 48], [37, 73], [43, 78], [60, 80], [77, 78], [84, 73], [84, 48]), line([37, 61], [43, 66], [60, 68], [77, 66], [84, 61]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-rds-instance", "aws", "RDS Instance",
+    ["Res_Amazon-Aurora_Amazon-RDS-Instance_48", "Res_Amazon-Aurora_Amazon-RDS-Instance-Aternate_48"],
+    "A managed database instance is hosted by RDS.",
+    [
+      oval(14, 26, 48, 15), line([14, 33], [14, 78], [21, 83], [38, 85], [55, 83], [62, 78], [62, 33]), line([14, 52], [21, 57], [38, 59], [55, 57], [62, 52]), line([14, 69], [21, 74], [38, 76], [55, 74], [62, 69]),
+      rect(76, 35, 33, 39), line([76, 45], [109, 45]), line([83, 54], [102, 54]), line([83, 64], [96, 64]), line([62, 55], [76, 55]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mariadb-instance", "aws", "MariaDB Instance",
+    ["Res_Amazon-Aurora-MariaDB-Instance_48", "Res_Amazon-Aurora-MariaDB-Instance-Alternate_48"],
+    "A database instance uses the MariaDB engine.",
+    [
+      line([14, 54], [14, 32], [23, 45], [32, 32], [32, 54]), line([39, 54], [39, 32], [48, 32], [54, 43], [48, 54], [39, 54]),
+      oval(60, 44, 49, 16), line([60, 52], [60, 82], [67, 87], [84, 89], [101, 87], [109, 82], [109, 52]), line([60, 67], [67, 72], [84, 74], [101, 72], [109, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-mysql-instance", "aws", "MySQL Instance",
+    ["Res_Amazon-Aurora-MySQL-Instance_48", "Res_Amazon-Aurora-MySQL-Instance-Alternate_48"],
+    "A database instance uses the MySQL engine.",
+    [
+      rect(17, 20, 62, 66), line([17, 32], [79, 32]), line([28, 63], [28, 44], [36, 54], [44, 44], [44, 63]), line([52, 44], [59, 54], [66, 44]), line([59, 54], [59, 63]),
+      oval(74, 54, 35, 12), line([74, 60], [74, 79], [79, 83], [91, 85], [103, 83], [109, 79], [109, 60]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-postgresql-instance", "aws", "PostgreSQL Instance",
+    ["Res_Amazon-Aurora-PostgreSQL-Instance_48", "Res_Amazon-Aurora-PostgreSQL-Instance-Alternate_48"],
+    "A database instance uses the PostgreSQL engine.",
+    [
+      oval(17, 21, 59, 18), line([17, 30], [17, 79], [25, 85], [46, 88], [68, 85], [76, 79], [76, 30]), line([17, 49], [25, 55], [46, 57], [68, 55], [76, 49]),
+      line([35, 69], [35, 44], [45, 44], [51, 49], [48, 56], [35, 56]), line([57, 62], [65, 55], [71, 62], [71, 73], [65, 79], [58, 76]), line([92, 30], [105, 30], [105, 79], [92, 79]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-oracle-db-instance", "aws", "Oracle Database Instance",
+    ["Res_Amazon-Aurora-Oracle-Instance_48", "Res_Amazon-Aurora-Oracle-Instance-Alternate_48"],
+    "A database instance uses the Oracle engine.",
+    [
+      rect(15, 24, 91, 62), line([15, 36], [106, 36]), oval(26, 46, 42, 25), line([75, 46], [75, 73], [84, 73]), oval(82, 49, 16, 16), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-sql-server-instance", "aws", "SQL Server Instance",
+    ["Res_Amazon-Aurora-SQL-Server-Instance_48", "Res_Amazon-Aurora-SQL-Server-Instance-Alternate_48"],
+    "A database instance uses the SQL Server engine.",
+    [
+      rect(17, 20, 89, 69), line([17, 33], [106, 33]), line([25, 26], [29, 26]), line([35, 26], [39, 26]),
+      line([44, 43], [29, 43], [29, 53], [44, 53], [44, 65], [29, 65]), oval(51, 42, 19, 23), line([64, 60], [72, 69]), line([80, 43], [80, 65], [94, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-provisioned-iops-instance", "aws", "Provisioned IOPS Instance", ["Res_Amazon-Aurora-PIOPS-Instance_48"],
+    "Provisioned I/O capacity supports a database instance.",
+    [
+      oval(16, 25, 51, 16), line([16, 33], [16, 78], [23, 83], [41, 85], [60, 83], [67, 78], [67, 33]), line([16, 51], [23, 56], [41, 58], [60, 56], [67, 51]),
+      line([80, 74], [80, 53], [87, 42], [96, 37], [106, 42], [113, 53], [113, 74]), line([96, 69], [105, 50]), oval(92, 65, 8, 8, true), line([14, 109], [110, 109]),
+    ]),
   entry("aws-elasticache-memcached", "aws", "ElastiCache for Memcached", ["Res_Amazon-ElastiCache_ElastiCache-for-Memcached_48"],
     "A memory chip caches key-value entries.",
     [
