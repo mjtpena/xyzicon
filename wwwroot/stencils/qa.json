@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 1351,
-  "aliases": 4386,
+  "count": 1356,
+  "aliases": 4396,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1237,6 +1237,11 @@
     "fabric-window-sparkle-new",
     "fabric-window-math",
     "fabric-window-synapse-link",
+    "fabric-window-tree",
+    "fabric-window-tree-export",
+    "fabric-number-function",
+    "fabric-orientation-vertical",
+    "fabric-rectangle-diff",
     "fabric-database-add",
     "fabric-database-enter",
     "fabric-database-badge-asterisk",
@@ -1520,6 +1525,13 @@
       "notes": "The numerals have different contours: the two has a diagonal baseline and the three has two curved lobes."
     },
     {
+      "a": "fabric-window-tree",
+      "b": "fabric-window-tree-export",
+      "similarity": 0.6744,
+      "review": "distinct",
+      "notes": "The plain tree has a rectangular upper child; the export tree replaces it with a circular outward-arrow badge."
+    },
+    {
       "a": "fabric-window-person",
       "b": "fabric-window-math",
       "similarity": 0.6734,
@@ -1577,8 +1589,8 @@
     },
     "fabric": {
       "sources": 1584,
-      "covered": 1549,
-      "concepts": 353
+      "covered": 1559,
+      "concepts": 358
     },
     "entra": {
       "sources": 14,
@@ -7258,6 +7270,11 @@
     ],
     "gcp-release-notes": [
       {
+        "a": "gcp-release-notes",
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.302
+      },
+      {
         "a": "dynamics-finance",
         "b": "gcp-release-notes",
         "similarity": 0.2853
@@ -7266,11 +7283,6 @@
         "a": "gcp-release-notes",
         "b": "fabric-column-relationship",
         "similarity": 0.2648
-      },
-      {
-        "a": "gcp-release-notes",
-        "b": "gcp-cloud-generic",
-        "similarity": 0.2596
       }
     ],
     "gcp-support": [
@@ -7496,6 +7508,11 @@
     ],
     "gcp-cloud-generic": [
       {
+        "a": "gcp-cloud-generic",
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.2889
+      },
+      {
         "a": "gcp-cloud-scheduler",
         "b": "gcp-cloud-generic",
         "similarity": 0.2881
@@ -7504,11 +7521,6 @@
         "a": "azure-route-tables",
         "b": "gcp-cloud-generic",
         "similarity": 0.2789
-      },
-      {
-        "a": "gcp-cloud-generic",
-        "b": "gcp-firewall-rules",
-        "similarity": 0.2736
       }
     ],
     "gcp-my-cloud": [
@@ -12738,13 +12750,13 @@
       },
       {
         "a": "azure-foundry-application",
-        "b": "aws-category-front-end",
-        "similarity": 0.2182
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.2543
       },
       {
-        "a": "gcp-cloud-generic",
-        "b": "azure-foundry-application",
-        "similarity": 0.2089
+        "a": "azure-foundry-application",
+        "b": "aws-category-front-end",
+        "similarity": 0.2182
       }
     ],
     "azure-foundry-agent-service": [
@@ -12793,9 +12805,9 @@
         "similarity": 0.1746
       },
       {
-        "a": "aws-clean-rooms",
-        "b": "azure-foundry-labs",
-        "similarity": 0.1689
+        "a": "azure-foundry-labs",
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.1723
       }
     ],
     "azure-ai-foundry": [
@@ -22583,9 +22595,9 @@
         "similarity": 0.2021
       },
       {
-        "a": "aws-cloudfront-functions",
-        "b": "fabric-window-relationship-off",
-        "similarity": 0.1947
+        "a": "fabric-window-relationship-off",
+        "b": "fabric-number-function",
+        "similarity": 0.2003
       }
     ],
     "fabric-window-sparkle": [
@@ -22664,6 +22676,95 @@
         "a": "fabric-window-asterisk-new",
         "b": "fabric-window-synapse-link",
         "similarity": 0.6124
+      }
+    ],
+    "fabric-window-tree": [
+      {
+        "a": "fabric-window-tree",
+        "b": "fabric-window-tree-export",
+        "similarity": 0.6744,
+        "review": "distinct",
+        "notes": "The plain tree has a rectangular upper child; the export tree replaces it with a circular outward-arrow badge."
+      },
+      {
+        "a": "gcp-database-migration",
+        "b": "fabric-window-tree",
+        "similarity": 0.2215
+      },
+      {
+        "a": "gcp-apigee",
+        "b": "fabric-window-tree",
+        "similarity": 0.2202
+      }
+    ],
+    "fabric-window-tree-export": [
+      {
+        "a": "fabric-window-tree",
+        "b": "fabric-window-tree-export",
+        "similarity": 0.6744,
+        "review": "distinct",
+        "notes": "The plain tree has a rectangular upper child; the export tree replaces it with a circular outward-arrow badge."
+      },
+      {
+        "a": "gcp-certificate-manager",
+        "b": "fabric-window-tree-export",
+        "similarity": 0.2217
+      },
+      {
+        "a": "gcp-apigee",
+        "b": "fabric-window-tree-export",
+        "similarity": 0.2134
+      }
+    ],
+    "fabric-number-function": [
+      {
+        "a": "fabric-window-math",
+        "b": "fabric-number-function",
+        "similarity": 0.358
+      },
+      {
+        "a": "fabric-window-person",
+        "b": "fabric-number-function",
+        "similarity": 0.313
+      },
+      {
+        "a": "fabric-table-function",
+        "b": "fabric-number-function",
+        "similarity": 0.293
+      }
+    ],
+    "fabric-orientation-vertical": [
+      {
+        "a": "fabric-orientation-vertical",
+        "b": "fabric-square-transfer",
+        "similarity": 0.1949
+      },
+      {
+        "a": "fabric-orientation-vertical",
+        "b": "fabric-receipt-kql",
+        "similarity": 0.1901
+      },
+      {
+        "a": "m365-receipt",
+        "b": "fabric-orientation-vertical",
+        "similarity": 0.1664
+      }
+    ],
+    "fabric-rectangle-diff": [
+      {
+        "a": "gcp-release-notes",
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.302
+      },
+      {
+        "a": "gcp-cloud-generic",
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.2889
+      },
+      {
+        "a": "azure-foundry-application",
+        "b": "fabric-rectangle-diff",
+        "similarity": 0.2543
       }
     ],
     "fabric-database-add": [
