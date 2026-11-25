@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 776,
-  "aliases": 3268,
+  "count": 780,
+  "aliases": 3284,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -477,6 +477,7 @@
     "aws-application-migration",
     "aws-transfer-family",
     "aws-application-discovery",
+    "aws-service-management-connector",
     "aws-devops-agent",
     "aws-application-auto-scaling",
     "aws-auto-scaling",
@@ -667,6 +668,9 @@
     "aws-ec2-image-builder",
     "aws-lightsail",
     "aws-fargate",
+    "aws-iot-expresslink",
+    "aws-freertos",
+    "aws-telco-network-builder",
     "aws-braket",
     "aws-open-3d-engine",
     "aws-ground-station",
@@ -873,8 +877,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1028,
-      "concepts": 255
+      "covered": 1044,
+      "concepts": 259
     },
     "gcp": {
       "sources": 261,
@@ -1027,13 +1031,13 @@
       },
       {
         "a": "fabric-pipeline",
-        "b": "m365-building-multiple",
-        "similarity": 0.1861
+        "b": "aws-service-management-connector",
+        "similarity": 0.1865
       },
       {
         "a": "fabric-pipeline",
-        "b": "azure-host-groups",
-        "similarity": 0.1856
+        "b": "m365-building-multiple",
+        "similarity": 0.1861
       }
     ],
     "fabric-notebook": [
@@ -1486,13 +1490,13 @@
       },
       {
         "a": "dynamics-finance-operations",
-        "b": "fabric-copy-job",
-        "similarity": 0.1964
+        "b": "aws-service-management-connector",
+        "similarity": 0.2038
       },
       {
         "a": "dynamics-finance-operations",
-        "b": "azure-custom-vision",
-        "similarity": 0.1908
+        "b": "fabric-copy-job",
+        "similarity": 0.1964
       }
     ],
     "dynamics-finance": [
@@ -1604,14 +1608,14 @@
         "similarity": 0.2561
       },
       {
+        "a": "dynamics-family",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2304
+      },
+      {
         "a": "dynamics-business-central",
         "b": "dynamics-family",
         "similarity": 0.23
-      },
-      {
-        "a": "dynamics-family",
-        "b": "m365-wallet-card",
-        "similarity": 0.2274
       }
     ],
     "aws-ec2": [
@@ -3543,13 +3547,13 @@
       },
       {
         "a": "azure-event-grid-subscriptions",
-        "b": "m365-payment",
-        "similarity": 0.2132
+        "b": "aws-freertos",
+        "similarity": 0.2317
       },
       {
-        "a": "aws-rds",
-        "b": "azure-event-grid-subscriptions",
-        "similarity": 0.2069
+        "a": "azure-event-grid-subscriptions",
+        "b": "m365-payment",
+        "similarity": 0.2132
       }
     ],
     "aws-glue": [
@@ -5061,8 +5065,8 @@
       },
       {
         "a": "fabric-data-agent",
-        "b": "aws-auto-scaling",
-        "similarity": 0.2307
+        "b": "aws-freertos",
+        "similarity": 0.2379
       }
     ],
     "fabric-data-factory": [
@@ -5600,13 +5604,13 @@
       },
       {
         "a": "azure-sql-elastic-pool",
-        "b": "m365-check",
-        "similarity": 0.2178
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2179
       },
       {
         "a": "azure-sql-elastic-pool",
-        "b": "aws-eks-anywhere",
-        "similarity": 0.2155
+        "b": "m365-check",
+        "similarity": 0.2178
       }
     ],
     "azure-managed-sql": [
@@ -6189,6 +6193,11 @@
     ],
     "aws-ec2-autoscaling": [
       {
+        "a": "aws-ec2-autoscaling",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2356
+      },
+      {
         "a": "dynamics-family",
         "b": "aws-ec2-autoscaling",
         "similarity": 0.2113
@@ -6197,11 +6206,6 @@
         "a": "fabric-lakehouse",
         "b": "aws-ec2-autoscaling",
         "similarity": 0.2082
-      },
-      {
-        "a": "aws-ec2-autoscaling",
-        "b": "aws-sustainability",
-        "similarity": 0.2053
       }
     ],
     "fabric-stream-connector": [
@@ -6279,14 +6283,14 @@
         "similarity": 0.184
       },
       {
+        "a": "fabric-function-set",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.1839
+      },
+      {
         "a": "dynamics-project-operations",
         "b": "fabric-function-set",
         "similarity": 0.1719
-      },
-      {
-        "a": "m365-map",
-        "b": "fabric-function-set",
-        "similarity": 0.1676
       }
     ],
     "fabric-placeholder": [
@@ -7873,6 +7877,11 @@
     "azure-speech": [
       {
         "a": "azure-speech",
+        "b": "aws-telco-network-builder",
+        "similarity": 0.1819
+      },
+      {
+        "a": "azure-speech",
         "b": "azure-translator",
         "similarity": 0.1662
       },
@@ -7880,11 +7889,6 @@
         "a": "azure-speech",
         "b": "aws-corretto",
         "similarity": 0.1634
-      },
-      {
-        "a": "aws-rds",
-        "b": "azure-speech",
-        "similarity": 0.1561
       }
     ],
     "azure-qna": [
@@ -7912,13 +7916,13 @@
       },
       {
         "a": "azure-translator",
-        "b": "aws-infrastructure-composer",
-        "similarity": 0.1923
+        "b": "aws-telco-network-builder",
+        "similarity": 0.2109
       },
       {
         "a": "azure-translator",
-        "b": "azure-automanaged-vm",
-        "similarity": 0.1922
+        "b": "aws-infrastructure-composer",
+        "similarity": 0.1923
       }
     ],
     "azure-language-understanding": [
@@ -8907,6 +8911,23 @@
         "similarity": 0.1825
       }
     ],
+    "aws-service-management-connector": [
+      {
+        "a": "aws-service-management-connector",
+        "b": "aws-devops-agent",
+        "similarity": 0.2446
+      },
+      {
+        "a": "aws-service-management-connector",
+        "b": "aws-device-farm",
+        "similarity": 0.2344
+      },
+      {
+        "a": "aws-cloud9",
+        "b": "aws-service-management-connector",
+        "similarity": 0.2212
+      }
+    ],
     "aws-devops-agent": [
       {
         "a": "aws-devops-agent",
@@ -9192,8 +9213,8 @@
       },
       {
         "a": "aws-sustainability",
-        "b": "fabric-table-wand",
-        "similarity": 0.2208
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2277
       }
     ],
     "aws-managed-grafana": [
@@ -9867,13 +9888,13 @@
       },
       {
         "a": "aws-payment-cryptography",
-        "b": "m365-check",
-        "similarity": 0.2041
+        "b": "aws-telco-network-builder",
+        "similarity": 0.2194
       },
       {
-        "a": "dynamics-family",
-        "b": "aws-payment-cryptography",
-        "similarity": 0.2034
+        "a": "aws-payment-cryptography",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2071
       }
     ],
     "aws-cloud-directory": [
@@ -11605,14 +11626,14 @@
         "similarity": 0.2376
       },
       {
+        "a": "gcp-category-web-mobile",
+        "b": "aws-freertos",
+        "similarity": 0.2324
+      },
+      {
         "a": "m365-apps-list",
         "b": "gcp-category-web-mobile",
         "similarity": 0.2152
-      },
-      {
-        "a": "aws-identity-center",
-        "b": "gcp-category-web-mobile",
-        "similarity": 0.2148
       }
     ],
     "gcp-category-web3": [
@@ -12163,6 +12184,57 @@
         "a": "aws-trusted-advisor",
         "b": "aws-fargate",
         "similarity": 0.1678
+      }
+    ],
+    "aws-iot-expresslink": [
+      {
+        "a": "aws-ec2-autoscaling",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2356
+      },
+      {
+        "a": "dynamics-family",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2304
+      },
+      {
+        "a": "aws-sustainability",
+        "b": "aws-iot-expresslink",
+        "similarity": 0.2277
+      }
+    ],
+    "aws-freertos": [
+      {
+        "a": "fabric-data-agent",
+        "b": "aws-freertos",
+        "similarity": 0.2379
+      },
+      {
+        "a": "gcp-category-web-mobile",
+        "b": "aws-freertos",
+        "similarity": 0.2324
+      },
+      {
+        "a": "azure-event-grid-subscriptions",
+        "b": "aws-freertos",
+        "similarity": 0.2317
+      }
+    ],
+    "aws-telco-network-builder": [
+      {
+        "a": "aws-payment-cryptography",
+        "b": "aws-telco-network-builder",
+        "similarity": 0.2194
+      },
+      {
+        "a": "azure-translator",
+        "b": "aws-telco-network-builder",
+        "similarity": 0.2109
+      },
+      {
+        "a": "m365-check",
+        "b": "aws-telco-network-builder",
+        "similarity": 0.1993
       }
     ],
     "aws-braket": [

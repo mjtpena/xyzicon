@@ -3,6 +3,40 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsEdgeComputeArtwork = [
+  entry("aws-iot-expresslink", "aws", "AWS IoT ExpressLink", sizes("AWS-IoT-ExpressLink"),
+    "A connectivity module securely links an embedded sensor to the cloud.",
+    [
+      oval(8, 52, 20, 20), line([18, 72], [18, 86]), line([10, 86], [26, 86]),
+      line([28, 62], [44, 62]), line([38, 56], [44, 62], [38, 68]),
+      rect(48, 41, 34, 41), line([42, 48], [48, 48]), line([42, 56], [48, 56]),
+      line([42, 68], [48, 68]), line([42, 76], [48, 76]), line([82, 48], [88, 48]), line([82, 76], [88, 76]),
+      rect(57, 57, 16, 15), line([60, 57], [60, 51], [65, 47], [70, 51], [70, 57]),
+      line([88, 62], [99, 62], [99, 47]),
+      line([91, 42], [87, 36], [89, 29], [96, 27], [100, 19], [108, 18], [114, 24], [116, 31], [121, 34], [121, 41], [117, 46], [95, 46]),
+      line([14, 102], [111, 102]),
+    ]),
+  entry("aws-freertos", "aws", "FreeRTOS", sizes("FreeRTOS"),
+    "An embedded processor schedules time-sensitive tasks.",
+    [
+      rect(15, 20, 43, 48), line([9, 29], [15, 29]), line([9, 39], [15, 39]), line([9, 49], [15, 49]), line([9, 59], [15, 59]),
+      line([58, 29], [64, 29]), line([58, 39], [64, 39]), line([58, 49], [64, 49]), line([58, 59], [64, 59]),
+      oval(24, 31, 24, 24), line([36, 36], [36, 43], [42, 47]),
+      line([65, 46], [77, 46]), line([71, 40], [77, 46], [71, 52]),
+      line([81, 31], [115, 31]), line([81, 45], [115, 45]), line([81, 59], [115, 59]),
+      rect(84, 26, 11, 10, true), rect(99, 40, 11, 10), rect(88, 54, 17, 10),
+      line([17, 91], [110, 91]), line([17, 101], [82, 101]),
+    ]),
+  entry("aws-telco-network-builder", "aws", "AWS Telco Network Builder", sizes("AWS-Telco-Network-Builder"),
+    "A deployment plan assembles network functions for a telecom tower.",
+    [
+      line([10, 18], [45, 18], [54, 27], [54, 86], [10, 86], [10, 18]),
+      line([45, 18], [45, 27], [54, 27]), line([18, 37], [46, 37]), line([18, 47], [40, 47]), line([18, 57], [46, 57]),
+      line([18, 69], [25, 69]), line([31, 69], [38, 69]),
+      line([54, 52], [68, 52]), line([62, 46], [68, 52], [62, 58]),
+      line([79, 91], [96, 42], [113, 91]), line([84, 75], [108, 75]), line([88, 63], [104, 63]),
+      oval(92, 33, 8, 8, true), line([85, 29], [80, 36], [80, 43]), line([107, 29], [112, 36], [112, 43]),
+      line([68, 102], [121, 102]), line([15, 102], [53, 102]),
+    ]),
   entry("aws-braket", "aws", "Amazon Braket", sizes("Amazon-Braket"),
     "A quantum circuit feeds a quantum processing unit.",
     [

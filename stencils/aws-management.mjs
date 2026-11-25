@@ -3,6 +3,18 @@ import { rect, oval, line, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsManagementArtwork = [
+  entry("aws-service-management-connector", "aws", "AWS Service Management Connector", sizes("AWS-Service-Management-Connector"),
+    "A ticketing system exchanges service requests with cloud operations.",
+    [
+      line([11, 25], [47, 25], [57, 35], [57, 95], [11, 95], [11, 25]),
+      line([47, 25], [47, 35], [57, 35]), line([19, 46], [49, 46]), line([19, 57], [42, 57]), line([19, 68], [49, 68]),
+      line([64, 47], [82, 47]), line([76, 41], [82, 47], [76, 53]),
+      line([82, 65], [64, 65]), line([70, 59], [64, 65], [70, 71]),
+      rect(86, 24, 31, 71), line([86, 38], [117, 38]), line([86, 52], [117, 52]),
+      line([86, 66], [117, 66]), line([86, 80], [117, 80]),
+      oval(91, 29, 4, 4, true), oval(91, 43, 4, 4), oval(91, 57, 4, 4),
+      line([18, 108], [110, 108]),
+    ]),
   entry("aws-devops-agent", "aws", "AWS DevOps Agent", sizes("AWS-DevOps-Agent"),
     "An assistant investigates an incident across a service trace.",
     [
