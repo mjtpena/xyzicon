@@ -3,13 +3,14 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 90,
+  "approved": 89,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
     "fabric-notebook",
     "m365-upload",
     "m365-download",
+    "azure-collaborative-service",
     "azure-blockchain-applications",
     "azure-blockchain-outbound",
     "azure-blockchain-service",
@@ -3931,6 +3932,11 @@
     "azure-collaborative-service": [
       {
         "a": "azure-collaborative-service",
+        "b": "azure-blockchain-consortium",
+        "similarity": 0.2659
+      },
+      {
+        "a": "azure-collaborative-service",
         "b": "gcp-early-access",
         "similarity": 0.2378
       },
@@ -3938,11 +3944,6 @@
         "a": "azure-collaborative-service",
         "b": "azure-power-up",
         "similarity": 0.2291
-      },
-      {
-        "a": "azure-collaborative-service",
-        "b": "gcp-cloud-ops",
-        "similarity": 0.2276
       }
     ],
     "azure-applens": [
@@ -3982,103 +3983,103 @@
     "azure-blockchain-applications": [
       {
         "a": "azure-blockchain-applications",
-        "b": "fabric-receipt-kql-new",
-        "similarity": 0.2686
+        "b": "aws-rekognition-video",
+        "similarity": 0.2865
       },
       {
         "a": "azure-blockchain-applications",
-        "b": "gcp-early-access",
-        "similarity": 0.2681
+        "b": "aws-rtb-fabric",
+        "similarity": 0.2415
       },
       {
         "a": "azure-blockchain-applications",
-        "b": "gcp-cloud-gpu",
-        "similarity": 0.2472
+        "b": "fabric-column-inline",
+        "similarity": 0.2328
       }
     ],
     "azure-blockchain-outbound": [
       {
         "a": "azure-blockchain-outbound",
-        "b": "aws-xray",
-        "similarity": 0.1802
+        "b": "aws-health-omics",
+        "similarity": 0.219
       },
       {
         "a": "azure-blockchain-outbound",
-        "b": "aws-artifact",
-        "similarity": 0.1728
+        "b": "azure-traffic-manager-multistack",
+        "similarity": 0.2044
       },
       {
         "a": "azure-blockchain-outbound",
-        "b": "m365-folders",
-        "similarity": 0.1617
+        "b": "aws-file-cache-on-premises",
+        "similarity": 0.2004
       }
     ],
     "azure-blockchain-service": [
       {
         "a": "azure-blockchain-service",
-        "b": "aws-elemental-conductor",
-        "similarity": 0.2806
-      },
-      {
-        "a": "azure-arc-kubernetes",
-        "b": "azure-blockchain-service",
-        "similarity": 0.2789
+        "b": "azure-code",
+        "similarity": 0.3394
       },
       {
         "a": "azure-blockchain-service",
-        "b": "azure-universal-print",
-        "similarity": 0.2648
+        "b": "aws-backup-plan",
+        "similarity": 0.3329
+      },
+      {
+        "a": "azure-blockchain-service",
+        "b": "azure-service-catalog-mad",
+        "similarity": 0.3036
       }
     ],
     "azure-blockchain-token": [
       {
         "a": "azure-blockchain-token",
-        "b": "fabric-pipeline-note",
-        "similarity": 0.226
+        "b": "aws-rds-blue-green",
+        "similarity": 0.2913
       },
       {
         "a": "azure-blockchain-token",
-        "b": "azure-managed-database",
-        "similarity": 0.2194
+        "b": "aws-ec2-microservice-extractor",
+        "similarity": 0.2776
       },
       {
         "a": "azure-blockchain-token",
-        "b": "fabric-library-globe",
-        "similarity": 0.2036
+        "b": "aws-dynamodb-accelerator",
+        "similarity": 0.2599
       }
     ],
     "azure-blockchain-member": [
       {
-        "a": "azure-blockchain-member",
-        "b": "aws-ec2-ami",
-        "similarity": 0.2516
+        "a": "azure-user-settings",
+        "b": "azure-blockchain-member",
+        "similarity": 0.2551
       },
       {
         "a": "azure-blockchain-member",
-        "b": "azure-network-foundation-hub",
-        "similarity": 0.2447
+        "b": "azure-redis-cache",
+        "similarity": 0.2479
       },
       {
         "a": "azure-blockchain-member",
-        "b": "fabric-signal-tower",
-        "similarity": 0.2395
+        "b": "gcp-datastore",
+        "similarity": 0.2421
       }
     ],
     "azure-blockchain-consortium": [
       {
-        "a": "azure-blockchain-consortium",
-        "b": "azure-power-up",
-        "similarity": 0.2807
+        "a": "azure-collaborative-service",
+        "b": "azure-blockchain-consortium",
+        "similarity": 0.2659
       },
       {
         "a": "azure-blockchain-consortium",
-        "b": "gcp-cloud-ops",
-        "similarity": 0.2334
+        "b": "aws-sagemaker-geospatial",
+        "similarity": 0.252
       },
       {
         "a": "azure-blockchain-consortium",
-        "b": "aws-general-sdk",
-        "similarity": 0.2156
+        "b": "aws-location-map",
+        "similarity": 0.2486
       }
     ],
     "azure-confidential-clean-rooms": [
@@ -7357,9 +7358,9 @@
         "similarity": 0.1836
       },
       {
-        "a": "gcp-cloud-composer",
-        "b": "gcp-genomics",
-        "similarity": 0.1767
+        "a": "azure-blockchain-consortium",
+        "b": "gcp-cloud-composer",
+        "similarity": 0.1806
       }
     ],
     "gcp-dataplex": [
@@ -7471,14 +7472,14 @@
         "similarity": 0.2516
       },
       {
+        "a": "azure-blockchain-consortium",
+        "b": "gcp-anthos-config-management",
+        "similarity": 0.2456
+      },
+      {
         "a": "gcp-anthos-config-management",
         "b": "aws-cloudsearch-documents",
         "similarity": 0.2439
-      },
-      {
-        "a": "azure-blockchain-applications",
-        "b": "gcp-anthos-config-management",
-        "similarity": 0.2405
       }
     ],
     "gcp-anthos-service-mesh": [
@@ -7539,14 +7540,14 @@
         "similarity": 0.2431
       },
       {
+        "a": "azure-blockchain-applications",
+        "b": "gcp-automl",
+        "similarity": 0.2249
+      },
+      {
         "a": "gcp-automl",
         "b": "gcp-maps-platform",
         "similarity": 0.2185
-      },
-      {
-        "a": "azure-blockchain-consortium",
-        "b": "gcp-automl",
-        "similarity": 0.2108
       }
     ],
     "gcp-automl-language": [
@@ -9285,11 +9286,6 @@
     ],
     "gcp-early-access": [
       {
-        "a": "azure-blockchain-applications",
-        "b": "gcp-early-access",
-        "similarity": 0.2681
-      },
-      {
         "a": "gcp-early-access",
         "b": "aws-general-sdk",
         "similarity": 0.2671
@@ -9298,6 +9294,11 @@
         "a": "gcp-early-access",
         "b": "gcp-onboarding",
         "similarity": 0.2593
+      },
+      {
+        "a": "gcp-early-access",
+        "b": "azure-power-up",
+        "similarity": 0.2592
       }
     ],
     "gcp-beyondcorp": [
@@ -9489,6 +9490,11 @@
     ],
     "gcp-launcher": [
       {
+        "a": "azure-blockchain-consortium",
+        "b": "gcp-launcher",
+        "similarity": 0.2392
+      },
+      {
         "a": "gcp-launcher",
         "b": "azure-power-up",
         "similarity": 0.2382
@@ -9497,11 +9503,6 @@
         "a": "gcp-launcher",
         "b": "fabric-cube-cone-sphere",
         "similarity": 0.1993
-      },
-      {
-        "a": "gcp-launcher",
-        "b": "fabric-home-kql",
-        "similarity": 0.1766
       }
     ],
     "gcp-onboarding": [
@@ -9618,9 +9619,9 @@
         "similarity": 0.2554
       },
       {
-        "a": "azure-blockchain-applications",
+        "a": "gcp-security-scanner",
         "b": "gcp-cloud-gpu",
-        "similarity": 0.2472
+        "similarity": 0.2446
       }
     ],
     "gcp-firewall-rules": [
@@ -9720,9 +9721,9 @@
         "similarity": 0.2617
       },
       {
-        "a": "gcp-cloud-audit-logs",
-        "b": "aws-outposts-rack",
-        "similarity": 0.2291
+        "a": "azure-blockchain-applications",
+        "b": "gcp-cloud-audit-logs",
+        "similarity": 0.2294
       }
     ],
     "gcp-certificate-manager": [
@@ -12000,14 +12001,14 @@
         "similarity": 0.258
       },
       {
-        "a": "azure-redis-cache",
-        "b": "fabric-signal-tower",
-        "similarity": 0.2418
+        "a": "azure-blockchain-member",
+        "b": "azure-redis-cache",
+        "similarity": 0.2479
       },
       {
         "a": "azure-redis-cache",
-        "b": "aws-textract-lending",
-        "similarity": 0.2377
+        "b": "fabric-signal-tower",
+        "similarity": 0.2418
       }
     ],
     "azure-instance-pools": [
@@ -12675,6 +12676,11 @@
     ],
     "aws-rds-blue-green": [
       {
+        "a": "azure-blockchain-token",
+        "b": "aws-rds-blue-green",
+        "similarity": 0.2913
+      },
+      {
         "a": "aws-rds-blue-green",
         "b": "azure-workspace-gateway",
         "similarity": 0.2872
@@ -12683,11 +12689,6 @@
         "a": "aws-rds-blue-green",
         "b": "azure-power-platform",
         "similarity": 0.2837
-      },
-      {
-        "a": "aws-rds-blue-green",
-        "b": "aws-thinkbox-deadline",
-        "similarity": 0.2778
       }
     ],
     "aws-glue-ray": [
@@ -14674,9 +14675,9 @@
         "similarity": 0.1889
       },
       {
-        "a": "m365-top-speed",
-        "b": "aws-category-customer-enablement",
-        "similarity": 0.1767
+        "a": "azure-blockchain-outbound",
+        "b": "m365-top-speed",
+        "similarity": 0.1799
       }
     ],
     "m365-wallet-card": [
@@ -14885,6 +14886,11 @@
     ],
     "aws-rekognition-video": [
       {
+        "a": "azure-blockchain-applications",
+        "b": "aws-rekognition-video",
+        "similarity": 0.2865
+      },
+      {
         "a": "azure-subnet",
         "b": "aws-rekognition-video",
         "similarity": 0.2268
@@ -14893,11 +14899,6 @@
         "a": "aws-rekognition-video",
         "b": "aws-category-financial",
         "similarity": 0.224
-      },
-      {
-        "a": "aws-rekognition-video",
-        "b": "aws-sagemaker-geospatial",
-        "similarity": 0.2227
       }
     ],
     "aws-sagemaker-canvas": [
@@ -16828,14 +16829,14 @@
         "similarity": 0.1819
       },
       {
-        "a": "azure-speech",
-        "b": "azure-translator",
-        "similarity": 0.1662
+        "a": "azure-blockchain-token",
+        "b": "azure-speech",
+        "similarity": 0.18
       },
       {
         "a": "azure-speech",
-        "b": "aws-corretto",
-        "similarity": 0.1634
+        "b": "azure-translator",
+        "similarity": 0.1662
       }
     ],
     "azure-qna": [
@@ -23300,11 +23301,6 @@
     ],
     "aws-location-place": [
       {
-        "a": "azure-blockchain-applications",
-        "b": "aws-location-place",
-        "similarity": 0.2063
-      },
-      {
         "a": "aws-location-place",
         "b": "fabric-not-equal-circle",
         "similarity": 0.1868
@@ -23313,6 +23309,11 @@
         "a": "azure-serverless-search",
         "b": "aws-location-place",
         "similarity": 0.1776
+      },
+      {
+        "a": "gcp-cloud-run-anthos",
+        "b": "aws-location-place",
+        "similarity": 0.1713
       }
     ],
     "aws-location-routes": [
@@ -27611,9 +27612,9 @@
         "similarity": 0.2476
       },
       {
-        "a": "azure-blockchain-applications",
+        "a": "aws-cost-usage-report",
         "b": "aws-cloud-directory",
-        "similarity": 0.2461
+        "similarity": 0.213
       }
     ],
     "aws-file-cache": [
@@ -29449,14 +29450,14 @@
         "similarity": 0.2954
       },
       {
+        "a": "azure-blockchain-applications",
+        "b": "aws-rtb-fabric",
+        "similarity": 0.2415
+      },
+      {
         "a": "gcp-cloud-gpu",
         "b": "aws-rtb-fabric",
         "similarity": 0.2245
-      },
-      {
-        "a": "aws-rtb-fabric",
-        "b": "aws-category-hybrid",
-        "similarity": 0.219
       }
     ],
     "aws-private-subnet": [
@@ -31116,6 +31117,11 @@
     ],
     "aws-ec2-microservice-extractor": [
       {
+        "a": "azure-blockchain-token",
+        "b": "aws-ec2-microservice-extractor",
+        "similarity": 0.2776
+      },
+      {
         "a": "aws-thinkbox-deadline",
         "b": "aws-ec2-microservice-extractor",
         "similarity": 0.2568
@@ -31124,11 +31130,6 @@
         "a": "aws-ec2-microservice-extractor",
         "b": "fabric-board-lightning-sparkle",
         "similarity": 0.2535
-      },
-      {
-        "a": "aws-ec2-microservice-extractor",
-        "b": "aws-ec2-elastic-ip",
-        "similarity": 0.2519
       }
     ],
     "aws-ec2-auto-scaling": [
@@ -31619,9 +31620,9 @@
         "similarity": 0.2395
       },
       {
-        "a": "gcp-onboarding",
+        "a": "azure-blockchain-consortium",
         "b": "aws-category-security",
-        "similarity": 0.2211
+        "similarity": 0.2252
       }
     ],
     "aws-elastic-inference": [
@@ -31677,6 +31678,11 @@
     ],
     "aws-category-customer-experience": [
       {
+        "a": "azure-blockchain-member",
+        "b": "aws-category-customer-experience",
+        "similarity": 0.1815
+      },
+      {
         "a": "m365-shifts",
         "b": "aws-category-customer-experience",
         "similarity": 0.1804
@@ -31685,11 +31691,6 @@
         "a": "gcp-trace",
         "b": "aws-category-customer-experience",
         "similarity": 0.1694
-      },
-      {
-        "a": "aws-xray",
-        "b": "aws-category-customer-experience",
-        "similarity": 0.1639
       }
     ],
     "aws-category-hybrid": [
@@ -31704,9 +31705,9 @@
         "similarity": 0.2338
       },
       {
-        "a": "gcp-cloud-run-anthos",
+        "a": "azure-blockchain-applications",
         "b": "aws-category-hybrid",
-        "similarity": 0.229
+        "similarity": 0.232
       }
     ],
     "aws-category-migration": [
@@ -33666,11 +33667,6 @@
     ],
     "azure-power-up": [
       {
-        "a": "azure-blockchain-consortium",
-        "b": "azure-power-up",
-        "similarity": 0.2807
-      },
-      {
         "a": "gcp-cloud-ops",
         "b": "azure-power-up",
         "similarity": 0.2638
@@ -33679,6 +33675,11 @@
         "a": "gcp-early-access",
         "b": "azure-power-up",
         "similarity": 0.2592
+      },
+      {
+        "a": "fabric-book-database",
+        "b": "azure-power-up",
+        "similarity": 0.2508
       }
     ],
     "azure-folder-blank": [
@@ -35099,14 +35100,14 @@
         "similarity": 0.1916
       },
       {
-        "a": "azure-blockchain-consortium",
-        "b": "azure-mesh-applications",
-        "similarity": 0.1822
-      },
-      {
         "a": "aws-category-games",
         "b": "azure-mesh-applications",
         "similarity": 0.1784
+      },
+      {
+        "a": "aws-partner-central",
+        "b": "azure-mesh-applications",
+        "similarity": 0.1736
       }
     ],
     "azure-cloud-services-classic": [
@@ -36896,14 +36897,14 @@
         "similarity": 0.2845
       },
       {
-        "a": "fabric-notebook-globe",
-        "b": "fabric-rectangle-list-asterisk",
-        "similarity": 0.2632
+        "a": "azure-blockchain-service",
+        "b": "fabric-notebook-globe",
+        "similarity": 0.2666
       },
       {
         "a": "fabric-notebook-globe",
-        "b": "fabric-window-sparkle-new",
-        "similarity": 0.2461
+        "b": "fabric-rectangle-list-asterisk",
+        "similarity": 0.2632
       }
     ],
     "fabric-list-asterisk": [
@@ -37758,11 +37759,6 @@
     ],
     "fabric-receipt-kql-new": [
       {
-        "a": "azure-blockchain-applications",
-        "b": "fabric-receipt-kql-new",
-        "similarity": 0.2686
-      },
-      {
         "a": "fabric-notebook",
         "b": "fabric-receipt-kql-new",
         "similarity": 0.2657
@@ -37771,6 +37767,11 @@
         "a": "aws-well-architected-tool",
         "b": "fabric-receipt-kql-new",
         "similarity": 0.2351
+      },
+      {
+        "a": "fabric-signal-square",
+        "b": "fabric-receipt-kql-new",
+        "similarity": 0.2318
       }
     ],
     "fabric-tables-curve-right": [
@@ -39454,14 +39455,14 @@
         "similarity": 0.3556
       },
       {
+        "a": "azure-blockchain-service",
+        "b": "fabric-folder-share",
+        "similarity": 0.2983
+      },
+      {
         "a": "gcp-external-key-manager",
         "b": "fabric-folder-share",
         "similarity": 0.2947
-      },
-      {
-        "a": "azure-free-services",
-        "b": "fabric-folder-share",
-        "similarity": 0.2904
       }
     ],
     "fabric-database-checkmark": [
