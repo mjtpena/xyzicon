@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 977,
-  "aliases": 3721,
+  "count": 981,
+  "aliases": 3725,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -711,6 +711,10 @@
     "m365-number-circle-two",
     "m365-number-circle-three",
     "m365-number-circle-four",
+    "aws-cloudfront-download",
+    "aws-cloudfront-edge-location",
+    "aws-cloudfront-functions",
+    "aws-cloudfront-streaming",
     "aws-vpc-nat-gateway",
     "aws-vpc-internet-gateway",
     "aws-vpc-traffic-mirroring",
@@ -1081,8 +1085,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 1296,
-      "concepts": 328
+      "covered": 1300,
+      "concepts": 332
     },
     "gcp": {
       "sources": 261,
@@ -3942,9 +3946,9 @@
         "similarity": 0.2018
       },
       {
-        "a": "entra-private-access",
-        "b": "aws-data-firehose",
-        "similarity": 0.1812
+        "a": "aws-data-firehose",
+        "b": "aws-cloudfront-streaming",
+        "similarity": 0.1923
       }
     ],
     "aws-appsync": [
@@ -4316,9 +4320,9 @@
         "similarity": 0.2456
       },
       {
-        "a": "m365-attach",
-        "b": "m365-document-text",
-        "similarity": 0.2379
+        "a": "m365-document-text",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2387
       }
     ],
     "m365-flag": [
@@ -10018,6 +10022,11 @@
     ],
     "aws-red-hat-openshift": [
       {
+        "a": "aws-red-hat-openshift",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2578
+      },
+      {
         "a": "m365-organization",
         "b": "aws-red-hat-openshift",
         "similarity": 0.2449
@@ -10026,11 +10035,6 @@
         "a": "aws-red-hat-openshift",
         "b": "azure-management-groups",
         "similarity": 0.24
-      },
-      {
-        "a": "fabric-scorecard",
-        "b": "aws-red-hat-openshift",
-        "similarity": 0.2348
       }
     ],
     "aws-cloud-control": [
@@ -11158,6 +11162,11 @@
     "aws-organizations": [
       {
         "a": "aws-organizations",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2639
+      },
+      {
+        "a": "aws-organizations",
         "b": "aws-parallel-cluster",
         "similarity": 0.2126
       },
@@ -11165,11 +11174,6 @@
         "a": "aws-organizations",
         "b": "aws-mediatailor",
         "similarity": 0.2123
-      },
-      {
-        "a": "aws-organizations",
-        "b": "fabric-column-inline",
-        "similarity": 0.2049
       }
     ],
     "aws-health-dashboard": [
@@ -12791,6 +12795,11 @@
     "m365-cloud-add": [
       {
         "a": "m365-cloud-add",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.1123
+      },
+      {
+        "a": "m365-cloud-add",
         "b": "fabric-database-pulse",
         "similarity": 0.1123
       },
@@ -12798,11 +12807,6 @@
         "a": "m365-cloud-add",
         "b": "fabric-diagram-sync",
         "similarity": 0.1119
-      },
-      {
-        "a": "m365-cloud-add",
-        "b": "m365-cloud-beaker",
-        "similarity": 0.1118
       }
     ],
     "m365-cloud-download": [
@@ -13115,6 +13119,74 @@
         "a": "m365-arrow-circle-left",
         "b": "m365-number-circle-four",
         "similarity": 0.5942
+      }
+    ],
+    "aws-cloudfront-download": [
+      {
+        "a": "aws-organizations",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2639
+      },
+      {
+        "a": "aws-red-hat-openshift",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2578
+      },
+      {
+        "a": "m365-document-text",
+        "b": "aws-cloudfront-download",
+        "similarity": 0.2387
+      }
+    ],
+    "aws-cloudfront-edge-location": [
+      {
+        "a": "gcp-alloydb",
+        "b": "aws-cloudfront-edge-location",
+        "similarity": 0.242
+      },
+      {
+        "a": "aws-deep-learning-containers",
+        "b": "aws-cloudfront-edge-location",
+        "similarity": 0.2265
+      },
+      {
+        "a": "aws-health-imaging",
+        "b": "aws-cloudfront-edge-location",
+        "similarity": 0.2043
+      }
+    ],
+    "aws-cloudfront-functions": [
+      {
+        "a": "aws-cloudfront-functions",
+        "b": "azure-compute-galleries",
+        "similarity": 0.2504
+      },
+      {
+        "a": "aws-cloudfront-functions",
+        "b": "azure-app-service-plans",
+        "similarity": 0.245
+      },
+      {
+        "a": "m365-apps-list",
+        "b": "aws-cloudfront-functions",
+        "similarity": 0.2337
+      }
+    ],
+    "aws-cloudfront-streaming": [
+      {
+        "a": "gcp-cloud-code",
+        "b": "aws-cloudfront-streaming",
+        "similarity": 0.2272
+      },
+      {
+        "a": "aws-backint-agent",
+        "b": "aws-cloudfront-streaming",
+        "similarity": 0.2213
+      },
+      {
+        "a": "aws-migration-evaluator",
+        "b": "aws-cloudfront-streaming",
+        "similarity": 0.2186
       }
     ],
     "aws-vpc-nat-gateway": [
@@ -15017,14 +15089,14 @@
         "similarity": 0.1845
       },
       {
+        "a": "aws-cloudfront-download",
+        "b": "aws-ground-station",
+        "similarity": 0.1796
+      },
+      {
         "a": "aws-ground-station",
         "b": "fabric-window-asterisk",
         "similarity": 0.165
-      },
-      {
-        "a": "aws-trusted-advisor",
-        "b": "aws-ground-station",
-        "similarity": 0.1624
       }
     ],
     "aws-local-zones": [

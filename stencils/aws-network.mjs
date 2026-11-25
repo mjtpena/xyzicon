@@ -3,6 +3,46 @@ import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsNetworkArtwork = [
+  entry("aws-cloudfront-download", "aws", "CloudFront Download Distribution", ["Res_Amazon-CloudFront_Download-Distribution_48"],
+    "A downloadable file is distributed to multiple clients.",
+    [
+      line([49, 13], [78, 13], [89, 24], [89, 47], [49, 47], [49, 13]), line([78, 13], [78, 24], [89, 24]),
+      line([56, 32], [81, 32]), line([69, 47], [69, 61], [32, 61], [32, 74]), line([69, 61], [103, 61], [103, 74]),
+      line([26, 68], [32, 74], [38, 68]), line([97, 68], [103, 74], [109, 68]),
+      rect(15, 75, 35, 25), line([15, 83], [50, 83]), line([22, 91], [43, 91]),
+      rect(86, 75, 35, 25), line([86, 83], [121, 83]), line([93, 91], [114, 91]),
+      line([20, 112], [109, 112]),
+    ]),
+  entry("aws-cloudfront-edge-location", "aws", "CloudFront Edge Location", ["Res_Amazon-CloudFront_Edge-Location_48"],
+    "An edge cache sits near a geographic location.",
+    [
+      line([37, 15], [25, 19], [19, 28], [19, 39], [25, 50], [37, 63], [49, 50], [55, 39], [55, 28], [49, 19], [37, 15]),
+      oval(30, 25, 14, 14), line([37, 63], [37, 73], [58, 73]),
+      rect(59, 52, 56, 39), line([59, 65], [115, 65]), line([59, 78], [115, 78]),
+      oval(65, 56, 5, 5, true), oval(65, 69, 5, 5), oval(65, 82, 5, 5),
+      line([77, 59], [107, 59]), line([77, 72], [107, 72]), line([77, 85], [102, 85]),
+      line([19, 109], [109, 109]),
+    ]),
+  entry("aws-cloudfront-functions", "aws", "CloudFront Functions", ["Res_Amazon-CloudFront_Functions_48"],
+    "A lightweight function runs close to a network edge.",
+    [
+      oval(13, 30, 70, 70), line([17, 53], [72, 53]), line([17, 77], [79, 77]),
+      line([48, 30], [35, 44], [31, 65], [35, 86], [48, 100]),
+      line([48, 30], [60, 44], [64, 65], [60, 86], [48, 100]),
+      rect(71, 17, 45, 36), line([71, 27], [116, 27]),
+      line([82, 33], [77, 38], [82, 43]), line([104, 33], [109, 38], [104, 43]), line([97, 31], [89, 45]),
+      line([74, 60], [83, 53]), line([20, 112], [109, 112]),
+    ]),
+  entry("aws-cloudfront-streaming", "aws", "CloudFront Streaming Distribution", ["Res_Amazon-CloudFront_Streaming-Distribution_48"],
+    "A live video stream reaches a viewer over a wireless edge connection.",
+    [
+      rect(9, 26, 58, 49), line([9, 37], [67, 37]), line([30, 44], [30, 66], [49, 55], [30, 44]),
+      line([22, 75], [22, 84], [54, 84], [54, 75]), line([15, 84], [61, 84]),
+      line([72, 41], [79, 48], [81, 56], [79, 64], [72, 71]),
+      line([78, 32], [88, 42], [92, 56], [88, 70], [78, 80]),
+      rect(96, 31, 24, 49), line([96, 70], [120, 70]), line([104, 35], [112, 35]),
+      line([19, 109], [109, 109]),
+    ]),
   entry("aws-vpc-nat-gateway", "aws", "VPC NAT Gateway", ["Res_Amazon-VPC_NAT-Gateway_48"],
     "Private hosts share an outgoing translated address through a gateway.",
     [

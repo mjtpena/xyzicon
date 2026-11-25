@@ -2825,7 +2825,7 @@
       ],
       "revision": "40d67e35d7ca30372ed94f5f88f293c14e477f6cea93205a3b0a928b67aaa1b4",
       "geometrySignature": "7935a3ed0cd09db80bf0ee5d3919fc3e5fe6aff3499ac6d11a513a9feefba57c",
-      "comparisonRevision": "b5d94cf4e2395b183800f8e61fbce404d03aa8db06ce89557638f6b4a84b06ab",
+      "comparisonRevision": "32f423a60e52783c8f293b3b25585d1c70c234bc245ac4169b45d6b191c482eb",
       "review": "pending",
       "notes": ""
     },
@@ -3239,7 +3239,7 @@
       ],
       "revision": "de38ed0bc5bf9dfcb77b17c62db8296df346eaf85c37b5cc1a5c51e20ba00268",
       "geometrySignature": "cdbbe8f28358d37204929acdeed2ea564c7dc65af435ae510836311e3b51b2b0",
-      "comparisonRevision": "0b213a5302df932267765f41745790c6a6dd1e0ffc1e54a9b63bdb4c0bb86128",
+      "comparisonRevision": "8df4e34fde25dd123edb105e5fe53ca4325685e9b863c5dbacf793d2ea9f657c",
       "review": "pending",
       "notes": ""
     },
@@ -9369,7 +9369,7 @@
       ],
       "revision": "dc6087db5a0b1a0e18f2047f46611df98d7afdc3dbd97cc410d1c82670052427",
       "geometrySignature": "db38c90732ab2cbfb18562e128a4cccfc69d2bbe59d2166f996d0053c7d8b964",
-      "comparisonRevision": "88c58544b42914570fddc21dc91c01f8aa5184d0c96ab3931f95801b3645e33b",
+      "comparisonRevision": "4f4a80b17a1663be094dbf2679f24f0c1a88d9d2dbe109f3f5166088e5b47d23",
       "review": "pending",
       "notes": ""
     },
@@ -10579,7 +10579,7 @@
       ],
       "revision": "dc3340c4a8a9159b75937267bd27de9fb0cda974c32aa906cab1dd888e964ff1",
       "geometrySignature": "30cc44f6e0c6c36161d09f14835153d915d9e8e12933ce14b8122d6cffee14ab",
-      "comparisonRevision": "a8becbea70037c67663a2c29677f4b6e177bfd8e5e6b4af8f12dd8a296bb0c95",
+      "comparisonRevision": "704adbbbd2a32f4a59fe2c3d21ce43adefaa39d9993963dd681a50764cf302d4",
       "review": "pending",
       "notes": ""
     },
@@ -12343,7 +12343,7 @@
       ],
       "revision": "391f394ca9ba2163665442629cd7d8608359f8b773c2dafffe27b6a26933ecd3",
       "geometrySignature": "4ffdd2dc1c7af80c125ac2981ca13a4eec1c02fd975cff314422b940717a3f69",
-      "comparisonRevision": "a6bd1df6617fc4fc0ec401aa6e1b5b7c6e856713ee775462305b58422f3776c3",
+      "comparisonRevision": "d1796f58f8791133d5d366a03cdac6e3f6498ef20effa433e6095f471ce010a8",
       "review": "pending",
       "notes": ""
     },
@@ -12689,6 +12689,66 @@
       "revision": "5481018f4b0e637ac676d4a1b312896cebb7eeef782af9e8daf14661760fe768",
       "geometrySignature": "c4d69fdeaaa72696de1c2b00440713e358971277f357cfc308d2e373a8bcc593",
       "comparisonRevision": "38319f1e166b49a28c22eb30f29d3bafb076ecd6faedf0dbc3ed0b8f2a16da68",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-cloudfront-download",
+      "provider": "aws",
+      "name": "CloudFront Download Distribution",
+      "rationale": "A downloadable file is distributed to multiple clients.",
+      "path": "stencils/aws-cloudfront-download.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Networking-Content-Delivery/Res_Amazon-CloudFront_Download-Distribution_48.svg"
+      ],
+      "revision": "c67d329a659e01da1f7c4b409d79b201db7accd2975a829f8faeaa64717e8a47",
+      "geometrySignature": "567702c1710d360505544b416d87bf880d653db18d6b5d3c38074dbbf722718e",
+      "comparisonRevision": "791a0e983f39501e5bc14eca101a50bdd270b2db6c1443d8aee4f39623456d53",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-cloudfront-edge-location",
+      "provider": "aws",
+      "name": "CloudFront Edge Location",
+      "rationale": "An edge cache sits near a geographic location.",
+      "path": "stencils/aws-cloudfront-edge-location.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Networking-Content-Delivery/Res_Amazon-CloudFront_Edge-Location_48.svg"
+      ],
+      "revision": "a70e1bf40a003a762409fb55dddf33274437a2a8e16a07356e00604152533c73",
+      "geometrySignature": "359c73c85fac94aba5fccc1918c06a014a97d32ea234b699936f139ea2811935",
+      "comparisonRevision": "3289f084553bb6a11bffe294a5d05dbe43ae12837dd6d7c8155a4265372791e9",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-cloudfront-functions",
+      "provider": "aws",
+      "name": "CloudFront Functions",
+      "rationale": "A lightweight function runs close to a network edge.",
+      "path": "stencils/aws-cloudfront-functions.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Networking-Content-Delivery/Res_Amazon-CloudFront_Functions_48.svg"
+      ],
+      "revision": "eca4bfbd32eb512b44d9d842cf097399a9a82b7aacf9016aea5fc5a3061a1ae1",
+      "geometrySignature": "569e8d13d0d15417f1e9f91bbf10d843b56ffe704cf057df429734cfc08c15a0",
+      "comparisonRevision": "3ca1e545bd38bd215f687bed3754aa0e389c1b3c2b64778ee30bb825beb57e68",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "aws-cloudfront-streaming",
+      "provider": "aws",
+      "name": "CloudFront Streaming Distribution",
+      "rationale": "A live video stream reaches a viewer over a wireless edge connection.",
+      "path": "stencils/aws-cloudfront-streaming.svg",
+      "sources": [
+        "/icons/aws/Resource-Icons_07312026/Res_Networking-Content-Delivery/Res_Amazon-CloudFront_Streaming-Distribution_48.svg"
+      ],
+      "revision": "4be8674814d78769ee63152acd0c95b0f8b8b2a84061a64b8d343a9d214584d3",
+      "geometrySignature": "e389b99604eb272d82a582ed7aaa7ed2f436537c451c07d0e994effa2c0869dd",
+      "comparisonRevision": "c5a67b5e18dd7de971897c0a99feb9511a3c241979d6c4dd50fd3bae60068ef7",
       "review": "pending",
       "notes": ""
     },
@@ -14596,7 +14656,7 @@
       ],
       "revision": "2e7d2646861f337f9c93547f30188125d86c207daa35778da1c0f61322426580",
       "geometrySignature": "1d5c938e2d8174a17f8c27bde3b58eb0e9ee140031ed90f03815a3c9c29f2366",
-      "comparisonRevision": "01f06862fa6fb9a1d9762c8f0c4fa17955e543dd7df568e8e99b15df217efcce",
+      "comparisonRevision": "a5b1c42ac2477c761de7b87031529508d4cacfe1f8181292c1ea3c6848258bb0",
       "review": "pending",
       "notes": ""
     },
