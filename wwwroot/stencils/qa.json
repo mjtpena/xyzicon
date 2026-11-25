@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2229,
   "aliases": 5412,
-  "approved": 467,
+  "approved": 477,
   "needsReview": [
     "fabric-lakehouse",
     "fabric-pipeline",
@@ -774,16 +774,6 @@
     "fabric-purview",
     "fabric-real-time-intelligence",
     "fabric-one-lake",
-    "aws-mq-broker",
-    "aws-sns-email-notification",
-    "aws-sns-http-notification",
-    "aws-sns-topic",
-    "aws-sqs-message",
-    "aws-sqs-queue",
-    "aws-marketplace",
-    "aws-partner-central",
-    "aws-well-architected-tool",
-    "aws-amazon-q",
     "aws-chatbot",
     "aws-appfabric",
     "aws-gamelift-servers",
@@ -8052,8 +8042,8 @@
       },
       {
         "a": "gcp-database-migration",
-        "b": "aws-sns-email-notification",
-        "similarity": 0.2574
+        "b": "azure-browser",
+        "similarity": 0.25
       }
     ],
     "gcp-migrate-anthos": [
@@ -8110,11 +8100,6 @@
     "gcp-transfer": [
       {
         "a": "gcp-transfer",
-        "b": "aws-sns-email-notification",
-        "similarity": 0.3579
-      },
-      {
-        "a": "gcp-transfer",
         "b": "azure-ip-address-manager",
         "similarity": 0.3407
       },
@@ -8122,6 +8107,11 @@
         "a": "gcp-transfer",
         "b": "azure-file-shares",
         "similarity": 0.3253
+      },
+      {
+        "a": "gcp-transfer",
+        "b": "azure-intune-education",
+        "similarity": 0.3232
       }
     ],
     "gcp-transfer-appliance": [
@@ -23059,19 +23049,19 @@
     ],
     "aws-sns-email-notification": [
       {
-        "a": "gcp-transfer",
+        "a": "aws-sns-email-notification",
+        "b": "fabric-endpoint",
+        "similarity": 0.2898
+      },
+      {
+        "a": "azure-databox-gateway",
         "b": "aws-sns-email-notification",
-        "similarity": 0.3579
+        "similarity": 0.2837
       },
       {
         "a": "aws-sns-email-notification",
-        "b": "aws-sns-http-notification",
-        "similarity": 0.3288
-      },
-      {
-        "a": "azure-reserved-ip-classic",
-        "b": "aws-sns-email-notification",
-        "similarity": 0.2943
+        "b": "fabric-cloud-endpoint",
+        "similarity": 0.2805
       }
     ],
     "aws-sns-http-notification": [

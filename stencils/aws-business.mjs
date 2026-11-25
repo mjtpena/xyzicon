@@ -85,8 +85,9 @@ export const awsBusinessArtwork = [
   entry("aws-sns-email-notification", "aws", "SNS Email Notification", ["Res_Amazon-Simple-Notification-Service_Email-Notification_48"],
     "An alert is delivered as an email.",
     [
-      rect(19, 38, 89, 57), line([19, 38], [63, 70], [108, 38]), line([19, 95], [50, 67]), line([108, 95], [77, 67]),
-      oval(80, 14, 31, 31), line([95, 20], [95, 30]), line([95, 35], [95, 37]), line([15, 110], [112, 110]),
+      line([18, 68], [23, 61], [23, 43], [27, 34], [36, 30], [45, 34], [49, 43], [49, 61], [54, 68], [18, 68]), oval(32, 69, 8, 8),
+      line([13, 38], [17, 31]), line([55, 38], [59, 31]), line([36, 23], [36, 29]),
+      rect(63, 51, 49, 34), line([63, 51], [87, 68], [112, 51]), line([15, 110], [112, 110]),
     ]),
   entry("aws-sns-http-notification", "aws", "SNS HTTP Notification", ["Res_Amazon-Simple-Notification-Service_HTTP-Notification_48"],
     "An alert is posted to a web endpoint.",
