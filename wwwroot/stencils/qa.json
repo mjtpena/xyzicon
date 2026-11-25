@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 680,
-  "aliases": 2884,
+  "count": 684,
+  "aliases": 2900,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -598,6 +598,10 @@
     "aws-ecs-anywhere",
     "aws-eks-anywhere",
     "aws-eks-distro",
+    "aws-iot-core",
+    "aws-iot-device-defender",
+    "aws-iot-events",
+    "aws-iot-fleetwise",
     "azure-notification-hubs",
     "azure-app-certificates",
     "azure-app-domains",
@@ -777,8 +781,8 @@
     },
     "aws": {
       "sources": 1852,
-      "covered": 644,
-      "concepts": 159
+      "covered": 660,
+      "concepts": 163
     },
     "gcp": {
       "sources": 261,
@@ -885,8 +889,8 @@
       },
       {
         "a": "azure-storage",
-        "b": "aws-redshift",
-        "similarity": 0.1821
+        "b": "aws-iot-core",
+        "similarity": 0.1838
       }
     ],
     "azure-service-bus": [
@@ -982,13 +986,13 @@
       },
       {
         "a": "entra-verified-id",
-        "b": "azure-storage-queue",
-        "similarity": 0.2192
+        "b": "aws-iot-events",
+        "similarity": 0.2355
       },
       {
         "a": "entra-verified-id",
-        "b": "azure-scheduled-actions",
-        "similarity": 0.2102
+        "b": "azure-storage-queue",
+        "similarity": 0.2192
       }
     ],
     "power-automate": [
@@ -1288,13 +1292,13 @@
       },
       {
         "a": "power-platform",
-        "b": "fabric-commit-circle",
-        "similarity": 0.1484
+        "b": "aws-iot-core",
+        "similarity": 0.1543
       },
       {
         "a": "power-platform",
-        "b": "azure-synapse",
-        "similarity": 0.1421
+        "b": "fabric-commit-circle",
+        "similarity": 0.1484
       }
     ],
     "dynamics-commerce": [
@@ -2660,6 +2664,11 @@
     "gcp-cloud-build": [
       {
         "a": "gcp-cloud-build",
+        "b": "aws-iot-events",
+        "similarity": 0.2067
+      },
+      {
+        "a": "gcp-cloud-build",
         "b": "fabric-paginated-report",
         "similarity": 0.1991
       },
@@ -2667,11 +2676,6 @@
         "a": "gcp-cloud-build",
         "b": "aws-device-farm",
         "similarity": 0.1963
-      },
-      {
-        "a": "gcp-cloud-build",
-        "b": "fabric-data-engineering",
-        "similarity": 0.1905
       }
     ],
     "gcp-cloud-dns": [
@@ -4207,6 +4211,11 @@
     "gcp-load-balancing": [
       {
         "a": "gcp-load-balancing",
+        "b": "aws-iot-core",
+        "similarity": 0.1975
+      },
+      {
+        "a": "gcp-load-balancing",
         "b": "fabric-asterisk",
         "similarity": 0.1967
       },
@@ -4214,11 +4223,6 @@
         "a": "gcp-load-balancing",
         "b": "aws-professional-services",
         "similarity": 0.1944
-      },
-      {
-        "a": "m365-radar",
-        "b": "gcp-load-balancing",
-        "similarity": 0.1943
       }
     ],
     "gcp-cloud-cdn": [
@@ -6790,6 +6794,11 @@
     ],
     "m365-lock-shield": [
       {
+        "a": "m365-lock-shield",
+        "b": "aws-iot-device-defender",
+        "similarity": 0.3842
+      },
+      {
         "a": "m365-shield-error",
         "b": "m365-lock-shield",
         "similarity": 0.2749
@@ -6798,11 +6807,6 @@
         "a": "azure-key-vault",
         "b": "m365-lock-shield",
         "similarity": 0.2586
-      },
-      {
-        "a": "aws-guardduty",
-        "b": "m365-lock-shield",
-        "similarity": 0.2277
       }
     ],
     "m365-mail-alert": [
@@ -8415,9 +8419,9 @@
         "similarity": 0.1806
       },
       {
-        "a": "aws-lookout-equipment",
-        "b": "aws-corretto",
-        "similarity": 0.1698
+        "a": "aws-corretto",
+        "b": "aws-iot-fleetwise",
+        "similarity": 0.1795
       }
     ],
     "aws-workmail": [
@@ -9566,6 +9570,11 @@
     ],
     "aws-transit-gateway": [
       {
+        "a": "aws-transit-gateway",
+        "b": "aws-iot-core",
+        "similarity": 0.1987
+      },
+      {
         "a": "aws-lambda",
         "b": "aws-transit-gateway",
         "similarity": 0.1521
@@ -9574,11 +9583,6 @@
         "a": "dynamics-customer-service",
         "b": "aws-transit-gateway",
         "similarity": 0.1498
-      },
-      {
-        "a": "dynamics-business-central",
-        "b": "aws-transit-gateway",
-        "similarity": 0.1427
       }
     ],
     "aws-verified-access": [
@@ -10896,6 +10900,74 @@
         "similarity": 0.2279
       }
     ],
+    "aws-iot-core": [
+      {
+        "a": "aws-transit-gateway",
+        "b": "aws-iot-core",
+        "similarity": 0.1987
+      },
+      {
+        "a": "gcp-load-balancing",
+        "b": "aws-iot-core",
+        "similarity": 0.1975
+      },
+      {
+        "a": "azure-storage",
+        "b": "aws-iot-core",
+        "similarity": 0.1838
+      }
+    ],
+    "aws-iot-device-defender": [
+      {
+        "a": "m365-lock-shield",
+        "b": "aws-iot-device-defender",
+        "similarity": 0.3842
+      },
+      {
+        "a": "azure-key-vault",
+        "b": "aws-iot-device-defender",
+        "similarity": 0.2568
+      },
+      {
+        "a": "aws-guardduty",
+        "b": "aws-iot-device-defender",
+        "similarity": 0.234
+      }
+    ],
+    "aws-iot-events": [
+      {
+        "a": "entra-verified-id",
+        "b": "aws-iot-events",
+        "similarity": 0.2355
+      },
+      {
+        "a": "gcp-cloud-build",
+        "b": "aws-iot-events",
+        "similarity": 0.2067
+      },
+      {
+        "a": "aws-devops-guru",
+        "b": "aws-iot-events",
+        "similarity": 0.2006
+      }
+    ],
+    "aws-iot-fleetwise": [
+      {
+        "a": "aws-iot-fleetwise",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2339
+      },
+      {
+        "a": "aws-iot-fleetwise",
+        "b": "fabric-briefcase-pulse",
+        "similarity": 0.2113
+      },
+      {
+        "a": "fabric-briefcase-report",
+        "b": "aws-iot-fleetwise",
+        "similarity": 0.2063
+      }
+    ],
     "azure-notification-hubs": [
       {
         "a": "azure-private-endpoints",
@@ -11901,6 +11973,11 @@
     ],
     "fabric-chart-phone": [
       {
+        "a": "aws-iot-fleetwise",
+        "b": "fabric-chart-phone",
+        "similarity": 0.2339
+      },
+      {
         "a": "fabric-briefcase-report",
         "b": "fabric-chart-phone",
         "similarity": 0.231
@@ -11909,11 +11986,6 @@
         "a": "fabric-briefcase-pulse",
         "b": "fabric-chart-phone",
         "similarity": 0.2005
-      },
-      {
-        "a": "fabric-chart-phone",
-        "b": "fabric-locked-rows",
-        "similarity": 0.1998
       }
     ],
     "fabric-database-sync": [
