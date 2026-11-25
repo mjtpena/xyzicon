@@ -167,7 +167,10 @@ export const fabricItemsArtwork = [
       oval(69, 35, 35, 35), line([98, 64], [114, 81]), line([78, 52], [86, 43], [94, 54]),
       line([36, 101], [63, 101]),
     ]),
-  entry("fabric-kql-script", "fabric", "KQL Script", item("kql_script"),
+  entry("fabric-kql-script", "fabric", "KQL Script", [
+    ...item("kql_script"),
+    ...[20, 24, 32].flatMap((size) => ["filled", "regular"].map((style) => `script_kql_${size}_${style}`)),
+  ],
     "A query script links a runnable code block to a time-series result.",
     [
       rect(13, 13, 71, 100), line([23, 26], [74, 26]), line([23, 38], [64, 38]),
@@ -233,7 +236,10 @@ export const fabricItemsArtwork = [
       line([64, 25], [102, 25]), oval(12, 13, 24, 24, true), rect(92, 13, 24, 24),
       line([99, 29], [99, 22], [103, 22], [103, 29]), line([108, 29], [108, 18], [112, 18], [112, 29]),
     ]),
-  entry("fabric-sql-database", "fabric", "Fabric SQL Database", item("sql_database"),
+  entry("fabric-sql-database", "fabric", "Fabric SQL Database", [
+    ...item("sql_database"),
+    ...[20, 24, 32].flatMap((size) => ["filled", "regular"].map((style) => `database_sql_${size}_${style}`)),
+  ],
     "A relational table rests on stacked storage pages beside a query cursor.",
     [
       polygon([16, 35], [59, 18], [102, 35], [59, 52]),
