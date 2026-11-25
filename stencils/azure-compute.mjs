@@ -1,6 +1,12 @@
 import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureComputeArtwork = [
+  entry("azure-fiji", "azure", "Fiji", ["02486-icon-service-Fiji"],
+    "Azure Stack Fiji was described as managed Azure infrastructure on customer premises.",
+    [
+      line([15, 72], [15, 42], [29, 30], [43, 42], [43, 72]), line([20, 72], [20, 49], [38, 49], [38, 72]), line([23, 55], [35, 55]), line([23, 62], [35, 62]),
+      line([49, 53], [62, 53]), line([56, 47], [62, 53], [56, 59]), rect(69, 25, 34, 57), line([69, 38], [103, 38]), line([69, 52], [103, 52]), line([69, 66], [103, 66]), line([76, 32], [80, 32]), line([76, 45], [80, 45]), line([76, 59], [80, 59]), line([76, 73], [80, 73]), line([14, 109], [110, 109]),
+    ]),
   entry("azure-mindaro", "azure", "Mindaro", ["10350-icon-service-Mindaro"],
     "Bridge to Kubernetes connects a local development process to a cluster.",
     [

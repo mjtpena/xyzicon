@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2224,
-  "aliases": 5407,
+  "count": 2225,
+  "aliases": 5408,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -1770,6 +1770,7 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-fiji",
     "azure-mindaro",
     "azure-agentic-web-apps",
     "azure-hdi-aks-cluster",
@@ -2494,8 +2495,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 712,
-      "concepts": 629
+      "covered": 713,
+      "concepts": 630
     },
     "fabric": {
       "sources": 1584,
@@ -15537,13 +15538,13 @@
       },
       {
         "a": "azure-device-security-google",
-        "b": "aws-systems-change-calendar",
-        "similarity": 0.25
+        "b": "azure-fiji",
+        "similarity": 0.2587
       },
       {
-        "a": "azure-event-grid-domains",
-        "b": "azure-device-security-google",
-        "similarity": 0.2422
+        "a": "azure-device-security-google",
+        "b": "aws-systems-change-calendar",
+        "similarity": 0.25
       }
     ],
     "azure-device-security-windows": [
@@ -20585,14 +20586,14 @@
         "similarity": 0.2671
       },
       {
+        "a": "aws-sitewise-data-streams",
+        "b": "azure-fiji",
+        "similarity": 0.2516
+      },
+      {
         "a": "azure-ad-b2c",
         "b": "aws-sitewise-data-streams",
         "similarity": 0.2349
-      },
-      {
-        "a": "aws-sitewise-data-streams",
-        "b": "aws-oracle-db-instance",
-        "similarity": 0.2308
       }
     ],
     "aws-greengrass-artifact": [
@@ -29143,14 +29144,14 @@
         "similarity": 0.3318
       },
       {
+        "a": "aws-cloud-wan-transit-attachment",
+        "b": "azure-fiji",
+        "similarity": 0.3178
+      },
+      {
         "a": "azure-ssh-keys",
         "b": "aws-cloud-wan-transit-attachment",
         "similarity": 0.2893
-      },
-      {
-        "a": "azure-public-ip-prefixes",
-        "b": "aws-cloud-wan-transit-attachment",
-        "similarity": 0.2784
       }
     ],
     "aws-direct-connect-gateway": [
@@ -29267,9 +29268,9 @@
         "similarity": 0.257
       },
       {
-        "a": "aws-vpc-router",
-        "b": "aws-app-mesh-virtual-router",
-        "similarity": 0.2506
+        "a": "aws-app-mesh-virtual-router",
+        "b": "azure-fiji",
+        "similarity": 0.2546
       }
     ],
     "aws-app-mesh-virtual-service": [
@@ -32593,6 +32594,23 @@
         "similarity": 0.2297
       }
     ],
+    "azure-fiji": [
+      {
+        "a": "aws-cloud-wan-transit-attachment",
+        "b": "azure-fiji",
+        "similarity": 0.3178
+      },
+      {
+        "a": "aws-elasticache-memcached",
+        "b": "azure-fiji",
+        "similarity": 0.2754
+      },
+      {
+        "a": "aws-systems-change-calendar",
+        "b": "azure-fiji",
+        "similarity": 0.275
+      }
+    ],
     "azure-mindaro": [
       {
         "a": "azure-expressroute-direct",
@@ -33734,6 +33752,11 @@
     ],
     "azure-gear": [
       {
+        "a": "azure-fiji",
+        "b": "azure-gear",
+        "similarity": 0.2572
+      },
+      {
         "a": "azure-website-staging",
         "b": "azure-gear",
         "similarity": 0.2408
@@ -33742,11 +33765,6 @@
         "a": "aws-backup-storage-resource",
         "b": "azure-gear",
         "similarity": 0.2379
-      },
-      {
-        "a": "azure-web-jobs",
-        "b": "azure-gear",
-        "similarity": 0.2341
       }
     ],
     "azure-globe-error": [
@@ -38838,14 +38856,14 @@
         "similarity": 0.2243
       },
       {
+        "a": "azure-fiji",
+        "b": "fabric-odata",
+        "similarity": 0.219
+      },
+      {
         "a": "aws-data-exchange-api",
         "b": "fabric-odata",
         "similarity": 0.2156
-      },
-      {
-        "a": "aws-category-business-applications",
-        "b": "fabric-odata",
-        "similarity": 0.2133
       }
     ],
     "fabric-schema": [
