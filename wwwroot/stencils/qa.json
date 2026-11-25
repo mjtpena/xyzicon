@@ -1,8 +1,8 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 923,
-  "aliases": 3635,
+  "count": 927,
+  "aliases": 3641,
   "approved": 0,
   "needsReview": [
     "azure-virtual-machine",
@@ -809,6 +809,10 @@
     "aws-iot-greengrass",
     "aws-iot-sitewise",
     "aws-iot-twinmaker",
+    "azure-app-service-plans",
+    "azure-cdn-profiles",
+    "azure-load-testing",
+    "azure-devtest-labs",
     "azure-resource-groups",
     "azure-marketplace",
     "azure-quickstart-center",
@@ -997,8 +1001,8 @@
   "coverage": {
     "azure": {
       "sources": 721,
-      "covered": 179,
-      "concepts": 135
+      "covered": 185,
+      "concepts": 139
     },
     "fabric": {
       "sources": 1584,
@@ -4644,6 +4648,11 @@
     "gcp-batch": [
       {
         "a": "gcp-batch",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.271
+      },
+      {
+        "a": "gcp-batch",
         "b": "aws-firewall-manager",
         "similarity": 0.2696
       },
@@ -4651,11 +4660,6 @@
         "a": "gcp-batch",
         "b": "azure-genomics-accounts",
         "similarity": 0.232
-      },
-      {
-        "a": "gcp-batch",
-        "b": "aws-ecs-anywhere",
-        "similarity": 0.2253
       }
     ],
     "gcp-anthos": [
@@ -5499,13 +5503,13 @@
       },
       {
         "a": "m365-organization",
-        "b": "aws-red-hat-openshift",
-        "similarity": 0.2449
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2735
       },
       {
-        "a": "fabric-categorize",
-        "b": "m365-organization",
-        "similarity": 0.2185
+        "a": "m365-organization",
+        "b": "aws-red-hat-openshift",
+        "similarity": 0.2449
       }
     ],
     "m365-organization-horizontal": [
@@ -7357,8 +7361,8 @@
       },
       {
         "a": "fabric-schema-model",
-        "b": "m365-text-first-line",
-        "similarity": 0.3384
+        "b": "azure-app-service-plans",
+        "similarity": 0.3411
       }
     ],
     "fabric-shared-semantic": [
@@ -8920,9 +8924,9 @@
         "similarity": 0.2652
       },
       {
-        "a": "m365-apps-list",
-        "b": "azure-foundry-models",
-        "similarity": 0.2477
+        "a": "azure-foundry-models",
+        "b": "azure-app-service-plans",
+        "similarity": 0.2496
       }
     ],
     "azure-batch-ai": [
@@ -9323,14 +9327,14 @@
         "similarity": 0.2612
       },
       {
+        "a": "fabric-platform",
+        "b": "azure-app-service-plans",
+        "similarity": 0.2524
+      },
+      {
         "a": "azure-foundry-agent-service",
         "b": "fabric-platform",
         "similarity": 0.2399
-      },
-      {
-        "a": "fabric-platform",
-        "b": "aws-category-front-end",
-        "similarity": 0.2342
       }
     ],
     "fabric-graph-intelligence": [
@@ -10355,6 +10359,11 @@
     ],
     "aws-transform": [
       {
+        "a": "aws-transform",
+        "b": "azure-app-service-plans",
+        "similarity": 0.3353
+      },
+      {
         "a": "fabric-live-dashboard",
         "b": "aws-transform",
         "similarity": 0.3255
@@ -10363,11 +10372,6 @@
         "a": "aws-transform",
         "b": "fabric-calendar-toolbox",
         "similarity": 0.3194
-      },
-      {
-        "a": "m365-window",
-        "b": "aws-transform",
-        "similarity": 0.2953
       }
     ],
     "aws-backint-agent": [
@@ -11409,6 +11413,11 @@
     ],
     "aws-firewall-manager": [
       {
+        "a": "aws-firewall-manager",
+        "b": "azure-app-service-plans",
+        "similarity": 0.3176
+      },
+      {
         "a": "gcp-batch",
         "b": "aws-firewall-manager",
         "similarity": 0.2696
@@ -11417,11 +11426,6 @@
         "a": "aws-transform",
         "b": "aws-firewall-manager",
         "similarity": 0.2617
-      },
-      {
-        "a": "azure-genomics-accounts",
-        "b": "aws-firewall-manager",
-        "similarity": 0.2498
       }
     ],
     "aws-resource-access-manager": [
@@ -11652,17 +11656,22 @@
         "similarity": 0.2963
       },
       {
+        "a": "aws-storage-gateway",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2458
+      },
+      {
         "a": "azure-databricks",
         "b": "aws-storage-gateway",
         "similarity": 0.2307
-      },
-      {
-        "a": "aws-mainframe-modernization",
-        "b": "aws-storage-gateway",
-        "similarity": 0.2279
       }
     ],
     "aws-data-transfer-terminal": [
+      {
+        "a": "aws-data-transfer-terminal",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2687
+      },
       {
         "a": "azure-genomics-accounts",
         "b": "aws-data-transfer-terminal",
@@ -11672,11 +11681,6 @@
         "a": "aws-data-transfer-terminal",
         "b": "azure-host-groups",
         "similarity": 0.2593
-      },
-      {
-        "a": "aws-finspace",
-        "b": "aws-data-transfer-terminal",
-        "similarity": 0.2535
       }
     ],
     "aws-fsx-lustre": [
@@ -13666,6 +13670,11 @@
     ],
     "aws-parallel-cluster": [
       {
+        "a": "aws-parallel-cluster",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2513
+      },
+      {
         "a": "gcp-cloud-cdn",
         "b": "aws-parallel-cluster",
         "similarity": 0.2334
@@ -13674,11 +13683,6 @@
         "a": "aws-organizations",
         "b": "aws-parallel-cluster",
         "similarity": 0.2126
-      },
-      {
-        "a": "m365-mail-read",
-        "b": "aws-parallel-cluster",
-        "similarity": 0.2115
       }
     ],
     "aws-serverless-repository": [
@@ -14074,6 +14078,11 @@
     ],
     "aws-category-financial": [
       {
+        "a": "aws-category-financial",
+        "b": "azure-app-service-plans",
+        "similarity": 0.2904
+      },
+      {
         "a": "azure-foundry-project",
         "b": "aws-category-financial",
         "similarity": 0.2804
@@ -14082,11 +14091,6 @@
         "a": "m365-check",
         "b": "aws-category-financial",
         "similarity": 0.2645
-      },
-      {
-        "a": "aws-transform",
-        "b": "aws-category-financial",
-        "similarity": 0.2391
       }
     ],
     "aws-category-analytics": [
@@ -14735,6 +14739,74 @@
         "similarity": 0.2232
       }
     ],
+    "azure-app-service-plans": [
+      {
+        "a": "azure-app-service-plans",
+        "b": "azure-compute-galleries",
+        "similarity": 0.3777
+      },
+      {
+        "a": "m365-text-number-list",
+        "b": "azure-app-service-plans",
+        "similarity": 0.3491
+      },
+      {
+        "a": "fabric-schema-model",
+        "b": "azure-app-service-plans",
+        "similarity": 0.3411
+      }
+    ],
+    "azure-cdn-profiles": [
+      {
+        "a": "m365-organization",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2735
+      },
+      {
+        "a": "gcp-batch",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.271
+      },
+      {
+        "a": "aws-parallel-cluster",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2513
+      }
+    ],
+    "azure-load-testing": [
+      {
+        "a": "azure-app-service-plans",
+        "b": "azure-load-testing",
+        "similarity": 0.2477
+      },
+      {
+        "a": "azure-app-service-builder",
+        "b": "azure-load-testing",
+        "similarity": 0.2261
+      },
+      {
+        "a": "azure-load-testing",
+        "b": "fabric-database-checkmark",
+        "similarity": 0.2211
+      }
+    ],
+    "azure-devtest-labs": [
+      {
+        "a": "aws-data-transfer-terminal",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2687
+      },
+      {
+        "a": "aws-storage-gateway",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2458
+      },
+      {
+        "a": "azure-machine-learning",
+        "b": "azure-devtest-labs",
+        "similarity": 0.2404
+      }
+    ],
     "azure-resource-groups": [
       {
         "a": "gcp-security-command-center",
@@ -15128,6 +15200,11 @@
     ],
     "azure-compute-galleries": [
       {
+        "a": "azure-app-service-plans",
+        "b": "azure-compute-galleries",
+        "similarity": 0.3777
+      },
+      {
         "a": "m365-window",
         "b": "azure-compute-galleries",
         "similarity": 0.3769
@@ -15136,11 +15213,6 @@
         "a": "m365-text-number-list",
         "b": "azure-compute-galleries",
         "similarity": 0.3709
-      },
-      {
-        "a": "aws-training-certification",
-        "b": "azure-compute-galleries",
-        "similarity": 0.3663
       }
     ],
     "azure-scheduled-actions": [
@@ -15818,9 +15890,9 @@
         "similarity": 0.2231
       },
       {
-        "a": "aws-firewall-manager",
+        "a": "azure-load-testing",
         "b": "fabric-database-checkmark",
-        "similarity": 0.2195
+        "similarity": 0.2211
       }
     ],
     "fabric-calendar-toolbox": [
