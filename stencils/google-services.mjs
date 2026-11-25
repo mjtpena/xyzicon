@@ -1786,7 +1786,7 @@ export const googleArtwork = [
   entry("gcp-cloud-tpu", "gcp", "Google Cloud TPU", ["cloud_tpu"],
     "A tensor processor has a matrix core and data paths on each side.",
     [
-      rect(29, 29, 70, 70), rect(40, 40, 48, 48, true),
+      rect(29, 29, 70, 70), rect(40, 40, 48, 48),
       line([56, 40], [56, 88]), line([72, 40], [72, 88]), line([40, 56], [88, 56]), line([40, 72], [88, 72]),
       line([17, 42], [29, 42]), line([17, 58], [29, 58]), line([17, 74], [29, 74]), line([17, 90], [29, 90]),
       line([99, 42], [111, 42]), line([99, 58], [111, 58]), line([99, 74], [111, 74]), line([99, 90], [111, 90]),

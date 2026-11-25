@@ -16,7 +16,7 @@ export const fabricItemsArtwork = [
     "A copy action transfers a document between two data workspaces.",
     [
       rect(12, 21, 44, 58), line([20, 31], [47, 31]), line([20, 42], [47, 42]), line([20, 53], [40, 53]),
-      rect(72, 48, 44, 58, true), line([80, 58], [107, 58]), line([80, 69], [107, 69]), line([80, 80], [100, 80]),
+      rect(72, 48, 44, 58), line([80, 58], [107, 58]), line([80, 69], [107, 69]), line([80, 80], [100, 80]),
       line([56, 50], [70, 50]), line([63, 43], [70, 50], [63, 57]),
       line([24, 92], [57, 92]), line([50, 85], [57, 92], [50, 99]),
     ]),
@@ -24,7 +24,7 @@ export const fabricItemsArtwork = [
     "A dashboard arranges a large circular breakdown beside two chart tiles.",
     [
       rect(12, 15, 104, 99), line([12, 32], [116, 32]),
-      oval(20, 43, 48, 48, true), line([44, 43], [44, 67], [64, 78]), line([44, 67], [28, 84]),
+      oval(20, 43, 48, 48), line([44, 43], [44, 67], [64, 78]), line([44, 67], [28, 84]),
       rect(77, 41, 31, 25), line([81, 61], [81, 54], [86, 54], [86, 61]), line([91, 61], [91, 49], [96, 49], [96, 61]),
       rect(77, 73, 31, 25), line([82, 91], [89, 84], [94, 88], [103, 78]),
       line([22, 101], [65, 101]),
@@ -32,7 +32,7 @@ export const fabricItemsArtwork = [
   entry("fabric-data-agent", "fabric", "Data Agent", item("data_agent"),
     "A data assistant answers a question from a related data table.",
     [
-      rect(12, 21, 45, 50, true), line([12, 33], [57, 33]), line([12, 48], [57, 48]), line([32, 21], [32, 71]),
+      rect(12, 21, 45, 50), line([12, 33], [57, 33]), line([12, 48], [57, 48]), line([32, 21], [32, 71]),
       line([57, 46], [69, 46]), line([62, 40], [69, 46], [62, 52]),
       rect(71, 34, 41, 38), oval(79, 45, 6, 6), oval(98, 45, 6, 6), line([81, 60], [101, 60]),
       line([91, 34], [91, 25]), oval(87, 17, 8, 8),
