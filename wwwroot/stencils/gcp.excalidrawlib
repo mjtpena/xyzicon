@@ -11,11 +11,11 @@
       "elements": [
         {
           "id": "gcp-bigquery-0",
-          "type": "rectangle",
-          "x": 11,
-          "y": 18,
-          "width": 50,
-          "height": 43,
+          "type": "ellipse",
+          "x": 14,
+          "y": 14,
+          "width": 77,
+          "height": 77,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -41,10 +41,10 @@
         {
           "id": "gcp-bigquery-1",
           "type": "line",
-          "x": 11,
-          "y": 32,
-          "width": 50,
-          "height": 0,
+          "x": 78,
+          "y": 79,
+          "width": 29,
+          "height": 29,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -72,8 +72,8 @@
               0
             ],
             [
-              50,
-              0
+              29,
+              29
             ]
           ],
           "startBinding": null,
@@ -85,9 +85,9 @@
         {
           "id": "gcp-bigquery-2",
           "type": "line",
-          "x": 11,
-          "y": 46,
-          "width": 50,
+          "x": 31,
+          "y": 72,
+          "width": 44,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -116,7 +116,7 @@
               0
             ],
             [
-              50,
+              44,
               0
             ]
           ],
@@ -129,10 +129,10 @@
         {
           "id": "gcp-bigquery-3",
           "type": "line",
-          "x": 30,
-          "y": 18,
-          "width": 0,
-          "height": 43,
+          "x": 36,
+          "y": 72,
+          "width": 8,
+          "height": 14,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -161,7 +161,15 @@
             ],
             [
               0,
-              43
+              -14
+            ],
+            [
+              8,
+              -14
+            ],
+            [
+              8,
+              0
             ]
           ],
           "startBinding": null,
@@ -173,10 +181,10 @@
         {
           "id": "gcp-bigquery-4",
           "type": "line",
-          "x": 68,
-          "y": 23,
-          "width": 42,
-          "height": 35,
+          "x": 49,
+          "y": 72,
+          "width": 8,
+          "height": 26,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -204,27 +212,15 @@
               0
             ],
             [
-              42,
-              0
-            ],
-            [
-              28,
-              19
-            ],
-            [
-              28,
-              28
-            ],
-            [
-              15,
-              35
-            ],
-            [
-              15,
-              19
-            ],
-            [
               0,
+              -26
+            ],
+            [
+              8,
+              -26
+            ],
+            [
+              8,
               0
             ]
           ],
@@ -237,10 +233,10 @@
         {
           "id": "gcp-bigquery-5",
           "type": "line",
-          "x": 36,
-          "y": 68,
-          "width": 76,
-          "height": 39,
+          "x": 62,
+          "y": 72,
+          "width": 8,
+          "height": 37,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -269,11 +265,15 @@
             ],
             [
               0,
-              39
+              -37
             ],
             [
-              76,
-              39
+              8,
+              -37
+            ],
+            [
+              8,
+              0
             ]
           ],
           "startBinding": null,
@@ -281,93 +281,6 @@
           "startArrowhead": null,
           "endArrowhead": null,
           "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-bigquery-6",
-          "type": "rectangle",
-          "x": 45,
-          "y": 91,
-          "width": 13,
-          "height": 16,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-bigquery"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 2069092846,
-          "version": 1,
-          "versionNonce": 1534960379,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-bigquery-7",
-          "type": "rectangle",
-          "x": 67,
-          "y": 78,
-          "width": 13,
-          "height": 29,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-bigquery"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1211233893,
-          "version": 1,
-          "versionNonce": 1707709292,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-bigquery-8",
-          "type": "rectangle",
-          "x": 89,
-          "y": 66,
-          "width": 13,
-          "height": 41,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-bigquery"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 307716277,
-          "version": 1,
-          "versionNonce": 1000075151,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
         }
       ]
     },
@@ -16738,10 +16651,10 @@
         {
           "id": "gcp-cloud-endpoints-0",
           "type": "rectangle",
-          "x": 10,
-          "y": 17,
-          "width": 26,
-          "height": 22,
+          "x": 11,
+          "y": 19,
+          "width": 28,
+          "height": 27,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16766,11 +16679,11 @@
         },
         {
           "id": "gcp-cloud-endpoints-1",
-          "type": "line",
-          "x": 16,
-          "y": 28,
-          "width": 14,
-          "height": 0,
+          "type": "rectangle",
+          "x": 11,
+          "y": 81,
+          "width": 28,
+          "height": 27,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16791,30 +16704,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              14,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-cloud-endpoints-2",
-          "type": "rectangle",
-          "x": 10,
-          "y": 51,
-          "width": 26,
-          "height": 22,
+          "type": "line",
+          "x": 39,
+          "y": 32,
+          "width": 21,
+          "height": 17,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16835,15 +16733,34 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              21,
+              17
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-cloud-endpoints-3",
           "type": "line",
-          "x": 16,
-          "y": 62,
-          "width": 14,
-          "height": 0,
+          "x": 39,
+          "y": 94,
+          "width": 21,
+          "height": 17,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16871,8 +16788,12 @@
               0
             ],
             [
-              14,
+              11,
               0
+            ],
+            [
+              21,
+              -17
             ]
           ],
           "startBinding": null,
@@ -16883,11 +16804,11 @@
         },
         {
           "id": "gcp-cloud-endpoints-4",
-          "type": "rectangle",
-          "x": 10,
-          "y": 85,
-          "width": 26,
-          "height": 22,
+          "type": "ellipse",
+          "x": 59,
+          "y": 36,
+          "width": 53,
+          "height": 53,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16913,10 +16834,10 @@
         {
           "id": "gcp-cloud-endpoints-5",
           "type": "line",
-          "x": 16,
-          "y": 96,
-          "width": 14,
-          "height": 0,
+          "x": 76,
+          "y": 51,
+          "width": 8,
+          "height": 22,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16944,8 +16865,12 @@
               0
             ],
             [
-              14,
-              0
+              -8,
+              11
+            ],
+            [
+              0,
+              22
             ]
           ],
           "startBinding": null,
@@ -16957,10 +16882,10 @@
         {
           "id": "gcp-cloud-endpoints-6",
           "type": "line",
-          "x": 36,
-          "y": 28,
-          "width": 23,
-          "height": 24,
+          "x": 95,
+          "y": 51,
+          "width": 8,
+          "height": 22,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -16988,12 +16913,12 @@
               0
             ],
             [
-              13,
-              0
+              8,
+              11
             ],
             [
-              23,
-              24
+              0,
+              22
             ]
           ],
           "startBinding": null,
@@ -17005,10 +16930,10 @@
         {
           "id": "gcp-cloud-endpoints-7",
           "type": "line",
-          "x": 36,
-          "y": 62,
-          "width": 23,
-          "height": 0,
+          "x": 89,
+          "y": 49,
+          "width": 7,
+          "height": 26,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17036,430 +16961,8 @@
               0
             ],
             [
-              23,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-8",
-          "type": "line",
-          "x": 36,
-          "y": 96,
-          "width": 23,
-          "height": 24,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1646605591,
-          "version": 1,
-          "versionNonce": 626991266,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              13,
-              0
-            ],
-            [
-              23,
-              -24
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-9",
-          "type": "ellipse",
-          "x": 59,
-          "y": 46,
-          "width": 32,
-          "height": 32,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1362445872,
-          "version": 1,
-          "versionNonce": 337537824,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-cloud-endpoints-10",
-          "type": "line",
-          "x": 68,
-          "y": 56,
-          "width": 5,
-          "height": 12,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 766298667,
-          "version": 1,
-          "versionNonce": 1778560086,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              -5,
-              6
-            ],
-            [
-              0,
-              12
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-11",
-          "type": "line",
-          "x": 82,
-          "y": 56,
-          "width": 5,
-          "height": 12,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1220877669,
-          "version": 1,
-          "versionNonce": 938512471,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              5,
-              6
-            ],
-            [
-              0,
-              12
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-12",
-          "type": "line",
-          "x": 78,
-          "y": 54,
-          "width": 6,
-          "height": 16,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1042731333,
-          "version": 1,
-          "versionNonce": 1579713123,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              -6,
-              16
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-13",
-          "type": "line",
-          "x": 91,
-          "y": 62,
-          "width": 9,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 621042242,
-          "version": 1,
-          "versionNonce": 822221954,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              9,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-14",
-          "type": "rectangle",
-          "x": 100,
-          "y": 45,
-          "width": 19,
-          "height": 34,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1585349218,
-          "version": 1,
-          "versionNonce": 1216078592,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-cloud-endpoints-15",
-          "type": "line",
-          "x": 104,
-          "y": 55,
-          "width": 11,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1058251228,
-          "version": 1,
-          "versionNonce": 1411092706,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              11,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-16",
-          "type": "line",
-          "x": 104,
-          "y": 65,
-          "width": 11,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1375308698,
-          "version": 1,
-          "versionNonce": 1727735059,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              11,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-endpoints-17",
-          "type": "line",
-          "x": 19,
-          "y": 115,
-          "width": 90,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-endpoints"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 391093571,
-          "version": 1,
-          "versionNonce": 1551456788,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              90,
-              0
+              -7,
+              26
             ]
           ],
           "startBinding": null,
@@ -17478,11 +16981,11 @@
       "elements": [
         {
           "id": "gcp-data-fusion-0",
-          "type": "ellipse",
+          "type": "rectangle",
           "x": 11,
-          "y": 17,
-          "width": 26,
-          "height": 11,
+          "y": 15,
+          "width": 31,
+          "height": 29,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17509,9 +17012,9 @@
           "id": "gcp-data-fusion-1",
           "type": "line",
           "x": 11,
-          "y": 22,
-          "width": 26,
-          "height": 23,
+          "y": 29,
+          "width": 31,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17539,23 +17042,7 @@
               0
             ],
             [
-              0,
-              19
-            ],
-            [
-              4,
-              23
-            ],
-            [
-              22,
-              23
-            ],
-            [
-              26,
-              19
-            ],
-            [
-              26,
+              31,
               0
             ]
           ],
@@ -17567,11 +17054,11 @@
         },
         {
           "id": "gcp-data-fusion-2",
-          "type": "rectangle",
+          "type": "ellipse",
           "x": 11,
-          "y": 71,
-          "width": 26,
-          "height": 22,
+          "y": 76,
+          "width": 31,
+          "height": 31,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17597,10 +17084,10 @@
         {
           "id": "gcp-data-fusion-3",
           "type": "line",
-          "x": 11,
-          "y": 79,
-          "width": 26,
-          "height": 0,
+          "x": 42,
+          "y": 29,
+          "width": 24,
+          "height": 33,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17628,8 +17115,12 @@
               0
             ],
             [
-              26,
+              12,
               0
+            ],
+            [
+              24,
+              33
             ]
           ],
           "startBinding": null,
@@ -17641,10 +17132,10 @@
         {
           "id": "gcp-data-fusion-4",
           "type": "line",
-          "x": 19,
-          "y": 79,
-          "width": 0,
-          "height": 14,
+          "x": 42,
+          "y": 92,
+          "width": 24,
+          "height": 30,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17672,8 +17163,12 @@
               0
             ],
             [
-              0,
-              14
+              12,
+              0
+            ],
+            [
+              24,
+              -30
             ]
           ],
           "startBinding": null,
@@ -17685,10 +17180,10 @@
         {
           "id": "gcp-data-fusion-5",
           "type": "line",
-          "x": 28,
-          "y": 79,
-          "width": 0,
-          "height": 14,
+          "x": 66,
+          "y": 62,
+          "width": 20,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17716,8 +17211,8 @@
               0
             ],
             [
-              0,
-              14
+              20,
+              0
             ]
           ],
           "startBinding": null,
@@ -17729,10 +17224,10 @@
         {
           "id": "gcp-data-fusion-6",
           "type": "line",
-          "x": 37,
-          "y": 32,
-          "width": 21,
-          "height": 21,
+          "x": 77,
+          "y": 53,
+          "width": 9,
+          "height": 18,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17760,12 +17255,12 @@
               0
             ],
             [
-              11,
-              0
+              9,
+              9
             ],
             [
-              21,
-              21
+              0,
+              18
             ]
           ],
           "startBinding": null,
@@ -17777,10 +17272,10 @@
         {
           "id": "gcp-data-fusion-7",
           "type": "line",
-          "x": 37,
-          "y": 82,
-          "width": 21,
-          "height": 21,
+          "x": 89,
+          "y": 45,
+          "width": 28,
+          "height": 43,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17808,12 +17303,24 @@
               0
             ],
             [
-              11,
-              0
+              0,
+              37
             ],
             [
-              21,
-              -21
+              6,
+              43
+            ],
+            [
+              22,
+              43
+            ],
+            [
+              28,
+              37
+            ],
+            [
+              28,
+              0
             ]
           ],
           "startBinding": null,
@@ -17824,11 +17331,11 @@
         },
         {
           "id": "gcp-data-fusion-8",
-          "type": "line",
-          "x": 58,
-          "y": 57,
-          "width": 22,
-          "height": 22,
+          "type": "ellipse",
+          "x": 89,
+          "y": 37,
+          "width": 28,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -17849,331 +17356,7 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              11,
-              -11
-            ],
-            [
-              22,
-              0
-            ],
-            [
-              11,
-              11
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-data-fusion-9",
-          "type": "line",
-          "x": 80,
-          "y": 57,
-          "width": 12,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1022889162,
-          "version": 1,
-          "versionNonce": 1499465205,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              12,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-data-fusion-10",
-          "type": "line",
-          "x": 87,
-          "y": 52,
-          "width": 5,
-          "height": 10,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1910393846,
-          "version": 1,
-          "versionNonce": 1149868960,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              5,
-              5
-            ],
-            [
-              0,
-              10
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-data-fusion-11",
-          "type": "rectangle",
-          "x": 93,
-          "y": 42,
-          "width": 24,
-          "height": 30,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 2003734460,
-          "version": 1,
-          "versionNonce": 798576909,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
           "locked": false
-        },
-        {
-          "id": "gcp-data-fusion-12",
-          "type": "line",
-          "x": 98,
-          "y": 50,
-          "width": 14,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 583315490,
-          "version": 1,
-          "versionNonce": 1839086413,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              14,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-data-fusion-13",
-          "type": "line",
-          "x": 98,
-          "y": 59,
-          "width": 14,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1084107269,
-          "version": 1,
-          "versionNonce": 549579596,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              14,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-data-fusion-14",
-          "type": "line",
-          "x": 98,
-          "y": 67,
-          "width": 10,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 627114042,
-          "version": 1,
-          "versionNonce": 213197351,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-data-fusion-15",
-          "type": "line",
-          "x": 18,
-          "y": 108,
-          "width": 92,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-data-fusion"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 2029893469,
-          "version": 1,
-          "versionNonce": 467200384,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              92,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
         }
       ]
     },
@@ -18186,10 +17369,10 @@
         {
           "id": "gcp-cloud-composer-0",
           "type": "rectangle",
-          "x": 10,
-          "y": 45,
-          "width": 24,
-          "height": 21,
+          "x": 11,
+          "y": 34,
+          "width": 29,
+          "height": 29,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18214,11 +17397,11 @@
         },
         {
           "id": "gcp-cloud-composer-1",
-          "type": "line",
-          "x": 16,
-          "y": 55,
-          "width": 12,
-          "height": 0,
+          "type": "rectangle",
+          "x": 84,
+          "y": 15,
+          "width": 31,
+          "height": 29,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18239,30 +17422,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              12,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-cloud-composer-2",
-          "type": "line",
-          "x": 34,
-          "y": 55,
-          "width": 15,
-          "height": 25,
+          "type": "rectangle",
+          "x": 84,
+          "y": 74,
+          "width": 31,
+          "height": 29,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18283,34 +17451,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              8,
-              0
-            ],
-            [
-              15,
-              -25
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-cloud-composer-3",
           "type": "line",
-          "x": 34,
-          "y": 55,
-          "width": 15,
-          "height": 25,
+          "x": 40,
+          "y": 48,
+          "width": 44,
+          "height": 19,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18338,12 +17487,16 @@
               0
             ],
             [
-              8,
+              18,
               0
             ],
             [
-              15,
-              25
+              30,
+              -19
+            ],
+            [
+              44,
+              -19
             ]
           ],
           "startBinding": null,
@@ -18354,11 +17507,11 @@
         },
         {
           "id": "gcp-cloud-composer-4",
-          "type": "rectangle",
-          "x": 49,
-          "y": 18,
-          "width": 23,
-          "height": 21,
+          "type": "line",
+          "x": 58,
+          "y": 48,
+          "width": 26,
+          "height": 40,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18379,15 +17532,34 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-cloud-composer-5",
           "type": "line",
-          "x": 54,
-          "y": 28,
-          "width": 13,
-          "height": 0,
+          "x": 75,
+          "y": 22,
+          "width": 9,
+          "height": 14,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18415,8 +17587,12 @@
               0
             ],
             [
-              13,
-              0
+              9,
+              7
+            ],
+            [
+              0,
+              14
             ]
           ],
           "startBinding": null,
@@ -18427,11 +17603,11 @@
         },
         {
           "id": "gcp-cloud-composer-6",
-          "type": "rectangle",
-          "x": 49,
-          "y": 70,
-          "width": 23,
-          "height": 21,
+          "type": "line",
+          "x": 75,
+          "y": 81,
+          "width": 9,
+          "height": 14,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18452,15 +17628,34 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              7
+            ],
+            [
+              0,
+              14
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-cloud-composer-7",
-          "type": "line",
-          "x": 54,
-          "y": 80,
-          "width": 13,
-          "height": 0,
+          "type": "ellipse",
+          "x": 15,
+          "y": 75,
+          "width": 28,
+          "height": 28,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18481,30 +17676,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              13,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-cloud-composer-8",
           "type": "line",
-          "x": 72,
-          "y": 28,
-          "width": 18,
-          "height": 27,
+          "x": 29,
+          "y": 81,
+          "width": 7,
+          "height": 12,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18532,254 +17712,12 @@
               0
             ],
             [
-              10,
-              0
-            ],
-            [
-              18,
-              27
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-composer-9",
-          "type": "line",
-          "x": 72,
-          "y": 80,
-          "width": 18,
-          "height": 25,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-composer"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 995424899,
-          "version": 1,
-          "versionNonce": 478054189,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
               0,
-              0
+              8
             ],
             [
-              10,
-              0
-            ],
-            [
-              18,
-              -25
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-composer-10",
-          "type": "rectangle",
-          "x": 90,
-          "y": 45,
-          "width": 27,
-          "height": 21,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-composer"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 628515974,
-          "version": 1,
-          "versionNonce": 1634278026,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-cloud-composer-11",
-          "type": "line",
-          "x": 96,
-          "y": 55,
-          "width": 15,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-composer"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1195050190,
-          "version": 1,
-          "versionNonce": 865840021,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              15,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-composer-12",
-          "type": "ellipse",
-          "x": 10,
-          "y": 80,
-          "width": 22,
-          "height": 22,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-composer"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1705198142,
-          "version": 1,
-          "versionNonce": 1363619777,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-cloud-composer-13",
-          "type": "line",
-          "x": 21,
-          "y": 84,
-          "width": 6,
-          "height": 10,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-composer"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1371987613,
-          "version": 1,
-          "versionNonce": 1410434330,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              7
-            ],
-            [
-              6,
-              10
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-cloud-composer-14",
-          "type": "line",
-          "x": 20,
-          "y": 115,
-          "width": 88,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-cloud-composer"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 162094753,
-          "version": 1,
-          "versionNonce": 1143604238,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              88,
-              0
+              7,
+              12
             ]
           ],
           "startBinding": null,
@@ -18799,10 +17737,10 @@
         {
           "id": "gcp-dataplex-0",
           "type": "line",
-          "x": 18,
-          "y": 30,
-          "width": 92,
-          "height": 9,
+          "x": 15,
+          "y": 29,
+          "width": 98,
+          "height": 10,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18831,14 +17769,14 @@
             ],
             [
               0,
-              -9
+              -10
             ],
             [
-              92,
-              -9
+              98,
+              -10
             ],
             [
-              92,
+              98,
               0
             ]
           ],
@@ -18851,10 +17789,10 @@
         {
           "id": "gcp-dataplex-1",
           "type": "line",
-          "x": 28,
-          "y": 21,
+          "x": 27,
+          "y": 19,
           "width": 0,
-          "height": 8,
+          "height": 7,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18883,7 +17821,7 @@
             ],
             [
               0,
-              -8
+              -7
             ]
           ],
           "startBinding": null,
@@ -18895,10 +17833,10 @@
         {
           "id": "gcp-dataplex-2",
           "type": "line",
-          "x": 100,
-          "y": 21,
+          "x": 101,
+          "y": 19,
           "width": 0,
-          "height": 8,
+          "height": 7,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -18927,7 +17865,7 @@
             ],
             [
               0,
-              -8
+              -7
             ]
           ],
           "startBinding": null,
@@ -18939,9 +17877,9 @@
         {
           "id": "gcp-dataplex-3",
           "type": "line",
-          "x": 14,
-          "y": 43,
-          "width": 100,
+          "x": 12,
+          "y": 41,
+          "width": 99,
           "height": 5,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -18970,36 +17908,32 @@
               0
             ],
             [
-              13,
+              14,
               -5
             ],
             [
-              26,
+              28,
               0
             ],
             [
-              39,
+              42,
               -5
             ],
             [
-              52,
+              56,
               0
             ],
             [
-              65,
+              70,
               -5
             ],
             [
-              78,
+              84,
               0
             ],
             [
-              91,
+              99,
               -5
-            ],
-            [
-              100,
-              -1
             ]
           ],
           "startBinding": null,
@@ -19010,11 +17944,11 @@
         },
         {
           "id": "gcp-dataplex-4",
-          "type": "line",
-          "x": 14,
-          "y": 100,
-          "width": 100,
-          "height": 5,
+          "type": "ellipse",
+          "x": 25,
+          "y": 53,
+          "width": 29,
+          "height": 12,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -19035,58 +17969,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              13,
-              -5
-            ],
-            [
-              26,
-              0
-            ],
-            [
-              39,
-              -5
-            ],
-            [
-              52,
-              0
-            ],
-            [
-              65,
-              -5
-            ],
-            [
-              78,
-              0
-            ],
-            [
-              91,
-              -5
-            ],
-            [
-              100,
-              -1
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-dataplex-5",
-          "type": "ellipse",
-          "x": 20,
-          "y": 54,
-          "width": 25,
-          "height": 10,
+          "type": "line",
+          "x": 25,
+          "y": 59,
+          "width": 29,
+          "height": 28,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -19107,15 +17998,46 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              24
+            ],
+            [
+              5,
+              28
+            ],
+            [
+              24,
+              28
+            ],
+            [
+              29,
+              24
+            ],
+            [
+              29,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-dataplex-6",
-          "type": "line",
-          "x": 20,
-          "y": 59,
-          "width": 25,
-          "height": 23,
+          "type": "rectangle",
+          "x": 70,
+          "y": 53,
+          "width": 33,
+          "height": 34,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -19136,46 +18058,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              19
-            ],
-            [
-              4,
-              23
-            ],
-            [
-              21,
-              23
-            ],
-            [
-              25,
-              19
-            ],
-            [
-              25,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-dataplex-7",
-          "type": "rectangle",
-          "x": 56,
-          "y": 55,
-          "width": 24,
-          "height": 26,
+          "type": "line",
+          "x": 70,
+          "y": 65,
+          "width": 33,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -19196,15 +18087,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              33,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-dataplex-8",
           "type": "line",
-          "x": 56,
-          "y": 64,
-          "width": 24,
-          "height": 0,
+          "x": 86,
+          "y": 65,
+          "width": 0,
+          "height": 22,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -19232,8 +18138,8 @@
               0
             ],
             [
-              24,
-              0
+              0,
+              22
             ]
           ],
           "startBinding": null,
@@ -19245,10 +18151,10 @@
         {
           "id": "gcp-dataplex-9",
           "type": "line",
-          "x": 64,
-          "y": 64,
-          "width": 0,
-          "height": 17,
+          "x": 12,
+          "y": 103,
+          "width": 99,
+          "height": 5,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -19276,160 +18182,32 @@
               0
             ],
             [
-              0,
-              17
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-dataplex-10",
-          "type": "line",
-          "x": 72,
-          "y": 64,
-          "width": 0,
-          "height": 17,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-dataplex"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1145602619,
-          "version": 1,
-          "versionNonce": 936057528,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
+              14,
+              -5
+            ],
             [
-              0,
+              28,
               0
             ],
             [
-              0,
-              17
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-dataplex-11",
-          "type": "line",
-          "x": 91,
-          "y": 61,
-          "width": 20,
-          "height": 26,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-dataplex"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 683495925,
-          "version": 1,
-          "versionNonce": 491103345,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
+              42,
+              -5
+            ],
             [
-              0,
+              56,
               0
             ],
             [
-              10,
-              -6
+              70,
+              -5
             ],
             [
-              20,
+              84,
               0
             ],
             [
-              20,
-              14
-            ],
-            [
-              10,
-              20
-            ],
-            [
-              0,
-              14
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-dataplex-12",
-          "type": "line",
-          "x": 22,
-          "y": 111,
-          "width": 85,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-dataplex"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 2039417196,
-          "version": 1,
-          "versionNonce": 613079191,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              85,
-              0
+              99,
+              -5
             ]
           ],
           "startBinding": null,
@@ -21563,11 +20341,11 @@
         },
         {
           "id": "gcp-external-ip-5",
-          "type": "line",
-          "x": 77,
-          "y": 51,
-          "width": 39,
-          "height": 42,
+          "type": "rectangle",
+          "x": 82,
+          "y": 48,
+          "width": 34,
+          "height": 45,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -21588,46 +20366,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              18,
-              0
-            ],
-            [
-              39,
-              21
-            ],
-            [
-              18,
-              42
-            ],
-            [
-              0,
-              42
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-external-ip-6",
-          "type": "ellipse",
-          "x": 83,
-          "y": 67,
-          "width": 8,
-          "height": 8,
+          "type": "line",
+          "x": 82,
+          "y": 61,
+          "width": 34,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -21648,14 +20395,29 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              34,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-external-ip-7",
           "type": "line",
-          "x": 93,
-          "y": 65,
-          "width": 10,
+          "x": 90,
+          "y": 69,
+          "width": 18,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -21684,7 +20446,7 @@
               0
             ],
             [
-              10,
+              18,
               0
             ]
           ],
@@ -21697,9 +20459,9 @@
         {
           "id": "gcp-external-ip-8",
           "type": "line",
-          "x": 93,
-          "y": 72,
-          "width": 15,
+          "x": 90,
+          "y": 81,
+          "width": 18,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -21728,7 +20490,7 @@
               0
             ],
             [
-              15,
+              18,
               0
             ]
           ],
@@ -21740,11 +20502,11 @@
         },
         {
           "id": "gcp-external-ip-9",
-          "type": "line",
-          "x": 93,
-          "y": 79,
-          "width": 10,
-          "height": 0,
+          "type": "ellipse",
+          "x": 82,
+          "y": 48,
+          "width": 34,
+          "height": 45,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -21765,22 +20527,7 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              10,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-external-ip-10",
@@ -25662,9 +24409,9 @@
           "id": "gcp-automl-language-0",
           "type": "line",
           "x": 10,
-          "y": 23,
-          "width": 59,
-          "height": 47,
+          "y": 29,
+          "width": 51,
+          "height": 53,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -25692,28 +24439,28 @@
               0
             ],
             [
-              59,
+              51,
               0
             ],
             [
-              59,
-              37
+              51,
+              42
             ],
             [
-              30,
-              37
+              28,
+              42
             ],
             [
-              17,
-              47
+              13,
+              53
             ],
             [
-              17,
-              37
+              13,
+              42
             ],
             [
               0,
-              37
+              42
             ],
             [
               0,
@@ -25730,8 +24477,8 @@
           "id": "gcp-automl-language-1",
           "type": "line",
           "x": 18,
-          "y": 33,
-          "width": 41,
+          "y": 41,
+          "width": 35,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -25760,7 +24507,7 @@
               0
             ],
             [
-              41,
+              35,
               0
             ]
           ],
@@ -25774,8 +24521,8 @@
           "id": "gcp-automl-language-2",
           "type": "line",
           "x": 18,
-          "y": 43,
-          "width": 35,
+          "y": 53,
+          "width": 30,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -25804,7 +24551,7 @@
               0
             ],
             [
-              35,
+              30,
               0
             ]
           ],
@@ -25818,8 +24565,8 @@
           "id": "gcp-automl-language-3",
           "type": "line",
           "x": 18,
-          "y": 53,
-          "width": 40,
+          "y": 64,
+          "width": 35,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -25848,7 +24595,7 @@
               0
             ],
             [
-              40,
+              35,
               0
             ]
           ],
@@ -25861,8 +24608,8 @@
         {
           "id": "gcp-automl-language-4",
           "type": "line",
-          "x": 69,
-          "y": 42,
+          "x": 61,
+          "y": 49,
           "width": 13,
           "height": 0,
           "angle": 0,
@@ -25905,8 +24652,8 @@
         {
           "id": "gcp-automl-language-5",
           "type": "line",
-          "x": 76,
-          "y": 36,
+          "x": 68,
+          "y": 43,
           "width": 6,
           "height": 12,
           "angle": 0,
@@ -25953,10 +24700,10 @@
         {
           "id": "gcp-automl-language-6",
           "type": "ellipse",
-          "x": 84,
-          "y": 24,
-          "width": 13,
-          "height": 13,
+          "x": 78,
+          "y": 23,
+          "width": 16,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -25982,10 +24729,10 @@
         {
           "id": "gcp-automl-language-7",
           "type": "ellipse",
-          "x": 103,
-          "y": 40,
-          "width": 13,
-          "height": 13,
+          "x": 99,
+          "y": 48,
+          "width": 16,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26011,10 +24758,10 @@
         {
           "id": "gcp-automl-language-8",
           "type": "ellipse",
-          "x": 84,
-          "y": 57,
-          "width": 13,
-          "height": 13,
+          "x": 78,
+          "y": 75,
+          "width": 16,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26040,10 +24787,10 @@
         {
           "id": "gcp-automl-language-9",
           "type": "line",
-          "x": 97,
-          "y": 30,
-          "width": 7,
-          "height": 13,
+          "x": 91,
+          "y": 36,
+          "width": 11,
+          "height": 15,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26071,8 +24818,8 @@
               0
             ],
             [
-              7,
-              13
+              11,
+              15
             ]
           ],
           "startBinding": null,
@@ -26084,10 +24831,10 @@
         {
           "id": "gcp-automl-language-10",
           "type": "line",
-          "x": 97,
-          "y": 64,
-          "width": 7,
-          "height": 12,
+          "x": 102,
+          "y": 61,
+          "width": 11,
+          "height": 17,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26115,140 +24862,8 @@
               0
             ],
             [
-              7,
-              -12
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-automl-language-11",
-          "type": "line",
-          "x": 22,
-          "y": 89,
-          "width": 84,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-language"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 166488885,
-          "version": 1,
-          "versionNonce": 428831258,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              84,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-automl-language-12",
-          "type": "line",
-          "x": 22,
-          "y": 100,
-          "width": 56,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-language"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1037365603,
-          "version": 1,
-          "versionNonce": 1526328337,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              56,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-automl-language-13",
-          "type": "line",
-          "x": 22,
-          "y": 111,
-          "width": 72,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-language"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1825842360,
-          "version": 1,
-          "versionNonce": 1890490613,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              72,
-              0
+              -11,
+              17
             ]
           ],
           "startBinding": null,
@@ -26269,9 +24884,9 @@
           "id": "gcp-automl-translation-0",
           "type": "rectangle",
           "x": 12,
-          "y": 16,
-          "width": 43,
-          "height": 36,
+          "y": 13,
+          "width": 39,
+          "height": 40,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26297,10 +24912,10 @@
         {
           "id": "gcp-automl-translation-1",
           "type": "line",
-          "x": 12,
-          "y": 27,
-          "width": 43,
-          "height": 0,
+          "x": 21,
+          "y": 44,
+          "width": 20,
+          "height": 22,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26328,7 +24943,11 @@
               0
             ],
             [
-              43,
+              10,
+              -22
+            ],
+            [
+              20,
               0
             ]
           ],
@@ -26341,10 +24960,10 @@
         {
           "id": "gcp-automl-translation-2",
           "type": "line",
-          "x": 19,
-          "y": 45,
-          "width": 14,
-          "height": 14,
+          "x": 25,
+          "y": 37,
+          "width": 12,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26372,11 +24991,7 @@
               0
             ],
             [
-              7,
-              -14
-            ],
-            [
-              14,
+              12,
               0
             ]
           ],
@@ -26388,11 +25003,11 @@
         },
         {
           "id": "gcp-automl-translation-3",
-          "type": "line",
-          "x": 22,
-          "y": 40,
-          "width": 8,
-          "height": 0,
+          "type": "rectangle",
+          "x": 77,
+          "y": 13,
+          "width": 39,
+          "height": 40,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26413,29 +25028,14 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              8,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-automl-translation-4",
           "type": "line",
-          "x": 38,
-          "y": 38,
-          "width": 11,
+          "x": 84,
+          "y": 27,
+          "width": 25,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -26464,7 +25064,7 @@
               0
             ],
             [
-              11,
+              25,
               0
             ]
           ],
@@ -26476,11 +25076,11 @@
         },
         {
           "id": "gcp-automl-translation-5",
-          "type": "rectangle",
-          "x": 73,
-          "y": 16,
-          "width": 43,
-          "height": 36,
+          "type": "line",
+          "x": 96,
+          "y": 21,
+          "width": 0,
+          "height": 6,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26501,15 +25101,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-automl-translation-6",
           "type": "line",
-          "x": 73,
-          "y": 27,
-          "width": 43,
-          "height": 0,
+          "x": 86,
+          "y": 32,
+          "width": 20,
+          "height": 13,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26537,8 +25152,8 @@
               0
             ],
             [
-              43,
-              0
+              20,
+              13
             ]
           ],
           "startBinding": null,
@@ -26550,10 +25165,10 @@
         {
           "id": "gcp-automl-translation-7",
           "type": "line",
-          "x": 79,
-          "y": 33,
-          "width": 14,
-          "height": 0,
+          "x": 106,
+          "y": 32,
+          "width": 20,
+          "height": 13,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26581,8 +25196,8 @@
               0
             ],
             [
-              14,
-              0
+              -20,
+              13
             ]
           ],
           "startBinding": null,
@@ -26594,10 +25209,10 @@
         {
           "id": "gcp-automl-translation-8",
           "type": "line",
-          "x": 86,
-          "y": 29,
-          "width": 0,
-          "height": 4,
+          "x": 31,
+          "y": 53,
+          "width": 33,
+          "height": 12,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26626,7 +25241,11 @@
             ],
             [
               0,
-              4
+              12
+            ],
+            [
+              33,
+              12
             ]
           ],
           "startBinding": null,
@@ -26638,10 +25257,10 @@
         {
           "id": "gcp-automl-translation-9",
           "type": "line",
-          "x": 80,
-          "y": 36,
-          "width": 12,
-          "height": 9,
+          "x": 97,
+          "y": 53,
+          "width": 33,
+          "height": 12,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26669,8 +25288,12 @@
               0
             ],
             [
-              12,
-              9
+              0,
+              12
+            ],
+            [
+              -33,
+              12
             ]
           ],
           "startBinding": null,
@@ -26682,10 +25305,10 @@
         {
           "id": "gcp-automl-translation-10",
           "type": "line",
-          "x": 92,
-          "y": 36,
-          "width": 12,
-          "height": 9,
+          "x": 64,
+          "y": 65,
+          "width": 0,
+          "height": 10,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26713,8 +25336,8 @@
               0
             ],
             [
-              -12,
-              9
+              0,
+              10
             ]
           ],
           "startBinding": null,
@@ -26726,10 +25349,10 @@
         {
           "id": "gcp-automl-translation-11",
           "type": "line",
-          "x": 98,
-          "y": 38,
-          "width": 11,
-          "height": 0,
+          "x": 58,
+          "y": 69,
+          "width": 12,
+          "height": 6,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26757,7 +25380,11 @@
               0
             ],
             [
-              11,
+              6,
+              6
+            ],
+            [
+              12,
               0
             ]
           ],
@@ -26769,11 +25396,11 @@
         },
         {
           "id": "gcp-automl-translation-12",
-          "type": "line",
-          "x": 33,
-          "y": 52,
-          "width": 31,
-          "height": 13,
+          "type": "ellipse",
+          "x": 38,
+          "y": 83,
+          "width": 16,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26794,37 +25421,18 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              13
-            ],
-            [
-              31,
-              13
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-automl-translation-13",
-          "type": "line",
-          "x": 94,
-          "y": 52,
-          "width": 30,
-          "height": 13,
+          "type": "ellipse",
+          "x": 56,
+          "y": 90,
+          "width": 16,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
+          "backgroundColor": "#137333",
           "fillStyle": "hachure",
           "strokeWidth": 1.7,
           "strokeStyle": "solid",
@@ -26842,34 +25450,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              13
-            ],
-            [
-              -30,
-              13
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-automl-translation-14",
-          "type": "line",
-          "x": 64,
-          "y": 65,
-          "width": 0,
-          "height": 11,
+          "type": "ellipse",
+          "x": 74,
+          "y": 83,
+          "width": 16,
+          "height": 16,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26890,30 +25479,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              11
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-automl-translation-15",
           "type": "line",
-          "x": 58,
-          "y": 70,
-          "width": 12,
-          "height": 6,
+          "x": 53,
+          "y": 92,
+          "width": 4,
+          "height": 3,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26941,12 +25515,8 @@
               0
             ],
             [
-              6,
-              6
-            ],
-            [
-              12,
-              0
+              4,
+              3
             ]
           ],
           "startBinding": null,
@@ -26957,11 +25527,11 @@
         },
         {
           "id": "gcp-automl-translation-16",
-          "type": "ellipse",
-          "x": 39,
-          "y": 81,
-          "width": 13,
-          "height": 13,
+          "type": "line",
+          "x": 71,
+          "y": 95,
+          "width": 4,
+          "height": 3,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -26982,93 +25552,6 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-automl-translation-17",
-          "type": "ellipse",
-          "x": 58,
-          "y": 88,
-          "width": 13,
-          "height": 13,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-translation"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1586208169,
-          "version": 1,
-          "versionNonce": 583515202,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-automl-translation-18",
-          "type": "ellipse",
-          "x": 77,
-          "y": 81,
-          "width": 13,
-          "height": 13,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-translation"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1685774129,
-          "version": 1,
-          "versionNonce": 1218372920,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-automl-translation-19",
-          "type": "line",
-          "x": 52,
-          "y": 88,
-          "width": 6,
-          "height": 5,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-translation"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 42681555,
-          "version": 1,
-          "versionNonce": 470514512,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
           "locked": false,
           "points": [
             [
@@ -27076,96 +25559,8 @@
               0
             ],
             [
-              6,
-              5
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-automl-translation-20",
-          "type": "line",
-          "x": 71,
-          "y": 93,
-          "width": 6,
-          "height": 5,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-translation"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1967424976,
-          "version": 1,
-          "versionNonce": 1204991394,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              6,
-              -5
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-automl-translation-21",
-          "type": "line",
-          "x": 23,
-          "y": 111,
-          "width": 84,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-automl-translation"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 195641625,
-          "version": 1,
-          "versionNonce": 1774064073,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              84,
-              0
+              4,
+              -3
             ]
           ],
           "startBinding": null,
@@ -31469,10 +29864,10 @@
         {
           "id": "gcp-dialogflow-cx-0",
           "type": "line",
-          "x": 13,
-          "y": 17,
-          "width": 38,
-          "height": 30,
+          "x": 38,
+          "y": 10,
+          "width": 52,
+          "height": 43,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31500,28 +29895,28 @@
               0
             ],
             [
-              38,
+              52,
               0
             ],
             [
-              38,
-              23
+              52,
+              33
             ],
             [
-              22,
-              23
+              30,
+              33
             ],
             [
-              13,
-              30
+              17,
+              43
             ],
             [
-              13,
-              23
+              17,
+              33
             ],
             [
               0,
-              23
+              33
             ],
             [
               0,
@@ -31537,9 +29932,9 @@
         {
           "id": "gcp-dialogflow-cx-1",
           "type": "line",
-          "x": 20,
-          "y": 26,
-          "width": 24,
+          "x": 46,
+          "y": 22,
+          "width": 36,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -31568,7 +29963,7 @@
               0
             ],
             [
-              24,
+              36,
               0
             ]
           ],
@@ -31581,9 +29976,9 @@
         {
           "id": "gcp-dialogflow-cx-2",
           "type": "line",
-          "x": 20,
+          "x": 46,
           "y": 33,
-          "width": 18,
+          "width": 30,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -31612,7 +30007,7 @@
               0
             ],
             [
-              18,
+              30,
               0
             ]
           ],
@@ -31625,10 +30020,10 @@
         {
           "id": "gcp-dialogflow-cx-3",
           "type": "line",
-          "x": 51,
-          "y": 29,
-          "width": 18,
-          "height": 20,
+          "x": 64,
+          "y": 49,
+          "width": 35,
+          "height": 24,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31656,12 +30051,16 @@
               0
             ],
             [
-              18,
-              0
+              0,
+              13
             ],
             [
-              18,
-              20
+              -35,
+              13
+            ],
+            [
+              -35,
+              24
             ]
           ],
           "startBinding": null,
@@ -31673,10 +30072,10 @@
         {
           "id": "gcp-dialogflow-cx-4",
           "type": "line",
-          "x": 57,
-          "y": 60,
-          "width": 24,
-          "height": 24,
+          "x": 64,
+          "y": 62,
+          "width": 35,
+          "height": 11,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31704,20 +30103,12 @@
               0
             ],
             [
-              12,
-              -12
-            ],
-            [
-              24,
+              35,
               0
             ],
             [
-              12,
-              12
-            ],
-            [
-              0,
-              0
+              35,
+              11
             ]
           ],
           "startBinding": null,
@@ -31729,10 +30120,10 @@
         {
           "id": "gcp-dialogflow-cx-5",
           "type": "line",
-          "x": 69,
-          "y": 72,
-          "width": 27,
-          "height": 15,
+          "x": 23,
+          "y": 67,
+          "width": 12,
+          "height": 6,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31760,12 +30151,12 @@
               0
             ],
             [
-              0,
-              15
+              6,
+              6
             ],
             [
-              -27,
-              15
+              12,
+              0
             ]
           ],
           "startBinding": null,
@@ -31777,10 +30168,10 @@
         {
           "id": "gcp-dialogflow-cx-6",
           "type": "line",
-          "x": 69,
-          "y": 87,
-          "width": 27,
-          "height": 0,
+          "x": 93,
+          "y": 67,
+          "width": 12,
+          "height": 6,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31808,7 +30199,11 @@
               0
             ],
             [
-              27,
+              6,
+              6
+            ],
+            [
+              12,
               0
             ]
           ],
@@ -31821,10 +30216,10 @@
         {
           "id": "gcp-dialogflow-cx-7",
           "type": "line",
-          "x": 48,
-          "y": 81,
-          "width": 6,
-          "height": 12,
+          "x": 9,
+          "y": 75,
+          "width": 41,
+          "height": 32,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31852,12 +30247,32 @@
               0
             ],
             [
-              -6,
-              6
+              41,
+              0
+            ],
+            [
+              41,
+              24
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              12,
+              32
+            ],
+            [
+              12,
+              24
             ],
             [
               0,
-              12
+              24
+            ],
+            [
+              0,
+              0
             ]
           ],
           "startBinding": null,
@@ -31869,10 +30284,10 @@
         {
           "id": "gcp-dialogflow-cx-8",
           "type": "line",
-          "x": 90,
-          "y": 81,
-          "width": 6,
-          "height": 12,
+          "x": 78,
+          "y": 75,
+          "width": 41,
+          "height": 32,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31900,12 +30315,32 @@
               0
             ],
             [
-              6,
-              6
+              41,
+              0
+            ],
+            [
+              41,
+              24
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              12,
+              32
+            ],
+            [
+              12,
+              24
             ],
             [
               0,
-              12
+              24
+            ],
+            [
+              0,
+              0
             ]
           ],
           "startBinding": null,
@@ -31916,11 +30351,11 @@
         },
         {
           "id": "gcp-dialogflow-cx-9",
-          "type": "rectangle",
-          "x": 13,
-          "y": 77,
-          "width": 29,
-          "height": 21,
+          "type": "line",
+          "x": 16,
+          "y": 84,
+          "width": 27,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31941,15 +30376,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              27,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-dialogflow-cx-10",
-          "type": "rectangle",
-          "x": 96,
-          "y": 77,
-          "width": 22,
-          "height": 21,
+          "type": "line",
+          "x": 85,
+          "y": 84,
+          "width": 27,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -31970,35 +30420,6 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-dialogflow-cx-11",
-          "type": "line",
-          "x": 19,
-          "y": 87,
-          "width": 17,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-dialogflow-cx"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1197693691,
-          "version": 1,
-          "versionNonce": 1879757384,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
           "locked": false,
           "points": [
             [
@@ -32006,95 +30427,7 @@
               0
             ],
             [
-              17,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-dialogflow-cx-12",
-          "type": "line",
-          "x": 101,
-          "y": 87,
-          "width": 12,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-dialogflow-cx"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1892082876,
-          "version": 1,
-          "versionNonce": 955447668,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              12,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-dialogflow-cx-13",
-          "type": "line",
-          "x": 19,
-          "y": 113,
-          "width": 90,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-dialogflow-cx"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1128504614,
-          "version": 1,
-          "versionNonce": 526488622,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              90,
+              27,
               0
             ]
           ],
@@ -87234,11 +85567,11 @@
         },
         {
           "id": "gcp-translation-5",
-          "type": "line",
+          "type": "rectangle",
           "x": 12,
-          "y": 21,
-          "width": 33,
-          "height": 33,
+          "y": 28,
+          "width": 34,
+          "height": 30,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -87259,54 +85592,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              33,
-              0
-            ],
-            [
-              33,
-              26
-            ],
-            [
-              19,
-              26
-            ],
-            [
-              11,
-              33
-            ],
-            [
-              11,
-              26
-            ],
-            [
-              0,
-              26
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-translation-6",
           "type": "line",
-          "x": 19,
-          "y": 40,
-          "width": 14,
-          "height": 13,
+          "x": 18,
+          "y": 38,
+          "width": 22,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -87334,11 +85628,7 @@
               0
             ],
             [
-              7,
-              -13
-            ],
-            [
-              14,
+              22,
               0
             ]
           ],
@@ -87351,9 +85641,9 @@
         {
           "id": "gcp-translation-7",
           "type": "line",
-          "x": 22,
-          "y": 35,
-          "width": 8,
+          "x": 18,
+          "y": 48,
+          "width": 16,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -87382,7 +85672,7 @@
               0
             ],
             [
-              8,
+              16,
               0
             ]
           ],
@@ -87394,11 +85684,11 @@
         },
         {
           "id": "gcp-translation-8",
-          "type": "line",
-          "x": 83,
-          "y": 75,
-          "width": 33,
-          "height": 33,
+          "type": "rectangle",
+          "x": 82,
+          "y": 72,
+          "width": 34,
+          "height": 30,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -87419,53 +85709,14 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              33,
-              0
-            ],
-            [
-              33,
-              26
-            ],
-            [
-              19,
-              26
-            ],
-            [
-              11,
-              33
-            ],
-            [
-              11,
-              26
-            ],
-            [
-              0,
-              26
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-translation-9",
           "type": "line",
-          "x": 89,
-          "y": 84,
-          "width": 20,
+          "x": 88,
+          "y": 82,
+          "width": 22,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -87494,7 +85745,7 @@
               0
             ],
             [
-              20,
+              22,
               0
             ]
           ],
@@ -87507,10 +85758,10 @@
         {
           "id": "gcp-translation-10",
           "type": "line",
-          "x": 99,
-          "y": 79,
-          "width": 0,
-          "height": 5,
+          "x": 88,
+          "y": 92,
+          "width": 16,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -87538,8 +85789,8 @@
               0
             ],
             [
-              0,
-              5
+              16,
+              0
             ]
           ],
           "startBinding": null,
@@ -87551,10 +85802,10 @@
         {
           "id": "gcp-translation-11",
           "type": "line",
-          "x": 90,
-          "y": 88,
-          "width": 18,
-          "height": 9,
+          "x": 46,
+          "y": 43,
+          "width": 36,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -87582,8 +85833,8 @@
               0
             ],
             [
-              18,
-              9
+              36,
+              0
             ]
           ],
           "startBinding": null,
@@ -87595,10 +85846,10 @@
         {
           "id": "gcp-translation-12",
           "type": "line",
-          "x": 107,
-          "y": 88,
-          "width": 16,
-          "height": 9,
+          "x": 76,
+          "y": 37,
+          "width": 6,
+          "height": 12,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -87626,8 +85877,12 @@
               0
             ],
             [
-              -16,
-              9
+              6,
+              6
+            ],
+            [
+              0,
+              12
             ]
           ],
           "startBinding": null,
@@ -88285,10 +86540,10 @@
         {
           "id": "gcp-genomics-0",
           "type": "line",
-          "x": 18,
-          "y": 30,
-          "width": 86,
-          "height": 0,
+          "x": 31,
+          "y": 18,
+          "width": 0,
+          "height": 88,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -88316,8 +86571,8 @@
               0
             ],
             [
-              86,
-              0
+              0,
+              88
             ]
           ],
           "startBinding": null,
@@ -88329,10 +86584,10 @@
         {
           "id": "gcp-genomics-1",
           "type": "line",
-          "x": 28,
-          "y": 47,
-          "width": 83,
-          "height": 0,
+          "x": 97,
+          "y": 18,
+          "width": 0,
+          "height": 88,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -88360,8 +86615,8 @@
               0
             ],
             [
-              83,
-              0
+              0,
+              88
             ]
           ],
           "startBinding": null,
@@ -88373,10 +86628,10 @@
         {
           "id": "gcp-genomics-2",
           "type": "line",
-          "x": 13,
-          "y": 64,
-          "width": 83,
-          "height": 0,
+          "x": 31,
+          "y": 18,
+          "width": 66,
+          "height": 88,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -88404,8 +86659,24 @@
               0
             ],
             [
-              83,
-              0
+              66,
+              17
+            ],
+            [
+              0,
+              34
+            ],
+            [
+              66,
+              51
+            ],
+            [
+              0,
+              68
+            ],
+            [
+              66,
+              88
             ]
           ],
           "startBinding": null,
@@ -88417,10 +86688,10 @@
         {
           "id": "gcp-genomics-3",
           "type": "line",
-          "x": 24,
-          "y": 81,
-          "width": 85,
-          "height": 0,
+          "x": 97,
+          "y": 18,
+          "width": 66,
+          "height": 88,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -88448,8 +86719,24 @@
               0
             ],
             [
-              85,
-              0
+              -66,
+              17
+            ],
+            [
+              0,
+              34
+            ],
+            [
+              -66,
+              51
+            ],
+            [
+              0,
+              68
+            ],
+            [
+              -66,
+              88
             ]
           ],
           "startBinding": null,
@@ -88461,9 +86748,9 @@
         {
           "id": "gcp-genomics-4",
           "type": "line",
-          "x": 18,
-          "y": 98,
-          "width": 83,
+          "x": 31,
+          "y": 35,
+          "width": 66,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -88492,7 +86779,7 @@
               0
             ],
             [
-              83,
+              66,
               0
             ]
           ],
@@ -88504,14 +86791,14 @@
         },
         {
           "id": "gcp-genomics-5",
-          "type": "ellipse",
-          "x": 15,
-          "y": 27,
-          "width": 6,
-          "height": 6,
+          "type": "line",
+          "x": 31,
+          "y": 52,
+          "width": 66,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
+          "backgroundColor": "transparent",
           "fillStyle": "hachure",
           "strokeWidth": 1.7,
           "strokeStyle": "solid",
@@ -88529,15 +86816,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              66,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-genomics-6",
-          "type": "ellipse",
-          "x": 26,
-          "y": 44,
-          "width": 6,
-          "height": 6,
+          "type": "line",
+          "x": 31,
+          "y": 69,
+          "width": 66,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -88558,15 +86860,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              66,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-genomics-7",
-          "type": "ellipse",
-          "x": 10,
-          "y": 61,
-          "width": 6,
-          "height": 6,
+          "type": "line",
+          "x": 31,
+          "y": 86,
+          "width": 66,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -88587,243 +86904,25 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              66,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-genomics-8",
-          "type": "ellipse",
-          "x": 21,
-          "y": 78,
-          "width": 6,
-          "height": 6,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1244942964,
-          "version": 1,
-          "versionNonce": 1529830230,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-genomics-9",
-          "type": "ellipse",
-          "x": 15,
-          "y": 95,
-          "width": 6,
-          "height": 6,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1346308234,
-          "version": 1,
-          "versionNonce": 1916972734,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-genomics-10",
-          "type": "line",
-          "x": 49,
-          "y": 23,
-          "width": 0,
-          "height": 82,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 779358381,
-          "version": 1,
-          "versionNonce": 1434688830,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              82
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-genomics-11",
-          "type": "line",
-          "x": 75,
-          "y": 23,
-          "width": 0,
-          "height": 82,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 85802874,
-          "version": 1,
-          "versionNonce": 1309930857,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              82
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-genomics-12",
-          "type": "ellipse",
-          "x": 46,
-          "y": 44,
-          "width": 6,
-          "height": 6,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 2027347288,
-          "version": 1,
-          "versionNonce": 344720498,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-genomics-13",
-          "type": "ellipse",
-          "x": 72,
-          "y": 61,
-          "width": 6,
-          "height": 6,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 205371483,
-          "version": 1,
-          "versionNonce": 1709349854,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-genomics-14",
-          "type": "ellipse",
-          "x": 46,
-          "y": 78,
-          "width": 6,
-          "height": 6,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-genomics"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 1143268606,
-          "version": 1,
-          "versionNonce": 517807698,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false
-        },
-        {
-          "id": "gcp-genomics-15",
           "type": "line",
           "x": 16,
           "y": 115,
@@ -88842,9 +86941,9 @@
           ],
           "frameId": null,
           "roundness": null,
-          "seed": 1749541748,
+          "seed": 1244942964,
           "version": 1,
-          "versionNonce": 614710791,
+          "versionNonce": 1529830230,
           "isDeleted": false,
           "boundElements": null,
           "updated": 1,
@@ -92416,11 +90515,11 @@
       "elements": [
         {
           "id": "gcp-looker-0",
-          "type": "line",
-          "x": 17,
-          "y": 88,
-          "width": 0,
-          "height": 63,
+          "type": "rectangle",
+          "x": 12,
+          "y": 18,
+          "width": 104,
+          "height": 86,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -92441,29 +90540,14 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              0,
-              -63
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-looker-1",
           "type": "line",
-          "x": 17,
-          "y": 88,
-          "width": 71,
+          "x": 12,
+          "y": 34,
+          "width": 104,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -92492,7 +90576,7 @@
               0
             ],
             [
-              71,
+              104,
               0
             ]
           ],
@@ -92504,11 +90588,11 @@
         },
         {
           "id": "gcp-looker-2",
-          "type": "line",
-          "x": 24,
-          "y": 77,
-          "width": 51,
-          "height": 30,
+          "type": "rectangle",
+          "x": 23,
+          "y": 46,
+          "width": 38,
+          "height": 45,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -92529,42 +90613,15 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              13,
-              -14
-            ],
-            [
-              25,
-              -8
-            ],
-            [
-              38,
-              -30
-            ],
-            [
-              51,
-              -25
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-looker-3",
-          "type": "ellipse",
-          "x": 33,
+          "type": "line",
+          "x": 23,
           "y": 59,
-          "width": 8,
-          "height": 8,
+          "width": 38,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -92585,18 +90642,33 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              38,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-looker-4",
-          "type": "ellipse",
-          "x": 45,
-          "y": 65,
-          "width": 8,
-          "height": 8,
+          "type": "line",
+          "x": 31,
+          "y": 79,
+          "width": 21,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
+          "backgroundColor": "transparent",
           "fillStyle": "hachure",
           "strokeWidth": 1.7,
           "strokeStyle": "solid",
@@ -92614,15 +90686,30 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              21,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-looker-5",
-          "type": "ellipse",
-          "x": 58,
-          "y": 43,
-          "width": 8,
-          "height": 8,
+          "type": "line",
+          "x": 31,
+          "y": 79,
+          "width": 19,
+          "height": 11,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -92643,15 +90730,34 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              -11
+            ],
+            [
+              19,
+              -5
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-looker-6",
-          "type": "ellipse",
-          "x": 67,
-          "y": 23,
-          "width": 37,
-          "height": 37,
+          "type": "rectangle",
+          "x": 70,
+          "y": 46,
+          "width": 34,
+          "height": 45,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -92677,10 +90783,10 @@
         {
           "id": "gcp-looker-7",
           "type": "line",
-          "x": 94,
-          "y": 50,
-          "width": 18,
-          "height": 18,
+          "x": 70,
+          "y": 58,
+          "width": 34,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -92708,8 +90814,8 @@
               0
             ],
             [
-              18,
-              18
+              34,
+              0
             ]
           ],
           "startBinding": null,
@@ -92721,9 +90827,9 @@
         {
           "id": "gcp-looker-8",
           "type": "line",
-          "x": 21,
-          "y": 101,
-          "width": 26,
+          "x": 78,
+          "y": 68,
+          "width": 18,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -92752,7 +90858,7 @@
               0
             ],
             [
-              26,
+              18,
               0
             ]
           ],
@@ -92764,14 +90870,14 @@
         },
         {
           "id": "gcp-looker-9",
-          "type": "line",
-          "x": 55,
-          "y": 101,
-          "width": 27,
-          "height": 0,
+          "type": "ellipse",
+          "x": 83,
+          "y": 73,
+          "width": 8,
+          "height": 8,
           "angle": 0,
           "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
+          "backgroundColor": "#137333",
           "fillStyle": "hachure",
           "strokeWidth": 1.7,
           "strokeStyle": "solid",
@@ -92789,69 +90895,10 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              27,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-looker-10",
-          "type": "line",
-          "x": 90,
-          "y": 101,
-          "width": 21,
-          "height": 0,
-          "angle": 0,
-          "strokeColor": "#1e1e1e",
-          "backgroundColor": "transparent",
-          "fillStyle": "hachure",
-          "strokeWidth": 1.7,
-          "strokeStyle": "solid",
-          "roughness": 2,
-          "opacity": 100,
-          "groupIds": [
-            "gcp-looker"
-          ],
-          "frameId": null,
-          "roundness": null,
-          "seed": 131724250,
-          "version": 1,
-          "versionNonce": 519072500,
-          "isDeleted": false,
-          "boundElements": null,
-          "updated": 1,
-          "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              21,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
-        },
-        {
-          "id": "gcp-looker-11",
           "type": "line",
           "x": 21,
           "y": 112,
@@ -92870,9 +90917,9 @@
           ],
           "frameId": null,
           "roundness": null,
-          "seed": 1423887162,
+          "seed": 131724250,
           "version": 1,
-          "versionNonce": 394634190,
+          "versionNonce": 519072500,
           "isDeleted": false,
           "boundElements": null,
           "updated": 1,
@@ -107784,11 +105831,11 @@
         },
         {
           "id": "gcp-cloud-domains-4",
-          "type": "line",
-          "x": 65,
-          "y": 65,
-          "width": 51,
-          "height": 30,
+          "type": "rectangle",
+          "x": 67,
+          "y": 62,
+          "width": 49,
+          "height": 34,
           "angle": 0,
           "strokeColor": "#1e1e1e",
           "backgroundColor": "transparent",
@@ -107809,49 +105856,18 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false,
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              35,
-              0
-            ],
-            [
-              51,
-              15
-            ],
-            [
-              35,
-              30
-            ],
-            [
-              0,
-              30
-            ],
-            [
-              0,
-              0
-            ]
-          ],
-          "startBinding": null,
-          "endBinding": null,
-          "startArrowhead": null,
-          "endArrowhead": null,
-          "lastCommittedPoint": null
+          "locked": false
         },
         {
           "id": "gcp-cloud-domains-5",
-          "type": "ellipse",
-          "x": 72,
-          "y": 76,
-          "width": 7,
-          "height": 7,
+          "type": "line",
+          "x": 67,
+          "y": 75,
+          "width": 49,
+          "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
-          "backgroundColor": "#137333",
+          "backgroundColor": "transparent",
           "fillStyle": "hachure",
           "strokeWidth": 1.7,
           "strokeStyle": "solid",
@@ -107869,14 +105885,29 @@
           "boundElements": null,
           "updated": 1,
           "link": null,
-          "locked": false
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              49,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
         },
         {
           "id": "gcp-cloud-domains-6",
           "type": "line",
-          "x": 84,
-          "y": 80,
-          "width": 17,
+          "x": 76,
+          "y": 82,
+          "width": 15,
           "height": 0,
           "angle": 0,
           "strokeColor": "#1e1e1e",
@@ -107905,7 +105936,7 @@
               0
             ],
             [
-              17,
+              15,
               0
             ]
           ],
@@ -107917,6 +105948,79 @@
         },
         {
           "id": "gcp-cloud-domains-7",
+          "type": "line",
+          "x": 96,
+          "y": 82,
+          "width": 12,
+          "height": 0,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "gcp-cloud-domains"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1472674939,
+          "version": 1,
+          "versionNonce": 411208316,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              12,
+              0
+            ]
+          ],
+          "startBinding": null,
+          "endBinding": null,
+          "startArrowhead": null,
+          "endArrowhead": null,
+          "lastCommittedPoint": null
+        },
+        {
+          "id": "gcp-cloud-domains-8",
+          "type": "ellipse",
+          "x": 70,
+          "y": 86,
+          "width": 6,
+          "height": 6,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "#137333",
+          "fillStyle": "hachure",
+          "strokeWidth": 1.7,
+          "strokeStyle": "solid",
+          "roughness": 2,
+          "opacity": 100,
+          "groupIds": [
+            "gcp-cloud-domains"
+          ],
+          "frameId": null,
+          "roundness": null,
+          "seed": 1706923526,
+          "version": 1,
+          "versionNonce": 618293159,
+          "isDeleted": false,
+          "boundElements": null,
+          "updated": 1,
+          "link": null,
+          "locked": false
+        },
+        {
+          "id": "gcp-cloud-domains-9",
           "type": "line",
           "x": 26,
           "y": 100,
@@ -107935,9 +106039,9 @@
           ],
           "frameId": null,
           "roundness": null,
-          "seed": 1472674939,
+          "seed": 1359143457,
           "version": 1,
-          "versionNonce": 411208316,
+          "versionNonce": 1131170824,
           "isDeleted": false,
           "boundElements": null,
           "updated": 1,

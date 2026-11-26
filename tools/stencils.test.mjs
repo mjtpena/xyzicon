@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
-import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity } from "./build-stencils.mjs";
+import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity, validateAliasEvidence } from "./build-stencils.mjs";
 import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus, splitCandidateSupport } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
@@ -159,6 +159,12 @@ test("durable catalog review state records evidence and remaining scope", () => 
   assert.equal(state.batches[0].confirmedDrawingDefects.length, 0);
   assert.ok(state.batches[0].exactCrossCandidates.some((candidate) =>
     candidate.id === "aws-public-private-subnet" && candidate.status === "verified-separate"));
+  const m365Evidence = state.batches.find((batch) =>
+    batch.id === "m365-source-alias-theme-color-batches-1-2");
+  assert.equal(m365Evidence.sourceGroupsReviewed, 33);
+  assert.equal(m365Evidence.sourceEntriesReviewed, 212);
+  assert.equal(m365Evidence.smallSizeDrawingReview, false);
+  assert.equal(m365Evidence.nearestNeighborReview, false);
   const smallSizeSpotCheck = state.batches.find((batch) => batch.id === "aws-source-stencil-small-size-spot-check-1");
   assert.equal(smallSizeSpotCheck.status, "spot-check-only");
   assert.equal(smallSizeSpotCheck.independentReviewRecorded, false);

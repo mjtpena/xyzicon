@@ -218,11 +218,11 @@
       "sources": [
         "/icons/powerplatform/Power Platform/PowerAutomate_scalable.svg"
       ],
-      "revision": "ce04493b0bb30a7157bd45d837c9af2650a86db449152ed957c134ae55ef7f2d",
-      "geometrySignature": "99f021216b7e0922845744db7e33c672e96e561355a35eda01f3ec78bffbe076",
-      "comparisonRevision": "c234b9e651592272face85a1397d359b88b9ec367ef8be0d10fac70682b7f9f0",
-      "review": "approved",
-      "notes": "The trigger, two actions and loop are separated at 32px; the nearby marquee, run-command and video scenes are structurally different."
+      "revision": "30554b18ffeab681153377a807b3fbce8b7baeb121794bdd96eb6587e61e8f6e",
+      "geometrySignature": "7ee6686469aac7ecf84d8ec574195c1bfec47607b393195c25aa73a8af14b078",
+      "comparisonRevision": "a145d330d1338a335eff554ac2b2ef525a1de92b22654c35680ff0d2b9e2ef9f",
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
     },
     {
       "id": "power-apps",
@@ -248,11 +248,11 @@
       "sources": [
         "/icons/powerplatform/Power Platform/Dataverse_scalable.svg"
       ],
-      "revision": "a6f9a699d13594153e58b74e2b2bc6e688cc73251317ae32ca1f66ea613f5e83",
-      "geometrySignature": "4728dba71652082f68e5ff9a415d5fd9f54a7ba2daa58122236835f831d4b89a",
-      "comparisonRevision": "ab0d975f5a4ff3b47de7fb3b0027ae9a673c8d02de4b9e442bc62bd3875698b7",
-      "review": "approved",
-      "notes": "Three linked tables represent shared structured data; the nearby media stack, dashboard and identity scene have different arrangements."
+      "revision": "a2b28f622a00b0e4ddebf37dc0c015c1fb3390dce7b7b3ccb0dd8ce61ae7dc64",
+      "geometrySignature": "c4686c53b66cf68f4a5f4987d232b728b550658b119200e5cb1c7396d313401c",
+      "comparisonRevision": "16a287f5a564e556f8e2a81f028d964fef810800a01adccb360ea8b3657bf8e9",
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
     },
     {
       "id": "dynamics-sales",
@@ -489,9 +489,9 @@
       ],
       "revision": "95a1cb67ac49cde9841a012cd446c2a907baaf04c525f9f3af16421185d9a3dc",
       "geometrySignature": "8f35a21d93a2dc89ccf129e7cbe05add9b1b67f2e68dfdba6e6d7086c395ff7a",
-      "comparisonRevision": "efea60b45fe260b06ad7129c9780401aaf66bd542e65f9cced706d155bc7312f",
-      "review": "approved",
-      "notes": "Four varied components surround a shared hub; the nearest circle grid, container tree and device hub have distinct arrangements."
+      "comparisonRevision": "6a36beeb2362cfd433779e3348af50ac4a00a701b766979aa646234495742ae8",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "dynamics-commerce",
@@ -639,9 +639,9 @@
       ],
       "revision": "9fa6251746367d960bd88e0a8d7272e95bdd1ae45b5335340cc137204300dc31",
       "geometrySignature": "19d42cb6cad3909dd99032e3942c55b4387640e79541fd3f46fddf56243d7dc4",
-      "comparisonRevision": "010e4ad97d855730e31067718f585d9ca9a737aa88ebdadc8d8ab8e8697fa500",
-      "review": "approved",
-      "notes": "A staggered project timeline separates this drawing from the tabular query, route list and model workflow neighbors."
+      "comparisonRevision": "670f263b90ee23dcce460e9351d60e323487cee4d4fffe4a49517f5ddab69454",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "dynamics-sales-insights",
@@ -764,17 +764,17 @@
       "id": "gcp-bigquery",
       "provider": "gcp",
       "name": "Google BigQuery",
-      "rationale": "Rows of data feed an analytical chart through a funnel.",
+      "rationale": "A magnifier inspects an analytical bar chart.",
       "path": "stencils/gcp-bigquery.svg",
       "sources": [
         "/icons/gcp/Unique Icons/BigQuery/SVG/BigQuery-512-color.svg",
         "/icons/gcp/bigquery/bigquery.svg"
       ],
-      "revision": "86cc4560db16a9f782ed5b203cd78203c289bc0fa0b74aa3f1c4f350af63f9cf",
-      "geometrySignature": "63c003be20d4fb796cbda0c4f5ad14825b62f2eef42b34e6294f9980d5e202da",
-      "comparisonRevision": "9743c27dabecfaea64f49caba03cec2c4dd4a36fb541ce68bf34aa4bbe916f54",
-      "review": "approved",
-      "notes": "A data table, filter and bar chart represent query analytics; nearby records and management diagrams lack this arrangement."
+      "revision": "98641c54835f6aaa5235210526fe8a415d04778fb54e68b1a8247e94db392339",
+      "geometrySignature": "7a75dd048231ace7e51b2d5adaae148c8ca9619e132e4a1ed3631597044cb330",
+      "comparisonRevision": "763ef5d3d903c7491a0e57bd740e170ea29c21c69071786916407ae02d922aa2",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-run",
@@ -1536,9 +1536,9 @@
       ],
       "revision": "0ed2903e3dd623434a3f6854993d0cbfb22d35d258c87c37064114b5c81dd592",
       "geometrySignature": "830d1dc54f698f08a217bbe86271b953c981bccf0c485bfb1b1f5e6ae92d9297",
-      "comparisonRevision": "0fc4286974b12609ede9e2febc2fbd3949e132edd866c3631f3f0c3e220b801b",
-      "review": "approved",
-      "notes": "A container runs inside an isolated circle, unlike lock, host pools and drill."
+      "comparisonRevision": "1feb139b343bb2a351ac36e924f45251de16e308b3a72679060911da81c0b6fd",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-horizondb",
@@ -1672,9 +1672,9 @@
       ],
       "revision": "480fb9aaa60ab8b7556eef7919553b405ba2e46419745a68dd5e94f8b196d918",
       "geometrySignature": "a0ac9a815097842784d1c76b12e23b2881badccedb2ecca5f1c7223f0bb147b7",
-      "comparisonRevision": "02ba22dbe018f93e5e1d1e4c5dcc1039d83c7e5b9f51ad362178df7dcf16bba1",
-      "review": "approved",
-      "notes": "Brick wall redirects traffic, unlike data table, sync database and notebook."
+      "comparisonRevision": "4623cbecf8e498a29727ed6de69b2ea4b1dd891360a77d501ff506bf02e066b7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-app-gateway",
@@ -2100,9 +2100,9 @@
       ],
       "revision": "a6b588d62e3db920f9427f34f6f5fc29f11ab37802824d9ba65fe22f6b185609",
       "geometrySignature": "dd8d9107f6cefd12287b6f88120d27093fb271a5948921a6556b14f2f7ef6ef6",
-      "comparisonRevision": "47eb0cc3e1a69d1bd8519a6a4bae9a3f58c2e65a33327d2b3906f3d7460f4457",
-      "review": "approved",
-      "notes": "An event enters a topic and fans out to subscribers; the nearby VPN gateway, service bus and function use different flows."
+      "comparisonRevision": "a44fe7371c438ca34b6c1e39d8f852b0cf1eae95a8583939af124858be3172e2",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-backup-center",
@@ -2541,9 +2541,9 @@
       ],
       "revision": "64f1ecf8a80d0ef7edafb50f422c8fe0b08d2432cb93b28dcc3b29ffee7751bf",
       "geometrySignature": "c95b21dbb8d7e38bb19256e1ddfd9f0dd7c23c9bab25145bf17ba999e2ca3631",
-      "comparisonRevision": "5509873261ce9cf88ed3c45f9d0e981dcecfc55dfe6536a87be131f1464415cb",
-      "review": "approved",
-      "notes": "Radar and shield communicate threat detection, unlike external IP, data table and DNS security."
+      "comparisonRevision": "6835367c320ca823fc1cca56a4bdc1726a275d7a443f4e52cc64ec085f4be4ac",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-ebs",
@@ -2604,9 +2604,9 @@
       ],
       "revision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
       "geometrySignature": "d6935ced73002246b589be4e718eeacee394847e3b7e306b9f29d04939a1adbf",
-      "comparisonRevision": "0159e9a9abc5b30f3d22ad0ac2a8019955c4960a0d1a45f1d1af0526294f7482",
-      "review": "approved",
-      "notes": "Code and hammer produce a package, unlike web slots, event alert and device tester."
+      "comparisonRevision": "baa02c931e801d1b3bc9f93b13337285e7f274861318f9d3725899f8cc45366d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-dns",
@@ -2820,7 +2820,7 @@
       "id": "m365-chart-multiple",
       "provider": "microsoft365",
       "name": "Chart Multiple",
-      "rationale": "Two overlapping report cards compare a bar chart with a trend.",
+      "rationale": "A pie chart and three bars show two complementary views of data.",
       "path": "stencils/m365-chart-multiple.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Chart Multiple.svg",
@@ -2830,11 +2830,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Chart Multiple.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Chart Multiple.svg"
       ],
-      "revision": "5b4fb9cb0da5ed9d5b1d41d770919b7da7ca655fa7214a648616c9238726c7e7",
-      "geometrySignature": "93a333d16ed28ea890c6ff8bf0475b1d34d2be7fd37e54f7563c7823d0876843",
-      "comparisonRevision": "6f58a7f62ca642f23a2f3f4bd941e8dbc419576bbd98ea29cff4094a6fa1423d",
-      "review": "approved",
-      "notes": "Overlapping line and bar charts differ from app list, catalog and storage documents."
+      "revision": "f0d0606ce63c897eb443c4209903564c0e3bcc12e8848ba909280ae57822be82",
+      "geometrySignature": "662ba21c7a7ed349daf6447c84dc098b8ebee4344667bbd64e87ed54058296f7",
+      "comparisonRevision": "3bb23869e487f5aba39776fee02570131badad393bc16191ef5f78e791016191",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-chat-multiple",
@@ -2895,9 +2895,9 @@
       ],
       "revision": "c5bab55d148578d90fc3760ebb20326e40ebfa394802572a787250ce40c4f921",
       "geometrySignature": "0b11f6ca02c4909cb9e06ed691052e28cb18907035585fb6155bed2b6392d5eb",
-      "comparisonRevision": "95ceb4fd0d6bec19724693ece0c0ff93f3d7446f3663e991423f89d02476f342",
-      "review": "approved",
-      "notes": "Open editor sheet framing bold </> code brackets; crisp at 32px."
+      "comparisonRevision": "1a3aa2e3411bff0b32e2388cc69e1b1bfc06e11851f883327444ebd822cf4b12",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-data-pie",
@@ -3133,9 +3133,9 @@
       ],
       "revision": "4d2139b5fd814c2f8c9b1e16af0c976592d938f3312a6449dab71c84c0d3a628",
       "geometrySignature": "953c6641bd4b62c54c88ef17aa7f020b305abc767ab0e2ea6bf3376f958e22c4",
-      "comparisonRevision": "721601b78c54e5a6df4a594161d432012627f7701091daeb3fc76d75e8facfb3",
-      "review": "approved",
-      "notes": "Four app tiles echo the source grid and differ from the NetApp window, slide controls and image monitor."
+      "comparisonRevision": "4b5e7713090a818dc188f500dd04606d37a3477235515b499be22808a4a73d5a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-experiment",
@@ -3329,9 +3329,9 @@
       ],
       "revision": "5aa0afee5ae7b29a2497790c85e8ab4287334ecbe14625b0bfce54e285c9cccb",
       "geometrySignature": "f1bf51ae17410657c53340f77185ae0918defc4d8b926a03ffe858ba5359b1e1",
-      "comparisonRevision": "1f4a5de6fc854d2a9a69ba0827ca2658fd6c33e9bdf9b1581a7da8af2636ba9f",
-      "review": "approved",
-      "notes": "A circular root maps to three leaf nodes through radial branches; it differs from commit and asterisk circle marks."
+      "comparisonRevision": "016ac2c8273f285c28bf1ae929d5c6d5f25b2bab62b76fcffc88dbe5edb1c48f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-integration-service-environments",
@@ -3834,9 +3834,9 @@
       ],
       "revision": "b23b68d9f40645bae3f47ca214b44c63fb6eee292320176ec3cad491be6b7072",
       "geometrySignature": "6c20e171873ca29ca024fe3b1d6aa463b6500103217dedf4676eff507b0fc69d",
-      "comparisonRevision": "4be26df5464e126acf5ff51b107428c5b68f4c2d26eb08ce451f105482644f0b",
-      "review": "approved",
-      "notes": "Two data blocks joining through a transformation funnel into a dataset cylinder; clear ETL flow."
+      "comparisonRevision": "3fd2d95d9b6bb851c70b992183a0f2a527f80b2a7d28db6f34419adce9eb27b0",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-lake-formation",
@@ -4152,7 +4152,7 @@
       "id": "m365-attach",
       "provider": "microsoft365",
       "name": "Attach",
-      "rationale": "A bent paperclip secures a sheet with a folded corner.",
+      "rationale": "A large bent paperclip represents an attachment.",
       "path": "stencils/m365-attach.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Attach.svg",
@@ -4162,11 +4162,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Attach.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Attach.svg"
       ],
-      "revision": "69933d294516e7a3f6f8f6ba266118cab49d386d9a037df520de78efe95ba59c",
-      "geometrySignature": "ac93293cf2f8c24bdef5410c6d771c785be5fc7ee1458b8ce1825d46abbc5216",
-      "comparisonRevision": "f330fd441797b7b2e4f1a7dbfd157db72726bc6cd9335edc06c77f8836d7aab2",
-      "review": "approved",
-      "notes": "A paperclip lies on an open document, unlike file operations, template and image repository."
+      "revision": "e578f76f23dc8883ffa7506aed6de95f438e77dc6913e77ca003d9b3ff3894be",
+      "geometrySignature": "535dcbb872f8e669796c2210a91741ce59f423e3d735407a1373fc0ffb43bf51",
+      "comparisonRevision": "3247674f7ea7b7171d6dc5efbd200787d4d9e5d978d41f8afc64c702a520c472",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-contacts",
@@ -4467,9 +4467,9 @@
       ],
       "revision": "7cfc31669675ef46cdaeea364f5ab86102eb6f484766a16971498945cd79a064",
       "geometrySignature": "9712855ebb4cd8b2011aca8d5315bdbdbef00f1d31fbb9ec7cee2be39749f3b5",
-      "comparisonRevision": "8f9f3a14f6bc0dee07548821970206cff4068b39c6cf4baf8fef4aecf79a8018",
-      "review": "approved",
-      "notes": "A mobile phone with signal marks differs from update phone, firewall and hybrid cloud."
+      "comparisonRevision": "73b9933d446f4eee2e1f40752ba165fccd5a9418d5523167ec2d070a2ac09059",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-radar",
@@ -4487,9 +4487,9 @@
       ],
       "revision": "0457c0a7144b08ceaf6cc0e603605149fd02e6e690043175109232d516ac799f",
       "geometrySignature": "832b6bbf83924063083637e39fdb763e96a82737614d5160ded190233491fa52",
-      "comparisonRevision": "6893c8607a24017ddd677ee404ce68671cc7e527d5cda2c19ca756600abecb72",
-      "review": "approved",
-      "notes": "Concentric radar circles and sweep differ from numbered circles."
+      "comparisonRevision": "e9d5abb58b5c5fe5e63b7e942db824f7900b5f9e5043937101586fbd84167633",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-receipt",
@@ -4775,31 +4775,31 @@
       "id": "gcp-cloud-endpoints",
       "provider": "gcp",
       "name": "Cloud Endpoints",
-      "rationale": "A published API connects several clients to one service endpoint.",
+      "rationale": "Two clients connect to a published API endpoint.",
       "path": "stencils/gcp-cloud-endpoints.svg",
       "sources": [
         "/icons/gcp/cloud_endpoints/cloud_endpoints.svg"
       ],
-      "revision": "e84db9611c90934cdb8c87f899527549c5ad3329ad6f353cfb0cdc1a8b4aec91",
-      "geometrySignature": "9824cbfcc827766ba61664191343c0bf4372de081fb791186d49956f69c974bf",
-      "comparisonRevision": "2aa650d083ac19290d7f79d9607d1ebc188fcdfe03834058e4926acd288fbb14",
-      "review": "approved",
-      "notes": "Multiple services connect to a code endpoint, unlike Glue, dashboard and locked document."
+      "revision": "f20df75f724f2148c373d5ad4c2cd90cc2357bba407c5f5e7863e1a494745f06",
+      "geometrySignature": "8f7e5a9c21b47373d1237092b1bc9749c83702d8194a71a328361682bf98ade4",
+      "comparisonRevision": "72a123850b1e90ddcb0d5bc2c8dc66dc5d78816260182c6eaf6fb94fc23c3dbe",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-data-fusion",
       "provider": "gcp",
       "name": "Cloud Data Fusion",
-      "rationale": "Two data sources join a visual integration pipeline.",
+      "rationale": "Two different data sources merge into an integrated dataset.",
       "path": "stencils/gcp-data-fusion.svg",
       "sources": [
         "/icons/gcp/cloud_data_fusion/cloud_data_fusion.svg"
       ],
-      "revision": "0db02a60b95e7baeec6904bcb64c4ce92eb936dc5de935e999242c6c1da4df7e",
-      "geometrySignature": "9ee13bd0893b660be147307c81175a93da39a4b3c5bddc36c550585418c24565",
-      "comparisonRevision": "00f1c25bce1053ed9c7f14e9abddecf57696a62ef8b4bf4db543f2bd911bf6c5",
-      "review": "approved",
-      "notes": "Database and table streams merge into a service, unlike query editor, interconnect and dataprep."
+      "revision": "a3a60e17caf87f1678139a505777c6d2a6938dc2f1cb4d30187035a14d06c6b8",
+      "geometrySignature": "08666b3643d8716d6b4980b2713db0ebd2d73fc0e381cd1b9a32f891d0af2ccc",
+      "comparisonRevision": "7779e7d3905f1cd50678a76d70f93fff376a4d93b01ab9ca26e9dec53c5e3421",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-composer",
@@ -4810,11 +4810,11 @@
       "sources": [
         "/icons/gcp/cloud_composer/cloud_composer.svg"
       ],
-      "revision": "0f8c5c0c74f38a149f698d8a87a8b8951ece681a86c3f635be4af20f674f0d3a",
-      "geometrySignature": "9d6e1bf173e3f2026faf1f1f110e858180e3c4172aaccbaacab1002a7cfa2fdd",
-      "comparisonRevision": "2802d3c02f80367aa0392708973527c10e8ce9ea8daaceed2d6b28eed10a5e7f",
-      "review": "approved",
-      "notes": "Timed workflow steps fan out and rejoin, distinct from frontend device, subnet and geospatial map."
+      "revision": "46a434c405786a22189139f6842989192cd967717445cbe33008d7be0cf6585f",
+      "geometrySignature": "b000d61e33ef8ef3b5be50ca1d1451fe2b8c4e39822ec518d5ba7049353eb92b",
+      "comparisonRevision": "dd4eeb47752414fb9323eb37d484170caa2575cac364b00bd691bd69849c5a88",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-dataplex",
@@ -4825,11 +4825,11 @@
       "sources": [
         "/icons/gcp/dataplex/dataplex.svg"
       ],
-      "revision": "eba6f22a3fabe7d47d8c9980f8b055ad0d8593271921575740a40b84e70e54c2",
-      "geometrySignature": "a51598835458e866077082736223a96f428850da6ca06a7403c9dbea61d44382",
-      "comparisonRevision": "e4897fd0e4f677501ea34946cca7589a5b07955fefdf2bda4f21cc28dac483fb",
-      "review": "approved",
-      "notes": "Governance bar overarching a lake wave with cylinder, table, and cube assets; clear."
+      "revision": "9e0357a39298ba67f1e40b522fdf07558722933212b8d452ef879fe936133fe7",
+      "geometrySignature": "87608d7fd30acf1cb44717946ff32d6edb386ec2d440fdde89f29ccd725d3cfa",
+      "comparisonRevision": "852b09976174446c85849d282a3506b68122a6ba75d63660a695556cb8849e4b",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-dataprep",
@@ -4886,11 +4886,11 @@
       "sources": [
         "/icons/gcp/cloud_external_ip_addresses/cloud_external_ip_addresses.svg"
       ],
-      "revision": "a0e64d87cbc4a66ac8464af690356a592464aef5669744f9fc6a1fa1ec273952",
-      "geometrySignature": "ea26a081c5be089df79763fe0a94629571d7d89a249dfebc196e62f30d27cbc7",
-      "comparisonRevision": "33af6249a60abf5ebd2ff64aab8024b6742fdd4da06783ec38bbf18f7c99da66",
-      "review": "approved",
-      "notes": "A globe has an outbound address tag, unlike GuardDuty shield, resource list and globe error."
+      "revision": "a5da8c5a744e393232100f21e9602ae01123aaa9dbdc782b4c09a7efdcf6b145",
+      "geometrySignature": "baeb9da4ae242f324437156ce2477e4d97cf34bac8a1b0e5490a72a8090ac5e9",
+      "comparisonRevision": "78fbf8e8303774d9e6495ccac2c1d8fc2e866efbf04961abce50dce6cc2edfe3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-routes",
@@ -4991,11 +4991,11 @@
       "sources": [
         "/icons/gcp/automl_natural_language/automl_natural_language.svg"
       ],
-      "revision": "0723f7db5b0b4478dbfb59943b76e8ca50051d13e4c6205a3917ded3cecfc898",
-      "geometrySignature": "f6852d8511c55b29c990bac6f72bd1f4cc6db902b0dda0c80a1a9f98939988a4",
-      "comparisonRevision": "c775efbc94bcbf5d25738483faa689c216339bb6a898cc6c67ddc9e47f733cbd",
-      "review": "approved",
-      "notes": "A text bubble feeds a learning graph, unlike subnet, document stack and timed queue; it differs from the translation stencil. Re-reviewed at 128, 64 and 32 px after restoring the distinct public-subnet composition; recomputed neighbors remain distinct."
+      "revision": "0f56bcf10379f99976622961f3ba60e9fded97a68a32d3aa8724ad0d4631a47e",
+      "geometrySignature": "d0ca4897c17eca7bf9da971fb01f1fa007190d0c19155d03194721406eaa8941",
+      "comparisonRevision": "15b347840b286d1e164c5f07004c7b9dfd379050c33c9372833d390f62c94d55",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-automl-translation",
@@ -5006,11 +5006,11 @@
       "sources": [
         "/icons/gcp/automl_translation/automl_translation.svg"
       ],
-      "revision": "d73bcf34c43dadadaa0762a4b809560253994fa9b27181fec5922fe5482403c4",
-      "geometrySignature": "6094d7b5cf7ad1443a49c471ef56e5d5bab6e6497c7d2cf8e1b0d9274e08aa1f",
-      "comparisonRevision": "f89ecf53441c18ed9a8a100651134837421cf12aa510cc50d67e581bfdd2d90e",
-      "review": "approved",
-      "notes": "Two language panels feed learning nodes, unlike frontend display, app domain and compute gallery."
+      "revision": "b2064d30ec3a9fce924f330f9bc3a90393cffb8bfdedd3144bfc11ef8f7e0d81",
+      "geometrySignature": "5166c67bf59f28b6f3ae5d7a50750750e71d6792c3fde714f0768bc13d3e8af3",
+      "comparisonRevision": "4a826fc090f01dbe18eb2b4f2c2755d0c77bb4bcf855102d0f6d0f95afca405c",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-automl-vision",
@@ -5023,9 +5023,9 @@
       ],
       "revision": "a3ca1529eac30ada8438856e38736265613d0641a8643ac1153264f1ab771d0d",
       "geometrySignature": "a077b616904fc5e1d71c2b948a628074f0793cb1ee00c1810f20b84462816f1a",
-      "comparisonRevision": "fd22f0813ecbd8c522ff227623d00750befd69c4c8ad7e78ccebbee07f2036d1",
-      "review": "approved",
-      "notes": "An image feeds learning nodes, unlike medical imaging monitor, administration and DevOps alert."
+      "comparisonRevision": "2a411a87433ee41c430435ca5615e4c236a410a67464ed4e89f7776b96d5dbf5",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-automl-tables",
@@ -5111,11 +5111,11 @@
       "sources": [
         "/icons/gcp/dialogflow_cx/dialogflow_cx.svg"
       ],
-      "revision": "e7f8b3356836e66169e7e0522c20b7e448da5a62331dba793d9c84b157a0506a",
-      "geometrySignature": "184203747b131a49c333d94806500314beff0e32aadacf1c3faed86e312f662b",
-      "comparisonRevision": "5bfe3ada01f1e74ef380f39deff825a086cbb29d17a698b5b3c2820f7f836bc3",
-      "review": "approved",
-      "notes": "Speech-bubble conversational flow branching through a decision diamond to states; legible."
+      "revision": "fc41070befaae4633574169716b38debd1e42092fba9fe646bb5cd47477b7cab",
+      "geometrySignature": "90eeac047fa598c7d17f2ac7af124daa4f1c5903d5a01f3ff9ea01ab7f508aa9",
+      "comparisonRevision": "81dbde0004126b695b575965a9ee361322fba13c40370b33f8ea6054dbe9c23f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-dialogflow-insights",
@@ -5293,9 +5293,9 @@
       ],
       "revision": "1e73dae5e78401fc726e3e40bc7d964009e0befc439da13bed46b5cf48c705d2",
       "geometrySignature": "feed587943a6616edf4591172e1329d0639c71b54071304e8540441d97b94e94",
-      "comparisonRevision": "77dd0b96b27a73c8895be297acbd5b5654fd8cd154bd08809e0f4c2670e262b9",
-      "review": "approved",
-      "notes": "A shopping cart carrying bars reflects the source and differs from sunrise, GPU and map pin."
+      "comparisonRevision": "b736d034b4de4d1578df9f7c1f3c12f76bbbb03aa97b1469538a01f9480e59f6",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-debugger",
@@ -5548,9 +5548,9 @@
       ],
       "revision": "1c342b7253d99a733bc5bcf2470ce6a0e21bff5250524218b72ef390bf7ab82c",
       "geometrySignature": "4326ae3e6afe45864a4d6e4e059ea4209c672f448bedb147b0c9b0287967ae37",
-      "comparisonRevision": "acc4761cd1dff5072475f7405c4b4911d3269cbf789edc194358686586e8238c",
-      "review": "approved",
-      "notes": "A router sends traffic to destinations, unlike a bar chart, MariaDB or patch manager."
+      "comparisonRevision": "91ce7a47c7cf9fbe9c040b641f380d2f02896d4e2f285904f9014c2788d5987a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-virtual-private-cloud",
@@ -6239,9 +6239,9 @@
       ],
       "revision": "fefefb3feeb2c8c70e1a4ba0916b8befb76535152b11714f61ac15eb6c0a567e",
       "geometrySignature": "128239af87393980809f96254a100a7482dd4eb13a4af47693aaa4378de79bb7",
-      "comparisonRevision": "69304ddc915639b621fe51826253a3e44c279ae1eeead4ced9b9978c64810915",
-      "review": "approved",
-      "notes": "A cloud spans three virtualized workloads, unlike Arc Kubernetes two nodes, classic storage and folder stack."
+      "comparisonRevision": "844a2a77dad300a06c13d8137312b859cabde776d0cfb14f9ba1432f86bfa0d7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-memorystore",
@@ -6479,9 +6479,9 @@
       ],
       "revision": "e742f6dfaa14e00fd900e4805798e453e3c73b7d6ed7186df93323ccad2902a7",
       "geometrySignature": "6983eec8212741d40b3571b0c742479fe2ff0f47c359e5e6e309a7d0ae9bf220",
-      "comparisonRevision": "c7c6292d952ae05b4e5289a516ace4a67b57406f701b5a67ac5f67a841cc1de0",
-      "review": "approved",
-      "notes": "A product cube with upload arrow differs from AI graph, identity panel and monitoring chart."
+      "comparisonRevision": "88d4e8fd3c8ec1d335264c4ce717bd4c25fb5a6fdfda82495140e8581c26b7f3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-marketplace",
@@ -6794,9 +6794,9 @@
       ],
       "revision": "6d69dd6b9368cf10d28123f88f4a2d13652b89c513ce798cff8fec0d13456c4b",
       "geometrySignature": "eb5e533bebe72bd5bca5c157f34af3310a253083120edd7f2fc1ab517c8d47ac",
-      "comparisonRevision": "f1804c1cc97faa15d11edc87c82d2490dca12910b6188ac55ed68801fa6f9a55",
-      "review": "approved",
-      "notes": "A magnifier inspects connected endpoints, unlike sustainability, AutoML table and data fusion."
+      "comparisonRevision": "df222b1be6820584ce11808c19f73e6d2c36bb107f9789f5934e140f9b109c95",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-gpu",
@@ -6852,11 +6852,11 @@
       "sources": [
         "/icons/gcp/cloud_translation_api/cloud_translation_api.svg"
       ],
-      "revision": "2cbd2e740a4b47a523ff4f3647c605bc01cc69c8bbf9597f199a7851cb0c4e46",
-      "geometrySignature": "d31ccda9dd0a517fb28b9c614bf56b7ca6e4bfcedb5c4f6d1bd9a8a445b8fcce",
-      "comparisonRevision": "c64b69091422e845927552691da6b5550f56a7ca8af09fc876e3b4fc7dc14856",
-      "review": "approved",
-      "notes": "A globe joins language bubbles unlike external transformation, calendar or gateway."
+      "revision": "120418b0154e74aac016e4cda05664e4377c08f83b4a71b06a15cd7e8d17aa37",
+      "geometrySignature": "2a2707f094dea8f2d21ccfa1feebe51987381563e93db327b3b4290fa0221e0c",
+      "comparisonRevision": "70ec9dc1a1bf0039d4dad5f523932d61d8aad27a5a3441b0b88c76dff1d41070",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-vision",
@@ -6877,16 +6877,16 @@
       "id": "gcp-genomics",
       "provider": "gcp",
       "name": "Genomics",
-      "rationale": "Aligned sequence reads reveal a shared genomic pattern.",
+      "rationale": "A DNA double helix connects genomic sequence reads.",
       "path": "stencils/gcp-genomics.svg",
       "sources": [
         "/icons/gcp/genomics/genomics.svg"
       ],
-      "revision": "7a74374b5900849c2b423516947a8017bd659b5f555d0ff75727f31085f4297b",
-      "geometrySignature": "fc2e5c723182d17c622c69cac1bb3087a6cbff8366a88119ad7cf285a2cc6a1e",
-      "comparisonRevision": "473c163fea02dee1c6ea311fa7bc0d312c10f3b6620f0440ae49b94bb92371b3",
-      "review": "approved",
-      "notes": "Parallel sequence strands with markers reflect the source and differ from sliders, host groups and HTTP arrows."
+      "revision": "1e2fd8758c6eda85c2cf9de852af5f383c21db4928140126a7e139e8f3c09137",
+      "geometrySignature": "baa924d73d2d11bf48e2e5b8cdd5e599a2192e04a542b5fc23f855b4ed54888d",
+      "comparisonRevision": "9239acda7701a6fcda306c0d8ac4b9c629760d446cd49fe3d1abddb77fc300db",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-audit-logs",
@@ -6983,17 +6983,17 @@
       "id": "gcp-looker",
       "provider": "gcp",
       "name": "Looker",
-      "rationale": "An analyst explores data through an interactive report.",
+      "rationale": "An interactive report joins chart tiles into a Looker-style analysis view.",
       "path": "stencils/gcp-looker.svg",
       "sources": [
         "/icons/gcp/Unique Icons/Looker/SVG/Looker-512-color.svg",
         "/icons/gcp/looker/looker.svg"
       ],
-      "revision": "8c83e06f2946180a402ead3421eff354f490fcbad5a2b2fe910cd2bb446fb0ab",
-      "geometrySignature": "004f269b298ad0eb029146244e3691b89d862eaa6eac5c83809a79e90174f2d3",
-      "comparisonRevision": "9084b39c0b0b1a8ffd31a6b5a8cd25c92be3baaf42fdacb9334a1084d0bc90c2",
-      "review": "approved",
-      "notes": "A magnifier inspects a chart, unlike a key vault, operational insights or warm storage."
+      "revision": "cedb6e7e1ae01b1ae60395bf73a560464fe9f6387ab94bc17da4d337495634f7",
+      "geometrySignature": "9856e4b0a55cbe8a110248334c68ef38b9dba1b69201a9555e21931929af9d89",
+      "comparisonRevision": "0ae368d6a61c90106032d6079df7f4595945921c23325a17ffc06fc637aece4f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-analytics-hub",
@@ -7263,9 +7263,9 @@
       ],
       "revision": "b595031d58d47f20ba997bc1596acaccb48bd6e80e23ded5278af25f3f52afc0",
       "geometrySignature": "c8894259251ca8965cbf78318ee1a40ed07f226e68e4de7fb9788a55a49eff2c",
-      "comparisonRevision": "18db193e9e09d43c9fd96fea4510301adfdc107f65d7bb49bcb34d64170c2ac4",
-      "review": "approved",
-      "notes": "A balancing beam distributes loads, distinct from borders and AI hub. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "780b494b015064a8d470d512bb7059c4bd8c4815941349f1294f0b618220c247",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-cdn",
@@ -7278,9 +7278,9 @@
       ],
       "revision": "8da0d66d854e910a24378a2f7bff4fc3df5b914726cd6c52d78761e938482bb7",
       "geometrySignature": "6fefd0103fbf08883bbb8371b6a888e20434894fef476b816a41cc7798deff8b",
-      "comparisonRevision": "ac8bf2c30477985b126a6f3aa88f2225ec2ee67bc60de65e7b21f8dcf03f6014",
-      "review": "approved",
-      "notes": "A globe and layered edge nodes preserve the cloud/CDN subject and remain distinct from GKE and translation icons."
+      "comparisonRevision": "574edd50aba3802ced07806d2d3898dcdf66d58b80d2bc56e1609065589196a3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-deploy",
@@ -7426,11 +7426,11 @@
       "sources": [
         "/icons/gcp/cloud_domains/cloud_domains.svg"
       ],
-      "revision": "203cb76df8b9dc199a590d207b455045cd14cdaf415168fd98be5295d1c5b3d5",
-      "geometrySignature": "d2b5438dbf39ee98779ad5a4dfa552b82e14589d47dfa445cfab748a82eb77ff",
-      "comparisonRevision": "2bfa45d03dd2284893bd6c2bcabbf15a4f652e34443c04d6e1534e2830a2a5e1",
-      "review": "approved",
-      "notes": "A registration tag accompanies a globe rather than an error, settings gear or timed table."
+      "revision": "1d19dfbd46fba5206b3eab2bd65d91003d924c5863d7ab2f1186550354d09c78",
+      "geometrySignature": "892dfa17d6c7e7c07a318662f2fc01249fd7f1ba63430ed277087e0576e5c63f",
+      "comparisonRevision": "58a684bab54e1121d59ed6d953a8b2dbc2f009e00a4e03b85960169f737583c8",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-cloud-hsm",
@@ -7696,9 +7696,9 @@
       ],
       "revision": "6a6abb3609d98036da152b92f9bc402375df78958753613550db86b3a9da470d",
       "geometrySignature": "e06f95d9c2871f8aba02cfdbe14345d5c0ef4015d50955c66c8e2f86f3d08054",
-      "comparisonRevision": "8c3294a6c1c228cfb8d21f13dbfa6c6d2edc5787de4073eb2774be1f2fb9ce64",
-      "review": "approved",
-      "notes": "A case carries hand tools, unlike check report, media server and public IP."
+      "comparisonRevision": "ee724776bdfdd203986563f6708ccdcc30b714deeefa0daf4de6fdcb1677cbf7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-script",
@@ -7736,9 +7736,9 @@
       ],
       "revision": "e433571b3495c1df8be4d9fc7cf7581154ea0b4ca8bb8fc8e3dad2a1d44c0abd",
       "geometrySignature": "579ff5e054648f0290381c0f735110549856c9b443e0a8be3d77720ebc0f3b80",
-      "comparisonRevision": "8cd212e7a42b2b0bac373d8bbad9c934a6790b3c5feb73a0b9c197fba922f4c2",
-      "review": "approved",
-      "notes": "A question mark and pointer differ from a location ribbon, restore collection or storage lens across six variants."
+      "comparisonRevision": "1cf75f145afcf3af418a0466713fe073940efcec219b08491c3f2532e93027a2",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-shield-error",
@@ -7922,9 +7922,9 @@
       ],
       "revision": "757ef3b51b0cc3aa23f4b51776e31ce38aa9c537853032e0b5d2f59fd61b48b1",
       "geometrySignature": "64477f7ef43e377cb9dafe716acd7a12ed1b7017904d3048cb13b7e6eb107bf6",
-      "comparisonRevision": "3b78d8e669b70a49cfabddf20700b54e0f8e46f150d3bc914fc18e84e7a6d24b",
-      "review": "approved",
-      "notes": "A pen writes a signature, unlike genomics ladder, code function and folder."
+      "comparisonRevision": "7ad2ad356805a99f5ad041d889a0fe0ab7ef8490127c32ac0cfe04a4726298e1",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-merge",
@@ -7962,9 +7962,9 @@
       ],
       "revision": "4d3b56f1373f186ddc9932238ce51896e0a8483cfb5d1509d97de0ec77791458",
       "geometrySignature": "d860426d92753b05eafcc8e7a11ee40a69712d485e37e5f50207c61455b7d9b8",
-      "comparisonRevision": "0b68401d41076bf665f0cda9579d81b72671995368e22e541f0f44ec04c0c0c4",
-      "review": "approved",
-      "notes": "One node fans to two recipients, unlike dataflow, shared cube and marquee; merge converges."
+      "comparisonRevision": "29fe770aebdea3eaa70e7fc8c220a8b09a668ab8b9494699110e8202b05b182d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-share-screen",
@@ -8180,9 +8180,9 @@
       ],
       "revision": "83135fa80ace927a02c9cc6ed5bebe895a4a089a1447ce8c7dddeb95cbbed1fb",
       "geometrySignature": "a4d9dd66f675b972b4eb322095cd054ec11f5a733cfa5875bf7596d23cb5d985",
-      "comparisonRevision": "2b1b464ebe312f520ae6706d7fc7e5400413eb768fef16b490517ff5dbf1ccd0",
-      "review": "approved",
-      "notes": "Two transformations lead to a grid rather than VPC peering, database table or certificate across six variants."
+      "comparisonRevision": "da85c3383cc2a2fedf5e512588ab362450912ab2d4edc2e2171a88ac29c07760",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-datamart",
@@ -8392,9 +8392,9 @@
       ],
       "revision": "bac8ac059eb2a00859bcac02cdddb9e7696c32b6259af752e4eee28cc5f5dad1",
       "geometrySignature": "7c5b969460ddb079c96f79056c824e2724c955a65b7c5072ea5ce971cbb0f224",
-      "comparisonRevision": "184268e4b0486489acdabcabb1873abdb41b426114c4a60d95087ed02213e760",
-      "review": "approved",
-      "notes": "Several query cards share a magnifying lens rather than a cache, external datamart or chevron."
+      "comparisonRevision": "c55a4abd12f2c4a5a46210f2d7011e41057432b89a2b436e32bbfbdd738b2fcc",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-kql-script",
@@ -8458,9 +8458,9 @@
       ],
       "revision": "36bcda30dbc2792297c711678632e8cc55ae61d73e6d07778494b68d2df2b378",
       "geometrySignature": "b993834f45bb46166293266fe230ba83b053565a6ead4ac1e70b537a75392782",
-      "comparisonRevision": "2351f755869b88d1cf649a522676445759d9283cb4b667e88feb344470ccf24b",
-      "review": "approved",
-      "notes": "A phone contains a bar chart rather than an update arrow, trace or cache grid."
+      "comparisonRevision": "c36eff23b46535fd5e253abc48f2ba168ca52c65eeec15742b1e76506aba6501",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-model",
@@ -8566,7 +8566,7 @@
       "id": "fabric-sql-database",
       "provider": "fabric",
       "name": "Fabric SQL Database",
-      "rationale": "A relational table rests on stacked storage pages beside a query cursor.",
+      "rationale": "A database cylinder carries a prominent SQL query label.",
       "path": "stencils/fabric-sql-database.svg",
       "sources": [
         "/icons/fabric/svg/database_sql_20_filled.svg",
@@ -8582,11 +8582,11 @@
         "/icons/fabric/svg/sql_database_48_item.svg",
         "/icons/fabric/svg/sql_database_64_item.svg"
       ],
-      "revision": "721510962aaa12e5fe4ed5b36480a16697eeff074e23d0fb562c0ceda99ab715",
-      "geometrySignature": "68fbe05054c9c5ac7c69a686cfd8539c86b27c5acec1717cc0ddef526773c85e",
-      "comparisonRevision": "26308fe42fec13a295810965a7fa0d6bf09d185b8136b016c18e57e1456423f2",
-      "review": "approved",
-      "notes": "A relational grid sits on layered storage with a query cursor, unlike archival stack, database asterisk or trace; twelve variants show SQL databases."
+      "revision": "b6f13c95d09a4a5d1c81b9f11b2bd1cfbfda177f354489d8c904bfd98ae74452",
+      "geometrySignature": "3eb82ce7935e622e5dcb0293591b6480ac5992b969fb6a71f2b3b66bcd9ce65b",
+      "comparisonRevision": "c4c4095479743185e2a44b2e903cc86905c63e642495113d81a4074bebe0b46d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-sustainability",
@@ -8926,9 +8926,9 @@
       ],
       "revision": "37feddbc3554e1175330aaa87c48490eca0046624fbb0173cf1043ce28ee49ca",
       "geometrySignature": "3b6a501fa7c7621fce323d374cfc4d49e471cf70f7575c3b17185374d99d6249",
-      "comparisonRevision": "3d2d1db516b13610fe63516859cf0cec42dd82e83d438f92605a7af23db47e62",
-      "review": "approved",
-      "notes": "A rack of storage rows differs from an image monitor, cache console and NetApp files."
+      "comparisonRevision": "2c28facf019f1e56803289f7be7cd7a56c0795b120c1804d31929c7aafb51fee",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-storage-actions",
@@ -9061,9 +9061,9 @@
       ],
       "revision": "8329662fedfc9bc927dced0c5e763ca1e9e2de8e49d7d9d26818c5100d23943d",
       "geometrySignature": "d27fd5fee91d5f2390f255d34cc963082f5e9ec740f791aecdd93b50b2deef63",
-      "comparisonRevision": "a4b65a8140ab869025b7880b706b96b7e7217867db2be4b62623f0cdfb6973d5",
-      "review": "approved",
-      "notes": "SQL on a monitor follows the source and differs from pulse, machine image and placeholder."
+      "comparisonRevision": "1f11645d6d474eaad9ad16a650b6c2f87764130c55658a38f9e8a14fa614c624",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-virtual-clusters",
@@ -9460,9 +9460,9 @@
       ],
       "revision": "c2d8ae6e6653a8156041bcc1a7cbd4794c4937d498a68d8eb2d546c4ee6db2c3",
       "geometrySignature": "18618a6e274c58d5514d70dbf4a6e26bd3079fa30601d0452fa3ffc12231fa49",
-      "comparisonRevision": "255bd00ef8b5368ce9b4158a9fca30407112d0315cd658ceb2d05ed10e2dd938",
-      "review": "approved",
-      "notes": "A moving data package conveys migration, distinct from applications, catalog and language translation."
+      "comparisonRevision": "ac9c63b33a7ef2eceb204666d27d910f7eb5a2dc84781e12e2aff4fd42204cdc",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-sql-elastic-pool",
@@ -9490,9 +9490,9 @@
       ],
       "revision": "d98ad1a9e9b2cf52201e63c214097ca4f27b142259bdaf7651cd0d2cc8c2109d",
       "geometrySignature": "e71fc64c06acce253e18941c9f274799e1e393e16d4d29894d3b8ea037bf6a72",
-      "comparisonRevision": "afbe6d9fc8f2a03f3aebc56745a802a583c2dc136833d5df2892bdf12574c9d0",
-      "review": "approved",
-      "notes": "A control panel supervises a database rather than a pulse, extracted text or forwarded database."
+      "comparisonRevision": "323ac703cb208ef5651f82b870116089fe2de511f7e40a77b880cb566b115cfd",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-sql-stretch",
@@ -10046,9 +10046,9 @@
       ],
       "revision": "3cb0c4b1783816ed5bac9cdf8f0b8b2fd298b82afaa0f94728daee92bec92ffc",
       "geometrySignature": "e0565f294f385541793734e95a59fbebde4540400cade3b3254220762523ad2a",
-      "comparisonRevision": "d421a1b0a60e2d21eefc11d6a0ae3e28a358afdab572eae5ae9f9aaae702e0e1",
-      "review": "approved",
-      "notes": "A warm storage tier is shown by heat marks beside a database, distinct from insight, traffic and search graphs."
+      "comparisonRevision": "f3a3bde6ae90617a70845f4a9ef1e9e8e1b62ee30f44eac3426ef6af5cd5e26c",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-redshift-auto-copy",
@@ -10181,9 +10181,9 @@
       ],
       "revision": "445a3aa68ee308af32f584e48b21d06301b3bba43334f1503d056ef813b1ca3b",
       "geometrySignature": "b1419101202018ef95f969a160bd97d758fa23940f27b843c8951a81d9cf6a9b",
-      "comparisonRevision": "c84a8ec7bb5d212636adb9bce9ac986229c7f8c39fe1d68f2e0d700902cede26",
-      "review": "approved",
-      "notes": "Two data sources feed a lake, unlike service mesh, AI workspace or paginated report."
+      "comparisonRevision": "c4434039eb017c94f4d891a539325f6f7943072bb41dd5f18119b464494a0e78",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-datazone-business-catalog",
@@ -10211,9 +10211,9 @@
       ],
       "revision": "00c8269c9b8bfe3519faa0cdd8c3cda33913b593abc1676428d2d015dbeeb68c",
       "geometrySignature": "7245ed00210e72138f99f1ff674aceaa386602c893e939ff562f012a9eb3862e",
-      "comparisonRevision": "86ac2535075024846408af25199572e9a95f0cb376304fe8ca421537f3c0cf8a",
-      "review": "approved",
-      "notes": "A user accesses a catalog through a portal, unlike the app studio, AI workflow and security console."
+      "comparisonRevision": "a8a0f7a35a07ee4251d1fde97ac229213ddaa6af765cdbba7bfae99f28324eb8",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-datazone-projects",
@@ -10226,9 +10226,9 @@
       ],
       "revision": "66e5fd4db7c65d0d275c27b3823d9825680eee59eb33326e38d0ccc8009a03a6",
       "geometrySignature": "be3254d664a77a1d81e043d640784cbf2752aebb9bb35445840074ef6218f9cc",
-      "comparisonRevision": "ead8e34093a997c3a537487f61e41415799fba41348acc92328c6b4933c66b5b",
-      "review": "approved",
-      "notes": "A team and chart are grouped in a project folder, unlike an on-premises rack, Kubernetes and functions. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "9ba3d776ef1266eb4105192c879fde37c97dab7e845661cdb5098716217d8313",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-glue-crawler",
@@ -10340,9 +10340,9 @@
       ],
       "revision": "1fc9b827bd4f0d183a3a9021b3762a74ce47976a7e00cbc9e3b9d8428eff4215",
       "geometrySignature": "b373f3cc57ae3e09299bfafb61ac08c5cf5e358987039e46848ce56ff5ff6c28",
-      "comparisonRevision": "30e170f249b27a88d1a96888d7f269fd314933c4da24b94ebc6abb662203d32c",
-      "review": "approved",
-      "notes": "Multiple records resolve to one person, unlike the protection shield, cloud endpoint and fault injection."
+      "comparisonRevision": "f57744f161cf0e75948bcede4389f591c98a3b5cfbbcf44220eab37c3e34c706",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-databrew",
@@ -10376,9 +10376,9 @@
       ],
       "revision": "b993269f6f7f63f284a4d31656697df3b21cbfd278c09464ad58495da6616533",
       "geometrySignature": "ff418ea04ccce399458de9a40b2c7744aec6c1380bf1056a8d6c408bfd87756b",
-      "comparisonRevision": "ae3c4343000dd22a39cfda5a7f5b6ee03f21777c0acc1c91a77e296bc4a6c165",
-      "review": "approved",
-      "notes": "A lens searches a stack of records, unlike the column, managed service and container registry."
+      "comparisonRevision": "a4f9e5f39aa4998a6ce7d917a3bd6dfe3f3df83d25bb427f1e4eab527883cf19",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-datazone",
@@ -10654,9 +10654,9 @@
       ],
       "revision": "43fdeff2ca5130b7ad11bbfe20d273bbfa90e0018a38b697c4b26f1188b108dc",
       "geometrySignature": "2a7fee5db21dbc4f787975d090110b76a6d0d550ccf858e577505135d81e3faa",
-      "comparisonRevision": "fb7c14c1dabf0d93553796d2d79a36b860461a6e426c44e719ef77481309f1e7",
-      "review": "approved",
-      "notes": "A server rack connects to a local building, distinct from host groups, Kubernetes and external key management, and the Redshift warehouse. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "a5f01be6f00779bd6334c83f43aa9a4d92a77f2629d83cdf843ee99d5651d2d7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-outposts-servers",
@@ -10710,9 +10710,9 @@
       ],
       "revision": "df31b18b8ca3ceab730b88f71763970943e11fe56869a6ed412f53498a4665d0",
       "geometrySignature": "87142fcc6f690fec7dbee0769bab2fb753a6b8d815710f438995ccae0fbd1ff7",
-      "comparisonRevision": "123b6762eceae9eefb10b9920831be3686ccf77e6e846fd5d19ef5a200579c33",
-      "review": "approved",
-      "notes": "A streaming input joins a processing endpoint rather than operations agent, studio or permission check across six variants. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "ab64f03bf054768f6707de10e4386e6d5a11ddaaa8491e726f9dea9457d01c2d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-external-dataflow",
@@ -10730,9 +10730,9 @@
       ],
       "revision": "bdc239d77089bf2e720b33df9a8f657e9e97c6c55ca1f45d55fea1ceabffe424",
       "geometrySignature": "b11ac2dd1316b50676bb7af7fed3b675fe625f55b7f5585adc74de77c71db4b9",
-      "comparisonRevision": "6f4f524a31201d7ae64f4c6461e3a87c766f2710566bb29f8e43fda631b90992",
-      "review": "approved",
-      "notes": "An external boundary precedes transformation into a workspace, unlike translation, change set and email APIs across six variants."
+      "comparisonRevision": "f7c55b13e7705ffb5129f759e63dd4fd97e5af593a8ca1b916d60e2e62f6f75f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-external-datamart",
@@ -10770,9 +10770,9 @@
       ],
       "revision": "0d55d400626fb2d54ca1b0c913c8b4c09934661b91691bc6dd6214ea26e17cd0",
       "geometrySignature": "590d281f0935bb948233de6a8a481539a20f5b07467194374692666e8338bb99",
-      "comparisonRevision": "73278317d3c76fea8da3c96c543133925a903513f37f2c2e7df7af3fcbdf38cb",
-      "review": "approved",
-      "notes": "An outside user connects through the model to a data output; unlike mobile deployment, a stream-fed model or two-party sharing."
+      "comparisonRevision": "155887d7c83980195408da764b811d80c9116520e5bfbb6c7ba8985c4e8c398a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-function-set",
@@ -10856,11 +10856,11 @@
         "/icons/fabric/svg/links_48_item.svg",
         "/icons/fabric/svg/links_64_item.svg"
       ],
-      "revision": "0b28eb2b84f0615a3da1581cb2e5e31c376dd6cdeb1d22339c843137b81e334b",
-      "geometrySignature": "60b9db9147107685f27a5051817635b2a66d666431d05d514530e986e83b0cfe",
-      "comparisonRevision": "8ae4d1e44bf36e6e0bc4e4a7b7d7c23bf3462a7b363d40bd652597728050bdad",
-      "review": "approved",
-      "notes": "A chain of links differs from arrow, disconnected operations and network function manager across six variants."
+      "revision": "77e21cbd3df336b9249917952563ca7ae87a834d7f4eae17b4d26eb9a79f3d5e",
+      "geometrySignature": "d8b8428ad649b2be68f1588b0c0e00dcf7ee71b157e12ee417749940994d2cad",
+      "comparisonRevision": "c3bd7b440939561d201f5e62d81adfa7e368cf4b7b2eb4917e591f8726a91a99",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-mirrored-database",
@@ -10878,9 +10878,9 @@
       ],
       "revision": "efe5e819b8e4cfe5d539f1f9c5311ab1ecce5510ea1a0f2bba53820d4a629777",
       "geometrySignature": "f1c2a2dcbcbd7d312561ada67202f6a9e970c51f64fd9aefc37a4653d5a23ed6",
-      "comparisonRevision": "5fa5aed4d5f91f4f2c0b81450d827aa4685c91d50e94227f9c7f2a5b29595a54",
-      "review": "approved",
-      "notes": "A database reflects across a horizontal mirror rather than a phone update, mobile report or DNS sign."
+      "comparisonRevision": "698dc52d03123a5ee01bc7a83ee3b190a1759da2037eb28036fb2ed649a2a179",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-no-access-semantic",
@@ -10926,7 +10926,7 @@
       "id": "fabric-paginated-report",
       "provider": "fabric",
       "name": "Paginated Report",
-      "rationale": "A report is arranged as three consecutive printed pages.",
+      "rationale": "Two numbered report pages show a sequence.",
       "path": "stencils/fabric-paginated-report.svg",
       "sources": [
         "/icons/fabric/svg/paginated_report_20_item.svg",
@@ -10936,11 +10936,11 @@
         "/icons/fabric/svg/paginated_report_48_item.svg",
         "/icons/fabric/svg/paginated_report_64_item.svg"
       ],
-      "revision": "9a21aefce7eafdcd92c00077c9729b539ca37694806edd2ecad66e1ee62e9159",
-      "geometrySignature": "d6e98933cbe4d70f9b9deb2224c084eef43cca3d07aa21cc39711cc099f0c8f0",
-      "comparisonRevision": "cf83f2e55b113a48a2cbef8bd9c2450905883cadfa24c480bb9fbf22c9c45adf",
-      "review": "approved",
-      "notes": "Three consecutive overlapping lined report pages; crisp and distinct."
+      "revision": "25186948e962bd78b8c9b857087ba5cc0c54fa855459fb6b59904b7e33a4d280",
+      "geometrySignature": "d927203b33db10193151a3db0683709c58ef0db06caee2f7680513924f9dc7d2",
+      "comparisonRevision": "1e429e732403dcd0d0597b2a2b45554d7ff0b90c1f1a2269779a49585b59fca1",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-rdl-report",
@@ -11250,7 +11250,7 @@
       "id": "m365-column-arrow",
       "provider": "microsoft365",
       "name": "Column Arrow Right",
-      "rationale": "A column of records is moved into a new workspace on the right.",
+      "rationale": "A right-pointing arrow moves between two vertical columns.",
       "path": "stencils/m365-column-arrow.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Column Arrow Right.svg",
@@ -11260,11 +11260,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Column Arrow Right.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Column Arrow Right.svg"
       ],
-      "revision": "c9bd9eb558cd19317a1a611199ec0647970f5e11406348ea3861fa464a92abd9",
-      "geometrySignature": "c97953b80078a2a531f0afbfcf64316531acbc7b11a3130dad7d18299a082309",
-      "comparisonRevision": "e9b96d7bcaf565ed72eaf080daff581e7ca608e387c08dbeda9df52c522788df",
-      "review": "approved",
-      "notes": "An arrow exits a stack of records, unlike license, application center and batch account."
+      "revision": "fc7ed4574f7dc691ab665d1497be0b5bffb9735aac0cfead9bd95f0ff7152e2f",
+      "geometrySignature": "8fd3f9dff6f298a86646e4f8de5cbbb5837787e24ebbde4fc58d320fb8175db8",
+      "comparisonRevision": "b9d87d35d5dca731f945dd66c1c7f9694b3a786098b19d30fad93473e7932373",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-bar-chart",
@@ -11462,9 +11462,9 @@
       ],
       "revision": "9df2fc4e161248924f838c506a13d1d86c3326207b6865241251d256ab2eaa11",
       "geometrySignature": "59febf9c6bae728c501eaccce126d7f18882729b352aea6b6398ebb0f4f11703",
-      "comparisonRevision": "56bb4a4caefc46c78d2e28f08567bfa4c50faae2a95de86b2b931948d6f1cecd",
-      "review": "approved",
-      "notes": "A key with teeth differs from troubleshooting document, application pipeline and video camera."
+      "comparisonRevision": "1b630bd85586d2586a304c7638bf134bc25e9833dd4a0098d6054b0e8780e9db",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-layer",
@@ -11645,9 +11645,9 @@
       ],
       "revision": "1b459d16f882bb263b322cbb6a18875960edd2a31e380bc9720be2ef7130213f",
       "geometrySignature": "b71c815659d53f16eb347037758d6f8c4da9fd40f31a4879fecdf5cf54921ad9",
-      "comparisonRevision": "1ac743d49adb99eeb2c2caecef824895e36a37acbdb59d373668a9a5cd8b458d",
-      "review": "approved",
-      "notes": "Three sliders represent configuration, unlike bullet list, genomics and app environment."
+      "comparisonRevision": "8181fe1176c48c6eea594294e6e048f5da0c5dfdde2dca02469c115bccbe02c7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-tap",
@@ -11688,9 +11688,9 @@
       ],
       "revision": "4916b55dc7d94ca11ed8786746423657c567b6d71372a0cee4044401a97ac024",
       "geometrySignature": "62e8126eab403e416c8095e7aacc734b8d41db730b0943d5d3efd2b1b7685dd9",
-      "comparisonRevision": "a1cb90be544a0ef016a193c173e3506300ee09f45849af64a5cc89c944ef50e9",
-      "review": "approved",
-      "notes": "People gather in a circle, unlike lock, drill and numbered circle."
+      "comparisonRevision": "3abcce8229595a23e7de91dc93e9912aca8187dd04fd4636297ed5ab399a69e7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-people-settings",
@@ -11876,7 +11876,7 @@
       "id": "m365-phone-update",
       "provider": "microsoft365",
       "name": "Phone Update",
-      "rationale": "A phone receives an update through a circular refresh path.",
+      "rationale": "A downward arrow indicates an update arriving on a phone.",
       "path": "stencils/m365-phone-update.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Phone Update.svg",
@@ -11886,11 +11886,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Phone Update.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Phone Update.svg"
       ],
-      "revision": "5e7ac82c5bba106e89d7ed520e4b34ef27eda2bfadfa285963acad31139069de",
-      "geometrySignature": "0c441437df1726151a8cd8d392f5365ce93584efb811d1e87f988cb70310a806",
-      "comparisonRevision": "eb666d450e428992a4357e8efc23915d5bb8e56b4956465a6e8e9571ee4bd3e9",
-      "review": "approved",
-      "notes": "A phone with circular update arrow differs from the bar chart in mobile report and plain phone or document variants."
+      "revision": "ba846397ec1d05afa95a0eaf932f37d5135c6d7b08f26d791a2eb3a68649703e",
+      "geometrySignature": "87f16f4ba3ad701d90750f5a3da1ff5a476fa66ed21224f1b98cecf5f1707a10",
+      "comparisonRevision": "c5f7a19b4e13316e0469928b765a785cbd10f49153d065bcd5c90d275e1b52b7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-slide-layout",
@@ -11908,9 +11908,9 @@
       ],
       "revision": "679309f16a725a5ec73abc7d426e6a372a834ce642b09ff80dbc99207657b7d8",
       "geometrySignature": "ab3b218abe0751aa67762d84154896540532842f3a716f4e42fab289cde8eddd",
-      "comparisonRevision": "f05a0d23e900dbbc8e98a7c7b9a7396c5ac86a5c0280755c2475878baa1f9b62",
-      "review": "approved",
-      "notes": "An image and text column make a slide, unlike code assistant, market chart and network layout."
+      "comparisonRevision": "c9e4ae0ecd1796ca807ea8ec5e28e7a852a86aab7271566614872d5a838c6ff9",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-task-square",
@@ -11979,7 +11979,7 @@
       "id": "m365-top-speed",
       "provider": "microsoft365",
       "name": "Top Speed",
-      "rationale": "A streamlined vehicle races past speed streaks.",
+      "rationale": "A speedometer needle points toward the high end of its dial.",
       "path": "stencils/m365-top-speed.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Top Speed.svg",
@@ -11989,11 +11989,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Top Speed.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Top Speed.svg"
       ],
-      "revision": "80da9a7491e802d181a586b468acec57c49184d53db2b4624d3b4c9246f0b4a4",
-      "geometrySignature": "9d53b8b4cd6f44523aea27cf2b182f4c0af9f5ae98db53c5928328d4c8b6fc06",
-      "comparisonRevision": "899601e525a3149a6c450d065662429abb726c56131e5a2f332a0bbc47692293",
-      "review": "approved",
-      "notes": "A streamlined car moves past speed streaks, unlike X-Ray, beanstalk and cone."
+      "revision": "c4e1843c1e266e6a0c071b3c1670af2a77cffa121fdf6e965931c7b611d670ab",
+      "geometrySignature": "a084d90280875d5f257059fc8599f6bfd65c9cdade296b9682cd700a61e56181",
+      "comparisonRevision": "6b4571119b0568da953c1722c215712e0b6d9b0cb40c5ce1722e40cdcaf8f89b",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-wallet-card",
@@ -12146,9 +12146,9 @@
       ],
       "revision": "d62458be8bd48fcfff68cfcf103b7fa92d86b8ae4c0f383f062a537fc2f699e7",
       "geometrySignature": "60d47930c68b8694a51042cc2886399dbf68106f6028285e729b10a36e7fab03",
-      "comparisonRevision": "6da8af330f89a6bf09b73677b4391dfb1bb2164976d6487c4cb05945757e6a2e",
-      "review": "approved",
-      "notes": "A star medal hangs from a ribbon, unlike Spanner, security app and calculator."
+      "comparisonRevision": "ce4958b92c8c7f421f8f2a4942a7f15433cd9097be18de49d4773a5da9d6c180",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-mxnet",
@@ -12165,8 +12165,8 @@
       "revision": "76928a8f5680e6f5a1d089679fffde02fafb9d5a2d62972de0fdc426b17d259b",
       "geometrySignature": "c7ce75077faea3425fe56e128911bd1b97bb737e5eb50491eaf0542e093dabba",
       "comparisonRevision": "e6f763440313891ff34a70eff5175c96f9d2d24abf0d2064ac2e59151ac3a813",
-      "review": "approved",
-      "notes": "Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors. The rework removes 32px clutter and preserves a distinct concept; source variants remain faithfully mapped."
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
     },
     {
       "id": "aws-pytorch",
@@ -12551,9 +12551,9 @@
       ],
       "revision": "86152d6c2651156f68972b3b7b8024ecb3af7b2d55f2c51eb6408bf66416436c",
       "geometrySignature": "7ac055cbdaac407e76b0da5dc2902f8df296ecc901aaefaa7e009caff9643493",
-      "comparisonRevision": "94cbb93825da03f4fa0630ca76fd3de99eb92c5913168b9f10861e48c08cb1f6",
-      "review": "approved",
-      "notes": "A medical image on a screen has a health marker, unlike support, the quantum processor and operations alert."
+      "comparisonRevision": "bf68fb5c4fd2c95349d6753c716d9aeb34c6ba7b05614542b4601e21253f1894",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-health-lake",
@@ -12569,9 +12569,9 @@
       ],
       "revision": "c0703bf7c6ee3270809f259e24cd96fc1dba69a62688af2b8030a31e17da5290",
       "geometrySignature": "1b241bb39b4981ee630627e64b0564008fa9c47e84c52fa2dde4857318133d8c",
-      "comparisonRevision": "2e7eb826e6599b32aa4a45760e44d4c6d019e1222dcf98aaaa6870314ee36a2a",
-      "review": "approved",
-      "notes": "A medical record feeds a lake rather than audit, file panel or paginated report across four variants."
+      "comparisonRevision": "df67866f16dd532242b5761ebe1559acc918fed364b6fe15883ce5d361230e7f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-health-omics",
@@ -12677,9 +12677,9 @@
       ],
       "revision": "f51b0bb8bfeb213021203dc795517d921da2ebb54e8f91214e453fd48cbdc929",
       "geometrySignature": "598b6964d42f24c207456f6fdca83c9c2750af2c7ac23c86414e0141b0c9362c",
-      "comparisonRevision": "fbb648e2d1fde32b43d7b192d4cb9a580a53c89b27cee3378194d177aa5f23ed",
-      "review": "approved",
-      "notes": "Code and suggestion bubble differ from slide image, network cards and financial chart."
+      "comparisonRevision": "28e30a1a222ff218f6ffe470cc432eb09c55d6af4f9f5ae3d4c3e13ef166b150",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-comprehend-medical",
@@ -13649,9 +13649,9 @@
       ],
       "revision": "0f536edfadac5c7dd042625f3dd1fa4115839b29e58d9a083a00382cd81c53c0",
       "geometrySignature": "8c2fed9d061090ad6af88c2ae272ec885273feb430f54f2a4c85d2de2310cff7",
-      "comparisonRevision": "7695e8f85726647b9408e863b453ae123c7fc7a9cd97cc36147e290ba704d857",
-      "review": "approved",
-      "notes": "Miniature bonsai tree in a shallow planter; charming and unmistakable at 32px."
+      "comparisonRevision": "010f0b37d9ccb01e2adddadee402a02df572f88e9a9c6db7cdf472452af3732d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-planetary-computer",
@@ -13740,9 +13740,9 @@
       ],
       "revision": "0a72ffa1613e7f42ae54ee8412570465e4cfc89c1280b0b42df506e476b4b88e",
       "geometrySignature": "dbd3d490364649a62674213e2fa59934370bbb79c9855ce54520025a6bf910ae",
-      "comparisonRevision": "db5e44df23a278c2e275c1bdf1c7827004bd191e4e9713a251b3afea6566d3a1",
-      "review": "approved",
-      "notes": "Sparkle-marked prompt bubble generating a response bubble below; clean at 32px."
+      "comparisonRevision": "5b4125312b82d6b3fdc494df149f6056d37ea6b98da0300d5a92ee1a17cb8459",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-ai-studio",
@@ -14085,9 +14085,9 @@
       ],
       "revision": "f0790e177f10ae9e0c92dde18081db530cacce7b7b723577ed8c672daf8946d6",
       "geometrySignature": "67f742735efedc8822be61d84f2ae3c4a6dab4891c51085cf60400b9b837b235",
-      "comparisonRevision": "a1aa44bb40857a98a45535e3e43aa9ed8f67e28c561af49f2c7eeceffba20050",
-      "review": "approved",
-      "notes": "Open book with highlighted reading line and voice sound waves; distinct from ebooks."
+      "comparisonRevision": "d6a6f243cf09c7b66d3eebecb87aa1bc168364dbbd3083f52b64103198c2b03a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-anomaly-detector",
@@ -14100,9 +14100,9 @@
       ],
       "revision": "92c579d43179f5bf95beac008aa5e039364983c4950208d3d993a6983c0f592f",
       "geometrySignature": "80343e6f2fc6dba795bc00d3d2bad318dd642876aff72b7ff25b628a419e8f8e",
-      "comparisonRevision": "c20d6debea5dde4cd7773233db44de65f5221631b3c00b55ecc78567ad296d1c",
-      "review": "approved",
-      "notes": "Time-series line chart with a circled outlier above baseline; crisp at 32px."
+      "comparisonRevision": "1a697e1ef01ecea1e2ae572c8af4084bdca7b325d1c22f0c9af1d8970a069731",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-form-recognizer",
@@ -14115,9 +14115,9 @@
       ],
       "revision": "1c855182f017848ea1f98fa117027de890bccd066d86f3d4c75c70aca3a9d4e8",
       "geometrySignature": "7976777c920037f3a2f3ed58289b7db83c3d91b3dd84c4dd42e4487b87ca890f",
-      "comparisonRevision": "96a9d707a8de8ca844d383718b1787819c7562fc9c48b5100b7daacc5bdf8400",
-      "review": "approved",
-      "notes": "Checked paper form framed by corner scanner brackets; clear and legible at 32px."
+      "comparisonRevision": "012039caf7f52cd89a37648399903b7d95fd0749590a2783add569b9b514a441",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-experimentation",
@@ -14161,9 +14161,9 @@
       ],
       "revision": "78626538708b0a29aecde944b17bc16a6ca1b0a8bf4805264d8061a2d21e64c3",
       "geometrySignature": "cbd095d99bc83286b588139b5b02d3a9f1e1b57223d48e26825ef2e8afec35e4",
-      "comparisonRevision": "8b349379bbd1d199aea37b1f1588a4a9cf9673b7a1e96f0ac99a230a0ef6ca65",
-      "review": "approved",
-      "notes": "Rising metric line chart paired with an advisory callout bubble; both aliases match."
+      "comparisonRevision": "13b7235e2f2a0061108d82007444cb98f31fd5e0f66bbb41074af0e1dadeffb5",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-content-safety",
@@ -14371,9 +14371,9 @@
       ],
       "revision": "99f8107da83dfa3dadfba0f12e6070f9faaa5402ae10387e765710465197a2ab",
       "geometrySignature": "932294d0c8bd3fe8646770546899854d93c1df9a69e008b78700f889630d3ae7",
-      "comparisonRevision": "95f61ca6e49efa39e711a662eee1e0606e1e4dc30794549a9b89d9e581f7cb08",
-      "review": "approved",
-      "notes": "Two upper controllers coordinated through hub to lower equipment; clear DCS hierarchy."
+      "comparisonRevision": "f9a962fc658a25c57d76a503f7f250ee09a3dd3080ac4ed35c09d5101565b346",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-defender-robot-controller",
@@ -14461,9 +14461,9 @@
       ],
       "revision": "5ff6eab9fcb5d2a331d66ddbfd587b97923bc11638345e2aef65637a158579c0",
       "geometrySignature": "3ec46a7ebdd3e6b0350a6557e00b65e5b73f64aa07aaf45c0222afe99e59df43",
-      "comparisonRevision": "67d13788c867d6fb8d9eb1f26e69a4f916ae1e87b790371975ec1060acd38d8c",
-      "review": "approved",
-      "notes": "3D package box riding on roller conveyor belt; very faithful and crisp."
+      "comparisonRevision": "f4d9263ddf8483633b1dae212e7382a64206e75317e59a9fe117e6debeb47b10",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-defender-printer",
@@ -19439,9 +19439,9 @@
       ],
       "revision": "c1dcddcbedf807067cd3cb1cab1fbf065959013a883140e8c53f4651cbab7478",
       "geometrySignature": "6cd809eb21c51a445d2cf24bc4b5dc9f05db54117b4ad1a7568599668c8844d4",
-      "comparisonRevision": "a061bfb21692ed6cc7bbb22f502f2b0bd66c045852b1725bbe958b51a073e38c",
-      "review": "approved",
-      "notes": "Conceptual three staggered database cylinders cleanly depict Fabric Databases; legible at all sizes. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "574d79daf4aa29fbdc0ee8a49688575026dad233b5015126564ac94de7a06c98",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-platform",
@@ -19471,9 +19471,9 @@
       ],
       "revision": "3dc28acdb3e05017b0e4932b02a01fd87a0bd293ab13133af3bcb94d3bda2b4f",
       "geometrySignature": "f5ca9f9972d01d9b5ade996b688726f27715138da511228451e81f472d70d966",
-      "comparisonRevision": "9d86b4880deb03274f427d5981fb8d372d6bfdfbb19840cfc877d8b3ebc20256",
-      "review": "approved",
-      "notes": "Conceptual three interconnected data workspaces converging into a unified platform clearly represent Microsoft Fabric; distinct and legible."
+      "comparisonRevision": "749e8f194eeda046f80a650a36063e7ef3afc4302a4fa1c204849f0c127f74e6",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-graph-intelligence",
@@ -19630,9 +19630,9 @@
       ],
       "revision": "6678d4d44146225ba571b83a75da1a7535092a90b90531f28c78326f7a9565df",
       "geometrySignature": "9d015158f36129f10c85bf2af3f2f1cf5df32ac32059ba876551b105df7a82d9",
-      "comparisonRevision": "5a13531ebb56102801f44b96089305191578967e1995dfd7156fe6410c82cdcc",
-      "review": "approved",
-      "notes": "Conceptual downward data streams flowing into wavy open lake water intuitively convey OneLake; legible at all sizes."
+      "comparisonRevision": "aba55a1f6d5bd0958bb632eba1e726ebad56a532dcd0667ca81590aa3920a0ee",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-cloud9-resource",
@@ -19711,9 +19711,9 @@
       ],
       "revision": "b3b686f0cb342a83579a80f5df4ff029008d95c925c7930089b835f60666d0d2",
       "geometrySignature": "e0d0ddb17e4d6b2e2ee5d1e96073476d2f46ae3b04be84f725f6cc064b3e0796",
-      "comparisonRevision": "7255bc202801ce56563fd725a6d0a2aaaa10337132bdd32c3becc63c86d37c7f",
-      "review": "approved",
-      "notes": "Application data flows into a pulse trace, unlike video, a check and stacked text."
+      "comparisonRevision": "105ecf8384bb158d3bd83acc19376eefa8f98acfbd00bd1023cc7331989422a7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-red-hat-openshift",
@@ -19891,9 +19891,9 @@
       ],
       "revision": "67c24d0fc4831f21b04a1bd6cb21645126be3416d6cccf816429e434902759c9",
       "geometrySignature": "fb437a8d76169f9a8226d3ace8d9ecc9cb0c06860bd685dab628efe744406f11",
-      "comparisonRevision": "3b6aae6a770f804abf61aa281577ec59b13ae9c0df089a5a6b24dd0fa0ebc695",
-      "review": "approved",
-      "notes": "A sequential pipeline with completion check differs from schema, document database and translation."
+      "comparisonRevision": "10010128d5555f144c6bfc08506265640de16019eb54cf2e99dc36ceb911c1a7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-cli",
@@ -20444,9 +20444,9 @@
       ],
       "revision": "40b03dbc4b83ca364a0ac59513edf79b468e7b24ceadcb85130c679b217b9dc1",
       "geometrySignature": "a6fa46569f0baffe14653f56d68624f7f65a7f1467b8bb8d4edc0221d991a04c",
-      "comparisonRevision": "ea58b4051b63ac69043f415003e0db7743424990dd922f6194c8e0539b4889a9",
-      "review": "approved",
-      "notes": "Two discussion bubbles and a lock signify private knowledge exchange, unlike language graphs, analytics and inventory."
+      "comparisonRevision": "a122d2dc71c391975592b2af112ff45a55cf1f5dc2d1f4c4e1bfce8faa22fdb4",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-pinpoint",
@@ -20588,9 +20588,9 @@
       ],
       "revision": "fc8c2dc812c026f623cd36e0a632bc2473148c130a631b3816a879ecdb04565d",
       "geometrySignature": "b22bd74956fd3923a49b78bfb990d093094868d27a72ef6907d31e59caf80d33",
-      "comparisonRevision": "f684adde1df95cd5bfbb78528822c4b8420916f354c3f676ae501e1ae617660a",
-      "review": "approved",
-      "notes": "A desktop presents an envelope and calendar, unlike the filmstrip, DevOps alert and business application, and the SES mailbox."
+      "comparisonRevision": "d6417d101efca2d4be00985e36e9e6f948627ff1e99a4b3bd3c0d8ce88e682e4",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-workdocs",
@@ -20732,9 +20732,9 @@
       ],
       "revision": "b4e0e86cd94baaeeeb93fc10d87c18bddbcb5f7235e47de6d0083cd65b3868b1",
       "geometrySignature": "dc03660243e1244ee32b2ad77d4b7b9f105156c9669af55ebc538a9105269698",
-      "comparisonRevision": "48b07827643120e9be206e456e46d270b83ea8a34dc72cc9acc51ca47f9611b7",
-      "review": "approved",
-      "notes": "A lifebuoy and wrench convey support, unlike a globe, security gauge and event subscriptions."
+      "comparisonRevision": "31e47c57fdf72b7b104f43021b05eea0c769d598c03210659f50448afb2179a2",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-professional-services",
@@ -20822,9 +20822,9 @@
       ],
       "revision": "dda388239589c7bc2dd0af071e44a128041b45deae00aec4d13a1ab686d01ec8",
       "geometrySignature": "1f51f479859363292380d69a373c0f872a1521dbd4aedcd57fdc8b13a9d383ca",
-      "comparisonRevision": "d99bb04383379c27655e10d2dcb3349061174f9b5fd538972dee086e138a1ccd",
-      "review": "approved",
-      "notes": "Video camera framed inside SDK angle brackets; crisp and very distinct across all 4 aliases."
+      "comparisonRevision": "9fc7979d6b1c3ace4c64cf0fd5ad015d855f87ad6aefbdc08639352e3fbdc219",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-wickr",
@@ -21797,9 +21797,9 @@
       ],
       "revision": "2ba57e5f67cbda5159c3e55b9f3c1dd6075bb443e4ba8a912750bec7a0dca2e7",
       "geometrySignature": "a12d25bc92d5d2a184460ba73e25fadfe33be40b48c1133737539a2390730abf",
-      "comparisonRevision": "0aabf4d522616ffcb3c612ce032f7208443f9f0fe89feb085e4412e7d3f13c60",
-      "review": "approved",
-      "notes": "Two license documents converge on a check, unlike column transfer, IoT action and backup storage."
+      "comparisonRevision": "db259bcbffce09370d539e3f12b7fd7cfc2daae6b5448adc9e5f5d0dd8b88f39",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-organizations-account",
@@ -22530,9 +22530,9 @@
       ],
       "revision": "b38ade8ca1736fba5f73d9c7b7208bb320d987f07ccfc3acddce7dc7c16a71de",
       "geometrySignature": "631796070b3e08d2df676cb5debab87113e8310f009e49144643206b72eefa39",
-      "comparisonRevision": "755fdc6c48b1df4303d9c716332f5b6e925fd4512c38299c26d73f3d50615203",
-      "review": "approved",
-      "notes": "A stack of pages differs from activity log, an AI agent and language work."
+      "comparisonRevision": "60990e0556c6de98395c0507986616e217c216b726b688a7036897e7e72e55eb",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-general-email",
@@ -22702,9 +22702,9 @@
       ],
       "revision": "2dd4060940d567c23d14b5523146f0d2b6d412fa15625c2b38aabbd392c898fd",
       "geometrySignature": "d431d468009d784b7d4b9ee84e8ec70602ee48c8fd24b0f3564ad20e1e134cf6",
-      "comparisonRevision": "e899abee23e7c9579d52a6c9d630f3d92c591f45ddebc7aeacb1a17b0491709a",
-      "review": "approved",
-      "notes": "A dashboard of service panels differs from application environments, Chime and marketplace."
+      "comparisonRevision": "20ceb1b35bdecaeba289f7a74ae5dd1bc156897c06a1ce6f01839bf28f8c20d9",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-appconfig",
@@ -22738,9 +22738,9 @@
       ],
       "revision": "45cb00612cecb2de393b58a9e5a3d30eb29d0a359ee5d3ef597dddc200b6b0cf",
       "geometrySignature": "52ca3410c9aa7b685288328c1c61e42ee460a8f9dd691c8488e340216d6c14bc",
-      "comparisonRevision": "2bf1919005d61dbfbccd35d4a65b19780891610c40bc6e223dbca18652ecff43",
-      "review": "approved",
-      "notes": "A mobile cloud console differs from the phone report chart, DAX documents and command window."
+      "comparisonRevision": "30d6814483c1cfd297d423294d92db237a990c7c63d6fc7d8f886a6e88558973",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-organizations",
@@ -22756,9 +22756,9 @@
       ],
       "revision": "dc3340c4a8a9159b75937267bd27de9fb0cda974c32aa906cab1dd888e964ff1",
       "geometrySignature": "30cc44f6e0c6c36161d09f14835153d915d9e8e12933ce14b8122d6cffee14ab",
-      "comparisonRevision": "704adbbbd2a32f4a59fe2c3d21ce43adefaa39d9993963dd681a50764cf302d4",
-      "review": "approved",
-      "notes": "A management account branches into member accounts, unlike CloudFront downloads, compute cluster and video."
+      "comparisonRevision": "9968f3d6e1db10d45cd20e9c6f6f135cf9b050f9e31f560cf093af44d2d3ab7b",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-health-dashboard",
@@ -22882,9 +22882,9 @@
       ],
       "revision": "9994309845bd6508ad2ae953c0570b50538915d16f1e3aa5dc51e96cedd7aa6b",
       "geometrySignature": "690d7c2cac2e57a184cc409eb501587a4baf3af0cb4911c484a41548a0cfad27",
-      "comparisonRevision": "282e1b3ab3473d23b8eb85d7771c9e4c951158fe53f45cbbd1f9aa4eb8a5bff6",
-      "review": "approved",
-      "notes": "A signed license bears seal and key, unlike artifact, document tree and checked item."
+      "comparisonRevision": "61457f318343dbeacd495e2f48250f7e14f8bc7f597d8e591479d7c7569a9d96",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-service-catalog",
@@ -23843,9 +23843,9 @@
       ],
       "revision": "254923eb5f1fe1df4204b1a942aadfa7103484bbaba9cd1d9bbc237cc704bd9d",
       "geometrySignature": "db7277bb48f5843fb56382806db6d8ba4d63397f57ec7e16b301726abe18d675",
-      "comparisonRevision": "200a97f7b678dbd54b4c0e79240f076339048c0ea21f551f8589407cf3b8110d",
-      "review": "approved",
-      "notes": "A certificate with ribbon and globe differs from billing, stacked reports or scheduled actions."
+      "comparisonRevision": "1597ab4bd54b2f347e7325dabe8ba94c6b610299ff6d03cf7876d447f0cdc43e",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-identity-center",
@@ -24059,9 +24059,9 @@
       ],
       "revision": "7efd9972bb59954f8538d5124c1b5ab5540bcf25b6ca02a730d467ce41319da7",
       "geometrySignature": "adc52890969e81864ae948b10dfa0515efee832c8b7363cb750b5d3798140c47",
-      "comparisonRevision": "8e45cbddd46393f3ae258ae460831295a930b152df2168d99bde76933ad3acaa",
-      "review": "approved",
-      "notes": "Alert triangle linked to response checklist; clear incident workflow metaphor. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "12245af11b1a7e2bfd9e2e01563270e4cb7fa851c1524dcb1bab894f087be3e3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-audit-manager",
@@ -24203,9 +24203,9 @@
       ],
       "revision": "bc7801d1e56d73ba469f827ba0a11583afc63fc4065d93d1c6cc7b3ace4b42f6",
       "geometrySignature": "20944e5c3b8b902a3d574ce9378330b52b717c9b08acd711f8de28c56cc75310",
-      "comparisonRevision": "cc9622701240e46be94d44a380e1689c06428e9676b998ab96caa6b8e7c89726",
-      "review": "approved",
-      "notes": "Two account records exchanging resources via arrows above padlock; clear sharing metaphor."
+      "comparisonRevision": "f37dc9d04bfd57e889d472b751e2eb00c48d623b4c9768432047211240456ceb",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-payment-cryptography",
@@ -24535,7 +24535,7 @@
       "id": "m365-arrow-circle-left",
       "provider": "microsoft365",
       "name": "Arrow Circle Left",
-      "rationale": "A left navigation button returns to a previous page.",
+      "rationale": "A left-pointing arrow sits inside a hand-drawn circle.",
       "path": "stencils/m365-arrow-circle-left.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Circle Left.svg",
@@ -24545,17 +24545,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Circle Left.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Circle Left.svg"
       ],
-      "revision": "d8f58b33ac773e9650d17fad5040dd8766d96b5de176bd80f6c33c48b80aaa3e",
-      "geometrySignature": "141cbb7d48eccf6ae2d1211b414b88114e92e064bb582a5254fc1f8d5ba0c7e6",
-      "comparisonRevision": "89e3e601bb4da872b08e4b6928868558ed7ba7e77ca15b72303cbd62ba962c04",
-      "review": "approved",
-      "notes": "A left arrow button sits beside its previous page, unlike installer, state manager and search grid."
+      "revision": "19e3b93ecf61ec0655137bd857f8996b5b33300cf9ec5cf9332811ae6bcc7aba",
+      "geometrySignature": "5e255b041d0caa3abaa9f9dc14128272fd801654fd13da926864f7572dfc7000",
+      "comparisonRevision": "ee33dfb9fb60db2535b9823439baf6e1c87807ced434f77bc45434e8dd4de312",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-arrow-circle-right",
       "provider": "microsoft365",
       "name": "Arrow Circle Right",
-      "rationale": "A right navigation button advances to a next page.",
+      "rationale": "A right-pointing arrow sits inside a hand-drawn circle.",
       "path": "stencils/m365-arrow-circle-right.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Circle Right.svg",
@@ -24565,17 +24565,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Circle Right.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Circle Right.svg"
       ],
-      "revision": "db7afaa24605072a52ea7aca266ff875a0260a2dde35dd15a2b7207c4e65e328",
-      "geometrySignature": "db15bc09af7717fe7128a6f002057b028ebd7af4e98b3fa2580d5905614de759",
-      "comparisonRevision": "463e41f65c755a577358f1b47fa9bf8a21583b7ce93f795306bec9bdd5b7148a",
-      "review": "approved",
-      "notes": "A right arrow button leads to its next page, unlike translation, stored volume and notebook export."
+      "revision": "ad7edbf3d505b31f18a2c5b7b45fb7ef0ecb9acf042a2fe31ed906c8f44569aa",
+      "geometrySignature": "98cff921295412c074aef3f7128296aa8ddcef31643bab084c6e097dfd547380",
+      "comparisonRevision": "7b17a97ef482d437c59600bc802cb129e0ad13d575215aa406c53081d726c347",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-arrow-clockwise",
       "provider": "microsoft365",
       "name": "Arrow Clockwise",
-      "rationale": "A clockwise arrow repeats an action around a central clock.",
+      "rationale": "A single clockwise loop ends in a directional arrow.",
       "path": "stencils/m365-arrow-clockwise.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Clockwise.svg",
@@ -24585,17 +24585,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Clockwise.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Clockwise.svg"
       ],
-      "revision": "dc159c764f0f5a86903559918d2bc091a6422f07fe3ac9e6291e03996e693cfa",
-      "geometrySignature": "a4a5e8ae60f90e254d77fd407f321755929956f9f1f3fa42a201047434b4537c",
-      "comparisonRevision": "580a1fff139208d56cded9c91ea1b47398cd2e0da72905d4d6441e2c86fd83e8",
-      "review": "approved",
-      "notes": "A clockwise loop encloses a clock, unlike curved tables and data box; sync has two arrows."
+      "revision": "6302e5f638efc3214bc68b31cf8ee1abf50b40ded8a3e9934884474fd25f7dcd",
+      "geometrySignature": "37062a7a6e25f0e13668c868adafa6387da100c82f650450bbd810d0c7f55393",
+      "comparisonRevision": "e5828e4322f66229de9fd149553b2f60ff96dc8546e8c20b357283e6ea54cc82",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-arrow-down",
       "provider": "microsoft365",
       "name": "Arrow Down",
-      "rationale": "A downward arrow moves through a vertical sequence.",
+      "rationale": "A downward arrow indicates movement toward the bottom.",
       "path": "stencils/m365-arrow-down.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Down.svg",
@@ -24605,17 +24605,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Down.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Down.svg"
       ],
-      "revision": "7c89b20389ccbe5d8802f1bbfd196a8931277166d96496d4522ffb3bbe98806d",
-      "geometrySignature": "c0f0ae193c525a48a275dcdf24c7c3996e8c2654469dfd377706a9a6879a3fbd",
-      "comparisonRevision": "dc6b8f6b2ae79d94da3a7d4d5a4c7c44e17cac9d52b719a9b8076e2399dce5b7",
-      "review": "approved",
-      "notes": "A downward arrow beside stacked items differs from attestation, locked report and code across six variants."
+      "revision": "d031d8be8a4ab3594c63008385e7ae83721139a7daa710b72e1085465e6ee2fb",
+      "geometrySignature": "a91077931b92deffcb208ba9012f0fe917b90f233f88a4ed122576ea1ab87d45",
+      "comparisonRevision": "f41eeb3dd75f37b1f991f823136dd858bf603dd29c7cb6bae2276ea9191ba22d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-arrow-sync",
       "provider": "microsoft365",
       "name": "Arrow Sync",
-      "rationale": "Two opposing curved arrows synchronize a pair of records.",
+      "rationale": "Two opposing curved arrows describe a synchronization cycle.",
       "path": "stencils/m365-arrow-sync.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Arrow Sync.svg",
@@ -24625,11 +24625,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Arrow Sync.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Arrow Sync.svg"
       ],
-      "revision": "250dead020821d3d1342da4ffac1065197a4ae9ce8bfd776f4b4fb4ba348fd05",
-      "geometrySignature": "844bf12f40ba05b4d8bbea8029bb0e5f1cd6c32c3b3c568cb886ce4115d674d5",
-      "comparisonRevision": "8d911dac294408abc667bb91408a4ea63034c5ee234762b055e9232ee71eb00e",
-      "review": "approved",
-      "notes": "Two arrows cycle between records, unlike settings, robot and networking."
+      "revision": "bc6af27fb900c2da39ddd9e5ae1d0633418bef0a737fc14e106141762dc131da",
+      "geometrySignature": "3d2b0341ca85724536ec2433ee07addd424a8cdf00a798c5c09774deee27d5c5",
+      "comparisonRevision": "2ad64a98700923a63c5a43595f3fc4e2691fb2550ced9979cd5014481b15943a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-check",
@@ -24655,24 +24655,24 @@
       "id": "m365-checkmark",
       "provider": "microsoft365",
       "name": "Checkmark",
-      "rationale": "A checkmark is drawn with a pencil to confirm completion.",
+      "rationale": "A single large check mark confirms completion.",
       "path": "stencils/m365-checkmark.svg",
       "sources": [
         "/icons/microsoft365/Planner Green/48x48 SVG Icons/Checkmark_Dark.svg",
         "/icons/microsoft365/Planner Green/48x48 SVG Icons/Checkmark_Gray.svg",
         "/icons/microsoft365/Planner Green/48x48 SVG Icons/Checkmark_Light.svg"
       ],
-      "revision": "5973a9e8ba66b110eed921928c8777582a8c797c7afaa9e7c7e4d8745eab40af",
-      "geometrySignature": "f50f1714643aaad0890aaaac1431a610737765438bf53c180c7ef31624f3c28f",
-      "comparisonRevision": "079f15043f4a6c8a566138d0fc98077327f4bd78bdca38dab22dfc4b7a970b1a",
-      "review": "approved",
-      "notes": "A pencil draws a large checkmark, unlike state vector, alarm and network connection."
+      "revision": "3f58ca77b55f72d2a3b1ffcff8d6d997dff8439e5ffcc17375b92892524df7f1",
+      "geometrySignature": "11691927c95924f464234dbd5471bbe8a0dc2ae5695535fc2d4df8f38460c9e0",
+      "comparisonRevision": "d4781043cb026e940e04afc32ef6e169c10554fea44bc9511f680ba51018a7dd",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-check-circle",
       "provider": "microsoft365",
       "name": "Checkmark Circle",
-      "rationale": "A circled check confirms a completed item.",
+      "rationale": "A circled check confirms a completed state.",
       "path": "stencils/m365-check-circle.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Checkmark Circle.svg",
@@ -24685,17 +24685,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Checkmark Circle.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Checkmark Circle.svg"
       ],
-      "revision": "171583063d8c0ebfcac110aaaaaa4bd0059edbb89f1c57045d86f1fb097b2a01",
-      "geometrySignature": "f819ba38f487763727cca7d9f5ea72fd568f97586ab110a70c21bec42de68c95",
-      "comparisonRevision": "4b4492740780e61645995105bc3a889d89567f462706d066aa5a4eeab6430b9c",
-      "review": "approved",
-      "notes": "Completed document page with circled checkmark at bottom-right; covers all 9 aliases cleanly."
+      "revision": "83fa900c0cb26db63b704a86bbd023770dbb9ca064aff31fcd35d30afc4aab4b",
+      "geometrySignature": "ee262865b48a1c229fe2ab6b7482dbd6b0d7e3b35520b18cea3ec5d781f2f93c",
+      "comparisonRevision": "9efec9fae64811e8cfa2e3b3504d0ff5b576d3355aa0b6065f91bb60e9fc2c55",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-chevron-circle",
       "provider": "microsoft365",
       "name": "Chevron Circle",
-      "rationale": "A circled chevron advances a list to its next item.",
+      "rationale": "A circled chevron points right to the next item.",
       "path": "stencils/m365-chevron-circle.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Chevron Circle.svg",
@@ -24705,17 +24705,17 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Chevron Circle.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Chevron Circle.svg"
       ],
-      "revision": "5e36109cd4de43343ae8469de5f51e26f487f7a5080bcb40047628415d72498d",
-      "geometrySignature": "48d09b02407f7de8f6fc300cee93508dc5d3f7886fd6c8d3cf846fe2496f19ca",
-      "comparisonRevision": "57176de697006607af9490c9f17df74222a65453e10396946fe142757076932b",
-      "review": "approved",
-      "notes": "A chevron in a circle accompanies list lines, distinct from stacked query cards with a lens, storefront or log stream."
+      "revision": "0457cd2bfe5f1fa5d935fab3212d784b342976ac54ab0bd200c403ecc8eb93de",
+      "geometrySignature": "38df23bfd427e6eed7a240655fee7ceb9908942650bfdf1e245d204efbee5325",
+      "comparisonRevision": "003eee162b8a40b07a4cadf9e3927166cfcf18d7eee32bf2f34f23cda7e96e76",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-dismiss-circle",
       "provider": "microsoft365",
       "name": "Dismiss Circle",
-      "rationale": "A circled cross dismisses a notification.",
+      "rationale": "A circled cross dismisses the current item.",
       "path": "stencils/m365-dismiss-circle.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Dismiss Circle.svg",
@@ -24725,11 +24725,11 @@
         "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Dismiss Circle.svg",
         "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Dismiss Circle.svg"
       ],
-      "revision": "88b92500d7d15292469bef369728b153b4aa897219a17cc0a29b9f27a19c0aaa",
-      "geometrySignature": "f676f2e8081eced593563293309e237858fb26c15920b38534f69741372bde09",
-      "comparisonRevision": "0a74977b556dd40af388da7a58aff101e0ab12cf5f0a01c4794714f71c908651",
-      "review": "approved",
-      "notes": "A circled cross dismisses a message, unlike IP manager, vibration display and video."
+      "revision": "7b84b67d8129d262ce5a1a11c09ebeb1a7718b04c4ae17e99649edc6908ea797",
+      "geometrySignature": "4c60409f99bc2415abc0dcf5219e9106c665ac5cb5b852b6a0fdab2311edc107",
+      "comparisonRevision": "5d039de1cce932f0b9fffe851f033e6244910f67fe508ebf17e671db63dc4470",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-building-cloud",
@@ -24941,18 +24941,18 @@
       "id": "m365-grid-circles",
       "provider": "microsoft365",
       "name": "Grid Circles",
-      "rationale": "Nine circles form a regular selection grid.",
+      "rationale": "Four circles form a regular selection grid.",
       "path": "stencils/m365-grid-circles.svg",
       "sources": [
         "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Grid Circles.svg",
         "/icons/microsoft365/Microsoft Blue/48x48 Grey & Blue Icon/Grid Circles.svg",
         "/icons/microsoft365/Microsoft Blue/48x48 Light Blue Icon/Grid Circles.svg"
       ],
-      "revision": "45f7d630e32e32a52333912e212f6bf28bd8ee17fdb1221a57785f2baa072d3e",
-      "geometrySignature": "7d5a9dac405f49f03f5e4ccd0d6afb85837e15b01700ebc6dde4aad0ca1e76bc",
-      "comparisonRevision": "36bfab53bf46a5c6da2853dcc63356cd723448128de0e787af300916b2a709d3",
-      "review": "approved",
-      "notes": "Regular 3x3 grid of nine circles clearly represents Grid Circles; crisp and legible at all sizes."
+      "revision": "9d361bdda57b764a0d91106461f07ba20ff0d01e4594724f7112c22197e92699",
+      "geometrySignature": "10c86cb40ab2636e26a0f4ddf5a17f7eaaafc811437b957a5967b9c2e65c9596",
+      "comparisonRevision": "824fc532929f49c9cc49264e5a2f8108bf8bb0a9b657c4fc8443de9adb76ad76",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-handshake",
@@ -25141,9 +25141,9 @@
       ],
       "revision": "f2f87351c93f847f5698c936dc6ffcab26d8ae348e362a3838b4c240e22d6ed3",
       "geometrySignature": "fb2a3b306da35e26707784173990cdd92b991adf3efe9311757eb8140c5bc268",
-      "comparisonRevision": "a98a6ae9e1012854ab425577142044d0f1cf0a55a908ef1c8f3823c177f79967",
-      "review": "approved",
-      "notes": "Cloud paired with bottom-right isometric 3D cube matches source; crisp at all sizes."
+      "comparisonRevision": "5f1b77b650f63a2dc7f31f82f7e55820be97f708833575f439d259b18e8c2e33",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-cloud-database",
@@ -25315,9 +25315,9 @@
       ],
       "revision": "17e433cfc63d12e0099bf3742840023fb50ca25cc101400f356c3308c67dbd7b",
       "geometrySignature": "5c85c33af3cf2666d7024aa81223167def29b6fa5b25fd9b0661368ff3015e62",
-      "comparisonRevision": "ae781b916717b9e90301c95f06987721d32d0c791126a5916b334a203d740a4d",
-      "review": "approved",
-      "notes": "Three round bullets aligned with horizontal text lines match official source; crisp at all sizes."
+      "comparisonRevision": "72255505d451f3cb67ee12e7c1e92f80df3c9eb9b94d649e3d94447f3aae6a02",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "m365-text-bullet-list-square",
@@ -26027,9 +26027,9 @@
       ],
       "revision": "eca4bfbd32eb512b44d9d842cf097399a9a82b7aacf9016aea5fc5a3061a1ae1",
       "geometrySignature": "569e8d13d0d15417f1e9f91bbf10d843b56ffe704cf057df429734cfc08c15a0",
-      "comparisonRevision": "1cc0c1b30f4f99db50854b1168f8259c19dccb739a4554b6c43cb3f6a3c7ebc7",
-      "review": "approved",
-      "notes": "Wireframe edge globe paired with </> function card; crisp and distinct."
+      "comparisonRevision": "08cecb599036a1faab41fa753b9a44fa157573007b098d228c2ec73e5050d1eb",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-cloudfront-streaming",
@@ -26240,9 +26240,9 @@
       ],
       "revision": "1936ad8bc9670205ffb329bda614e75178b8f85eca4c7d3d2ad4d166284f8e0a",
       "geometrySignature": "ad3efa18a7b8a6327916d3085ea05026bc7580d225e8111aa88a581b2c537f54",
-      "comparisonRevision": "ab68ff3ece524c29bdc3d58b8c8b7f8c00bf851a71c97a8fe7f92ba6e4806e20",
-      "review": "approved",
-      "notes": "Data center rack linked via dedicated connection to a cloud; clear at all sizes."
+      "comparisonRevision": "45c1129c95c336b545d7ad33ee7064b1fb18ca5d86cc8574d32827763289a45d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-global-accelerator",
@@ -26258,9 +26258,9 @@
       ],
       "revision": "3fd91c38be4d0ac409a64d3bf504f4095e01a2934e121f7fb73cca957437cf3d",
       "geometrySignature": "a4bdfcb115ec9e3790d9b4f08764ee69cc7c91721c03ce10e204915ff0d4c432",
-      "comparisonRevision": "e4abc6c8a4ad08707086ce14a06ce1f23ede9746cd594c9e48522ea4c1579370",
-      "review": "approved",
-      "notes": "Wireframe globe encircled by fast arcing route arrows; matches all 4 size aliases."
+      "comparisonRevision": "002f2c037951d636fa6275f23e8b21faa9ff2c0cd900ec67e672315385ba234d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-interconnect",
@@ -26276,9 +26276,9 @@
       ],
       "revision": "9915407a8eb583b01e9fc845ddcf1f8ec1778d3badf38f2163e1fe935c3587ce",
       "geometrySignature": "852c4cc09b7071e9cdbb3ab3ce7372af31a2e4526a6c2df36077824e0519603c",
-      "comparisonRevision": "2a41acb980c51e542603a28f82abcfa50fb78e79ea7d2935bfdd5591737b75f4",
-      "review": "approved",
-      "notes": "Two network exchange racks joined by crossed physical links; legible at 128/64/32px."
+      "comparisonRevision": "74f2942f077a8aee9cf1e50b10ca2d8066e25067cd759083b6fa70463f5ddc60",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-privatelink",
@@ -26502,16 +26502,16 @@
       "id": "gcp-category-data-analytics",
       "provider": "gcp",
       "name": "Data analytics",
-      "rationale": "A magnifier examines a plotted trend and individual data points.",
+      "rationale": "A data chart shows a plotted trend and individual points, with no report tile.",
       "path": "stencils/gcp-category-data-analytics.svg",
       "sources": [
         "/icons/gcp/Category Icons/Data Analytics/SVG/DataAnalytics-512-color.svg"
       ],
-      "revision": "e86963f1a076fed2bd6b510acda34cfddf89ff24a6ddf2231115558f65339cef",
+      "revision": "1c0be8f975157ebb1abad1b006a3955dbbb912f5bf7adf376da6d9df20d5be0f",
       "geometrySignature": "ab70de6253bf6ec2256186136e1374257d155cb76c8a678360f50f43a172c6cc",
       "comparisonRevision": "bd6e45bb526a405f2fa7713d6b265b6a814ddc05f0cd3a39b656d3e912aecfba",
-      "review": "approved",
-      "notes": "Magnifying glass examining plotted trend chart; clear analytics silhouette."
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-category-devops",
@@ -26554,9 +26554,9 @@
       ],
       "revision": "1302643fb1edf5b259285f1c5cab97ae5ef5bc314e19dbc8300666934ddd3252",
       "geometrySignature": "af8b4b8ad6845e97b146ca71d5f86f0ce55e2896ccc38174cee7ccc68ad6bf4c",
-      "comparisonRevision": "39ecd581459385f4d9c60918dd49c7f74e196a1b2589ea2ef519c37fd695297f",
-      "review": "approved",
-      "notes": "Code editor window paired with wrench; faithful to source and legible at 32px."
+      "comparisonRevision": "29e0381ec4ae5b37f0f2ea3c36f072679b36b3d53390e18fa13f5a326396ee3e",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-category-hybrid",
@@ -26569,9 +26569,9 @@
       ],
       "revision": "de66869654fe41c4f1020cdbec3b360f465f527ec35945955c66d6d4eee72743",
       "geometrySignature": "e9d984aef174d32dbba7cbd623a9077ac82a778d4e0767ad4677905ff904f189",
-      "comparisonRevision": "16db93de028be8d6e1e0e09dd0860b14fa6b218859971f4d41069352dd07a657",
-      "review": "approved",
-      "notes": "On-premises rack connected to two separate cloud environments; clear hybrid/multicloud."
+      "comparisonRevision": "b885a6888a57a2bdc7c9b3cb44324c6a9b52def963380a5b4ec10273012e7742",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-category-integration",
@@ -26644,9 +26644,9 @@
       ],
       "revision": "7a41fdb23af001de3c455617c68a36c3b856c3ef1428b9898be1dcc4d18d30cc",
       "geometrySignature": "d4797439aaaafc3f2561832f99ef838f65022b352022fa542b6e236645bd56c6",
-      "comparisonRevision": "ad1e0b341141c45a5de779925fd2745bfcdd36a82b95dbeb7317a9a05d3a15ba",
-      "review": "approved",
-      "notes": "Film strip paired with play screen and audio waveform; clear media services metaphor."
+      "comparisonRevision": "d60731658928aed28b23ba6dfb54bd0acf4f6b84fe3cd7574588f2a6bc46ded5",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "gcp-category-migration",
@@ -26850,9 +26850,9 @@
       ],
       "revision": "8d9b69ffea66813fffb0c13a4c32889f2d447d7a3487e0cbda3c0a520c06fe6d",
       "geometrySignature": "79dddad9759cfd413fec38cace16146e1a6505b5ade70e8e942ea18832504341",
-      "comparisonRevision": "cab0c4aa0a2892c22f19725e6d7f7700bf5ea61e018fca3209058492c07169ab",
-      "review": "approved",
-      "notes": "Downward arrow crossing a horizontal divider inside a circle matches official drill-down icon; clear at all sizes."
+      "comparisonRevision": "c40b84993363930f9f778128ebbe0b48e8d6b9203a60c90f41e025d7c4e0b5e1",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-arrow-exit-multiple",
@@ -26898,9 +26898,9 @@
       ],
       "revision": "de51cf3ccba0eaecdd8f535f563a765e1207f230e73e7e61ba6b0c3bbcd91c9b",
       "geometrySignature": "7b08e83b5cae0210705dab3c48e11ed5fb9b387ac332a85abd1fa8f5d28c0be3",
-      "comparisonRevision": "a8987e28c1989f3a802c937d731d022cc39a3de1acbf9c802a7dcd15dd402a14",
-      "review": "approved",
-      "notes": "Upward-curving forward arrow inside a circle matches official source; distinct from curved-right and trend circles."
+      "comparisonRevision": "2929ef5089c5bd84ba3b8a8fec4e4fd1e4166c07503d5acb921602cf3432932d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-arrow-right-double",
@@ -26966,9 +26966,9 @@
       ],
       "revision": "b1fb8ae7e25adc2096047d4a997c4ddcad00d929c2859c4fc562c7a04e7ccd02",
       "geometrySignature": "f55fde2bbb8ba797514cfdee15a3d44ec5a43a706b8dda50afc16073f598e5f5",
-      "comparisonRevision": "8ab9b83efcb950633bc2af0abd4e9856d1de3baba27cd145721e6f60a14d392d",
-      "review": "approved",
-      "notes": "Central gear encircled by opposing curved sync arrows matches official source; legible at all sizes."
+      "comparisonRevision": "1e79177f539c592a44a53acbb000cdacbfa9b001d5f78af8a0777db702416cac",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-arrow-trend",
@@ -26982,9 +26982,9 @@
       ],
       "revision": "3d590b78bcaf9922a37c4e2c5da666651757edcaf9f510d8b7d13b6c083eee71",
       "geometrySignature": "9080ed1eb77b440b4eac61641d9d34b5f96c16f9a77232a818ddbff450e4257a",
-      "comparisonRevision": "5eb7b7b428d04a611e00982b800d6a6f3d45011cf2b41e75df3fcec0b6476ef6",
-      "review": "approved",
-      "notes": "Rising zigzag trend arrow centered in a circle matches official source; distinct from single-curve arrow circles."
+      "comparisonRevision": "5b3ec8a0f73a468bae8061ccbd5276e6700ea6b8f7793e087e5c4535d47fedc3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-binoculars",
@@ -27020,9 +27020,9 @@
       ],
       "revision": "f90bce544b016bbb9ae931bd1963d503debb238c68e7001070f6aec1722d26c0",
       "geometrySignature": "dc5701f5ceab4c7fdfd6cb6b6d6e2fb276b464bac9d02c21b1fb68c09a93e64d",
-      "comparisonRevision": "5d9bed66f7d198c52433ec61ad51b627a39d2c3e4d167e6b40b8d9a3c213f9a9",
-      "review": "approved",
-      "notes": "Clean six-spoked asterisk matches official source; legible at all sizes."
+      "comparisonRevision": "e39b774b7429f69d93754c5440596839c6d8062c361693fd84da27ba2fc3215d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-asterisk-circle",
@@ -27052,9 +27052,9 @@
       ],
       "revision": "c4ddbe201df3970cbd4d8bbf6be818f1d881c379a392cdaba29f8055204fa551",
       "geometrySignature": "35884dc6aaa6d5f4d5ee7969f8e156fd0536344d3c701e1adc27cd692c9b6cc2",
-      "comparisonRevision": "59aa7d86acb2f655b0e3fe72dd77e9d39a1a96076bc12abd1a11cf74ce6111d5",
-      "review": "approved",
-      "notes": "Central revision node interrupting a vertical history line matches official commit icon; crisp at all sizes."
+      "comparisonRevision": "bac873421dfa0cee0fdc583d59ffd029f35ae8a874756f8622832d8bb65abaf8",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-commit-circle",
@@ -27515,9 +27515,9 @@
       ],
       "revision": "fe416727c3fcce13464dbf313b13a15cf519b38ea281081972b417016128034a",
       "geometrySignature": "2036bea900373e094d0a5c8a476ac6c2e55641d18574f7c3c727def45d1f34ed",
-      "comparisonRevision": "856a3b4a43264f7afab686ffe6d70c6dd2c067dbc44af9795de76ca1b7c01179",
-      "review": "approved",
-      "notes": "Manifest document framing a 3D container cube; crisp at 128/64/32px."
+      "comparisonRevision": "65c4c7ade25f273685a805c86aecf592cd7b560ebd351c85e98cc07b15d0e9e3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-ecr-registry",
@@ -28133,9 +28133,9 @@
       ],
       "revision": "f0b4b3514b48ad26b0c79e1840bccf8f81d7866e5eb9fb35167985c4d4e5649c",
       "geometrySignature": "11a70300352158bc465e6867eee74715847c72a68e057a3b6b8d795e60eba88e",
-      "comparisonRevision": "239ed73d4bb51fc8c60e9b6e84def59f438ce9f35d06a3f09cf1d5a9119a2c0e",
-      "review": "approved",
-      "notes": "Desktop browser adapting down via arrow to a mobile phone; clear responsive metaphor."
+      "comparisonRevision": "130f1e0dd315a537e3432c875174575ffa033e92ff355a2d93b4121db5b52c07",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-category-security",
@@ -28457,9 +28457,9 @@
       ],
       "revision": "a27fa828292ad05cd1bfe1b7d7b2d78a7e92d0d369ab8e3d72355da30ac9606a",
       "geometrySignature": "c040dcef65dc5d506ed33041dafee2b7427ceb1cad79d4b841e27315552a7740",
-      "comparisonRevision": "e97b3740888acd09083b8c22e7330a060c93f437713fc8ca484d6c23f5ca66a2",
-      "review": "approved",
-      "notes": "User silhouette beside desktop monitor and mobile device; clear at all sizes."
+      "comparisonRevision": "5b64a487750a17c27b17f1d0d56de5876640568441541b459f8268f5a1a6fc6c",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-category-financial",
@@ -28673,9 +28673,9 @@
       ],
       "revision": "59ce1494e20350eb1939a0bcd46b36280bcd0f6fb172ab4342ade2997ff1d4fb",
       "geometrySignature": "69db0b62b958170d4bcad2072b2973f218453629b222d8d8c4a11498ccdf81d6",
-      "comparisonRevision": "6b0a8922bd0156831dd42678ab99d897912db05553f575fa65154307c4ebd5ce",
-      "review": "approved",
-      "notes": "Network blueprint document arrowing to a telecom tower; clear at 128/64/32px."
+      "comparisonRevision": "b54671cba573ce0c8be46197d945e3315926196fb5630593de7ac6a3d08038a7",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-braket",
@@ -28745,9 +28745,9 @@
       ],
       "revision": "a79a75c4dcf258ce35c3ef4645a0f080c1b90d23bf8116b04085ba0624376d41",
       "geometrySignature": "7587733e7255b8d9e5ea0d55a86d924e2edcc104466d0d71a97869fa3c7d7109",
-      "comparisonRevision": "d33ebfdbdb18101fdf182caf8ddcfee4c9e8024df4d748df45a728b801cb109c",
-      "review": "approved",
-      "notes": "City skyline beside a map-pinned local zone rack; clear at all sizes."
+      "comparisonRevision": "abe1bd275c245b6b5dab585b61b954dd27c54a76658559f3ab637c05841f34a9",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-wavelength",
@@ -28835,9 +28835,9 @@
       ],
       "revision": "0844fd7ca2cdcd059934dc2fc8bb4f5bf422864de248f6ba7d267aa11dcf7e03",
       "geometrySignature": "7d90eb83e2e728f9255a3302d7750a946c6b8b2708cd52f4917a3a2b04cd26d3",
-      "comparisonRevision": "8d0cd9d0b42f80b92e6ac76aadf5cc532da00243d142500e32b3e8822f6019ce",
-      "review": "approved",
-      "notes": "Application builder screen with modular UI layout blocks; clear at all sizes."
+      "comparisonRevision": "8a6fd26e23ecf46991528920fecf1c5c220514ee9cccec6f110cfb750fc65618",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-amplify",
@@ -28943,9 +28943,9 @@
       ],
       "revision": "4a1229baf134eb161cc526654e2458aff367c33dd9c5a216f7b3d2505e4a72ad",
       "geometrySignature": "91213b7ac905754ce6b319bd782b9c21f9406905a9f3a45c7dd568e3cce73c57",
-      "comparisonRevision": "3439485de3f33f9f93c1c4fd37ffff84a1749e523be6486dee91c6b932e5097a",
-      "review": "approved",
-      "notes": "Local display screen connected remotely to a workstation tower; clear silhouette."
+      "comparisonRevision": "1a1db24e31c2a3dc7606c6e1898646dd7cae54b901dcf4210e42a97cfb2275b3",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "aws-elastic-vmware",
@@ -30464,9 +30464,9 @@
       ],
       "revision": "36781b6b7ae125b3e837e6c585766972c6574fe1b5c6dbf1ece5b4ec660c7517",
       "geometrySignature": "b65fdbf1b6766ed6ba3be09e6ff96bb6296702029c408b26878a3fa4421666c7",
-      "comparisonRevision": "c8f37d7dfeba3e18bc79b97503439a1e2477f132392cab2761674d0f04886385",
-      "review": "approved",
-      "notes": "Folded-corner document with binder holes and text lines; crisp silhouette."
+      "comparisonRevision": "81d6fbc4d11828f822e2f84982fe4569d658a962d25ac8f53dfe3a32b29c741f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-files",
@@ -31207,9 +31207,9 @@
       ],
       "revision": "5dab429bcf1ee3ebd69b6b0125c97f27f27846d31a5e27d89edeeff5b8cce9ab",
       "geometrySignature": "eeb78932f3ae38e43a23bbd3219376dda4541073be7cc427ca66c1f7df4df48e",
-      "comparisonRevision": "117ab5ce37fcbef3d16b27f732d68369bf64d87f871872b2ed0745565b576a05",
-      "review": "approved",
-      "notes": "Rounded hub frame collecting three connected cluster cubes; clean and distinct. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "1e632bb8e1a28ae810a662ee4a0f0f1e62dac474995836c90eadb36bc5a6738b",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-container-storage",
@@ -31268,25 +31268,39 @@
       ],
       "revision": "dcd90e8584c3f241f884b451595359c2bc5449f4155530c6e839ae5f60562b70",
       "geometrySignature": "5b47ad37c3928e5e2dfae6e7fa6fe79e64643a4d9a63d5ca4ccff1a4bdbf71f5",
-      "comparisonRevision": "a5fbffc6a59d6efd53612b0bab286c48caf24dd787fae3e937b98b6fe484e43a",
-      "review": "approved",
-      "notes": "Workstation monitor displaying a 3D cube with a classic clock badge; clear at 32px."
+      "comparisonRevision": "50c7ed2334a5a597223f3cab8cc046c9f3d212fce2d31f2b1a56a04fce8cbc50",
+      "review": "pending",
+      "notes": ""
     },
     {
-      "id": "azure-images-classic",
+      "id": "azure-os-images-classic",
       "provider": "azure",
-      "name": "Classic VM and OS Images",
-      "rationale": "A framed virtual machine is captured as a classic system image.",
-      "path": "stencils/azure-images-classic.svg",
+      "name": "OS Images Classic",
+      "rationale": "A classic operating-system image is a framed bootable machine template.",
+      "path": "stencils/azure-os-images-classic.svg",
       "sources": [
-        "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10027-icon-service-OS-Images-(Classic).svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10027-icon-service-OS-Images-(Classic).svg"
+      ],
+      "revision": "6d4a53f563bfe7370acfb96da40cde128379da63663f778576a4e4a1a5c9c06d",
+      "geometrySignature": "11bb3e49df4f93a2d44020b062faef9aaeb7563f7fd174940c252d9b8f218c00",
+      "comparisonRevision": "ac7638986bad6774d146d58f36854eaf73b53648c3c59c29d2de307616fba01c",
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "id": "azure-vm-images-classic",
+      "provider": "azure",
+      "name": "VM Images Classic",
+      "rationale": "A classic VM image template includes a main virtual machine and attached data disk.",
+      "path": "stencils/azure-vm-images-classic.svg",
+      "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10040-icon-service-VM-Images-(Classic).svg"
       ],
-      "revision": "7b916cf70cc2328a89f739ad8c6c072978b0ab2a1ec3293e602aa05c004c3b41",
-      "geometrySignature": "11bb3e49df4f93a2d44020b062faef9aaeb7563f7fd174940c252d9b8f218c00",
-      "comparisonRevision": "daf07617bc9308ea693d11d45d202a7f1ab23270106f39f4a4c14ff03d5aecf2",
-      "review": "approved",
-      "notes": "Monitor framing a corner-bracketed VM cube; matches both Classic VM and OS Images aliases."
+      "revision": "54c9d1f41b6d72220d36aa23bc5a0d6f7f63636195f359b4c8eff2a86dab2ad2",
+      "geometrySignature": "a09739277921877ab16d34d1d4c2c2f871c9fb3ca320095822ee3f41462235f1",
+      "comparisonRevision": "63d516abf91cc69b12b248d2ce25452ebb57552fd73c455ddffb9078f238fbb6",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-images",
@@ -31404,9 +31418,9 @@
       ],
       "revision": "b135de3d7d33a01d3499d692ee50493ff550505f065debc7b79aca564cd22c20",
       "geometrySignature": "b0092970bc2841cf23ebad5028c6a930578f1a8e7d0fd4c4df7e7e73365f1749",
-      "comparisonRevision": "b957edc1622ba9603fffa01fe19b30092a83bc7b05f54403cf09390bab0860dc",
-      "review": "approved",
-      "notes": "Connected diamond mesh of circular application nodes; crisp with very low neighbor overlap."
+      "comparisonRevision": "f077fa4462910d05c96b32f70983d6bfee1235497c37450872fd453492a056a9",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-cloud-services-classic",
@@ -31620,9 +31634,9 @@
       ],
       "revision": "0ff4e6be9475e087f96c9eb6c8a319ec366fb3b985a4a42488cdc712c3a3feb8",
       "geometrySignature": "39c0c1c014ae7f914665daf69ccb15bf28aaef5363c37438d7e904d6e86d3065",
-      "comparisonRevision": "a708d428187bab521438bcd72cbeb10b9e587151b10bee0abf0c0a1657863018",
-      "review": "approved",
-      "notes": "Isolated hosting frame enclosing three miniature app windows; matches both aliases."
+      "comparisonRevision": "89d38edbd7e3bfca2664378c9d34bd940a755587157cf5a42dd2df1541e136ee",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "azure-aks-automatic",
@@ -31934,17 +31948,31 @@
       "id": "azure-disks",
       "provider": "azure",
       "name": "Disks",
-      "rationale": "A pair of physical disk platters shows separate storage media.",
+      "rationale": "A managed disk platter has an attachment ring for an Azure virtual machine.",
       "path": "stencils/azure-disks.svg",
       "sources": [
-        "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10032-icon-service-Disks.svg",
+        "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10032-icon-service-Disks.svg"
+      ],
+      "revision": "e9817e966148a742db2fa9b3a1ade3c7de5f5bcf6e73e2d148cc0b237ab4ff3b",
+      "geometrySignature": "fdaf10b5fdab294333e7446e9b117872a07256ab91275f2f9ccb4c93908544bd",
+      "comparisonRevision": "c0451b90bf788af822674ab4d87dc98a2daf674cc5608e551a5e40e5770a2b46",
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
+    },
+    {
+      "id": "azure-disks-classic",
+      "provider": "azure",
+      "name": "Disks Classic",
+      "rationale": "A classic disk pair uses stacked storage platters from the classic deployment model.",
+      "path": "stencils/azure-disks-classic.svg",
+      "sources": [
         "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10041-icon-service-Disks-(Classic).svg"
       ],
-      "revision": "0ac4594c77433f8a0df98f7349e1b43996892254a5d6629117966b0b676a960c",
+      "revision": "8e07016b9ec0c31e2e2e719107d1a1c070d59f008ac18bf7133ba2f48147ec75",
       "geometrySignature": "3bbc178e47e1848bfcf76b1a3beb153372c58fd6366924c917f6e31a40dcfbf0",
-      "comparisonRevision": "fbcc81db44ccff3bbc5e4b6abd0789e69086a116ce644ab94bc92a21eba65064",
-      "review": "approved",
-      "notes": "Two stacked 3D disk platters with spindle holes; faithful to both Disks and Disks-(Classic) aliases."
+      "comparisonRevision": "8ea49f85a038a0d513ccc97e85a583c6faacc7ad2f21c274fbfad83ccd7db82e",
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
     },
     {
       "id": "azure-vm-scale-sets",
@@ -32451,9 +32479,9 @@
       ],
       "revision": "65cc9a594dea3be8c80e73b701b529a9a189e877607555aec4eab872f717435f",
       "geometrySignature": "be4a1d987415683f2ace302a508477bd13fc0554e968795b89e37e9f9b60e9ad",
-      "comparisonRevision": "31d6877c6c602b61a4633f25b73a66cc8fdfaf077d1f875e9e18e90d7421faec",
-      "review": "approved",
-      "notes": "Hand-drawn BYTE letters match datatype_byte and text_byte aliases; legible at all sizes."
+      "comparisonRevision": "f947e6d9033a8584416f58bb43f59a4ce089a16ebf63b49602dc3ff36f428037",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-document-people",
@@ -32903,9 +32931,9 @@
       ],
       "revision": "a78f0f524133d7c5288e7a249657847045b40758736f6dba89659eb863bde5ef",
       "geometrySignature": "d9c92c0b3a0add52ef665b2e4d3b13d649a16361e4efce060e75b8ecfe93978b",
-      "comparisonRevision": "fa34c98564e41d6f4a763ebb100249782cab6d5218d3085592a59204708c248d",
-      "review": "approved",
-      "notes": "Globe with meridians/equator paired with gear at bottom-right; legible and distinct."
+      "comparisonRevision": "3ab55c03c88d3c66f90f746d3d8d7a9081d5afd953fe52ecd23481d6ff373d28",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-hexagons-add",
@@ -33563,9 +33591,9 @@
       ],
       "revision": "71011b774835496fb857964084f0641e4f34e3f73b70557e9e0f8e364a8993d5",
       "geometrySignature": "4ee8163b1be6c8f5d0d4a797da96d5da83dbfb82b2e57cccffc00aad0bf40efb",
-      "comparisonRevision": "e5b823ecddd39321590c304eeb04031f3e7d1783be53e51d389eb86afcf68e14",
-      "review": "approved",
-      "notes": "Text slide showing checked accept and X dismiss choices; both aliases match and distinct from azure-netapp-files."
+      "comparisonRevision": "638fe569f36868e6bd97a0e4b3d99402d25463faba6ba5a38f7f4451cf2572ef",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-slide-ribbon",
@@ -33675,9 +33703,9 @@
       ],
       "revision": "34c0557b5329080867ea353852f4f53ca4252a6f907676c93cf2f2ca0ec316c3",
       "geometrySignature": "85fef6f0845f169ced5db4d9f43e6c07f28777ce5d2485fc4b703a7a8f04527f",
-      "comparisonRevision": "c5ea64f9ee944e7b0f7085207258e5886950cb4e408577c3e9b15c434fad7664",
-      "review": "approved",
-      "notes": "Stacked diagram squares with circular plus badge at bottom-left; distinct from base."
+      "comparisonRevision": "a765e1a264024717b12b88d2ddf315a3177bcf9357449431c0787f83cc49bf3a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-squares-eye",
@@ -34273,9 +34301,9 @@
       ],
       "revision": "786d74dab6f1af5045a52073db601502944960b05532849d81fa2ffd79e42258",
       "geometrySignature": "75e1e9692536367d05e30bbc06e73e831099a6a552e3e01d59f9fedda859b823",
-      "comparisonRevision": "5743e273820f696238aced54b676691c99736f127fb65a5191592124bf2f2d5a",
-      "review": "approved",
-      "notes": "Window with centered 4-point sparkle and corner accent; crisp at all sizes."
+      "comparisonRevision": "cb7cca0092c850cb43351be0fc3f73936f4c5f2ab56c658988ab7174476a3031",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-window-sparkle-new",
@@ -34417,9 +34445,9 @@
       ],
       "revision": "3f930e8e2ce80fc1137760a0a535f2fda6ffe51b5dd5cbad1c7a63eaf49b9199",
       "geometrySignature": "65aadf11efd9114dd9dcce818438708de9722d848087bc1baacb2d8a53097f80",
-      "comparisonRevision": "6822fd4efa8c81b0814b27fc533aaaae53d9d66504b33faeea70ae9e9347415c",
-      "review": "approved",
-      "notes": "Minimal lowercase i without circle; faithful to info_no_circle."
+      "comparisonRevision": "a1ddcd5af2e38cb1d12e05ba41622ae491541867d3bbd187730bf1ad6ebb6ea0",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-send-circle",
@@ -34433,9 +34461,9 @@
       ],
       "revision": "ffd0023ad1fb864e8603cf21b9fb26928831c2d0ed6004d09e104bd9c0cd1c30",
       "geometrySignature": "9eb24771f6e71324fdbf97a0edebeda3d58b55910e93c108cbd5f765ba218ea8",
-      "comparisonRevision": "ba121bcadbfa392606361ea60ee8f7a57ef7063e61e7d574d154bcf94dc05880",
-      "review": "approved",
-      "notes": "Paper-plane send arrow centered inside a circle; crisp and legible."
+      "comparisonRevision": "e1c367c0de233168f38f78e94b0092e1b1ac75f937772738604d5bff48d39756",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-ellipse",
@@ -34449,9 +34477,9 @@
       ],
       "revision": "2c52e23eef27ba9b88755123823afc10a63c1c3e1392f08e2fccae034d49a033",
       "geometrySignature": "d63720287532ecb61e4519f806ab30197133eb48ad39bac8b68eb37ab3c4a601",
-      "comparisonRevision": "a622150cc6179635f9e1d0795c374079d98430dd796abb1a5c2caed4745bfb0d",
-      "review": "approved",
-      "notes": "Clean hand-drawn horizontal oval matching source SVG; unmistakable at all sizes."
+      "comparisonRevision": "219075f0ec0b2de417dbb2a9ed147997bb3f296c38212b08d68cf46682c62d61",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-squares-add",
@@ -34523,18 +34551,18 @@
       "id": "fabric-sample-workload",
       "provider": "fabric",
       "name": "Sample workload",
-      "rationale": "A sample calculator worksheet feeds a lakehouse-style result table.",
+      "rationale": "A sample workload combines a square, circle and triangle, then sends them to a small result table.",
       "path": "stencils/fabric-sample-workload.svg",
       "sources": [
         "/icons/fabric/svg/sample_workload_32_color.svg",
         "/icons/fabric/svg/sample_workload_32_filled.svg",
         "/icons/fabric/svg/sample_workload_32_regular.svg"
       ],
-      "revision": "8a67757f1d6c6d99c031b9b00bff0ed9c6748bb37c126bd90228e16a7187e37e",
-      "geometrySignature": "1a5d42091055e04217660301ca8881579a6af28d2774df284a2c21e3c542f842",
-      "comparisonRevision": "f5fe24435cb94ca4a7682255d221fb604988289ef17b424fb1d74c00b4d26bd4",
-      "review": "approved",
-      "notes": "Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors. The rework removes 32px clutter and preserves a distinct concept; source variants remain faithfully mapped."
+      "revision": "92cb45fb277f60f90ed07ba983f4bee45c13e61c129f0121c0ba594911ace9e8",
+      "geometrySignature": "6099110c41c6338ccb2c1b7ad2647ca3c7d87dd01bbf7f8d1787f11951f19295",
+      "comparisonRevision": "dbd22afcf66a1d307de02fe3916cf7e033a4906de8175ee894bcc00fd5971c94",
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
     },
     {
       "id": "fabric-industry-solutions",
@@ -34836,9 +34864,9 @@
       ],
       "revision": "c98d2115171df8f6bce97f4570180a1e01d96af36dcc175de5079b1037d3fff3",
       "geometrySignature": "cc87a209f37cab7864c2399074651139856687b0edfbef3065cb5aaeeab26dfe",
-      "comparisonRevision": "1c5c3287f3503571bd096a3101827267a61d95c3b80213d882cec83ffcf3b266",
-      "review": "approved",
-      "notes": "Bold hand-drawn 01 matching datatype_binary and text_number_01 aliases; crisp."
+      "comparisonRevision": "7103f081841f52ae5be4d852ad4316f25fcca9a962f705eab99c019901fe8c4f",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-datatype-boolean",
@@ -34854,9 +34882,9 @@
       ],
       "revision": "f502c83da2e0483374f6a8caaaf93984d46d0865a6326c307000ec8e4afef4d6",
       "geometrySignature": "2696d13530edf6853077dbcfae927d9f53496ff4b2b985d80c072387bdbd1ea6",
-      "comparisonRevision": "82559e55fc4ecfdd0de439ad4d0df0720d2f440eafb3abef7a07de139ecbea63",
-      "review": "approved",
-      "notes": "Bold hand-drawn 0/1 separated by diagonal slash; crisp at 32px. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "f331dd8ae8e046fda77fab7e82e5362af67e7873d166964e74fb70ec3bab8b07",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-datatype-string",
@@ -34874,9 +34902,9 @@
       ],
       "revision": "fc20662a51dfe5a7246cbabd04be78d12bd2464d9b45d6d247d313a705759af0",
       "geometrySignature": "83cc9f699de6af1355f6df2f8bb201b78419dc3d3f497f9c2fdf4d72b60adcb3",
-      "comparisonRevision": "6e229ad43d87f85776e4403773f5b61d7cf164c4f82334e0c4344191c3a69f51",
-      "review": "approved",
-      "notes": "Bold hand-drawn ABC matching datatype_string and text_abc aliases; legible."
+      "comparisonRevision": "bff28d42fd222430c937d2c3be922b00f6d7657174ac0ef1c03033ccf337af5e",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-datatype-long",
@@ -34996,7 +35024,7 @@
       "id": "fabric-datatype-double",
       "provider": "fabric",
       "name": "Double data type",
-      "rationale": "A 1.2 value and a D marker are paired with a compact two-row precision block.",
+      "rationale": "A 1.2 value with a clear D marker and a compact high-precision gauge.",
       "path": "stencils/fabric-datatype-double.svg",
       "sources": [
         "/icons/fabric/svg/datatype_double_16_filled.svg",
@@ -35004,11 +35032,11 @@
         "/icons/fabric/svg/datatype_double_20_filled.svg",
         "/icons/fabric/svg/datatype_double_20_regular.svg"
       ],
-      "revision": "3919621f2469b1834c33ae1fa6ac4262509bf76e469b5626fe2e098c02cec46f",
-      "geometrySignature": "19517ba1ec50eae3011bf0129963b387df8d092fe2c95411a2d013cc72c9a633",
-      "comparisonRevision": "a476e5996cd1bbb16d247cf05792733d7c7e90efd922630fa6e0ceac0746bf99",
-      "review": "approved",
-      "notes": "Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors. The rework removes 32px clutter and preserves a distinct concept; source variants remain faithfully mapped."
+      "revision": "0b34f12271c433c6561f442e1c93642cf0cf732e131f8dbbacd43cce2b3af24f",
+      "geometrySignature": "e1235ebca77fd4dc534882f712adcd07f180f8f20b2e30c6809e5c5a5a6af26f",
+      "comparisonRevision": "4cd69b21eaa734c0993ba49072e9e4fb8dce7d314bb1be0ae9ca78331944bb69",
+      "review": "rework",
+      "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
     },
     {
       "id": "fabric-datatype-float",
@@ -35026,9 +35054,9 @@
       ],
       "revision": "a290a8fe6a787e3e333dee1f44daed2a5acc130410449100e3f53f725fa38721",
       "geometrySignature": "bb88769d4aaa764eef2e65547f1ad865028666ef79bedd9d420ad1718d7fbb9d",
-      "comparisonRevision": "e06f2d9b56fc0762d48c023f9346a121755d25926eae88b31c9b0e9b2cd354fa",
-      "review": "approved",
-      "notes": "A 1.2F value with a single-column gauge and one compact block; visually distinct from double and the nearby chart/factory neighbors. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
+      "comparisonRevision": "03be7983c691d87a31072f221b0d11a843ac09aac12d97baeab4d6db582a9252",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-datatype-integer",
@@ -35722,9 +35750,9 @@
       ],
       "revision": "5204c70abddab4b4fab192e0658031e1c7086554f88df4f12e9ef1c65894727b",
       "geometrySignature": "a96cb2ad815e17e38bac152b525ee71e835893c8c8f2a7ca3c5296f57760cebe",
-      "comparisonRevision": "38548359180bbb07a7b2d79e7066bde120c46c3c33340d1104e37a123de327e9",
-      "review": "approved",
-      "notes": "Downward-curving right arrow inside a circle matches official source; distinct from forward-arrow and number circles."
+      "comparisonRevision": "fa607bdea4a5cd59f5757cfb67679bf890715e8e812d19b63e5bd191b62f0444",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-bookmark-data-bar",
@@ -35962,9 +35990,9 @@
       ],
       "revision": "7471980f7810bae8f181637e78ab8fb61154615ec560b70aabc04bb77d3a1235",
       "geometrySignature": "f52f16dd79ed5c4a4ea09e6363aff2199a20e3d6336529bfa8740f1431b89531",
-      "comparisonRevision": "fcc811ff1f4511743ade73eff665d55677d20c75232e3b3d6dcb850179d04b7a",
-      "review": "approved",
-      "notes": "Single vertical column with hatched highlighted middle band between header and footer; clear at all sizes."
+      "comparisonRevision": "c4c549478c938074778f2c2f4b43bf5159427ffe82d03ba6f6618e81833d5fed",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-column-relationship",
@@ -36044,9 +36072,9 @@
       ],
       "revision": "276b3bbaaf611d8f9a5911fea0a3b683d9491c67f0816e09df5061d773318a6c",
       "geometrySignature": "36362f496eb525438dae959d21744b57cfac3a268697236e3660b121029bb8fb",
-      "comparisonRevision": "bf185a5aa06592862c7e1799074c18a267bc0a56879f998944dc76e12f3912a4",
-      "review": "approved",
-      "notes": "Four outer corner brackets framing a single interior vertical border line; unmistakable vs inside-all and inside-horizontal."
+      "comparisonRevision": "159916463be0cf77e7e95cfbdf2e6992b2fc35d7b70edd39c837a8bac21e3708",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-border-none-eye",
@@ -36096,9 +36124,9 @@
       ],
       "revision": "df4123886cd400fdeb89869226853bf7efde5e9ab4d7c668b227ba12cf630b9d",
       "geometrySignature": "5cf225ee17053f1956c867f768458b6f444efd17adcf980b3815548c9f2370b3",
-      "comparisonRevision": "5c29ef846bd98eb4c803a0be69054b945835f05dbc69ec3306edd971079039db",
-      "review": "approved",
-      "notes": "Bracketed calculator with circular # badge at bottom-right matches source; clear at 128/64/32px."
+      "comparisonRevision": "d3ddb86cf80950615cecf993f3f8ad9a42a286b2d5673815cdbbc51209334753",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-calculator-multiple-brackets",
@@ -36150,9 +36178,9 @@
       ],
       "revision": "681fb2ce8cfea70c2f952d83a802f6d82c254e930fa8199af61d0a60e13df834",
       "geometrySignature": "85c3f60ef8c314cbe8063a811f5299926d82afc1e66d69859412c3de7c6b3c9c",
-      "comparisonRevision": "a0764ac8b87d0c143a8c2570031da812f4098fd050a3264cd97f76f41230a858",
-      "review": "approved",
-      "notes": "Three-node branch fork paired with a bottom-right diagonal pencil matches official source; crisp at all sizes."
+      "comparisonRevision": "47f28bd35fd970d0fb67a9ffcc71e8082d7a47817cd72f1f51fe6b9fcaf07634",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-calculator-triangle",
@@ -36258,9 +36286,9 @@
       ],
       "revision": "417ed42faaaf3429f54a7b253ef536dffbb63a1768fc86ea7625e8ee02cd10e6",
       "geometrySignature": "be855f4687d318d1c5bb4d9ddc662343659a687010324ccffd32740ad8b6e022",
-      "comparisonRevision": "38e289906d1e1912a214e4034463ccad877b611c7b932740d451c4d26481fa42",
-      "review": "approved",
-      "notes": "Closed padlock with keyhole centered inside a circle matches source; clear and distinct at all sizes."
+      "comparisonRevision": "d69ec64cd734b1804cfd48f14d3e4fefaa610388dfcae0f84a820d1b117302c8",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-database-lock",
@@ -36294,9 +36322,9 @@
       ],
       "revision": "6d1712d80b9732ac58c12b82457403525e6df1edc02749237398a300387b30ca",
       "geometrySignature": "485432c364aeb67da6c0daa7894ffacd6555c8a11311bbe0c9d1486e696d6a21",
-      "comparisonRevision": "0c8749f1b7040699aa65d30cd22e524ef0936458484531a2629fc7fa494ba17d",
-      "review": "approved",
-      "notes": "Crosshair location target with bottom-right award ribbon matches source; distinct and legible at all sizes."
+      "comparisonRevision": "672103f9d89f8255c5ea37759c60f44d0a78654948349d5503e8387078ca1bce",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-trophy-prohibited",
@@ -36350,9 +36378,9 @@
       ],
       "revision": "2fd7d4a9b913dc84bc0786fd8699ff5d4d3aaa65b11308eef4cd3d225f2dee9c",
       "geometrySignature": "1cd1bd0a1cc3577aa50dba2e347e4b4477052933a2c43b92039c9ef5ff1a9358",
-      "comparisonRevision": "b47db98b7305a58cabd21dabf33dd9123037af2cfad1bf9dce6c6238be1c7362",
-      "review": "approved",
-      "notes": "Three horizontal rows with bottom-right padlock match source; clearly distinguished from locked-columns by horizontal dividers."
+      "comparisonRevision": "9458340e59ffc6cc6934a6360bf9e993771438153b6e01bbe53b4ff00f4de42a",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-stack-key",
@@ -36386,9 +36414,9 @@
       ],
       "revision": "acfa05b8e2046049e1e849b11697df9647ca8a0bda20fd8c86192df8bbde464f",
       "geometrySignature": "0d55d4a9107ecf492a419ffc81a638d80e42f7a62c84ecec478bcd4869854071",
-      "comparisonRevision": "2124dfcedd01ca762524eecfe2372a699be5504182df83a8afd3e250d4440789",
-      "review": "approved",
-      "notes": "3x3 table grid paired with diagonal magic wand and sparkles matches official source; crisp at all sizes."
+      "comparisonRevision": "c4136c33a39f9ab736672cda3890f54b231946038ec87ae6cd39ddfa375e1583",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-toggle-sparkles",
@@ -36478,9 +36506,9 @@
       ],
       "revision": "bdcb2ef31603d54bd02576703dff70a3042eefa275bf9f74522d10ccf1e54fe5",
       "geometrySignature": "2fa124ea6b8b0476ebf4206b4f9770c679ac3cfdf38427ace2c2a5daee41a924",
-      "comparisonRevision": "33934b5139229e010a46d39aa1b38e5f6bc85249ceebff1a6f182f1ce96757e5",
-      "review": "approved",
-      "notes": "Calendar grid paired with an overlapping clock clearly conveys scheduled time; crisp at all sizes."
+      "comparisonRevision": "4d806b3ebf1dbcc3b009cdd5e97cb4b033ac3b5572164aebfd63b12e0d8c5861",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-calendar-lightning",
@@ -36494,9 +36522,9 @@
       ],
       "revision": "c1e32f53c4a3c0f624ee22cfd18763378919ce2b289d9e5a087c578c2e333e3f",
       "geometrySignature": "db54bd7489e7bf7dae65a1a9bfe8a99beb6edb00c3d3d799905036816b665ae4",
-      "comparisonRevision": "50f0aa35fc473c1bd974c429ffe1550f55027f2b7e239c092fde836f93cde208",
-      "review": "approved",
-      "notes": "Calendar with top rings and bottom-right lightning bolt matches official source; crisp at all sizes."
+      "comparisonRevision": "1d19ae40ce52a0c5c1c9f761c55bbb3127489c885795345bcedcc3cb7996a17d",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-calendar-up",
@@ -36624,9 +36652,9 @@
       ],
       "revision": "85b4900c76a519024e2e45f5e8c4e8868b5c2a0aebf35c1a4d39a1230907727d",
       "geometrySignature": "04c7e9ff191ec9696a99dd4b2053832f067b46f9540361920dff8eb4b43b3778",
-      "comparisonRevision": "e290fe4f7908016b0d693f8a2e86435be7f7ab68b8428e924acf22aafa587789",
-      "review": "approved",
-      "notes": "Three branched leaf nodes connecting to a database cylinder match official source; crisp at all sizes."
+      "comparisonRevision": "6fd60daa136ea21273c6f0d6a8a43879cde2412c7921324326a14b370cbe0ef6",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-double-pie",
@@ -36690,9 +36718,9 @@
       ],
       "revision": "573ceb78e4e49da95d5b238bf1c061be3623c162c9100f6f0db32646bc7ebf33",
       "geometrySignature": "0540047b18e7d8196d8b31183e710bdad2d3515c1b1de8a15f8622441fa9c584",
-      "comparisonRevision": "5c1a7f760daa63168f665a1a822cbb0f939463444df3529203e71522a98e4813",
-      "review": "approved",
-      "notes": "Histogram bars paired with an explicit f(x) function curve and symbol match official source; legible at all sizes."
+      "comparisonRevision": "db2ccb13a7b8584aeeb608d7d9341b64211609b47e7b9ebb3f18bfb8f37a9179",
+      "review": "pending",
+      "notes": ""
     },
     {
       "id": "fabric-connected-nodes",

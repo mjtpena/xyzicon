@@ -119,6 +119,40 @@ export function renderSvg(item, monochrome = false) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img"><title>${escape(item.name)} - independent sketch</title>${paths.join("")}</svg>\n`;
 }
 
+export async function validateAliasEvidence(evidence, artwork, aliases, rootOverride = root) {
+  if (!evidence || evidence.scope !== "Microsoft 365 source aliases only; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Google Cloud multi-source aliases only; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Entra multi-source aliases only; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Azure source aliases only for same-filename entries in multiple directories; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Azure source aliases only for verified synonymous names; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Fabric source alias groups only; visually compared group members at 42px; artwork review not included")
+    throw new Error("Invalid source-alias evidence scope.");
+  if (!Array.isArray(evidence.groups) || !evidence.groups.length)
+    throw new Error("Source-alias evidence has no groups.");
+
+  const byId = new Map(artwork.map((item, index) => [item.id, { item, sources: aliases[index] }]));
+  for (const group of evidence.groups) {
+    if (!group.id || !Array.isArray(group.sources) || !group.sources.length)
+      throw new Error("Invalid source-alias evidence group.");
+    const current = byId.get(group.id);
+    if (!current) throw new Error(`Stale source-alias evidence: unknown composition ${group.id}.`);
+    const expected = [...group.sources.map((source) => source.path)].sort();
+    const actual = [...current.sources].sort();
+    if (JSON.stringify(expected) !== JSON.stringify(actual))
+      throw new Error(`Stale source-alias evidence: mapped sources changed for ${group.id}.`);
+    for (const source of group.sources) {
+      if (!source.path || !/^[a-f0-9]{64}$/.test(source.revision))
+        throw new Error(`Invalid source-alias evidence revision for ${group.id}.`);
+      const file = path.resolve(rootOverride, "wwwroot", source.path.replace(/^\/+/, ""));
+      if (!file.startsWith(path.join(rootOverride, "wwwroot", "icons") + path.sep))
+        throw new Error(`Unsafe source-alias evidence path: ${source.path}`);
+      const content = (await readFile(file, "utf8")).replace(/\r\n/g, "\n");
+      if (hash(content) !== source.revision)
+        throw new Error(`Stale source-alias evidence: SVG source changed for ${group.id}: ${source.path}`);
+    }
+  }
+}
+
 export function mergeReviews(current, incoming, revisions, comparisons) {
   const merged = { ...current };
   for (const [id, review] of Object.entries(incoming)) {
@@ -237,6 +271,17 @@ export async function build(args = []) {
     catalogs[provider] = JSON.parse(await readFile(path.join(root, "wwwroot", "data", `${provider}.json`), "utf8"));
   }
   const aliases = resolveSources(artwork, catalogs);
+  for (const evidenceName of [
+    "m365-alias-evidence.json",
+    "gcp-alias-evidence.json",
+    "entra-alias-evidence.json",
+    "azure-same-name-evidence.json",
+    "azure-named-alias-evidence.json",
+    "fabric-alias-evidence.json",
+  ]) {
+    const evidence = JSON.parse(await readFile(path.join(root, "stencils", evidenceName), "utf8"));
+    await validateAliasEvidence(evidence, artwork, aliases, root);
+  }
   const revisions = Object.fromEntries(artwork.map((a) =>
     [a.id, hash({ artwork: a, svg: renderSvg(a), elements: toElements(a) })]));
   let reviews = await optionalJson(reviewFile);
