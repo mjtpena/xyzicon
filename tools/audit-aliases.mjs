@@ -108,6 +108,13 @@ export function packAlphaMask(rgba) {
   return mask;
 }
 
+export function splitCandidateSupport(entries) {
+  return {
+    geometrySupported: entries.filter((entry) => Boolean(entry.geometry?.signature)),
+    rasterSupported: entries.filter((entry) => Boolean(entry.mask)),
+  };
+}
+
 export async function runAliasAudit(rootOverride = root) {
   const catalogs = Object.fromEntries(await Promise.all(providers.map(async (provider) =>
     [provider, JSON.parse(await readFile(path.join(rootOverride, "wwwroot", "data", `${provider}.json`), "utf8"))])));
@@ -158,25 +165,26 @@ export async function runAliasAudit(rootOverride = root) {
   const mismatchCandidates = [];
   const rasterCandidates = [];
   for (const group of compositionMasks) {
-    const supported = group.masks.filter((entry) => entry.geometry.signature && entry.mask);
-    const geometryKeys = new Set(supported.map((entry) => entry.geometry.signature));
+    const geometrySupported = group.masks.filter((entry) => entry.geometry.signature);
+    const rasterSupported = group.masks.filter((entry) => entry.mask);
+    const geometryKeys = new Set(geometrySupported.map((entry) => entry.geometry.signature));
     if (geometryKeys.size > 1) {
       mismatchCandidates.push({
         id: group.item.id,
         name: group.item.name,
         provider: group.item.provider,
-        sourceCount: supported.length,
+        sourceCount: geometrySupported.length,
         distinctNormalizedGeometry: geometryKeys.size,
         variantSources: [...geometryKeys].map((signature) =>
-          supported.filter((entry) => entry.geometry.signature === signature).map((entry) => entry.source).slice(0, 12)),
+          geometrySupported.filter((entry) => entry.geometry.signature === signature).map((entry) => entry.source).slice(0, 12)),
       });
     }
-    if (supported.length < 2) continue;
+    if (rasterSupported.length < 2) continue;
     const comparisons = [];
-    for (let i = 0; i < supported.length; i++) {
-      for (let j = i + 1; j < supported.length; j++) {
-        const similarity = silhouetteSimilarity(supported[i].mask, supported[j].mask);
-        comparisons.push({ a: supported[i].source, b: supported[j].source, similarity });
+    for (let i = 0; i < rasterSupported.length; i++) {
+      for (let j = i + 1; j < rasterSupported.length; j++) {
+        const similarity = silhouetteSimilarity(rasterSupported[i].mask, rasterSupported[j].mask);
+        comparisons.push({ a: rasterSupported[i].source, b: rasterSupported[j].source, similarity });
       }
     }
     const low = comparisons.filter((pair) => pair.similarity < 0.995);
@@ -185,7 +193,7 @@ export async function runAliasAudit(rootOverride = root) {
         id: group.item.id,
         name: group.item.name,
         provider: group.item.provider,
-        sourceCount: supported.length,
+        sourceCount: rasterSupported.length,
         minimumSimilarity: Math.min(...comparisons.map((pair) => pair.similarity)),
         lowest: low.sort((a, b) => a.similarity - b.similarity).slice(0, 20),
       });
@@ -212,6 +220,26 @@ export async function runAliasAudit(rootOverride = root) {
       proofStatus: "Triage-only: exact normalized primitive geometry, but semantic/name evidence still required",
     }));
 
+  const exactCrossRasterGroups = new Map();
+  for (const group of compositionMasks) {
+    const keys = new Set(group.masks
+      .filter((entry) => entry.mask)
+      .map((entry) => hash(Uint32Array.from(entry.mask).buffer)));
+    for (const key of keys) {
+      if (!exactCrossRasterGroups.has(key)) exactCrossRasterGroups.set(key, []);
+      exactCrossRasterGroups.get(key).push(group.item.id);
+    }
+  }
+  const crossCompositionRasterMatches = [...exactCrossRasterGroups.values()]
+    .map((ids) => [...new Set(ids)])
+    .filter((ids) => ids.length > 1)
+    .sort((a, b) => b.length - a.length || a.join("|").localeCompare(b.join("|")))
+    .map((ids) => ({
+      ids,
+      names: ids.map((id) => artwork.find((item) => item.id === id)?.name),
+      proofStatus: "Triage-only: exact 64px alpha raster mask, not semantic or geometry proof",
+    }));
+
   return {
     method: "Raster silhouette at 64px plus normalized primitive geometry; normalized geometry is triage only and is excluded for unsupported SVG constructs.",
     sourceEntries: compositionMasks.reduce((count, group) => count + group.masks.length, 0),
@@ -219,6 +247,7 @@ export async function runAliasAudit(rootOverride = root) {
     mismatchCandidates,
     rasterMismatchCandidates: rasterCandidates,
     exactCrossCompositionGeometryGroups: crossCompositionGeometryMatches,
+    exactCrossCompositionRasterGroups: crossCompositionRasterMatches,
     unsupportedSources: [...new Map(unsupportedSources.map((item) => [item.source, item])).values()],
     unsupportedRasterSources: [...new Map(unsupportedRasterSources.map((item) => [item.source, item])).values()],
   };
@@ -233,6 +262,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
       mismatchCandidates: report.mismatchCandidates.length,
       rasterMismatchCandidates: report.rasterMismatchCandidates.length,
       exactCrossCompositionGeometryGroups: report.exactCrossCompositionGeometryGroups.length,
+      exactCrossCompositionRasterGroups: report.exactCrossCompositionRasterGroups.length,
       unsupportedSources: report.unsupportedSources.length,
       unsupportedRasterSources: report.unsupportedRasterSources.length,
     }, null, 2));

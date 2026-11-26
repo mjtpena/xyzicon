@@ -7,19 +7,32 @@
     "approvedByGeneratedQa": 2235,
     "generatedQaUnresolvedPairs": 0
   },
+  "bindingPolicy": "Only stencils/reviews.json entries with current drawingRevision and comparisonRevision count as independent full reviews. This state file records evidence and unresolved audit status only.",
+  "visualReview": {
+    "status": "not-completed",
+    "independentCompositionsReviewed": 0,
+    "compositionsRemaining": 2235,
+    "sizesChecked": [],
+    "nearestNeighborsChecked": false
+  },
   "triage": {
-    "geometryMismatchGroups": 524,
-    "rasterMismatchGroups": 309,
+    "geometryMismatchGroups": 537,
+    "rasterMismatchGroups": 427,
     "unsupportedGeometrySources": 1956,
     "unsupportedRasterSources": 161,
+    "exactCrossCompositionGeometryGroups": 14,
+    "exactCrossCompositionRasterGroups": 95,
     "deduplicatedExactCrossCompositionCandidates": 5
   },
   "batches": [
     {
       "id": "exact-cross-and-visual-spot-check-1",
-      "status": "completed-with-evidence",
+      "status": "spot-check-only",
       "visualSamplesReviewed": 16,
-      "visualCompositionsRemaining": 2219,
+      "visualSamplesNotFullReviews": true,
+      "sizesChecked": [],
+      "nearestNeighborsChecked": false,
+      "visualCompositionsRemaining": 2235,
       "exactCrossCandidates": [
         {
           "id": "aws-elemental-family",
@@ -77,7 +90,7 @@
       "visualSpotCheck": [
         {
           "id": "azure-azurite",
-          "status": "clear",
+          "status": "spot-check-observed",
           "assessment": "Database/terminal composition communicates Azure-compatible storage tooling."
         },
         {
@@ -160,9 +173,9 @@
     }
   ],
   "remaining": {
-    "compositionsWithoutIndependentVisualReview": 2219,
-    "geometryMismatchGroups": 524,
-    "rasterMismatchGroups": 309,
+    "compositionsWithoutIndependentVisualReview": 2235,
+    "geometryMismatchGroups": 537,
+    "rasterMismatchGroups": 427,
     "unsupportedGeometrySources": 1956,
     "unsupportedRasterSources": 161,
     "unresolvedExactCrossCategories": 4

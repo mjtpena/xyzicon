@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
 import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity } from "./build-stencils.mjs";
-import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus } from "./audit-aliases.mjs";
+import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus, splitCandidateSupport } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
   validateArtwork(artwork);
@@ -152,11 +152,24 @@ test("durable catalog review state records evidence and remaining scope", () => 
   assert.equal(state.auditStatus, "in_progress");
   assert.equal(state.catalog.compositions, 2235);
   assert.equal(state.catalog.sourceEntries, 5419);
-  assert.equal(state.remaining.compositionsWithoutIndependentVisualReview, 2219);
+  assert.equal(state.visualReview.status, "not-completed");
+  assert.equal(state.visualReview.independentCompositionsReviewed, 0);
+  assert.equal(state.remaining.compositionsWithoutIndependentVisualReview, 2235);
   assert.equal(state.batches[0].visualSamplesReviewed, 16);
   assert.equal(state.batches[0].confirmedDrawingDefects.length, 0);
   assert.ok(state.batches[0].exactCrossCandidates.some((candidate) =>
     candidate.id === "aws-public-private-subnet" && candidate.status === "verified-separate"));
+});
+
+test("geometry and raster candidate support is evaluated independently", () => {
+  const entries = [
+    { source: "geometry-only", geometry: { signature: "g" }, mask: null },
+    { source: "raster-only", geometry: { signature: null }, mask: new Uint32Array(128) },
+    { source: "both", geometry: { signature: "g2" }, mask: new Uint32Array(128) },
+  ];
+  const split = splitCandidateSupport(entries);
+  assert.deepEqual(split.geometrySupported.map((entry) => entry.source), ["geometry-only", "both"]);
+  assert.deepEqual(split.rasterSupported.map((entry) => entry.source), ["raster-only", "both"]);
 });
 
 test("alpha masks have fixed raster dimensions and opaque backgrounds are triage-only", () => {
