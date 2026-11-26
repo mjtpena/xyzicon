@@ -5,6 +5,7 @@
     "stencils": "node tools/build-stencils.mjs",
     "stencils:check": "node tools/build-stencils.mjs --check",
     "stencils:review": "node tools/build-stencils.mjs --reviews",
+    "stencils:audit": "node tools/audit-aliases.mjs",
     "test": "node --test tools/*.test.mjs"
   },
   "dependencies": {
