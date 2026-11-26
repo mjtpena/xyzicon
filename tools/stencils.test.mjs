@@ -152,9 +152,9 @@ test("durable catalog review state records evidence and remaining scope", () => 
   assert.equal(state.auditStatus, "in_progress");
   assert.equal(state.catalog.compositions, 2235);
   assert.equal(state.catalog.sourceEntries, 5419);
-  assert.equal(state.visualReview.status, "not-completed");
-  assert.equal(state.visualReview.independentCompositionsReviewed, 0);
-  assert.equal(state.remaining.compositionsWithoutIndependentVisualReview, 2235);
+  assert.equal(state.visualReview.status, "in-progress");
+  assert.equal(state.visualReview.independentCompositionsReviewed, 18);
+  assert.equal(state.remaining.compositionsWithoutIndependentVisualReview, 2217);
   assert.equal(state.batches[0].visualSamplesReviewed, 16);
   assert.equal(state.batches[0].confirmedDrawingDefects.length, 0);
   assert.ok(state.batches[0].exactCrossCandidates.some((candidate) =>

@@ -9,11 +9,15 @@
   },
   "bindingPolicy": "Only stencils/reviews.json entries with current drawingRevision and comparisonRevision count as independent full reviews. This state file records evidence and unresolved audit status only.",
   "visualReview": {
-    "status": "not-completed",
-    "independentCompositionsReviewed": 0,
-    "compositionsRemaining": 2235,
-    "sizesChecked": [],
-    "nearestNeighborsChecked": false
+    "status": "in-progress",
+    "independentCompositionsReviewed": 18,
+    "compositionsRemaining": 2217,
+    "sizesChecked": [
+      128,
+      64,
+      32
+    ],
+    "nearestNeighborsChecked": true
   },
   "triage": {
     "geometryMismatchGroups": 537,
@@ -285,10 +289,46 @@
           "assessment": "Edge/cloud composition communicates CloudFront."
         }
       ]
+    },
+    {
+      "id": "mxnet-double-sample-rework-and-neighbors-1",
+      "status": "independent-revision-bound-review",
+      "sizesChecked": [
+        128,
+        64,
+        32
+      ],
+      "nearestNeighborsChecked": true,
+      "independentCompositionsReviewed": 18,
+      "confirmedDrawingDefects": [
+        "fabric-datatype-double dense right grid reworked",
+        "aws-mxnet internal lettering reduced",
+        "fabric-sample-workload changed from shape motif to calculator/result table"
+      ],
+      "reviewedIds": [
+        "aws-mxnet",
+        "fabric-datatype-double",
+        "fabric-sample-workload",
+        "azure-defender-easm",
+        "gcp-load-balancing",
+        "fabric-data-factory",
+        "aws-datazone-projects",
+        "aws-outposts-rack",
+        "fabric-stream-connector",
+        "fabric-databases",
+        "aws-professional-services",
+        "aws-security-incident-response",
+        "aws-category-blockchain",
+        "azure-power",
+        "azure-kubernetes-hub",
+        "fabric-diagram-branch-link",
+        "fabric-datatype-boolean",
+        "fabric-datatype-float"
+      ]
     }
   ],
   "remaining": {
-    "compositionsWithoutIndependentVisualReview": 2235,
+    "compositionsWithoutIndependentVisualReview": 2217,
     "geometryMismatchGroups": 537,
     "rasterMismatchGroups": 427,
     "unsupportedGeometrySources": 1956,

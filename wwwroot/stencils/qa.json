@@ -1009,8 +1009,8 @@
       },
       {
         "a": "azure-defender-easm",
-        "b": "aws-mxnet",
-        "similarity": 0.2911
+        "b": "aws-general-document",
+        "similarity": 0.2905
       }
     ],
     "azure-information-protection": [
@@ -7752,14 +7752,14 @@
         "similarity": 0.2518
       },
       {
+        "a": "gcp-load-balancing",
+        "b": "fabric-datatype-double",
+        "similarity": 0.2253
+      },
+      {
         "a": "gcp-ai-hub",
         "b": "gcp-load-balancing",
         "similarity": 0.2168
-      },
-      {
-        "a": "gcp-load-balancing",
-        "b": "fabric-border-inside-vertical",
-        "similarity": 0.2134
       }
     ],
     "gcp-cloud-cdn": [
@@ -8557,8 +8557,8 @@
       },
       {
         "a": "fabric-data-factory",
-        "b": "fabric-datatype-double",
-        "similarity": 0.2006
+        "b": "m365-mail-read",
+        "similarity": 0.1958
       }
     ],
     "fabric-data-warehouse": [
@@ -10762,13 +10762,13 @@
       },
       {
         "a": "aws-datazone-projects",
-        "b": "azure-kubernetes-hub",
-        "similarity": 0.245
+        "b": "fabric-sample-workload",
+        "similarity": 0.2476
       },
       {
-        "a": "gcp-functions",
-        "b": "aws-datazone-projects",
-        "similarity": 0.2442
+        "a": "aws-datazone-projects",
+        "b": "azure-kubernetes-hub",
+        "similarity": 0.245
       }
     ],
     "aws-glue-crawler": [
@@ -11165,6 +11165,11 @@
     "aws-outposts-rack": [
       {
         "a": "aws-outposts-rack",
+        "b": "fabric-sample-workload",
+        "similarity": 0.3146
+      },
+      {
+        "a": "aws-outposts-rack",
         "b": "azure-host-groups",
         "similarity": 0.2911
       },
@@ -11172,11 +11177,6 @@
         "a": "aws-outposts-rack",
         "b": "azure-kubernetes-hub",
         "similarity": 0.2878
-      },
-      {
-        "a": "gcp-external-key-manager",
-        "b": "aws-outposts-rack",
-        "similarity": 0.2832
       }
     ],
     "aws-outposts-servers": [
@@ -11221,13 +11221,13 @@
       },
       {
         "a": "fabric-stream-connector",
-        "b": "aws-amplify-studio",
-        "similarity": 0.1945
+        "b": "fabric-datatype-double",
+        "similarity": 0.2061
       },
       {
         "a": "fabric-stream-connector",
-        "b": "aws-verified-permissions",
-        "similarity": 0.1938
+        "b": "aws-amplify-studio",
+        "similarity": 0.1945
       }
     ],
     "fabric-external-dataflow": [
@@ -12441,17 +12441,17 @@
       {
         "a": "aws-mxnet",
         "b": "azure-power",
-        "similarity": 0.3166
+        "similarity": 0.3096
       },
       {
         "a": "azure-defender-easm",
         "b": "aws-mxnet",
-        "similarity": 0.2911
+        "similarity": 0.2873
       },
       {
         "a": "aws-mxnet",
-        "b": "azure-frontdoor-cdn-profiles",
-        "similarity": 0.2803
+        "b": "azure-local-network-gateway",
+        "similarity": 0.2797
       }
     ],
     "aws-pytorch": [
@@ -20485,14 +20485,14 @@
         "similarity": 0.2147
       },
       {
+        "a": "fabric-databases",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2135
+      },
+      {
         "a": "azure-entra-connect-health",
         "b": "fabric-databases",
         "similarity": 0.2124
-      },
-      {
-        "a": "aws-glue-quality",
-        "b": "fabric-databases",
-        "similarity": 0.2122
       }
     ],
     "fabric-platform": [
@@ -21687,11 +21687,6 @@
     ],
     "aws-professional-services": [
       {
-        "a": "aws-professional-services",
-        "b": "fabric-datatype-double",
-        "similarity": 0.2309
-      },
-      {
         "a": "azure-hdinsight-clusters",
         "b": "aws-professional-services",
         "similarity": 0.2222
@@ -21700,6 +21695,11 @@
         "a": "azure-personalizer",
         "b": "aws-professional-services",
         "similarity": 0.214
+      },
+      {
+        "a": "aws-professional-services",
+        "b": "aws-category-business-applications",
+        "similarity": 0.2115
       }
     ],
     "aws-training-certification": [
@@ -25138,6 +25138,11 @@
     ],
     "aws-security-incident-response": [
       {
+        "a": "aws-security-incident-response",
+        "b": "fabric-sample-workload",
+        "similarity": 0.2895
+      },
+      {
         "a": "aws-outposts-rack",
         "b": "aws-security-incident-response",
         "similarity": 0.2787
@@ -25146,11 +25151,6 @@
         "a": "azure-connected-cache",
         "b": "aws-security-incident-response",
         "similarity": 0.2712
-      },
-      {
-        "a": "azure-dns-multistack",
-        "b": "aws-security-incident-response",
-        "similarity": 0.2681
       }
     ],
     "aws-audit-manager": [
@@ -29692,14 +29692,14 @@
         "similarity": 0.2366
       },
       {
-        "a": "aws-category-blockchain",
-        "b": "fabric-datatype-double",
-        "similarity": 0.2317
-      },
-      {
         "a": "aws-sqs",
         "b": "aws-category-blockchain",
         "similarity": 0.2283
+      },
+      {
+        "a": "aws-category-blockchain",
+        "b": "azure-folder-website",
+        "similarity": 0.2246
       }
     ],
     "aws-category-quantum": [
@@ -31321,7 +31321,7 @@
       {
         "a": "aws-mxnet",
         "b": "azure-power",
-        "similarity": 0.3166
+        "similarity": 0.3096
       },
       {
         "a": "azure-power",
@@ -32565,14 +32565,14 @@
         "similarity": 0.3083
       },
       {
+        "a": "azure-kubernetes-hub",
+        "b": "fabric-sample-workload",
+        "similarity": 0.292
+      },
+      {
         "a": "aws-cloud-map",
         "b": "azure-kubernetes-hub",
         "similarity": 0.2892
-      },
-      {
-        "a": "azure-firewall-policy",
-        "b": "azure-kubernetes-hub",
-        "similarity": 0.2882
       }
     ],
     "azure-container-storage": [
@@ -34049,9 +34049,9 @@
         "similarity": 0.2743
       },
       {
-        "a": "fabric-diagram-branch-link",
-        "b": "fabric-sample-workload",
-        "similarity": 0.2495
+        "a": "azure-download",
+        "b": "fabric-diagram-branch-link",
+        "similarity": 0.2462
       }
     ],
     "fabric-diagram-arrows": [
@@ -36028,19 +36028,19 @@
     ],
     "fabric-sample-workload": [
       {
-        "a": "azure-conditional-access",
+        "a": "azure-governance-compliance",
         "b": "fabric-sample-workload",
-        "similarity": 0.2765
+        "similarity": 0.3236
       },
       {
-        "a": "azure-cloud-services-classic",
+        "a": "azure-files",
         "b": "fabric-sample-workload",
-        "similarity": 0.2715
+        "similarity": 0.3197
       },
       {
-        "a": "azure-data-lake-gen1",
+        "a": "azure-web-slots",
         "b": "fabric-sample-workload",
-        "similarity": 0.2712
+        "similarity": 0.3186
       }
     ],
     "fabric-industry-solutions": [
@@ -36351,6 +36351,11 @@
     ],
     "fabric-datatype-boolean": [
       {
+        "a": "fabric-sample-workload",
+        "b": "fabric-datatype-boolean",
+        "similarity": 0.1401
+      },
+      {
         "a": "m365-column-arrow",
         "b": "fabric-datatype-boolean",
         "similarity": 0.1389
@@ -36359,11 +36364,6 @@
         "a": "azure-devtest-labs",
         "b": "fabric-datatype-boolean",
         "similarity": 0.1353
-      },
-      {
-        "a": "azure-operator-5g-core",
-        "b": "fabric-datatype-boolean",
-        "similarity": 0.1351
       }
     ],
     "fabric-datatype-string": [
@@ -36489,24 +36489,24 @@
       {
         "a": "fabric-datatype-double",
         "b": "fabric-datatype-float",
-        "similarity": 0.328
+        "similarity": 0.2528
       },
       {
-        "a": "aws-marketplace",
+        "a": "gcp-load-balancing",
         "b": "fabric-datatype-double",
-        "similarity": 0.2405
+        "similarity": 0.2253
       },
       {
-        "a": "azure-resource-group-list",
+        "a": "azure-web-slots",
         "b": "fabric-datatype-double",
-        "similarity": 0.2337
+        "similarity": 0.225
       }
     ],
     "fabric-datatype-float": [
       {
         "a": "fabric-datatype-double",
         "b": "fabric-datatype-float",
-        "similarity": 0.328
+        "similarity": 0.2528
       },
       {
         "a": "aws-category-blockchain",

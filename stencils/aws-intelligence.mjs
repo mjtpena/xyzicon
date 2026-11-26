@@ -4,11 +4,12 @@ const sizes = (name) => [16, 32, 48, 64].map((size) => `Arch_${name}_${size}`);
 
 export const awsIntelligenceArtwork = [
   entry("aws-mxnet", "aws", "Apache MXNet on AWS", sizes("Apache-MXNet-on-AWS"),
-    "An MX-labeled model connects inputs and outputs.",
+    "Two input nodes feed a connected model graph and one output node.",
     [
       oval(12, 27, 12, 12), oval(12, 64, 12, 12), rect(39, 27, 43, 49), oval(97, 45, 12, 12),
       line([24, 33], [39, 44]), line([24, 70], [39, 59]), line([82, 51], [97, 51]),
-      line([46, 63], [46, 40], [53, 51], [60, 40], [60, 63]), line([65, 40], [76, 63]), line([76, 40], [65, 63]), line([14, 110], [110, 110]),
+      oval(47, 35, 12, 12), oval(47, 58, 12, 12), oval(68, 46, 12, 12),
+      line([59, 41], [68, 50]), line([59, 64], [68, 56]), line([14, 110], [110, 110]),
     ]),
   entry("aws-pytorch", "aws", "PyTorch on AWS", sizes("PyTorch-on-AWS"),
     "A torch illuminates a machine-learning model.",
