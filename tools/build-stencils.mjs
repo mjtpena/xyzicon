@@ -225,6 +225,54 @@ export function currentPairReview(pair, reviews, revisions) {
   return { review: review.status, notes: review.notes };
 }
 
+export async function validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, rootOverride = root) {
+  const file = path.join(rootOverride, "stencils", "independent-review-state.json");
+  let state;
+  try { state = JSON.parse(await readFile(file, "utf8")); }
+  catch (error) { if (error.code === "ENOENT") throw new Error("Independent review state is missing."); throw error; }
+  if (state.status !== "complete")
+    throw new Error(`Independent audit incomplete: ${state.status}; ${state.compositionsReviewed || 0}/${qa.count} compositions independently reviewed.`);
+  if (state.compositionsReviewed !== qa.count)
+    throw new Error(`Independent audit count mismatch: ${state.compositionsReviewed}/${qa.count}.`);
+  if (!Array.isArray(state.reviews) || state.reviews.length !== qa.count)
+    throw new Error("Independent audit records are incomplete.");
+  const catalogIds = new Set(items.map((item) => item.id));
+  const reviewIds = new Set(state.reviews.map((review) => review.id));
+  if (reviewIds.size !== qa.count || [...catalogIds].some((id) => !reviewIds.has(id)))
+    throw new Error("Independent audit contains duplicate, bogus or missing composition records.");
+  if ([...reviewIds].some((id) => !catalogIds.has(id)))
+    throw new Error("Independent audit contains unknown composition records.");
+  for (const review of state.reviews) {
+    if (!review.id || review.status !== "approved")
+      throw new Error("Independent audit has unapproved or malformed composition records.");
+    const item = items.find((candidate) => candidate.id === review.id);
+    if (!item) throw new Error(`Independent audit unknown composition: ${review.id}`);
+    if (review.drawingRevision !== item.revision)
+      throw new Error(`Independent audit stale drawing revision: ${review.id}`);
+    if (review.comparisonRevision !== item.comparisonRevision)
+      throw new Error(`Independent audit stale comparison revision: ${review.id}`);
+    if (!Array.isArray(review.sourceRevisions))
+      throw new Error(`Independent audit missing source revisions: ${review.id}`);
+    if (JSON.stringify(review.sourceRevisions) !== JSON.stringify(sourceRevisions[review.id]))
+      throw new Error(`Independent audit stale source revisions: ${review.id}`);
+    if (!Array.isArray(review.reviewedSizes) ||
+        JSON.stringify([...review.reviewedSizes].sort((a, b) => a - b)) !== JSON.stringify([32, 64, 128]))
+      throw new Error(`Independent audit missing 128/64/32 evidence: ${review.id}`);
+    if (!Array.isArray(review.neighborDecisions))
+      throw new Error(`Independent audit missing semantic-neighbor decisions: ${review.id}`);
+    const expectedNeighbors = nearest[review.id].map((pair) => pair.a === review.id ? pair.b : pair.a).sort();
+    const actualNeighbors = review.neighborDecisions.map((decision) => decision.id).sort();
+    if (JSON.stringify(actualNeighbors) !== JSON.stringify(expectedNeighbors))
+      throw new Error(`Independent audit stale semantic-neighbor set: ${review.id}`);
+    for (const decision of review.neighborDecisions) {
+      if (decision.status !== "approved" || typeof decision.reason !== "string" || !decision.reason.trim())
+        throw new Error(`Independent audit unapproved or reasonless neighbor decision: ${review.id}`);
+      if (decision.revision !== revisions[decision.id])
+        throw new Error(`Independent audit stale neighbor revision: ${review.id} -> ${decision.id}`);
+    }
+  }
+}
+
 export function validateRelease(qa, args) {
   const unresolvedPairs = qa.flaggedPairs.filter((pair) => pair.review !== "distinct");
   if (args.includes("--approved") && (qa.needsReview.length || unresolvedPairs.length))
@@ -393,6 +441,8 @@ export async function build(args = []) {
   for (const provider of Object.keys(accents))
     outputs.set(`${provider}.excalidrawlib`, json(library(artwork.filter((a) => a.provider === provider))));
 
+  if (args.includes("--independent"))
+    await validateIndependentReview(qa, items, sourceRevisions, qa.nearest, revisions, root);
   validateRelease(qa, args);
   for (const [name, content] of outputs) {
     const file = path.join(output, name);

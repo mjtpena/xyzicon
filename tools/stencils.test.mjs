@@ -1,9 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
+import path from "node:path";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
-import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity, validateAliasEvidence } from "./build-stencils.mjs";
+import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity, validateAliasEvidence, validateIndependentReview } from "./build-stencils.mjs";
 import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus, splitCandidateSupport } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
@@ -150,25 +152,49 @@ test("alias audit surfaces unsupported and unreadable source evidence", async ()
 test("durable catalog review state records evidence and remaining scope", () => {
   const state = JSON.parse(readFileSync(new URL("../stencils/audit-review-state.json", import.meta.url), "utf8"));
   assert.equal(state.auditStatus, "in_progress");
-  assert.equal(state.catalog.compositions, 2235);
+  assert.equal(state.catalog.compositions, 2237);
   assert.equal(state.catalog.sourceEntries, 5419);
-  assert.equal(state.visualReview.status, "in-progress");
-  assert.equal(state.visualReview.independentCompositionsReviewed, 18);
-  assert.equal(state.remaining.compositionsWithoutIndependentVisualReview, 2217);
-  assert.equal(state.batches[0].visualSamplesReviewed, 16);
-  assert.equal(state.batches[0].confirmedDrawingDefects.length, 0);
-  assert.ok(state.batches[0].exactCrossCandidates.some((candidate) =>
-    candidate.id === "aws-public-private-subnet" && candidate.status === "verified-separate"));
-  const m365Evidence = state.batches.find((batch) =>
-    batch.id === "m365-source-alias-theme-color-batches-1-2");
-  assert.equal(m365Evidence.sourceGroupsReviewed, 33);
-  assert.equal(m365Evidence.sourceEntriesReviewed, 212);
-  assert.equal(m365Evidence.smallSizeDrawingReview, false);
-  assert.equal(m365Evidence.nearestNeighborReview, false);
-  const smallSizeSpotCheck = state.batches.find((batch) => batch.id === "aws-source-stencil-small-size-spot-check-1");
-  assert.equal(smallSizeSpotCheck.status, "spot-check-only");
-  assert.equal(smallSizeSpotCheck.independentReviewRecorded, false);
-  assert.equal(smallSizeSpotCheck.compositionsReviewed, 20);
+  assert.equal(state.independentReview.status, "not-completed");
+  assert.equal(state.independentReview.compositionsReviewed, 0);
+  assert.equal(state.independentReview.compositionsRemaining, 2237);
+});
+
+test("independent review gate fails closed on missing, bogus, duplicate and stale records", async () => {
+  const root = mkdtempSync(path.join(tmpdir(), "xyzicon-independent-"));
+  mkdirSync(path.join(root, "stencils"));
+  const stateFile = path.join(root, "stencils", "independent-review-state.json");
+  const items = [{ id: "a", revision: "r1", comparisonRevision: "c1", sources: ["/icons/a.svg"] }];
+  const sourceRevisions = { a: [["/icons/a.svg", "source-v1"]] };
+  const nearest = { a: [{ a: "a", b: "b" }] };
+  const revisions = { b: "rb1" };
+  const qa = { count: 1 };
+  const valid = {
+    status: "complete", compositionsReviewed: 1,
+    reviews: [{
+      id: "a", status: "approved", drawingRevision: "r1", comparisonRevision: "c1",
+      sourceRevisions: [["/icons/a.svg", "source-v1"]],
+      reviewedSizes: [128, 64, 32],
+      neighborDecisions: [{ id: "b", revision: "rb1", status: "approved", reason: "Distinct semantic neighbor." }],
+    }],
+  };
+  writeFileSync(stateFile, JSON.stringify(valid));
+  await validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root);
+
+  const missing = { ...valid, status: "in-progress" };
+  writeFileSync(stateFile, JSON.stringify(missing));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /Independent audit incomplete/);
+
+  const bogus = { ...valid, reviews: [{ ...valid.reviews[0], id: "bogus" }] };
+  writeFileSync(stateFile, JSON.stringify(bogus));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /bogus|missing|unknown/);
+
+  const stale = { ...valid, reviews: [{ ...valid.reviews[0], drawingRevision: "old" }] };
+  writeFileSync(stateFile, JSON.stringify(stale));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /stale drawing revision/i);
+
+  const duplicate = { ...valid, compositionsReviewed: 2, reviews: [valid.reviews[0], valid.reviews[0]] };
+  writeFileSync(stateFile, JSON.stringify(duplicate));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /count mismatch|duplicate/i);
 });
 
 test("geometry and raster candidate support is evaluated independently", () => {

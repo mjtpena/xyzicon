@@ -35,6 +35,7 @@ jobs:
         run: |
           npm ci
           npm run stencils:check -- --approved --complete
+          npm run stencils:independent-check
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
