@@ -151,11 +151,10 @@ test("alias audit surfaces unsupported and unreadable source evidence", async ()
 });
 
 test("durable catalog review state records evidence and remaining scope", () => {
-  const state = JSON.parse(readFileSync(new URL("../stencils/audit-review-state.json", import.meta.url), "utf8"));
-  assert.equal(state.auditStatus, "in_progress");
-  assert.equal(state.independentReview.status, "not-completed");
-  assert.equal(state.independentReview.compositionsReviewed, 0);
-  assert.equal(state.catalog.compositions, 2237);
+  const state = JSON.parse(readFileSync(new URL("../stencils/independent-review-state.json", import.meta.url), "utf8"));
+  assert.equal(state.status, "in-progress");
+  assert.equal(state.compositionCount, 2237);
+  assert.equal(state.compositionsReviewed, state.reviews.length);
 });
 
 test("independent release check is non-writing and stale-output-safe", () => {
