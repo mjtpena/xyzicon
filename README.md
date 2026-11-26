@@ -54,7 +54,8 @@ output, and explicitly lists unsupported SVG constructs (transforms, `use`, defs
 clips, masks, or styles) that cannot support exact-geometry proof. Cross-composition
 matches and normalized primitive differences are triage candidates only; they require
 manual visual and semantic evidence before mapping changes. The report is not a claim
-of exhaustive catalog review.
+of exhaustive catalog review. `alias-audit.json` is generated and gitignored because it
+becomes stale as source mappings and artwork change.
 Raster comparisons use fixed 64x64 alpha masks for transparent/light SVG artwork.
 Sources with an explicit full-canvas opaque rect are reported as triage-only and
 excluded from silhouette comparisons, avoiding solid-background rectangle artifacts.
