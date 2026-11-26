@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 72,
+  "compositionsReviewed": 73,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -2730,142 +2730,6 @@
       "notes": "The displayed source variants differ by color. The symbol is recognizable at 128, 64 and 32 pixels, with no visible clipping."
     },
     {
-      "id": "fabric-document-shapes",
-      "status": "approved",
-      "drawingRevision": "fbc42acf50ccf78b148444a2dc6345e94661dabe05d217c8ef6a17d2040e3a6c",
-      "comparisonRevision": "7af578d050a797ec2a4872bb25e8e6772659cf05af5e8f1511121f2b0ee80602",
-      "sourceRevisions": [
-        [
-          "/icons/fabric/svg/document_shapes_20_filled.svg",
-          "0bf21bd22e366d03ea19fc8fd5570b6f29dcb22741fb805d7131124ab0feb4bc"
-        ],
-        [
-          "/icons/fabric/svg/document_shapes_20_regular.svg",
-          "ba707ffc0a8c47374d4fa0230b22485b767adf48e224efa85a7aed2dfcda2ff5"
-        ]
-      ],
-      "svgRevision": "0ddc1894968ca89274d5be77e09e66ce96bc924d9b377b2ad76d1a35c5ceab38",
-      "reviewedSizes": [
-        128,
-        64,
-        32
-      ],
-      "semanticNeighborCoverage": "automated-and-manual",
-      "neighborDecisions": [
-        {
-          "id": "m365-document",
-          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
-          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
-          "status": "approved",
-          "reason": "The target shows a document containing a circle, square and triangle; this neighbor shows a blank solid-outline document."
-        },
-        {
-          "id": "aws-sagemaker-notebook",
-          "revision": "55eda02adc170d7dd0e5110788e62998e3f0663d270bf4f78ac48053ccb37013",
-          "svgRevision": "24c1b1ee54c3bf157c2d94fe485b3913bf14136ddff0e3fb393a33ae2202624a",
-          "status": "approved",
-          "reason": "The target shows a document containing a circle, square and triangle; this neighbor shows a spiral notebook with code and a chart."
-        },
-        {
-          "id": "m365-office-notebook",
-          "revision": "4eacf4f453a003b91f94ba35bc72c14521b456c05554e5fcb41d21d8b3a206a5",
-          "svgRevision": "04c4253822b6da6f55a5c7f66da1b1c37cc92e07924011574244b8d6b9394eb4",
-          "status": "approved",
-          "reason": "The target shows a document containing a circle, square and triangle; this neighbor shows a lined notebook with a bookmark."
-        },
-        {
-          "id": "fabric-document-tree",
-          "revision": "4aa894923f37238e4ac186bc67e264f54df251624c9558691f3ddf9f9e660a72",
-          "svgRevision": "d60b5e96e77811b5e20a3b2c979e8a4c52d821faa678a42aae2edbc323743d76",
-          "status": "approved",
-          "reason": "The target shows a document containing a circle, square and triangle; this neighbor shows a document containing a branching tree of boxes."
-        },
-        {
-          "id": "fabric-document-hint",
-          "revision": "2ef838b19ebcc8ac8b60372a1bc8203888185fd9552496b4e5a4955bb10e578a",
-          "svgRevision": "938858d86ce9ef05ebe27fd8deba7884a2d314bdf207c8ddb0b7154045f45cfe",
-          "status": "approved",
-          "reason": "The target shows a document containing a circle, square and triangle; this neighbor shows a blank document with a dashed outline."
-        },
-        {
-          "id": "fabric-document-people",
-          "revision": "e294b5e796d8e1affacb4bbe20667abc5ded617e8a6613d32270bc0643dc2bf1",
-          "svgRevision": "d7230b8168af8b40cf5acc9acd1e6d7032090d7e042da6ea77eac17515545456",
-          "status": "approved",
-          "reason": "The target shows a document containing a circle, square and triangle; this neighbor shows a document with two people."
-        }
-      ],
-      "notes": "The filled and outline source variants depict the same document concept. The drawing is recognizable and distinct at 128, 64 and 32 pixels without visible clipping."
-    },
-    {
-      "id": "fabric-document-tree",
-      "status": "approved",
-      "drawingRevision": "4aa894923f37238e4ac186bc67e264f54df251624c9558691f3ddf9f9e660a72",
-      "comparisonRevision": "e7c7e6863103ee869c06238cace1d8df9b8b6462d52058e4d0dc3cbc60bbe6f2",
-      "sourceRevisions": [
-        [
-          "/icons/fabric/svg/document_tree_20_filled.svg",
-          "35e6cd178fb637f9659f37e2354fda5c808870abe61f09d4736eb6abec51668e"
-        ],
-        [
-          "/icons/fabric/svg/document_tree_20_regular.svg",
-          "854091176a6a49ca39264945ffc5c37c463ac38b0a2e4b9fe4d42e0ba91459ef"
-        ]
-      ],
-      "svgRevision": "d60b5e96e77811b5e20a3b2c979e8a4c52d821faa678a42aae2edbc323743d76",
-      "reviewedSizes": [
-        128,
-        64,
-        32
-      ],
-      "semanticNeighborCoverage": "automated-and-manual",
-      "neighborDecisions": [
-        {
-          "id": "m365-document",
-          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
-          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
-          "status": "approved",
-          "reason": "The target shows a document containing a branching tree of boxes; this neighbor shows a blank solid-outline document."
-        },
-        {
-          "id": "m365-contacts",
-          "revision": "9511635d160e38e1a71c49a6838323057fd16360d523841545c4a68bbcf0dc3c",
-          "svgRevision": "85a5165c27ae1bf9bf131b877cf943325a51bc1a9b3171ec6638348fe9b27fad",
-          "status": "approved",
-          "reason": "The target shows a document containing a branching tree of boxes; this neighbor shows a contact card with one person and text lines."
-        },
-        {
-          "id": "fabric-document-sql",
-          "revision": "e70bf29191e56f46baca5322b8bea9472885d7413df3a6d41775fc13d05aff8d",
-          "svgRevision": "c46e755f6719d57f928db24352a8412490b8f16f9c01e4b2b99b5ebb19d2c24e",
-          "status": "approved",
-          "reason": "The target shows a document containing a branching tree of boxes; this neighbor shows a document labeled SQL."
-        },
-        {
-          "id": "fabric-document-ssis",
-          "revision": "0590db643d9944446fc062788458e1c946553cc5484d7c5b54ec4e4429c3b3aa",
-          "svgRevision": "7f216156d49e6a88cc756664c28dc2de63f6c70c7c78e017d36a0d75e58c9707",
-          "status": "approved",
-          "reason": "The target shows a document containing a branching tree of boxes; this neighbor shows a document containing two small connected boxes."
-        },
-        {
-          "id": "fabric-document-shapes",
-          "revision": "fbc42acf50ccf78b148444a2dc6345e94661dabe05d217c8ef6a17d2040e3a6c",
-          "svgRevision": "0ddc1894968ca89274d5be77e09e66ce96bc924d9b377b2ad76d1a35c5ceab38",
-          "status": "approved",
-          "reason": "The target shows a document containing a branching tree of boxes; this neighbor shows a document containing a circle, square and triangle."
-        },
-        {
-          "id": "fabric-document-hint",
-          "revision": "2ef838b19ebcc8ac8b60372a1bc8203888185fd9552496b4e5a4955bb10e578a",
-          "svgRevision": "938858d86ce9ef05ebe27fd8deba7884a2d314bdf207c8ddb0b7154045f45cfe",
-          "status": "approved",
-          "reason": "The target shows a document containing a branching tree of boxes; this neighbor shows a blank document with a dashed outline."
-        }
-      ],
-      "notes": "The filled and outline source variants depict the same document concept. The drawing is recognizable and distinct at 128, 64 and 32 pixels without visible clipping."
-    },
-    {
       "id": "fabric-document-hint",
       "status": "approved",
       "drawingRevision": "2ef838b19ebcc8ac8b60372a1bc8203888185fd9552496b4e5a4955bb10e578a",
@@ -5502,6 +5366,226 @@
         }
       ],
       "notes": "The source shows a policy document with a search badge. The checklist and magnifier remain distinct from the revised document-and-key drawing. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "m365-document-text",
+      "status": "approved",
+      "drawingRevision": "f8d7d78a08dba481a2504f9fd1acdaaea52514f41f0347587fb281e4ec976f89",
+      "comparisonRevision": "dabbab28e04e15015830c320236fdcb11166a057e7b7d15641c98f17fb5a658f",
+      "sourceRevisions": [
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Document Text.svg",
+          "72295ea827fd3151f684e2b7483df12783335254fad211fff84307f743791c76"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Grey & Blue Icon/Document Text.svg",
+          "26d837f4fbb7a02ba2e03f03b52a10ce706ed304114729e89e1df350fd1e383f"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Light Blue Icon/Document Text.svg",
+          "28bbd498328753dfef0d8a361dfc295fd9c40a9167f066215120beb5337cf9f2"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Dark Purple Icon/Document Text.svg",
+          "18624c055a84b6f892036e08b2657f5d56d9f02427898fbcd9e3248ffb6d82b3"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Document Text.svg",
+          "26d837f4fbb7a02ba2e03f03b52a10ce706ed304114729e89e1df350fd1e383f"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Document Text.svg",
+          "3d204f72d86216720bda553a7ec9833e67111a70e2d292a938a8afb094b8f228"
+        ]
+      ],
+      "svgRevision": "f8a6def0bb1975fa4fa5374058c30baee09cad131e6b70805bb6d0c9936dacd2",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-document",
+          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
+          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with three text lines; this neighbor shows an empty folded-corner page."
+        },
+        {
+          "id": "m365-document-bullets",
+          "revision": "2b8daeb5e421e7a43061be1bf251c656f1cc991f122baeb1c4a60ae572e5ecac",
+          "svgRevision": "25a73d9b5ba6aa58314563cd03f652150eb4e95b2883e813abfbc0f1fe494ecd",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with three text lines; this neighbor shows a page with a bulleted list."
+        },
+        {
+          "id": "fabric-document-shapes",
+          "revision": "fbc42acf50ccf78b148444a2dc6345e94661dabe05d217c8ef6a17d2040e3a6c",
+          "svgRevision": "0ddc1894968ca89274d5be77e09e66ce96bc924d9b377b2ad76d1a35c5ceab38",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with three text lines; this neighbor shows a folded-corner page with a circle, square and triangle."
+        },
+        {
+          "id": "m365-document-page",
+          "revision": "fd7ee7e1e0ac26d86ce6e6d1fbf657c84f251842a85dc7a292c6810fb97258f9",
+          "svgRevision": "4386b4dff904f72c3ea4cec23144daa15866ee1841177b0ce90cd587de8c6920",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with three text lines; this neighbor shows a page with text and a rectangular content block."
+        }
+      ],
+      "notes": "All six sources show a single text page. The revised drawing has one sheet, and is distinct from the blank, bulleted and shapes pages. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "fabric-document-shapes",
+      "status": "approved",
+      "drawingRevision": "fbc42acf50ccf78b148444a2dc6345e94661dabe05d217c8ef6a17d2040e3a6c",
+      "comparisonRevision": "08a18aec2c566230943b8515adc6d5f8c5b1e0ba49fa7fa3992c57ba0ed0d2aa",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/document_shapes_20_filled.svg",
+          "0bf21bd22e366d03ea19fc8fd5570b6f29dcb22741fb805d7131124ab0feb4bc"
+        ],
+        [
+          "/icons/fabric/svg/document_shapes_20_regular.svg",
+          "ba707ffc0a8c47374d4fa0230b22485b767adf48e224efa85a7aed2dfcda2ff5"
+        ]
+      ],
+      "svgRevision": "0ddc1894968ca89274d5be77e09e66ce96bc924d9b377b2ad76d1a35c5ceab38",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-document",
+          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
+          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows an empty folded-corner page."
+        },
+        {
+          "id": "m365-document-text",
+          "revision": "f8d7d78a08dba481a2504f9fd1acdaaea52514f41f0347587fb281e4ec976f89",
+          "svgRevision": "f8a6def0bb1975fa4fa5374058c30baee09cad131e6b70805bb6d0c9936dacd2",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows a folded-corner page with three text lines."
+        },
+        {
+          "id": "aws-sagemaker-notebook",
+          "revision": "55eda02adc170d7dd0e5110788e62998e3f0663d270bf4f78ac48053ccb37013",
+          "svgRevision": "24c1b1ee54c3bf157c2d94fe485b3913bf14136ddff0e3fb393a33ae2202624a",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows a spiral notebook with code and a chart."
+        },
+        {
+          "id": "m365-office-notebook",
+          "revision": "4eacf4f453a003b91f94ba35bc72c14521b456c05554e5fcb41d21d8b3a206a5",
+          "svgRevision": "04c4253822b6da6f55a5c7f66da1b1c37cc92e07924011574244b8d6b9394eb4",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows a notebook with a bookmark."
+        },
+        {
+          "id": "fabric-document-tree",
+          "revision": "4aa894923f37238e4ac186bc67e264f54df251624c9558691f3ddf9f9e660a72",
+          "svgRevision": "d60b5e96e77811b5e20a3b2c979e8a4c52d821faa678a42aae2edbc323743d76",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows a folded-corner page with connected hierarchy nodes."
+        },
+        {
+          "id": "fabric-document-hint",
+          "revision": "2ef838b19ebcc8ac8b60372a1bc8203888185fd9552496b4e5a4955bb10e578a",
+          "svgRevision": "938858d86ce9ef05ebe27fd8deba7884a2d314bdf207c8ddb0b7154045f45cfe",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows a dashed-outline empty page."
+        },
+        {
+          "id": "fabric-document-people",
+          "revision": "e294b5e796d8e1affacb4bbe20667abc5ded617e8a6613d32270bc0643dc2bf1",
+          "svgRevision": "d7230b8168af8b40cf5acc9acd1e6d7032090d7e042da6ea77eac17515545456",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with a circle, square and triangle; this neighbor shows a page with people in front."
+        }
+      ],
+      "notes": "Both source variants show a document and geometric shapes. The drawing remains distinct from the revised text page and the document-tree icon. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "fabric-document-tree",
+      "status": "approved",
+      "drawingRevision": "4aa894923f37238e4ac186bc67e264f54df251624c9558691f3ddf9f9e660a72",
+      "comparisonRevision": "f9e62961d2e45ab8b48126090c67465b31416cee422f39304145c8c868bf9a56",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/document_tree_20_filled.svg",
+          "35e6cd178fb637f9659f37e2354fda5c808870abe61f09d4736eb6abec51668e"
+        ],
+        [
+          "/icons/fabric/svg/document_tree_20_regular.svg",
+          "854091176a6a49ca39264945ffc5c37c463ac38b0a2e4b9fe4d42e0ba91459ef"
+        ]
+      ],
+      "svgRevision": "d60b5e96e77811b5e20a3b2c979e8a4c52d821faa678a42aae2edbc323743d76",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-document",
+          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
+          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows an empty folded-corner page."
+        },
+        {
+          "id": "m365-document-text",
+          "revision": "f8d7d78a08dba481a2504f9fd1acdaaea52514f41f0347587fb281e4ec976f89",
+          "svgRevision": "f8a6def0bb1975fa4fa5374058c30baee09cad131e6b70805bb6d0c9936dacd2",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows a folded-corner page with three text lines."
+        },
+        {
+          "id": "m365-contacts",
+          "revision": "9511635d160e38e1a71c49a6838323057fd16360d523841545c4a68bbcf0dc3c",
+          "svgRevision": "85a5165c27ae1bf9bf131b877cf943325a51bc1a9b3171ec6638348fe9b27fad",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows a contact book with a person."
+        },
+        {
+          "id": "fabric-document-sql",
+          "revision": "e70bf29191e56f46baca5322b8bea9472885d7413df3a6d41775fc13d05aff8d",
+          "svgRevision": "c46e755f6719d57f928db24352a8412490b8f16f9c01e4b2b99b5ebb19d2c24e",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows a page marked SQL."
+        },
+        {
+          "id": "fabric-document-ssis",
+          "revision": "0590db643d9944446fc062788458e1c946553cc5484d7c5b54ec4e4429c3b3aa",
+          "svgRevision": "7f216156d49e6a88cc756664c28dc2de63f6c70c7c78e017d36a0d75e58c9707",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows a page containing linked boxes."
+        },
+        {
+          "id": "fabric-document-shapes",
+          "revision": "fbc42acf50ccf78b148444a2dc6345e94661dabe05d217c8ef6a17d2040e3a6c",
+          "svgRevision": "0ddc1894968ca89274d5be77e09e66ce96bc924d9b377b2ad76d1a35c5ceab38",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows a folded-corner page with a circle, square and triangle."
+        },
+        {
+          "id": "fabric-document-hint",
+          "revision": "2ef838b19ebcc8ac8b60372a1bc8203888185fd9552496b4e5a4955bb10e578a",
+          "svgRevision": "938858d86ce9ef05ebe27fd8deba7884a2d314bdf207c8ddb0b7154045f45cfe",
+          "status": "approved",
+          "reason": "The target shows a folded-corner page with connected hierarchy nodes; this neighbor shows a dashed-outline empty page."
+        }
+      ],
+      "notes": "Both source variants depict hierarchy nodes on a document. The drawing is distinct from the revised text page, shapes page and SSIS diagram. Inspected at 128, 64 and 32 pixels without visible clipping."
     }
   ]
 }

@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1810,
+  "approved": 1807,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -193,6 +193,7 @@
     "azure-defender-distributed-control",
     "azure-defender-packaging",
     "azure-defender-external-management",
+    "azure-iot-operations",
     "azure-dns-multistack",
     "azure-vnet-appliance",
     "azure-traffic-manager-profiles",
@@ -364,6 +365,7 @@
     "azure-disk-encryption",
     "azure-disks",
     "azure-disks-classic",
+    "fabric-home-waves",
     "fabric-gift-warning",
     "fabric-datatype-any",
     "fabric-datatype-byte",
@@ -401,6 +403,7 @@
     "fabric-databases-kql",
     "fabric-database-badge-pulse",
     "fabric-database-ribbon",
+    "fabric-documents-pulse",
     "fabric-document-rdl",
     "fabric-datatype-binary",
     "fabric-datatype-boolean",
@@ -459,6 +462,13 @@
       "a": "m365-arrow-circle-left",
       "b": "m365-arrow-circle-right",
       "similarity": 0.8023,
+      "review": "pending",
+      "notes": ""
+    },
+    {
+      "a": "m365-document-text",
+      "b": "m365-document",
+      "similarity": 0.7876,
       "review": "pending",
       "notes": ""
     },
@@ -4958,18 +4968,20 @@
     "m365-document-text": [
       {
         "a": "m365-document-text",
-        "b": "azure-iot-operations",
-        "similarity": 0.2754
+        "b": "m365-document",
+        "similarity": 0.7876,
+        "review": "pending",
+        "notes": ""
       },
       {
         "a": "m365-document-text",
-        "b": "azure-files",
-        "similarity": 0.2593
+        "b": "m365-document-bullets",
+        "similarity": 0.4399
       },
       {
         "a": "m365-document-text",
-        "b": "azure-postgresql-group",
-        "similarity": 0.2565
+        "b": "fabric-document-shapes",
+        "similarity": 0.392
       }
     ],
     "m365-flag": [
@@ -13394,14 +13406,14 @@
         "similarity": 0.3136
       },
       {
-        "a": "aws-neuron",
-        "b": "fabric-document-shapes",
-        "similarity": 0.2772
+        "a": "m365-document-text",
+        "b": "aws-neuron",
+        "similarity": 0.2984
       },
       {
         "a": "aws-neuron",
-        "b": "m365-database",
-        "similarity": 0.2771
+        "b": "fabric-document-shapes",
+        "similarity": 0.2772
       }
     ],
     "aws-panorama": [
@@ -15655,14 +15667,14 @@
         "similarity": 0.2866
       },
       {
-        "a": "m365-document-text",
-        "b": "azure-iot-operations",
-        "similarity": 0.2754
-      },
-      {
         "a": "azure-iot-operations",
         "b": "aws-general-client",
         "similarity": 0.2661
+      },
+      {
+        "a": "m365-office-notebook",
+        "b": "azure-iot-operations",
+        "similarity": 0.2601
       }
     ],
     "azure-hybrid-connectivity-hub": [
@@ -26665,6 +26677,13 @@
     ],
     "m365-document": [
       {
+        "a": "m365-document-text",
+        "b": "m365-document",
+        "similarity": 0.7876,
+        "review": "pending",
+        "notes": ""
+      },
+      {
         "a": "m365-document",
         "b": "m365-document-bullets",
         "similarity": 0.463
@@ -26673,11 +26692,6 @@
         "a": "m365-document",
         "b": "fabric-document-shapes",
         "similarity": 0.4046
-      },
-      {
-        "a": "m365-document",
-        "b": "fabric-document-tree",
-        "similarity": 0.3794
       }
     ],
     "m365-document-page": [
@@ -26704,14 +26718,14 @@
         "similarity": 0.463
       },
       {
-        "a": "m365-document-bullets",
-        "b": "m365-clipboard",
-        "similarity": 0.3431
+        "a": "m365-document-text",
+        "b": "m365-document-bullets",
+        "similarity": 0.4399
       },
       {
         "a": "m365-document-bullets",
-        "b": "fabric-document-tree",
-        "similarity": 0.2737
+        "b": "m365-clipboard",
+        "similarity": 0.3431
       }
     ],
     "m365-document-bullets-multiple": [
@@ -34101,9 +34115,9 @@
         "similarity": 0.2043
       },
       {
-        "a": "gcp-data-transfer",
+        "a": "m365-document-text",
         "b": "fabric-home-waves",
-        "similarity": 0.1896
+        "similarity": 0.1991
       }
     ],
     "fabric-bar-prohibited": [
@@ -34419,14 +34433,14 @@
         "similarity": 0.4046
       },
       {
+        "a": "m365-document-text",
+        "b": "fabric-document-shapes",
+        "similarity": 0.392
+      },
+      {
         "a": "aws-sagemaker-notebook",
         "b": "fabric-document-shapes",
         "similarity": 0.2925
-      },
-      {
-        "a": "m365-office-notebook",
-        "b": "fabric-document-shapes",
-        "similarity": 0.2844
       }
     ],
     "fabric-document-sql": [
@@ -34453,14 +34467,14 @@
         "similarity": 0.3794
       },
       {
+        "a": "m365-document-text",
+        "b": "fabric-document-tree",
+        "similarity": 0.3633
+      },
+      {
         "a": "m365-contacts",
         "b": "fabric-document-tree",
         "similarity": 0.3008
-      },
-      {
-        "a": "fabric-document-sql",
-        "b": "fabric-document-tree",
-        "similarity": 0.2825
       }
     ],
     "fabric-document-hint": [
@@ -36850,9 +36864,9 @@
         "similarity": 0.2651
       },
       {
-        "a": "aws-ecr-image",
+        "a": "m365-document-text",
         "b": "fabric-documents-pulse",
-        "similarity": 0.2496
+        "similarity": 0.252
       }
     ],
     "fabric-document-rdl": [
@@ -38458,9 +38472,9 @@
         "similarity": 0.2073
       },
       {
-        "a": "m365-document-text",
+        "a": "aws-wickr",
         "b": "fabric-calendar-up",
-        "similarity": 0.2
+        "similarity": 0.1933
       }
     ],
     "fabric-calendar-link": [
