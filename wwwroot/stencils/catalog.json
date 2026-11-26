@@ -1596,9 +1596,9 @@
       ],
       "revision": "f7bcd98b543ae31a4b610e2402591c6eca95370c306b94ac38592d2652dbda8b",
       "geometrySignature": "1b0ff4bf2b17e77dfa00dbfb0a64d437fce4782177ad917c1cf151657f0324b9",
-      "comparisonRevision": "bbdffffc3d7fedcfd99082c29b1ce41e082523b35cee4662309657a6be6abf46",
+      "comparisonRevision": "689ded80faa6e951feeb6ecb306e0810be93cbd5ae446dd759cd9221842c598b",
       "review": "approved",
-      "notes": "A component is added to an application layout, unlike the neighboring numbered list, app list and scorecard."
+      "notes": "A framed application workspace with a lower display and surrounding build/navigation controls is legible at 128/64/32px and distinct from text lists."
     },
     {
       "id": "azure-device-registry",
@@ -1657,9 +1657,9 @@
       ],
       "revision": "bab2f8bc320bfd6157026570b79e01132ab5490113df0f8570ac7443c302289c",
       "geometrySignature": "523d251f3a5459bfaf4bee9cc7111e2554622f3a07869df00f942057e77a6da9",
-      "comparisonRevision": "c56c4fafd811af08b6195d6b66dbcd0b04fee8273dfd4c52f791cd1c2c12668a",
+      "comparisonRevision": "2d5ff3f3f268c63d2f58f5fcdc31d397933e0c68b0467dbacb586186a4fd1702",
       "review": "approved",
-      "notes": "Two inputs flow through a diamond to targets, unlike the GKE cluster, API management or globe-based CDN."
+      "notes": "Three outbound arrows feed a diamond routing node and split to separate boxes; the 32px silhouette is distinct from GKE and API management."
     },
     {
       "id": "azure-firewall",
@@ -3033,9 +3033,9 @@
       ],
       "revision": "620a24aeab4d397bfd50cb991828a24e36267f9db3a338e8442ad2c8ed0728f1",
       "geometrySignature": "32d59417d862ecc2ef95ee3aa69443b85b87632fa8c3eee9785a449ec1c3b67d",
-      "comparisonRevision": "ec2155d123f81201e96f812979d6e0b410aac0c7cf9d890a8a568bd512312942",
+      "comparisonRevision": "2d9853baaafb8a1ffaf0785ff8086a136b86c7d89fed75983f2e40efd7c4eeb8",
       "review": "approved",
-      "notes": "An arched headset with microphone differs from work documents, database and question mark."
+      "notes": "A curved head band, paired ear pads and a short microphone remain recognizable at small sizes and distinct from WorkDocs."
     },
     {
       "id": "m365-image",
@@ -3329,9 +3329,9 @@
       ],
       "revision": "5aa0afee5ae7b29a2497790c85e8ab4287334ecbe14625b0bfce54e285c9cccb",
       "geometrySignature": "f1bf51ae17410657c53340f77185ae0918defc4d8b926a03ffe858ba5359b1e1",
-      "comparisonRevision": "3be76c605f12951188a03945cf529c0957c2fcc2007105269dec9f74f46e3a73",
+      "comparisonRevision": "1f4a5de6fc854d2a9a69ba0827ca2658fd6c33e9bdf9b1581a7da8af2636ba9f",
       "review": "approved",
-      "notes": "A parent branches to two child nodes in a circle, unlike a commit node, asterisk or number three."
+      "notes": "A circular root maps to three leaf nodes through radial branches; it differs from commit and asterisk circle marks."
     },
     {
       "id": "azure-integration-service-environments",
@@ -3784,9 +3784,9 @@
       ],
       "revision": "462b39eec298cbef945dc74db3863211a29ee4b919bc31df9063d2b4343cc406",
       "geometrySignature": "1c96d422600e9179cdd2214bfe1d469ac21939c8f403131008018cfc53ebd446",
-      "comparisonRevision": "0d45092c7501c7b3c801442b48e3f4e88b103615d57e57598d95e5eb12d253ab",
+      "comparisonRevision": "eceb6925e0c31662713d5c0f787357d18f554eae4b43dac5b6bccfec2960cebf",
       "review": "approved",
-      "notes": "An eye over linked nodes expresses monitoring, unlike client laptop, tensor network and edge management."
+      "notes": "A network eye/scan frame over a hub and spoke grid is distinct from a generic client or tensor network."
     },
     {
       "id": "azure-data-box",
@@ -7278,9 +7278,9 @@
       ],
       "revision": "8da0d66d854e910a24378a2f7bff4fc3df5b914726cd6c52d78761e938482bb7",
       "geometrySignature": "6fefd0103fbf08883bbb8371b6a888e20434894fef476b816a41cc7798deff8b",
-      "comparisonRevision": "9a7a2699eea2b7974e0bc8c7ee003e89427980cc840567d7f45a1ed7903ff2d9",
+      "comparisonRevision": "ac8bf2c30477985b126a6f3aa88f2225ec2ee67bc60de65e7b21f8dcf03f6014",
       "review": "approved",
-      "notes": "A cloud distributes content via a globe to edge pages, unlike GKE, translation or shared file clients."
+      "notes": "A globe and layered edge nodes preserve the cloud/CDN subject and remain distinct from GKE and translation icons."
     },
     {
       "id": "gcp-cloud-deploy",
@@ -7566,6 +7566,36 @@
       "comparisonRevision": "1a8f76747421f194af0301a828712efeb765af92b84d3a8f74de4df4fa9d0b8f",
       "review": "approved",
       "notes": "A processor matrix differs from the keyed HSM chip, bank and queue; the unfilled grid stays legible."
+    },
+    {
+      "id": "gcp-datapol",
+      "provider": "gcp",
+      "name": "Google Datapol",
+      "rationale": "Three horizontal bars connect three pairs of hexagonal nodes across upper, middle and lower tiers.",
+      "path": "stencils/gcp-datapol.svg",
+      "sources": [
+        "/icons/gcp/datapol/datapol.svg"
+      ],
+      "revision": "bd756c09dfa779eeb1c318646d3ec9a434ff66aa626aceb922bce45cd88d7cd1",
+      "geometrySignature": "d3eb3ee48f8d5c2ea7db545bce50b069103e507eabbebdd2797c1c4cfc82c564",
+      "comparisonRevision": "73d6233c02cf93b8424391a49b866984c6683a1785d3a8f92d5e60ab3a2fbfdd",
+      "review": "approved",
+      "notes": "Three horizontal bars and paired hexagonal nodes reproduce the source network structure at 128/64/32px, distinct from a server or generic squares diagram."
+    },
+    {
+      "id": "gcp-stream-suite",
+      "provider": "gcp",
+      "name": "Google Stream Suite",
+      "rationale": "Three slanted horizontal stream bars sit beside a diagonal bar terminating in a hollow circle.",
+      "path": "stencils/gcp-stream-suite.svg",
+      "sources": [
+        "/icons/gcp/stream_suite/stream_suite.svg"
+      ],
+      "revision": "2eb8b0de60f6c428c4537764e7deb9203176488f6ea957048a278c090f9e7f05",
+      "geometrySignature": "3a709846cdc59f020ef403f7e793cc0026d1baa14e49e790604339f737c5c1f9",
+      "comparisonRevision": "58e7bb9a2f797057639214811113dd3e88ab43f4e60a5a3cd1ce402c2a7f95f5",
+      "review": "approved",
+      "notes": "Three slanted stream bars and a diagonal bar ending in a hollow circle retain the source pictogram and remain distinct from app/client marks."
     },
     {
       "id": "m365-desktop-tower",
@@ -8090,9 +8120,9 @@
       ],
       "revision": "830953b57475a25095e0b75ce634697020b7a70284d1387fa4386ff69e2a9d8c",
       "geometrySignature": "cb57875fab452a9105c2c711e0969c393397d2f7d5c6f7b321ce6b6a95bc3ad6",
-      "comparisonRevision": "67021d6d9389ac72a6d018a699025d9b4dd09eff8a6235771fb063cfa2aa146b",
+      "comparisonRevision": "01de5511a81e04b9edf9fa25891335b38bd94efee78bac344d722b2c592de732",
       "review": "approved",
-      "notes": "Automated assembly conveyor line with robotic arm producing a cube; distinct."
+      "notes": "A factory site with pipes, conveyor and building retains the source subject and is distinct from the reworked datatype pair."
     },
     {
       "id": "fabric-data-warehouse",
@@ -10882,9 +10912,9 @@
       ],
       "revision": "274efdba801f44d67e5e40778635d005f01af8ad13e25c5e6fbbefdd43327bd6",
       "geometrySignature": "b9ee9b83d096935eb920d2f82820a7f6142efadf025bac64b9a2edd391193299",
-      "comparisonRevision": "2244a12bd2b8309bb1050c7ae266bd139695edfb92c1215f72e724a7e3dc2356",
+      "comparisonRevision": "6f7637f180567d5902f81d2032f93caa6c1e53dee708c6d2ae286b497224d42a",
       "review": "approved",
-      "notes": "Semantic cube behind a closed barred gate with prohibition slash; clear metaphor."
+      "notes": "A clear prohibited/locked semantic mark remains distinct from datatype and security compositions."
     },
     {
       "id": "fabric-operations-agent",
@@ -13889,9 +13919,9 @@
       ],
       "revision": "66f7d0e950fe7d8fe7c5a9c4cecd7c408e4a73a85b23c3dfc13710c3f2067d2f",
       "geometrySignature": "50ff6226c115e72a3a75d47333946a972377695dbdeebf0cd11811d6ee9cca45",
-      "comparisonRevision": "46af10e67820fcdb8efee8d8e80958c0eee1587357508bf34767e22a4d4ab662",
+      "comparisonRevision": "4eb685e115c5a75e8446e711896c9de535c138f9189c6a17ee368a4f5373fe60",
       "review": "approved",
-      "notes": "Stacked model catalog cards with connected AI node triangle on front; crisp at 128/64/32px and distinct."
+      "notes": "Stacked model panels with linked nodes and a connected terminal remain legible and distinct from database slide and window compositions."
     },
     {
       "id": "azure-batch-ai",
@@ -15547,6 +15577,36 @@
       "notes": "Three cascading monitors with spot tag on front screen; clearly distinct from single Spot VM."
     },
     {
+      "id": "azure-website-power",
+      "provider": "azure",
+      "name": "Website Power",
+      "rationale": "A central globe with linked surface nodes is encircled by two intersecting orbital rings.",
+      "path": "stencils/azure-website-power.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/general/10847-icon-service-Website-Power.svg"
+      ],
+      "revision": "6b0cea753f80434df911b139ae49e94807a494293aea49246ffb9ceaffdde8e2",
+      "geometrySignature": "545d932eb8a0845f1b6572bc2dfddc45681c0310d297ddf4b309b5f564fde4f5",
+      "comparisonRevision": "c9e4958fb2c6d869f72cdae2526fab20804ca18da8fd9deabb0537a0a24e64f8",
+      "review": "approved",
+      "notes": "Intersecting orbital rings surround a linked central globe; the source network/website pictogram remains recognizable at 32px."
+    },
+    {
+      "id": "azure-access-point",
+      "provider": "azure",
+      "name": "Azure Access Point",
+      "rationale": "Overlapping clouds connect via curved side brackets to three stacked isometric plates.",
+      "path": "stencils/azure-access-point.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/new icons/031193085-icon-service-Azure-Access-Point.svg"
+      ],
+      "revision": "cbfadc5250187bd6e852c8e11f1fe439652395a7c4444102bc5a5bfac53383c3",
+      "geometrySignature": "7cfb631fcc24b38415248be6d8f4a30f80f9a2c4289f22d8074a82350eaf98cf",
+      "comparisonRevision": "11f8558acc066e7856ead74ccdd6940164cd19b0b94d39fb6285b3a507cae3c1",
+      "review": "approved",
+      "notes": "Two overlapping clouds and three isometric plates preserve the source layers; the 32px result differs from database and archive symbols."
+    },
+    {
       "id": "microsoft-engage-center-connect",
       "provider": "azure",
       "name": "Microsoft Engage Center Connector",
@@ -16791,6 +16851,51 @@
       "comparisonRevision": "4d06127194c3a69b2a71f530be17aa331b74b5ee384250554f145b98db964346",
       "review": "approved",
       "notes": "Cloud feeding a document downward into a printer; unmistakable at 32px."
+    },
+    {
+      "id": "azure-journey-hub",
+      "provider": "azure",
+      "name": "Journey Hub",
+      "rationale": "Three side-by-side portal blades with top header bars trace a multi-step workspace journey.",
+      "path": "stencils/azure-journey-hub.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/general/10814-icon-service-Journey-Hub.svg"
+      ],
+      "revision": "ebf9f1e93a616886657ea7005510cb6c8f920c9502d25bbbabf45575b0677f79",
+      "geometrySignature": "ef371e75e8310c88bf5501c554c4b56f05069419f13d07caa2fd176fb7bc1fc2",
+      "comparisonRevision": "e824632824f2c59db8122e42f66b886ef61aef943730e4244cb456e9e6219cdc",
+      "review": "approved",
+      "notes": "Three side-by-side portal blades with headers and distinct content rows retain the source column pictogram and remain distinct from app lists."
+    },
+    {
+      "id": "azure-ceres",
+      "provider": "azure",
+      "name": "Ceres",
+      "rationale": "Two human silhouettes stand side by side with a circular halo arc framing the right person.",
+      "path": "stencils/azure-ceres.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/02828-icon-service-Ceres.svg"
+      ],
+      "revision": "d6c8a32211934170c03c56db72a082771db4cbce8acf2498b2de3bc49b06c993",
+      "geometrySignature": "61b6d57e655f29d34f8332922385d208c1c927224de6f234d7629fbfcf060173",
+      "comparisonRevision": "7a2ace40035dc08b8124d7b0f4d00fd1fc259ed19015727b44435ff9d50b325c",
+      "review": "approved",
+      "notes": "Two human silhouettes and the open halo arc retain the source figures and face geometry at small sizes."
+    },
+    {
+      "id": "azure-breeze",
+      "provider": "azure",
+      "name": "Breeze",
+      "rationale": "A circular globe is crossed by sweeping curved wind and wave bands.",
+      "path": "stencils/azure-breeze.svg",
+      "sources": [
+        "/icons/azure/Azure_Public_Service_Icons/Icons/other/03633-icon-service-Breeze.svg"
+      ],
+      "revision": "95ab093b4f0bc8cfa3bfeaf16cb31929e95b05e39f890e8c647e7d577913b74b",
+      "geometrySignature": "dd36b7cf75b386fa0b60f1014947ad17794570be9368139facfe6150aeac97ae",
+      "comparisonRevision": "73658b18b99db8a65e4f4947da7819d1a23d3a9389be1afb4be965defc6f2865",
+      "review": "approved",
+      "notes": "A circular globe crossed by sweeping bands retains the source wind/wave pictogram and differs from circle-number and trend marks."
     },
     {
       "id": "aws-iot-alexa-device",
@@ -20659,9 +20764,9 @@
       ],
       "revision": "a2ffd68c5322db316989c013e0f1fa347820d9aed9fffe5826034adba92c9868",
       "geometrySignature": "ab188068edee24014df8c6a894f58962ec059a8ae653ec3ae684d0b99afe658b",
-      "comparisonRevision": "e1843fb56c0b29f76f9fbc971b86268672838fe4c97b94305e1ec3940cc8a045",
+      "comparisonRevision": "408f57752fcc34edac338e8f43cf4e3d63df8d0df635fdfcd3897338f9242634",
       "review": "approved",
-      "notes": "A consultant presents a checklist, unlike a cluster, personalization and business application."
+      "notes": "The people, briefcase and structured service network remain recognizable and distinct from the float/block neighbors."
     },
     {
       "id": "aws-training-certification",
@@ -23932,9 +24037,9 @@
       ],
       "revision": "4d59b2a4ee5c22de06201b781481f8975018396171bd7a6a2c3eb56559e2c022",
       "geometrySignature": "19b10742c77301a83b3d312fa73155bc8cfe8b133ba170656601c4691fc25f6e",
-      "comparisonRevision": "7b4983c8670b7617fe0098812c26fbc0cf0ffbb7980c69ca6d07b5ffa8f931a2",
+      "comparisonRevision": "eaa65b2f446b7cbfabaf409c7630ab7a5c1478be5b15b3d9638fec395d184eb7",
       "review": "approved",
-      "notes": "Checked shield above rippling lake waves; matches all 4 size aliases and very distinct."
+      "notes": "A lake grid with shield/control structure remains distinct from the datatype pair and blockchain/category neighbors."
     },
     {
       "id": "aws-shield",
@@ -28474,9 +28579,9 @@
       ],
       "revision": "2fa00e51d55d26c0690ff0f0cad9d151899d4d242fa4d72ca44d14c2e1955925",
       "geometrySignature": "efd24fa9c88401c1c7fd8b520ed521a3a3ad63afbb83bc2df7084ca9250a5f51",
-      "comparisonRevision": "76a220892167374cdce9e9ed6296ba05a3482066559ef51582ea79ce18622b1b",
+      "comparisonRevision": "ac22803fa7e5bae755a2c13339f872f053bb866db38ea650a8e11eb40ecbc961",
       "review": "approved",
-      "notes": "Three linked isometric blocks in a horizontal chain; matches all 4 size aliases."
+      "notes": "A blockchain chain with linked blocks remains distinct from float and the security-lake composition."
     },
     {
       "id": "aws-category-quantum",
@@ -28636,9 +28741,9 @@
       ],
       "revision": "2e7d2646861f337f9c93547f30188125d86c207daa35778da1c0f61322426580",
       "geometrySignature": "1d5c938e2d8174a17f8c27bde3b58eb0e9ee140031ed90f03815a3c9c29f2366",
-      "comparisonRevision": "42aeabf3bd410143bc219a5a2317f07eb67f1c2dbc77b81ea995d27ab10cbc09",
+      "comparisonRevision": "0802fc5271ff74b3cd5ceced158fb2e3f88abe87728b70e82993ab95c6ba9244",
       "review": "approved",
-      "notes": "Ground dish exchanging signals with an orbiting satellite; matches all 4 size aliases and very distinct."
+      "notes": "A dish-and-orbit assembly with a separate antenna and circular controls is recognizable at 32px and distinct from people and cache motifs."
     },
     {
       "id": "aws-local-zones",
@@ -33504,9 +33609,9 @@
       ],
       "revision": "9d46d2adc6b41d393e72d5a7b5dd192fb2bd379e07e432d29355e85050cadaa8",
       "geometrySignature": "034b2c06014b954b82d6c9e01f97438020c2f567fc8c1a82a05cae75e5052dd7",
-      "comparisonRevision": "035bd86bf09f9fb9a074bd97fa357e07cce0e8192ca466983eaadb8fde8fb79a",
+      "comparisonRevision": "e8f49a9e4214da892552f02394059847855aa1b249773ec5f99b59882bef51e7",
       "review": "approved",
-      "notes": "Text slide overlaid by a smaller window card at bottom-right; both aliases match and clear at 32px."
+      "notes": "A framed slide window with layered panels and a separate document preview remains distinct from gauge windows and text lines."
     },
     {
       "id": "fabric-squares-multiple",
@@ -33696,9 +33801,9 @@
       ],
       "revision": "975f0ff0b096fa7654128e2de441e00bebaad7be6d65adf6baa873fe837d9c2e",
       "geometrySignature": "362ae1c4f6cf69244d8f7200e43a59db7b35ddd601e95fe53a9b1eabee8cb308",
-      "comparisonRevision": "67e73532c437fe66b303321750167e24bc7bf774ee8279498323f6036b5c88ee",
+      "comparisonRevision": "0df4f9cc1e93d03fb04eac8e8924e5aaa6e48b5c33460fe791b632bfe4dd6aa4",
       "review": "approved",
-      "notes": "3x3 table grid paired with a key at bottom-left; both aliases match and legible at 32px."
+      "notes": "A gridded table intersecting a key ring preserves the source table/key subject and is distinct from database and slide-window marks."
     },
     {
       "id": "fabric-table-function",
@@ -34905,7 +35010,7 @@
       "id": "fabric-datatype-double",
       "provider": "fabric",
       "name": "Double data type",
-      "rationale": "The suffix D distinguishes a double-precision value.",
+      "rationale": "A 1.2 value with D is paired with a two-row precision block.",
       "path": "stencils/fabric-datatype-double.svg",
       "sources": [
         "/icons/fabric/svg/datatype_double_16_filled.svg",
@@ -34913,17 +35018,17 @@
         "/icons/fabric/svg/datatype_double_20_filled.svg",
         "/icons/fabric/svg/datatype_double_20_regular.svg"
       ],
-      "revision": "e9200920958ff9941e6126cca7d191116ec92a62688fdd83badb956c71e7ba5c",
-      "geometrySignature": "89e29ab33651f64e55dbafc9a6a4677f3b98b7ff00be71d6591a1f675852e578",
-      "comparisonRevision": "19c3cf5f47ae0f594d39299fba289f8523f37c65b39a63431309f327e837e35e",
+      "revision": "d0403b9691677886a35082a181793cabf5b6fbd2ed8d5340c1169edc9f0f1910",
+      "geometrySignature": "7bec4260653041fb98a1532ff6505cb76ccdf852913e60a00f01dd47f080fbaf",
+      "comparisonRevision": "c3f5c16ee73bba7e2ff72c678e79238b74f3aad3cfefaf49571a58d22fc31ef2",
       "review": "approved",
-      "notes": "Clear 1.2D lettering distinguishing double precision from float; legible at 32px."
+      "notes": "A 1.2D value with a two-column, two-row precision block and double lower rules; visually distinct from float at 128/64/32px."
     },
     {
       "id": "fabric-datatype-float",
       "provider": "fabric",
       "name": "Float data type",
-      "rationale": "The suffix F distinguishes a floating-point value.",
+      "rationale": "A 1.2 value with F is paired with a single-row compact gauge.",
       "path": "stencils/fabric-datatype-float.svg",
       "sources": [
         "/icons/fabric/svg/datatype_float_16_filled.svg",
@@ -34933,11 +35038,11 @@
         "/icons/fabric/svg/text_number_1_2f_20_filled.svg",
         "/icons/fabric/svg/text_number_1_2f_20_regular.svg"
       ],
-      "revision": "34cda9566ecc697372ccdb77002e54505840a2018113da3b8c3b3177d40d71d2",
-      "geometrySignature": "da538ecad4d3d7771c09def86c9ff55110534a23e73b2c1980e6f1c3d397169f",
-      "comparisonRevision": "a75df2ad1c89ad4f3377068d350d18da9d39a688e8b0e974a05a8412a54d1380",
+      "revision": "a290a8fe6a787e3e333dee1f44daed2a5acc130410449100e3f53f725fa38721",
+      "geometrySignature": "bb88769d4aaa764eef2e65547f1ad865028666ef79bedd9d420ad1718d7fbb9d",
+      "comparisonRevision": "995add135a281d6396a7d795993a1cd4522e49953e92be07c632931e25817b7c",
       "review": "approved",
-      "notes": "Crisp 1.2F lettering matching source SVG; distinct from datatype-double."
+      "notes": "A 1.2F value with a single-column gauge and one compact block; visually distinct from double and the nearby chart/factory neighbors."
     },
     {
       "id": "fabric-datatype-integer",
@@ -35079,9 +35184,9 @@
       ],
       "revision": "d6321ba9007da821bcfe6273d67983cee9621cbf415afa0793cf8c6968e0d275",
       "geometrySignature": "19456b2c6981f5edf5188b964aa640af5e2154811d3d07709a70658fbaf0d128",
-      "comparisonRevision": "0f8de00695652b5c74c20ad6a68ea4adc40636655cc54313a62ee2c516a9e657",
+      "comparisonRevision": "6d77f22680503a05e5991a8eecb40a1a3509a3389d94d82bd2c93d8ad3fe80ac",
       "review": "approved",
-      "notes": "Vertical table column paired with square brackets on the right; clear and faithful."
+      "notes": "Paired column frames and bracketed headers remain legible at 32px and differ from text and storage compositions."
     },
     {
       "id": "fabric-column-function",

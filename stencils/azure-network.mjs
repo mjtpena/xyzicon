@@ -1,4 +1,4 @@
-import { rect, oval, line, entry } from "./primitives.mjs";
+import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureNetworkArtwork = [
   entry("azure-mission-landing-zone", "azure", "Mission Landing Zone", ["02793-icon-service-Mission-Landing-Zone"],
@@ -300,5 +300,25 @@ export const azureNetworkArtwork = [
     [
       line([13, 68], [13, 20], [78, 20], [78, 29]), line([25, 77], [25, 30], [90, 30], [90, 39]), rect(38, 40, 73, 49),
       line([51, 54], [59, 46], [77, 49], [79, 66], [70, 75], [51, 54]), oval(69, 53, 5, 5), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-website-power", "azure", "Website Power", ["10847-icon-service-Website-Power"],
+    "A central globe with linked surface nodes is encircled by two intersecting orbital rings.",
+    [
+      line([109, 19], [97, 18], [76, 30], [51, 51], [30, 76], [18, 97], [19, 109], [31, 110], [52, 98], [77, 77], [98, 52], [110, 31], [109, 19]),
+      line([19, 19], [31, 18], [52, 30], [77, 51], [98, 76], [110, 97], [109, 109], [97, 110], [76, 98], [51, 77], [30, 52], [18, 31], [19, 19]),
+      oval(40, 40, 48, 48, true),
+      oval(48, 52, 10, 10), oval(68, 48, 9, 9), oval(60, 68, 9, 9),
+      line([57, 55], [68, 52]), line([55, 61], [62, 69]), line([71, 57], [67, 69]),
+    ]),
+  entry("azure-access-point", "azure", "Azure Access Point", ["031193085-icon-service-Azure-Access-Point"],
+    "Overlapping clouds connect via curved side brackets to three stacked isometric plates.",
+    [
+      line([24, 54], [18, 49], [18, 39], [25, 33], [32, 33], [38, 22], [50, 17], [62, 20], [69, 28], [76, 30], [80, 38], [76, 46], [52, 54], [24, 54]),
+      polygon([52, 62], [47, 56], [48, 47], [55, 42], [63, 42], [69, 32], [81, 28], [93, 32], [99, 41], [107, 45], [110, 54], [104, 62]),
+      line([23, 54], [23, 94], [28, 102], [37, 106], [49, 106]),
+      line([104, 62], [104, 94], [99, 102], [90, 106], [79, 106]),
+      line([64, 68], [88, 79], [64, 90], [40, 79], [64, 68]),
+      line([40, 91], [64, 102], [88, 91]),
+      line([40, 103], [64, 114], [88, 103]),
     ]),
 ];

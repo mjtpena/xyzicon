@@ -1,4 +1,4 @@
-import { rect, oval, line, entry } from "./primitives.mjs";
+import { rect, oval, line, polygon, entry } from "./primitives.mjs";
 
 export const azureGovernanceArtwork = [
   // Portal icon mapping: https://learn.microsoft.com/en-us/services-hub/microsoft-engage-center/health/connector-get-started
@@ -517,5 +517,36 @@ export const azureGovernanceArtwork = [
     [
       line([45, 34], [41, 30], [43, 22], [50, 19], [57, 21], [62, 14], [71, 15], [76, 22], [75, 28], [82, 32], [81, 40], [76, 44], [45, 44], [40, 40], [45, 34]),
       line([61, 44], [61, 54]), line([55, 49], [61, 55], [67, 49]), rect(24, 57, 75, 26), line([31, 64], [38, 64]), rect(37, 72, 50, 24), line([45, 80], [79, 80]), line([45, 87], [73, 87]), line([14, 110], [110, 110]),
+    ]),
+  entry("azure-journey-hub", "azure", "Journey Hub", ["10814-icon-service-Journey-Hub"],
+    "Three side-by-side portal blades with top header bars trace a multi-step workspace journey.",
+    [
+      rect(14, 14, 28, 98), rect(14, 14, 28, 19, true),
+      line([20, 46], [36, 46]), line([20, 58], [32, 58]), line([20, 70], [36, 70]),
+      rect(50, 14, 28, 98), rect(50, 14, 28, 19, true),
+      line([56, 46], [72, 46]), line([56, 58], [72, 58]), rect(56, 72, 16, 20),
+      rect(86, 14, 28, 98), rect(86, 14, 28, 19, true),
+      line([92, 46], [108, 46]), line([92, 58], [104, 58]), oval(94, 72, 12, 12),
+      line([42, 23], [50, 23]), line([78, 23], [86, 23]),
+    ]),
+  entry("azure-ceres", "azure", "Ceres", ["02828-icon-service-Ceres"],
+    "Two human silhouettes stand side by side with a circular halo arc framing the right person.",
+    [
+      oval(26, 29, 22, 22),
+      line([14, 112], [14, 78], [18, 65], [27, 58], [37, 56], [47, 58], [56, 65], [60, 78], [60, 112], [14, 112]),
+      oval(68, 36, 22, 22, true),
+      line([60, 82], [65, 72], [73, 66], [83, 66], [93, 72], [99, 84], [99, 112], [60, 112]),
+      line([61, 25], [70, 16], [83, 14], [96, 18], [106, 27], [112, 40], [111, 54], [105, 66], [97, 73]),
+      line([66, 31], [73, 24], [83, 22], [92, 25], [100, 32], [104, 42], [103, 52], [98, 61], [92, 66]),
+      line([61, 25], [66, 31]), line([97, 73], [92, 66]),
+    ]),
+  entry("azure-breeze", "azure", "Breeze", ["03633-icon-service-Breeze"],
+    "A circular globe is crossed by sweeping curved wind and wave bands.",
+    [
+      oval(14, 14, 100, 100),
+      polygon([24, 38], [38, 22], [60, 15], [82, 18], [94, 24], [76, 36], [56, 48], [36, 52], [20, 44]),
+      line([44, 62], [62, 50], [82, 42], [104, 40]),
+      line([24, 93], [42, 74], [64, 62], [88, 56], [113, 62]),
+      line([34, 104], [54, 90], [78, 84], [100, 86], [108, 92]),
     ]),
 ];
