@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1803,
+  "approved": 1802,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -44,6 +44,7 @@
     "aws-cognito",
     "aws-guardduty",
     "gcp-cloud-build",
+    "m365-call",
     "m365-chart-multiple",
     "m365-chat-multiple",
     "m365-code",
@@ -3510,18 +3511,18 @@
     "m365-call": [
       {
         "a": "m365-call",
-        "b": "aws-data-exchange",
-        "similarity": 0.1203
-      },
-      {
-        "a": "m365-call",
         "b": "aws-greengrass-recipe",
-        "similarity": 0.1168
+        "similarity": 0.1184
       },
       {
         "a": "m365-call",
-        "b": "aws-iot-hardware-board",
-        "similarity": 0.1116
+        "b": "gcp-anthos-service-mesh",
+        "similarity": 0.1114
+      },
+      {
+        "a": "m365-call",
+        "b": "azure-storage-explorer",
+        "similarity": 0.1087
       }
     ],
     "m365-camera": [

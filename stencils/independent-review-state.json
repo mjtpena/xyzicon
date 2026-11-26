@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 93,
+  "compositionsReviewed": 95,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -7023,6 +7023,158 @@
         }
       ],
       "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The directional DNS signposts concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "m365-call",
+      "status": "approved",
+      "drawingRevision": "0951f83452341120ace247635cc3e67103050bd9a61a953369ce02ca7ada28e1",
+      "comparisonRevision": "0688bc85c0b8f88ae54a6b1f98ed629d453b89eda98339ff1487967365dfc286",
+      "sourceRevisions": [
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Call.svg",
+          "ec439839e68c43dc60fb89633cb8b5bb88d2fa0853d77513ef2e55dd18d28be4"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Grey & Blue Icon/Call.svg",
+          "918ea3793e2899d7ba78f6858c55e552970fcd9d842af87e9994687e510f90f4"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Light Blue Icon/Call.svg",
+          "54166d28362e3e57495c4d6bdfd81fbe86bbfa4e62b8c73e9a558f042c8534b5"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Dark Purple Icon/Call.svg",
+          "3a316ce2d4d1a17ed745915488699b1d0f51598c2b3d0c955b0f7a246e323523"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Call.svg",
+          "49072b71d287ecdc5dc4e64d01ad625a813bebe6c2162cfabda40f39961dbc9f"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Call.svg",
+          "9a5fc841441a2e1a366e2fe4e37e4d427722de4168d1507100f8bb2df283e1f1"
+        ]
+      ],
+      "svgRevision": "1cfabcc8b368cf3da811e5bfc138ab5bbcd4eedda0bfdc44028db45087fe3367",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-greengrass-recipe",
+          "revision": "e54165a75e6a88ca035f744622f7e446a2451168a931e64fc6a06bdf33463f4f",
+          "svgRevision": "071c2e89b3b34f54da3eb88f0968c9948dfd1d0ef9354795516d23cc3748a608",
+          "status": "approved",
+          "reason": "The target shows a handset with voice arcs; this neighbor shows a recipe document. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-anthos-service-mesh",
+          "revision": "aa6bafc5bf4cb47f8daa8a78527211a524e3ff3b5defb544e4c0a2a0ddbd37af",
+          "svgRevision": "8cfcadd1d27ac2751992bb549c64d9480308a2302facfff36f619e7e46cb55ed",
+          "status": "approved",
+          "reason": "The target shows a handset with voice arcs; this neighbor shows a connected service-mesh graph. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-storage-explorer",
+          "revision": "4bd28e498fe62c8eb2aa2b5c54a729e06705ce730b11885ff03d02c041485044",
+          "svgRevision": "c943ad49b7c6c1bbccd139e057a839b0b15b116e4e3acd5639e84dd8258cbd8e",
+          "status": "approved",
+          "reason": "The target shows a handset with voice arcs; this neighbor shows a storage box with a magnifier. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-phone",
+          "revision": "7cfc31669675ef46cdaeea364f5ab86102eb6f484766a16971498945cd79a064",
+          "svgRevision": "6ba4e76ff1013fcd5759e74f1eeb1f3d3a182030e5889d329aa9f9ed3814bc55",
+          "status": "approved",
+          "reason": "The target shows a handset with voice arcs; this neighbor shows an upright mobile phone. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-phone-data-bars",
+          "revision": "91564b6b465924fe4d2ed83497b6167095a7918ca629097da68ac732e55e7332",
+          "svgRevision": "bd53876fe57ea68fd8dafc979ec6df73f2d2f716f88892798e37da625d8f57bf",
+          "status": "approved",
+          "reason": "The target shows a handset with voice arcs; this neighbor shows a phone with data bars. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-megaphone",
+          "revision": "67c5f49888eeb86fa4843258f80e9448ea2df5862f8924ff565bffb7e37889fc",
+          "svgRevision": "ee6123f3ed1b69d08cbbbceb314a6e4c9a9443fa4dfd5dab725d4cf4683423c5",
+          "status": "approved",
+          "reason": "The target shows a handset with voice arcs; this neighbor shows a megaphone with broadcast marks. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        }
+      ],
+      "notes": "All mapped sources show the same handset in different colorways. Removed the unsupported stray dot; the handset and voice arcs remain recognizable at 128, 64 and 32 pixels without clipping."
+    },
+    {
+      "id": "gcp-looker",
+      "status": "approved",
+      "drawingRevision": "cedb6e7e1ae01b1ae60395bf73a560464fe9f6387ab94bc17da4d337495634f7",
+      "comparisonRevision": "0ae368d6a61c90106032d6079df7f4595945921c23325a17ffc06fc637aece4f",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/Looker/SVG/Looker-512-color.svg",
+          "5a32b37a36577b3d79edd6351fbc124a3fc2c59ccbe798eca2ebd6ee32c96e9b"
+        ],
+        [
+          "/icons/gcp/looker/looker.svg",
+          "02bdf600061968ccb063b2544e241ca1672b0bf0dfc8778cd1cd73402fcca822"
+        ]
+      ],
+      "svgRevision": "9c15ea8b70d71c3bf841ffeded48282c8c0a5978cdd197c955c8df4d0629c654",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-codewhisperer",
+          "revision": "f51b0bb8bfeb213021203dc795517d921da2ebb54e8f91214e453fd48cbdc929",
+          "svgRevision": "1131c1911086c2c2c8dd13c58b8918bada165271a8b7e1b4286fd359823791c2",
+          "status": "approved",
+          "reason": "The target shows an analytics report with two chart tiles; this neighbor shows a code window with an assistant. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-slide-layout",
+          "revision": "679309f16a725a5ec73abc7d426e6a372a834ce642b09ff80dbc99207657b7d8",
+          "svgRevision": "6db7bfda7e6b8ee8023383dee5235f0eb668b43ec47978f9c4be22eea1663864",
+          "status": "approved",
+          "reason": "The target shows an analytics report with two chart tiles; this neighbor shows a slide layout with image and text regions. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-vpc",
+          "revision": "a55264439813099d2d65f17b7c15269b59711ba50afc9386a1ceddf732f4f0c8",
+          "svgRevision": "cfa7bb8a090b15f894448fc280b93d145e87364d5e0a0fd67ebfb27f7d54bdfc",
+          "status": "approved",
+          "reason": "The target shows an analytics report with two chart tiles; this neighbor shows a network diagram within a panel. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-monitoring",
+          "revision": "403c2c38753643c8d67d948fb451ce10a2221057fa0ccf49c4cbadc7f0b71e9e",
+          "svgRevision": "37b26d3e680a15aa6e33b58eb475cda7a463f0ba799f9f7b5527a6995a034ed9",
+          "status": "approved",
+          "reason": "The target shows an analytics report with two chart tiles; this neighbor shows a clock and chart dashboard. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-dashboard",
+          "revision": "ec60b89235edbba5c3adbd08f91acd2ea0f0cc2c789e9ef068d99a9c471d99fc",
+          "svgRevision": "564cfbac3dd639af8c2cb2f51fb8dc20175b06304da872ed6f1346918c0fa4b0",
+          "status": "approved",
+          "reason": "The target shows an analytics report with two chart tiles; this neighbor shows a pie-chart and bar-chart dashboard. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-opensearch-dashboards",
+          "revision": "ad0c6361496042fd71be2c2029f1cc00e0ae4328830496597ddce7b33f7c8524",
+          "svgRevision": "c694cfa01e310729e619c2f2bba8531e0a6d7cafb57ae8d8ef269aa01ccb0eb4",
+          "status": "approved",
+          "reason": "The target shows an analytics report with two chart tiles; this neighbor shows a metrics dashboard with a trend graph. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Both mapped source variants are represented. The report with two chart tiles remains legible at 128, 64 and 32 pixels without clipping and is distinct from the displayed dashboards, network panel and slide layout."
     }
   ]
 }

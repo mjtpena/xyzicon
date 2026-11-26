@@ -23,7 +23,6 @@ export const productivityArtwork = [
     [
       line([24, 14], [40, 16], [47, 35], [35, 44], [45, 59], [60, 70], [70, 59], [89, 67], [92, 83], [82, 96], [68, 96], [50, 87], [30, 69], [18, 49], [14, 31], [24, 14]),
       line([75, 20], [88, 25], [97, 35]), line([73, 8], [94, 15], [108, 30]),
-      oval(96, 95, 13, 13, true),
     ]),
   entry("m365-camera", "microsoft365", "Camera", ["Camera"],
     "A camera with a prominent lens sits on a tripod.",
