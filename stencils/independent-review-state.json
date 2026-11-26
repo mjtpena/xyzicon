@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 110,
+  "compositionsReviewed": 137,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -8198,6 +8198,1743 @@
         }
       ],
       "notes": "The form-like app with a builder control remains recognizable at 32 pixels and distinct from media, code, storage and app-catalog neighbors."
+    },
+    {
+      "id": "power-dataverse",
+      "status": "approved",
+      "drawingRevision": "a2b28f622a00b0e4ddebf37dc0c015c1fb3390dce7b7b3ccb0dd8ce61ae7dc64",
+      "comparisonRevision": "16a287f5a564e556f8e2a81f028d964fef810800a01adccb360ea8b3657bf8e9",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Power Platform/Dataverse_scalable.svg",
+          "93ee97c4fc0a577326dc35b6ac3b77bbc2868f44937a2057cbfa9dc509597bcb"
+        ]
+      ],
+      "svgRevision": "d207cb36afd4c39a3c455ae6425471614e70fa7a4e3227b3c8f35e99a035f93a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-container-optimized-os",
+          "revision": "cea7dacf4d742a5e9ed737b0bb18341fa83d2788347a72b58a54402142e5b1f2",
+          "svgRevision": "27ba17d72884a289841460afe7ce4ce45aab24b82eeb0676680dc37a47b0ea4c",
+          "status": "approved",
+          "reason": "The target shows four connected data tables around a hub; this neighbor shows container packages. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-platform",
+          "revision": "3dc28acdb3e05017b0e4932b02a01fd87a0bd293ab13133af3bcb94d3bda2b4f",
+          "svgRevision": "7cd55dda1a123102f8afdf9a7d6155cb0af2c15bb4446298146a814b57ffb386",
+          "status": "approved",
+          "reason": "The target shows four connected data tables around a hub; this neighbor shows a data-platform workflow. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-power-bi",
+          "revision": "2c0287c326c8bc4e721c328f7d44c4e3cd6923f1ce65cbac8fe2ad7c7e7cc40d",
+          "svgRevision": "63ffd74a8061393f0f2c43e536978f675453234f6ce44c10f0be7f159d390fd2",
+          "status": "approved",
+          "reason": "The target shows four connected data tables around a hub; this neighbor shows a chart panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigquery",
+          "revision": "98641c54835f6aaa5235210526fe8a415d04778fb54e68b1a8247e94db392339",
+          "svgRevision": "583a076988b87fbc7bade283615a4c8fd1aa13420390ee164ba9eab26c306368",
+          "status": "approved",
+          "reason": "The target shows four connected data tables around a hub; this neighbor shows a magnifier over a chart. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb",
+          "revision": "694e7292eb3834efd0afaf47bbf8e976e8cffa1ea3deb3af97a0e8149abb2eca",
+          "svgRevision": "3777062c166ab8cda67c1a20ba723f11233df3251c2392d3cd2362a31e9fc226",
+          "status": "approved",
+          "reason": "The target shows four connected data tables around a hub; this neighbor shows a database table with records. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-cosmos-db",
+          "revision": "ece6cbebb99021f8f78ae486b30f1ae9a4601c7bde82e7bcff274b84e440f407",
+          "svgRevision": "a9bc5fbeacfafd133ce8e6e13e1d19f58d08aa204516f2af0daa38efa23f7810",
+          "status": "approved",
+          "reason": "The target shows four connected data tables around a hub; this neighbor shows a database with replica nodes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The linked table motif reads as a shared data platform at 32 pixels and remains distinct from container packages, analytics charts and database-specific neighbors."
+    },
+    {
+      "id": "dynamics-sales",
+      "status": "approved",
+      "drawingRevision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
+      "comparisonRevision": "0042779c9b6867d03b2eb0fd9e5e9aa7fd0b9631cf755d19df535283f7c81e0a",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/Sales_scalable.svg",
+          "09f28fb910126b8e273da1ac491c04b3fb47dd41771e0081803ecd79a5e05a69"
+        ]
+      ],
+      "svgRevision": "ee985e748b0a315fc026dcf55c9478baabe41dcc1caaaa1007d0d25f66423184",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-elasticache-node",
+          "revision": "ac9b43cd1883664d551a73737609e0d527b41a6e7724412cd20076772354a229",
+          "svgRevision": "da414e2bca8c197664240dccb8778ec6a7603f8432651acbe643c6dd1383625e",
+          "status": "approved",
+          "reason": "The target shows a sales funnel with an upward arrow; this neighbor shows a cache server node. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-payment",
+          "revision": "20b6080ab2edc94c832fb86c7307f1efcb69e6be935c65697e887e94e8081c6a",
+          "svgRevision": "287dbbd75e001e976e23280574c830d3c14b8a4cb8ae812126617ff40d129e84",
+          "status": "approved",
+          "reason": "The target shows a sales funnel with an upward arrow; this neighbor shows a payment form. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-backlog",
+          "revision": "66666bc8a04adc7d4d3b35c1f2b2d0b67c9286e09acce0b99a276799de32bfba",
+          "svgRevision": "30142da6d8ae80efbef520c42062ff9f06b1f7bcbbee1d08e887c9ccb0d47a25",
+          "status": "approved",
+          "reason": "The target shows a sales funnel with an upward arrow; this neighbor shows a task list. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-insights",
+          "revision": "0dfcd525ba1ebbb63a451432d0f3631200cabd8ef06009f57cafcd99e64b76f1",
+          "svgRevision": "ceb4a15fae04f9301d27fc89a7d77bf05b842ee12ed63510eef5fc3663b72833",
+          "status": "approved",
+          "reason": "The target shows a sales funnel with an upward arrow; this neighbor shows a person and magnifier. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target shows a sales funnel with an upward arrow; this neighbor shows a service checklist with people. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-person",
+          "revision": "565c92e575d1e6fde4f4b9c6e959aadc1f7878a51bdd3cbe061dbcf101d7a6fc",
+          "svgRevision": "ba245b00e721cbe90263b79a22553f97a8e4c3dc972ed99b36768244d835ff51",
+          "status": "approved",
+          "reason": "The target shows a sales funnel with an upward arrow; this neighbor shows a person portrait. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The funnel and rising arrow convey a sales pipeline; it is distinct from customer profiles, service checklists and payment forms."
+    },
+    {
+      "id": "dynamics-field-service",
+      "status": "approved",
+      "drawingRevision": "9e7dee3e683984ec7d9423393e4ca7e8416da2b494b26b13b48c5835e88d2313",
+      "comparisonRevision": "4e631ab48cd61bf635046458294b690ca5188b6590deca42dfe5461f5b2c315d",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/FieldService_scalable.svg",
+          "d112afd216caa486e6bce291b42d0349cde66ffa45052cb3855c135383bbea90"
+        ]
+      ],
+      "svgRevision": "b7477fb9dbc09a1122b7e5be4093d371d2e76da9ed9423b852a78f86c0699e41",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-clock",
+          "revision": "fc15e9f7050f978c6306780ce3c7bf9721841a4eaee828a9e43ef07e1d5ae29a",
+          "svgRevision": "b66d5975d69ddbd82e6b8e84200337f317ab86f4847d6ff9a2cab9e7f2e84c20",
+          "status": "approved",
+          "reason": "The target shows a service-location pin with a wrench; this neighbor shows a clock. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-clipboard",
+          "revision": "31af8f8e719d4860efc9bdadbbc533de52483a19b620cb477d6056fd577deee2",
+          "svgRevision": "759f457ee8d042b08a49ee35736a6ad8caf47e7ad0e48847b95ecd99dae3a831",
+          "status": "approved",
+          "reason": "The target shows a service-location pin with a wrench; this neighbor shows a clipboard. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-s3-vpc-access",
+          "revision": "e3a43f7b3eacfde8d6a9b5dcd1f9979c4632555ca020a26a6cbafed83d5a3fd3",
+          "svgRevision": "1141fc1f132fa35daa7c28c45082f9993c25222d7c0be4cd40f6822dae363bd4",
+          "status": "approved",
+          "reason": "The target shows a service-location pin with a wrench; this neighbor shows a shield on a storage bucket. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target shows a service-location pin with a wrench; this neighbor shows a service checklist with people. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales",
+          "revision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
+          "svgRevision": "ee985e748b0a315fc026dcf55c9478baabe41dcc1caaaa1007d0d25f66423184",
+          "status": "approved",
+          "reason": "The target shows a service-location pin with a wrench; this neighbor shows a sales funnel with an upward arrow. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-iot-hub",
+          "revision": "bfed785a2594c74ffc745ab0a5f9ae771df73baa4bd6f5dd82ef1ec2ba51111e",
+          "svgRevision": "4ad8bf3763dd151364ff60fd119e681c1ea36f079b7564d12b530ca73511bf3a",
+          "status": "approved",
+          "reason": "The target shows a service-location pin with a wrench; this neighbor shows a hub with spokes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The location pin and wrench communicate field repair/service and differ from clock, clipboard, customer-support and hub marks."
+    },
+    {
+      "id": "dynamics-business-central",
+      "status": "approved",
+      "drawingRevision": "0d7e25ab7361c54a42c5feb9e80e24d99ab0b2f0916e7f138b94153de229264a",
+      "comparisonRevision": "cb6c52b710e3810a864494affaf786ff91511aa1ecbc098731c2009055872d5a",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/BusinessCentral_scalable.svg",
+          "5feca347f00caff15a3c9beccdade2d544d464ca31e49e72ce035c1b319f020b"
+        ]
+      ],
+      "svgRevision": "d243ae281740c87843eea8b86cb8f641172bd972dc4cd6cd20e4df1463d01873",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-stacked-text",
+          "revision": "eab489ef06963925510264be1eff1e60a606f3172e9a1516e2f1eedfd065c55e",
+          "svgRevision": "90342723dbdbf27d4641934f715fb7c7dcd4693ffe532fa1001add8e3fded8d1",
+          "status": "approved",
+          "reason": "The target shows a ledger page with a cube and add mark; this neighbor shows stacked text pages. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-storage-queue",
+          "revision": "bc6b5b153723ae897bb2968c6702d2fd96c6f03f42be8f728cc7edba0d6f0d4a",
+          "svgRevision": "a38d7fbe50482e218a452d515afea256ef5d0c613b4b20a01e3149316fff6d87",
+          "status": "approved",
+          "reason": "The target shows a ledger page with a cube and add mark; this neighbor shows horizontal message queues. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-family",
+          "revision": "e242505d6cf85bc8e42d407f644bd3b81c42e3440ba199853025f497fd9b8538",
+          "svgRevision": "dd2ded45d38ac2b829c7dea6dd713c0fba387e8a82323c0d0c2d95424ed16460",
+          "status": "approved",
+          "reason": "The target shows a ledger page with a cube and add mark; this neighbor shows a family of business panels. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance-operations",
+          "revision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
+          "svgRevision": "2b80bb7d3af98828a5aff21cb2ff18df6768aea00c62d7f4851b8703c2acc1d5",
+          "status": "approved",
+          "reason": "The target shows a ledger page with a cube and add mark; this neighbor shows a finance chart. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-dataverse",
+          "revision": "a2b28f622a00b0e4ddebf37dc0c015c1fb3390dce7b7b3ccb0dd8ce61ae7dc64",
+          "svgRevision": "d207cb36afd4c39a3c455ae6425471614e70fa7a4e3227b3c8f35e99a035f93a",
+          "status": "approved",
+          "reason": "The target shows a ledger page with a cube and add mark; this neighbor shows four connected data tables around a hub. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales",
+          "revision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
+          "svgRevision": "ee985e748b0a315fc026dcf55c9478baabe41dcc1caaaa1007d0d25f66423184",
+          "status": "approved",
+          "reason": "The target shows a ledger page with a cube and add mark; this neighbor shows a sales funnel with an upward arrow. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The ledger page with a cube and add mark suggests business records and inventory, distinct from finance charts and product-family cards."
+    },
+    {
+      "id": "entra-family",
+      "status": "approved",
+      "drawingRevision": "68179d12d47f7f9ab691a6fbaad206bfecd352b407ae8d045b28bb494c776ede",
+      "comparisonRevision": "0d8b6d178ca7f238305dee582069a91fed08b8a08eda76c733bbb6bba099312d",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra BW icon (product family).svg",
+          "67afeb704a5f78cc2b48a05ddae3843af95cc43d1aeffba7816b5f5b025d6a43"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra Product Family.svg",
+          "54cfc122b66b0597911a71b5ca7b8196c9b8e4c939dcf9f1f7c381d1b3f5e521"
+        ]
+      ],
+      "svgRevision": "25bec215ca8c95b73d3d796f092633994be4cc4d3c2ebcb38b9d034be9d60024",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-calendar-link",
+          "revision": "ba07eb8d928a1735f7f45d0bdd2f6fcfeb822f95a684f0fd87003e7efd6c958c",
+          "svgRevision": "138d0643a892978470dc99bdee90a524d44c62faab3f8894476ab2343bb27730",
+          "status": "approved",
+          "reason": "The target shows a set of identity cards; this neighbor shows linked calendars. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-availability-sets",
+          "revision": "f4c612ee8d013bd5e6a0d779362e1af3a2c5228d817ad435d8501ce54698e49d",
+          "svgRevision": "887abc5703250f723cd6b3050c221bb6d262c5d7a1dcfbe20de2bc69bd3e7aba",
+          "status": "approved",
+          "reason": "The target shows a set of identity cards; this neighbor shows availability resource cards. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-azurite",
+          "revision": "2dac72e4b13552f3de56015d29c895d8e65219d5877e39d4ec619c25a6c804cf",
+          "svgRevision": "5dbbdbe8ccc18e52338755c6f3c758acb5b129e10bfc64152f812ce74ec7bafc",
+          "status": "approved",
+          "reason": "The target shows a set of identity cards; this neighbor shows a storage account. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-id",
+          "revision": "e27e4c0ea621ced645403af2cc15d586af422b41765be46b0a621f4b1f583f61",
+          "svgRevision": "68803be337ae7c0eb7cebe061d794f6ceaca683b3e2ae28435d2dfc67eca0098",
+          "status": "approved",
+          "reason": "The target shows a set of identity cards; this neighbor shows a person entering a gate. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-governance",
+          "revision": "a3060fe80ce0007c380d4700db9a37fc95fc41006a5bd99e3c905ed3f3a4ae69",
+          "svgRevision": "f7c819893595268c6d0f4184e037361d47097c1793034f97f16e4e25de3cab9b",
+          "status": "approved",
+          "reason": "The target shows a set of identity cards; this neighbor shows a person in a shield beside a checklist. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-verified-id",
+          "revision": "56f0a9d4f80b8b2a62185407fc944b6100cfc238cd778ebc3d16bdcd2993bfcb",
+          "svgRevision": "8e43eebbb74a9142933ca5ffcdfcf91c8ee49ceb329cd0503e9cc93d36efac26",
+          "status": "approved",
+          "reason": "The target shows a set of identity cards; this neighbor shows a verified identity card. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The linked identity cards communicate a product family and remain distinct from the gate, governance shield and verified credential variants."
+    },
+    {
+      "id": "entra-governance",
+      "status": "approved",
+      "drawingRevision": "a3060fe80ce0007c380d4700db9a37fc95fc41006a5bd99e3c905ed3f3a4ae69",
+      "comparisonRevision": "e86f6df407893d3acb336ac11e411de3bf5182098a29033cb75f308c6a9b8249",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra ID Governance BW icon.svg",
+          "843982d25d9a140459bb34877297fc668427687e1e22064925c949327e167ff8"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra ID Governance color icon.svg",
+          "ab0251c1ccc8f681a3c61fd85bf88a893111cc3efe1288b7070ac74fea438a98"
+        ]
+      ],
+      "svgRevision": "f7c819893595268c6d0f4184e037361d47097c1793034f97f16e4e25de3cab9b",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-backup-vault-resource",
+          "revision": "56b4c475c42553bcfab47797fa74b567fa01a0d153e6064b894605cc6ed7fa71",
+          "svgRevision": "79a3b636314e179128bfc7a254df121ae45193bd725d7ff44ed1041b715bfdfb",
+          "status": "approved",
+          "reason": "The target shows a person in a shield beside a checklist; this neighbor shows backup pages with a shield. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-disk-encryption",
+          "revision": "3dcc04f56dbf9572c9ba161130c727250d15aa69ff3a61080589dba870c60744",
+          "svgRevision": "8180b2d39c1c4b1fbaba817e44c606a239b3a36fe5d5b0b131bf760d5846f82d",
+          "status": "approved",
+          "reason": "The target shows a person in a shield beside a checklist; this neighbor shows encrypted disk stacks with a key. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-tfs-vc-repository",
+          "revision": "56270697da1102ebc66581821a07b74e2e6a80628cb82c43a4d98c0ae9b12e12",
+          "svgRevision": "e0b29371861764d985e9641e35522b234e6be6fb4e506a9beb5a0e78eac0d311",
+          "status": "approved",
+          "reason": "The target shows a person in a shield beside a checklist; this neighbor shows a version-control repository. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-identity-governance",
+          "revision": "f13b4090696f479f9746bfb579d19c0b770bd45b697305c076f0af8e5e2ce582",
+          "svgRevision": "c96d72928c8a473a0c722d05beffc9ba41e4cab32640ce2af29ae1ad2005f014",
+          "status": "approved",
+          "reason": "The target shows a person in a shield beside a checklist; this neighbor shows identity branches. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-privileged-identity-management",
+          "revision": "9970eec58b4d7267927827beff6278f1aee1d8cd26bea25f346d663c4df41eb9",
+          "svgRevision": "eda3794efdf55588714e9fead6315103cf2b7ee87cf9119df56d2f20e0afabe6",
+          "status": "approved",
+          "reason": "The target shows a person in a shield beside a checklist; this neighbor shows a privileged identity with a time control. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-identity-center",
+          "revision": "d723b979dc15ac07c329b9aed326a9b54c38160d23bd5f3bb96f914e03e0be9d",
+          "svgRevision": "4b4b1dab865afa81487026fcc2fdd7ab3c6348a9e8039bd98cc2033dbb4f48d5",
+          "status": "approved",
+          "reason": "The target shows a person in a shield beside a checklist; this neighbor shows a person connected to records. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The person, shield and checklist indicate identity governance and differ from backup, encryption, repository and identity-directory neighbors."
+    },
+    {
+      "id": "entra-internet-access",
+      "status": "approved",
+      "drawingRevision": "f2dc58fe5b28afb84eea025caf4fadba0e38eaace411f0db7286ca226db56361",
+      "comparisonRevision": "e56c7f040b38daaf5a76e3011d5ece915646bdc50622be1ccdbb34b0ecf52f88",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra Internet Access BW icon.svg",
+          "c3e55bfbb27ed7df20a08ac3bc9fd1d6bc1a78cdd5b4dd9493d718dc1fcbc445"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra Internet Access color icon.svg",
+          "f97cc4ebce3e8db577f2bec181df0eace0f7bbda09a0085f472b042a3bf0409c"
+        ]
+      ],
+      "svgRevision": "b44cf4d3ad1b62916bb8be0846be9f771c7c251e1f243d3ff40faaebace25f31",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-fsx",
+          "revision": "45c86fd450494ee0776d824a45a61c702b76ccd03914f7978b2e95e436f463cd",
+          "svgRevision": "0b5c319a21d46fcb0ee349f4208677dea68205d6181b5aecaaf7e3fd33d6a4e1",
+          "status": "approved",
+          "reason": "The target shows a shield and globe; this neighbor shows a file system. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb-global-secondary-index",
+          "revision": "7d3d3bedf4bb16884c55a9a7003ba715767f726ab54828708ecc219541466411",
+          "svgRevision": "e9ee923d87d249f3a506b4db8ccf695b06755ae90813d6f6e82e260395e1845e",
+          "status": "approved",
+          "reason": "The target shows a shield and globe; this neighbor shows an indexed database table. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-greengrass-stream-manager",
+          "revision": "9ad6f2475353f6dee9724e26dbbecb9199bfd53b92ca5d4359b7b05b5a19362e",
+          "svgRevision": "95ab8ffe0ab518753e53a83e72716471eccfceb6725cfee54e5e96c5512f33d9",
+          "status": "approved",
+          "reason": "The target shows a shield and globe; this neighbor shows a stream-management server. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-private-access",
+          "revision": "53c86c08a76057172ee895b868e73ddd483f8f3fbf28d83a5d93ca4ae13521b4",
+          "svgRevision": "c1936fac2981879c1a9f835fd77487852e4dac4afca0530e5aea341a94412ed8",
+          "status": "approved",
+          "reason": "The target shows a shield and globe; this neighbor shows a locked doorway. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-entra-private-access",
+          "revision": "6e849e37646b0af5e0142a1791cd801760d61dd1e8db1e92feafd0d44eb4a3b2",
+          "svgRevision": "34cb6acdadddfcee6fe597cf05b7f973218ed813fe50aad886ac1d09b74a4601",
+          "status": "approved",
+          "reason": "The target shows a shield and globe; this neighbor shows a person at an access panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-virtual-network",
+          "revision": "ffd9dbda5c9bb6364783837b0df3c8b750fa53d8f695d258c88e0c0641f570fe",
+          "svgRevision": "e44c11ff46c09e6514e5438470a55bcf1e4e53b15c1f7f3c2f70792e4a5ce4e4",
+          "status": "approved",
+          "reason": "The target shows a shield and globe; this neighbor shows connected network nodes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The shield over a globe communicates protected internet access, distinct from locked private-access doors, file-system blocks and network topologies."
+    },
+    {
+      "id": "entra-private-access",
+      "status": "approved",
+      "drawingRevision": "53c86c08a76057172ee895b868e73ddd483f8f3fbf28d83a5d93ca4ae13521b4",
+      "comparisonRevision": "82996e80f8bd30aaaa9bd2f348521bc6ad4fb5e21479c7e3e01b8fa0d8861f13",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra Private Access BW icon.svg",
+          "2068df95baefb65837583599f41cc48a0edaf8382b6a63ac8784be72e0ef39ba"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra Private Access color icon.svg",
+          "d1f48fc1d50c3e61cdc52226a8134aa9928d3d33c1d733ef1369aa2b1707697e"
+        ]
+      ],
+      "svgRevision": "c1936fac2981879c1a9f835fd77487852e4dac4afca0530e5aea341a94412ed8",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-text-to-speech",
+          "revision": "c322c906601dccd83077e98f5374f3fbe9137024f47a00471b8a88bb7c6bd750",
+          "svgRevision": "ee490d00d6cbbca7da4ace40e761c3d1ea97863dc5e35dd86b915a9acd1217a2",
+          "status": "approved",
+          "reason": "The target is Entra Private Access; the comparison shows Google Text-to-Speech. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-shifts",
+          "revision": "f4b2c57334961e4517c476d75db1d38970283bd414386a3b4423044f73f3eae4",
+          "svgRevision": "77e70f546067d36a13223de2ceb967386183076ae77b8c622e178bdb7390ba63",
+          "status": "approved",
+          "reason": "The target is Entra Private Access; the comparison shows Shifts Activity. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-calendar-lightning",
+          "revision": "2a90ddd0e2026e4cbc0076793b90de417118bb7e810685ce07f76163c5d1e661",
+          "svgRevision": "fea7a34b51c43ad0a076145f6f2faff0329cf4e75b3c1404bde04f6fbf1c5503",
+          "status": "approved",
+          "reason": "The target is Entra Private Access; the comparison shows Calendar lightning. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-entra-private-access",
+          "revision": "6e849e37646b0af5e0142a1791cd801760d61dd1e8db1e92feafd0d44eb4a3b2",
+          "svgRevision": "34cb6acdadddfcee6fe597cf05b7f973218ed813fe50aad886ac1d09b74a4601",
+          "status": "approved",
+          "reason": "The target is Entra Private Access; the comparison shows Entra Private Access. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-private-link",
+          "revision": "875e2f0c4747ec2fd07e2bbf88c70ae45c6afdfb1d29ef1ff104384cbfdecce8",
+          "svgRevision": "5de61c1808dfccca06e1f46634dce2aae980c04580d666e16af2f5976444ae11",
+          "status": "approved",
+          "reason": "The target is Entra Private Access; the comparison shows Azure Private Link. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-internet-access",
+          "revision": "f2dc58fe5b28afb84eea025caf4fadba0e38eaace411f0db7286ca226db56361",
+          "svgRevision": "b44cf4d3ad1b62916bb8be0846be9f771c7c251e1f243d3ff40faaebace25f31",
+          "status": "approved",
+          "reason": "The target is Entra Private Access; the comparison shows Entra Internet Access. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A secured doorway and credential mark communicate controlled private application access; unlike Internet Access, the motif stays local rather than using a globe."
+    },
+    {
+      "id": "entra-workload-id",
+      "status": "approved",
+      "drawingRevision": "043b7c9dc44d14635f17271c95c95a904613f94d4311516589d63406da1ea7d5",
+      "comparisonRevision": "e56ff2309d20c9ddf9ade752c5fb28c34ba152c5b1fce1607b6e89b7a090a5b5",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra Workload ID color icon.svg",
+          "417c24b81500d486cec870123953f8dc7c311aa61072651822fd9326433e361c"
+        ]
+      ],
+      "svgRevision": "342b2577986b65a78487bac286dc70971b99d69a5ced92a2c78306f68eac36a4",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-batch-accounts",
+          "revision": "f263991c75e1fd31b79484d51fe25843d4a33b919d5f4a882042eeee663f035d",
+          "svgRevision": "0378a9f63bbc79faaf17cb7685556ed0751803d3d5b89595a931267eae9c77b6",
+          "status": "approved",
+          "reason": "The target is Entra Workload ID; the comparison shows Batch accounts. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-qna",
+          "revision": "eedaaa5ef94f802ff049bea432374f36226966b79548cab9b1023cf0626ba803",
+          "svgRevision": "2520b15c453fb5deaf4f9aebdbca3f280677f46d95f0d3e6e1c1913327647eba",
+          "status": "approved",
+          "reason": "The target is Entra Workload ID; the comparison shows QnA Makers. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-tooltip-data-bars",
+          "revision": "d9d7aac2d85cfc1b041e365fa15767eba38da7b3fa212fee29161251878722ca",
+          "svgRevision": "6328fb16c758eae3d2b117b16c9e4121c7073526ecb88f547c827ca850779271",
+          "status": "approved",
+          "reason": "The target is Entra Workload ID; the comparison shows Tooltip data bars. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-id",
+          "revision": "e27e4c0ea621ced645403af2cc15d586af422b41765be46b0a621f4b1f583f61",
+          "svgRevision": "68803be337ae7c0eb7cebe061d794f6ceaca683b3e2ae28435d2dfc67eca0098",
+          "status": "approved",
+          "reason": "The target is Entra Workload ID; the comparison shows Entra ID. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-governance",
+          "revision": "a3060fe80ce0007c380d4700db9a37fc95fc41006a5bd99e3c905ed3f3a4ae69",
+          "svgRevision": "f7c819893595268c6d0f4184e037361d47097c1793034f97f16e4e25de3cab9b",
+          "status": "approved",
+          "reason": "The target is Entra Workload ID; the comparison shows Entra ID Governance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-workload-identity-pool",
+          "revision": "235ed5498036c7c2e80df42437ae6f36a18e199a36dbef50cbd4ebe4eaded939",
+          "svgRevision": "0fd82357712249a0d5b54498248b180461cca8028905722c02050eb4d8917c86",
+          "status": "approved",
+          "reason": "The target is Entra Workload ID; the comparison shows Workload Identity Pool. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The paired service/code and credential panels read as a workload presenting its own identity, distinct from a human directory, governance shield or generic data panels."
+    },
+    {
+      "id": "power-agent365",
+      "status": "approved",
+      "drawingRevision": "4c0a8287943f894bdafa0fb60dc21795c39a0e6964cd92f669c94e3b5f17798d",
+      "comparisonRevision": "ec6f3d78b5f91196034bfb5d6ec61b3eda5ed0585089b9491dcdc65b3abe8b7a",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Agent365_scalable.svg",
+          "7f38703b3027fceaa0253631ce73db93bd88d7ea83b3f2340559d7386a1b867f"
+        ]
+      ],
+      "svgRevision": "494d2b201e3a78bc47d5642207770b0c70d3d4b15f442631d74a4781851ec972",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "dynamics-contact-center",
+          "revision": "620bf17c3fa0e6b3802be17fb883dd4185f7a79238d744b282eff8f1503c688e",
+          "svgRevision": "1ef1acf88190fd7d6b7b48ad88dcfff573f744df81aa431c297a2370959a1cfc",
+          "status": "approved",
+          "reason": "The target is Agent 365; the comparison shows Dynamics 365 Contact Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-semantic-model",
+          "revision": "1609c2a6ea9144fee8afc87f9aa53f8e0b9fe2cc1d70d375f45e7e7d32887a03",
+          "svgRevision": "d37ff494ce159468a95db550c428bbc913edb6fd4d25f56e325d00813251cce4",
+          "status": "approved",
+          "reason": "The target is Agent 365; the comparison shows Semantic Model. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-business-process-tracking",
+          "revision": "216410211adf8ca55ef1bfc9c4ae4f3875f5da5eddb286ab6dff9c03f74444e3",
+          "svgRevision": "a32f1a4fb2243ea02a4d4c025ff40fa98e978b40eb69a03c4c17c089e66e4b61",
+          "status": "approved",
+          "reason": "The target is Agent 365; the comparison shows Business Process Tracking. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-platform",
+          "revision": "95a1cb67ac49cde9841a012cd446c2a907baaf04c525f9f3af16421185d9a3dc",
+          "svgRevision": "64ea2abf344baff4f08ede7c9dd1d89fe9526dafd84fc996530021c541015878",
+          "status": "approved",
+          "reason": "The target is Agent 365; the comparison shows Power Platform. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-operations-agent",
+          "revision": "0f18d0ef195190ac4a1ed24bdbb0d47ba1a0c167a246555e64b8f38ac4b0abba",
+          "svgRevision": "302e7de712538da3b812d142f5608096e16a1ece3c92a939cd9b94c2411e7457",
+          "status": "approved",
+          "reason": "The target is Agent 365; the comparison shows Operations Agent. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-category-agents",
+          "revision": "d3ba22d5c44a6398766d167c3d293ae2785e36ce5396981a1c45af55c0a73883",
+          "svgRevision": "2f8260d73afd03511a1461f4494781a2a202c9d8b4439f058039973283c96d77",
+          "status": "approved",
+          "reason": "The target is Agent 365; the comparison shows Agents. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The central assistant connected to separate action cards depicts a managed agent with routed work; the small-size drawing remains distinct from service desks and platform diagrams."
+    },
+    {
+      "id": "power-copilot-studio",
+      "status": "approved",
+      "drawingRevision": "1cd255c4397fc6e6f7f9ac65e018f8029213e97e95c7dd418ef37147938463c9",
+      "comparisonRevision": "3997b8df7aa436432ff6b518ff5d378e018742fab4a5b5cf4d950ebf1088883e",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/CopilotStudio_scalable.svg",
+          "65c9130c7f5cc0f9f6261db4d7eca64d09d8b1dc1bf0285c1a834ec0ac2d40c6"
+        ]
+      ],
+      "svgRevision": "52f467d65fb623fdf7f73acad345d6dcb0e7e4c1f5978c2d62a228d772be96e7",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-planning",
+          "revision": "6265cc5cbcef3f09222e34a6241b8f83acae2ec7fea728c33814a0c358d9ef0a",
+          "svgRevision": "87f0adf92644fae56ffa42cdbe69aa7e6f5f7ca0a4b10f9572fed0bd4742a095",
+          "status": "approved",
+          "reason": "The target is Copilot Studio; the comparison shows Planning. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-managed-sql",
+          "revision": "d98ad1a9e9b2cf52201e63c214097ca4f27b142259bdaf7651cd0d2cc8c2109d",
+          "svgRevision": "9c9e96fbc5e6edbbfa8bd04ade9e60f9dbb3c9a7eec600ca872d90cce5ea70c7",
+          "status": "approved",
+          "reason": "The target is Copilot Studio; the comparison shows Azure SQL Managed Instance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-device-management",
+          "revision": "fe9701f8f7469d49d3915ccc7c83038a3aa0051f6c6b1fc7bd30a1832b454fc3",
+          "svgRevision": "957a26061150cba6818785bf6b040eaf5fe63d73465bf1623452d7756aa4fb3c",
+          "status": "approved",
+          "reason": "The target is Copilot Studio; the comparison shows AWS IoT Device Management. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-copilot",
+          "revision": "498871c0be7a9f3d23295efd03257342848afb7dd7be17bc566dacf8e1d13d79",
+          "svgRevision": "c477cd51b705cedb431e7ea977515be1679cdf0d9bb2919de7703ad09e66eda5",
+          "status": "approved",
+          "reason": "The target is Copilot Studio; the comparison shows Fabric Copilot. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-apps",
+          "revision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
+          "svgRevision": "61118d81ab3eb5f6665f42ad7af043509861c71019d938aad3e2ae9417f6145c",
+          "status": "approved",
+          "reason": "The target is Copilot Studio; the comparison shows Power Apps. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-app-studio",
+          "revision": "0844fd7ca2cdcd059934dc2fc8bb4f5bf422864de248f6ba7d267aa11dcf7e03",
+          "svgRevision": "5ecc9579ac0d574d9d7c70fdcd97bd7fe236d40c683830682f7a897a11c4ef3f",
+          "status": "approved",
+          "reason": "The target is Copilot Studio; the comparison shows AWS App Studio. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A conversation panel, branching tool arm and control sliders convey agent authoring; the silhouette is distinct from planning boards, data stores and device management."
+    },
+    {
+      "id": "power-ai-builder",
+      "status": "approved",
+      "drawingRevision": "5c597433dcc00aec45aca5dac28214bbebb6ab89fc4713dd1f7a0e17b1e2b169",
+      "comparisonRevision": "f77ca76c0fe2ab93818954f60039b5dad444cc7e5de0e57366d5b37968c4df80",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Power Platform/AIBuilder_scalable.svg",
+          "05e4b904f89324ed34c754546de7382dcb9a38723005bec473d47babb2878727"
+        ]
+      ],
+      "svgRevision": "359c96934d3357793d275385b92bb1ebf495acf1c2c66a35d4076c1a33cbfb0f",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-cloudhsm",
+          "revision": "ad674a3ec31f6357d2f181c3d41ce9808c2db116f7f14aa4edc7e286ffefc300",
+          "svgRevision": "654faedfa7dc0991a480be967648ab15abbb61069d3a2e9f51cf050db90b1605",
+          "status": "approved",
+          "reason": "The target is AI Builder; the comparison shows AWS CloudHSM. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-managed-grafana",
+          "revision": "7d39b4ef817661cc93120f7501f87b419b93d2e84b300a25192bdd5a7614ab47",
+          "svgRevision": "43862b0b608524586aed8b947b3b2fd4fe674085edee63f7543679815a1375af",
+          "status": "approved",
+          "reason": "The target is AI Builder; the comparison shows Azure Managed Grafana. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-waf-labels",
+          "revision": "0313541d57572adbdd9f41ce42a4c814543d4b507a4425f9e1a9f447e65fb5d8",
+          "svgRevision": "e3f0ecc881ca61694b3db3958a33de83cc185ec123f35bdbe0147d9276a7b3fb",
+          "status": "approved",
+          "reason": "The target is AI Builder; the comparison shows WAF Labels. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-app-service-builder",
+          "revision": "f7bcd98b543ae31a4b610e2402591c6eca95370c306b94ac38592d2652dbda8b",
+          "svgRevision": "e24f076c38540adc4fc5a8c4bf00f4bbac0a17dfdca408803f1cbc2d3be7e9ea",
+          "status": "approved",
+          "reason": "The target is AI Builder; the comparison shows Azure App Service Builder. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-apps",
+          "revision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
+          "svgRevision": "61118d81ab3eb5f6665f42ad7af043509861c71019d938aad3e2ae9417f6145c",
+          "status": "approved",
+          "reason": "The target is AI Builder; the comparison shows Power Apps. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-document-ai",
+          "revision": "86d325ac8092a867ea2fd4531a528d84c853caf4dd62f411d792019420cfb425",
+          "svgRevision": "1d7d6e6ce789a542620e342074259a933075011ccbe390d9b16e8d4ed9e2ac3b",
+          "status": "approved",
+          "reason": "The target is AI Builder; the comparison shows Google Document AI. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A model-building panel with connected learning nodes and an added component reads as AI authoring, distinct from security, observability and WAF labels."
+    },
+    {
+      "id": "power-pages",
+      "status": "approved",
+      "drawingRevision": "26f68ef1f172442ad7f1679c5cccc9405c86752dc65df0ca669925c900270796",
+      "comparisonRevision": "4fecce99eaf4e07e70fa1892d1953e88d382d27def279a9683f9112228e22753",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Power Platform/PowerPages_scalable.svg",
+          "a1a9869dae0800b79334d96a5be82a22bd97684f141857c3821c9a1ccca0827c"
+        ]
+      ],
+      "svgRevision": "8fddcb81b32b9a4eb3c908c09104ab96854e499d0eff85bcb21a4ed928aa8e20",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-restricted-scorecard",
+          "revision": "773928fe2a8348112a69d475adab4141405f79c7f47ff3d212fa1176e6b29fad",
+          "svgRevision": "191f9d81e70f4b5ac0e39ff40685a41c8241cf5b8a38ecefd5ec246dba033fa8",
+          "status": "approved",
+          "reason": "The target is Power Pages; the comparison shows Restricted Scorecard. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-environment",
+          "revision": "a90973da5ac9455899eb5bc6c969567b4d88b572a009c9ae864c0b041afc53ed",
+          "svgRevision": "5c1538469d4f05c8e1e08d75fe9c4b74ded2af75ad1d9cb51f7049767bdd65a2",
+          "status": "approved",
+          "reason": "The target is Power Pages; the comparison shows Fabric Environment. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-table-kql",
+          "revision": "9b2a2cb80370ed9fc5058783ff4c236f9430311de0ad5bcf74031090da646a8b",
+          "svgRevision": "4ae652eddaa90fb1359ca8124da1394ad0b24abf93ecade93aa2426f4688dd15",
+          "status": "approved",
+          "reason": "The target is Power Pages; the comparison shows KQL table. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-website-power",
+          "revision": "99de284183c3bd1d66d895f80f85763b2f2b9489549583f1151aadd2c0dc4014",
+          "svgRevision": "962c33cbef34b0d5d70f5c27e93a9b733b1a64382ed50587abe1472acff11865",
+          "status": "approved",
+          "reason": "The target is Power Pages; the comparison shows Website Power. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-document-page",
+          "revision": "fd7ee7e1e0ac26d86ce6e6d1fbf657c84f251842a85dc7a292c6810fb97258f9",
+          "svgRevision": "4386b4dff904f72c3ea4cec23144daa15866ee1841177b0ce90cd587de8c6920",
+          "status": "approved",
+          "reason": "The target is Power Pages; the comparison shows Document One Page. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-apps",
+          "revision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
+          "svgRevision": "61118d81ab3eb5f6665f42ad7af043509861c71019d938aad3e2ae9417f6145c",
+          "status": "approved",
+          "reason": "The target is Power Pages; the comparison shows Power Apps. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A published web form beside a globe conveys a website reaching the public web; the 32px globe and page remain distinct from report, environment and table marks."
+    },
+    {
+      "id": "power-platform",
+      "status": "approved",
+      "drawingRevision": "95a1cb67ac49cde9841a012cd446c2a907baaf04c525f9f3af16421185d9a3dc",
+      "comparisonRevision": "6a36beeb2362cfd433779e3348af50ac4a00a701b766979aa646234495742ae8",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Power Platform/PowerPlatform_scalable.svg",
+          "4e7ab02b3b58c6d7270492c6dfb671ab8732a0de4e661a96f946a03ce641ad78"
+        ]
+      ],
+      "svgRevision": "64ea2abf344baff4f08ede7c9dd1d89fe9526dafd84fc996530021c541015878",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-kubernetes",
+          "revision": "c9b76f7ab9b49dd3e6d4d7783e7e3599507d397e56516085d808fcdbdbab19b3",
+          "svgRevision": "4e970bd7346bb41e5db1db7640751bb311b4786e2dd9baa0c92a5d79d1297ddd",
+          "status": "approved",
+          "reason": "The target is Power Platform; the comparison shows Kubernetes Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-core",
+          "revision": "0b8e2f74edf44c7077191109398548a563e36de2ab3351be62de272f8011d088",
+          "svgRevision": "dee5a732d6229ffded873e431db333425aa85a9a62a9d15f7ba43902c90f0b7f",
+          "status": "approved",
+          "reason": "The target is Power Platform; the comparison shows AWS IoT Core. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-commit-circle",
+          "revision": "926a6bf9e84778945b6086fd19cf106dc2ef0ffd8c86770ca29a43eb4e6af333",
+          "svgRevision": "44dde07f3d49014493cb5927930874894de2ed05b9aac0a415b4fa8d9edecd19",
+          "status": "approved",
+          "reason": "The target is Power Platform; the comparison shows Commit in circle. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-platform",
+          "revision": "3dc28acdb3e05017b0e4932b02a01fd87a0bd293ab13133af3bcb94d3bda2b4f",
+          "svgRevision": "7cd55dda1a123102f8afdf9a7d6155cb0af2c15bb4446298146a814b57ffb386",
+          "status": "approved",
+          "reason": "The target is Power Platform; the comparison shows Microsoft Fabric. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-power-platform",
+          "revision": "acbc67cd8ff6b8d76a82bbf9911012364ec373972a05f75004533cab817160ac",
+          "svgRevision": "d0c3611085c230eb1b31cc431f6eaa55b38d29519151e192c70a2a33edb02400",
+          "status": "approved",
+          "reason": "The target is Power Platform; the comparison shows Power Platform. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-apps",
+          "revision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
+          "svgRevision": "61118d81ab3eb5f6665f42ad7af043509861c71019d938aad3e2ae9417f6145c",
+          "status": "approved",
+          "reason": "The target is Power Platform; the comparison shows Power Apps. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Four different blocks connected through a shared hub convey a platform of related tools; it is distinct from Kubernetes, IoT and commit/workflow symbols."
+    },
+    {
+      "id": "dynamics-commerce",
+      "status": "approved",
+      "drawingRevision": "2eb0d74c2d1840edc7193c0e11ffd70011353b2c4fffe39aef48d5b369257fbf",
+      "comparisonRevision": "784be1b27695dcbcf9f50974c11e6c8b94f0d62c78e0baf4469ac0c3e44f0352",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/Commerce_scalable.svg",
+          "a10e426d9d4ad2a2a3f72ba4b062c28b381226a135772dc3f2767eb06b539e76"
+        ]
+      ],
+      "svgRevision": "316e9e381cba510ade822bac4ca533870b7998190cf99fa0a7462570f84a8ea1",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-square-waves",
+          "revision": "63566793a699eee8c7e2fc5fdc3a19867793687511cb70a0504858d75ecce20f",
+          "svgRevision": "7758cf0d97cd7463af43120198976da94fd84afab5f6b9b134822ae3251d304f",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Commerce; the comparison shows Square waves. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-assured-workloads",
+          "revision": "cf29bacd187b2c9216f15c636471baab415c11485c6ab3d64dd0c1343c45735f",
+          "svgRevision": "eef804c1d5ebe5bd69f45aa8262e0fe5ed5e91915c55b191c0d9a938eed8bb14",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Commerce; the comparison shows Assured Workloads. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-datazone-portal",
+          "revision": "00c8269c9b8bfe3519faa0cdd8c3cda33913b593abc1676428d2d015dbeeb68c",
+          "svgRevision": "cafae4ea8cb653d68238a74aeb5c2296eb21454e1564b0d55ebde768286e9756",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Commerce; the comparison shows DataZone Data Portal. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales",
+          "revision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
+          "svgRevision": "ee985e748b0a315fc026dcf55c9478baabe41dcc1caaaa1007d0d25f66423184",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Commerce; the comparison shows Dynamics 365 Sales. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance-operations",
+          "revision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
+          "svgRevision": "2b80bb7d3af98828a5aff21cb2ff18df6768aea00c62d7f4851b8703c2acc1d5",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Commerce; the comparison shows Dynamics 365 Finance and Operations. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Commerce; the comparison shows Dynamics 365 Customer Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A retail storefront and checkout basket read clearly as commerce; at 32px the awning, counter and basket remain distinct from the funnel and finance motifs."
+    },
+    {
+      "id": "dynamics-contact-center",
+      "status": "approved",
+      "drawingRevision": "620bf17c3fa0e6b3802be17fb883dd4185f7a79238d744b282eff8f1503c688e",
+      "comparisonRevision": "61a0ad8e5608a686567b6eb1440f91d15c3430c8bc6472d4d0bcf73046857e22",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/ContactCenter_scalable.svg",
+          "89b5918211fb7cde0b225a23d237f05e3b77c4f9341618a0048b81f3a3feeaf5"
+        ]
+      ],
+      "svgRevision": "1ef1acf88190fd7d6b7b48ad88dcfff573f744df81aa431c297a2370959a1cfc",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-documents-dax",
+          "revision": "13e7627dd0c34859040f9a617f042c1f156b3806817ae9cb10ce97a3656e6089",
+          "svgRevision": "b401cca86f57ff8ade409b5bb905a83cb8441ff934ea589a909a2788bbf4a644",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Contact Center; the comparison shows Multiple DAX documents. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-fsx",
+          "revision": "45c86fd450494ee0776d824a45a61c702b76ccd03914f7978b2e95e436f463cd",
+          "svgRevision": "0b5c319a21d46fcb0ee349f4208677dea68205d6181b5aecaaf7e3fd33d6a4e1",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Contact Center; the comparison shows Amazon FSx. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-managed-blockchain",
+          "revision": "6ca51cd0e4f69f160ef4486f591f83aeb2186f8ac8eb7fb7e1bb1bc48bb2470e",
+          "svgRevision": "7e3944293bdb46249496e0fb4b7d662b7cc6b95fd1db9c5d7178c5a982974435",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Contact Center; the comparison shows Amazon Managed Blockchain. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-contact-center-ai",
+          "revision": "6136d97f2d8c22f30755b7a96dc8ebcc149451473dea8e152dd6887121833295",
+          "svgRevision": "12c4866bf10a3c14b1a26633ef559b456c49af538d8977a028d6cce726b971d1",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Contact Center; the comparison shows Contact Center AI. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Contact Center; the comparison shows Dynamics 365 Customer Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-voice",
+          "revision": "239ade9afb8e8a4a95f7087e59e60cc92282045f7763eada3844818bc3c591fc",
+          "svgRevision": "526881988aac2ebce0b3a3b2105c98285b8531ca418b3e34e08c75839908ec11",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Contact Center; the comparison shows Dynamics 365 Customer Voice. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The operator station connects several headset/contact channels; the 32px form remains distinct from the nearby person-search and speech-bubble marks."
+    },
+    {
+      "id": "dynamics-customer-insights",
+      "status": "approved",
+      "drawingRevision": "0dfcd525ba1ebbb63a451432d0f3631200cabd8ef06009f57cafcd99e64b76f1",
+      "comparisonRevision": "ff1ea3a8de6c4d8b5ca7ab8a57202aacd9f0cf31f1296bf504be703f434497ab",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/CustomerInsights_scalable.svg",
+          "20e828bfe0067b27f5d03d57ddda5dcf95a68a3142ba790d953f4eba679ec87f"
+        ]
+      ],
+      "svgRevision": "ceb4a15fae04f9301d27fc89a7d77bf05b842ee12ed63510eef5fc3663b72833",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-search",
+          "revision": "7e6ae54c744cbf5d92c0a040d3d20820829ff1c8646615e5f368409bbdb6b3d1",
+          "svgRevision": "da5f60ac9c1b9a1cd819bb91b2e3078d67482cb15eb0d4b7211b400e03428e4a",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Insights; the comparison shows Search. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-category-observability",
+          "revision": "c90e2631a4ec4a27e49774c4619067088cece23bcaf35314d3c6518619bfcb98",
+          "svgRevision": "970217248446b28e7d51405ea5dda3f290ccc5a60b2b5e0e6c03976f58d64205",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Insights; the comparison shows Observability. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-dns-multistack",
+          "revision": "5383bf090210440ff59ecc20eb9a2c668bfa2e2a2561ed28fff88352d43c4294",
+          "svgRevision": "59b62ba969e42588257108d407e28d812b77d227ee21d46fdb2d1be666b6f356",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Insights; the comparison shows DNS Multistack. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Insights; the comparison shows Dynamics 365 Customer Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales-insights",
+          "revision": "2b7432e30368e278581f61bf04032ca05990eeb3bb8b32fa79c577ac299ba28e",
+          "svgRevision": "6593638e49c52698804d2448ba1dd5edae1256889da75f9ad8862ab006a732d4",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Insights; the comparison shows Dynamics 365 Sales Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-voice",
+          "revision": "239ade9afb8e8a4a95f7087e59e60cc92282045f7763eada3844818bc3c591fc",
+          "svgRevision": "526881988aac2ebce0b3a3b2105c98285b8531ca418b3e34e08c75839908ec11",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Insights; the comparison shows Dynamics 365 Customer Voice. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A customer portrait under a magnifier conveys customer analysis rather than generic search; the person remains visible at 32px."
+    },
+    {
+      "id": "dynamics-customer-service",
+      "status": "approved",
+      "drawingRevision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+      "comparisonRevision": "15df3613b0adf90f1a526fef2b14921ecf8b281c522cca1d771a3d0efe38b607",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/CustomerServices_scalable.svg",
+          "8a83d6cfb51c63f75fca13405fa9aba78992ce7cc5544980162fcc5e00fca33f"
+        ]
+      ],
+      "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-image-versions",
+          "revision": "a16998cc181dfe531e443f5dbc8e37c0cbd33c2aa746c072ffd9f39f3854e4c6",
+          "svgRevision": "03db3a93bbce3fc954eb3e9b5c71d160e069200814e73928a07977579d7a9dbf",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Service; the comparison shows Image Versions. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-database-up-down",
+          "revision": "2fa1549a97bc4a4f53182a8ec40bfeb7c69105ea36f85c1d34dad8474bb2c38c",
+          "svgRevision": "2e2f111be4891b103901d89b7087cb29865c5aab3e731917a71e8ffcb582ce51",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Service; the comparison shows Database transfer up and down. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-my-workspace",
+          "revision": "a730da1b7c0b3b7e3bf0fc3d57d8818d083f93500f5a35a1e31bf77ec070ccab",
+          "svgRevision": "b1170f149da7c27108bef858c9c1f787e060d7a28a6e916aaca43d4ca0ecdef2",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Service; the comparison shows My workspace. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-insights",
+          "revision": "0dfcd525ba1ebbb63a451432d0f3631200cabd8ef06009f57cafcd99e64b76f1",
+          "svgRevision": "ceb4a15fae04f9301d27fc89a7d77bf05b842ee12ed63510eef5fc3663b72833",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Service; the comparison shows Dynamics 365 Customer Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-field-service",
+          "revision": "9e7dee3e683984ec7d9423393e4ca7e8416da2b494b26b13b48c5835e88d2313",
+          "svgRevision": "b7477fb9dbc09a1122b7e5be4093d371d2e76da9ed9423b852a78f86c0699e41",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Service; the comparison shows Dynamics 365 Field Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-contact-center",
+          "revision": "620bf17c3fa0e6b3802be17fb883dd4185f7a79238d744b282eff8f1503c688e",
+          "svgRevision": "1ef1acf88190fd7d6b7b48ad88dcfff573f744df81aa431c297a2370959a1cfc",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Service; the comparison shows Dynamics 365 Contact Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A checked service document suggests case resolution and is visually distinct from customer profiles, field-service locations and contact-center headsets."
+    },
+    {
+      "id": "dynamics-customer-voice",
+      "status": "approved",
+      "drawingRevision": "239ade9afb8e8a4a95f7087e59e60cc92282045f7763eada3844818bc3c591fc",
+      "comparisonRevision": "0f89095e6f053c834d4b5a378c25f7f80bb1ecdc1890d56bdd1c0112d7a04ea7",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/CustomerVoice_scalable.svg",
+          "cc8e255756ee599a5a4508ee5c4c89ee9c32099ca4665b0376b63628a7670c77"
+        ]
+      ],
+      "svgRevision": "526881988aac2ebce0b3a3b2105c98285b8531ca418b3e34e08c75839908ec11",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-cloudformation-template",
+          "revision": "56911c49e21dd5b20883c4c90eeb45a4a72ec7418199e71e755ae77657231d41",
+          "svgRevision": "12bf215a255fe06296392de93104dd851a1c7225b6e672d43d8ee82e5fd66859",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Voice; the comparison shows CloudFormation Template. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-braket-simulator",
+          "revision": "61ff260c8a48d3d633dbc20d913c48bfb0a2c8a77f37c8ab2b15c9647d1831f2",
+          "svgRevision": "3afa7ff9aee35c5db482ae28a4f8ba4b2aa67e46164e4fd4de514063e3ea66b2",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Voice; the comparison shows Braket Simulator. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-hybrid-center",
+          "revision": "525a4ec2b481a2e87b5a94367fccd77aca45a53abe2e5161f68747fbcd654a51",
+          "svgRevision": "5c6a4234cee04a4e70d3d555f8412037ddd2dce685eb378b40e576e0f29c613b",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Voice; the comparison shows Azure Hybrid Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-insights",
+          "revision": "0dfcd525ba1ebbb63a451432d0f3631200cabd8ef06009f57cafcd99e64b76f1",
+          "svgRevision": "ceb4a15fae04f9301d27fc89a7d77bf05b842ee12ed63510eef5fc3663b72833",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Voice; the comparison shows Dynamics 365 Customer Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Voice; the comparison shows Dynamics 365 Customer Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-contact-center",
+          "revision": "620bf17c3fa0e6b3802be17fb883dd4185f7a79238d744b282eff8f1503c688e",
+          "svgRevision": "1ef1acf88190fd7d6b7b48ad88dcfff573f744df81aa431c297a2370959a1cfc",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Customer Voice; the comparison shows Dynamics 365 Contact Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The smiling face in a speech panel conveys collecting customer feedback; its contained face separates it from service checklists and contact-center routing."
+    },
+    {
+      "id": "dynamics-finance-operations",
+      "status": "approved",
+      "drawingRevision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
+      "comparisonRevision": "4d38843b3a52ae3146f6039895ad605192a803fcc92a84288d87e98d47f10fde",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/FinanceOperations_scalable.svg",
+          "8e9ba7d39ab4a2ae808227be80ea359e4be453abd088d12fc08613207fc0a6f1"
+        ]
+      ],
+      "svgRevision": "2b80bb7d3af98828a5aff21cb2ff18df6768aea00c62d7f4851b8703c2acc1d5",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-transfer-sftp",
+          "revision": "da429f4dddffea80b855618154919b00686262e6582993d22b53859542c98627",
+          "svgRevision": "cf12a2aeabc7926a8df94d1af9da9e0ac9ff21b8ceffb35bb069784e6136b84b",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance and Operations; the comparison shows AWS Transfer SFTP. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-elasticache-redis",
+          "revision": "70aa24a1c41b137fbaa44017d49c7c0c55521d7ddf6b65f1bdb349e3217ff47f",
+          "svgRevision": "2de3e3fbd5d24d95f8f00d1877abed14f910ff30dd7f42800cf747afdc1fc56e",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance and Operations; the comparison shows ElastiCache for Redis. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-directory-ad-connector",
+          "revision": "d9617abb0cd85dfbe2ce3588ddedd6d1dec67539a1df02b7e4b093a6864d933b",
+          "svgRevision": "34dbaa6ec0ab5ab701fb8e966e76239488570fd1bc1fd3cf283958eae2ddcaf3",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance and Operations; the comparison shows AD Connector. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance",
+          "revision": "2eddee93648d09fce1acf7fadec1c94e0791fad69fe2db87fee4bfb299950b52",
+          "svgRevision": "6e5d45c27b9848c72ab9c0568f8fdeb0bdbeb123deeb0000196b3d3ab081fd8a",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance and Operations; the comparison shows Dynamics 365 Finance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-business-central",
+          "revision": "0d7e25ab7361c54a42c5feb9e80e24d99ab0b2f0916e7f138b94153de229264a",
+          "svgRevision": "d243ae281740c87843eea8b86cb8f641172bd972dc4cd6cd20e4df1463d01873",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance and Operations; the comparison shows Dynamics 365 Business Central. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-project-operations",
+          "revision": "9fa6251746367d960bd88e0a8d7272e95bdd1ae45b5335340cc137204300dc31",
+          "svgRevision": "bc6f50f4c2d5cbc16d515e24da730e094cd74eb3264c800884e536101259c8cf",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance and Operations; the comparison shows Dynamics 365 Project Operations. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A ledger with a connected operations chart depicts integrated finance operations; its two-panel composition differs from the simpler finance ledger and arrow."
+    },
+    {
+      "id": "dynamics-finance",
+      "status": "approved",
+      "drawingRevision": "2eddee93648d09fce1acf7fadec1c94e0791fad69fe2db87fee4bfb299950b52",
+      "comparisonRevision": "1b86cfd6cb9db59648f571817b770e7863d3ea05fc374c16ce0f9ae73e700e9d",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/Finance_scalable.svg",
+          "dcba4ae863110b4d9787f5134cd3a504d23f2bbd0fbb1c1331969bf7a8f0e68c"
+        ]
+      ],
+      "svgRevision": "6e5d45c27b9848c72ab9c0568f8fdeb0bdbeb123deeb0000196b3d3ab081fd8a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-restricted-report",
+          "revision": "4a6ebf9250fc1f224945d227028bae52455ab5df22f6c0390850ee620fe6f3ce",
+          "svgRevision": "6170c61853bf5f26e62a1bd4cee65692640cd8d260e075907ca6604564c8fa4e",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance; the comparison shows Restricted Report. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-release-notes",
+          "revision": "12f5f8ab71e0340552cc8b50bf0045aeb4947ab64925a98d603f79d3a3dec510",
+          "svgRevision": "f7837f241e5cf480d3dca59d126fb72017c85e7ab713a5a8cb82ce3ec664506e",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance; the comparison shows Release Notes. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-contacts",
+          "revision": "9511635d160e38e1a71c49a6838323057fd16360d523841545c4a68bbcf0dc3c",
+          "svgRevision": "85a5165c27ae1bf9bf131b877cf943325a51bc1a9b3171ec6638348fe9b27fad",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance; the comparison shows Book Contacts. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance-operations",
+          "revision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
+          "svgRevision": "2b80bb7d3af98828a5aff21cb2ff18df6768aea00c62d7f4851b8703c2acc1d5",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance; the comparison shows Dynamics 365 Finance and Operations. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-business-central",
+          "revision": "0d7e25ab7361c54a42c5feb9e80e24d99ab0b2f0916e7f138b94153de229264a",
+          "svgRevision": "d243ae281740c87843eea8b86cb8f641172bd972dc4cd6cd20e4df1463d01873",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance; the comparison shows Dynamics 365 Business Central. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-commerce",
+          "revision": "2eb0d74c2d1840edc7193c0e11ffd70011353b2c4fffe39aef48d5b369257fbf",
+          "svgRevision": "316e9e381cba510ade822bac4ca533870b7998190cf99fa0a7462570f84a8ea1",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Finance; the comparison shows Dynamics 365 Commerce. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The financial ledger and rising trend mark read as core finance; the single ledger/chart silhouette stays distinct from the multi-panel finance-operations drawing."
+    },
+    {
+      "id": "dynamics-hr",
+      "status": "approved",
+      "drawingRevision": "27faf18449652c7dc4a7cbf618ed3c48130c2a821e6160e9eebcc4f6a63b2d51",
+      "comparisonRevision": "5c206718345699ca56da2aa8ba80ec0d98a1b80d34edfc760e43d2411927f0b2",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/HumanResources_scalable.svg",
+          "3f5bae704abb50354689c0a31ec06b90b05c9568a570856e447e63aaab9f2a06"
+        ]
+      ],
+      "svgRevision": "7a9cce666d3aa872f2f1e8f1f8453699c0401d05c0dffce11671ef2a1d0fb998",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-batch",
+          "revision": "a0c329f762b0bbc6f682a869ba51b3c728a3e7d397f8a5fbced1dfd82c601737",
+          "svgRevision": "1f95fb65909f62755074c797be8953bf8a33925e5c9a13a91e045089a2ad3ca1",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Human Resources; the comparison shows Batch. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-elastic-beanstalk",
+          "revision": "be290001a7ad46d217c68d7dd062b9456069d2eb1bbf17c819a233e4529662ea",
+          "svgRevision": "ed0681811da735204a101757da13108ce5094d381dac095f7bfecaf55ca23394",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Human Resources; the comparison shows AWS Elastic Beanstalk. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-lightsail",
+          "revision": "c3a31a1b34555256307ba1d22996d66950259238d0dc416e26cc0f6bbfeadc3a",
+          "svgRevision": "26935d99e2799ed967fa7706dd473c0f4a2580da2eb6ca22c115182cd64e5ec5",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Human Resources; the comparison shows Amazon Lightsail. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-family",
+          "revision": "e242505d6cf85bc8e42d407f644bd3b81c42e3440ba199853025f497fd9b8538",
+          "svgRevision": "dd2ded45d38ac2b829c7dea6dd713c0fba387e8a82323c0d0c2d95424ed16460",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Human Resources; the comparison shows Dynamics 365. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance",
+          "revision": "2eddee93648d09fce1acf7fadec1c94e0791fad69fe2db87fee4bfb299950b52",
+          "svgRevision": "6e5d45c27b9848c72ab9c0568f8fdeb0bdbeb123deeb0000196b3d3ab081fd8a",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Human Resources; the comparison shows Dynamics 365 Finance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Human Resources; the comparison shows Dynamics 365 Customer Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A manager with a small people roster depicts human-resources work, distinct from general Dynamics product-family panels and finance/service documents."
+    },
+    {
+      "id": "dynamics-order-management",
+      "status": "approved",
+      "drawingRevision": "68a9945aab04e1093fc592dee98a2942e75aa2d11e23ec4f69248cd69c6fe643",
+      "comparisonRevision": "541e152f9a9c0fb1aa6c49ac67a7dffd99870b06d23794e265e2244bd1fc8db8",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/IntelligentOrderManagement_scalable.svg",
+          "91257b36aa24f8231dba765cf3a49f1972ae6b86ad9aef24dffb6a3831491d77"
+        ]
+      ],
+      "svgRevision": "6cae21f50a6919fa34569f3703b0587b02a059dfd0e5d8990a118175ed3b6c89",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-trusted-advisor-security",
+          "revision": "be558a07350f72ff7cf1fa2acad40758f15ac741928351ca089bd25ad2cf9af8",
+          "svgRevision": "738519f0ebc8775224df335b75a2ad9e153d59acbd6014ea7643c51c2f446306",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Intelligent Order Management; the comparison shows Trusted Advisor Security Checklist. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-thinkbox-deadline",
+          "revision": "2697f79ce0d8f6b7489d4a388524fdf061b45c26568bc6e39de737ba5a9fd63a",
+          "svgRevision": "45f1907bbb6b6cfbefe3883905e4a8fed4678d44f0a64ea244cb024fb1315fad",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Intelligent Order Management; the comparison shows AWS Thinkbox Deadline. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-copy-job",
+          "revision": "6d59270a7f31e14374550dcad67405bfe283fc3970d4d5c0a3e5eed7b88dbccb",
+          "svgRevision": "912fc01eb76ac83189fb204c430460d43a5fbdc2bf841f1cdc011061240ab9b8",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Intelligent Order Management; the comparison shows Copy Job. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-supply-chain",
+          "revision": "10ca7017119b214b7c8b92895b25c9caa26c34acdc7d4503185ca2d76bf62a0e",
+          "svgRevision": "d75768f894f843f3d81a441d962b8604f18853d31d2808fc549ca245ce14eaa2",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Intelligent Order Management; the comparison shows Dynamics 365 Supply Chain Management. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-commerce",
+          "revision": "2eb0d74c2d1840edc7193c0e11ffd70011353b2c4fffe39aef48d5b369257fbf",
+          "svgRevision": "316e9e381cba510ade822bac4ca533870b7998190cf99fa0a7462570f84a8ea1",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Intelligent Order Management; the comparison shows Dynamics 365 Commerce. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-service",
+          "revision": "63a922ed01c1e392e856a411575dd61eec407eaca1e2ce85f0dc67678ea8246f",
+          "svgRevision": "933a450060706b09ba90d0de9b9824de883ad57f70fb9272a8260a41790ca1e0",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Intelligent Order Management; the comparison shows Dynamics 365 Customer Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The order sheet routes several packages through separate fulfillment paths; its form-and-boxes layout differs from the warehouse and storefront drawings."
+    },
+    {
+      "id": "dynamics-project-operations",
+      "status": "approved",
+      "drawingRevision": "9fa6251746367d960bd88e0a8d7272e95bdd1ae45b5335340cc137204300dc31",
+      "comparisonRevision": "670f263b90ee23dcce460e9351d60e323487cee4d4fffe4a49517f5ddab69454",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/ProjectOperations_scalable.svg",
+          "d91bdb87d3324273b611bd80d98dcf58a5f76aee44f2021fb060f1a652364cb9"
+        ]
+      ],
+      "svgRevision": "bc6f50f4c2d5cbc16d515e24da730e094cd74eb3264c800884e536101259c8cf",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-looker",
+          "revision": "cedb6e7e1ae01b1ae60395bf73a560464fe9f6387ab94bc17da4d337495634f7",
+          "svgRevision": "9c15ea8b70d71c3bf841ffeded48282c8c0a5978cdd197c955c8df4d0629c654",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Project Operations; the comparison shows Looker. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-table-kql",
+          "revision": "9b2a2cb80370ed9fc5058783ff4c236f9430311de0ad5bcf74031090da646a8b",
+          "svgRevision": "4ae652eddaa90fb1359ca8124da1394ad0b24abf93ecade93aa2426f4688dd15",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Project Operations; the comparison shows KQL table. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-route-tables",
+          "revision": "4cee95379be1a786948124e1ee80e80f2047264fcae59ead3eff606620d763c4",
+          "svgRevision": "f97b5ff9ec3024004e1b667fa65a5d3127a3585f7226e9dd82817ef2f4650c95",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Project Operations; the comparison shows Route Tables. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance-operations",
+          "revision": "22959acffd6da80494d2ebb96d46ff51c5b0efec0517f87148dbb4a914ae81a5",
+          "svgRevision": "2b80bb7d3af98828a5aff21cb2ff18df6768aea00c62d7f4851b8703c2acc1d5",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Project Operations; the comparison shows Dynamics 365 Finance and Operations. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales-insights",
+          "revision": "2b7432e30368e278581f61bf04032ca05990eeb3bb8b32fa79c577ac299ba28e",
+          "svgRevision": "6593638e49c52698804d2448ba1dd5edae1256889da75f9ad8862ab006a732d4",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Project Operations; the comparison shows Dynamics 365 Sales Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-business-central",
+          "revision": "0d7e25ab7361c54a42c5feb9e80e24d99ab0b2f0916e7f138b94153de229264a",
+          "svgRevision": "d243ae281740c87843eea8b86cb8f641172bd972dc4cd6cd20e4df1463d01873",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Project Operations; the comparison shows Dynamics 365 Business Central. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A board of linked project records and task rows reads as project operations and differs from finance charts and the customer sales funnel."
+    },
+    {
+      "id": "dynamics-sales-insights",
+      "status": "approved",
+      "drawingRevision": "2b7432e30368e278581f61bf04032ca05990eeb3bb8b32fa79c577ac299ba28e",
+      "comparisonRevision": "62efece0f6cddcf6d734176f35dd59821384a935869016eec67dcfbc021e730b",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/SalesInsights_scalable.svg",
+          "e594c14b9af11cadddbf0d60281906f53c09a23b2326b021df4f2bfa950ce4bc"
+        ]
+      ],
+      "svgRevision": "6593638e49c52698804d2448ba1dd5edae1256889da75f9ad8862ab006a732d4",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-forecast",
+          "revision": "218fa29d24bb926828dd67b3c6276398f95d23ede7855cb442321cdd5cc600a3",
+          "svgRevision": "d5eb7a2d315b7f867aec94319c74681ab1cc5c4f10f723042ef228fe6b963467",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Sales Insights; the comparison shows Amazon Forecast. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-sustainability",
+          "revision": "809158dfafa458519e303aab99eaa2969ed4a17056a624ff1cd4034515d07b1e",
+          "svgRevision": "c01fd93a2078ce595a4f0431b10e73fedc5b262d8501eba3326bc774ba6d51cc",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Sales Insights; the comparison shows Sustainability. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-bar-chart",
+          "revision": "c8830aee8611a5f638b243bada06ab2546be8506559e7090402dea15a00d60a6",
+          "svgRevision": "508226bca3b8d8226edd42926588fc28fd3d2fbfec5d1d94d8f5d203ac9063de",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Sales Insights; the comparison shows Data Bar Vertical. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales",
+          "revision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
+          "svgRevision": "ee985e748b0a315fc026dcf55c9478baabe41dcc1caaaa1007d0d25f66423184",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Sales Insights; the comparison shows Dynamics 365 Sales. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-customer-insights",
+          "revision": "0dfcd525ba1ebbb63a451432d0f3631200cabd8ef06009f57cafcd99e64b76f1",
+          "svgRevision": "ceb4a15fae04f9301d27fc89a7d77bf05b842ee12ed63510eef5fc3663b72833",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Sales Insights; the comparison shows Dynamics 365 Customer Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A rising sales chart with a magnifier signals sales analytics, distinct from the funnel-and-arrow Sales drawing and the customer-profile insight mark."
+    },
+    {
+      "id": "dynamics-supply-chain",
+      "status": "approved",
+      "drawingRevision": "10ca7017119b214b7c8b92895b25c9caa26c34acdc7d4503185ca2d76bf62a0e",
+      "comparisonRevision": "0a1142586ed6a9ae20df3b036c392754c11522f6370bbca81346fad341b3b5f1",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 App Icons/SupplyChainManagement_scalable.svg",
+          "510ac0e74e5bbea4392d8aec7ffdf7b941b68f232f0fa990ab35662af351bbaa"
+        ]
+      ],
+      "svgRevision": "d75768f894f843f3d81a441d962b8604f18853d31d2808fc549ca245ce14eaa2",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-folder",
+          "revision": "c40e434830bb299a49cc9e01d88f2fba4fecd4171680b6c00f61aae50f12575c",
+          "svgRevision": "7e2c026da0a5580f487207cf30817821d0985b6c0077614c786062b53d3535be",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Supply Chain Management; the comparison shows Folder. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-window-pulse",
+          "revision": "23049bc59f760088c150d732bbc4bc17fad1fab3d9bd956060ab9241fd2bbf82",
+          "svgRevision": "baaffc2e15927ee7f2ac3b9015a567e3bb54f6b7c2d274414192ff7cac7e0bd9",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Supply Chain Management; the comparison shows Window pulse. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-functions",
+          "revision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+          "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Supply Chain Management; the comparison shows Google Cloud Functions. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-supply-chain",
+          "revision": "d51bbae4d13c01aed023320d51624d5443a79c4a640df297d19c8f98dde7ef72",
+          "svgRevision": "c4fa6a4569ae66e2b02be020c58aa85244acd09325ae2002db6312045aef112c",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Supply Chain Management; the comparison shows AWS Supply Chain. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-order-management",
+          "revision": "68a9945aab04e1093fc592dee98a2942e75aa2d11e23ec4f69248cd69c6fe643",
+          "svgRevision": "6cae21f50a6919fa34569f3703b0587b02a059dfd0e5d8990a118175ed3b6c89",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Supply Chain Management; the comparison shows Dynamics 365 Intelligent Order Management. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-open-supply-chain-platform",
+          "revision": "aad8aa74a6637489cc87702d3c4cf2546261a57bf4c64a3b20d35f05d82d3c49",
+          "svgRevision": "5a5f3a23fc86879328c11ddcf65baba5299b213022035a19f126f01e596866f8",
+          "status": "approved",
+          "reason": "The target is Dynamics 365 Supply Chain Management; the comparison shows Open Supply Chain Platform. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A production and shipping path links a facility to a parcel; the route-and-box silhouette is distinct from order routing and file-folder neighbors."
+    },
+    {
+      "id": "dynamics-family",
+      "status": "approved",
+      "drawingRevision": "e242505d6cf85bc8e42d407f644bd3b81c42e3440ba199853025f497fd9b8538",
+      "comparisonRevision": "662591ef6e825672435ef1aa7585449c28ac789d6a2b89d6cc6d2398ec32f177",
+      "sourceRevisions": [
+        [
+          "/icons/dynamics365/Dynamics 365 Product Family Icons/Dynamics365_scalable.svg",
+          "5f88615ae0045811b2ad94744e569f8abccc982b3074b9ba57376d4d7ecc8583"
+        ]
+      ],
+      "svgRevision": "dd2ded45d38ac2b829c7dea6dd713c0fba387e8a82323c0d0c2d95424ed16460",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-container-registry",
+          "revision": "d0d8ce3471ebfe3125743df92bb1cef860da063c1f277afdec7438900190441a",
+          "svgRevision": "4f4336b4337ab25b6fbb5745d3a3d6afa99c53e60527c69c60bac0196a904228",
+          "status": "approved",
+          "reason": "The target is Dynamics 365; the comparison shows Container Registry. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-tools-sdks",
+          "revision": "e820f25161ae32874575b2c55c3d330dead2dc4ece72e3a43d17f99aa0884c59",
+          "svgRevision": "64124a4de97567528c8f0f36785d6e9618f1b49d8755984228121fe0ab8bf6c9",
+          "status": "approved",
+          "reason": "The target is Dynamics 365; the comparison shows AWS Tools and SDKs. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-data-usage",
+          "revision": "730aef8e122a213f38f09f740478cf7f16b0cab9c113ae95d638a5f5910ddead",
+          "svgRevision": "9d4825d6db50162ca4373820d4ee9a3d3346c64d0fca80a84c247a2aa15b642d",
+          "status": "approved",
+          "reason": "The target is Dynamics 365; the comparison shows Data Usage. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-business-central",
+          "revision": "0d7e25ab7361c54a42c5feb9e80e24d99ab0b2f0916e7f138b94153de229264a",
+          "svgRevision": "d243ae281740c87843eea8b86cb8f641172bd972dc4cd6cd20e4df1463d01873",
+          "status": "approved",
+          "reason": "The target is Dynamics 365; the comparison shows Dynamics 365 Business Central. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-finance",
+          "revision": "2eddee93648d09fce1acf7fadec1c94e0791fad69fe2db87fee4bfb299950b52",
+          "svgRevision": "6e5d45c27b9848c72ab9c0568f8fdeb0bdbeb123deeb0000196b3d3ab081fd8a",
+          "status": "approved",
+          "reason": "The target is Dynamics 365; the comparison shows Dynamics 365 Finance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-sales",
+          "revision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
+          "svgRevision": "ee985e748b0a315fc026dcf55c9478baabe41dcc1caaaa1007d0d25f66423184",
+          "status": "approved",
+          "reason": "The target is Dynamics 365; the comparison shows Dynamics 365 Sales. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A single dashboard of distinct business modules conveys the Dynamics suite; the grid with person and case marks remains distinct from finance and sales."
     }
   ]
 }
