@@ -159,6 +159,10 @@ test("durable catalog review state records evidence and remaining scope", () => 
   assert.equal(state.batches[0].confirmedDrawingDefects.length, 0);
   assert.ok(state.batches[0].exactCrossCandidates.some((candidate) =>
     candidate.id === "aws-public-private-subnet" && candidate.status === "verified-separate"));
+  const smallSizeSpotCheck = state.batches.find((batch) => batch.id === "aws-source-stencil-small-size-spot-check-1");
+  assert.equal(smallSizeSpotCheck.status, "spot-check-only");
+  assert.equal(smallSizeSpotCheck.independentReviewRecorded, false);
+  assert.equal(smallSizeSpotCheck.compositionsReviewed, 20);
 });
 
 test("geometry and raster candidate support is evaluated independently", () => {

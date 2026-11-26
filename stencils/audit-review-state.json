@@ -85,6 +85,121 @@
           ],
           "status": "unresolved",
           "reason": "Triage-only source geometry match; the concepts are distinct and no alias evidence was established."
+        },
+        {
+          "id": "aws-source-stencil-small-size-spot-check-1",
+          "status": "spot-check-only",
+          "sizesChecked": [
+            128,
+            64,
+            32
+          ],
+          "nearestNeighborsChecked": false,
+          "independentReviewRecorded": false,
+          "compositionsReviewed": 20,
+          "confirmedDrawingDefects": [],
+          "assessments": [
+            {
+              "id": "aws-ec2",
+              "status": "spot-check-observed",
+              "assessment": "Processor/service composition communicates EC2 compute."
+            },
+            {
+              "id": "aws-lambda",
+              "status": "spot-check-observed",
+              "assessment": "Lambda/compute composition communicates serverless function execution."
+            },
+            {
+              "id": "aws-dynamodb",
+              "status": "spot-check-observed",
+              "assessment": "Database and data-service composition communicates DynamoDB."
+            },
+            {
+              "id": "aws-rds",
+              "status": "spot-check-observed",
+              "assessment": "Database, clock and records communicate RDS."
+            },
+            {
+              "id": "aws-eks",
+              "status": "spot-check-observed",
+              "assessment": "Clustered compute nodes communicate managed Kubernetes."
+            },
+            {
+              "id": "aws-sqs",
+              "status": "spot-check-observed",
+              "assessment": "Queue/envelope composition communicates a message queue."
+            },
+            {
+              "id": "aws-sns",
+              "status": "spot-check-observed",
+              "assessment": "Publisher and subscriber composition communicates notifications."
+            },
+            {
+              "id": "aws-cloudwatch",
+              "status": "spot-check-observed",
+              "assessment": "Watch/metrics composition communicates monitoring."
+            },
+            {
+              "id": "aws-route53",
+              "status": "spot-check-observed",
+              "assessment": "Route/globe composition communicates DNS and routing."
+            },
+            {
+              "id": "aws-step-functions",
+              "status": "spot-check-observed",
+              "assessment": "Workflow boxes communicate Step Functions."
+            },
+            {
+              "id": "aws-athena",
+              "status": "spot-check-observed",
+              "assessment": "Search/database composition communicates query analysis."
+            },
+            {
+              "id": "aws-opensearch",
+              "status": "spot-check-observed",
+              "assessment": "Search and document composition communicates search indexing."
+            },
+            {
+              "id": "aws-redshift",
+              "status": "spot-check-observed",
+              "assessment": "Warehouse/database composition communicates Redshift."
+            },
+            {
+              "id": "aws-eventbridge",
+              "status": "spot-check-observed",
+              "assessment": "Event flow composition communicates EventBridge."
+            },
+            {
+              "id": "aws-ecr",
+              "status": "spot-check-observed",
+              "assessment": "Container/package composition communicates ECR."
+            },
+            {
+              "id": "aws-ecs",
+              "status": "spot-check-observed",
+              "assessment": "Container cluster composition communicates ECS."
+            },
+            {
+              "id": "aws-elasticache",
+              "status": "spot-check-observed",
+              "assessment": "Cache/document composition communicates ElastiCache."
+            },
+            {
+              "id": "aws-cloudformation",
+              "status": "spot-check-observed",
+              "assessment": "Template/cloud composition communicates CloudFormation."
+            },
+            {
+              "id": "aws-cloudtrail",
+              "status": "spot-check-observed",
+              "assessment": "Audit trail/document composition communicates CloudTrail."
+            },
+            {
+              "id": "aws-cloudfront",
+              "status": "spot-check-observed",
+              "assessment": "Edge/cloud composition communicates CloudFront."
+            }
+          ]
         }
       ],
       "visualSpotCheck": [
