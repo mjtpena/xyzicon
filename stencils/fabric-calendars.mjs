@@ -57,7 +57,8 @@ export const fabricCalendarArtwork = [
     variants("calendar_month_prohibited", [20, 24, 32]),
     "A prohibition mark blocks a calendar date.",
     [
-      line([15, 103], [15, 23], [96, 23], [96, 61]), line([15, 40], [96, 40]),
+      line([15, 103], [15, 23], [96, 23], [96, 61]), line([15, 103], [63, 103]),
+      line([15, 40], [96, 40]),
       line([32, 13], [32, 30]), line([78, 13], [78, 30]),
       line([27, 56], [36, 56]), line([46, 56], [55, 56]), line([27, 75], [36, 75]),
       oval(57, 57, 56, 56), line([66, 104], [104, 66]),

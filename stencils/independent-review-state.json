@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 67,
+  "compositionsReviewed": 72,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -4269,74 +4269,6 @@
       "notes": "The source variants show a person and briefcase. The revised drawing separates and enlarges both features, which remain identifiable and distinct from neighboring people and tools at all reviewed sizes."
     },
     {
-      "id": "fabric-calendar-lightning",
-      "status": "approved",
-      "drawingRevision": "2a90ddd0e2026e4cbc0076793b90de417118bb7e810685ce07f76163c5d1e661",
-      "comparisonRevision": "619e4e4f9ef0dbde421fdf311c7b142ea7fe8d007df6cb855528d362e0b37dbe",
-      "sourceRevisions": [
-        [
-          "/icons/fabric/svg/calendar_month_lightning_20_filled.svg",
-          "9d42560b12613230f2d9055e5bfd1124a7d8f396804949c02603eb2fef7d9c90"
-        ],
-        [
-          "/icons/fabric/svg/calendar_month_lightning_20_regular.svg",
-          "0a3c7775cdcdc49618fd6c56868f153793920231f66aa2c54a941f5791dcb22e"
-        ]
-      ],
-      "svgRevision": "fea7a34b51c43ad0a076145f6f2faff0329cf4e75b3c1404bde04f6fbf1c5503",
-      "reviewedSizes": [
-        128,
-        64,
-        32
-      ],
-      "semanticNeighborCoverage": "automated-and-manual",
-      "neighborDecisions": [
-        {
-          "id": "azure-anomaly-detector",
-          "revision": "92c579d43179f5bf95beac008aa5e039364983c4950208d3d993a6983c0f592f",
-          "svgRevision": "e64cbb587af80bc323476d0aefa8b51c3f99ba0df12a859e82394cc88a088ac3",
-          "status": "approved",
-          "reason": "The target shows a calendar with a lightning bolt; this neighbor shows a graph with a marked anomaly."
-        },
-        {
-          "id": "m365-shifts",
-          "revision": "f4b2c57334961e4517c476d75db1d38970283bd414386a3b4423044f73f3eae4",
-          "svgRevision": "77e70f546067d36a13223de2ceb967386183076ae77b8c622e178bdb7390ba63",
-          "status": "approved",
-          "reason": "The target shows a calendar with a lightning bolt; this neighbor shows a calendar with a clock and pulse trace."
-        },
-        {
-          "id": "fabric-calendar-prohibited",
-          "revision": "727b5899381d2028160084a90154a01d50ec3e56822cb541b0e3879bf2e5ffcc",
-          "svgRevision": "dc6b46158a48ee384931116c5289d5c99ca603cb235903b480d5132229942683",
-          "status": "approved",
-          "reason": "The target shows a calendar with a lightning bolt; this neighbor shows a calendar with a prohibition sign."
-        },
-        {
-          "id": "m365-calendar",
-          "revision": "771b358f3632cceb3f063f2b94dc669f72f6478f752b65c81bd632bf0c1a2035",
-          "svgRevision": "12362e9ad492b44c248ad9b3809f2911739c7a35facf4ff47727a1e46a3be87d",
-          "status": "approved",
-          "reason": "The target shows a calendar with a lightning bolt; this neighbor shows a calendar grid with a highlighted date."
-        },
-        {
-          "id": "fabric-calendar-up",
-          "revision": "9d739cb0bea371dfdcea88c2d05b936c9f38f43c15b7fd41d8b6e9f8cd45efe0",
-          "svgRevision": "30352273140f46b583c25f5e0297212fc7231f9f2b598163074c36df83cc7154",
-          "status": "approved",
-          "reason": "The target shows a calendar with a lightning bolt; this neighbor shows a calendar with an upward arrow."
-        },
-        {
-          "id": "fabric-calendar-signal",
-          "revision": "4bd2065edd44335acbf0ede28d31aed93d635fbe5b771a24aa9c89fb2028180c",
-          "svgRevision": "f632fbf11b4811ac822cfac6d061572c8b412c72ee8dc8247ad3d26422af73af",
-          "status": "approved",
-          "reason": "The target shows a calendar with a lightning bolt; this neighbor shows a calendar with broadcast waves."
-        }
-      ],
-      "notes": "Both source variants show a calendar with a lightning bolt. The revised drawing restores the calendar bottom edge without crossing the bolt; the badge distinguishes it from the other calendar variants at all reviewed sizes."
-    },
-    {
       "id": "m365-calendar",
       "status": "approved",
       "drawingRevision": "771b358f3632cceb3f063f2b94dc669f72f6478f752b65c81bd632bf0c1a2035",
@@ -4984,70 +4916,6 @@
       "notes": "The source depicts a person in a shield. The drawing adds a key to represent access management; its shield, person and key differ from the compared identity concepts at all reviewed sizes."
     },
     {
-      "id": "gcp-policy-analyzer",
-      "status": "approved",
-      "drawingRevision": "191c76520e15d73624cbe532932119f93071045cbe91e778a4e974fcb4310afc",
-      "comparisonRevision": "7d22d4ca03476233c1c83171d5a6c69e7d7e2d25abac1c0d1cd24255924adab9",
-      "sourceRevisions": [
-        [
-          "/icons/gcp/policy_analyzer/policy_analyzer.svg",
-          "2c1a45bec6cb769aa93d104191c2eda64e40bd8bea0097bb3e8866535dbec5e9"
-        ]
-      ],
-      "svgRevision": "08f3f0a36cc74d6c600a3ed01f173b6dce776f64e739922175387c52de1b0db8",
-      "reviewedSizes": [
-        128,
-        64,
-        32
-      ],
-      "semanticNeighborCoverage": "automated-and-manual",
-      "neighborDecisions": [
-        {
-          "id": "azure-image-definitions",
-          "revision": "43ca34f255dcd4bc9c949e1579eab81d9464e8fe4ca592f1ad749cc53978f914",
-          "svgRevision": "9d06e22e99c69216a9348fa7ec5c229a8b3a2edf05c4c3c99a4fb159eee14ec8",
-          "status": "approved",
-          "reason": "The target shows a checklist document examined with a magnifying glass; this neighbor shows a document containing a cube."
-        },
-        {
-          "id": "fabric-restricted-report",
-          "revision": "4a6ebf9250fc1f224945d227028bae52455ab5df22f6c0390850ee620fe6f3ce",
-          "svgRevision": "6170c61853bf5f26e62a1bd4cee65692640cd8d260e075907ca6604564c8fa4e",
-          "status": "approved",
-          "reason": "The target shows a checklist document examined with a magnifying glass; this neighbor shows a report with a padlock."
-        },
-        {
-          "id": "m365-document-key",
-          "revision": "474647d9a928974658c71ecaeae3597689b3abf784752a9eea222c9ed43c6981",
-          "svgRevision": "19b254581b70be12fa76abac3d8cf3619509a6b58792365dfb6b03df7c9aa823",
-          "status": "approved",
-          "reason": "The target shows a checklist document examined with a magnifying glass; this neighbor shows a document with a small key."
-        },
-        {
-          "id": "gcp-permissions",
-          "revision": "cb872408404f15699b232f5b2450826f7cc9f8126b4b86a29da38a04eb0a0b31",
-          "svgRevision": "861ce7e8a6a2a3e95df55bea49f1a38d7f4b4195719a97775e71850377711598",
-          "status": "approved",
-          "reason": "The target shows a checklist document examined with a magnifying glass; this neighbor shows a person beside a permissions checklist."
-        },
-        {
-          "id": "gcp-iam",
-          "revision": "67f70d27799703a56d6c3976e7120a621b7a50d1daff31a8badf9fe14d3e7110",
-          "svgRevision": "08f35f69e2eef6bc7ac8c0b4b7a96278e5401b709ed75873e61decc3d51289aa",
-          "status": "approved",
-          "reason": "The target shows a checklist document examined with a magnifying glass; this neighbor shows a shield containing a person and key."
-        },
-        {
-          "id": "gcp-key-access-justifications",
-          "revision": "b5971b1b995f86d3ba53e5cc631799c4f89ac68613040794e9ccd8a2492a352a",
-          "svgRevision": "5b380fc2a986bc0b22d8ada812751b6e9c5b2f112ebf4f6ebc7bc0decf9a2354",
-          "status": "approved",
-          "reason": "The target shows a checklist document examined with a magnifying glass; this neighbor shows a key beside a checklist."
-        }
-      ],
-      "notes": "The source shows a document and magnifier. The drawing adds checkmarks and keeps the magnifier readable, distinguishing it from a locked report or key document at all reviewed sizes."
-    },
-    {
       "id": "gcp-identity-platform",
       "status": "approved",
       "drawingRevision": "bd81bac52f9d420c7782e883ff2bf1dc75aca008f3b42af223d3a6ac7582b71e",
@@ -5110,6 +4978,530 @@
         }
       ],
       "notes": "The source shows a person within a hexagonal outline. The drawing represents identity with a profile panel and adjacent phone, distinct from IAM and permissions at all reviewed sizes."
+    },
+    {
+      "id": "aws-route53",
+      "status": "approved",
+      "drawingRevision": "d6a2f3e0c879972c0559181a982ec20ef4de91a53d07e8030fc7982a0466187d",
+      "comparisonRevision": "f187a6e93499db96cc0971fee971c1100d11ff73bf9ee81a3d3fb024c0867d1f",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/16/Arch_Amazon-Route-53_16.svg",
+          "d36bd55ea1830325ce07d03154aae5eafae6653beefbc0c3ee021ac5f2b94888"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/32/Arch_Amazon-Route-53_32.svg",
+          "1d8c97a55325863116e232ca589b12b9f23ceb954e8de5091f9c4e0799950ece"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/48/Arch_Amazon-Route-53_48.svg",
+          "15436b5aa3bbe223c859fa1f038ea5d6c8a26b01191f3aa3a715413e0d798440"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/64/Arch_Amazon-Route-53_64.svg",
+          "b0cc65bdbb9f972857c189958b5805aab1eb5fe37efb0525f7d37ef4e6afb58f"
+        ]
+      ],
+      "svgRevision": "f25456257b30dcb3c921fd26597f94549fd62b2d5025d15eb2e3e55aa53dd08a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-data-trending",
+          "revision": "80e557ab664aa27c47b8b557d54e67fa7eda3b1f11dcc3fedef05aad9f36389d",
+          "svgRevision": "98dda0998f26919e291a4c39e79949353a61fb66d5fd01ab41ac902f5318339f",
+          "status": "approved",
+          "reason": "The target shows a 53 road sign, an arrow and a globe; this neighbor shows a rising bar chart."
+        },
+        {
+          "id": "m365-share-screen-overlay",
+          "revision": "fe3421fd1aef04b608b23ceb984e506256f559e4bafb5619d9582d2b0f72cf57",
+          "svgRevision": "35fe3f07bf8c90a017251347aa29f28ae40aeff19be3e6b09ffafd47c5e3b07d",
+          "status": "approved",
+          "reason": "The target shows a 53 road sign, an arrow and a globe; this neighbor shows a screen containing a smaller window."
+        },
+        {
+          "id": "azure-data-factory",
+          "revision": "c5ba15f0ccb2c81e68e724983d65823da0dcc3482f0278fa1a54cbf6632775a1",
+          "svgRevision": "5d9320a09b49b48144a45a329e33b671e172cb24cc42bea83207cafa8bde03f9",
+          "status": "approved",
+          "reason": "The target shows a 53 road sign, an arrow and a globe; this neighbor shows a factory with a database."
+        },
+        {
+          "id": "aws-route53-hosted-zone",
+          "revision": "afb02e1a65bdf0bb5ae9a8773a041e445bcbb7f39da59309aebe15ed868920e1",
+          "svgRevision": "cbaced11a096d79ab22e1f7924883ca4ad5a1b36a06cf24ee8088a2bd97a5ee2",
+          "status": "approved",
+          "reason": "The target shows a 53 road sign, an arrow and a globe; this neighbor shows a globe inside corner brackets."
+        },
+        {
+          "id": "aws-route53-resolver",
+          "revision": "bad5823e81fa55d7e8f8ee9c1fbd2ba8ead6060613f47770c386d83386807578",
+          "svgRevision": "6eee1dff2e7e73f2596226fdc3317c3443c6147dc66a7774c576893abcccb493",
+          "status": "approved",
+          "reason": "The target shows a 53 road sign, an arrow and a globe; this neighbor shows branching nodes leading to a globe."
+        },
+        {
+          "id": "aws-route53-route-table",
+          "revision": "d66750254b6a7794cfaafa2c0bc023fd46889ae6ca1a9a4b2e263ea08738b4c1",
+          "svgRevision": "903eeda9e17707c1ce1500a661e7ff30dc39bdcbc332482dde7a3da9bc8650a6",
+          "status": "approved",
+          "reason": "The target shows a 53 road sign, an arrow and a globe; this neighbor shows a routing table."
+        }
+      ],
+      "notes": "The mapped sources share the 53 route marker. The large sign and globe distinguish the DNS service from related Route 53 drawings. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "aws-route53-resolver",
+      "status": "approved",
+      "drawingRevision": "bad5823e81fa55d7e8f8ee9c1fbd2ba8ead6060613f47770c386d83386807578",
+      "comparisonRevision": "c1a9169cb43d646f8fb61c746de479644b1e21f0bdd8448cb3014ba514b27062",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Networking-Content-Delivery/Res_Amazon-Route-53_Resolver_48.svg",
+          "9bec2f0d08ef93d03cbaaf3a67f18350ad54bfa165831defe115b58e18b9a3dd"
+        ]
+      ],
+      "svgRevision": "6eee1dff2e7e73f2596226fdc3317c3443c6147dc66a7774c576893abcccb493",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-backint-agent",
+          "revision": "78a70e4a840ef80e27b6094cc2d89420dbd3dcdc74b23235a1f639f688aafd41",
+          "svgRevision": "6b2198fa3b151a666a97dcbd86490708b988036265e08192541419058802cff7",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a database and document."
+        },
+        {
+          "id": "aws-dynamodb-attribute",
+          "revision": "bfceabe4c161db9d48a1c8192769e9c3db52995543501ea0c80028b0772770ad",
+          "svgRevision": "0f902c128607c240bcff87e4c264e8cf847935df4b70a648eea4e50e0d711d85",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a single attribute card."
+        },
+        {
+          "id": "gcp-partner-interconnect",
+          "revision": "56d0823da0720352512cebbcbf91aa6b42fb879ac5ecc1e9293bbfe79b1e8fd1",
+          "svgRevision": "4947ee2ce2e29551df6cc07c0b9abdc6c6133212106ea80ed54ebf18c528f888",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a document linked to a cloud."
+        },
+        {
+          "id": "aws-route53",
+          "revision": "d6a2f3e0c879972c0559181a982ec20ef4de91a53d07e8030fc7982a0466187d",
+          "svgRevision": "f25456257b30dcb3c921fd26597f94549fd62b2d5025d15eb2e3e55aa53dd08a",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a 53 road sign, an arrow and a globe."
+        },
+        {
+          "id": "aws-route53-hosted-zone",
+          "revision": "afb02e1a65bdf0bb5ae9a8773a041e445bcbb7f39da59309aebe15ed868920e1",
+          "svgRevision": "cbaced11a096d79ab22e1f7924883ca4ad5a1b36a06cf24ee8088a2bd97a5ee2",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a globe inside corner brackets."
+        },
+        {
+          "id": "aws-route53-dns-firewall",
+          "revision": "88a97b56292a46ca30e7ab817dc88ec3b3ec72517861ca25512b386fa9273edc",
+          "svgRevision": "6783d42d042dd2768562026c0d5b5ae67fde35107b28a961618d8dbf23d968a8",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a globe and shield."
+        },
+        {
+          "id": "aws-route53-query-logging",
+          "revision": "3dcbe0f36c9d177974a7260bf2a4674c60ca47f39108bf20f1293db162800fea",
+          "svgRevision": "40294998f908c79f0dcb2075f4ecf49f98652f326ec81e40867591b29bec68b5",
+          "status": "approved",
+          "reason": "The target shows branching nodes leading to a globe; this neighbor shows a globe and log document."
+        }
+      ],
+      "notes": "The source has branching nodes; the drawing adds a globe to communicate DNS resolution and distinguishes the resolver from query logging. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "m365-document-key",
+      "status": "approved",
+      "drawingRevision": "3a98beaa7dba5ac0fe93986aa2e398abfd8b11b7fcd58853551e5a0040264b14",
+      "comparisonRevision": "fa09925eb3cf90ae43205a2208ac886fe74ace0c3069cc548af6b22c023b7776",
+      "sourceRevisions": [
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Document Key.svg",
+          "314f3a449348aca39b48e4e9657d3c752e47a8ebcd24110131fc248b2bac4cb8"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Grey & Blue Icon/Document Key.svg",
+          "2f525e7ecfd7488324b28ecf7d6c030747bfb386f9ad43acd2cc3b88355c3e36"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Light Blue Icon/Document Key.svg",
+          "e98463b6a036fed429464075c54c476d2b438d5b67b9783be9375b81ff0c9339"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Dark Purple Icon/Document Key.svg",
+          "c09aab28e5e83846701d69314776f0844af2aceeaaf3f3a68f7235ac5e817abc"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Document Key.svg",
+          "9e7e121722cbc0667a7cc740df12ad5700bbbf456ad581ff909a6493af072559"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Document Key.svg",
+          "b5ea7b9691f3394b1224afb7f58a73338684b091f34ca538ae665b3560be6d66"
+        ]
+      ],
+      "svgRevision": "d4a8d19be81043a4e6be8e3daa605f4bc4dfe47ffb710a51a533894f69fe4be2",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-document-lock",
+          "revision": "310b7e1be021ba03503217d303e801abbacacffcc841e4e42774a74d015d0c6f",
+          "svgRevision": "0a4aa3949af6f0fbdc3a9a8e5de629e530aa578531947857e0d099789df94c6b",
+          "status": "approved",
+          "reason": "The target shows a document with a key; this neighbor shows a document with a padlock."
+        },
+        {
+          "id": "azure-log-analytics",
+          "revision": "0b62755c8945ca7a95829ee3694484b6474c4670593360e3675581b2df692b06",
+          "svgRevision": "d7cda60aaae964eaacb581569574f54ac5dd2169518bd20f15e33ed5899f83ad",
+          "status": "approved",
+          "reason": "The target shows a document with a key; this neighbor shows a document and magnifier."
+        },
+        {
+          "id": "m365-wallet-card",
+          "revision": "8991d1e6aca5ec88b329d15761c75306ae6c646ee01069d92de89e69ef7745cf",
+          "svgRevision": "3626ebb5affe2d32583fed353fc701f31cbe1056fc198483cb562dfb90f4c7ec",
+          "status": "approved",
+          "reason": "The target shows a document with a key; this neighbor shows a wallet holding cards."
+        },
+        {
+          "id": "m365-key",
+          "revision": "9df2fc4e161248924f838c506a13d1d86c3326207b6865241251d256ab2eaa11",
+          "svgRevision": "d8c602b10fe647ceb562fc498575583ecff5f3f328f7c31f2c51ed6d859c3c0a",
+          "status": "approved",
+          "reason": "The target shows a document with a key; this neighbor shows a standalone diagonal key."
+        },
+        {
+          "id": "m365-document",
+          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
+          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
+          "status": "approved",
+          "reason": "The target shows a document with a key; this neighbor shows a standalone document."
+        }
+      ],
+      "notes": "The mapped sources share a document and key. The enlarged key remains distinguishable from the neighboring lock and magnifier. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "m365-document-lock",
+      "status": "approved",
+      "drawingRevision": "310b7e1be021ba03503217d303e801abbacacffcc841e4e42774a74d015d0c6f",
+      "comparisonRevision": "50869b93711df5530754ffde02364271e1c5a792231181820fd5c3d56f52b1fa",
+      "sourceRevisions": [
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Dark Blue Icon/Document Lock.svg",
+          "cd2ab3684af4bc910d3edb45e30a7ec7ff091d1b60852bf7b00cd2063f6f6f6b"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Grey & Blue Icon/Document Lock.svg",
+          "f1441c82c707d54bfc7c353b7262d1341bacca9123e4963a6528a4ae974c6f75"
+        ],
+        [
+          "/icons/microsoft365/Microsoft Blue/48x48 Light Blue Icon/Document Lock.svg",
+          "6f2e24e8618443ff6d5c885c8587932bbc5a6762976a13f8a7501373c5474395"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Dark Purple Icon/Document Lock.svg",
+          "b4aeda3f8e6a9b822628ddc8b908bc6a707faadd5551fa54ac825a972034b72c"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Grey & Purple Icon/Document Lock.svg",
+          "c1de604b2040048530f623d1d0fafc54b70bd10123baa74fe39bd56c9856e4cc"
+        ],
+        [
+          "/icons/microsoft365/Teams Purple/48x48 Light Purple Icon/Document Lock.svg",
+          "5bfb014512647c3362b60d5ba7afeeb9c50100654af80eaf14edcd67da5c6b99"
+        ]
+      ],
+      "svgRevision": "0a4aa3949af6f0fbdc3a9a8e5de629e530aa578531947857e0d099789df94c6b",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-document-key",
+          "revision": "3a98beaa7dba5ac0fe93986aa2e398abfd8b11b7fcd58853551e5a0040264b14",
+          "svgRevision": "d4a8d19be81043a4e6be8e3daa605f4bc4dfe47ffb710a51a533894f69fe4be2",
+          "status": "approved",
+          "reason": "The target shows a document with a padlock; this neighbor shows a document with a key."
+        },
+        {
+          "id": "azure-log-analytics",
+          "revision": "0b62755c8945ca7a95829ee3694484b6474c4670593360e3675581b2df692b06",
+          "svgRevision": "d7cda60aaae964eaacb581569574f54ac5dd2169518bd20f15e33ed5899f83ad",
+          "status": "approved",
+          "reason": "The target shows a document with a padlock; this neighbor shows a document and magnifier."
+        },
+        {
+          "id": "m365-text-number-list",
+          "revision": "79b0ea4b35952c1356edbfc934b8976e23a52b29cc220093a0ae898e79828463",
+          "svgRevision": "dd771d97ba1e53fad619b366c92955f305857df5a03b8541ff64ca154d07e533",
+          "status": "approved",
+          "reason": "The target shows a document with a padlock; this neighbor shows a numbered list."
+        },
+        {
+          "id": "m365-lock",
+          "revision": "659c498adf5467fec2f647b7728fea7f40a87f65abb9af87bb977e117f24058a",
+          "svgRevision": "1a8a0a57161140d547b885fa5ad6fc9399d8efea6e705c303a94828801822d43",
+          "status": "approved",
+          "reason": "The target shows a document with a padlock; this neighbor shows a standalone padlock."
+        },
+        {
+          "id": "m365-document",
+          "revision": "7a298817e5bf943fd9c3b9f2e240b3ada290eb814fb22dc874d25ed7b8b66f75",
+          "svgRevision": "20aaff080021a253a465a47544edffb49758501a33bb87bc419d0c881c3fa266",
+          "status": "approved",
+          "reason": "The target shows a document with a padlock; this neighbor shows a standalone document."
+        }
+      ],
+      "notes": "The mapped sources share a document and padlock. The document edge no longer crosses the shackle. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "fabric-calendar-prohibited",
+      "status": "approved",
+      "drawingRevision": "e14f7991114b98103daf0b0bfa3780babf48d5dba01e307715e2e7a5549b16d4",
+      "comparisonRevision": "6d4fd89c03e306568ef8035b27bcefb8bebd83a186983679c962b7090dfd2724",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/calendar_month_prohibited_20_filled.svg",
+          "56d6eab9fd850e6b273eb8de8ad49c5b1ac6c945ac6d139c030bd83fa82b87b1"
+        ],
+        [
+          "/icons/fabric/svg/calendar_month_prohibited_20_regular.svg",
+          "eb91c73bf416d7c16b58f67387f0e8cd66f8f451de22e31146cbcf6e2848c214"
+        ],
+        [
+          "/icons/fabric/svg/calendar_month_prohibited_24_filled.svg",
+          "005602af195e7231e08ac98d73da30c77f0542c92f050306f6e99c3cc2e36ae1"
+        ],
+        [
+          "/icons/fabric/svg/calendar_month_prohibited_24_regular.svg",
+          "569ce7456bbaef6a87463794bb615bde6775c39284551b65da1d14d46b840894"
+        ],
+        [
+          "/icons/fabric/svg/calendar_month_prohibited_32_filled.svg",
+          "49daaff6844cd8b11f757bcf7a813f3af3aef90edb8ea08219817dedf3cc20c2"
+        ],
+        [
+          "/icons/fabric/svg/calendar_month_prohibited_32_regular.svg",
+          "e2adccbf909b3c8d6a11630e63616e59699b7dce5810469f7c8b841c94b6824e"
+        ]
+      ],
+      "svgRevision": "f08c87b1830a8f77de48be0866910cec91f6958a2ec1b7bd87f368338595fd49",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-shifts",
+          "revision": "f4b2c57334961e4517c476d75db1d38970283bd414386a3b4423044f73f3eae4",
+          "svgRevision": "77e70f546067d36a13223de2ceb967386183076ae77b8c622e178bdb7390ba63",
+          "status": "approved",
+          "reason": "The target shows a calendar and prohibition sign; this neighbor shows a calendar with a clock and pulse."
+        },
+        {
+          "id": "fabric-calendar-lightning",
+          "revision": "2a90ddd0e2026e4cbc0076793b90de417118bb7e810685ce07f76163c5d1e661",
+          "svgRevision": "fea7a34b51c43ad0a076145f6f2faff0329cf4e75b3c1404bde04f6fbf1c5503",
+          "status": "approved",
+          "reason": "The target shows a calendar and prohibition sign; this neighbor shows a calendar and lightning bolt."
+        },
+        {
+          "id": "aws-general-data-table",
+          "revision": "1569837e60415196f765b3a6a9dbef962f232d8fd7cc9f65e9e3badf1b4d5a2c",
+          "svgRevision": "c5172046639921da645d5880586ddd2cc72977fc779cedb0b267b2213fca76f2",
+          "status": "approved",
+          "reason": "The target shows a calendar and prohibition sign; this neighbor shows a table and an overlapping list."
+        },
+        {
+          "id": "m365-calendar",
+          "revision": "771b358f3632cceb3f063f2b94dc669f72f6478f752b65c81bd632bf0c1a2035",
+          "svgRevision": "12362e9ad492b44c248ad9b3809f2911739c7a35facf4ff47727a1e46a3be87d",
+          "status": "approved",
+          "reason": "The target shows a calendar and prohibition sign; this neighbor shows a gridded calendar."
+        },
+        {
+          "id": "fabric-calendar-clock",
+          "revision": "bdcb2ef31603d54bd02576703dff70a3042eefa275bf9f74522d10ccf1e54fe5",
+          "svgRevision": "45e0415857c907d1d45ea5140b12bc19a051284c435b4c238288f492f59223bc",
+          "status": "approved",
+          "reason": "The target shows a calendar and prohibition sign; this neighbor shows a calendar with a clock."
+        }
+      ],
+      "notes": "The mapped sources share a calendar with a prohibition badge. The calendar bottom edge is now visible outside the badge. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "fabric-calendar-lightning",
+      "status": "approved",
+      "drawingRevision": "2a90ddd0e2026e4cbc0076793b90de417118bb7e810685ce07f76163c5d1e661",
+      "comparisonRevision": "6a9eea7ba13f1deb482a77c552d96794390b7e883bd3b2c77fd4857336a47d5a",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/calendar_month_lightning_20_filled.svg",
+          "9d42560b12613230f2d9055e5bfd1124a7d8f396804949c02603eb2fef7d9c90"
+        ],
+        [
+          "/icons/fabric/svg/calendar_month_lightning_20_regular.svg",
+          "0a3c7775cdcdc49618fd6c56868f153793920231f66aa2c54a941f5791dcb22e"
+        ]
+      ],
+      "svgRevision": "fea7a34b51c43ad0a076145f6f2faff0329cf4e75b3c1404bde04f6fbf1c5503",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-anomaly-detector",
+          "revision": "92c579d43179f5bf95beac008aa5e039364983c4950208d3d993a6983c0f592f",
+          "svgRevision": "e64cbb587af80bc323476d0aefa8b51c3f99ba0df12a859e82394cc88a088ac3",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a line chart with a marked anomaly."
+        },
+        {
+          "id": "m365-shifts",
+          "revision": "f4b2c57334961e4517c476d75db1d38970283bd414386a3b4423044f73f3eae4",
+          "svgRevision": "77e70f546067d36a13223de2ceb967386183076ae77b8c622e178bdb7390ba63",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a calendar with a clock and pulse."
+        },
+        {
+          "id": "gcp-category-data-analytics",
+          "revision": "1c0be8f975157ebb1abad1b006a3955dbbb912f5bf7adf376da6d9df20d5be0f",
+          "svgRevision": "bd92b4be7666247986e24e263413ad61dc9131c2c461107aeb2a02b023c7ddbf",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a chart with a magnifier."
+        },
+        {
+          "id": "m365-calendar",
+          "revision": "771b358f3632cceb3f063f2b94dc669f72f6478f752b65c81bd632bf0c1a2035",
+          "svgRevision": "12362e9ad492b44c248ad9b3809f2911739c7a35facf4ff47727a1e46a3be87d",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a gridded calendar."
+        },
+        {
+          "id": "fabric-calendar-up",
+          "revision": "9d739cb0bea371dfdcea88c2d05b936c9f38f43c15b7fd41d8b6e9f8cd45efe0",
+          "svgRevision": "30352273140f46b583c25f5e0297212fc7231f9f2b598163074c36df83cc7154",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a calendar with an upward arrow."
+        },
+        {
+          "id": "fabric-calendar-signal",
+          "revision": "4bd2065edd44335acbf0ede28d31aed93d635fbe5b771a24aa9c89fb2028180c",
+          "svgRevision": "f632fbf11b4811ac822cfac6d061572c8b412c72ee8dc8247ad3d26422af73af",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a calendar with a wireless signal."
+        },
+        {
+          "id": "fabric-calendar-prohibited",
+          "revision": "e14f7991114b98103daf0b0bfa3780babf48d5dba01e307715e2e7a5549b16d4",
+          "svgRevision": "f08c87b1830a8f77de48be0866910cec91f6958a2ec1b7bd87f368338595fd49",
+          "status": "approved",
+          "reason": "The target shows a calendar and lightning bolt; this neighbor shows a calendar and prohibition sign."
+        }
+      ],
+      "notes": "The mapped sources share a calendar and lightning badge. The visible calendar bottom is restored and the bolt remains distinct from prohibition. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "gcp-policy-analyzer",
+      "status": "approved",
+      "drawingRevision": "191c76520e15d73624cbe532932119f93071045cbe91e778a4e974fcb4310afc",
+      "comparisonRevision": "fedc1c1a58886262349fce5d984b1a43d845c68ca4ae5e5d133c95a6e22c856e",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/policy_analyzer/policy_analyzer.svg",
+          "2c1a45bec6cb769aa93d104191c2eda64e40bd8bea0097bb3e8866535dbec5e9"
+        ]
+      ],
+      "svgRevision": "08f3f0a36cc74d6c600a3ed01f173b6dce776f64e739922175387c52de1b0db8",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-image-definitions",
+          "revision": "43ca34f255dcd4bc9c949e1579eab81d9464e8fe4ca592f1ad749cc53978f914",
+          "svgRevision": "9d06e22e99c69216a9348fa7ec5c229a8b3a2edf05c4c3c99a4fb159eee14ec8",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows a document with a cube."
+        },
+        {
+          "id": "fabric-restricted-report",
+          "revision": "4a6ebf9250fc1f224945d227028bae52455ab5df22f6c0390850ee620fe6f3ce",
+          "svgRevision": "6170c61853bf5f26e62a1bd4cee65692640cd8d260e075907ca6604564c8fa4e",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows a report with a padlock band."
+        },
+        {
+          "id": "fabric-overlapping-squares-line",
+          "revision": "0f8afbe91a0c002a303447b74072ec984e53b3e13ce1cf68045e4a3744982466",
+          "svgRevision": "9ffa25dc775f9aced949cd4ab0c19d295f20d826db2d92195a1800658004d8dd",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows overlapping outlined squares."
+        },
+        {
+          "id": "gcp-permissions",
+          "revision": "cb872408404f15699b232f5b2450826f7cc9f8126b4b86a29da38a04eb0a0b31",
+          "svgRevision": "861ce7e8a6a2a3e95df55bea49f1a38d7f4b4195719a97775e71850377711598",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows a person beside a checklist."
+        },
+        {
+          "id": "gcp-iam",
+          "revision": "67f70d27799703a56d6c3976e7120a621b7a50d1daff31a8badf9fe14d3e7110",
+          "svgRevision": "08f35f69e2eef6bc7ac8c0b4b7a96278e5401b709ed75873e61decc3d51289aa",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows a person and key within a shield."
+        },
+        {
+          "id": "gcp-key-access-justifications",
+          "revision": "b5971b1b995f86d3ba53e5cc631799c4f89ac68613040794e9ccd8a2492a352a",
+          "svgRevision": "5b380fc2a986bc0b22d8ada812751b6e9c5b2f112ebf4f6ebc7bc0decf9a2354",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows a key pointing toward a checklist."
+        },
+        {
+          "id": "m365-document-key",
+          "revision": "3a98beaa7dba5ac0fe93986aa2e398abfd8b11b7fcd58853551e5a0040264b14",
+          "svgRevision": "d4a8d19be81043a4e6be8e3daa605f4bc4dfe47ffb710a51a533894f69fe4be2",
+          "status": "approved",
+          "reason": "The target shows a checklist document and magnifier; this neighbor shows a document with a key."
+        }
+      ],
+      "notes": "The source shows a policy document with a search badge. The checklist and magnifier remain distinct from the revised document-and-key drawing. Inspected at 128, 64 and 32 pixels without visible clipping."
     }
   ]
 }

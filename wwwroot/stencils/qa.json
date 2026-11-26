@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1823,
+  "approved": 1810,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -33,6 +33,8 @@
     "azure-firewall",
     "azure-app-services",
     "aws-rds",
+    "aws-route53",
+    "azure-log-analytics",
     "azure-dns-zones",
     "azure-event-grid-topics",
     "aws-athena",
@@ -54,6 +56,7 @@
     "azure-virtual-network-gateway",
     "azure-network-watcher",
     "aws-glue",
+    "aws-textract",
     "m365-attach",
     "m365-chat",
     "m365-document-text",
@@ -142,6 +145,7 @@
     "aws-entity-resolution",
     "aws-cloudsearch",
     "aws-fraud-detector",
+    "aws-kendra",
     "aws-outposts-rack",
     "aws-outposts-servers",
     "fabric-stream-connector",
@@ -151,7 +155,9 @@
     "fabric-paginated-report",
     "m365-building",
     "m365-column-arrow",
+    "m365-document-lock",
     "m365-key",
+    "m365-lightbulb-check",
     "m365-mail-alert",
     "m365-mail-attach",
     "m365-settings",
@@ -168,7 +174,10 @@
     "aws-health-lake",
     "aws-neuron",
     "aws-codewhisperer",
+    "azure-entra-connect-health",
+    "azure-app-registrations",
     "azure-identity-security",
+    "azure-verification-service",
     "azure-serverless-search",
     "azure-bonsai",
     "azure-genomics-accounts",
@@ -205,6 +214,7 @@
     "azure-service-providers",
     "aws-iot-lorawan",
     "aws-greengrass-protocol",
+    "aws-iot-device-advisor",
     "aws-iot-fleet-hub",
     "aws-iot-device-tester",
     "aws-greengrass-artifact",
@@ -237,6 +247,7 @@
     "aws-migration-evaluator",
     "aws-cloudwatch-evidently",
     "aws-cloudwatch-logs",
+    "aws-systems-run-command",
     "aws-license-blending",
     "aws-general-servers",
     "aws-general-source-code",
@@ -283,6 +294,7 @@
     "m365-text-bullet-list",
     "aws-vpc-network-interface",
     "aws-vpc-network-acl",
+    "aws-route53-resolver",
     "aws-cloudfront-functions",
     "aws-direct-connect",
     "aws-global-accelerator",
@@ -299,6 +311,7 @@
     "fabric-asterisk",
     "fabric-commit",
     "aws-oracle-db-instance",
+    "aws-database-migration-workflow",
     "aws-ecr-image",
     "aws-ecs-container",
     "aws-eks-outposts",
@@ -2531,18 +2544,18 @@
     "aws-route53": [
       {
         "a": "aws-route53",
-        "b": "gcp-cloud-tpu",
-        "similarity": 0.2057
+        "b": "m365-data-trending",
+        "similarity": 0.1893
       },
       {
         "a": "aws-route53",
-        "b": "aws-ground-truth",
-        "similarity": 0.1923
+        "b": "m365-share-screen-overlay",
+        "similarity": 0.1844
       },
       {
         "a": "aws-route53",
-        "b": "azure-batch-accounts",
-        "similarity": 0.191
+        "b": "azure-data-factory",
+        "similarity": 0.184
       }
     ],
     "aws-step-functions": [
@@ -2745,8 +2758,8 @@
       },
       {
         "a": "azure-log-analytics",
-        "b": "fabric-kql-script",
-        "similarity": 0.2437
+        "b": "m365-document-key",
+        "similarity": 0.2651
       }
     ],
     "azure-managed-identities": [
@@ -3653,18 +3666,18 @@
     "m365-document-key": [
       {
         "a": "m365-document-key",
-        "b": "azure-image-definitions",
-        "similarity": 0.3791
+        "b": "m365-document-lock",
+        "similarity": 0.3157
+      },
+      {
+        "a": "azure-log-analytics",
+        "b": "m365-document-key",
+        "similarity": 0.2651
       },
       {
         "a": "m365-document-key",
-        "b": "fabric-document-power-query",
-        "similarity": 0.2468
-      },
-      {
-        "a": "m365-document-key",
-        "b": "azure-storsimple-data-managers",
-        "similarity": 0.2402
+        "b": "m365-wallet-card",
+        "similarity": 0.2331
       }
     ],
     "m365-fingerprint": [
@@ -4734,8 +4747,8 @@
       },
       {
         "a": "aws-textract",
-        "b": "m365-document-lock",
-        "similarity": 0.2772
+        "b": "azure-managed-sql",
+        "similarity": 0.2723
       }
     ],
     "aws-transcribe": [
@@ -6382,9 +6395,9 @@
         "similarity": 0.2254
       },
       {
-        "a": "m365-document-key",
-        "b": "gcp-policy-analyzer",
-        "similarity": 0.2211
+        "a": "gcp-policy-analyzer",
+        "b": "fabric-overlapping-squares-line",
+        "similarity": 0.2141
       }
     ],
     "gcp-permissions": [
@@ -11541,11 +11554,6 @@
     "aws-kendra": [
       {
         "a": "aws-kendra",
-        "b": "m365-document-lock",
-        "similarity": 0.2966
-      },
-      {
-        "a": "aws-kendra",
         "b": "gcp-category-business-intelligence",
         "similarity": 0.2902
       },
@@ -11553,6 +11561,11 @@
         "a": "gcp-dlp",
         "b": "aws-kendra",
         "similarity": 0.2738
+      },
+      {
+        "a": "aws-kendra",
+        "b": "m365-share-screen-overlay",
+        "similarity": 0.2689
       }
     ],
     "aws-polly": [
@@ -12237,19 +12250,19 @@
     ],
     "m365-document-lock": [
       {
-        "a": "aws-kendra",
+        "a": "m365-document-key",
         "b": "m365-document-lock",
-        "similarity": 0.2966
+        "similarity": 0.3157
+      },
+      {
+        "a": "azure-log-analytics",
+        "b": "m365-document-lock",
+        "similarity": 0.2228
       },
       {
         "a": "m365-document-lock",
-        "b": "fabric-table-database",
-        "similarity": 0.2814
-      },
-      {
-        "a": "aws-textract",
-        "b": "m365-document-lock",
-        "similarity": 0.2772
+        "b": "m365-text-number-list",
+        "similarity": 0.2143
       }
     ],
     "m365-folders": [
@@ -12361,14 +12374,14 @@
         "similarity": 0.1435
       },
       {
-        "a": "m365-lightbulb-check",
-        "b": "aws-iam-sts",
-        "similarity": 0.1371
+        "a": "m365-document-key",
+        "b": "m365-lightbulb-check",
+        "similarity": 0.1377
       },
       {
         "a": "m365-lightbulb-check",
-        "b": "azure-video-analyzers",
-        "similarity": 0.137
+        "b": "aws-iam-sts",
+        "similarity": 0.1371
       }
     ],
     "m365-lock-shield": [
@@ -13330,14 +13343,14 @@
         "similarity": 0.1878
       },
       {
+        "a": "m365-document-key",
+        "b": "aws-health-lake",
+        "similarity": 0.1826
+      },
+      {
         "a": "azure-storage-queue",
         "b": "aws-health-lake",
         "similarity": 0.174
-      },
-      {
-        "a": "aws-health-lake",
-        "b": "aws-iot-thing-industrial-pc",
-        "similarity": 0.1734
       }
     ],
     "aws-health-omics": [
@@ -13897,7 +13910,7 @@
       },
       {
         "a": "azure-entra-connect-health",
-        "b": "aws-route53-resolver",
+        "b": "azure-verification-service",
         "similarity": 0.3125
       }
     ],
@@ -13972,11 +13985,6 @@
     "azure-app-registrations": [
       {
         "a": "azure-app-registrations",
-        "b": "aws-route53-resolver",
-        "similarity": 0.3752
-      },
-      {
-        "a": "azure-app-registrations",
         "b": "azure-web-slots",
         "similarity": 0.3502
       },
@@ -13984,6 +13992,11 @@
         "a": "azure-app-registrations",
         "b": "aws-iot-device-jobs",
         "similarity": 0.2931
+      },
+      {
+        "a": "azure-app-registrations",
+        "b": "aws-cloudformation-change-set",
+        "similarity": 0.2925
       }
     ],
     "azure-identity-governance": [
@@ -14328,11 +14341,6 @@
     ],
     "azure-verification-service": [
       {
-        "a": "azure-verification-service",
-        "b": "aws-route53-resolver",
-        "similarity": 0.357
-      },
-      {
         "a": "azure-entra-connect-health",
         "b": "azure-verification-service",
         "similarity": 0.3125
@@ -14341,6 +14349,11 @@
         "a": "azure-verification-service",
         "b": "aws-trusted-advisor-fault",
         "similarity": 0.304
+      },
+      {
+        "a": "azure-verification-service",
+        "b": "aws-vpc-endpoints",
+        "similarity": 0.3003
       }
     ],
     "azure-machine-learning-classic": [
@@ -18601,13 +18614,13 @@
       },
       {
         "a": "aws-iot-device-advisor",
-        "b": "aws-route53-resolver",
-        "similarity": 0.3089
-      },
-      {
-        "a": "aws-iot-device-advisor",
         "b": "aws-backup-fsx-ontap",
         "similarity": 0.3055
+      },
+      {
+        "a": "azure-medtech-service",
+        "b": "aws-iot-device-advisor",
+        "similarity": 0.3007
       }
     ],
     "aws-iot-device-location": [
@@ -23043,8 +23056,8 @@
       },
       {
         "a": "aws-systems-run-command",
-        "b": "aws-route53-resolver",
-        "similarity": 0.3516
+        "b": "azure-web-slots",
+        "similarity": 0.3429
       }
     ],
     "aws-systems-session-manager": [
@@ -24436,9 +24449,9 @@
         "similarity": 0.2157
       },
       {
-        "a": "aws-license-manager",
-        "b": "fabric-document-sql",
-        "similarity": 0.1985
+        "a": "m365-document-lock",
+        "b": "aws-license-manager",
+        "similarity": 0.2048
       }
     ],
     "aws-service-catalog": [
@@ -27219,19 +27232,19 @@
     ],
     "aws-route53-resolver": [
       {
-        "a": "azure-app-registrations",
+        "a": "aws-backint-agent",
         "b": "aws-route53-resolver",
-        "similarity": 0.3752
+        "similarity": 0.2522
       },
       {
-        "a": "azure-verification-service",
+        "a": "aws-dynamodb-attribute",
         "b": "aws-route53-resolver",
-        "similarity": 0.357
+        "similarity": 0.2516
       },
       {
-        "a": "aws-systems-run-command",
+        "a": "gcp-partner-interconnect",
         "b": "aws-route53-resolver",
-        "similarity": 0.3516
+        "similarity": 0.2514
       }
     ],
     "aws-route53-route-table": [
@@ -28991,11 +29004,6 @@
     ],
     "aws-database-migration-workflow": [
       {
-        "a": "aws-route53-resolver",
-        "b": "aws-database-migration-workflow",
-        "similarity": 0.3129
-      },
-      {
         "a": "azure-api-fhir",
         "b": "aws-database-migration-workflow",
         "similarity": 0.3083
@@ -29004,6 +29012,11 @@
         "a": "aws-transfer-ftps",
         "b": "aws-database-migration-workflow",
         "similarity": 0.3065
+      },
+      {
+        "a": "microsoft-engage-center-connect",
+        "b": "aws-database-migration-workflow",
+        "similarity": 0.3041
       }
     ],
     "aws-dynamodb-standard-table-class": [
@@ -33190,11 +33203,6 @@
     ],
     "azure-image-definitions": [
       {
-        "a": "m365-document-key",
-        "b": "azure-image-definitions",
-        "similarity": 0.3791
-      },
-      {
         "a": "azure-postgresql",
         "b": "azure-image-definitions",
         "similarity": 0.3405
@@ -33203,6 +33211,11 @@
         "a": "gcp-cloud-sql",
         "b": "azure-image-definitions",
         "similarity": 0.3164
+      },
+      {
+        "a": "azure-image-definitions",
+        "b": "fabric-slide-window",
+        "similarity": 0.3021
       }
     ],
     "azure-image-versions": [
@@ -37087,14 +37100,14 @@
         "similarity": 0.512
       },
       {
-        "a": "m365-document-key",
-        "b": "fabric-document-power-query",
-        "similarity": 0.2468
-      },
-      {
         "a": "azure-image-definitions",
         "b": "fabric-document-power-query",
         "similarity": 0.2239
+      },
+      {
+        "a": "m365-office-notebook",
+        "b": "fabric-document-power-query",
+        "similarity": 0.219
       }
     ],
     "fabric-gauge-kql": [
@@ -38428,9 +38441,9 @@
         "similarity": 0.2713
       },
       {
-        "a": "fabric-calendar-lightning",
-        "b": "fabric-calendar-prohibited",
-        "similarity": 0.2492
+        "a": "gcp-category-data-analytics",
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2405
       }
     ],
     "fabric-calendar-up": [
@@ -38488,17 +38501,17 @@
       {
         "a": "m365-shifts",
         "b": "fabric-calendar-prohibited",
-        "similarity": 0.2557
+        "similarity": 0.2488
       },
       {
         "a": "fabric-calendar-lightning",
         "b": "fabric-calendar-prohibited",
-        "similarity": 0.2492
+        "similarity": 0.2402
       },
       {
         "a": "aws-general-data-table",
         "b": "fabric-calendar-prohibited",
-        "similarity": 0.2283
+        "similarity": 0.2231
       }
     ],
     "fabric-calendar-signal": [
