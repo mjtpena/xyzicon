@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "auditStatus": "in_progress",
+  "catalog": {
+    "compositions": 2235,
+    "sourceEntries": 5419,
+    "approvedByGeneratedQa": 2235,
+    "generatedQaUnresolvedPairs": 0
+  },
+  "triage": {
+    "geometryMismatchGroups": 524,
+    "rasterMismatchGroups": 309,
+    "unsupportedGeometrySources": 1956,
+    "unsupportedRasterSources": 161,
+    "deduplicatedExactCrossCompositionCandidates": 5
+  },
+  "batches": [
+    {
+      "id": "exact-cross-and-visual-spot-check-1",
+      "status": "completed-with-evidence",
+      "visualSamplesReviewed": 16,
+      "visualCompositionsRemaining": 2219,
+      "exactCrossCandidates": [
+        {
+          "id": "aws-elemental-family",
+          "names": [
+            "AWS Elemental Conductor",
+            "AWS Elemental Delta",
+            "AWS Elemental Appliances and Software",
+            "AWS Elemental Live",
+            "AWS Elemental Server"
+          ],
+          "status": "unresolved",
+          "reason": "Normalized primitive geometry is a triage match only; product concepts differ and no alias evidence was established."
+        },
+        {
+          "id": "apache-mxnet-tensorflow",
+          "names": [
+            "Apache MXNet on AWS",
+            "TensorFlow on AWS"
+          ],
+          "status": "unresolved",
+          "reason": "Triage-only source geometry match; frameworks are semantically distinct and no alias evidence was established."
+        },
+        {
+          "id": "aws-public-private-subnet",
+          "names": [
+            "Private subnet",
+            "Public subnet"
+          ],
+          "status": "verified-separate",
+          "reason": "The official source glyph paths are equivalent, but AWS public/private subnet concepts differ. Existing source-grounded compositions remain separate: lock for private and internet route for public.",
+          "artworkIds": [
+            "aws-private-subnet",
+            "aws-public-subnet"
+          ]
+        },
+        {
+          "id": "fabric-decimal-double",
+          "names": [
+            "Decimal data type",
+            "Double data type"
+          ],
+          "status": "unresolved",
+          "reason": "Triage-only source geometry match; numeric type concepts are distinct and no alias evidence was established."
+        },
+        {
+          "id": "fabric-three-shapes-sample-workload",
+          "names": [
+            "Three shapes",
+            "Sample workload"
+          ],
+          "status": "unresolved",
+          "reason": "Triage-only source geometry match; the concepts are distinct and no alias evidence was established."
+        }
+      ],
+      "visualSpotCheck": [
+        {
+          "id": "azure-azurite",
+          "status": "clear",
+          "assessment": "Database/terminal composition communicates Azure-compatible storage tooling."
+        },
+        {
+          "id": "azure-deployment-environments",
+          "status": "clear",
+          "assessment": "Cloud-to-environment deployment cube and arrow communicate an environment deployment concept."
+        },
+        {
+          "id": "aws-finspace",
+          "status": "clear",
+          "assessment": "Financial city/grid composition communicates a finance workspace clearly."
+        },
+        {
+          "id": "aws-shield",
+          "status": "clear",
+          "assessment": "Shield and security processing marks communicate protection clearly."
+        },
+        {
+          "id": "gcp-cloud-routes",
+          "status": "clear",
+          "assessment": "Cross-connected route nodes communicate routing rather than requiring the official glyph."
+        },
+        {
+          "id": "gcp-looker",
+          "status": "clear",
+          "assessment": "Chart and magnifier communicate analytical lookup clearly."
+        },
+        {
+          "id": "fabric-schema-model",
+          "status": "clear",
+          "assessment": "Linked schema entities communicate a data model."
+        },
+        {
+          "id": "fabric-datatype-long",
+          "status": "clear",
+          "assessment": "The 12L numeral and letter marks communicate a long integer type."
+        },
+        {
+          "id": "entra-verified-id",
+          "status": "clear",
+          "assessment": "Person credential and verification seal communicate verified identity."
+        },
+        {
+          "id": "entra-private-access",
+          "status": "clear",
+          "assessment": "Protected door and private-access lock communicate restricted access."
+        },
+        {
+          "id": "m365-retail-building",
+          "status": "clear",
+          "assessment": "Storefront awning and building communicate retail."
+        },
+        {
+          "id": "m365-arrow-clockwise",
+          "status": "clear",
+          "assessment": "Clockwise arrow with clock marks communicates repeat or refresh."
+        },
+        {
+          "id": "power-apps",
+          "status": "clear",
+          "assessment": "App canvas and interface blocks communicate app building."
+        },
+        {
+          "id": "power-ai-builder",
+          "status": "clear",
+          "assessment": "AI prompt/tool composition communicates builder tooling."
+        },
+        {
+          "id": "dynamics-business-central",
+          "status": "clear",
+          "assessment": "Central business process and exchange marks communicate a business central concept."
+        },
+        {
+          "id": "dynamics-order-management",
+          "status": "clear",
+          "assessment": "Order documents and check marks communicate order management."
+        }
+      ],
+      "confirmedDrawingDefects": []
+    }
+  ],
+  "remaining": {
+    "compositionsWithoutIndependentVisualReview": 2219,
+    "geometryMismatchGroups": 524,
+    "rasterMismatchGroups": 309,
+    "unsupportedGeometrySources": 1956,
+    "unsupportedRasterSources": 161,
+    "unresolvedExactCrossCategories": 4
+  }
+}

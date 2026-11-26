@@ -147,6 +147,18 @@ test("alias audit surfaces unsupported and unreadable source evidence", async ()
   );
 });
 
+test("durable catalog review state records evidence and remaining scope", () => {
+  const state = JSON.parse(readFileSync(new URL("../stencils/audit-review-state.json", import.meta.url), "utf8"));
+  assert.equal(state.auditStatus, "in_progress");
+  assert.equal(state.catalog.compositions, 2235);
+  assert.equal(state.catalog.sourceEntries, 5419);
+  assert.equal(state.remaining.compositionsWithoutIndependentVisualReview, 2219);
+  assert.equal(state.batches[0].visualSamplesReviewed, 16);
+  assert.equal(state.batches[0].confirmedDrawingDefects.length, 0);
+  assert.ok(state.batches[0].exactCrossCandidates.some((candidate) =>
+    candidate.id === "aws-public-private-subnet" && candidate.status === "verified-separate"));
+});
+
 test("alpha masks have fixed raster dimensions and opaque backgrounds are triage-only", () => {
   const sparse = new Uint8Array(64 * 64 * 4);
   sparse[(4095 * 4) + 3] = 255;
