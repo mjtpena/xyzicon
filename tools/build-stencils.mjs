@@ -335,6 +335,18 @@ export function validateRelease(qa, args) {
     throw new Error(`Complete catalog blocked: ${missing} source entries have no drawing.`);
 }
 
+export async function writeOrCheckOutputs(outputs, outputDir, check) {
+  for (const [name, content] of outputs) {
+    const file = path.join(outputDir, name);
+    if (check) {
+      if (await readFile(file, "utf8") !== content) throw new Error(`Stale output: ${name}; run npm run stencils.`);
+    } else {
+      await mkdir(outputDir, { recursive: true });
+      await writeFile(file, content);
+    }
+  }
+}
+
 export function packMask(pixels) {
   const mask = new Uint32Array(Math.ceil(pixels.length / 32));
   for (let i = 0; i < pixels.length; i++) {
@@ -499,15 +511,7 @@ export async function build(args = []) {
   if (args.includes("--independent-partial"))
     await validateIndependentReviewPartial(qa, items, sourceRevisions, qa.nearest, revisions, root);
   validateRelease(qa, args);
-  for (const [name, content] of outputs) {
-    const file = path.join(output, name);
-    if (args.includes("--check")) {
-      if (await readFile(file, "utf8") !== content) throw new Error(`Stale output: ${name}; run npm run stencils.`);
-    } else {
-      await mkdir(output, { recursive: true });
-      await writeFile(file, content);
-    }
-  }
+  await writeOrCheckOutputs(outputs, output, args.includes("--check"));
   if (args.includes("--reviews")) {
     await writeFile(reviewFile, json(reviews));
     if (incomingPairs) await writeFile(pairReviewFile, json(pairReviews));

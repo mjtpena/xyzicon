@@ -1,12 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, writeFileSync, mkdirSync, mkdtempSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
-import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity, validateAliasEvidence, validateIndependentReview, validateIndependentReviewPartial } from "./build-stencils.mjs";
+import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, writeOrCheckOutputs, packMask, silhouetteSimilarity, validateAliasEvidence, validateIndependentReview, validateIndependentReviewPartial } from "./build-stencils.mjs";
 import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus, splitCandidateSupport } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
@@ -152,15 +152,29 @@ test("alias audit surfaces unsupported and unreadable source evidence", async ()
 
 test("durable catalog review state records evidence and remaining scope", () => {
   const state = JSON.parse(readFileSync(new URL("../stencils/independent-review-state.json", import.meta.url), "utf8"));
-  assert.equal(state.status, "in-progress");
-  assert.equal(state.compositionCount, 2237);
+  const catalog = JSON.parse(readFileSync(new URL("../wwwroot/stencils/catalog.json", import.meta.url), "utf8"));
+  assert.ok(["in-progress", "complete"].includes(state.status));
+  assert.equal(state.compositionCount, catalog.items.length);
   assert.equal(state.compositionsReviewed, state.reviews.length);
 });
 
-test("independent release check is non-writing and stale-output-safe", () => {
+test("independent release check selects non-writing output validation", () => {
   const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
   assert.match(packageJson.scripts["stencils:independent-check"], /--check/);
   assert.match(packageJson.scripts["stencils:independent-check"], /--independent/);
+});
+
+test("output validation rejects stale files without rewriting them", async () => {
+  const root = mkdtempSync(path.join(tmpdir(), "xyzicon-output-check-"));
+  try {
+    const outputFile = path.join(root, "drawing.svg");
+    writeFileSync(outputFile, "reviewed output");
+    await assert.rejects(() => writeOrCheckOutputs(new Map([["drawing.svg", "new output"]]), root, true), /Stale output: drawing\.svg/);
+    assert.equal(readFileSync(outputFile, "utf8"), "reviewed output");
+    await writeOrCheckOutputs(new Map([["drawing.svg", "reviewed output"]]), root, true);
+  } finally {
+    rmSync(root, { recursive: true });
+  }
 });
 
 test("independent review gate fails closed on missing, bogus, duplicate and stale records", async () => {
