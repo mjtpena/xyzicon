@@ -104,6 +104,31 @@ test("completion and approval gates independently reject missing coverage and un
   assert.doesNotThrow(() => validateRelease(qa, ["--approved", "--complete"]));
 });
 
+test("verified exact-geometry aliases merge only with naming evidence", () => {
+  const dataLake = artwork.find((item) => item.id === "azure-data-lake-gen1");
+  const privateSubnet = artwork.find((item) => item.id === "aws-private-subnet");
+  const publicSubnet = artwork.find((item) => item.id === "aws-public-subnet");
+  assert.ok(dataLake.sourceNames.includes("10090-icon-service-Data-Lake-Storage-Gen1"));
+  assert.ok(dataLake.sourceNames.includes("10150-icon-service-Data-Lake-Store-Gen1"));
+  assert.ok(!artwork.some((item) => item.id === "azure-lake-store"));
+  assert.ok(privateSubnet.sourceNames.includes("Private-subnet_32"));
+  assert.ok(publicSubnet.sourceNames.includes("Public-subnet_32"));
+  assert.notEqual(geometrySignature(privateSubnet), geometrySignature(publicSubnet));
+
+  const pathData = (file) => {
+    const svg = readFileSync(new URL(`../${file}`, import.meta.url), "utf8");
+    return [...svg.matchAll(/<path\b[^>]*\bd=["']([^"']+)["'][^>]*>/gi)].map((match) => match[1]);
+  };
+  assert.deepEqual(
+    pathData("wwwroot/icons/azure/Azure_Public_Service_Icons/Icons/storage/10090-icon-service-Data-Lake-Storage-Gen1.svg"),
+    pathData("wwwroot/icons/azure/Azure_Public_Service_Icons/Icons/analytics/10150-icon-service-Data-Lake-Store-Gen1.svg"),
+  );
+  assert.deepEqual(
+    pathData("wwwroot/icons/aws/Architecture-Group-Icons_07312026/Private-subnet_32.svg"),
+    pathData("wwwroot/icons/aws/Architecture-Group-Icons_07312026/Public-subnet_32.svg"),
+  );
+});
+
 test("packed monochrome silhouettes preserve exact intersection-over-union scores", () => {
   const a = Uint8Array.from({ length: 4096 }, (_, i) => i % 3 ? 255 : 0);
   const b = Uint8Array.from({ length: 4096 }, (_, i) => i % 7 ? 255 : 0);
