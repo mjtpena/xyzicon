@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 103,
+  "compositionsReviewed": 110,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -7653,6 +7653,551 @@
         }
       ],
       "notes": "The paired queues and directional message flow are recognizable at all three sizes, distinct from the SQS message line and Pub/Sub fan-out network."
+    },
+    {
+      "id": "fabric-lakehouse",
+      "status": "approved",
+      "drawingRevision": "dcdb66c83e0a14aab7f806f435a132c0b08f4167358a003e5ae6d3c198b04593",
+      "comparisonRevision": "9ea2c213658d81b8bb5b459da9769cbf06cab68ab8659ece87c39b2308100aa1",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/lakehouse_20_item.svg",
+          "ac7391bc3b28108b390ac6376e7f488339012e28af5ca33ab9e1e58727d39aa3"
+        ],
+        [
+          "/icons/fabric/svg/lakehouse_24_item.svg",
+          "e5963768d31050d5bc1324f3dbbdd777f872d139f1f2ab84c6e27777c7439fe0"
+        ],
+        [
+          "/icons/fabric/svg/lakehouse_32_item.svg",
+          "bfe3251b58b85613f3c751ad0b6e2570732c1ee18195c3ddf325feae4e537733"
+        ],
+        [
+          "/icons/fabric/svg/lakehouse_40_item.svg",
+          "b1fabe89903c1b36bab567d3f0bcd02cc9ee40398e0655d3c1c043b8c7f3366b"
+        ],
+        [
+          "/icons/fabric/svg/lakehouse_48_item.svg",
+          "280b703031ac85e08fa7782be6fe922c3089de817d9517cd86102f3d4680ca3a"
+        ],
+        [
+          "/icons/fabric/svg/lakehouse_64_item.svg",
+          "0067b4cd6968dfcd65d2df6747eb1e60ebc025701f5cdd175be60b35466cbf23"
+        ]
+      ],
+      "svgRevision": "2af4ecc8d1348f6a6b43578ecd9b13890ab464729e3ec1f6586832bc2cbf5bd5",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-home-kql",
+          "revision": "1ff167dcb1fb4d1b1f6cd037db3b707cd1ff957efba60ddba873106576fe3747",
+          "svgRevision": "879f070c10edd216e5b39ccb3f818920bad458d6375fa27fe8fa3ea82c0e952e",
+          "status": "approved",
+          "reason": "The target shows a warehouse with a data grid above water; this neighbor shows a house with a query mark. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-home",
+          "revision": "02eea46ffc779139eb3f596ef29490e4306cc4a2804c822aa2601e2486711226",
+          "svgRevision": "14a70839b9dbd1e9bb3096de608c9aae824100d8ab930879f44cd2a77479eff4",
+          "status": "approved",
+          "reason": "The target shows a warehouse with a data grid above water; this neighbor shows a home with windows. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-route53-route-table",
+          "revision": "d66750254b6a7794cfaafa2c0bc023fd46889ae6ca1a9a4b2e263ea08738b4c1",
+          "svgRevision": "903eeda9e17707c1ce1500a661e7ff30dc39bdcbc332482dde7a3da9bc8650a6",
+          "status": "approved",
+          "reason": "The target shows a warehouse with a data grid above water; this neighbor shows a DNS route table. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-lake-formation",
+          "revision": "3360d346e2802e113aee73ba32b3ba368ae494fce72b2871bb0cb407e9ca9cd6",
+          "svgRevision": "35394a936b76afb34f62f03160986d2f5112e295d54b0b6217ce27afb6f1cc28",
+          "status": "approved",
+          "reason": "The target shows a warehouse with a data grid above water; this neighbor shows a lakehouse with a dataset mark. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-data-lake-gen1",
+          "revision": "d277890f2327c30311321f44452f68acb32a13f1b1f37b00b68b1570a5612e1d",
+          "svgRevision": "3e8d2253f91d1b154a4c041969615c525b8fe2fbcedbc63dd34253d80e180ef9",
+          "status": "approved",
+          "reason": "The target shows a warehouse with a data grid above water; this neighbor shows a lightning data file. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-one-lake",
+          "revision": "6678d4d44146225ba571b83a75da1a7535092a90b90531f28c78326f7a9565df",
+          "svgRevision": "fc11951691d7d2d4a1fc093ac57939ca329036a7ac7c5a80bcd3d7bb95b12017",
+          "status": "approved",
+          "reason": "The target shows a warehouse with a data grid above water; this neighbor shows data flowing into waves. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The data grid inside the warehouse is visible at 32 pixels, separating it from plain houses and the dataset-marked AWS lakehouse."
+    },
+    {
+      "id": "fabric-pipeline",
+      "status": "approved",
+      "drawingRevision": "336babf1a3239d207861b8fddfe363ccc13e089782bb9b987e77e5cdb1396733",
+      "comparisonRevision": "fdf40c909a83cda9a1f258303f7fe3b27fad6f7d46139d6fba41a1599b950ad6",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/pipeline_20_item.svg",
+          "855cf45642e206eb314293d3b0f0b704658cea09bb628b470c5a2a56db9db0b5"
+        ],
+        [
+          "/icons/fabric/svg/pipeline_24_item.svg",
+          "b3c332d4fa2528055668d2538f053fb68b0343e6fdca93ead7ce051a1cf73324"
+        ],
+        [
+          "/icons/fabric/svg/pipeline_32_item.svg",
+          "dc6b1212b6baec33f96d0291b9f86d7bf5a3540352d9e2a1c653887a37373c07"
+        ],
+        [
+          "/icons/fabric/svg/pipeline_40_item.svg",
+          "dd78db338a4a9e82d417e611c29238501517a383adaf08dc2801c7e6d2b1badf"
+        ],
+        [
+          "/icons/fabric/svg/pipeline_48_item.svg",
+          "579ce74dbdcf777b74715f595ab783a8c6bb2ecc1bf2e01c283d0a1b5fedcbba"
+        ],
+        [
+          "/icons/fabric/svg/pipeline_64_item.svg",
+          "bbf39cb1783dc8b6e99e6e91d1740e043e540fc0479f47badbc17f61cee9c455"
+        ]
+      ],
+      "svgRevision": "244c90f31aeb13db33ddb927823e74424d9fce6e4f44e1106c4c63e4e86aa043",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-trace",
+          "revision": "280eec55b64657b9bb9092abdc1f872f6b9e13a6bc58c0540e3abfd6679aa219",
+          "svgRevision": "9f1862b111f31b0d485bb95b2d3039e4e652a73b5039a7acb8fc2ce521ba8bf3",
+          "status": "approved",
+          "reason": "The target shows a data source flowing into a tabular result; this neighbor shows stacked event traces. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-dashboard",
+          "revision": "77f8d77bedaebe4e5739c965a25eafb1826d39dcde76d70c9689a618fae31873",
+          "svgRevision": "903ff5f3936d2ed2b1b47a5828492c1d8b6f655536d6c6fee4efa9dde6d676ef",
+          "status": "approved",
+          "reason": "The target shows a data source flowing into a tabular result; this neighbor shows a chart dashboard. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-datasync-discovery",
+          "revision": "ed80cc18add18fdb9230ae386dc1574490cbe27bf368a5a54d3248b27087247e",
+          "svgRevision": "dbe62db9d2cd294a796671c348289a0d82691414d25c457074aaf543ca2e1f05",
+          "status": "approved",
+          "reason": "The target shows a data source flowing into a tabular result; this neighbor shows a magnified data connection. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-codepipeline",
+          "revision": "67c24d0fc4831f21b04a1bd6cb21645126be3416d6cccf816429e434902759c9",
+          "svgRevision": "98735c02c1e1a603a824eb23987126dd35450720e8ac3aa6edbec375d8c5c8ed",
+          "status": "approved",
+          "reason": "The target shows a data source flowing into a tabular result; this neighbor shows connected deployment steps. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-data-factory",
+          "revision": "c5ba15f0ccb2c81e68e724983d65823da0dcc3482f0278fa1a54cbf6632775a1",
+          "svgRevision": "5d9320a09b49b48144a45a329e33b671e172cb24cc42bea83207cafa8bde03f9",
+          "status": "approved",
+          "reason": "The target shows a data source flowing into a tabular result; this neighbor shows factory pipes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-dataflow",
+          "revision": "021c8bf195467fab34e3a720327e2981de6139a39220c72591cfb10571349786",
+          "svgRevision": "0958b1badbbdc8667cc12087537810bd84c85bc18253a061d48dc4b14fc43023",
+          "status": "approved",
+          "reason": "The target shows a data source flowing into a tabular result; this neighbor shows a branched processing graph. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The source-to-table flow is visible at all three sizes and differs from the event trace, factory pipes and branched Dataflow graph."
+    },
+    {
+      "id": "fabric-notebook",
+      "status": "approved",
+      "drawingRevision": "43fa4544f4fcb9ad4ba65b50d14b0eb90712217bcf9c81570d22a603e9f80110",
+      "comparisonRevision": "94e2b257035d9bcda229473590081d1f416784918fbc91e358dfe13e8d1e3d95",
+      "sourceRevisions": [
+        [
+          "/icons/fabric/svg/notebook_20_item.svg",
+          "41c5bf79bef942f0e5a0549f0ab28febfe2f434c54068504a01aeaf8c07d6442"
+        ],
+        [
+          "/icons/fabric/svg/notebook_24_item.svg",
+          "7948060f9a43be4ec9778b8eb7baa4f8c6fb2dc41cfa066b270cd26de1d008e5"
+        ],
+        [
+          "/icons/fabric/svg/notebook_32_item.svg",
+          "6bfe5ca8e665f3783777f7005aba4ef594fcd6afd57d15535c023714cae1dd91"
+        ],
+        [
+          "/icons/fabric/svg/notebook_40_item.svg",
+          "adad00208edfd833fd754f8122c6318b405c6ed3e4588683db6d90a4bf6dd7b0"
+        ],
+        [
+          "/icons/fabric/svg/notebook_48_item.svg",
+          "aba196fd50bc4c4f1980f62ea0e5cc3d5be87ab04dbb50271eb5e9c48310512c"
+        ],
+        [
+          "/icons/fabric/svg/notebook_64_item.svg",
+          "538ba60cd940d272724ca43b05f10d2b04cb5864f9f9c0f463b684af28ecb135"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_16_filled.svg",
+          "12e6a3d1172644bf040c51662ad10f247a530a86d6a81faf49e04ca9732c666a"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_16_regular.svg",
+          "3eba69266b95d113de0c50411a60733dc0f48768c6d3e89acf53670bb67e04af"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_20_filled.svg",
+          "daeb9aafff0e36a0b222beff5207b72e2722de40dec068d09275137a86aa7965"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_20_regular.svg",
+          "2ed1cd2223ee820aeb56d7a8b4a192ec3678766300f66ef171abe5a1d59d0c1f"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_24_filled.svg",
+          "6bed26bbd1f7539ba1a9f88b9bb7d1fc6a42ae102fa33e4b8166df14bb0095b0"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_24_regular.svg",
+          "39a6fd09744209bf010dfcdd4f316b16ede01b415904c4cc5aaeb6dbdfbb3c00"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_32_filled.svg",
+          "3a8e618411a3f29a299412522ce7e9ab32c19d546eac0a9c3506491f38b8fd16"
+        ],
+        [
+          "/icons/fabric/svg/notebook_code_32_regular.svg",
+          "7e09ff494b6ae7cfe432fb8d55e8224a3b74ceee94dfe4628bdf531acc7ab282"
+        ]
+      ],
+      "svgRevision": "e12fc6a2b961d7bc562b2141c6593f84aa40cc3123186a40bc382ced61d6dc5a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-document-shapes",
+          "revision": "fbc42acf50ccf78b148444a2dc6345e94661dabe05d217c8ef6a17d2040e3a6c",
+          "svgRevision": "0ddc1894968ca89274d5be77e09e66ce96bc924d9b377b2ad76d1a35c5ceab38",
+          "status": "approved",
+          "reason": "The target shows a code notebook with a selection mark; this neighbor shows a page of shapes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-document-bullets",
+          "revision": "2b8daeb5e421e7a43061be1bf251c656f1cc991f122baeb1c4a60ae572e5ecac",
+          "svgRevision": "25a73d9b5ba6aa58314563cd03f652150eb4e95b2883e813abfbc0f1fe494ecd",
+          "status": "approved",
+          "reason": "The target shows a code notebook with a selection mark; this neighbor shows a bulleted page. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-clipboard",
+          "revision": "31af8f8e719d4860efc9bdadbbc533de52483a19b620cb477d6056fd577deee2",
+          "svgRevision": "759f457ee8d042b08a49ee35736a6ad8caf47e7ad0e48847b95ecd99dae3a831",
+          "status": "approved",
+          "reason": "The target shows a code notebook with a selection mark; this neighbor shows a document on a clipboard. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-sagemaker-notebook",
+          "revision": "55eda02adc170d7dd0e5110788e62998e3f0663d270bf4f78ac48053ccb37013",
+          "svgRevision": "24c1b1ee54c3bf157c2d94fe485b3913bf14136ddff0e3fb393a33ae2202624a",
+          "status": "approved",
+          "reason": "The target shows a code notebook with a selection mark; this neighbor shows a code notebook with a chart. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-office-notebook",
+          "revision": "4eacf4f453a003b91f94ba35bc72c14521b456c05554e5fcb41d21d8b3a206a5",
+          "svgRevision": "04c4253822b6da6f55a5c7f66da1b1c37cc92e07924011574244b8d6b9394eb4",
+          "status": "approved",
+          "reason": "The target shows a code notebook with a selection mark; this neighbor shows a page with a ribbon. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-notebook-globe",
+          "revision": "c401df5bcf08cbb391a404d3fc758a5573ceadb893b489fd961de59992009701",
+          "svgRevision": "4ff453f9a61418bad28d6adc2434266c0a091b99dbe84e284869cd2c7fba3f89",
+          "status": "approved",
+          "reason": "The target shows a code notebook with a selection mark; this neighbor shows a notebook with a globe. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The notebook page with code remains legible at all three sizes and is distinct from plain document and clipboard neighbors."
+    },
+    {
+      "id": "entra-id",
+      "status": "approved",
+      "drawingRevision": "e27e4c0ea621ced645403af2cc15d586af422b41765be46b0a621f4b1f583f61",
+      "comparisonRevision": "3a5e3bfa69b73c81971ea1b04673914b11e04a709703feef89020070be27f161",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra ID BW icon.svg",
+          "861c2499669d77500514b8935c0a8f1c311de9693191ba9506595590ee685312"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra ID filled BW icon.svg",
+          "b897055e1f5fd668e5c6a8329813bf1ddfe6c8851e03160302d9c8cba8759799"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra ID color icon.svg",
+          "d5f35b0b77d83da27f1292d141bfb97f96c63b52504f0863e98c0e9d7d111e35"
+        ]
+      ],
+      "svgRevision": "68803be337ae7c0eb7cebe061d794f6ceaca683b3e2ae28435d2dfc67eca0098",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-tables-curve-right",
+          "revision": "812be163b47a0df311f1688f830c0dddc79bfa77371fa66ae0fef8b31380750b",
+          "svgRevision": "7691d50732fd6cc2ba7ecc17f1493ecdc9600611fe52e7032c5ec67e3cba0346",
+          "status": "approved",
+          "reason": "The target shows a person entering a gate; this neighbor shows a table with a curved arrow. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-building-people",
+          "revision": "8e353c2981fea0c6bb4c570eea5d876c34295d9474aab0c58193ec20996a0f3d",
+          "svgRevision": "3aca287179fd0947f74f0b79e4278dac1d346d2e6b51a93cced6113a3fc19ec8",
+          "status": "approved",
+          "reason": "The target shows a person entering a gate; this neighbor shows people in a building. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-logic-apps-template",
+          "revision": "444c5755c11a98e81f40ffe0762621b57ac6b0bacf3b2597e05495189dacfdc2",
+          "svgRevision": "ae70aa6fc9818b48b15aa301c0f361376b5cf041dfcebe726069dff424218937",
+          "status": "approved",
+          "reason": "The target shows a person entering a gate; this neighbor shows a linked app template. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-identity-platform",
+          "revision": "bd81bac52f9d420c7782e883ff2bf1dc75aca008f3b42af223d3a6ac7582b71e",
+          "svgRevision": "50b7c90befef86eb268df957e8d953351e32de8deeb8612f0585e6644b46ae68",
+          "status": "approved",
+          "reason": "The target shows a person entering a gate; this neighbor shows an identity card. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-identity-center",
+          "revision": "d723b979dc15ac07c329b9aed326a9b54c38160d23bd5f3bb96f914e03e0be9d",
+          "svgRevision": "4b4b1dab865afa81487026fcc2fdd7ab3c6348a9e8039bd98cc2033dbb4f48d5",
+          "status": "approved",
+          "reason": "The target shows a person entering a gate; this neighbor shows a person connected to records. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-entra-id-protection",
+          "revision": "19ed8955e66b9e4c789f8e8982c49ca3cc68db140df575fa49629a14150ad5a2",
+          "svgRevision": "8fceb060c6039456e19dc8b0c539eb14e6bf74acadbf4f9262ae6674e00ef1e3",
+          "status": "approved",
+          "reason": "The target shows a person entering a gate; this neighbor shows a protected identity with warning. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The person passing through a gate represents identity access and remains distinct from building-based people and linked app templates."
+    },
+    {
+      "id": "entra-verified-id",
+      "status": "approved",
+      "drawingRevision": "56f0a9d4f80b8b2a62185407fc944b6100cfc238cd778ebc3d16bdcd2993bfcb",
+      "comparisonRevision": "ed3ab4d71660588a6e2d23d4c91c3311e0604154c378c0123cc6c2713f7f123c",
+      "sourceRevisions": [
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra BW icons SVG/Microsoft Entra Verified ID BW icon.svg",
+          "e473930ec0f5598579d4d1b2bcf500180aa1cd5b375f5e925db14dcf3b82834c"
+        ],
+        [
+          "/icons/entra/Microsoft Entra architecture icons - Oct 2023/Microsoft Entra color icons SVG/Microsoft Entra Verified ID color icon.svg",
+          "d38d2eeca2e4ab4f76b0d778bb65a8cee6c144e2794ef4f7fa1c2c340e915630"
+        ]
+      ],
+      "svgRevision": "8e43eebbb74a9142933ca5ffcdfcf91c8ee49ceb329cd0503e9cc93d36efac26",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-dual-screen-diff",
+          "revision": "625a786270f190878c8122740f5763ce450bff66fc0f4392e74bc680076027ba",
+          "svgRevision": "324345c226d32a38b2c5ce1af58e28dd06fd82e43b5f8b1ba9cdc98da0e7e3fc",
+          "status": "approved",
+          "reason": "The target shows a verified identity card with a person and shield; this neighbor shows two comparison screens. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-credentials",
+          "revision": "b96a8028b8d2e4320ff9e3c4251b0ac4023bda2b82d4fa259f7e6507936a9ff8",
+          "svgRevision": "2e62cdd0c1bae4b99d9dcd0e4db05cdd4f3cceeaf05dd6fe4ae0de128820ae12",
+          "status": "approved",
+          "reason": "The target shows a verified identity card with a person and shield; this neighbor shows a credential card. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-chat",
+          "revision": "2e6c64843d740674c5184c7939ac6f6c7bcadbad3015df9126850882e3daa52b",
+          "svgRevision": "b9d2116ffd3dd17776c9ecf9d02518fd4b80db077ffcdedc070bce8c812cf87c",
+          "status": "approved",
+          "reason": "The target shows a verified identity card with a person and shield; this neighbor shows chat bubbles. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-entra-verified-id",
+          "revision": "d03db8f8590f2b8eca194c5e1910259ed431b462e4147f6c2b9cb8540cbe6cc1",
+          "svgRevision": "91961b9f81b28bc71680dbe1b2baa8d0b730eb1039a56b4b77e9b300f3564c69",
+          "status": "approved",
+          "reason": "The target shows a verified identity card with a person and shield; this neighbor shows a verified person ID. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-verifiable-credentials",
+          "revision": "f103dc7faefdc01a65a15980e8d09e7f398f8291ae7d24f24ea9ee0d2e04ef15",
+          "svgRevision": "084b5d35849c91607be5b8e73b66e665fc8e638aaa8ba10b7b5b10b8080c8e13",
+          "status": "approved",
+          "reason": "The target shows a verified identity card with a person and shield; this neighbor shows a credential card with a badge. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The person on an identity card with a verification shield remains visible at 32 pixels and distinct from credential-only cards and chat bubbles."
+    },
+    {
+      "id": "power-automate",
+      "status": "approved",
+      "drawingRevision": "30554b18ffeab681153377a807b3fbce8b7baeb121794bdd96eb6587e61e8f6e",
+      "comparisonRevision": "a145d330d1338a335eff554ac2b2ef525a1de92b22654c35680ff0d2b9e2ef9f",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Power Platform/PowerAutomate_scalable.svg",
+          "fc212274e9d3bf64153275c57aa93a796bec2d30debc36bf78183962dcc8b628"
+        ]
+      ],
+      "svgRevision": "840a969555c4e259c157eac215b1b119ad4f62e7803f1fbdfd0f110c33682df0",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-defender-pneumatic",
+          "revision": "58a8521518fab4da886f2101eaef0cf3c3ec0b7dd554f5ab5d33f596e28c3b9b",
+          "svgRevision": "d1942be313073535d32af4e050279bef789ba2d0cc83aab5dcacfb1c26212871",
+          "status": "approved",
+          "reason": "The target shows a person coordinating process cards; this neighbor shows a protected pneumatic device. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-packaging",
+          "revision": "5ff6eab9fcb5d2a331d66ddbfd587b97923bc11638345e2aef65637a158579c0",
+          "svgRevision": "c45fa15350fb9643881fc663f7e914e9807cce37b051c1d9b6b1f9fcf9a680c6",
+          "status": "approved",
+          "reason": "The target shows a person coordinating process cards; this neighbor shows a protected package. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-lighthouse",
+          "revision": "d762534c1eade4c8578ce3bfe46600dbbe298f2cd3804deea63cd18c96c3ca31",
+          "svgRevision": "35e8b166a9f5af33f47ca1835ff5d2bd45ebee33eb1e9d4befe028a3ccab3850",
+          "status": "approved",
+          "reason": "The target shows a person coordinating process cards; this neighbor shows a lighthouse beacon. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-logic-apps",
+          "revision": "6e39f04a7d91bbc0505715e010ba3ee22caac6eb9e0b1ccc206b65ebb30cfd31",
+          "svgRevision": "47e9899a1afa41e763390cab8aa8fcbd3d4452cc2f52f504c28abf6e2654bcd6",
+          "status": "approved",
+          "reason": "The target shows a person coordinating process cards; this neighbor shows connected workflow nodes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-step-functions",
+          "revision": "6c2993738c707da0761bbe3615ee391cb460a5d1c5a3ed6256e60657ee72201a",
+          "svgRevision": "73e0471ee985182fb8564b84d5e6d721dcacefe35b7ed9f9a367f224e1702054",
+          "status": "approved",
+          "reason": "The target shows a person coordinating process cards; this neighbor shows a state-machine workflow. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows a person coordinating process cards; this neighbor shows a task queue. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The person coordinating two process cards is legible at all three sizes and differs from node-only workflows, a beacon and task queues."
+    },
+    {
+      "id": "power-apps",
+      "status": "approved",
+      "drawingRevision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
+      "comparisonRevision": "8542c8f245feff8563f4f78fd346d6516f06eab2da508d82fca02a272acf5804",
+      "sourceRevisions": [
+        [
+          "/icons/powerplatform/Power Platform/PowerApps_scalable.svg",
+          "479c272f10fa1180e41754927b2e6acdd0ae5c8898d4cf78104889f0d787b5fa"
+        ]
+      ],
+      "svgRevision": "61118d81ab3eb5f6665f42ad7af043509861c71019d938aad3e2ae9417f6145c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-media-file",
+          "revision": "0d598b2c90f47e9cc5ff065ca850abf3775a4ad7f646b1a839075c51d42d0ac4",
+          "svgRevision": "d1cd909a672435767ff789f999969ea2f8b6cc82a15f68aeaa03a50855e0735e",
+          "status": "approved",
+          "reason": "The target shows an app form with a builder control; this neighbor shows a media file card. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-code",
+          "revision": "92b56c662febc5c1fa262da67c83914a44780c9819afab72fa4ea186811294ac",
+          "svgRevision": "c31797f1bf8e748cf414077c03e8c2c5206fb13bd8a8db90773db01327574ba4",
+          "status": "approved",
+          "reason": "The target shows an app form with a builder control; this neighbor shows a code window. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-storage-hubs",
+          "revision": "37feddbc3554e1175330aaa87c48490eca0046624fbb0173cf1043ce28ee49ca",
+          "svgRevision": "19eb99db8a245dfa5f2f9b74b5766077fe6cb050670db2f3d01fc7f8564a14fc",
+          "status": "approved",
+          "reason": "The target shows an app form with a builder control; this neighbor shows storage rows with hubs. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "power-platform",
+          "revision": "95a1cb67ac49cde9841a012cd446c2a907baaf04c525f9f3af16421185d9a3dc",
+          "svgRevision": "64ea2abf344baff4f08ede7c9dd1d89fe9526dafd84fc996530021c541015878",
+          "status": "approved",
+          "reason": "The target shows an app form with a builder control; this neighbor shows a network of platform apps. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-app-services",
+          "revision": "fe02117b002ecc3451b36928f5df9b67c16799179ec98cb5238948c7fab6cf21",
+          "svgRevision": "d206a5eaa551391121b45e5c829d272e3742af746a7539bb82bc02f62e830e8e",
+          "status": "approved",
+          "reason": "The target shows an app form with a builder control; this neighbor shows an app service panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-apps-list",
+          "revision": "1eda1794cd6f6224c934f5519ae7641de15f13baf233f75bcbf7464c2ff5b19b",
+          "svgRevision": "5d4c749b70192e8a5ca5469daf9cfceaf620ae1d3cbf335f22a09ab6fd20f19d",
+          "status": "approved",
+          "reason": "The target shows an app form with a builder control; this neighbor shows a categorized app list. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The form-like app with a builder control remains recognizable at 32 pixels and distinct from media, code, storage and app-catalog neighbors."
     }
   ]
 }

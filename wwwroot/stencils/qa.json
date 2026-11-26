@@ -3,11 +3,12 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1793,
+  "approved": 1791,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
     "azure-service-bus",
+    "fabric-lakehouse",
     "entra-verified-id",
     "power-automate",
     "power-apps",
@@ -425,6 +426,7 @@
     "fabric-datatype-double",
     "fabric-datatype-float",
     "fabric-document-power-query",
+    "fabric-home-kql",
     "fabric-stream-settings",
     "fabric-connector",
     "fabric-database-checkmark",
@@ -715,18 +717,18 @@
     "fabric-lakehouse": [
       {
         "a": "fabric-lakehouse",
+        "b": "fabric-home-kql",
+        "similarity": 0.2196
+      },
+      {
+        "a": "fabric-lakehouse",
         "b": "gcp-home",
-        "similarity": 0.2211
+        "similarity": 0.2159
       },
       {
         "a": "fabric-lakehouse",
-        "b": "fabric-home-tree",
-        "similarity": 0.2144
-      },
-      {
-        "a": "fabric-lakehouse",
-        "b": "azure-bare-metal-infrastructure",
-        "similarity": 0.1936
+        "b": "aws-route53-route-table",
+        "similarity": 0.2139
       }
     ],
     "fabric-pipeline": [
@@ -37167,9 +37169,9 @@
         "similarity": 0.2201
       },
       {
-        "a": "gcp-home",
+        "a": "fabric-lakehouse",
         "b": "fabric-home-kql",
-        "similarity": 0.2098
+        "similarity": 0.2196
       }
     ],
     "fabric-receipt-kql": [
