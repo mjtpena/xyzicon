@@ -40,6 +40,25 @@ async function raster(svg, size) {
     .resize(size, size, { fit: "contain" }).png().toBuffer();
 }
 
+export async function inspectSourceRender(svg) {
+  const normalized = Buffer.from(normalizeSvgForRaster(svg));
+  const result = await sharp(normalized, { density: 192 })
+    .resize(64, 64, { fit: "contain" }).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  let visiblePixels = 0;
+  let maxAlpha = 0;
+  for (let offset = 0; offset < result.data.length; offset += 4) {
+    maxAlpha = Math.max(maxAlpha, result.data[offset + 3]);
+    if (result.data[offset + 3] > 32) visiblePixels++;
+  }
+  return {
+    visiblePixels,
+    maxAlpha,
+    warning: visiblePixels < 64 || maxAlpha <= 32
+      ? "Source thumbnail is effectively invisible or luminance-mask/unresolved in this renderer."
+      : null,
+  };
+}
+
 export async function makeReviewSheets(rootDir, selections, outputDir) {
   const [catalog, qa] = await Promise.all([
     readFile(path.join(rootDir, "wwwroot", "stencils", "catalog.json"), "utf8").then(JSON.parse),
@@ -76,11 +95,14 @@ export async function makeReviewSheets(rootDir, selections, outputDir) {
     const neighbors = [...new Set([...automatic, ...semanticNeighbors])];
     const sourceRevisions = [];
     const sourceImages = [];
+    const sourceRenderDiagnostics = [];
     for (const source of item.sources) {
       const file = assetPath(rootDir, source);
       const svg = await readFile(file);
       sourceRevisions.push([source, hashSource(svg)]);
       sourceImages.push(await raster(svg, 64));
+      const diagnostic = await inspectSourceRender(svg);
+      sourceRenderDiagnostics.push({ path: source, ...diagnostic });
     }
     const drawing = await readFile(assetPath(rootDir, item.path));
     const neighborImages = await Promise.all(neighbors.map(async (neighborId) =>
@@ -127,6 +149,7 @@ export async function makeReviewSheets(rootDir, selections, outputDir) {
       svgRevision: hashSvg(drawing),
       svgRevisionLegacy: hashSvgLegacy(drawing),
       sourceRevisions, renderedSizes: [128, 64, 32],
+      sourceRenderDiagnostics,
       neighbors: neighbors.map((neighborId, index) => ({
         id: neighborId, revision: items.get(neighborId).revision,
         svgRevision: hashSvg(neighborImages[index]),

@@ -298,6 +298,8 @@ async function validateIndependentReviewRecords(state, qa, items, sourceRevision
       .map((pair) => pair.a === review.id ? pair.b : pair.a);
     const actualNeighbors = new Set(review.neighborDecisions.map((decision) => decision.id));
     if (review.semanticNeighborCoverage === "none") {
+      if (expectedAutomatedNeighbors.length !== 0)
+        throw new Error(`Independent audit no-neighbor coverage conflicts with automated neighbors: ${review.id}`);
       if (review.neighborDecisions.length !== 0 ||
           typeof review.semanticNeighborReason !== "string" ||
           !review.semanticNeighborReason.trim())

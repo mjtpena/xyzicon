@@ -158,6 +158,12 @@ test("durable catalog review state records evidence and remaining scope", () => 
   assert.equal(state.catalog.compositions, 2237);
 });
 
+test("independent release check is non-writing and stale-output-safe", () => {
+  const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
+  assert.match(packageJson.scripts["stencils:independent-check"], /--check/);
+  assert.match(packageJson.scripts["stencils:independent-check"], /--independent/);
+});
+
 test("independent review gate fails closed on missing, bogus, duplicate and stale records", async () => {
   const root = mkdtempSync(path.join(tmpdir(), "xyzicon-independent-"));
   mkdirSync(path.join(root, "stencils"));
@@ -216,6 +222,12 @@ test("independent review gate fails closed on missing, bogus, duplicate and stal
   const missingSizes = { ...valid, reviews: [{ ...valid.reviews[0], reviewedSizes: [128, 64] }] };
   writeFileSync(stateFile, JSON.stringify(missingSizes));
   await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /128\/64\/32/i);
+
+  const noNeighbor = { ...valid, reviews: [{ ...valid.reviews[0],
+    semanticNeighborCoverage: "none", neighborDecisions: [],
+    semanticNeighborReason: "No meaningful semantic neighbors." }] };
+  writeFileSync(stateFile, JSON.stringify(noNeighbor));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /no-neighbor coverage conflicts/);
 
   const partial = { ...valid, status: "in-progress", compositionCount: 1, compositionsReviewed: 1 };
   writeFileSync(stateFile, JSON.stringify(partial));

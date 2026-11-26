@@ -3,7 +3,7 @@ import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
-import { makeReviewSheets } from "./review-stencils.mjs";
+import { makeReviewSheets, inspectSourceRender } from "./review-stencils.mjs";
 
 const svg = '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><circle cx="64" cy="64" r="30"/></svg>';
 
@@ -47,6 +47,15 @@ test("comparison sheets preserve all source and neighbor revisions without appro
   assert.deepEqual([...((await readFile(path.join(out, "target.png"))).subarray(0, 8))],
     [137, 80, 78, 71, 13, 10, 26, 10]);
   await assert.rejects(makeReviewSheets(root, [{ id: "target", semanticNeighbors: [] }], out), /EEXIST/);
+});
+
+test("near-transparent and luminance-masked sources are diagnosed explicitly", async () => {
+  const blank = await inspectSourceRender(Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"></svg>'));
+  assert.ok(blank.warning);
+  assert.ok(blank.visiblePixels < 64);
+  assert.ok(blank.maxAlpha <= 32);
+  const visible = await inspectSourceRender(Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><rect width="16" height="16" fill="#111"/></svg>'));
+  assert.equal(visible.warning, null);
 });
 
 test("invalid or duplicate review selections fail before writing evidence", async (t) => {
