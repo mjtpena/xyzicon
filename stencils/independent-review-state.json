@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 96,
+  "compositionsReviewed": 103,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -7239,6 +7239,420 @@
         }
       ],
       "notes": "The previous hexagonal worker nodes were too close to OpenShift cubes. The revised hand-drawn design uses a star-marked processing job above three rack-like workers; it remains legible at 128, 64 and 32 pixels and differs from the displayed cluster, storage and organization neighbors."
+    },
+    {
+      "id": "azure-virtual-machine",
+      "status": "approved",
+      "drawingRevision": "eec3ef455213dd6443507e34c829065d374063854304a037d2ae6331782b06c3",
+      "comparisonRevision": "37ef211443a5dc6dd8c57967b991e46d46e17d360d1835d431042b386c037a80",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10021-icon-service-Virtual-Machine.svg",
+          "08888a0cc14f427edc6d19b4b92c94ee6e2a3cecb5fb0b94f6bf4cb36a24c96e"
+        ]
+      ],
+      "svgRevision": "374436ba2da7f4d6627b59e93bf5712f448b96389ff718a22f5f49e8cb4ec1d1",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-spot-vm",
+          "revision": "319c34142d765b0b390ff8926eff5499f402892224bad7e6d1bacb4cdbe50421",
+          "svgRevision": "9caca890603e2de4e2df59a88d2670ba91c48a3de9e647f1161a55d0e28ef9ff",
+          "status": "approved",
+          "reason": "The target shows a monitor displaying a compute cube; this neighbor shows a monitor with a spot-price tag. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-greengrass-ml-component",
+          "revision": "f844aca595153366046f4213f933b5335f2f0875a6f3bff19402cfac84dcb16b",
+          "svgRevision": "a85d3d9ff2a443bfbdb7428d22a80ad92c57bf18b46b982c380b799707686eb0",
+          "status": "approved",
+          "reason": "The target shows a monitor displaying a compute cube; this neighbor shows connected machine-learning nodes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-governance-compliance",
+          "revision": "5dffdbeef3ef3d89c7319bc639746857794e54881ed26ccb6a772e48e733325b",
+          "svgRevision": "7f9fbc86c0a60e89e5b9c94bc5eaa68c1a7f5389b5cd563e85d5a0ace7cd147d",
+          "status": "approved",
+          "reason": "The target shows a monitor displaying a compute cube; this neighbor shows a compliance certificate with medal. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-ec2",
+          "revision": "32073c694404114c9c2616c648819872e8438c698117b9dc81d4eb1a47ea3a56",
+          "svgRevision": "c5ba36474eee03dfbb47745cff13e2c23804d2df1b196b16334b5ba548746612",
+          "status": "approved",
+          "reason": "The target shows a monitor displaying a compute cube; this neighbor shows a compute chip. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-compute-engine",
+          "revision": "4e5b2d1ea9e9ff7406f6d208eba7eff1ab1e52a611b5f93d6fb99c1504203dd7",
+          "svgRevision": "24014de76899b90f581ba45fd556e7be1be24d8eee8c883f3c95c5a047213ee7",
+          "status": "approved",
+          "reason": "The target shows a monitor displaying a compute cube; this neighbor shows a server stack with a command panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The source shows a compute cube on a monitor; the monitor-and-cube stencil is recognizable at 128, 64 and 32 pixels and distinct from chips and server stacks."
+    },
+    {
+      "id": "azure-kubernetes",
+      "status": "approved",
+      "drawingRevision": "c9b76f7ab9b49dd3e6d4d7783e7e3599507d397e56516085d808fcdbdbab19b3",
+      "comparisonRevision": "81f5bb1fcd2e1dbcd7afa87a3bdaa68d1e71c29c93e1cfbb733c943f8667ca95",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/compute/10023-icon-service-Kubernetes-Services.svg",
+          "16d3457dfb2922eef1b5ee7df4c7a60c9c89c0631db790796eb192e4e630e4a9"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/containers/10023-icon-service-Kubernetes-Services.svg",
+          "16d3457dfb2922eef1b5ee7df4c7a60c9c89c0631db790796eb192e4e630e4a9"
+        ]
+      ],
+      "svgRevision": "4e970bd7346bb41e5db1db7640751bb311b4786e2dd9baa0c92a5d79d1297ddd",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-kubernetes-fleet-manager",
+          "revision": "aea89e96a87a06fce9ee8634f6cb64bb6914c5431495e73b278c42a2c2ddbaa7",
+          "svgRevision": "db433dca0f8b0490f8f8b719dc85d20f04e4476dcfc4ea6ca1ee9454b466d1c9",
+          "status": "approved",
+          "reason": "The target shows a globe above three cube workers; this neighbor shows a control node managing boxes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-transfer-ftp",
+          "revision": "310a5f118e121820b2d78ec42e707bbafb926f005fbc84ab6eceeb56b08c6737",
+          "svgRevision": "7453bf8c26f2e8c4e036e3d72b447de232e6966b14a6e638655665a3fb68992c",
+          "status": "approved",
+          "reason": "The target shows a globe above three cube workers; this neighbor shows a file transfer panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-thing-travel",
+          "revision": "992036d402176059c52f1303a0daf25ceb70eed1028358c8b07fdf8b0d9e410c",
+          "svgRevision": "110501739d5d07f2b053b9e01c43ff553bb3163cc9b50157cdf34c3497ccd48e",
+          "status": "approved",
+          "reason": "The target shows a globe above three cube workers; this neighbor shows a travel device. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-eks",
+          "revision": "dbc1cfdec8fc3321056df339e1951d28035d3705a9503f2748369a0954442148",
+          "svgRevision": "f055d376b0d4aff574c9cefda4438cb02fb4ddc5f4b4086e15b67c57aee4632b",
+          "status": "approved",
+          "reason": "The target shows a globe above three cube workers; this neighbor shows a hub connected to worker cubes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-gke",
+          "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+          "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+          "status": "approved",
+          "reason": "The target shows a globe above three cube workers; this neighbor shows a central Kubernetes hub with workers. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-red-hat-openshift",
+          "revision": "dc6087db5a0b1a0e18f2047f46611df98d7afdc3dbd97cc410d1c82670052427",
+          "svgRevision": "1e03b7c775b291c8005111982d41a4021fd4c0b24c6f1bac273cfbd159989425",
+          "status": "approved",
+          "reason": "The target shows a globe above three cube workers; this neighbor shows a cluster of container cubes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Both mapped sources depict the same Kubernetes cube cluster. The globe-and-worker stencil is recognizable at all three sizes and remains distinct from the AWS cube cluster and GCP hub variants."
+    },
+    {
+      "id": "azure-sql-database",
+      "status": "approved",
+      "drawingRevision": "e30089b55359eda8560f318a22d3a2ea7abed603e891a7f82a9a40b017b90472",
+      "comparisonRevision": "e71835f5eac405a483384afd770d4962b50a05956fb5fc19a85e8dab513de53e",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10130-icon-service-SQL-Database.svg",
+          "634a7ea49c7dcb93c69e459f2b4b2364de5ba9ea57dda3d7ba3120b3f8f77f5f"
+        ]
+      ],
+      "svgRevision": "5f4891bc21bb397a15a3dbd533a706d9b9601630c5953674b6b8376040b0f7dc",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-receipt-kql",
+          "revision": "893541f36acec17b84e4256098400291725f59272ac7c3a6b98c997022f38155",
+          "svgRevision": "afb26dd91e4762e2f31029c6bf474f61b30c9e1f28829ec1835f06b98e05310a",
+          "status": "approved",
+          "reason": "The target shows a database cylinder with a table grid; this neighbor shows a query receipt with a chart. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-database",
+          "revision": "e2f1d37b3d5307a8a2e2c9bf98f6ab892688fa53fa739c21f5e35bcd01c000d0",
+          "svgRevision": "f6138258f3a09e74592c71a0deb81025659469115b3af1cf224ebd6c6bd1b9fe",
+          "status": "approved",
+          "reason": "The target shows a database cylinder with a table grid; this neighbor shows a database cylinder. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-gateway-virtual-tape-library",
+          "revision": "a9926574250834a7432a43bac98cf81572dac43e9eefa7017c9d1b02104e8fab",
+          "svgRevision": "54a0683066aa1441ac15c8f2223efcde3a37455c0035dfca6c6b12bd23fea37d",
+          "status": "approved",
+          "reason": "The target shows a database cylinder with a table grid; this neighbor shows a tape-library panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-rds",
+          "revision": "a942ae6e4ff97e71e8eca7a595b5091e2ec7950fa1e5e64854005488273dc5af",
+          "svgRevision": "26bb2271349f76e5daa526f22d7c8881f3ead34156a6fc9dc964debbb00f08eb",
+          "status": "approved",
+          "reason": "The target shows a database cylinder with a table grid; this neighbor shows a database cylinder with an attached instance. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows a database cylinder with a table grid; this neighbor shows a SQL database cylinder. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The SQL cylinder with a table grid is legible at all three sizes; compared with the SQL-labeled GCP cylinder and RDS instance, the grid remains the identifying detail."
+    },
+    {
+      "id": "azure-cosmos-db",
+      "status": "approved",
+      "drawingRevision": "ece6cbebb99021f8f78ae486b30f1ae9a4601c7bde82e7bcff274b84e440f407",
+      "comparisonRevision": "c6d2c9b8eb16df3ce486c918cf216e0e4cbfa66060714900784e25c4ffb074a5",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10121-icon-service-Azure-Cosmos-DB.svg",
+          "b1fc56dfc52983763c6455d82c017217bb32643b59b30147e2d50813ffda324d"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/iot/10121-icon-service-Azure-Cosmos-DB.svg",
+          "b1fc56dfc52983763c6455d82c017217bb32643b59b30147e2d50813ffda324d"
+        ]
+      ],
+      "svgRevision": "a9bc5fbeacfafd133ce8e6e13e1d19f58d08aa204516f2af0daa38efa23f7810",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-iot-thing-travel",
+          "revision": "992036d402176059c52f1303a0daf25ceb70eed1028358c8b07fdf8b0d9e410c",
+          "svgRevision": "110501739d5d07f2b053b9e01c43ff553bb3163cc9b50157cdf34c3497ccd48e",
+          "status": "approved",
+          "reason": "The target shows a distributed database cylinder with two replica nodes; this neighbor shows a travel device. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb-standard-table-class",
+          "revision": "0381dbfc90a0e7ae824fd92254dccb794d022098b234ed8a78df03b9e92d0ab0",
+          "svgRevision": "6f974d71e3a90dede86eada2fd9186ad249fa5b0fbb8636ee4e4cffd95a6a885",
+          "status": "approved",
+          "reason": "The target shows a distributed database cylinder with two replica nodes; this neighbor shows a table grid with an arrow. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-managed-applications-center",
+          "revision": "4b7a1e2a47bfc993e9752da9994364281eab1eec9a9e86dcf3a7c8c57796ec65",
+          "svgRevision": "3a195ca0da477204431f818a44c50b02bee03be589964368a5bff6df3040a418",
+          "status": "approved",
+          "reason": "The target shows a distributed database cylinder with two replica nodes; this neighbor shows an application panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb",
+          "revision": "694e7292eb3834efd0afaf47bbf8e976e8cffa1ea3deb3af97a0e8149abb2eca",
+          "svgRevision": "3777062c166ab8cda67c1a20ba723f11233df3251c2392d3cd2362a31e9fc226",
+          "status": "approved",
+          "reason": "The target shows a distributed database cylinder with two replica nodes; this neighbor shows a database table with a key. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-firestore",
+          "revision": "887a17fe225240962db5589023680f5e1b675c05b43044f4a6add099350fbd08",
+          "svgRevision": "ebcbba22daa219b8b98822630f49afd960bbc683c44f9779a7661b002f4a7928",
+          "status": "approved",
+          "reason": "The target shows a distributed database cylinder with two replica nodes; this neighbor shows a branching document hierarchy. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Both source variants depict the same Cosmos planet mark. The replicated database cylinder and side nodes communicate distributed storage and differ from the table-grid and document-tree neighbors."
+    },
+    {
+      "id": "azure-key-vault",
+      "status": "approved",
+      "drawingRevision": "7541c93283dfae85c9ce472a29e6b341a977b70d8593eafb7b37a3d9350f7591",
+      "comparisonRevision": "479824c93f1ec29228c04374be0d2ca2bc5e9f0b20d0bc735d282370d5558e39",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10245-icon-service-Key-Vaults.svg",
+          "34152249062886cb300ed8634d28d3487c9a603050f7df27b7c7cad0a98c0b6c"
+        ]
+      ],
+      "svgRevision": "f6f034af853cebec1242fd21a0d8074b7a13e51fd15d1f28a50e453a1db704ec",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-shield-error",
+          "revision": "d08f6ae3abb140390f72ecf385a66e12d6acb49a0cd5c03c297c0e67a0e7c431",
+          "svgRevision": "de275a568d7ee845be7a47fa696245e368478d9592c49485231a6877276773fb",
+          "status": "approved",
+          "reason": "The target shows a key inside a shield; this neighbor shows a shield with a warning. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-lock-shield",
+          "revision": "68584d2de353ccbd99d76efd795520c8ee1a243846185ec78bd9973a587a9641",
+          "svgRevision": "43c303a0fed70b00d50710e112e3047845142646ddbd9daaab51394ff431afbe",
+          "status": "approved",
+          "reason": "The target shows a key inside a shield; this neighbor shows a lock in a shield. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-device-defender",
+          "revision": "6e57197173ad82c25e15f0299a77f6f7186eb97b202db683f6c06fbb7e19d98d",
+          "svgRevision": "3602e5a893ed70003f6c6c3a9ee41126c4bdf6f9a0c8d8bdb174d9e5d7a048cb",
+          "status": "approved",
+          "reason": "The target shows a key inside a shield; this neighbor shows a protected device. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-secrets-manager",
+          "revision": "59fc9034d6cc64e3d18dae5eedcaea962c9f2ed865030fa66256418229b5367d",
+          "svgRevision": "2cc16ba0e7fef6762f6eeec0588d27124e49d24fc0771554ce103bb0be41d237",
+          "status": "approved",
+          "reason": "The target shows a key inside a shield; this neighbor shows a key in a circular secret marker. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-secret-manager",
+          "revision": "ce203bd8c3568acf14b746cdc4097a4ea29b1b7f902de9c57741a2c1111d170e",
+          "svgRevision": "71dc7ef832a9863ee1a76cbc44735d486e6a44e9381b9b2bdffd2ce03938acf3",
+          "status": "approved",
+          "reason": "The target shows a key inside a shield; this neighbor shows a key inside a secure frame. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The source key is preserved inside a protective shield. The key/shield motif remains clear at 32 pixels and differs from lock shields and circular secret-manager marks."
+    },
+    {
+      "id": "azure-storage",
+      "status": "approved",
+      "drawingRevision": "389e9f9def5ba76a640921aa9f31dcbe206bf30c1e012d349b52c382d6f5a5d8",
+      "comparisonRevision": "d5de563fdc957bcaee23c8398faf94d332f5502680055dd21fb84e6c1d9da616",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/storage/10086-icon-service-Storage-Accounts.svg",
+          "7f7d14a91034c3646601101539b81a0981eb61744169d7532aed07a59f98e0c6"
+        ]
+      ],
+      "svgRevision": "a310236357c53c2b6939be2be4c6d9b2ad4539a79ca2d8f0ada1668a5ab31ee1",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-glacier-archive",
+          "revision": "c5930e155bd0e5720bd7e2e39e81ab2df84d7fedcf955581fa5c240f5351f75a",
+          "svgRevision": "63256a57336b1d932082e3734cae178bcd3ac076929cf92e47ca671749f15f51",
+          "status": "approved",
+          "reason": "The target shows an open object-storage box with a file; this neighbor shows an archive drawer. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows an open object-storage box with a file; this neighbor shows a SQL database cylinder. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-event-house",
+          "revision": "e57a49726e56dfc3417735f0217eea07def582759dffc14e1fb75cb45016e187",
+          "svgRevision": "1b635c09be96111b049c199675a8c0a1cd07fac9374068ab65acc7ec3dd6466f",
+          "status": "approved",
+          "reason": "The target shows an open object-storage box with a file; this neighbor shows a house with event nodes. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-s3",
+          "revision": "5b76a9ea1d0030ce934d4c90ea5856a1bb7de4fc8ba8393c0df5bdc170d7ec58",
+          "svgRevision": "ebddbcbab358500a03f80f206bfa7b928ce571c039bc0aaa0d6f9f794305edb2",
+          "status": "approved",
+          "reason": "The target shows an open object-storage box with a file; this neighbor shows a bucket with an object. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows an open object-storage box with a file; this neighbor shows a filing cabinet with documents. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The storage account is represented as an open box with a file. It remains legible at all three sizes and distinct from the S3 bucket and document-cabinet neighbors."
+    },
+    {
+      "id": "azure-service-bus",
+      "status": "approved",
+      "drawingRevision": "4959177161b85a0737c4a95e2d55cdf7fb2be2d9775c9d637a4be95330839ee1",
+      "comparisonRevision": "6b9beef7f0f24318e6153fd61a9684155d379460eded1cdf4db2febd711dcaa3",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/integration/10836-icon-service-Azure-Service-Bus.svg",
+          "7c82108a79202fc28796e8d4bcc24d6eea51ccc4ba9b8fac793c62445697819d"
+        ]
+      ],
+      "svgRevision": "031acf8fcd84042c03f9a49417e5617a5aabe1c0309cf356dcb0a612420df90a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-blob-block",
+          "revision": "24490b580e4e08028292eefaaf8aa65c47fd225d2ae0110a92caa33a82066093",
+          "svgRevision": "454b5bdace571ed96ac798cf807326eed6b8acd7e40ef364c820a7153494e222",
+          "status": "approved",
+          "reason": "The target shows messages moving between two bus queues; this neighbor shows a block grid. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-ip-address-manager",
+          "revision": "d7440a57bf63b2326107e8000b11a5983dcc0265f682273852bd05692583d918",
+          "svgRevision": "b137a8aa75acf7a915e2fa5b5297199dc24057affb577087266ca941cb570fda",
+          "status": "approved",
+          "reason": "The target shows messages moving between two bus queues; this neighbor shows an address management panel. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-window-tree",
+          "revision": "2cff241b3358590c0f88b95eb608cf611bd1835ac4c872a29bf189eacf0e61c3",
+          "svgRevision": "a9570f54456ba093420de4d0aebfc5efca2651c567ed6e6f2fc02f081a1228e0",
+          "status": "approved",
+          "reason": "The target shows messages moving between two bus queues; this neighbor shows a branching window tree. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-sqs",
+          "revision": "3d9960e6ab62a3a31beba8fefae0df8ead6bc79d7a1f78282d8bf9b608f6874e",
+          "svgRevision": "5cfdb1b06ff4b866858715dc82ec5dc73c811db9e308c6366444ed16b39ccb74",
+          "status": "approved",
+          "reason": "The target shows messages moving between two bus queues; this neighbor shows a queue carrying messages. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-pubsub",
+          "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+          "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+          "status": "approved",
+          "reason": "The target shows messages moving between two bus queues; this neighbor shows a fan-out publish/subscribe network. Their silhouettes and interior details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The paired queues and directional message flow are recognizable at all three sizes, distinct from the SQS message line and Pub/Sub fan-out network."
     }
   ]
 }
