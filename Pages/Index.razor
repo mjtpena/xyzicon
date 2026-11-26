@@ -25,11 +25,9 @@
                 <button class="fmt-btn @(HandDrawnMode ? "active" : "")" aria-pressed="@HandDrawnMode"
                         disabled="@(stencilsBySource.Count == 0)" @onclick="() => SetHandDrawnMode(true)">Hand-drawn</button>
             </div>
-            <a href="stencils/review.html">Review the drawings</a>
         </div>
         @if (HandDrawnMode)
         {
-            <p class="stencil-note">@StencilCount unique concept drawings cover @stencilsBySource.Count of @totalIconsLoaded source entries. Genuinely duplicate or size/color variants may share a drawing. These are unofficial; @PendingStencilCount unique concepts await design review.</p>
             <a href="stencils/all.excalidrawlib" download>Download editable Excalidraw library</a>
         }
         @if (stencilLoadError != null)
