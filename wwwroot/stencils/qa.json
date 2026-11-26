@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1802,
+  "approved": 1793,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -34,6 +34,7 @@
     "azure-app-services",
     "aws-rds",
     "aws-route53",
+    "aws-step-functions",
     "gcp-spanner",
     "azure-log-analytics",
     "azure-dns-zones",
@@ -41,6 +42,7 @@
     "aws-athena",
     "aws-sagemaker",
     "aws-eventbridge-rule",
+    "aws-ecs",
     "aws-cognito",
     "aws-guardduty",
     "gcp-cloud-build",
@@ -54,6 +56,7 @@
     "fabric-experiment",
     "fabric-bucket",
     "fabric-branch-fork-signal",
+    "fabric-categorize",
     "fabric-circle-tree",
     "azure-subnet",
     "azure-virtual-network-gateway",
@@ -77,6 +80,7 @@
     "gcp-automl-vision",
     "gcp-automl-tables",
     "gcp-dialogflow-cx",
+    "gcp-dataproc",
     "gcp-network-tiers",
     "gcp-traffic-director",
     "gcp-virtual-private-cloud",
@@ -112,9 +116,11 @@
     "m365-tablet",
     "m365-toolbox",
     "m365-question",
+    "m365-organization",
     "m365-signature",
     "m365-share",
     "fabric-copy-job",
+    "fabric-data-factory",
     "fabric-data-warehouse",
     "fabric-dataflow",
     "fabric-dataflow-gen2",
@@ -271,6 +277,7 @@
     "aws-license-manager",
     "aws-sustainability",
     "aws-medialive",
+    "aws-mediatailor",
     "aws-deadline-cloud",
     "aws-certificate-manager",
     "aws-security-incident-response",
@@ -325,6 +332,7 @@
     "aws-keyspaces",
     "aws-neptune",
     "aws-timestream",
+    "aws-parallel-cluster",
     "aws-fargate",
     "aws-category-front-end",
     "aws-category-security",
@@ -365,6 +373,7 @@
     "azure-image-versions",
     "azure-image-gallery",
     "azure-mesh-applications",
+    "azure-cdn-profiles",
     "azure-app-service-environments",
     "azure-linux",
     "azure-disk-encryption",
@@ -2576,6 +2585,11 @@
     "aws-step-functions": [
       {
         "a": "aws-step-functions",
+        "b": "gcp-dataproc",
+        "similarity": 0.229
+      },
+      {
+        "a": "aws-step-functions",
         "b": "gcp-gke",
         "similarity": 0.2233
       },
@@ -2583,11 +2597,6 @@
         "a": "aws-step-functions",
         "b": "gcp-category-web3",
         "similarity": 0.2062
-      },
-      {
-        "a": "aws-step-functions",
-        "b": "gcp-eventarc",
-        "similarity": 0.2042
       }
     ],
     "gcp-gke": [
@@ -3142,13 +3151,13 @@
       },
       {
         "a": "aws-ecs",
-        "b": "aws-datazone-portal",
-        "similarity": 0.2055
+        "b": "gcp-dataproc",
+        "similarity": 0.2191
       },
       {
         "a": "aws-ecs",
-        "b": "aws-iot-device-management",
-        "similarity": 0.2
+        "b": "aws-datazone-portal",
+        "similarity": 0.2055
       }
     ],
     "aws-elasticache": [
@@ -3970,6 +3979,11 @@
     "fabric-categorize": [
       {
         "a": "fabric-categorize",
+        "b": "gcp-dataproc",
+        "similarity": 0.2671
+      },
+      {
+        "a": "fabric-categorize",
         "b": "gcp-automl-video",
         "similarity": 0.2326
       },
@@ -3977,11 +3991,6 @@
         "a": "fabric-categorize",
         "b": "aws-aurora",
         "similarity": 0.2207
-      },
-      {
-        "a": "fabric-categorize",
-        "b": "m365-organization",
-        "similarity": 0.2185
       }
     ],
     "fabric-circle-group": [
@@ -5910,18 +5919,18 @@
     "gcp-dataproc": [
       {
         "a": "gcp-dataproc",
-        "b": "azure-cdn-profiles",
-        "similarity": 0.2933
+        "b": "m365-organization",
+        "similarity": 0.3409
       },
       {
         "a": "gcp-dataproc",
-        "b": "aws-red-hat-openshift",
-        "similarity": 0.2383
+        "b": "aws-organizations",
+        "similarity": 0.2995
       },
       {
         "a": "gcp-dataproc",
-        "b": "aws-firewall-manager",
-        "similarity": 0.225
+        "b": "aws-mediatailor",
+        "similarity": 0.2805
       }
     ],
     "gcp-dataproc-metastore": [
@@ -8782,6 +8791,11 @@
     ],
     "m365-organization": [
       {
+        "a": "gcp-dataproc",
+        "b": "m365-organization",
+        "similarity": 0.3409
+      },
+      {
         "a": "gcp-cloud-deploy",
         "b": "m365-organization",
         "similarity": 0.3193
@@ -8790,11 +8804,6 @@
         "a": "m365-organization",
         "b": "azure-cdn-profiles",
         "similarity": 0.2735
-      },
-      {
-        "a": "m365-organization",
-        "b": "aws-red-hat-openshift",
-        "similarity": 0.2449
       }
     ],
     "m365-organization-horizontal": [
@@ -9059,14 +9068,14 @@
         "similarity": 0.2166
       },
       {
-        "a": "fabric-data-factory",
-        "b": "azure-defender-pneumatic",
-        "similarity": 0.2045
+        "a": "gcp-dataproc",
+        "b": "fabric-data-factory",
+        "similarity": 0.2147
       },
       {
         "a": "fabric-data-factory",
-        "b": "m365-mail-read",
-        "similarity": 0.1958
+        "b": "azure-defender-pneumatic",
+        "similarity": 0.2045
       }
     ],
     "fabric-data-warehouse": [
@@ -24337,6 +24346,11 @@
     ],
     "aws-organizations": [
       {
+        "a": "gcp-dataproc",
+        "b": "aws-organizations",
+        "similarity": 0.2995
+      },
+      {
         "a": "aws-organizations",
         "b": "aws-cloudfront-download",
         "similarity": 0.2639
@@ -24345,11 +24359,6 @@
         "a": "gcp-dialogflow-cx",
         "b": "aws-organizations",
         "similarity": 0.2557
-      },
-      {
-        "a": "aws-organizations",
-        "b": "aws-parallel-cluster",
-        "similarity": 0.2126
       }
     ],
     "aws-health-dashboard": [
@@ -24835,14 +24844,14 @@
         "similarity": 0.3043
       },
       {
+        "a": "gcp-dataproc",
+        "b": "aws-mediatailor",
+        "similarity": 0.2805
+      },
+      {
         "a": "aws-mediatailor",
         "b": "aws-eks-anywhere",
         "similarity": 0.2649
-      },
-      {
-        "a": "azure-content-moderation",
-        "b": "aws-mediatailor",
-        "similarity": 0.249
       }
     ],
     "aws-mediaconnect": [
@@ -29720,6 +29729,11 @@
     ],
     "aws-parallel-cluster": [
       {
+        "a": "gcp-dataproc",
+        "b": "aws-parallel-cluster",
+        "similarity": 0.2609
+      },
+      {
         "a": "aws-parallel-cluster",
         "b": "azure-cdn-profiles",
         "similarity": 0.2513
@@ -29728,11 +29742,6 @@
         "a": "aws-private-subnet",
         "b": "aws-parallel-cluster",
         "similarity": 0.2271
-      },
-      {
-        "a": "aws-parallel-cluster",
-        "b": "fabric-list-sql",
-        "similarity": 0.2265
       }
     ],
     "aws-serverless-repository": [
@@ -33375,11 +33384,6 @@
     ],
     "azure-cdn-profiles": [
       {
-        "a": "gcp-dataproc",
-        "b": "azure-cdn-profiles",
-        "similarity": 0.2933
-      },
-      {
         "a": "m365-organization",
         "b": "azure-cdn-profiles",
         "similarity": 0.2735
@@ -33388,6 +33392,11 @@
         "a": "gcp-batch",
         "b": "azure-cdn-profiles",
         "similarity": 0.271
+      },
+      {
+        "a": "aws-parallel-cluster",
+        "b": "azure-cdn-profiles",
+        "similarity": 0.2513
       }
     ],
     "azure-load-testing": [

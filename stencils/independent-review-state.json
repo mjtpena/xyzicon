@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 95,
+  "compositionsReviewed": 96,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -7175,6 +7175,70 @@
         }
       ],
       "notes": "Both mapped source variants are represented. The report with two chart tiles remains legible at 128, 64 and 32 pixels without clipping and is distinct from the displayed dashboards, network panel and slide layout."
+    },
+    {
+      "id": "gcp-dataproc",
+      "status": "approved",
+      "drawingRevision": "7f4018aaf6f6499eba2216d448300899eee7babbaadb957523da821924b3c1f0",
+      "comparisonRevision": "5376977a21f2971bd28297314cb7f60006ba1bcd4e3eba48ba14013f5e4d4dd2",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/dataproc/dataproc.svg",
+          "761538160c10084b7964d161acdcec1ed035551de76de16898e42df35f53b113"
+        ]
+      ],
+      "svgRevision": "f4303ed5fdd691711d93ab0148a41ac385cae28216d869ba92812c8ba6242252",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-organization",
+          "revision": "ccbe6ce619f3d7b900cb9a411c7641fde610e220bf4bf7304e4c9322f59b78d2",
+          "svgRevision": "d7dedc99199cbca28f7546fae7833d5dcc177af3e24f19b5b627104137993761",
+          "status": "approved",
+          "reason": "The target shows a starred processing job above three worker racks; this neighbor shows an organizational chart. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-organizations",
+          "revision": "dc3340c4a8a9159b75937267bd27de9fb0cda974c32aa906cab1dd888e964ff1",
+          "svgRevision": "b0927a5e93bde31292fba4454e2ff3bc289062693fcb05b208254a5910f7f15a",
+          "status": "approved",
+          "reason": "The target shows a starred processing job above three worker racks; this neighbor shows an account hierarchy. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-mediatailor",
+          "revision": "88347bd352353c7cd2c3a3885789f799b6cab4d5393b8b4a367ad49f1af6b0c1",
+          "svgRevision": "b45e1ee4da0a7460b81bb15d8312497cb555cb58094b2f61e2953e0b6d8923d2",
+          "status": "approved",
+          "reason": "The target shows a starred processing job above three worker racks; this neighbor shows a video panel with playback controls. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-red-hat-openshift",
+          "revision": "dc6087db5a0b1a0e18f2047f46611df98d7afdc3dbd97cc410d1c82670052427",
+          "svgRevision": "1e03b7c775b291c8005111982d41a4021fd4c0b24c6f1bac273cfbd159989425",
+          "status": "approved",
+          "reason": "The target shows a starred processing job above three worker racks; this neighbor shows a cluster of cube-shaped containers. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-emr-cluster",
+          "revision": "3ffad77d01fd4cc483a05627d9e9c6ba5b3ca37f5150ecbccb22bbd91d664f5f",
+          "svgRevision": "8530f7f0c6e253b91f4a77a73f14c270986e4ae83328cd6fe3a9bc2149521dfd",
+          "status": "approved",
+          "reason": "The target shows a starred processing job above three worker racks; this neighbor shows connected storage and compute blocks. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-dataproc-metastore",
+          "revision": "8b04c81d06cd2d0bbe983107f7c44bdc0de55602159df90f7a9ab435365e86f0",
+          "svgRevision": "d9c7c6d966fd4fa822f7c2812b718c45fffe42470ff8bbeaa19bf269ed715a1c",
+          "status": "approved",
+          "reason": "The target shows a starred processing job above three worker racks; this neighbor shows a database cylinder with a metadata table. Their silhouettes and interior details remain distinct at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The previous hexagonal worker nodes were too close to OpenShift cubes. The revised hand-drawn design uses a star-marked processing job above three rack-like workers; it remains legible at 128, 64 and 32 pixels and differs from the displayed cluster, storage and organization neighbors."
     }
   ]
 }
