@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 137,
+  "compositionsReviewed": 154,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -9935,6 +9935,1096 @@
         }
       ],
       "notes": "A single dashboard of distinct business modules conveys the Dynamics suite; the grid with person and case marks remains distinct from finance and sales."
+    },
+    {
+      "id": "aws-ec2",
+      "status": "approved",
+      "drawingRevision": "32073c694404114c9c2616c648819872e8438c698117b9dc81d4eb1a47ea3a56",
+      "comparisonRevision": "4d78b925d5b0fd091c17621cc03d52dc2fb5af1706e487a64edd43df29fdd47c",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/16/Arch_Amazon-EC2_16.svg",
+          "951c16a265b7bd811454762c7372655e9ced87f2c4d273f80ed148a9036d11a2"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/32/Arch_Amazon-EC2_32.svg",
+          "e500c6a568e52ec34612b5f2aece93612f9b8965a2cf3a9c06de16c7f00c525f"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/48/Arch_Amazon-EC2_48.svg",
+          "92396ea9762d15e01cd9bfcf132d4e5a2db47ae4bcbd3a4c17bd7cf8111ac2bc"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/64/Arch_Amazon-EC2_64.svg",
+          "d87b1edd063a9040838722837425994e8a93a53fa1e76565144f0dcab072de54"
+        ]
+      ],
+      "svgRevision": "c5ba36474eee03dfbb47745cff13e2c23804d2df1b196b16334b5ba548746612",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-cli",
+          "revision": "31d78ec97be869a2d0236f1b049ba60dae00f5c920fc9314cabf689471e85e94",
+          "svgRevision": "29d7c66fde5349591f22d81d711e27f92d0e99574be292b12f046d76fecf8433",
+          "status": "approved",
+          "reason": "The target is Amazon EC2; the comparison shows AWS Command Line Interface. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-stackdriver",
+          "revision": "9e602da1518f697d068f5918c2b01f49b450ced6f3f8b404cac77969e2b6b6ac",
+          "svgRevision": "bcf2a469e9044be46dd66bac23eb7c28ea8d39df90f358688feffc25e7023e97",
+          "status": "approved",
+          "reason": "The target is Amazon EC2; the comparison shows Stackdriver. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-schema-model",
+          "revision": "051b02479df2134d51505ee09eda93abd5334703fcc500f13626b76b32a803bd",
+          "svgRevision": "c4565dea4fbbef4892a5d861424865e6113568164dc9fedcadb398443adced24",
+          "status": "approved",
+          "reason": "The target is Amazon EC2; the comparison shows Schema Model. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-ec2-instance",
+          "revision": "42e813fa41ea1e6136063832a96e3c609a5e31dee54bec748187eb79a449666c",
+          "svgRevision": "157b7655d56ab171d2d18421d50b459efc2a0dce41a3d619b60208d63b315291",
+          "status": "approved",
+          "reason": "The target is Amazon EC2; the comparison shows EC2 Instance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-ec2-autoscaling",
+          "revision": "89f4298a1fb909f085adca4b363c74708d1ad08293ac5c53adc9d7ad20cc5d7b",
+          "svgRevision": "c77ad2b8391dd1f205578e3047380d9c22f7f2877984f0ac8bd41f82eb5f33b0",
+          "status": "approved",
+          "reason": "The target is Amazon EC2; the comparison shows Amazon EC2 Auto Scaling. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-ec2-ami",
+          "revision": "8c08d84d323bdbff019f7d5431640ba9ff18bce404a2e3f26e8e4a75b157d40c",
+          "svgRevision": "1643846e17f2f24b9248b2a077ec42a18ed9fdc18c2fba7b92dd724881c1ee42",
+          "status": "approved",
+          "reason": "The target is Amazon EC2; the comparison shows EC2 Amazon Machine Image. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A central compute chip inside a machine frame reads as an EC2 instance; the pins and framed center stay distinct from the console, metrics dashboard and AMI images."
+    },
+    {
+      "id": "aws-lambda",
+      "status": "approved",
+      "drawingRevision": "ef8436a1a3ab7886896551e6bfa5873bfd24541cfe2b0af4452d4981ab1786f0",
+      "comparisonRevision": "8d640a2580e6c3ba232aaab1e10c41160f976b2ae229608c2f815a029a7b94c1",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/16/Arch_AWS-Lambda_16.svg",
+          "f9d23944597823c21da70ab18124c7a58892960914772cc9c98e5b76bd03c673"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/32/Arch_AWS-Lambda_32.svg",
+          "083e765101a7134df24318e3e6b79470eb78e87c252b0fd4188541ebaf4c193a"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/48/Arch_AWS-Lambda_48.svg",
+          "7297f24b36ed256752dac0d607b36fe8332ecb7ee331cceb87f6e0e43fac0840"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Compute/64/Arch_AWS-Lambda_64.svg",
+          "b6050c8635544673ca803caabeb346d2efd46480dab3495ff9c19bf98541c50a"
+        ]
+      ],
+      "svgRevision": "af1a2bdc21faf4609c2fca03f84af028bab0edec2ee67abf0d4f6857aae03be4",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-category-maps",
+          "revision": "ad7b08a5783c35096a52c21ef64fba1be79ecc06c6e064e03e110894794b9698",
+          "svgRevision": "066f6912d201645357d95f37d9088c717d950ca196d241a2f2c6ff021f7c9065",
+          "status": "approved",
+          "reason": "The target is AWS Lambda; the comparison shows Maps and geospatial. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-business-central",
+          "revision": "0d7e25ab7361c54a42c5feb9e80e24d99ab0b2f0916e7f138b94153de229264a",
+          "svgRevision": "d243ae281740c87843eea8b86cb8f641172bd972dc4cd6cd20e4df1463d01873",
+          "status": "approved",
+          "reason": "The target is AWS Lambda; the comparison shows Dynamics 365 Business Central. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-appflow",
+          "revision": "ae4c7e42d03326c2f5d5a9f55a559e25b724f3ede3f632d953beff48e825fc86",
+          "svgRevision": "08df1cddd7d34a06fe3f2c582014b11251ffba2df6a6fa97abef0fc0f52b0bfc",
+          "status": "approved",
+          "reason": "The target is AWS Lambda; the comparison shows Amazon AppFlow. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-lambda-function",
+          "revision": "3b50eca3392651a547cae40073cf890ac1e1a64bde22bc7ab82644f465c1ed71",
+          "svgRevision": "3126fa479c4fdfec79f827cacf954ac05894197a7f2055d2c5a63fcc2c9bfecc",
+          "status": "approved",
+          "reason": "The target is AWS Lambda; the comparison shows Lambda Function. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-s3-object-lambda",
+          "revision": "76f716c6fa81df38e6f64190bfac20afa08dbb18ad89c411b5e4db848380173d",
+          "svgRevision": "385c7fb7168b517c72a69ad437bc2b1db5039d4079227479cbf00f28b997d49a",
+          "status": "approved",
+          "reason": "The target is AWS Lambda; the comparison shows S3 Object Lambda. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-lambda-function",
+          "revision": "0643df84cff8243305a9b7198196ba030ffc1f5fad5180404c441da80c7afbf4",
+          "svgRevision": "3e1f883338f302db8b894b0ca2471022e65c920a4f42c970fc2ed2298b88c843",
+          "status": "approved",
+          "reason": "The target is AWS Lambda; the comparison shows IoT Lambda Function. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The lambda mark is drawn as a function inside an execution frame with input and output connections; at 32px it remains distinct from function-code panels and S3 object transforms."
+    },
+    {
+      "id": "aws-dynamodb",
+      "status": "approved",
+      "drawingRevision": "694e7292eb3834efd0afaf47bbf8e976e8cffa1ea3deb3af97a0e8149abb2eca",
+      "comparisonRevision": "2a3c008ef27e28b29d6f75025b2852fd454bcb5dae9598d5bb97736a27ee38f4",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/16/Arch_Amazon-DynamoDB_16.svg",
+          "9d480b04f777f1ce4bac1a3ffae7cd2f6205a7f6e9eee8de6d6ebb2c55e4c6f5"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/32/Arch_Amazon-DynamoDB_32.svg",
+          "9f1a4f638f8e3b35d03e366fd70328eeb86bdb747dca099d6d939515e11b52bc"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/48/Arch_Amazon-DynamoDB_48.svg",
+          "92f71b570ab22c385033c41663c27f15760625f9091b4c0f0cf51c67fedbd410"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/64/Arch_Amazon-DynamoDB_64.svg",
+          "37b14fa9929c8240395b45e28f9c600ea9e9be1efce4130b64e8de4dd1efcb65"
+        ]
+      ],
+      "svgRevision": "3777062c166ab8cda67c1a20ba723f11233df3251c2392d3cd2362a31e9fc226",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-experimentation",
+          "revision": "65c6b7b8df05d6b662980925e8e333b19ce9ce7a4e8db1942a176828577354ef",
+          "svgRevision": "eea9b29e93af108f9ef5f9d718ef510e5c98b6886cc0a97376feb508c9e837e1",
+          "status": "approved",
+          "reason": "The target is Amazon DynamoDB; the comparison shows Azure Experimentation Studio. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-s3-tables",
+          "revision": "8be8480944097fa510a78f7c352a90a73f73a8cab4752cac35f623f7a45153aa",
+          "svgRevision": "a80ef067d2e753df4ff733cd093b72aa5d18d4614a72fbece0db9a0c8e13fcaf",
+          "status": "approved",
+          "reason": "The target is Amazon DynamoDB; the comparison shows S3 Tables. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-waf-bot",
+          "revision": "a1b138fb0ea5dc035caafc3b283eafa36ba89965144f4967fe4a74c85411add5",
+          "svgRevision": "c98993db759a450a71172f0a800892d0ccbcf7c9920b7cee966933aa74cd11aa",
+          "status": "approved",
+          "reason": "The target is Amazon DynamoDB; the comparison shows WAF Bot. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb-table",
+          "revision": "55c0887ed2e771555a46b9e60be2de9c291f192e10a60d5847f8be116ebb187e",
+          "svgRevision": "b862f3ee95dfdb434cd9d82933ddf6a2039b7dfd6264df97e497faa3d7fea131",
+          "status": "approved",
+          "reason": "The target is Amazon DynamoDB; the comparison shows DynamoDB Table. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb-stream",
+          "revision": "9417d74f2de954dcbcb1a031ef33ef5e58931e3f7a26dbb3bf3d77742375ccf3",
+          "svgRevision": "51fd642f67e7e2bdde692b7a8e74cc4dc4115794f2d3d81b12b6076e69f906a6",
+          "status": "approved",
+          "reason": "The target is Amazon DynamoDB; the comparison shows DynamoDB Stream. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-dynamodb-global-secondary-index",
+          "revision": "7d3d3bedf4bb16884c55a9a7003ba715767f726ab54828708ecc219541466411",
+          "svgRevision": "e9ee923d87d249f3a506b4db8ccf695b06755ae90813d6f6e82e260395e1845e",
+          "status": "approved",
+          "reason": "The target is Amazon DynamoDB; the comparison shows DynamoDB Global Secondary Index. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A stacked key-value store with a highlighted record communicates DynamoDB; it remains distinct from the table grid, stream columns and global-secondary-index table."
+    },
+    {
+      "id": "azure-detonation",
+      "status": "approved",
+      "drawingRevision": "bb9fba631bdfffaa194522c25c978e74ad3ce6306181c42ad44e2ebdacb6ba96",
+      "comparisonRevision": "1da044f219b8e4c5b0135ff2cc93396459df9e8cc9738610ab06412f9c2491e7",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/00378-icon-service-Detonation.svg",
+          "f7a9e4de250b27580a59acefeb3236941aedc5d42aa33e4938523c276e7d0075"
+        ]
+      ],
+      "svgRevision": "d937a58ebffb6a844b1f822b049541b777eea16d2a77940b01e82825d4b07517",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-window-code",
+          "revision": "b432ea06b51180b5b0ae6371af4e363d3ee30241f2d14da3980e121b59f3bd21",
+          "svgRevision": "8790dd2f74000a44f997d1fbde5bf03e7e680a03063b0dcb7c7dea856bda1b36",
+          "status": "approved",
+          "reason": "The target is Detonation; the comparison shows Code window. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-eks-outposts",
+          "revision": "0ef04a18d54d37532d0670011b5489b7935c772968b479d492d928371d4f0809",
+          "svgRevision": "00c7206431d2f9af069e2f9de10b4c6a19be97e77d307fa4f34874e24f31524b",
+          "status": "approved",
+          "reason": "The target is Detonation; the comparison shows EKS on Outposts. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-update-management-center",
+          "revision": "36a220345f6dbced12c57f1eeca19a7ae0c7f968943037d3093e644688832c8e",
+          "svgRevision": "5a792d2af15f81ff6afd382443cf51ee98738a1ee056b70c7368161671520f9c",
+          "status": "approved",
+          "reason": "The target is Detonation; the comparison shows Update Management Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-sentinel",
+          "revision": "dcadc2f8fd43be04806dd18737b3aff32dcb497f2566071f03dcb2f0401ad3b4",
+          "svgRevision": "ef32a2a6bd3fba89fd71e16fad17b164bcb4ec4c230e736ef9927715ba73579e",
+          "status": "approved",
+          "reason": "The target is Detonation; the comparison shows Azure Sentinel. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-easm",
+          "revision": "0adc1ae2f4fb16833574624b35e7c07343f12f97296cdee9d968ce350581ad06",
+          "svgRevision": "3718e212f2c47ae562292181cc39d65761b9c175df4562030f2f835cdccc4387",
+          "status": "approved",
+          "reason": "The target is Detonation; the comparison shows Microsoft Defender EASM. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-cloud",
+          "revision": "2818621008c34c594767c78d772fb21173129824f316503e57b4b3eed5bca3e1",
+          "svgRevision": "64affea4ce85963e643f97021c137b257e2bca2c21bec7c273a065fdfe3526b0",
+          "status": "approved",
+          "reason": "The target is Detonation; the comparison shows Microsoft Defender for Cloud. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A suspicious file runs inside a bounded test chamber, matching the detonation sandbox concept; the contained panel and test marker remain distinct from threat shields."
+    },
+    {
+      "id": "azure-defender-iot",
+      "status": "approved",
+      "drawingRevision": "9b6c3d03afa53d0cdc59d41cab78a3f99b6aeeadaa70d301cfbf2cf6e84857b1",
+      "comparisonRevision": "e36e3f5fbffa9a5ccb96f8cc634167dcfd4424c7f4fd09a2f1f89776baa04622",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/02247-icon-service-Microsoft-Defender-for-IoT.svg",
+          "c8a202a7c7dbb106f94aefa6fd33cf52465e0dfce715e4dca1023e56dc8f5323"
+        ]
+      ],
+      "svgRevision": "946a316182dfd32320b63c0f2464cb4461354e1d464ee6b12c52f17b7e70b183",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-application-security-groups",
+          "revision": "e309df7f495fcfd6aed1a45a508f44b5b73a042c08569ebacfe375b2d4843e41",
+          "svgRevision": "1d5d8623076ba0343eee9d3623fe299a47b4939f8f7892adfc534a8bb76c92b3",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for IoT; the comparison shows Application Security Groups. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-spatial-anchor-accounts",
+          "revision": "4bbd6f6b9bcbe87bad33b58df521219ed9d359dd638bc8518d27a7408c0fda11",
+          "svgRevision": "8ddc39c02251b32df05901a407c2d7968ef4224a165b98b938fd33a13675992a",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for IoT; the comparison shows Spatial Anchor Accounts. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-traffic-manager-multistack",
+          "revision": "1720e4d208d11e15b20aad6ac46ec0008dbd01cc8a5035dcddfd52964445b0e0",
+          "svgRevision": "54b0b36338ec6514b294be4e3676fca3d8531a3e9be154045ba99c0fa76dd194",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for IoT; the comparison shows Traffic Manager Multistack. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-device-defender",
+          "revision": "6e57197173ad82c25e15f0299a77f6f7186eb97b202db683f6c06fbb7e19d98d",
+          "svgRevision": "3602e5a893ed70003f6c6c3a9ee41126c4bdf6f9a0c8d8bdb174d9e5d7a048cb",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for IoT; the comparison shows AWS IoT Device Defender. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-iot-hub",
+          "revision": "bfed785a2594c74ffc745ab0a5f9ae771df73baa4bd6f5dd82ef1ec2ba51111e",
+          "svgRevision": "4ad8bf3763dd151364ff60fd119e681c1ea36f079b7564d12b530ca73511bf3a",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for IoT; the comparison shows IoT Hub. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-core",
+          "revision": "0b8e2f74edf44c7077191109398548a563e36de2ab3351be62de272f8011d088",
+          "svgRevision": "dee5a732d6229ffded873e431db333425aa85a9a62a9d15f7ba43902c90f0b7f",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for IoT; the comparison shows AWS IoT Core. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A shield protects a network of connected devices; the device spokes and shield remain visible at 32px and distinguish it from ordinary IoT hubs."
+    },
+    {
+      "id": "azure-defender-easm",
+      "status": "approved",
+      "drawingRevision": "0adc1ae2f4fb16833574624b35e7c07343f12f97296cdee9d968ce350581ad06",
+      "comparisonRevision": "ab4263072f6b35e7c052a3d53bd756b4ae08dbdc5cd098fd349bbc8c52cf376a",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/03336-icon-service-Microsoft-Defender-EASM.svg",
+          "8de3c0962bd7479f956a4fb7ac2ea11a1a6611221e2c58073208cbb1bd5f8f9d"
+        ]
+      ],
+      "svgRevision": "3718e212f2c47ae562292181cc39d65761b9c175df4562030f2f835cdccc4387",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-power",
+          "revision": "5c55fe0f5dd1a8671831ca021d8040e462c4757d27699628fb5eb5aa50e4a832",
+          "svgRevision": "a056fbcdc1ec0f41e0e0778126b443f7205116eea1d57ee99bac871d584291d2",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender EASM; the comparison shows Power. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-aks-network-policy",
+          "revision": "0567a6e09e6ad31170ffd91ec947679148dd2fef9449d7167e8f9e8a783eb045",
+          "svgRevision": "571189f1e0d6a27f48e1e9a80c83b299dbe9a674d2d1aa73f18a4810016294df",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender EASM; the comparison shows AKS Network Policy. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-document",
+          "revision": "0a357042e6e9fc38871ab7fb6c5c5339a0128e0a4704f4d949c5dd0db41658c5",
+          "svgRevision": "486d2b5e95d46bb1e300e647935bd9180668e02909e5b943191bf97c61bf66de",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender EASM; the comparison shows Document. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-cloud",
+          "revision": "2818621008c34c594767c78d772fb21173129824f316503e57b4b3eed5bca3e1",
+          "svgRevision": "64affea4ce85963e643f97021c137b257e2bca2c21bec7c273a065fdfe3526b0",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender EASM; the comparison shows Microsoft Defender for Cloud. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-iot",
+          "revision": "9b6c3d03afa53d0cdc59d41cab78a3f99b6aeeadaa70d301cfbf2cf6e84857b1",
+          "svgRevision": "946a316182dfd32320b63c0f2464cb4461354e1d464ee6b12c52f17b7e70b183",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender EASM; the comparison shows Microsoft Defender for IoT. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A shielded asset map under magnification communicates external attack-surface discovery; it differs from a general cloud shield and device network."
+    },
+    {
+      "id": "azure-information-protection",
+      "status": "approved",
+      "drawingRevision": "cff14785ca82cd09364f3f8764be194589b0167d2cf4d92490d9a4f4ffae7ec7",
+      "comparisonRevision": "045e4ff14ce27f1431d5d3e7c592bc90eb21dfc28c13543bdaeb864ad53b4afe",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10229-icon-service-Azure-Information-Protection.svg",
+          "cc741314abbb814d76bf549b1dfbb1cbc4061b9d731c0a92fbe3c1b1efd78737"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10229-icon-service-Azure-Information-Protection.svg",
+          "cc741314abbb814d76bf549b1dfbb1cbc4061b9d731c0a92fbe3c1b1efd78737"
+        ]
+      ],
+      "svgRevision": "e525ab2f9a7a1e7fd794a11dbb09b78d2c61cbec8a539bab86d41ccdde8e8591",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-systems-patch-manager",
+          "revision": "b78c5cd984ba0229f5d4b5c709c37773dbb6f0719f62b631c795692773caffa4",
+          "svgRevision": "c5caf1d32f836fc504ee1b7fc722797599c01611e39405d9648532d3b5eb3a3e",
+          "status": "approved",
+          "reason": "The target is Azure Information Protection; the comparison shows Systems Manager Patch Manager. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-systems-incident-manager",
+          "revision": "48cb1c5ad844c7bd88ba81c00478895137de3c924d4f8bd4943b94f2ee54a506",
+          "svgRevision": "e1f769f9aa555e668b1eab6e706578e34433e6dbf8e9355cf8e1887786d2ac0e",
+          "status": "approved",
+          "reason": "The target is Azure Information Protection; the comparison shows Systems Manager Incident Manager. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-ecs-task",
+          "revision": "ea5351bc41309a4bf78af30ad910759077b5ea34a72553b13644a228af16e5e1",
+          "svgRevision": "ca5c8b171dde6971ea860b3a361494f64f7c832feef80a92420bd4dbe60e8e80",
+          "status": "approved",
+          "reason": "The target is Azure Information Protection; the comparison shows ECS Task. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-entra-id-protection",
+          "revision": "19ed8955e66b9e4c789f8e8982c49ca3cc68db140df575fa49629a14150ad5a2",
+          "svgRevision": "8fceb060c6039456e19dc8b0c539eb14e6bf74acadbf4f9262ae6674e00ef1e3",
+          "status": "approved",
+          "reason": "The target is Azure Information Protection; the comparison shows Entra ID Protection. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-phishing-protection",
+          "revision": "13cef636ec6519ed1a31c0a1c0bc783b59f1a9e7e34858a3be2760d7474fb87e",
+          "svgRevision": "bbef0dbe0b71b0e3a4354d1e396257d469cfd1d25431c6752899a764ff87c1ed",
+          "status": "approved",
+          "reason": "The target is Azure Information Protection; the comparison shows Phishing Protection. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-cloudwatch-data-protection",
+          "revision": "fdb439589cb042495f0f965ed8b85794ab9e5828a6576cdd3e72b4a8b0d65209",
+          "svgRevision": "cfbd344753d493cc312c7bce4a338fe5eb047d9d5b47f0f8eedf1f6d09fed4e7",
+          "status": "approved",
+          "reason": "The target is Azure Information Protection; the comparison shows CloudWatch Data Protection. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A document protected by a checked shield reads as information protection; the paper-and-shield outline differs from patch, phishing and identity-protection marks."
+    },
+    {
+      "id": "azure-application-security-groups",
+      "status": "approved",
+      "drawingRevision": "e309df7f495fcfd6aed1a45a508f44b5b73a042c08569ebacfe375b2d4843e41",
+      "comparisonRevision": "dc2ee04d07b243f629e84df932d87a425a9a0e88c533e137a15a2b81f10b6655",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10244-icon-service-Application-Security-Groups.svg",
+          "ccfd0cee1be216fcf23a7e1a0992e72ede18c06553ac0e035133578f94937514"
+        ]
+      ],
+      "svgRevision": "1d5d8623076ba0343eee9d3623fe299a47b4939f8f7892adfc534a8bb76c92b3",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-organizations-management-account",
+          "revision": "9a0335be9ca222a6fc42b913571ce6a5e4473c00f82fcbf6ebc697142f064c75",
+          "svgRevision": "01a5dd6fdb6acf726996926491b1f2aeb30b6cde9bf75cccecbcafed631e5c05",
+          "status": "approved",
+          "reason": "The target is Application Security Groups; the comparison shows Organizations Management Account. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-universal-print",
+          "revision": "946d87450b7dc22321bb7bf300de653ddfb568da57c7feea6b69b4a4fe35ddc4",
+          "svgRevision": "85a6f9c8b14c976f6910289161c8b04139738bca8309db4cccc968ea3adaeaf3",
+          "status": "approved",
+          "reason": "The target is Application Security Groups; the comparison shows Universal Print. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-mainframe-developer",
+          "revision": "418567a0759a8d05f30cdf76217c6cacdab277367aed42e58feb5e115630ef02",
+          "svgRevision": "437d0918fbda0930c1242f9e1c44c25c5a2a4483abbc6cf0d09f4dc7cf65e9f8",
+          "status": "approved",
+          "reason": "The target is Application Security Groups; the comparison shows Mainframe Modernization Developer. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-network-security-groups",
+          "revision": "9ec5a904f52c0f366156a7e089e06fcd71eb58fea8c80a46938ad1db70692885",
+          "svgRevision": "d4dfdac8c9c07a4c0ded498e89c7e012dd1899a6813e2f11f3ca6b4b55a4b2b1",
+          "status": "approved",
+          "reason": "The target is Application Security Groups; the comparison shows Azure Network Security Groups. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-resource-groups",
+          "revision": "d20544b03d0bd0068a768fe061323d9df532120e7fed4a10b0a199e7d998169c",
+          "svgRevision": "240a14cffb34ca5e305ef2b9f0a9c3cc7e638308e69444430673e22714945d8e",
+          "status": "approved",
+          "reason": "The target is Application Security Groups; the comparison shows Resource Groups. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-network-security",
+          "revision": "fd26460e57a3cbac84d809f4ffc81cd557ecc6bd9a30f3507fee621714f9c018",
+          "svgRevision": "ab4f0d7f7789c1dc97c3c4f417c29c598f397b50f761a7af26d714ddfeec0d91",
+          "status": "approved",
+          "reason": "The target is Application Security Groups; the comparison shows Network Security. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A shielded application inside a monitor conveys application security grouping, distinct from network/resource group lists and general network-security shields."
+    },
+    {
+      "id": "azure-sentinel",
+      "status": "approved",
+      "drawingRevision": "dcadc2f8fd43be04806dd18737b3aff32dcb497f2566071f03dcb2f0401ad3b4",
+      "comparisonRevision": "28389ce60e0a68fef6c69d640527af919fc95dd31b614023427deb96590bea17",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10248-icon-service-Azure-Sentinel.svg",
+          "7c7cfb74de993901f643bcfe9cd268cde172718cb9d5a20a7dc63b0283be0d4b"
+        ]
+      ],
+      "svgRevision": "ef32a2a6bd3fba89fd71e16fad17b164bcb4ec4c230e736ef9927715ba73579e",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-defender-cloud",
+          "revision": "2818621008c34c594767c78d772fb21173129824f316503e57b4b3eed5bca3e1",
+          "svgRevision": "64affea4ce85963e643f97021c137b257e2bca2c21bec7c273a065fdfe3526b0",
+          "status": "approved",
+          "reason": "The target is Azure Sentinel; the comparison shows Microsoft Defender for Cloud. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-conditional-access",
+          "revision": "ee7d7e135c97b651840b3bf78d9f7b4ec0cdd7a5336501c68ba9e0e1c7116635",
+          "svgRevision": "9583e79a3f40c93c14aac78d335708e1514894698d16a6246dd1acf85fb6f956",
+          "status": "approved",
+          "reason": "The target is Azure Sentinel; the comparison shows Conditional Access. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-aks-network-policy",
+          "revision": "0567a6e09e6ad31170ffd91ec947679148dd2fef9449d7167e8f9e8a783eb045",
+          "svgRevision": "571189f1e0d6a27f48e1e9a80c83b299dbe9a674d2d1aa73f18a4810016294df",
+          "status": "approved",
+          "reason": "The target is Azure Sentinel; the comparison shows AKS Network Policy. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-easm",
+          "revision": "0adc1ae2f4fb16833574624b35e7c07343f12f97296cdee9d968ce350581ad06",
+          "svgRevision": "3718e212f2c47ae562292181cc39d65761b9c175df4562030f2f835cdccc4387",
+          "status": "approved",
+          "reason": "The target is Azure Sentinel; the comparison shows Microsoft Defender EASM. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-information-protection",
+          "revision": "cff14785ca82cd09364f3f8764be194589b0167d2cf4d92490d9a4f4ffae7ec7",
+          "svgRevision": "e525ab2f9a7a1e7fd794a11dbb09b78d2c61cbec8a539bab86d41ccdde8e8591",
+          "status": "approved",
+          "reason": "The target is Azure Sentinel; the comparison shows Azure Information Protection. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "The central eye inside the shield communicates continuous threat monitoring; this detail differentiates Sentinel from cloud-protection and application-policy shields."
+    },
+    {
+      "id": "azure-user-settings",
+      "status": "approved",
+      "drawingRevision": "e132df13aa2ac2c0c807e93bafd6858ef23ecf4dcc55f4a560dde57c7c49a774",
+      "comparisonRevision": "cac7ba41c166554c9ef4caff73c94250345cd8d7f4ae6599971125add1b45cad",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10433-icon-service-User-Settings.svg",
+          "6cb2220cb3c30daf2092d281358ca265f8aa9d1c37f6890054d37f6107a32be3"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10433-icon-service-User-Settings.svg",
+          "6cb2220cb3c30daf2092d281358ca265f8aa9d1c37f6890054d37f6107a32be3"
+        ]
+      ],
+      "svgRevision": "30bb14bc13621d3b8a26976104235c766dc53f32257ce80c6d0de32411ea1130",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-static-apps",
+          "revision": "6f7832d981a704b223f2e109f4e8f6e74882583c7d690b1dbb7edf1de5d35ed0",
+          "svgRevision": "49a807e42b5a2d501c5a6b6faa4c77f90db2d1289fa3d49c53260f2d4340aa6f",
+          "status": "approved",
+          "reason": "The target is User Settings; the comparison shows Static Apps. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-notification-namespaces",
+          "revision": "77a9e1ff1074fdd8d533a8a178c1332e01d2f6c7e8e66d686388c6cf315192b8",
+          "svgRevision": "1587d3927b97b12f4746aa9c411e715e9aa90c16cbafc9f7b22524ac4b607d79",
+          "status": "approved",
+          "reason": "The target is User Settings; the comparison shows Notification Hub Namespaces. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-storage-accounts-classic",
+          "revision": "d9263343b05f35acbae0d6b504921aa2598d88abcc2eca7d79ba59ac2cf3e602",
+          "svgRevision": "30e2126908226b6d1373e1e21928e2a6b9b0bad7a06463237ed3e67c5a3cd7d0",
+          "status": "approved",
+          "reason": "The target is User Settings; the comparison shows Storage Accounts Classic. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-settings",
+          "revision": "1b459d16f882bb263b322cbb6a18875960edd2a31e380bc9720be2ef7130213f",
+          "svgRevision": "d4afaa5dc2d49a0c9d0ccbf1a8f1554b77c9861f1380a85d5483d196c48ffdef",
+          "status": "approved",
+          "reason": "The target is User Settings; the comparison shows Settings. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-person-settings",
+          "revision": "2ad263d6a6574a43413637ead980438df291f54dc5647ed5dbe03c31bc59550a",
+          "svgRevision": "8c45d3a37596a231132c886f8418c396428c6fb7d66b0af1fd5bbf6c20b219e4",
+          "status": "approved",
+          "reason": "The target is User Settings; the comparison shows Person settings. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-directory-users",
+          "revision": "0151e41c3517731b56f70a5935efe5f40942c17debcc537ea6a9e7b6842f004c",
+          "svgRevision": "f6aca81f64a8e178881e046eab665985a945fc0f07d9b6ff78eea586ea38d975",
+          "status": "approved",
+          "reason": "The target is User Settings; the comparison shows Users. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A profile card paired with adjustment sliders reads as user settings; its portrait-and-controls silhouette is distinct from app configuration and directory-user marks."
+    },
+    {
+      "id": "azure-extended-security-updates",
+      "status": "approved",
+      "drawingRevision": "bde09e42ece997b217f6a55bde2be3181e81a8e9474cb7a52951c8042de149e9",
+      "comparisonRevision": "0e18409109b690454d5757473e9a508377a2faac6b76bdb5eb63b5d0f270efbe",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10572-icon-service-ExtendedSecurityUpdates.svg",
+          "8e9562477d0b61c3f76982da2790bcbe9c685deffef947e3d749383cb9e68745"
+        ]
+      ],
+      "svgRevision": "5e5c45f3331a38db928ff43a09aca8df3cf9ce148b928ce0b5ae2ad8cf06950e",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-reserved-ip-classic",
+          "revision": "34faef7c35ec7707324a8c4420d90968f3789d181662b3966e164fe1352e80c9",
+          "svgRevision": "7704fe04224d77114b5fb25ff495946e689d9eec19a8b9dfb15ce4ffdf30b2ac",
+          "status": "approved",
+          "reason": "The target is Extended Security Updates; the comparison shows Reserved IP Address (Classic). Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-sap-monitor",
+          "revision": "a0b12968401eb564825c7717368562c6c92e80db44f632ce39f94cefc01efaa3",
+          "svgRevision": "ed391cca3ece5de95d757c6ff216f1f897de58dc02fb8d616bb9cfd9c6c6cd0d",
+          "status": "approved",
+          "reason": "The target is Extended Security Updates; the comparison shows Azure Monitor for SAP Solutions. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-data-table",
+          "revision": "1569837e60415196f765b3a6a9dbef962f232d8fd7cc9f65e9e3badf1b4d5a2c",
+          "svgRevision": "c5172046639921da645d5880586ddd2cc72977fc779cedb0b267b2213fca76f2",
+          "status": "approved",
+          "reason": "The target is Extended Security Updates; the comparison shows Data Table. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-software-updates",
+          "revision": "da3e96be64d1f1f18903b4b3ebd6f3d0b26d64ebf22d94332e012e9eeac9a89f",
+          "svgRevision": "ea64c40aadf5f590d39009731ad3538e24cb8bfbc9165ea727ef85713991fd15",
+          "status": "approved",
+          "reason": "The target is Extended Security Updates; the comparison shows Software Updates. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-update-management-center",
+          "revision": "36a220345f6dbced12c57f1eeca19a7ae0c7f968943037d3093e644688832c8e",
+          "svgRevision": "5a792d2af15f81ff6afd382443cf51ee98738a1ee056b70c7368161671520f9c",
+          "status": "approved",
+          "reason": "The target is Extended Security Updates; the comparison shows Update Management Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-security-baselines",
+          "revision": "ab21f2fc2edeb0b30f62ac9ac6261eb380088a1bbfa21be2938612348b58d18e",
+          "svgRevision": "6ca0398cc8f6b654b8e8723d2eceaa10d8777a2b5084ad9b5b890222cbec5079",
+          "status": "approved",
+          "reason": "The target is Extended Security Updates; the comparison shows Security Baselines. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A patch calendar with a central security badge conveys extended security updates; the schedule and badge remain clear at small size and distinct from generic software update panels."
+    },
+    {
+      "id": "azure-identity-secure-score",
+      "status": "approved",
+      "drawingRevision": "08f73f6052e3110f582149999a50eb9a69415f3ee43efcead151c1b390ca4f90",
+      "comparisonRevision": "943c9d5e371e0ac49b7e27a595f005353c1005a149e5a36a6ad00eaeb63cd2fb",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/03340-icon-service-Identity-Secure-Score.svg",
+          "60c09803489fe9c4709c45b42a5b0a1def31ee134c70fcac629fc42a1347ba01"
+        ]
+      ],
+      "svgRevision": "4421f98992644d313a60ce52e5c74868c303098a09b03c2c46ff177b80a93eaa",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-ses-email",
+          "revision": "52785d218eb79c96c5783f1aa447430f2777a107f3b591f0b3c069955608d35b",
+          "svgRevision": "8397fbe1ec83bf430b2c6b3ad77e39a30e22cfe54c4b83b46199fa4d505dd4af",
+          "status": "approved",
+          "reason": "The target is Identity Secure Score; the comparison shows Simple Email Service Email. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-performance-dashboard",
+          "revision": "5a7cfd4455f756b1b79c16f7133d15700e6f2fe6178118cf79b5ae37bea07f51",
+          "svgRevision": "0fd77fccc0f45748b29683264e37378729aa6f0ddf3f9f61f539c1fba29be9fc",
+          "status": "approved",
+          "reason": "The target is Identity Secure Score; the comparison shows Performance Dashboard. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-tag",
+          "revision": "2616ffd2834e19e20e59e70b05c430f1c1cadc6e34e3dd2904703260df1ae1c2",
+          "svgRevision": "2fa14961f1f8d35d2f77c035caad671d090b6a999ca9d37ac156e252a6515ce5",
+          "status": "approved",
+          "reason": "The target is Identity Secure Score; the comparison shows Tag. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-identity-security",
+          "revision": "ac3b606574de522ab97a0e9d1aa83527fc3201fab1fbd9e11f69a9933bf12c83",
+          "svgRevision": "11e403a04612de3ebc8c93ddc862a708cc92253d4d95b7b8afe1cdf22f0ab2cf",
+          "status": "approved",
+          "reason": "The target is Identity Secure Score; the comparison shows Security. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-privileged-identity-management",
+          "revision": "9970eec58b4d7267927827beff6278f1aee1d8cd26bea25f346d663c4df41eb9",
+          "svgRevision": "eda3794efdf55588714e9fead6315103cf2b7ee87cf9119df56d2f20e0afabe6",
+          "status": "approved",
+          "reason": "The target is Identity Secure Score; the comparison shows Entra Privileged Identity Management. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-identity-governance",
+          "revision": "f13b4090696f479f9746bfb579d19c0b770bd45b697305c076f0af8e5e2ce582",
+          "svgRevision": "c96d72928c8a473a0c722d05beffc9ba41e4cab32640ce2af29ae1ad2005f014",
+          "status": "approved",
+          "reason": "The target is Identity Secure Score; the comparison shows Identity Governance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A person beneath a calibrated gauge conveys identity security scoring; its portrait-and-meter combination differs from standalone identity and access-control symbols."
+    },
+    {
+      "id": "azure-risky-signins",
+      "status": "approved",
+      "drawingRevision": "eb43107f41d6c8327d75f1b0502c01afa0089892db58fa6ecd79738d2efa91bd",
+      "comparisonRevision": "8ade8007014dbc65cd03784d3127eb4b0924d34a806b1563de1651db9773c1f1",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/03341-icon-service-Entra-Identity-Risky-Signins.svg",
+          "db57b9fab55797d22cd795791eabe7ce6a5c2d9945d703a54a13e2995f7d4086"
+        ]
+      ],
+      "svgRevision": "df2d48fdc30711eb497eb1095779a9a23f63dc5cbd4e50939d7cc3f42dbd8bd6",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-power",
+          "revision": "5c55fe0f5dd1a8671831ca021d8040e462c4757d27699628fb5eb5aa50e4a832",
+          "svgRevision": "a056fbcdc1ec0f41e0e0778126b443f7205116eea1d57ee99bac871d584291d2",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Sign-ins; the comparison shows Power. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-module",
+          "revision": "239516c29fdd5b57530a82f5f625c2b1496ec9905339be4ceab2d9ff4b9c1121",
+          "svgRevision": "48167833a5a5a720770cfabfe7d871895b28170035499ffa8fa2cb33c2a2a325",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Sign-ins; the comparison shows Module. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-network-connections",
+          "revision": "4330aa3661cc51fee009d51e7d6e3e7e542dd142f51ca61dcdca94d04722fab4",
+          "svgRevision": "441eb1d2a21c06ba037128dc3dfca1abcb01e94c5dd928694d282c2d9462827e",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Sign-ins; the comparison shows Network Connections. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-risky-users",
+          "revision": "6c92226009e78eabdaffc4919094d6357b40892f0fb400cfa3522e79df36fa3d",
+          "svgRevision": "aa16d2dba4bedd6af9237c1df8d4ae9d623704ef371383344f9faed2c08d9cf4",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Sign-ins; the comparison shows Entra Identity Risky Users. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-identity-security",
+          "revision": "ac3b606574de522ab97a0e9d1aa83527fc3201fab1fbd9e11f69a9933bf12c83",
+          "svgRevision": "11e403a04612de3ebc8c93ddc862a708cc92253d4d95b7b8afe1cdf22f0ab2cf",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Sign-ins; the comparison shows Security. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-privileged-identity-management",
+          "revision": "9970eec58b4d7267927827beff6278f1aee1d8cd26bea25f346d663c4df41eb9",
+          "svgRevision": "eda3794efdf55588714e9fead6315103cf2b7ee87cf9119df56d2f20e0afabe6",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Sign-ins; the comparison shows Entra Privileged Identity Management. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "An inbound sign-in arrow meets a warning triangle, clearly conveying risky access attempts and differing from the user-risk chart."
+    },
+    {
+      "id": "azure-risky-users",
+      "status": "approved",
+      "drawingRevision": "6c92226009e78eabdaffc4919094d6357b40892f0fb400cfa3522e79df36fa3d",
+      "comparisonRevision": "dc105ab83251d8ba89eb2ec99154962c280b2aea1dc6d8d4de998811765daacf",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/03342-icon-service-Entra-Identity-Risky-Users.svg",
+          "41ead3a82cb30da46de0f0efbd0583dab1f937c548213762d75d734b27c2b09a"
+        ]
+      ],
+      "svgRevision": "aa16d2dba4bedd6af9237c1df8d4ae9d623704ef371383344f9faed2c08d9cf4",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-managed-file-shares",
+          "revision": "c19a1205465608f19b476206b6e6400522ff77ce42811d581774bc3e7f3b8e7d",
+          "svgRevision": "b2e5658bc87ba6ecb50532350336198ec384b48362b9a31009ab48f2cf9dc5aa",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Users; the comparison shows Managed File Shares. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-local",
+          "revision": "552d5be022b2399de924d5f13c16e13945cdcaa8925a4f2a85bfdf3e6c483ad4",
+          "svgRevision": "b00200156de754164026a0a44bd12300a6602c79323b161bc7a842c0dbc6752c",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Users; the comparison shows Azure Local. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-person-wrench",
+          "revision": "7bfa76b815109cb35925c2f6c26c9873fd79b695466741bddcc63c41593dc69a",
+          "svgRevision": "929a0cb40c9123afdfe2939deeaa122c9ca6af7c3387cb2c24ce6b76b2ee3f29",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Users; the comparison shows Person with wrench. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-risky-signins",
+          "revision": "eb43107f41d6c8327d75f1b0502c01afa0089892db58fa6ecd79738d2efa91bd",
+          "svgRevision": "df2d48fdc30711eb497eb1095779a9a23f63dc5cbd4e50939d7cc3f42dbd8bd6",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Users; the comparison shows Entra Identity Risky Sign-ins. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-user-settings",
+          "revision": "e132df13aa2ac2c0c807e93bafd6858ef23ecf4dcc55f4a560dde57c7c49a774",
+          "svgRevision": "30bb14bc13621d3b8a26976104235c766dc53f32257ce80c6d0de32411ea1130",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Users; the comparison shows User Settings. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-directory-users",
+          "revision": "0151e41c3517731b56f70a5935efe5f40942c17debcc537ea6a9e7b6842f004c",
+          "svgRevision": "f6aca81f64a8e178881e046eab665985a945fc0f07d9b6ff78eea586ea38d975",
+          "status": "approved",
+          "reason": "The target is Entra Identity Risky Users; the comparison shows Users. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A user profile beside a rising risk trend conveys risky accounts; the human silhouette and chart differ from the sign-in warning mark."
+    },
+    {
+      "id": "azure-multifactor-authentication",
+      "status": "approved",
+      "drawingRevision": "c4419dcf5dcedeeb18cb0cdea678b2a8da3af77fd7ca5b5789097741f0c0a9bb",
+      "comparisonRevision": "23e3cb4485e36f8225005c2bf14dac1086e3d60a69e31f28b9eff24e9f9bcb01",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/03344-icon-service-Multifactor-Authentication.svg",
+          "22a4c0816f81eab502cd637746330cbadb26248c0dcac6b655ece0f7a9eec743"
+        ]
+      ],
+      "svgRevision": "3f5a93b3f4e3641dd2ddbab810d54ae089868b5df0b9c8246b127e1fe1ed1450",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-file",
+          "revision": "36781b6b7ae125b3e837e6c585766972c6574fe1b5c6dbf1ece5b4ec660c7517",
+          "svgRevision": "f866455ea00ee0a6cd5950f321edc987933dc3d16f677437f1a591246af197bb",
+          "status": "approved",
+          "reason": "The target is Multifactor Authentication; the comparison shows File. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-universal-print",
+          "revision": "946d87450b7dc22321bb7bf300de653ddfb568da57c7feea6b69b4a4fe35ddc4",
+          "svgRevision": "85a6f9c8b14c976f6910289161c8b04139738bca8309db4cccc968ea3adaeaf3",
+          "status": "approved",
+          "reason": "The target is Multifactor Authentication; the comparison shows Universal Print. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-app-space-component",
+          "revision": "42b8a23d1dfc47df2a982afb56ab1c47dd5a025816ff9d5f662ffa2537417e73",
+          "svgRevision": "507f0bf0358a7f0f40ca71d2ea30dcd56d4293154ab742f2f26cc2b99297059d",
+          "status": "approved",
+          "reason": "The target is Multifactor Authentication; the comparison shows App Space Component. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iam-mfa-token",
+          "revision": "98204f0c87b665fb2e1951783e3821e6aa0f5fcf6c07b0149404b73826c035df",
+          "svgRevision": "f5921b60262b357f8e732941251ee5a4fff2588a34af2a26ac29d3c68b1f57a2",
+          "status": "approved",
+          "reason": "The target is Multifactor Authentication; the comparison shows IAM MFA Token. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-conditional-access",
+          "revision": "ee7d7e135c97b651840b3bf78d9f7b4ec0cdd7a5336501c68ba9e0e1c7116635",
+          "svgRevision": "9583e79a3f40c93c14aac78d335708e1514894698d16a6246dd1acf85fb6f956",
+          "status": "approved",
+          "reason": "The target is Multifactor Authentication; the comparison shows Conditional Access. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-identity-security",
+          "revision": "ac3b606574de522ab97a0e9d1aa83527fc3201fab1fbd9e11f69a9933bf12c83",
+          "svgRevision": "11e403a04612de3ebc8c93ddc862a708cc92253d4d95b7b8afe1cdf22f0ab2cf",
+          "status": "approved",
+          "reason": "The target is Multifactor Authentication; the comparison shows Security. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A secured profile card with two verification checks conveys multiple identity factors; the person, credential frame and checks remain legible at 32px."
+    },
+    {
+      "id": "azure-conditional-access",
+      "status": "approved",
+      "drawingRevision": "ee7d7e135c97b651840b3bf78d9f7b4ec0cdd7a5336501c68ba9e0e1c7116635",
+      "comparisonRevision": "3030f0d5b6c14dd13f0b9fddb21126c3a18f4fc83900d5d8a1501bb0da5d5479",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10233-icon-service-Conditional-Access.svg",
+          "bb8e706856a254cbad9374de5e91c86d6de73cc8a0b6816a97c9bbd2ccb2943d"
+        ]
+      ],
+      "svgRevision": "9583e79a3f40c93c14aac78d335708e1514894698d16a6246dd1acf85fb6f956",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-sentinel",
+          "revision": "dcadc2f8fd43be04806dd18737b3aff32dcb497f2566071f03dcb2f0401ad3b4",
+          "svgRevision": "ef32a2a6bd3fba89fd71e16fad17b164bcb4ec4c230e736ef9927715ba73579e",
+          "status": "approved",
+          "reason": "The target is Conditional Access; the comparison shows Azure Sentinel. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-endpoint",
+          "revision": "48db350b5aac85f2701c1a3db09c9b28dd4c2323a6fc7d3e3b808fbd4a2f3151",
+          "svgRevision": "d59d87c12b2d685c21b7766c79c5d243428e2f0cad1d9aa90d23f99084d400ce",
+          "status": "approved",
+          "reason": "The target is Conditional Access; the comparison shows Endpoint. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-cloud",
+          "revision": "2818621008c34c594767c78d772fb21173129824f316503e57b4b3eed5bca3e1",
+          "svgRevision": "64affea4ce85963e643f97021c137b257e2bca2c21bec7c273a065fdfe3526b0",
+          "status": "approved",
+          "reason": "The target is Conditional Access; the comparison shows Microsoft Defender for Cloud. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-entra-private-access",
+          "revision": "6e849e37646b0af5e0142a1791cd801760d61dd1e8db1e92feafd0d44eb4a3b2",
+          "svgRevision": "34cb6acdadddfcee6fe597cf05b7f973218ed813fe50aad886ac1d09b74a4601",
+          "status": "approved",
+          "reason": "The target is Conditional Access; the comparison shows Entra Private Access. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A guarded doorway, incoming request and verification check communicate conditional access, distinct from continuous monitoring and cloud protection."
+    },
+    {
+      "id": "azure-defender-cloud",
+      "status": "approved",
+      "drawingRevision": "2818621008c34c594767c78d772fb21173129824f316503e57b4b3eed5bca3e1",
+      "comparisonRevision": "11fe42fc31980224e1163496ea2d6e5ba254f34ff34869bbecc16581a10eaa1e",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/security/10241-icon-service-Microsoft-Defender-for-Cloud.svg",
+          "84a10ed4e86c11f9cb4b491818c3438631f3e9856cb0b8aa540887ebdec1819a"
+        ]
+      ],
+      "svgRevision": "64affea4ce85963e643f97021c137b257e2bca2c21bec7c273a065fdfe3526b0",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-sentinel",
+          "revision": "dcadc2f8fd43be04806dd18737b3aff32dcb497f2566071f03dcb2f0401ad3b4",
+          "svgRevision": "ef32a2a6bd3fba89fd71e16fad17b164bcb4ec4c230e736ef9927715ba73579e",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for Cloud; the comparison shows Azure Sentinel. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-conditional-access",
+          "revision": "ee7d7e135c97b651840b3bf78d9f7b4ec0cdd7a5336501c68ba9e0e1c7116635",
+          "svgRevision": "9583e79a3f40c93c14aac78d335708e1514894698d16a6246dd1acf85fb6f956",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for Cloud; the comparison shows Conditional Access. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-app-space-component",
+          "revision": "42b8a23d1dfc47df2a982afb56ab1c47dd5a025816ff9d5f662ffa2537417e73",
+          "svgRevision": "507f0bf0358a7f0f40ca71d2ea30dcd56d4293154ab742f2f26cc2b99297059d",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for Cloud; the comparison shows App Space Component. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-defender-easm",
+          "revision": "0adc1ae2f4fb16833574624b35e7c07343f12f97296cdee9d968ce350581ad06",
+          "svgRevision": "3718e212f2c47ae562292181cc39d65761b9c175df4562030f2f835cdccc4387",
+          "status": "approved",
+          "reason": "The target is Microsoft Defender for Cloud; the comparison shows Microsoft Defender EASM. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A cloud inside a protective shield reads as cloud security, distinct from Sentinel’s eye-in-shield and the EASM asset-map shield."
     }
   ]
 }
