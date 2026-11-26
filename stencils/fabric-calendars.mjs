@@ -18,7 +18,8 @@ export const fabricCalendarArtwork = [
     variants("calendar_month_lightning", [20]),
     "A lightning bolt marks an urgent calendar event.",
     [
-      line([14, 105], [14, 23], [91, 23], [91, 51]), line([14, 41], [91, 41]),
+      line([14, 105], [14, 23], [91, 23], [91, 51]), line([14, 105], [67, 105]),
+      line([14, 41], [91, 41]),
       line([31, 14], [31, 31]), line([74, 14], [74, 31]),
       line([26, 57], [35, 57]), line([45, 57], [54, 57]), line([26, 76], [35, 76]), line([45, 76], [54, 76]),
       line([91, 51], [68, 80], [84, 80], [76, 110], [110, 72], [93, 72], [101, 51], [91, 51]),

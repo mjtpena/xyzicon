@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1837,
+  "approved": 1823,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -12,9 +12,13 @@
     "power-automate",
     "power-apps",
     "power-dataverse",
+    "entra-private-access",
     "power-ai-builder",
     "power-platform",
+    "dynamics-customer-insights",
     "dynamics-customer-service",
+    "dynamics-customer-voice",
+    "dynamics-order-management",
     "dynamics-project-operations",
     "gcp-bigquery",
     "gcp-cloud-sql",
@@ -29,15 +33,19 @@
     "azure-firewall",
     "azure-app-services",
     "aws-rds",
+    "azure-dns-zones",
     "azure-event-grid-topics",
     "aws-athena",
     "aws-sagemaker",
     "aws-eventbridge-rule",
+    "aws-cognito",
     "aws-guardduty",
     "gcp-cloud-build",
     "m365-chart-multiple",
+    "m365-chat-multiple",
     "m365-code",
     "m365-document-key",
+    "m365-search",
     "fabric-apps",
     "fabric-bucket",
     "fabric-branch-fork-signal",
@@ -47,6 +55,7 @@
     "azure-network-watcher",
     "aws-glue",
     "m365-attach",
+    "m365-chat",
     "m365-document-text",
     "m365-heart-pulse",
     "m365-phone",
@@ -66,6 +75,7 @@
     "gcp-traffic-director",
     "gcp-virtual-private-cloud",
     "gcp-policy-analyzer",
+    "gcp-permissions",
     "gcp-iam",
     "gcp-security-scanner",
     "gcp-security",
@@ -143,9 +153,11 @@
     "m365-column-arrow",
     "m365-key",
     "m365-mail-alert",
+    "m365-mail-attach",
     "m365-settings",
     "m365-community",
     "m365-people-settings",
+    "m365-person-accounts",
     "m365-phone-update",
     "m365-slide-layout",
     "m365-top-speed",
@@ -402,6 +414,8 @@
     "fabric-calendar-lightning",
     "fabric-calendar-up",
     "fabric-calendar-link",
+    "fabric-calendar-prohibited",
+    "fabric-calendar-signal",
     "fabric-data-tree",
     "fabric-double-pie",
     "fabric-histogram-function"
@@ -946,8 +960,8 @@
       },
       {
         "a": "entra-private-access",
-        "b": "fabric-locked-rows",
-        "similarity": 0.2146
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2155
       }
     ],
     "entra-workload-id": [
@@ -1090,7 +1104,7 @@
       {
         "a": "dynamics-customer-insights",
         "b": "m365-search",
-        "similarity": 0.1912
+        "similarity": 0.2411
       },
       {
         "a": "dynamics-customer-insights",
@@ -1133,8 +1147,8 @@
       },
       {
         "a": "dynamics-customer-voice",
-        "b": "m365-chat",
-        "similarity": 0.3077
+        "b": "azure-hybrid-center",
+        "similarity": 0.3043
       }
     ],
     "dynamics-finance-operations": [
@@ -1201,8 +1215,8 @@
       },
       {
         "a": "dynamics-order-management",
-        "b": "m365-chat",
-        "similarity": 0.2081
+        "b": "fabric-copy-job",
+        "similarity": 0.205
       }
     ],
     "dynamics-project-operations": [
@@ -2760,13 +2774,13 @@
       },
       {
         "a": "azure-dns-zones",
-        "b": "m365-person-accounts",
-        "similarity": 0.2249
+        "b": "m365-shifts",
+        "similarity": 0.2176
       },
       {
         "a": "azure-dns-zones",
-        "b": "m365-shifts",
-        "similarity": 0.2176
+        "b": "azure-dns-multistack",
+        "similarity": 0.2156
       }
     ],
     "azure-private-endpoints": [
@@ -3219,13 +3233,13 @@
       },
       {
         "a": "aws-cognito",
-        "b": "m365-person-accounts",
-        "similarity": 0.2211
+        "b": "aws-athena-connectors",
+        "similarity": 0.2199
       },
       {
         "a": "aws-cognito",
-        "b": "aws-athena-connectors",
-        "similarity": 0.2199
+        "b": "aws-cloud9",
+        "similarity": 0.2195
       }
     ],
     "aws-guardduty": [
@@ -3537,18 +3551,18 @@
     "m365-chat-multiple": [
       {
         "a": "m365-chat-multiple",
-        "b": "m365-mail-attach",
-        "similarity": 0.2614
+        "b": "azure-web-slots",
+        "similarity": 0.1892
       },
       {
         "a": "m365-chat-multiple",
-        "b": "gcp-healthcare-nlp",
-        "similarity": 0.2388
+        "b": "aws-discovery-agentless-collector",
+        "similarity": 0.1712
       },
       {
         "a": "m365-chat-multiple",
-        "b": "m365-comment-multiple",
-        "similarity": 0.2334
+        "b": "aws-organizational-unit",
+        "similarity": 0.1664
       }
     ],
     "m365-task-list": [
@@ -3740,19 +3754,19 @@
     ],
     "m365-search": [
       {
-        "a": "m365-search",
-        "b": "azure-wac-installer",
-        "similarity": 0.2392
-      },
-      {
-        "a": "m365-search",
-        "b": "aws-backup-compute-resource",
-        "similarity": 0.1993
-      },
-      {
         "a": "dynamics-customer-insights",
         "b": "m365-search",
-        "similarity": 0.1912
+        "similarity": 0.2411
+      },
+      {
+        "a": "m365-search",
+        "b": "gcp-category-observability",
+        "similarity": 0.1572
+      },
+      {
+        "a": "aws-opensearch",
+        "b": "m365-search",
+        "similarity": 0.1355
       }
     ],
     "m365-wrench": [
@@ -4913,19 +4927,19 @@
     ],
     "m365-chat": [
       {
-        "a": "dynamics-customer-voice",
-        "b": "m365-chat",
-        "similarity": 0.3077
+        "a": "m365-chat",
+        "b": "azure-time-series-environments",
+        "similarity": 0.1566
       },
       {
         "a": "m365-chat",
-        "b": "aws-vpc",
-        "similarity": 0.2784
+        "b": "aws-s3-bucket",
+        "similarity": 0.1411
       },
       {
         "a": "m365-chat",
-        "b": "aws-codewhisperer",
-        "similarity": 0.2753
+        "b": "fabric-column-question",
+        "similarity": 0.1373
       }
     ],
     "m365-document-text": [
@@ -6385,9 +6399,9 @@
         "similarity": 0.2596
       },
       {
-        "a": "m365-chat",
-        "b": "gcp-permissions",
-        "similarity": 0.2467
+        "a": "gcp-permissions",
+        "b": "aws-cloudformation-template",
+        "similarity": 0.2364
       }
     ],
     "gcp-iam": [
@@ -12393,11 +12407,6 @@
     ],
     "m365-mail-attach": [
       {
-        "a": "m365-chat-multiple",
-        "b": "m365-mail-attach",
-        "similarity": 0.2614
-      },
-      {
         "a": "m365-mail-attach",
         "b": "azure-custom-vision",
         "similarity": 0.2507
@@ -12406,6 +12415,11 @@
         "a": "m365-mail-attach",
         "b": "m365-comment-multiple",
         "similarity": 0.2401
+      },
+      {
+        "a": "m365-mail-attach",
+        "b": "aws-elemental-appliances",
+        "similarity": 0.2344
       }
     ],
     "m365-mail-read": [
@@ -12546,19 +12560,19 @@
     ],
     "m365-person-accounts": [
       {
-        "a": "m365-shifts",
+        "a": "m365-people",
         "b": "m365-person-accounts",
-        "similarity": 0.2367
+        "similarity": 0.2035
       },
       {
-        "a": "azure-dns-zones",
+        "a": "fabric-briefcase-report",
         "b": "m365-person-accounts",
-        "similarity": 0.2249
+        "similarity": 0.1793
       },
       {
-        "a": "aws-cognito",
-        "b": "m365-person-accounts",
-        "similarity": 0.2211
+        "a": "m365-person-accounts",
+        "b": "fabric-shapes-toolbox",
+        "similarity": 0.1785
       }
     ],
     "m365-person-settings": [
@@ -15005,8 +15019,8 @@
       },
       {
         "a": "azure-anomaly-detector",
-        "b": "fabric-locked-columns",
-        "similarity": 0.25
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2717
       }
     ],
     "azure-form-recognizer": [
@@ -28032,8 +28046,8 @@
       },
       {
         "a": "gcp-category-data-analytics",
-        "b": "fabric-locked-rows",
-        "similarity": 0.2327
+        "b": "fabric-calendar-lightning",
+        "similarity": 0.2405
       }
     ],
     "gcp-category-devops": [
@@ -38404,19 +38418,19 @@
     ],
     "fabric-calendar-lightning": [
       {
-        "a": "fabric-calendar-lightning",
-        "b": "fabric-calendar-prohibited",
-        "similarity": 0.2559
-      },
-      {
-        "a": "m365-wallet-card",
+        "a": "azure-anomaly-detector",
         "b": "fabric-calendar-lightning",
-        "similarity": 0.2455
+        "similarity": 0.2717
       },
       {
         "a": "m365-shifts",
         "b": "fabric-calendar-lightning",
-        "similarity": 0.2392
+        "similarity": 0.2713
+      },
+      {
+        "a": "fabric-calendar-lightning",
+        "b": "fabric-calendar-prohibited",
+        "similarity": 0.2492
       }
     ],
     "fabric-calendar-up": [
@@ -38472,14 +38486,14 @@
     ],
     "fabric-calendar-prohibited": [
       {
-        "a": "fabric-calendar-lightning",
-        "b": "fabric-calendar-prohibited",
-        "similarity": 0.2559
-      },
-      {
         "a": "m365-shifts",
         "b": "fabric-calendar-prohibited",
         "similarity": 0.2557
+      },
+      {
+        "a": "fabric-calendar-lightning",
+        "b": "fabric-calendar-prohibited",
+        "similarity": 0.2492
       },
       {
         "a": "aws-general-data-table",
@@ -38499,9 +38513,9 @@
         "similarity": 0.2271
       },
       {
-        "a": "fabric-calendar-lightning",
+        "a": "aws-comprehend-medical",
         "b": "fabric-calendar-signal",
-        "similarity": 0.2203
+        "similarity": 0.2114
       }
     ],
     "fabric-data-graph": [
