@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1807,
+  "approved": 1803,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -34,6 +34,7 @@
     "azure-app-services",
     "aws-rds",
     "aws-route53",
+    "gcp-spanner",
     "azure-log-analytics",
     "azure-dns-zones",
     "azure-event-grid-topics",
@@ -49,6 +50,7 @@
     "m365-document-key",
     "m365-search",
     "fabric-apps",
+    "fabric-experiment",
     "fabric-bucket",
     "fabric-branch-fork-signal",
     "fabric-circle-tree",
@@ -238,6 +240,7 @@
     "aws-opentelemetry",
     "aws-cloudshell",
     "aws-codepipeline",
+    "aws-mq-broker",
     "aws-marketplace",
     "aws-repost-private",
     "aws-location-service",
@@ -319,6 +322,7 @@
     "aws-ec2-rescue",
     "aws-database-migration",
     "aws-keyspaces",
+    "aws-neptune",
     "aws-timestream",
     "aws-fargate",
     "aws-category-front-end",
@@ -2638,19 +2642,19 @@
     ],
     "gcp-spanner": [
       {
-        "a": "gcp-spanner",
-        "b": "aws-transfer-as2",
-        "similarity": 0.2603
+        "a": "power-dataverse",
+        "b": "gcp-spanner",
+        "similarity": 0.2155
       },
       {
         "a": "gcp-spanner",
-        "b": "azure-reserved-capacity",
-        "similarity": 0.2599
+        "b": "aws-neptune",
+        "similarity": 0.1973
       },
       {
         "a": "gcp-spanner",
-        "b": "fabric-experiment",
-        "similarity": 0.2522
+        "b": "aws-managed-blockchain",
+        "similarity": 0.1949
       }
     ],
     "gcp-functions": [
@@ -3828,11 +3832,6 @@
     ],
     "fabric-experiment": [
       {
-        "a": "gcp-spanner",
-        "b": "fabric-experiment",
-        "similarity": 0.2522
-      },
-      {
         "a": "fabric-experiment",
         "b": "azure-foundry-labs",
         "similarity": 0.2188
@@ -3841,6 +3840,11 @@
         "a": "fabric-experiment",
         "b": "azure-device-update-iot-hub",
         "similarity": 0.2125
+      },
+      {
+        "a": "fabric-experiment",
+        "b": "aws-general-mobile-client",
+        "similarity": 0.1997
       }
     ],
     "fabric-book-database": [
@@ -4508,6 +4512,11 @@
     ],
     "azure-network-watcher": [
       {
+        "a": "gcp-spanner",
+        "b": "azure-network-watcher",
+        "similarity": 0.1861
+      },
+      {
         "a": "azure-network-watcher",
         "b": "aws-general-client",
         "similarity": 0.1761
@@ -4516,11 +4525,6 @@
         "a": "azure-network-watcher",
         "b": "aws-braket-tensor-network",
         "similarity": 0.1639
-      },
-      {
-        "a": "azure-network-watcher",
-        "b": "azure-edge-management",
-        "similarity": 0.1616
       }
     ],
     "azure-data-box": [
@@ -12925,11 +12929,6 @@
     ],
     "m365-ribbon-star": [
       {
-        "a": "gcp-spanner",
-        "b": "m365-ribbon-star",
-        "similarity": 0.1697
-      },
-      {
         "a": "m365-ribbon-star",
         "b": "azure-device-security-apple",
         "similarity": 0.1644
@@ -12938,6 +12937,11 @@
         "a": "m365-ribbon-star",
         "b": "azure-website-power",
         "similarity": 0.1608
+      },
+      {
+        "a": "m365-calculator",
+        "b": "m365-ribbon-star",
+        "similarity": 0.1592
       }
     ],
     "aws-mxnet": [
@@ -21639,9 +21643,9 @@
         "similarity": 0.1865
       },
       {
-        "a": "aws-mq-broker",
-        "b": "fabric-table-triangle",
-        "similarity": 0.168
+        "a": "gcp-spanner",
+        "b": "aws-mq-broker",
+        "similarity": 0.1766
       }
     ],
     "aws-sns-email-notification": [
@@ -29630,6 +29634,11 @@
     ],
     "aws-neptune": [
       {
+        "a": "gcp-spanner",
+        "b": "aws-neptune",
+        "similarity": 0.1973
+      },
+      {
         "a": "m365-apps-list",
         "b": "aws-neptune",
         "similarity": 0.1674
@@ -29638,11 +29647,6 @@
         "a": "aws-neptune",
         "b": "azure-templates",
         "similarity": 0.1651
-      },
-      {
-        "a": "aws-vpc-lattice",
-        "b": "aws-neptune",
-        "similarity": 0.1592
       }
     ],
     "aws-timestream": [

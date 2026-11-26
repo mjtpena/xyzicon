@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 73,
+  "compositionsReviewed": 93,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -5586,6 +5586,1443 @@
         }
       ],
       "notes": "Both source variants depict hierarchy nodes on a document. The drawing is distinct from the revised text page, shapes page and SSIS diagram. Inspected at 128, 64 and 32 pixels without visible clipping."
+    },
+    {
+      "id": "gcp-compute-engine",
+      "status": "approved",
+      "drawingRevision": "4e5b2d1ea9e9ff7406f6d208eba7eff1ab1e52a611b5f93d6fb99c1504203dd7",
+      "comparisonRevision": "08ac5ea597e050fe1b06a00f515e7aa9845190d1ef6ef16327febbca422ac09b",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/Compute Engine/SVG/ComputeEngine-512-color-rgb.svg",
+          "6ce50a40601ba1c447b49e2b1a5d1d37ca48486065e55a28ee7ceae0eb9f0cb1"
+        ],
+        [
+          "/icons/gcp/compute_engine/compute_engine.svg",
+          "d4e81fb478767fc98583374c3527ddbb27ab1aaf6cc081af5d98211e69ab89e5"
+        ]
+      ],
+      "svgRevision": "24014de76899b90f581ba45fd556e7be1be24d8eee8c883f3c95c5a047213ee7",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-general-client",
+          "revision": "34b26f38cb9cb95a6d172f8296443ed154050f60d20dd26fc708e56f38d60a5b",
+          "svgRevision": "12a6aed8c611dae5f48144ecf91c4170d92d9a0c9374e0cdf61f9e93fca2c35e",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a generic client/device mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-aurora-instance",
+          "revision": "762e5425a581c5731391c0a2be08b41038b1d05927fd55be14e73420292279df",
+          "svgRevision": "4ee7592ea855a8c1ab3c5804c55e148600d9ae8d77613fd4ed2730f798e0e28a",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a database instance drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-thing-medical-emergency",
+          "revision": "ab522fb2506d0e4f873fe6f4fffb0d6345233e6a31a1bd3cbd410030c0d22848",
+          "svgRevision": "c72716bf3736542dbc2d83cae5811c66c8527d801d17478bd7a71529680ebf85",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a medical-emergency IoT mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-container-optimized-os",
+          "revision": "cea7dacf4d742a5e9ed737b0bb18341fa83d2788347a72b58a54402142e5b1f2",
+          "svgRevision": "27ba17d72884a289841460afe7ce4ce45aab24b82eeb0676680dc37a47b0ea4c",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a container operating-system symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-gke",
+          "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+          "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a Kubernetes cluster drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-run",
+          "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+          "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a cloud-run container symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-kuberun",
+          "revision": "a31f74657f2966f3788f4099de3c6e55bcc561d3c88d3501f477abc3445fdd80",
+          "svgRevision": "855b1510228853022759a992b25f1b1f04587978925f7d5bab3c11be326a0cc3",
+          "status": "approved",
+          "reason": "The target shows a cloud compute/server symbol; the a Kubernetes workload symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a cloud compute/server symbol concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-container-optimized-os",
+      "status": "approved",
+      "drawingRevision": "cea7dacf4d742a5e9ed737b0bb18341fa83d2788347a72b58a54402142e5b1f2",
+      "comparisonRevision": "2302b052da9fd6ae4b2fe845c5410c79d1dd596bf29182da0336d526b596c925",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/container_optimized_os/container_optimized_os.svg",
+          "b1485148c2143abb587cb3b6ac5fccdbb511cf0b2dc868363833dcc21cc215e1"
+        ]
+      ],
+      "svgRevision": "27ba17d72884a289841460afe7ce4ce45aab24b82eeb0676680dc37a47b0ea4c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-partner-portal",
+          "revision": "c129e323eb8bd0b25965f359975f1a346fc223f96c4394a618486d8e343b095b",
+          "svgRevision": "ead23a8a618e47d75e78146f8e84bdada0335e54488d7da5d358c9c0bcd874a0",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the a partner portal drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-os-configuration",
+          "revision": "712d802af3ab1f950180919afbe7546f5df465b6f4c4f2361b8ae42371b723e0",
+          "svgRevision": "1184a43af53e80bdc528b518c12bf1c585e5f4045e7e660fc38961406cc5c460",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the an operating-system configuration mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-developer-portal",
+          "revision": "7d47d18e39c7a4f19b61b5d2358be62ab403baf946d94d969be07591a6dfad95",
+          "svgRevision": "555f9b1c0d8225bd1a27dd2eb7b86f0eea0bb621d6c975d896662f2f38ed0583",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the a developer portal drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-compute-engine",
+          "revision": "4e5b2d1ea9e9ff7406f6d208eba7eff1ab1e52a611b5f93d6fb99c1504203dd7",
+          "svgRevision": "24014de76899b90f581ba45fd556e7be1be24d8eee8c883f3c95c5a047213ee7",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the a cloud compute/server symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-gke",
+          "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+          "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the a Kubernetes cluster drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-kuberun",
+          "revision": "a31f74657f2966f3788f4099de3c6e55bcc561d3c88d3501f477abc3445fdd80",
+          "svgRevision": "855b1510228853022759a992b25f1b1f04587978925f7d5bab3c11be326a0cc3",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the a Kubernetes workload symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-build",
+          "revision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
+          "svgRevision": "caf44a73486d20d538b1485848cf289f50f1d88797d46e70c07e4fb26f46015a",
+          "status": "approved",
+          "reason": "The target shows a container operating-system symbol; the a code-to-build artifact pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a container operating-system symbol concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-gke",
+      "status": "approved",
+      "drawingRevision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+      "comparisonRevision": "9aa8409082b76e847d91dcab2569239fa893069b7746635588bedadb9e943556",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/GKE/SVG/GKE-512-color.svg",
+          "fde77a3dd75b44b80651e09ffd89b0e4688488ee670ba7ce7df34f74539b7b3f"
+        ],
+        [
+          "/icons/gcp/google_kubernetes_engine/google_kubernetes_engine.svg",
+          "725922805a7b1c5c4e96a0544cfe67f9d418300af88fa935bb7b1733aaec4cb7"
+        ]
+      ],
+      "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-cloud-cdn",
+          "revision": "8da0d66d854e910a24378a2f7bff4fc3df5b914726cd6c52d78761e938482bb7",
+          "svgRevision": "440ff81996f2cb95c8349ffaee98f01c4b4bbda8a203cdee630438e449aae5be",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the a content-delivery mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-step-functions",
+          "revision": "6c2993738c707da0761bbe3615ee391cb460a5d1c5a3ed6256e60657ee72201a",
+          "svgRevision": "73e0471ee985182fb8564b84d5e6d721dcacefe35b7ed9f9a367f224e1702054",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the a workflow mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-load-balancer",
+          "revision": "bab2f8bc320bfd6157026570b79e01132ab5490113df0f8570ac7443c302289c",
+          "svgRevision": "7a3db2990887f3cc8173d5b3db2c7bc08c3e6bf8fb2bb8be49d402c5e20fa945",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the a load-balancer mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-kuberun",
+          "revision": "a31f74657f2966f3788f4099de3c6e55bcc561d3c88d3501f477abc3445fdd80",
+          "svgRevision": "855b1510228853022759a992b25f1b1f04587978925f7d5bab3c11be326a0cc3",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the a Kubernetes workload symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-run",
+          "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+          "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the a cloud-run container symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-container-optimized-os",
+          "revision": "cea7dacf4d742a5e9ed737b0bb18341fa83d2788347a72b58a54402142e5b1f2",
+          "svgRevision": "27ba17d72884a289841460afe7ce4ce45aab24b82eeb0676680dc37a47b0ea4c",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the a container operating-system symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-functions",
+          "revision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+          "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes cluster; the an event-to-code function symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a Kubernetes cluster concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-kuberun",
+      "status": "approved",
+      "drawingRevision": "a31f74657f2966f3788f4099de3c6e55bcc561d3c88d3501f477abc3445fdd80",
+      "comparisonRevision": "0bb230a5ad09fd6a4a8ade4af490eac2b4008d095d349bec12dbd6a413693bfc",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/kuberun/kuberun.svg",
+          "fde440d69728b0d96aed4d53dc87767beb9b2b5b4dbf1ba4f80766b04f3b331b"
+        ]
+      ],
+      "svgRevision": "855b1510228853022759a992b25f1b1f04587978925f7d5bab3c11be326a0cc3",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-vpc-vpn-gateway",
+          "revision": "fdc69c3b8b821164376336c1f47b05c079e172e81399f3cadc95d2f59d6866f3",
+          "svgRevision": "76f3b22d1e9c01e06cbf990dfcfe5ccc26a005d2b043697842cf6c7141a4d91e",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the a VPN gateway drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-user-privacy",
+          "revision": "5d225abf67b3b3e4750cf9f7511ae890096cf7c2153a837a1ad6982dbcf6d5cc",
+          "svgRevision": "80cfcb25a89abf156e089bcc922722607058c7528caec9347ce68316deba76ff",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the a privacy mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-windows-core-services",
+          "revision": "b938b700085d71b5e8f5401bfc66c33155d119abf1c3c845a8c0e73dfc5c81c7",
+          "svgRevision": "8ab0df4df52907b9d7c7a33f1ee314bfe896a68a1aeed4e8e931b5c3a21718eb",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the a Windows services mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-gke",
+          "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+          "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the a Kubernetes cluster drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-run",
+          "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+          "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the a cloud-run container symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-functions",
+          "revision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+          "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the an event-to-code function symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-container-optimized-os",
+          "revision": "cea7dacf4d742a5e9ed737b0bb18341fa83d2788347a72b58a54402142e5b1f2",
+          "svgRevision": "27ba17d72884a289841460afe7ce4ce45aab24b82eeb0676680dc37a47b0ea4c",
+          "status": "approved",
+          "reason": "The target shows a Kubernetes workload symbol; the a container operating-system symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a Kubernetes workload symbol concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-cloud-run",
+      "status": "approved",
+      "drawingRevision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+      "comparisonRevision": "ec30af2b37ed38bc1cc31a2bfc2b7e5050f4abd975b42e3ff3ed02cddb6b9048",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/Cloud Run/SVG/CloudRun-512-color-rgb.svg",
+          "979680792e47324267171fd96693a94475674f7ad46064600f11cf3c39220d91"
+        ],
+        [
+          "/icons/gcp/cloud_run/cloud_run.svg",
+          "63112e1e2bff8b2a0a47879bb329df0e06a2ef617a57c9e0b47d91c6b4df2d62"
+        ]
+      ],
+      "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-general-office-building",
+          "revision": "70b8a6ce574aaee1d5d594e5fa4f00ebe2f4e3ff7997d9d8bfbc8af152fd504d",
+          "svgRevision": "91cb5205b50913ab7d347246af29b02f061d8876ab2862c502be50d5131f9516",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the an office building drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-greengrass-artifact",
+          "revision": "bb0aba576fbebb7db20d646298f50fcf3bcd348ca8ada68776ce28d92a1979e6",
+          "svgRevision": "3e3ce1f01f8778737417424d5915e12e08535675b92fb06d84b060b1f7c144a7",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the an IoT artifact drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-service-groups",
+          "revision": "13e49c33359e4e62d8f90bc887b06e663c692e19564171c196b998c4ce05ef06",
+          "svgRevision": "39b1d13d1e31a3764c97162e96560beef7414f925c531bf4a45773d20cdf673e",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the a service-group mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-functions",
+          "revision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+          "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the an event-to-code function symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-kuberun",
+          "revision": "a31f74657f2966f3788f4099de3c6e55bcc561d3c88d3501f477abc3445fdd80",
+          "svgRevision": "855b1510228853022759a992b25f1b1f04587978925f7d5bab3c11be326a0cc3",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the a Kubernetes workload symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-build",
+          "revision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
+          "svgRevision": "caf44a73486d20d538b1485848cf289f50f1d88797d46e70c07e4fb26f46015a",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the a code-to-build artifact pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-gke",
+          "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+          "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+          "status": "approved",
+          "reason": "The target shows a cloud-run container symbol; the a Kubernetes cluster drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a cloud-run container symbol concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-functions",
+      "status": "approved",
+      "drawingRevision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+      "comparisonRevision": "ee43d02e8bef6dc912ca48751fc277611f1f2d56d889ab998976da26b7d4758b",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/cloud_functions/cloud_functions.svg",
+          "acf0adb4f658837f8d36a57988dc1b59736198a3af58c3d7c80846de8e0a4d85"
+        ]
+      ],
+      "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-datazone-projects",
+          "revision": "66e5fd4db7c65d0d275c27b3823d9825680eee59eb33326e38d0ccc8009a03a6",
+          "svgRevision": "773826e72e7d3e07dd82ff38dfa32c41bb0eac731d180387053d8e1e99200794",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a project mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-group-workspace",
+          "revision": "d777ecd67c939d45609baf4bc6d1ddee68763dab17685d798fdccb1f569505bf",
+          "svgRevision": "2c9cdfdb3bf8c17bd946aca4954d012920c0d6cc8dd2ceb3090eacf62588322a",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a workspace mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-cloud9-resource",
+          "revision": "4f4a6cc1bb5a6f1908fee1c507a11ba42247d2f23a485a2ce5b4b9b84de6b0e4",
+          "svgRevision": "b1dbfaf9df9efeb86e7a4461f5377aaedf1808963446897e60d662bddda5e073",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a development resource drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-run",
+          "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+          "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a cloud-run container symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-build",
+          "revision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
+          "svgRevision": "caf44a73486d20d538b1485848cf289f50f1d88797d46e70c07e4fb26f46015a",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a code-to-build artifact pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a task queue drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-pubsub",
+          "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+          "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+          "status": "approved",
+          "reason": "The target shows an event-to-code function symbol; the a publish/subscribe fan-out network drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The an event-to-code function symbol concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-cloud-build",
+      "status": "approved",
+      "drawingRevision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
+      "comparisonRevision": "99cfbf5d787b6135552cb848214931a0282d5fecd67e6162f690f4032c9eb554",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/cloud_build/cloud_build.svg",
+          "42620e4042ce9c5baa30cf01f87593f4c09ab41684cc1d620b284d85b82d3783"
+        ]
+      ],
+      "svgRevision": "caf44a73486d20d538b1485848cf289f50f1d88797d46e70c07e4fb26f46015a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-web-slots",
+          "revision": "1a72e52046b47476c54c6628facd7f085a36dc12e07dfca6f21ce4dfacab1324",
+          "svgRevision": "b8f2a2a1eaebb8bb30439e8b09a5b2eecdb3f800680c5df629e042b5c571d573",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the web slots drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-datastream",
+          "revision": "94d5a71f74540d02dc8f8cdc912b993a649e4f45d5791ba427412038e1039d6d",
+          "svgRevision": "9c58155cf9f6b6db80a2070b9cac807093dec0d03b70d23c6ffe66ffbd01707c",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the a data-stream mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-events",
+          "revision": "fb1eab4dd746cc8ead68d86217cb2e243018751f631dc8d6988e9640b7209822",
+          "svgRevision": "b1204120ab95d055062984014b14a0491a1c5e8eeed347fc0d19ff2a87954f48",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the IoT event flow drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-artifact-registry",
+          "revision": "f4f7ffab84912056a57284e06380fcb15fa96cc43fafd2dcbdcd7f17a8a1f4d8",
+          "svgRevision": "e0bd2a70df3af40cfbd555e1c99504fc0f90f0526393ec704d89438f2b8eaf4d",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the a catalog of package artifacts drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-container-registry",
+          "revision": "d0d8ce3471ebfe3125743df92bb1cef860da063c1f277afdec7438900190441a",
+          "svgRevision": "4f4336b4337ab25b6fbb5745d3a3d6afa99c53e60527c69c60bac0196a904228",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the a set of container packages drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-functions",
+          "revision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+          "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the an event-to-code function symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-run",
+          "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+          "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+          "status": "approved",
+          "reason": "The target shows a code-to-build artifact pipeline; the a cloud-run container symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a code-to-build artifact pipeline concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-artifact-registry",
+      "status": "approved",
+      "drawingRevision": "f4f7ffab84912056a57284e06380fcb15fa96cc43fafd2dcbdcd7f17a8a1f4d8",
+      "comparisonRevision": "08dd09e6e0b61ce38c4769fb40b3180becc89a41ffb2847dbaf8c26365663085",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/artifact_registry/artifact_registry.svg",
+          "f9120e56bddec6e447b6adc7261e1995df16e207936e757a1773db74f2acbd88"
+        ]
+      ],
+      "svgRevision": "e0bd2a70df3af40cfbd555e1c99504fc0f90f0526393ec704d89438f2b8eaf4d",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-directory-service",
+          "revision": "6eced0f7db19a8ab704a3be065e8757529a135130937df9088bff04a0df45e95",
+          "svgRevision": "364fa7ef4eed054b5968c568a02f053d9aec8559ea993d42fb2a64f7a618b58c",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the directory entries drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-cloudtrail",
+          "revision": "6890c3475be1f0266e9dcb352c3843d3f923ddfd9bb3db2ea3d2d82fe733e79f",
+          "svgRevision": "a21335adac5f8d298cf3b573d91a1aed3522aec26eb5f4620054c1e7a72579c5",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the audit trail drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-logic-apps-template",
+          "revision": "444c5755c11a98e81f40ffe0762621b57ac6b0bacf3b2597e05495189dacfdc2",
+          "svgRevision": "ae70aa6fc9818b48b15aa301c0f361376b5cf041dfcebe726069dff424218937",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the a logic-app template drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-container-registry",
+          "revision": "d0d8ce3471ebfe3125743df92bb1cef860da063c1f277afdec7438900190441a",
+          "svgRevision": "4f4336b4337ab25b6fbb5745d3a3d6afa99c53e60527c69c60bac0196a904228",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the a set of container packages drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-build",
+          "revision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
+          "svgRevision": "caf44a73486d20d538b1485848cf289f50f1d88797d46e70c07e4fb26f46015a",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the a code-to-build artifact pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-secret-manager",
+          "revision": "ce203bd8c3568acf14b746cdc4097a4ea29b1b7f902de9c57741a2c1111d170e",
+          "svgRevision": "71dc7ef832a9863ee1a76cbc44735d486e6a44e9381b9b2bdffd2ce03938acf3",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the a key inside a secure vault drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows a catalog of package artifacts; the stored documents and objects drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a catalog of package artifacts concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-container-registry",
+      "status": "approved",
+      "drawingRevision": "d0d8ce3471ebfe3125743df92bb1cef860da063c1f277afdec7438900190441a",
+      "comparisonRevision": "ce71de9244a6d7800837f9ba98b05b79ad85f56e09bb8384ecfbd130948015d2",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/container_registry/container_registry.svg",
+          "3d8bd9f09aa23ec0be82fec154efa19e38f28b6b6aa11731d1ffa3dae5f5a7e4"
+        ]
+      ],
+      "svgRevision": "4f4336b4337ab25b6fbb5745d3a3d6afa99c53e60527c69c60bac0196a904228",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-event-hub-clusters",
+          "revision": "6b46eee479c76869c415efe569c3073727ef90efb06b0bcc24127388a810e9b3",
+          "svgRevision": "934b1bc44994dc859b6265a54b03d6f87ea4b82f98306a65a22392a08a2692b8",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the an event-hub cluster drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-apps-list",
+          "revision": "1eda1794cd6f6224c934f5519ae7641de15f13baf233f75bcbf7464c2ff5b19b",
+          "svgRevision": "5d4c749b70192e8a5ca5469daf9cfceaf620ae1d3cbf335f22a09ab6fd20f19d",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the an app list drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-window-asterisk",
+          "revision": "05da5b672b1fc9e6e35f20b249c5906be0df7434e95a7e3ef56f7f153a6a7106",
+          "svgRevision": "b4c3363eef30c2309cb5ee6395a48e99b429d185c34716fd8be261d7ef09afe0",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the a window with an asterisk drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-artifact-registry",
+          "revision": "f4f7ffab84912056a57284e06380fcb15fa96cc43fafd2dcbdcd7f17a8a1f4d8",
+          "svgRevision": "e0bd2a70df3af40cfbd555e1c99504fc0f90f0526393ec704d89438f2b8eaf4d",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the a catalog of package artifacts drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-build",
+          "revision": "6d310f3b914f6243df20692205eaa1b7f3093ad0efed91ee66b1baa6e61592b6",
+          "svgRevision": "caf44a73486d20d538b1485848cf289f50f1d88797d46e70c07e4fb26f46015a",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the a code-to-build artifact pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-run",
+          "revision": "7a80d8f1a315253200b4305ea2b40a960cede83e8561fe7467e1a087eae53c18",
+          "svgRevision": "6f82ec7ff56c0a4bd1b28666e9630ff960b891141d651f441eef5c6734dac042",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the a cloud-run container symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-kuberun",
+          "revision": "a31f74657f2966f3788f4099de3c6e55bcc561d3c88d3501f477abc3445fdd80",
+          "svgRevision": "855b1510228853022759a992b25f1b1f04587978925f7d5bab3c11be326a0cc3",
+          "status": "approved",
+          "reason": "The target shows a set of container packages; the a Kubernetes workload symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a set of container packages concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-secret-manager",
+      "status": "approved",
+      "drawingRevision": "ce203bd8c3568acf14b746cdc4097a4ea29b1b7f902de9c57741a2c1111d170e",
+      "comparisonRevision": "7490479ada02596e0e46a1e1a765655cacc0349f906cf98c918ea3563dfb662b",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/secret_manager/secret_manager.svg",
+          "cf44ef0b9f564f1708667d7a1db80be37a4d986d57af2e98e79c7b3cc8273705"
+        ]
+      ],
+      "svgRevision": "71dc7ef832a9863ee1a76cbc44735d486e6a44e9381b9b2bdffd2ce03938acf3",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-my-workspace",
+          "revision": "a730da1b7c0b3b7e3bf0fc3d57d8818d083f93500f5a35a1e31bf77ec070ccab",
+          "svgRevision": "b1170f149da7c27108bef858c9c1f787e060d7a28a6e916aaca43d4ca0ecdef2",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the a person/workspace mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-app-service-plans",
+          "revision": "b0d6e571be55f187ad56995322da2175419bf6578d54bb636cbfcf4bf1354916",
+          "svgRevision": "9516aa93af7431f39c9714c77527a978870140e15e37d0115c1a51b64c5a8997",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the service-plan cards drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-table-left-border",
+          "revision": "85902b06184047546ee476ad1203104f39bd25eb9d32b78aa44a4da9405204a8",
+          "svgRevision": "3b972d10cf3dbe69bc9bd7e3f8c320dd85b2c22ef84da1acd674796d1de05513",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the a table column drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-artifact-registry",
+          "revision": "f4f7ffab84912056a57284e06380fcb15fa96cc43fafd2dcbdcd7f17a8a1f4d8",
+          "svgRevision": "e0bd2a70df3af40cfbd555e1c99504fc0f90f0526393ec704d89438f2b8eaf4d",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the a catalog of package artifacts drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the stored documents and objects drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the a SQL database cylinder drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-functions",
+          "revision": "605d51d1c41aa679f8a251fc5ca48ca0529f89d783b89f0de4530704ff377ad1",
+          "svgRevision": "8b0eeeec0dbaf44f9ff213599e10a5bdc8cf6120583e49ac7a55f2851bc4847d",
+          "status": "approved",
+          "reason": "The target shows a key inside a secure vault; the an event-to-code function symbol drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a key inside a secure vault concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-storage",
+      "status": "approved",
+      "drawingRevision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+      "comparisonRevision": "e234d69a7965094e24e473f1ad3275e25deb8ccec82fdac33a9e3d62d650daac",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/Cloud Storage/SVG/Cloud_Storage-512-color.svg",
+          "3b99a19cdc3b0ab14f9b8d4b7e07fd9df83f13d16cd86bfb135cdf38a569b0a8"
+        ],
+        [
+          "/icons/gcp/cloud_storage/cloud_storage.svg",
+          "388fc14e02401de5b7a7c527d70bb39dc5afb77e7754d346745aa96837ed9be9"
+        ]
+      ],
+      "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-host-groups",
+          "revision": "91201e48d1d6a27a959221e9fdda398a977259e78167138cfc08999287be7c12",
+          "svgRevision": "e615306907d6fefdba85abedb7a55861f7ab30b498cf48df9b63ddf4b59846a4",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the host groups drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-slide-ribbon",
+          "revision": "13c741e0bb083c72a1ddf7acc51f5afa53f00c4e24c6f5b3a1bbcdadf527c3b6",
+          "svgRevision": "82bd13d8d6319af8754438ce52cd25bf91c35830f0f297aa5fbaca2ff08987e9",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the a slide ribbon drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-purview",
+          "revision": "ddde27b90dacbe61cce9a5545616eded6b6bb54bd7c4ddc9644f059696e7b531",
+          "svgRevision": "e9dee0b41a6b5c0637c40709f3d91a00ba8e7d2c14f7f9a5d90e185e7346a918",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the a governance mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-secret-manager",
+          "revision": "ce203bd8c3568acf14b746cdc4097a4ea29b1b7f902de9c57741a2c1111d170e",
+          "svgRevision": "71dc7ef832a9863ee1a76cbc44735d486e6a44e9381b9b2bdffd2ce03938acf3",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the a key inside a secure vault drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the a SQL database cylinder drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigtable",
+          "revision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+          "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the a structured data grid drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-pubsub",
+          "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+          "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+          "status": "approved",
+          "reason": "The target shows stored documents and objects; the a publish/subscribe fan-out network drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The stored documents and objects concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-cloud-sql",
+      "status": "approved",
+      "drawingRevision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+      "comparisonRevision": "6a0ba0218b46ff6e1dc9df029b18f8c20fb08fd06057fb722a2dcff5cf3cf705",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/Cloud SQL/SVG/CloudSQL-512-color.svg",
+          "5ce9da2929bc0ea47a450c2dd976a6e15a2b801c6ef583f5b85b9afcfb996ed9"
+        ],
+        [
+          "/icons/gcp/cloud_sql/cloud_sql.svg",
+          "7c841afc711d1757ed32113ea201bf0ac5864af3c814bf9aaa39fc7819a57dc4"
+        ]
+      ],
+      "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-image-definitions",
+          "revision": "43ca34f255dcd4bc9c949e1579eab81d9464e8fe4ca592f1ad749cc53978f914",
+          "svgRevision": "9d06e22e99c69216a9348fa7ec5c229a8b3a2edf05c4c3c99a4fb159eee14ec8",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the image definitions drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-codecatalyst",
+          "revision": "b29422bc53fb8add11b08662bca833ef70f06a75e86c04e036eeb5ae1830c0d7",
+          "svgRevision": "5c54bfdff597eaa14f61047de5f24f0b22ded73bb0813cc078bc72a376f33a0b",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the a development workspace drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-image-gallery",
+          "revision": "29896ec578e4312ee44f0f05db7d617dbccbc1fe79d228de257adcbe13a596e9",
+          "svgRevision": "81c92c0d85c44b196c8f6b209c01e250ce7bf544a5b132f4b6643b29dcb51728",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the an image gallery drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the stored documents and objects drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigtable",
+          "revision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+          "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the a structured data grid drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-spanner",
+          "revision": "fd341dd09a3771bef0a6d68b67e88d46a1866881942636c1a8512cf2fe43b9a3",
+          "svgRevision": "d611daac9e5c1796ac7bc2e7679db94131ebbdbe235fadc8677242f6b29f7eba",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the a globe connected to database nodes drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-firestore",
+          "revision": "887a17fe225240962db5589023680f5e1b675c05b43044f4a6add099350fbd08",
+          "svgRevision": "ebcbba22daa219b8b98822630f49afd960bbc683c44f9779a7661b002f4a7928",
+          "status": "approved",
+          "reason": "The target shows a SQL database cylinder; the a branching document hierarchy drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a SQL database cylinder concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-pubsub",
+      "status": "approved",
+      "drawingRevision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+      "comparisonRevision": "f89b583bd08e52b080ed4eb7ce748232ce78b05562ad8bce55400a4b9816f68f",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/pubsub/pubsub.svg",
+          "1769d428e46f8e1bec2be5360f1f1ec88bfb9775529c5439b91ac7659c524963"
+        ]
+      ],
+      "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-organization-horizontal",
+          "revision": "3b41929ecc6432cb983177072b7d3b89dea869cb27c41d1e3808ba2cec42885c",
+          "svgRevision": "eb7843f66267ac213b6df9b5cc583b88957441a0d314ec87c51db67e6b496806",
+          "status": "approved",
+          "reason": "The target shows a publish/subscribe fan-out network; the organization horizontal drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-dataflow",
+          "revision": "021c8bf195467fab34e3a720327e2981de6139a39220c72591cfb10571349786",
+          "svgRevision": "0958b1badbbdc8667cc12087537810bd84c85bc18253a061d48dc4b14fc43023",
+          "status": "approved",
+          "reason": "The target shows a publish/subscribe fan-out network; the a branched dataflow pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-connectivity-test",
+          "revision": "6c91e53564f6058ca7f394f55ece9d8f27e428f1513406d0b3c22bbab190b34f",
+          "svgRevision": "fc233d116ec4da98df460d06fe27f6491d78eda6e2fbcd6d6b442d7f17453c23",
+          "status": "approved",
+          "reason": "The target shows a publish/subscribe fan-out network; the a connectivity test drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows a publish/subscribe fan-out network; the a task queue drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-scheduler",
+          "revision": "6db9692adadfa48d715273af6736091b7fa725b4fbafa77899264b82452098f6",
+          "svgRevision": "83c0b70fd02988389cd8b32d63080283954fa5c01ea007eab6adbbd29c7078ad",
+          "status": "approved",
+          "reason": "The target shows a publish/subscribe fan-out network; the a scheduled task drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigtable",
+          "revision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+          "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+          "status": "approved",
+          "reason": "The target shows a publish/subscribe fan-out network; the a structured data grid drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a publish/subscribe fan-out network concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-dataflow",
+      "status": "approved",
+      "drawingRevision": "021c8bf195467fab34e3a720327e2981de6139a39220c72591cfb10571349786",
+      "comparisonRevision": "30d8e19b10c6c89e08f5d2c468e6f1f2b17848249452de8d36fbb5d1cd450608",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/dataflow/dataflow.svg",
+          "722887a8a66a7aeacfa2e2d87e4896bc49113a2c17357943c81a6c01cf1fa08d"
+        ]
+      ],
+      "svgRevision": "0958b1badbbdc8667cc12087537810bd84c85bc18253a061d48dc4b14fc43023",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-apigee",
+          "revision": "7be4e30f7828fd65d8fee37199a2d3aef65022f70c294c15122c48f2a89513ad",
+          "svgRevision": "8321a5aa395e61b8f4230ff138be8cac37204e28cccfd741b6b1f2f5631bb048",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the apigee drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-data-share",
+          "revision": "e1fdcc6adf3fabeae4314efa93558c64fbde4dd09b553fa8a53a118eea688ace",
+          "svgRevision": "dac71c15432bcbbe9a86b8a728c49c7e1ddd3f745e8b94e8ba3a49f58b4bda05",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the data share drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-eventstream",
+          "revision": "262c3d58a35692ff5f4bb339a085d7c180f917027a00c4b5ac762c1ad2cd5b65",
+          "svgRevision": "155ec8aafee60c4ead2848437b2d946fedeb2682e99e6e8f2fa1d430fe853a56",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the eventstream drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-pubsub",
+          "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+          "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the a publish/subscribe fan-out network drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the a task queue drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigtable",
+          "revision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+          "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the a structured data grid drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows a branched dataflow pipeline; the stored documents and objects drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a branched dataflow pipeline concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-bigtable",
+      "status": "approved",
+      "drawingRevision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+      "comparisonRevision": "35a8d31a312d4b9e23fbaa4b872ba1254ffb0197237996372c6062917ef71ffb",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/bigtable/bigtable.svg",
+          "2bd09de7ff0c2862e033cfebf5b607983f5af02e694aa97db324725e2054a40d"
+        ]
+      ],
+      "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-function-apps",
+          "revision": "b3daad8371c9940e3a11b712b97ace853bfadf68be9d0b9ceca1a4921ae0a0f3",
+          "svgRevision": "fbf809c9a445829ffea60eb3c79020c10ac8cdbfeb1f58649f266180dd53af13",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the function apps drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "dynamics-project-operations",
+          "revision": "9fa6251746367d960bd88e0a8d7272e95bdd1ae45b5335340cc137204300dc31",
+          "svgRevision": "bc6f50f4c2d5cbc16d515e24da730e094cd74eb3264c800884e536101259c8cf",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the dynamics project operations drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-folder-people",
+          "revision": "16aeafd8d5f5590cc72efbf9cbbbeb3ba56aeb4e1f22f429641bf53c21942725",
+          "svgRevision": "38bb4b4a7586e873ca6bc69a11fb343c7596cbc87761f374f27752649f108d55",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the folder people drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the a SQL database cylinder drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-pubsub",
+          "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+          "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the a publish/subscribe fan-out network drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-dataflow",
+          "revision": "021c8bf195467fab34e3a720327e2981de6139a39220c72591cfb10571349786",
+          "svgRevision": "0958b1badbbdc8667cc12087537810bd84c85bc18253a061d48dc4b14fc43023",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the a branched dataflow pipeline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows a structured data grid; the stored documents and objects drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a structured data grid concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-spanner",
+      "status": "approved",
+      "drawingRevision": "fd341dd09a3771bef0a6d68b67e88d46a1866881942636c1a8512cf2fe43b9a3",
+      "comparisonRevision": "29e6dadbf901be6c48b47d1cd0696b26504dac77e41be3acaa4d18c61130a51c",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/Unique Icons/Cloud Spanner/SVG/CloudSpanner-512-color.svg",
+          "cedab0abafcd443c1fa5dc1e50e6b59f3b7b372c13b15e4bafc074602772caae"
+        ],
+        [
+          "/icons/gcp/cloud_spanner/cloud_spanner.svg",
+          "87ccd24129d83e17824fe5cf0b31e3001f0b0ebdbfb47391043050acad14b20b"
+        ]
+      ],
+      "svgRevision": "d611daac9e5c1796ac7bc2e7679db94131ebbdbe235fadc8677242f6b29f7eba",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "power-dataverse",
+          "revision": "a2b28f622a00b0e4ddebf37dc0c015c1fb3390dce7b7b3ccb0dd8ce61ae7dc64",
+          "svgRevision": "d207cb36afd4c39a3c455ae6425471614e70fa7a4e3227b3c8f35e99a035f93a",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the a data platform mark drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-neptune",
+          "revision": "17769443ab93aaaf264489b3094329f761761552b2117eebd77c8798db254db8",
+          "svgRevision": "84a3a47c392f160fcad1417c008c05269492ec704b35b147502c557e5d2a221a",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the a graph database drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-managed-blockchain",
+          "revision": "6ca51cd0e4f69f160ef4486f591f83aeb2186f8ac8eb7fb7e1bb1bc48bb2470e",
+          "svgRevision": "7e3944293bdb46249496e0fb4b7d662b7cc6b95fd1db9c5d7178c5a982974435",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the a blockchain network drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the a SQL database cylinder drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-firestore",
+          "revision": "887a17fe225240962db5589023680f5e1b675c05b43044f4a6add099350fbd08",
+          "svgRevision": "ebcbba22daa219b8b98822630f49afd960bbc683c44f9779a7661b002f4a7928",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the a branching document hierarchy drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigtable",
+          "revision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+          "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the a structured data grid drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target shows a globe connected to database nodes; the stored documents and objects drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a globe connected to database nodes concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-firestore",
+      "status": "approved",
+      "drawingRevision": "887a17fe225240962db5589023680f5e1b675c05b43044f4a6add099350fbd08",
+      "comparisonRevision": "bc304b4c265770188b562b0a33191619f6e8cfde23fb52d86afb9bcf57a497fb",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/firestore/firestore.svg",
+          "31afa138f7829800ac6b790474cf178eeb85dd0caf94efdcdca06f4c0cebdef1"
+        ]
+      ],
+      "svgRevision": "ebcbba22daa219b8b98822630f49afd960bbc683c44f9779a7661b002f4a7928",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-restore-collection",
+          "revision": "14041987e8a1bd9669ec07de14f420c874a74764400bc848f14a7fb846e1af8e",
+          "svgRevision": "3abc6625c57e688796dcbced74cffec9a9863b7a681765ba285cad24db19f842",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the a restore collection drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-list-sql",
+          "revision": "5bde9949a1ee686dbb22294cc1e24ac4cac01ceb2e87a333d02026246503d130",
+          "svgRevision": "f066a70bde93c3c1820f87c57d70298dfb6431b682bf384d06d125571c0033a9",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the a SQL list drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-apps-list",
+          "revision": "1eda1794cd6f6224c934f5519ae7641de15f13baf233f75bcbf7464c2ff5b19b",
+          "svgRevision": "5d4c749b70192e8a5ca5469daf9cfceaf620ae1d3cbf335f22a09ab6fd20f19d",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the an app list drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-sql",
+          "revision": "08fd875deeeca863e76adb5b8c8d98448fc6db096f89530af439a174f847f399",
+          "svgRevision": "55c9912e93249f9e9842eba518b51214b077a41d1d64fd4fb31e040815ee487b",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the a SQL database cylinder drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-spanner",
+          "revision": "fd341dd09a3771bef0a6d68b67e88d46a1866881942636c1a8512cf2fe43b9a3",
+          "svgRevision": "d611daac9e5c1796ac7bc2e7679db94131ebbdbe235fadc8677242f6b29f7eba",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the a globe connected to database nodes drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-bigtable",
+          "revision": "56ce2cd22e5b6e14eaa00001bfac8498844d3cd5f06d0acb2f6681866280f135",
+          "svgRevision": "0b661d5243a972f8f9960b919962c0ff6683c6fc6a760a9163909850d6dd8fda",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the a structured data grid drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-pubsub",
+          "revision": "b00b52b6fc2f2e38144a74a0ba3755f7918fe6de30f86645b16d5d2dd4747def",
+          "svgRevision": "f0423440c0901e0d50575adbb9ae345831d9689e7041b2d7f01eca09828ab09c",
+          "status": "approved",
+          "reason": "The target shows a branching document hierarchy; the a publish/subscribe fan-out network drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a branching document hierarchy concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-cloud-monitoring",
+      "status": "approved",
+      "drawingRevision": "403c2c38753643c8d67d948fb451ce10a2221057fa0ccf49c4cbadc7f0b71e9e",
+      "comparisonRevision": "0d858806d4565e1d571bb7ae6741b3e736fe171219d6a97bbebc9ce416734e7b",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/cloud_monitoring/cloud_monitoring.svg",
+          "739f222adffe186c5f5244e941b8e39145977cd779258bdc3f25a2776c237423"
+        ]
+      ],
+      "svgRevision": "37b26d3e680a15aa6e33b58eb475cda7a463f0ba799f9f7b5527a6995a034ed9",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-scorecard",
+          "revision": "6970b858e27bc35150da7181f0f8f941aa48239f5291d0a07ae9d04e586d2bb4",
+          "svgRevision": "1869935832f263ce023be37d96a78e9029954d2c5786723d68df61aefba7f9fe",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the a scorecard drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-variable-library",
+          "revision": "b157d64205fdd6218a4db0afb00637153b577ae48197be3a45fe47efa36e9c9a",
+          "svgRevision": "d09658183088c961e763ac50314d8ff97207d2ce99bde41f109bebc06015bcaf",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the a variable library drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-producer-portal",
+          "revision": "e742f6dfaa14e00fd900e4805798e453e3c73b7d6ed7186df93323ccad2902a7",
+          "svgRevision": "09f136b3f8614b190cdd4db6ae30f2908dc0f2ddc6951ef7b238070f97794750",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the a producer portal drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-logging",
+          "revision": "62725577ac692346cd0a3d600a5d2762cba60c63f9d0319c40d777790c557926",
+          "svgRevision": "7c3dd45b0c3039c0a9d96eb41a8468583771acd756060c7222edb67da0c31a1e",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the a log sheet with outgoing activity marks drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-dns",
+          "revision": "f660984289de3bc09dd21da107496c909e103444f67a68538eedd053435c8fba",
+          "svgRevision": "405e51f3d3379389deba6de31f6cc29c7e0d75d71e0b04507415ad8d6f2bd847",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the directional DNS signposts drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-scheduler",
+          "revision": "6db9692adadfa48d715273af6736091b7fa725b4fbafa77899264b82452098f6",
+          "svgRevision": "83c0b70fd02988389cd8b32d63080283954fa5c01ea007eab6adbbd29c7078ad",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the a scheduled task drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows a clock and chart dashboard; the a task queue drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a clock and chart dashboard concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-cloud-logging",
+      "status": "approved",
+      "drawingRevision": "62725577ac692346cd0a3d600a5d2762cba60c63f9d0319c40d777790c557926",
+      "comparisonRevision": "975bd8dbb49c606d3251b4748d317a26baf9a730e37d9b012ceec5343d938302",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/cloud_logging/cloud_logging.svg",
+          "caf65a29c3db87c6e7fff61d39a0bd97fafb5413905eee320f394bd29051411a"
+        ]
+      ],
+      "svgRevision": "7c3dd45b0c3039c0a9d96eb41a8468583771acd756060c7222edb67da0c31a1e",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-contacts",
+          "revision": "9511635d160e38e1a71c49a6838323057fd16360d523841545c4a68bbcf0dc3c",
+          "svgRevision": "85a5165c27ae1bf9bf131b877cf943325a51bc1a9b3171ec6638348fe9b27fad",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the a contacts list drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-book-database",
+          "revision": "6cb6669c0908608e56229d2b4b801eb58c0288c7baf9ca578588a428adf5c37e",
+          "svgRevision": "b376ffd59a4127a807bd1bf5291adf5301c2b48943e8e8b4229753398a030f7d",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the a database book drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-ec2",
+          "revision": "32073c694404114c9c2616c648819872e8438c698117b9dc81d4eb1a47ea3a56",
+          "svgRevision": "c5ba36474eee03dfbb47745cff13e2c23804d2df1b196b16334b5ba548746612",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the ec2 drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-monitoring",
+          "revision": "403c2c38753643c8d67d948fb451ce10a2221057fa0ccf49c4cbadc7f0b71e9e",
+          "svgRevision": "37b26d3e680a15aa6e33b58eb475cda7a463f0ba799f9f7b5527a6995a034ed9",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the a clock and chart dashboard drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-dns",
+          "revision": "f660984289de3bc09dd21da107496c909e103444f67a68538eedd053435c8fba",
+          "svgRevision": "405e51f3d3379389deba6de31f6cc29c7e0d75d71e0b04507415ad8d6f2bd847",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the directional DNS signposts drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-scheduler",
+          "revision": "6db9692adadfa48d715273af6736091b7fa725b4fbafa77899264b82452098f6",
+          "svgRevision": "83c0b70fd02988389cd8b32d63080283954fa5c01ea007eab6adbbd29c7078ad",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the a scheduled task drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows a log sheet with outgoing activity marks; the a task queue drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The a log sheet with outgoing activity marks concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
+    },
+    {
+      "id": "gcp-cloud-dns",
+      "status": "approved",
+      "drawingRevision": "f660984289de3bc09dd21da107496c909e103444f67a68538eedd053435c8fba",
+      "comparisonRevision": "ce4572c59050ee6cd4554bb4003f589324b230e50d9eb2a70924cbe6730ee485",
+      "sourceRevisions": [
+        [
+          "/icons/gcp/cloud_dns/cloud_dns.svg",
+          "5a0785d9cda176c7dcbc0db8c526d40bd5d874ee922f937c49d2d879ad834ce1"
+        ]
+      ],
+      "svgRevision": "405e51f3d3379389deba6de31f6cc29c7e0d75d71e0b04507415ad8d6f2bd847",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-glacier-archive",
+          "revision": "c5930e155bd0e5720bd7e2e39e81ab2df84d7fedcf955581fa5c240f5351f75a",
+          "svgRevision": "63256a57336b1d932082e3734cae178bcd3ac076929cf92e47ca671749f15f51",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the glacier archive drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-column-inline",
+          "revision": "7471980f7810bae8f181637e78ab8fb61154615ec560b70aabc04bb77d3a1235",
+          "svgRevision": "d252ec67eadbd247d4c87e9b2c1d6fd0cf8318c1903c638c2b5d9eb0a6e176d0",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the column inline drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-data-table",
+          "revision": "1569837e60415196f765b3a6a9dbef962f232d8fd7cc9f65e9e3badf1b4d5a2c",
+          "svgRevision": "c5172046639921da645d5880586ddd2cc72977fc779cedb0b267b2213fca76f2",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the general data table drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-monitoring",
+          "revision": "403c2c38753643c8d67d948fb451ce10a2221057fa0ccf49c4cbadc7f0b71e9e",
+          "svgRevision": "37b26d3e680a15aa6e33b58eb475cda7a463f0ba799f9f7b5527a6995a034ed9",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the a clock and chart dashboard drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-logging",
+          "revision": "62725577ac692346cd0a3d600a5d2762cba60c63f9d0319c40d777790c557926",
+          "svgRevision": "7c3dd45b0c3039c0a9d96eb41a8468583771acd756060c7222edb67da0c31a1e",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the a log sheet with outgoing activity marks drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-scheduler",
+          "revision": "6db9692adadfa48d715273af6736091b7fa725b4fbafa77899264b82452098f6",
+          "svgRevision": "83c0b70fd02988389cd8b32d63080283954fa5c01ea007eab6adbbd29c7078ad",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the a scheduled task drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-cloud-tasks",
+          "revision": "ff9d3ecb588624d254d5afe1195cf6e5346f55936d952532d9b472933cb71ca5",
+          "svgRevision": "e95ef496628e37eaf43d1242600ca48c5f2d032eb4fb8fe92458bddc2e078689",
+          "status": "approved",
+          "reason": "The target shows directional DNS signposts; the a task queue drawing has a different silhouette and internal marks. The distinction remains visible at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Inspected the mapped source variants and hand-drawn stencil at 128, 64 and 32 pixels. The directional DNS signposts concept remains legible without clipping, and the displayed nearest and semantic neighbors are distinguishable."
     }
   ]
 }
