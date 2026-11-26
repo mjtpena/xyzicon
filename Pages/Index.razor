@@ -29,7 +29,7 @@
         </div>
         @if (HandDrawnMode)
         {
-            <p class="stencil-note">@StencilCount unique concept drawings cover @stencilsBySource.Count of @totalIconsLoaded source entries. Genuinely duplicate source variants may share a drawing. These are unofficial, and distinct concepts are kept separate; @PendingStencilCount unique concepts await design review.</p>
+            <p class="stencil-note">@StencilCount unique concept drawings cover @stencilsBySource.Count of @totalIconsLoaded source entries. Genuinely duplicate or size/color variants may share a drawing. These are unofficial; @PendingStencilCount unique concepts await design review.</p>
             <a href="stencils/all.excalidrawlib" download>Download editable Excalidraw library</a>
         }
         @if (stencilLoadError != null)
