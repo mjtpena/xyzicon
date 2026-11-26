@@ -145,16 +145,6 @@ test("shared concept mappings keep all exact source entries searchable and disti
   assert.equal(new Set(results.map((icon) => icon.path)).size, 24);
 });
 
-test("distinct notebook concepts do not share a notebook-code alias", () => {
-  const plain = artwork.find((item) => item.id === "fabric-notebook");
-  const code = artwork.find((item) => item.id === "fabric-notebook-code");
-  assert.ok(plain);
-  assert.ok(code);
-  assert.ok(plain.sourceNames.every((name) => name.startsWith("notebook_") && !name.includes("code")));
-  assert.ok(code.sourceNames.every((name) => name.startsWith("notebook_code_")));
-  assert.notEqual(geometrySignature(plain), geometrySignature(code));
-});
-
 test("same-named source entries stay distinct in search and usage tracking", () => {
   const context = { window: {}, console };
   vm.runInNewContext(readFileSync(new URL("../wwwroot/js/site.js", import.meta.url), "utf8"), context);

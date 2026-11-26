@@ -1,20 +1,10 @@
 {
   "method": "64px normalized monochrome outline intersection-over-union; not proof of semantic uniqueness",
   "threshold": 0.65,
-  "count": 2237,
+  "count": 2236,
   "aliases": 5419,
-  "approved": 2228,
-  "needsReview": [
-    "fabric-notebook",
-    "fabric-notebook-code",
-    "m365-phone",
-    "gcp-cloud-audit-logs",
-    "aws-sagemaker-notebook",
-    "m365-clipboard",
-    "fabric-document-shapes",
-    "fabric-receipt-sparkle-new",
-    "fabric-receipt-kql-new"
-  ],
+  "approved": 2236,
+  "needsReview": [],
   "flaggedPairs": [
     {
       "a": "m365-number-circle-four",
@@ -54,7 +44,7 @@
     "fabric": {
       "sources": 1584,
       "covered": 1584,
-      "concepts": 368
+      "concepts": 367
     },
     "entra": {
       "sources": 14,
@@ -244,35 +234,18 @@
     "fabric-notebook": [
       {
         "a": "fabric-notebook",
-        "b": "fabric-notebook-code",
-        "similarity": 0.3701
+        "b": "fabric-document-shapes",
+        "similarity": 0.2731
+      },
+      {
+        "a": "fabric-notebook",
+        "b": "m365-document-bullets",
+        "similarity": 0.2704
       },
       {
         "a": "fabric-notebook",
         "b": "m365-clipboard",
-        "similarity": 0.3132
-      },
-      {
-        "a": "fabric-notebook",
-        "b": "fabric-document-shapes",
-        "similarity": 0.264
-      }
-    ],
-    "fabric-notebook-code": [
-      {
-        "a": "fabric-notebook",
-        "b": "fabric-notebook-code",
-        "similarity": 0.3701
-      },
-      {
-        "a": "fabric-notebook-code",
-        "b": "aws-sagemaker-notebook",
-        "similarity": 0.3205
-      },
-      {
-        "a": "fabric-notebook-code",
-        "b": "fabric-document-shapes",
-        "similarity": 0.311
+        "similarity": 0.2669
       }
     ],
     "entra-id": [
@@ -4656,9 +4629,9 @@
         "similarity": 0.2331
       },
       {
-        "a": "fabric-notebook-code",
-        "b": "m365-phone",
-        "similarity": 0.2172
+        "a": "m365-phone",
+        "b": "aws-category-hybrid",
+        "similarity": 0.2079
       }
     ],
     "m365-radar": [
@@ -7376,9 +7349,9 @@
         "similarity": 0.2617
       },
       {
-        "a": "fabric-notebook-code",
+        "a": "azure-blockchain-applications",
         "b": "gcp-cloud-audit-logs",
-        "similarity": 0.2311
+        "similarity": 0.2294
       }
     ],
     "gcp-certificate-manager": [
@@ -12619,11 +12592,6 @@
     ],
     "aws-sagemaker-notebook": [
       {
-        "a": "fabric-notebook-code",
-        "b": "aws-sagemaker-notebook",
-        "similarity": 0.3205
-      },
-      {
         "a": "aws-sagemaker-notebook",
         "b": "fabric-document-shapes",
         "similarity": 0.2925
@@ -12632,6 +12600,11 @@
         "a": "m365-office-notebook",
         "b": "aws-sagemaker-notebook",
         "similarity": 0.289
+      },
+      {
+        "a": "aws-redshift-dense-compute",
+        "b": "aws-sagemaker-notebook",
+        "similarity": 0.2639
       }
     ],
     "aws-sagemaker-shadow-testing": [
@@ -26277,7 +26250,7 @@
       {
         "a": "fabric-notebook",
         "b": "m365-clipboard",
-        "similarity": 0.3132
+        "similarity": 0.2669
       },
       {
         "a": "gcp-automl",
@@ -33913,11 +33886,6 @@
     ],
     "fabric-document-shapes": [
       {
-        "a": "fabric-notebook-code",
-        "b": "fabric-document-shapes",
-        "similarity": 0.311
-      },
-      {
         "a": "aws-sagemaker-notebook",
         "b": "fabric-document-shapes",
         "similarity": 0.2925
@@ -33926,6 +33894,11 @@
         "a": "m365-office-notebook",
         "b": "fabric-document-shapes",
         "similarity": 0.2844
+      },
+      {
+        "a": "fabric-document-shapes",
+        "b": "fabric-document-tree",
+        "similarity": 0.2799
       }
     ],
     "fabric-document-sql": [
@@ -34792,7 +34765,7 @@
       {
         "a": "fabric-notebook",
         "b": "fabric-receipt-sparkle-new",
-        "similarity": 0.2263
+        "similarity": 0.2359
       }
     ],
     "fabric-rectangle-exit-down": [
@@ -35443,9 +35416,9 @@
     ],
     "fabric-receipt-kql-new": [
       {
-        "a": "fabric-notebook-code",
+        "a": "fabric-notebook",
         "b": "fabric-receipt-kql-new",
-        "similarity": 0.2556
+        "similarity": 0.2657
       },
       {
         "a": "aws-well-architected-tool",
