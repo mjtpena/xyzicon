@@ -29,7 +29,7 @@
         </div>
         @if (HandDrawnMode)
         {
-            <p class="stencil-note">@StencilCount independent concept illustrations covering @stencilsBySource.Count of @totalIconsLoaded source entries. These are unofficial, and variants can share a drawing. Only completed concepts appear here; @PendingStencilCount await design review.</p>
+            <p class="stencil-note">@StencilCount unique concept drawings cover @stencilsBySource.Count of @totalIconsLoaded source entries. Genuinely duplicate or size/color variants may share a drawing. These are unofficial; @PendingStencilCount unique concepts await design review.</p>
             <a href="stencils/all.excalidrawlib" download>Download editable Excalidraw library</a>
         }
         @if (stencilLoadError != null)
@@ -534,7 +534,6 @@
             if (HandDrawnMode)
                 filteredIcons = filteredIcons
                     .Where(icon => stencilsBySource.ContainsKey(icon.Path))
-                    .DistinctBy(icon => stencilsBySource[icon.Path].Id)
                     .ToList();
 
             await JSRuntime.InvokeVoidAsync("xyzicon.searchEngine.recordQueryOutcome", searchTerm, filteredIcons.Count);
@@ -748,7 +747,7 @@
     }
 
     private string GetDisplayName(IconData icon) =>
-        HandDrawnMode ? stencilsBySource[icon.Path].Name : icon.DisplayName;
+        icon.DisplayName;
 
     private string GetExportName(IconData icon) =>
         GetDisplayName(icon) + (HandDrawnMode ? "-hand-drawn" : "");

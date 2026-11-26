@@ -117,6 +117,34 @@ test("packed monochrome silhouettes preserve exact intersection-over-union score
   assert.throws(() => silhouetteSimilarity(packMask(new Uint8Array(32).fill(255)), packMask(new Uint8Array(32).fill(255))), /blank/);
 });
 
+test("shared concept mappings keep all exact source entries searchable and distinct", () => {
+  const catalog = JSON.parse(readFileSync(new URL("../wwwroot/stencils/catalog.json", import.meta.url), "utf8"));
+  const coverage = catalog.items.reduce((count, item) => count + item.sources.length, 0);
+  assert.equal(coverage, 5419);
+
+  const factory = catalog.items.find((item) => item.id === "fabric-data-factory");
+  assert.ok(factory);
+  assert.equal(factory.sources.length, 24);
+
+  const fabric = JSON.parse(readFileSync(new URL("../wwwroot/data/fabric.json", import.meta.url), "utf8"));
+  const variants = factory.sources.map((source) => fabric.Icons.find((icon) => icon.path === source)).filter(Boolean);
+  assert.equal(variants.length, 24);
+
+  const context = { window: {}, console };
+  vm.runInNewContext(readFileSync(new URL("../wwwroot/js/site.js", import.meta.url), "utf8"), context);
+  const engine = context.window.xyzicon.searchEngine;
+  engine.initIndex(variants.map((icon) => ({
+    name: icon.name,
+    displayName: icon.name,
+    provider: "fabric",
+    path: icon.path,
+    searchText: icon.name.replaceAll("_", " ").toLowerCase(),
+  })));
+  const results = engine.search("data factory", { fabric: true });
+  assert.equal(results.length, 24);
+  assert.equal(new Set(results.map((icon) => icon.path)).size, 24);
+});
+
 test("same-named source entries stay distinct in search and usage tracking", () => {
   const context = { window: {}, console };
   vm.runInNewContext(readFileSync(new URL("../wwwroot/js/site.js", import.meta.url), "utf8"), context);
