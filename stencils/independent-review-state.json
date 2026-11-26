@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 154,
+  "compositionsReviewed": 170,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -11025,6 +11025,1047 @@
         }
       ],
       "notes": "A cloud inside a protective shield reads as cloud security, distinct from Sentinel’s eye-in-shield and the EASM asset-map shield."
+    },
+    {
+      "id": "azure-arc-kubernetes",
+      "status": "approved",
+      "drawingRevision": "6fc9e87d2a7f80f6f72a75f78f55040a63aba7f80f3f205eeb6682d8449f02de",
+      "comparisonRevision": "10c8a56cd4f9e61ab760e9ae2aec6b6b1f8be1fac1deabf40f3571bbd856bed3",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/01088-icon-service-Arc-Kubernetes.svg",
+          "3b4ab0cff9d917113681be88c16fde947ce72b36181b5b02b157d8f8ee0e1a98"
+        ]
+      ],
+      "svgRevision": "ee0273d0d4b9f618a88a9131d1bb62c22e26f3fc4eb5f72439de75215761021f",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-elemental-conductor",
+          "revision": "1752c3bcb394e38cd8665a1985a1ac74496f91cbbfa01950f92c97ef1f39bc9c",
+          "svgRevision": "67ad81547ac1be093f7513987e73f518d1911976972925a64639e3f19556c1fd",
+          "status": "approved",
+          "reason": "The target is Arc Kubernetes; the comparison shows AWS Elemental Conductor. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-remote-rendering",
+          "revision": "8e6784c414c2ae5021c91975969170ad692c46d89a4017a4a5d0d432d0478e67",
+          "svgRevision": "c70404b275688d7390e817a052f813e90f384389822da6b988d91c05b09ccbb2",
+          "status": "approved",
+          "reason": "The target is Arc Kubernetes; the comparison shows Remote Rendering. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-kubernetes-fleet-manager",
+          "revision": "aea89e96a87a06fce9ee8634f6cb64bb6914c5431495e73b278c42a2c2ddbaa7",
+          "svgRevision": "db433dca0f8b0490f8f8b719dc85d20f04e4476dcfc4ea6ca1ee9454b466d1c9",
+          "status": "approved",
+          "reason": "The target is Arc Kubernetes; the comparison shows Kubernetes Fleet Manager. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-arc",
+          "revision": "ab02015ebb9ff85e23bd670a0d61d11097553e3a5f76ce26811199f367fb7f48",
+          "svgRevision": "ef6d952df8da9684ce1b2dc6128626863d23a1a0703951a7ac643ab7cae3ecd4",
+          "status": "approved",
+          "reason": "The target is Arc Kubernetes; the comparison shows Azure Arc. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-kubernetes",
+          "revision": "c9b76f7ab9b49dd3e6d4d7783e7e3599507d397e56516085d808fcdbdbab19b3",
+          "svgRevision": "4e970bd7346bb41e5db1db7640751bb311b4786e2dd9baa0c92a5d79d1297ddd",
+          "status": "approved",
+          "reason": "The target is Arc Kubernetes; the comparison shows Kubernetes Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-gke",
+          "revision": "8da50662393df0373942ec563439c1e6a4975c2d6fcf71d923fd11f7ed472dd7",
+          "svgRevision": "b8ce7bd8279312a389ac4998956e9af10886e2a55da934f4eb57df810fbedc98",
+          "status": "approved",
+          "reason": "The target is Arc Kubernetes; the comparison shows Google Kubernetes Engine. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A hybrid cloud control plane connects a central manager to clustered workloads, conveying Arc Kubernetes; its cloud-and-workload layout differs from plain Kubernetes and remote rendering."
+    },
+    {
+      "id": "azure-operator-5g-core",
+      "status": "approved",
+      "drawingRevision": "b553fbcd431bd816ca0f7316d40fa39b439a8d7842576c10bf6e385ff455b937",
+      "comparisonRevision": "7896781172e13a937e09b3c74732f3fcb8c02abebab9547d57599c797877cc95",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03248-icon-service-Azure-Operator-5G-Core.svg",
+          "d9a67df44da614566827363b3610ae73cf52d1f7364c027a69082fd06305d376"
+        ]
+      ],
+      "svgRevision": "fd2c91d527f59856560bfb1b5922a0de0c9a181a620ccf10493975aa73bbcc73",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-web-app-database",
+          "revision": "29e31dfc1f9be84703507a236f02adb2c8482494ab213a0e918fa2bb67867787",
+          "svgRevision": "f8bb43398903863e469f2911af3c5a0cd347b7e1a877bbd948e8feeff6c46274",
+          "status": "approved",
+          "reason": "The target is Azure Operator 5G Core; the comparison shows Web App and Database. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-hybrid-connectivity-hub",
+          "revision": "7fdfbbf27b6e390c42d9ce8cbf475790660ce5e35a1ccff5996289c19fdaff03",
+          "svgRevision": "aced7468878d718b27d2270585c12746a0a32a3049a7bbdaa3b55568590fd378",
+          "status": "approved",
+          "reason": "The target is Azure Operator 5G Core; the comparison shows Hybrid Connectivity Hub. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-discovery-agent-resource",
+          "revision": "8ac2c50b10008d8c64d0c9f88ef50b1ed81bf43f5eb49193631ea3782bc386e3",
+          "svgRevision": "7778c3b17e479f75b73509f358af42574c0644e9853b5e815aed0cabc17c2942",
+          "status": "approved",
+          "reason": "The target is Azure Operator 5G Core; the comparison shows Application Discovery Agent. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-operator-insights",
+          "revision": "7bd28db20bfd2a9484c2206caae0fd3c7ad530d9cc5b27c9d0f7d8f3829cf7e8",
+          "svgRevision": "afaeadcf8ea2358aa137288c488277bc70000e14a3e473345137596258b5b906",
+          "status": "approved",
+          "reason": "The target is Azure Operator 5G Core; the comparison shows Azure Operator Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-operator-nexus",
+          "revision": "675a560fb059321df2a64da72de4a1a97f9633a870ada8b199e666f61b40abb7",
+          "svgRevision": "212192df561e70029fd3c8e37bd121d2075033858e202e281d1a66edb9e458ad",
+          "status": "approved",
+          "reason": "The target is Azure Operator 5G Core; the comparison shows Azure Operator Nexus. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-iot-core",
+          "revision": "0b8e2f74edf44c7077191109398548a563e36de2ab3351be62de272f8011d088",
+          "svgRevision": "dee5a732d6229ffded873e431db333425aa85a9a62a9d15f7ba43902c90f0b7f",
+          "status": "approved",
+          "reason": "The target is Azure Operator 5G Core; the comparison shows AWS IoT Core. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A mobile device connects to a radio/core network, clearly signaling the operator 5G core; the handset and cellular nodes separate it from operator analytics and orchestration."
+    },
+    {
+      "id": "azure-operator-nexus",
+      "status": "approved",
+      "drawingRevision": "675a560fb059321df2a64da72de4a1a97f9633a870ada8b199e666f61b40abb7",
+      "comparisonRevision": "e50a0ad0e8410fb594abd95d6dc04f8d3b6697124c82f1cbaa19dcfa9b813210",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03324-icon-service-Azure-Operator-Nexus.svg",
+          "4f36299878d5ee8d4f88be07474c4732ce599a91971a9ccbcb0843a0e2ef8a80"
+        ]
+      ],
+      "svgRevision": "212192df561e70029fd3c8e37bd121d2075033858e202e281d1a66edb9e458ad",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-code-optimization",
+          "revision": "770aa992d1c3448eb94219741c651b2523d365427d91230131ee4b8b8487f110",
+          "svgRevision": "199ae2c07af44c0b6a669ead41321e107ab77ea8e9ddd7972f6633ae21404399",
+          "status": "approved",
+          "reason": "The target is Azure Operator Nexus; the comparison shows Code Optimization. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-transfer-sftp",
+          "revision": "da429f4dddffea80b855618154919b00686262e6582993d22b53859542c98627",
+          "svgRevision": "cf12a2aeabc7926a8df94d1af9da9e0ac9ff21b8ceffb35bb069784e6136b84b",
+          "status": "approved",
+          "reason": "The target is Azure Operator Nexus; the comparison shows AWS Transfer SFTP. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-service-endpoint-policies",
+          "revision": "1adc6236641c473101ce3e9064e26815039defdcac6eb072b05ac22dbb868fb1",
+          "svgRevision": "681a6e4b81322944b3d57bb21a052d9d216a0b4a94b758238a10abdc0a9145fd",
+          "status": "approved",
+          "reason": "The target is Azure Operator Nexus; the comparison shows Service Endpoint Policies. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-operator-5g-core",
+          "revision": "b553fbcd431bd816ca0f7316d40fa39b439a8d7842576c10bf6e385ff455b937",
+          "svgRevision": "fd2c91d527f59856560bfb1b5922a0de0c9a181a620ccf10493975aa73bbcc73",
+          "status": "approved",
+          "reason": "The target is Azure Operator Nexus; the comparison shows Azure Operator 5G Core. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-operator-service-manager",
+          "revision": "5e432c4c484a10d4dcd639f75fa879437513e1cd2e360207bcefee06391cd0cc",
+          "svgRevision": "a5a212ee47f9a6c31c586e8de037fb564c75e99e8a73a527d0f34d1a8c0bbf16",
+          "status": "approved",
+          "reason": "The target is Azure Operator Nexus; the comparison shows Azure Operator Service Manager. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-operator-insights",
+          "revision": "7bd28db20bfd2a9484c2206caae0fd3c7ad530d9cc5b27c9d0f7d8f3829cf7e8",
+          "svgRevision": "afaeadcf8ea2358aa137288c488277bc70000e14a3e473345137596258b5b906",
+          "status": "approved",
+          "reason": "The target is Azure Operator Nexus; the comparison shows Azure Operator Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A network rack links two operator sites, depicting the Nexus platform; the multi-site infrastructure differs from a handset/core and service-manager topology."
+    },
+    {
+      "id": "azure-operator-insights",
+      "status": "approved",
+      "drawingRevision": "7bd28db20bfd2a9484c2206caae0fd3c7ad530d9cc5b27c9d0f7d8f3829cf7e8",
+      "comparisonRevision": "f420b89fbf1222d0ddef83f914bd6a884e7f14c7e496dc9f9426afd15ac0a38d",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03333-icon-service-Azure-Operator-Insights.svg",
+          "6590f39bfd7195a336f79b5a31ca776dcbade8cd89c1d6fc6bf7355f9820cba0"
+        ]
+      ],
+      "svgRevision": "afaeadcf8ea2358aa137288c488277bc70000e14a3e473345137596258b5b906",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-sns-http-notification",
+          "revision": "f66ae038d5fdffa93a5ff13f525d5f0ffc19d7ae76ad9eb86f36330b292ee28f",
+          "svgRevision": "a22a78d1953f2ee408d5e1504708afc2d060be5d164ab3ade68139269cf2a3ea",
+          "status": "approved",
+          "reason": "The target is Azure Operator Insights; the comparison shows SNS HTTP Notification. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-credentials",
+          "revision": "b96a8028b8d2e4320ff9e3c4251b0ac4023bda2b82d4fa259f7e6507936a9ff8",
+          "svgRevision": "2e62cdd0c1bae4b99d9dcd0e4db05cdd4f3cceeaf05dd6fe4ae0de128820ae12",
+          "status": "approved",
+          "reason": "The target is Azure Operator Insights; the comparison shows Credentials. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-organizational-unit",
+          "revision": "2ccbb5f2b15f7125f703275bdd35d566af02b8a0246253140edd03b500136ea6",
+          "svgRevision": "b222e692d37487662993e56a46d612ee0ff0c085964985a655200a89692c3719",
+          "status": "approved",
+          "reason": "The target is Azure Operator Insights; the comparison shows Organizational Unit. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-application-insights",
+          "revision": "bacae051a0a7c17814ff4c9c88806a85f4212fbc337f5823bba3dd73e054d1a2",
+          "svgRevision": "bd9880f6b2a1b76b297f61d6519e60be72ef4a8a4ed9ac33cc74272f96f16d1c",
+          "status": "approved",
+          "reason": "The target is Azure Operator Insights; the comparison shows Azure Application Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-time-series-environments",
+          "revision": "571b6eca58c032f25b54c559a8c14b1c3f45588dd8cbaf843a70876942692683",
+          "svgRevision": "09cf4d2e23dc30bad14e70ad07d193780a6dc412df118881fdf814d1e5812ed2",
+          "status": "approved",
+          "reason": "The target is Azure Operator Insights; the comparison shows Time Series Insights Environments. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-cloudwatch-metrics-insights",
+          "revision": "314450e7e55ebc6f8c43e9346c48fafb5c9ccf4bb4c983cb00b96672e2b4b2b2",
+          "svgRevision": "56b403d9d52d9d69ab82a72e4b04ace94c9b2234025fa33dbc212d4f9b694d23",
+          "status": "approved",
+          "reason": "The target is Azure Operator Insights; the comparison shows CloudWatch Metrics Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A dashboard with a radio signal conveys metrics for operator networks; the chart-and-signal silhouette differs from application insights and generic dashboards."
+    },
+    {
+      "id": "azure-operator-service-manager",
+      "status": "approved",
+      "drawingRevision": "5e432c4c484a10d4dcd639f75fa879437513e1cd2e360207bcefee06391cd0cc",
+      "comparisonRevision": "2f5d89764bb78acafab4453b3e4c8fb5ae56ee0915355b5348ae04331b35892b",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03334-icon-service-Azure-Operator-Service-Manager.svg",
+          "ab7d8527b55f4ce165222cd0b1d098a0b666d7757a8def758e57c6bb0e5b65d8"
+        ]
+      ],
+      "svgRevision": "a5a212ee47f9a6c31c586e8de037fb564c75e99e8a73a527d0f34d1a8c0bbf16",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-free-services",
+          "revision": "5c7ff48978c309ae948fd4decf28dbd15d2ff1617b3e0828a4f9e9111a4a019e",
+          "svgRevision": "ce5271847ad5b38af3d0dbf1b58892f25b294e4b5e5c3da099eb01482f121ba2",
+          "status": "approved",
+          "reason": "The target is Azure Operator Service Manager; the comparison shows Free Services. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-storage-accounts-classic",
+          "revision": "d9263343b05f35acbae0d6b504921aa2598d88abcc2eca7d79ba59ac2cf3e602",
+          "svgRevision": "30e2126908226b6d1373e1e21928e2a6b9b0bad7a06463237ed3e67c5a3cd7d0",
+          "status": "approved",
+          "reason": "The target is Azure Operator Service Manager; the comparison shows Storage Accounts Classic. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-mobile-client",
+          "revision": "c93d0862b1deb29abd3328dc51ec23b6955e7d51d26e1ac2784c99777813321a",
+          "svgRevision": "3851a7179920658c9eabbc2ec8ad98965ccd369e54b32c1cd10bd605e81c669e",
+          "status": "approved",
+          "reason": "The target is Azure Operator Service Manager; the comparison shows Mobile Client. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-network-managers",
+          "revision": "64212f2bda10972ff2138e502d1feaf654e242437e74cfc050505447f5fc2732",
+          "svgRevision": "9fa5253197c4a9b92dbc04acb132bb35e00e6587f12a7a3613cb74d7f153d29a",
+          "status": "approved",
+          "reason": "The target is Azure Operator Service Manager; the comparison shows Network Managers. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-systems-manager",
+          "revision": "b1325f15c99879a1e24fb1d3a738ce54ec8ab295cb5cc5a9c7fddd3fe95d43c8",
+          "svgRevision": "037a21097348bbd9b36403cd6fa3b044942a7383dc93c0c6056a81b77342c9c7",
+          "status": "approved",
+          "reason": "The target is Azure Operator Service Manager; the comparison shows AWS Systems Manager. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-firewall-manager",
+          "revision": "8e9e806b562499bd994710d3c06e4d3a7bbf110190ca539adf132a2b1659c091",
+          "svgRevision": "9bf56f16aa4a51e58ee2ab6abf3d092845145a11a7029d2f570afb5320206564",
+          "status": "approved",
+          "reason": "The target is Azure Operator Service Manager; the comparison shows Firewall Manager. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A control panel fans out to three service endpoints, depicting operator-service orchestration; this control-tree outline differs from manager icons and metrics dashboards."
+    },
+    {
+      "id": "azure-programmable-connectivity",
+      "status": "approved",
+      "drawingRevision": "22fa5a9fc083c065d8c8a0a3fde7626d5d2cdce62a15758300a8ebf64559e974",
+      "comparisonRevision": "5919446a009941139a3d52d3ac5bfb3064fe44321aedcbc1d88da8e666690edd",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03347-icon-service-Azure-Programmable-Connectivity.svg",
+          "c211af355fd491a8eeb37094d659ee681feac6146a0adc4f754c1158bb036254"
+        ]
+      ],
+      "svgRevision": "8c3e02ff2bf1db2c91b70d18b9592e10522d577c66f9ec7f7509c0aae754f386",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-sitewise-asset-model",
+          "revision": "c47ca086620002fe168332fcff25ca548c40227af95e29fcd22a2acbcdbe718f",
+          "svgRevision": "304d90484591e751b2bba066ba3f55f83c71a538f98e35f9f0b38c846ade6846",
+          "status": "approved",
+          "reason": "The target is Azure Programmable Connectivity; the comparison shows IoT SiteWise Asset Model. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-rectangle-arrow-up",
+          "revision": "462db60b23ea64f513e239608e630c0c00050fc14f51a3f3f19bc59047b8c5ec",
+          "svgRevision": "b8fb36906c5bfc57cf2a60ae54859515e1b132dbc616130a0681011c4227e470",
+          "status": "approved",
+          "reason": "The target is Azure Programmable Connectivity; the comparison shows Arrow up to rectangle. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-vnet-appliance",
+          "revision": "b4d5ef0ce5992fd4097d356fd531901ec0b99fcd776a98c7cf037217f0e7a1fe",
+          "svgRevision": "9d1a2f4a5866e45f6071d7568489a2746942959292723113e8a7faff94308abf",
+          "status": "approved",
+          "reason": "The target is Azure Programmable Connectivity; the comparison shows Virtual Network Appliance. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-private-connectivity",
+          "revision": "69da7e7b567c14a84a84cb188f9af22dc5005f7f60aea8d74ef4fd758ba38107",
+          "svgRevision": "c439cbdbfefb58670f09abb71af5d819e95d29005a083c1b4cd1e3d055af4c06",
+          "status": "approved",
+          "reason": "The target is Azure Programmable Connectivity; the comparison shows Private Connectivity. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-network-connectivity-center",
+          "revision": "46eaf0c3093ba085e55837e5cdb2b34540f78060ec87050678611b0fa11c9835",
+          "svgRevision": "6c6024012e4cfe386e2f8d72b46c76e58f808453e696ffd2c8bb1f0fa667907f",
+          "status": "approved",
+          "reason": "The target is Azure Programmable Connectivity; the comparison shows Network Connectivity Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-hybrid-connectivity-hub",
+          "revision": "7fdfbbf27b6e390c42d9ce8cbf475790660ce5e35a1ccff5996289c19fdaff03",
+          "svgRevision": "aced7468878d718b27d2270585c12746a0a32a3049a7bbdaa3b55568590fd378",
+          "status": "approved",
+          "reason": "The target is Azure Programmable Connectivity; the comparison shows Hybrid Connectivity Hub. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A central programmable hub branches to network endpoints; the node topology is distinct from private-link, connectivity-center and hybrid-hub drawings."
+    },
+    {
+      "id": "azure-local",
+      "status": "approved",
+      "drawingRevision": "552d5be022b2399de924d5f13c16e13945cdcaa8925a4f2a85bfdf3e6c483ad4",
+      "comparisonRevision": "c09358f5704773c273f3597f52112f2de6abbbdcb0440800e912894cc50416b9",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/033745116-icon-service-Azure-Local.svg",
+          "8af9c489d4a982504bb4a4656bbe55ab41ac73d09797da769f40d6afe82e4642"
+        ]
+      ],
+      "svgRevision": "b00200156de754164026a0a44bd12300a6602c79323b161bc7a842c0dbc6752c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-databox-gateway",
+          "revision": "562b08ee1e92a0c156e93f53a6c0af50a3b7a0a8a6e789c545bded28ea47eaa9",
+          "svgRevision": "1b3e3ebfd821ced604aa1e3c54fd015e39326df7b090694679616057993258dd",
+          "status": "approved",
+          "reason": "The target is Azure Local; the comparison shows Azure Data Box Gateway. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-edge-storage-accelerator",
+          "revision": "1d4536c9f342dd6a81ef4f707b0c3f4db8a7187845ed423d13a7627848c85998",
+          "svgRevision": "ef47ce1a085fb2a82aecbf45b9ebb1dcab7c5e5821aabf2fb342981f151bde02",
+          "status": "approved",
+          "reason": "The target is Azure Local; the comparison shows Edge Storage Accelerator. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-risky-users",
+          "revision": "6c92226009e78eabdaffc4919094d6357b40892f0fb400cfa3522e79df36fa3d",
+          "svgRevision": "aa16d2dba4bedd6af9237c1df8d4ae9d623704ef371383344f9faed2c08d9cf4",
+          "status": "approved",
+          "reason": "The target is Azure Local; the comparison shows Entra Identity Risky Users. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-local-network-gateway",
+          "revision": "420f6f72798770c61deac0d08b82e23b97f51f2fa527417e19b015f3224645b2",
+          "svgRevision": "6101d4b69e50214250926f886a6ad9e751f9e8126fad1fed211e5a0b15c23eb9",
+          "status": "approved",
+          "reason": "The target is Azure Local; the comparison shows Local Network Gateway. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-local-zones",
+          "revision": "a79a75c4dcf258ce35c3ef4645a0f080c1b90d23bf8116b04085ba0624376d41",
+          "svgRevision": "e371754df99840cf8a285f2d03aea6ebbcf9ac9ead1c72bd64b3ad0d3fc0c7af",
+          "status": "approved",
+          "reason": "The target is Azure Local; the comparison shows AWS Local Zones. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-foundry-local",
+          "revision": "5c32bbf629cd8ad777e8e4d7d2fd9d27c6559e0e4357aa0e74172f5cfe3d651c",
+          "svgRevision": "e53ba5512b19e07069e1e4a06d08061ff605e51f378f78bab6cd1be18b15a02a",
+          "status": "approved",
+          "reason": "The target is Azure Local; the comparison shows Foundry Local. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "An on-premises rack within a building connects to a cloud, expressing Azure Local hybrid infrastructure; the house/rack silhouette distinguishes it from local zones and network gateways."
+    },
+    {
+      "id": "azure-edge-storage-accelerator",
+      "status": "approved",
+      "drawingRevision": "1d4536c9f342dd6a81ef4f707b0c3f4db8a7187845ed423d13a7627848c85998",
+      "comparisonRevision": "fa9a730774313c100bca1ac67d7c94a64c4b3c9ccc7da1f14988bfa2876b1148",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03521-icon-service-Edge-Storage-Accelerator.svg",
+          "d0b92da4a28b4c76a885a1e73bdaef27288c4468de73e6370249a6f41b78160a"
+        ]
+      ],
+      "svgRevision": "ef47ce1a085fb2a82aecbf45b9ebb1dcab7c5e5821aabf2fb342981f151bde02",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-local",
+          "revision": "552d5be022b2399de924d5f13c16e13945cdcaa8925a4f2a85bfdf3e6c483ad4",
+          "svgRevision": "b00200156de754164026a0a44bd12300a6602c79323b161bc7a842c0dbc6752c",
+          "status": "approved",
+          "reason": "The target is Edge Storage Accelerator; the comparison shows Azure Local. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-connected-cache",
+          "revision": "2d5b57036383ece4e60a48d55013e65fd2e47b3476b997903c1046be6aa75228",
+          "svgRevision": "7735205c2cbdeba2fd2bdf551b0fb88c522c0554273d611da865dc54560e5953",
+          "status": "approved",
+          "reason": "The target is Edge Storage Accelerator; the comparison shows Connected Cache. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-office-building",
+          "revision": "70b8a6ce574aaee1d5d594e5fa4f00ebe2f4e3ff7997d9d8bfbc8af152fd504d",
+          "svgRevision": "91cb5205b50913ab7d347246af29b02f061d8876ab2862c502be50d5131f9516",
+          "status": "approved",
+          "reason": "The target is Edge Storage Accelerator; the comparison shows Office Building. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-storage-gateway",
+          "revision": "7743f28842b15db7ee0365c6fbb452900e6a8b97329b94d0946763fc4e835022",
+          "svgRevision": "6fc02fcf3134d23a08575c8a7fbf14eab3cb83d2a59fa07ffa98e3305819e641",
+          "status": "approved",
+          "reason": "The target is Edge Storage Accelerator; the comparison shows AWS Storage Gateway. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-edge-management",
+          "revision": "4b38c227d74b43fbea35ddc7cc26c28000f1c3b79153c067dacb4c30a878c259",
+          "svgRevision": "60999198f429bd98abdda9520195550decdc6543bb507d927dc5479fd879368f",
+          "status": "approved",
+          "reason": "The target is Edge Storage Accelerator; the comparison shows Edge Management. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-storage",
+          "revision": "3fa03aaee1ee78f65a81036b601c4e599623f2f0828f430ddbc83d6a8566fb70",
+          "svgRevision": "116b1aad5a098fce5f43a27883143dc3b281e6d5818ed5356edd39ce650c3f37",
+          "status": "approved",
+          "reason": "The target is Edge Storage Accelerator; the comparison shows Google Cloud Storage. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A cloud sits over an accelerated storage appliance, conveying edge storage; the combination differs from local infrastructure and generic file-system storage."
+    },
+    {
+      "id": "azure-monitor-pipeline",
+      "status": "approved",
+      "drawingRevision": "72158869e1a6e5b9dd037e83a63ead9bc01883bbaa57aa3760f0a6de09b329c3",
+      "comparisonRevision": "2ae9a9a2e69b5f54088c6a9c43331e214cb44528d60b4f15471a6f02453c4186",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03585-icon-service-Azure-Monitor-Pipeline.svg",
+          "f365c41e6c7eea61d40f1a129c2d571a37e0fd2346559b8e31a96f1f0ebaf155"
+        ]
+      ],
+      "svgRevision": "d1472bf228adb7cdc20c76775bc597c1dd84cf53d7f09a79ed8964c1a3a45392",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-network-connections",
+          "revision": "4330aa3661cc51fee009d51e7d6e3e7e542dd142f51ca61dcdca94d04722fab4",
+          "svgRevision": "441eb1d2a21c06ba037128dc3dfca1abcb01e94c5dd928694d282c2d9462827e",
+          "status": "approved",
+          "reason": "The target is Azure Monitor Pipeline; the comparison shows Network Connections. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-module",
+          "revision": "239516c29fdd5b57530a82f5f625c2b1496ec9905339be4ceab2d9ff4b9c1121",
+          "svgRevision": "48167833a5a5a720770cfabfe7d871895b28170035499ffa8fa2cb33c2a2a325",
+          "status": "approved",
+          "reason": "The target is Azure Monitor Pipeline; the comparison shows Module. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-risky-signins",
+          "revision": "eb43107f41d6c8327d75f1b0502c01afa0089892db58fa6ecd79738d2efa91bd",
+          "svgRevision": "df2d48fdc30711eb497eb1095779a9a23f63dc5cbd4e50939d7cc3f42dbd8bd6",
+          "status": "approved",
+          "reason": "The target is Azure Monitor Pipeline; the comparison shows Entra Identity Risky Sign-ins. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-monitor",
+          "revision": "6b112db4a2378fa12866fe48e7b1d58e06d405d058e1be85bb851d8a1a9af9b7",
+          "svgRevision": "98e2086f8c9c71368c6b49aec73f0f7f14f9cc3dde766c6d02ad6603d1db151b",
+          "status": "approved",
+          "reason": "The target is Azure Monitor Pipeline; the comparison shows Azure Monitor. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-pipeline",
+          "revision": "336babf1a3239d207861b8fddfe363ccc13e089782bb9b987e77e5cdb1396733",
+          "svgRevision": "244c90f31aeb13db33ddb927823e74424d9fce6e4f44e1106c4c63e4e86aa043",
+          "status": "approved",
+          "reason": "The target is Azure Monitor Pipeline; the comparison shows Data pipeline. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-monitor-dashboard",
+          "revision": "2e833876822ea4858c10ad2577fa733207d04c02801060fb0437e7a3ea46fe8e",
+          "svgRevision": "28ebf6c2a55ad7294b48bcf6eeb5357e3b8af8f96afaf6e9326a4cfb80707617",
+          "status": "approved",
+          "reason": "The target is Azure Monitor Pipeline; the comparison shows Azure Monitor Dashboard. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A telemetry signal passes through a filter into a structured pipeline, distinguishing monitor ingestion from network connections, dashboards and ETL pipelines."
+    },
+    {
+      "id": "azure-ai-at-edge",
+      "status": "approved",
+      "drawingRevision": "2fdfde8e083de8d86230dba313ff086a8aad1d52bc0e8b0441fcd7c0661d7925",
+      "comparisonRevision": "8b6cb124cfa74c09a87a5cf4924904e8a3d3a5b7ace24c64d5e1524529b69fb6",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/03687-icon-service-AI-at-Edge.svg",
+          "61744c4d7a3d7263de33617e7f70345ddda38aa91d8c19a5609a1a1e3c0df6eb"
+        ]
+      ],
+      "svgRevision": "0cdde82ec9da7e82d97d7b07271ea8311ed9ec318cc7aa1e29a4b71f798d61d9",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-code",
+          "revision": "92b56c662febc5c1fa262da67c83914a44780c9819afab72fa4ea186811294ac",
+          "svgRevision": "c31797f1bf8e748cf414077c03e8c2c5206fb13bd8a8db90773db01327574ba4",
+          "status": "approved",
+          "reason": "The target is AI at Edge; the comparison shows Code. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-cold-storage",
+          "revision": "ba152efad0f0df2da5cb49b4204e9d3649af3e8b5779b5373905d5167b9b886c",
+          "svgRevision": "0eadef1a5bd4b3217e20c2296340256ddfabf3df92ffca9b48faa87952f15076",
+          "status": "approved",
+          "reason": "The target is AI at Edge; the comparison shows Cold Storage. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-fhir-service",
+          "revision": "c6eddd38fcbe500f40188dd9e47dfb8f3ff52433b0b51450913e77badc83b91b",
+          "svgRevision": "486e7ad08c2dd135822d8c2cb0a9ac7f11dc94a3f29dd053c2ad80a7fb1f93be",
+          "status": "approved",
+          "reason": "The target is AI at Edge; the comparison shows FHIR Service. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-iot-edge",
+          "revision": "7c0a044bcf232482091dfeae13aa7f591c847206fe1a45d8fe81ea9f2ada377d",
+          "svgRevision": "0d7a579a2ea8625f65b03278ed4d6c00200dfaad2d50fdd699858245340c8c48",
+          "status": "approved",
+          "reason": "The target is AI at Edge; the comparison shows IoT Edge. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-ai-studio",
+          "revision": "7095fc9fc1e84371094227594735c14b80f3f13a2fd5c50896c372f15f7df705",
+          "svgRevision": "cf2b231851d569d9e98e56fa23a5098c4f31ddb40c16eabbbd1b0de24736b644",
+          "status": "approved",
+          "reason": "The target is AI at Edge; the comparison shows AI Studio. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-sql-edge",
+          "revision": "aa0e2ed9511aef2bd5aae4b560ec69d6838d5074040a4adda11b0a974ce2c1db",
+          "svgRevision": "3e0229a05f95b8e01799c60e13a02a0834a0a32336707ca57bd5d350e5643ff1",
+          "status": "approved",
+          "reason": "The target is AI at Edge; the comparison shows Azure SQL Edge. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "An AI model runs inside an edge device with outward signal marks; this device-and-model composition differs from code editors, storage and edge-network services."
+    },
+    {
+      "id": "azure-workload-orchestration",
+      "status": "approved",
+      "drawingRevision": "050fdec26d741a8f47f779efcd5f0f0ede9e062c546982c757c6a54a21f343c5",
+      "comparisonRevision": "14b3a59e43d4eb4a59b640a6e846b405a5606df976e7d47c195e9311f383312d",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/hybrid + multicloud/029109619-icon-service-Workload-Orchestration.svg",
+          "a00e26fda9d55a7226a3d8b4ab1c9ae21798d1543d87978c221f9cfe1911adad"
+        ]
+      ],
+      "svgRevision": "e31cc3ca9df4dc91c1361b22ea4d046cdec05df863c2af85dd70b92e6df70061",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-api-center",
+          "revision": "77be16b4a78cea31cfb7ec8496f6546ff729761155909a2cb5f7f05586a13f5e",
+          "svgRevision": "de6215b6c8c693b7149276320f6738703a5e78626165094afcca0de3dd4bb6b2",
+          "status": "approved",
+          "reason": "The target is Workload Orchestration; the comparison shows API Center. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-storage-hubs",
+          "revision": "37feddbc3554e1175330aaa87c48490eca0046624fbb0173cf1043ce28ee49ca",
+          "svgRevision": "19eb99db8a245dfa5f2f9b74b5766077fe6cb050670db2f3d01fc7f8564a14fc",
+          "status": "approved",
+          "reason": "The target is Workload Orchestration; the comparison shows Storage Hubs. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-virtual-wan-hub",
+          "revision": "7d6ece418ec92de01c6d3155f2f760ffdadef3f6ca4d1a0ec1fe076b7a08a4f4",
+          "svgRevision": "0426756f55fb527bbecda5c038f8f54a2374018ed563614802f7e13310454d65",
+          "status": "approved",
+          "reason": "The target is Workload Orchestration; the comparison shows Virtual WAN Hub. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "entra-workload-id",
+          "revision": "043b7c9dc44d14635f17271c95c95a904613f94d4311516589d63406da1ea7d5",
+          "svgRevision": "342b2577986b65a78487bac286dc70971b99d69a5ced92a2c78306f68eac36a4",
+          "status": "approved",
+          "reason": "The target is Workload Orchestration; the comparison shows Entra Workload ID. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "gcp-assured-workloads",
+          "revision": "cf29bacd187b2c9216f15c636471baab415c11485c6ab3d64dd0c1343c45735f",
+          "svgRevision": "eef804c1d5ebe5bd69f45aa8262e0fe5ed5e91915c55b191c0d9a938eed8bb14",
+          "status": "approved",
+          "reason": "The target is Workload Orchestration; the comparison shows Assured Workloads. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-backup-vmware",
+          "revision": "db4de108ef229272ac86a45646188b421ddb562d85e25de879da2f81063f3fee",
+          "svgRevision": "fe6f172f483af292bc16067a5fa235fa77cea475b9d4a372b69fe62e71c0b30f",
+          "status": "approved",
+          "reason": "The target is Workload Orchestration; the comparison shows Backup for VMware Workloads. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A central controller coordinates four workload units, clearly conveying orchestration and differing from the identity credential and infrastructure-hub neighbors."
+    },
+    {
+      "id": "azure-activity-log",
+      "status": "approved",
+      "drawingRevision": "9b92e952ef36f6af24ac392382b0bbe66177e294f3897ee90adf61b6b97c9671",
+      "comparisonRevision": "d9a21c7c08ef0ed920df5f17e4281a0f6684022a0b0d5a18a679ea84f4039aaf",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00007-icon-service-Activity-Log.svg",
+          "83affbc0e4838d96fd2527c765e8208001e0911de31ed86937fcc64b13ae64b6"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00007-icon-service-Activity-Log.svg",
+          "83affbc0e4838d96fd2527c765e8208001e0911de31ed86937fcc64b13ae64b6"
+        ]
+      ],
+      "svgRevision": "c88f44075606d8b9c31b917542892ceafd8bd2f22bcaff668ddcb7c442c8c13c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-app-space-component",
+          "revision": "42b8a23d1dfc47df2a982afb56ab1c47dd5a025816ff9d5f662ffa2537417e73",
+          "svgRevision": "507f0bf0358a7f0f40ca71d2ea30dcd56d4293154ab742f2f26cc2b99297059d",
+          "status": "approved",
+          "reason": "The target is Activity Log; the comparison shows App Space Component. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-templates",
+          "revision": "c06b6509b16c8863dfc1b38287e278313c725899ec435cfb197c6d77e5bc0e1e",
+          "svgRevision": "236d224a2bb4a89f0c8a97d2383c33220d57038a243913e9ea0dc3d76b8e242b",
+          "status": "approved",
+          "reason": "The target is Activity Log; the comparison shows Templates. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-document",
+          "revision": "0a357042e6e9fc38871ab7fb6c5c5339a0128e0a4704f4d949c5dd0db41658c5",
+          "svgRevision": "486d2b5e95d46bb1e300e647935bd9180668e02909e5b943191bf97c61bf66de",
+          "status": "approved",
+          "reason": "The target is Activity Log; the comparison shows Document. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-log-analytics",
+          "revision": "0b62755c8945ca7a95829ee3694484b6474c4670593360e3675581b2df692b06",
+          "svgRevision": "d7cda60aaae964eaacb581569574f54ac5dd2169518bd20f15e33ed5899f83ad",
+          "status": "approved",
+          "reason": "The target is Activity Log; the comparison shows Azure Log Analytics Workspaces. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-log-streaming",
+          "revision": "cb9ced60900b1c0cdacedb6261add24dcbbab7e01a3634d6284cd590ad80307d",
+          "svgRevision": "2afa185b48f7a1d54866bde07265102839490cf020013ec5314ed932648210d1",
+          "status": "approved",
+          "reason": "The target is Activity Log; the comparison shows Log Streaming. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-operation-log-classic",
+          "revision": "eb035b70b54590cc48bc6e4c137fd9d9f7d383b4efe893849fae83100692c35a",
+          "svgRevision": "a7522a05ca5da828ad4416e9be21975be8b299b28e7b964632a5770d3738f1b0",
+          "status": "approved",
+          "reason": "The target is Activity Log; the comparison shows Operation Log Classic. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A log page with three dated event markers forms a chronological timeline, making activity history recognizable and distinct from a generic document at 32px."
+    },
+    {
+      "id": "azure-diagnostic-settings",
+      "status": "approved",
+      "drawingRevision": "3cec1b83bf10f6720fed6d7d5be8cf6925f70a925826ab184b54af7ce444224b",
+      "comparisonRevision": "9a8e57845ad6d7e06d7d2493cac47b2e4aa1d814e14fbfaf49c726d96486dc18",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00008-icon-service-Diagnostics-Settings.svg",
+          "3c3181ca80424baa433f6a5fe5cc5cb3c39a4450b3e728c877e983da5181ca4f"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00008-icon-service-Diagnostics-Settings.svg",
+          "3c3181ca80424baa433f6a5fe5cc5cb3c39a4450b3e728c877e983da5181ca4f"
+        ]
+      ],
+      "svgRevision": "23c433b293604aff68e7070cee6476cb0dda4d50c405c79c9952810ea54f0f0c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-workspaces-select",
+          "revision": "37c7cbc634b53bf0457259fe5c3d380fba4294316d9df862886ab4acb165ff56",
+          "svgRevision": "41c2889499f26aea6950b92a0ff5c4c73c9864f2af32e9345e5d43cb35569349",
+          "status": "approved",
+          "reason": "The target is Diagnostic Settings; the comparison shows Workspaces selection. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-braket-embedded-simulator",
+          "revision": "4505c131187d17f162310184023bf2df12930ffaed8ff2479d62e33572c37f89",
+          "svgRevision": "28ab67a48c16efba6a32303ac9645c31f7f6e0875a3bf41b64b96203fadee608",
+          "status": "approved",
+          "reason": "The target is Diagnostic Settings; the comparison shows Braket Embedded Simulator. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-sap-monitor",
+          "revision": "a0b12968401eb564825c7717368562c6c92e80db44f632ce39f94cefc01efaa3",
+          "svgRevision": "ed391cca3ece5de95d757c6ff216f1f897de58dc02fb8d616bb9cfd9c6c6cd0d",
+          "status": "approved",
+          "reason": "The target is Diagnostic Settings; the comparison shows Azure Monitor for SAP Solutions. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-monitor",
+          "revision": "6b112db4a2378fa12866fe48e7b1d58e06d405d058e1be85bb851d8a1a9af9b7",
+          "svgRevision": "98e2086f8c9c71368c6b49aec73f0f7f14f9cc3dde766c6d02ad6603d1db151b",
+          "status": "approved",
+          "reason": "The target is Diagnostic Settings; the comparison shows Azure Monitor. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "m365-settings",
+          "revision": "1b459d16f882bb263b322cbb6a18875960edd2a31e380bc9720be2ef7130213f",
+          "svgRevision": "d4afaa5dc2d49a0c9d0ccbf1a8f1554b77c9861f1380a85d5483d196c48ffdef",
+          "status": "approved",
+          "reason": "The target is Diagnostic Settings; the comparison shows Settings. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-user-settings",
+          "revision": "e132df13aa2ac2c0c807e93bafd6858ef23ecf4dcc55f4a560dde57c7c49a774",
+          "svgRevision": "30bb14bc13621d3b8a26976104235c766dc53f32257ce80c6d0de32411ea1130",
+          "status": "approved",
+          "reason": "The target is Diagnostic Settings; the comparison shows User Settings. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A diagnostic panel pairs a signal chart with adjustable controls, conveying telemetry configuration and differing from user-profile settings and plain monitor dashboards."
+    },
+    {
+      "id": "azure-metrics",
+      "status": "approved",
+      "drawingRevision": "205a086fcfe8ba75e85d8e878e53a27a2c007eb642ea30421f16b9fc181d26c2",
+      "comparisonRevision": "7b095065acf6abe319dab9cc3e3e83a600e27f53e99bcfbe60677fafbee9fce2",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/00020-icon-service-Metrics.svg",
+          "82a6e7057ac29d17b29c8d35a55cf2b5b8fba435717483efbe4b2fe14a79abe5"
+        ],
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/monitor/00020-icon-service-Metrics.svg",
+          "82a6e7057ac29d17b29c8d35a55cf2b5b8fba435717483efbe4b2fe14a79abe5"
+        ]
+      ],
+      "svgRevision": "67b5f6da9c8e1b5ccb4f26c192db1189b85183fa3f27a5cb94e7e7e3664394e2",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-network-connections",
+          "revision": "4330aa3661cc51fee009d51e7d6e3e7e542dd142f51ca61dcdca94d04722fab4",
+          "svgRevision": "441eb1d2a21c06ba037128dc3dfca1abcb01e94c5dd928694d282c2d9462827e",
+          "status": "approved",
+          "reason": "The target is Metrics; the comparison shows Network Connections. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-hpc-cache",
+          "revision": "f38860932d56a43fd0df9a6782e8d1d9486693b9ca6cad47b3ca6158be35c71f",
+          "svgRevision": "322dc166287497370047494c82e8c5926cda0d076d9be782ffbd34f244bf8751",
+          "status": "approved",
+          "reason": "The target is Metrics; the comparison shows Azure HPC Cache. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-tensorflow",
+          "revision": "67e9dfbd1353348853c6dbff495a2a4f4ab493654037ff0c92829981a412432a",
+          "svgRevision": "915f5c299d78aef085c9cad79fec96375af37be2e31a5b0a96177d3e2a667bb2",
+          "status": "approved",
+          "reason": "The target is Metrics; the comparison shows TensorFlow on AWS. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-metrics-advisor",
+          "revision": "78626538708b0a29aecde944b17bc16a6ca1b0a8bf4805264d8061a2d21e64c3",
+          "svgRevision": "920eb8b3aea556fe70af07a8a43e9fca544381e3749f65e0e7ee704cbf222066",
+          "status": "approved",
+          "reason": "The target is Metrics; the comparison shows Metrics Advisor. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-metrics",
+          "revision": "cc9b4584f8ff9e324f95b7a1f66ea6d376cc592c820479407b321f0263998892",
+          "svgRevision": "7bd05b9f63c82df02dd26e9462c6c95bb4d955f224082bc73867f9ca007ba577",
+          "status": "approved",
+          "reason": "The target is Metrics; the comparison shows Metrics. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-cloudwatch-metrics-insights",
+          "revision": "314450e7e55ebc6f8c43e9346c48fafb5c9ccf4bb4c983cb00b96672e2b4b2b2",
+          "svgRevision": "56b403d9d52d9d69ab82a72e4b04ace94c9b2234025fa33dbc212d4f9b694d23",
+          "status": "approved",
+          "reason": "The target is Metrics; the comparison shows CloudWatch Metrics Insights. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A measurement gauge with adjacent readings summarizes metrics; the gauge plus value lines differ from chart-first metrics-advisor and CloudWatch analytics."
+    },
+    {
+      "id": "azure-elastic-job-agents",
+      "status": "approved",
+      "drawingRevision": "8d76272ef4ae5a1d74d4fdfd7dc2cf86c483d3fe2c680df3f7d2961299a42aa2",
+      "comparisonRevision": "5d65caafb18b61d7e87c1e9e0658937951406f0b732237339058a4bad1415f04",
+      "sourceRevisions": [
+        [
+          "/icons/azure/Azure_Public_Service_Icons/Icons/databases/10128-icon-service-Elastic-Job-Agents.svg",
+          "a477843a209920a6ea3830a0b6464250843319b5116a928066eed2fcecb6e1ac"
+        ]
+      ],
+      "svgRevision": "6c3020358d76b7860985babea498661dcd6de1d4193f1412e53716084d331985",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-activity-log",
+          "revision": "9b92e952ef36f6af24ac392382b0bbe66177e294f3897ee90adf61b6b97c9671",
+          "svgRevision": "c88f44075606d8b9c31b917542892ceafd8bd2f22bcaff668ddcb7c442c8c13c",
+          "status": "approved",
+          "reason": "The target is Elastic Job Agents; the comparison shows Activity Log. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-app-space-component",
+          "revision": "42b8a23d1dfc47df2a982afb56ab1c47dd5a025816ff9d5f662ffa2537417e73",
+          "svgRevision": "507f0bf0358a7f0f40ca71d2ea30dcd56d4293154ab742f2f26cc2b99297059d",
+          "status": "approved",
+          "reason": "The target is Elastic Job Agents; the comparison shows App Space Component. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-table-export",
+          "revision": "310af67077eaadf55c1f4d0f6400c3aff037edaa4b47b2e002158ee1b34f8b6b",
+          "svgRevision": "1ba02bc4a1399a96e9163ba3cd543bfcd2d0b8c523ed45dc2feaa9f6fcf83b56",
+          "status": "approved",
+          "reason": "The target is Elastic Job Agents; the comparison shows Export table. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-copy-job",
+          "revision": "6d59270a7f31e14374550dcad67405bfe283fc3970d4d5c0a3e5eed7b88dbccb",
+          "svgRevision": "912fc01eb76ac83189fb204c430460d43a5fbdc2bf841f1cdc011061240ab9b8",
+          "status": "approved",
+          "reason": "The target is Elastic Job Agents; the comparison shows Copy Job. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "azure-scheduler-job-collections",
+          "revision": "456753754a6f3d50ef14adbf6e0a831fa963ad7f4942a0f2113244835ad61a50",
+          "svgRevision": "fc86a7369ef339dd6ede61be86f60a76eb9ab5040f22008f5fa479f0b84bb743",
+          "status": "approved",
+          "reason": "The target is Elastic Job Agents; the comparison shows Scheduler Job Collections. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "fabric-spark-job",
+          "revision": "2a871ca266bfe92635b679e768bfa589633abdf25f8a018e1fcf0dc2c21c216a",
+          "svgRevision": "afffb4cbee2bec57f57e13d7ad7b1b589d6e430fc5f8780ac9c73afee342a02b",
+          "status": "approved",
+          "reason": "The target is Elastic Job Agents; the comparison shows Spark Job Direction. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "A scheduled database distributes work to worker agents; the cylinder, clock and fan-out differ from an activity timeline, code panel and copy-job pages."
+    },
+    {
+      "id": "aws-workdocs",
+      "status": "approved",
+      "drawingRevision": "064a363f49c1e3b5c7a5a5aad6d6cc5e9f491026c45d5cc58b7ea39f053a8e51",
+      "comparisonRevision": "3f6643729458cd7d15fb81f141cbb371e36a53b749700e1227181376d4711ccf",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Business-Applications/16/Arch_Amazon-WorkDocs_16.svg",
+          "1f934e6df4149babc7deac78863e34ddd9bd0e1e08c0ae497bb5fcf92c530fd5"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Business-Applications/32/Arch_Amazon-WorkDocs_32.svg",
+          "a6822263528cf0320735bbd54448b2c207f1e0126f126092cfbe87aa8c6f3b34"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Business-Applications/48/Arch_Amazon-WorkDocs_48.svg",
+          "021aa7c9405a95bcd9f4a95dc2b24859477d37c7fdbfd819049e270d718b1438"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Business-Applications/64/Arch_Amazon-WorkDocs_64.svg",
+          "862800e31af4d79037251b514a31c929933a4099a1bee903299d56ccceb5f5ea"
+        ]
+      ],
+      "svgRevision": "e7315dfa0c040d91c250a8b651b705e1df7a48aa8d193d264edd68267aac0cd5",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-arrow-down-double-wrap",
+          "revision": "aa2eefa304b2cfc86bf40a3ccf779a2de362b8b525aa2dd0e86410d36232498e",
+          "svgRevision": "4a6dfad381f8318f559c9aed1b45b9d6db12a8b63123880ab9020ee31675d4a4",
+          "status": "approved",
+          "reason": "The target is Amazon WorkDocs; the comparison shows Double down arrows with wrap. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-snowball-import-export",
+          "revision": "e243d444977c019e3084f39e47f44b9aaf1a4400d260c9e192f00eb5ce790bce",
+          "svgRevision": "459b3cc56510282889e2d1021d5ba9ccee2137e4446e2ca39be354d3b6451bf3",
+          "status": "approved",
+          "reason": "The target is Amazon WorkDocs; the comparison shows Snowball Import Export. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-general-document",
+          "revision": "0a357042e6e9fc38871ab7fb6c5c5339a0128e0a4704f4d949c5dd0db41658c5",
+          "svgRevision": "486d2b5e95d46bb1e300e647935bd9180668e02909e5b943191bf97c61bf66de",
+          "status": "approved",
+          "reason": "The target is Amazon WorkDocs; the comparison shows Document. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-workdocs-sdk",
+          "revision": "b5567bd1e4c4dafcb42a2d80653dce40222b7b9cb62617de7a413f1aa7cebba9",
+          "svgRevision": "a13474f68f1d7ba3f652a370b1c6aa4e124177664ca6c42266d5575750647803",
+          "status": "approved",
+          "reason": "The target is Amazon WorkDocs; the comparison shows Amazon WorkDocs SDK. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        },
+        {
+          "id": "aws-workmail",
+          "revision": "fc8c2dc812c026f623cd36e0a632bc2473148c130a631b3816a879ecdb04565d",
+          "svgRevision": "2978ae70485fb220d67ac4c1167ad4553f599a996c09f857caaeba4241e23ec6",
+          "status": "approved",
+          "reason": "The target is Amazon WorkDocs; the comparison shows Amazon WorkMail. Their subject and visible silhouette details remain distinguishable at 64 and 32 pixels."
+        }
+      ],
+      "notes": "Two people share a page; it remains distinct from the AWS WorkDocs SDK pairing, WorkMail dashboard and generic document."
     }
   ]
 }

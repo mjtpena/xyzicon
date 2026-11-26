@@ -1907,18 +1907,18 @@
     "azure-activity-log": [
       {
         "a": "azure-activity-log",
-        "b": "azure-templates",
-        "similarity": 0.3737
-      },
-      {
-        "a": "azure-activity-log",
-        "b": "azure-media-file",
-        "similarity": 0.3665
-      },
-      {
-        "a": "azure-activity-log",
         "b": "azure-app-space-component",
-        "similarity": 0.3442
+        "similarity": 0.349
+      },
+      {
+        "a": "azure-activity-log",
+        "b": "azure-templates",
+        "similarity": 0.306
+      },
+      {
+        "a": "azure-activity-log",
+        "b": "aws-general-document",
+        "similarity": 0.3048
       }
     ],
     "azure-diagnostic-settings": [
@@ -9823,9 +9823,9 @@
         "similarity": 0.321
       },
       {
-        "a": "azure-activity-log",
-        "b": "azure-storage-hubs",
-        "similarity": 0.3101
+        "a": "azure-storage-hubs",
+        "b": "azure-media-file",
+        "similarity": 0.3063
       }
     ],
     "azure-storage-actions": [
@@ -10121,7 +10121,7 @@
       {
         "a": "azure-activity-log",
         "b": "azure-elastic-job-agents",
-        "similarity": 0.2303
+        "similarity": 0.2233
       },
       {
         "a": "azure-elastic-job-agents",
@@ -22070,11 +22070,6 @@
     ],
     "aws-workdocs": [
       {
-        "a": "azure-activity-log",
-        "b": "aws-workdocs",
-        "similarity": 0.2234
-      },
-      {
         "a": "aws-workdocs",
         "b": "fabric-arrow-down-double-wrap",
         "similarity": 0.205
@@ -22083,6 +22078,11 @@
         "a": "aws-snowball-import-export",
         "b": "aws-workdocs",
         "similarity": 0.2016
+      },
+      {
+        "a": "aws-workdocs",
+        "b": "aws-general-document",
+        "similarity": 0.1966
       }
     ],
     "aws-supply-chain": [
@@ -24132,14 +24132,14 @@
         "similarity": 0.2739
       },
       {
-        "a": "azure-activity-log",
-        "b": "aws-general-documents",
-        "similarity": 0.2618
-      },
-      {
         "a": "aws-bedrock-agentcore",
         "b": "aws-general-documents",
         "similarity": 0.2495
+      },
+      {
+        "a": "aws-general-user",
+        "b": "aws-general-documents",
+        "similarity": 0.245
       }
     ],
     "aws-general-email": [
@@ -33274,7 +33274,7 @@
       {
         "a": "azure-activity-log",
         "b": "azure-image-gallery",
-        "similarity": 0.2818
+        "similarity": 0.2812
       },
       {
         "a": "gcp-cloud-sql",
