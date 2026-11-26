@@ -1,0 +1,75 @@
+import { rect, oval, line, entry } from "./primitives.mjs";
+
+const variants = (name, sizes) => sizes.flatMap((size) =>
+  ["filled", "regular"].map((style) => `${name}_${size}_${style}`));
+
+export const fabricCalendarArtwork = [
+  entry("fabric-calendar-clock", "fabric", "Calendar clock",
+    variants("calendar_ltr_clock", [20]),
+    "A clock marks the time of a scheduled calendar date.",
+    [
+      rect(49, 18, 67, 87), line([49, 37], [116, 37]),
+      line([63, 10], [63, 26]), line([102, 10], [102, 26]),
+      line([58, 51], [68, 51]), line([79, 51], [89, 51]), line([100, 51], [108, 51]),
+      line([79, 68], [89, 68]), line([100, 68], [108, 68]), line([79, 85], [89, 85]), line([100, 85], [108, 85]),
+      oval(12, 57, 55, 55), line([39, 67], [39, 85], [53, 91]),
+    ]),
+  entry("fabric-calendar-lightning", "fabric", "Calendar lightning",
+    variants("calendar_month_lightning", [20]),
+    "A lightning bolt marks an urgent calendar event.",
+    [
+      line([14, 105], [14, 23], [91, 23], [91, 51]), line([14, 41], [91, 41]),
+      line([31, 14], [31, 31]), line([74, 14], [74, 31]),
+      line([26, 57], [35, 57]), line([45, 57], [54, 57]), line([26, 76], [35, 76]), line([45, 76], [54, 76]),
+      line([91, 51], [68, 80], [84, 80], [76, 110], [110, 72], [93, 72], [101, 51], [91, 51]),
+    ]),
+  entry("fabric-calendar-up", "fabric", "Calendar arrow up",
+    variants("calendar_month_arrow_up", [16, 20]),
+    "An upward arrow lifts a calendar date.",
+    [
+      line([13, 27], [83, 27], [83, 63]), line([13, 27], [13, 105], [67, 105]),
+      line([13, 44], [83, 44]), line([28, 17], [28, 35]), line([68, 17], [68, 35]),
+      line([25, 59], [34, 59]), line([45, 59], [54, 59]), line([25, 77], [34, 77]), line([45, 77], [54, 77]),
+      line([89, 109], [89, 56]), line([74, 71], [89, 56], [104, 71]),
+    ]),
+  entry("fabric-calendar-link", "fabric", "Calendar link",
+    variants("calendar_month_link", [20, 24, 32]),
+    "A link connects two calendar pages.",
+    [
+      rect(10, 22, 43, 46), line([10, 36], [53, 36]), line([20, 15], [20, 29]), line([42, 15], [42, 29]),
+      line([19, 47], [28, 47]), line([35, 47], [44, 47]),
+      rect(75, 22, 43, 46), line([75, 36], [118, 36]), line([85, 15], [85, 29]), line([107, 15], [107, 29]),
+      line([84, 47], [93, 47]), line([100, 47], [109, 47]),
+      line([31, 68], [31, 79], [38, 89]), line([96, 68], [96, 79], [90, 89]),
+      line([58, 82], [44, 82], [38, 88], [38, 96], [44, 102], [58, 102]),
+      line([70, 82], [84, 82], [90, 88], [90, 96], [84, 102], [70, 102]), line([52, 92], [76, 92]),
+    ]),
+  entry("fabric-calendar-person", "fabric", "Calendar person",
+    variants("calendar_month_person", [20, 24, 32]),
+    "A person stands beside a month schedule.",
+    [
+      oval(14, 35, 25, 25), line([8, 104], [10, 79], [17, 69], [27, 65], [37, 69], [44, 79], [46, 104]),
+      rect(53, 18, 61, 86), line([53, 37], [114, 37]), line([66, 11], [66, 26]), line([101, 11], [101, 26]),
+      line([61, 55], [106, 55]), line([61, 72], [106, 72]), line([76, 43], [76, 92]), line([92, 43], [92, 92]),
+    ]),
+  entry("fabric-calendar-prohibited", "fabric", "Calendar prohibited",
+    variants("calendar_month_prohibited", [20, 24, 32]),
+    "A prohibition mark blocks a calendar date.",
+    [
+      line([15, 103], [15, 23], [96, 23], [96, 61]), line([15, 40], [96, 40]),
+      line([32, 13], [32, 30]), line([78, 13], [78, 30]),
+      line([27, 56], [36, 56]), line([46, 56], [55, 56]), line([27, 75], [36, 75]),
+      oval(57, 57, 56, 56), line([66, 104], [104, 66]),
+    ]),
+  entry("fabric-calendar-signal", "fabric", "Calendar signal",
+    variants("calendar_month_signal", [20, 24, 32]),
+    "A calendar broadcasts a scheduled signal.",
+    [
+      line([14, 105], [14, 19], [89, 19], [89, 56]), line([14, 37], [89, 37]),
+      line([30, 11], [30, 27]), line([73, 11], [73, 27]),
+      line([27, 52], [36, 52]), line([47, 52], [56, 52]), line([67, 52], [76, 52]), line([27, 72], [36, 72]),
+      oval(61, 94, 7, 7), line([62, 79], [74, 82], [81, 89], [84, 101]),
+      line([62, 63], [81, 67], [94, 80], [99, 101]),
+      line([62, 51], [87, 56], [105, 74], [111, 101]),
+    ]),
+];

@@ -6,7 +6,7 @@
 @inject IJSRuntime JSRuntime
 @inject HttpClient HttpClient
 
-<PageTitle>XYZ Icons - Search 8000+ Official Cloud Icons</PageTitle>
+<PageTitle>XYZ Icons - Search Official Cloud Icons</PageTitle>
 
 <div class="app-root @(hasSearched ? "has-results" : "")">
     <div class="sr-only" aria-live="polite" aria-atomic="true">@liveAnnouncement</div>
@@ -17,7 +17,25 @@
             <span class="logo-icon">☁️</span>
             <h1 class="logo-text">xyz<span class="logo-accent">icon</span></h1>
         </div>
-        <p class="tagline">Search 8,000+ official cloud service icons</p>
+        <p class="tagline">Search @(totalIconsLoaded > 0 ? totalIconsLoaded.ToString("N0") : "") official cloud service icons</p>
+        <div class="stencil-toolbar">
+            <div class="format-switch" role="group" aria-label="Icon style">
+                <button class="fmt-btn @(!HandDrawnMode ? "active" : "")" aria-pressed="@(!HandDrawnMode)"
+                        @onclick="() => SetHandDrawnMode(false)">Original</button>
+                <button class="fmt-btn @(HandDrawnMode ? "active" : "")" aria-pressed="@HandDrawnMode"
+                        disabled="@(stencilsBySource.Count == 0)" @onclick="() => SetHandDrawnMode(true)">Hand-drawn</button>
+            </div>
+            <a href="stencils/review.html">Review the drawings</a>
+        </div>
+        @if (HandDrawnMode)
+        {
+            <p class="stencil-note">@StencilCount independent concept illustrations covering @stencilsBySource.Count of @totalIconsLoaded source entries. These are unofficial, and variants can share a drawing. Only completed concepts appear here; @PendingStencilCount await design review.</p>
+            <a href="stencils/all.excalidrawlib" download>Download editable Excalidraw library</a>
+        }
+        @if (stencilLoadError != null)
+        {
+            <p class="stencil-note" role="alert">@stencilLoadError</p>
+        }
 
         <!-- Search bar -->
         <div class="search-bar">
@@ -121,23 +139,25 @@
                 @for (var i = 0; i < displayedIcons.Count; i++)
                 {
                     var icon = displayedIcons[i];
-                    var safeId = GenerateSafeId(icon.Name);
-                    <div id="card-@safeId" class="card @(activeCardIndex == i ? "active" : "")" tabindex="0" @onfocus="() => SetActiveCard(i)">
+                    var safeId = GenerateSafeId(icon.Path);
+                    var cardIndex = i;
+                    var displayName = GetDisplayName(icon);
+                    <div @key="icon.Path" id="card-@safeId" class="card @(activeCardIndex == i ? "active" : "")" tabindex="0" @onfocus="() => SetActiveCard(cardIndex)">
                         <div class="card-img">
                             <img id="@safeId"
-                                 src="@icon.Path"
-                                 alt="@icon.DisplayName"
+                                 src="@GetIconSource(icon)"
+                                 alt="@displayName"
                                  loading="lazy"
                                  decoding="async"
                                  fetchpriority="low"
                                  class="icon-img" />
                         </div>
                         <div class="card-body">
-                            <span class="card-title" title="@icon.DisplayName">@((MarkupString)HighlightMatch(icon.DisplayName))</span>
+                            <span class="card-title" title="@displayName">@((MarkupString)HighlightMatch(displayName))</span>
                         </div>
                         <div class="card-actions">
                             <button class="action-btn" @onclick:stopPropagation="true"
-                                    @onclick="() => OnDownloadRequested(safeId, icon.Name, icon.DisplayName)"
+                                    @onclick="() => OnDownloadRequested(safeId, icon.Path, GetExportName(icon))"
                                     title="Download">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
                                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
@@ -145,7 +165,7 @@
                                 @GetDownloadButtonLabel(safeId)
                             </button>
                             <button class="action-btn" @onclick:stopPropagation="true"
-                                    @onclick="() => OnCopyRequested(safeId, icon.Name, icon.DisplayName)"
+                                    @onclick="() => OnCopyRequested(safeId, icon.Path, GetExportName(icon))"
                                     title="Copy to clipboard">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
                                     <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
@@ -182,7 +202,7 @@
                 @foreach (var icon in previewIcons)
                 {
                     <div class="explore-card" @onclick="() => OnPreviewClick(icon)" title="@icon.DisplayName">
-                        <img src="@icon.Path" alt="@icon.DisplayName" loading="lazy" />
+                        <img src="@GetIconSource(icon)" alt="@icon.DisplayName" loading="lazy" />
                     </div>
                 }
             </div>
@@ -197,6 +217,12 @@
     private ElementReference searchInput;
     private string searchTerm = string.Empty;
     private List<IconData> allIcons = new();
+    private Dictionary<string, IconData> iconsByPath = new(StringComparer.Ordinal);
+    private Dictionary<string, StencilData> stencilsBySource = new(StringComparer.Ordinal);
+    private bool HandDrawnMode;
+    private string? stencilLoadError;
+    private int StencilCount => stencilsBySource.Values.DistinctBy(s => s.Id).Count();
+    private int PendingStencilCount => stencilsBySource.Values.DistinctBy(s => s.Id).Count(s => s.Review != "approved");
     private List<IconData> filteredIcons = new();
     private List<IconData> displayedIcons = new();
     private List<IconData> previewIcons = new();
@@ -311,6 +337,27 @@
             var results = await Task.WhenAll(tasks);
             foreach (var batch in results)
                 allIcons.AddRange(batch);
+            iconsByPath = allIcons.ToDictionary(icon => icon.Path, StringComparer.Ordinal);
+            try
+            {
+                var catalog = await HttpClient.GetFromJsonAsync<StencilCatalog>("stencils/catalog.json");
+                if (catalog == null || catalog.Items.Count == 0)
+                    throw new InvalidOperationException("The stencil catalog is empty.");
+                var mappings = new Dictionary<string, StencilData>(StringComparer.Ordinal);
+                foreach (var stencil in catalog.Items)
+                    foreach (var source in stencil.Sources)
+                    {
+                        if (!iconsByPath.ContainsKey(source))
+                            throw new InvalidOperationException($"Unknown stencil source: {source}");
+                        mappings.Add(source, stencil);
+                    }
+                stencilsBySource = mappings;
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error loading stencils: {ex.Message}");
+                stencilLoadError = "Hand-drawn drawings could not load. Refresh the page; original icons are still available.";
+            }
 
             totalIconsLoaded = allIcons.Count;
             loadingMessage = $"Loaded {totalIconsLoaded} icons";
@@ -481,9 +528,14 @@
 
             // Convert typed JS results back to IconData for display
             filteredIcons = searchResults?
-                .Select(r => allIcons.FirstOrDefault(icon => icon.Name == r.Id))
+                .Select(r => iconsByPath.GetValueOrDefault(r.Id))
                 .OfType<IconData>()
                 .ToList() ?? new List<IconData>();
+            if (HandDrawnMode)
+                filteredIcons = filteredIcons
+                    .Where(icon => stencilsBySource.ContainsKey(icon.Path))
+                    .DistinctBy(icon => stencilsBySource[icon.Path].Id)
+                    .ToList();
 
             await JSRuntime.InvokeVoidAsync("xyzicon.searchEngine.recordQueryOutcome", searchTerm, filteredIcons.Count);
         }
@@ -565,7 +617,7 @@
         if (e.Key == "Enter" && activeCardIndex >= 0 && activeCardIndex < displayedIcons.Count)
         {
             var icon = displayedIcons[activeCardIndex];
-            await OnCopyRequested(GenerateSafeId(icon.Name), icon.Name, icon.DisplayName);
+            await OnCopyRequested(GenerateSafeId(icon.Path), icon.Path, GetExportName(icon));
         }
     }
 
@@ -575,7 +627,7 @@
             return;
 
         var activeIcon = displayedIcons[activeCardIndex];
-        await JSRuntime.InvokeVoidAsync("xyzicon.scrollToCard", $"card-{GenerateSafeId(activeIcon.Name)}");
+        await JSRuntime.InvokeVoidAsync("xyzicon.scrollToCard", $"card-{GenerateSafeId(activeIcon.Path)}");
         StateHasChanged();
     }
 
@@ -583,7 +635,7 @@
     {
         await InvokeAsync(async () =>
         {
-            hasSearched = !string.IsNullOrWhiteSpace(searchTerm) ||
+            hasSearched = HandDrawnMode || !string.IsNullOrWhiteSpace(searchTerm) ||
                           selectedProviders.Values.Any(v => !v);
             await FilterIcons();
             StateHasChanged();
@@ -609,7 +661,7 @@
         foreach (var provider in providers.Keys)
             selectedProviders[provider] = true;
 
-        hasSearched = !string.IsNullOrWhiteSpace(searchTerm);
+        hasSearched = HandDrawnMode || !string.IsNullOrWhiteSpace(searchTerm);
         await JSRuntime.InvokeVoidAsync("xyzicon.searchEngine.clearCache");
         await FilterIcons();
     }
@@ -627,7 +679,7 @@
     private async Task ClearSearch()
     {
         searchTerm = string.Empty;
-        hasSearched = selectedProviders.Values.Any(v => !v);
+        hasSearched = HandDrawnMode || selectedProviders.Values.Any(v => !v);
         await JSRuntime.InvokeVoidAsync("xyzicon.searchEngine.clearCache");
         await FilterIcons();
         liveAnnouncement = "Search cleared.";
@@ -637,6 +689,7 @@
     {
         searchTerm = string.Empty;
         hasSearched = false;
+        HandDrawnMode = false;
         foreach (var provider in providers.Keys)
             selectedProviders[provider] = true;
         filteredIcons.Clear();
@@ -672,10 +725,33 @@
         activeCardIndex = index;
     }
 
-    private string GenerateSafeId(string name)
+    private async Task SetHandDrawnMode(bool enabled)
     {
-        return "ic_" + Regex.Replace(name, @"[^a-zA-Z0-9]+", "_");
+        // Blazor can render while the JS search is awaited; never render old-style rows in the new mode.
+        displayedIcons.Clear();
+        filteredIcons.Clear();
+        HandDrawnMode = enabled;
+        lastCopiedSafeId = null;
+        lastDownloadedSafeId = null;
+        hasSearched = enabled || !string.IsNullOrWhiteSpace(searchTerm) || selectedProviders.Values.Any(v => !v);
+        await FilterIcons();
     }
+
+    private static string GenerateSafeId(string path) =>
+        "ic_" + Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(path))
+            .TrimEnd('=').Replace('+', '-').Replace('/', '_');
+
+    private string GetIconSource(IconData icon)
+    {
+        var path = HandDrawnMode ? stencilsBySource[icon.Path].Path : icon.Path;
+        return string.Join("/", path.TrimStart('/').Split('/').Select(Uri.EscapeDataString));
+    }
+
+    private string GetDisplayName(IconData icon) =>
+        HandDrawnMode ? stencilsBySource[icon.Path].Name : icon.DisplayName;
+
+    private string GetExportName(IconData icon) =>
+        GetDisplayName(icon) + (HandDrawnMode ? "-hand-drawn" : "");
 
     private string GetProviderLabel(string providerKey)
     {
@@ -806,6 +882,20 @@
     {
         [JsonPropertyName("id")]
         public string Id { get; set; } = string.Empty;
+    }
+
+    private class StencilData
+    {
+        public string Id { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string Path { get; set; } = string.Empty;
+        public string Review { get; set; } = "pending";
+        public List<string> Sources { get; set; } = new();
+    }
+
+    private class StencilCatalog
+    {
+        public List<StencilData> Items { get; set; } = new();
     }
 
     private class SvgFile

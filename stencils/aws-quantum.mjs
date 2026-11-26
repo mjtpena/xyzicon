@@ -1,0 +1,90 @@
+import { rect, oval, line, entry } from "./primitives.mjs";
+
+export const awsQuantumArtwork = [
+  entry("aws-braket-simulator-1", "aws", "Braket Simulator 1", ["Res_Amazon-Braket_Simulator-1_48"],
+    "The first simulator variant presents an atomic motif on a chip.",
+    [
+      oval(24, 35, 75, 35), line([36, 75], [36, 52], [43, 33], [54, 22], [66, 22], [78, 33], [85, 52], [85, 75]), oval(56, 49, 9, 9, true),
+      rect(84, 69, 28, 19), line([90, 75], [106, 75]), line([90, 81], [101, 81]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator-2", "aws", "Braket Simulator 2", ["Res_Amazon-Braket_Simulator-2_48"],
+    "The second simulator variant shows connected quantum states.",
+    [
+      rect(10, 30, 35, 44), line([10, 40], [45, 40]), line([17, 51], [37, 51]), line([17, 61], [32, 61]),
+      line([45, 52], [59, 52]), line([53, 46], [59, 52], [53, 58]),
+      oval(67, 25, 12, 12), oval(98, 36, 12, 12), oval(78, 70, 12, 12), line([79, 31], [98, 42]), line([73, 37], [83, 70]), line([101, 48], [90, 70]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator-3", "aws", "Braket Simulator 3", ["Res_Amazon-Braket_Simulator-3_48"],
+    "The third simulator variant displays a wave on a chip.",
+    [
+      rect(12, 22, 38, 40), line([12, 32], [50, 32]), line([20, 42], [42, 42]), line([20, 51], [35, 51]),
+      line([50, 46], [62, 46]), line([56, 40], [62, 46], [56, 52]),
+      line([69, 20], [69, 79], [115, 79]), line([73, 36], [78, 36], [83, 58], [88, 68], [93, 68], [99, 47], [104, 35], [112, 35]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator-4", "aws", "Braket Simulator 4", ["Res_Amazon-Braket_Simulator-4_48"],
+    "The fourth simulator variant uses crossed axes inside a chip.",
+    [
+      rect(15, 17, 93, 73), line([15, 29], [108, 29]), line([22, 23], [28, 23]), line([33, 23], [39, 23]),
+      oval(27, 38, 38, 38), line([34, 57], [58, 57]), line([38, 46], [54, 68]), line([54, 46], [38, 68]),
+      line([76, 44], [98, 44]), line([76, 56], [98, 56]), line([76, 68], [91, 68]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-chandelier", "aws", "Braket Chandelier", ["Res_Amazon-Braket_Chandelier_48"],
+    "A tiered cryogenic chandelier suspends quantum hardware.",
+    [
+      line([25, 16], [103, 16]), line([35, 16], [35, 34]), line([51, 16], [51, 34]), line([77, 16], [77, 34]), line([93, 16], [93, 34]),
+      line([29, 34], [99, 34]), line([39, 34], [39, 52]), line([54, 34], [54, 52]), line([74, 34], [74, 52]), line([89, 34], [89, 52]),
+      line([37, 52], [91, 52]), line([48, 52], [48, 69]), line([64, 52], [64, 69]), line([80, 52], [80, 69]), line([45, 69], [83, 69]), line([64, 69], [64, 81]), rect(57, 81, 14, 12), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-chip", "aws", "Braket Chip", ["Res_Amazon-Braket_Chip_48"],
+    "A quantum chip connects its internal circuit to external pins.",
+    [
+      rect(33, 22, 61, 61), line([44, 22], [44, 13]), line([59, 22], [59, 13]), line([74, 22], [74, 13]), line([86, 22], [86, 13]),
+      line([44, 83], [44, 92]), line([59, 83], [59, 92]), line([74, 83], [74, 92]), line([86, 83], [86, 92]),
+      line([33, 36], [23, 36]), line([33, 52], [23, 52]), line([33, 68], [23, 68]), line([94, 36], [104, 36]), line([94, 52], [104, 52]), line([94, 68], [104, 68]),
+      line([47, 68], [47, 51], [61, 51], [61, 37], [79, 37]), oval(75, 33, 8, 8), oval(43, 64, 8, 8), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-embedded-simulator", "aws", "Braket Embedded Simulator", ["Res_Amazon-Braket_Embedded-Simulator_48"],
+    "A smaller simulated processor runs inside a host chip.",
+    [
+      rect(23, 18, 83, 73), rect(42, 33, 44, 43), line([51, 44], [76, 44]), line([51, 53], [69, 53]), line([51, 62], [76, 62]),
+      line([37, 18], [37, 10]), line([55, 18], [55, 10]), line([73, 18], [73, 10]), line([91, 18], [91, 10]),
+      line([23, 37], [14, 37]), line([23, 54], [14, 54]), line([23, 71], [14, 71]), line([106, 37], [115, 37]), line([106, 54], [115, 54]), line([106, 71], [115, 71]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-managed-simulator", "aws", "Braket Managed Simulator", ["Res_Amazon-Braket_Managed-Simulator_48"],
+    "A control gear manages a simulated quantum processor.",
+    [
+      rect(20, 20, 69, 62), line([20, 33], [89, 33]), line([27, 27], [34, 27]), line([39, 27], [46, 27]),
+      oval(49, 42, 26, 26), oval(56, 49, 12, 12), line([62, 36], [62, 42]), line([62, 68], [62, 74]), line([43, 55], [49, 55]), line([75, 55], [81, 55]),
+      line([94, 41], [105, 41], [105, 72]), line([99, 66], [105, 72], [111, 66]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-noise-simulator", "aws", "Braket Noise Simulator", ["Res_Amazon-Braket_Noise-Simulator_48"],
+    "A noisy signal is modeled alongside an ideal wave.",
+    [
+      line([18, 20], [18, 86], [108, 86]), line([24, 57], [32, 57], [38, 41], [46, 30], [54, 33], [64, 53], [71, 68], [78, 70], [86, 57], [102, 57]),
+      line([24, 72], [31, 65], [36, 74], [43, 62], [49, 72], [56, 64], [62, 73], [69, 63], [75, 71], [83, 65], [90, 72], [100, 65]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-qpu", "aws", "Braket Quantum Processing Unit", ["Res_Amazon-Braket_QPU_48"],
+    "A quantum processor connects qubits on a hardware board.",
+    [
+      rect(11, 18, 102, 72), rect(36, 31, 51, 45), oval(43, 40, 9, 9), oval(69, 40, 9, 9), oval(56, 59, 9, 9), line([52, 45], [69, 45]), line([48, 49], [56, 60]), line([74, 49], [65, 60]),
+      line([20, 39], [36, 39]), line([20, 53], [36, 53]), line([20, 67], [36, 67]), line([87, 39], [104, 39]), line([87, 53], [104, 53]), line([87, 67], [104, 67]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-simulator", "aws", "Braket Simulator", ["Res_Amazon-Braket_Simulator_48"],
+    "A window runs a quantum simulation.",
+    [
+      rect(13, 17, 99, 72), line([13, 29], [112, 29]), oval(21, 21, 4, 4, true), oval(29, 21, 4, 4, true),
+      line([25, 70], [25, 39], [46, 55], [25, 70]), line([59, 68], [59, 39]), line([59, 68], [103, 68]), line([64, 60], [72, 48], [80, 57], [88, 42], [98, 50]), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-state-vector", "aws", "Braket State Vector", ["Res_Amazon-Braket_State-Vector_48"],
+    "A state vector points from the origin into a quantum state space.",
+    [
+      line([25, 82], [25, 19]), line([25, 82], [101, 82]), line([25, 82], [61, 44]), line([52, 45], [61, 44], [60, 53]),
+      line([72, 23], [72, 68]), line([83, 28], [83, 65]), oval(86, 34, 22, 22), line([87, 60], [92, 40], [101, 35], [109, 43]), oval(95, 43, 6, 6, true), line([14, 109], [110, 109]),
+    ]),
+  entry("aws-braket-tensor-network", "aws", "Braket Tensor Network", ["Res_Amazon-Braket_Tensor-Network_48"],
+    "A network of connected tensors represents a quantum computation.",
+    [
+      rect(18, 20, 13, 13), rect(59, 14, 13, 13), rect(96, 25, 13, 13), rect(36, 55, 13, 13), rect(79, 57, 13, 13), rect(58, 85, 13, 13),
+      line([31, 27], [59, 20]), line([72, 21], [96, 31]), line([25, 33], [36, 55]), line([66, 27], [49, 55]), line([72, 27], [79, 57]), line([102, 38], [92, 57]), line([49, 62], [79, 64]), line([43, 68], [58, 88]), line([85, 70], [71, 88]), line([14, 109], [110, 109]),
+    ]),
+];

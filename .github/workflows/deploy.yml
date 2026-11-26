@@ -23,6 +23,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Node for release gate
+        if: github.ref == 'refs/heads/main'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Require complete, reviewed hand-drawn catalog
+        if: github.ref == 'refs/heads/main'
+        run: |
+          npm ci
+          npm run stencils:check -- --approved --complete
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -41,13 +54,6 @@ jobs:
         run: |
           cp -r ./dist/wwwroot/cloudicons/* ./dist/wwwroot/
           rm -rf ./dist/wwwroot/cloudicons
-
-      - name: Add .nojekyll file
-        run: touch ./dist/wwwroot/.nojekyll
-
-      - name: Fix icon paths in JSON files
-        run: |
-          find ./dist/wwwroot/data -name "*.json" -exec sed -i 's|"/icons/|"icons/|g' {} \;
 
       - name: Add .nojekyll file
         run: touch ./dist/wwwroot/.nojekyll
