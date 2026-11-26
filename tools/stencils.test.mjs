@@ -4,6 +4,7 @@ import { readFileSync } from "node:fs";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
 import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity } from "./build-stencils.mjs";
+import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
   validateArtwork(artwork);
@@ -127,6 +128,44 @@ test("verified exact-geometry aliases merge only with naming evidence", () => {
     pathData("wwwroot/icons/aws/Architecture-Group-Icons_07312026/Private-subnet_32.svg"),
     pathData("wwwroot/icons/aws/Architecture-Group-Icons_07312026/Public-subnet_32.svg"),
   );
+});
+
+test("alias audit surfaces unsupported and unreadable source evidence", async () => {
+  const unsupported = normalizedGeometrySignature(
+    '<svg xmlns="http://www.w3.org/2000/svg"><g transform="scale(2)"><path d="M0 0L10 10"/></g></svg>',
+    "/icons/example.svg",
+  );
+  assert.equal(unsupported.signature, null);
+  assert.match(unsupported.unsupported, /transform|use|defs|clip|mask|style/);
+  assert.throws(
+    () => normalizedGeometrySignature('<svg xmlns="http://www.w3.org/2000/svg"><text>no geometry</text></svg>', "/icons/text.svg"),
+    /Empty or unsupported primitive geometry/,
+  );
+  await assert.rejects(
+    () => sourceMask("/icons/missing/audit-test.svg"),
+    /Source unreadable \/icons\/missing\/audit-test\.svg/,
+  );
+});
+
+test("alpha masks have fixed raster dimensions and opaque backgrounds are triage-only", () => {
+  const sparse = new Uint8Array(64 * 64 * 4);
+  sparse[(4095 * 4) + 3] = 255;
+  const mask = packAlphaMask(sparse);
+  assert.equal(mask.length, 128);
+  assert.equal(mask[127] & (1 << 31), 1 << 31);
+
+  const opaque = rasterPreprocessingStatus(
+    '<svg viewBox="0 0 48 48"><rect x="0" y="0" width="48" height="48" fill="#fff"/></svg>',
+    "/icons/opaque.svg",
+  );
+  assert.equal(opaque.supported, false);
+  assert.match(opaque.reason, /Opaque full-canvas background/);
+
+  const transparent = rasterPreprocessingStatus(
+    '<svg viewBox="0 0 48 48"><path d="M1 1h46v46H1z" fill="#fff"/></svg>',
+    "/icons/light.svg",
+  );
+  assert.equal(transparent.supported, true);
 });
 
 test("packed monochrome silhouettes preserve exact intersection-over-union scores", () => {

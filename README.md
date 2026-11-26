@@ -48,6 +48,17 @@ python -m unittest discover -s tools -p "test_*.py"
 npm run stencils:check
 ```
 
+**Source alias audit:** `npm run stencils:audit` rasterizes every mapped source SVG and
+writes `alias-audit.json`. It fails immediately on unreadable or blank source/raster
+output, and explicitly lists unsupported SVG constructs (transforms, `use`, defs,
+clips, masks, or styles) that cannot support exact-geometry proof. Cross-composition
+matches and normalized primitive differences are triage candidates only; they require
+manual visual and semantic evidence before mapping changes. The report is not a claim
+of exhaustive catalog review.
+Raster comparisons use fixed 64x64 alpha masks for transparent/light SVG artwork.
+Sources with an explicit full-canvas opaque rect are reported as triage-only and
+excluded from silhouette comparisons, avoiding solid-background rectangle artifacts.
+
 **Review / repeat gate:** new drawings start pending review, not automatically approved. Review every drawing for recognizability without its caption, distinctness from its three closest matches, direction, clipping and small-size legibility. Mark **Needs rework** with specific notes or approve it. Browser decisions are local until exported and imported:
 
 ```powershell
