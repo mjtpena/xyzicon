@@ -117,6 +117,14 @@ test("packed monochrome silhouettes preserve exact intersection-over-union score
   assert.throws(() => silhouetteSimilarity(packMask(new Uint8Array(32).fill(255)), packMask(new Uint8Array(32).fill(255))), /blank/);
 });
 
+test("hand-drawn UI keeps every mapped source entry and exact source name", () => {
+  const razor = readFileSync(new URL("../Pages/Index.razor", import.meta.url), "utf8");
+  assert.doesNotMatch(razor, /\.DistinctBy\(icon => stencilsBySource\[icon\.Path\]\.Id\)/);
+  assert.match(razor, /GetDisplayName\(IconData icon\) =>\s+icon\.DisplayName;/);
+  assert.match(razor, /Where\(icon => stencilsBySource\.ContainsKey\(icon\.Path\)\)/);
+  assert.match(razor, /unique concept drawings cover @stencilsBySource\.Count of @totalIconsLoaded source entries/);
+});
+
 test("same-named source entries stay distinct in search and usage tracking", () => {
   const context = { window: {}, console };
   vm.runInNewContext(readFileSync(new URL("../wwwroot/js/site.js", import.meta.url), "utf8"), context);
