@@ -12,6 +12,8 @@ const reviewFile = path.join(root, "stencils", "reviews.json");
 const pairReviewFile = path.join(root, "stencils", "pair-reviews.json");
 const generator = rough.generator();
 const hash = (value) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
+const normalizedSvgRevision = (value) =>
+  createHash("sha256").update(value.toString("utf8").replace(/\r\n/g, "\n")).digest("hex");
 const json = (value) => JSON.stringify(value, null, 2) + "\n";
 const escape = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -230,16 +232,41 @@ export async function validateIndependentReview(qa, items, sourceRevisions, near
   let state;
   try { state = JSON.parse(await readFile(file, "utf8")); }
   catch (error) { if (error.code === "ENOENT") throw new Error("Independent review state is missing."); throw error; }
+  await validateIndependentReviewRecords(state, qa, items, sourceRevisions, nearest, revisions, rootOverride);
   if (state.status !== "complete")
     throw new Error(`Independent audit incomplete: ${state.status}; ${state.compositionsReviewed || 0}/${qa.count} compositions independently reviewed.`);
   if (state.compositionsReviewed !== qa.count)
     throw new Error(`Independent audit count mismatch: ${state.compositionsReviewed}/${qa.count}.`);
   if (!Array.isArray(state.reviews) || state.reviews.length !== qa.count)
     throw new Error("Independent audit records are incomplete.");
+}
+
+export async function validateIndependentReviewPartial(qa, items, sourceRevisions, nearest, revisions, rootOverride = root) {
+  const file = path.join(rootOverride, "stencils", "independent-review-state.json");
+  let state;
+  try { state = JSON.parse(await readFile(file, "utf8")); }
+  catch (error) { if (error.code === "ENOENT") throw new Error("Independent review state is missing."); throw error; }
+  await validateIndependentReviewRecords(state, qa, items, sourceRevisions, nearest, revisions, rootOverride);
+  return state;
+}
+
+async function validateIndependentReviewRecords(state, qa, items, sourceRevisions, nearest, revisions, rootOverride = root) {
+  if (!state || !["in-progress", "complete"].includes(state.status))
+    throw new Error("Independent audit state status is invalid.");
+  if (state.compositionCount !== qa.count)
+    throw new Error(`Independent audit composition count mismatch: ${state.compositionCount}/${qa.count}.`);
+  if (!Array.isArray(state.reviews))
+    throw new Error("Independent audit records are incomplete.");
+  if (!Number.isInteger(state.compositionsReviewed) ||
+      state.compositionsReviewed !== state.reviews.length ||
+      state.compositionsReviewed > qa.count)
+    throw new Error("Independent audit partial count mismatch.");
+  if (state.status === "complete" && state.compositionsReviewed !== qa.count)
+    throw new Error(`Independent audit count mismatch: ${state.compositionsReviewed}/${qa.count}.`);
   const catalogIds = new Set(items.map((item) => item.id));
   const reviewIds = new Set(state.reviews.map((review) => review.id));
-  if (reviewIds.size !== qa.count || [...catalogIds].some((id) => !reviewIds.has(id)))
-    throw new Error("Independent audit contains duplicate, bogus or missing composition records.");
+  if (reviewIds.size !== state.reviews.length)
+    throw new Error("Independent audit contains duplicate composition records.");
   if ([...reviewIds].some((id) => !catalogIds.has(id)))
     throw new Error("Independent audit contains unknown composition records.");
   for (const review of state.reviews) {
@@ -255,20 +282,44 @@ export async function validateIndependentReview(qa, items, sourceRevisions, near
       throw new Error(`Independent audit missing source revisions: ${review.id}`);
     if (JSON.stringify(review.sourceRevisions) !== JSON.stringify(sourceRevisions[review.id]))
       throw new Error(`Independent audit stale source revisions: ${review.id}`);
+    if (typeof review.svgRevision !== "string")
+      throw new Error(`Independent audit missing target SVG revision: ${review.id}`);
+    const targetSvg = await readFile(path.join(rootOverride, "wwwroot", "stencils", `${review.id}.svg`));
+    if (review.svgRevision !== normalizedSvgRevision(targetSvg))
+      throw new Error(`Independent audit stale target SVG: ${review.id}`);
     if (!Array.isArray(review.reviewedSizes) ||
         JSON.stringify([...review.reviewedSizes].sort((a, b) => a - b)) !== JSON.stringify([32, 64, 128]))
       throw new Error(`Independent audit missing 128/64/32 evidence: ${review.id}`);
     if (!Array.isArray(review.neighborDecisions))
       throw new Error(`Independent audit missing semantic-neighbor decisions: ${review.id}`);
-    const expectedNeighbors = nearest[review.id].map((pair) => pair.a === review.id ? pair.b : pair.a).sort();
-    const actualNeighbors = review.neighborDecisions.map((decision) => decision.id).sort();
-    if (JSON.stringify(actualNeighbors) !== JSON.stringify(expectedNeighbors))
-      throw new Error(`Independent audit stale semantic-neighbor set: ${review.id}`);
+    if (!["automated-and-manual", "manual", "none"].includes(review.semanticNeighborCoverage))
+      throw new Error(`Independent audit missing semantic-neighbor coverage mode: ${review.id}`);
+    const expectedAutomatedNeighbors = (nearest[review.id] || [])
+      .map((pair) => pair.a === review.id ? pair.b : pair.a);
+    const actualNeighbors = new Set(review.neighborDecisions.map((decision) => decision.id));
+    if (review.semanticNeighborCoverage === "none") {
+      if (review.neighborDecisions.length !== 0 ||
+          typeof review.semanticNeighborReason !== "string" ||
+          !review.semanticNeighborReason.trim())
+        throw new Error(`Independent audit invalid no-neighbor justification: ${review.id}`);
+    } else {
+      for (const neighborId of expectedAutomatedNeighbors) {
+        if (!actualNeighbors.has(neighborId))
+          throw new Error(`Independent audit missing automated semantic-neighbor decision: ${review.id} -> ${neighborId}`);
+      }
+      if (review.neighborDecisions.length === 0)
+        throw new Error(`Independent audit missing semantic-neighbor decisions: ${review.id}`);
+    }
     for (const decision of review.neighborDecisions) {
       if (decision.status !== "approved" || typeof decision.reason !== "string" || !decision.reason.trim())
         throw new Error(`Independent audit unapproved or reasonless neighbor decision: ${review.id}`);
       if (decision.revision !== revisions[decision.id])
         throw new Error(`Independent audit stale neighbor revision: ${review.id} -> ${decision.id}`);
+      if (typeof decision.svgRevision !== "string")
+        throw new Error(`Independent audit missing neighbor SVG revision: ${review.id} -> ${decision.id}`);
+      const neighborSvg = await readFile(path.join(rootOverride, "wwwroot", "stencils", `${decision.id}.svg`));
+      if (decision.svgRevision !== normalizedSvgRevision(neighborSvg))
+        throw new Error(`Independent audit stale neighbor SVG: ${review.id} -> ${decision.id}`);
     }
   }
 }
@@ -443,6 +494,8 @@ export async function build(args = []) {
 
   if (args.includes("--independent"))
     await validateIndependentReview(qa, items, sourceRevisions, qa.nearest, revisions, root);
+  if (args.includes("--independent-partial"))
+    await validateIndependentReviewPartial(qa, items, sourceRevisions, qa.nearest, revisions, root);
   validateRelease(qa, args);
   for (const [name, content] of outputs) {
     const file = path.join(output, name);

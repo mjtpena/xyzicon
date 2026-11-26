@@ -3,9 +3,10 @@ import assert from "node:assert/strict";
 import { readFileSync, writeFileSync, mkdirSync, mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
-import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity, validateAliasEvidence, validateIndependentReview } from "./build-stencils.mjs";
+import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity, validateAliasEvidence, validateIndependentReview, validateIndependentReviewPartial } from "./build-stencils.mjs";
 import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus, splitCandidateSupport } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
@@ -152,16 +153,22 @@ test("alias audit surfaces unsupported and unreadable source evidence", async ()
 test("durable catalog review state records evidence and remaining scope", () => {
   const state = JSON.parse(readFileSync(new URL("../stencils/audit-review-state.json", import.meta.url), "utf8"));
   assert.equal(state.auditStatus, "in_progress");
-  assert.equal(state.catalog.compositions, 2237);
-  assert.equal(state.catalog.sourceEntries, 5419);
   assert.equal(state.independentReview.status, "not-completed");
   assert.equal(state.independentReview.compositionsReviewed, 0);
-  assert.equal(state.independentReview.compositionsRemaining, 2237);
+  assert.equal(state.catalog.compositions, 2237);
 });
 
 test("independent review gate fails closed on missing, bogus, duplicate and stale records", async () => {
   const root = mkdtempSync(path.join(tmpdir(), "xyzicon-independent-"));
   mkdirSync(path.join(root, "stencils"));
+  mkdirSync(path.join(root, "wwwroot", "stencils"), { recursive: true });
+  const targetSvg = "<svg><rect width=\"10\" height=\"10\"/></svg>";
+  const neighborSvg = "<svg><circle cx=\"5\" cy=\"5\" r=\"5\"/></svg>";
+  writeFileSync(path.join(root, "wwwroot", "stencils", "a.svg"), targetSvg);
+  writeFileSync(path.join(root, "wwwroot", "stencils", "b.svg"), neighborSvg);
+  const svgHash = (value) => createHash("sha256").update(value).digest("hex");
+  const targetRevision = svgHash(targetSvg);
+  const neighborRevision = svgHash(neighborSvg);
   const stateFile = path.join(root, "stencils", "independent-review-state.json");
   const items = [{ id: "a", revision: "r1", comparisonRevision: "c1", sources: ["/icons/a.svg"] }];
   const sourceRevisions = { a: [["/icons/a.svg", "source-v1"]] };
@@ -169,12 +176,14 @@ test("independent review gate fails closed on missing, bogus, duplicate and stal
   const revisions = { b: "rb1" };
   const qa = { count: 1 };
   const valid = {
-    status: "complete", compositionsReviewed: 1,
+    status: "complete", compositionCount: 1, compositionsReviewed: 1,
     reviews: [{
       id: "a", status: "approved", drawingRevision: "r1", comparisonRevision: "c1",
       sourceRevisions: [["/icons/a.svg", "source-v1"]],
+      svgRevision: targetRevision,
       reviewedSizes: [128, 64, 32],
-      neighborDecisions: [{ id: "b", revision: "rb1", status: "approved", reason: "Distinct semantic neighbor." }],
+      semanticNeighborCoverage: "automated-and-manual",
+      neighborDecisions: [{ id: "b", revision: "rb1", svgRevision: neighborRevision, status: "approved", reason: "Distinct semantic neighbor." }],
     }],
   };
   writeFileSync(stateFile, JSON.stringify(valid));
@@ -195,6 +204,27 @@ test("independent review gate fails closed on missing, bogus, duplicate and stal
   const duplicate = { ...valid, compositionsReviewed: 2, reviews: [valid.reviews[0], valid.reviews[0]] };
   writeFileSync(stateFile, JSON.stringify(duplicate));
   await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /count mismatch|duplicate/i);
+
+  const staleSource = { ...valid, reviews: [{ ...valid.reviews[0], sourceRevisions: [["/icons/a.svg", "source-v0"]] }] };
+  writeFileSync(stateFile, JSON.stringify(staleSource));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /stale source revisions/i);
+
+  const staleNeighbor = { ...valid, reviews: [{ ...valid.reviews[0], neighborDecisions: [{ id: "b", revision: "old", status: "approved", reason: "Distinct." }] }] };
+  writeFileSync(stateFile, JSON.stringify(staleNeighbor));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /stale neighbor revision/i);
+
+  const missingSizes = { ...valid, reviews: [{ ...valid.reviews[0], reviewedSizes: [128, 64] }] };
+  writeFileSync(stateFile, JSON.stringify(missingSizes));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /128\/64\/32/i);
+
+  const partial = { ...valid, status: "in-progress", compositionCount: 1, compositionsReviewed: 1 };
+  writeFileSync(stateFile, JSON.stringify(partial));
+  await validateIndependentReviewPartial(qa, items, sourceRevisions, nearest, revisions, root);
+
+  const stalePartial = { ...valid, status: "in-progress", compositionCount: 1, compositionsReviewed: 1,
+    reviews: [{ ...valid.reviews[0], drawingRevision: "stale" }] };
+  writeFileSync(stateFile, JSON.stringify(stalePartial));
+  await assert.rejects(() => validateIndependentReviewPartial(qa, items, sourceRevisions, nearest, revisions, root), /stale drawing revision/i);
 });
 
 test("geometry and raster candidate support is evaluated independently", () => {

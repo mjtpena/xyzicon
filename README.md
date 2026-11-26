@@ -56,9 +56,23 @@ matches and normalized primitive differences are triage candidates only; they re
 manual visual and semantic evidence before mapping changes. The report is not a claim
 of exhaustive catalog review. `alias-audit.json` is generated and gitignored because it
 becomes stale as source mappings and artwork change.
+
+**Revision-bound visual review utility:** `npm run stencils:review-sheet -- <selection.json> <new-output-directory>`.
+The selection JSON is an array such as `[{"id":"azure-download","semanticNeighbors":["azure-wac-installer"]}]`.
+The utility renders mapped sources, 128/64/32 target previews, geometric neighbors and selected semantic neighbors,
+and writes a manifest containing source, drawing, comparison and SVG revisions. It creates a new directory only and
+records no approvals. Import the manifest decision manually, preserving all revision and 128/64/32 evidence.
+
+**Lexical neighbor suggestions (developer triage only):** `npm run stencils:suggest-neighbors -- <drawing-id>...`.
+This prints lexical/ID candidates only and explicitly warns that they are incomplete. It does not approve drawings,
+prove semantic neighbor coverage, or satisfy the independent review gate.
 Raster comparisons use fixed 64x64 alpha masks for transparent/light SVG artwork.
 Sources with an explicit full-canvas opaque rect are reported as triage-only and
 excluded from silhouette comparisons, avoiding solid-background rectangle artifacts.
+
+**Raster overflow/nonblank triage (developer-only):** `npm run stencils:raster-check`.
+It reports 32px blank previews and pixels outside the original 128 viewBox. It does not assess
+recognizability, semantic correctness or independent visual approval.
 
 **Review / repeat gate:** new drawings start pending review, not automatically approved. Review every drawing for recognizability without its caption, distinctness from its three closest matches, direction, clipping and small-size legibility. Mark **Needs rework** with specific notes or approve it. Browser decisions are local until exported and imported:
 
