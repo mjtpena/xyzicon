@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 225,
+  "compositionsReviewed": 231,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -15649,6 +15649,448 @@
         }
       ],
       "notes": "A bound index with stacked rows is distinct from the OpenSearch search lens and multi-panel dashboards."
+    },
+    {
+      "id": "aws-bedrock",
+      "status": "approved",
+      "drawingRevision": "0f776a5d65a8e01f0bbf103aae6cc04417fd58b30d6ed5a775147fab0f3979b3",
+      "comparisonRevision": "4d1fbde5d6bdeaee1569ed1c793a21bf3d43e57d47868c7135b172b3c8049048",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Artificial-Intelligence/16/Arch_Amazon-Bedrock_16.svg",
+          "a36f454960b9520c9fd064573af44c22a222c185a4a971cd97354cc848390a0a"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Artificial-Intelligence/32/Arch_Amazon-Bedrock_32.svg",
+          "49e62f697f3b915acc8235bbdf5cf99603e6ed5714d93a07fb3038a96a2d90d0"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Artificial-Intelligence/48/Arch_Amazon-Bedrock_48.svg",
+          "9bd66de4ff2f02a85b09f6e26da90d58cd3e4e82ce4151a44e56b076ba9298a2"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Artificial-Intelligence/64/Arch_Amazon-Bedrock_64.svg",
+          "1da78c0dde34982746ec4c6121cc65f23bffe99c4fd740fe6cef4ae3f5b8d2c4"
+        ]
+      ],
+      "svgRevision": "511eedb046fbaeaad143a854f27794bd9776a64ba10731dfdbe75c58c9aabede",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-elastic-beanstalk",
+          "revision": "be290001a7ad46d217c68d7dd062b9456069d2eb1bbf17c819a233e4529662ea",
+          "svgRevision": "ed0681811da735204a101757da13108ce5094d381dac095f7bfecaf55ca23394",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Bedrock's a foundation platform supporting a spark-marked model network is visually distinct from AWS Elastic Beanstalk."
+        },
+        {
+          "id": "aws-aurora",
+          "revision": "5b043a7e144983b9fbfc52101914a1eada0ac32b539d25548c4460a915381383",
+          "svgRevision": "446a1c88e08c18721a6590d6167abdc1ac9c1bd21f9bf0e406e7772f957bd51d",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Bedrock's a foundation platform supporting a spark-marked model network is visually distinct from Amazon Aurora."
+        },
+        {
+          "id": "fabric-asterisk",
+          "revision": "f90bce544b016bbb9ae931bd1963d503debb238c68e7001070f6aec1722d26c0",
+          "svgRevision": "fd0821aef6f8d0f78d7024c107e4a46328a2f27b8f981c5e1d01aa9994e99660",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Bedrock's a foundation platform supporting a spark-marked model network is visually distinct from Asterisk."
+        },
+        {
+          "id": "aws-sagemaker",
+          "revision": "6fbb1d5eb9572f5d04373e828bd0a83af7553d4ba6147955b35c7eb3c2714869",
+          "svgRevision": "e715475d9358c3eb01915bc99201f64df8836ee1f29a39a66c76c1611f396f3f",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Bedrock's a foundation platform supporting a spark-marked model network is visually distinct from Amazon SageMaker."
+        },
+        {
+          "id": "aws-bedrock-agentcore",
+          "revision": "c1cb6cbaaee9287f3471c509bbca15afa9dc3271d43720966ab14bcb406e7199",
+          "svgRevision": "d5338a0c59c344611fa2ca5f30c005f6bb3ae0b14196ddcbe327306e731c30d6",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Bedrock's a foundation platform supporting a spark-marked model network is visually distinct from Amazon Bedrock AgentCore."
+        }
+      ],
+      "notes": "A model rises from a foundation platform with a spark and connected intelligence nodes, distinct from SageMaker training and AgentCore runtime."
+    },
+    {
+      "id": "aws-ecr",
+      "status": "approved",
+      "drawingRevision": "f89c8ab688645c606170a9f5d668065c310fa90c1082242fc5095b483c5a2bcb",
+      "comparisonRevision": "95a04a5e723eaa92b9609ec11e4a1ccc08b0f4101d68d65de130f16cfc34c8f5",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/16/Arch_Amazon-Elastic-Container-Registry_16.svg",
+          "be7c47fb081bc87f8b6d32806f25957381e07560e9aef4824dcad5bcc834e9d5"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/32/Arch_Amazon-Elastic-Container-Registry_32.svg",
+          "4897e4eb498812d7f5ed5647370ccc2e98db4d94a7ae0b2f8439856e5d2047ec"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/48/Arch_Amazon-Elastic-Container-Registry_48.svg",
+          "bb113401df25fdf9e58d3f1dcea2b7c8252f379b91d701d09c1371939bdaf2e2"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/64/Arch_Amazon-Elastic-Container-Registry_64.svg",
+          "dec76142e0e169e14ce74cfc73f4a424922ff6a6ba3dc8c5c467b9149bbb3234"
+        ]
+      ],
+      "svgRevision": "7112297069fec4f4dd54a21b2eb63bf28f593ec37d33b263a62a9daed5fc5a8a",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-storage-hubs",
+          "revision": "37feddbc3554e1175330aaa87c48490eca0046624fbb0173cf1043ce28ee49ca",
+          "svgRevision": "19eb99db8a245dfa5f2f9b74b5766077fe6cb050670db2f3d01fc7f8564a14fc",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Registry's a shelf of tagged container images with a pull arrow is visually distinct from Storage Hubs."
+        },
+        {
+          "id": "fabric-table-external",
+          "revision": "5ad00716895e58c6047d82306f1018cc3dda2ce42a70439ab604e5407deb301b",
+          "svgRevision": "e259247f532f9ce918ce4e34f7cac701e6bcb2b681753d046fec2d5f3b159af6",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Registry's a shelf of tagged container images with a pull arrow is visually distinct from External table."
+        },
+        {
+          "id": "aws-elasticache",
+          "revision": "fdf0e79d27c0800e6deb72fd71297fbbecfe5f828b96af26be5e74cc03cceb0c",
+          "svgRevision": "21075651fe45c60b33390f244553dd681dbf2f1d7eb10173fc6ac0c2f1904e52",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Registry's a shelf of tagged container images with a pull arrow is visually distinct from Amazon ElastiCache."
+        },
+        {
+          "id": "aws-ecr-image",
+          "revision": "fe416727c3fcce13464dbf313b13a15cf519b38ea281081972b417016128034a",
+          "svgRevision": "6d74126e077003c3fdcd414ddc37fbdf941fc5313d8805bc827460f639dc5cb0",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Registry's a shelf of tagged container images with a pull arrow is visually distinct from ECR Image."
+        },
+        {
+          "id": "aws-ecr-registry",
+          "revision": "fde637b0c4d38e939da2211f3bb3ceb273862df6675a185c6701706b46fa3adc",
+          "svgRevision": "e6b2db9cfd84f9a13f022226f16b52cf45980a36880ab409edb991a81e09a3d3",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Registry's a shelf of tagged container images with a pull arrow is visually distinct from ECR Registry."
+        },
+        {
+          "id": "aws-ecs",
+          "revision": "0cb557262b85cbec0255ac6e7a981958de8f3eff2fe85e902a99c88702efc596",
+          "svgRevision": "fcfe8fd17cacc5cea65f219a22a289df9089a9504d1dea3e372e286ae3c92adf",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Registry's a shelf of tagged container images with a pull arrow is visually distinct from Amazon Elastic Container Service."
+        }
+      ],
+      "notes": "A registry shelf holds tagged container images with a pull arrow, distinct from ECR image/registry details and ECS task orchestration."
+    },
+    {
+      "id": "aws-ecs",
+      "status": "approved",
+      "drawingRevision": "0cb557262b85cbec0255ac6e7a981958de8f3eff2fe85e902a99c88702efc596",
+      "comparisonRevision": "68408755f08a2f97e40132b91465631338f40de2f4d8cbbd9debb581be3d7062",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/16/Arch_Amazon-Elastic-Container-Service_16.svg",
+          "1be5167a89f96acdf844d54f4ba8757d818308f159a37b000f1256d8dd514d12"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/32/Arch_Amazon-Elastic-Container-Service_32.svg",
+          "a6a5a4dbbe83ef99a0b79789dbe463d570eb2e817369fa81eb74146bd2bb2437"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/48/Arch_Amazon-Elastic-Container-Service_48.svg",
+          "466e616a3f1f14bd1a4253babd600b88964b2b5135081460804e840646d8dffe"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Containers/64/Arch_Amazon-Elastic-Container-Service_64.svg",
+          "cf98ee643e13dcb680249edade55d0cdce31eb2a1599890268f7d95277e85a10"
+        ]
+      ],
+      "svgRevision": "fcfe8fd17cacc5cea65f219a22a289df9089a9504d1dea3e372e286ae3c92adf",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-aurora",
+          "revision": "5b043a7e144983b9fbfc52101914a1eada0ac32b539d25548c4460a915381383",
+          "svgRevision": "446a1c88e08c18721a6590d6167abdc1ac9c1bd21f9bf0e406e7772f957bd51d",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Service's a controller deploying two container tasks is visually distinct from Amazon Aurora."
+        },
+        {
+          "id": "gcp-dataproc",
+          "revision": "7f4018aaf6f6499eba2216d448300899eee7babbaadb957523da821924b3c1f0",
+          "svgRevision": "f4303ed5fdd691711d93ab0148a41ac385cae28216d869ba92812c8ba6242252",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Service's a controller deploying two container tasks is visually distinct from Dataproc."
+        },
+        {
+          "id": "aws-datazone-portal",
+          "revision": "00c8269c9b8bfe3519faa0cdd8c3cda33913b593abc1676428d2d015dbeeb68c",
+          "svgRevision": "cafae4ea8cb653d68238a74aeb5c2296eb21454e1564b0d55ebde768286e9756",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Service's a controller deploying two container tasks is visually distinct from DataZone Data Portal."
+        },
+        {
+          "id": "aws-ecr",
+          "revision": "f89c8ab688645c606170a9f5d668065c310fa90c1082242fc5095b483c5a2bcb",
+          "svgRevision": "7112297069fec4f4dd54a21b2eb63bf28f593ec37d33b263a62a9daed5fc5a8a",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Service's a controller deploying two container tasks is visually distinct from Amazon Elastic Container Registry."
+        },
+        {
+          "id": "aws-eks",
+          "revision": "dbc1cfdec8fc3321056df339e1951d28035d3705a9503f2748369a0954442148",
+          "svgRevision": "f055d376b0d4aff574c9cefda4438cb02fb4ddc5f4b4086e15b67c57aee4632b",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Service's a controller deploying two container tasks is visually distinct from Amazon Elastic Kubernetes Service."
+        },
+        {
+          "id": "aws-fargate",
+          "revision": "ce87eeaa5a5cbc86d36087b818d80145cf7fc0216333e22819fe9c27aace628e",
+          "svgRevision": "79cfed8818e9ebfc910daaf48283e4f710a85f371d39a65e924fff2f10ddbaf0",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Elastic Container Service's a controller deploying two container tasks is visually distinct from AWS Fargate."
+        }
+      ],
+      "notes": "A controller deploys two container tasks, distinct from ECR image storage, EKS hexagonal orchestration, and the Fargate compute cube."
+    },
+    {
+      "id": "aws-elasticache",
+      "status": "approved",
+      "drawingRevision": "fdf0e79d27c0800e6deb72fd71297fbbecfe5f828b96af26be5e74cc03cceb0c",
+      "comparisonRevision": "b2aab7a03f505c0ffd100269de02b2455d368dba257b9b68a3b9345c96dc1847",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/16/Arch_Amazon-ElastiCache_16.svg",
+          "7635dc0540f3f46438cf34baffa972de5d65ac0720ef78a5f18e5704804e254c"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/32/Arch_Amazon-ElastiCache_32.svg",
+          "b4d45886f9ad10f343fb9e4f982fa6501a2ac1b2e1670dabea207de28ed598ef"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/48/Arch_Amazon-ElastiCache_48.svg",
+          "5b6f98a94946e8aecf7a759cc821cf4c6bfa8fd475fa8080425fba63afc3c731"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Databases/64/Arch_Amazon-ElastiCache_64.svg",
+          "19bf94cf55263eae1a6834f7ddd586cec4d8bc37317d23bf8fa02dfb77e4da5c"
+        ]
+      ],
+      "svgRevision": "21075651fe45c60b33390f244553dd681dbf2f1d7eb10173fc6ac0c2f1904e52",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-window-asterisk",
+          "revision": "05da5b672b1fc9e6e35f20b249c5906be0df7434e95a7e3ef56f7f153a6a7106",
+          "svgRevision": "b4c3363eef30c2309cb5ee6395a48e99b429d185c34716fd8be261d7ef09afe0",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon ElastiCache's a cached key-value grid with a speed gauge is visually distinct from Window asterisk."
+        },
+        {
+          "id": "azure-storage-hubs",
+          "revision": "37feddbc3554e1175330aaa87c48490eca0046624fbb0173cf1043ce28ee49ca",
+          "svgRevision": "19eb99db8a245dfa5f2f9b74b5766077fe6cb050670db2f3d01fc7f8564a14fc",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon ElastiCache's a cached key-value grid with a speed gauge is visually distinct from Storage Hubs."
+        },
+        {
+          "id": "fabric-window-list-filter",
+          "revision": "de492c52725af2bdd58eac6586dd0f696d3466b26c3b9c4d3b88ebf3d36efe5e",
+          "svgRevision": "631e0f2fc6622c9664f206958462d8394f96113de7272498b21d6b3d642b65df",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon ElastiCache's a cached key-value grid with a speed gauge is visually distinct from Window list filter."
+        },
+        {
+          "id": "aws-elasticache-valkey",
+          "revision": "aa8d39c62c24ffca40c9aab49d31109a18414e18bee38f1fef0672dfdbf49056",
+          "svgRevision": "3f165f4a2ca8c5ef577f6245acb41295f5e843353f3f0aa5d6783e0d6f84d4c3",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon ElastiCache's a cached key-value grid with a speed gauge is visually distinct from ElastiCache for Valkey."
+        },
+        {
+          "id": "aws-elasticache-redis",
+          "revision": "70aa24a1c41b137fbaa44017d49c7c0c55521d7ddf6b65f1bdb349e3217ff47f",
+          "svgRevision": "2de3e3fbd5d24d95f8f00d1877abed14f910ff30dd7f42800cf747afdc1fc56e",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon ElastiCache's a cached key-value grid with a speed gauge is visually distinct from ElastiCache for Redis."
+        },
+        {
+          "id": "aws-memorydb",
+          "revision": "16523efec40bac2c81d4d8f75ec335ccd6fbc242b4d68355068d133200d8de38",
+          "svgRevision": "41d2d4523132e60f15eeabb86f8d5155ef1f0998eb64dd55ab0b951437c099a0",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon ElastiCache's a cached key-value grid with a speed gauge is visually distinct from Amazon MemoryDB."
+        }
+      ],
+      "notes": "A cached key-value grid with a speed/refresh gauge is distinct from Valkey key storage, Redis transport, and MemoryDB cylinder nodes."
+    },
+    {
+      "id": "aws-cloudformation",
+      "status": "approved",
+      "drawingRevision": "e9bd913db827a748a376f8f5e4c5976b520a11d0696b338844b6453b496ac36b",
+      "comparisonRevision": "8a69753f8e889d4e336022d8bf4b054eaff2448fa66012f432360bfec341fc72",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-CloudFormation_16.svg",
+          "f1fcefd0bef72f94691bc8fa53dba12d784ec0987390a7a85a7b5b0bd3a44846"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-CloudFormation_32.svg",
+          "d981d116f8d7f48cf5f8dd8aa0cd936e8825e79272beed97f8722a1877192df5"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-CloudFormation_48.svg",
+          "2f683e2d4f89b20990db98eb9047c278e13e0be637a6411be99b60d7c074c2f3"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-CloudFormation_64.svg",
+          "82f75e7e3f5fc5c15e809b0d41c24a14182f1765ecdd1bba083b18fde1d54682"
+        ]
+      ],
+      "svgRevision": "c52cd4e338e33b437c689fc76414a1a11181caebcde9abb54a61c8d9ae3a2be9",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "fabric-column-sigma",
+          "revision": "74e8a70b19525d6399486716c5919d0db50bf38e64bdf520f8983566a4993460",
+          "svgRevision": "1d2447cfecb7018a8c7b6807e1b53cfb9704803b43144b6b2e25314d78f85fce",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudFormation's a blueprint document fanning out into resource nodes is visually distinct from Table column sum."
+        },
+        {
+          "id": "aws-batch",
+          "revision": "79a8b1f7cbcdb13d1225b733c4c4ebe60ba215935b1e209671bd92dd556df6a9",
+          "svgRevision": "53909c9c5f0eb1409f6b07397c3050fac27dc463c60b158faf3ff8f3c01ca319",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudFormation's a blueprint document fanning out into resource nodes is visually distinct from AWS Batch."
+        },
+        {
+          "id": "azure-vm-scale-sets",
+          "revision": "b51188f75c8ec85b89503c686faa27d9b288c44f43f0ecc13c642fc243cd68fb",
+          "svgRevision": "b5ad0765db063cfa3fb29e24561723d00768035dc6c6329abd09edffa282f2ae",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudFormation's a blueprint document fanning out into resource nodes is visually distinct from VM scale sets."
+        },
+        {
+          "id": "aws-cloudformation-stack",
+          "revision": "d598b6110036d96a3e7120ba7222b5715e6cb5c422a93fde2e5f3a3c68c40e94",
+          "svgRevision": "f8ed252911038521fbe3e47a9bd433b29b4e8923bb44130bfe944a7733aa1faf",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudFormation's a blueprint document fanning out into resource nodes is visually distinct from CloudFormation Stack."
+        },
+        {
+          "id": "aws-cloudformation-template",
+          "revision": "56911c49e21dd5b20883c4c90eeb45a4a72ec7418199e71e755ae77657231d41",
+          "svgRevision": "12bf215a255fe06296392de93104dd851a1c7225b6e672d43d8ee82e5fd66859",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudFormation's a blueprint document fanning out into resource nodes is visually distinct from CloudFormation Template."
+        }
+      ],
+      "notes": "A blueprint document fans out into deployed resource nodes, distinct from the layered stack and template document."
+    },
+    {
+      "id": "aws-cloudtrail",
+      "status": "approved",
+      "drawingRevision": "6890c3475be1f0266e9dcb352c3843d3f923ddfd9bb3db2ea3d2d82fe733e79f",
+      "comparisonRevision": "7bdf342379242a6a0533d44515d72c778d1b32499ffac80855d69c2ef9d4a79e",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/16/Arch_AWS-CloudTrail_16.svg",
+          "bcd15da72240a0faa76c0f7b0605a6170dfbfc44457c2d6c00fe94d25c3d11a5"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/32/Arch_AWS-CloudTrail_32.svg",
+          "54e491732ccc14e607a58000f3b8b52a5d7e881279b556d625ba4febc620b98f"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/48/Arch_AWS-CloudTrail_48.svg",
+          "54512ab8b21f4b09dad9b06c863e935f5ebea96e2198559edc2ee089297f2395"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-CloudTrail_64.svg",
+          "c9424cb5f29336a6c0c2ff298098ca015554b4bf74d867ef405b4b94e7d439ad"
+        ]
+      ],
+      "svgRevision": "a21335adac5f8d298cf3b573d91a1aed3522aec26eb5f4620054c1e7a72579c5",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-billing",
+          "revision": "24d2ac1fd1e89b9aa1e56b9417244df1fcc2c0a24f976061321f8edbce303f1e",
+          "svgRevision": "b94a232a6d3a12054382a44bb489b325bccbdd5c6d7243028edc64f4e71702cb",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudTrail's an audit ledger with magnified event marks is visually distinct from Google Cloud Billing."
+        },
+        {
+          "id": "gcp-category-management",
+          "revision": "6ae65cd9451efc8b6cc614b54e434e34d5815baa5746dd1d64f5e31ecdf47739",
+          "svgRevision": "560c40b83d73c36338391446e64101bab9e1fc108b65c56a3371eccafba4357d",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudTrail's an audit ledger with magnified event marks is visually distinct from Management tools."
+        },
+        {
+          "id": "gcp-artifact-registry",
+          "revision": "f4f7ffab84912056a57284e06380fcb15fa96cc43fafd2dcbdcd7f17a8a1f4d8",
+          "svgRevision": "e0bd2a70df3af40cfbd555e1c99504fc0f90f0526393ec704d89438f2b8eaf4d",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudTrail's an audit ledger with magnified event marks is visually distinct from Google Artifact Registry."
+        },
+        {
+          "id": "aws-cloudtrail-lake",
+          "revision": "60ae7ba2e5f65ac4eeb6bf7cde0e9525b19ef4967ea7fbbd21abff3ea83a485c",
+          "svgRevision": "5d4c90d9746a401890587a488cc8bdcc46c1d1c70900fb9f3aabe706ff2e10e7",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudTrail's an audit ledger with magnified event marks is visually distinct from CloudTrail Lake."
+        },
+        {
+          "id": "aws-config",
+          "revision": "b01403936a74cd6f6635d8ceab4b9692e3afddcda7fa96119a65e4caa8f49c54",
+          "svgRevision": "f10234bb860befb114c4e7ffe44adf47cf6db931a6441f477bf865093869833e",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudTrail's an audit ledger with magnified event marks is visually distinct from AWS Config."
+        },
+        {
+          "id": "aws-cloudwatch",
+          "revision": "b515109bb26d9664dc8d099596a73d8ed59be03728ee6bdf94b3592190336436",
+          "svgRevision": "bc0950cdd3b314a4cd9794f00b5f22e31081be2ac73214891c880accdc8e5c62",
+          "status": "approved",
+          "reason": "At 64px and 32px, AWS CloudTrail's an audit ledger with magnified event marks is visually distinct from Amazon CloudWatch."
+        }
+      ],
+      "notes": "An audit ledger with magnified event marks is distinct from CloudTrail Lake’s water trail, Config settings, and CloudWatch’s gauge."
     }
   ]
 }
