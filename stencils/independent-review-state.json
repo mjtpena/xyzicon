@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 213,
+  "compositionsReviewed": 219,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -14937,6 +14937,348 @@
         }
       ],
       "notes": "An event crosses a bridge toward a consumer, distinct from an event rule, pipe, and scheduled clock."
+    },
+    {
+      "id": "aws-eventbridge-pipes",
+      "status": "approved",
+      "drawingRevision": "8734ef42a1a9b7ccbb3d529bd8bce96b047d9e4f57e4839f2da05d7cc0954d93",
+      "comparisonRevision": "cb732b036523e5a1e4565aef4217f792a0289a0abec706ad16df405f9be2a1aa",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Pipes_48.svg",
+          "417635db021d1e1b6c192aeb3e254de34debeebf2b81453ed2f49589a5929f18"
+        ]
+      ],
+      "svgRevision": "5d7219e5feb12bec3cc804f8c765d0861a8c30c4236128bad139a1375bb4d730",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "m365-window",
+          "revision": "a6052b3b309fbb527325abb724eb73d4d35cc7c78967734d113610c2e4f7f036",
+          "svgRevision": "42ad0e59d6a4105ba1c9fd135a5d3b6ed4b3fa51667fdcb0d0cc076bb858c6aa",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Pipes's opposing flows through a bent source-to-target pipe is visually distinct from Window."
+        },
+        {
+          "id": "aws-redshift-dense-storage",
+          "revision": "787048f433433e35d83f92ce6bd394dbd2ac28ced4ca30e923412d24e0efc7e6",
+          "svgRevision": "eb109e625b95a480b226758e85c46a7dc4e3c09a8482c770c1be681c558d07fe",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Pipes's opposing flows through a bent source-to-target pipe is visually distinct from Redshift Dense Storage Node."
+        },
+        {
+          "id": "aws-serverless-repository",
+          "revision": "968b3540cf31c2d0a37de55987b02ec85815197dbe7b62b95755512bcc801582",
+          "svgRevision": "b708ad98bcc98ce3d5cb9d93e763b47516a886474d46c6943b50083d8f63149c",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Pipes's opposing flows through a bent source-to-target pipe is visually distinct from AWS Serverless Application Repository."
+        },
+        {
+          "id": "aws-eventbridge-rule",
+          "revision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
+          "svgRevision": "0a63bbc183d00bc5d7424d3fa1c1ad1286ba518efae36b1d799761dda52ee5c7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Pipes's opposing flows through a bent source-to-target pipe is visually distinct from EventBridge Rule."
+        },
+        {
+          "id": "aws-eventbridge-default-bus",
+          "revision": "a745cebb3cf9c4091e678b640cff3a2c07685e93e0b9f5881b9f4ec9bddb49ef",
+          "svgRevision": "84e8c5f9756c314960176b9f3a80cdce0737742b3df63e534fd925cdda695be7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Pipes's opposing flows through a bent source-to-target pipe is visually distinct from EventBridge Default Event Bus."
+        }
+      ],
+      "notes": "Two opposing flows pass through a bent pipe between source and destination cards, distinct from an event rule decision and the default bus."
+    },
+    {
+      "id": "aws-eventbridge-rule",
+      "status": "approved",
+      "drawingRevision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
+      "comparisonRevision": "becff1853c36bed919384bff09d0ff7cbd560341fc2c15d646fe62fb638da3f0",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Rule_48.svg",
+          "963cc855087f7c475786a6afcd5ea03a9583da4cf72641511f6965e463f7ee4f"
+        ]
+      ],
+      "svgRevision": "0a63bbc183d00bc5d7424d3fa1c1ad1286ba518efae36b1d799761dda52ee5c7",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-entra-connect-health",
+          "revision": "26eb3ad67385cbe9a39fd7004549c6ac7a56fdd61eb3b2037c41b11cb23c18d5",
+          "svgRevision": "a3073d59e1a8ab832fb4a6760cc4a1e314b9db26fda54ae4dd23ddc6b720af76",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Rule's a checked decision diamond filtering an event document is visually distinct from Entra Connect Health."
+        },
+        {
+          "id": "aws-iot-alexa-skill",
+          "revision": "dbd30dc5e15aca8051b8642ec2d68379a83ecfa82039355efdd4c3842b417a89",
+          "svgRevision": "e1e981bdc7355812276b146f36485ea60e14affd4eaa4f96758009518fb19d48",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Rule's a checked decision diamond filtering an event document is visually distinct from IoT Alexa Skill."
+        },
+        {
+          "id": "gcp-datastream",
+          "revision": "94d5a71f74540d02dc8f8cdc912b993a649e4f45d5791ba427412038e1039d6d",
+          "svgRevision": "9c58155cf9f6b6db80a2070b9cac807093dec0d03b70d23c6ffe66ffbd01707c",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Rule's a checked decision diamond filtering an event document is visually distinct from Google Datastream."
+        },
+        {
+          "id": "aws-eventbridge-pipes",
+          "revision": "8734ef42a1a9b7ccbb3d529bd8bce96b047d9e4f57e4839f2da05d7cc0954d93",
+          "svgRevision": "5d7219e5feb12bec3cc804f8c765d0861a8c30c4236128bad139a1375bb4d730",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Rule's a checked decision diamond filtering an event document is visually distinct from EventBridge Pipes."
+        },
+        {
+          "id": "aws-eventbridge-event",
+          "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+          "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Rule's a checked decision diamond filtering an event document is visually distinct from EventBridge Event."
+        }
+      ],
+      "notes": "A checked decision diamond filters an event document before routing, distinct from the bidirectional pipe, event record, and scheduler."
+    },
+    {
+      "id": "aws-eventbridge-scheduler",
+      "status": "approved",
+      "drawingRevision": "309be381330fce59a840e1e73787f8b57ed802185706a9eb76c0104b4b5c588a",
+      "comparisonRevision": "5382f915d24e3b030207e4e53e015e81a18f3e972d33764d95e5e6bc08b5c932",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Scheduler_48.svg",
+          "10aff0e59634af6327f8ce976963c2b66101e0812a0269112472dca0e3bdc950"
+        ]
+      ],
+      "svgRevision": "bc0313ebc4a41b6c6d490bb7d8a180269a2abe2ccd39b2bf0f9a26615f1c57c3",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-quickstart-center",
+          "revision": "32407f3145147702639de1c98886688af16adc3f29733f23399a160b95cf8de6",
+          "svgRevision": "45e4891d2f1cb0df5f569da66c3044b3699cdbb93f0a80a687c27611b6fe861a",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Scheduler's a clock triggering a calendar event is visually distinct from Quickstart Center."
+        },
+        {
+          "id": "azure-foundry-project",
+          "revision": "10128ca0e49918206d8b39dc47a5b92fb5b1c7558d095053041b96b3502d97cf",
+          "svgRevision": "8167b7d5b8e18ff93874107517206870bdb65dcd84cd835b6939e10de1ab89eb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Scheduler's a clock triggering a calendar event is visually distinct from Foundry Project."
+        },
+        {
+          "id": "azure-event-hub-clusters",
+          "revision": "6b46eee479c76869c415efe569c3073727ef90efb06b0bcc24127388a810e9b3",
+          "svgRevision": "934b1bc44994dc859b6265a54b03d6f87ea4b82f98306a65a22392a08a2692b8",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Scheduler's a clock triggering a calendar event is visually distinct from Event Hub Clusters."
+        },
+        {
+          "id": "aws-eventbridge-event",
+          "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+          "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Scheduler's a clock triggering a calendar event is visually distinct from EventBridge Event."
+        },
+        {
+          "id": "aws-eventbridge-default-bus",
+          "revision": "a745cebb3cf9c4091e678b640cff3a2c07685e93e0b9f5881b9f4ec9bddb49ef",
+          "svgRevision": "84e8c5f9756c314960176b9f3a80cdce0737742b3df63e534fd925cdda695be7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Scheduler's a clock triggering a calendar event is visually distinct from EventBridge Default Event Bus."
+        }
+      ],
+      "notes": "A clock triggers a calendar event, distinct from the event record, default bus, and rule decision."
+    },
+    {
+      "id": "aws-eventbridge-schema-registry",
+      "status": "approved",
+      "drawingRevision": "2a14f11a249301264013fb5cefe2000d8b9b81160bff8a084ce59b7f258b93b6",
+      "comparisonRevision": "79c4c4b5bc668669b6d4f2a49cc9ff44c803949ce7010aa247206addbe8b22b5",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Schema-Registry_48.svg",
+          "a3b4670b7d9913d541d6c4317c8e591a6cea21c821b97d56dfcdef5a68252d9e"
+        ]
+      ],
+      "svgRevision": "6ce29e8e5249a5c2e42db733eef659b03485342fe3ea16fb3256fd92e7388e45",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-mediastore",
+          "revision": "d27aabf5009d4f50d3c69f5c7bdf9fe37547ea6550d2917e58e68cd2f7757cc1",
+          "svgRevision": "69d6f364d85e7ccd3e9d0ac8ed52e4c785ea1260301ccd9067a06f51f66bb226",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema Registry's a cabinet of multiple schema cards is visually distinct from AWS Elemental MediaStore."
+        },
+        {
+          "id": "azure-host-pools",
+          "revision": "46fcef45fc27a05da894d194278b100cd8d0b8157ce5a1db583e20e0976b126d",
+          "svgRevision": "3e5832a4677135fede9bfdadf2ee355d302c3fb2d5e84543d2512a8fdb3d8ed3",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema Registry's a cabinet of multiple schema cards is visually distinct from Host pools."
+        },
+        {
+          "id": "aws-category-storage",
+          "revision": "f5ff75b7b8cd8cd38af7318dbf96f294418bbcce2bfb893305e80e7670b91b77",
+          "svgRevision": "e6920fc141f3237919231b1a9db604d33ad2ed4d43412f81ec99e9c41534048c",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema Registry's a cabinet of multiple schema cards is visually distinct from Storage category."
+        },
+        {
+          "id": "aws-eventbridge-schema",
+          "revision": "82da59467e1f60280a7f93dd581293e143c6481edef040edc905e0542da151b5",
+          "svgRevision": "964912ba3fc790526df01c1994662f81428c2531ec24661a4cc43d2d6b2e7f1f",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema Registry's a cabinet of multiple schema cards is visually distinct from EventBridge Schema."
+        },
+        {
+          "id": "aws-eventbridge-event",
+          "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+          "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema Registry's a cabinet of multiple schema cards is visually distinct from EventBridge Event."
+        }
+      ],
+      "notes": "A cabinet of three schema cards is distinct from a single schema document and from the event record."
+    },
+    {
+      "id": "aws-eventbridge-event",
+      "status": "approved",
+      "drawingRevision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+      "comparisonRevision": "a7af63ade5c049f6f2adcaf1b6d75dcd2845445e5543dbdb8d26a9cfa318fab9",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge-Event_48.svg",
+          "01b228f0b7f72d38dbd18e73fb9cb4918df933337a2ba5aa0d1850d394d0f3ed"
+        ]
+      ],
+      "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-glacier-archive",
+          "revision": "c5930e155bd0e5720bd7e2e39e81ab2df84d7fedcf955581fa5c240f5351f75a",
+          "svgRevision": "63256a57336b1d932082e3734cae178bcd3ac076929cf92e47ca671749f15f51",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Event's a single event record on a timeline is visually distinct from S3 Glacier Archive."
+        },
+        {
+          "id": "aws-braket-chandelier",
+          "revision": "0efbba112761ff77f811f8f007a607c34e7d7c92595c3142f5217e2be1317630",
+          "svgRevision": "3a4f57a150e71d8520899dfc1f03d7cbe918fae9293a78fe9eab8560febd852b",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Event's a single event record on a timeline is visually distinct from Braket Chandelier."
+        },
+        {
+          "id": "azure-system-topic",
+          "revision": "fc0c5b57d7ec93b6ec87fe602ea91a32f097eb3612accc03d889142b7086a3db",
+          "svgRevision": "3addbb9bf82f247d16410328f2f6ff12b5fba1551bc7824d232be0eb9298a8b7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Event's a single event record on a timeline is visually distinct from System Topic."
+        },
+        {
+          "id": "aws-eventbridge-default-bus",
+          "revision": "a745cebb3cf9c4091e678b640cff3a2c07685e93e0b9f5881b9f4ec9bddb49ef",
+          "svgRevision": "84e8c5f9756c314960176b9f3a80cdce0737742b3df63e534fd925cdda695be7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Event's a single event record on a timeline is visually distinct from EventBridge Default Event Bus."
+        },
+        {
+          "id": "aws-eventbridge-custom-bus",
+          "revision": "4185b90e3e31bde54acc3e7820946c9d0cb419ad3aa55e52a4dbd85512d4a4c8",
+          "svgRevision": "076f7b3411166bae790b1ddfcfb7ed2e975d33c54020133bebee429a114a3da0",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Event's a single event record on a timeline is visually distinct from EventBridge Custom Event Bus."
+        }
+      ],
+      "notes": "A single event record marks a point on a timeline, distinct from the default bus routing consumers and custom bus channel."
+    },
+    {
+      "id": "aws-eventbridge-default-bus",
+      "status": "approved",
+      "drawingRevision": "a745cebb3cf9c4091e678b640cff3a2c07685e93e0b9f5881b9f4ec9bddb49ef",
+      "comparisonRevision": "e66e0d1e3e908c3d12d3a83fa4e9af9f074f68b535bd9892cfea44c51c293574",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Default-Event-Bus_48.svg",
+          "9dffb6f564181a87718913f3e249988859ad98b27cdd40c17d5bc871c7493c10"
+        ]
+      ],
+      "svgRevision": "84e8c5f9756c314960176b9f3a80cdce0737742b3df63e534fd925cdda695be7",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-management-groups",
+          "revision": "1e5d5de5bb45f76d9d71780b878691fd300e77a901f77366af4386ce71ff9340",
+          "svgRevision": "028da972182ac1100a93dd43979b4ba5a5738ec14321ef3ab8528ea9ef177789",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Default Event Bus's a cloud feeding a bus with multiple consumer endpoints is visually distinct from Management Groups."
+        },
+        {
+          "id": "aws-firewall-manager",
+          "revision": "98a4d6610690c89d88aace574c0054fdec362db5c73eb3331c63f9b9881e2a03",
+          "svgRevision": "13824d15fe8ecbffe87533d54650ede6405c02418fda86854f1371c77f76cf34",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Default Event Bus's a cloud feeding a bus with multiple consumer endpoints is visually distinct from AWS Firewall Manager."
+        },
+        {
+          "id": "fabric-copy-job",
+          "revision": "6d59270a7f31e14374550dcad67405bfe283fc3970d4d5c0a3e5eed7b88dbccb",
+          "svgRevision": "912fc01eb76ac83189fb204c430460d43a5fbdc2bf841f1cdc011061240ab9b8",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Default Event Bus's a cloud feeding a bus with multiple consumer endpoints is visually distinct from Copy Job."
+        },
+        {
+          "id": "aws-eventbridge-custom-bus",
+          "revision": "4185b90e3e31bde54acc3e7820946c9d0cb419ad3aa55e52a4dbd85512d4a4c8",
+          "svgRevision": "076f7b3411166bae790b1ddfcfb7ed2e975d33c54020133bebee429a114a3da0",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Default Event Bus's a cloud feeding a bus with multiple consumer endpoints is visually distinct from EventBridge Custom Event Bus."
+        },
+        {
+          "id": "aws-eventbridge-event",
+          "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+          "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Default Event Bus's a cloud feeding a bus with multiple consumer endpoints is visually distinct from EventBridge Event."
+        }
+      ],
+      "notes": "A cloud feeds a horizontal bus with two consumer endpoints, distinct from the custom bus and single event record."
     }
   ]
 }

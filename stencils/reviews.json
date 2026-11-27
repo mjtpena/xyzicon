@@ -1477,9 +1477,9 @@
   },
   "aws-eventbridge-rule": {
     "revision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
-    "comparisonRevision": "2ed79847ffd40e0b7e677082cdd17734def02e5be715934e7708616a7a71b71b",
+    "comparisonRevision": "becff1853c36bed919384bff09d0ff7cbd560341fc2c15d646fe62fb638da3f0",
     "status": "approved",
-    "notes": "An event passes through a checked decision, unlike the health, Alexa and discovery documents."
+    "notes": "A checked decision diamond filters an event document before routing, distinct from the bidirectional pipe, event record, and scheduler."
   },
   "aws-eventbridge-scheduler": {
     "revision": "309be381330fce59a840e1e73787f8b57ed802185706a9eb76c0104b4b5c588a",
