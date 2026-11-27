@@ -3,7 +3,7 @@
   "threshold": 0.65,
   "count": 2237,
   "aliases": 5419,
-  "approved": 1791,
+  "approved": 1793,
   "needsReview": [
     "azure-sql-database",
     "azure-storage",
@@ -40,8 +40,6 @@
     "azure-log-analytics",
     "azure-dns-zones",
     "azure-event-grid-topics",
-    "aws-athena",
-    "aws-sagemaker",
     "aws-eventbridge-rule",
     "aws-ecs",
     "aws-cognito",
@@ -2876,18 +2874,18 @@
     "aws-athena": [
       {
         "a": "aws-athena",
-        "b": "aws-iot-device-tester",
-        "similarity": 0.3358
+        "b": "gcp-cloud-marketing",
+        "similarity": 0.2848
       },
       {
         "a": "aws-athena",
-        "b": "aws-sns-http-notification",
-        "similarity": 0.2821
+        "b": "gcp-partner-interconnect",
+        "similarity": 0.2652
       },
       {
         "a": "aws-athena",
-        "b": "aws-sns-email-notification",
-        "similarity": 0.2756
+        "b": "aws-dynamodb-attribute",
+        "similarity": 0.2648
       }
     ],
     "aws-kinesis-streams": [
@@ -2927,18 +2925,18 @@
     "aws-redshift": [
       {
         "a": "aws-redshift",
-        "b": "azure-sql-warehouse",
-        "similarity": 0.2896
+        "b": "aws-dynamodb-infrequent-table-class",
+        "similarity": 0.2836
       },
       {
         "a": "aws-redshift",
-        "b": "fabric-building-data",
-        "similarity": 0.2797
+        "b": "aws-transform",
+        "similarity": 0.2629
       },
       {
         "a": "aws-redshift",
-        "b": "azure-mobile-engagement",
-        "similarity": 0.2637
+        "b": "fabric-calendar-toolbox",
+        "similarity": 0.261
       }
     ],
     "aws-sagemaker": [
@@ -3713,14 +3711,14 @@
         "similarity": 0.1688
       },
       {
-        "a": "aws-redshift",
-        "b": "m365-fingerprint",
-        "similarity": 0.164
-      },
-      {
         "a": "m365-fingerprint",
         "b": "azure-restore-point",
         "similarity": 0.1615
+      },
+      {
+        "a": "m365-fingerprint",
+        "b": "azure-defender-meter",
+        "similarity": 0.1612
       }
     ],
     "m365-globe": [
@@ -3912,11 +3910,6 @@
     ],
     "fabric-building-data": [
       {
-        "a": "aws-redshift",
-        "b": "fabric-building-data",
-        "similarity": 0.2797
-      },
-      {
         "a": "fabric-building-data",
         "b": "m365-building-multiple",
         "similarity": 0.2639
@@ -3925,6 +3918,11 @@
         "a": "fabric-building-data",
         "b": "aws-outposts-family",
         "similarity": 0.2621
+      },
+      {
+        "a": "fabric-building-data",
+        "b": "gcp-gke-on-prem",
+        "similarity": 0.2614
       }
     ],
     "fabric-branch-add": [
@@ -5937,6 +5935,11 @@
     ],
     "gcp-dataproc-metastore": [
       {
+        "a": "aws-redshift",
+        "b": "gcp-dataproc-metastore",
+        "similarity": 0.2438
+      },
+      {
         "a": "gcp-dataproc-metastore",
         "b": "gcp-os-inventory",
         "similarity": 0.2425
@@ -5945,11 +5948,6 @@
         "a": "gcp-dataproc-metastore",
         "b": "fabric-table-key",
         "similarity": 0.2401
-      },
-      {
-        "a": "gcp-dataproc-metastore",
-        "b": "fabric-calendar-toolbox",
-        "similarity": 0.2323
       }
     ],
     "gcp-healthcare-marketplace": [
@@ -6831,9 +6829,9 @@
         "similarity": 0.1986
       },
       {
-        "a": "aws-athena",
+        "a": "azure-monitor-pipeline",
         "b": "gcp-cloud-optimization-ai",
-        "similarity": 0.1898
+        "similarity": 0.1847
       }
     ],
     "gcp-fleet-routing": [
@@ -7518,6 +7516,11 @@
     ],
     "gcp-cloud-marketing": [
       {
+        "a": "aws-athena",
+        "b": "gcp-cloud-marketing",
+        "similarity": 0.2848
+      },
+      {
         "a": "gcp-iot-edge",
         "b": "gcp-cloud-marketing",
         "similarity": 0.275
@@ -7526,11 +7529,6 @@
         "a": "gcp-cloud-marketing",
         "b": "gcp-cloud-media-edge",
         "similarity": 0.2613
-      },
-      {
-        "a": "gcp-cloud-marketing",
-        "b": "azure-language",
-        "similarity": 0.2586
       }
     ],
     "gcp-cloud-generic": [
@@ -9167,11 +9165,6 @@
     ],
     "fabric-event-house": [
       {
-        "a": "aws-redshift",
-        "b": "fabric-event-house",
-        "similarity": 0.2547
-      },
-      {
         "a": "fabric-event-house",
         "b": "azure-sql-warehouse",
         "similarity": 0.2442
@@ -9180,6 +9173,11 @@
         "a": "fabric-event-house",
         "b": "aws-backup-database-resource",
         "similarity": 0.2334
+      },
+      {
+        "a": "fabric-event-house",
+        "b": "azure-policy",
+        "similarity": 0.2246
       }
     ],
     "fabric-eventstream": [
@@ -10323,11 +10321,6 @@
     ],
     "azure-hdinsight-clusters": [
       {
-        "a": "aws-athena",
-        "b": "azure-hdinsight-clusters",
-        "similarity": 0.2567
-      },
-      {
         "a": "gcp-runtime-config",
         "b": "azure-hdinsight-clusters",
         "similarity": 0.2326
@@ -10336,6 +10329,11 @@
         "a": "azure-hdinsight-clusters",
         "b": "azure-immersive-reader",
         "similarity": 0.2306
+      },
+      {
+        "a": "azure-hdinsight-clusters",
+        "b": "aws-rds-multi-az-cluster",
+        "similarity": 0.2299
       }
     ],
     "azure-stream-analytics": [
@@ -10391,11 +10389,6 @@
     ],
     "azure-sql-warehouse": [
       {
-        "a": "aws-redshift",
-        "b": "azure-sql-warehouse",
-        "similarity": 0.2896
-      },
-      {
         "a": "fabric-event-house",
         "b": "azure-sql-warehouse",
         "similarity": 0.2442
@@ -10404,6 +10397,11 @@
         "a": "azure-sql-warehouse",
         "b": "aws-outposts-family",
         "similarity": 0.2324
+      },
+      {
+        "a": "azure-sql-warehouse",
+        "b": "aws-general-disk",
+        "similarity": 0.2318
       }
     ],
     "azure-database-migration": [
@@ -11110,14 +11108,14 @@
         "similarity": 0.2794
       },
       {
+        "a": "aws-athena",
+        "b": "aws-redshift-governance",
+        "similarity": 0.2583
+      },
+      {
         "a": "aws-redshift-governance",
         "b": "aws-glue-quality",
         "similarity": 0.2442
-      },
-      {
-        "a": "gcp-memorystore",
-        "b": "aws-redshift-governance",
-        "similarity": 0.2143
       }
     ],
     "aws-redshift-query-editor": [
@@ -18704,11 +18702,6 @@
     ],
     "aws-iot-device-tester": [
       {
-        "a": "aws-athena",
-        "b": "aws-iot-device-tester",
-        "similarity": 0.3358
-      },
-      {
         "a": "aws-iot-device-tester",
         "b": "azure-server-farm",
         "similarity": 0.3058
@@ -18717,6 +18710,11 @@
         "a": "azure-governance-compliance",
         "b": "aws-iot-device-tester",
         "similarity": 0.3057
+      },
+      {
+        "a": "aws-iot-http2",
+        "b": "aws-iot-device-tester",
+        "similarity": 0.2967
       }
     ],
     "aws-sitewise-asset": [
@@ -29209,14 +29207,14 @@
         "similarity": 0.274
       },
       {
-        "a": "aws-athena",
-        "b": "aws-ecs-container",
-        "similarity": 0.2732
-      },
-      {
         "a": "aws-general-metrics",
         "b": "aws-ecs-container",
         "similarity": 0.2639
+      },
+      {
+        "a": "aws-ecs-container",
+        "b": "azure-os-images-classic",
+        "similarity": 0.2612
       }
     ],
     "aws-ecs-compute-container": [

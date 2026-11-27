@@ -2123,7 +2123,7 @@
       "id": "aws-athena",
       "provider": "aws",
       "name": "Amazon Athena",
-      "rationale": "A query reads data from an object bucket.",
+      "rationale": "A query lens reads structured results from an object bucket.",
       "path": "stencils/aws-athena.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/16/Arch_Amazon-Athena_16.svg",
@@ -2131,11 +2131,11 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/48/Arch_Amazon-Athena_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/64/Arch_Amazon-Athena_64.svg"
       ],
-      "revision": "4c6565d5b7e720e130adbf29f91afd686dbb3c46f19c0c18093ecf5845fd4589",
-      "geometrySignature": "8d5a37f90c22e3d34e1bebb730ca40a9343cac0afaba073a4cbcda8b42b5b2dc",
-      "comparisonRevision": "5590d09b21bc43030dc93d705cd595eb82bfffee7f61fb80a36fad2346d1d7cd",
-      "review": "pending",
-      "notes": ""
+      "revision": "88d6c8281a90438cd30246516645c87adf9388cd6cd257fdec1fbc0cd81557cc",
+      "geometrySignature": "ba2aafb76a8d8dc88de01e07c37605c7fc3042cd6cc62ba2323fdebe7be4ec0e",
+      "comparisonRevision": "b52cc29512616bf7ff2d9c7e716cf4968ab67c840f5823078af66b624f0f6e53",
+      "review": "approved",
+      "notes": "A data bucket feeds a query lens with visible result rows, distinct from the bucket-and-table Athena connector and Redshift cluster."
     },
     {
       "id": "aws-kinesis-streams",
@@ -2153,7 +2153,7 @@
       "geometrySignature": "746e6e352364a4c368453fadd6634516967b2f58f22ea01fd9656b0f27635aea",
       "comparisonRevision": "9de6321b48158d70016199bc9ddf3cef09994c01bfa8b8ae23229cb10f49447e",
       "review": "approved",
-      "notes": "Three data strands enter an open processor and leave as a stream, unlike the unbuffered Kinesis flow, keyed table and linked database."
+      "notes": "Three incoming stream strands pass through a processor and exit as a stream, distinct from base Kinesis, a keyed table, and video streams."
     },
     {
       "id": "aws-opensearch",
@@ -2171,13 +2171,13 @@
       "geometrySignature": "30354ea142cc76e0a01e404e664995c1a903625676e747b69d3230edcaa0b14a",
       "comparisonRevision": "8496e5f9eb581f9b6cf0214e38291d2d7fe65c2a87e835b9426edf18f11916dc",
       "review": "approved",
-      "notes": "Magnifying search lens framing an indexed bar chart; clean and legible."
+      "notes": "A search lens frames indexed documents and a chart, distinct from the index listing and dashboards compositions."
     },
     {
       "id": "aws-redshift",
       "provider": "aws",
       "name": "Amazon Redshift",
-      "rationale": "A warehouse racks columnar analytical records across three clustered nodes.",
+      "rationale": "A columnar data warehouse fans analytical records across three linked compute nodes.",
       "path": "stencils/aws-redshift.svg",
       "sources": [
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/16/Arch_Amazon-Redshift_16.svg",
@@ -2185,11 +2185,11 @@
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/48/Arch_Amazon-Redshift_48.svg",
         "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/64/Arch_Amazon-Redshift_64.svg"
       ],
-      "revision": "b131300a9d2438cb81321531f3a645ba8fd04ac5337416a5a2c0a3f277b36a2d",
-      "geometrySignature": "8bdd8314ebc373d0371c3ceb4881c7f65dd2ec738e529605e9e5c398928947ca",
-      "comparisonRevision": "274010fc59def6320782146ce160273d5895e88b58eb99f6b0a0c501a59a74dc",
+      "revision": "a39653f8ea14066dfb8014b4a24fcb2d31ea7bae3ca1da0a610028d52ffa0ed4",
+      "geometrySignature": "1dc9068346d1dcfe8a3c4583651c8a34ff04506481b628a01a34fb82515f04cb",
+      "comparisonRevision": "b5bbe6f388c97a57a88829697f404d39ecfdc9c0792886ef75ea96f6e3981fb3",
       "review": "approved",
-      "notes": "A warehouse grid differs from the partitioned SQL cylinder, multi-item building and mobile engagement."
+      "notes": "A segmented data cylinder linked to three compute nodes is distinct from Azure SQL Warehouse inside a building and Athena’s query lens."
     },
     {
       "id": "aws-sagemaker",
@@ -2206,8 +2206,8 @@
       "revision": "6fbb1d5eb9572f5d04373e828bd0a83af7553d4ba6147955b35c7eb3c2714869",
       "geometrySignature": "ef2d568d7ee7d20bd72015bcc6bac8778b4331869c9c08a8adf1493220c58610",
       "comparisonRevision": "b6b1c346215adbf9b5c117028dab3d22b4f7876039aed17c24f8b1b3f66a8590",
-      "review": "pending",
-      "notes": ""
+      "review": "approved",
+      "notes": "A dataset enters training nodes and produces a prediction, distinct from the SageMaker AI overview, Studio Lab, and Bedrock motifs."
     },
     {
       "id": "aws-eventbridge",
@@ -2225,7 +2225,7 @@
       "geometrySignature": "84894d0475371f5b0339b274d245f9b055c64602318e482d3abbe8eb46df3cf7",
       "comparisonRevision": "d947f62550d47d898a074367f93dcc78907a4bf7f712ce94466d5089fc8e9334",
       "review": "approved",
-      "notes": "An event crosses a bridge, unlike image model, budgets and API message."
+      "notes": "An event crosses a bridge toward a consumer, distinct from an event rule, pipe, and scheduled clock."
     },
     {
       "id": "aws-eventbridge-pipes",
@@ -2993,9 +2993,9 @@
       ],
       "revision": "f356e23582af133e8d635406172cc65bea7292ec4f29695fbef395462973b9af",
       "geometrySignature": "89fdca89a26df72b863794d956bf42340a570bcbc9a6dd4d7efc3a3942d4e76b",
-      "comparisonRevision": "877ca999c016c254729afb340934f1047dfd3e5a13dfcfee80b1f97946631663",
+      "comparisonRevision": "bd8e7e5047586a540e686e5617892317c7d638584db9d2049a80869483abffd0",
       "review": "approved",
-      "notes": "Nested asymmetric ridges form a fingerprint, unlike network globe, warehouse and restore point."
+      "notes": "Nested asymmetric ridges form a clear fingerprint, unlike the network globe, restore point, and defender meter at small sizes."
     },
     {
       "id": "m365-globe",
@@ -3219,9 +3219,9 @@
       ],
       "revision": "0c0a6683f08c8ab4bc06ffb60889e7d6a15e0086e6e59b079cc76fb56b76fd10",
       "geometrySignature": "773292cc3fe2be0c0b4c5ebf4ddd03c3f5c3778a16c8878379ab068f6f515c84",
-      "comparisonRevision": "021051648ab29675cb5b8eb03131b67f40145503444e6a7d1ba97f02a6f89414",
+      "comparisonRevision": "2fa404bc4f772dd5f4f7964daaaf2c44d7b6ac8c81e0679ff8e7d636a25cb75f",
       "review": "approved",
-      "notes": "Open building outline and database cylinder preserve the source motif without obscuring it, unlike Redshift warehouse, office buildings and Outposts racks."
+      "notes": "The open building outline contains database and data-window motifs, distinct from multi-building offices, Outposts racks, and on-premises clusters."
     },
     {
       "id": "fabric-branch-add",
@@ -5203,9 +5203,9 @@
       ],
       "revision": "8b04c81d06cd2d0bbe983107f7c44bdc0de55602159df90f7a9ab435365e86f0",
       "geometrySignature": "3e6ba408cb286c44af257f60b17ff64065788b29b813ee2322521c698932d5f0",
-      "comparisonRevision": "3cf6ee64af85f1da97d51b2520710e5e4069b563a265dfec88a046575ea44924",
+      "comparisonRevision": "cb6860cdc955401c97374c8de3b5ed930149c8873d0d76be6e7d038ce4835834",
       "review": "approved",
-      "notes": "Shared metadata cylinder linked to two structured table definitions; clear."
+      "notes": "A shared metadata cylinder linked to structured table definitions differs from Redshift’s distributed cylinder cluster and inventory/table grids."
     },
     {
       "id": "gcp-healthcare-marketplace",
@@ -5984,9 +5984,9 @@
       ],
       "revision": "05d22f7debe6142653c924363dc76ca435f79b551d4bee5320b8be8e831ffc2f",
       "geometrySignature": "ed449f7dc4bfa1980f2b769091d48b71d942c4bea0ba079b5bdf20e741b3cccf",
-      "comparisonRevision": "e2e963357c1b10714f0ba6ba0fc5a839c627f1f1405aeb7b7632572b0ca61085",
+      "comparisonRevision": "6b429346a6a867b36ee985db704b6277cd49456805f36dc0a4aa194ec283c3b1",
       "review": "approved",
-      "notes": "An upward trend targets an optimization bullseye, unlike lab globe, autoscaling and Athena."
+      "notes": "The magnified optimization target and rising trend remain distinct from the lab globe, autoscaling arrows, and monitoring pipeline."
     },
     {
       "id": "gcp-fleet-routing",
@@ -6599,9 +6599,9 @@
       ],
       "revision": "97bf8a104930b42c0ff2f616eabb834b04aaa84f8e497d4531f8877328d81da3",
       "geometrySignature": "d519911f8737c9f2361545a035f1ac9c53aec9bf79b7cf81b0e57496fc3005f7",
-      "comparisonRevision": "8d30f30d55328452cf46d74a8d7140a208b9bced680c62db34a021ecf98b4093",
+      "comparisonRevision": "56a84b9140e8a719edc35a2b65aeb639ef54604e738f3e20800d35c48efb7ece",
       "review": "approved",
-      "notes": "A megaphone addresses people, unlike sensor processing, media routing and language analysis."
+      "notes": "A megaphone addressing an audience is clear and distinct from Athena’s query lens, sensor processing, and media routing."
     },
     {
       "id": "gcp-cloud-generic",
@@ -8246,9 +8246,9 @@
       ],
       "revision": "e57a49726e56dfc3417735f0217eea07def582759dffc14e1fb75cb45016e187",
       "geometrySignature": "45b367ec544109f45a60971a0208ccb1322760aa6e2f80fdae6c5b860d04ef82",
-      "comparisonRevision": "3a850b0b7c94e5031f8e08b83a8ff0a188024b79dc52cfc1dd31c0e36117bb21",
+      "comparisonRevision": "0e93b5a4f2c46f2a97a9b91eecc349d30544346786f0ea02bc5e3206863eaa26",
       "review": "approved",
-      "notes": "A house receives events around a clock, unlike Redshift grid, SQL warehouse cylinder or protected database across twelve variants."
+      "notes": "A house framing a clock and event marks differs from the warehouse database, server rack, and protected-database motifs."
     },
     {
       "id": "fabric-eventstream",
@@ -9381,9 +9381,9 @@
       ],
       "revision": "e59a79a74ebaafcc8cf7fbb5120e488801e4c43ba6248cb41741ba5d9b2f3673",
       "geometrySignature": "567c16ce2c5c045d89458051e61cc7628afe6a58e0da4903c99aca3b88229fb3",
-      "comparisonRevision": "3cd669634ef18ce6977be7a196005249ca00f0a4f13d24c073b81d1681bf52b2",
+      "comparisonRevision": "5c2cf8de1a14956e56d8e5102d5e2e2a9fb00112aa4978d4ab2c5ed0cfffe644",
       "review": "approved",
-      "notes": "A data source feeds clustered processing nodes unlike query, runtime settings or a reader."
+      "notes": "A data cylinder fans into three processing tables, distinct from runtime configuration, a reader, and a database cluster."
     },
     {
       "id": "azure-stream-analytics",
@@ -9444,9 +9444,9 @@
       ],
       "revision": "46b20ed4cef259e5cc7261a360fc60e2d205b33982aca27f741e6658d4ff8eb2",
       "geometrySignature": "a84fddaa1bc4ee29162cbdcc4131c940e776fb63afb9baf3b55b9ba5d40e15ed",
-      "comparisonRevision": "71ad5a1bda7e065b0092dbf09a9f6e1ef70234bc7e7170819456c1c962f900d3",
+      "comparisonRevision": "1478274acc4826a353750485676a904b5c3c5c641b75c7ee1cd6b88897f24497",
       "review": "approved",
-      "notes": "A warehouse encloses partitioned database storage, unlike Redshift grid, event house clock and Outposts server."
+      "notes": "A database housed inside a warehouse building differs from Redshift’s linked compute-node cylinder and the event-house clock."
     },
     {
       "id": "azure-database-migration",
@@ -10076,9 +10076,9 @@
       ],
       "revision": "56144ec43b50e75d0f196aa5e2404690662941f92d028cf5e8c24a5fa4eb8451",
       "geometrySignature": "2b745feb5038390423e8efcf566ddeb1e23ef2a61e63f60e69d714efda05e8e3",
-      "comparisonRevision": "a79b17c8f4e89d7195837b11f541273fec60a7dbf31ae243dbbec5b80d282b9d",
+      "comparisonRevision": "9bbaa0c0d3e3dd7b969c6e55fb7805d182b502b73acd12d187de540ae98a4d8a",
       "review": "approved",
-      "notes": "A shield protects a database, unlike model data, quality checks and memory cache."
+      "notes": "A database protected by a checked shield differs from Redshift ML model training, Athena querying, and Glue quality checks."
     },
     {
       "id": "aws-redshift-query-editor",
@@ -17329,7 +17329,7 @@
       ],
       "revision": "1ecc9da5b9a24da37e7cb3ed63a22e7f0b0b727090f611ba4f97dc88369697a8",
       "geometrySignature": "8f65ae36f1312eae288a550838171d9def5329f375568934e1652d50f818a0d4",
-      "comparisonRevision": "fa4203e4cac209c73d963cb20d9e595d23ea6d5297c77687801f037f1c05da2b",
+      "comparisonRevision": "eb6d39ac8433c5d911171eaea54d2eac7ca170dda817eaf5fe327f503c45667e",
       "review": "pending",
       "notes": ""
     },
@@ -27545,7 +27545,7 @@
       ],
       "revision": "a56727b319adb7f558c36664d709b798e13fea0c7c9cd0e0f3ef1f77fd1255d9",
       "geometrySignature": "8920cc6268047dc721b7ba83a7293072c2221530f52733e7ac47c78491cf974b",
-      "comparisonRevision": "b6d6175ad9f59376528acb5d311bcd80407fd2d29db4092ef63d7c3380799544",
+      "comparisonRevision": "b5a66d196258f508ee0538c0e35d58c1699f333322caf750778d53f3d27e3d2a",
       "review": "pending",
       "notes": ""
     },

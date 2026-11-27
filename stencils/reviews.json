@@ -1434,40 +1434,40 @@
     "notes": "A clear archive is surrounded by recovery arrows, unlike the nearby server, column and infrastructure rack."
   },
   "aws-athena": {
-    "revision": "4c6565d5b7e720e130adbf29f91afd686dbb3c46f19c0c18093ecf5845fd4589",
-    "comparisonRevision": "c47d6fa2f7a7ae9032c0abd12b63afcc517bc2935b2af462a560f7234d4b21b6",
+    "revision": "88d6c8281a90438cd30246516645c87adf9388cd6cd257fdec1fbc0cd81557cc",
+    "comparisonRevision": "b52cc29512616bf7ff2d9c7e716cf4968ab67c840f5823078af66b624f0f6e53",
     "status": "approved",
-    "notes": "An object store points to SQL results, unlike a diagnostic meter, file servers and HTTP notification."
+    "notes": "A data bucket feeds a query lens with visible result rows, distinct from the bucket-and-table Athena connector and Redshift cluster."
   },
   "aws-kinesis-streams": {
     "revision": "c8cd13dc77297709512ad509f60b9c51639221176648d8598a52063923cec796",
     "comparisonRevision": "9de6321b48158d70016199bc9ddf3cef09994c01bfa8b8ae23229cb10f49447e",
     "status": "approved",
-    "notes": "Three data strands enter an open processor and leave as a stream, unlike the unbuffered Kinesis flow, keyed table and linked database."
+    "notes": "Three incoming stream strands pass through a processor and exit as a stream, distinct from base Kinesis, a keyed table, and video streams."
   },
   "aws-opensearch": {
     "revision": "6fb3a1a98ff7cda29b5ee8e98815ab2103f7f1bc7832618bbf7142239ebb29b8",
     "comparisonRevision": "8496e5f9eb581f9b6cf0214e38291d2d7fe65c2a87e835b9426edf18f11916dc",
     "status": "approved",
-    "notes": "Magnifying search lens framing an indexed bar chart; clean and legible."
+    "notes": "A search lens frames indexed documents and a chart, distinct from the index listing and dashboards compositions."
   },
   "aws-redshift": {
-    "revision": "b131300a9d2438cb81321531f3a645ba8fd04ac5337416a5a2c0a3f277b36a2d",
-    "comparisonRevision": "274010fc59def6320782146ce160273d5895e88b58eb99f6b0a0c501a59a74dc",
+    "revision": "a39653f8ea14066dfb8014b4a24fcb2d31ea7bae3ca1da0a610028d52ffa0ed4",
+    "comparisonRevision": "b5bbe6f388c97a57a88829697f404d39ecfdc9c0792886ef75ea96f6e3981fb3",
     "status": "approved",
-    "notes": "A warehouse grid differs from the partitioned SQL cylinder, multi-item building and mobile engagement."
+    "notes": "A segmented data cylinder linked to three compute nodes is distinct from Azure SQL Warehouse inside a building and Athena’s query lens."
   },
   "aws-sagemaker": {
     "revision": "6fbb1d5eb9572f5d04373e828bd0a83af7553d4ba6147955b35c7eb3c2714869",
-    "comparisonRevision": "a263f9fac24814fc0c459699205b2ab08a17da41c70de54ffc3f396348d64b9a",
+    "comparisonRevision": "b6b1c346215adbf9b5c117028dab3d22b4f7876039aed17c24f8b1b3f66a8590",
     "status": "approved",
-    "notes": "Training data enters a model network, unlike inference, security operations and enterprise data processing."
+    "notes": "A dataset enters training nodes and produces a prediction, distinct from the SageMaker AI overview, Studio Lab, and Bedrock motifs."
   },
   "aws-eventbridge": {
     "revision": "04c7f375d3578ee677d4f82c8dfa532c1c2000ce6d9fc165e3087618d63f693b",
     "comparisonRevision": "d947f62550d47d898a074367f93dcc78907a4bf7f712ce94466d5089fc8e9334",
     "status": "approved",
-    "notes": "An event crosses a bridge, unlike image model, budgets and API message."
+    "notes": "An event crosses a bridge toward a consumer, distinct from an event rule, pipe, and scheduled clock."
   },
   "aws-eventbridge-pipes": {
     "revision": "8734ef42a1a9b7ccbb3d529bd8bce96b047d9e4f57e4839f2da05d7cc0954d93",
@@ -1843,9 +1843,9 @@
   },
   "aws-redshift-governance": {
     "revision": "56144ec43b50e75d0f196aa5e2404690662941f92d028cf5e8c24a5fa4eb8451",
-    "comparisonRevision": "a79b17c8f4e89d7195837b11f541273fec60a7dbf31ae243dbbec5b80d282b9d",
+    "comparisonRevision": "9bbaa0c0d3e3dd7b969c6e55fb7805d182b502b73acd12d187de540ae98a4d8a",
     "status": "approved",
-    "notes": "A shield protects a database, unlike model data, quality checks and memory cache."
+    "notes": "A database protected by a checked shield differs from Redshift ML model training, Athena querying, and Glue quality checks."
   },
   "aws-redshift-query-editor": {
     "revision": "995fb6e273a2c949236b214d5396aa8c8ad72df9fd8fbea19d6c0b63cc0a9f87",
@@ -4951,9 +4951,9 @@
   },
   "m365-fingerprint": {
     "revision": "f356e23582af133e8d635406172cc65bea7292ec4f29695fbef395462973b9af",
-    "comparisonRevision": "877ca999c016c254729afb340934f1047dfd3e5a13dfcfee80b1f97946631663",
+    "comparisonRevision": "bd8e7e5047586a540e686e5617892317c7d638584db9d2049a80869483abffd0",
     "status": "approved",
-    "notes": "Nested asymmetric ridges form a fingerprint, unlike network globe, warehouse and restore point."
+    "notes": "Nested asymmetric ridges form a clear fingerprint, unlike the network globe, restore point, and defender meter at small sizes."
   },
   "m365-globe": {
     "revision": "7892343b0af871a0a514957ad0224a00780bdfb08c296d2eaa7b62e9dd97de85",
@@ -5665,9 +5665,9 @@
   },
   "fabric-building-data": {
     "revision": "0c0a6683f08c8ab4bc06ffb60889e7d6a15e0086e6e59b079cc76fb56b76fd10",
-    "comparisonRevision": "021051648ab29675cb5b8eb03131b67f40145503444e6a7d1ba97f02a6f89414",
+    "comparisonRevision": "2fa404bc4f772dd5f4f7964daaaf2c44d7b6ac8c81e0679ff8e7d636a25cb75f",
     "status": "approved",
-    "notes": "Open building outline and database cylinder preserve the source motif without obscuring it, unlike Redshift warehouse, office buildings and Outposts racks."
+    "notes": "The open building outline contains database and data-window motifs, distinct from multi-building offices, Outposts racks, and on-premises clusters."
   },
   "fabric-branch-add": {
     "revision": "1bfe2ab9b6ba9758d632526635471f73b78ac139a8920c4befce548f96ae0952",
@@ -6139,9 +6139,9 @@
   },
   "gcp-dataproc-metastore": {
     "revision": "8b04c81d06cd2d0bbe983107f7c44bdc0de55602159df90f7a9ab435365e86f0",
-    "comparisonRevision": "3cf6ee64af85f1da97d51b2520710e5e4069b563a265dfec88a046575ea44924",
+    "comparisonRevision": "cb6860cdc955401c97374c8de3b5ed930149c8873d0d76be6e7d038ce4835834",
     "status": "approved",
-    "notes": "Shared metadata cylinder linked to two structured table definitions; clear."
+    "notes": "A shared metadata cylinder linked to structured table definitions differs from Redshift’s distributed cylinder cluster and inventory/table grids."
   },
   "gcp-healthcare-marketplace": {
     "revision": "186a198633f7ea6b5675ed7c99f10493379c80399dbaf5374e65b3d0aceda5df",
@@ -6451,9 +6451,9 @@
   },
   "gcp-cloud-optimization-ai": {
     "revision": "05d22f7debe6142653c924363dc76ca435f79b551d4bee5320b8be8e831ffc2f",
-    "comparisonRevision": "e2e963357c1b10714f0ba6ba0fc5a839c627f1f1405aeb7b7632572b0ca61085",
+    "comparisonRevision": "6b429346a6a867b36ee985db704b6277cd49456805f36dc0a4aa194ec283c3b1",
     "status": "approved",
-    "notes": "An upward trend targets an optimization bullseye, unlike lab globe, autoscaling and Athena."
+    "notes": "The magnified optimization target and rising trend remain distinct from the lab globe, autoscaling arrows, and monitoring pipeline."
   },
   "gcp-fleet-routing": {
     "revision": "b93cb599d26ad5d38ab508b5f72066331c4950ab2ba8d53e2037435e8f00033e",
@@ -6697,9 +6697,9 @@
   },
   "gcp-cloud-marketing": {
     "revision": "97bf8a104930b42c0ff2f616eabb834b04aaa84f8e497d4531f8877328d81da3",
-    "comparisonRevision": "8d30f30d55328452cf46d74a8d7140a208b9bced680c62db34a021ecf98b4093",
+    "comparisonRevision": "56a84b9140e8a719edc35a2b65aeb639ef54604e738f3e20800d35c48efb7ece",
     "status": "approved",
-    "notes": "A megaphone addresses people, unlike sensor processing, media routing and language analysis."
+    "notes": "A megaphone addressing an audience is clear and distinct from Athena’s query lens, sensor processing, and media routing."
   },
   "gcp-cloud-generic": {
     "revision": "431c107034116acd3eb8517babea9fc29592495ac591715b614ab57360198257",
@@ -7147,9 +7147,9 @@
   },
   "fabric-event-house": {
     "revision": "e57a49726e56dfc3417735f0217eea07def582759dffc14e1fb75cb45016e187",
-    "comparisonRevision": "3a850b0b7c94e5031f8e08b83a8ff0a188024b79dc52cfc1dd31c0e36117bb21",
+    "comparisonRevision": "0e93b5a4f2c46f2a97a9b91eecc349d30544346786f0ea02bc5e3206863eaa26",
     "status": "approved",
-    "notes": "A house receives events around a clock, unlike Redshift grid, SQL warehouse cylinder or protected database across twelve variants."
+    "notes": "A house framing a clock and event marks differs from the warehouse database, server rack, and protected-database motifs."
   },
   "fabric-eventstream": {
     "revision": "262c3d58a35692ff5f4bb339a085d7c180f917027a00c4b5ac762c1ad2cd5b65",
@@ -7555,9 +7555,9 @@
   },
   "azure-hdinsight-clusters": {
     "revision": "e59a79a74ebaafcc8cf7fbb5120e488801e4c43ba6248cb41741ba5d9b2f3673",
-    "comparisonRevision": "3cd669634ef18ce6977be7a196005249ca00f0a4f13d24c073b81d1681bf52b2",
+    "comparisonRevision": "5c2cf8de1a14956e56d8e5102d5e2e2a9fb00112aa4978d4ab2c5ed0cfffe644",
     "status": "approved",
-    "notes": "A data source feeds clustered processing nodes unlike query, runtime settings or a reader."
+    "notes": "A data cylinder fans into three processing tables, distinct from runtime configuration, a reader, and a database cluster."
   },
   "azure-stream-analytics": {
     "revision": "d6d776d35778339ee8e758da9b53389f06ca5b80971add92c39c079ab26510bf",
@@ -7585,9 +7585,9 @@
   },
   "azure-sql-warehouse": {
     "revision": "46b20ed4cef259e5cc7261a360fc60e2d205b33982aca27f741e6658d4ff8eb2",
-    "comparisonRevision": "71ad5a1bda7e065b0092dbf09a9f6e1ef70234bc7e7170819456c1c962f900d3",
+    "comparisonRevision": "1478274acc4826a353750485676a904b5c3c5c641b75c7ee1cd6b88897f24497",
     "status": "approved",
-    "notes": "A warehouse encloses partitioned database storage, unlike Redshift grid, event house clock and Outposts server."
+    "notes": "A database housed inside a warehouse building differs from Redshift’s linked compute-node cylinder and the event-house clock."
   },
   "azure-database-migration": {
     "revision": "c2d8ae6e6653a8156041bcc1a7cbd4794c4937d498a68d8eb2d546c4ee6db2c3",
