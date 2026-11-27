@@ -311,8 +311,10 @@ export const azureGovernanceArtwork = [
   entry("azure-cost-export", "azure", "Cost Export", ["00913-icon-service-Cost-Export"],
     "A cost report is exported for analysis.",
     [
-      rect(13, 20, 58, 69), line([13, 33], [71, 33]), line([22, 43], [27, 43]), line([34, 43], [62, 43]), line([22, 54], [27, 54]), line([34, 54], [62, 54]), line([22, 65], [27, 65]), line([34, 65], [62, 65]),
-      line([75, 58], [109, 58]), line([100, 49], [109, 58], [100, 67]), line([14, 109], [110, 109]),
+      rect(14, 22, 55, 66), line([14, 34], [69, 34]),
+      line([53, 46], [46, 42], [36, 42], [30, 47], [31, 53], [37, 57], [47, 59], [53, 63], [53, 69], [47, 73], [37, 73], [30, 69]),
+      line([42, 38], [42, 77]),
+      line([76, 57], [108, 57]), line([98, 47], [108, 57], [98, 67]), line([14, 109], [110, 109]),
     ]),
   entry("azure-log-analytics-query-pack", "azure", "Log Analytics Query Pack", ["01085-icon-service-Log-Analytics-Query-Pack"],
     "A pack collects reusable log queries.",

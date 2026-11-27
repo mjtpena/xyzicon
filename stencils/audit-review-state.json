@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "auditStatus": "in_progress",
+  "independentReview": {
+    "status": "not-completed",
+    "compositionsReviewed": 0,
+    "compositionsRemaining": 2237,
+    "requires": [
+      "source comparison",
+      "128px rendering",
+      "64px rendering",
+      "32px rendering",
+      "semantic neighbor comparison",
+      "current source/drawing/comparison revisions"
+    ]
+  },
+  "catalog": {
+    "compositions": 2237,
+    "sourceEntries": 5419,
+    "generatedQaApproved": 1959,
+    "generatedQaNeedsReview": 278,
+    "generatedQaIsNotIndependentApproval": true
+  },
+  "providerTriage": {
+    "aws": "20 source/stencil spot checks and limited framework/Elemental triage only; remaining scope unbounded.",
+    "azure": "Azure 1-20 and 37-44 plus 29-36/45-54 claims are triage; no independent approval; source sheets 1-28 remain unverified where not displayed.",
+    "gcp": "Current GCP triage claims remain limited; no independent approval.",
+    "fabric": "Fabric triage remains limited; no independent approval.",
+    "m365": "Source alias evidence exists; drawing changes remain pending independent review.",
+    "entra": "Source alias evidence exists; drawing review remains pending."
+  },
+  "unverifiedClaimsRetraction": [
+    "Azure sheets 21-44 and cost-export rework were not treated as evidence until successfully displayed.",
+    "Microsoft 365, GCP, Fabric and Azure patch sheets must not be counted as independent visual approval unless their exact revisions and neighbors were actually inspected.",
+    "No independent review count is claimed from generated reviews.json approvals."
+  ]
+}

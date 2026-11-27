@@ -59,7 +59,7 @@ export const googleCategoryArtwork = [
       line([44, 37], [64, 48], [84, 37]), line([64, 48], [64, 62]),
     ]),
   entry("gcp-category-data-analytics", "gcp", "Data analytics", ["DataAnalytics-512-color"],
-    "A magnifier examines a plotted trend and individual data points.",
+    "A data chart shows a plotted trend and individual points, with no report tile.",
     [
       line([14, 105], [14, 26]), line([14, 105], [107, 105]),
       line([22, 84], [42, 69], [58, 76], [79, 45], [98, 52]),

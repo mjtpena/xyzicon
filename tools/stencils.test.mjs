@@ -1,9 +1,13 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, mkdtempSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { createHash } from "node:crypto";
 import vm from "node:vm";
 import { artwork } from "../stencils/artwork.mjs";
-import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, packMask, silhouetteSimilarity } from "./build-stencils.mjs";
+import { validateArtwork, geometrySignature, mergeReviews, currentReview, comparisonRevisionFor, mergePairReviews, currentPairReview, pairKey, resolveSources, renderSvg, toElements, validateRelease, writeOrCheckOutputs, packMask, silhouetteSimilarity, validateAliasEvidence, validateIndependentReview, validateIndependentReviewPartial } from "./build-stencils.mjs";
+import { normalizedGeometrySignature, sourceMask, packAlphaMask, rasterPreprocessingStatus, splitCandidateSupport } from "./audit-aliases.mjs";
 
 test("pilot drawings have unique, bounded geometry and editable, deterministic exports", () => {
   validateArtwork(artwork);
@@ -127,6 +131,157 @@ test("verified exact-geometry aliases merge only with naming evidence", () => {
     pathData("wwwroot/icons/aws/Architecture-Group-Icons_07312026/Private-subnet_32.svg"),
     pathData("wwwroot/icons/aws/Architecture-Group-Icons_07312026/Public-subnet_32.svg"),
   );
+});
+
+test("alias audit surfaces unsupported and unreadable source evidence", async () => {
+  const unsupported = normalizedGeometrySignature(
+    '<svg xmlns="http://www.w3.org/2000/svg"><g transform="scale(2)"><path d="M0 0L10 10"/></g></svg>',
+    "/icons/example.svg",
+  );
+  assert.equal(unsupported.signature, null);
+  assert.match(unsupported.unsupported, /transform|use|defs|clip|mask|style/);
+  assert.throws(
+    () => normalizedGeometrySignature('<svg xmlns="http://www.w3.org/2000/svg"><text>no geometry</text></svg>', "/icons/text.svg"),
+    /Empty or unsupported primitive geometry/,
+  );
+  await assert.rejects(
+    () => sourceMask("/icons/missing/audit-test.svg"),
+    /Source unreadable \/icons\/missing\/audit-test\.svg/,
+  );
+});
+
+test("durable catalog review state records evidence and remaining scope", () => {
+  const state = JSON.parse(readFileSync(new URL("../stencils/independent-review-state.json", import.meta.url), "utf8"));
+  const catalog = JSON.parse(readFileSync(new URL("../wwwroot/stencils/catalog.json", import.meta.url), "utf8"));
+  assert.ok(["in-progress", "complete"].includes(state.status));
+  assert.equal(state.compositionCount, catalog.items.length);
+  assert.equal(state.compositionsReviewed, state.reviews.length);
+});
+
+test("independent release check selects non-writing output validation", () => {
+  const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
+  assert.match(packageJson.scripts["stencils:independent-check"], /--check/);
+  assert.match(packageJson.scripts["stencils:independent-check"], /--independent/);
+});
+
+test("output validation rejects stale files without rewriting them", async () => {
+  const root = mkdtempSync(path.join(tmpdir(), "xyzicon-output-check-"));
+  try {
+    const outputFile = path.join(root, "drawing.svg");
+    writeFileSync(outputFile, "reviewed output");
+    await assert.rejects(() => writeOrCheckOutputs(new Map([["drawing.svg", "new output"]]), root, true), /Stale output: drawing\.svg/);
+    assert.equal(readFileSync(outputFile, "utf8"), "reviewed output");
+    await writeOrCheckOutputs(new Map([["drawing.svg", "reviewed output"]]), root, true);
+  } finally {
+    rmSync(root, { recursive: true });
+  }
+});
+
+test("independent review gate fails closed on missing, bogus, duplicate and stale records", async () => {
+  const root = mkdtempSync(path.join(tmpdir(), "xyzicon-independent-"));
+  mkdirSync(path.join(root, "stencils"));
+  mkdirSync(path.join(root, "wwwroot", "stencils"), { recursive: true });
+  const targetSvg = "<svg><rect width=\"10\" height=\"10\"/></svg>";
+  const neighborSvg = "<svg><circle cx=\"5\" cy=\"5\" r=\"5\"/></svg>";
+  writeFileSync(path.join(root, "wwwroot", "stencils", "a.svg"), targetSvg);
+  writeFileSync(path.join(root, "wwwroot", "stencils", "b.svg"), neighborSvg);
+  const svgHash = (value) => createHash("sha256").update(value).digest("hex");
+  const targetRevision = svgHash(targetSvg);
+  const neighborRevision = svgHash(neighborSvg);
+  const stateFile = path.join(root, "stencils", "independent-review-state.json");
+  const items = [{ id: "a", revision: "r1", comparisonRevision: "c1", sources: ["/icons/a.svg"] }];
+  const sourceRevisions = { a: [["/icons/a.svg", "source-v1"]] };
+  const nearest = { a: [{ a: "a", b: "b" }] };
+  const revisions = { b: "rb1" };
+  const qa = { count: 1 };
+  const valid = {
+    status: "complete", compositionCount: 1, compositionsReviewed: 1,
+    reviews: [{
+      id: "a", status: "approved", drawingRevision: "r1", comparisonRevision: "c1",
+      sourceRevisions: [["/icons/a.svg", "source-v1"]],
+      svgRevision: targetRevision,
+      reviewedSizes: [128, 64, 32],
+      semanticNeighborCoverage: "automated-and-manual",
+      neighborDecisions: [{ id: "b", revision: "rb1", svgRevision: neighborRevision, status: "approved", reason: "Distinct semantic neighbor." }],
+    }],
+  };
+  writeFileSync(stateFile, JSON.stringify(valid));
+  await validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root);
+
+  const missing = { ...valid, status: "in-progress" };
+  writeFileSync(stateFile, JSON.stringify(missing));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /Independent audit incomplete/);
+
+  const bogus = { ...valid, reviews: [{ ...valid.reviews[0], id: "bogus" }] };
+  writeFileSync(stateFile, JSON.stringify(bogus));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /bogus|missing|unknown/);
+
+  const stale = { ...valid, reviews: [{ ...valid.reviews[0], drawingRevision: "old" }] };
+  writeFileSync(stateFile, JSON.stringify(stale));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /stale drawing revision/i);
+
+  const duplicate = { ...valid, compositionsReviewed: 2, reviews: [valid.reviews[0], valid.reviews[0]] };
+  writeFileSync(stateFile, JSON.stringify(duplicate));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /count mismatch|duplicate/i);
+
+  const staleSource = { ...valid, reviews: [{ ...valid.reviews[0], sourceRevisions: [["/icons/a.svg", "source-v0"]] }] };
+  writeFileSync(stateFile, JSON.stringify(staleSource));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /stale source revisions/i);
+
+  const staleNeighbor = { ...valid, reviews: [{ ...valid.reviews[0], neighborDecisions: [{ id: "b", revision: "old", status: "approved", reason: "Distinct." }] }] };
+  writeFileSync(stateFile, JSON.stringify(staleNeighbor));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /stale neighbor revision/i);
+
+  const missingSizes = { ...valid, reviews: [{ ...valid.reviews[0], reviewedSizes: [128, 64] }] };
+  writeFileSync(stateFile, JSON.stringify(missingSizes));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /128\/64\/32/i);
+
+  const noNeighbor = { ...valid, reviews: [{ ...valid.reviews[0],
+    semanticNeighborCoverage: "none", neighborDecisions: [],
+    semanticNeighborReason: "No meaningful semantic neighbors." }] };
+  writeFileSync(stateFile, JSON.stringify(noNeighbor));
+  await assert.rejects(() => validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, root), /no-neighbor coverage conflicts/);
+
+  const partial = { ...valid, status: "in-progress", compositionCount: 1, compositionsReviewed: 1 };
+  writeFileSync(stateFile, JSON.stringify(partial));
+  await validateIndependentReviewPartial(qa, items, sourceRevisions, nearest, revisions, root);
+
+  const stalePartial = { ...valid, status: "in-progress", compositionCount: 1, compositionsReviewed: 1,
+    reviews: [{ ...valid.reviews[0], drawingRevision: "stale" }] };
+  writeFileSync(stateFile, JSON.stringify(stalePartial));
+  await assert.rejects(() => validateIndependentReviewPartial(qa, items, sourceRevisions, nearest, revisions, root), /stale drawing revision/i);
+});
+
+test("geometry and raster candidate support is evaluated independently", () => {
+  const entries = [
+    { source: "geometry-only", geometry: { signature: "g" }, mask: null },
+    { source: "raster-only", geometry: { signature: null }, mask: new Uint32Array(128) },
+    { source: "both", geometry: { signature: "g2" }, mask: new Uint32Array(128) },
+  ];
+  const split = splitCandidateSupport(entries);
+  assert.deepEqual(split.geometrySupported.map((entry) => entry.source), ["geometry-only", "both"]);
+  assert.deepEqual(split.rasterSupported.map((entry) => entry.source), ["raster-only", "both"]);
+});
+
+test("alpha masks have fixed raster dimensions and opaque backgrounds are triage-only", () => {
+  const sparse = new Uint8Array(64 * 64 * 4);
+  sparse[(4095 * 4) + 3] = 255;
+  const mask = packAlphaMask(sparse);
+  assert.equal(mask.length, 128);
+  assert.equal(mask[127] & (1 << 31), 1 << 31);
+
+  const opaque = rasterPreprocessingStatus(
+    '<svg viewBox="0 0 48 48"><rect x="0" y="0" width="48" height="48" fill="#fff"/></svg>',
+    "/icons/opaque.svg",
+  );
+  assert.equal(opaque.supported, false);
+  assert.match(opaque.reason, /Opaque full-canvas background/);
+
+  const transparent = rasterPreprocessingStatus(
+    '<svg viewBox="0 0 48 48"><path d="M1 1h46v46H1z" fill="#fff"/></svg>',
+    "/icons/light.svg",
+  );
+  assert.equal(transparent.supported, true);
 });
 
 test("packed monochrome silhouettes preserve exact intersection-over-union scores", () => {

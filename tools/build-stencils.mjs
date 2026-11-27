@@ -12,6 +12,8 @@ const reviewFile = path.join(root, "stencils", "reviews.json");
 const pairReviewFile = path.join(root, "stencils", "pair-reviews.json");
 const generator = rough.generator();
 const hash = (value) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
+const normalizedSvgRevision = (value) =>
+  createHash("sha256").update(value.toString("utf8").replace(/\r\n/g, "\n")).digest("hex");
 const json = (value) => JSON.stringify(value, null, 2) + "\n";
 const escape = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -119,6 +121,40 @@ export function renderSvg(item, monochrome = false) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img"><title>${escape(item.name)} - independent sketch</title>${paths.join("")}</svg>\n`;
 }
 
+export async function validateAliasEvidence(evidence, artwork, aliases, rootOverride = root) {
+  if (!evidence || evidence.scope !== "Microsoft 365 source aliases only; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Google Cloud multi-source aliases only; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Entra multi-source aliases only; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Azure source aliases only for same-filename entries in multiple directories; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Azure source aliases only for verified synonymous names; all group members visually compared for concept/theme, not artwork review" &&
+      evidence.scope !== "Fabric source alias groups only; visually compared group members at 42px; artwork review not included")
+    throw new Error("Invalid source-alias evidence scope.");
+  if (!Array.isArray(evidence.groups) || !evidence.groups.length)
+    throw new Error("Source-alias evidence has no groups.");
+
+  const byId = new Map(artwork.map((item, index) => [item.id, { item, sources: aliases[index] }]));
+  for (const group of evidence.groups) {
+    if (!group.id || !Array.isArray(group.sources) || !group.sources.length)
+      throw new Error("Invalid source-alias evidence group.");
+    const current = byId.get(group.id);
+    if (!current) throw new Error(`Stale source-alias evidence: unknown composition ${group.id}.`);
+    const expected = [...group.sources.map((source) => source.path)].sort();
+    const actual = [...current.sources].sort();
+    if (JSON.stringify(expected) !== JSON.stringify(actual))
+      throw new Error(`Stale source-alias evidence: mapped sources changed for ${group.id}.`);
+    for (const source of group.sources) {
+      if (!source.path || !/^[a-f0-9]{64}$/.test(source.revision))
+        throw new Error(`Invalid source-alias evidence revision for ${group.id}.`);
+      const file = path.resolve(rootOverride, "wwwroot", source.path.replace(/^\/+/, ""));
+      if (!file.startsWith(path.join(rootOverride, "wwwroot", "icons") + path.sep))
+        throw new Error(`Unsafe source-alias evidence path: ${source.path}`);
+      const content = (await readFile(file, "utf8")).replace(/\r\n/g, "\n");
+      if (hash(content) !== source.revision)
+        throw new Error(`Stale source-alias evidence: SVG source changed for ${group.id}: ${source.path}`);
+    }
+  }
+}
+
 export function mergeReviews(current, incoming, revisions, comparisons) {
   const merged = { ...current };
   for (const [id, review] of Object.entries(incoming)) {
@@ -191,6 +227,105 @@ export function currentPairReview(pair, reviews, revisions) {
   return { review: review.status, notes: review.notes };
 }
 
+export async function validateIndependentReview(qa, items, sourceRevisions, nearest, revisions, rootOverride = root) {
+  const file = path.join(rootOverride, "stencils", "independent-review-state.json");
+  let state;
+  try { state = JSON.parse(await readFile(file, "utf8")); }
+  catch (error) { if (error.code === "ENOENT") throw new Error("Independent review state is missing."); throw error; }
+  await validateIndependentReviewRecords(state, qa, items, sourceRevisions, nearest, revisions, rootOverride);
+  if (state.status !== "complete")
+    throw new Error(`Independent audit incomplete: ${state.status}; ${state.compositionsReviewed || 0}/${qa.count} compositions independently reviewed.`);
+  if (state.compositionsReviewed !== qa.count)
+    throw new Error(`Independent audit count mismatch: ${state.compositionsReviewed}/${qa.count}.`);
+  if (!Array.isArray(state.reviews) || state.reviews.length !== qa.count)
+    throw new Error("Independent audit records are incomplete.");
+}
+
+export async function validateIndependentReviewPartial(qa, items, sourceRevisions, nearest, revisions, rootOverride = root) {
+  const file = path.join(rootOverride, "stencils", "independent-review-state.json");
+  let state;
+  try { state = JSON.parse(await readFile(file, "utf8")); }
+  catch (error) { if (error.code === "ENOENT") throw new Error("Independent review state is missing."); throw error; }
+  await validateIndependentReviewRecords(state, qa, items, sourceRevisions, nearest, revisions, rootOverride);
+  return state;
+}
+
+async function validateIndependentReviewRecords(state, qa, items, sourceRevisions, nearest, revisions, rootOverride = root) {
+  if (!state || !["in-progress", "complete"].includes(state.status))
+    throw new Error("Independent audit state status is invalid.");
+  if (state.compositionCount !== qa.count)
+    throw new Error(`Independent audit composition count mismatch: ${state.compositionCount}/${qa.count}.`);
+  if (!Array.isArray(state.reviews))
+    throw new Error("Independent audit records are incomplete.");
+  if (!Number.isInteger(state.compositionsReviewed) ||
+      state.compositionsReviewed !== state.reviews.length ||
+      state.compositionsReviewed > qa.count)
+    throw new Error("Independent audit partial count mismatch.");
+  if (state.status === "complete" && state.compositionsReviewed !== qa.count)
+    throw new Error(`Independent audit count mismatch: ${state.compositionsReviewed}/${qa.count}.`);
+  const catalogIds = new Set(items.map((item) => item.id));
+  const reviewIds = new Set(state.reviews.map((review) => review.id));
+  if (reviewIds.size !== state.reviews.length)
+    throw new Error("Independent audit contains duplicate composition records.");
+  if ([...reviewIds].some((id) => !catalogIds.has(id)))
+    throw new Error("Independent audit contains unknown composition records.");
+  for (const review of state.reviews) {
+    if (!review.id || review.status !== "approved")
+      throw new Error("Independent audit has unapproved or malformed composition records.");
+    const item = items.find((candidate) => candidate.id === review.id);
+    if (!item) throw new Error(`Independent audit unknown composition: ${review.id}`);
+    if (review.drawingRevision !== item.revision)
+      throw new Error(`Independent audit stale drawing revision: ${review.id}`);
+    if (review.comparisonRevision !== item.comparisonRevision)
+      throw new Error(`Independent audit stale comparison revision: ${review.id}`);
+    if (!Array.isArray(review.sourceRevisions))
+      throw new Error(`Independent audit missing source revisions: ${review.id}`);
+    if (JSON.stringify(review.sourceRevisions) !== JSON.stringify(sourceRevisions[review.id]))
+      throw new Error(`Independent audit stale source revisions: ${review.id}`);
+    if (typeof review.svgRevision !== "string")
+      throw new Error(`Independent audit missing target SVG revision: ${review.id}`);
+    const targetSvg = await readFile(path.join(rootOverride, "wwwroot", "stencils", `${review.id}.svg`));
+    if (review.svgRevision !== normalizedSvgRevision(targetSvg))
+      throw new Error(`Independent audit stale target SVG: ${review.id}`);
+    if (!Array.isArray(review.reviewedSizes) ||
+        JSON.stringify([...review.reviewedSizes].sort((a, b) => a - b)) !== JSON.stringify([32, 64, 128]))
+      throw new Error(`Independent audit missing 128/64/32 evidence: ${review.id}`);
+    if (!Array.isArray(review.neighborDecisions))
+      throw new Error(`Independent audit missing semantic-neighbor decisions: ${review.id}`);
+    if (!["automated-and-manual", "manual", "none"].includes(review.semanticNeighborCoverage))
+      throw new Error(`Independent audit missing semantic-neighbor coverage mode: ${review.id}`);
+    const expectedAutomatedNeighbors = (nearest[review.id] || [])
+      .map((pair) => pair.a === review.id ? pair.b : pair.a);
+    const actualNeighbors = new Set(review.neighborDecisions.map((decision) => decision.id));
+    if (review.semanticNeighborCoverage === "none") {
+      if (expectedAutomatedNeighbors.length !== 0)
+        throw new Error(`Independent audit no-neighbor coverage conflicts with automated neighbors: ${review.id}`);
+      if (review.neighborDecisions.length !== 0 ||
+          typeof review.semanticNeighborReason !== "string" ||
+          !review.semanticNeighborReason.trim())
+        throw new Error(`Independent audit invalid no-neighbor justification: ${review.id}`);
+    } else {
+      for (const neighborId of expectedAutomatedNeighbors) {
+        if (!actualNeighbors.has(neighborId))
+          throw new Error(`Independent audit missing automated semantic-neighbor decision: ${review.id} -> ${neighborId}`);
+      }
+      if (review.neighborDecisions.length === 0)
+        throw new Error(`Independent audit missing semantic-neighbor decisions: ${review.id}`);
+    }
+    for (const decision of review.neighborDecisions) {
+      if (decision.status !== "approved" || typeof decision.reason !== "string" || !decision.reason.trim())
+        throw new Error(`Independent audit unapproved or reasonless neighbor decision: ${review.id}`);
+      if (decision.revision !== revisions[decision.id])
+        throw new Error(`Independent audit stale neighbor revision: ${review.id} -> ${decision.id}`);
+      if (typeof decision.svgRevision !== "string")
+        throw new Error(`Independent audit missing neighbor SVG revision: ${review.id} -> ${decision.id}`);
+      const neighborSvg = await readFile(path.join(rootOverride, "wwwroot", "stencils", `${decision.id}.svg`));
+      if (decision.svgRevision !== normalizedSvgRevision(neighborSvg))
+        throw new Error(`Independent audit stale neighbor SVG: ${review.id} -> ${decision.id}`);
+    }
+  }
+}
+
 export function validateRelease(qa, args) {
   const unresolvedPairs = qa.flaggedPairs.filter((pair) => pair.review !== "distinct");
   if (args.includes("--approved") && (qa.needsReview.length || unresolvedPairs.length))
@@ -198,6 +333,18 @@ export function validateRelease(qa, args) {
   const missing = Object.values(qa.coverage).reduce((sum, item) => sum + item.sources - item.covered, 0);
   if (args.includes("--complete") && missing)
     throw new Error(`Complete catalog blocked: ${missing} source entries have no drawing.`);
+}
+
+export async function writeOrCheckOutputs(outputs, outputDir, check) {
+  for (const [name, content] of outputs) {
+    const file = path.join(outputDir, name);
+    if (check) {
+      if (await readFile(file, "utf8") !== content) throw new Error(`Stale output: ${name}; run npm run stencils.`);
+    } else {
+      await mkdir(outputDir, { recursive: true });
+      await writeFile(file, content);
+    }
+  }
 }
 
 export function packMask(pixels) {
@@ -237,6 +384,17 @@ export async function build(args = []) {
     catalogs[provider] = JSON.parse(await readFile(path.join(root, "wwwroot", "data", `${provider}.json`), "utf8"));
   }
   const aliases = resolveSources(artwork, catalogs);
+  for (const evidenceName of [
+    "m365-alias-evidence.json",
+    "gcp-alias-evidence.json",
+    "entra-alias-evidence.json",
+    "azure-same-name-evidence.json",
+    "azure-named-alias-evidence.json",
+    "fabric-alias-evidence.json",
+  ]) {
+    const evidence = JSON.parse(await readFile(path.join(root, "stencils", evidenceName), "utf8"));
+    await validateAliasEvidence(evidence, artwork, aliases, root);
+  }
   const revisions = Object.fromEntries(artwork.map((a) =>
     [a.id, hash({ artwork: a, svg: renderSvg(a), elements: toElements(a) })]));
   let reviews = await optionalJson(reviewFile);
@@ -348,16 +506,12 @@ export async function build(args = []) {
   for (const provider of Object.keys(accents))
     outputs.set(`${provider}.excalidrawlib`, json(library(artwork.filter((a) => a.provider === provider))));
 
+  if (args.includes("--independent"))
+    await validateIndependentReview(qa, items, sourceRevisions, qa.nearest, revisions, root);
+  if (args.includes("--independent-partial"))
+    await validateIndependentReviewPartial(qa, items, sourceRevisions, qa.nearest, revisions, root);
   validateRelease(qa, args);
-  for (const [name, content] of outputs) {
-    const file = path.join(output, name);
-    if (args.includes("--check")) {
-      if (await readFile(file, "utf8") !== content) throw new Error(`Stale output: ${name}; run npm run stencils.`);
-    } else {
-      await mkdir(output, { recursive: true });
-      await writeFile(file, content);
-    }
-  }
+  await writeOrCheckOutputs(outputs, output, args.includes("--check"));
   if (args.includes("--reviews")) {
     await writeFile(reviewFile, json(reviews));
     if (incomingPairs) await writeFile(pairReviewFile, json(pairReviews));

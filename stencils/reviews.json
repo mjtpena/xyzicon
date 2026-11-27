@@ -666,10 +666,10 @@
     "notes": "Central hub node connected by spokes to three outer nodes matches official source; crisp at all sizes."
   },
   "power-automate": {
-    "revision": "ce04493b0bb30a7157bd45d837c9af2650a86db449152ed957c134ae55ef7f2d",
-    "comparisonRevision": "c234b9e651592272face85a1397d359b88b9ec367ef8be0d10fac70682b7f9f0",
-    "status": "approved",
-    "notes": "The trigger, two actions and loop are separated at 32px; the nearby marquee, run-command and video scenes are structurally different."
+    "revision": "30554b18ffeab681153377a807b3fbce8b7baeb121794bdd96eb6587e61e8f6e",
+    "comparisonRevision": "a145d330d1338a335eff554ac2b2ef525a1de92b22654c35680ff0d2b9e2ef9f",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   },
   "power-apps": {
     "revision": "d3ef74b3f366a5912243d2087870d9efbdcfb79cdba97ef0b4116c5c54f604c9",
@@ -678,10 +678,10 @@
     "notes": "A draggable tile enters an application canvas, unlike media, code and file storage."
   },
   "power-dataverse": {
-    "revision": "a6f9a699d13594153e58b74e2b2bc6e688cc73251317ae32ca1f66ea613f5e83",
-    "comparisonRevision": "ab0d975f5a4ff3b47de7fb3b0027ae9a673c8d02de4b9e442bc62bd3875698b7",
-    "status": "approved",
-    "notes": "Three linked tables represent shared structured data; the nearby media stack, dashboard and identity scene have different arrangements."
+    "revision": "a2b28f622a00b0e4ddebf37dc0c015c1fb3390dce7b7b3ccb0dd8ce61ae7dc64",
+    "comparisonRevision": "16a287f5a564e556f8e2a81f028d964fef810800a01adccb360ea8b3657bf8e9",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   },
   "dynamics-sales": {
     "revision": "14a8c9c89b2015894395a3ae4bf30d06512e8ab4abff8f43a7912f1b9f0c2a5d",
@@ -1063,9 +1063,9 @@
   },
   "aws-workdocs": {
     "revision": "064a363f49c1e3b5c7a5a5aad6d6cc5e9f491026c45d5cc58b7ea39f053a8e51",
-    "comparisonRevision": "f5e35965248d98edef7812dbf5fbc52d8fa5c15ffe5c9552f6b8a695782e6ae4",
+    "comparisonRevision": "3f6643729458cd7d15fb81f141cbb371e36a53b749700e1227181376d4711ccf",
     "status": "approved",
-    "notes": "Two people share a document, unlike an activity log, double arrow and Snowball transfer."
+    "notes": "Two people share a page; it remains distinct from the AWS WorkDocs SDK pairing, WorkMail dashboard and generic document."
   },
   "aws-supply-chain": {
     "revision": "d51bbae4d13c01aed023320d51624d5443a79c4a640df297d19c8f98dde7ef72",
@@ -1099,9 +1099,9 @@
   },
   "azure-defender-easm": {
     "revision": "0adc1ae2f4fb16833574624b35e7c07343f12f97296cdee9d968ce350581ad06",
-    "comparisonRevision": "fe92c3089f89ef2db0fe97dd1ac3609d26c546547270372da31085bee8a7d0e7",
+    "comparisonRevision": "ab4263072f6b35e7c052a3d53bd756b4ae08dbdc5cd098fd349bbc8c52cf376a",
     "status": "approved",
-    "notes": "A magnifier inspects connected assets in a shield; the current neighbors show a plug, network policy and model framework."
+    "notes": "A magnifier inspects connected assets in a shield; the current neighbors show a plug, network policy and model framework. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "azure-information-protection": {
     "revision": "cff14785ca82cd09364f3f8764be194589b0167d2cf4d92490d9a4f4ffae7ec7",
@@ -1236,10 +1236,10 @@
     "notes": "Central controller hub coordinating four corner workload nodes; balanced silhouette."
   },
   "azure-activity-log": {
-    "revision": "10a067b87a1793362d63c9d0ce188042b7c9d157a5f65bb0a31946dcf6a967dd",
-    "comparisonRevision": "a8da591f8fe66e1d7b508b4c299cc4f8a13ed2d0416d8546bb279abd9b196ff4",
+    "revision": "9b92e952ef36f6af24ac392382b0bbe66177e294f3897ee90adf61b6b97c9671",
+    "comparisonRevision": "d9a21c7c08ef0ed920df5f17e4281a0f6684022a0b0d5a18a679ea84f4039aaf",
     "status": "approved",
-    "notes": "A list of entries differs from the neighboring template, media and code pages."
+    "notes": "A page with three chronological event markers distinguishes the activity history from templates, generic documents and code panels."
   },
   "azure-diagnostic-settings": {
     "revision": "3cec1b83bf10f6720fed6d7d5be8cf6925f70a925826ab184b54af7ce444224b",
@@ -1434,40 +1434,40 @@
     "notes": "A clear archive is surrounded by recovery arrows, unlike the nearby server, column and infrastructure rack."
   },
   "aws-athena": {
-    "revision": "4c6565d5b7e720e130adbf29f91afd686dbb3c46f19c0c18093ecf5845fd4589",
-    "comparisonRevision": "c47d6fa2f7a7ae9032c0abd12b63afcc517bc2935b2af462a560f7234d4b21b6",
+    "revision": "88d6c8281a90438cd30246516645c87adf9388cd6cd257fdec1fbc0cd81557cc",
+    "comparisonRevision": "b52cc29512616bf7ff2d9c7e716cf4968ab67c840f5823078af66b624f0f6e53",
     "status": "approved",
-    "notes": "An object store points to SQL results, unlike a diagnostic meter, file servers and HTTP notification."
+    "notes": "A data bucket feeds a query lens with visible result rows, distinct from the bucket-and-table Athena connector and Redshift cluster."
   },
   "aws-kinesis-streams": {
     "revision": "c8cd13dc77297709512ad509f60b9c51639221176648d8598a52063923cec796",
     "comparisonRevision": "9de6321b48158d70016199bc9ddf3cef09994c01bfa8b8ae23229cb10f49447e",
     "status": "approved",
-    "notes": "Three data strands enter an open processor and leave as a stream, unlike the unbuffered Kinesis flow, keyed table and linked database."
+    "notes": "Three incoming stream strands pass through a processor and exit as a stream, distinct from base Kinesis, a keyed table, and video streams."
   },
   "aws-opensearch": {
     "revision": "6fb3a1a98ff7cda29b5ee8e98815ab2103f7f1bc7832618bbf7142239ebb29b8",
     "comparisonRevision": "8496e5f9eb581f9b6cf0214e38291d2d7fe65c2a87e835b9426edf18f11916dc",
     "status": "approved",
-    "notes": "Magnifying search lens framing an indexed bar chart; clean and legible."
+    "notes": "A search lens frames indexed documents and a chart, distinct from the index listing and dashboards compositions."
   },
   "aws-redshift": {
-    "revision": "b131300a9d2438cb81321531f3a645ba8fd04ac5337416a5a2c0a3f277b36a2d",
-    "comparisonRevision": "274010fc59def6320782146ce160273d5895e88b58eb99f6b0a0c501a59a74dc",
+    "revision": "a39653f8ea14066dfb8014b4a24fcb2d31ea7bae3ca1da0a610028d52ffa0ed4",
+    "comparisonRevision": "b5bbe6f388c97a57a88829697f404d39ecfdc9c0792886ef75ea96f6e3981fb3",
     "status": "approved",
-    "notes": "A warehouse grid differs from the partitioned SQL cylinder, multi-item building and mobile engagement."
+    "notes": "A segmented data cylinder linked to three compute nodes is distinct from Azure SQL Warehouse inside a building and Athena’s query lens."
   },
   "aws-sagemaker": {
     "revision": "6fbb1d5eb9572f5d04373e828bd0a83af7553d4ba6147955b35c7eb3c2714869",
-    "comparisonRevision": "a263f9fac24814fc0c459699205b2ab08a17da41c70de54ffc3f396348d64b9a",
+    "comparisonRevision": "b6b1c346215adbf9b5c117028dab3d22b4f7876039aed17c24f8b1b3f66a8590",
     "status": "approved",
-    "notes": "Training data enters a model network, unlike inference, security operations and enterprise data processing."
+    "notes": "A dataset enters training nodes and produces a prediction, distinct from the SageMaker AI overview, Studio Lab, and Bedrock motifs."
   },
   "aws-eventbridge": {
     "revision": "04c7f375d3578ee677d4f82c8dfa532c1c2000ce6d9fc165e3087618d63f693b",
     "comparisonRevision": "d947f62550d47d898a074367f93dcc78907a4bf7f712ce94466d5089fc8e9334",
     "status": "approved",
-    "notes": "An event crosses a bridge, unlike image model, budgets and API message."
+    "notes": "An event crosses a bridge toward a consumer, distinct from an event rule, pipe, and scheduled clock."
   },
   "aws-eventbridge-pipes": {
     "revision": "8734ef42a1a9b7ccbb3d529bd8bce96b047d9e4f57e4839f2da05d7cc0954d93",
@@ -1477,9 +1477,9 @@
   },
   "aws-eventbridge-rule": {
     "revision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
-    "comparisonRevision": "2ed79847ffd40e0b7e677082cdd17734def02e5be715934e7708616a7a71b71b",
+    "comparisonRevision": "becff1853c36bed919384bff09d0ff7cbd560341fc2c15d646fe62fb638da3f0",
     "status": "approved",
-    "notes": "An event passes through a checked decision, unlike the health, Alexa and discovery documents."
+    "notes": "A checked decision diamond filters an event document before routing, distinct from the bidirectional pipe, event record, and scheduler."
   },
   "aws-eventbridge-scheduler": {
     "revision": "309be381330fce59a840e1e73787f8b57ed802185706a9eb76c0104b4b5c588a",
@@ -1531,9 +1531,9 @@
   },
   "aws-ecs": {
     "revision": "0cb557262b85cbec0255ac6e7a981958de8f3eff2fe85e902a99c88702efc596",
-    "comparisonRevision": "fbcdd49445a98d4206b92aec011cc4b9ec9cf3de30afe2513245e3fb1696264b",
+    "comparisonRevision": "68408755f08a2f97e40132b91465631338f40de2f4d8cbbd9debb581be3d7062",
     "status": "approved",
-    "notes": "A controller organizes two container tasks, unlike the database hierarchy, analytics portal and device management panel."
+    "notes": "A controller deploys two container tasks, distinct from ECR image storage, EKS hexagonal orchestration, and the Fargate compute cube."
   },
   "aws-elasticache": {
     "revision": "fdf0e79d27c0800e6deb72fd71297fbbecfe5f828b96af26be5e74cc03cceb0c",
@@ -1843,9 +1843,9 @@
   },
   "aws-redshift-governance": {
     "revision": "56144ec43b50e75d0f196aa5e2404690662941f92d028cf5e8c24a5fa4eb8451",
-    "comparisonRevision": "a79b17c8f4e89d7195837b11f541273fec60a7dbf31ae243dbbec5b80d282b9d",
+    "comparisonRevision": "9bbaa0c0d3e3dd7b969c6e55fb7805d182b502b73acd12d187de540ae98a4d8a",
     "status": "approved",
-    "notes": "A shield protects a database, unlike model data, quality checks and memory cache."
+    "notes": "A database protected by a checked shield differs from Redshift ML model training, Athena querying, and Glue quality checks."
   },
   "aws-redshift-query-editor": {
     "revision": "995fb6e273a2c949236b214d5396aa8c8ad72df9fd8fbea19d6c0b63cc0a9f87",
@@ -1903,9 +1903,9 @@
   },
   "aws-datazone-projects": {
     "revision": "66e5fd4db7c65d0d275c27b3823d9825680eee59eb33326e38d0ccc8009a03a6",
-    "comparisonRevision": "9ba3d776ef1266eb4105192c879fde37c97dab7e845661cdb5098716217d8313",
+    "comparisonRevision": "ead8e34093a997c3a537487f61e41415799fba41348acc92328c6b4933c66b5b",
     "status": "approved",
-    "notes": "A team and chart are grouped in a project folder, unlike an on-premises rack, Kubernetes and functions."
+    "notes": "A team and chart are grouped in a project folder, unlike an on-premises rack, Kubernetes and functions. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "aws-glue-crawler": {
     "revision": "22990bc504d7eafdad89afdbaa38638ff63b9193ad68a2a689efc08204c14718",
@@ -2047,9 +2047,9 @@
   },
   "aws-outposts-rack": {
     "revision": "43fdeff2ca5130b7ad11bbfe20d273bbfa90e0018a38b697c4b26f1188b108dc",
-    "comparisonRevision": "a5f01be6f00779bd6334c83f43aa9a4d92a77f2629d83cdf843ee99d5651d2d7",
+    "comparisonRevision": "fb7c14c1dabf0d93553796d2d79a36b860461a6e426c44e719ef77481309f1e7",
     "status": "approved",
-    "notes": "A server rack connects to a local building, distinct from host groups, Kubernetes and external key management, and the Redshift warehouse."
+    "notes": "A server rack connects to a local building, distinct from host groups, Kubernetes and external key management, and the Redshift warehouse. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "aws-outposts-servers": {
     "revision": "10126c09ba3b4cc078567e030847331ed0a6a9f7c9a2202e3e7ad696dc8fe530",
@@ -2064,10 +2064,10 @@
     "notes": "Capacity instances expand under a bidirectional control, unlike HSM, network segments and blockchain resources."
   },
   "aws-mxnet": {
-    "revision": "576dadab81f6fa4dcd61472f50e7a0ca3fba2f6b9f478f76c4a0a7fa08cba11a",
-    "comparisonRevision": "7183863debd48dda1d94a58856b1750d01fc60613e5fe796355c03085dceed23",
-    "status": "approved",
-    "notes": "A labeled MX processing node connects to a graph, unlike power, external attack management and CDN security."
+    "revision": "76928a8f5680e6f5a1d089679fffde02fafb9d5a2d62972de0fdc426b17d259b",
+    "comparisonRevision": "e6f763440313891ff34a70eff5175c96f9d2d24abf0d2064ac2e59151ac3a813",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   },
   "aws-pytorch": {
     "revision": "8cc71f453a8112e064927d8141c6fffb13ee24b1b9bcb20013c5faf09a70c74e",
@@ -3631,9 +3631,9 @@
   },
   "aws-professional-services": {
     "revision": "a2ffd68c5322db316989c013e0f1fa347820d9aed9fffe5826034adba92c9868",
-    "comparisonRevision": "408f57752fcc34edac338e8f43cf4e3d63df8d0df635fdfcd3897338f9242634",
+    "comparisonRevision": "e1843fb56c0b29f76f9fbc971b86268672838fe4c97b94305e1ec3940cc8a045",
     "status": "approved",
-    "notes": "The people, briefcase and structured service network remain recognizable and distinct from the float/block neighbors."
+    "notes": "The people, briefcase and structured service network remain recognizable and distinct from the float/block neighbors. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "aws-training-certification": {
     "revision": "4045f489e91b1b964e6cbc5001a882f583bb93b4529c4e44240c34ae03148957",
@@ -4951,9 +4951,9 @@
   },
   "m365-fingerprint": {
     "revision": "f356e23582af133e8d635406172cc65bea7292ec4f29695fbef395462973b9af",
-    "comparisonRevision": "877ca999c016c254729afb340934f1047dfd3e5a13dfcfee80b1f97946631663",
+    "comparisonRevision": "bd8e7e5047586a540e686e5617892317c7d638584db9d2049a80869483abffd0",
     "status": "approved",
-    "notes": "Nested asymmetric ridges form a fingerprint, unlike network globe, warehouse and restore point."
+    "notes": "Nested asymmetric ridges form a clear fingerprint, unlike the network globe, restore point, and defender meter at small sizes."
   },
   "m365-globe": {
     "revision": "7892343b0af871a0a514957ad0224a00780bdfb08c296d2eaa7b62e9dd97de85",
@@ -5665,9 +5665,9 @@
   },
   "fabric-building-data": {
     "revision": "0c0a6683f08c8ab4bc06ffb60889e7d6a15e0086e6e59b079cc76fb56b76fd10",
-    "comparisonRevision": "021051648ab29675cb5b8eb03131b67f40145503444e6a7d1ba97f02a6f89414",
+    "comparisonRevision": "2fa404bc4f772dd5f4f7964daaaf2c44d7b6ac8c81e0679ff8e7d636a25cb75f",
     "status": "approved",
-    "notes": "Open building outline and database cylinder preserve the source motif without obscuring it, unlike Redshift warehouse, office buildings and Outposts racks."
+    "notes": "The open building outline contains database and data-window motifs, distinct from multi-building offices, Outposts racks, and on-premises clusters."
   },
   "fabric-branch-add": {
     "revision": "1bfe2ab9b6ba9758d632526635471f73b78ac139a8920c4befce548f96ae0952",
@@ -6139,9 +6139,9 @@
   },
   "gcp-dataproc-metastore": {
     "revision": "8b04c81d06cd2d0bbe983107f7c44bdc0de55602159df90f7a9ab435365e86f0",
-    "comparisonRevision": "3cf6ee64af85f1da97d51b2520710e5e4069b563a265dfec88a046575ea44924",
+    "comparisonRevision": "cb6860cdc955401c97374c8de3b5ed930149c8873d0d76be6e7d038ce4835834",
     "status": "approved",
-    "notes": "Shared metadata cylinder linked to two structured table definitions; clear."
+    "notes": "A shared metadata cylinder linked to structured table definitions differs from Redshift’s distributed cylinder cluster and inventory/table grids."
   },
   "gcp-healthcare-marketplace": {
     "revision": "186a198633f7ea6b5675ed7c99f10493379c80399dbaf5374e65b3d0aceda5df",
@@ -6451,9 +6451,9 @@
   },
   "gcp-cloud-optimization-ai": {
     "revision": "05d22f7debe6142653c924363dc76ca435f79b551d4bee5320b8be8e831ffc2f",
-    "comparisonRevision": "e2e963357c1b10714f0ba6ba0fc5a839c627f1f1405aeb7b7632572b0ca61085",
+    "comparisonRevision": "6b429346a6a867b36ee985db704b6277cd49456805f36dc0a4aa194ec283c3b1",
     "status": "approved",
-    "notes": "An upward trend targets an optimization bullseye, unlike lab globe, autoscaling and Athena."
+    "notes": "The magnified optimization target and rising trend remain distinct from the lab globe, autoscaling arrows, and monitoring pipeline."
   },
   "gcp-fleet-routing": {
     "revision": "b93cb599d26ad5d38ab508b5f72066331c4950ab2ba8d53e2037435e8f00033e",
@@ -6697,9 +6697,9 @@
   },
   "gcp-cloud-marketing": {
     "revision": "97bf8a104930b42c0ff2f616eabb834b04aaa84f8e497d4531f8877328d81da3",
-    "comparisonRevision": "8d30f30d55328452cf46d74a8d7140a208b9bced680c62db34a021ecf98b4093",
+    "comparisonRevision": "56a84b9140e8a719edc35a2b65aeb639ef54604e738f3e20800d35c48efb7ece",
     "status": "approved",
-    "notes": "A megaphone addresses people, unlike sensor processing, media routing and language analysis."
+    "notes": "A megaphone addressing an audience is clear and distinct from Athena’s query lens, sensor processing, and media routing."
   },
   "gcp-cloud-generic": {
     "revision": "431c107034116acd3eb8517babea9fc29592495ac591715b614ab57360198257",
@@ -6961,9 +6961,9 @@
   },
   "gcp-load-balancing": {
     "revision": "b595031d58d47f20ba997bc1596acaccb48bd6e80e23ded5278af25f3f52afc0",
-    "comparisonRevision": "d0e56e785a68082a1f44fcc4ce2c42c408d0c73cea0e06af3454efadeea14f02",
+    "comparisonRevision": "18db193e9e09d43c9fd96fea4510301adfdc107f65d7bb49bcb34d64170c2ac4",
     "status": "approved",
-    "notes": "A balancing beam distributes loads, distinct from borders and AI hub."
+    "notes": "A balancing beam distributes loads, distinct from borders and AI hub. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "gcp-cloud-cdn": {
     "revision": "8da0d66d854e910a24378a2f7bff4fc3df5b914726cd6c52d78761e938482bb7",
@@ -7111,9 +7111,9 @@
   },
   "fabric-data-factory": {
     "revision": "830953b57475a25095e0b75ce634697020b7a70284d1387fa4386ff69e2a9d8c",
-    "comparisonRevision": "01de5511a81e04b9edf9fa25891335b38bd94efee78bac344d722b2c592de732",
+    "comparisonRevision": "e04aa20dabb095e239573e3b4e8b3af7110040489c82bbb8bcf42dd48791acfa",
     "status": "approved",
-    "notes": "A factory site with pipes, conveyor and building retains the source subject and is distinct from the reworked datatype pair."
+    "notes": "A factory site with pipes, conveyor and building retains the source subject and is distinct from the reworked datatype pair. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "fabric-data-warehouse": {
     "revision": "35e7fe33256be6e4f30c94800194995326679f47f2148cc4a80f8f1c5fe7336f",
@@ -7147,9 +7147,9 @@
   },
   "fabric-event-house": {
     "revision": "e57a49726e56dfc3417735f0217eea07def582759dffc14e1fb75cb45016e187",
-    "comparisonRevision": "3a850b0b7c94e5031f8e08b83a8ff0a188024b79dc52cfc1dd31c0e36117bb21",
+    "comparisonRevision": "0e93b5a4f2c46f2a97a9b91eecc349d30544346786f0ea02bc5e3206863eaa26",
     "status": "approved",
-    "notes": "A house receives events around a clock, unlike Redshift grid, SQL warehouse cylinder or protected database across twelve variants."
+    "notes": "A house framing a clock and event marks differs from the warehouse database, server rack, and protected-database motifs."
   },
   "fabric-eventstream": {
     "revision": "262c3d58a35692ff5f4bb339a085d7c180f917027a00c4b5ac762c1ad2cd5b65",
@@ -7483,9 +7483,9 @@
   },
   "azure-elastic-job-agents": {
     "revision": "8d76272ef4ae5a1d74d4fdfd7dc2cf86c483d3fe2c680df3f7d2961299a42aa2",
-    "comparisonRevision": "04984c17514ada3f37a1cb81b5ceb66338ca7c70ed0788d0a580e682b4119e57",
+    "comparisonRevision": "5d65caafb18b61d7e87c1e9e0658937951406f0b732237339058a4bad1415f04",
     "status": "approved",
-    "notes": "A clock on a database distributes scheduled jobs rather than activity logs, code or exported tables."
+    "notes": "A scheduled database distributes work to worker agents; the cylinder, clock and fan-out differ from an activity timeline, code panel and copy-job pages."
   },
   "azure-managed-database": {
     "revision": "988b3aa7318b1e6ea980d61767290cd45a1fe42edfa136b5b792ed753b555c27",
@@ -7555,9 +7555,9 @@
   },
   "azure-hdinsight-clusters": {
     "revision": "e59a79a74ebaafcc8cf7fbb5120e488801e4c43ba6248cb41741ba5d9b2f3673",
-    "comparisonRevision": "3cd669634ef18ce6977be7a196005249ca00f0a4f13d24c073b81d1681bf52b2",
+    "comparisonRevision": "5c2cf8de1a14956e56d8e5102d5e2e2a9fb00112aa4978d4ab2c5ed0cfffe644",
     "status": "approved",
-    "notes": "A data source feeds clustered processing nodes unlike query, runtime settings or a reader."
+    "notes": "A data cylinder fans into three processing tables, distinct from runtime configuration, a reader, and a database cluster."
   },
   "azure-stream-analytics": {
     "revision": "d6d776d35778339ee8e758da9b53389f06ca5b80971add92c39c079ab26510bf",
@@ -7585,9 +7585,9 @@
   },
   "azure-sql-warehouse": {
     "revision": "46b20ed4cef259e5cc7261a360fc60e2d205b33982aca27f741e6658d4ff8eb2",
-    "comparisonRevision": "71ad5a1bda7e065b0092dbf09a9f6e1ef70234bc7e7170819456c1c962f900d3",
+    "comparisonRevision": "1478274acc4826a353750485676a904b5c3c5c641b75c7ee1cd6b88897f24497",
     "status": "approved",
-    "notes": "A warehouse encloses partitioned database storage, unlike Redshift grid, event house clock and Outposts server."
+    "notes": "A database housed inside a warehouse building differs from Redshift’s linked compute-node cylinder and the event-house clock."
   },
   "azure-database-migration": {
     "revision": "c2d8ae6e6653a8156041bcc1a7cbd4794c4937d498a68d8eb2d546c4ee6db2c3",
@@ -7681,9 +7681,9 @@
   },
   "fabric-stream-connector": {
     "revision": "df31b18b8ca3ceab730b88f71763970943e11fe56869a6ed412f53498a4665d0",
-    "comparisonRevision": "ab64f03bf054768f6707de10e4386e6d5a11ddaaa8491e726f9dea9457d01c2d",
+    "comparisonRevision": "123b6762eceae9eefb10b9920831be3686ccf77e6e846fd5d19ef5a200579c33",
     "status": "approved",
-    "notes": "A streaming input joins a processing endpoint rather than operations agent, studio or permission check across six variants."
+    "notes": "A streaming input joins a processing endpoint rather than operations agent, studio or permission check across six variants. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "fabric-external-dataflow": {
     "revision": "bdc239d77089bf2e720b33df9a8f657e9e97c6c55ca1f45d55fea1ceabffe424",
@@ -7939,9 +7939,9 @@
   },
   "fabric-diagram-branch-link": {
     "revision": "dba82608a49f48f53e98d57e22a00f03e5d4931fb9df0a01d8ccb7813fd3e850",
-    "comparisonRevision": "e13a3bb95b9bbee554d93cbfd0b089d65dcb9aa326b6b3aabfe7765d7f36e230",
+    "comparisonRevision": "8225aea9c99f8f09131a7c5215d0b4c59f1b356a0e244bff18901208bb24c21c",
     "status": "approved",
-    "notes": "Top block branching to a child block and horizontal chain link; faithful to source."
+    "notes": "Top block branching to a child block and horizontal chain link; faithful to source. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "fabric-diagram-arrows": {
     "revision": "3d763a190d76813542d50f2255550b99044d3026e0842aba9a09d85c9d10761a",
@@ -8316,10 +8316,10 @@
     "notes": "Paper-plane send arrow centered inside a circle; crisp and legible."
   },
   "fabric-sample-workload": {
-    "revision": "456508c767b75a7e548e151f36a6c4fadba81473ae3c95d0e150f84c46280570",
-    "comparisonRevision": "ecbc01f28a089d5abdedf561d185b94cdb9ff3c98f49a8058492ad599f193d82",
-    "status": "approved",
-    "notes": "Clustered square, circle, and triangle representing sample workload; clear silhouette. Re-reviewed at 128, 64 and 32 px after the exact-geometry alias merge; current neighbor comparisons remain distinct and legible."
+    "revision": "92cb45fb277f60f90ed07ba983f4bee45c13e61c129f0121c0ba594911ace9e8",
+    "comparisonRevision": "dbd22afcf66a1d307de02fe3916cf7e033a4906de8175ee894bcc00fd5971c94",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   },
   "fabric-database-add": {
     "revision": "e3c5fae7f5919ab39248bd9433ea78c5acde4f8875a5b2a024f254d07a17b467",
@@ -8419,9 +8419,9 @@
   },
   "fabric-datatype-boolean": {
     "revision": "f502c83da2e0483374f6a8caaaf93984d46d0865a6326c307000ec8e4afef4d6",
-    "comparisonRevision": "3391001b2be7e2e0df10ab3fd0f22692957e77d771b6220b16e1580c32b35618",
+    "comparisonRevision": "82559e55fc4ecfdd0de439ad4d0df0720d2f440eafb3abef7a07de139ecbea63",
     "status": "approved",
-    "notes": "Bold hand-drawn 0/1 separated by diagonal slash; crisp at 32px."
+    "notes": "Bold hand-drawn 0/1 separated by diagonal slash; crisp at 32px. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "fabric-datatype-string": {
     "revision": "fc20662a51dfe5a7246cbabd04be78d12bd2464d9b45d6d247d313a705759af0",
@@ -8887,9 +8887,9 @@
   },
   "azure-power": {
     "revision": "5c55fe0f5dd1a8671831ca021d8040e462c4757d27699628fb5eb5aa50e4a832",
-    "comparisonRevision": "9b2dba8b860d754ce563e2028b9acb2025ec537ab7885e5b9bd36fb8199eff3a",
+    "comparisonRevision": "638a3d39ff03a2f824e8b8eee1b02ec28929229b204558e4fd3fddf1bb06b814",
     "status": "approved",
-    "notes": "Two-prong electrical plug with cord; simple, bold, and crisp at all scales."
+    "notes": "Two-prong electrical plug with cord; simple, bold, and crisp at all scales. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "azure-powershell": {
     "revision": "28eaa62ca0e8323451af8ae5447ded0a541f74d3ddcb811c75d4b4cbd32fc926",
@@ -9283,9 +9283,9 @@
   },
   "azure-kubernetes-hub": {
     "revision": "5dab429bcf1ee3ebd69b6b0125c97f27f27846d31a5e27d89edeeff5b8cce9ab",
-    "comparisonRevision": "1e632bb8e1a28ae810a662ee4a0f0f1e62dac474995836c90eadb36bc5a6738b",
+    "comparisonRevision": "117ab5ce37fcbef3d16b27f732d68369bf64d87f871872b2ed0745565b576a05",
     "status": "approved",
-    "notes": "Rounded hub frame collecting three connected cluster cubes; clean and distinct."
+    "notes": "Rounded hub frame collecting three connected cluster cubes; clean and distinct. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "azure-container-storage": {
     "revision": "e123f68ff8bf84a43cb569f4a6011652d2eb74fb54500756f5110a523c41b392",
@@ -9498,10 +9498,10 @@
     "notes": "Queued job list dispatching via arrow into a batch execution box; matches both aliases."
   },
   "azure-disks": {
-    "revision": "0ac4594c77433f8a0df98f7349e1b43996892254a5d6629117966b0b676a960c",
-    "comparisonRevision": "fbcc81db44ccff3bbc5e4b6abd0789e69086a116ce644ab94bc92a21eba65064",
-    "status": "approved",
-    "notes": "Two stacked 3D disk platters with spindle holes; faithful to both Disks and Disks-(Classic) aliases."
+    "revision": "e9817e966148a742db2fa9b3a1ade3c7de5f5bcf6e73e2d148cc0b237ab4ff3b",
+    "comparisonRevision": "c0451b90bf788af822674ab4d87dc98a2daf674cc5608e551a5e40e5770a2b46",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   },
   "azure-vm-scale-sets": {
     "revision": "b51188f75c8ec85b89503c686faa27d9b288c44f43f0ecc13c642fc243cd68fb",
@@ -12019,9 +12019,9 @@
   },
   "aws-security-incident-response": {
     "revision": "7efd9972bb59954f8538d5124c1b5ab5540bcf25b6ca02a730d467ce41319da7",
-    "comparisonRevision": "12245af11b1a7e2bfd9e2e01563270e4cb7fa851c1524dcb1bab894f087be3e3",
+    "comparisonRevision": "8e45cbddd46393f3ae258ae460831295a930b152df2168d99bde76933ad3acaa",
     "status": "approved",
-    "notes": "Alert triangle linked to response checklist; clear incident workflow metaphor."
+    "notes": "Alert triangle linked to response checklist; clear incident workflow metaphor. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "aws-audit-manager": {
     "revision": "146751373eb853e6147ec64a6a1399248ca553eadf3c1fcf3b3f75a82a6c57c2",
@@ -12619,9 +12619,9 @@
   },
   "fabric-databases": {
     "revision": "c1dcddcbedf807067cd3cb1cab1fbf065959013a883140e8c53f4651cbab7478",
-    "comparisonRevision": "574d79daf4aa29fbdc0ee8a49688575026dad233b5015126564ac94de7a06c98",
+    "comparisonRevision": "a061bfb21692ed6cc7bbb22f502f2b0bd66c045852b1725bbe958b51a073e38c",
     "status": "approved",
-    "notes": "Conceptual three staggered database cylinders cleanly depict Fabric Databases; legible at all sizes."
+    "notes": "Conceptual three staggered database cylinders cleanly depict Fabric Databases; legible at all sizes. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "fabric-platform": {
     "revision": "3dc28acdb3e05017b0e4932b02a01fd87a0bd293ab13133af3bcb94d3bda2b4f",
@@ -12865,9 +12865,9 @@
   },
   "aws-category-blockchain": {
     "revision": "2fa00e51d55d26c0690ff0f0cad9d151899d4d242fa4d72ca44d14c2e1955925",
-    "comparisonRevision": "ac22803fa7e5bae755a2c13339f872f053bb866db38ea650a8e11eb40ecbc961",
+    "comparisonRevision": "4c3705a6a684b68b9d98cbc3ba2d3303dd45841a803b852f0c4b0f3e06a0300f",
     "status": "approved",
-    "notes": "A blockchain chain with linked blocks remains distinct from float and the security-lake composition."
+    "notes": "A blockchain chain with linked blocks remains distinct from float and the security-lake composition. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "aws-ground-station": {
     "revision": "2e7d2646861f337f9c93547f30188125d86c207daa35778da1c0f61322426580",
@@ -13338,16 +13338,16 @@
     "notes": "Two database cylinders exchanging bidirectional arrows; crisp silhouette."
   },
   "fabric-datatype-double": {
-    "revision": "d0403b9691677886a35082a181793cabf5b6fbd2ed8d5340c1169edc9f0f1910",
-    "comparisonRevision": "c3f5c16ee73bba7e2ff72c678e79238b74f3aad3cfefaf49571a58d22fc31ef2",
-    "status": "approved",
-    "notes": "A 1.2D value with a two-column, two-row precision block and double lower rules; visually distinct from float at 128/64/32px."
+    "revision": "0b34f12271c433c6561f442e1c93642cf0cf732e131f8dbbacd43cce2b3af24f",
+    "comparisonRevision": "4cd69b21eaa734c0993ba49072e9e4fb8dce7d314bb1be0ae9ca78331944bb69",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   },
   "fabric-datatype-float": {
     "revision": "a290a8fe6a787e3e333dee1f44daed2a5acc130410449100e3f53f725fa38721",
-    "comparisonRevision": "995add135a281d6396a7d795993a1cd4522e49953e92be07c632931e25817b7c",
+    "comparisonRevision": "e06f2d9b56fc0762d48c023f9346a121755d25926eae88b31c9b0e9b2cd354fa",
     "status": "approved",
-    "notes": "A 1.2F value with a single-column gauge and one compact block; visually distinct from double and the nearby chart/factory neighbors."
+    "notes": "A 1.2F value with a single-column gauge and one compact block; visually distinct from double and the nearby chart/factory neighbors. Re-reviewed at 128, 64 and 32 px with the three recomputed nearest neighbors after the double, MXNet and sample-workload reworks."
   },
   "fabric-column-question": {
     "revision": "99dfdd57b6680d8865d1b70d653c27f0805fa603f3bd5dbf87f8b6d06ad8b887",
@@ -13414,5 +13414,11 @@
     "comparisonRevision": "73658b18b99db8a65e4f4947da7819d1a23d3a9389be1afb4be965defc6f2865",
     "status": "approved",
     "notes": "A circular globe crossed by sweeping bands retains the source wind/wave pictogram and differs from circle-number and trend marks."
+  },
+  "azure-disks-classic": {
+    "revision": "8e07016b9ec0c31e2e2e719107d1a1c070d59f008ac18bf7133ba2f48147ec75",
+    "comparisonRevision": "8ea49f85a038a0d513ccc97e85a583c6faacc7ad2f21c274fbfad83ccd7db82e",
+    "status": "rework",
+    "notes": "Needs independent 128/64/32 and nearest-neighbor re-review before approval; current readability or semantic distinction is not yet established."
   }
 }

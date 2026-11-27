@@ -5,6 +5,11 @@
     "stencils": "node tools/build-stencils.mjs",
     "stencils:check": "node tools/build-stencils.mjs --check",
     "stencils:review": "node tools/build-stencils.mjs --reviews",
+    "stencils:independent-check": "node tools/build-stencils.mjs --check --independent --approved --complete",
+    "stencils:independent-partial-check": "node tools/build-stencils.mjs --independent-partial",
+    "stencils:review-sheet": "node tools/review-stencils.mjs",
+    "stencils:suggest-neighbors": "node tools/suggest-stencil-neighbors.mjs",
+    "stencils:raster-check": "node tools/check-stencil-raster.mjs",
     "stencils:audit": "node tools/audit-aliases.mjs",
     "test": "node --test tools/*.test.mjs"
   },

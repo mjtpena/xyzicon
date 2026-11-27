@@ -1,0 +1,100 @@
+{
+  "scope": "Azure source aliases only for verified synonymous names; all group members visually compared for concept/theme, not artwork review",
+  "method": "Compared every source in each group side by side and checked names and product references; matching product names or terminology across variants. Different classic/VM/load-testing groups remain unresolved.",
+  "sourceRevisionMethod": "SHA-256 of JSON.stringify of SVG source with CRLF normalized to LF, matching build-stencils.mjs",
+  "evidence": [
+    "azure-alias-1.png",
+    "azure-alias-2.png",
+    "azure-alias-3.png",
+    "azure-alias-4.png",
+    "azure-alias-sources.txt"
+  ],
+  "groups": [
+    {
+      "id": "azure-managed-identities",
+      "reference": "https://learn.microsoft.com/en-us/entra/architecture/service-accounts-managed-identities",
+      "sources": [
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10227-icon-service-Entra-Managed-Identities.svg",
+          "revision": "bf1f45e9fb97ebbf064218fd95b5517fbe65cc2e6ada7550d342221c49a957f9"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10227-icon-service-Managed-Identities.svg",
+          "revision": "1abab0dfd2d3a976225c076aeb0c0992537ae5a308ffcd062389065daabee2aa"
+        }
+      ]
+    },
+    {
+      "id": "azure-data-lake-gen1",
+      "reference": "https://learn.microsoft.com/en-us/azure/data-factory/load-azure-data-lake-store",
+      "sources": [
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/analytics/10150-icon-service-Data-Lake-Store-Gen1.svg",
+          "revision": "ea3350fea5e34db27bbc2eb304b9b6bf3cf95dd7607db34f9713c6c8b9937854"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/storage/10090-icon-service-Data-Lake-Storage-Gen1.svg",
+          "revision": "a93a3487fb80297c1c5179b03205effcfbc4665c27e78ee9aa4d72c36928c8e7"
+        }
+      ]
+    },
+    {
+      "id": "azure-private-link-services",
+      "reference": "https://learn.microsoft.com/en-us/azure/private-link/private-link-service-overview",
+      "sources": [
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/analytics/02209-icon-service-Private-Link-Services.svg",
+          "revision": "372dda9848d6600f4c1c253d2998247654aa724fd6535ab91c9cce6bb5c3c28e"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/networking/01105-icon-service-Private-Link-Service.svg",
+          "revision": "b1eb0a0def275ef70b6bc7fdec0bce50daebc91eebf8ceaef6cb866ce3cee211"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/networking/02209-icon-service-Private-Link-Services.svg",
+          "revision": "372dda9848d6600f4c1c253d2998247654aa724fd6535ab91c9cce6bb5c3c28e"
+        }
+      ]
+    },
+    {
+      "id": "azure-entra-connect-health",
+      "reference": "https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect",
+      "sources": [
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10224-icon-service-Active-Directory-Connect-Health.svg",
+          "revision": "106a770af7343a26d847affeead618100495396609bab1cf264053e419bb94e1"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/identity/10224-icon-service-Entra-Connect-Health.svg",
+          "revision": "106a770af7343a26d847affeead618100495396609bab1cf264053e419bb94e1"
+        }
+      ]
+    },
+    {
+      "id": "azure-load-balancer-hub",
+      "sources": [
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/networking/02302-icon-service-Load-Balancer-Hub.svg",
+          "revision": "ab4692a6b475c839dbc86cd68c6285570dafc002d78b6f3aefbf8f24a2314678"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/networking/029029174-icon-service-Load-Balancer-Hub.svg",
+          "revision": "f0d057b3b696d43fb5fbef7d7d72ec57dcffb28bf30eb5fd64716940d4b942b1"
+        }
+      ]
+    },
+    {
+      "id": "azure-service-group-relationships",
+      "sources": [
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/management + governance/030777508-icon-service-Service-Group-Relationships.svg",
+          "revision": "1335d48302cd83800b1be3f71104412af51d6b5f3478f2a7e8db84cb28e184b1"
+        },
+        {
+          "path": "/icons/azure/Azure_Public_Service_Icons/Icons/new icons/030777508 -icon-service-Service-Group-Relationships.svg",
+          "revision": "1335d48302cd83800b1be3f71104412af51d6b5f3478f2a7e8db84cb28e184b1"
+        }
+      ]
+    }
+  ]
+}

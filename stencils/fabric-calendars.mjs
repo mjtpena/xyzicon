@@ -18,7 +18,8 @@ export const fabricCalendarArtwork = [
     variants("calendar_month_lightning", [20]),
     "A lightning bolt marks an urgent calendar event.",
     [
-      line([14, 105], [14, 23], [91, 23], [91, 51]), line([14, 41], [91, 41]),
+      line([14, 105], [14, 23], [91, 23], [91, 51]), line([14, 105], [67, 105]),
+      line([14, 41], [91, 41]),
       line([31, 14], [31, 31]), line([74, 14], [74, 31]),
       line([26, 57], [35, 57]), line([45, 57], [54, 57]), line([26, 76], [35, 76]), line([45, 76], [54, 76]),
       line([91, 51], [68, 80], [84, 80], [76, 110], [110, 72], [93, 72], [101, 51], [91, 51]),
@@ -56,7 +57,8 @@ export const fabricCalendarArtwork = [
     variants("calendar_month_prohibited", [20, 24, 32]),
     "A prohibition mark blocks a calendar date.",
     [
-      line([15, 103], [15, 23], [96, 23], [96, 61]), line([15, 40], [96, 40]),
+      line([15, 103], [15, 23], [96, 23], [96, 61]), line([15, 103], [63, 103]),
+      line([15, 40], [96, 40]),
       line([32, 13], [32, 30]), line([78, 13], [78, 30]),
       line([27, 56], [36, 56]), line([46, 56], [55, 56]), line([27, 75], [36, 75]),
       oval(57, 57, 56, 56), line([66, 104], [104, 66]),
