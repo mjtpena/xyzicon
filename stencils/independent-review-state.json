@@ -1,7 +1,7 @@
 {
   "status": "in-progress",
   "compositionCount": 2237,
-  "compositionsReviewed": 219,
+  "compositionsReviewed": 225,
   "reviews": [
     {
       "id": "m365-cloud",
@@ -15279,6 +15279,376 @@
         }
       ],
       "notes": "A cloud feeds a horizontal bus with two consumer endpoints, distinct from the custom bus and single event record."
+    },
+    {
+      "id": "aws-eventbridge-custom-bus",
+      "status": "approved",
+      "drawingRevision": "4185b90e3e31bde54acc3e7820946c9d0cb419ad3aa55e52a4dbd85512d4a4c8",
+      "comparisonRevision": "e89dc608fa4d823e83246e46fc047ebf0366e92d68a6d9d6b1b9d201e4f4b68a",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Custom-Event-Bus_48.svg",
+          "8498d7e85bd8560fad93955d9a7be0933b40b2535987064d15ef301ef1e4dee4"
+        ]
+      ],
+      "svgRevision": "076f7b3411166bae790b1ddfcfb7ed2e975d33c54020133bebee429a114a3da0",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "azure-reservations",
+          "revision": "ccf718ad349b1e7113d1bf55e34793f82282bc6251f2a75f9f6b7dd83ed213bc",
+          "svgRevision": "7c73bca7537af06448b5fa23df01e5023f1838d1db1e09a5d1821e40b5440791",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Custom Event Bus's a customized event document entering a horizontal bus is visually distinct from Reservations."
+        },
+        {
+          "id": "azure-machine-learning",
+          "revision": "27646a47ee5faeb5ce185c787ef156f1993974f7e6eab405a6e4fc3e213f5c5d",
+          "svgRevision": "d91a02fc549cc4b655d261dec01915d3bac79eaef4e80f7035866786b5ec6eff",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Custom Event Bus's a customized event document entering a horizontal bus is visually distinct from Azure Machine Learning."
+        },
+        {
+          "id": "fabric-app-folder-pulse",
+          "revision": "887e7a5c329e7716a222fcde0f35687868b339afba9eafd1fb56250cf3720ae2",
+          "svgRevision": "5fa002dec7630dafc802d9bc37d436bb6d534c8a22b80e5d423cd5054eea5d58",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Custom Event Bus's a customized event document entering a horizontal bus is visually distinct from Application folder pulse."
+        },
+        {
+          "id": "aws-eventbridge-default-bus",
+          "revision": "a745cebb3cf9c4091e678b640cff3a2c07685e93e0b9f5881b9f4ec9bddb49ef",
+          "svgRevision": "84e8c5f9756c314960176b9f3a80cdce0737742b3df63e534fd925cdda695be7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Custom Event Bus's a customized event document entering a horizontal bus is visually distinct from EventBridge Default Event Bus."
+        },
+        {
+          "id": "aws-eventbridge-event",
+          "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+          "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Custom Event Bus's a customized event document entering a horizontal bus is visually distinct from EventBridge Event."
+        }
+      ],
+      "notes": "A document and pencil customize an event entering a horizontal bus, distinct from the cloud-fed default bus and single event record."
+    },
+    {
+      "id": "aws-eventbridge-schema",
+      "status": "approved",
+      "drawingRevision": "82da59467e1f60280a7f93dd581293e143c6481edef040edc905e0542da151b5",
+      "comparisonRevision": "a74d83afc5174c250a8f6c5b9258d4c9e3ee8960e1cf006180a210af95a4e887",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Schema_48.svg",
+          "26c9bd02bb777487edbc1fa989121ad46747dc2d2d18442a45c9c5752a32e01b"
+        ]
+      ],
+      "svgRevision": "964912ba3fc790526df01c1994662f81428c2531ec24661a4cc43d2d6b2e7f1f",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-systems-documents",
+          "revision": "598f4a3cfbfaf2b7ad3c6ebfcd75ab5d32d0b339707e0d96ef44f6e9b86c22fd",
+          "svgRevision": "88ded51653a35cb71299e784f205dd65cffbaaf2dfa952233369a5b3e2786f3d",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema's a structured schema document with brace marks is visually distinct from Systems Manager Documents."
+        },
+        {
+          "id": "fabric-match-category",
+          "revision": "584c6bab9a230ac9af181c0e5400cab513d0e5db6e7fc2e60eb006aa4571db7c",
+          "svgRevision": "5b02d1672433f3f711f0d0c5d3e4d8b2d29add8378e7ca12bb94f03a780fb083",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema's a structured schema document with brace marks is visually distinct from Match category."
+        },
+        {
+          "id": "azure-traffic-manager-profiles",
+          "revision": "93913abfaf6fccadea1c12ba3491612ede8064b698c17d6d4fbdb65184ceab9b",
+          "svgRevision": "e2cae4fbe3b77837f5551fa15ce0c2461865613ee6039e6abaa2857cc176cfc1",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema's a structured schema document with brace marks is visually distinct from Traffic Manager Profiles."
+        },
+        {
+          "id": "aws-eventbridge-schema-registry",
+          "revision": "2a14f11a249301264013fb5cefe2000d8b9b81160bff8a084ce59b7f258b93b6",
+          "svgRevision": "6ce29e8e5249a5c2e42db733eef659b03485342fe3ea16fb3256fd92e7388e45",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema's a structured schema document with brace marks is visually distinct from EventBridge Schema Registry."
+        },
+        {
+          "id": "aws-eventbridge-rule",
+          "revision": "1061c7a5ab1d7a62f1f08abcdadaa5d6023e4ef4d49455afd6c164a14582f096",
+          "svgRevision": "0a63bbc183d00bc5d7424d3fa1c1ad1286ba518efae36b1d799761dda52ee5c7",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge Schema's a structured schema document with brace marks is visually distinct from EventBridge Rule."
+        }
+      ],
+      "notes": "A structured document with brace-like schema marks differs from the registry cabinet of multiple schemas and an event-rule decision."
+    },
+    {
+      "id": "aws-eventbridge-partner-event",
+      "status": "approved",
+      "drawingRevision": "a51ce1c64b564090e964d8f111ddf4c07b22da28f61ae63060127ecbb02aeef0",
+      "comparisonRevision": "a1f3322f69f387e16c1bca516190e0fb076f9113eb38adfe49c83ac4b9a1a6fb",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Application-Integration/Res_Amazon-EventBridge_Saas-Partner-Event_48.svg",
+          "6984261b8ac11f8dc50377652cfe1ff24d7290576ab9933833c8b071679d1891"
+        ]
+      ],
+      "svgRevision": "5091f4db926571d9df0bb470fee5d3bd91f58379234ce2158e0089fd22b12443",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-category-app-integration",
+          "revision": "e6cb92d5e0be3d7afbf2477856b8b89967829c018c1956213580cc40b66b9d39",
+          "svgRevision": "18dc2d3dffdce389642b96e9f3d5c95edd03911fd254ad99d8b1119c30e6463b",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge SaaS Partner Event's an event document reaching an external globe endpoint is visually distinct from Application integration category."
+        },
+        {
+          "id": "aws-codeartifact",
+          "revision": "8886be70301af226ee11d0cbd9c7f1fae6730574cd258dcc40987c1a174e9989",
+          "svgRevision": "35ab1fe993b1b2bfc5799487750546cad68a0b7f3dbd8a60159a493f35ff2504",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge SaaS Partner Event's an event document reaching an external globe endpoint is visually distinct from AWS CodeArtifact."
+        },
+        {
+          "id": "aws-glue-quality",
+          "revision": "245c2cd0d8fe638543e5a96d21df41d61273def80101000aa1ced5e78fe2b4c4",
+          "svgRevision": "21a0b6f76e96b6fb701519d1cba899eb157a2f0a86752e36b3bf712fd77cb192",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge SaaS Partner Event's an event document reaching an external globe endpoint is visually distinct from AWS Glue Data Quality."
+        },
+        {
+          "id": "aws-eventbridge-custom-bus",
+          "revision": "4185b90e3e31bde54acc3e7820946c9d0cb419ad3aa55e52a4dbd85512d4a4c8",
+          "svgRevision": "076f7b3411166bae790b1ddfcfb7ed2e975d33c54020133bebee429a114a3da0",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge SaaS Partner Event's an event document reaching an external globe endpoint is visually distinct from EventBridge Custom Event Bus."
+        },
+        {
+          "id": "aws-eventbridge-event",
+          "revision": "be0c7f8dad1f6945f5e0f2d0b407d3ea916b9bfa64b1c9021fd20c24e0377961",
+          "svgRevision": "7d469ecac41f7a14b1c01eb1f78f12e492afdcdd0f2fecb84295f15ebc31e3fb",
+          "status": "approved",
+          "reason": "At 64px and 32px, EventBridge SaaS Partner Event's an event document reaching an external globe endpoint is visually distinct from EventBridge Event."
+        }
+      ],
+      "notes": "An event document reaches an external globe endpoint, clearly denoting a partner event rather than a custom bus or standard event record."
+    },
+    {
+      "id": "aws-athena-connectors",
+      "status": "approved",
+      "drawingRevision": "197823cbc4a9ec0594531bdbb20e4a1dcd96f067515b6a76ff673ad67ac1724b",
+      "comparisonRevision": "ae18d8af74b1b4eb49b19e7adf8c7117526bc0b3b4e234bf8ac1e024b4fdf964",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-Athena_Data-Source-Connectors_48.svg",
+          "acc3186d177eff709d466ff0a42589c49d1266e1142853c7ce7ca84766282e2b"
+        ]
+      ],
+      "svgRevision": "104ff20469c91681e586c909b89409f7a1a174097f862e2148200149c761195d",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "gcp-workload-identity-pool",
+          "revision": "235ed5498036c7c2e80df42437ae6f36a18e199a36dbef50cbd4ebe4eaded939",
+          "svgRevision": "0fd82357712249a0d5b54498248b180461cca8028905722c02050eb4d8917c86",
+          "status": "approved",
+          "reason": "At 64px and 32px, Athena Data Source Connectors's a data source plugged into a query sheet is visually distinct from Workload Identity Pool."
+        },
+        {
+          "id": "aws-opensearch-admin-node",
+          "revision": "115efd8dab5ded40a3c4e068bb81c36d53f89aa384a7f636587b4ddbf2624d70",
+          "svgRevision": "96e41d35fd7b78d1628b9431cc5c2d890e640e833dff07398fe5651feef21d1a",
+          "status": "approved",
+          "reason": "At 64px and 32px, Athena Data Source Connectors's a data source plugged into a query sheet is visually distinct from OpenSearch Cluster Administrator Node."
+        },
+        {
+          "id": "aws-iot-rule",
+          "revision": "84859509b429ff1f72b3bc07a4c33f9c58cb41edd3af6105b3c2913099b59347",
+          "svgRevision": "a3194cc779d1555ed650ebf088ae0aac28b6918667219320e1619df7be690529",
+          "status": "approved",
+          "reason": "At 64px and 32px, Athena Data Source Connectors's a data source plugged into a query sheet is visually distinct from IoT Rule."
+        },
+        {
+          "id": "aws-athena",
+          "revision": "88d6c8281a90438cd30246516645c87adf9388cd6cd257fdec1fbc0cd81557cc",
+          "svgRevision": "0d019981e4d4ae39aa17cbe98e4e9f28079546791dc403ea42a61c0ed8dbb495",
+          "status": "approved",
+          "reason": "At 64px and 32px, Athena Data Source Connectors's a data source plugged into a query sheet is visually distinct from Amazon Athena."
+        },
+        {
+          "id": "aws-glue",
+          "revision": "b23b68d9f40645bae3f47ca214b44c63fb6eee292320176ec3cad491be6b7072",
+          "svgRevision": "25a17acc7b744d4119db4df09f6000828177945f7394746d8af129d8e7deed16",
+          "status": "approved",
+          "reason": "At 64px and 32px, Athena Data Source Connectors's a data source plugged into a query sheet is visually distinct from AWS Glue."
+        }
+      ],
+      "notes": "A data source plugs into a query sheet, distinct from Athena’s bucket-fed query lens and Glue’s transform workflow."
+    },
+    {
+      "id": "aws-kinesis-video",
+      "status": "approved",
+      "drawingRevision": "130ca60cb622d00f21b38eb177aa9ed5cd570f5b883a0a59246c63047bf0a9de",
+      "comparisonRevision": "42296f824f8789a746087fe060d0a4d132ae80b284b75a337c38a39a481d6862",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/16/Arch_Amazon-Kinesis-Video-Streams_16.svg",
+          "b0b9e12407ee461fb552564632e6a46b26c229eb9138ae37824e44c840a989cb"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/32/Arch_Amazon-Kinesis-Video-Streams_32.svg",
+          "7fc6cd8fb08a25e33288a773a9e5a90a5d3947cc62a93a813eb773da09fc4e76"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/48/Arch_Amazon-Kinesis-Video-Streams_48.svg",
+          "82bb6dfcc63dd33e9511eabff48ecfc8c9dce45e7bebbda4cdacd0f7696e0af7"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Analytics/64/Arch_Amazon-Kinesis-Video-Streams_64.svg",
+          "ee28fc8379c04994478c301f83836f224b608d11825bf93562d288efb629c2fd"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Media-Services/16/Arch_Amazon-Kinesis-Video-Streams_16.svg",
+          "4f76e99bf1a732e60c26a3da4c56b2adf7b5af2815a5a717f30a5a6a4365492a"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Media-Services/32/Arch_Amazon-Kinesis-Video-Streams_32.svg",
+          "6c06428ac4b9a31758666422a7510f5b015a52a51b47d7e83ec522615e83a479"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Media-Services/48/Arch_Amazon-Kinesis-Video-Streams_48.svg",
+          "f76ea93083830b966a50204c611390e741f68ae82139f6c9168a1bd2405713ce"
+        ],
+        [
+          "/icons/aws/Architecture-Service-Icons_07312026/Arch_Media-Services/64/Arch_Amazon-Kinesis-Video-Streams_64.svg",
+          "ba6e5197a7ec1f0f61ffe70783163b85a439ed531e2931bdda792e783497dd43"
+        ]
+      ],
+      "svgRevision": "f631a2768d7c2c085a1f22fe0f69876423945b0d583f398ff1693f2e0de84d46",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-b2b-interchange",
+          "revision": "7e3373c6e3f559114ddba7129cb8fa40eea8ac0a6f22ef08e3bd1b2bb73f85d0",
+          "svgRevision": "682553b2e47c066e981c8aba94807574d1c6d4a33e2995d0ebfc497bd58faa83",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Kinesis Video Streams's three video frames moving along a streaming path is visually distinct from AWS B2B Data Interchange."
+        },
+        {
+          "id": "aws-iot-actuator",
+          "revision": "206d2a387cfd84349e01b5f32021f9b0fcf3716ea60c358274b181a6ede3e3e7",
+          "svgRevision": "fc354bc1f62530850ebea8fa1327ff1865ee55fe25237b21432ff811bef771ae",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Kinesis Video Streams's three video frames moving along a streaming path is visually distinct from IoT Actuator."
+        },
+        {
+          "id": "aws-payment-cryptography",
+          "revision": "4ccecb3995dc27c916017b6adc41e7b509a8832c4c287c2d84f1c10f60e25e65",
+          "svgRevision": "40470e48ba22332034bc835b3151ee222a6441b78b0850073c41e39bbc87189a",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Kinesis Video Streams's three video frames moving along a streaming path is visually distinct from AWS Payment Cryptography."
+        },
+        {
+          "id": "aws-kinesis-streams",
+          "revision": "c8cd13dc77297709512ad509f60b9c51639221176648d8598a52063923cec796",
+          "svgRevision": "24384a833f99e278564a64140fcd97f0d736bddf6402f986ed57e0798e214c83",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Kinesis Video Streams's three video frames moving along a streaming path is visually distinct from Amazon Kinesis Data Streams."
+        },
+        {
+          "id": "aws-kinesis",
+          "revision": "2a3f7d28ca97409373d9048c1d1b4c9deaae25032a82abd83bfbacfcb9b48a08",
+          "svgRevision": "8e5167c7bdd5843652788fe65e9fec90a8972d09aa97c765260b275233090a30",
+          "status": "approved",
+          "reason": "At 64px and 32px, Amazon Kinesis Video Streams's three video frames moving along a streaming path is visually distinct from Amazon Kinesis."
+        }
+      ],
+      "notes": "Three video frames travel along a streaming path, distinct from general Kinesis processing and its data-stream processor."
+    },
+    {
+      "id": "aws-opensearch-index",
+      "status": "approved",
+      "drawingRevision": "a748156407ac16c0f351ae5eb7977f54bccf2abeabd1c3d2612a444e9ec61520",
+      "comparisonRevision": "7dc0d87e850c774c32c6e871a904ccc9b6790d30ed5d8cf784bcfdc4b32127ae",
+      "sourceRevisions": [
+        [
+          "/icons/aws/Resource-Icons_07312026/Res_Analytics/Res_Amazon-OpenSearch-Service_Index_48.svg",
+          "8c276a0dbf4af251404f314bec27f4c329e9c89ad3d0d74fe07f59453953e6e9"
+        ]
+      ],
+      "svgRevision": "d5a4214daba8ff388692f3a318bb5cb17aa15fe25848a6b0d7174a65814e966c",
+      "reviewedSizes": [
+        128,
+        64,
+        32
+      ],
+      "semanticNeighborCoverage": "automated-and-manual",
+      "neighborDecisions": [
+        {
+          "id": "aws-general-programming-language",
+          "revision": "31642e36172e426eff0ca87a6bf170594e122cd40c9876d9970562fb1ee13e83",
+          "svgRevision": "1120bb6e1c9917e0103ea9d13e62624963c5ed2b762660c738a236c7035c4f32",
+          "status": "approved",
+          "reason": "At 64px and 32px, OpenSearch Index's a bound index with stacked rows is visually distinct from Programming Language."
+        },
+        {
+          "id": "azure-application-insights",
+          "revision": "bacae051a0a7c17814ff4c9c88806a85f4212fbc337f5823bba3dd73e054d1a2",
+          "svgRevision": "bd9880f6b2a1b76b297f61d6519e60be72ef4a8a4ed9ac33cc74272f96f16d1c",
+          "status": "approved",
+          "reason": "At 64px and 32px, OpenSearch Index's a bound index with stacked rows is visually distinct from Azure Application Insights."
+        },
+        {
+          "id": "aws-general-management-console",
+          "revision": "90fe09f48a2e2f3ee786d2f3af8cb1156c20df9322eb2dd39674f20b412efda8",
+          "svgRevision": "bc49ca4a1666600a21c208e78001447bc746176a5c6be5d88d03d9b0052cf115",
+          "status": "approved",
+          "reason": "At 64px and 32px, OpenSearch Index's a bound index with stacked rows is visually distinct from AWS Management Console."
+        },
+        {
+          "id": "aws-opensearch",
+          "revision": "6fb3a1a98ff7cda29b5ee8e98815ab2103f7f1bc7832618bbf7142239ebb29b8",
+          "svgRevision": "5d04984695be52eaf246ecd0534fadcad7167c213ce34a919b9e0407d4f01563",
+          "status": "approved",
+          "reason": "At 64px and 32px, OpenSearch Index's a bound index with stacked rows is visually distinct from Amazon OpenSearch Service."
+        },
+        {
+          "id": "aws-opensearch-dashboards",
+          "revision": "ad0c6361496042fd71be2c2029f1cc00e0ae4328830496597ddce7b33f7c8524",
+          "svgRevision": "c694cfa01e310729e619c2f2bba8531e0a6d7cafb57ae8d8ef269aa01ccb0eb4",
+          "status": "approved",
+          "reason": "At 64px and 32px, OpenSearch Index's a bound index with stacked rows is visually distinct from OpenSearch Dashboards."
+        }
+      ],
+      "notes": "A bound index with stacked rows is distinct from the OpenSearch search lens and multi-panel dashboards."
     }
   ]
 }
